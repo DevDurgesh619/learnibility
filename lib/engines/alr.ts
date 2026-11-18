@@ -4,6 +4,7 @@
  * difficulty proxy weights rows 26-30, band cut-offs rows 34-37) and "ALR Tracker" (formulas N4-U4).
  *
  *   dK  = max(0, (post − pre) ÷ (100 − pre))                 weighted % uses D1..D5 = 0.8..1.6
+ *         (pre-test at 100%: dK = post ÷ 100, since there is no headroom left to gain)
  *   R   = min(1, retention 7-day % ÷ retention post-test %)
  *   TQ  = transfer-probe % ÷ practised-item %
  *   CE  = dK ÷ (minutes taken ÷ minutes allotted) × (1 − hint/re-attempt rate)
@@ -56,16 +57,22 @@ export interface AlrResult {
 const has = (...xs: (number | undefined)[]) => xs.every((x) => x !== undefined && x !== null && !Number.isNaN(x));
 
 export function bandFromLrs(lrs: number): Band {
+  if (!Number.isFinite(lrs)) return 'below_avg';
   return LRS_BAND_CUTOFFS.find((c) => lrs >= c.min)!.band;
 }
 
 export function computeAlr(input: AlrChapterInputs, weights: AlrWeightSet | Record<AlrIndex, number> = 'deep_mastery'): AlrResult {
   const w = typeof weights === 'string' ? ALR_WEIGHTS[weights] : weights;
   const i = input;
-  const dK = has(i.preWeightedPct, i.postWeightedPct) ? round(Math.max(0, (i.postWeightedPct! - i.preWeightedPct!) / (100 - i.preWeightedPct!)), 2) : null;
+  // No headroom (pre-test at 100%): nothing left to gain, so dK is the share of the ceiling kept on the post-test.
+  const dK = has(i.preWeightedPct, i.postWeightedPct)
+    ? i.preWeightedPct! >= 100
+      ? round(Math.min(1, Math.max(0, i.postWeightedPct! / 100)), 2)
+      : round(Math.max(0, (i.postWeightedPct! - i.preWeightedPct!) / (100 - i.preWeightedPct!)), 2)
+    : null;
   const R = has(i.retentionPostPct, i.retention7dPct) && i.retentionPostPct! > 0 ? round(Math.min(1, i.retention7dPct! / i.retentionPostPct!), 2) : null;
   const TQ = has(i.practisedPct, i.transferPct) && i.practisedPct! > 0 ? round(i.transferPct! / i.practisedPct!, 2) : null;
-  const CE = dK !== null && has(i.minutesTaken, i.minutesAllotted) && i.minutesTaken! > 0 ? round((dK / (i.minutesTaken! / i.minutesAllotted!)) * (1 - (i.hintRate ?? 0)), 2) : null;
+  const CE = dK !== null && has(i.minutesTaken, i.minutesAllotted) && i.minutesTaken! > 0 && i.minutesAllotted! > 0 ? round((dK / (i.minutesTaken! / i.minutesAllotted!)) * (1 - (i.hintRate ?? 0)), 2) : null;
   const ECV = has(i.meanAttemptsToMastery) && i.meanAttemptsToMastery! > 0 ? round(1 / i.meanAttemptsToMastery!, 2) : null;
   const MCI = has(i.meanConfidenceError) ? round(1 - i.meanConfidenceError!, 2) : null;
   const indices: AlrIndices = { dK, R, TQ, CE, ECV, MCI };

@@ -31,6 +31,19 @@ describe('band cut-offs', () => {
   });
 });
 
+describe('edge cases', () => {
+  it('pre-test at 100% gives a finite dK and a band (no division by zero)', () => {
+    const full = computeAlr({ chapterId: 'c', preWeightedPct: 100, postWeightedPct: 100, practisedPct: 100, transferPct: 90 });
+    expect(full.indices.dK).toBe(1);
+    expect(full.band).not.toBeNull();
+    expect(computeAlr({ chapterId: 'c', preWeightedPct: 100, postWeightedPct: 80 }).indices.dK).toBe(0.8);
+    expect(computeAlr({ chapterId: 'c', preWeightedPct: 100, postWeightedPct: 80, minutesTaken: 10, minutesAllotted: 0 }).indices.CE).toBeNull();
+  });
+  it('bandFromLrs never throws', () => {
+    expect(bandFromLrs(NaN)).toBe('below_avg');
+  });
+});
+
 describe('missing data', () => {
   it('rescales weights over present indices', () => {
     const r = computeAlr({ chapterId: 'c', preWeightedPct: 40, postWeightedPct: 85 });
