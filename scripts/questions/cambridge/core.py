@@ -484,7 +484,9 @@ class Generator:
                     continue
                 if strict and q.get('marks') and q['marks'] != CTX['want_marks'] and attempt < lim // 2:
                     continue
-                n = norm(q['stem'])
+                opts = q.get('options')
+                dt = q['stem'] + (' ' + ' '.join(sorted(map(str, opts))) if isinstance(opts, list) and not q['stem'].startswith('Assertion (A)') else '')
+                n = norm(dt)   # same text the validator compares (stem + sorted MCQ options)
                 if n in self.seen:
                     continue
                 sh = shingles(n)
