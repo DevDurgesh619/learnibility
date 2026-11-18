@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "generatedBy": "scripts/foundations/import-430.py",
+  "items": [
+    {
+      "tier": "T1",
+      "label": "T1 Standard",
+      "count": 300,
+      "definition": "Low-sensitivity academic, behavioural, communication and portfolio data. Standard product access rules; external sharing only with purpose-specific consent.",
+      "modelUseRule": "May inform profile and decisions when evidence quality is adequate."
+    },
+    {
+      "tier": "T2",
+      "label": "T2 Elevated",
+      "count": 94,
+      "definition": "Family, financial, psychological and identity-adjacent context. Role-restricted; not shown to the other party verbatim; not exported by default.",
+      "modelUseRule": "Use only for the purpose it was collected for; avoid proxy discrimination and do not turn context into a global ability penalty."
+    },
+    {
+      "tier": "T3",
+      "label": "T3 Sensitive Health",
+      "count": 33,
+      "definition": "Sleep, nutrition, stress, neurodiversity and clinical documents. Separate encrypted store, purpose-limited to support and accommodations.",
+      "modelUseRule": "Excluded from ranking, admissions fit, career fit and work allocation; support adaptation only."
+    },
+    {
+      "tier": "C",
+      "label": "C Consent Artefact",
+      "count": 3,
+      "definition": "Versioned, granular consent/assent records, revocable and re-collected when required.",
+      "modelUseRule": "Govern processing; never treated as a learner characteristic."
+    }
+  ]
+}

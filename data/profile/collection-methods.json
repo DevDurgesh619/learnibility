@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "generatedBy": "scripts/foundations/import-430.py",
+  "items": [
+    {
+      "code": "M1",
+      "name": "Student self-report form / in-app intake",
+      "intrusiveness": "Low",
+      "tierGroup": "TIER A — DECLARED (lowest friction, start here)",
+      "guidance": "Fastest to deploy. Age-appropriate wording. Self-report is honest about preference, weak on ability — never use M1 alone for a skill score."
+    },
+    {
+      "code": "M2",
+      "name": "Parent / guardian form",
+      "intrusiveness": "Low",
+      "tierGroup": "TIER A — DECLARED (lowest friction, start here)",
+      "guidance": "Mandatory source for anything financial, medical or family-context. The parent is also the consent-giver under DPDP s.9(1)."
+    },
+    {
+      "code": "M3",
+      "name": "Counsellor-led structured interview (WGC)",
+      "intrusiveness": "Low",
+      "tierGroup": "TIER A — DECLARED (lowest friction, start here)",
+      "guidance": "Highest-quality qualitative source. Expensive per student — reserve it for depth, ambiguity, and resolving conflicts between M1 and M2."
+    },
+    {
+      "code": "M4",
+      "name": "Teacher / school questionnaire",
+      "intrusiveness": "Low",
+      "tierGroup": "TIER A — DECLARED (lowest friction, start here)",
+      "guidance": "Requires a school partnership and school-side consent. Strong for classroom behaviour the platform cannot see."
+    },
+    {
+      "code": "M5",
+      "name": "Document upload by student / parent",
+      "intrusiveness": "Low",
+      "tierGroup": "TIER B — DOCUMENTARY EVIDENCE (verifiable)",
+      "guidance": "Report cards, marksheets, certificates, score reports. Verifiable and defensible; the backbone of the academic record."
+    },
+    {
+      "code": "M6",
+      "name": "Official school record (transcript, attendance register)",
+      "intrusiveness": "Low",
+      "tierGroup": "TIER B — DOCUMENTARY EVIDENCE (verifiable)",
+      "guidance": "Via school MoU. Higher trust than M5 because it is issuer-supplied, not family-supplied."
+    },
+    {
+      "code": "M7",
+      "name": "Third-party / issuer verification",
+      "intrusiveness": "Low",
+      "tierGroup": "TIER B — DOCUMENTARY EVIDENCE (verifiable)",
+      "guidance": "Board portals, olympiad bodies, ETS / British Council, internship employers. Use for anything that will be shown to a university."
+    },
+    {
+      "code": "M8",
+      "name": "Portfolio artefact upload",
+      "intrusiveness": "Low",
+      "tierGroup": "TIER B — DOCUMENTARY EVIDENCE (verifiable)",
+      "guidance": "Projects, essays, code repositories, video, design work. The artefact itself is the evidence."
+    },
+    {
+      "code": "M9",
+      "name": "Diagnostic / adaptive assessment on platform",
+      "intrusiveness": "Low",
+      "tierGroup": "TIER C — ASSESSMENT & PSYCHOMETRICS (derived scores)",
+      "guidance": "The correct instrument for any 0-100 ability score. Must be blueprinted and item-analysed, not improvised."
+    },
+    {
+      "code": "M10",
+      "name": "Validated psychometric inventory (licensed, age-normed)",
+      "intrusiveness": "Medium",
+      "tierGroup": "TIER C — ASSESSMENT & PSYCHOMETRICS (derived scores)",
+      "guidance": "Use published, adolescent-normed instruments under licence. Do NOT invent personality or anxiety scales in-house."
+    },
+    {
+      "code": "M11",
+      "name": "Rubric-scored work sample (human rater)",
+      "intrusiveness": "Low",
+      "tierGroup": "TIER C — ASSESSMENT & PSYCHOMETRICS (derived scores)",
+      "guidance": "Double-rate with an inter-rater reliability check. The defensible way to score writing, research depth and project quality."
+    },
+    {
+      "code": "M12",
+      "name": "Structured viva / mock interview (rubric-scored)",
+      "intrusiveness": "Low",
+      "tierGroup": "TIER C — ASSESSMENT & PSYCHOMETRICS (derived scores)",
+      "guidance": "Best source for speaking, interview and presentation ability."
+    },
+    {
+      "code": "M13",
+      "name": "In-app learning telemetry (disclosed)",
+      "intrusiveness": "Medium",
+      "tierGroup": "TIER D — IN-APP TELEMETRY (disclosed, product-scoped)  [labels reconstructed]",
+      "guidance": "Focus-session duration, interruption events, tab-blur inside the Learnibility app only, session and revision patterns. Disclosed in-product; never device-wide."
+    },
+    {
+      "code": "M14",
+      "name": "Assessment item-response logs",
+      "intrusiveness": "Medium",
+      "tierGroup": "TIER D — IN-APP TELEMETRY (disclosed, product-scoped)  [labels reconstructed]",
+      "guidance": "Item-level timing and error patterns from platform assessments; powers error-type and calibration analytics."
+    },
+    {
+      "code": "M15",
+      "name": "Planner / goal-tracker events",
+      "intrusiveness": "Medium",
+      "tierGroup": "TIER D — IN-APP TELEMETRY (disclosed, product-scoped)  [labels reconstructed]",
+      "guidance": "Tasks set, completed and missed inside the product; the behavioural record behind consistency metrics."
+    },
+    {
+      "code": "M16",
+      "name": "Derived composite platform score",
+      "intrusiveness": "Medium",
+      "tierGroup": "TIER D — IN-APP TELEMETRY (disclosed, product-scoped)  [labels reconstructed]",
+      "guidance": "Computed from other collected inputs. Document the formula and show the student and parent which inputs drove the output."
+    },
+    {
+      "code": "M17",
+      "name": "Counsellor observation log (structured)",
+      "intrusiveness": "Medium",
+      "tierGroup": "TIER E — HUMAN OBSERVATION (structured)  [labels reconstructed]",
+      "guidance": "Longitudinal counsellor notes against a fixed observation frame; role-restricted."
+    },
+    {
+      "code": "M18",
+      "name": "Teacher / mentor rubric rating",
+      "intrusiveness": "Medium",
+      "tierGroup": "TIER E — HUMAN OBSERVATION (structured)  [labels reconstructed]",
+      "guidance": "Periodic structured ratings from school or activity mentors under partnership consent."
+    },
+    {
+      "code": "M19",
+      "name": "Wearable sleep / steps data (opt-in)",
+      "intrusiveness": "High",
+      "tierGroup": "TIER F — VOLUNTARY HEALTH DATA (opt-in only)",
+      "guidance": "Opt-in only, and never a scoring input. Sleep and movement context for coaching conversations, not for ranking."
+    },
+    {
+      "code": "M20",
+      "name": "Clinical documentation (voluntary)",
+      "intrusiveness": "High",
+      "tierGroup": "TIER F — VOLUNTARY HEALTH DATA (opt-in only)",
+      "guidance": "Accommodations only. Separate encrypted store, excluded from every ranking, retained only while the accommodation is active."
+    }
+  ]
+}
