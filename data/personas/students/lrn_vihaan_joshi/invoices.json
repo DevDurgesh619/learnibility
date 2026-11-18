@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/personas/simulate.ts",
+ "items": [
+  {
+   "id": "inv_vihaan_joshi_meenakshi_rao_202609",
+   "learnerId": "lrn_vihaan_joshi",
+   "payerId": "par_sanjay_joshi",
+   "issuedUtc": "2026-09-28T03:30:00.000Z",
+   "dueDate": "2026-10-05",
+   "status": "paid",
+   "paidUtc": "2026-09-30T14:30:00.000Z",
+   "lines": [
+    {
+     "title": "Meenakshi Rao: 3 × 60 min Chemistry (2026-09)",
+     "amountInr": 2700,
+     "bookingId": "bkg_vihaan_joshi_meenakshi_rao"
+    }
+   ],
+   "amountInr": 2700
+  },
+  {
+   "id": "inv_vihaan_joshi_meenakshi_rao_202610",
+   "learnerId": "lrn_vihaan_joshi",
+   "payerId": "par_sanjay_joshi",
+   "issuedUtc": "2026-10-28T03:30:00.000Z",
+   "dueDate": "2026-11-04",
+   "status": "paid",
+   "paidUtc": "2026-10-30T14:30:00.000Z",
+   "lines": [
+    {
+     "title": "Meenakshi Rao: 9 × 60 min Chemistry (2026-10)",
+     "amountInr": 8100,
+     "bookingId": "bkg_vihaan_joshi_meenakshi_rao"
+    }
+   ],
+   "amountInr": 8100
+  },
+  {
+   "id": "inv_vihaan_joshi_meenakshi_rao_202611",
+   "learnerId": "lrn_vihaan_joshi",
+   "payerId": "par_sanjay_joshi",
+   "issuedUtc": "2026-11-28T03:30:00.000Z",
+   "dueDate": "2026-12-05",
+   "status": "due",
+   "lines": [
+    {
+     "title": "Meenakshi Rao: 5 × 60 min Chemistry (2026-11)",
+     "amountInr": 4500,
+     "bookingId": "bkg_vihaan_joshi_meenakshi_rao"
+    }
+   ],
+   "amountInr": 4500
+  }
+ ]
+}

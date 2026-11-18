@@ -1,0 +1,55 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/personas/simulate.ts",
+ "items": [
+  {
+   "id": "inv_rohan_das_rahul_202610",
+   "learnerId": "lrn_rohan_das",
+   "payerId": "par_anita_das",
+   "issuedUtc": "2026-10-31T03:30:00.000Z",
+   "dueDate": "2026-11-07",
+   "status": "paid",
+   "paidUtc": "2026-11-02T14:00:00.000Z",
+   "lines": [
+    {
+     "title": "Rahul Verma: 4 × 60 min Maths (2026-10)",
+     "amountInr": 3200,
+     "bookingId": "bkg_w2t_rohan"
+    }
+   ],
+   "amountInr": 3200
+  },
+  {
+   "id": "inv_rohan_das_rahul_202611",
+   "learnerId": "lrn_rohan_das",
+   "payerId": "par_anita_das",
+   "issuedUtc": "2026-11-15T03:30:00.000Z",
+   "dueDate": "2026-11-22",
+   "status": "due",
+   "lines": [
+    {
+     "title": "Rahul Verma: 4 × 60 min Maths (2026-11)",
+     "amountInr": 3200,
+     "bookingId": "bkg_w2t_rohan"
+    }
+   ],
+   "amountInr": 3200
+  },
+  {
+   "id": "inv_rohan_das_mock",
+   "learnerId": "lrn_rohan_das",
+   "payerId": "par_anita_das",
+   "issuedUtc": "2026-11-12T03:30:00.000Z",
+   "dueDate": "2026-11-19",
+   "status": "paid",
+   "paidUtc": "2026-11-12T14:30:00.000Z",
+   "lines": [
+    {
+     "title": "Mock test series, Class 10 Maths",
+     "amountInr": 600
+    }
+   ],
+   "amountInr": 600
+  }
+ ]
+}

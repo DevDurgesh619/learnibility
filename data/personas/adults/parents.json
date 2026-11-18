@@ -1,0 +1,203 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/personas/simulate.ts",
+ "items": [
+  {
+   "id": "par_neha_kapoor",
+   "role": "parent",
+   "firstName": "Neha",
+   "lastName": "Kapoor",
+   "name": "Neha Kapoor",
+   "city": "Gurugram",
+   "learnerIds": [
+    "lrn_aarav_kapoor",
+    "lrn_ananya_kapoor"
+   ],
+   "relation": {
+    "lrn_aarav_kapoor": "mother",
+    "lrn_ananya_kapoor": "mother"
+   },
+   "email": "neha.kapoor@example.in"
+  },
+  {
+   "id": "par_sunita_rao",
+   "role": "parent",
+   "firstName": "Sunita",
+   "lastName": "Rao",
+   "name": "Sunita Rao",
+   "city": "Bengaluru",
+   "learnerIds": [
+    "lrn_ishita_rao"
+   ],
+   "relation": {
+    "lrn_ishita_rao": "mother"
+   },
+   "email": "sunita.rao@example.in"
+  },
+  {
+   "id": "par_harpreet_singh",
+   "role": "parent",
+   "firstName": "Harpreet",
+   "lastName": "Singh",
+   "name": "Harpreet Singh",
+   "city": "New Delhi",
+   "learnerIds": [
+    "lrn_kabir_singh"
+   ],
+   "relation": {
+    "lrn_kabir_singh": "father"
+   },
+   "email": "harpreet.singh@example.in"
+  },
+  {
+   "id": "par_radhika_iyer",
+   "role": "parent",
+   "firstName": "Radhika",
+   "lastName": "Iyer",
+   "name": "Radhika Iyer",
+   "city": "Chennai",
+   "learnerIds": [
+    "lrn_meera_iyer"
+   ],
+   "relation": {
+    "lrn_meera_iyer": "mother"
+   },
+   "email": "radhika.iyer@example.in"
+  },
+  {
+   "id": "par_anita_das",
+   "role": "parent",
+   "firstName": "Anita",
+   "lastName": "Das",
+   "name": "Anita Das",
+   "city": "Kolkata",
+   "learnerIds": [
+    "lrn_rohan_das"
+   ],
+   "relation": {
+    "lrn_rohan_das": "mother"
+   },
+   "email": "anita.das@example.in"
+  },
+  {
+   "id": "par_sanjay_joshi",
+   "role": "parent",
+   "firstName": "Sanjay",
+   "lastName": "Joshi",
+   "name": "Sanjay Joshi",
+   "city": "Pune",
+   "learnerIds": [
+    "lrn_vihaan_joshi"
+   ],
+   "relation": {
+    "lrn_vihaan_joshi": "father"
+   },
+   "email": "sanjay.joshi@example.in"
+  },
+  {
+   "id": "par_farida_khan",
+   "role": "parent",
+   "firstName": "Farida",
+   "lastName": "Khan",
+   "name": "Farida Khan",
+   "city": "Mumbai",
+   "learnerIds": [
+    "lrn_sara_khan"
+   ],
+   "relation": {
+    "lrn_sara_khan": "mother"
+   },
+   "email": "farida.khan@example.in"
+  },
+  {
+   "id": "par_rajesh_nair",
+   "role": "parent",
+   "firstName": "Rajesh",
+   "lastName": "Nair",
+   "name": "Rajesh Nair",
+   "city": "Kochi",
+   "learnerIds": [
+    "lrn_arjun_nair"
+   ],
+   "relation": {
+    "lrn_arjun_nair": "father"
+   },
+   "email": "rajesh.nair@example.in"
+  },
+  {
+   "id": "par_kavita_sharma",
+   "role": "parent",
+   "firstName": "Kavita",
+   "lastName": "Sharma",
+   "name": "Kavita Sharma",
+   "city": "Jaipur",
+   "learnerIds": [
+    "lrn_diya_sharma"
+   ],
+   "relation": {
+    "lrn_diya_sharma": "mother"
+   },
+   "email": "kavita.sharma@example.in"
+  },
+  {
+   "id": "par_lakshmi_reddy",
+   "role": "parent",
+   "firstName": "Lakshmi",
+   "lastName": "Reddy",
+   "name": "Lakshmi Reddy",
+   "city": "Hyderabad",
+   "learnerIds": [
+    "lrn_nikhil_reddy"
+   ],
+   "relation": {
+    "lrn_nikhil_reddy": "mother"
+   },
+   "email": "lakshmi.reddy@example.in"
+  },
+  {
+   "id": "par_lata_menon",
+   "role": "parent",
+   "firstName": "Lata",
+   "lastName": "Menon",
+   "name": "Lata Menon",
+   "city": "Bengaluru",
+   "learnerIds": [
+    "lrn_tara_menon"
+   ],
+   "relation": {
+    "lrn_tara_menon": "mother"
+   },
+   "email": "lata.menon@example.in"
+  },
+  {
+   "id": "par_alok_verma",
+   "role": "parent",
+   "firstName": "Alok",
+   "lastName": "Verma",
+   "name": "Alok Verma",
+   "city": "Lucknow",
+   "learnerIds": [
+    "lrn_kunal_verma"
+   ],
+   "relation": {
+    "lrn_kunal_verma": "father"
+   },
+   "email": "alok.verma@example.in"
+  },
+  {
+   "id": "par_maria_fernandes",
+   "role": "parent",
+   "firstName": "Maria",
+   "lastName": "Fernandes",
+   "name": "Maria Fernandes",
+   "city": "Mumbai",
+   "learnerIds": [
+    "lrn_zoya_fernandes"
+   ],
+   "relation": {
+    "lrn_zoya_fernandes": "mother"
+   },
+   "email": "maria.fernandes@example.in"
+  }
+ ]
+}

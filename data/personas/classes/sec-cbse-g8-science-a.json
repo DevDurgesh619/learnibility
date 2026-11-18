@@ -1,0 +1,6222 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/personas/simulate.ts",
+ "items": [
+  {
+   "id": "sec-cbse-g8-science-a",
+   "name": "8A Science",
+   "teacherId": "tch_anjali_bose",
+   "subjectId": "cbse-g8-science",
+   "board": "cbse",
+   "grade": 8,
+   "school": "Delhi Public School, Sector 45",
+   "learnerIds": [
+    "lrn_aarav_kapoor",
+    "lrn_bg_dhruv_gupta_cbse_g8_science_a",
+    "lrn_bg_reyansh_iyer_cbse_g8_science_a",
+    "lrn_bg_mira_pillai_cbse_g8_science_a",
+    "lrn_bg_ira_iyer_cbse_g8_science_a",
+    "lrn_bg_diya_shetty_cbse_g8_science_a",
+    "lrn_bg_advait_iyer_cbse_g8_science_a",
+    "lrn_bg_reyansh_chopra_cbse_g8_science_a",
+    "lrn_bg_diya_bhatia_cbse_g8_science_a",
+    "lrn_bg_kunal_dsouza_cbse_g8_science_a",
+    "lrn_bg_arnav_shetty_cbse_g8_science_a",
+    "lrn_bg_kabir_menon_cbse_g8_science_a",
+    "lrn_bg_vivaan_mishra_cbse_g8_science_a",
+    "lrn_bg_yash_kapur_cbse_g8_science_a",
+    "lrn_bg_dhruv_chopra_cbse_g8_science_a",
+    "lrn_bg_kunal_chawla_cbse_g8_science_a",
+    "lrn_bg_zara_agarwal_cbse_g8_science_a",
+    "lrn_bg_aryan_chopra_cbse_g8_science_a",
+    "lrn_bg_naina_malhotra_cbse_g8_science_a",
+    "lrn_bg_neel_joshi_cbse_g8_science_a",
+    "lrn_bg_manav_gill_cbse_g8_science_a",
+    "lrn_bg_neel_thomas_cbse_g8_science_a",
+    "lrn_bg_pranav_thomas_cbse_g8_science_a",
+    "lrn_bg_manav_banerjee_cbse_g8_science_a",
+    "lrn_bg_meher_kapur_cbse_g8_science_a",
+    "lrn_bg_advait_bajaj_cbse_g8_science_a",
+    "lrn_bg_aryan_thomas_cbse_g8_science_a",
+    "lrn_bg_aryan_grewal_cbse_g8_science_a",
+    "lrn_bg_diya_iyer_cbse_g8_science_a",
+    "lrn_bg_tanvi_joshi_cbse_g8_science_a"
+   ],
+   "background": [
+    {
+     "id": "lrn_bg_dhruv_gupta_cbse_g8_science_a",
+     "name": "Dhruv Gupta",
+     "mastery": {
+      "cbse-g8-science-ch01-st1": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st2": {
+       "level": 3,
+       "pMastery": 0.62,
+       "lastTestedUtc": "2026-10-22T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st3": {
+       "level": 3,
+       "pMastery": 0.56,
+       "lastTestedUtc": "2026-10-24T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st1": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st2": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st3": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-10-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st4": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-10-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st5": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-11-13T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st1": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-10-24T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st2": {
+       "level": 4,
+       "pMastery": 0.85,
+       "lastTestedUtc": "2026-11-08T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st3": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-10-23T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st4": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-28T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st1": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-10-28T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st2": {
+       "level": 2,
+       "pMastery": 0.38,
+       "lastTestedUtc": "2026-10-13T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st3": {
+       "level": 3,
+       "pMastery": 0.61,
+       "lastTestedUtc": "2026-10-18T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st4": {
+       "level": 4,
+       "pMastery": 0.75,
+       "lastTestedUtc": "2026-10-23T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st1": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-10-19T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st2": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-11-07T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st3": {
+       "level": 3,
+       "pMastery": 0.56,
+       "lastTestedUtc": "2026-10-26T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st4": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-10-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st5": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-11-02T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st1": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-11-08T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st2": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-10-18T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st3": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-23T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st4": {
+       "level": 3,
+       "pMastery": 0.62,
+       "lastTestedUtc": "2026-10-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st1": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-10-21T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st2": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-11-13T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st3": {
+       "level": 3,
+       "pMastery": 0.55,
+       "lastTestedUtc": "2026-11-01T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st4": {
+       "level": 3,
+       "pMastery": 0.61,
+       "lastTestedUtc": "2026-10-21T12:00:00.000Z"
+      }
+     },
+     "gaps": [
+      {
+       "subtopicId": "cbse-g8-science-ch01-st3",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch04-st2",
+       "code": "G3",
+       "level": 2,
+       "hoursToClose": 2.7,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch05-st3",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch06-st4",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch07-st4",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      }
+     ],
+     "testScores": [
+      {
+       "title": "Chapter check: Exploring the Investigative World of Science",
+       "date": "2026-09-29",
+       "pct": 74
+      },
+      {
+       "title": "Chapter check: The Invisible Living World: Beyond Our Naked Eye",
+       "date": "2026-10-06",
+       "pct": 83
+      },
+      {
+       "title": "Chapter check: Health: The Ultimate Treasure",
+       "date": "2026-10-13",
+       "pct": 74
+      },
+      {
+       "title": "Chapter check: Electricity: Magnetic and Heating Effects",
+       "date": "2026-10-20",
+       "pct": 78
+      },
+      {
+       "title": "Chapter check: Exploring Forces",
+       "date": "2026-10-27",
+       "pct": 73
+      },
+      {
+       "title": "Chapter check: Pressure, Winds, Storms, and Cyclones",
+       "date": "2026-11-03",
+       "pct": 75
+      },
+      {
+       "title": "Chapter check: Particulate Nature of Matter",
+       "date": "2026-11-10",
+       "pct": 76
+      }
+     ]
+    },
+    {
+     "id": "lrn_bg_reyansh_iyer_cbse_g8_science_a",
+     "name": "Reyansh Iyer",
+     "mastery": {
+      "cbse-g8-science-ch01-st1": {
+       "level": 5,
+       "pMastery": 0.96,
+       "lastTestedUtc": "2026-11-04T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st2": {
+       "level": 3,
+       "pMastery": 0.61,
+       "lastTestedUtc": "2026-11-01T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st3": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st1": {
+       "level": 5,
+       "pMastery": 0.95,
+       "lastTestedUtc": "2026-11-03T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st2": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-10-23T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st3": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-10-18T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st4": {
+       "level": 5,
+       "pMastery": 0.99,
+       "lastTestedUtc": "2026-11-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st5": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-10-31T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st1": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-11-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st2": {
+       "level": 5,
+       "pMastery": 0.99,
+       "lastTestedUtc": "2026-10-11T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st3": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-11-11T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st4": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-10-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st1": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-31T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st2": {
+       "level": 2,
+       "pMastery": 0.42,
+       "lastTestedUtc": "2026-11-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st3": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-11-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st4": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-11-02T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st1": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-10-11T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st2": {
+       "level": 5,
+       "pMastery": 0.96,
+       "lastTestedUtc": "2026-11-15T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st3": {
+       "level": 5,
+       "pMastery": 0.99,
+       "lastTestedUtc": "2026-11-04T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st4": {
+       "level": 4,
+       "pMastery": 0.75,
+       "lastTestedUtc": "2026-10-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st5": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-11-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st1": {
+       "level": 4,
+       "pMastery": 0.85,
+       "lastTestedUtc": "2026-10-18T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st2": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-11-06T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st3": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-11-15T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st4": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-07T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st1": {
+       "level": 5,
+       "pMastery": 0.98,
+       "lastTestedUtc": "2026-10-11T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st2": {
+       "level": 5,
+       "pMastery": 0.97,
+       "lastTestedUtc": "2026-10-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st3": {
+       "level": 5,
+       "pMastery": 0.96,
+       "lastTestedUtc": "2026-11-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st4": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-11-08T12:00:00.000Z"
+      }
+     },
+     "gaps": [
+      {
+       "subtopicId": "cbse-g8-science-ch01-st2",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch04-st2",
+       "code": "G3",
+       "level": 2,
+       "hoursToClose": 2.7,
+       "status": "suspected"
+      }
+     ],
+     "testScores": [
+      {
+       "title": "Chapter check: Exploring the Investigative World of Science",
+       "date": "2026-09-29",
+       "pct": 94
+      },
+      {
+       "title": "Chapter check: The Invisible Living World: Beyond Our Naked Eye",
+       "date": "2026-10-06",
+       "pct": 92
+      },
+      {
+       "title": "Chapter check: Health: The Ultimate Treasure",
+       "date": "2026-10-13",
+       "pct": 82
+      },
+      {
+       "title": "Chapter check: Electricity: Magnetic and Heating Effects",
+       "date": "2026-10-20",
+       "pct": 86
+      },
+      {
+       "title": "Chapter check: Exploring Forces",
+       "date": "2026-10-27",
+       "pct": 89
+      },
+      {
+       "title": "Chapter check: Pressure, Winds, Storms, and Cyclones",
+       "date": "2026-11-03",
+       "pct": 89
+      },
+      {
+       "title": "Chapter check: Particulate Nature of Matter",
+       "date": "2026-11-10",
+       "pct": 77
+      }
+     ]
+    },
+    {
+     "id": "lrn_bg_mira_pillai_cbse_g8_science_a",
+     "name": "Mira Pillai",
+     "mastery": {
+      "cbse-g8-science-ch01-st1": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-11-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st2": {
+       "level": 5,
+       "pMastery": 0.95,
+       "lastTestedUtc": "2026-11-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st3": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-26T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st1": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-10-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st2": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-11-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st3": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-10-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st4": {
+       "level": 5,
+       "pMastery": 0.98,
+       "lastTestedUtc": "2026-11-05T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st5": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-10-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st1": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-10-20T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st2": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-10-30T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st3": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-25T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st4": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-06T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st1": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-10-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st2": {
+       "level": 2,
+       "pMastery": 0.4,
+       "lastTestedUtc": "2026-10-18T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st3": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-08T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st4": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-11-01T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st1": {
+       "level": 5,
+       "pMastery": 0.96,
+       "lastTestedUtc": "2026-11-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st2": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-18T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st3": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-13T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st4": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-10-26T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st5": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-30T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st1": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-29T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st2": {
+       "level": 5,
+       "pMastery": 0.96,
+       "lastTestedUtc": "2026-11-03T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st3": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-10-30T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st4": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-10-23T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st1": {
+       "level": 4,
+       "pMastery": 0.85,
+       "lastTestedUtc": "2026-10-13T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st2": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-22T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st3": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-10-20T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st4": {
+       "level": 5,
+       "pMastery": 0.96,
+       "lastTestedUtc": "2026-11-02T12:00:00.000Z"
+      }
+     },
+     "gaps": [
+      {
+       "subtopicId": "cbse-g8-science-ch04-st2",
+       "code": "G3",
+       "level": 2,
+       "hoursToClose": 2.7,
+       "status": "suspected"
+      }
+     ],
+     "testScores": [
+      {
+       "title": "Chapter check: Exploring the Investigative World of Science",
+       "date": "2026-09-29",
+       "pct": 97
+      },
+      {
+       "title": "Chapter check: The Invisible Living World: Beyond Our Naked Eye",
+       "date": "2026-10-06",
+       "pct": 92
+      },
+      {
+       "title": "Chapter check: Health: The Ultimate Treasure",
+       "date": "2026-10-13",
+       "pct": 96
+      },
+      {
+       "title": "Chapter check: Electricity: Magnetic and Heating Effects",
+       "date": "2026-10-20",
+       "pct": 96
+      },
+      {
+       "title": "Chapter check: Exploring Forces",
+       "date": "2026-10-27",
+       "pct": 93
+      },
+      {
+       "title": "Chapter check: Pressure, Winds, Storms, and Cyclones",
+       "date": "2026-11-03",
+       "pct": 96
+      },
+      {
+       "title": "Chapter check: Particulate Nature of Matter",
+       "date": "2026-11-10",
+       "pct": 86
+      }
+     ]
+    },
+    {
+     "id": "lrn_bg_ira_iyer_cbse_g8_science_a",
+     "name": "Ira Iyer",
+     "mastery": {
+      "cbse-g8-science-ch01-st1": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-10-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st2": {
+       "level": 3,
+       "pMastery": 0.57,
+       "lastTestedUtc": "2026-10-15T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st3": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-10-26T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st1": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-11-08T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st2": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-10-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st3": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-11-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st4": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-10-26T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st5": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-10-28T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st1": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st2": {
+       "level": 4,
+       "pMastery": 0.75,
+       "lastTestedUtc": "2026-10-11T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st3": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-11-07T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st4": {
+       "level": 5,
+       "pMastery": 0.98,
+       "lastTestedUtc": "2026-11-02T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st1": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-11-11T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st2": {
+       "level": 2,
+       "pMastery": 0.42,
+       "lastTestedUtc": "2026-10-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st3": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-10-30T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st4": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-22T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st1": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-10-22T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st2": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-13T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st3": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-10-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st4": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-11-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st5": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-10-26T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st1": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-10-26T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st2": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-10-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st3": {
+       "level": 5,
+       "pMastery": 0.99,
+       "lastTestedUtc": "2026-10-29T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st4": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st1": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-11-11T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st2": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-11-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st3": {
+       "level": 3,
+       "pMastery": 0.58,
+       "lastTestedUtc": "2026-11-01T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st4": {
+       "level": 3,
+       "pMastery": 0.64,
+       "lastTestedUtc": "2026-11-08T12:00:00.000Z"
+      }
+     },
+     "gaps": [
+      {
+       "subtopicId": "cbse-g8-science-ch01-st2",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch04-st2",
+       "code": "G3",
+       "level": 2,
+       "hoursToClose": 2.7,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch07-st3",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      }
+     ],
+     "testScores": [
+      {
+       "title": "Chapter check: Exploring the Investigative World of Science",
+       "date": "2026-09-29",
+       "pct": 89
+      },
+      {
+       "title": "Chapter check: The Invisible Living World: Beyond Our Naked Eye",
+       "date": "2026-10-06",
+       "pct": 80
+      },
+      {
+       "title": "Chapter check: Health: The Ultimate Treasure",
+       "date": "2026-10-13",
+       "pct": 91
+      },
+      {
+       "title": "Chapter check: Electricity: Magnetic and Heating Effects",
+       "date": "2026-10-20",
+       "pct": 79
+      },
+      {
+       "title": "Chapter check: Exploring Forces",
+       "date": "2026-10-27",
+       "pct": 88
+      },
+      {
+       "title": "Chapter check: Pressure, Winds, Storms, and Cyclones",
+       "date": "2026-11-03",
+       "pct": 78
+      },
+      {
+       "title": "Chapter check: Particulate Nature of Matter",
+       "date": "2026-11-10",
+       "pct": 89
+      }
+     ]
+    },
+    {
+     "id": "lrn_bg_diya_shetty_cbse_g8_science_a",
+     "name": "Diya Shetty",
+     "mastery": {
+      "cbse-g8-science-ch01-st1": {
+       "level": 3,
+       "pMastery": 0.6,
+       "lastTestedUtc": "2026-10-27T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st2": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-11-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st3": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-10-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st1": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-10-15T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st2": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-10-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st3": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-10-29T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st4": {
+       "level": 3,
+       "pMastery": 0.58,
+       "lastTestedUtc": "2026-10-15T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st5": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-11-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st1": {
+       "level": 3,
+       "pMastery": 0.6,
+       "lastTestedUtc": "2026-10-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st2": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-11-05T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st3": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-11-05T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st4": {
+       "level": 3,
+       "pMastery": 0.64,
+       "lastTestedUtc": "2026-11-08T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st1": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-11-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st2": {
+       "level": 2,
+       "pMastery": 0.36,
+       "lastTestedUtc": "2026-11-02T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st3": {
+       "level": 3,
+       "pMastery": 0.56,
+       "lastTestedUtc": "2026-10-31T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st4": {
+       "level": 4,
+       "pMastery": 0.85,
+       "lastTestedUtc": "2026-10-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st1": {
+       "level": 3,
+       "pMastery": 0.62,
+       "lastTestedUtc": "2026-10-31T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st2": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-11-11T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st3": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-11-11T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st4": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-10-30T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st5": {
+       "level": 3,
+       "pMastery": 0.55,
+       "lastTestedUtc": "2026-10-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st1": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-11-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st2": {
+       "level": 3,
+       "pMastery": 0.6,
+       "lastTestedUtc": "2026-10-24T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st3": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-10-27T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st4": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-10-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st1": {
+       "level": 3,
+       "pMastery": 0.64,
+       "lastTestedUtc": "2026-10-26T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st2": {
+       "level": 3,
+       "pMastery": 0.61,
+       "lastTestedUtc": "2026-11-11T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st3": {
+       "level": 3,
+       "pMastery": 0.64,
+       "lastTestedUtc": "2026-11-07T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st4": {
+       "level": 3,
+       "pMastery": 0.64,
+       "lastTestedUtc": "2026-10-09T12:00:00.000Z"
+      }
+     },
+     "gaps": [
+      {
+       "subtopicId": "cbse-g8-science-ch03-st4",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch04-st2",
+       "code": "G3",
+       "level": 2,
+       "hoursToClose": 2.7,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch04-st3",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch06-st2",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch07-st2",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch07-st3",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      }
+     ],
+     "testScores": [
+      {
+       "title": "Chapter check: Exploring the Investigative World of Science",
+       "date": "2026-09-29",
+       "pct": 70
+      },
+      {
+       "title": "Chapter check: The Invisible Living World: Beyond Our Naked Eye",
+       "date": "2026-10-06",
+       "pct": 62
+      },
+      {
+       "title": "Chapter check: Health: The Ultimate Treasure",
+       "date": "2026-10-13",
+       "pct": 77
+      },
+      {
+       "title": "Chapter check: Electricity: Magnetic and Heating Effects",
+       "date": "2026-10-20",
+       "pct": 77
+      },
+      {
+       "title": "Chapter check: Exploring Forces",
+       "date": "2026-10-27",
+       "pct": 77
+      },
+      {
+       "title": "Chapter check: Pressure, Winds, Storms, and Cyclones",
+       "date": "2026-11-03",
+       "pct": 72
+      },
+      {
+       "title": "Chapter check: Particulate Nature of Matter",
+       "date": "2026-11-10",
+       "pct": 76
+      }
+     ]
+    },
+    {
+     "id": "lrn_bg_advait_iyer_cbse_g8_science_a",
+     "name": "Advait Iyer",
+     "mastery": {
+      "cbse-g8-science-ch01-st1": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-10-23T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st2": {
+       "level": 3,
+       "pMastery": 0.65,
+       "lastTestedUtc": "2026-10-18T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st3": {
+       "level": 2,
+       "pMastery": 0.38,
+       "lastTestedUtc": "2026-10-22T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st1": {
+       "level": 3,
+       "pMastery": 0.64,
+       "lastTestedUtc": "2026-10-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st2": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-10-21T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st3": {
+       "level": 3,
+       "pMastery": 0.63,
+       "lastTestedUtc": "2026-10-28T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st4": {
+       "level": 3,
+       "pMastery": 0.57,
+       "lastTestedUtc": "2026-10-13T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st5": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-11-04T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st1": {
+       "level": 3,
+       "pMastery": 0.57,
+       "lastTestedUtc": "2026-10-11T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st2": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-10-20T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st3": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-11-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st4": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-10-26T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st1": {
+       "level": 3,
+       "pMastery": 0.59,
+       "lastTestedUtc": "2026-10-21T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st2": {
+       "level": 2,
+       "pMastery": 0.44,
+       "lastTestedUtc": "2026-10-31T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st3": {
+       "level": 3,
+       "pMastery": 0.63,
+       "lastTestedUtc": "2026-11-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st4": {
+       "level": 3,
+       "pMastery": 0.57,
+       "lastTestedUtc": "2026-11-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st1": {
+       "level": 2,
+       "pMastery": 0.37,
+       "lastTestedUtc": "2026-11-07T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st2": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-10-20T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st3": {
+       "level": 3,
+       "pMastery": 0.65,
+       "lastTestedUtc": "2026-10-23T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st4": {
+       "level": 3,
+       "pMastery": 0.63,
+       "lastTestedUtc": "2026-11-01T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st5": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-10-26T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st1": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-11-04T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st2": {
+       "level": 3,
+       "pMastery": 0.61,
+       "lastTestedUtc": "2026-10-13T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st3": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-11-06T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st4": {
+       "level": 3,
+       "pMastery": 0.63,
+       "lastTestedUtc": "2026-10-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st1": {
+       "level": 3,
+       "pMastery": 0.56,
+       "lastTestedUtc": "2026-11-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st2": {
+       "level": 3,
+       "pMastery": 0.63,
+       "lastTestedUtc": "2026-11-06T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st3": {
+       "level": 3,
+       "pMastery": 0.56,
+       "lastTestedUtc": "2026-10-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st4": {
+       "level": 3,
+       "pMastery": 0.56,
+       "lastTestedUtc": "2026-11-05T12:00:00.000Z"
+      }
+     },
+     "gaps": [
+      {
+       "subtopicId": "cbse-g8-science-ch01-st2",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch01-st3",
+       "code": "G3",
+       "level": 2,
+       "hoursToClose": 2.7,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch02-st1",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch02-st3",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch04-st1",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch04-st2",
+       "code": "G3",
+       "level": 2,
+       "hoursToClose": 2.7,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch05-st1",
+       "code": "G3",
+       "level": 2,
+       "hoursToClose": 2.7,
+       "status": "suspected"
+      }
+     ],
+     "testScores": [
+      {
+       "title": "Chapter check: Exploring the Investigative World of Science",
+       "date": "2026-09-29",
+       "pct": 62
+      },
+      {
+       "title": "Chapter check: The Invisible Living World: Beyond Our Naked Eye",
+       "date": "2026-10-06",
+       "pct": 57
+      },
+      {
+       "title": "Chapter check: Health: The Ultimate Treasure",
+       "date": "2026-10-13",
+       "pct": 64
+      },
+      {
+       "title": "Chapter check: Electricity: Magnetic and Heating Effects",
+       "date": "2026-10-20",
+       "pct": 56
+      },
+      {
+       "title": "Chapter check: Exploring Forces",
+       "date": "2026-10-27",
+       "pct": 62
+      },
+      {
+       "title": "Chapter check: Pressure, Winds, Storms, and Cyclones",
+       "date": "2026-11-03",
+       "pct": 60
+      },
+      {
+       "title": "Chapter check: Particulate Nature of Matter",
+       "date": "2026-11-10",
+       "pct": 67
+      }
+     ]
+    },
+    {
+     "id": "lrn_bg_reyansh_chopra_cbse_g8_science_a",
+     "name": "Reyansh Chopra",
+     "mastery": {
+      "cbse-g8-science-ch01-st1": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-11-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st2": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-11-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st3": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-11-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st1": {
+       "level": 3,
+       "pMastery": 0.6,
+       "lastTestedUtc": "2026-10-27T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st2": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-10-25T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st3": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st4": {
+       "level": 3,
+       "pMastery": 0.65,
+       "lastTestedUtc": "2026-11-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st5": {
+       "level": 3,
+       "pMastery": 0.62,
+       "lastTestedUtc": "2026-11-06T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st1": {
+       "level": 5,
+       "pMastery": 0.95,
+       "lastTestedUtc": "2026-11-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st2": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-10-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st3": {
+       "level": 3,
+       "pMastery": 0.63,
+       "lastTestedUtc": "2026-10-23T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st4": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-11-01T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st1": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-11-08T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st2": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-10-27T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st3": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-10-25T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st4": {
+       "level": 3,
+       "pMastery": 0.62,
+       "lastTestedUtc": "2026-11-02T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st1": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-10-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st2": {
+       "level": 3,
+       "pMastery": 0.56,
+       "lastTestedUtc": "2026-11-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st3": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-10-27T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st4": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-22T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st5": {
+       "level": 3,
+       "pMastery": 0.56,
+       "lastTestedUtc": "2026-10-30T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st1": {
+       "level": 5,
+       "pMastery": 0.99,
+       "lastTestedUtc": "2026-10-21T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st2": {
+       "level": 3,
+       "pMastery": 0.63,
+       "lastTestedUtc": "2026-10-23T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st3": {
+       "level": 3,
+       "pMastery": 0.58,
+       "lastTestedUtc": "2026-11-07T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st4": {
+       "level": 4,
+       "pMastery": 0.85,
+       "lastTestedUtc": "2026-10-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st1": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-10-15T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st2": {
+       "level": 4,
+       "pMastery": 0.85,
+       "lastTestedUtc": "2026-10-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st3": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st4": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-10-23T12:00:00.000Z"
+      }
+     },
+     "gaps": [
+      {
+       "subtopicId": "cbse-g8-science-ch05-st5",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch06-st3",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      }
+     ],
+     "testScores": [
+      {
+       "title": "Chapter check: Exploring the Investigative World of Science",
+       "date": "2026-09-29",
+       "pct": 89
+      },
+      {
+       "title": "Chapter check: The Invisible Living World: Beyond Our Naked Eye",
+       "date": "2026-10-06",
+       "pct": 92
+      },
+      {
+       "title": "Chapter check: Health: The Ultimate Treasure",
+       "date": "2026-10-13",
+       "pct": 74
+      },
+      {
+       "title": "Chapter check: Electricity: Magnetic and Heating Effects",
+       "date": "2026-10-20",
+       "pct": 91
+      },
+      {
+       "title": "Chapter check: Exploring Forces",
+       "date": "2026-10-27",
+       "pct": 84
+      },
+      {
+       "title": "Chapter check: Pressure, Winds, Storms, and Cyclones",
+       "date": "2026-11-03",
+       "pct": 88
+      },
+      {
+       "title": "Chapter check: Particulate Nature of Matter",
+       "date": "2026-11-10",
+       "pct": 83
+      }
+     ]
+    },
+    {
+     "id": "lrn_bg_diya_bhatia_cbse_g8_science_a",
+     "name": "Diya Bhatia",
+     "mastery": {
+      "cbse-g8-science-ch01-st1": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-11-08T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st2": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-10-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st3": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-11-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st1": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-10-15T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st2": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-11-13T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st3": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-11-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st4": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-11-08T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st5": {
+       "level": 5,
+       "pMastery": 0.99,
+       "lastTestedUtc": "2026-11-08T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st1": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st2": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-10-25T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st3": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-10-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st4": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-24T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st1": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-11-07T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st2": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-10-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st3": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-28T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st4": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-02T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st1": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-10-19T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st2": {
+       "level": 5,
+       "pMastery": 0.99,
+       "lastTestedUtc": "2026-11-15T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st3": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-11-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st4": {
+       "level": 5,
+       "pMastery": 0.98,
+       "lastTestedUtc": "2026-11-01T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st5": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-11-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st1": {
+       "level": 4,
+       "pMastery": 0.85,
+       "lastTestedUtc": "2026-10-30T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st2": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-10-20T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st3": {
+       "level": 5,
+       "pMastery": 0.98,
+       "lastTestedUtc": "2026-10-24T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st4": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-10-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st1": {
+       "level": 5,
+       "pMastery": 0.99,
+       "lastTestedUtc": "2026-10-30T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st2": {
+       "level": 5,
+       "pMastery": 0.99,
+       "lastTestedUtc": "2026-10-25T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st3": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-10-18T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st4": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-11-11T12:00:00.000Z"
+      }
+     },
+     "gaps": [],
+     "testScores": [
+      {
+       "title": "Chapter check: Exploring the Investigative World of Science",
+       "date": "2026-09-29",
+       "pct": 83
+      },
+      {
+       "title": "Chapter check: The Invisible Living World: Beyond Our Naked Eye",
+       "date": "2026-10-06",
+       "pct": 86
+      },
+      {
+       "title": "Chapter check: Health: The Ultimate Treasure",
+       "date": "2026-10-13",
+       "pct": 82
+      },
+      {
+       "title": "Chapter check: Electricity: Magnetic and Heating Effects",
+       "date": "2026-10-20",
+       "pct": 94
+      },
+      {
+       "title": "Chapter check: Exploring Forces",
+       "date": "2026-10-27",
+       "pct": 84
+      },
+      {
+       "title": "Chapter check: Pressure, Winds, Storms, and Cyclones",
+       "date": "2026-11-03",
+       "pct": 80
+      },
+      {
+       "title": "Chapter check: Particulate Nature of Matter",
+       "date": "2026-11-10",
+       "pct": 79
+      }
+     ]
+    },
+    {
+     "id": "lrn_bg_kunal_dsouza_cbse_g8_science_a",
+     "name": "Kunal Dsouza",
+     "mastery": {
+      "cbse-g8-science-ch01-st1": {
+       "level": 3,
+       "pMastery": 0.64,
+       "lastTestedUtc": "2026-11-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st2": {
+       "level": 2,
+       "pMastery": 0.44,
+       "lastTestedUtc": "2026-11-13T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st3": {
+       "level": 3,
+       "pMastery": 0.64,
+       "lastTestedUtc": "2026-10-27T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st1": {
+       "level": 4,
+       "pMastery": 0.85,
+       "lastTestedUtc": "2026-11-05T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st2": {
+       "level": 3,
+       "pMastery": 0.58,
+       "lastTestedUtc": "2026-10-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st3": {
+       "level": 3,
+       "pMastery": 0.62,
+       "lastTestedUtc": "2026-11-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st4": {
+       "level": 4,
+       "pMastery": 0.85,
+       "lastTestedUtc": "2026-10-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st5": {
+       "level": 3,
+       "pMastery": 0.59,
+       "lastTestedUtc": "2026-10-18T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st1": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-10-26T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st2": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-10-20T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st3": {
+       "level": 4,
+       "pMastery": 0.75,
+       "lastTestedUtc": "2026-11-07T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st4": {
+       "level": 3,
+       "pMastery": 0.64,
+       "lastTestedUtc": "2026-10-13T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st1": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-10-30T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st2": {
+       "level": 4,
+       "pMastery": 0.85,
+       "lastTestedUtc": "2026-10-19T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st3": {
+       "level": 3,
+       "pMastery": 0.61,
+       "lastTestedUtc": "2026-11-15T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st4": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-11-07T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st1": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-10-22T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st2": {
+       "level": 2,
+       "pMastery": 0.4,
+       "lastTestedUtc": "2026-11-07T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st3": {
+       "level": 2,
+       "pMastery": 0.38,
+       "lastTestedUtc": "2026-10-28T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st4": {
+       "level": 3,
+       "pMastery": 0.57,
+       "lastTestedUtc": "2026-11-02T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st5": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-10-25T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st1": {
+       "level": 2,
+       "pMastery": 0.39,
+       "lastTestedUtc": "2026-10-24T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st2": {
+       "level": 2,
+       "pMastery": 0.36,
+       "lastTestedUtc": "2026-10-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st3": {
+       "level": 3,
+       "pMastery": 0.6,
+       "lastTestedUtc": "2026-11-02T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st4": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-11-08T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st1": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-10-20T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st2": {
+       "level": 2,
+       "pMastery": 0.42,
+       "lastTestedUtc": "2026-11-11T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st3": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-10-20T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st4": {
+       "level": 3,
+       "pMastery": 0.65,
+       "lastTestedUtc": "2026-10-30T12:00:00.000Z"
+      }
+     },
+     "gaps": [
+      {
+       "subtopicId": "cbse-g8-science-ch01-st2",
+       "code": "G3",
+       "level": 2,
+       "hoursToClose": 2.7,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch02-st5",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch05-st2",
+       "code": "G3",
+       "level": 2,
+       "hoursToClose": 2.7,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch05-st3",
+       "code": "G3",
+       "level": 2,
+       "hoursToClose": 2.7,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch06-st1",
+       "code": "G3",
+       "level": 2,
+       "hoursToClose": 2.7,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch06-st2",
+       "code": "G3",
+       "level": 2,
+       "hoursToClose": 2.7,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch06-st3",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch07-st2",
+       "code": "G3",
+       "level": 2,
+       "hoursToClose": 2.7,
+       "status": "suspected"
+      }
+     ],
+     "testScores": [
+      {
+       "title": "Chapter check: Exploring the Investigative World of Science",
+       "date": "2026-09-29",
+       "pct": 69
+      },
+      {
+       "title": "Chapter check: The Invisible Living World: Beyond Our Naked Eye",
+       "date": "2026-10-06",
+       "pct": 70
+      },
+      {
+       "title": "Chapter check: Health: The Ultimate Treasure",
+       "date": "2026-10-13",
+       "pct": 56
+      },
+      {
+       "title": "Chapter check: Electricity: Magnetic and Heating Effects",
+       "date": "2026-10-20",
+       "pct": 69
+      },
+      {
+       "title": "Chapter check: Exploring Forces",
+       "date": "2026-10-27",
+       "pct": 60
+      },
+      {
+       "title": "Chapter check: Pressure, Winds, Storms, and Cyclones",
+       "date": "2026-11-03",
+       "pct": 67
+      },
+      {
+       "title": "Chapter check: Particulate Nature of Matter",
+       "date": "2026-11-10",
+       "pct": 56
+      }
+     ]
+    },
+    {
+     "id": "lrn_bg_arnav_shetty_cbse_g8_science_a",
+     "name": "Arnav Shetty",
+     "mastery": {
+      "cbse-g8-science-ch01-st1": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-10-27T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st2": {
+       "level": 3,
+       "pMastery": 0.64,
+       "lastTestedUtc": "2026-10-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st3": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-10-29T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st1": {
+       "level": 3,
+       "pMastery": 0.64,
+       "lastTestedUtc": "2026-11-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st2": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-10-25T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st3": {
+       "level": 3,
+       "pMastery": 0.55,
+       "lastTestedUtc": "2026-11-03T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st4": {
+       "level": 3,
+       "pMastery": 0.63,
+       "lastTestedUtc": "2026-11-06T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st5": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-10-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st1": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-11-07T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st2": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-11-08T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st3": {
+       "level": 3,
+       "pMastery": 0.59,
+       "lastTestedUtc": "2026-10-30T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st4": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-10-19T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st1": {
+       "level": 3,
+       "pMastery": 0.61,
+       "lastTestedUtc": "2026-10-13T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st2": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-10-23T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st3": {
+       "level": 3,
+       "pMastery": 0.63,
+       "lastTestedUtc": "2026-11-04T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st4": {
+       "level": 3,
+       "pMastery": 0.55,
+       "lastTestedUtc": "2026-11-15T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st1": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-10-20T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st2": {
+       "level": 4,
+       "pMastery": 0.85,
+       "lastTestedUtc": "2026-11-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st3": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-10-20T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st4": {
+       "level": 3,
+       "pMastery": 0.6,
+       "lastTestedUtc": "2026-11-15T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st5": {
+       "level": 2,
+       "pMastery": 0.42,
+       "lastTestedUtc": "2026-10-25T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st1": {
+       "level": 3,
+       "pMastery": 0.6,
+       "lastTestedUtc": "2026-10-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st2": {
+       "level": 3,
+       "pMastery": 0.56,
+       "lastTestedUtc": "2026-10-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st3": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-10-24T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st4": {
+       "level": 3,
+       "pMastery": 0.61,
+       "lastTestedUtc": "2026-11-01T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st1": {
+       "level": 3,
+       "pMastery": 0.62,
+       "lastTestedUtc": "2026-10-19T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st2": {
+       "level": 4,
+       "pMastery": 0.75,
+       "lastTestedUtc": "2026-10-30T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st3": {
+       "level": 3,
+       "pMastery": 0.56,
+       "lastTestedUtc": "2026-11-06T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st4": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-10-11T12:00:00.000Z"
+      }
+     },
+     "gaps": [
+      {
+       "subtopicId": "cbse-g8-science-ch04-st4",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch05-st5",
+       "code": "G3",
+       "level": 2,
+       "hoursToClose": 2.7,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch06-st4",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      }
+     ],
+     "testScores": [
+      {
+       "title": "Chapter check: Exploring the Investigative World of Science",
+       "date": "2026-09-29",
+       "pct": 57
+      },
+      {
+       "title": "Chapter check: The Invisible Living World: Beyond Our Naked Eye",
+       "date": "2026-10-06",
+       "pct": 71
+      },
+      {
+       "title": "Chapter check: Health: The Ultimate Treasure",
+       "date": "2026-10-13",
+       "pct": 71
+      },
+      {
+       "title": "Chapter check: Electricity: Magnetic and Heating Effects",
+       "date": "2026-10-20",
+       "pct": 74
+      },
+      {
+       "title": "Chapter check: Exploring Forces",
+       "date": "2026-10-27",
+       "pct": 60
+      },
+      {
+       "title": "Chapter check: Pressure, Winds, Storms, and Cyclones",
+       "date": "2026-11-03",
+       "pct": 57
+      },
+      {
+       "title": "Chapter check: Particulate Nature of Matter",
+       "date": "2026-11-10",
+       "pct": 68
+      }
+     ]
+    },
+    {
+     "id": "lrn_bg_kabir_menon_cbse_g8_science_a",
+     "name": "Kabir Menon",
+     "mastery": {
+      "cbse-g8-science-ch01-st1": {
+       "level": 3,
+       "pMastery": 0.57,
+       "lastTestedUtc": "2026-11-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st2": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-10-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st3": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-11-05T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st1": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-10-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st2": {
+       "level": 3,
+       "pMastery": 0.63,
+       "lastTestedUtc": "2026-10-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st3": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-05T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st4": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st5": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-10-22T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st1": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-11-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st2": {
+       "level": 5,
+       "pMastery": 0.99,
+       "lastTestedUtc": "2026-11-03T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st3": {
+       "level": 5,
+       "pMastery": 0.99,
+       "lastTestedUtc": "2026-11-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st4": {
+       "level": 3,
+       "pMastery": 0.61,
+       "lastTestedUtc": "2026-10-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st1": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-10-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st2": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-11-04T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st3": {
+       "level": 3,
+       "pMastery": 0.56,
+       "lastTestedUtc": "2026-11-08T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st4": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-11-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st1": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-10-26T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st2": {
+       "level": 3,
+       "pMastery": 0.64,
+       "lastTestedUtc": "2026-10-11T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st3": {
+       "level": 3,
+       "pMastery": 0.61,
+       "lastTestedUtc": "2026-10-30T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st4": {
+       "level": 5,
+       "pMastery": 0.97,
+       "lastTestedUtc": "2026-10-29T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st5": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-21T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st1": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-10-30T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st2": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-10-30T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st3": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st4": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-10-31T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st1": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-10-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st2": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-11-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st3": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-11-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st4": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-11-02T12:00:00.000Z"
+      }
+     },
+     "gaps": [
+      {
+       "subtopicId": "cbse-g8-science-ch01-st1",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch03-st4",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch05-st2",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      }
+     ],
+     "testScores": [
+      {
+       "title": "Chapter check: Exploring the Investigative World of Science",
+       "date": "2026-09-29",
+       "pct": 82
+      },
+      {
+       "title": "Chapter check: The Invisible Living World: Beyond Our Naked Eye",
+       "date": "2026-10-06",
+       "pct": 73
+      },
+      {
+       "title": "Chapter check: Health: The Ultimate Treasure",
+       "date": "2026-10-13",
+       "pct": 82
+      },
+      {
+       "title": "Chapter check: Electricity: Magnetic and Heating Effects",
+       "date": "2026-10-20",
+       "pct": 85
+      },
+      {
+       "title": "Chapter check: Exploring Forces",
+       "date": "2026-10-27",
+       "pct": 75
+      },
+      {
+       "title": "Chapter check: Pressure, Winds, Storms, and Cyclones",
+       "date": "2026-11-03",
+       "pct": 78
+      },
+      {
+       "title": "Chapter check: Particulate Nature of Matter",
+       "date": "2026-11-10",
+       "pct": 80
+      }
+     ]
+    },
+    {
+     "id": "lrn_bg_vivaan_mishra_cbse_g8_science_a",
+     "name": "Vivaan Mishra",
+     "mastery": {
+      "cbse-g8-science-ch01-st1": {
+       "level": 3,
+       "pMastery": 0.6,
+       "lastTestedUtc": "2026-10-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st2": {
+       "level": 4,
+       "pMastery": 0.85,
+       "lastTestedUtc": "2026-10-25T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st3": {
+       "level": 3,
+       "pMastery": 0.57,
+       "lastTestedUtc": "2026-10-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st1": {
+       "level": 3,
+       "pMastery": 0.65,
+       "lastTestedUtc": "2026-10-27T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st2": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-10-24T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st3": {
+       "level": 3,
+       "pMastery": 0.59,
+       "lastTestedUtc": "2026-10-25T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st4": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-11-02T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st5": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-10-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st1": {
+       "level": 3,
+       "pMastery": 0.55,
+       "lastTestedUtc": "2026-10-13T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st2": {
+       "level": 3,
+       "pMastery": 0.59,
+       "lastTestedUtc": "2026-11-07T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st3": {
+       "level": 3,
+       "pMastery": 0.65,
+       "lastTestedUtc": "2026-10-21T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st4": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-11-05T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st1": {
+       "level": 2,
+       "pMastery": 0.43,
+       "lastTestedUtc": "2026-10-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st2": {
+       "level": 3,
+       "pMastery": 0.56,
+       "lastTestedUtc": "2026-10-13T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st3": {
+       "level": 3,
+       "pMastery": 0.65,
+       "lastTestedUtc": "2026-11-15T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st4": {
+       "level": 2,
+       "pMastery": 0.39,
+       "lastTestedUtc": "2026-11-05T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st1": {
+       "level": 3,
+       "pMastery": 0.6,
+       "lastTestedUtc": "2026-10-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st2": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-10-28T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st3": {
+       "level": 3,
+       "pMastery": 0.65,
+       "lastTestedUtc": "2026-10-31T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st4": {
+       "level": 2,
+       "pMastery": 0.41,
+       "lastTestedUtc": "2026-11-05T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st5": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-11-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st1": {
+       "level": 3,
+       "pMastery": 0.6,
+       "lastTestedUtc": "2026-10-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st2": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-11-05T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st3": {
+       "level": 2,
+       "pMastery": 0.36,
+       "lastTestedUtc": "2026-10-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st4": {
+       "level": 3,
+       "pMastery": 0.63,
+       "lastTestedUtc": "2026-11-05T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st1": {
+       "level": 4,
+       "pMastery": 0.85,
+       "lastTestedUtc": "2026-10-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st2": {
+       "level": 3,
+       "pMastery": 0.63,
+       "lastTestedUtc": "2026-10-31T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st3": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-10-20T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st4": {
+       "level": 3,
+       "pMastery": 0.57,
+       "lastTestedUtc": "2026-10-29T12:00:00.000Z"
+      }
+     },
+     "gaps": [
+      {
+       "subtopicId": "cbse-g8-science-ch01-st3",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch02-st3",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch03-st1",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch04-st1",
+       "code": "G3",
+       "level": 2,
+       "hoursToClose": 2.7,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch04-st4",
+       "code": "G3",
+       "level": 2,
+       "hoursToClose": 2.7,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch05-st4",
+       "code": "G3",
+       "level": 2,
+       "hoursToClose": 2.7,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch06-st1",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch06-st3",
+       "code": "G3",
+       "level": 2,
+       "hoursToClose": 2.7,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch06-st4",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch07-st4",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      }
+     ],
+     "testScores": [
+      {
+       "title": "Chapter check: Exploring the Investigative World of Science",
+       "date": "2026-09-29",
+       "pct": 62
+      },
+      {
+       "title": "Chapter check: The Invisible Living World: Beyond Our Naked Eye",
+       "date": "2026-10-06",
+       "pct": 59
+      },
+      {
+       "title": "Chapter check: Health: The Ultimate Treasure",
+       "date": "2026-10-13",
+       "pct": 67
+      },
+      {
+       "title": "Chapter check: Electricity: Magnetic and Heating Effects",
+       "date": "2026-10-20",
+       "pct": 72
+      },
+      {
+       "title": "Chapter check: Exploring Forces",
+       "date": "2026-10-27",
+       "pct": 69
+      },
+      {
+       "title": "Chapter check: Pressure, Winds, Storms, and Cyclones",
+       "date": "2026-11-03",
+       "pct": 58
+      },
+      {
+       "title": "Chapter check: Particulate Nature of Matter",
+       "date": "2026-11-10",
+       "pct": 69
+      }
+     ]
+    },
+    {
+     "id": "lrn_bg_yash_kapur_cbse_g8_science_a",
+     "name": "Yash Kapur",
+     "mastery": {
+      "cbse-g8-science-ch01-st1": {
+       "level": 5,
+       "pMastery": 0.96,
+       "lastTestedUtc": "2026-10-29T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st2": {
+       "level": 5,
+       "pMastery": 0.98,
+       "lastTestedUtc": "2026-11-07T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st3": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st1": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-10-31T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st2": {
+       "level": 5,
+       "pMastery": 0.99,
+       "lastTestedUtc": "2026-11-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st3": {
+       "level": 5,
+       "pMastery": 0.98,
+       "lastTestedUtc": "2026-11-15T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st4": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-10-19T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st5": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st1": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st2": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-06T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st3": {
+       "level": 4,
+       "pMastery": 0.75,
+       "lastTestedUtc": "2026-10-18T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st4": {
+       "level": 5,
+       "pMastery": 0.99,
+       "lastTestedUtc": "2026-11-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st1": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-11-13T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st2": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-10-29T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st3": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-10-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st4": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st1": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st2": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-10-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st3": {
+       "level": 5,
+       "pMastery": 0.99,
+       "lastTestedUtc": "2026-10-18T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st4": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-24T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st5": {
+       "level": 5,
+       "pMastery": 0.96,
+       "lastTestedUtc": "2026-11-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st1": {
+       "level": 5,
+       "pMastery": 0.98,
+       "lastTestedUtc": "2026-10-19T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st2": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-10-30T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st3": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-11-05T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st4": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st1": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-11-05T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st2": {
+       "level": 5,
+       "pMastery": 0.96,
+       "lastTestedUtc": "2026-11-15T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st3": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-11-04T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st4": {
+       "level": 5,
+       "pMastery": 0.96,
+       "lastTestedUtc": "2026-11-10T12:00:00.000Z"
+      }
+     },
+     "gaps": [],
+     "testScores": [
+      {
+       "title": "Chapter check: Exploring the Investigative World of Science",
+       "date": "2026-09-29",
+       "pct": 95
+      },
+      {
+       "title": "Chapter check: The Invisible Living World: Beyond Our Naked Eye",
+       "date": "2026-10-06",
+       "pct": 89
+      },
+      {
+       "title": "Chapter check: Health: The Ultimate Treasure",
+       "date": "2026-10-13",
+       "pct": 89
+      },
+      {
+       "title": "Chapter check: Electricity: Magnetic and Heating Effects",
+       "date": "2026-10-20",
+       "pct": 91
+      },
+      {
+       "title": "Chapter check: Exploring Forces",
+       "date": "2026-10-27",
+       "pct": 91
+      },
+      {
+       "title": "Chapter check: Pressure, Winds, Storms, and Cyclones",
+       "date": "2026-11-03",
+       "pct": 99
+      },
+      {
+       "title": "Chapter check: Particulate Nature of Matter",
+       "date": "2026-11-10",
+       "pct": 91
+      }
+     ]
+    },
+    {
+     "id": "lrn_bg_dhruv_chopra_cbse_g8_science_a",
+     "name": "Dhruv Chopra",
+     "mastery": {
+      "cbse-g8-science-ch01-st1": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-05T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st2": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-01T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st3": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-10-30T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st1": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-10-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st2": {
+       "level": 4,
+       "pMastery": 0.85,
+       "lastTestedUtc": "2026-10-19T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st3": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-04T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st4": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-10-18T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st5": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-11-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st1": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-10-31T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st2": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-11-06T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st3": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-19T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st4": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-10-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st1": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st2": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-10-22T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st3": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-11-03T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st4": {
+       "level": 5,
+       "pMastery": 0.97,
+       "lastTestedUtc": "2026-11-03T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st1": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-10-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st2": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-15T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st3": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-10-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st4": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-10-28T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st5": {
+       "level": 3,
+       "pMastery": 0.61,
+       "lastTestedUtc": "2026-11-08T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st1": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-10-22T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st2": {
+       "level": 5,
+       "pMastery": 0.98,
+       "lastTestedUtc": "2026-11-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st3": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-13T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st4": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-25T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st1": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-11-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st2": {
+       "level": 5,
+       "pMastery": 0.97,
+       "lastTestedUtc": "2026-10-22T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st3": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-11-02T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st4": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-30T12:00:00.000Z"
+      }
+     },
+     "gaps": [
+      {
+       "subtopicId": "cbse-g8-science-ch05-st5",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      }
+     ],
+     "testScores": [
+      {
+       "title": "Chapter check: Exploring the Investigative World of Science",
+       "date": "2026-09-29",
+       "pct": 90
+      },
+      {
+       "title": "Chapter check: The Invisible Living World: Beyond Our Naked Eye",
+       "date": "2026-10-06",
+       "pct": 90
+      },
+      {
+       "title": "Chapter check: Health: The Ultimate Treasure",
+       "date": "2026-10-13",
+       "pct": 83
+      },
+      {
+       "title": "Chapter check: Electricity: Magnetic and Heating Effects",
+       "date": "2026-10-20",
+       "pct": 75
+      },
+      {
+       "title": "Chapter check: Exploring Forces",
+       "date": "2026-10-27",
+       "pct": 91
+      },
+      {
+       "title": "Chapter check: Pressure, Winds, Storms, and Cyclones",
+       "date": "2026-11-03",
+       "pct": 84
+      },
+      {
+       "title": "Chapter check: Particulate Nature of Matter",
+       "date": "2026-11-10",
+       "pct": 76
+      }
+     ]
+    },
+    {
+     "id": "lrn_bg_kunal_chawla_cbse_g8_science_a",
+     "name": "Kunal Chawla",
+     "mastery": {
+      "cbse-g8-science-ch01-st1": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-11-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st2": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-11-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st3": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-10-27T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st1": {
+       "level": 4,
+       "pMastery": 0.85,
+       "lastTestedUtc": "2026-11-08T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st2": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-10-25T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st3": {
+       "level": 3,
+       "pMastery": 0.57,
+       "lastTestedUtc": "2026-10-30T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st4": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-10-25T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st5": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-10-19T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st1": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-10-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st2": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-11-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st3": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-10-15T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st4": {
+       "level": 5,
+       "pMastery": 0.97,
+       "lastTestedUtc": "2026-10-18T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st1": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-10-19T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st2": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-07T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st3": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-10-11T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st4": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-31T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st1": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-10-23T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st2": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-10-22T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st3": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-10-29T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st4": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-11-03T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st5": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-10-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st1": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-10-30T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st2": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-11-08T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st3": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-10-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st4": {
+       "level": 3,
+       "pMastery": 0.57,
+       "lastTestedUtc": "2026-10-13T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st1": {
+       "level": 3,
+       "pMastery": 0.56,
+       "lastTestedUtc": "2026-11-05T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st2": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-11-05T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st3": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-02T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st4": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-10-29T12:00:00.000Z"
+      }
+     },
+     "gaps": [
+      {
+       "subtopicId": "cbse-g8-science-ch06-st4",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      }
+     ],
+     "testScores": [
+      {
+       "title": "Chapter check: Exploring the Investigative World of Science",
+       "date": "2026-09-29",
+       "pct": 76
+      },
+      {
+       "title": "Chapter check: The Invisible Living World: Beyond Our Naked Eye",
+       "date": "2026-10-06",
+       "pct": 78
+      },
+      {
+       "title": "Chapter check: Health: The Ultimate Treasure",
+       "date": "2026-10-13",
+       "pct": 75
+      },
+      {
+       "title": "Chapter check: Electricity: Magnetic and Heating Effects",
+       "date": "2026-10-20",
+       "pct": 81
+      },
+      {
+       "title": "Chapter check: Exploring Forces",
+       "date": "2026-10-27",
+       "pct": 81
+      },
+      {
+       "title": "Chapter check: Pressure, Winds, Storms, and Cyclones",
+       "date": "2026-11-03",
+       "pct": 82
+      },
+      {
+       "title": "Chapter check: Particulate Nature of Matter",
+       "date": "2026-11-10",
+       "pct": 77
+      }
+     ]
+    },
+    {
+     "id": "lrn_bg_zara_agarwal_cbse_g8_science_a",
+     "name": "Zara Agarwal",
+     "mastery": {
+      "cbse-g8-science-ch01-st1": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-11-07T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st2": {
+       "level": 5,
+       "pMastery": 0.97,
+       "lastTestedUtc": "2026-10-19T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st3": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-11-03T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st1": {
+       "level": 5,
+       "pMastery": 0.98,
+       "lastTestedUtc": "2026-11-08T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st2": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-05T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st3": {
+       "level": 5,
+       "pMastery": 0.98,
+       "lastTestedUtc": "2026-10-29T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st4": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-10-15T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st5": {
+       "level": 5,
+       "pMastery": 0.98,
+       "lastTestedUtc": "2026-10-24T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st1": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-15T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st2": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-30T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st3": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st4": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-21T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st1": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-10-29T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st2": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st3": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-25T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st4": {
+       "level": 5,
+       "pMastery": 0.96,
+       "lastTestedUtc": "2026-11-04T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st1": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-11-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st2": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-03T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st3": {
+       "level": 5,
+       "pMastery": 0.98,
+       "lastTestedUtc": "2026-11-02T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st4": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-18T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st5": {
+       "level": 5,
+       "pMastery": 0.98,
+       "lastTestedUtc": "2026-10-29T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st1": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st2": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st3": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st4": {
+       "level": 5,
+       "pMastery": 0.96,
+       "lastTestedUtc": "2026-11-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st1": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st2": {
+       "level": 5,
+       "pMastery": 0.98,
+       "lastTestedUtc": "2026-11-04T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st3": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-10-23T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st4": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-13T12:00:00.000Z"
+      }
+     },
+     "gaps": [],
+     "testScores": [
+      {
+       "title": "Chapter check: Exploring the Investigative World of Science",
+       "date": "2026-09-29",
+       "pct": 93
+      },
+      {
+       "title": "Chapter check: The Invisible Living World: Beyond Our Naked Eye",
+       "date": "2026-10-06",
+       "pct": 95
+      },
+      {
+       "title": "Chapter check: Health: The Ultimate Treasure",
+       "date": "2026-10-13",
+       "pct": 95
+      },
+      {
+       "title": "Chapter check: Electricity: Magnetic and Heating Effects",
+       "date": "2026-10-20",
+       "pct": 99
+      },
+      {
+       "title": "Chapter check: Exploring Forces",
+       "date": "2026-10-27",
+       "pct": 89
+      },
+      {
+       "title": "Chapter check: Pressure, Winds, Storms, and Cyclones",
+       "date": "2026-11-03",
+       "pct": 99
+      },
+      {
+       "title": "Chapter check: Particulate Nature of Matter",
+       "date": "2026-11-10",
+       "pct": 99
+      }
+     ]
+    },
+    {
+     "id": "lrn_bg_aryan_chopra_cbse_g8_science_a",
+     "name": "Aryan Chopra",
+     "mastery": {
+      "cbse-g8-science-ch01-st1": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-10-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st2": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-10-21T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st3": {
+       "level": 4,
+       "pMastery": 0.75,
+       "lastTestedUtc": "2026-11-02T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st1": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-10-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st2": {
+       "level": 4,
+       "pMastery": 0.75,
+       "lastTestedUtc": "2026-10-22T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st3": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-10-27T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st4": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-10-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st5": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-11-05T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st1": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-11-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st2": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-10-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st3": {
+       "level": 5,
+       "pMastery": 0.98,
+       "lastTestedUtc": "2026-11-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st4": {
+       "level": 5,
+       "pMastery": 0.96,
+       "lastTestedUtc": "2026-11-03T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st1": {
+       "level": 5,
+       "pMastery": 0.97,
+       "lastTestedUtc": "2026-11-03T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st2": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st3": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-05T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st4": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-07T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st1": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-11-06T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st2": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st3": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st4": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-10-22T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st5": {
+       "level": 5,
+       "pMastery": 0.96,
+       "lastTestedUtc": "2026-10-13T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st1": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-21T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st2": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-10-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st3": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-10-28T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st4": {
+       "level": 5,
+       "pMastery": 0.96,
+       "lastTestedUtc": "2026-11-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st1": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-10-19T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st2": {
+       "level": 5,
+       "pMastery": 0.96,
+       "lastTestedUtc": "2026-11-05T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st3": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-11-07T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st4": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-11-03T12:00:00.000Z"
+      }
+     },
+     "gaps": [],
+     "testScores": [
+      {
+       "title": "Chapter check: Exploring the Investigative World of Science",
+       "date": "2026-09-29",
+       "pct": 96
+      },
+      {
+       "title": "Chapter check: The Invisible Living World: Beyond Our Naked Eye",
+       "date": "2026-10-06",
+       "pct": 80
+      },
+      {
+       "title": "Chapter check: Health: The Ultimate Treasure",
+       "date": "2026-10-13",
+       "pct": 85
+      },
+      {
+       "title": "Chapter check: Electricity: Magnetic and Heating Effects",
+       "date": "2026-10-20",
+       "pct": 89
+      },
+      {
+       "title": "Chapter check: Exploring Forces",
+       "date": "2026-10-27",
+       "pct": 95
+      },
+      {
+       "title": "Chapter check: Pressure, Winds, Storms, and Cyclones",
+       "date": "2026-11-03",
+       "pct": 93
+      },
+      {
+       "title": "Chapter check: Particulate Nature of Matter",
+       "date": "2026-11-10",
+       "pct": 87
+      }
+     ]
+    },
+    {
+     "id": "lrn_bg_naina_malhotra_cbse_g8_science_a",
+     "name": "Naina Malhotra",
+     "mastery": {
+      "cbse-g8-science-ch01-st1": {
+       "level": 3,
+       "pMastery": 0.57,
+       "lastTestedUtc": "2026-11-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st2": {
+       "level": 2,
+       "pMastery": 0.39,
+       "lastTestedUtc": "2026-11-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st3": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-10-30T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st1": {
+       "level": 2,
+       "pMastery": 0.38,
+       "lastTestedUtc": "2026-10-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st2": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-10-11T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st3": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-11-13T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st4": {
+       "level": 3,
+       "pMastery": 0.64,
+       "lastTestedUtc": "2026-10-29T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st5": {
+       "level": 3,
+       "pMastery": 0.55,
+       "lastTestedUtc": "2026-11-05T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st1": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-10-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st2": {
+       "level": 2,
+       "pMastery": 0.38,
+       "lastTestedUtc": "2026-10-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st3": {
+       "level": 3,
+       "pMastery": 0.57,
+       "lastTestedUtc": "2026-10-21T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st4": {
+       "level": 3,
+       "pMastery": 0.59,
+       "lastTestedUtc": "2026-11-11T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st1": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-11-08T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st2": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-10-30T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st3": {
+       "level": 3,
+       "pMastery": 0.58,
+       "lastTestedUtc": "2026-11-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st4": {
+       "level": 3,
+       "pMastery": 0.58,
+       "lastTestedUtc": "2026-11-11T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st1": {
+       "level": 3,
+       "pMastery": 0.65,
+       "lastTestedUtc": "2026-11-07T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st2": {
+       "level": 2,
+       "pMastery": 0.45,
+       "lastTestedUtc": "2026-11-05T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st3": {
+       "level": 3,
+       "pMastery": 0.59,
+       "lastTestedUtc": "2026-11-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st4": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-10-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st5": {
+       "level": 2,
+       "pMastery": 0.41,
+       "lastTestedUtc": "2026-11-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st1": {
+       "level": 3,
+       "pMastery": 0.62,
+       "lastTestedUtc": "2026-10-24T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st2": {
+       "level": 2,
+       "pMastery": 0.39,
+       "lastTestedUtc": "2026-11-15T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st3": {
+       "level": 3,
+       "pMastery": 0.64,
+       "lastTestedUtc": "2026-10-23T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st4": {
+       "level": 3,
+       "pMastery": 0.58,
+       "lastTestedUtc": "2026-10-19T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st1": {
+       "level": 3,
+       "pMastery": 0.58,
+       "lastTestedUtc": "2026-11-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st2": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-11-07T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st3": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-10-22T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st4": {
+       "level": 2,
+       "pMastery": 0.4,
+       "lastTestedUtc": "2026-10-26T12:00:00.000Z"
+      }
+     },
+     "gaps": [
+      {
+       "subtopicId": "cbse-g8-science-ch01-st1",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch01-st2",
+       "code": "G3",
+       "level": 2,
+       "hoursToClose": 2.7,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch02-st1",
+       "code": "G3",
+       "level": 2,
+       "hoursToClose": 2.7,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch02-st5",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch03-st2",
+       "code": "G3",
+       "level": 2,
+       "hoursToClose": 2.7,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch03-st3",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch03-st4",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch04-st4",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch05-st2",
+       "code": "G3",
+       "level": 2,
+       "hoursToClose": 2.7,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch05-st3",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch05-st5",
+       "code": "G3",
+       "level": 2,
+       "hoursToClose": 2.7,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch06-st2",
+       "code": "G3",
+       "level": 2,
+       "hoursToClose": 2.7,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch06-st4",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch07-st1",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch07-st4",
+       "code": "G3",
+       "level": 2,
+       "hoursToClose": 2.7,
+       "status": "suspected"
+      }
+     ],
+     "testScores": [
+      {
+       "title": "Chapter check: Exploring the Investigative World of Science",
+       "date": "2026-09-29",
+       "pct": 59
+      },
+      {
+       "title": "Chapter check: The Invisible Living World: Beyond Our Naked Eye",
+       "date": "2026-10-06",
+       "pct": 62
+      },
+      {
+       "title": "Chapter check: Health: The Ultimate Treasure",
+       "date": "2026-10-13",
+       "pct": 65
+      },
+      {
+       "title": "Chapter check: Electricity: Magnetic and Heating Effects",
+       "date": "2026-10-20",
+       "pct": 59
+      },
+      {
+       "title": "Chapter check: Exploring Forces",
+       "date": "2026-10-27",
+       "pct": 64
+      },
+      {
+       "title": "Chapter check: Pressure, Winds, Storms, and Cyclones",
+       "date": "2026-11-03",
+       "pct": 62
+      },
+      {
+       "title": "Chapter check: Particulate Nature of Matter",
+       "date": "2026-11-10",
+       "pct": 65
+      }
+     ]
+    },
+    {
+     "id": "lrn_bg_neel_joshi_cbse_g8_science_a",
+     "name": "Neel Joshi",
+     "mastery": {
+      "cbse-g8-science-ch01-st1": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-10-28T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st2": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st3": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-08T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st1": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-26T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st2": {
+       "level": 5,
+       "pMastery": 0.98,
+       "lastTestedUtc": "2026-10-24T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st3": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-24T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st4": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-10-30T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st5": {
+       "level": 5,
+       "pMastery": 0.98,
+       "lastTestedUtc": "2026-11-01T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st1": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-28T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st2": {
+       "level": 5,
+       "pMastery": 0.95,
+       "lastTestedUtc": "2026-10-22T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st3": {
+       "level": 5,
+       "pMastery": 0.96,
+       "lastTestedUtc": "2026-10-11T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st4": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-10-24T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st1": {
+       "level": 5,
+       "pMastery": 0.96,
+       "lastTestedUtc": "2026-11-13T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st2": {
+       "level": 5,
+       "pMastery": 0.95,
+       "lastTestedUtc": "2026-10-22T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st3": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-11-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st4": {
+       "level": 5,
+       "pMastery": 0.99,
+       "lastTestedUtc": "2026-11-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st1": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-19T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st2": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-18T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st3": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-10-25T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st4": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-02T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st5": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-11-05T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st1": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st2": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-21T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st3": {
+       "level": 5,
+       "pMastery": 0.97,
+       "lastTestedUtc": "2026-10-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st4": {
+       "level": 4,
+       "pMastery": 0.75,
+       "lastTestedUtc": "2026-11-02T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st1": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-03T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st2": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-21T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st3": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st4": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-10-11T12:00:00.000Z"
+      }
+     },
+     "gaps": [],
+     "testScores": [
+      {
+       "title": "Chapter check: Exploring the Investigative World of Science",
+       "date": "2026-09-29",
+       "pct": 89
+      },
+      {
+       "title": "Chapter check: The Invisible Living World: Beyond Our Naked Eye",
+       "date": "2026-10-06",
+       "pct": 86
+      },
+      {
+       "title": "Chapter check: Health: The Ultimate Treasure",
+       "date": "2026-10-13",
+       "pct": 93
+      },
+      {
+       "title": "Chapter check: Electricity: Magnetic and Heating Effects",
+       "date": "2026-10-20",
+       "pct": 99
+      },
+      {
+       "title": "Chapter check: Exploring Forces",
+       "date": "2026-10-27",
+       "pct": 87
+      },
+      {
+       "title": "Chapter check: Pressure, Winds, Storms, and Cyclones",
+       "date": "2026-11-03",
+       "pct": 99
+      },
+      {
+       "title": "Chapter check: Particulate Nature of Matter",
+       "date": "2026-11-10",
+       "pct": 95
+      }
+     ]
+    },
+    {
+     "id": "lrn_bg_manav_gill_cbse_g8_science_a",
+     "name": "Manav Gill",
+     "mastery": {
+      "cbse-g8-science-ch01-st1": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st2": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-06T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st3": {
+       "level": 5,
+       "pMastery": 0.97,
+       "lastTestedUtc": "2026-10-31T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st1": {
+       "level": 5,
+       "pMastery": 0.97,
+       "lastTestedUtc": "2026-11-05T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st2": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-10-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st3": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-10-22T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st4": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-08T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st5": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-04T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st1": {
+       "level": 5,
+       "pMastery": 0.96,
+       "lastTestedUtc": "2026-11-07T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st2": {
+       "level": 5,
+       "pMastery": 0.96,
+       "lastTestedUtc": "2026-11-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st3": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-11-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st4": {
+       "level": 5,
+       "pMastery": 0.96,
+       "lastTestedUtc": "2026-10-24T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st1": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-15T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st2": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-30T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st3": {
+       "level": 5,
+       "pMastery": 0.99,
+       "lastTestedUtc": "2026-11-13T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st4": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-11-04T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st1": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st2": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-03T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st3": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-28T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st4": {
+       "level": 5,
+       "pMastery": 0.96,
+       "lastTestedUtc": "2026-10-20T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st5": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-31T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st1": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-10-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st2": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-25T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st3": {
+       "level": 5,
+       "pMastery": 0.96,
+       "lastTestedUtc": "2026-11-03T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st4": {
+       "level": 5,
+       "pMastery": 0.97,
+       "lastTestedUtc": "2026-10-29T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st1": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-10-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st2": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-10-24T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st3": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-11-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st4": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-19T12:00:00.000Z"
+      }
+     },
+     "gaps": [],
+     "testScores": [
+      {
+       "title": "Chapter check: Exploring the Investigative World of Science",
+       "date": "2026-09-29",
+       "pct": 99
+      },
+      {
+       "title": "Chapter check: The Invisible Living World: Beyond Our Naked Eye",
+       "date": "2026-10-06",
+       "pct": 96
+      },
+      {
+       "title": "Chapter check: Health: The Ultimate Treasure",
+       "date": "2026-10-13",
+       "pct": 99
+      },
+      {
+       "title": "Chapter check: Electricity: Magnetic and Heating Effects",
+       "date": "2026-10-20",
+       "pct": 96
+      },
+      {
+       "title": "Chapter check: Exploring Forces",
+       "date": "2026-10-27",
+       "pct": 93
+      },
+      {
+       "title": "Chapter check: Pressure, Winds, Storms, and Cyclones",
+       "date": "2026-11-03",
+       "pct": 92
+      },
+      {
+       "title": "Chapter check: Particulate Nature of Matter",
+       "date": "2026-11-10",
+       "pct": 94
+      }
+     ]
+    },
+    {
+     "id": "lrn_bg_neel_thomas_cbse_g8_science_a",
+     "name": "Neel Thomas",
+     "mastery": {
+      "cbse-g8-science-ch01-st1": {
+       "level": 3,
+       "pMastery": 0.64,
+       "lastTestedUtc": "2026-10-13T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st2": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-10-18T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st3": {
+       "level": 3,
+       "pMastery": 0.65,
+       "lastTestedUtc": "2026-10-23T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st1": {
+       "level": 3,
+       "pMastery": 0.56,
+       "lastTestedUtc": "2026-11-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st2": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-11-03T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st3": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-11T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st4": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-10-21T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st5": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-07T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st1": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-10-29T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st2": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-11-13T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st3": {
+       "level": 3,
+       "pMastery": 0.63,
+       "lastTestedUtc": "2026-10-11T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st4": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-10-25T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st1": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-10-23T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st2": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-11-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st3": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-10-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st4": {
+       "level": 3,
+       "pMastery": 0.59,
+       "lastTestedUtc": "2026-11-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st1": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-10-21T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st2": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-11-05T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st3": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-10-25T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st4": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-10-28T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st5": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-10-30T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st1": {
+       "level": 3,
+       "pMastery": 0.6,
+       "lastTestedUtc": "2026-11-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st2": {
+       "level": 3,
+       "pMastery": 0.61,
+       "lastTestedUtc": "2026-11-15T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st3": {
+       "level": 3,
+       "pMastery": 0.58,
+       "lastTestedUtc": "2026-11-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st4": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-11-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st1": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-11-06T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st2": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-10-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st3": {
+       "level": 3,
+       "pMastery": 0.58,
+       "lastTestedUtc": "2026-10-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st4": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-02T12:00:00.000Z"
+      }
+     },
+     "gaps": [
+      {
+       "subtopicId": "cbse-g8-science-ch01-st1",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch01-st3",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch06-st3",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      }
+     ],
+     "testScores": [
+      {
+       "title": "Chapter check: Exploring the Investigative World of Science",
+       "date": "2026-09-29",
+       "pct": 70
+      },
+      {
+       "title": "Chapter check: The Invisible Living World: Beyond Our Naked Eye",
+       "date": "2026-10-06",
+       "pct": 80
+      },
+      {
+       "title": "Chapter check: Health: The Ultimate Treasure",
+       "date": "2026-10-13",
+       "pct": 79
+      },
+      {
+       "title": "Chapter check: Electricity: Magnetic and Heating Effects",
+       "date": "2026-10-20",
+       "pct": 74
+      },
+      {
+       "title": "Chapter check: Exploring Forces",
+       "date": "2026-10-27",
+       "pct": 70
+      },
+      {
+       "title": "Chapter check: Pressure, Winds, Storms, and Cyclones",
+       "date": "2026-11-03",
+       "pct": 81
+      },
+      {
+       "title": "Chapter check: Particulate Nature of Matter",
+       "date": "2026-11-10",
+       "pct": 81
+      }
+     ]
+    },
+    {
+     "id": "lrn_bg_pranav_thomas_cbse_g8_science_a",
+     "name": "Pranav Thomas",
+     "mastery": {
+      "cbse-g8-science-ch01-st1": {
+       "level": 3,
+       "pMastery": 0.6,
+       "lastTestedUtc": "2026-11-07T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st2": {
+       "level": 3,
+       "pMastery": 0.58,
+       "lastTestedUtc": "2026-10-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st3": {
+       "level": 2,
+       "pMastery": 0.35,
+       "lastTestedUtc": "2026-11-08T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st1": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-10-23T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st2": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-11-03T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st3": {
+       "level": 3,
+       "pMastery": 0.57,
+       "lastTestedUtc": "2026-10-27T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st4": {
+       "level": 3,
+       "pMastery": 0.61,
+       "lastTestedUtc": "2026-11-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st5": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-11-01T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st1": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-10-20T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st2": {
+       "level": 3,
+       "pMastery": 0.63,
+       "lastTestedUtc": "2026-10-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st3": {
+       "level": 3,
+       "pMastery": 0.59,
+       "lastTestedUtc": "2026-11-03T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st4": {
+       "level": 3,
+       "pMastery": 0.58,
+       "lastTestedUtc": "2026-11-06T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st1": {
+       "level": 3,
+       "pMastery": 0.56,
+       "lastTestedUtc": "2026-10-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st2": {
+       "level": 3,
+       "pMastery": 0.64,
+       "lastTestedUtc": "2026-11-01T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st3": {
+       "level": 3,
+       "pMastery": 0.59,
+       "lastTestedUtc": "2026-10-20T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st4": {
+       "level": 3,
+       "pMastery": 0.58,
+       "lastTestedUtc": "2026-11-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st1": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-11-05T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st2": {
+       "level": 3,
+       "pMastery": 0.58,
+       "lastTestedUtc": "2026-10-19T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st3": {
+       "level": 2,
+       "pMastery": 0.36,
+       "lastTestedUtc": "2026-10-22T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st4": {
+       "level": 3,
+       "pMastery": 0.63,
+       "lastTestedUtc": "2026-10-23T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st5": {
+       "level": 3,
+       "pMastery": 0.63,
+       "lastTestedUtc": "2026-10-26T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st1": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-10-25T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st2": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-11-05T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st3": {
+       "level": 2,
+       "pMastery": 0.38,
+       "lastTestedUtc": "2026-11-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st4": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-10-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st1": {
+       "level": 3,
+       "pMastery": 0.56,
+       "lastTestedUtc": "2026-10-23T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st2": {
+       "level": 2,
+       "pMastery": 0.42,
+       "lastTestedUtc": "2026-10-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st3": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-11-04T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st4": {
+       "level": 3,
+       "pMastery": 0.57,
+       "lastTestedUtc": "2026-11-15T12:00:00.000Z"
+      }
+     },
+     "gaps": [
+      {
+       "subtopicId": "cbse-g8-science-ch01-st3",
+       "code": "G3",
+       "level": 2,
+       "hoursToClose": 2.7,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch02-st3",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch04-st2",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch05-st3",
+       "code": "G3",
+       "level": 2,
+       "hoursToClose": 2.7,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch05-st5",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch06-st3",
+       "code": "G3",
+       "level": 2,
+       "hoursToClose": 2.7,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch07-st2",
+       "code": "G3",
+       "level": 2,
+       "hoursToClose": 2.7,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch07-st4",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      }
+     ],
+     "testScores": [
+      {
+       "title": "Chapter check: Exploring the Investigative World of Science",
+       "date": "2026-09-29",
+       "pct": 75
+      },
+      {
+       "title": "Chapter check: The Invisible Living World: Beyond Our Naked Eye",
+       "date": "2026-10-06",
+       "pct": 59
+      },
+      {
+       "title": "Chapter check: Health: The Ultimate Treasure",
+       "date": "2026-10-13",
+       "pct": 56
+      },
+      {
+       "title": "Chapter check: Electricity: Magnetic and Heating Effects",
+       "date": "2026-10-20",
+       "pct": 56
+      },
+      {
+       "title": "Chapter check: Exploring Forces",
+       "date": "2026-10-27",
+       "pct": 62
+      },
+      {
+       "title": "Chapter check: Pressure, Winds, Storms, and Cyclones",
+       "date": "2026-11-03",
+       "pct": 61
+      },
+      {
+       "title": "Chapter check: Particulate Nature of Matter",
+       "date": "2026-11-10",
+       "pct": 68
+      }
+     ]
+    },
+    {
+     "id": "lrn_bg_manav_banerjee_cbse_g8_science_a",
+     "name": "Manav Banerjee",
+     "mastery": {
+      "cbse-g8-science-ch01-st1": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-10-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st2": {
+       "level": 5,
+       "pMastery": 0.98,
+       "lastTestedUtc": "2026-11-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st3": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-10-27T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st1": {
+       "level": 5,
+       "pMastery": 0.96,
+       "lastTestedUtc": "2026-10-31T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st2": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-10-23T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st3": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st4": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-10-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st5": {
+       "level": 4,
+       "pMastery": 0.85,
+       "lastTestedUtc": "2026-10-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st1": {
+       "level": 5,
+       "pMastery": 0.97,
+       "lastTestedUtc": "2026-11-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st2": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-10-11T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st3": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-11-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st4": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-11-11T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st1": {
+       "level": 4,
+       "pMastery": 0.75,
+       "lastTestedUtc": "2026-10-18T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st2": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-10-13T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st3": {
+       "level": 5,
+       "pMastery": 0.97,
+       "lastTestedUtc": "2026-11-03T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st4": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-11-06T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st1": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-11-01T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st2": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-10-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st3": {
+       "level": 5,
+       "pMastery": 0.97,
+       "lastTestedUtc": "2026-10-20T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st4": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-11-08T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st5": {
+       "level": 5,
+       "pMastery": 0.98,
+       "lastTestedUtc": "2026-10-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st1": {
+       "level": 5,
+       "pMastery": 0.96,
+       "lastTestedUtc": "2026-10-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st2": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-11-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st3": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-05T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st4": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-11-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st1": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-10-21T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st2": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-10-18T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st3": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st4": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-23T12:00:00.000Z"
+      }
+     },
+     "gaps": [],
+     "testScores": [
+      {
+       "title": "Chapter check: Exploring the Investigative World of Science",
+       "date": "2026-09-29",
+       "pct": 88
+      },
+      {
+       "title": "Chapter check: The Invisible Living World: Beyond Our Naked Eye",
+       "date": "2026-10-06",
+       "pct": 81
+      },
+      {
+       "title": "Chapter check: Health: The Ultimate Treasure",
+       "date": "2026-10-13",
+       "pct": 93
+      },
+      {
+       "title": "Chapter check: Electricity: Magnetic and Heating Effects",
+       "date": "2026-10-20",
+       "pct": 81
+      },
+      {
+       "title": "Chapter check: Exploring Forces",
+       "date": "2026-10-27",
+       "pct": 86
+      },
+      {
+       "title": "Chapter check: Pressure, Winds, Storms, and Cyclones",
+       "date": "2026-11-03",
+       "pct": 86
+      },
+      {
+       "title": "Chapter check: Particulate Nature of Matter",
+       "date": "2026-11-10",
+       "pct": 92
+      }
+     ]
+    },
+    {
+     "id": "lrn_bg_meher_kapur_cbse_g8_science_a",
+     "name": "Meher Kapur",
+     "mastery": {
+      "cbse-g8-science-ch01-st1": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-10-25T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st2": {
+       "level": 3,
+       "pMastery": 0.6,
+       "lastTestedUtc": "2026-11-03T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st3": {
+       "level": 3,
+       "pMastery": 0.56,
+       "lastTestedUtc": "2026-10-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st1": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-10-26T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st2": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-11-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st3": {
+       "level": 4,
+       "pMastery": 0.75,
+       "lastTestedUtc": "2026-10-19T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st4": {
+       "level": 4,
+       "pMastery": 0.75,
+       "lastTestedUtc": "2026-11-02T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st5": {
+       "level": 3,
+       "pMastery": 0.63,
+       "lastTestedUtc": "2026-11-07T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st1": {
+       "level": 3,
+       "pMastery": 0.57,
+       "lastTestedUtc": "2026-11-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st2": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-11-01T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st3": {
+       "level": 3,
+       "pMastery": 0.62,
+       "lastTestedUtc": "2026-10-25T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st4": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-11-04T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st1": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-11-04T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st2": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-10-29T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st3": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-10-18T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st4": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-10-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st1": {
+       "level": 3,
+       "pMastery": 0.57,
+       "lastTestedUtc": "2026-11-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st2": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-11-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st3": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-10-30T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st4": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-11-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st5": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-10-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st1": {
+       "level": 3,
+       "pMastery": 0.61,
+       "lastTestedUtc": "2026-10-13T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st2": {
+       "level": 5,
+       "pMastery": 0.97,
+       "lastTestedUtc": "2026-11-05T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st3": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-11-01T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st4": {
+       "level": 3,
+       "pMastery": 0.63,
+       "lastTestedUtc": "2026-11-05T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st1": {
+       "level": 3,
+       "pMastery": 0.59,
+       "lastTestedUtc": "2026-10-22T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st2": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-10-22T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st3": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-11-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st4": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-11-03T12:00:00.000Z"
+      }
+     },
+     "gaps": [
+      {
+       "subtopicId": "cbse-g8-science-ch01-st2",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch03-st1",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch05-st1",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch06-st4",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      }
+     ],
+     "testScores": [
+      {
+       "title": "Chapter check: Exploring the Investigative World of Science",
+       "date": "2026-09-29",
+       "pct": 79
+      },
+      {
+       "title": "Chapter check: The Invisible Living World: Beyond Our Naked Eye",
+       "date": "2026-10-06",
+       "pct": 78
+      },
+      {
+       "title": "Chapter check: Health: The Ultimate Treasure",
+       "date": "2026-10-13",
+       "pct": 74
+      },
+      {
+       "title": "Chapter check: Electricity: Magnetic and Heating Effects",
+       "date": "2026-10-20",
+       "pct": 68
+      },
+      {
+       "title": "Chapter check: Exploring Forces",
+       "date": "2026-10-27",
+       "pct": 78
+      },
+      {
+       "title": "Chapter check: Pressure, Winds, Storms, and Cyclones",
+       "date": "2026-11-03",
+       "pct": 65
+      },
+      {
+       "title": "Chapter check: Particulate Nature of Matter",
+       "date": "2026-11-10",
+       "pct": 75
+      }
+     ]
+    },
+    {
+     "id": "lrn_bg_advait_bajaj_cbse_g8_science_a",
+     "name": "Advait Bajaj",
+     "mastery": {
+      "cbse-g8-science-ch01-st1": {
+       "level": 3,
+       "pMastery": 0.59,
+       "lastTestedUtc": "2026-11-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st2": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-10-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st3": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-10-31T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st1": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-11-05T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st2": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-11-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st3": {
+       "level": 3,
+       "pMastery": 0.58,
+       "lastTestedUtc": "2026-10-25T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st4": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-10-30T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st5": {
+       "level": 3,
+       "pMastery": 0.63,
+       "lastTestedUtc": "2026-10-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st1": {
+       "level": 4,
+       "pMastery": 0.75,
+       "lastTestedUtc": "2026-11-01T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st2": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-11-04T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st3": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-11-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st4": {
+       "level": 3,
+       "pMastery": 0.65,
+       "lastTestedUtc": "2026-11-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st1": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-11-13T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st2": {
+       "level": 3,
+       "pMastery": 0.58,
+       "lastTestedUtc": "2026-11-04T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st3": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-11-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st4": {
+       "level": 3,
+       "pMastery": 0.56,
+       "lastTestedUtc": "2026-10-21T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st1": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-10-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st2": {
+       "level": 3,
+       "pMastery": 0.61,
+       "lastTestedUtc": "2026-10-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st3": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-11-07T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st4": {
+       "level": 4,
+       "pMastery": 0.75,
+       "lastTestedUtc": "2026-10-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st5": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-11-06T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st1": {
+       "level": 3,
+       "pMastery": 0.58,
+       "lastTestedUtc": "2026-10-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st2": {
+       "level": 3,
+       "pMastery": 0.6,
+       "lastTestedUtc": "2026-10-31T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st3": {
+       "level": 3,
+       "pMastery": 0.62,
+       "lastTestedUtc": "2026-10-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st4": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-11-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st1": {
+       "level": 3,
+       "pMastery": 0.59,
+       "lastTestedUtc": "2026-10-13T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st2": {
+       "level": 3,
+       "pMastery": 0.58,
+       "lastTestedUtc": "2026-10-19T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st3": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-11-06T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st4": {
+       "level": 3,
+       "pMastery": 0.59,
+       "lastTestedUtc": "2026-11-02T12:00:00.000Z"
+      }
+     },
+     "gaps": [
+      {
+       "subtopicId": "cbse-g8-science-ch02-st5",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch05-st2",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch06-st1",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch06-st2",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      }
+     ],
+     "testScores": [
+      {
+       "title": "Chapter check: Exploring the Investigative World of Science",
+       "date": "2026-09-29",
+       "pct": 80
+      },
+      {
+       "title": "Chapter check: The Invisible Living World: Beyond Our Naked Eye",
+       "date": "2026-10-06",
+       "pct": 81
+      },
+      {
+       "title": "Chapter check: Health: The Ultimate Treasure",
+       "date": "2026-10-13",
+       "pct": 75
+      },
+      {
+       "title": "Chapter check: Electricity: Magnetic and Heating Effects",
+       "date": "2026-10-20",
+       "pct": 77
+      },
+      {
+       "title": "Chapter check: Exploring Forces",
+       "date": "2026-10-27",
+       "pct": 77
+      },
+      {
+       "title": "Chapter check: Pressure, Winds, Storms, and Cyclones",
+       "date": "2026-11-03",
+       "pct": 83
+      },
+      {
+       "title": "Chapter check: Particulate Nature of Matter",
+       "date": "2026-11-10",
+       "pct": 67
+      }
+     ]
+    },
+    {
+     "id": "lrn_bg_aryan_thomas_cbse_g8_science_a",
+     "name": "Aryan Thomas",
+     "mastery": {
+      "cbse-g8-science-ch01-st1": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-10-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st2": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-10-25T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st3": {
+       "level": 3,
+       "pMastery": 0.55,
+       "lastTestedUtc": "2026-10-28T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st1": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-10-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st2": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-10-19T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st3": {
+       "level": 3,
+       "pMastery": 0.65,
+       "lastTestedUtc": "2026-10-30T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st4": {
+       "level": 3,
+       "pMastery": 0.62,
+       "lastTestedUtc": "2026-11-08T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st5": {
+       "level": 3,
+       "pMastery": 0.56,
+       "lastTestedUtc": "2026-10-26T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st1": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-10-15T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st2": {
+       "level": 3,
+       "pMastery": 0.58,
+       "lastTestedUtc": "2026-10-13T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st3": {
+       "level": 3,
+       "pMastery": 0.58,
+       "lastTestedUtc": "2026-11-07T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st4": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-10-29T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st1": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-11-08T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st2": {
+       "level": 3,
+       "pMastery": 0.6,
+       "lastTestedUtc": "2026-10-20T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st3": {
+       "level": 3,
+       "pMastery": 0.62,
+       "lastTestedUtc": "2026-10-30T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st4": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-10-18T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st1": {
+       "level": 3,
+       "pMastery": 0.58,
+       "lastTestedUtc": "2026-11-10T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st2": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-10-28T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st3": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-11-02T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st4": {
+       "level": 3,
+       "pMastery": 0.64,
+       "lastTestedUtc": "2026-11-02T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st5": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-11-11T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st1": {
+       "level": 3,
+       "pMastery": 0.58,
+       "lastTestedUtc": "2026-10-25T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st2": {
+       "level": 3,
+       "pMastery": 0.6,
+       "lastTestedUtc": "2026-11-07T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st3": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-10-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st4": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-11-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st1": {
+       "level": 3,
+       "pMastery": 0.62,
+       "lastTestedUtc": "2026-10-28T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st2": {
+       "level": 3,
+       "pMastery": 0.65,
+       "lastTestedUtc": "2026-10-11T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st3": {
+       "level": 3,
+       "pMastery": 0.56,
+       "lastTestedUtc": "2026-10-26T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st4": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-10-10T12:00:00.000Z"
+      }
+     },
+     "gaps": [
+      {
+       "subtopicId": "cbse-g8-science-ch03-st2",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch03-st3",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch07-st2",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      }
+     ],
+     "testScores": [
+      {
+       "title": "Chapter check: Exploring the Investigative World of Science",
+       "date": "2026-09-29",
+       "pct": 76
+      },
+      {
+       "title": "Chapter check: The Invisible Living World: Beyond Our Naked Eye",
+       "date": "2026-10-06",
+       "pct": 77
+      },
+      {
+       "title": "Chapter check: Health: The Ultimate Treasure",
+       "date": "2026-10-13",
+       "pct": 66
+      },
+      {
+       "title": "Chapter check: Electricity: Magnetic and Heating Effects",
+       "date": "2026-10-20",
+       "pct": 72
+      },
+      {
+       "title": "Chapter check: Exploring Forces",
+       "date": "2026-10-27",
+       "pct": 76
+      },
+      {
+       "title": "Chapter check: Pressure, Winds, Storms, and Cyclones",
+       "date": "2026-11-03",
+       "pct": 69
+      },
+      {
+       "title": "Chapter check: Particulate Nature of Matter",
+       "date": "2026-11-10",
+       "pct": 68
+      }
+     ]
+    },
+    {
+     "id": "lrn_bg_aryan_grewal_cbse_g8_science_a",
+     "name": "Aryan Grewal",
+     "mastery": {
+      "cbse-g8-science-ch01-st1": {
+       "level": 5,
+       "pMastery": 0.97,
+       "lastTestedUtc": "2026-11-04T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st2": {
+       "level": 5,
+       "pMastery": 0.98,
+       "lastTestedUtc": "2026-11-11T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st3": {
+       "level": 5,
+       "pMastery": 0.96,
+       "lastTestedUtc": "2026-10-27T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st1": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-11-07T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st2": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-11-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st3": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st4": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-10-27T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st5": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-11-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st1": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-28T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st2": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st3": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-11-01T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st4": {
+       "level": 5,
+       "pMastery": 0.98,
+       "lastTestedUtc": "2026-10-25T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st1": {
+       "level": 5,
+       "pMastery": 0.97,
+       "lastTestedUtc": "2026-10-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st2": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-10-30T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st3": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-10-13T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st4": {
+       "level": 5,
+       "pMastery": 0.97,
+       "lastTestedUtc": "2026-11-04T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st1": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-10-20T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st2": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-08T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st3": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st4": {
+       "level": 4,
+       "pMastery": 0.75,
+       "lastTestedUtc": "2026-11-06T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st5": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-11-02T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st1": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st2": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-15T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st3": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-10-19T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st4": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-10-29T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st1": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-23T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st2": {
+       "level": 5,
+       "pMastery": 0.97,
+       "lastTestedUtc": "2026-10-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st3": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st4": {
+       "level": 5,
+       "pMastery": 0.96,
+       "lastTestedUtc": "2026-10-18T12:00:00.000Z"
+      }
+     },
+     "gaps": [],
+     "testScores": [
+      {
+       "title": "Chapter check: Exploring the Investigative World of Science",
+       "date": "2026-09-29",
+       "pct": 99
+      },
+      {
+       "title": "Chapter check: The Invisible Living World: Beyond Our Naked Eye",
+       "date": "2026-10-06",
+       "pct": 99
+      },
+      {
+       "title": "Chapter check: Health: The Ultimate Treasure",
+       "date": "2026-10-13",
+       "pct": 99
+      },
+      {
+       "title": "Chapter check: Electricity: Magnetic and Heating Effects",
+       "date": "2026-10-20",
+       "pct": 90
+      },
+      {
+       "title": "Chapter check: Exploring Forces",
+       "date": "2026-10-27",
+       "pct": 90
+      },
+      {
+       "title": "Chapter check: Pressure, Winds, Storms, and Cyclones",
+       "date": "2026-11-03",
+       "pct": 93
+      },
+      {
+       "title": "Chapter check: Particulate Nature of Matter",
+       "date": "2026-11-10",
+       "pct": 88
+      }
+     ]
+    },
+    {
+     "id": "lrn_bg_diya_iyer_cbse_g8_science_a",
+     "name": "Diya Iyer",
+     "mastery": {
+      "cbse-g8-science-ch01-st1": {
+       "level": 4,
+       "pMastery": 0.83,
+       "lastTestedUtc": "2026-10-30T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st2": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-10-23T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st3": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-11-04T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st1": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-19T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st2": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st3": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-11-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st4": {
+       "level": 5,
+       "pMastery": 0.96,
+       "lastTestedUtc": "2026-11-15T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st5": {
+       "level": 5,
+       "pMastery": 0.99,
+       "lastTestedUtc": "2026-10-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st1": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-07T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st2": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-11-16T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st3": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-01T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st4": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-13T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st1": {
+       "level": 5,
+       "pMastery": 0.98,
+       "lastTestedUtc": "2026-11-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st2": {
+       "level": 5,
+       "pMastery": 0.98,
+       "lastTestedUtc": "2026-11-11T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st3": {
+       "level": 5,
+       "pMastery": 0.99,
+       "lastTestedUtc": "2026-11-13T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st4": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-10-28T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st1": {
+       "level": 5,
+       "pMastery": 0.96,
+       "lastTestedUtc": "2026-10-24T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st2": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-11-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st3": {
+       "level": 5,
+       "pMastery": 0.95,
+       "lastTestedUtc": "2026-10-22T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st4": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-18T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st5": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-11T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st1": {
+       "level": 5,
+       "pMastery": 0.97,
+       "lastTestedUtc": "2026-10-31T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st2": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-05T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st3": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-10-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st4": {
+       "level": 5,
+       "pMastery": 0.98,
+       "lastTestedUtc": "2026-10-17T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st1": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-11-02T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st2": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-04T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st3": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-10-28T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st4": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-10-09T12:00:00.000Z"
+      }
+     },
+     "gaps": [],
+     "testScores": [
+      {
+       "title": "Chapter check: Exploring the Investigative World of Science",
+       "date": "2026-09-29",
+       "pct": 89
+      },
+      {
+       "title": "Chapter check: The Invisible Living World: Beyond Our Naked Eye",
+       "date": "2026-10-06",
+       "pct": 91
+      },
+      {
+       "title": "Chapter check: Health: The Ultimate Treasure",
+       "date": "2026-10-13",
+       "pct": 93
+      },
+      {
+       "title": "Chapter check: Electricity: Magnetic and Heating Effects",
+       "date": "2026-10-20",
+       "pct": 92
+      },
+      {
+       "title": "Chapter check: Exploring Forces",
+       "date": "2026-10-27",
+       "pct": 83
+      },
+      {
+       "title": "Chapter check: Pressure, Winds, Storms, and Cyclones",
+       "date": "2026-11-03",
+       "pct": 95
+      },
+      {
+       "title": "Chapter check: Particulate Nature of Matter",
+       "date": "2026-11-10",
+       "pct": 99
+      }
+     ]
+    },
+    {
+     "id": "lrn_bg_tanvi_joshi_cbse_g8_science_a",
+     "name": "Tanvi Joshi",
+     "mastery": {
+      "cbse-g8-science-ch01-st1": {
+       "level": 5,
+       "pMastery": 0.97,
+       "lastTestedUtc": "2026-10-19T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st2": {
+       "level": 3,
+       "pMastery": 0.62,
+       "lastTestedUtc": "2026-10-27T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch01-st3": {
+       "level": 4,
+       "pMastery": 0.75,
+       "lastTestedUtc": "2026-11-12T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st1": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-10-21T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st2": {
+       "level": 3,
+       "pMastery": 0.63,
+       "lastTestedUtc": "2026-10-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st3": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-10-19T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st4": {
+       "level": 3,
+       "pMastery": 0.65,
+       "lastTestedUtc": "2026-11-04T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch02-st5": {
+       "level": 3,
+       "pMastery": 0.62,
+       "lastTestedUtc": "2026-11-03T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st1": {
+       "level": 3,
+       "pMastery": 0.57,
+       "lastTestedUtc": "2026-10-30T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st2": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-11-05T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st3": {
+       "level": 5,
+       "pMastery": 1,
+       "lastTestedUtc": "2026-11-05T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch03-st4": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-10-20T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st1": {
+       "level": 3,
+       "pMastery": 0.59,
+       "lastTestedUtc": "2026-11-03T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st2": {
+       "level": 3,
+       "pMastery": 0.57,
+       "lastTestedUtc": "2026-11-03T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st3": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-10-28T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch04-st4": {
+       "level": 3,
+       "pMastery": 0.59,
+       "lastTestedUtc": "2026-10-26T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st1": {
+       "level": 3,
+       "pMastery": 0.62,
+       "lastTestedUtc": "2026-11-04T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st2": {
+       "level": 4,
+       "pMastery": 0.84,
+       "lastTestedUtc": "2026-10-21T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st3": {
+       "level": 4,
+       "pMastery": 0.82,
+       "lastTestedUtc": "2026-10-15T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st4": {
+       "level": 4,
+       "pMastery": 0.76,
+       "lastTestedUtc": "2026-10-27T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch05-st5": {
+       "level": 4,
+       "pMastery": 0.81,
+       "lastTestedUtc": "2026-10-18T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st1": {
+       "level": 4,
+       "pMastery": 0.79,
+       "lastTestedUtc": "2026-11-06T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st2": {
+       "level": 3,
+       "pMastery": 0.61,
+       "lastTestedUtc": "2026-11-06T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st3": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-10-26T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch06-st4": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-10-14T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st1": {
+       "level": 4,
+       "pMastery": 0.78,
+       "lastTestedUtc": "2026-11-06T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st2": {
+       "level": 4,
+       "pMastery": 0.8,
+       "lastTestedUtc": "2026-11-09T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st3": {
+       "level": 4,
+       "pMastery": 0.77,
+       "lastTestedUtc": "2026-10-21T12:00:00.000Z"
+      },
+      "cbse-g8-science-ch07-st4": {
+       "level": 3,
+       "pMastery": 0.6,
+       "lastTestedUtc": "2026-11-17T12:00:00.000Z"
+      }
+     },
+     "gaps": [
+      {
+       "subtopicId": "cbse-g8-science-ch01-st2",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch02-st4",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch02-st5",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch03-st1",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch04-st2",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch05-st1",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      },
+      {
+       "subtopicId": "cbse-g8-science-ch06-st2",
+       "code": "G5",
+       "level": 3,
+       "hoursToClose": 1.8,
+       "status": "suspected"
+      }
+     ],
+     "testScores": [
+      {
+       "title": "Chapter check: Exploring the Investigative World of Science",
+       "date": "2026-09-29",
+       "pct": 73
+      },
+      {
+       "title": "Chapter check: The Invisible Living World: Beyond Our Naked Eye",
+       "date": "2026-10-06",
+       "pct": 65
+      },
+      {
+       "title": "Chapter check: Health: The Ultimate Treasure",
+       "date": "2026-10-13",
+       "pct": 83
+      },
+      {
+       "title": "Chapter check: Electricity: Magnetic and Heating Effects",
+       "date": "2026-10-20",
+       "pct": 79
+      },
+      {
+       "title": "Chapter check: Exploring Forces",
+       "date": "2026-10-27",
+       "pct": 70
+      },
+      {
+       "title": "Chapter check: Pressure, Winds, Storms, and Cyclones",
+       "date": "2026-11-03",
+       "pct": 84
+      },
+      {
+       "title": "Chapter check: Particulate Nature of Matter",
+       "date": "2026-11-10",
+       "pct": 79
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

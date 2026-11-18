@@ -1,0 +1,409 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/personas/simulate.ts",
+ "items": [
+  {
+   "id": "app_nikhil_leeds",
+   "learnerId": "lrn_nikhil_reddy",
+   "universityId": "uni-uk-leeds",
+   "programmeId": "uni-uk-leeds-bsc-accounting-finance",
+   "routeType": "ucas_equal_consideration",
+   "status": "collecting_documents",
+   "fitGroup": "target",
+   "deadline": "2026-11-28",
+   "counsellorId": "csl_farah_siddiqui",
+   "checklist": [
+    {
+     "id": "chk_leeds_1",
+     "title": "Predicted grades from school",
+     "kind": "document",
+     "done": true
+    },
+    {
+     "id": "chk_leeds_2",
+     "title": "IGCSE and AS transcript",
+     "kind": "document",
+     "done": true
+    },
+    {
+     "id": "chk_leeds_3",
+     "title": "IELTS Academic 7.0 score report",
+     "kind": "test_score",
+     "done": true
+    },
+    {
+     "id": "chk_leeds_4",
+     "title": "UCAS personal statement final",
+     "kind": "essay",
+     "done": false,
+     "dueOn": "2026-11-24"
+    },
+    {
+     "id": "chk_leeds_5",
+     "title": "School reference uploaded to UCAS",
+     "kind": "recommendation",
+     "done": false,
+     "dueOn": "2026-11-26"
+    },
+    {
+     "id": "chk_leeds_6",
+     "title": "UCAS form: education, employment and choices completed",
+     "kind": "form",
+     "done": false,
+     "dueOn": "2026-11-27"
+    },
+    {
+     "id": "chk_leeds_7",
+     "title": "UCAS application fee (£28.95)",
+     "kind": "fee",
+     "done": false,
+     "dueOn": "2026-11-27"
+    }
+   ],
+   "recommenders": [
+    {
+     "id": "rec_leeds_1",
+     "name": "Ms Priya Raman",
+     "role": "Accounting teacher, school UCAS referee",
+     "status": "drafting",
+     "requestedOn": "2026-10-20",
+     "dueOn": "2026-11-25"
+    }
+   ],
+   "essays": [
+    {
+     "id": "ess_nikhil_ucas_ps",
+     "prompt": "UCAS personal statement: why this course; how your learning has prepared you; experiences outside education (4,000 characters, shared by all UK choices)",
+     "wordLimit": 650,
+     "status": "in_review",
+     "versions": [
+      {
+       "version": 1,
+       "text": "Ever since I was twelve, I have been passionate about business and how companies make money. My father runs a small pharmaceutical distribution firm in Hyderabad, and I grew up listening to conversations about credit periods, stock levels and margins at the dinner table, which made me really curious about the numbers behind every decision that a business makes.\n\nStudying A level Accounting has taught me many things. I learned double-entry bookkeeping, how to prepare financial statements, and how ratios can tell a story about a company. In Economics I enjoyed market structures and the theory of the firm. Business has shown me how strategy and finance connect.\n\nOutside school I have done various activities. I was treasurer of the school commerce club, I took part in a stock market simulation, and I completed an online course in Excel for finance. I also helped my father's firm during the summer.\n\nI want to study Accounting and Finance because I want to become a chartered accountant and later work in corporate finance. I believe that the University of Leeds will give me the right skills and opportunities to reach my goals, and I am excited to contribute to the university community.",
+       "createdAt": "2026-10-28T10:00:00Z"
+      },
+      {
+       "version": 2,
+       "text": "Last May, I spent three weeks reconciling eleven months of unpaid invoices at my father's pharmaceutical distribution firm in Hyderabad. The ledgers said the business was profitable; the bank balance said otherwise. Tracing the gap to forty-two days of average credit given to pharmacies, against fifteen days we received from manufacturers, was the first time accounting felt less like a subject and more like a way of seeing. I want to study Accounting and Finance because I want to understand, and eventually fix, the distance between what a business earns and the cash it actually has.\n\nA level Accounting gave me the tools to describe that problem. Working through cash-flow statements made me realise that profit is an opinion and cash is a fact, a line my teacher repeats and I now repeat to my friends. I went beyond the syllabus to read about working-capital management, and rebuilt the firm's receivables schedule in a spreadsheet that flags any pharmacy past thirty days. My father now uses it every Monday. In Economics, the theory of the firm helped me see why small distributors accept such long credit terms: they are competing on trust, not price. Business Studies connected both, especially when we analysed how Indian start-ups burn cash to buy market share.\n\nOutside the classroom I was treasurer of our commerce club for two years, which meant managing the budget for our inter-school fest and presenting audited accounts to the principal. Running a team of five for our school's stock market simulation taught me that a good spreadsheet is useless if the people using it do not trust it, so I learned to explain my numbers simply. I also completed the Corporate Finance Institute's Excel for Finance course and am now preparing for the ACCA Foundations in Accountancy.\n\nI am drawn to a degree that is accredited by professional bodies and that teaches financial reporting alongside data analysis, because I want to train as a chartered accountant and later move into corporate finance in India's growing healthcare sector. I would bring curiosity, patience with messy data and a habit of asking where the cash went.",
+       "createdAt": "2026-11-14T09:25:00Z"
+      }
+     ],
+     "comments": [
+      {
+       "id": "cmt_nikhil_ps_1",
+       "version": 1,
+       "authorId": null,
+       "kind": "ai",
+       "anchor": {
+        "start": 0,
+        "end": 62,
+        "quote": "Ever since I was twelve, I have been passionate about business"
+       },
+       "text": "Admissions readers see this opening often. Start inside a specific moment instead, then zoom out.",
+       "resolved": true,
+       "createdAt": "2026-10-28T10:05:00Z"
+      },
+      {
+       "id": "cmt_nikhil_ps_2",
+       "version": 1,
+       "authorId": null,
+       "kind": "ai",
+       "anchor": {
+        "start": 365,
+        "end": 419,
+        "quote": "Studying A level Accounting has taught me many things."
+       },
+       "text": "Vague plural. Name one of them and show what it taught you.",
+       "resolved": true,
+       "createdAt": "2026-10-28T10:05:00Z"
+      },
+      {
+       "id": "cmt_nikhil_ps_3",
+       "version": 1,
+       "authorId": "csl_farah_siddiqui",
+       "kind": "human",
+       "anchor": {
+        "start": 857,
+        "end": 906,
+        "quote": "I also helped my father's firm during the summer."
+       },
+       "text": "This is your strongest material and it is hidden in one line. Open with it: what exactly did you do at the firm, and what did you find?",
+       "resolved": true,
+       "createdAt": "2026-10-29T06:40:00Z"
+      },
+      {
+       "id": "cmt_nikhil_ps_3r",
+       "version": 1,
+       "authorId": "lrn_nikhil_reddy",
+       "kind": "human",
+       "text": "Makes sense. I reconciled the invoices in May, will start with that.",
+       "resolved": true,
+       "createdAt": "2026-10-29T14:12:00Z",
+       "parentId": "cmt_nikhil_ps_3"
+      },
+      {
+       "id": "cmt_nikhil_ps_4",
+       "version": 1,
+       "authorId": "csl_farah_siddiqui",
+       "kind": "human",
+       "anchor": {
+        "start": 1032,
+        "end": 1083,
+        "quote": "I believe that the University of Leeds will give me"
+       },
+       "text": "Remember this statement goes to all five UCAS choices. Do not name Leeds; write about the kind of course instead.",
+       "resolved": true,
+       "createdAt": "2026-10-29T06:42:00Z"
+      },
+      {
+       "id": "cmt_nikhil_ps_5",
+       "version": 2,
+       "authorId": null,
+       "kind": "ai",
+       "anchor": {
+        "start": 654,
+        "end": 751,
+        "quote": "Working through cash-flow statements made me realise that profit is an opinion and cash is a fact"
+       },
+       "text": "Good reflection. Back it with the concrete example that taught you this.",
+       "resolved": true,
+       "createdAt": "2026-11-14T09:30:00Z"
+      },
+      {
+       "id": "cmt_nikhil_ps_6",
+       "version": 2,
+       "authorId": "csl_farah_siddiqui",
+       "kind": "human",
+       "anchor": {
+        "start": 1791,
+        "end": 1855,
+        "quote": "I am drawn to a degree that is accredited by professional bodies"
+       },
+       "text": "The ending is still general. Name one module type you want (for example forensic accounting or financial data analytics) and link it back to the receivables problem from your opening.",
+       "resolved": false,
+       "createdAt": "2026-11-16T07:15:00Z"
+      },
+      {
+       "id": "cmt_nikhil_ps_7",
+       "version": 2,
+       "authorId": "csl_farah_siddiqui",
+       "kind": "human",
+       "anchor": {
+        "start": 753,
+        "end": 809,
+        "quote": "a line my teacher repeats and I now repeat to my friends"
+       },
+       "text": "Cut this clause; it uses words you need for the ending.",
+       "resolved": false,
+       "createdAt": "2026-11-16T07:17:00Z"
+      }
+     ]
+    }
+   ],
+   "updatedUtc": "2026-11-16T07:17:00Z"
+  },
+  {
+   "id": "app_nikhil_warwick",
+   "learnerId": "lrn_nikhil_reddy",
+   "universityId": "uni-uk-warwick",
+   "programmeId": "uni-uk-warwick-bsc-accounting-finance",
+   "routeType": "ucas_equal_consideration",
+   "status": "shortlisted",
+   "fitGroup": "reach",
+   "deadline": "2027-01-13",
+   "counsellorId": "csl_farah_siddiqui",
+   "checklist": [
+    {
+     "id": "chk_war_1",
+     "title": "Decide: Warwick or a fifth safer UK choice",
+     "kind": "form",
+     "done": false,
+     "dueOn": "2026-11-25"
+    },
+    {
+     "id": "chk_war_2",
+     "title": "Check Maths A level requirement (AAA incl. Maths)",
+     "kind": "form",
+     "done": false
+    }
+   ],
+   "recommenders": [],
+   "essays": [],
+   "updatedUtc": "2026-11-10T08:00:00Z"
+  },
+  {
+   "id": "app_nikhil_lse",
+   "learnerId": "lrn_nikhil_reddy",
+   "universityId": "uni-uk-lse",
+   "programmeId": "uni-uk-lse-bsc-management",
+   "routeType": "ucas_equal_consideration",
+   "status": "shortlisted",
+   "fitGroup": "reach",
+   "deadline": "2027-01-13",
+   "counsellorId": "csl_farah_siddiqui",
+   "checklist": [
+    {
+     "id": "chk_lse_1",
+     "title": "Talk through LSE as a reach with Farah",
+     "kind": "form",
+     "done": false
+    }
+   ],
+   "recommenders": [],
+   "essays": [],
+   "updatedUtc": "2026-11-05T08:00:00Z"
+  },
+  {
+   "id": "app_nikhil_toronto",
+   "learnerId": "lrn_nikhil_reddy",
+   "universityId": "uni-ca-toronto",
+   "programmeId": "uni-ca-toronto-bcom-rotman",
+   "routeType": "ouac",
+   "status": "in_review",
+   "fitGroup": "reach",
+   "deadline": "2027-01-15",
+   "counsellorId": "csl_farah_siddiqui",
+   "checklist": [
+    {
+     "id": "chk_tor_1",
+     "title": "OUAC 105 form",
+     "kind": "form",
+     "done": true
+    },
+    {
+     "id": "chk_tor_2",
+     "title": "Transcript sent by school",
+     "kind": "document",
+     "done": true
+    },
+    {
+     "id": "chk_tor_3",
+     "title": "IELTS score sent to U of T",
+     "kind": "test_score",
+     "done": true
+    },
+    {
+     "id": "chk_tor_4",
+     "title": "Rotman Commerce supplementary answers",
+     "kind": "essay",
+     "done": false,
+     "dueOn": "2027-01-10"
+    },
+    {
+     "id": "chk_tor_5",
+     "title": "Rotman Commerce supplementary portal account",
+     "kind": "form",
+     "done": true
+    }
+   ],
+   "recommenders": [],
+   "essays": [
+    {
+     "id": "ess_nikhil_rotman",
+     "prompt": "Rotman Commerce supplementary: tell us about a time you took initiative, and why Rotman Commerce (250 words each)",
+     "wordLimit": 250,
+     "status": "in_review",
+     "versions": [
+      {
+       "version": 1,
+       "text": "When our commerce club's fest ran over budget in Grade 11, I volunteered to find out why. Rather than cut events, I compared every vendor quote with the previous year's actual spend and found that we had paid for sound equipment twice. We recovered the money and I wrote the club's first purchasing checklist, which the next committee still uses.\n\nThat experience is why Rotman Commerce appeals to me. I want a programme that treats accounting and finance as tools for decisions, not just reports, and the Rotman Commerce Accounting specialist stream, with its path to the CPA designation, matches the career I am planning.",
+       "createdAt": "2026-11-12T10:50:00Z"
+      }
+     ],
+     "comments": [
+      {
+       "id": "cmt_nikhil_rot_1",
+       "version": 1,
+       "authorId": null,
+       "kind": "ai",
+       "anchor": {
+        "start": 348,
+        "end": 401,
+        "quote": "That experience is why Rotman Commerce appeals to me."
+       },
+       "text": "A \"why us\" answer needs one more detail only this programme has. You name the Accounting stream; add a course, club or the co-op option.",
+       "resolved": false,
+       "createdAt": "2026-11-12T11:00:00Z"
+      }
+     ]
+    }
+   ],
+   "updatedUtc": "2026-11-12T11:00:00Z"
+  },
+  {
+   "id": "app_nikhil_mcmaster",
+   "learnerId": "lrn_nikhil_reddy",
+   "universityId": "uni-ca-mcmaster",
+   "programmeId": "uni-ca-mcmaster-bcom",
+   "routeType": "ouac",
+   "status": "submitted",
+   "fitGroup": "target",
+   "deadline": "2027-01-15",
+   "counsellorId": "csl_farah_siddiqui",
+   "checklist": [
+    {
+     "id": "chk_mac_1",
+     "title": "OUAC 105 form",
+     "kind": "form",
+     "done": true
+    },
+    {
+     "id": "chk_mac_2",
+     "title": "Transcript sent by school",
+     "kind": "document",
+     "done": true
+    },
+    {
+     "id": "chk_mac_3",
+     "title": "IELTS score sent",
+     "kind": "test_score",
+     "done": true
+    },
+    {
+     "id": "chk_mac_4",
+     "title": "Supplementary application",
+     "kind": "essay",
+     "done": true
+    }
+   ],
+   "recommenders": [],
+   "essays": [],
+   "updatedUtc": "2026-11-03T12:00:00Z"
+  },
+  {
+   "id": "app_nikhil_york",
+   "learnerId": "lrn_nikhil_reddy",
+   "universityId": "uni-ca-york",
+   "programmeId": "uni-ca-york-bba-schulich",
+   "routeType": "ouac",
+   "status": "decision",
+   "fitGroup": "safe",
+   "deadline": "2027-02-01",
+   "decision": "conditional_offer",
+   "counsellorId": "csl_farah_siddiqui",
+   "checklist": [
+    {
+     "id": "chk_york_1",
+     "title": "OUAC 105 form",
+     "kind": "form",
+     "done": true
+    },
+    {
+     "id": "chk_york_2",
+     "title": "Transcript",
+     "kind": "document",
+     "done": true
+    },
+    {
+     "id": "chk_york_3",
+     "title": "Schulich supplementary and video interview",
+     "kind": "essay",
+     "done": true
+    }
+   ],
+   "recommenders": [],
+   "essays": [],
+   "updatedUtc": "2026-11-15T15:00:00Z"
+  }
+ ]
+}

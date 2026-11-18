@@ -1,0 +1,3015 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/personas/simulate.ts",
+ "items": [
+  {
+   "eventId": "evt_lrn_diya_sharma_onboarding_form",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-04-06T04:30:00.000Z",
+   "sourceMethod": "M2",
+   "type": "onboarding_form",
+   "payload": {
+    "parameterIds": [
+     "p1",
+     "p2",
+     "p3",
+     "p5",
+     "p31",
+     "p178",
+     "p180",
+     "p193",
+     "p212",
+     "p230",
+     "p163",
+     "p150",
+     "p25",
+     "p200",
+     "p4",
+     "p6",
+     "p7",
+     "p9",
+     "p10",
+     "p11",
+     "p12",
+     "p13",
+     "p14",
+     "p15",
+     "p16",
+     "p17",
+     "p18",
+     "p19",
+     "p21",
+     "p22",
+     "p23",
+     "p24",
+     "p26",
+     "p27",
+     "p28",
+     "p32",
+     "p33",
+     "p34",
+     "p35",
+     "p36",
+     "p37",
+     "p38",
+     "p39",
+     "p40",
+     "p41",
+     "p42",
+     "p43",
+     "p44",
+     "p45",
+     "p46",
+     "p47",
+     "p48",
+     "p49",
+     "p50",
+     "p51",
+     "p52",
+     "p53",
+     "p54",
+     "p55",
+     "p56",
+     "p57",
+     "p58",
+     "p59",
+     "p63",
+     "p66",
+     "p69",
+     "p72",
+     "p78",
+     "p81",
+     "p90",
+     "p99",
+     "p105",
+     "p108",
+     "p123",
+     "p126",
+     "p129",
+     "p132",
+     "p135",
+     "p138",
+     "p141",
+     "p144",
+     "p147",
+     "p153",
+     "p156",
+     "p159",
+     "p165",
+     "p168",
+     "p171",
+     "p174",
+     "p177",
+     "p183",
+     "p186",
+     "p189",
+     "p192",
+     "p195",
+     "p198",
+     "p201",
+     "p204",
+     "p207",
+     "p210",
+     "p213",
+     "p216",
+     "p219",
+     "p222",
+     "p225",
+     "p228",
+     "p231",
+     "p234",
+     "p237",
+     "p240",
+     "p243",
+     "p246"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_lrn_diya_sharma_signup",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-04-06T04:30:00.000Z",
+   "sourceMethod": "M1",
+   "type": "account_created",
+   "payload": {
+    "parameterIds": [
+     "p1",
+     "p2",
+     "p3"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_001",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-04-06T16:29:51.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_001",
+    "kind": "onboarding",
+    "subjectId": "cbse-g12-biology",
+    "score": 154,
+    "maxScore": 221,
+    "gaps": [],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_002",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-05-14T12:59:51.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_002",
+    "kind": "chapter_check",
+    "subjectId": "cbse-g12-biology",
+    "score": 41,
+    "maxScore": 47,
+    "gaps": [
+     "G3:cbse-g12-biology-ch01-st2",
+     "G5:cbse-g12-biology-ch01-st3",
+     "G4:cbse-g12-biology-ch01-st1",
+     "G4:cbse-g12-biology-ch01-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_003",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-05-16T05:29:51.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_003",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-biology",
+    "score": 36,
+    "maxScore": 47,
+    "gaps": [
+     "G1:cbse-g12-biology-ch01-st4",
+     "G5:cbse-g12-biology-ch01-st2",
+     "G4:cbse-g12-biology-ch01-st3",
+     "G4:cbse-g12-biology-ch01-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_004",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-05-21T11:44:42.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_004",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-biology",
+    "score": 12,
+    "maxScore": 12,
+    "gaps": [
+     "G4:cbse-g12-biology-ch01-st1",
+     "G5:cbse-g12-biology-ch01-st2",
+     "G4:cbse-g12-biology-ch01-st3",
+     "G1:cbse-g12-biology-ch01-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_005",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-05-22T13:21:22.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_005",
+    "kind": "chapter_check",
+    "subjectId": "cbse-g12-physics",
+    "score": 36,
+    "maxScore": 58,
+    "gaps": [
+     "G5:cbse-g12-physics-ch01-st3",
+     "G4:cbse-g12-physics-ch01-st4",
+     "G4:cbse-g12-physics-ch01-st2",
+     "G4:cbse-g12-physics-ch01-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_006",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-05-23T04:58:21.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_006",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-biology",
+    "score": 21,
+    "maxScore": 22,
+    "gaps": [
+     "G5:cbse-g12-biology-ch01-st2",
+     "G1:cbse-g12-biology-ch01-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_007",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-05-23T05:51:22.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_007",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-physics",
+    "score": 44,
+    "maxScore": 58,
+    "gaps": [
+     "G1:cbse-g12-physics-ch01-st4",
+     "G2:cbse-g12-physics-ch01-st2",
+     "G5:cbse-g12-physics-ch01-st3",
+     "G4:cbse-g12-physics-ch01-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_008",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-05-26T13:00:54.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_008",
+    "kind": "chapter_check",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 43,
+    "maxScore": 47,
+    "gaps": [
+     "G4:cbse-g12-chemistry-ch01-st3",
+     "G4:cbse-g12-chemistry-ch01-st4",
+     "G4:cbse-g12-chemistry-ch01-st1",
+     "G4:cbse-g12-chemistry-ch01-st2"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_009",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-05-29T11:46:48.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_009",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-physics",
+    "score": 10,
+    "maxScore": 12,
+    "gaps": [
+     "G6:cbse-g12-physics-ch01-st1",
+     "G2:cbse-g12-physics-ch01-st2",
+     "G5:cbse-g12-physics-ch01-st3",
+     "G1:cbse-g12-physics-ch01-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_010",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-05-30T05:30:54.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_010",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 30,
+    "maxScore": 47,
+    "gaps": [
+     "G1:cbse-g12-chemistry-ch01-st2",
+     "G2:cbse-g12-chemistry-ch01-st4",
+     "G2:cbse-g12-chemistry-ch01-st1",
+     "G5:cbse-g12-chemistry-ch01-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_012",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-05-30T05:34:12.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_012",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-physics",
+    "score": 3,
+    "maxScore": 3,
+    "gaps": [
+     "G6:cbse-g12-physics-ch01-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_011",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-05-30T05:42:27.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_011",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-physics",
+    "score": 39,
+    "maxScore": 51,
+    "gaps": [
+     "G5:cbse-g12-physics-ch01-st4",
+     "G6:cbse-g12-physics-ch01-st3",
+     "G2:cbse-g12-physics-ch01-st2"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_013",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-06-02T11:46:48.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_013",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 4,
+    "maxScore": 12,
+    "gaps": [
+     "G2:cbse-g12-chemistry-ch01-st1",
+     "G1:cbse-g12-chemistry-ch01-st2",
+     "G5:cbse-g12-chemistry-ch01-st3",
+     "G2:cbse-g12-chemistry-ch01-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_015",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-06-06T04:57:18.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_015",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-physics",
+    "score": 19,
+    "maxScore": 19,
+    "gaps": [
+     "G5:cbse-g12-physics-ch01-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_014",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-06-06T05:30:54.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_014",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 41,
+    "maxScore": 47,
+    "gaps": [
+     "G5:cbse-g12-chemistry-ch01-st1",
+     "G6:cbse-g12-chemistry-ch01-st3",
+     "G6:cbse-g12-chemistry-ch01-st4",
+     "G6:cbse-g12-chemistry-ch01-st2"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_016",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-06-06T05:34:12.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_016",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-physics",
+    "score": 1,
+    "maxScore": 3,
+    "gaps": [
+     "G6:cbse-g12-physics-ch01-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_017",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-06-11T13:01:57.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_017",
+    "kind": "chapter_check",
+    "subjectId": "cbse-g12-biology",
+    "score": 43,
+    "maxScore": 48,
+    "gaps": [
+     "G3:cbse-g12-biology-ch02-st4",
+     "G4:cbse-g12-biology-ch02-st2",
+     "G4:cbse-g12-biology-ch02-st3",
+     "G4:cbse-g12-biology-ch02-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_019",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-06-13T04:43:07.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_019",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 10,
+    "maxScore": 10,
+    "gaps": [
+     "G6:cbse-g12-chemistry-ch01-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_018",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-06-13T05:31:57.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_018",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-biology",
+    "score": 45,
+    "maxScore": 48,
+    "gaps": [
+     "G2:cbse-g12-biology-ch02-st2",
+     "G4:cbse-g12-biology-ch02-st3",
+     "G4:cbse-g12-biology-ch02-st1",
+     "G4:cbse-g12-biology-ch02-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_021",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-06-13T05:34:12.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_021",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-physics",
+    "score": 2,
+    "maxScore": 3,
+    "gaps": [
+     "G6:cbse-g12-physics-ch01-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_020",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-06-13T05:42:04.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_020",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 6,
+    "maxScore": 9,
+    "gaps": [
+     "G6:cbse-g12-chemistry-ch01-st2",
+     "G6:cbse-g12-chemistry-ch01-st3",
+     "G6:cbse-g12-chemistry-ch01-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_022",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-06-18T11:44:42.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_022",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-biology",
+    "score": 10,
+    "maxScore": 12,
+    "gaps": [
+     "G4:cbse-g12-biology-ch02-st1",
+     "G2:cbse-g12-biology-ch02-st2",
+     "G6:cbse-g12-biology-ch02-st3",
+     "G4:cbse-g12-biology-ch02-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_023",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-06-20T04:48:22.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_023",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-biology",
+    "score": 11,
+    "maxScore": 14,
+    "gaps": [
+     "G1:cbse-g12-biology-ch02-st2"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_024",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-06-20T05:33:40.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_024",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-biology",
+    "score": 2,
+    "maxScore": 3,
+    "gaps": [
+     "G6:cbse-g12-biology-ch02-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_026",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-06-20T05:34:12.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_026",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-physics",
+    "score": 3,
+    "maxScore": 3,
+    "gaps": [
+     "G4:cbse-g12-physics-ch01-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_025",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-06-20T05:42:04.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_025",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 9,
+    "maxScore": 9,
+    "gaps": [
+     "G6:cbse-g12-chemistry-ch01-st1",
+     "G6:cbse-g12-chemistry-ch01-st2",
+     "G4:cbse-g12-chemistry-ch01-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_027",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-06-26T13:35:33.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_027",
+    "kind": "chapter_check",
+    "subjectId": "cbse-g12-physics",
+    "score": 42,
+    "maxScore": 68,
+    "gaps": [
+     "G2:cbse-g12-physics-ch02-st1",
+     "G2:cbse-g12-physics-ch02-st2",
+     "G5:cbse-g12-physics-ch02-st4",
+     "G5:cbse-g12-physics-ch02-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_030",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-06-27T04:46:16.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_030",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 13,
+    "maxScore": 13,
+    "gaps": [
+     "G4:cbse-g12-chemistry-ch01-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_028",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-06-27T04:48:22.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_028",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-biology",
+    "score": 11,
+    "maxScore": 14,
+    "gaps": [
+     "G4:cbse-g12-biology-ch02-st2"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_029",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-06-27T05:33:40.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_029",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-biology",
+    "score": 3,
+    "maxScore": 3,
+    "gaps": [
+     "G6:cbse-g12-biology-ch02-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_031",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-06-27T06:36:00.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_031",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-physics",
+    "score": 79,
+    "maxScore": 89,
+    "gaps": [
+     "G1:cbse-g12-physics-ch02-st2",
+     "G5:cbse-g12-physics-ch02-st4",
+     "G4:cbse-g12-physics-ch02-st1",
+     "G4:cbse-g12-physics-ch02-st3",
+     "G4:cbse-g12-physics-ch01-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_032",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-07-03T11:46:48.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_032",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-physics",
+    "score": 11,
+    "maxScore": 12,
+    "gaps": [
+     "G6:cbse-g12-physics-ch02-st1",
+     "G1:cbse-g12-physics-ch02-st2",
+     "G4:cbse-g12-physics-ch02-st3",
+     "G5:cbse-g12-physics-ch02-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_033",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-07-04T04:48:22.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_033",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-biology",
+    "score": 14,
+    "maxScore": 14,
+    "gaps": [
+     "G4:cbse-g12-biology-ch02-st2"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_034",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-07-04T05:22:30.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_034",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-physics",
+    "score": 27,
+    "maxScore": 37,
+    "gaps": [
+     "G5:cbse-g12-physics-ch02-st4",
+     "G1:cbse-g12-physics-ch02-st2"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_035",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-07-04T05:34:12.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_035",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-physics",
+    "score": 3,
+    "maxScore": 3,
+    "gaps": [
+     "G6:cbse-g12-physics-ch02-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_036",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-07-07T13:08:46.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_036",
+    "kind": "chapter_check",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 41,
+    "maxScore": 54,
+    "gaps": [
+     "G3:cbse-g12-chemistry-ch02-st1",
+     "G5:cbse-g12-chemistry-ch02-st2",
+     "G5:cbse-g12-chemistry-ch02-st3",
+     "G4:cbse-g12-chemistry-ch02-st4",
+     "G4:cbse-g12-chemistry-ch02-st5"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_038",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-07-11T05:07:48.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_038",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-physics",
+    "score": 22,
+    "maxScore": 26,
+    "gaps": [
+     "G5:cbse-g12-physics-ch02-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_037",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-07-11T05:38:46.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_037",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 43,
+    "maxScore": 54,
+    "gaps": [
+     "G3:cbse-g12-chemistry-ch02-st2",
+     "G5:cbse-g12-chemistry-ch02-st1",
+     "G5:cbse-g12-chemistry-ch02-st5",
+     "G4:cbse-g12-chemistry-ch02-st3",
+     "G4:cbse-g12-chemistry-ch02-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_039",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-07-14T11:48:22.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_039",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 11,
+    "maxScore": 15,
+    "gaps": [
+     "G5:cbse-g12-chemistry-ch02-st1",
+     "G3:cbse-g12-chemistry-ch02-st2",
+     "G4:cbse-g12-chemistry-ch02-st3",
+     "G4:cbse-g12-chemistry-ch02-st4",
+     "G5:cbse-g12-chemistry-ch02-st5"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_040",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-07-16T12:39:22.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_040",
+    "kind": "chapter_check",
+    "subjectId": "cbse-g12-biology",
+    "score": 27,
+    "maxScore": 30,
+    "gaps": [
+     "G1:cbse-g12-biology-ch03-st2",
+     "G3:cbse-g12-biology-ch03-st3",
+     "G4:cbse-g12-biology-ch03-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_041",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-07-18T05:09:22.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_041",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-biology",
+    "score": 26,
+    "maxScore": 30,
+    "gaps": [
+     "G5:cbse-g12-biology-ch03-st1",
+     "G4:cbse-g12-biology-ch03-st2",
+     "G4:cbse-g12-biology-ch03-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_042",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-07-18T05:15:09.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_042",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 30,
+    "maxScore": 35,
+    "gaps": [
+     "G6:cbse-g12-chemistry-ch02-st2",
+     "G6:cbse-g12-chemistry-ch02-st1",
+     "G5:cbse-g12-chemistry-ch02-st5"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_043",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-07-23T11:41:01.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_043",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-biology",
+    "score": 9,
+    "maxScore": 9,
+    "gaps": [
+     "G5:cbse-g12-biology-ch03-st1",
+     "G4:cbse-g12-biology-ch03-st2",
+     "G4:cbse-g12-biology-ch03-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_044",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-07-25T04:43:07.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_044",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-biology",
+    "score": 10,
+    "maxScore": 10,
+    "gaps": [
+     "G5:cbse-g12-biology-ch03-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_045",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-07-25T05:37:21.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_045",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 6,
+    "maxScore": 6,
+    "gaps": [
+     "G6:cbse-g12-chemistry-ch02-st1",
+     "G6:cbse-g12-chemistry-ch02-st2"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_046",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-07-31T13:34:30.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_046",
+    "kind": "chapter_check",
+    "subjectId": "cbse-g12-physics",
+    "score": 62,
+    "maxScore": 66,
+    "gaps": [
+     "G2:cbse-g12-physics-ch03-st3",
+     "G4:cbse-g12-physics-ch03-st4",
+     "G4:cbse-g12-physics-ch03-st1",
+     "G4:cbse-g12-physics-ch03-st2"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_047",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-08-01T06:04:30.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_047",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-physics",
+    "score": 55,
+    "maxScore": 66,
+    "gaps": [
+     "G5:cbse-g12-physics-ch03-st1",
+     "G5:cbse-g12-physics-ch03-st2",
+     "G4:cbse-g12-physics-ch03-st3",
+     "G4:cbse-g12-physics-ch03-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_048",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-08-07T11:46:48.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_048",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-physics",
+    "score": 12,
+    "maxScore": 12,
+    "gaps": [
+     "G5:cbse-g12-physics-ch03-st1",
+     "G5:cbse-g12-physics-ch03-st2",
+     "G4:cbse-g12-physics-ch03-st3",
+     "G4:cbse-g12-physics-ch03-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_049",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-08-08T05:02:33.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_049",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-physics",
+    "score": 19,
+    "maxScore": 23,
+    "gaps": [
+     "G5:cbse-g12-physics-ch03-st1",
+     "G5:cbse-g12-physics-ch03-st2"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_050",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-08-13T13:01:57.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_050",
+    "kind": "chapter_check",
+    "subjectId": "cbse-g12-biology",
+    "score": 39,
+    "maxScore": 48,
+    "gaps": [
+     "G1:cbse-g12-biology-ch04-st3",
+     "G2:cbse-g12-biology-ch04-st2",
+     "G4:cbse-g12-biology-ch04-st1",
+     "G4:cbse-g12-biology-ch04-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_052",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-08-15T05:02:33.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_052",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-physics",
+    "score": 23,
+    "maxScore": 23,
+    "gaps": [
+     "G5:cbse-g12-physics-ch03-st1",
+     "G5:cbse-g12-physics-ch03-st2"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_051",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-08-15T05:31:57.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_051",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-biology",
+    "score": 39,
+    "maxScore": 48,
+    "gaps": [
+     "G3:cbse-g12-biology-ch04-st2",
+     "G5:cbse-g12-biology-ch04-st3",
+     "G4:cbse-g12-biology-ch04-st1",
+     "G4:cbse-g12-biology-ch04-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_053",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-08-18T13:03:00.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_053",
+    "kind": "chapter_check",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 45,
+    "maxScore": 49,
+    "gaps": [
+     "G5:cbse-g12-chemistry-ch03-st1",
+     "G4:cbse-g12-chemistry-ch03-st2",
+     "G4:cbse-g12-chemistry-ch03-st3",
+     "G4:cbse-g12-chemistry-ch03-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_054",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-08-20T11:44:42.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_054",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-biology",
+    "score": 10,
+    "maxScore": 12,
+    "gaps": [
+     "G4:cbse-g12-biology-ch04-st1",
+     "G3:cbse-g12-biology-ch04-st2",
+     "G5:cbse-g12-biology-ch04-st3",
+     "G6:cbse-g12-biology-ch04-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_055",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-08-22T04:59:24.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_055",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-biology",
+    "score": 23,
+    "maxScore": 23,
+    "gaps": [
+     "G3:cbse-g12-biology-ch04-st2",
+     "G5:cbse-g12-biology-ch04-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_057",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-08-22T05:33:00.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_057",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 43,
+    "maxScore": 49,
+    "gaps": [
+     "G5:cbse-g12-chemistry-ch03-st4",
+     "G4:cbse-g12-chemistry-ch03-st2",
+     "G4:cbse-g12-chemistry-ch03-st3",
+     "G4:cbse-g12-chemistry-ch03-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_056",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-08-22T05:33:40.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_056",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-biology",
+    "score": 3,
+    "maxScore": 3,
+    "gaps": [
+     "G6:cbse-g12-biology-ch04-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_058",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-08-25T11:45:45.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_058",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 5,
+    "maxScore": 12,
+    "gaps": [
+     "G6:cbse-g12-chemistry-ch03-st1",
+     "G6:cbse-g12-chemistry-ch03-st2",
+     "G6:cbse-g12-chemistry-ch03-st3",
+     "G5:cbse-g12-chemistry-ch03-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_059",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-08-29T04:45:13.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_059",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 11,
+    "maxScore": 11,
+    "gaps": [
+     "G6:cbse-g12-chemistry-ch03-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_060",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-08-29T05:42:04.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_060",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 8,
+    "maxScore": 9,
+    "gaps": [
+     "G6:cbse-g12-chemistry-ch03-st1",
+     "G6:cbse-g12-chemistry-ch03-st2",
+     "G6:cbse-g12-chemistry-ch03-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_061",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-09-04T13:15:36.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_061",
+    "kind": "chapter_check",
+    "subjectId": "cbse-g12-physics",
+    "score": 45,
+    "maxScore": 54,
+    "gaps": [
+     "G2:cbse-g12-physics-ch04-st1",
+     "G5:cbse-g12-physics-ch04-st3",
+     "G4:cbse-g12-physics-ch04-st2",
+     "G4:cbse-g12-physics-ch04-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_065",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-09-05T05:37:21.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_065",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 3,
+    "maxScore": 6,
+    "gaps": [
+     "G6:cbse-g12-chemistry-ch03-st2",
+     "G6:cbse-g12-chemistry-ch03-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_066",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-09-05T05:45:36.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_066",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-physics",
+    "score": 35,
+    "maxScore": 54,
+    "gaps": [
+     "G5:cbse-g12-physics-ch04-st3",
+     "G5:cbse-g12-physics-ch04-st1",
+     "G5:cbse-g12-physics-ch04-st4",
+     "G4:cbse-g12-physics-ch04-st2"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_062",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-09-05T06:44:44.700Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_062",
+    "kind": "mock",
+    "subjectId": "cbse-g12-biology",
+    "score": 35,
+    "maxScore": 70,
+    "gaps": [],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_063",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-09-05T06:44:44.700Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_063",
+    "kind": "mock",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 40,
+    "maxScore": 70,
+    "gaps": [],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_064",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-09-05T07:09:18.900Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_064",
+    "kind": "mock",
+    "subjectId": "cbse-g12-physics",
+    "score": 45,
+    "maxScore": 70,
+    "gaps": [],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_067",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-09-10T13:21:22.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_067",
+    "kind": "chapter_check",
+    "subjectId": "cbse-g12-biology",
+    "score": 44,
+    "maxScore": 61,
+    "gaps": [
+     "G2:cbse-g12-biology-ch05-st5",
+     "G5:cbse-g12-biology-ch05-st2",
+     "G5:cbse-g12-biology-ch05-st3",
+     "G5:cbse-g12-biology-ch05-st1",
+     "G5:cbse-g12-biology-ch05-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_068",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-09-11T11:46:48.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_068",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-physics",
+    "score": 9,
+    "maxScore": 12,
+    "gaps": [
+     "G5:cbse-g12-physics-ch04-st1",
+     "G4:cbse-g12-physics-ch04-st2",
+     "G5:cbse-g12-physics-ch04-st3",
+     "G5:cbse-g12-physics-ch04-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_071",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-09-12T05:25:39.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_071",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-physics",
+    "score": 32,
+    "maxScore": 40,
+    "gaps": [
+     "G3:cbse-g12-physics-ch04-st1",
+     "G5:cbse-g12-physics-ch04-st3",
+     "G6:cbse-g12-physics-ch04-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_070",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-09-12T05:37:21.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_070",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 2,
+    "maxScore": 6,
+    "gaps": [
+     "G6:cbse-g12-chemistry-ch03-st2",
+     "G6:cbse-g12-chemistry-ch03-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_069",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-09-12T05:51:22.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_069",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-biology",
+    "score": 53,
+    "maxScore": 61,
+    "gaps": [
+     "G3:cbse-g12-biology-ch05-st2",
+     "G5:cbse-g12-biology-ch05-st3",
+     "G4:cbse-g12-biology-ch05-st1",
+     "G4:cbse-g12-biology-ch05-st4",
+     "G4:cbse-g12-biology-ch05-st5"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_072",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-09-17T11:50:28.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_072",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-biology",
+    "score": 10,
+    "maxScore": 15,
+    "gaps": [
+     "G6:cbse-g12-biology-ch05-st1",
+     "G3:cbse-g12-biology-ch05-st2",
+     "G5:cbse-g12-biology-ch05-st3",
+     "G6:cbse-g12-biology-ch05-st4",
+     "G4:cbse-g12-biology-ch05-st5"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_076",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-09-19T05:08:51.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_076",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-physics",
+    "score": 23,
+    "maxScore": 28,
+    "gaps": [
+     "G3:cbse-g12-physics-ch04-st3",
+     "G6:cbse-g12-physics-ch04-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_073",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-09-19T05:10:57.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_073",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-biology",
+    "score": 30,
+    "maxScore": 31,
+    "gaps": [
+     "G2:cbse-g12-biology-ch05-st2",
+     "G6:cbse-g12-biology-ch05-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_077",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-09-19T05:34:12.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_077",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-physics",
+    "score": 3,
+    "maxScore": 3,
+    "gaps": [
+     "G6:cbse-g12-physics-ch04-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_075",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-09-19T05:37:21.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_075",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 3,
+    "maxScore": 6,
+    "gaps": [
+     "G6:cbse-g12-chemistry-ch03-st2",
+     "G6:cbse-g12-chemistry-ch03-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_074",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-09-19T05:38:24.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_074",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-biology",
+    "score": 4,
+    "maxScore": 6,
+    "gaps": [
+     "G6:cbse-g12-biology-ch05-st1",
+     "G6:cbse-g12-biology-ch05-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_081",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-09-26T04:52:34.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_081",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-biology",
+    "score": 17,
+    "maxScore": 17,
+    "gaps": [
+     "G2:cbse-g12-biology-ch05-st2"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_084",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-09-26T04:55:12.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_084",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-physics",
+    "score": 14,
+    "maxScore": 18,
+    "gaps": [
+     "G3:cbse-g12-physics-ch04-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_085",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-09-26T05:34:12.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_085",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-physics",
+    "score": 0,
+    "maxScore": 3,
+    "gaps": [
+     "G6:cbse-g12-physics-ch04-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_083",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-09-26T05:37:21.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_083",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 6,
+    "maxScore": 6,
+    "gaps": [
+     "G6:cbse-g12-chemistry-ch03-st2",
+     "G6:cbse-g12-chemistry-ch03-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_082",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-09-26T05:38:24.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_082",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-biology",
+    "score": 6,
+    "maxScore": 6,
+    "gaps": [
+     "G6:cbse-g12-biology-ch05-st3",
+     "G6:cbse-g12-biology-ch05-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_078",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-09-26T06:44:44.700Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_078",
+    "kind": "mock",
+    "subjectId": "cbse-g12-biology",
+    "score": 43,
+    "maxScore": 70,
+    "gaps": [],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_079",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-09-26T06:44:44.700Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_079",
+    "kind": "mock",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 45,
+    "maxScore": 70,
+    "gaps": [],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_080",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-09-26T07:09:18.900Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_080",
+    "kind": "mock",
+    "subjectId": "cbse-g12-physics",
+    "score": 38,
+    "maxScore": 70,
+    "gaps": [],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_086",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-09-29T12:54:36.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_086",
+    "kind": "chapter_check",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 35,
+    "maxScore": 43,
+    "gaps": [
+     "G1:cbse-g12-chemistry-ch04-st1",
+     "G1:cbse-g12-chemistry-ch04-st3",
+     "G5:cbse-g12-chemistry-ch04-st4",
+     "G4:cbse-g12-chemistry-ch04-st2"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_087",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-10-03T05:24:36.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_087",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 39,
+    "maxScore": 43,
+    "gaps": [
+     "G5:cbse-g12-chemistry-ch04-st1",
+     "G4:cbse-g12-chemistry-ch04-st2",
+     "G4:cbse-g12-chemistry-ch04-st3",
+     "G4:cbse-g12-chemistry-ch04-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_088",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-10-03T05:34:12.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_088",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-physics",
+    "score": 1,
+    "maxScore": 3,
+    "gaps": [
+     "G6:cbse-g12-physics-ch04-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_089",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-10-06T11:44:42.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_089",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 8,
+    "maxScore": 12,
+    "gaps": [
+     "G5:cbse-g12-chemistry-ch04-st1",
+     "G6:cbse-g12-chemistry-ch04-st2",
+     "G4:cbse-g12-chemistry-ch04-st3",
+     "G6:cbse-g12-chemistry-ch04-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_090",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-10-09T12:48:18.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_090",
+    "kind": "chapter_check",
+    "subjectId": "cbse-g12-physics",
+    "score": 29,
+    "maxScore": 35,
+    "gaps": [
+     "G2:cbse-g12-physics-ch05-st1",
+     "G2:cbse-g12-physics-ch05-st2",
+     "G4:cbse-g12-physics-ch05-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_091",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-10-10T04:43:07.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_091",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 9,
+    "maxScore": 10,
+    "gaps": [
+     "G6:cbse-g12-chemistry-ch04-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_093",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-10-10T05:18:18.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_093",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-physics",
+    "score": 33,
+    "maxScore": 35,
+    "gaps": [
+     "G4:cbse-g12-physics-ch05-st1",
+     "G4:cbse-g12-physics-ch05-st2",
+     "G4:cbse-g12-physics-ch05-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_094",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-10-10T05:34:12.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_094",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-physics",
+    "score": 3,
+    "maxScore": 3,
+    "gaps": [
+     "G6:cbse-g12-physics-ch04-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_092",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-10-10T05:37:21.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_092",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 6,
+    "maxScore": 6,
+    "gaps": [
+     "G6:cbse-g12-chemistry-ch04-st2",
+     "G6:cbse-g12-chemistry-ch04-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_095",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-10-15T12:55:39.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_095",
+    "kind": "chapter_check",
+    "subjectId": "cbse-g12-biology",
+    "score": 34,
+    "maxScore": 43,
+    "gaps": [
+     "G5:cbse-g12-biology-ch06-st3",
+     "G5:cbse-g12-biology-ch06-st2",
+     "G4:cbse-g12-biology-ch06-st4",
+     "G4:cbse-g12-biology-ch06-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_096",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-10-16T11:42:36.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_096",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-physics",
+    "score": 8,
+    "maxScore": 9,
+    "gaps": [
+     "G6:cbse-g12-physics-ch05-st1",
+     "G4:cbse-g12-physics-ch05-st2",
+     "G4:cbse-g12-physics-ch05-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_100",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-10-17T05:25:39.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_100",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-biology",
+    "score": 40,
+    "maxScore": 43,
+    "gaps": [
+     "G3:cbse-g12-biology-ch06-st2",
+     "G4:cbse-g12-biology-ch06-st3",
+     "G4:cbse-g12-biology-ch06-st4",
+     "G4:cbse-g12-biology-ch06-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_101",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-10-17T05:33:40.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_101",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 1,
+    "maxScore": 3,
+    "gaps": [
+     "G6:cbse-g12-chemistry-ch04-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_102",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-10-17T05:34:12.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_102",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-physics",
+    "score": 1,
+    "maxScore": 3,
+    "gaps": [
+     "G6:cbse-g12-physics-ch05-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_097",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-10-17T06:44:44.700Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_097",
+    "kind": "mock",
+    "subjectId": "cbse-g12-biology",
+    "score": 52,
+    "maxScore": 70,
+    "gaps": [],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_098",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-10-17T06:44:44.700Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_098",
+    "kind": "mock",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 43,
+    "maxScore": 70,
+    "gaps": [],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_099",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-10-17T07:09:18.900Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_099",
+    "kind": "mock",
+    "subjectId": "cbse-g12-physics",
+    "score": 33,
+    "maxScore": 70,
+    "gaps": [],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_lrn_diya_sharma_wellbeing_1",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-10-21T09:50:00.000Z",
+   "sourceMethod": "M11",
+   "type": "wellbeing_checkin",
+   "payload": {
+    "flag": true,
+    "parameterIds": [
+     "p149"
+    ],
+    "tier": "T3",
+    "by": "csl_heena_qureshi",
+    "meetingNoteId": "mtg_diya_sharma_wellbeing_1"
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_103",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-10-22T11:44:42.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_103",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-biology",
+    "score": 9,
+    "maxScore": 12,
+    "gaps": [
+     "G6:cbse-g12-biology-ch06-st1",
+     "G3:cbse-g12-biology-ch06-st2",
+     "G4:cbse-g12-biology-ch06-st3",
+     "G6:cbse-g12-biology-ch06-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_104",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-10-24T04:44:10.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_104",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-biology",
+    "score": 10,
+    "maxScore": 11,
+    "gaps": [
+     "G3:cbse-g12-biology-ch06-st2"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_106",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-10-24T05:33:40.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_106",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 2,
+    "maxScore": 3,
+    "gaps": [
+     "G6:cbse-g12-chemistry-ch04-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_107",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-10-24T05:34:12.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_107",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-physics",
+    "score": 3,
+    "maxScore": 3,
+    "gaps": [
+     "G6:cbse-g12-physics-ch05-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_105",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-10-24T05:37:21.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_105",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-biology",
+    "score": 6,
+    "maxScore": 6,
+    "gaps": [
+     "G6:cbse-g12-biology-ch06-st1",
+     "G6:cbse-g12-biology-ch06-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_108",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-10-31T05:33:40.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_108",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 3,
+    "maxScore": 3,
+    "gaps": [
+     "G6:cbse-g12-chemistry-ch04-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_109",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-11-06T13:11:24.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_109",
+    "kind": "chapter_check",
+    "subjectId": "cbse-g12-physics",
+    "score": 41,
+    "maxScore": 52,
+    "gaps": [
+     "G1:cbse-g12-physics-ch06-st4",
+     "G5:cbse-g12-physics-ch06-st2",
+     "G4:cbse-g12-physics-ch06-st1",
+     "G4:cbse-g12-physics-ch06-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_113",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-11-07T04:46:16.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_113",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 12,
+    "maxScore": 13,
+    "gaps": [
+     "G2:cbse-g12-chemistry-ch01-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_114",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-11-07T05:41:24.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_114",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-physics",
+    "score": 43,
+    "maxScore": 52,
+    "gaps": [
+     "G5:cbse-g12-physics-ch06-st1",
+     "G5:cbse-g12-physics-ch06-st3",
+     "G4:cbse-g12-physics-ch06-st2",
+     "G4:cbse-g12-physics-ch06-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_110",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-11-07T06:44:44.700Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_110",
+    "kind": "mock",
+    "subjectId": "cbse-g12-biology",
+    "score": 46,
+    "maxScore": 70,
+    "gaps": [],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_111",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-11-07T06:44:44.700Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_111",
+    "kind": "mock",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 45,
+    "maxScore": 70,
+    "gaps": [
+     "G2:cbse-g12-chemistry-ch01-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_112",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-11-07T07:09:18.900Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_112",
+    "kind": "mock",
+    "subjectId": "cbse-g12-physics",
+    "score": 48,
+    "maxScore": 70,
+    "gaps": [],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_115",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-11-10T13:12:58.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_115",
+    "kind": "chapter_check",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 43,
+    "maxScore": 57,
+    "gaps": [
+     "G3:cbse-g12-chemistry-ch05-st3",
+     "G5:cbse-g12-chemistry-ch05-st2",
+     "G5:cbse-g12-chemistry-ch05-st5",
+     "G4:cbse-g12-chemistry-ch05-st4",
+     "G4:cbse-g12-chemistry-ch05-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_116",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-11-12T13:03:00.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_116",
+    "kind": "chapter_check",
+    "subjectId": "cbse-g12-biology",
+    "score": 44,
+    "maxScore": 48,
+    "gaps": [
+     "G5:cbse-g12-biology-ch07-st3",
+     "G4:cbse-g12-biology-ch07-st2",
+     "G4:cbse-g12-biology-ch07-st1",
+     "G4:cbse-g12-biology-ch07-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_117",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-11-13T11:42:36.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_117",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-physics",
+    "score": 7,
+    "maxScore": 10,
+    "gaps": [
+     "G5:cbse-g12-physics-ch06-st1",
+     "G4:cbse-g12-physics-ch06-st2",
+     "G5:cbse-g12-physics-ch06-st3",
+     "G6:cbse-g12-physics-ch06-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_120",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-11-14T04:56:15.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_120",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-physics",
+    "score": 15,
+    "maxScore": 20,
+    "gaps": [
+     "G2:cbse-g12-physics-ch06-st1",
+     "G5:cbse-g12-physics-ch06-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_118",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-11-14T05:33:00.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_118",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-biology",
+    "score": 46,
+    "maxScore": 48,
+    "gaps": [
+     "G2:cbse-g12-biology-ch07-st1",
+     "G4:cbse-g12-biology-ch07-st2",
+     "G4:cbse-g12-biology-ch07-st3",
+     "G4:cbse-g12-biology-ch07-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_121",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-11-14T05:34:12.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_121",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-physics",
+    "score": 3,
+    "maxScore": 3,
+    "gaps": [
+     "G6:cbse-g12-physics-ch06-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_119",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-11-14T05:59:15.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_119",
+    "kind": "weekly",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 62,
+    "maxScore": 70,
+    "gaps": [
+     "G3:cbse-g12-chemistry-ch05-st1",
+     "G5:cbse-g12-chemistry-ch05-st2",
+     "G5:cbse-g12-chemistry-ch05-st4",
+     "G4:cbse-g12-chemistry-ch05-st3",
+     "G4:cbse-g12-chemistry-ch05-st5",
+     "G2:cbse-g12-chemistry-ch01-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_diya_sharma_122",
+   "learnerId": "lrn_diya_sharma",
+   "timestampUtc": "2026-11-17T11:47:19.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_diya_sharma_122",
+    "kind": "retention_probe",
+    "subjectId": "cbse-g12-chemistry",
+    "score": 11,
+    "maxScore": 14,
+    "gaps": [
+     "G3:cbse-g12-chemistry-ch05-st1",
+     "G5:cbse-g12-chemistry-ch05-st2",
+     "G4:cbse-g12-chemistry-ch05-st3",
+     "G5:cbse-g12-chemistry-ch05-st4",
+     "G6:cbse-g12-chemistry-ch05-st5"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  }
+ ]
+}

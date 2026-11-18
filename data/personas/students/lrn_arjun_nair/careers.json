@@ -1,0 +1,517 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/personas/simulate.ts",
+ "items": [
+  {
+   "learnerId": "lrn_arjun_nair",
+   "computedUtc": "2026-11-18T03:30:00.000Z",
+   "fits": [
+    {
+     "careerId": "career-civil-services-officer",
+     "title": "Civil Services Officer (IAS / IPS / IFS)",
+     "score": 58.7,
+     "parts": {
+      "interests": 26.2,
+      "aptitudeAcademics": 17.5,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "medium",
+     "reasons": [
+      "Matches your SE interests",
+      "Affordable route: Any graduation, then UPSC Prelims, Mains and Interview"
+     ]
+    },
+    {
+     "careerId": "career-public-relations-manager",
+     "title": "Public Relations and Communications Manager",
+     "score": 58.7,
+     "parts": {
+      "interests": 26.2,
+      "aptitudeAcademics": 17.5,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "medium",
+     "reasons": [
+      "Matches your ES interests",
+      "Affordable route: BA Mass Communication / BMS"
+     ]
+    },
+    {
+     "careerId": "career-hotel-manager",
+     "title": "Hotel and Hospitality Manager",
+     "score": 56.4,
+     "parts": {
+      "interests": 23.9,
+      "aptitudeAcademics": 17.5,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "medium",
+     "reasons": [
+      "Matches your ES interests",
+      "Affordable route: BHM via NCHM JEE or Manipal WGSHA"
+     ]
+    },
+    {
+     "careerId": "career-teacher",
+     "title": "Teacher / Educator",
+     "score": 55.3,
+     "parts": {
+      "interests": 22.8,
+      "aptitudeAcademics": 17.5,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "medium",
+     "reasons": [
+      "Matches your S interests",
+      "Affordable route: Subject degree + B.Ed, then CTET / school hiring"
+     ]
+    },
+    {
+     "careerId": "career-psychologist",
+     "title": "Psychologist (Clinical / Counselling)",
+     "score": 53.1,
+     "parts": {
+      "interests": 20.6,
+      "aptitudeAcademics": 17.5,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "medium",
+     "reasons": [
+      "Matches your S interests",
+      "Affordable route: BA/BSc Psychology, MA/MSc, then M.Phil Clinical (RCI)"
+     ]
+    },
+    {
+     "careerId": "career-corporate-lawyer",
+     "title": "Lawyer (Corporate and Litigation)",
+     "score": 50.9,
+     "parts": {
+      "interests": 18.4,
+      "aptitudeAcademics": 17.5,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "medium",
+     "reasons": [
+      "Matches your ES interests",
+      "Affordable route: Five-year BA LLB at a National Law University via CLAT"
+     ]
+    },
+    {
+     "careerId": "career-journalist",
+     "title": "Journalist",
+     "score": 50.9,
+     "parts": {
+      "interests": 18.4,
+      "aptitudeAcademics": 17.5,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "medium",
+     "reasons": [
+      "Matches your S interests",
+      "Affordable route: BA Journalism / English, then PG diploma (IIMC / ACJ)"
+     ]
+    },
+    {
+     "careerId": "career-management-consultant",
+     "title": "Management Consultant",
+     "score": 50.7,
+     "parts": {
+      "interests": 18.4,
+      "aptitudeAcademics": 17.3,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "high",
+     "reasons": [
+      "Matches your ES interests",
+      "Marks or aptitude below what the pathway expects",
+      "Affordable route: Top UG (IIT / SRCC / IPM) then IIM MBA"
+     ]
+    }
+   ],
+   "shortlist": [
+    "career-corporate-lawyer",
+    "career-policy-analyst"
+   ],
+   "gaps": {
+    "career-corporate-lawyer": {
+     "careerId": "career-corporate-lawyer",
+     "skills": [
+      {
+       "skillId": "skill-legal-concepts",
+       "name": "skill-legal-concepts",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-legal-drafting",
+       "name": "skill-legal-drafting",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-logical-reasoning",
+       "name": "skill-logical-reasoning",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-critical-thinking",
+       "name": "skill-critical-thinking",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-written-communication",
+       "name": "skill-written-communication",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 5,
+       "levelsToClimb": 5,
+       "hours": 100,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 100,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 75,
+        "inr": 21000
+       }
+      },
+      {
+       "skillId": "skill-debate-advocacy",
+       "name": "skill-debate-advocacy",
+       "importance": "helpful",
+       "currentLevel": 0,
+       "targetLevel": 3,
+       "levelsToClimb": 3,
+       "hours": 60,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 60,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 45,
+        "inr": 12600
+       }
+      },
+      {
+       "skillId": "skill-commercial-awareness",
+       "name": "skill-commercial-awareness",
+       "importance": "helpful",
+       "currentLevel": 0,
+       "targetLevel": 3,
+       "levelsToClimb": 3,
+       "hours": 60,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 60,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 45,
+        "inr": 12600
+       }
+      }
+     ],
+     "totalHours": 540,
+     "free": {
+      "hours": 540,
+      "inr": 0,
+      "months": 24.9
+     },
+     "paid": {
+      "hours": 405,
+      "inr": 113400,
+      "months": 18.6
+     },
+     "pathways": [
+      {
+       "id": "corporate-lawyer-india",
+       "label": "Five-year BA LLB at a National Law University via CLAT",
+       "region": "india",
+       "yearsToEntry": 5,
+       "costInr": {
+        "low": 1000000,
+        "typical": 1800000,
+        "high": 2800000
+       },
+       "examIds": [
+        "clat",
+        "ailet"
+       ],
+       "examPrepHours": 0,
+       "examFeesInr": 0
+      },
+      {
+       "id": "corporate-lawyer-uk",
+       "label": "LLB in the UK, then SQE (or return to India via Bar Council)",
+       "region": "abroad",
+       "yearsToEntry": 4,
+       "costInr": {
+        "low": 11000000,
+        "typical": 14000000,
+        "high": 17500000
+       },
+       "examIds": [
+        "lnat",
+        "ielts"
+       ],
+       "examPrepHours": 0,
+       "examFeesInr": 0
+      }
+     ]
+    },
+    "career-policy-analyst": {
+     "careerId": "career-policy-analyst",
+     "skills": [
+      {
+       "skillId": "skill-policy-analysis",
+       "name": "skill-policy-analysis",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-research",
+       "name": "skill-research",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-polity-governance",
+       "name": "skill-polity-governance",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-statistics",
+       "name": "skill-statistics",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 3,
+       "levelsToClimb": 3,
+       "hours": 60,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 60,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 45,
+        "inr": 12600
+       }
+      },
+      {
+       "skillId": "skill-written-communication",
+       "name": "skill-written-communication",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-critical-thinking",
+       "name": "skill-critical-thinking",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-data-literacy",
+       "name": "skill-data-literacy",
+       "importance": "helpful",
+       "currentLevel": 0,
+       "targetLevel": 3,
+       "levelsToClimb": 3,
+       "hours": 60,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 60,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 45,
+        "inr": 12600
+       }
+      }
+     ],
+     "totalHours": 520,
+     "free": {
+      "hours": 520,
+      "inr": 0,
+      "months": 23.9
+     },
+     "paid": {
+      "hours": 390,
+      "inr": 109200,
+      "months": 18
+     },
+     "pathways": [
+      {
+       "id": "policy-analyst-india",
+       "label": "BA Political Science / Economics, then MPP",
+       "region": "india",
+       "yearsToEntry": 5,
+       "costInr": {
+        "low": 500000,
+        "typical": 1200000,
+        "high": 2500000
+       },
+       "examIds": [
+        "cuet-ug",
+        "ashoka-aptitude"
+       ],
+       "examPrepHours": 0,
+       "examFeesInr": 0
+      },
+      {
+       "id": "policy-analyst-uk",
+       "label": "BSc Politics / PPE in the UK",
+       "region": "abroad",
+       "yearsToEntry": 3,
+       "costInr": {
+        "low": 9500000,
+        "typical": 12500000,
+        "high": 16000000
+       },
+       "examIds": [
+        "ielts",
+        "tsa"
+       ],
+       "examPrepHours": 0,
+       "examFeesInr": 0
+      }
+     ]
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/personas/simulate.ts",
+ "items": [
+  {
+   "role": "student",
+   "name": "Ananya Kapoor",
+   "availability": [
+    {
+     "day": "mon",
+     "start": "17:00",
+     "end": "19:00"
+    },
+    {
+     "day": "tue",
+     "start": "17:00",
+     "end": "19:00"
+    },
+    {
+     "day": "wed",
+     "start": "17:00",
+     "end": "19:00"
+    },
+    {
+     "day": "thu",
+     "start": "17:00",
+     "end": "19:00"
+    },
+    {
+     "day": "fri",
+     "start": "17:00",
+     "end": "19:00"
+    },
+    {
+     "day": "sat",
+     "start": "10:00",
+     "end": "12:30"
+    }
+   ],
+   "weeklyHours": 10,
+   "tzOffsetMinutes": 330,
+   "joinedUtc": "2026-08-17T04:30:00.000Z",
+   "parentIds": [
+    "par_neha_kapoor"
+   ],
+   "counsellorIds": [
+    "csl_heena_qureshi",
+    "csl_farah_siddiqui"
+   ],
+   "mentorIds": [],
+   "tutorIds": [],
+   "sectionIds": [
+    "sec-cambridge-g10-english-a"
+   ],
+   "profileCompletionPct": 77,
+   "medium": "English",
+   "subjects": [
+    {
+     "subjectId": "cambridge-g10-maths",
+     "depth": "full"
+    },
+    {
+     "subjectId": "cambridge-g10-physics",
+     "depth": "full"
+    },
+    {
+     "subjectId": "cambridge-g10-chemistry",
+     "depth": "light"
+    },
+    {
+     "subjectId": "cambridge-g10-english",
+     "depth": "light"
+    }
+   ],
+   "id": "lrn_ananya_kapoor",
+   "firstName": "Ananya",
+   "lastName": "Kapoor",
+   "board": "cambridge",
+   "grade": 10,
+   "stream": "none",
+   "programme": "Cambridge IGCSE",
+   "school": "The Shri Ram School, Moulsari",
+   "city": "Gurugram",
+   "band": "excellent",
+   "plan": "free",
+   "goal": "Economics or Engineering at a top US university",
+   "currentChapterIds": [
+    "cambridge-g10-maths-ch04"
+   ],
+   "story": "IGCSE topper aiming at US universities; used the free University Fit, upgrade offered.",
+   "onboardedUtc": "2026-08-17T04:30:00.000Z"
+  }
+ ]
+}

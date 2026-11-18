@@ -1,0 +1,571 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/personas/simulate.ts",
+ "items": [
+  {
+   "learnerId": "lrn_tara_menon",
+   "computedUtc": "2026-11-18T03:30:00.000Z",
+   "fits": [
+    {
+     "careerId": "career-research-scientist",
+     "title": "Research Scientist (Physical Sciences)",
+     "score": 72.8,
+     "parts": {
+      "interests": 35,
+      "aptitudeAcademics": 22.8,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "high",
+     "reasons": [
+      "Matches your I interests",
+      "Affordable route: BS-MS at IISc / IISER, then PhD"
+     ]
+    },
+    {
+     "careerId": "career-biotechnologist",
+     "title": "Biotechnologist",
+     "score": 72.4,
+     "parts": {
+      "interests": 31.1,
+      "aptitudeAcademics": 26.3,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "high",
+     "reasons": [
+      "Matches your IR interests",
+      "Affordable route: B.Tech / BSc Biotechnology, then MSc or PhD"
+     ]
+    },
+    {
+     "careerId": "career-aerospace-engineer",
+     "title": "Aerospace Engineer",
+     "score": 70.3,
+     "parts": {
+      "interests": 31.1,
+      "aptitudeAcademics": 24.2,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "high",
+     "reasons": [
+      "Matches your IR interests",
+      "Affordable route: B.Tech Aerospace via JEE Advanced"
+     ]
+    },
+    {
+     "careerId": "career-electronics-engineer",
+     "title": "Electronics and Electrical Engineer",
+     "score": 68.8,
+     "parts": {
+      "interests": 28.4,
+      "aptitudeAcademics": 25.4,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "high",
+     "reasons": [
+      "Matches your RI interests",
+      "Affordable route: B.Tech ECE / EE via JEE"
+     ]
+    },
+    {
+     "careerId": "career-ai-ml-engineer",
+     "title": "AI / Machine Learning Engineer",
+     "score": 68.3,
+     "parts": {
+      "interests": 31.1,
+      "aptitudeAcademics": 22.2,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "high",
+     "reasons": [
+      "Matches your IR interests",
+      "Affordable route: B.Tech CSE / AI via JEE, then M.Tech or industry"
+     ]
+    },
+    {
+     "careerId": "career-mechanical-engineer",
+     "title": "Mechanical Engineer",
+     "score": 67.6,
+     "parts": {
+      "interests": 28.4,
+      "aptitudeAcademics": 24.2,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "high",
+     "reasons": [
+      "Matches your RI interests",
+      "Affordable route: B.Tech Mechanical via JEE"
+     ]
+    },
+    {
+     "careerId": "career-environmental-scientist",
+     "title": "Environmental Scientist",
+     "score": 67.5,
+     "parts": {
+      "interests": 26.2,
+      "aptitudeAcademics": 26.3,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "high",
+     "reasons": [
+      "Matches your IR interests",
+      "Affordable route: BSc Environmental Science, then MSc"
+     ]
+    },
+    {
+     "careerId": "career-software-engineer",
+     "title": "Software Engineer",
+     "score": 66.6,
+     "parts": {
+      "interests": 26.2,
+      "aptitudeAcademics": 25.4,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "high",
+     "reasons": [
+      "Matches your IR interests",
+      "Affordable route: B.Tech Computer Science via JEE"
+     ]
+    }
+   ],
+   "shortlist": [
+    "career-software-engineer",
+    "career-product-manager"
+   ],
+   "gaps": {
+    "career-software-engineer": {
+     "careerId": "career-software-engineer",
+     "skills": [
+      {
+       "skillId": "skill-python-programming",
+       "name": "skill-python-programming",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-data-structures-algorithms",
+       "name": "skill-data-structures-algorithms",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-web-development",
+       "name": "skill-web-development",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 3,
+       "levelsToClimb": 3,
+       "hours": 60,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 60,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 45,
+        "inr": 12600
+       }
+      },
+      {
+       "skillId": "skill-sql-databases",
+       "name": "skill-sql-databases",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 3,
+       "levelsToClimb": 3,
+       "hours": 60,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 60,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 45,
+        "inr": 12600
+       }
+      },
+      {
+       "skillId": "skill-problem-solving",
+       "name": "skill-problem-solving",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-teamwork",
+       "name": "skill-teamwork",
+       "importance": "helpful",
+       "currentLevel": 0,
+       "targetLevel": 3,
+       "levelsToClimb": 3,
+       "hours": 60,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 60,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 45,
+        "inr": 12600
+       }
+      },
+      {
+       "skillId": "skill-ai-tool-fluency",
+       "name": "skill-ai-tool-fluency",
+       "importance": "helpful",
+       "currentLevel": 0,
+       "targetLevel": 3,
+       "levelsToClimb": 3,
+       "hours": 60,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 60,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 45,
+        "inr": 12600
+       }
+      },
+      {
+       "skillId": "skill-written-communication",
+       "name": "skill-written-communication",
+       "importance": "helpful",
+       "currentLevel": 0,
+       "targetLevel": 3,
+       "levelsToClimb": 3,
+       "hours": 60,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 60,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 45,
+        "inr": 12600
+       }
+      }
+     ],
+     "totalHours": 540,
+     "free": {
+      "hours": 540,
+      "inr": 0,
+      "months": 24.9
+     },
+     "paid": {
+      "hours": 405,
+      "inr": 113400,
+      "months": 18.6
+     },
+     "pathways": [
+      {
+       "id": "software-engineer-india",
+       "label": "B.Tech Computer Science via JEE",
+       "region": "india",
+       "yearsToEntry": 4,
+       "costInr": {
+        "low": 900000,
+        "typical": 1400000,
+        "high": 2200000
+       },
+       "examIds": [
+        "jee-main",
+        "jee-advanced",
+        "bitsat"
+       ],
+       "examPrepHours": 0,
+       "examFeesInr": 0
+      },
+      {
+       "id": "software-engineer-us",
+       "label": "BS Computer Science in the US",
+       "region": "abroad",
+       "yearsToEntry": 4,
+       "costInr": {
+        "low": 18000000,
+        "typical": 29000000,
+        "high": 38000000
+       },
+       "examIds": [
+        "sat",
+        "toefl"
+       ],
+       "examPrepHours": 0,
+       "examFeesInr": 0
+      },
+      {
+       "id": "software-engineer-canada",
+       "label": "BCS / BASc in Canada with co-op",
+       "region": "abroad",
+       "yearsToEntry": 5,
+       "costInr": {
+        "low": 11000000,
+        "typical": 15000000,
+        "high": 21000000
+       },
+       "examIds": [
+        "ielts"
+       ],
+       "examPrepHours": 0,
+       "examFeesInr": 0
+      }
+     ]
+    },
+    "career-product-manager": {
+     "careerId": "career-product-manager",
+     "skills": [
+      {
+       "skillId": "skill-problem-solving",
+       "name": "skill-problem-solving",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-empathy",
+       "name": "skill-empathy",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-data-literacy",
+       "name": "skill-data-literacy",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-written-communication",
+       "name": "skill-written-communication",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-leadership",
+       "name": "skill-leadership",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-sql-databases",
+       "name": "skill-sql-databases",
+       "importance": "helpful",
+       "currentLevel": 0,
+       "targetLevel": 2,
+       "levelsToClimb": 2,
+       "hours": 40,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 40,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 30,
+        "inr": 8400
+       }
+      },
+      {
+       "skillId": "skill-ui-ux-tools",
+       "name": "skill-ui-ux-tools",
+       "importance": "helpful",
+       "currentLevel": 0,
+       "targetLevel": 2,
+       "levelsToClimb": 2,
+       "hours": 40,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 40,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 30,
+        "inr": 8400
+       }
+      },
+      {
+       "skillId": "skill-commercial-awareness",
+       "name": "skill-commercial-awareness",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      }
+     ],
+     "totalHours": 560,
+     "free": {
+      "hours": 560,
+      "inr": 0,
+      "months": 25.8
+     },
+     "paid": {
+      "hours": 420,
+      "inr": 117600,
+      "months": 19.3
+     },
+     "pathways": [
+      {
+       "id": "product-manager-india",
+       "label": "B.Tech, a few years as engineer/analyst, then APM or MBA",
+       "region": "india",
+       "yearsToEntry": 6,
+       "costInr": {
+        "low": 900000,
+        "typical": 1400000,
+        "high": 2200000
+       },
+       "examIds": [
+        "jee-main",
+        "bitsat"
+       ],
+       "examPrepHours": 0,
+       "examFeesInr": 0
+      },
+      {
+       "id": "product-manager-us",
+       "label": "CS or Economics in the US, then APM programme",
+       "region": "abroad",
+       "yearsToEntry": 4,
+       "costInr": {
+        "low": 18000000,
+        "typical": 29000000,
+        "high": 38000000
+       },
+       "examIds": [
+        "sat",
+        "toefl"
+       ],
+       "examPrepHours": 0,
+       "examFeesInr": 0
+      }
+     ]
+    }
+   }
+  }
+ ]
+}

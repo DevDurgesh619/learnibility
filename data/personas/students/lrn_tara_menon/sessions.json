@@ -1,0 +1,74 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/personas/simulate.ts",
+ "items": [
+  {
+   "id": "ses_tara_menon_csl_1",
+   "code": "C-1",
+   "learnerId": "lrn_tara_menon",
+   "learnerIds": [
+    "lrn_tara_menon"
+   ],
+   "hostId": "csl_heena_qureshi",
+   "hostRole": "counsellor",
+   "kind": "counselling",
+   "title": "First check-in with Heena",
+   "startUtc": "2026-09-09T10:30:00.000Z",
+   "minutes": 30,
+   "status": "completed",
+   "mode": "online",
+   "meetingNoteId": "mtg_tara_menon_1"
+  },
+  {
+   "id": "ses_tara_menon_csl_2",
+   "code": "C-2",
+   "learnerId": "lrn_tara_menon",
+   "learnerIds": [
+    "lrn_tara_menon"
+   ],
+   "hostId": "csl_heena_qureshi",
+   "hostRole": "counsellor",
+   "kind": "counselling",
+   "title": "Monthly check-in with Heena",
+   "startUtc": "2026-10-07T10:30:00.000Z",
+   "minutes": 30,
+   "status": "completed",
+   "mode": "online",
+   "meetingNoteId": "mtg_tara_menon_2"
+  },
+  {
+   "id": "ses_tara_menon_csl_3",
+   "code": "C-3",
+   "learnerId": "lrn_tara_menon",
+   "learnerIds": [
+    "lrn_tara_menon"
+   ],
+   "hostId": "csl_heena_qureshi",
+   "hostRole": "counsellor",
+   "kind": "counselling",
+   "title": "Monthly check-in with Heena",
+   "startUtc": "2026-11-04T10:30:00.000Z",
+   "minutes": 30,
+   "status": "completed",
+   "mode": "online",
+   "meetingNoteId": "mtg_tara_menon_3"
+  },
+  {
+   "id": "ses_tara_menon_csl_next",
+   "code": "C-4",
+   "learnerId": "lrn_tara_menon",
+   "learnerIds": [
+    "lrn_tara_menon"
+   ],
+   "hostId": "csl_heena_qureshi",
+   "hostRole": "counsellor",
+   "kind": "counselling",
+   "title": "Check-in with Heena",
+   "startUtc": "2026-11-24T11:00:00.000Z",
+   "minutes": 30,
+   "status": "scheduled",
+   "mode": "online",
+   "joinUrl": "https://meet.learnibility.demo/heena"
+  }
+ ]
+}

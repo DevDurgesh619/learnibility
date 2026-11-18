@@ -1,0 +1,91 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/personas/simulate.ts",
+ "items": [
+  {
+   "id": "bkg_w2t_demo_rohan",
+   "learnerId": "lrn_rohan_das",
+   "tutorId": "tut_rahul_verma",
+   "kind": "demo",
+   "status": "completed",
+   "format": "one_to_one",
+   "mode": "online",
+   "subjectId": "cbse-g10-maths",
+   "priceInr": 0,
+   "requestedAt": "2026-10-14T11:00:00.000Z",
+   "slotStartUtc": "2026-10-16T11:00:00.000Z",
+   "minutes": 30,
+   "topic": "Parents want help before the pre-boards",
+   "respondedUtc": "2026-10-14T14:00:00.000Z",
+   "sharedGapSnapshot": null
+  },
+  {
+   "id": "bkg_w2t_rohan",
+   "learnerId": "lrn_rohan_das",
+   "tutorId": "tut_rahul_verma",
+   "kind": "regular",
+   "status": "active",
+   "format": "one_to_one",
+   "mode": "online",
+   "subjectId": "cbse-g10-maths",
+   "priceInr": 800,
+   "requestedAt": "2026-10-17T13:30:00.000Z",
+   "minutes": 60,
+   "sessionsPerWeek": 2,
+   "respondedUtc": "2026-10-17T15:30:00.000Z",
+   "sharedGapSnapshot": null,
+   "parentApproval": {
+    "parentId": "par_sunita_das",
+    "status": "approved",
+    "utc": "2026-10-18T04:30:00.000Z"
+   },
+   "matchReason": "Strong in Quadratic equations; concept-first teaching; ₹800/hr within budget; 4.8★ from 31 reviews."
+  },
+  {
+   "id": "bkg_rohan_das_science",
+   "learnerId": "lrn_rohan_das",
+   "tutorId": "tut_sunita_gupta",
+   "kind": "regular",
+   "status": "requested",
+   "format": "one_to_one",
+   "mode": "online",
+   "subjectId": "cbse-g10-science",
+   "priceInr": 500,
+   "requestedAt": "2026-11-16T15:00:00.000Z",
+   "slotStartUtc": "2026-11-21T05:30:00.000Z",
+   "minutes": 60,
+   "sessionsPerWeek": 2,
+   "topic": "Salts: family, pH; preparation and uses of NaOH, bleaching powder, baking soda, washing soda, plaster of Paris and Acids and bases: indicators and reactions with metals, carbonates and each other",
+   "note": "Rohan asked for help before the pre-boards.",
+   "sharedGapSnapshot": {
+    "sharedUtc": "2026-11-16T15:00:00.000Z",
+    "subjectId": "cbse-g10-science",
+    "score": 48,
+    "gaps": [
+     {
+      "gapId": "gap_lrn_rohan_das_cbse-g10-science-ch02-st4",
+      "subtopicId": "cbse-g10-science-ch02-st4",
+      "name": "Salts: family, pH; preparation and uses of NaOH, bleaching powder, baking soda, washing soda, plaster of Paris",
+      "code": "G10",
+      "level": 0,
+      "hoursToClose": 7.5
+     },
+     {
+      "gapId": "gap_lrn_rohan_das_cbse-g10-science-ch02-st1",
+      "subtopicId": "cbse-g10-science-ch02-st1",
+      "name": "Acids and bases: indicators and reactions with metals, carbonates and each other",
+      "code": "G2",
+      "level": 1,
+      "hoursToClose": 4.8
+     }
+    ]
+   },
+   "parentApproval": {
+    "parentId": "par_anita_das",
+    "status": "pending",
+    "reason": "Paid sessions for a minor need a parent’s approval."
+   },
+   "matchReason": "Teaches CBSE Class 10 Science, concept-first, free 30-minute demo, ₹500 an hour, evenings that overlap Rohan’s study windows."
+  }
+ ]
+}

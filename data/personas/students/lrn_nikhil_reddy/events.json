@@ -1,0 +1,1049 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/personas/simulate.ts",
+ "items": [
+  {
+   "eventId": "evt_lrn_nikhil_reddy_onboarding_form",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-08-17T04:30:00.000Z",
+   "sourceMethod": "M2",
+   "type": "onboarding_form",
+   "payload": {
+    "parameterIds": [
+     "p1",
+     "p2",
+     "p3",
+     "p5",
+     "p16",
+     "p25",
+     "p212",
+     "p268",
+     "p178",
+     "p181",
+     "p230",
+     "p31",
+     "p4",
+     "p6",
+     "p7",
+     "p9",
+     "p10",
+     "p11",
+     "p12",
+     "p13",
+     "p14",
+     "p15",
+     "p17",
+     "p18",
+     "p19",
+     "p21",
+     "p22",
+     "p23",
+     "p24",
+     "p26",
+     "p27",
+     "p28",
+     "p32",
+     "p33",
+     "p34",
+     "p35",
+     "p36",
+     "p37",
+     "p38",
+     "p39",
+     "p40",
+     "p41",
+     "p42",
+     "p43",
+     "p44",
+     "p45",
+     "p46",
+     "p47",
+     "p48",
+     "p49",
+     "p50",
+     "p51",
+     "p52",
+     "p53",
+     "p54",
+     "p55",
+     "p56",
+     "p57",
+     "p58",
+     "p59",
+     "p63",
+     "p66",
+     "p69",
+     "p72",
+     "p78",
+     "p81",
+     "p90",
+     "p99",
+     "p105",
+     "p108",
+     "p123",
+     "p126",
+     "p129",
+     "p132",
+     "p135",
+     "p138",
+     "p141",
+     "p144",
+     "p147",
+     "p150",
+     "p153",
+     "p156",
+     "p159",
+     "p165",
+     "p168",
+     "p171",
+     "p174",
+     "p177",
+     "p180",
+     "p183",
+     "p186",
+     "p189",
+     "p192",
+     "p195",
+     "p198",
+     "p201",
+     "p204",
+     "p207",
+     "p210",
+     "p213",
+     "p216",
+     "p219",
+     "p222",
+     "p225",
+     "p228",
+     "p231",
+     "p234",
+     "p237",
+     "p240",
+     "p243",
+     "p246"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_lrn_nikhil_reddy_signup",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-08-17T04:30:00.000Z",
+   "sourceMethod": "M1",
+   "type": "account_created",
+   "payload": {
+    "parameterIds": [
+     "p1",
+     "p2",
+     "p3"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_001",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-08-17T13:34:03.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_001",
+    "kind": "onboarding",
+    "subjectId": "cambridge-g12-business",
+    "score": 59,
+    "maxScore": 82,
+    "gaps": [],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_002",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-09-22T14:03:01.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_002",
+    "kind": "chapter_check",
+    "subjectId": "cambridge-g12-accountancy",
+    "score": 94,
+    "maxScore": 105,
+    "gaps": [
+     "G1:cambridge-g12-accountancy-ch01-st4",
+     "G5:cambridge-g12-accountancy-ch01-st2",
+     "G4:cambridge-g12-accountancy-ch01-st1",
+     "G4:cambridge-g12-accountancy-ch01-st3",
+     "G4:cambridge-g12-accountancy-ch01-st5"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_003",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-09-24T14:30:34.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_003",
+    "kind": "chapter_check",
+    "subjectId": "cambridge-g12-business",
+    "score": 104,
+    "maxScore": 126,
+    "gaps": [
+     "G1:cambridge-g12-business-ch01-st4",
+     "G4:cambridge-g12-business-ch01-st1",
+     "G4:cambridge-g12-business-ch01-st2",
+     "G4:cambridge-g12-business-ch01-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_004",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-09-25T13:15:31.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_004",
+    "kind": "chapter_check",
+    "subjectId": "cambridge-g12-economics",
+    "score": 63,
+    "maxScore": 67,
+    "gaps": [
+     "G3:cambridge-g12-economics-ch01-st1",
+     "G4:cambridge-g12-economics-ch01-st2",
+     "G4:cambridge-g12-economics-ch01-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_007",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-09-26T05:45:31.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_007",
+    "kind": "weekly",
+    "subjectId": "cambridge-g12-economics",
+    "score": 67,
+    "maxScore": 67,
+    "gaps": [
+     "G4:cambridge-g12-economics-ch01-st2",
+     "G4:cambridge-g12-economics-ch01-st1",
+     "G4:cambridge-g12-economics-ch01-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_006",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-09-26T06:33:01.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_006",
+    "kind": "weekly",
+    "subjectId": "cambridge-g12-accountancy",
+    "score": 96,
+    "maxScore": 105,
+    "gaps": [
+     "G1:cambridge-g12-accountancy-ch01-st2",
+     "G4:cambridge-g12-accountancy-ch01-st1",
+     "G4:cambridge-g12-accountancy-ch01-st3",
+     "G4:cambridge-g12-accountancy-ch01-st4",
+     "G4:cambridge-g12-accountancy-ch01-st5"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_005",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-09-26T07:00:34.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_005",
+    "kind": "weekly",
+    "subjectId": "cambridge-g12-business",
+    "score": 106,
+    "maxScore": 126,
+    "gaps": [
+     "G4:cambridge-g12-business-ch01-st1",
+     "G4:cambridge-g12-business-ch01-st2",
+     "G4:cambridge-g12-business-ch01-st3",
+     "G4:cambridge-g12-business-ch01-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_008",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-09-29T11:53:16.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_008",
+    "kind": "retention_probe",
+    "subjectId": "cambridge-g12-accountancy",
+    "score": 19,
+    "maxScore": 21,
+    "gaps": [
+     "G6:cambridge-g12-accountancy-ch01-st1",
+     "G1:cambridge-g12-accountancy-ch01-st2",
+     "G4:cambridge-g12-accountancy-ch01-st3",
+     "G4:cambridge-g12-accountancy-ch01-st4",
+     "G4:cambridge-g12-accountancy-ch01-st5"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_009",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-10-01T11:58:30.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_009",
+    "kind": "retention_probe",
+    "subjectId": "cambridge-g12-business",
+    "score": 24,
+    "maxScore": 24,
+    "gaps": [
+     "G4:cambridge-g12-business-ch01-st1",
+     "G4:cambridge-g12-business-ch01-st2",
+     "G4:cambridge-g12-business-ch01-st3",
+     "G4:cambridge-g12-business-ch01-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_010",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-10-02T11:37:36.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_010",
+    "kind": "retention_probe",
+    "subjectId": "cambridge-g12-economics",
+    "score": 7,
+    "maxScore": 8,
+    "gaps": [
+     "G4:cambridge-g12-economics-ch01-st1",
+     "G4:cambridge-g12-economics-ch01-st2",
+     "G6:cambridge-g12-economics-ch01-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_012",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-10-03T04:53:16.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_012",
+    "kind": "weekly",
+    "subjectId": "cambridge-g12-accountancy",
+    "score": 17,
+    "maxScore": 20,
+    "gaps": [
+     "G1:cambridge-g12-accountancy-ch01-st2"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_011",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-10-03T05:26:03.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_011",
+    "kind": "weekly",
+    "subjectId": "cambridge-g12-business",
+    "score": 47,
+    "maxScore": 47,
+    "gaps": [
+     "G4:cambridge-g12-business-ch01-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_014",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-10-03T05:31:54.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_014",
+    "kind": "retention_probe",
+    "subjectId": "cambridge-g12-economics",
+    "score": 2,
+    "maxScore": 2,
+    "gaps": [
+     "G6:cambridge-g12-economics-ch01-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_013",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-10-03T05:33:19.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_013",
+    "kind": "retention_probe",
+    "subjectId": "cambridge-g12-accountancy",
+    "score": 3,
+    "maxScore": 3,
+    "gaps": [
+     "G6:cambridge-g12-accountancy-ch01-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_015",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-10-13T13:16:00.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_015",
+    "kind": "chapter_check",
+    "subjectId": "cambridge-g12-accountancy",
+    "score": 60,
+    "maxScore": 64,
+    "gaps": [
+     "G2:cambridge-g12-accountancy-ch02-st3",
+     "G4:cambridge-g12-accountancy-ch02-st2",
+     "G4:cambridge-g12-accountancy-ch02-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_016",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-10-15T13:55:25.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_016",
+    "kind": "chapter_check",
+    "subjectId": "cambridge-g12-business",
+    "score": 95,
+    "maxScore": 97,
+    "gaps": [
+     "G4:cambridge-g12-business-ch02-st1",
+     "G4:cambridge-g12-business-ch02-st2",
+     "G4:cambridge-g12-business-ch02-st3",
+     "G4:cambridge-g12-business-ch02-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_017",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-10-16T12:58:54.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_017",
+    "kind": "chapter_check",
+    "subjectId": "cambridge-g12-economics",
+    "score": 43,
+    "maxScore": 54,
+    "gaps": [
+     "G5:cambridge-g12-economics-ch02-st2",
+     "G4:cambridge-g12-economics-ch02-st3",
+     "G4:cambridge-g12-economics-ch02-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_020",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-10-17T05:28:54.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_020",
+    "kind": "weekly",
+    "subjectId": "cambridge-g12-economics",
+    "score": 54,
+    "maxScore": 54,
+    "gaps": [
+     "G4:cambridge-g12-economics-ch02-st3",
+     "G4:cambridge-g12-economics-ch02-st1",
+     "G4:cambridge-g12-economics-ch02-st2"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_019",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-10-17T05:46:00.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_019",
+    "kind": "weekly",
+    "subjectId": "cambridge-g12-accountancy",
+    "score": 63,
+    "maxScore": 64,
+    "gaps": [
+     "G1:cambridge-g12-accountancy-ch02-st2",
+     "G4:cambridge-g12-accountancy-ch02-st1",
+     "G4:cambridge-g12-accountancy-ch02-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_018",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-10-17T06:25:25.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_018",
+    "kind": "weekly",
+    "subjectId": "cambridge-g12-business",
+    "score": 75,
+    "maxScore": 97,
+    "gaps": [
+     "G2:cambridge-g12-business-ch02-st1",
+     "G3:cambridge-g12-business-ch02-st3",
+     "G4:cambridge-g12-business-ch02-st2",
+     "G4:cambridge-g12-business-ch02-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_021",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-10-20T11:43:46.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_021",
+    "kind": "retention_probe",
+    "subjectId": "cambridge-g12-accountancy",
+    "score": 7,
+    "maxScore": 12,
+    "gaps": [
+     "G6:cambridge-g12-accountancy-ch02-st1",
+     "G1:cambridge-g12-accountancy-ch02-st2",
+     "G6:cambridge-g12-accountancy-ch02-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_022",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-10-22T11:54:42.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_022",
+    "kind": "retention_probe",
+    "subjectId": "cambridge-g12-business",
+    "score": 19,
+    "maxScore": 21,
+    "gaps": [
+     "G2:cambridge-g12-business-ch02-st1",
+     "G4:cambridge-g12-business-ch02-st2",
+     "G3:cambridge-g12-business-ch02-st3",
+     "G4:cambridge-g12-business-ch02-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_023",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-10-23T11:38:33.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_023",
+    "kind": "retention_probe",
+    "subjectId": "cambridge-g12-economics",
+    "score": 9,
+    "maxScore": 9,
+    "gaps": [
+     "G4:cambridge-g12-economics-ch02-st1",
+     "G4:cambridge-g12-economics-ch02-st2",
+     "G4:cambridge-g12-economics-ch02-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_025",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-10-24T05:03:15.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_025",
+    "kind": "weekly",
+    "subjectId": "cambridge-g12-accountancy",
+    "score": 27,
+    "maxScore": 28,
+    "gaps": [
+     "G1:cambridge-g12-accountancy-ch02-st2"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_024",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-10-24T05:33:10.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_024",
+    "kind": "weekly",
+    "subjectId": "cambridge-g12-business",
+    "score": 53,
+    "maxScore": 53,
+    "gaps": [
+     "G6:cambridge-g12-business-ch02-st1",
+     "G3:cambridge-g12-business-ch02-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_026",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-10-24T05:39:01.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_026",
+    "kind": "retention_probe",
+    "subjectId": "cambridge-g12-accountancy",
+    "score": 8,
+    "maxScore": 8,
+    "gaps": [
+     "G6:cambridge-g12-accountancy-ch02-st1",
+     "G6:cambridge-g12-accountancy-ch02-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_028",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-10-31T05:03:15.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_028",
+    "kind": "weekly",
+    "subjectId": "cambridge-g12-accountancy",
+    "score": 28,
+    "maxScore": 28,
+    "gaps": [
+     "G1:cambridge-g12-accountancy-ch02-st2"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_027",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-10-31T05:37:07.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_027",
+    "kind": "retention_probe",
+    "subjectId": "cambridge-g12-business",
+    "score": 2,
+    "maxScore": 6,
+    "gaps": [
+     "G6:cambridge-g12-business-ch02-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_029",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-11-06T13:22:10.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_029",
+    "kind": "chapter_check",
+    "subjectId": "cambridge-g12-economics",
+    "score": 59,
+    "maxScore": 73,
+    "gaps": [
+     "G4:cambridge-g12-economics-ch03-st1",
+     "G4:cambridge-g12-economics-ch03-st2",
+     "G4:cambridge-g12-economics-ch03-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_030",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-11-07T05:37:07.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_030",
+    "kind": "retention_probe",
+    "subjectId": "cambridge-g12-business",
+    "score": 6,
+    "maxScore": 6,
+    "gaps": [
+     "G6:cambridge-g12-business-ch02-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_031",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-11-07T05:52:10.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_031",
+    "kind": "weekly",
+    "subjectId": "cambridge-g12-economics",
+    "score": 50,
+    "maxScore": 73,
+    "gaps": [
+     "G1:cambridge-g12-economics-ch03-st1",
+     "G2:cambridge-g12-economics-ch03-st3",
+     "G5:cambridge-g12-economics-ch03-st2"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_032",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-11-10T13:44:58.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_032",
+    "kind": "chapter_check",
+    "subjectId": "cambridge-g12-accountancy",
+    "score": 82,
+    "maxScore": 89,
+    "gaps": [
+     "G4:cambridge-g12-accountancy-ch03-st1",
+     "G4:cambridge-g12-accountancy-ch03-st3",
+     "G4:cambridge-g12-accountancy-ch03-st4",
+     "G4:cambridge-g12-accountancy-ch03-st2"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_033",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-11-12T14:44:49.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_033",
+    "kind": "chapter_check",
+    "subjectId": "cambridge-g12-business",
+    "score": 109,
+    "maxScore": 139,
+    "gaps": [
+     "G1:cambridge-g12-business-ch03-st2",
+     "G5:cambridge-g12-business-ch03-st3",
+     "G4:cambridge-g12-business-ch03-st1",
+     "G4:cambridge-g12-business-ch03-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_034",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-11-13T11:38:33.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_034",
+    "kind": "retention_probe",
+    "subjectId": "cambridge-g12-economics",
+    "score": 8,
+    "maxScore": 9,
+    "gaps": [
+     "G1:cambridge-g12-economics-ch03-st1",
+     "G5:cambridge-g12-economics-ch03-st2",
+     "G2:cambridge-g12-economics-ch03-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_037",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-11-14T05:52:10.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_037",
+    "kind": "weekly",
+    "subjectId": "cambridge-g12-economics",
+    "score": 70,
+    "maxScore": 73,
+    "gaps": [
+     "G6:cambridge-g12-economics-ch03-st1",
+     "G5:cambridge-g12-economics-ch03-st2",
+     "G2:cambridge-g12-economics-ch03-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_036",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-11-14T06:14:58.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_036",
+    "kind": "weekly",
+    "subjectId": "cambridge-g12-accountancy",
+    "score": 80,
+    "maxScore": 89,
+    "gaps": [
+     "G3:cambridge-g12-accountancy-ch03-st1",
+     "G4:cambridge-g12-accountancy-ch03-st3",
+     "G4:cambridge-g12-accountancy-ch03-st4",
+     "G4:cambridge-g12-accountancy-ch03-st2"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_035",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-11-14T07:14:49.500Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_035",
+    "kind": "weekly",
+    "subjectId": "cambridge-g12-business",
+    "score": 123,
+    "maxScore": 139,
+    "gaps": [
+     "G2:cambridge-g12-business-ch03-st4",
+     "G4:cambridge-g12-business-ch03-st1",
+     "G4:cambridge-g12-business-ch03-st2",
+     "G4:cambridge-g12-business-ch03-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_038",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-11-17T11:47:06.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_038",
+    "kind": "retention_probe",
+    "subjectId": "cambridge-g12-accountancy",
+    "score": 7,
+    "maxScore": 15,
+    "gaps": [
+     "G3:cambridge-g12-accountancy-ch03-st1",
+     "G6:cambridge-g12-accountancy-ch03-st2",
+     "G6:cambridge-g12-accountancy-ch03-st3",
+     "G4:cambridge-g12-accountancy-ch03-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  }
+ ]
+}

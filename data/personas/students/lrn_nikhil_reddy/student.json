@@ -1,0 +1,88 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/personas/simulate.ts",
+ "items": [
+  {
+   "role": "student",
+   "name": "Nikhil Reddy",
+   "availability": [
+    {
+     "day": "mon",
+     "start": "17:00",
+     "end": "19:00"
+    },
+    {
+     "day": "tue",
+     "start": "17:00",
+     "end": "19:00"
+    },
+    {
+     "day": "wed",
+     "start": "17:00",
+     "end": "19:00"
+    },
+    {
+     "day": "thu",
+     "start": "17:00",
+     "end": "19:00"
+    },
+    {
+     "day": "fri",
+     "start": "17:00",
+     "end": "19:00"
+    },
+    {
+     "day": "sat",
+     "start": "10:00",
+     "end": "12:30"
+    }
+   ],
+   "weeklyHours": 10,
+   "tzOffsetMinutes": 330,
+   "joinedUtc": "2026-08-17T04:30:00.000Z",
+   "parentIds": [
+    "par_lakshmi_reddy"
+   ],
+   "counsellorIds": [
+    "csl_farah_siddiqui",
+    "csl_heena_qureshi"
+   ],
+   "mentorIds": [],
+   "tutorIds": [],
+   "sectionIds": [],
+   "profileCompletionPct": 81,
+   "medium": "English",
+   "subjects": [
+    {
+     "subjectId": "cambridge-g12-business",
+     "depth": "full"
+    },
+    {
+     "subjectId": "cambridge-g12-accountancy",
+     "depth": "light"
+    },
+    {
+     "subjectId": "cambridge-g12-economics",
+     "depth": "light"
+    }
+   ],
+   "id": "lrn_nikhil_reddy",
+   "firstName": "Nikhil",
+   "lastName": "Reddy",
+   "board": "cambridge",
+   "grade": 12,
+   "stream": "commerce",
+   "programme": "Cambridge A Level (Commerce)",
+   "school": "Oakridge International School",
+   "city": "Hyderabad",
+   "band": "excellent",
+   "plan": "application_support",
+   "goal": "BSc Business in the UK or Canada",
+   "currentChapterIds": [
+    "cambridge-g12-business-ch04"
+   ],
+   "story": "Average student, full Application Support subscriber applying to UK and Canada business programmes.",
+   "onboardedUtc": "2026-08-17T04:30:00.000Z"
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/personas/simulate.ts",
+ "items": [
+  {
+   "id": "inv_kunal_verma_farhan_ali_202610",
+   "learnerId": "lrn_kunal_verma",
+   "payerId": "par_alok_verma",
+   "issuedUtc": "2026-10-28T03:30:00.000Z",
+   "dueDate": "2026-11-04",
+   "status": "paid",
+   "paidUtc": "2026-10-30T14:30:00.000Z",
+   "lines": [
+    {
+     "title": "Farhan Ali: 9 × 60 min English (2026-10)",
+     "amountInr": 5400,
+     "bookingId": "bkg_kunal_verma_farhan_ali"
+    }
+   ],
+   "amountInr": 5400
+  },
+  {
+   "id": "inv_kunal_verma_farhan_ali_202611",
+   "learnerId": "lrn_kunal_verma",
+   "payerId": "par_alok_verma",
+   "issuedUtc": "2026-11-28T03:30:00.000Z",
+   "dueDate": "2026-12-05",
+   "status": "due",
+   "lines": [
+    {
+     "title": "Farhan Ali: 4 × 60 min English (2026-11)",
+     "amountInr": 2400,
+     "bookingId": "bkg_kunal_verma_farhan_ali"
+    }
+   ],
+   "amountInr": 2400
+  }
+ ]
+}

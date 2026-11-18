@@ -63,15 +63,15 @@ describe('reads return typed data for fixture learners', () => {
     const secs = data.getSections('tch_suresh_pillai');
     expect(secs.map((s) => s.id)).toEqual(['sec-cbse-g10-maths-b', 'sec-cbse-g9-maths-a']);
     const hm = data.getSectionHeatmap('sec-cbse-g9-maths-a')!;
-    expect(hm.rows).toHaveLength(10);
+    expect(hm.rows).toHaveLength(30);
     expect(hm.rows.find((r) => r.learnerId === KABIR)!.isPersona).toBe(true);
     expect(hm.clusters[0].learnerIds.length).toBeGreaterThanOrEqual(5);
     expect(hm.clusters[0]).toMatchObject({ subtopicId: 'cbse-g9-maths-ch05-st3', code: 'G3' });
     const heena = data.getCaseload('csl_heena_qureshi');
-    expect(heena).toHaveLength(6);
+    expect(heena).toHaveLength(14);
     expect(heena.find((c) => c.student.id === KABIR)!.pendingRequests).toBe(1);
-    expect(data.getCaseload('mnt_kelvin_thomas').map((c) => c.student.id)).toEqual(['lrn_sara_khan']);
-    expect(data.getMeetingNotes('lrn_sara_khan', { kind: 'career' })).toHaveLength(1);
+    expect(data.getCaseload('mnt_kelvin_thomas').map((c) => c.student.id).sort()).toEqual(['lrn_arjun_nair', 'lrn_kunal_verma', 'lrn_sara_khan']);
+    expect(data.getMeetingNotes('lrn_sara_khan', { kind: 'career' })).toHaveLength(2);
   });
 
   it('visibility: T3 never reaches parent, teacher, tutor or mentor', () => {

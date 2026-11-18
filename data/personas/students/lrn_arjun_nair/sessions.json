@@ -1,0 +1,125 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/personas/simulate.ts",
+ "items": [
+  {
+   "id": "ses_arjun_nair_csl_1",
+   "code": "C-1",
+   "learnerId": "lrn_arjun_nair",
+   "learnerIds": [
+    "lrn_arjun_nair"
+   ],
+   "hostId": "csl_heena_qureshi",
+   "hostRole": "counsellor",
+   "kind": "counselling",
+   "title": "First check-in with Heena",
+   "startUtc": "2026-09-09T10:30:00.000Z",
+   "minutes": 30,
+   "status": "completed",
+   "mode": "online",
+   "meetingNoteId": "mtg_arjun_nair_1"
+  },
+  {
+   "id": "ses_arjun_nair_csl_2",
+   "code": "C-2",
+   "learnerId": "lrn_arjun_nair",
+   "learnerIds": [
+    "lrn_arjun_nair"
+   ],
+   "hostId": "csl_heena_qureshi",
+   "hostRole": "counsellor",
+   "kind": "counselling",
+   "title": "Monthly check-in with Heena",
+   "startUtc": "2026-10-07T10:30:00.000Z",
+   "minutes": 30,
+   "status": "completed",
+   "mode": "online",
+   "meetingNoteId": "mtg_arjun_nair_2"
+  },
+  {
+   "id": "ses_arjun_nair_csl_3",
+   "code": "C-3",
+   "learnerId": "lrn_arjun_nair",
+   "learnerIds": [
+    "lrn_arjun_nair"
+   ],
+   "hostId": "csl_heena_qureshi",
+   "hostRole": "counsellor",
+   "kind": "counselling",
+   "title": "Monthly check-in with Heena",
+   "startUtc": "2026-11-04T10:30:00.000Z",
+   "minutes": 30,
+   "status": "completed",
+   "mode": "online",
+   "meetingNoteId": "mtg_arjun_nair_3"
+  },
+  {
+   "id": "ses_arjun_nair_csl_next",
+   "code": "C-4",
+   "learnerId": "lrn_arjun_nair",
+   "learnerIds": [
+    "lrn_arjun_nair"
+   ],
+   "hostId": "csl_heena_qureshi",
+   "hostRole": "counsellor",
+   "kind": "counselling",
+   "title": "Check-in with Heena",
+   "startUtc": "2026-11-24T11:00:00.000Z",
+   "minutes": 30,
+   "status": "scheduled",
+   "mode": "online",
+   "joinUrl": "https://meet.learnibility.demo/heena"
+  },
+  {
+   "id": "ses_arjun_nair_mnt_1",
+   "code": "M-1",
+   "learnerId": "lrn_arjun_nair",
+   "learnerIds": [
+    "lrn_arjun_nair"
+   ],
+   "hostId": "mnt_kelvin_thomas",
+   "hostRole": "mentor",
+   "kind": "career",
+   "title": "Career session: is Law the right fit?",
+   "startUtc": "2026-10-08T12:30:00.000Z",
+   "minutes": 45,
+   "status": "completed",
+   "mode": "online",
+   "meetingNoteId": "mtg_arjun_nair_career_1"
+  },
+  {
+   "id": "ses_arjun_nair_mnt_2",
+   "code": "M-2",
+   "learnerId": "lrn_arjun_nair",
+   "learnerIds": [
+    "lrn_arjun_nair"
+   ],
+   "hostId": "mnt_kelvin_thomas",
+   "hostRole": "mentor",
+   "kind": "career",
+   "title": "Career session: CLAT in India or an LLB in the UK",
+   "startUtc": "2026-11-11T12:30:00.000Z",
+   "minutes": 45,
+   "status": "completed",
+   "mode": "online",
+   "meetingNoteId": "mtg_arjun_nair_career_2"
+  },
+  {
+   "id": "ses_arjun_nair_mnt_next",
+   "code": "M-3",
+   "learnerId": "lrn_arjun_nair",
+   "learnerIds": [
+    "lrn_arjun_nair"
+   ],
+   "hostId": "mnt_kelvin_thomas",
+   "hostRole": "mentor",
+   "kind": "career",
+   "title": "Career session: CLAT plan and reasoning skills",
+   "startUtc": "2026-12-09T12:30:00.000Z",
+   "minutes": 45,
+   "status": "scheduled",
+   "mode": "online",
+   "joinUrl": "https://meet.learnibility.demo/kelvin"
+  }
+ ]
+}

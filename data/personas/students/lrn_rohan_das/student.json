@@ -1,0 +1,92 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/personas/simulate.ts",
+ "items": [
+  {
+   "role": "student",
+   "name": "Rohan Das",
+   "availability": [
+    {
+     "day": "mon",
+     "start": "17:00",
+     "end": "19:00"
+    },
+    {
+     "day": "tue",
+     "start": "17:00",
+     "end": "19:00"
+    },
+    {
+     "day": "wed",
+     "start": "17:00",
+     "end": "19:00"
+    },
+    {
+     "day": "thu",
+     "start": "17:00",
+     "end": "19:00"
+    },
+    {
+     "day": "fri",
+     "start": "17:00",
+     "end": "19:00"
+    },
+    {
+     "day": "sat",
+     "start": "10:00",
+     "end": "12:30"
+    }
+   ],
+   "weeklyHours": 6,
+   "tzOffsetMinutes": 330,
+   "joinedUtc": "2026-08-17T04:30:00.000Z",
+   "parentIds": [
+    "par_anita_das"
+   ],
+   "counsellorIds": [
+    "csl_heena_qureshi"
+   ],
+   "mentorIds": [],
+   "tutorIds": [
+    "tut_rahul_verma"
+   ],
+   "sectionIds": [
+    "sec-cbse-g10-maths-b",
+    "sec-cbse-g10-science-b"
+   ],
+   "profileCompletionPct": 44,
+   "medium": "English",
+   "subjects": [
+    {
+     "subjectId": "cbse-g10-maths",
+     "depth": "full"
+    },
+    {
+     "subjectId": "cbse-g10-science",
+     "depth": "light"
+    },
+    {
+     "subjectId": "cbse-g10-social-science",
+     "depth": "light"
+    }
+   ],
+   "id": "lrn_rohan_das",
+   "firstName": "Rohan",
+   "lastName": "Das",
+   "board": "cbse",
+   "grade": 10,
+   "stream": "none",
+   "programme": "CBSE Class 10",
+   "school": "Kendriya Vidyalaya, Salt Lake",
+   "city": "Kolkata",
+   "band": "average",
+   "plan": "free",
+   "goal": "Pass Class 10 boards with 75%",
+   "currentChapterIds": [
+    "cbse-g10-maths-ch07"
+   ],
+   "story": "Struggling in Maths; the free plan ran 3 weeks without closing his gaps, so a paid tutor started 4 weeks ago.",
+   "onboardedUtc": "2026-08-17T04:30:00.000Z"
+  }
+ ]
+}

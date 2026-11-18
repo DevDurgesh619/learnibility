@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/personas/simulate.ts",
+ "items": [
+  {
+   "id": "inv_diya_sharma_fatima_sheikh_202609",
+   "learnerId": "lrn_diya_sharma",
+   "payerId": "par_kavita_sharma",
+   "issuedUtc": "2026-09-28T03:30:00.000Z",
+   "dueDate": "2026-10-05",
+   "status": "paid",
+   "paidUtc": "2026-09-30T14:30:00.000Z",
+   "lines": [
+    {
+     "title": "Fatima Sheikh: 8 × 90 min Physics (2026-09)",
+     "amountInr": 10800,
+     "bookingId": "bkg_diya_sharma_fatima_sheikh"
+    }
+   ],
+   "amountInr": 10800
+  },
+  {
+   "id": "inv_diya_sharma_fatima_sheikh_202610",
+   "learnerId": "lrn_diya_sharma",
+   "payerId": "par_kavita_sharma",
+   "issuedUtc": "2026-10-28T03:30:00.000Z",
+   "dueDate": "2026-11-04",
+   "status": "paid",
+   "paidUtc": "2026-10-30T14:30:00.000Z",
+   "lines": [
+    {
+     "title": "Fatima Sheikh: 9 × 90 min Physics (2026-10)",
+     "amountInr": 12150,
+     "bookingId": "bkg_diya_sharma_fatima_sheikh"
+    }
+   ],
+   "amountInr": 12150
+  },
+  {
+   "id": "inv_diya_sharma_fatima_sheikh_202611",
+   "learnerId": "lrn_diya_sharma",
+   "payerId": "par_kavita_sharma",
+   "issuedUtc": "2026-11-28T03:30:00.000Z",
+   "dueDate": "2026-12-05",
+   "status": "due",
+   "lines": [
+    {
+     "title": "Fatima Sheikh: 5 × 90 min Physics (2026-11)",
+     "amountInr": 6750,
+     "bookingId": "bkg_diya_sharma_fatima_sheikh"
+    }
+   ],
+   "amountInr": 6750
+  }
+ ]
+}

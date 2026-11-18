@@ -1,0 +1,552 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/personas/simulate.ts",
+ "items": [
+  {
+   "learnerId": "lrn_aarav_kapoor",
+   "computedUtc": "2026-11-18T03:30:00.000Z",
+   "fits": [
+    {
+     "careerId": "career-research-scientist",
+     "title": "Research Scientist (Physical Sciences)",
+     "score": 73.6,
+     "parts": {
+      "interests": 35,
+      "aptitudeAcademics": 23.6,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "high",
+     "reasons": [
+      "Matches your I interests",
+      "Affordable route: BS-MS at IISc / IISER, then PhD"
+     ]
+    },
+    {
+     "careerId": "career-ai-ml-engineer",
+     "title": "AI / Machine Learning Engineer",
+     "score": 67.7,
+     "parts": {
+      "interests": 31.1,
+      "aptitudeAcademics": 23.1,
+      "skills": 0,
+      "feasibility": 13.5
+     },
+     "confidence": "high",
+     "reasons": [
+      "Matches your IR interests",
+      "Cheapest route (B.Tech CSE / AI via JEE, then M.Tech or industry) costs more than the budget"
+     ]
+    },
+    {
+     "careerId": "career-aerospace-engineer",
+     "title": "Aerospace Engineer",
+     "score": 65.1,
+     "parts": {
+      "interests": 31.1,
+      "aptitudeAcademics": 21,
+      "skills": 0,
+      "feasibility": 13
+     },
+     "confidence": "high",
+     "reasons": [
+      "Matches your IR interests",
+      "Cheapest route (B.Tech Aerospace via JEE Advanced) costs more than the budget"
+     ]
+    },
+    {
+     "careerId": "career-software-engineer",
+     "title": "Software Engineer",
+     "score": 64,
+     "parts": {
+      "interests": 26.2,
+      "aptitudeAcademics": 24.3,
+      "skills": 0,
+      "feasibility": 13.5
+     },
+     "confidence": "high",
+     "reasons": [
+      "Matches your IR interests",
+      "Cheapest route (B.Tech Computer Science via JEE) costs more than the budget"
+     ]
+    },
+    {
+     "careerId": "career-biotechnologist",
+     "title": "Biotechnologist",
+     "score": 63.7,
+     "parts": {
+      "interests": 31.1,
+      "aptitudeAcademics": 17.9,
+      "skills": 0,
+      "feasibility": 14.7
+     },
+     "confidence": "high",
+     "reasons": [
+      "Matches your IR interests",
+      "Cheapest route (B.Tech / BSc Biotechnology, then MSc or PhD) costs more than the budget"
+     ]
+    },
+    {
+     "careerId": "career-cybersecurity-analyst",
+     "title": "Cybersecurity Analyst",
+     "score": 63.7,
+     "parts": {
+      "interests": 22.3,
+      "aptitudeAcademics": 30.8,
+      "skills": 0,
+      "feasibility": 10.6
+     },
+     "confidence": "high",
+     "reasons": [
+      "Matches your IR interests",
+      "Strong aptitude and marks for it",
+      "Cheapest route (B.Tech CSE (cybersecurity) + certifications) costs more than the budget"
+     ]
+    },
+    {
+     "careerId": "career-electronics-engineer",
+     "title": "Electronics and Electrical Engineer",
+     "score": 63.3,
+     "parts": {
+      "interests": 28.4,
+      "aptitudeAcademics": 24.3,
+      "skills": 0,
+      "feasibility": 10.6
+     },
+     "confidence": "high",
+     "reasons": [
+      "Matches your RI interests",
+      "Cheapest route (B.Tech ECE / EE via JEE) costs more than the budget"
+     ]
+    },
+    {
+     "careerId": "career-mechanical-engineer",
+     "title": "Mechanical Engineer",
+     "score": 62.4,
+     "parts": {
+      "interests": 28.4,
+      "aptitudeAcademics": 21,
+      "skills": 0,
+      "feasibility": 13
+     },
+     "confidence": "high",
+     "reasons": [
+      "Matches your RI interests",
+      "Cheapest route (B.Tech Mechanical via JEE) costs more than the budget"
+     ]
+    }
+   ],
+   "shortlist": [
+    "career-research-scientist",
+    "career-ai-ml-engineer"
+   ],
+   "gaps": {
+    "career-research-scientist": {
+     "careerId": "career-research-scientist",
+     "skills": [
+      {
+       "skillId": "skill-calculus",
+       "name": "skill-calculus",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 5,
+       "levelsToClimb": 5,
+       "hours": 100,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 100,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 75,
+        "inr": 21000
+       }
+      },
+      {
+       "skillId": "skill-mechanics",
+       "name": "skill-mechanics",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-research",
+       "name": "skill-research",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 5,
+       "levelsToClimb": 5,
+       "hours": 100,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 100,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 75,
+        "inr": 21000
+       }
+      },
+      {
+       "skillId": "skill-statistics",
+       "name": "skill-statistics",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-python-programming",
+       "name": "skill-python-programming",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 3,
+       "levelsToClimb": 3,
+       "hours": 60,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 60,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 45,
+        "inr": 12600
+       }
+      },
+      {
+       "skillId": "skill-written-communication",
+       "name": "skill-written-communication",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-lab-techniques",
+       "name": "skill-lab-techniques",
+       "importance": "helpful",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      }
+     ],
+     "totalHours": 580,
+     "free": {
+      "hours": 580,
+      "inr": 0,
+      "months": 26.7
+     },
+     "paid": {
+      "hours": 435,
+      "inr": 121800,
+      "months": 20
+     },
+     "pathways": [
+      {
+       "id": "research-scientist-india",
+       "label": "BS-MS at IISc / IISER, then PhD",
+       "region": "india",
+       "yearsToEntry": 10,
+       "costInr": {
+        "low": 600000,
+        "typical": 1000000,
+        "high": 1600000
+       },
+       "examIds": [
+        "iiser-iat",
+        "jee-advanced"
+       ],
+       "examPrepHours": 0,
+       "examFeesInr": 0
+      },
+      {
+       "id": "research-scientist-us",
+       "label": "BS in the US, then funded PhD",
+       "region": "abroad",
+       "yearsToEntry": 9,
+       "costInr": {
+        "low": 18000000,
+        "typical": 29000000,
+        "high": 38000000
+       },
+       "examIds": [
+        "sat",
+        "toefl"
+       ],
+       "examPrepHours": 0,
+       "examFeesInr": 0
+      }
+     ]
+    },
+    "career-ai-ml-engineer": {
+     "careerId": "career-ai-ml-engineer",
+     "skills": [
+      {
+       "skillId": "skill-python-programming",
+       "name": "skill-python-programming",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-machine-learning",
+       "name": "skill-machine-learning",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-calculus",
+       "name": "skill-calculus",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-statistics",
+       "name": "skill-statistics",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-algebra",
+       "name": "skill-algebra",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-data-structures-algorithms",
+       "name": "skill-data-structures-algorithms",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 3,
+       "levelsToClimb": 3,
+       "hours": 60,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 60,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 45,
+        "inr": 12600
+       }
+      },
+      {
+       "skillId": "skill-research",
+       "name": "skill-research",
+       "importance": "helpful",
+       "currentLevel": 0,
+       "targetLevel": 3,
+       "levelsToClimb": 3,
+       "hours": 60,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 60,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 45,
+        "inr": 12600
+       }
+      },
+      {
+       "skillId": "skill-ai-tool-fluency",
+       "name": "skill-ai-tool-fluency",
+       "importance": "helpful",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      }
+     ],
+     "totalHours": 600,
+     "free": {
+      "hours": 600,
+      "inr": 0,
+      "months": 27.6
+     },
+     "paid": {
+      "hours": 450,
+      "inr": 126000,
+      "months": 20.7
+     },
+     "pathways": [
+      {
+       "id": "ai-ml-engineer-india",
+       "label": "B.Tech CSE / AI via JEE, then M.Tech or industry",
+       "region": "india",
+       "yearsToEntry": 4,
+       "costInr": {
+        "low": 900000,
+        "typical": 1400000,
+        "high": 2200000
+       },
+       "examIds": [
+        "jee-main",
+        "jee-advanced"
+       ],
+       "examPrepHours": 0,
+       "examFeesInr": 0
+      },
+      {
+       "id": "ai-ml-engineer-us",
+       "label": "BS CS with ML focus in the US",
+       "region": "abroad",
+       "yearsToEntry": 4,
+       "costInr": {
+        "low": 18000000,
+        "typical": 29000000,
+        "high": 38000000
+       },
+       "examIds": [
+        "sat",
+        "toefl"
+       ],
+       "examPrepHours": 0,
+       "examFeesInr": 0
+      },
+      {
+       "id": "ai-ml-engineer-canada",
+       "label": "BCS in Canada (Toronto/Waterloo AI cluster)",
+       "region": "abroad",
+       "yearsToEntry": 4,
+       "costInr": {
+        "low": 11000000,
+        "typical": 15000000,
+        "high": 21000000
+       },
+       "examIds": [
+        "ielts"
+       ],
+       "examPrepHours": 0,
+       "examFeesInr": 0
+      }
+     ]
+    }
+   }
+  }
+ ]
+}

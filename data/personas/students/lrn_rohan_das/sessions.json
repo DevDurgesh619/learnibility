@@ -1,0 +1,462 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/personas/simulate.ts",
+ "items": [
+  {
+   "id": "ses_rohan_das_csl_1",
+   "code": "C-1",
+   "learnerId": "lrn_rohan_das",
+   "learnerIds": [
+    "lrn_rohan_das"
+   ],
+   "hostId": "csl_heena_qureshi",
+   "hostRole": "counsellor",
+   "kind": "counselling",
+   "title": "First check-in with Heena",
+   "startUtc": "2026-09-09T10:30:00.000Z",
+   "minutes": 30,
+   "status": "completed",
+   "mode": "online",
+   "meetingNoteId": "mtg_rohan_das_1"
+  },
+  {
+   "id": "ses_rohan_das_csl_2",
+   "code": "C-2",
+   "learnerId": "lrn_rohan_das",
+   "learnerIds": [
+    "lrn_rohan_das"
+   ],
+   "hostId": "csl_heena_qureshi",
+   "hostRole": "counsellor",
+   "kind": "counselling",
+   "title": "Monthly check-in with Heena",
+   "startUtc": "2026-10-07T10:30:00.000Z",
+   "minutes": 30,
+   "status": "completed",
+   "mode": "online",
+   "meetingNoteId": "mtg_rohan_das_2"
+  },
+  {
+   "id": "ses_rohan_das_csl_3",
+   "code": "C-3",
+   "learnerId": "lrn_rohan_das",
+   "learnerIds": [
+    "lrn_rohan_das"
+   ],
+   "hostId": "csl_heena_qureshi",
+   "hostRole": "counsellor",
+   "kind": "counselling",
+   "title": "Monthly check-in with Heena",
+   "startUtc": "2026-11-04T10:30:00.000Z",
+   "minutes": 30,
+   "status": "completed",
+   "mode": "online",
+   "meetingNoteId": "mtg_rohan_das_3"
+  },
+  {
+   "id": "ses_rohan_das_csl_next",
+   "code": "C-4",
+   "learnerId": "lrn_rohan_das",
+   "learnerIds": [
+    "lrn_rohan_das"
+   ],
+   "hostId": "csl_heena_qureshi",
+   "hostRole": "counsellor",
+   "kind": "counselling",
+   "title": "Check-in with Heena",
+   "startUtc": "2026-11-24T11:00:00.000Z",
+   "minutes": 30,
+   "status": "scheduled",
+   "mode": "online",
+   "joinUrl": "https://meet.learnibility.demo/heena"
+  },
+  {
+   "id": "ses_w2t_demo_rohan",
+   "code": "S-70",
+   "learnerId": "lrn_rohan_das",
+   "learnerIds": [
+    "lrn_rohan_das"
+   ],
+   "hostId": "tut_rahul_verma",
+   "hostRole": "tutor",
+   "kind": "demo",
+   "title": "Free demo",
+   "subjectId": "cbse-g10-maths",
+   "focus": "Parents want help before the pre-boards",
+   "startUtc": "2026-10-16T11:00:00.000Z",
+   "minutes": 30,
+   "status": "completed",
+   "mode": "online",
+   "bookingId": "bkg_w2t_demo_rohan",
+   "rateInr": 0,
+   "report": null
+  },
+  {
+   "id": "ses_w2t_035",
+   "code": "S-35",
+   "learnerId": "lrn_rohan_das",
+   "learnerIds": [
+    "lrn_rohan_das"
+   ],
+   "hostId": "tut_rahul_verma",
+   "hostRole": "tutor",
+   "kind": "one_to_one",
+   "title": "Polynomials",
+   "subjectId": "cbse-g10-maths",
+   "focus": "Polynomials",
+   "startUtc": "2026-10-20T10:30:00.000Z",
+   "minutes": 60,
+   "status": "completed",
+   "mode": "online",
+   "joinUrl": "https://meet.learnibility.demo/ses_w2t_035",
+   "bookingId": "bkg_w2t_rohan",
+   "rateInr": 800,
+   "report": {
+    "topics": [
+     "Polynomials: degree, types and graphs of linear and quadratic polynomials",
+     "Geometrical meaning of the zeroes of a polynomial"
+    ],
+    "performance": "struggled",
+    "engagement": "low",
+    "notes": "Lost the thread on the second worked example; slowed down and re-did it on the board.",
+    "homeworkTaskIds": [
+     "task_w2t_029"
+    ],
+    "nextFocus": "Relationship between zeroes and coefficients of a quadratic polynomial",
+    "submittedUtc": "2026-10-20T11:45:00.000Z"
+   }
+  },
+  {
+   "id": "ses_w2t_036",
+   "code": "S-36",
+   "learnerId": "lrn_rohan_das",
+   "learnerIds": [
+    "lrn_rohan_das"
+   ],
+   "hostId": "tut_rahul_verma",
+   "hostRole": "tutor",
+   "kind": "one_to_one",
+   "title": "Polynomials",
+   "subjectId": "cbse-g10-maths",
+   "focus": "Relationship between zeroes and coefficients of a quadratic polynomial",
+   "startUtc": "2026-10-22T10:30:00.000Z",
+   "minutes": 60,
+   "status": "completed",
+   "mode": "online",
+   "joinUrl": "https://meet.learnibility.demo/ses_w2t_036",
+   "bookingId": "bkg_w2t_rohan",
+   "rateInr": 800,
+   "report": {
+    "topics": [
+     "Relationship between zeroes and coefficients of a quadratic polynomial"
+    ],
+    "performance": "getting_there",
+    "engagement": "medium",
+    "notes": "Method is right, arithmetic slips under time pressure.",
+    "homeworkTaskIds": [
+     "task_w2t_030"
+    ],
+    "nextFocus": "Relationship between zeroes and coefficients of a quadratic polynomial",
+    "submittedUtc": "2026-10-22T11:45:00.000Z"
+   }
+  },
+  {
+   "id": "ses_w2t_037",
+   "code": "S-37",
+   "learnerId": "lrn_rohan_das",
+   "learnerIds": [
+    "lrn_rohan_das"
+   ],
+   "hostId": "tut_rahul_verma",
+   "hostRole": "tutor",
+   "kind": "one_to_one",
+   "title": "Polynomials",
+   "subjectId": "cbse-g10-maths",
+   "focus": "Relationship between zeroes and coefficients of a quadratic polynomial",
+   "startUtc": "2026-10-27T10:30:00.000Z",
+   "minutes": 60,
+   "status": "completed",
+   "mode": "online",
+   "joinUrl": "https://meet.learnibility.demo/ses_w2t_037",
+   "bookingId": "bkg_w2t_rohan",
+   "rateInr": 800,
+   "report": {
+    "topics": [
+     "Relationship between zeroes and coefficients of a quadratic polynomial",
+     "Forming a quadratic polynomial from given sum and product of zeroes"
+    ],
+    "performance": "struggled",
+    "engagement": "low",
+    "notes": "Lost the thread on the second worked example; slowed down and re-did it on the board.",
+    "homeworkTaskIds": [
+     "task_w2t_031"
+    ],
+    "nextFocus": "Standard form and representing situations as quadratic equations",
+    "submittedUtc": "2026-10-27T11:45:00.000Z"
+   }
+  },
+  {
+   "id": "ses_w2t_038",
+   "code": "S-38",
+   "learnerId": "lrn_rohan_das",
+   "learnerIds": [
+    "lrn_rohan_das"
+   ],
+   "hostId": "tut_rahul_verma",
+   "hostRole": "tutor",
+   "kind": "one_to_one",
+   "title": "Quadratic Equations",
+   "subjectId": "cbse-g10-maths",
+   "focus": "Standard form and representing situations as quadratic equations",
+   "startUtc": "2026-10-29T10:30:00.000Z",
+   "minutes": 60,
+   "status": "completed",
+   "mode": "online",
+   "joinUrl": "https://meet.learnibility.demo/ses_w2t_038",
+   "bookingId": "bkg_w2t_rohan",
+   "rateInr": 800,
+   "report": {
+    "topics": [
+     "Standard form and representing situations as quadratic equations"
+    ],
+    "performance": "getting_there",
+    "engagement": "medium",
+    "notes": "Method is right, arithmetic slips under time pressure.",
+    "homeworkTaskIds": [
+     "task_w2t_032"
+    ],
+    "nextFocus": "Solution of a quadratic equation by factorisation",
+    "submittedUtc": "2026-10-29T11:45:00.000Z"
+   }
+  },
+  {
+   "id": "ses_w2t_039",
+   "code": "S-39",
+   "learnerId": "lrn_rohan_das",
+   "learnerIds": [
+    "lrn_rohan_das"
+   ],
+   "hostId": "tut_rahul_verma",
+   "hostRole": "tutor",
+   "kind": "one_to_one",
+   "title": "Quadratic Equations",
+   "subjectId": "cbse-g10-maths",
+   "focus": "Solution of a quadratic equation by factorisation",
+   "startUtc": "2026-11-03T10:30:00.000Z",
+   "minutes": 60,
+   "status": "completed",
+   "mode": "online",
+   "joinUrl": "https://meet.learnibility.demo/ses_w2t_039",
+   "bookingId": "bkg_w2t_rohan",
+   "rateInr": 800,
+   "report": {
+    "topics": [
+     "Solution of a quadratic equation by factorisation"
+    ],
+    "performance": "struggled",
+    "engagement": "low",
+    "notes": "Lost the thread on the second worked example; slowed down and re-did it on the board.",
+    "homeworkTaskIds": [
+     "task_w2t_033"
+    ],
+    "nextFocus": "Solution of a quadratic equation by factorisation",
+    "submittedUtc": "2026-11-03T11:45:00.000Z"
+   }
+  },
+  {
+   "id": "ses_w2t_040",
+   "code": "S-40",
+   "learnerId": "lrn_rohan_das",
+   "learnerIds": [
+    "lrn_rohan_das"
+   ],
+   "hostId": "tut_rahul_verma",
+   "hostRole": "tutor",
+   "kind": "one_to_one",
+   "title": "Quadratic Equations",
+   "subjectId": "cbse-g10-maths",
+   "focus": "Solution of a quadratic equation by factorisation",
+   "startUtc": "2026-11-05T10:30:00.000Z",
+   "minutes": 60,
+   "status": "no_show",
+   "mode": "online",
+   "joinUrl": "https://meet.learnibility.demo/ses_w2t_040",
+   "bookingId": "bkg_w2t_rohan",
+   "rateInr": 800,
+   "report": null
+  },
+  {
+   "id": "ses_w2t_041",
+   "code": "S-41",
+   "learnerId": "lrn_rohan_das",
+   "learnerIds": [
+    "lrn_rohan_das"
+   ],
+   "hostId": "tut_rahul_verma",
+   "hostRole": "tutor",
+   "kind": "one_to_one",
+   "title": "Quadratic Equations",
+   "subjectId": "cbse-g10-maths",
+   "focus": "Quadratic formula and nature of roots using the discriminant",
+   "startUtc": "2026-11-10T10:30:00.000Z",
+   "minutes": 60,
+   "status": "completed",
+   "mode": "online",
+   "joinUrl": "https://meet.learnibility.demo/ses_w2t_041",
+   "bookingId": "bkg_w2t_rohan",
+   "rateInr": 800,
+   "report": {
+    "topics": [
+     "Quadratic formula and nature of roots using the discriminant"
+    ],
+    "performance": "struggled",
+    "engagement": "low",
+    "notes": "Lost the thread on the second worked example; slowed down and re-did it on the board.",
+    "homeworkTaskIds": [
+     "task_w2t_034"
+    ],
+    "nextFocus": "Quadratic formula and nature of roots using the discriminant",
+    "submittedUtc": "2026-11-10T11:45:00.000Z"
+   }
+  },
+  {
+   "id": "ses_w2t_042",
+   "code": "S-42",
+   "learnerId": "lrn_rohan_das",
+   "learnerIds": [
+    "lrn_rohan_das"
+   ],
+   "hostId": "tut_rahul_verma",
+   "hostRole": "tutor",
+   "kind": "one_to_one",
+   "title": "Quadratic Equations",
+   "subjectId": "cbse-g10-maths",
+   "focus": "Quadratic formula and nature of roots using the discriminant",
+   "startUtc": "2026-11-12T10:30:00.000Z",
+   "minutes": 60,
+   "status": "completed",
+   "mode": "online",
+   "joinUrl": "https://meet.learnibility.demo/ses_w2t_042",
+   "bookingId": "bkg_w2t_rohan",
+   "rateInr": 800,
+   "report": {
+    "topics": [
+     "Quadratic formula and nature of roots using the discriminant"
+    ],
+    "performance": "getting_there",
+    "engagement": "medium",
+    "notes": "Method is right, arithmetic slips under time pressure.",
+    "homeworkTaskIds": [
+     "task_w2t_035"
+    ],
+    "nextFocus": "Quadratic formula and nature of roots using the discriminant",
+    "submittedUtc": "2026-11-12T11:45:00.000Z"
+   }
+  },
+  {
+   "id": "ses_w2t_043",
+   "code": "S-43",
+   "learnerId": "lrn_rohan_das",
+   "learnerIds": [
+    "lrn_rohan_das"
+   ],
+   "hostId": "tut_rahul_verma",
+   "hostRole": "tutor",
+   "kind": "one_to_one",
+   "title": "Quadratic Equations",
+   "subjectId": "cbse-g10-maths",
+   "focus": "Quadratic formula and nature of roots using the discriminant",
+   "startUtc": "2026-11-17T10:30:00.000Z",
+   "minutes": 60,
+   "status": "completed",
+   "mode": "online",
+   "joinUrl": "https://meet.learnibility.demo/ses_w2t_043",
+   "bookingId": "bkg_w2t_rohan",
+   "rateInr": 800,
+   "report": null
+  },
+  {
+   "id": "ses_w2t_044",
+   "code": "S-44",
+   "learnerId": "lrn_rohan_das",
+   "learnerIds": [
+    "lrn_rohan_das"
+   ],
+   "hostId": "tut_rahul_verma",
+   "hostRole": "tutor",
+   "kind": "one_to_one",
+   "title": "Quadratic Equations",
+   "subjectId": "cbse-g10-maths",
+   "focus": "Word problems on quadratic equations",
+   "startUtc": "2026-11-19T10:30:00.000Z",
+   "minutes": 60,
+   "status": "scheduled",
+   "mode": "online",
+   "joinUrl": "https://meet.learnibility.demo/ses_w2t_044",
+   "bookingId": "bkg_w2t_rohan",
+   "rateInr": 800,
+   "report": null
+  },
+  {
+   "id": "ses_w2t_045",
+   "code": "S-45",
+   "learnerId": "lrn_rohan_das",
+   "learnerIds": [
+    "lrn_rohan_das"
+   ],
+   "hostId": "tut_rahul_verma",
+   "hostRole": "tutor",
+   "kind": "one_to_one",
+   "title": "Quadratic Equations",
+   "subjectId": "cbse-g10-maths",
+   "focus": "Word problems on quadratic equations",
+   "startUtc": "2026-11-24T10:30:00.000Z",
+   "minutes": 60,
+   "status": "scheduled",
+   "mode": "online",
+   "joinUrl": "https://meet.learnibility.demo/ses_w2t_045",
+   "bookingId": "bkg_w2t_rohan",
+   "rateInr": 800,
+   "report": null
+  },
+  {
+   "id": "ses_w2t_046",
+   "code": "S-46",
+   "learnerId": "lrn_rohan_das",
+   "learnerIds": [
+    "lrn_rohan_das"
+   ],
+   "hostId": "tut_rahul_verma",
+   "hostRole": "tutor",
+   "kind": "one_to_one",
+   "title": "Quadratic Equations",
+   "subjectId": "cbse-g10-maths",
+   "focus": "Word problems on quadratic equations",
+   "startUtc": "2026-11-26T10:30:00.000Z",
+   "minutes": 60,
+   "status": "scheduled",
+   "mode": "online",
+   "joinUrl": "https://meet.learnibility.demo/ses_w2t_046",
+   "bookingId": "bkg_w2t_rohan",
+   "rateInr": 800,
+   "report": null
+  },
+  {
+   "id": "ses_rohan_das_csl_wb",
+   "code": "C-W",
+   "learnerId": "lrn_rohan_das",
+   "learnerIds": [
+    "lrn_rohan_das"
+   ],
+   "hostId": "csl_heena_qureshi",
+   "hostRole": "counsellor",
+   "kind": "counselling",
+   "title": "Wellbeing check-in",
+   "startUtc": "2026-11-06T09:30:00.000Z",
+   "minutes": 20,
+   "status": "completed",
+   "mode": "online",
+   "meetingNoteId": "mtg_rohan_das_wellbeing_1"
+  }
+ ]
+}

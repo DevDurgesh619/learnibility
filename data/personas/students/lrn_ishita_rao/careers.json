@@ -1,0 +1,321 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/personas/simulate.ts",
+ "items": [
+  {
+   "learnerId": "lrn_ishita_rao",
+   "computedUtc": "2026-11-18T03:30:00.000Z",
+   "fits": [
+    {
+     "careerId": "career-policy-analyst",
+     "title": "Public Policy Analyst",
+     "score": 36.2,
+     "parts": {
+      "interests": 0,
+      "aptitudeAcademics": 25.6,
+      "skills": 0,
+      "feasibility": 10.6
+     },
+     "confidence": "high",
+     "reasons": [
+      "Cheapest route (BA Political Science / Economics, then MPP) costs more than the budget"
+     ]
+    },
+    {
+     "careerId": "career-research-scientist",
+     "title": "Research Scientist (Physical Sciences)",
+     "score": 36,
+     "parts": {
+      "interests": 0,
+      "aptitudeAcademics": 21,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "high",
+     "reasons": [
+      "Affordable route: BS-MS at IISc / IISER, then PhD"
+     ]
+    },
+    {
+     "careerId": "career-chartered-accountant",
+     "title": "Chartered Accountant",
+     "score": 35.7,
+     "parts": {
+      "interests": 0,
+      "aptitudeAcademics": 20.7,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "high",
+     "reasons": [
+      "Affordable route: CA via ICAI: Foundation, Intermediate, articleship, Final"
+     ]
+    },
+    {
+     "careerId": "career-economist",
+     "title": "Economist",
+     "score": 35.7,
+     "parts": {
+      "interests": 0,
+      "aptitudeAcademics": 22.8,
+      "skills": 0,
+      "feasibility": 12.9
+     },
+     "confidence": "high",
+     "reasons": [
+      "Cheapest route (BA Economics (Hons) then MA (DSE / JNU / ISI)) costs more than the budget"
+     ]
+    },
+    {
+     "careerId": "career-data-analyst",
+     "title": "Data Analyst",
+     "score": 34.7,
+     "parts": {
+      "interests": 0,
+      "aptitudeAcademics": 22.8,
+      "skills": 0,
+      "feasibility": 11.9
+     },
+     "confidence": "high",
+     "reasons": [
+      "Cheapest route (BSc Statistics / Economics or BCom + certificate) costs more than the budget"
+     ]
+    },
+    {
+     "careerId": "career-environmental-scientist",
+     "title": "Environmental Scientist",
+     "score": 34.5,
+     "parts": {
+      "interests": 0,
+      "aptitudeAcademics": 20.7,
+      "skills": 0,
+      "feasibility": 13.8
+     },
+     "confidence": "high",
+     "reasons": [
+      "Cheapest route (BSc Environmental Science, then MSc) costs more than the budget"
+     ]
+    },
+    {
+     "careerId": "career-actuary",
+     "title": "Actuary",
+     "score": 34,
+     "parts": {
+      "interests": 0,
+      "aptitudeAcademics": 22.1,
+      "skills": 0,
+      "feasibility": 11.9
+     },
+     "confidence": "high",
+     "reasons": [
+      "Cheapest route (BSc Statistics / Maths + IAI actuarial exams) costs more than the budget"
+     ]
+    },
+    {
+     "careerId": "career-management-consultant",
+     "title": "Management Consultant",
+     "score": 32.3,
+     "parts": {
+      "interests": 0,
+      "aptitudeAcademics": 22.9,
+      "skills": 0,
+      "feasibility": 9.4
+     },
+     "confidence": "high",
+     "reasons": [
+      "Cheapest route (Top UG (IIT / SRCC / IPM) then IIM MBA) costs more than the budget"
+     ]
+    }
+   ],
+   "shortlist": [
+    "career-journalist"
+   ],
+   "gaps": {
+    "career-journalist": {
+     "careerId": "career-journalist",
+     "skills": [
+      {
+       "skillId": "skill-journalism-reporting",
+       "name": "skill-journalism-reporting",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-written-communication",
+       "name": "skill-written-communication",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 5,
+       "levelsToClimb": 5,
+       "hours": 100,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 100,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 75,
+        "inr": 21000
+       }
+      },
+      {
+       "skillId": "skill-research",
+       "name": "skill-research",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-critical-thinking",
+       "name": "skill-critical-thinking",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-spoken-communication",
+       "name": "skill-spoken-communication",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-ethical-reasoning",
+       "name": "skill-ethical-reasoning",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-data-literacy",
+       "name": "skill-data-literacy",
+       "importance": "helpful",
+       "currentLevel": 0,
+       "targetLevel": 2,
+       "levelsToClimb": 2,
+       "hours": 40,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 40,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 30,
+        "inr": 8400
+       }
+      }
+     ],
+     "totalHours": 540,
+     "free": {
+      "hours": 540,
+      "inr": 0,
+      "months": 24.9
+     },
+     "paid": {
+      "hours": 405,
+      "inr": 113400,
+      "months": 18.6
+     },
+     "pathways": [
+      {
+       "id": "journalist-india",
+       "label": "BA Journalism / English, then PG diploma (IIMC / ACJ)",
+       "region": "india",
+       "yearsToEntry": 4,
+       "costInr": {
+        "low": 300000,
+        "typical": 700000,
+        "high": 1400000
+       },
+       "examIds": [
+        "cuet-ug",
+        "christ-entrance"
+       ],
+       "examPrepHours": 0,
+       "examFeesInr": 0
+      },
+      {
+       "id": "journalist-uk",
+       "label": "BA Journalism / English in the UK",
+       "region": "abroad",
+       "yearsToEntry": 3,
+       "costInr": {
+        "low": 9500000,
+        "typical": 12500000,
+        "high": 16000000
+       },
+       "examIds": [
+        "ielts"
+       ],
+       "examPrepHours": 0,
+       "examFeesInr": 0
+      }
+     ]
+    }
+   }
+  }
+ ]
+}

@@ -1,90 +1,493 @@
 {
-  "schemaVersion": 1,
-  "generatedBy": "hand-written stub (W1 Foundations); replaced by scripts/personas in Wave 3",
-  "items": [
-    {
-      "id": "lrn_kabir_singh",
-      "role": "student",
-      "name": "Kabir Singh",
-      "story": "Quick but careless, and more confident than his marks.",
-      "grade": 9,
-      "board": "cbse",
-      "stream": "none",
-      "programme": "CBSE Class 9",
-      "order": 1
-    },
-    {
-      "id": "par_neha_kapoor",
-      "role": "parent",
-      "name": "Neha Kapoor",
-      "story": "Parent of Aarav (8, CBSE) and Ananya (10, IGCSE). One account, two children.",
-      "linkedLearnerIds": [
-        "lrn_aarav_kapoor",
-        "lrn_ananya_kapoor"
-      ],
-      "order": 1
-    },
-    {
-      "id": "tut_rahul_verma",
-      "role": "tutor",
-      "name": "Rahul Verma",
-      "story": "Maths and Physics tutor in Delhi. 6 years, ₹800 an hour one to one.",
-      "linkedLearnerIds": [
-        "lrn_ishita_rao",
-        "lrn_rohan_das"
-      ],
-      "order": 1
-    },
-    {
-      "id": "tch_suresh_pillai",
-      "role": "teacher",
-      "name": "Suresh Pillai",
-      "story": "CBSE Maths teacher, grades 9 and 10. Two sections, about 60 students.",
-      "linkedLearnerIds": [
-        "lrn_kabir_singh",
-        "lrn_rohan_das"
-      ],
-      "order": 1
-    },
-    {
-      "id": "csl_heena_qureshi",
-      "role": "counsellor",
-      "name": "Heena Qureshi",
-      "story": "Academic and wellbeing counsellor for all 14 students.",
-      "order": 1
-    },
-    {
-      "id": "mnt_kelvin_thomas",
-      "role": "mentor",
-      "name": "Kelvin Thomas",
-      "story": "Career mentor for Sara, Arjun and Kunal.",
-      "linkedLearnerIds": [
-        "lrn_sara_khan",
-        "lrn_arjun_nair",
-        "lrn_kunal_verma"
-      ],
-      "order": 1
-    },
-    {
-      "id": "sal_priya_malhotra",
-      "role": "sales",
-      "name": "Priya Malhotra",
-      "story": "Sales manager. Owns the funnel, targets and the rep leaderboard.",
-      "order": 1
-    },
-    {
-      "id": "sal_aman_gupta",
-      "role": "sales",
-      "name": "Aman Gupta",
-      "story": "Counselling sales rep. Zoya Fernandes' family is waiting to pay today.",
-      "order": 2
-    },
-    {
-      "id": "sal_neha_joseph",
-      "role": "sales",
-      "name": "Neha Joseph",
-      "story": "Counselling sales rep for referrals, ads and school partnerships.",
-      "order": 3
-    }
-  ]
+ "schemaVersion": 1,
+ "generatedBy": "scripts/personas/simulate.ts",
+ "items": [
+  {
+   "id": "lrn_aarav_kapoor",
+   "role": "student",
+   "name": "Aarav Kapoor",
+   "story": "Class 8 topper; ready for advanced topics and olympiad enrichment.",
+   "grade": 8,
+   "board": "cbse",
+   "stream": "none",
+   "programme": "CBSE Class 8",
+   "order": 1,
+   "initials": "AK"
+  },
+  {
+   "id": "lrn_ishita_rao",
+   "role": "student",
+   "name": "Ishita Rao",
+   "story": "Strong in English and History; Maths gaps from grade 7 fractions and integers. Free plan ran 3 weeks; a tutor is next.",
+   "grade": 8,
+   "board": "cambridge",
+   "stream": "none",
+   "programme": "Cambridge Lower Secondary",
+   "order": 3,
+   "initials": "IR"
+  },
+  {
+   "id": "lrn_kabir_singh",
+   "role": "student",
+   "name": "Kabir Singh",
+   "story": "Quick but careless, and more confident than his marks. Six weeks of estimate-first are working.",
+   "grade": 9,
+   "board": "cbse",
+   "stream": "none",
+   "programme": "CBSE Class 9",
+   "order": 4,
+   "initials": "KS"
+  },
+  {
+   "id": "lrn_meera_iyer",
+   "role": "student",
+   "name": "Meera Iyer",
+   "story": "Strong in Science untimed, runs out of time in tests and doubts herself; counsellor wellbeing check.",
+   "grade": 9,
+   "board": "ib",
+   "stream": "none",
+   "programme": "IB MYP 4",
+   "order": 5,
+   "initials": "MI"
+  },
+  {
+   "id": "lrn_ananya_kapoor",
+   "role": "student",
+   "name": "Ananya Kapoor",
+   "story": "IGCSE topper aiming at US universities; used the free University Fit, upgrade offered.",
+   "grade": 10,
+   "board": "cambridge",
+   "stream": "none",
+   "programme": "Cambridge IGCSE",
+   "order": 6,
+   "initials": "AK"
+  },
+  {
+   "id": "lrn_rohan_das",
+   "role": "student",
+   "name": "Rohan Das",
+   "story": "Struggling in Maths; the free plan ran 3 weeks without closing his gaps, so a paid tutor started 4 weeks ago.",
+   "grade": 10,
+   "board": "cbse",
+   "stream": "none",
+   "programme": "CBSE Class 10",
+   "order": 7,
+   "initials": "RD"
+  },
+  {
+   "id": "lrn_vihaan_joshi",
+   "role": "student",
+   "name": "Vihaan Joshi",
+   "story": "JEE aspirant: strong Maths, but Chemistry fades in a week; spaced reviews and a Chemistry tutor.",
+   "grade": 11,
+   "board": "cbse",
+   "stream": "science",
+   "programme": "CBSE Science (PCM)",
+   "order": 8,
+   "initials": "VJ"
+  },
+  {
+   "id": "lrn_sara_khan",
+   "role": "student",
+   "name": "Sara Khan",
+   "story": "Strong in Accountancy; learns Economics by rote. Choosing between CA and Data Analyst.",
+   "grade": 11,
+   "board": "cbse",
+   "stream": "commerce",
+   "programme": "CBSE Commerce",
+   "order": 9,
+   "initials": "SK"
+  },
+  {
+   "id": "lrn_arjun_nair",
+   "role": "student",
+   "name": "Arjun Nair",
+   "story": "Uneven marks, strong writer; wants Law (CLAT in India vs a UK LLB); reasoning gaps in evaluation questions.",
+   "grade": 11,
+   "board": "ib",
+   "stream": "humanities",
+   "programme": "IB DP 1 Humanities",
+   "order": 10,
+   "initials": "AN"
+  },
+  {
+   "id": "lrn_diya_sharma",
+   "role": "student",
+   "name": "Diya Sharma",
+   "story": "NEET aspirant: 4 of 6 mocks done, scores swing; retention dips. Low sleep flagged privately, support only.",
+   "grade": 12,
+   "board": "cbse",
+   "stream": "science",
+   "programme": "CBSE Science (PCB)",
+   "order": 11,
+   "initials": "DS"
+  },
+  {
+   "id": "lrn_nikhil_reddy",
+   "role": "student",
+   "name": "Nikhil Reddy",
+   "story": "Average student, full Application Support subscriber applying to UK and Canada business programmes.",
+   "grade": 12,
+   "board": "cambridge",
+   "stream": "commerce",
+   "programme": "Cambridge A Level",
+   "order": 12,
+   "initials": "NR"
+  },
+  {
+   "id": "lrn_tara_menon",
+   "role": "student",
+   "name": "Tara Menon",
+   "story": "Builds apps; applying to Computer Science in the US and Canada with code projects as her portfolio; essays need work.",
+   "grade": 12,
+   "board": "ib",
+   "stream": "science",
+   "programme": "IB DP 2 Sciences",
+   "order": 13,
+   "initials": "TM"
+  },
+  {
+   "id": "lrn_kunal_verma",
+   "role": "student",
+   "name": "Kunal Verma",
+   "story": "Weak marks but a strong debater and leader; moved from Hindi medium, so written English costs him (G7). Careers from his strengths.",
+   "grade": 12,
+   "board": "cbse",
+   "stream": "humanities",
+   "programme": "CBSE Humanities",
+   "order": 14,
+   "initials": "KV"
+  },
+  {
+   "id": "lrn_zoya_fernandes",
+   "role": "student",
+   "name": "Zoya Fernandes",
+   "story": "Signed up today; onboarding test not taken yet (live demo).",
+   "grade": 9,
+   "board": "cbse",
+   "stream": "none",
+   "programme": "CBSE Class 9",
+   "order": 2,
+   "initials": "ZF"
+  },
+  {
+   "id": "par_neha_kapoor",
+   "role": "parent",
+   "name": "Neha Kapoor",
+   "story": "Parent of Aarav and Ananya. One account, two children.",
+   "linkedLearnerIds": [
+    "lrn_aarav_kapoor",
+    "lrn_ananya_kapoor"
+   ],
+   "order": 1,
+   "initials": "NK"
+  },
+  {
+   "id": "par_sunita_rao",
+   "role": "parent",
+   "name": "Sunita Rao",
+   "story": "Parent of Ishita.",
+   "linkedLearnerIds": [
+    "lrn_ishita_rao"
+   ],
+   "order": 2,
+   "initials": "SR"
+  },
+  {
+   "id": "par_harpreet_singh",
+   "role": "parent",
+   "name": "Harpreet Singh",
+   "story": "Parent of Kabir.",
+   "linkedLearnerIds": [
+    "lrn_kabir_singh"
+   ],
+   "order": 3,
+   "initials": "HS"
+  },
+  {
+   "id": "par_radhika_iyer",
+   "role": "parent",
+   "name": "Radhika Iyer",
+   "story": "Parent of Meera.",
+   "linkedLearnerIds": [
+    "lrn_meera_iyer"
+   ],
+   "order": 4,
+   "initials": "RI"
+  },
+  {
+   "id": "par_anita_das",
+   "role": "parent",
+   "name": "Anita Das",
+   "story": "Parent of Rohan.",
+   "linkedLearnerIds": [
+    "lrn_rohan_das"
+   ],
+   "order": 5,
+   "initials": "AD"
+  },
+  {
+   "id": "par_sanjay_joshi",
+   "role": "parent",
+   "name": "Sanjay Joshi",
+   "story": "Parent of Vihaan.",
+   "linkedLearnerIds": [
+    "lrn_vihaan_joshi"
+   ],
+   "order": 6,
+   "initials": "SJ"
+  },
+  {
+   "id": "par_farida_khan",
+   "role": "parent",
+   "name": "Farida Khan",
+   "story": "Parent of Sara.",
+   "linkedLearnerIds": [
+    "lrn_sara_khan"
+   ],
+   "order": 7,
+   "initials": "FK"
+  },
+  {
+   "id": "par_rajesh_nair",
+   "role": "parent",
+   "name": "Rajesh Nair",
+   "story": "Parent of Arjun.",
+   "linkedLearnerIds": [
+    "lrn_arjun_nair"
+   ],
+   "order": 8,
+   "initials": "RN"
+  },
+  {
+   "id": "par_kavita_sharma",
+   "role": "parent",
+   "name": "Kavita Sharma",
+   "story": "Parent of Diya.",
+   "linkedLearnerIds": [
+    "lrn_diya_sharma"
+   ],
+   "order": 9,
+   "initials": "KS"
+  },
+  {
+   "id": "par_lakshmi_reddy",
+   "role": "parent",
+   "name": "Lakshmi Reddy",
+   "story": "Parent of Nikhil.",
+   "linkedLearnerIds": [
+    "lrn_nikhil_reddy"
+   ],
+   "order": 10,
+   "initials": "LR"
+  },
+  {
+   "id": "par_lata_menon",
+   "role": "parent",
+   "name": "Lata Menon",
+   "story": "Parent of Tara.",
+   "linkedLearnerIds": [
+    "lrn_tara_menon"
+   ],
+   "order": 11,
+   "initials": "LM"
+  },
+  {
+   "id": "par_alok_verma",
+   "role": "parent",
+   "name": "Alok Verma",
+   "story": "Parent of Kunal.",
+   "linkedLearnerIds": [
+    "lrn_kunal_verma"
+   ],
+   "order": 12,
+   "initials": "AV"
+  },
+  {
+   "id": "par_maria_fernandes",
+   "role": "parent",
+   "name": "Maria Fernandes",
+   "story": "Parent of Zoya.",
+   "linkedLearnerIds": [
+    "lrn_zoya_fernandes"
+   ],
+   "order": 13,
+   "initials": "MF"
+  },
+  {
+   "id": "tch_suresh_pillai",
+   "role": "teacher",
+   "name": "Suresh Pillai",
+   "story": "CBSE Maths teacher, grades 9 and 10. 9A Maths and 10B Maths, about 30 students each.",
+   "linkedLearnerIds": [
+    "lrn_kabir_singh",
+    "lrn_rohan_das"
+   ],
+   "order": 1,
+   "initials": "SP"
+  },
+  {
+   "id": "tch_anjali_bose",
+   "role": "teacher",
+   "name": "Anjali Bose",
+   "story": "CBSE Science teacher, grades 8 and 10. 8A Science and 10B Science, about 30 students each.",
+   "linkedLearnerIds": [
+    "lrn_aarav_kapoor",
+    "lrn_rohan_das"
+   ],
+   "order": 2,
+   "initials": "AB"
+  },
+  {
+   "id": "tch_grace_dsouza",
+   "role": "teacher",
+   "name": "Grace D’Souza",
+   "story": "Cambridge English teacher, Stage 9 and IGCSE. Stage 9 English A and IGCSE English A, about 30 students each.",
+   "linkedLearnerIds": [
+    "lrn_ishita_rao",
+    "lrn_ananya_kapoor"
+   ],
+   "order": 3,
+   "initials": "GD"
+  },
+  {
+   "id": "tch_tom_hayes",
+   "role": "teacher",
+   "name": "Tom Hayes",
+   "story": "IB DP Economics teacher. DP1 Economics, about 30 students each.",
+   "linkedLearnerIds": [
+    "lrn_arjun_nair"
+   ],
+   "order": 4,
+   "initials": "TH"
+  },
+  {
+   "id": "csl_heena_qureshi",
+   "role": "counsellor",
+   "name": "Heena Qureshi",
+   "story": "Academic and wellbeing counsellor for all 14 students.",
+   "linkedLearnerIds": [
+    "lrn_aarav_kapoor",
+    "lrn_ishita_rao",
+    "lrn_kabir_singh",
+    "lrn_meera_iyer",
+    "lrn_ananya_kapoor",
+    "lrn_rohan_das",
+    "lrn_vihaan_joshi",
+    "lrn_sara_khan",
+    "lrn_arjun_nair",
+    "lrn_diya_sharma",
+    "lrn_nikhil_reddy",
+    "lrn_tara_menon",
+    "lrn_kunal_verma",
+    "lrn_zoya_fernandes"
+   ],
+   "order": 1,
+   "initials": "HQ"
+  },
+  {
+   "id": "csl_farah_siddiqui",
+   "role": "counsellor",
+   "name": "Farah Siddiqui",
+   "story": "Applications counsellor: Ananya, Nikhil, Tara and Arjun.",
+   "linkedLearnerIds": [
+    "lrn_ananya_kapoor",
+    "lrn_nikhil_reddy",
+    "lrn_tara_menon",
+    "lrn_arjun_nair"
+   ],
+   "order": 2,
+   "initials": "FS"
+  },
+  {
+   "id": "mnt_kelvin_thomas",
+   "role": "mentor",
+   "name": "Kelvin Thomas",
+   "story": "Career mentor for Sara, Arjun and Kunal.",
+   "linkedLearnerIds": [
+    "lrn_sara_khan",
+    "lrn_arjun_nair",
+    "lrn_kunal_verma"
+   ],
+   "order": 1,
+   "initials": "KT"
+  },
+  {
+   "id": "tut_rahul_verma",
+   "role": "tutor",
+   "name": "Rahul Verma",
+   "story": "Maths and Physics tutor in Delhi. Rohan one to one, Kabir in a small group.",
+   "linkedLearnerIds": [
+    "lrn_rohan_das",
+    "lrn_kabir_singh"
+   ],
+   "order": 1,
+   "initials": "RV"
+  },
+  {
+   "id": "tut_meenakshi_rao",
+   "role": "tutor",
+   "name": "Meenakshi Rao",
+   "story": "Chemistry tutor. Vihaan twice a week, retention-first.",
+   "linkedLearnerIds": [
+    "lrn_vihaan_joshi"
+   ],
+   "order": 2,
+   "initials": "MR"
+  },
+  {
+   "id": "tut_fatima_sheikh",
+   "role": "tutor",
+   "name": "Fatima Sheikh",
+   "story": "Physics tutor for NEET and boards. Diya on weekends.",
+   "linkedLearnerIds": [
+    "lrn_diya_sharma"
+   ],
+   "order": 3,
+   "initials": "FS"
+  },
+  {
+   "id": "tut_farhan_ali",
+   "role": "tutor",
+   "name": "Farhan Ali",
+   "story": "English tutor: academic writing for students moving from Hindi medium. Kunal.",
+   "linkedLearnerIds": [
+    "lrn_kunal_verma"
+   ],
+   "order": 4,
+   "initials": "FA"
+  },
+  {
+   "id": "tut_sunita_gupta",
+   "role": "tutor",
+   "name": "Sunita Gupta",
+   "story": "CBSE Science tutor. Rohan has asked for her; waiting for his parent.",
+   "linkedLearnerIds": [
+    "lrn_rohan_das"
+   ],
+   "order": 5,
+   "initials": "SG"
+  },
+  {
+   "id": "sal_priya_malhotra",
+   "role": "sales",
+   "name": "Priya Malhotra",
+   "story": "Sales manager. Owns the funnel, targets and the rep leaderboard.",
+   "order": 1
+  },
+  {
+   "id": "sal_aman_gupta",
+   "role": "sales",
+   "name": "Aman Gupta",
+   "story": "Counselling sales rep. Zoya Fernandes' family is waiting to pay today.",
+   "order": 2
+  },
+  {
+   "id": "sal_neha_joseph",
+   "role": "sales",
+   "name": "Neha Joseph",
+   "story": "Counselling sales rep for referrals, ads and school partnerships.",
+   "order": 3
+  }
+ ]
 }

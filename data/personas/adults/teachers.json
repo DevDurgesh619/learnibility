@@ -1,0 +1,91 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/personas/simulate.ts",
+ "items": [
+  {
+   "id": "tch_suresh_pillai",
+   "role": "teacher",
+   "firstName": "Suresh",
+   "lastName": "Pillai",
+   "name": "Suresh Pillai",
+   "city": "New Delhi",
+   "headline": "CBSE Maths teacher, grades 9 and 10",
+   "school": "Delhi Public School, Dwarka",
+   "learnerIds": [
+    "lrn_kabir_singh",
+    "lrn_rohan_das"
+   ],
+   "sectionIds": [
+    "sec-cbse-g9-maths-a",
+    "sec-cbse-g10-maths-b"
+   ],
+   "subjectIds": [
+    "cbse-g9-maths",
+    "cbse-g10-maths"
+   ]
+  },
+  {
+   "id": "tch_anjali_bose",
+   "role": "teacher",
+   "firstName": "Anjali",
+   "lastName": "Bose",
+   "name": "Anjali Bose",
+   "city": "Gurugram",
+   "headline": "CBSE Science teacher, grades 8 and 10",
+   "school": "Delhi Public School, Sector 45",
+   "learnerIds": [
+    "lrn_aarav_kapoor",
+    "lrn_rohan_das"
+   ],
+   "sectionIds": [
+    "sec-cbse-g8-science-a",
+    "sec-cbse-g10-science-b"
+   ],
+   "subjectIds": [
+    "cbse-g8-science",
+    "cbse-g10-science"
+   ]
+  },
+  {
+   "id": "tch_grace_dsouza",
+   "role": "teacher",
+   "firstName": "Grace",
+   "lastName": "D’Souza",
+   "name": "Grace D’Souza",
+   "city": "Bengaluru",
+   "headline": "Cambridge English teacher, Stage 9 and IGCSE",
+   "school": "Indus International School",
+   "learnerIds": [
+    "lrn_ishita_rao",
+    "lrn_ananya_kapoor"
+   ],
+   "sectionIds": [
+    "sec-cambridge-g8-english-a",
+    "sec-cambridge-g10-english-a"
+   ],
+   "subjectIds": [
+    "cambridge-g8-english",
+    "cambridge-g10-english"
+   ]
+  },
+  {
+   "id": "tch_tom_hayes",
+   "role": "teacher",
+   "firstName": "Tom",
+   "lastName": "Hayes",
+   "name": "Tom Hayes",
+   "city": "Kochi",
+   "headline": "IB DP Economics teacher",
+   "school": "Choice International School",
+   "learnerIds": [
+    "lrn_arjun_nair"
+   ],
+   "sectionIds": [
+    "sec-ib-g11-economics-a"
+   ],
+   "subjectIds": [
+    "ib-g11-economics"
+   ]
+  }
+ ]
+}
