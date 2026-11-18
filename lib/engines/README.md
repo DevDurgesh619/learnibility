@@ -9,7 +9,7 @@ import { masteryTime, diagnoseGaps, planInterventions, computeAlr, buildTimetabl
          matchTutors, mapCareers, careerGap, nextBestAction } from '@/lib/engines';
 ```
 
-Tests: `npx vitest run lib/engines` (132 tests; 99.8% line coverage). The workbook examples are extracted to
+Tests: `npx vitest run lib/engines` (137 tests; 99.7% line coverage; engines 6 and 7 also run on the real W4 catalogues). The workbook examples are extracted to
 `__fixtures__/maths8.json` by `scripts/engines/extract-fixtures.py` and the tests compare against them.
 
 | # | Engine | File | Source sheets | Workbook check |
@@ -94,16 +94,18 @@ hours to close ÷ planned weeks per week; G1 first; one block per gap per day be
 topic 40 (subject+board+grade 20; a `topicStrengths` tag in the chapter/subtopic name 40; hour-weighted over gaps) ·
 style 20 (primary style is what the dominant gap needs, e.g. G2 concept-first/Socratic, G3 practice-first, G8 exam-focused; secondary 12; else 4) ·
 price 15 (≤ hourly budget = 15, linear to 0 at 2×; unknown 8) · rating 10 (Bayesian, prior 4.0 × 10 reviews) ·
-slots 10 (weekly overlap, 2 sessions = full) · language 5. Filters mode/city/format; unverified −5; tutors who teach none of
+slots 10 (weekly overlap, 2 sessions = full; tutor slots are read in `tutor.timeZone`, learner windows in `tzOffsetMinutes`, default IST) · language 5. Filters mode/city/format; unverified −5; tutors who teach none of
 the gap subjects are dropped. Each result has a one-line `reason`.
 
 ## 7. Career mapping
 
 Fit = interests 35 (RIASEC `p200`) + aptitude & academics 35 (career `aptitudeParamIds` scores, class % vs pathway minimum)
-+ skill evidence 15 (current/target, core ×2) + feasibility 15 (stream fit, cheapest pathway cost vs `p178` budget).
++ skill evidence 15 (current/target, core ×2) + feasibility 15 (stream fit, best pathway's cost vs budget: `p180` India UG
+ceiling × years for India pathways, `p181` total for abroad ones, else `p178` × years).
 **T3 values are removed before anything is read.** Missing evidence = neutral 0.5 and a lower `confidence`.
 `careerGap` gives per-skill hours from `Skill.hoursPerLevel` (or mastery-model hours for academic skills), a free route
-(free resources, ₹0) and a paid route (cheapest course reaching the target), months at weekly hours, and each pathway's
+(free resources, ₹0) and a paid route (cheapest course reaching the target, else tutor hours = 35% × hours × ₹600;
+planned at 75% of the self-study hours), months at weekly hours, and each pathway's
 cost, years to entry and exam prep hours/fees.
 
 ## 8. Next best action
@@ -111,3 +113,11 @@ cost, years to entry and exam prep hours/fees.
 deadline ≤ 14 days (100 − 3/day) · reviews due (85+) · weekly test on/after its day (82; 40 earlier) · biggest gap
 (55 + 3 × hours, G1 +5, max 80; next two −10) · profile < 80% (30+) · career exploration when none shortlisted
 (20; 10 in grade 8). Each action carries a reason and an optional `href`.
+
+## Budgets in the profile
+
+The 430 file defines `p178` as the **annual** education budget, `p180` as the annual India UG ceiling and `p181` as the
+total abroad budget. Engines read integer rupees, text such as "₹75,000", "1.5 lakh", "50k" or a range (midpoint), or a
+band label (`none`, `low`, `medium`, `high`, `very_high`; see `ANNUAL_BUDGET_BANDS`, `INDIA_UG_BANDS`,
+`ABROAD_TOTAL_BANDS`). Tutoring and tuition use `p178 ÷ 12` per month; pass `monthlyBudgetInr` to override.
+Persona data should store these as integer rupees.

@@ -46,3 +46,32 @@ export function profileGet<T = unknown>(profile: ProfileLike | undefined, paramI
 }
 
 export type ProfileLike = { paramId: string; value: unknown; asOfUtc: string; tier?: string }[] | Record<string, unknown>;
+
+/** Named budget bands (annual rupees) used when a profile stores a band label instead of a number. */
+export const ANNUAL_BUDGET_BANDS: Record<string, number> = { none: 0, low: 25_000, medium: 75_000, high: 150_000, very_high: 300_000 };
+
+/**
+ * Rupees from a profile value: a number, "₹4,000", "₹1.5 lakh", "50k", a range "₹50,000–1,00,000" (midpoint)
+ * or a named band from `bands`. Undefined when it cannot be read.
+ */
+export function parseInr(v: unknown, bands: Record<string, number> = ANNUAL_BUDGET_BANDS): number | undefined {
+  if (typeof v === 'number') return v;
+  if (typeof v !== 'string') return undefined;
+  const key = v.trim().toLowerCase().replace(/[\s-]+/g, '_');
+  if (key in bands) return bands[key];
+  const nums = [...v.toLowerCase().matchAll(/(\d[\d,]*(?:\.\d+)?)\s*(lakh|lac|l\b|k\b|cr|crore)?/g)].map((m) => {
+    const n = Number(m[1].replace(/,/g, ''));
+    const u = m[2];
+    return u === 'k' ? n * 1_000 : u && u.startsWith('l') ? n * 100_000 : u && u.startsWith('cr') ? n * 10_000_000 : n;
+  });
+  if (!nums.length) return undefined;
+  return Math.round(nums.length > 1 ? (nums[0] + nums[1]) / 2 : nums[0]);
+}
+
+/** Minutes east of UTC for an IANA time zone at a given instant (e.g. Asia/Kolkata → 330). */
+export function tzOffsetMinutes(timeZone: string, atIso: string): number {
+  const name = new Intl.DateTimeFormat('en-US', { timeZone, timeZoneName: 'longOffset' }).formatToParts(new Date(atIso)).find((p) => p.type === 'timeZoneName')?.value ?? 'GMT';
+  const m = /GMT([+-])(\d{2}):?(\d{2})?/.exec(name);
+  if (!m) return 0;
+  return (m[1] === '-' ? -1 : 1) * (Number(m[2]) * 60 + Number(m[3] ?? 0));
+}

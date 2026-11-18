@@ -9,20 +9,25 @@
  *   aptitude & academics 35 half from the career's aptitude params (0-100 scores), half from class
  *                           percentages against the pathway's minimum per subject (required ones count double)
  *   skill evidence 15       current level ÷ target level per required skill (core ×2), capped at 1
- *   feasibility 15          stream fit (grades 8-10 always fit) and cheapest pathway cost vs budget
+ *   feasibility 15          stream fit (grades 8-10 always fit) and the best pathway's cost vs budget
+ *                           (p180 India UG ceiling × years, p181 abroad total, else p178 annual × years)
  *   Missing evidence counts as neutral 0.5 and lowers the confidence label. T3 values are dropped
  *   before anything is read, whatever parameter they sit on.
  *
  * careerGap: per required skill, levels to climb and hours (Skill.hoursPerLevel, or mastery-model hours
  *   for academic skills when given), the free route (free resources, ₹0) and the paid route (cheapest
- *   paid course reaching the target level), months at the learner's weekly hours, plus each pathway's
+ *   paid course reaching the target level, else tutor hours = 35% × hours × rate; planned at 75% of the
+ *   self-study hours), months at the learner's weekly hours, plus each pathway's
  *   cost, years to entry and exam preparation hours.
  */
 import type { Grade, Hours, Inr, Stream } from '../types';
 import type { Career, CareerPathway, EntranceExam, Resource, Riasec, Skill, SkillLevel } from '../types/catalogue';
-import { ProfileLike, round } from './util';
+import { TEACHER_SHARE } from './config';
+import { parseInr, ProfileLike, round } from './util';
 
 const WEEKS_PER_MONTH = 4.345;
+/** Paid (course or tutor) route hours as a share of self-study hours. */
+export const PAID_SPEEDUP = 0.75;
 
 /** Drop T3 values; return a plain map of the latest value per parameter. */
 export function nonSensitive(profile: ProfileLike | undefined): Record<string, unknown> {
@@ -43,7 +48,7 @@ export interface CareerContext {
   subjectPercents?: Record<string, number>;
   /** Current level per skill id (0 = none). Falls back to skill.profileParamIds values in the profile. */
   skillLevels?: Record<string, number>;
-  /** Total rupees the family can put toward the degree path; falls back to p178 annual budget × years. */
+  /** Total rupees the family can put toward the degree path; overrides p180 / p181 / p178. */
   budgetTotalInr?: Inr;
   /** Learner's hours a week for skill building (default 5). */
   weeklyHours?: number;
@@ -52,6 +57,8 @@ export interface CareerContext {
   exams?: EntranceExam[];
   /** Mastery-model hours to reach a level for academic skills, keyed by skill id. */
   academicHours?: Record<string, Hours>;
+  /** Rupees an hour for tutor support on skills with no paid course (default 600). */
+  tutorRatePerHourInr?: Inr;
   limit?: number;
 }
 
@@ -97,14 +104,27 @@ function currentLevel(skillId: string, p: Record<string, unknown>, ctx: CareerCo
   return 0;
 }
 
-const BUDGET_BANDS: Record<string, number> = { none: 0, low: 100_000, medium: 300_000, high: 800_000, very_high: 2_000_000 };
-
-function budgetTotal(p: Record<string, unknown>, ctx: CareerContext, years: number): number | undefined {
+/**
+ * Budget available for one pathway: ctx.budgetTotalInr, else p180 (annual India UG ceiling) × years for India
+ * pathways, p181 (total abroad budget) for abroad ones, else p178 (annual education budget) × years.
+ */
+function budgetFor(pw: CareerPathway, p: Record<string, unknown>, ctx: CareerContext): number | undefined {
   if (ctx.budgetTotalInr !== undefined) return ctx.budgetTotalInr;
-  const v = p['p178'];
-  const annual = typeof v === 'number' ? v : typeof v === 'string' ? BUDGET_BANDS[v.toLowerCase()] ?? (Number(v.replace(/[^\d]/g, '')) || undefined) : undefined;
+  const years = Math.max(1, pw.yearsToEntry);
+  if (pw.region === 'india') {
+    const ug = parseInr(p['p180'], INDIA_UG_BANDS);
+    if (ug !== undefined) return ug * years;
+  } else {
+    const abroad = parseInr(p['p181'], ABROAD_TOTAL_BANDS);
+    if (abroad !== undefined) return abroad;
+  }
+  const annual = parseInr(p['p178']);
   return annual === undefined ? undefined : annual * years;
 }
+
+/** Annual India UG ceilings (p180) and total abroad budgets (p181) for band labels. */
+export const INDIA_UG_BANDS: Record<string, number> = { none: 0, low: 100_000, medium: 300_000, high: 800_000, very_high: 2_000_000 };
+export const ABROAD_TOTAL_BANDS: Record<string, number> = { none: 0, low: 2_000_000, medium: 5_000_000, high: 10_000_000, very_high: 25_000_000 };
 
 export function cheapestPathway(c: Career): CareerPathway | undefined {
   return [...c.pathways].sort((a, b) => a.costInr.typical - b.costInr.typical)[0];
@@ -166,12 +186,18 @@ export function mapCareers(profile: ProfileLike | undefined, careers: Career[], 
     // feasibility
     const streamFit = !ctx.stream || ctx.stream === 'none' || (ctx.grade !== undefined && ctx.grade <= 10) || c.streams.includes(ctx.stream as Exclude<Stream, 'none'>) ? 1 : 0.3;
     if (streamFit < 1) reasons.push(`Usually entered from ${c.streams.join(' or ')}`);
-    const cheap = cheapestPathway(c);
-    const budget = cheap ? budgetTotal(p, ctx, Math.max(1, cheap.yearsToEntry)) : undefined;
-    const costFit = cheap && budget !== undefined ? Math.min(1, budget / Math.max(1, cheap.costInr.typical)) : 0.5;
-    if (cheap && budget !== undefined) {
+    // best-fitting pathway: highest cost fit, cheaper first on ties
+    let best: { pw: CareerPathway; fit: number } | undefined;
+    for (const pw of [...c.pathways].sort((a, b) => a.costInr.typical - b.costInr.typical)) {
+      const b = budgetFor(pw, p, ctx);
+      if (b === undefined) continue;
+      const fit = Math.min(1, b / Math.max(1, pw.costInr.typical));
+      if (!best || fit > best.fit) best = { pw, fit };
+    }
+    const costFit = best ? best.fit : 0.5;
+    if (best) {
       known++;
-      reasons.push(costFit >= 1 ? `Affordable route: ${cheap.label}` : `Cheapest route (${cheap.label}) costs more than the budget`);
+      reasons.push(best.fit >= 1 ? `Affordable route: ${best.pw.label}` : `Cheapest route (${cheapestPathway(c)!.label}) costs more than the budget`);
     }
     const feasibility = (streamFit + costFit) / 2;
 
@@ -209,6 +235,7 @@ export interface CareerGapResult {
 export function careerGap(profile: ProfileLike | undefined, career: Career, ctx: CareerContext = {}): CareerGapResult {
   const p = nonSensitive(profile);
   const weekly = ctx.weeklyHours ?? 5;
+  const tutorRate = ctx.tutorRatePerHourInr ?? 600;
   const lines: SkillGapLine[] = [];
   for (const r of career.skills) {
     const sk = ctx.skills?.find((s) => s.id === r.skillId);
@@ -223,8 +250,13 @@ export function careerGap(profile: ProfileLike | undefined, career: Career, ctx:
     lines.push({
       skillId: r.skillId, name: sk?.name ?? r.skillId, importance: r.importance, currentLevel: cur, targetLevel: r.targetLevel, levelsToClimb: climb, hours,
       freeRoute: { resourceIds: climb ? free.map((x) => x.id) : [], hours, inr: 0 },
-      // a structured course replaces self-assembly; use its own hours when longer
-      paidRoute: climb && paid ? { resourceId: paid.id, hours: round(Math.max(paid.hours, hours * 0.8), 1), inr: paid.priceInr } : { resourceId: null, hours, inr: 0 },
+      // paid route: a course where one exists, else tutor hours (35% of the time, as in the Gap Calculator);
+      // structured teaching with feedback is planned at 75% of the self-study hours
+      paidRoute: !climb
+        ? { resourceId: null, hours: 0, inr: 0 }
+        : paid
+          ? { resourceId: paid.id, hours: round(hours * PAID_SPEEDUP, 1), inr: paid.priceInr }
+          : { resourceId: null, hours: round(hours * PAID_SPEEDUP, 1), inr: Math.round(hours * TEACHER_SHARE * tutorRate) },
     });
   }
   const totalHours = round(lines.reduce((s, l) => s + l.hours, 0), 1);

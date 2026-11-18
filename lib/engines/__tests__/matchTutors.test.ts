@@ -14,7 +14,7 @@ const offline = tutor({ id: 'tut_offline', modes: ['offline'], city: 'Mumbai', f
 const avail = [{ day: 'mon' as const, start: '17:00', end: '19:00' }, { day: 'wed' as const, start: '18:00', end: '19:00' }];
 
 describe('matchTutors', () => {
-  const m = matchTutors(gaps, { p178: 8000, p157: ['Hindi'] }, [pricey, physics, rahul, offline], { names, availability: avail });
+  const m = matchTutors(gaps, { p178: 96000, p157: ['Hindi'] }, [pricey, physics, rahul, offline], { names, availability: avail });
   it('ranks the topic, style and budget fit first and drops tutors who cannot help', () => {
     expect(m[0].tutorId).toBe('tut_rahul_verma');
     expect(m.map((x) => x.tutorId)).not.toContain('tut_physics');

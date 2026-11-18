@@ -11,7 +11,8 @@
  *   price 15      hourly price within the learner's hourly budget = 15, falling linearly to 0 at 2× budget;
  *                 budget unknown = 8
  *   rating 10     Bayesian rating (prior 4.0 worth 10 reviews) ÷ 5 × 10
- *   slots 10      overlapping weekly minutes with the learner's study windows; 2 sessions' worth = 10
+ *   slots 10      overlapping weekly minutes with the learner's study windows (tutor slots read in the
+ *                 tutor's own time zone); 2 sessions' worth = 10
  *   language 5    shares a language with the learner = 5
  * Filters: mode (online, or offline in the learner's city) and format. Unverified tutors are kept but
  * ranked with a 5-point penalty. T3 data is never read; the budget (T2) is used only for price fit.
@@ -19,7 +20,7 @@
 import type { Board, Gap, Grade } from '../types';
 import type { AvailabilitySlot, SessionFormat, SessionMode, TeachingStyle, Tutor, Weekday } from '../types/catalogue';
 import { parseSubtopicId, slugify } from '../ids';
-import { ProfileLike, profileGet, round } from './util';
+import { parseInr, ProfileLike, profileGet, round, tzOffsetMinutes } from './util';
 
 /** Teaching styles each gap type calls for, best first. */
 export const STYLE_FOR_GAP: Record<string, TeachingStyle[]> = {
@@ -56,6 +57,10 @@ export interface TutorMatchContext {
   hoursPerMonth?: number;
   languages?: string[];
   preferredStyle?: TeachingStyle;
+  /** Learner's offset east of UTC in minutes (default 330, IST). */
+  tzOffsetMinutes?: number;
+  /** Instant used to resolve tutors' time-zone offsets (DST); pass `now`. */
+  now?: string;
   limit?: number;
 }
 
@@ -71,13 +76,33 @@ export interface TutorMatch {
 }
 
 const toMin = (t: string) => Number(t.slice(0, 2)) * 60 + Number(t.slice(3, 5));
+const WEEK = 7 * 1440;
+const DAY_INDEX: Record<Weekday, number> = { mon: 0, tue: 1, wed: 2, thu: 3, fri: 4, sat: 5, sun: 6 };
 
-export function slotOverlapMinutes(a: { day: Weekday; start: string; end: string }[], b: AvailabilitySlot[]): number {
-  let total = 0;
-  for (const x of a) for (const y of b) {
-    if (x.day !== y.day) continue;
-    total += Math.max(0, Math.min(toMin(x.end), toMin(y.end)) - Math.max(toMin(x.start), toMin(y.start)));
+/** Weekly windows as [start, end) minute-of-week intervals in UTC, split at the week boundary. */
+function weekIntervals(slots: { day: Weekday; start: string; end: string }[], offsetMinutes: number): [number, number][] {
+  const out: [number, number][] = [];
+  for (const s of slots) {
+    let a = DAY_INDEX[s.day] * 1440 + toMin(s.start) - offsetMinutes;
+    const len = toMin(s.end) - toMin(s.start);
+    if (len <= 0) continue;
+    a = ((a % WEEK) + WEEK) % WEEK;
+    const b = a + len;
+    if (b <= WEEK) out.push([a, b]);
+    else out.push([a, WEEK], [0, b - WEEK]);
   }
+  return out;
+}
+
+/**
+ * Weekly minutes when both are free. The learner's windows are in `learnerOffset` (default IST);
+ * the tutor's in `tutorTimeZone` (IANA), converted at `atIso`.
+ */
+export function slotOverlapMinutes(a: { day: Weekday; start: string; end: string }[], b: AvailabilitySlot[], opts: { learnerOffset?: number; tutorTimeZone?: string; atIso?: string } = {}): number {
+  const lo = opts.learnerOffset ?? 330;
+  const to = opts.tutorTimeZone ? tzOffsetMinutes(opts.tutorTimeZone, opts.atIso ?? '2026-11-18T00:00:00Z') : lo;
+  let total = 0;
+  for (const [x1, x2] of weekIntervals(a, lo)) for (const [y1, y2] of weekIntervals(b, to)) total += Math.max(0, Math.min(x2, y2) - Math.max(x1, y1));
   return total;
 }
 
@@ -100,14 +125,10 @@ function topicScore(t: Tutor, g: TutorMatchGap, names: Record<string, string>): 
   return { score: tag ? 40 : 20, tag };
 }
 
+/** Monthly rupees from p178 (annual education budget) ÷ 12. */
 function budgetFrom(profile: ProfileLike | undefined): number | undefined {
-  const v = profileGet(profile, 'p178');
-  if (typeof v === 'number') return v;
-  if (typeof v === 'string') {
-    const bands: Record<string, number> = { none: 0, low: 2000, medium: 6000, high: 12000, very_high: 25000 };
-    return bands[v.toLowerCase()] ?? (Number(v.replace(/[^\d]/g, '')) || undefined);
-  }
-  return undefined;
+  const annual = parseInr(profileGet(profile, 'p178'));
+  return annual === undefined ? undefined : annual / 12;
 }
 
 const inr = (n: number) => '₹' + n.toLocaleString('en-IN');
@@ -150,7 +171,7 @@ export function matchTutors(gaps: TutorMatchGap[], profile: ProfileLike | undefi
     const priceScore = hourlyBudget === undefined ? 8 : hourlyBudget <= 0 ? 0 : price <= hourlyBudget ? 15 : Math.max(0, 15 * (1 - (price - hourlyBudget) / hourlyBudget));
     const bayes = (t.rating * t.reviewsCount + 4.0 * 10) / (t.reviewsCount + 10);
     const rating = (bayes / 5) * 10;
-    const shared = ctx.availability ? slotOverlapMinutes(ctx.availability, t.availability) : 0;
+    const shared = ctx.availability ? slotOverlapMinutes(ctx.availability, t.availability, { learnerOffset: ctx.tzOffsetMinutes, tutorTimeZone: t.timeZone, atIso: ctx.now }) : 0;
     const slots = ctx.availability ? Math.min(10, (shared / (2 * t.sessionMinutes)) * 10) : 5;
     const sharedLang = t.languages.find((l) => langs.includes(l.toLowerCase()));
     const language = langs.length === 0 ? 3 : sharedLang ? 5 : 0;
@@ -163,8 +184,9 @@ export function matchTutors(gaps: TutorMatchGap[], profile: ProfileLike | undefi
       wanted.length ? `${STYLE_LABEL[t.teachingStyles[0]]} teaching${wanted.includes(t.teachingStyles[0]) ? ` suits ${ctx.preferredStyle ? 'your preference' : `a ${mainCode} gap`}` : ''}` : null,
       `${inr(price)}/hr${hourlyBudget !== undefined ? (price <= hourlyBudget ? ' within budget' : ` (budget ${inr(Math.round(hourlyBudget))}/hr)`) : ''}`,
       `${t.rating.toFixed(1)}★ from ${t.reviewsCount} reviews`,
-      ctx.availability ? (shared >= t.sessionMinutes ? `${Math.floor(shared / t.sessionMinutes)} shared slots a week` : 'few shared slots') : null,
+      ctx.availability ? (shared >= 2 * t.sessionMinutes ? `${Math.floor(shared / t.sessionMinutes)} shared slots a week` : shared >= t.sessionMinutes ? '1 shared slot a week' : 'few shared slots') : null,
       sharedLang && sharedLang.toLowerCase() !== 'english' ? `teaches in ${sharedLang}` : null,
+      t.pricing.demoInr === 0 ? 'free demo' : null,
       t.verified ? null : 'not yet verified',
     ].filter(Boolean);
 

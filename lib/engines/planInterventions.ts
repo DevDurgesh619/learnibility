@@ -15,7 +15,7 @@
 import type { Gap, GapCode, IsoUtc } from '../types';
 import catalogueFile from '../../data/catalogues/interventions.json';
 import { DEEP_GAP_SIZE, FLAG_ADD_ON, PAID_TUITION_FREE_PLAN_WEEKS, PAID_TUITION_INR, PAID_TUITION_MIN_CHAPTERS } from './config';
-import { addDays, ProfileLike, profileGet, round } from './util';
+import { addDays, parseInr, ProfileLike, profileGet, round } from './util';
 
 export interface Intervention {
   id: string;
@@ -99,13 +99,10 @@ export interface InterventionPlan {
   orderOfOperations: string;
 }
 
-/** Budget from #178 (number of rupees, or a band label). */
+/** Monthly budget from #178 (annual education budget in the 430 file: rupees, text or band) ÷ 12. */
 function budgetFrom(profile: ProfileLike | undefined): number {
-  const v = profileGet(profile, 'p178');
-  if (typeof v === 'number') return v;
-  const bands: Record<string, number> = { none: 0, '0': 0, low: 1000, medium: 3000, high: 8000, very_high: 15000 };
-  if (typeof v === 'string') return bands[v.toLowerCase()] ?? (Number(v.replace(/[^\d]/g, '')) || 0);
-  return 0;
+  const annual = parseInr(profileGet(profile, 'p178'));
+  return annual === undefined ? 0 : Math.round(annual / 12);
 }
 
 function deviceFrom(profile: ProfileLike | undefined): boolean {

@@ -58,8 +58,10 @@ describe('careerGap', () => {
     expect(g.free).toEqual({ hours: 280, inr: 0, months: 12.9 });
     const prog = g.skills.find((s) => s.skillId === 'skill-programming')!;
     expect(prog.freeRoute.resourceIds).toEqual(['res-cs50']);
-    expect(prog.paidRoute).toEqual({ resourceId: 'course-python-pro', hours: 184, inr: 12000 });
-    expect(g.paid.inr).toBe(12000);
+    expect(prog.paidRoute).toEqual({ resourceId: 'course-python-pro', hours: 172.5, inr: 12000 });
+    const comm = g.skills.find((s) => s.skillId === 'skill-communication')!;
+    expect(comm.paidRoute).toEqual({ resourceId: null, hours: 37.5, inr: 10500 }); // 50 h × 35% × ₹600
+    expect(g.paid.inr).toBe(22500);
     expect(g.paid.months).toBeLessThan(g.free.months);
   });
   it('lists pathways with exam prep', () => {
