@@ -1,0 +1,62 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/crm/build.ts",
+ "items": [
+  {
+   "id": "r_welcome",
+   "name": "Instant welcome",
+   "trigger": "New lead created",
+   "action": "Send the Welcome template within 2 minutes",
+   "channel": "whatsapp"
+  },
+  {
+   "id": "r_no_reply_48h",
+   "name": "No reply in 48 hours",
+   "trigger": "Lead is New or Contacted and has not replied for 48 hours",
+   "action": "Send a WhatsApp nudge",
+   "channel": "whatsapp"
+  },
+  {
+   "id": "r_demo_24h",
+   "name": "Demo reminder, 24 hours",
+   "trigger": "Demo booked",
+   "action": "WhatsApp reminder 24 hours before the demo",
+   "channel": "whatsapp"
+  },
+  {
+   "id": "r_demo_1h",
+   "name": "Demo reminder, 1 hour",
+   "trigger": "Demo booked",
+   "action": "WhatsApp reminder with the joining link 1 hour before",
+   "channel": "whatsapp"
+  },
+  {
+   "id": "r_no_show",
+   "name": "Demo no-show",
+   "trigger": "Demo time passed without the family joining",
+   "action": "Send the reschedule message",
+   "channel": "whatsapp"
+  },
+  {
+   "id": "r_proposal_3d",
+   "name": "Proposal unpaid for 3 days",
+   "trigger": "Proposal sent, no payment after 3 days",
+   "action": "Create a call task for the owner",
+   "channel": "call"
+  },
+  {
+   "id": "r_nurture_30d",
+   "name": "Nurture drip",
+   "trigger": "Closed lost or Nurture",
+   "action": "Send the monthly nurture message every 30 days",
+   "channel": "whatsapp"
+  },
+  {
+   "id": "r_manual",
+   "name": "Rep task",
+   "trigger": "Set by the rep",
+   "action": "Next step the rep scheduled",
+   "channel": "call"
+  }
+ ]
+}

@@ -38,3 +38,8 @@ Add a heading per request: who asks, which file, what change, why. The owner mar
 - Change: for students on the `application_support` plan, label the universities entry "Application Support", link it to `/student/applications` and highlight it on `/student/applications/**` and `/student/universities/**`. Free students keep "Universities" → `/student/universities`.
 - Why: PDF 7a; paid students land on the command center, free ones on the explorer (which redirects paid users).
 - Done 2026-11-18 by W1: `navFor(role, { plan })` in `lib/nav.ts`; students on `application_support` or `full_package` see "Application Support" → `/student/applications`, active on `/student/applications/**` and `/student/universities/**`. Free students keep "University Fit" → `/student/universities` (the blueprint's name). Checked as Nikhil (paid) and Kabir (free).
+
+## W3-CRM → W2-0 data layer / W1: sign in as a learner created by the CRM (2026-11-18)
+- File: `lib/data/personas.ts` (`getPersona`).
+- Change: when the id is not in the JSON persona lists, fall back to a `student` (or `adults`) record from the store, e.g. `{ id, role: 'student', name, story: 'New family from sales', grade, board, stream }`.
+- Why: "Convert to platform" on a generic won lead creates a new learner through `putRecord('student', …)`; without a persona entry `RoleLayout` sends them to /login, so the CRM's "Open in platform" works only for persona families (Zoya). Not needed for the demo script.

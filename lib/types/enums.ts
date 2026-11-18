@@ -37,7 +37,8 @@ export type GapCode = (typeof GAP_CODES)[number];
 export const BANDS = ['below_avg', 'average', 'above_avg', 'excellent'] as const;
 export type Band = (typeof BANDS)[number];
 
-export const ROLES = ['student', 'parent', 'teacher', 'counsellor', 'tutor', 'mentor'] as const;
+/** 'sales' is the CRM team (W3-CRM): lead funnel up to hand-off into the platform. */
+export const ROLES = ['student', 'parent', 'teacher', 'counsellor', 'tutor', 'mentor', 'sales'] as const;
 export type Role = (typeof ROLES)[number];
 
 /** Collection methods M1 to M20 from the 430-parameter file's Collection Method Legend. */

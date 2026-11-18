@@ -1,0 +1,66 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/crm/build.ts",
+ "items": [
+  {
+   "id": "tpl_welcome",
+   "name": "Welcome",
+   "channel": "whatsapp",
+   "body": "Hi {parent}, thanks for your interest in Learnibility for {student}. I am {rep}, your counsellor. When is a good time for a 10-minute call?"
+  },
+  {
+   "id": "tpl_nudge",
+   "name": "No-reply nudge",
+   "channel": "whatsapp",
+   "body": "Hi {parent}, just checking in. Would you like a free diagnostic for {student} this week? Reply YES and I will set it up."
+  },
+  {
+   "id": "tpl_demo_booked",
+   "name": "Demo confirmation",
+   "channel": "whatsapp",
+   "body": "Your Learnibility demo for {student} is confirmed for {demo}. You will get the joining link an hour before."
+  },
+  {
+   "id": "tpl_demo_reminder",
+   "name": "Demo reminder",
+   "channel": "whatsapp",
+   "body": "Reminder: {student}’s Learnibility demo is at {demo}. Join here: learnibility.demo/meet/{lead}"
+  },
+  {
+   "id": "tpl_reschedule",
+   "name": "Missed demo, reschedule",
+   "channel": "whatsapp",
+   "body": "We missed you today, {parent}. Pick a new slot for {student}’s demo: learnibility.demo/book/{lead}"
+  },
+  {
+   "id": "tpl_proposal",
+   "name": "Proposal",
+   "channel": "email",
+   "body": "Dear {parent}, as discussed, here is the plan for {student}: {package} at {price} plus GST. The proposal is valid for 7 days."
+  },
+  {
+   "id": "tpl_payment_link",
+   "name": "Payment link",
+   "channel": "whatsapp",
+   "body": "Here is the secure payment link for {package} ({total} incl. GST): {link}"
+  },
+  {
+   "id": "tpl_payment_received",
+   "name": "Payment received",
+   "channel": "whatsapp",
+   "body": "Payment of {total} received, thank you! Invoice {invoice} is on its way. {student}’s Learnibility account is being set up."
+  },
+  {
+   "id": "tpl_nurture",
+   "name": "Monthly nurture",
+   "channel": "whatsapp",
+   "body": "Hi {parent}, this month at Learnibility: free board-exam strategy webinar on Saturday. Want a seat for {student}?"
+  },
+  {
+   "id": "tpl_welcome_platform",
+   "name": "Welcome to the platform",
+   "channel": "whatsapp",
+   "body": "Welcome aboard! {student} can sign in at learnibility.demo with this mobile number. First step: the 30-minute starting test."
+  }
+ ]
+}

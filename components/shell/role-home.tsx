@@ -13,6 +13,7 @@ const TILES: Record<Role, string[]> = {
   counsellor: ['Caseload', 'Risk flags', 'Requests to approve', 'Drafts to review'],
   tutor: ['New requests', 'Sessions this week', 'Earnings this month', 'Rating'],
   mentor: ['Mentees', 'Sessions this month', 'Open action items', 'Skill plans'],
+  sales: ['New leads', 'Deals won', 'Revenue this month', 'Follow-ups due'],
 };
 
 /** Placeholder role home until the role's real home screen lands. */

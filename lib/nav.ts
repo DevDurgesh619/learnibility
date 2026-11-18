@@ -76,10 +76,19 @@ export const NAV: Record<Role, NavItem[]> = {
     { slug: 'skill-plans', label: 'Skill plans', icon: 'briefcase', blurb: 'Skill gaps and the plan to close them.' },
     { slug: 'messages', label: 'Messages', icon: 'message', blurb: 'Conversations with mentees.' },
   ],
+  sales: [
+    { slug: '', label: 'Dashboard', icon: 'home', blurb: 'Funnel, revenue, sources, leaderboard and follow-ups due today.' },
+    { slug: 'leads', label: 'Leads', icon: 'users', blurb: 'Every lead with filters, bulk assign and CSV import.' },
+    { slug: 'pipeline', label: 'Pipeline', icon: 'layers', blurb: 'Deals by stage, drag to move.' },
+    { slug: 'follow-ups', label: 'Follow-ups', icon: 'clock', blurb: 'Due, overdue and done, with the rule that created each.' },
+    { slug: 'payments', label: 'Payments', icon: 'wallet', blurb: 'Payment links, invoices and receipts.' },
+    { slug: 'conversions', label: 'Conversions', icon: 'send', blurb: 'Won deals to hand over to the platform.' },
+    { slug: 'settings', label: 'Settings', icon: 'list', blurb: 'Plans, templates, follow-up rules and team.' },
+  ],
 };
 
 export const ROLE_LABEL: Record<Role, string> = {
-  student: 'Student', parent: 'Parent', teacher: 'School teacher', counsellor: 'Counsellor', tutor: 'Tutor', mentor: 'Mentor',
+  student: 'Student', parent: 'Parent', teacher: 'School teacher', counsellor: 'Counsellor', tutor: 'Tutor', mentor: 'Mentor', sales: 'Sales rep',
 };
 
 export const roleHome = (role: Role) => `/${role}`;

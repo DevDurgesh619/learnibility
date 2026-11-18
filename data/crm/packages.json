@@ -1,0 +1,86 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "hand-written (W3-CRM). DUMMY PRICES: the single place to change what the CRM sells. Monthly rates follow scripts/foundations/seed.ts (Application Support 4,999, Full package 7,999); multi-month terms carry 5% (3-6 months) or 12% (12 months) off. Rerun npx tsx scripts/crm/build.ts after editing.",
+ "items": [
+  {
+   "id": "pkg_starter",
+   "name": "Starter: diagnostic and learning plan",
+   "planId": "free",
+   "months": 0,
+   "priceInr": 2499,
+   "blurb": "Onboarding diagnostic, gap report, counsellor kick-off call and a 4-week free plan.",
+   "interests": [
+    "academic_support"
+   ]
+  },
+  {
+   "id": "pkg_career",
+   "name": "Career clarity sprint",
+   "planId": "free",
+   "months": 0,
+   "priceInr": 9999,
+   "blurb": "Four mentor sessions, career fit report and a skill plan with time and cost.",
+   "interests": [
+    "career_counselling"
+   ]
+  },
+  {
+   "id": "pkg_full_3m",
+   "name": "Full package, 3 months",
+   "planId": "full_package",
+   "months": 3,
+   "priceInr": 22797,
+   "blurb": "Everything: adaptive plan, priority tutor matching, career mapping and counsellor reviews.",
+   "interests": [
+    "academic_support",
+    "career_counselling",
+    "full_package"
+   ]
+  },
+  {
+   "id": "pkg_full_12m",
+   "name": "Full package, 12 months",
+   "planId": "full_package",
+   "months": 12,
+   "priceInr": 84469,
+   "blurb": "The full package for the school year at 12% off.",
+   "interests": [
+    "full_package",
+    "academic_support"
+   ]
+  },
+  {
+   "id": "pkg_apps_monthly",
+   "name": "Application Support, monthly",
+   "planId": "application_support",
+   "months": 1,
+   "priceInr": 4999,
+   "blurb": "Application Support billed monthly; cancel any time.",
+   "interests": [
+    "study_abroad"
+   ]
+  },
+  {
+   "id": "pkg_apps_6m",
+   "name": "Application Support, 6 months",
+   "planId": "application_support",
+   "months": 6,
+   "priceInr": 28494,
+   "blurb": "Application command center, Draft Studio and counsellor reviews for one intake.",
+   "interests": [
+    "study_abroad"
+   ]
+  },
+  {
+   "id": "pkg_apps_12m",
+   "name": "Application Support, 12 months",
+   "planId": "application_support",
+   "months": 12,
+   "priceInr": 52789,
+   "blurb": "Two intakes of application support at 12% off.",
+   "interests": [
+    "study_abroad"
+   ]
+  }
+ ]
+}

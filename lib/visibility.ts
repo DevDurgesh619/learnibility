@@ -31,6 +31,8 @@ export const VISIBILITY: Record<Role, Record<Tier, VisibilityMode>> = {
   counsellor: { T1: 'full', T2: 'full', T3: 'full', C: 'full' },
   tutor: { T1: 'shared_only', T2: 'hidden', T3: 'hidden', C: 'hidden' },
   mentor: { T1: 'full', T2: 'hidden', T3: 'hidden', C: 'hidden' },
+  /** CRM team: no learner profile parameters at all (lead fields live in the CRM, not the 430 profile). */
+  sales: { T1: 'hidden', T2: 'hidden', T3: 'hidden', C: 'hidden' },
 };
 
 export function visibilityFor(role: Role, tier: Tier): VisibilityMode {
