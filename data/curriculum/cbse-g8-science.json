@@ -1,0 +1,937 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cbse-g8-science",
+  "board": "cbse",
+  "grade": 8,
+  "stream": "none",
+  "slug": "science",
+  "name": "Science",
+  "programme": "CBSE Class 8 Science",
+  "textbook": "NCERT Curiosity (Class 8)",
+  "examPattern": "School-based (no CBSE board exam in Class 8; legacy CBSE scheme Circular Acad-14/2017: 80-mark written exam + 20 periodic assessment). Model mirrors the Class 9/10 CBSE paper design so students build board-exam habits early. Assumed paper: 3 h, 80 marks, 39 questions (Class X Science pattern: 20×1 incl. A-R, 6×2, 7×3, 3 case×4, 3×5).",
+  "chapterCount": 13,
+  "questionTarget": 1222
+ },
+ "items": [
+  {
+   "id": "cbse-g8-science-ch01",
+   "subjectId": "cbse-g8-science",
+   "order": 1,
+   "name": "Exploring the Investigative World of Science",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "cbse-g8-science-ch01-st1",
+    "cbse-g8-science-ch01-st2",
+    "cbse-g8-science-ch01-st3"
+   ]
+  },
+  {
+   "id": "cbse-g8-science-ch02",
+   "subjectId": "cbse-g8-science",
+   "order": 2,
+   "name": "The Invisible Living World: Beyond Our Naked Eye",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g8-science-ch02-st1",
+    "cbse-g8-science-ch02-st2",
+    "cbse-g8-science-ch02-st3",
+    "cbse-g8-science-ch02-st4",
+    "cbse-g8-science-ch02-st5"
+   ]
+  },
+  {
+   "id": "cbse-g8-science-ch03",
+   "subjectId": "cbse-g8-science",
+   "order": 3,
+   "name": "Health: The Ultimate Treasure",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cbse-g8-science-ch03-st1",
+    "cbse-g8-science-ch03-st2",
+    "cbse-g8-science-ch03-st3",
+    "cbse-g8-science-ch03-st4"
+   ]
+  },
+  {
+   "id": "cbse-g8-science-ch04",
+   "subjectId": "cbse-g8-science",
+   "order": 4,
+   "name": "Electricity: Magnetic and Heating Effects",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cbse-g8-science-ch04-st1",
+    "cbse-g8-science-ch04-st2",
+    "cbse-g8-science-ch04-st3",
+    "cbse-g8-science-ch04-st4"
+   ]
+  },
+  {
+   "id": "cbse-g8-science-ch05",
+   "subjectId": "cbse-g8-science",
+   "order": 5,
+   "name": "Exploring Forces",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "cbse-g8-science-ch05-st1",
+    "cbse-g8-science-ch05-st2",
+    "cbse-g8-science-ch05-st3",
+    "cbse-g8-science-ch05-st4",
+    "cbse-g8-science-ch05-st5"
+   ]
+  },
+  {
+   "id": "cbse-g8-science-ch06",
+   "subjectId": "cbse-g8-science",
+   "order": 6,
+   "name": "Pressure, Winds, Storms, and Cyclones",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cbse-g8-science-ch06-st1",
+    "cbse-g8-science-ch06-st2",
+    "cbse-g8-science-ch06-st3",
+    "cbse-g8-science-ch06-st4"
+   ]
+  },
+  {
+   "id": "cbse-g8-science-ch07",
+   "subjectId": "cbse-g8-science",
+   "order": 7,
+   "name": "Particulate Nature of Matter",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cbse-g8-science-ch07-st1",
+    "cbse-g8-science-ch07-st2",
+    "cbse-g8-science-ch07-st3",
+    "cbse-g8-science-ch07-st4"
+   ]
+  },
+  {
+   "id": "cbse-g8-science-ch08",
+   "subjectId": "cbse-g8-science",
+   "order": 8,
+   "name": "Nature of Matter: Elements, Compounds, and Mixtures",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cbse-g8-science-ch08-st1",
+    "cbse-g8-science-ch08-st2",
+    "cbse-g8-science-ch08-st3",
+    "cbse-g8-science-ch08-st4"
+   ]
+  },
+  {
+   "id": "cbse-g8-science-ch09",
+   "subjectId": "cbse-g8-science",
+   "order": 9,
+   "name": "The Amazing World of Solutes, Solvents, and Solutions",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cbse-g8-science-ch09-st1",
+    "cbse-g8-science-ch09-st2",
+    "cbse-g8-science-ch09-st3",
+    "cbse-g8-science-ch09-st4"
+   ]
+  },
+  {
+   "id": "cbse-g8-science-ch10",
+   "subjectId": "cbse-g8-science",
+   "order": 10,
+   "name": "Light: Mirrors and Lenses",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cbse-g8-science-ch10-st1",
+    "cbse-g8-science-ch10-st2",
+    "cbse-g8-science-ch10-st3",
+    "cbse-g8-science-ch10-st4"
+   ]
+  },
+  {
+   "id": "cbse-g8-science-ch11",
+   "subjectId": "cbse-g8-science",
+   "order": 11,
+   "name": "Keeping Time with the Skies",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "cbse-g8-science-ch11-st1",
+    "cbse-g8-science-ch11-st2",
+    "cbse-g8-science-ch11-st3",
+    "cbse-g8-science-ch11-st4"
+   ]
+  },
+  {
+   "id": "cbse-g8-science-ch12",
+   "subjectId": "cbse-g8-science",
+   "order": 12,
+   "name": "How Nature Works in Harmony",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cbse-g8-science-ch12-st1",
+    "cbse-g8-science-ch12-st2",
+    "cbse-g8-science-ch12-st3",
+    "cbse-g8-science-ch12-st4"
+   ]
+  },
+  {
+   "id": "cbse-g8-science-ch13",
+   "subjectId": "cbse-g8-science",
+   "order": 13,
+   "name": "Our Home: Earth, a Unique Life Sustaining Planet",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "cbse-g8-science-ch13-st1",
+    "cbse-g8-science-ch13-st2",
+    "cbse-g8-science-ch13-st3",
+    "cbse-g8-science-ch13-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cbse-g8-science-ch01-st1",
+   "chapterId": "cbse-g8-science-ch01",
+   "order": 1,
+   "name": "Science as a way of asking questions about the world",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Observation and curiosity activities from Curiosity (Cl 6-7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch01-st2",
+   "chapterId": "cbse-g8-science-ch01",
+   "order": 2,
+   "name": "Steps of scientific investigation: observe, hypothesise, test, conclude",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch01-st1"
+   ],
+   "prerequisiteNote": "Making and recording simple observations (Cl 6-7); Science as a way of asking questions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch01-st3",
+   "chapterId": "cbse-g8-science-ch01",
+   "order": 3,
+   "name": "Fair tests: variables, controls and recording data in tables",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch01-st2"
+   ],
+   "prerequisiteNote": "Steps of scientific investigation; reading and drawing simple tables (Cl 6 maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch02-st1",
+   "chapterId": "cbse-g8-science-ch02",
+   "order": 1,
+   "name": "Using a microscope and observing cells (onion peel, cheek cells)",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch01-st2"
+   ],
+   "prerequisiteNote": "Living and non-living things (Cl 6); magnifying glass use",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch02-st2",
+   "chapterId": "cbse-g8-science-ch02",
+   "order": 2,
+   "name": "Cell as the basic unit of life: cell membrane, cytoplasm, nucleus; plant vs animal cells",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch02-st1"
+   ],
+   "prerequisiteNote": "Using a microscope and observing cells; parts of plants and animals (Cl 6)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch02-st3",
+   "chapterId": "cbse-g8-science-ch02",
+   "order": 3,
+   "name": "Microorganisms: bacteria, fungi, protozoa, algae and viruses",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch02-st1"
+   ],
+   "prerequisiteNote": "Cell as the basic unit of life; living and non-living things (Cl 6)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch02-st4",
+   "chapterId": "cbse-g8-science-ch02",
+   "order": 4,
+   "name": "Useful microorganisms: curd, fermentation, decomposition and nitrogen fixation",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch02-st3"
+   ],
+   "prerequisiteNote": "Microorganisms groups; nutrient cycling in soil (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch02-st5",
+   "chapterId": "cbse-g8-science-ch02",
+   "order": 5,
+   "name": "Harmful microorganisms and food preservation",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch02-st3"
+   ],
+   "prerequisiteNote": "Microorganisms groups; spoilage of food in daily life",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch03-st1",
+   "chapterId": "cbse-g8-science-ch03",
+   "order": 1,
+   "name": "Health, hygiene and balanced diet",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch02-st4"
+   ],
+   "prerequisiteNote": "Components of food and deficiency diseases (Cl 6)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch03-st2",
+   "chapterId": "cbse-g8-science-ch03",
+   "order": 2,
+   "name": "Communicable diseases: pathogens and modes of transmission",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch02-st3",
+    "cbse-g8-science-ch02-st5"
+   ],
+   "prerequisiteNote": "Microorganisms groups; Harmful microorganisms",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch03-st3",
+   "chapterId": "cbse-g8-science-ch03",
+   "order": 3,
+   "name": "Immunity, vaccination and antibiotics",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch03-st2"
+   ],
+   "prerequisiteNote": "Communicable diseases and transmission",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch03-st4",
+   "chapterId": "cbse-g8-science-ch03",
+   "order": 4,
+   "name": "Non-communicable diseases and lifestyle choices",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch03-st1"
+   ],
+   "prerequisiteNote": "Health, hygiene and balanced diet",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch04-st1",
+   "chapterId": "cbse-g8-science-ch04",
+   "order": 1,
+   "name": "Electric circuits, conductors and insulators revisited",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch01-st3"
+   ],
+   "prerequisiteNote": "Electric cell, bulb, switch and circuit symbols (Cl 6-7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch04-st2",
+   "chapterId": "cbse-g8-science-ch04",
+   "order": 2,
+   "name": "Heating effect of electric current and its uses (fuse, heater, MCB)",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch04-st1"
+   ],
+   "prerequisiteNote": "Electric circuits; conductors and insulators",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch04-st3",
+   "chapterId": "cbse-g8-science-ch04",
+   "order": 3,
+   "name": "Magnetic effect of current: electromagnets and their uses",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch04-st1"
+   ],
+   "prerequisiteNote": "Magnets, poles and compass (Cl 6); Electric circuits",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch04-st4",
+   "chapterId": "cbse-g8-science-ch04",
+   "order": 4,
+   "name": "Electric bell and safe use of electricity at home",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch04-st2",
+    "cbse-g8-science-ch04-st3"
+   ],
+   "prerequisiteNote": "Electromagnets; Heating effect of current",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch05-st1",
+   "chapterId": "cbse-g8-science-ch05",
+   "order": 1,
+   "name": "Force as a push or pull: effects on shape, speed and direction",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch01-st3"
+   ],
+   "prerequisiteNote": "Motion and speed (Cl 7); measuring with a spring balance",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch05-st2",
+   "chapterId": "cbse-g8-science-ch05",
+   "order": 2,
+   "name": "Contact forces: muscular force and friction",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch05-st1"
+   ],
+   "prerequisiteNote": "Force as a push or pull",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch05-st3",
+   "chapterId": "cbse-g8-science-ch05",
+   "order": 3,
+   "name": "Non-contact forces: magnetic, electrostatic and gravitational",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch05-st1"
+   ],
+   "prerequisiteNote": "Force as a push or pull; magnets attract and repel (Cl 6)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch05-st4",
+   "chapterId": "cbse-g8-science-ch05",
+   "order": 4,
+   "name": "Weight versus mass and measuring force with a spring balance",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch05-st3"
+   ],
+   "prerequisiteNote": "Gravitational force; units and measurement (Cl 6)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch05-st5",
+   "chapterId": "cbse-g8-science-ch05",
+   "order": 5,
+   "name": "Friction: factors, increasing and reducing friction",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch05-st2"
+   ],
+   "prerequisiteNote": "Contact forces: muscular force and friction",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch06-st1",
+   "chapterId": "cbse-g8-science-ch06",
+   "order": 1,
+   "name": "Pressure as force per unit area",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch05-st1",
+    "cbse-g8-science-ch05-st4"
+   ],
+   "prerequisiteNote": "Force as push or pull; area of rectangle (Cl 6 maths); division with units",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch06-st2",
+   "chapterId": "cbse-g8-science-ch06",
+   "order": 2,
+   "name": "Pressure in liquids and gases; atmospheric pressure",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch06-st1"
+   ],
+   "prerequisiteNote": "Pressure as force per unit area",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch06-st3",
+   "chapterId": "cbse-g8-science-ch06",
+   "order": 3,
+   "name": "Air moves from high to low pressure: winds and convection",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch06-st2"
+   ],
+   "prerequisiteNote": "Atmospheric pressure; hot air rises (Cl 7 heat)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch06-st4",
+   "chapterId": "cbse-g8-science-ch06",
+   "order": 4,
+   "name": "Thunderstorms and cyclones: formation, safety and warnings",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch06-st3"
+   ],
+   "prerequisiteNote": "Winds and convection; water cycle (Cl 6-7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch07-st1",
+   "chapterId": "cbse-g8-science-ch07",
+   "order": 1,
+   "name": "Matter is made of particles: evidence from dissolving and diffusion",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch01-st2"
+   ],
+   "prerequisiteNote": "States of matter and their properties (Cl 6)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch07-st2",
+   "chapterId": "cbse-g8-science-ch07",
+   "order": 2,
+   "name": "Arrangement and motion of particles in solids, liquids and gases",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch07-st1"
+   ],
+   "prerequisiteNote": "Matter is made of particles",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch07-st3",
+   "chapterId": "cbse-g8-science-ch07",
+   "order": 3,
+   "name": "Interparticle attraction and spaces: explaining compressibility and fluidity",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch07-st2"
+   ],
+   "prerequisiteNote": "Arrangement and motion of particles",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch07-st4",
+   "chapterId": "cbse-g8-science-ch07",
+   "order": 4,
+   "name": "Changes of state: melting, boiling and effect of heating",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch07-st2"
+   ],
+   "prerequisiteNote": "Arrangement and motion of particles; reading a thermometer (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch08-st1",
+   "chapterId": "cbse-g8-science-ch08",
+   "order": 1,
+   "name": "Pure substances and mixtures",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch07-st1"
+   ],
+   "prerequisiteNote": "Matter is made of particles; separation methods (Cl 6)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch08-st2",
+   "chapterId": "cbse-g8-science-ch08",
+   "order": 2,
+   "name": "Elements and compounds: atoms and molecules in simple terms",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch08-st1"
+   ],
+   "prerequisiteNote": "Pure substances and mixtures",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch08-st3",
+   "chapterId": "cbse-g8-science-ch08",
+   "order": 3,
+   "name": "Comparing compounds and mixtures: composition and properties",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch08-st2"
+   ],
+   "prerequisiteNote": "Elements and compounds",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch08-st4",
+   "chapterId": "cbse-g8-science-ch08",
+   "order": 4,
+   "name": "Metals, non-metals and metalloids among the elements",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch08-st2"
+   ],
+   "prerequisiteNote": "Elements and compounds; properties of materials (Cl 6)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch09-st1",
+   "chapterId": "cbse-g8-science-ch09",
+   "order": 1,
+   "name": "Solute, solvent and solution; water as a universal solvent",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch08-st1"
+   ],
+   "prerequisiteNote": "Pure substances and mixtures",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch09-st2",
+   "chapterId": "cbse-g8-science-ch09",
+   "order": 2,
+   "name": "Saturated and unsaturated solutions; effect of temperature on solubility",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch09-st1",
+    "cbse-g8-science-ch07-st4"
+   ],
+   "prerequisiteNote": "Solute, solvent and solution; changes of state",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch09-st3",
+   "chapterId": "cbse-g8-science-ch09",
+   "order": 3,
+   "name": "Concentration of a solution",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch09-st2"
+   ],
+   "prerequisiteNote": "Saturated solutions; percentages and ratios (Cl 7 maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch09-st4",
+   "chapterId": "cbse-g8-science-ch09",
+   "order": 4,
+   "name": "Density and why things float or sink",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch09-st1"
+   ],
+   "prerequisiteNote": "Mass and volume measurement (Cl 6); Solute, solvent and solution",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch10-st1",
+   "chapterId": "cbse-g8-science-ch10",
+   "order": 1,
+   "name": "Reflection of light and laws of reflection",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch01-st3"
+   ],
+   "prerequisiteNote": "Light travels in straight lines; shadows (Cl 6); measuring angles with a protractor",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch10-st2",
+   "chapterId": "cbse-g8-science-ch10",
+   "order": 2,
+   "name": "Plane mirror images: lateral inversion and multiple images",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch10-st1"
+   ],
+   "prerequisiteNote": "Laws of reflection",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch10-st3",
+   "chapterId": "cbse-g8-science-ch10",
+   "order": 3,
+   "name": "Spherical mirrors: concave and convex, images and uses",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch10-st1"
+   ],
+   "prerequisiteNote": "Laws of reflection; Plane mirror images",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch10-st4",
+   "chapterId": "cbse-g8-science-ch10",
+   "order": 4,
+   "name": "Lenses: convex and concave, images and uses",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch10-st3"
+   ],
+   "prerequisiteNote": "Spherical mirrors; refraction seen in daily life (bent pencil)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch11-st1",
+   "chapterId": "cbse-g8-science-ch11",
+   "order": 1,
+   "name": "Day, night and seasons from Earth's rotation and revolution",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch01-st1"
+   ],
+   "prerequisiteNote": "Sun, Earth and Moon; directions (Cl 6)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch11-st2",
+   "chapterId": "cbse-g8-science-ch11",
+   "order": 2,
+   "name": "Phases of the Moon and the lunar month",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch11-st1"
+   ],
+   "prerequisiteNote": "Day and night from Earth's rotation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch11-st3",
+   "chapterId": "cbse-g8-science-ch11",
+   "order": 3,
+   "name": "Calendars: solar, lunar and lunisolar",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch11-st2"
+   ],
+   "prerequisiteNote": "Phases of the Moon; Day, night and seasons",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch11-st4",
+   "chapterId": "cbse-g8-science-ch11",
+   "order": 4,
+   "name": "Stars, constellations and keeping time by the sky",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch11-st1"
+   ],
+   "prerequisiteNote": "Day and night from Earth's rotation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch12-st1",
+   "chapterId": "cbse-g8-science-ch12",
+   "order": 1,
+   "name": "Interdependence: producers, consumers and decomposers",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch02-st4"
+   ],
+   "prerequisiteNote": "Useful microorganisms (decomposition); food chains (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch12-st2",
+   "chapterId": "cbse-g8-science-ch12",
+   "order": 2,
+   "name": "Food chains, food webs and flow of energy",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch12-st1"
+   ],
+   "prerequisiteNote": "Producers, consumers and decomposers",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch12-st3",
+   "chapterId": "cbse-g8-science-ch12",
+   "order": 3,
+   "name": "Cycling of matter in nature: water and carbon",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch12-st1",
+    "cbse-g8-science-ch02-st4"
+   ],
+   "prerequisiteNote": "Interdependence; decomposition by microorganisms",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch12-st4",
+   "chapterId": "cbse-g8-science-ch12",
+   "order": 4,
+   "name": "Human impact on ecosystems and balance in nature",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch12-st2"
+   ],
+   "prerequisiteNote": "Food chains and food webs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch13-st1",
+   "chapterId": "cbse-g8-science-ch13",
+   "order": 1,
+   "name": "Why Earth sustains life: atmosphere, water and temperature",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch12-st3"
+   ],
+   "prerequisiteNote": "Cycling of matter in nature; layers of air and water (Cl 6-7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch13-st2",
+   "chapterId": "cbse-g8-science-ch13",
+   "order": 2,
+   "name": "Layers of the Earth and the atmosphere",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch13-st1"
+   ],
+   "prerequisiteNote": "Why Earth sustains life",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch13-st3",
+   "chapterId": "cbse-g8-science-ch13",
+   "order": 3,
+   "name": "Natural resources and their conservation",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch13-st1",
+    "cbse-g8-science-ch12-st4"
+   ],
+   "prerequisiteNote": "Human impact on ecosystems",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-science-ch13-st4",
+   "chapterId": "cbse-g8-science-ch13",
+   "order": 4,
+   "name": "Earth in space and protecting our planet",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch13-st3"
+   ],
+   "prerequisiteNote": "Day and night and seasons; Natural resources",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

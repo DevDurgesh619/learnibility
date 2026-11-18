@@ -1,0 +1,856 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cbse-g12-business",
+  "board": "cbse",
+  "grade": 12,
+  "stream": "commerce",
+  "slug": "business",
+  "name": "Business Studies",
+  "programme": "CBSE Class 12 Business Studies (054)",
+  "textbook": "NCERT Business Studies XII Part I (8) + Part II + CBSE Financial Markets – 054 (12 units)",
+  "examPattern": "CBSE Board exam, 3 h; SQP 2026-27 – 'no change in question paper design'. 50% competency-based, 20% MCQ, 30% SA/LA, ~33% internal choice. Theory 80 + Project 20. 34 questions: 20×1, 4×3, 6×4, 4×6.",
+  "chapterCount": 12,
+  "questionTarget": 1164
+ },
+ "items": [
+  {
+   "id": "cbse-g12-business-ch01",
+   "subjectId": "cbse-g12-business",
+   "order": 1,
+   "name": "Nature and Significance of Management",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g12-business-ch01-st1",
+    "cbse-g12-business-ch01-st2",
+    "cbse-g12-business-ch01-st3",
+    "cbse-g12-business-ch01-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-business-ch02",
+   "subjectId": "cbse-g12-business",
+   "order": 2,
+   "name": "Principles of Management",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g12-business-ch02-st1",
+    "cbse-g12-business-ch02-st2",
+    "cbse-g12-business-ch02-st3",
+    "cbse-g12-business-ch02-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-business-ch03",
+   "subjectId": "cbse-g12-business",
+   "order": 3,
+   "name": "Business Environment",
+   "teachingPeriods": 15,
+   "subtopicIds": [
+    "cbse-g12-business-ch03-st1",
+    "cbse-g12-business-ch03-st2",
+    "cbse-g12-business-ch03-st3",
+    "cbse-g12-business-ch03-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-business-ch04",
+   "subjectId": "cbse-g12-business",
+   "order": 4,
+   "name": "Planning",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cbse-g12-business-ch04-st1",
+    "cbse-g12-business-ch04-st2",
+    "cbse-g12-business-ch04-st3"
+   ]
+  },
+  {
+   "id": "cbse-g12-business-ch05",
+   "subjectId": "cbse-g12-business",
+   "order": 5,
+   "name": "Organising",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g12-business-ch05-st1",
+    "cbse-g12-business-ch05-st2",
+    "cbse-g12-business-ch05-st3",
+    "cbse-g12-business-ch05-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-business-ch06",
+   "subjectId": "cbse-g12-business",
+   "order": 6,
+   "name": "Staffing",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g12-business-ch06-st1",
+    "cbse-g12-business-ch06-st2",
+    "cbse-g12-business-ch06-st3",
+    "cbse-g12-business-ch06-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-business-ch07",
+   "subjectId": "cbse-g12-business",
+   "order": 7,
+   "name": "Directing",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g12-business-ch07-st1",
+    "cbse-g12-business-ch07-st2",
+    "cbse-g12-business-ch07-st3",
+    "cbse-g12-business-ch07-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-business-ch08",
+   "subjectId": "cbse-g12-business",
+   "order": 8,
+   "name": "Controlling",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "cbse-g12-business-ch08-st1",
+    "cbse-g12-business-ch08-st2",
+    "cbse-g12-business-ch08-st3"
+   ]
+  },
+  {
+   "id": "cbse-g12-business-ch09",
+   "subjectId": "cbse-g12-business",
+   "order": 9,
+   "name": "Financial Management",
+   "teachingPeriods": 21,
+   "subtopicIds": [
+    "cbse-g12-business-ch09-st1",
+    "cbse-g12-business-ch09-st2",
+    "cbse-g12-business-ch09-st3",
+    "cbse-g12-business-ch09-st4",
+    "cbse-g12-business-ch09-st5"
+   ]
+  },
+  {
+   "id": "cbse-g12-business-ch10",
+   "subjectId": "cbse-g12-business",
+   "order": 10,
+   "name": "Financial Markets",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "cbse-g12-business-ch10-st1",
+    "cbse-g12-business-ch10-st2",
+    "cbse-g12-business-ch10-st3",
+    "cbse-g12-business-ch10-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-business-ch11",
+   "subjectId": "cbse-g12-business",
+   "order": 11,
+   "name": "Marketing",
+   "teachingPeriods": 22,
+   "subtopicIds": [
+    "cbse-g12-business-ch11-st1",
+    "cbse-g12-business-ch11-st2",
+    "cbse-g12-business-ch11-st3",
+    "cbse-g12-business-ch11-st4",
+    "cbse-g12-business-ch11-st5"
+   ]
+  },
+  {
+   "id": "cbse-g12-business-ch12",
+   "subjectId": "cbse-g12-business",
+   "order": 12,
+   "name": "Consumer Protection",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "cbse-g12-business-ch12-st1",
+    "cbse-g12-business-ch12-st2",
+    "cbse-g12-business-ch12-st3",
+    "cbse-g12-business-ch12-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cbse-g12-business-ch01-st1",
+   "chapterId": "cbse-g12-business-ch01",
+   "order": 1,
+   "name": "Management: concept, objectives, importance and characteristics",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch01-st2"
+   ],
+   "prerequisiteNote": "Objectives of business (Business Studies XI ch 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch01-st2",
+   "chapterId": "cbse-g12-business-ch01",
+   "order": 2,
+   "name": "Management as a science, an art and a profession",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch01-st1"
+   ],
+   "prerequisiteNote": "Characteristics of management",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch01-st3",
+   "chapterId": "cbse-g12-business-ch01",
+   "order": 3,
+   "name": "Levels of management: top, middle and supervisory",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch01-st1"
+   ],
+   "prerequisiteNote": "Concept of management; hierarchy in an organisation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch01-st4",
+   "chapterId": "cbse-g12-business-ch01",
+   "order": 4,
+   "name": "Functions of management and coordination as the essence of management",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch01-st3"
+   ],
+   "prerequisiteNote": "Levels of management; meaning of each management function",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch02-st1",
+   "chapterId": "cbse-g12-business-ch02",
+   "order": 1,
+   "name": "Principles of management: concept, nature and significance",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch01-st2"
+   ],
+   "prerequisiteNote": "Management as a science (universal guidelines)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch02-st2",
+   "chapterId": "cbse-g12-business-ch02",
+   "order": 2,
+   "name": "Fayol's 14 principles of management",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch02-st1"
+   ],
+   "prerequisiteNote": "Nature of principles of management; levels of management",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch02-st3",
+   "chapterId": "cbse-g12-business-ch02",
+   "order": 3,
+   "name": "Taylor's scientific management: principles and techniques",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch02-st1"
+   ],
+   "prerequisiteNote": "Nature of principles; division of work idea",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch02-st4",
+   "chapterId": "cbse-g12-business-ch02",
+   "order": 4,
+   "name": "Comparing Fayol and Taylor and applying principles to cases",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch02-st2",
+    "cbse-g12-business-ch02-st3"
+   ],
+   "prerequisiteNote": "Fayol's principles; Taylor's techniques",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch03-st1",
+   "chapterId": "cbse-g12-business-ch03",
+   "order": 1,
+   "name": "Business environment: concept, features and importance",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch01-st1"
+   ],
+   "prerequisiteNote": "Concept of management; organisation and its surroundings",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch03-st2",
+   "chapterId": "cbse-g12-business-ch03",
+   "order": 2,
+   "name": "Dimensions of business environment: economic, social, technological, political and legal",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch03-st1"
+   ],
+   "prerequisiteNote": "Features of business environment",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch03-st3",
+   "chapterId": "cbse-g12-business-ch03",
+   "order": 3,
+   "name": "Liberalisation, privatisation and globalisation: the 1991 economic changes",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch03-st2",
+    "cbse-g11-business-ch03-st2"
+   ],
+   "prerequisiteNote": "Changing role of public sector since 1991 (Business Studies XI ch 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch03-st4",
+   "chapterId": "cbse-g12-business-ch03",
+   "order": 4,
+   "name": "Impact of government policy changes and demonetisation on business and industry",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch03-st3"
+   ],
+   "prerequisiteNote": "Liberalisation, privatisation and globalisation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch04-st1",
+   "chapterId": "cbse-g12-business-ch04",
+   "order": 1,
+   "name": "Planning: concept, importance, features and limitations",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch01-st4"
+   ],
+   "prerequisiteNote": "Functions of management",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch04-st2",
+   "chapterId": "cbse-g12-business-ch04",
+   "order": 2,
+   "name": "Planning process",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch04-st1"
+   ],
+   "prerequisiteNote": "Features of planning; setting objectives",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch04-st3",
+   "chapterId": "cbse-g12-business-ch04",
+   "order": 3,
+   "name": "Types of plans: objective, strategy, policy, procedure, method, rule, budget, programme",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch04-st1"
+   ],
+   "prerequisiteNote": "Planning concept; difference between general guide and specific instruction",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch05-st1",
+   "chapterId": "cbse-g12-business-ch05",
+   "order": 1,
+   "name": "Organising: concept, importance and the organising process",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch01-st4"
+   ],
+   "prerequisiteNote": "Functions of management",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch05-st2",
+   "chapterId": "cbse-g12-business-ch05",
+   "order": 2,
+   "name": "Organisation structure: functional and divisional",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch05-st1"
+   ],
+   "prerequisiteNote": "Organising process; departmentalisation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch05-st3",
+   "chapterId": "cbse-g12-business-ch05",
+   "order": 3,
+   "name": "Formal and informal organisation",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch05-st1"
+   ],
+   "prerequisiteNote": "Organising concept",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch05-st4",
+   "chapterId": "cbse-g12-business-ch05",
+   "order": 4,
+   "name": "Delegation and decentralisation: elements and importance",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch05-st2"
+   ],
+   "prerequisiteNote": "Organisation structure; authority, responsibility and accountability",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch06-st1",
+   "chapterId": "cbse-g12-business-ch06",
+   "order": 1,
+   "name": "Staffing: concept, importance and staffing as part of human resource management",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch01-st4"
+   ],
+   "prerequisiteNote": "Functions of management",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch06-st2",
+   "chapterId": "cbse-g12-business-ch06",
+   "order": 2,
+   "name": "Staffing process and recruitment: internal and external sources",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch06-st1"
+   ],
+   "prerequisiteNote": "Concept of staffing; manpower planning",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch06-st3",
+   "chapterId": "cbse-g12-business-ch06",
+   "order": 3,
+   "name": "Selection process",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch06-st2"
+   ],
+   "prerequisiteNote": "Recruitment sources",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch06-st4",
+   "chapterId": "cbse-g12-business-ch06",
+   "order": 4,
+   "name": "Training and development: methods and importance (on-the-job and off-the-job)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch06-st3"
+   ],
+   "prerequisiteNote": "Selection process; difference between training and education",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch07-st1",
+   "chapterId": "cbse-g12-business-ch07",
+   "order": 1,
+   "name": "Directing: concept, importance and principles; elements of directing",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch01-st4"
+   ],
+   "prerequisiteNote": "Functions of management",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch07-st2",
+   "chapterId": "cbse-g12-business-ch07",
+   "order": 2,
+   "name": "Supervision and motivation: Maslow's need hierarchy and financial and non-financial incentives",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch07-st1"
+   ],
+   "prerequisiteNote": "Elements of directing",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch07-st3",
+   "chapterId": "cbse-g12-business-ch07",
+   "order": 3,
+   "name": "Leadership: concept, importance and qualities of a good leader",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch07-st1"
+   ],
+   "prerequisiteNote": "Elements of directing; leadership vs management",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch07-st4",
+   "chapterId": "cbse-g12-business-ch07",
+   "order": 4,
+   "name": "Communication: formal and informal, barriers and how to overcome them",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch07-st1",
+    "cbse-g12-business-ch05-st3"
+   ],
+   "prerequisiteNote": "Formal and informal organisation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch08-st1",
+   "chapterId": "cbse-g12-business-ch08",
+   "order": 1,
+   "name": "Controlling: concept, importance and limitations; relationship between planning and controlling",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch04-st1"
+   ],
+   "prerequisiteNote": "Planning concept and limitations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch08-st2",
+   "chapterId": "cbse-g12-business-ch08",
+   "order": 2,
+   "name": "Steps in the controlling process",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch08-st1"
+   ],
+   "prerequisiteNote": "Planning process; setting standards",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch08-st3",
+   "chapterId": "cbse-g12-business-ch08",
+   "order": 3,
+   "name": "Techniques of controlling: management by exception and critical point control",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch08-st2"
+   ],
+   "prerequisiteNote": "Steps in controlling (comparing actual with standards)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch09-st1",
+   "chapterId": "cbse-g12-business-ch09",
+   "order": 1,
+   "name": "Business finance and financial management: concept, role and objectives",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch07-st1"
+   ],
+   "prerequisiteNote": "Business finance (Business Studies XI ch 8 Sources of Business Finance)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch09-st2",
+   "chapterId": "cbse-g12-business-ch09",
+   "order": 2,
+   "name": "Financial decisions: investment, financing and dividend decisions and factors affecting them",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch09-st1",
+    "cbse-g11-business-ch07-st5"
+   ],
+   "prerequisiteNote": "Factors affecting choice of source of funds (Business Studies XI)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch09-st3",
+   "chapterId": "cbse-g12-business-ch09",
+   "order": 3,
+   "name": "Financial planning: concept and importance",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch09-st1",
+    "cbse-g12-business-ch04-st1"
+   ],
+   "prerequisiteNote": "Planning concept",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch09-st4",
+   "chapterId": "cbse-g12-business-ch09",
+   "order": 4,
+   "name": "Capital structure and factors affecting it; financial leverage",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch09-st2"
+   ],
+   "prerequisiteNote": "Financing decision; debt and equity; percentage return (Cl 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch09-st5",
+   "chapterId": "cbse-g12-business-ch09",
+   "order": 5,
+   "name": "Fixed and working capital: concept and factors affecting requirements",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch09-st2"
+   ],
+   "prerequisiteNote": "Investment decision; current assets and current liabilities",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch10-st1",
+   "chapterId": "cbse-g12-business-ch10",
+   "order": 1,
+   "name": "Financial market: concept and functions; money market and its instruments",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch09-st1"
+   ],
+   "prerequisiteNote": "Role of financial management; short-term vs long-term funds",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch10-st2",
+   "chapterId": "cbse-g12-business-ch10",
+   "order": 2,
+   "name": "Capital market: primary and secondary markets compared",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch10-st1",
+    "cbse-g11-business-ch07-st2"
+   ],
+   "prerequisiteNote": "Owners' funds: equity shares (Business Studies XI)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch10-st3",
+   "chapterId": "cbse-g12-business-ch10",
+   "order": 3,
+   "name": "Stock exchange: functions and trading and settlement procedure; NSE and BSE",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch10-st2"
+   ],
+   "prerequisiteNote": "Secondary market",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch10-st4",
+   "chapterId": "cbse-g12-business-ch10",
+   "order": 4,
+   "name": "Securities and Exchange Board of India (SEBI): objectives and functions",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch10-st3"
+   ],
+   "prerequisiteNote": "Stock exchange functions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch11-st1",
+   "chapterId": "cbse-g12-business-ch11",
+   "order": 1,
+   "name": "Marketing: concept, functions and the marketing management philosophies",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch01-st1"
+   ],
+   "prerequisiteNote": "Concept of management; buyers and sellers in a market",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch11-st2",
+   "chapterId": "cbse-g12-business-ch11",
+   "order": 2,
+   "name": "Marketing mix and product: branding, labelling and packaging",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch11-st1"
+   ],
+   "prerequisiteNote": "Concept of marketing; consumer needs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch11-st3",
+   "chapterId": "cbse-g12-business-ch11",
+   "order": 3,
+   "name": "Price: factors affecting price determination",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch11-st2"
+   ],
+   "prerequisiteNote": "Marketing mix; cost and demand ideas (Economics XI)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch11-st4",
+   "chapterId": "cbse-g12-business-ch11",
+   "order": 4,
+   "name": "Physical distribution: channels of distribution and its components",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch11-st2",
+    "cbse-g11-business-ch09-st1"
+   ],
+   "prerequisiteNote": "Services of wholesalers and retailers (Business Studies XI ch 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch11-st5",
+   "chapterId": "cbse-g12-business-ch11",
+   "order": 5,
+   "name": "Promotion: advertising, personal selling, sales promotion and public relations",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch11-st2"
+   ],
+   "prerequisiteNote": "Marketing mix; communication process",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch12-st1",
+   "chapterId": "cbse-g12-business-ch12",
+   "order": 1,
+   "name": "Consumer protection: concept and importance",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch11-st1"
+   ],
+   "prerequisiteNote": "Marketing concept; idea of a consumer and seller",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch12-st2",
+   "chapterId": "cbse-g12-business-ch12",
+   "order": 2,
+   "name": "Consumer Protection Act 2019: rights and responsibilities of consumers",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch12-st1"
+   ],
+   "prerequisiteNote": "Concept of consumer protection",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch12-st3",
+   "chapterId": "cbse-g12-business-ch12",
+   "order": 3,
+   "name": "Who can file a complaint and against whom; redressal machinery (District, State and National Commissions)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch12-st2"
+   ],
+   "prerequisiteNote": "Consumer Protection Act 2019; consumer rights",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-business-ch12-st4",
+   "chapterId": "cbse-g12-business-ch12",
+   "order": 4,
+   "name": "Remedies available and role of consumer organisations and NGOs",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g12-business-ch12-st3"
+   ],
+   "prerequisiteNote": "Redressal machinery",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

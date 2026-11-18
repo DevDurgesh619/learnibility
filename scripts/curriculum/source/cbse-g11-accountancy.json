@@ -1,0 +1,394 @@
+{
+ "subjectId": "cbse-g11-accountancy",
+ "chapters": [
+  {
+   "sheetName": "Introduction to Accounting",
+   "name": "Introduction to Accounting",
+   "subtopics": [
+    {
+     "name": "Meaning of accounting, accounting as a source of information and its users",
+     "weight": "S",
+     "prereq": [],
+     "note": "Idea of a business and its transactions (everyday buying and selling); reading simple money records"
+    },
+    {
+     "name": "Objectives, role, advantages and limitations of accounting",
+     "weight": "L",
+     "prereq": [
+      "cbse-g11-accountancy-ch01-st1"
+     ],
+     "note": "Meaning of accounting and its users"
+    },
+    {
+     "name": "Qualitative characteristics of accounting information",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-accountancy-ch01-st1"
+     ],
+     "note": "Users of accounting information and what each needs"
+    },
+    {
+     "name": "Basic accounting terms: entity, transaction, capital, drawings, assets, liabilities, revenue, expense, debtors, creditors",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-accountancy-ch01-st1"
+     ],
+     "note": "Meaning of accounting; idea of owning and owing (personal money sense)"
+    }
+   ]
+  },
+  {
+   "sheetName": "Theory Base of Accounting",
+   "name": "Theory Base of Accounting",
+   "subtopics": [
+    {
+     "name": "Generally accepted accounting principles (GAAP): meaning and need",
+     "weight": "L",
+     "prereq": [
+      "cbse-g11-accountancy-ch01-st3"
+     ],
+     "note": "Qualitative characteristics of accounting information"
+    },
+    {
+     "name": "Basic accounting concepts: business entity, money measurement, going concern, accounting period, cost, dual aspect",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-accountancy-ch02-st1",
+      "cbse-g11-accountancy-ch01-st4"
+     ],
+     "note": "Basic accounting terms (capital, assets, liabilities)"
+    },
+    {
+     "name": "Revenue recognition, matching, full disclosure, consistency, conservatism, materiality and objectivity",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-accountancy-ch02-st2"
+     ],
+     "note": "Basic accounting concepts; accrual idea of income earned vs cash received"
+    },
+    {
+     "name": "Bases of accounting (cash and accrual) and accounting standards, Ind AS and IFRS",
+     "weight": "L",
+     "prereq": [
+      "cbse-g11-accountancy-ch02-st3"
+     ],
+     "note": "Revenue recognition and matching concepts"
+    },
+    {
+     "name": "Goods and Services Tax (GST): features, CGST, SGST, IGST and input tax credit",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-accountancy-ch01-st4"
+     ],
+     "note": "Percentages and tax on a bill (Cl 8 Comparing Quantities)"
+    }
+   ]
+  },
+  {
+   "sheetName": "Recording of Transactions I",
+   "name": "Recording of Transactions - I",
+   "subtopics": [
+    {
+     "name": "Business transactions and source documents: cash memo, invoice, bill, voucher",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-accountancy-ch01-st4"
+     ],
+     "note": "Basic accounting terms (transaction, debtor, creditor)"
+    },
+    {
+     "name": "Accounting equation and effect of transactions on it",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-accountancy-ch02-st2"
+     ],
+     "note": "Dual aspect concept; Assets = Liabilities + Capital; solving simple linear equations (Cl 8)"
+    },
+    {
+     "name": "Rules of debit and credit (modern / accounting equation approach)",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-accountancy-ch03-st2"
+     ],
+     "note": "Accounting equation; classification of accounts"
+    },
+    {
+     "name": "Journal: format, journalising simple, compound and GST transactions",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-accountancy-ch03-st3",
+      "cbse-g11-accountancy-ch02-st5"
+     ],
+     "note": "Rules of debit and credit; GST basics"
+    },
+    {
+     "name": "Ledger: posting from journal and balancing of accounts",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-accountancy-ch03-st4"
+     ],
+     "note": "Journal entries; debit and credit sides of an account"
+    }
+   ]
+  },
+  {
+   "sheetName": "Recording of Transactions II",
+   "name": "Recording of Transactions - II",
+   "subtopics": [
+    {
+     "name": "Cash book: simple (single column) cash book",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-accountancy-ch03-st5"
+     ],
+     "note": "Ledger posting and balancing; cash account"
+    },
+    {
+     "name": "Double column (cash and bank) cash book and contra entries",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-accountancy-ch04-st1"
+     ],
+     "note": "Simple cash book; bank transactions (cheque deposit, withdrawal)"
+    },
+    {
+     "name": "Petty cash book under the imprest system",
+     "weight": "L",
+     "prereq": [
+      "cbse-g11-accountancy-ch04-st1"
+     ],
+     "note": "Simple cash book"
+    },
+    {
+     "name": "Special purpose books: purchases, sales, purchases return and sales return books",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-accountancy-ch03-st4"
+     ],
+     "note": "Journal entries for credit purchases and sales; trade discount (Cl 8 percentages)"
+    },
+    {
+     "name": "Posting from special purpose books and use of debit note and credit note",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-accountancy-ch04-st4",
+      "cbse-g11-accountancy-ch03-st5"
+     ],
+     "note": "Special purpose books; ledger posting"
+    }
+   ]
+  },
+  {
+   "sheetName": "Bank Reconciliation Statement",
+   "name": "Bank Reconciliation Statement",
+   "subtopics": [
+    {
+     "name": "Meaning and need of bank reconciliation statement; cash book vs pass book",
+     "weight": "L",
+     "prereq": [
+      "cbse-g11-accountancy-ch04-st2"
+     ],
+     "note": "Bank column of the double column cash book"
+    },
+    {
+     "name": "Causes of difference between cash book and pass book balances",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-accountancy-ch05-st1"
+     ],
+     "note": "Debit/credit entries in cash book vs pass book (opposite sides)"
+    },
+    {
+     "name": "Preparing BRS with favourable balance and overdraft",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-accountancy-ch05-st2"
+     ],
+     "note": "Causes of difference; adding and subtracting items from a starting balance"
+    },
+    {
+     "name": "Preparing BRS after amending the cash book",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-accountancy-ch05-st3"
+     ],
+     "note": "Preparing a simple BRS; journal entries for bank charges and interest"
+    }
+   ]
+  },
+  {
+   "sheetName": "Trial Balance and Rectification of Errors",
+   "name": "Trial Balance and Rectification of Errors",
+   "subtopics": [
+    {
+     "name": "Meaning, objectives and preparation of trial balance (balance method)",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-accountancy-ch03-st5"
+     ],
+     "note": "Balancing ledger accounts; debit and credit balances"
+    },
+    {
+     "name": "Types of errors: omission, commission, principle and compensating errors",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-accountancy-ch06-st1"
+     ],
+     "note": "Trial balance; which errors affect agreement of trial balance"
+    },
+    {
+     "name": "Searching for errors and the suspense account",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-accountancy-ch06-st2"
+     ],
+     "note": "Types of errors; one-sided vs two-sided errors"
+    },
+    {
+     "name": "Rectification of errors before and after preparation of trial balance",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-accountancy-ch06-st3",
+      "cbse-g11-accountancy-ch03-st4"
+     ],
+     "note": "Types of errors; suspense account; journal entries"
+    }
+   ]
+  },
+  {
+   "sheetName": "Depreciation, Provisions and Reserves",
+   "name": "Depreciation, Provisions and Reserves",
+   "subtopics": [
+    {
+     "name": "Meaning, need, causes and factors affecting depreciation",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-accountancy-ch02-st3"
+     ],
+     "note": "Matching concept; fixed assets vs current assets"
+    },
+    {
+     "name": "Methods of depreciation: straight line method and written down value method",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-accountancy-ch07-st1"
+     ],
+     "note": "Percentages and reducing balance (Cl 8 compound interest idea)"
+    },
+    {
+     "name": "Recording depreciation: charging to asset account and provision for depreciation account; disposal of asset",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-accountancy-ch07-st2",
+      "cbse-g11-accountancy-ch03-st5"
+     ],
+     "note": "Depreciation methods; ledger posting and balancing"
+    },
+    {
+     "name": "Provisions and reserves: types of reserves and secret reserve",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-accountancy-ch02-st3"
+     ],
+     "note": "Conservatism concept; profit as a surplus"
+    }
+   ]
+  },
+  {
+   "sheetName": "Financial Statements I",
+   "name": "Financial Statements - I",
+   "subtopics": [
+    {
+     "name": "Meaning, objectives and importance of financial statements; stakeholders and their information needs",
+     "weight": "L",
+     "prereq": [
+      "cbse-g11-accountancy-ch01-st1"
+     ],
+     "note": "Users of accounting information"
+    },
+    {
+     "name": "Capital and revenue expenditure and receipts",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-accountancy-ch02-st3"
+     ],
+     "note": "Matching concept; meaning of expense and asset"
+    },
+    {
+     "name": "Trading and profit and loss account: gross profit and net profit",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-accountancy-ch08-st2",
+      "cbse-g11-accountancy-ch06-st1"
+     ],
+     "note": "Trial balance; capital vs revenue items"
+    },
+    {
+     "name": "Operating profit (EBIT) and the balance sheet: grouping and marshalling of assets and liabilities",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-accountancy-ch08-st3"
+     ],
+     "note": "Trading and profit and loss account; classification of assets and liabilities"
+    },
+    {
+     "name": "Opening and closing entries",
+     "weight": "L",
+     "prereq": [
+      "cbse-g11-accountancy-ch08-st3"
+     ],
+     "note": "Journal entries; nominal accounts transferred to profit and loss"
+    }
+   ]
+  },
+  {
+   "sheetName": "Financial Statements II",
+   "name": "Financial Statements - II",
+   "subtopics": [
+    {
+     "name": "Need for adjustments: closing stock, outstanding and prepaid expenses",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-accountancy-ch08-st4"
+     ],
+     "note": "Preparing trading and P&L account and balance sheet; accrual concept"
+    },
+    {
+     "name": "Accrued income and income received in advance",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-accountancy-ch09-st1"
+     ],
+     "note": "Outstanding and prepaid expense adjustments"
+    },
+    {
+     "name": "Depreciation, bad debts, provision for doubtful debts and provision for discount on debtors",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-accountancy-ch09-st1",
+      "cbse-g11-accountancy-ch07-st3"
+     ],
+     "note": "Depreciation methods; debtors account"
+    },
+    {
+     "name": "Manager's commission, interest on capital and interest on drawings",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-accountancy-ch09-st1"
+     ],
+     "note": "Percentage of profit before/after commission (Cl 8 percentages)"
+    },
+    {
+     "name": "Preparing financial statements with adjustments (sole proprietorship)",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-accountancy-ch09-st2",
+      "cbse-g11-accountancy-ch09-st3",
+      "cbse-g11-accountancy-ch09-st4"
+     ],
+     "note": "All adjustments; trading, P&L account and balance sheet format"
+    }
+   ]
+  }
+ ]
+}

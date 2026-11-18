@@ -1,0 +1,726 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cambridge-g10-biology",
+  "board": "cambridge",
+  "grade": 10,
+  "stream": "none",
+  "slug": "biology",
+  "name": "Biology",
+  "programme": "Cambridge IGCSE Biology 0610 (2026–28)",
+  "textbook": "CUP Coursebook (20 chapters)",
+  "examPattern": "Extended: Paper 2 MCQ 45 min, 40 questions + Paper 4 Theory 1 h 15, 80 marks (~6–8 structured) + Paper 6 ATP 1 h, 40 marks (or P5 Practical). Weights 30/50/20. Grades A*–G.",
+  "chapterCount": 10,
+  "questionTarget": 1162
+ },
+ "items": [
+  {
+   "id": "cambridge-g10-biology-ch01",
+   "subjectId": "cambridge-g10-biology",
+   "order": 1,
+   "name": "Respiration and Gas Exchange in Humans",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "cambridge-g10-biology-ch01-st1",
+    "cambridge-g10-biology-ch01-st2",
+    "cambridge-g10-biology-ch01-st3",
+    "cambridge-g10-biology-ch01-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g10-biology-ch02",
+   "subjectId": "cambridge-g10-biology",
+   "order": 2,
+   "name": "Coordination and Response",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cambridge-g10-biology-ch02-st1",
+    "cambridge-g10-biology-ch02-st2",
+    "cambridge-g10-biology-ch02-st3",
+    "cambridge-g10-biology-ch02-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g10-biology-ch03",
+   "subjectId": "cambridge-g10-biology",
+   "order": 3,
+   "name": "Excretion and Homeostasis",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "cambridge-g10-biology-ch03-st1",
+    "cambridge-g10-biology-ch03-st2",
+    "cambridge-g10-biology-ch03-st3",
+    "cambridge-g10-biology-ch03-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g10-biology-ch04",
+   "subjectId": "cambridge-g10-biology",
+   "order": 4,
+   "name": "Reproduction in Plants",
+   "teachingPeriods": 6,
+   "subtopicIds": [
+    "cambridge-g10-biology-ch04-st1",
+    "cambridge-g10-biology-ch04-st2",
+    "cambridge-g10-biology-ch04-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g10-biology-ch05",
+   "subjectId": "cambridge-g10-biology",
+   "order": 5,
+   "name": "Reproduction in Humans",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cambridge-g10-biology-ch05-st1",
+    "cambridge-g10-biology-ch05-st2",
+    "cambridge-g10-biology-ch05-st3",
+    "cambridge-g10-biology-ch05-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g10-biology-ch06",
+   "subjectId": "cambridge-g10-biology",
+   "order": 6,
+   "name": "Inheritance",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "cambridge-g10-biology-ch06-st1",
+    "cambridge-g10-biology-ch06-st2",
+    "cambridge-g10-biology-ch06-st3",
+    "cambridge-g10-biology-ch06-st4",
+    "cambridge-g10-biology-ch06-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g10-biology-ch07",
+   "subjectId": "cambridge-g10-biology",
+   "order": 7,
+   "name": "Variation and Selection",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cambridge-g10-biology-ch07-st1",
+    "cambridge-g10-biology-ch07-st2",
+    "cambridge-g10-biology-ch07-st3",
+    "cambridge-g10-biology-ch07-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g10-biology-ch08",
+   "subjectId": "cambridge-g10-biology",
+   "order": 8,
+   "name": "Organisms and their Environment",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "cambridge-g10-biology-ch08-st1",
+    "cambridge-g10-biology-ch08-st2",
+    "cambridge-g10-biology-ch08-st3",
+    "cambridge-g10-biology-ch08-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g10-biology-ch09",
+   "subjectId": "cambridge-g10-biology",
+   "order": 9,
+   "name": "Human Influences on Ecosystems",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cambridge-g10-biology-ch09-st1",
+    "cambridge-g10-biology-ch09-st2",
+    "cambridge-g10-biology-ch09-st3",
+    "cambridge-g10-biology-ch09-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g10-biology-ch10",
+   "subjectId": "cambridge-g10-biology",
+   "order": 10,
+   "name": "Biotechnology and Genetic Modification",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cambridge-g10-biology-ch10-st1",
+    "cambridge-g10-biology-ch10-st2",
+    "cambridge-g10-biology-ch10-st3",
+    "cambridge-g10-biology-ch10-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cambridge-g10-biology-ch01-st1",
+   "chapterId": "cambridge-g10-biology-ch01",
+   "order": 1,
+   "name": "Aerobic respiration: uses of energy and word and balanced equations",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch05-st2"
+   ],
+   "prerequisiteNote": "Enzymes and temperature (IGCSE ch 5); photosynthesis equation as the reverse (IGCSE ch 6)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch01-st2",
+   "chapterId": "cambridge-g10-biology-ch01",
+   "order": 2,
+   "name": "Anaerobic respiration in muscles and yeast; oxygen debt and lactic acid",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch01-st1"
+   ],
+   "prerequisiteNote": "Aerobic respiration; fermentation in bread and ethanol making",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch01-st3",
+   "chapterId": "cambridge-g10-biology-ch01",
+   "order": 3,
+   "name": "Gas exchange surfaces and structure of the breathing system",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch03-st1"
+   ],
+   "prerequisiteNote": "Diffusion and surface area (IGCSE ch 3); lung structure (Lower Secondary Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch01-st4",
+   "chapterId": "cambridge-g10-biology-ch01",
+   "order": 4,
+   "name": "Mechanism of ventilation: intercostal muscles, diaphragm and the effect of physical activity on breathing",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch01-st3",
+    "cambridge-g10-biology-ch01-st2"
+   ],
+   "prerequisiteNote": "Breathing system structure; volume and pressure in the thorax; lactic acid build-up",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch02-st1",
+   "chapterId": "cambridge-g10-biology-ch02",
+   "order": 1,
+   "name": "Nervous system: neurones, reflex arcs and synapses",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch02-st2"
+   ],
+   "prerequisiteNote": "Specialised cells and organ systems (IGCSE ch 2)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch02-st2",
+   "chapterId": "cambridge-g10-biology-ch02",
+   "order": 2,
+   "name": "Sense organs: structure and function of the eye, accommodation and pupil reflex",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch02-st1"
+   ],
+   "prerequisiteNote": "Reflex arcs; lenses focusing light (physics)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch02-st3",
+   "chapterId": "cambridge-g10-biology-ch02",
+   "order": 3,
+   "name": "Hormones in humans: endocrine glands and adrenaline; comparing nervous and hormonal control",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch02-st1",
+    "cambridge-g9-biology-ch09-st3"
+   ],
+   "prerequisiteNote": "Nervous system; transport of substances in blood plasma",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch02-st4",
+   "chapterId": "cambridge-g10-biology-ch02",
+   "order": 4,
+   "name": "Tropic responses in plants: gravitropism, phototropism and auxin",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch06-st1"
+   ],
+   "prerequisiteNote": "Plant growth needs light for photosynthesis (IGCSE ch 6)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch03-st1",
+   "chapterId": "cambridge-g10-biology-ch03",
+   "order": 1,
+   "name": "Excretion: kidney structure, nephron, ultrafiltration and selective reabsorption",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch03-st3",
+    "cambridge-g9-biology-ch07-st4"
+   ],
+   "prerequisiteNote": "Active transport (IGCSE ch 3); amino acids absorbed after digestion (IGCSE ch 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch03-st2",
+   "chapterId": "cambridge-g10-biology-ch03",
+   "order": 2,
+   "name": "Deamination in the liver and formation of urea",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch03-st1",
+    "cambridge-g9-biology-ch04-st1"
+   ],
+   "prerequisiteNote": "Kidney structure; proteins made of amino acids (IGCSE ch 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch03-st3",
+   "chapterId": "cambridge-g10-biology-ch03",
+   "order": 3,
+   "name": "Homeostasis and negative feedback: control of blood glucose by insulin and glucagon; type 1 diabetes",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch02-st3"
+   ],
+   "prerequisiteNote": "Hormones and endocrine glands; Coordination and Response",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch03-st4",
+   "chapterId": "cambridge-g10-biology-ch03",
+   "order": 4,
+   "name": "Control of body temperature: skin, sweating, vasodilation and vasoconstriction",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch03-st3"
+   ],
+   "prerequisiteNote": "Negative feedback; blood vessels (IGCSE ch 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch04-st1",
+   "chapterId": "cambridge-g10-biology-ch04",
+   "order": 1,
+   "name": "Asexual and sexual reproduction: advantages and disadvantages",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Plant and animal life cycles (Lower Secondary Science Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch04-st2",
+   "chapterId": "cambridge-g10-biology-ch04",
+   "order": 2,
+   "name": "Flower structure; insect- and wind-pollination",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch04-st1"
+   ],
+   "prerequisiteNote": "Sexual reproduction; parts of a flower (Lower Secondary)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch04-st3",
+   "chapterId": "cambridge-g10-biology-ch04",
+   "order": 3,
+   "name": "Fertilisation, seed formation and conditions for germination",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch04-st2",
+    "cambridge-g9-biology-ch05-st2"
+   ],
+   "prerequisiteNote": "Pollination; effect of temperature on enzymes",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch05-st1",
+   "chapterId": "cambridge-g10-biology-ch05",
+   "order": 1,
+   "name": "Male and female reproductive systems and gametes",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch04-st1"
+   ],
+   "prerequisiteNote": "Asexual and sexual reproduction; puberty (Lower Secondary Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch05-st2",
+   "chapterId": "cambridge-g10-biology-ch05",
+   "order": 2,
+   "name": "Fertilisation, implantation and development of the fetus; role of the placenta",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch05-st1",
+    "cambridge-g9-biology-ch03-st1"
+   ],
+   "prerequisiteNote": "Reproductive systems; diffusion across the placenta",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch05-st3",
+   "chapterId": "cambridge-g10-biology-ch05",
+   "order": 3,
+   "name": "Sex hormones and the menstrual cycle",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch05-st1",
+    "cambridge-g10-biology-ch02-st3"
+   ],
+   "prerequisiteNote": "Reproductive systems; hormones and endocrine glands",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch05-st4",
+   "chapterId": "cambridge-g10-biology-ch05",
+   "order": 4,
+   "name": "Sexually transmitted infections: HIV and its control",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch05-st1",
+    "cambridge-g9-biology-ch10-st1"
+   ],
+   "prerequisiteNote": "Pathogens and transmission (IGCSE ch 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch06-st1",
+   "chapterId": "cambridge-g10-biology-ch06",
+   "order": 1,
+   "name": "Chromosomes, genes and alleles; sex inheritance",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch04-st3"
+   ],
+   "prerequisiteNote": "Structure of DNA (IGCSE ch 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch06-st2",
+   "chapterId": "cambridge-g10-biology-ch06",
+   "order": 2,
+   "name": "Protein synthesis: genetic code, mRNA and ribosomes",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch06-st1",
+    "cambridge-g9-biology-ch05-st1"
+   ],
+   "prerequisiteNote": "Genes and DNA; enzymes as proteins with specific shape",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch06-st3",
+   "chapterId": "cambridge-g10-biology-ch06",
+   "order": 3,
+   "name": "Mitosis and meiosis: haploid and diploid nuclei",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch06-st1"
+   ],
+   "prerequisiteNote": "Chromosomes; cell division in growth (IGCSE ch 2)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch06-st4",
+   "chapterId": "cambridge-g10-biology-ch06",
+   "order": 4,
+   "name": "Monohybrid inheritance: genetic diagrams, Punnett squares and test crosses",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch06-st3"
+   ],
+   "prerequisiteNote": "Mitosis and meiosis; dominant and recessive alleles; ratios and probability (maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch06-st5",
+   "chapterId": "cambridge-g10-biology-ch06",
+   "order": 5,
+   "name": "Codominance, ABO blood groups and sex-linked characteristics",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch06-st4"
+   ],
+   "prerequisiteNote": "Monohybrid inheritance and genetic diagrams",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch07-st1",
+   "chapterId": "cambridge-g10-biology-ch07",
+   "order": 1,
+   "name": "Continuous and discontinuous variation; mutation as a source of new alleles",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch06-st1"
+   ],
+   "prerequisiteNote": "Chromosomes and alleles; plotting histograms and bar charts (maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch07-st2",
+   "chapterId": "cambridge-g10-biology-ch07",
+   "order": 2,
+   "name": "Adaptive features of organisms (xerophytes and hydrophytes)",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch07-st1",
+    "cambridge-g9-biology-ch08-st3"
+   ],
+   "prerequisiteNote": "Variation; transpiration in plants (IGCSE ch 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch07-st3",
+   "chapterId": "cambridge-g10-biology-ch07",
+   "order": 3,
+   "name": "Natural selection and evolution; antibiotic resistance in bacteria",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch07-st1",
+    "cambridge-g10-biology-ch07-st2"
+   ],
+   "prerequisiteNote": "Variation; adaptive features",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch07-st4",
+   "chapterId": "cambridge-g10-biology-ch07",
+   "order": 4,
+   "name": "Selective breeding",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch07-st3",
+    "cambridge-g10-biology-ch06-st4"
+   ],
+   "prerequisiteNote": "Natural selection; monohybrid inheritance",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch08-st1",
+   "chapterId": "cambridge-g10-biology-ch08",
+   "order": 1,
+   "name": "Food chains, food webs and trophic levels; pyramids of number, biomass and energy",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch06-st1"
+   ],
+   "prerequisiteNote": "Photosynthesis as energy source; food chains (Lower Secondary Stage 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch08-st2",
+   "chapterId": "cambridge-g10-biology-ch08",
+   "order": 2,
+   "name": "Energy flow and efficiency of energy transfer between trophic levels",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch08-st1",
+    "cambridge-g10-biology-ch01-st1"
+   ],
+   "prerequisiteNote": "Food chains and trophic levels; respiration releases energy",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch08-st3",
+   "chapterId": "cambridge-g10-biology-ch08",
+   "order": 3,
+   "name": "Carbon cycle and nitrogen cycle",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch08-st1",
+    "cambridge-g10-biology-ch01-st1"
+   ],
+   "prerequisiteNote": "Photosynthesis and respiration; role of decomposers",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch08-st4",
+   "chapterId": "cambridge-g10-biology-ch08",
+   "order": 4,
+   "name": "Populations: factors affecting population size and the sigmoid growth curve",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch08-st1"
+   ],
+   "prerequisiteNote": "Food webs; interpreting graphs (maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch09-st1",
+   "chapterId": "cambridge-g10-biology-ch09",
+   "order": 1,
+   "name": "Food supply: monocultures, intensive livestock production and use of fertilisers and pesticides",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch08-st1"
+   ],
+   "prerequisiteNote": "Food chains; mineral requirements of plants (IGCSE ch 6)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch09-st2",
+   "chapterId": "cambridge-g10-biology-ch09",
+   "order": 2,
+   "name": "Habitat destruction and deforestation",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch08-st3"
+   ],
+   "prerequisiteNote": "Carbon cycle; biodiversity and food webs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch09-st3",
+   "chapterId": "cambridge-g10-biology-ch09",
+   "order": 3,
+   "name": "Pollution: water pollution, eutrophication, non-biodegradable plastics and greenhouse gases",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch09-st1",
+    "cambridge-g10-biology-ch08-st3"
+   ],
+   "prerequisiteNote": "Fertilisers; nitrogen and carbon cycles",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch09-st4",
+   "chapterId": "cambridge-g10-biology-ch09",
+   "order": 4,
+   "name": "Conservation: sustainable resources, endangered species and seed banks",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch09-st2"
+   ],
+   "prerequisiteNote": "Habitat destruction; human impact on biodiversity",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch10-st1",
+   "chapterId": "cambridge-g10-biology-ch10",
+   "order": 1,
+   "name": "Bacteria in biotechnology; yeast in biofuels and bread making",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch01-st2"
+   ],
+   "prerequisiteNote": "Anaerobic respiration in yeast; bacteria reproduce rapidly",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch10-st2",
+   "chapterId": "cambridge-g10-biology-ch10",
+   "order": 2,
+   "name": "Pectinase, biological washing powders and lactase production",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch10-st1",
+    "cambridge-g9-biology-ch05-st1"
+   ],
+   "prerequisiteNote": "Bacteria in biotechnology; enzyme action",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch10-st3",
+   "chapterId": "cambridge-g10-biology-ch10",
+   "order": 3,
+   "name": "Large-scale production in fermenters (penicillin, insulin)",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch10-st1"
+   ],
+   "prerequisiteNote": "Biotechnology basics; conditions for growth and enzyme activity",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-biology-ch10-st4",
+   "chapterId": "cambridge-g10-biology-ch10",
+   "order": 4,
+   "name": "Genetic modification: inserting human insulin gene into bacteria; GM crops and their pros and cons",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch06-st2",
+    "cambridge-g10-biology-ch10-st3"
+   ],
+   "prerequisiteNote": "Protein synthesis and genes; fermenters",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

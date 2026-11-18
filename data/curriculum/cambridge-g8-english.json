@@ -1,0 +1,620 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cambridge-g8-english",
+  "board": "cambridge",
+  "grade": 8,
+  "stream": "none",
+  "slug": "english",
+  "name": "English",
+  "programme": "Cambridge Lower Secondary English 0861 (Stage 9)",
+  "textbook": "CUP Learner's Book 9 (2nd ed.)",
+  "examPattern": "Checkpoint English: Paper 1 Non-fiction 1 h 10 min + Paper 2 Fiction 1 h 10 min; each = reading section + writing task (~8–10 questions per paper, UNVERIFIED). Speaking & listening not tested. (Alternative: English as a Second Language 0876 – 3 papers 45/35/40 min.)",
+  "chapterCount": 9,
+  "questionTarget": 594
+ },
+ "items": [
+  {
+   "id": "cambridge-g8-english-ch01",
+   "subjectId": "cambridge-g8-english",
+   "order": 1,
+   "name": "Unit 1: Narrative Fiction - Openings, Viewpoint and Character",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cambridge-g8-english-ch01-st1",
+    "cambridge-g8-english-ch01-st2",
+    "cambridge-g8-english-ch01-st3",
+    "cambridge-g8-english-ch01-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g8-english-ch02",
+   "subjectId": "cambridge-g8-english",
+   "order": 2,
+   "name": "Unit 2: Non-fiction - Information and Explanation Texts",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cambridge-g8-english-ch02-st1",
+    "cambridge-g8-english-ch02-st2",
+    "cambridge-g8-english-ch02-st3",
+    "cambridge-g8-english-ch02-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g8-english-ch03",
+   "subjectId": "cambridge-g8-english",
+   "order": 3,
+   "name": "Unit 3: Poetry - Imagery, Sound and Form",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cambridge-g8-english-ch03-st1",
+    "cambridge-g8-english-ch03-st2",
+    "cambridge-g8-english-ch03-st3",
+    "cambridge-g8-english-ch03-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g8-english-ch04",
+   "subjectId": "cambridge-g8-english",
+   "order": 4,
+   "name": "Unit 4: Persuasive and Argument Writing",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cambridge-g8-english-ch04-st1",
+    "cambridge-g8-english-ch04-st2",
+    "cambridge-g8-english-ch04-st3",
+    "cambridge-g8-english-ch04-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g8-english-ch05",
+   "subjectId": "cambridge-g8-english",
+   "order": 5,
+   "name": "Unit 5: Drama - Playscripts and Performance",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "cambridge-g8-english-ch05-st1",
+    "cambridge-g8-english-ch05-st2",
+    "cambridge-g8-english-ch05-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g8-english-ch06",
+   "subjectId": "cambridge-g8-english",
+   "order": 6,
+   "name": "Unit 6: Autobiography, Biography and Recount",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cambridge-g8-english-ch06-st1",
+    "cambridge-g8-english-ch06-st2",
+    "cambridge-g8-english-ch06-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g8-english-ch07",
+   "subjectId": "cambridge-g8-english",
+   "order": 7,
+   "name": "Unit 7: Fiction from Different Times and Cultures",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cambridge-g8-english-ch07-st1",
+    "cambridge-g8-english-ch07-st2",
+    "cambridge-g8-english-ch07-st3",
+    "cambridge-g8-english-ch07-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g8-english-ch08",
+   "subjectId": "cambridge-g8-english",
+   "order": 8,
+   "name": "Unit 8: Media, Reports and Journalism",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "cambridge-g8-english-ch08-st1",
+    "cambridge-g8-english-ch08-st2",
+    "cambridge-g8-english-ch08-st3",
+    "cambridge-g8-english-ch08-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g8-english-ch09",
+   "subjectId": "cambridge-g8-english",
+   "order": 9,
+   "name": "Unit 9: Language, Grammar and Writing Accuracy",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cambridge-g8-english-ch09-st1",
+    "cambridge-g8-english-ch09-st2",
+    "cambridge-g8-english-ch09-st3",
+    "cambridge-g8-english-ch09-st4",
+    "cambridge-g8-english-ch09-st5"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cambridge-g8-english-ch01-st1",
+   "chapterId": "cambridge-g8-english-ch01",
+   "order": 1,
+   "name": "Reading fiction: explicit and implicit meaning in a story opening",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Literal comprehension and simple inference from a text (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-english-ch01-st2",
+   "chapterId": "cambridge-g8-english-ch01",
+   "order": 2,
+   "name": "Narrative viewpoint: first person, third person and unreliable narrators",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-english-ch01-st1"
+   ],
+   "prerequisiteNote": "Identifying who is telling a story; pronoun use (Stage 7-8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-english-ch01-st3",
+   "chapterId": "cambridge-g8-english-ch01",
+   "order": 3,
+   "name": "Characterisation through dialogue, action and description",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-english-ch01-st1"
+   ],
+   "prerequisiteNote": "Inference from what characters say and do (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-english-ch01-st4",
+   "chapterId": "cambridge-g8-english-ch01",
+   "order": 4,
+   "name": "Writing a story opening that establishes setting, character and tension",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-english-ch01-st2",
+    "cambridge-g8-english-ch01-st3"
+   ],
+   "prerequisiteNote": "Paragraphing and sentence variety in narrative writing (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-english-ch02-st1",
+   "chapterId": "cambridge-g8-english-ch02",
+   "order": 1,
+   "name": "Features and purpose of information and explanation texts",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Identifying text purpose and audience (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-english-ch02-st2",
+   "chapterId": "cambridge-g8-english-ch02",
+   "order": 2,
+   "name": "Skimming, scanning and selecting key information",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-english-ch02-st1"
+   ],
+   "prerequisiteNote": "Locating details in a text; reading for gist (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-english-ch02-st3",
+   "chapterId": "cambridge-g8-english-ch02",
+   "order": 3,
+   "name": "Summarising main points in own words",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-english-ch02-st2"
+   ],
+   "prerequisiteNote": "Distinguishing main ideas from supporting detail (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-english-ch02-st4",
+   "chapterId": "cambridge-g8-english-ch02",
+   "order": 4,
+   "name": "Writing a clear explanation using technical vocabulary and cohesive devices",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-english-ch02-st1"
+   ],
+   "prerequisiteNote": "Paragraph organisation; connectives of cause and sequence (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-english-ch03-st1",
+   "chapterId": "cambridge-g8-english-ch03",
+   "order": 1,
+   "name": "Imagery in poetry: simile, metaphor and personification",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Recognising figurative language (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-english-ch03-st2",
+   "chapterId": "cambridge-g8-english-ch03",
+   "order": 2,
+   "name": "Sound and rhythm: alliteration, assonance, rhyme and metre",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-english-ch03-st1"
+   ],
+   "prerequisiteNote": "Syllables and stress in spoken English; reading poems aloud (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-english-ch03-st3",
+   "chapterId": "cambridge-g8-english-ch03",
+   "order": 3,
+   "name": "Poetic forms and structure: stanzas, enjambment, free verse",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-english-ch03-st2"
+   ],
+   "prerequisiteNote": "Line and stanza vocabulary (Stage 7-8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-english-ch03-st4",
+   "chapterId": "cambridge-g8-english-ch03",
+   "order": 4,
+   "name": "Comparing two poems on a similar theme",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-english-ch03-st1",
+    "cambridge-g8-english-ch03-st3"
+   ],
+   "prerequisiteNote": "Writing a PEE/PEA analytical paragraph (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-english-ch04-st1",
+   "chapterId": "cambridge-g8-english-ch04",
+   "order": 1,
+   "name": "Persuasive techniques: rhetorical questions, emotive language, rule of three",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Recognising writer's purpose and opinion vs fact (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-english-ch04-st2",
+   "chapterId": "cambridge-g8-english-ch04",
+   "order": 2,
+   "name": "Evaluating bias, fact and opinion in media texts",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-english-ch04-st1",
+    "cambridge-g8-english-ch02-st2"
+   ],
+   "prerequisiteNote": "Fact vs opinion (Stage 7-8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-english-ch04-st3",
+   "chapterId": "cambridge-g8-english-ch04",
+   "order": 3,
+   "name": "Structuring a balanced argument with counter-argument",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-english-ch04-st1"
+   ],
+   "prerequisiteNote": "Paragraphing with topic sentences; discourse markers (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-english-ch04-st4",
+   "chapterId": "cambridge-g8-english-ch04",
+   "order": 4,
+   "name": "Formal speech and debate: presenting a point of view",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-english-ch04-st3"
+   ],
+   "prerequisiteNote": "Speaking to an audience; formal register (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-english-ch05-st1",
+   "chapterId": "cambridge-g8-english-ch05",
+   "order": 1,
+   "name": "Conventions of playscripts: stage directions, dialogue and scene structure",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Script layout and the difference between prose and drama (Stage 7-8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-english-ch05-st2",
+   "chapterId": "cambridge-g8-english-ch05",
+   "order": 2,
+   "name": "Exploring character motivation and dramatic tension in a scene",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-english-ch05-st1",
+    "cambridge-g8-english-ch01-st3"
+   ],
+   "prerequisiteNote": "Inference about characters from dialogue (Unit 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-english-ch05-st3",
+   "chapterId": "cambridge-g8-english-ch05",
+   "order": 3,
+   "name": "Writing and performing a short scene",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-english-ch05-st1",
+    "cambridge-g8-english-ch05-st2"
+   ],
+   "prerequisiteNote": "Punctuating and setting out dialogue (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-english-ch06-st1",
+   "chapterId": "cambridge-g8-english-ch06",
+   "order": 1,
+   "name": "Features of autobiography, biography and memoir",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Chronological recount writing (Stage 7-8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-english-ch06-st2",
+   "chapterId": "cambridge-g8-english-ch06",
+   "order": 2,
+   "name": "Analysing how writers present people and events in life writing",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-english-ch06-st1",
+    "cambridge-g8-english-ch01-st3"
+   ],
+   "prerequisiteNote": "Inference about a writer's attitude (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-english-ch06-st3",
+   "chapterId": "cambridge-g8-english-ch06",
+   "order": 3,
+   "name": "Writing a personal recount or memoir with reflection",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-english-ch06-st1"
+   ],
+   "prerequisiteNote": "Past tenses and time connectives; paragraphing (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-english-ch07-st1",
+   "chapterId": "cambridge-g8-english-ch07",
+   "order": 1,
+   "name": "Reading older and pre-twentieth-century fiction: archaic vocabulary and syntax",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-english-ch01-st1"
+   ],
+   "prerequisiteNote": "Using context to work out unfamiliar words (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-english-ch07-st2",
+   "chapterId": "cambridge-g8-english-ch07",
+   "order": 2,
+   "name": "How setting and cultural context shape a story",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-english-ch07-st1"
+   ],
+   "prerequisiteNote": "Identifying setting and time period (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-english-ch07-st3",
+   "chapterId": "cambridge-g8-english-ch07",
+   "order": 3,
+   "name": "Narrative structure: flashback, foreshadowing and cliffhangers",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-english-ch01-st2"
+   ],
+   "prerequisiteNote": "Beginning-middle-end story structure (Stage 7-8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-english-ch07-st4",
+   "chapterId": "cambridge-g8-english-ch07",
+   "order": 4,
+   "name": "Writing a complete short story with a controlled structure",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-english-ch01-st4",
+    "cambridge-g8-english-ch07-st3"
+   ],
+   "prerequisiteNote": "Story opening and characterisation (Unit 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-english-ch08-st1",
+   "chapterId": "cambridge-g8-english-ch08",
+   "order": 1,
+   "name": "Newspaper reports and feature articles: language and layout",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-english-ch02-st1"
+   ],
+   "prerequisiteNote": "Features of non-fiction texts (Unit 2)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-english-ch08-st2",
+   "chapterId": "cambridge-g8-english-ch08",
+   "order": 2,
+   "name": "Analysing how writers use language and structure to influence readers",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-english-ch04-st1",
+    "cambridge-g8-english-ch08-st1"
+   ],
+   "prerequisiteNote": "Persuasive techniques (Unit 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-english-ch08-st3",
+   "chapterId": "cambridge-g8-english-ch08",
+   "order": 3,
+   "name": "Writing a news report or article for a specified audience",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-english-ch08-st1"
+   ],
+   "prerequisiteNote": "Formal register; headline and lead paragraph structure (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-english-ch08-st4",
+   "chapterId": "cambridge-g8-english-ch08",
+   "order": 4,
+   "name": "Group discussion and evaluating spoken presentations",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-english-ch04-st4"
+   ],
+   "prerequisiteNote": "Turn-taking and listening skills (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-english-ch09-st1",
+   "chapterId": "cambridge-g8-english-ch09",
+   "order": 1,
+   "name": "Complex sentences: subordinate clauses and varied sentence openings",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Simple and compound sentences; conjunctions (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-english-ch09-st2",
+   "chapterId": "cambridge-g8-english-ch09",
+   "order": 2,
+   "name": "Punctuation for effect and clarity: semicolons, colons, dashes, brackets",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-english-ch09-st1"
+   ],
+   "prerequisiteNote": "Commas and full stops; speech punctuation (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-english-ch09-st3",
+   "chapterId": "cambridge-g8-english-ch09",
+   "order": 3,
+   "name": "Choosing vocabulary and register for audience and purpose",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-english-ch04-st3"
+   ],
+   "prerequisiteNote": "Formal vs informal language (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-english-ch09-st4",
+   "chapterId": "cambridge-g8-english-ch09",
+   "order": 4,
+   "name": "Spelling strategies: prefixes, suffixes and word families",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Spelling rules and common homophones (Stage 7-8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-english-ch09-st5",
+   "chapterId": "cambridge-g8-english-ch09",
+   "order": 5,
+   "name": "Planning, proofreading and editing extended writing",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-english-ch09-st1",
+    "cambridge-g8-english-ch09-st2"
+   ],
+   "prerequisiteNote": "Planning a piece of writing; paragraph structure (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

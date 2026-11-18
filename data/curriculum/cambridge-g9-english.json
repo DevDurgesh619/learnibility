@@ -1,0 +1,429 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cambridge-g9-english",
+  "board": "cambridge",
+  "grade": 9,
+  "stream": "none",
+  "slug": "english",
+  "name": "English",
+  "programme": "Cambridge IGCSE First Language English 0500 (NEW 2027–29)",
+  "textbook": "CUP Coursebook 6th ed. (11 units)",
+  "examPattern": "Paper 1 Reading 2 h, 80 marks (50%): 4 compulsory questions × 20 (comprehension, summary, language task, extended response). Paper 2 Directed Writing & Composition 2 h, 80 marks (50%): 1 directed writing + 1 composition from 4 titles. Or Component 3 Coursework. Optional Speaking (endorsed 1–5). (ESL 0510 alternative: Reading & Writing 2 h + Listening ~50 min.)",
+  "chapterCount": 6,
+  "questionTarget": 387
+ },
+ "items": [
+  {
+   "id": "cambridge-g9-english-ch01",
+   "subjectId": "cambridge-g9-english",
+   "order": 1,
+   "name": "Reading Skills and Strategies (Coursebook Units 1–6)",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cambridge-g9-english-ch01-st1",
+    "cambridge-g9-english-ch01-st2",
+    "cambridge-g9-english-ch01-st3",
+    "cambridge-g9-english-ch01-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g9-english-ch02",
+   "subjectId": "cambridge-g9-english",
+   "order": 2,
+   "name": "Comprehension (Paper 1 Question 1)",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cambridge-g9-english-ch02-st1",
+    "cambridge-g9-english-ch02-st2",
+    "cambridge-g9-english-ch02-st3",
+    "cambridge-g9-english-ch02-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g9-english-ch03",
+   "subjectId": "cambridge-g9-english",
+   "order": 3,
+   "name": "Summary Writing (Paper 1 Question 2)",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "cambridge-g9-english-ch03-st1",
+    "cambridge-g9-english-ch03-st2",
+    "cambridge-g9-english-ch03-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g9-english-ch04",
+   "subjectId": "cambridge-g9-english",
+   "order": 4,
+   "name": "Writers' Effects (Paper 1 Question 3: Language Task)",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cambridge-g9-english-ch04-st1",
+    "cambridge-g9-english-ch04-st2",
+    "cambridge-g9-english-ch04-st3",
+    "cambridge-g9-english-ch04-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g9-english-ch05",
+   "subjectId": "cambridge-g9-english",
+   "order": 5,
+   "name": "Extended Response to Reading (Paper 1 Question 4)",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cambridge-g9-english-ch05-st1",
+    "cambridge-g9-english-ch05-st2",
+    "cambridge-g9-english-ch05-st3",
+    "cambridge-g9-english-ch05-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g9-english-ch06",
+   "subjectId": "cambridge-g9-english",
+   "order": 6,
+   "name": "Reading Practice and Paper 1 Exam Technique",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "cambridge-g9-english-ch06-st1",
+    "cambridge-g9-english-ch06-st2",
+    "cambridge-g9-english-ch06-st3",
+    "cambridge-g9-english-ch06-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cambridge-g9-english-ch01-st1",
+   "chapterId": "cambridge-g9-english-ch01",
+   "order": 1,
+   "name": "Skimming for gist and scanning for specific detail",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-english-ch02-st2"
+   ],
+   "prerequisiteNote": "Locating information in non-fiction (Stage 9 Unit 2)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-english-ch01-st2",
+   "chapterId": "cambridge-g9-english-ch01",
+   "order": 2,
+   "name": "Identifying audience, purpose and text type",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-english-ch02-st1"
+   ],
+   "prerequisiteNote": "Features and purpose of non-fiction texts (Stage 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-english-ch01-st3",
+   "chapterId": "cambridge-g9-english-ch01",
+   "order": 3,
+   "name": "Working out meaning of unfamiliar vocabulary from context",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-english-ch07-st1"
+   ],
+   "prerequisiteNote": "Word families, prefixes and suffixes (Stage 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-english-ch01-st4",
+   "chapterId": "cambridge-g9-english-ch01",
+   "order": 4,
+   "name": "Annotating and selecting relevant material from a text",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-english-ch01-st1"
+   ],
+   "prerequisiteNote": "Skimming and scanning; underlining key points",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-english-ch02-st1",
+   "chapterId": "cambridge-g9-english-ch02",
+   "order": 1,
+   "name": "Explicit meaning: retrieving facts and details accurately",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-english-ch01-st1"
+   ],
+   "prerequisiteNote": "Scanning for specific detail; reading the question carefully",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-english-ch02-st2",
+   "chapterId": "cambridge-g9-english-ch02",
+   "order": 2,
+   "name": "Implicit meaning: inferring thoughts, feelings and attitudes",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-english-ch02-st1",
+    "cambridge-g8-english-ch01-st1"
+   ],
+   "prerequisiteNote": "Inference from character actions and dialogue (Stage 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-english-ch02-st3",
+   "chapterId": "cambridge-g9-english-ch02",
+   "order": 3,
+   "name": "Explaining words and phrases in own words",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-english-ch01-st3"
+   ],
+   "prerequisiteNote": "Vocabulary in context; synonyms",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-english-ch02-st4",
+   "chapterId": "cambridge-g9-english-ch02",
+   "order": 4,
+   "name": "Answering short-answer questions to mark allocation",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-english-ch02-st1",
+    "cambridge-g9-english-ch02-st2"
+   ],
+   "prerequisiteNote": "Retrieval and inference skills",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-english-ch03-st1",
+   "chapterId": "cambridge-g9-english-ch03",
+   "order": 1,
+   "name": "Selecting relevant points for a summary focus",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-english-ch01-st4"
+   ],
+   "prerequisiteNote": "Annotating and selecting material from a text",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-english-ch03-st2",
+   "chapterId": "cambridge-g9-english-ch03",
+   "order": 2,
+   "name": "Organising and grouping points logically",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-english-ch03-st1"
+   ],
+   "prerequisiteNote": "Paragraph organisation and linking (Stage 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-english-ch03-st3",
+   "chapterId": "cambridge-g9-english-ch03",
+   "order": 3,
+   "name": "Writing concisely in own words within a word limit",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-english-ch03-st2",
+    "cambridge-g9-english-ch02-st3"
+   ],
+   "prerequisiteNote": "Paraphrasing; avoiding lifting and repetition",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-english-ch04-st1",
+   "chapterId": "cambridge-g9-english-ch04",
+   "order": 1,
+   "name": "Selecting powerful words and phrases from a text",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-english-ch01-st4"
+   ],
+   "prerequisiteNote": "Identifying vocabulary choices (Stage 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-english-ch04-st2",
+   "chapterId": "cambridge-g9-english-ch04",
+   "order": 2,
+   "name": "Explaining connotations and effects of vocabulary choices",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-english-ch04-st1",
+    "cambridge-g8-english-ch03-st1"
+   ],
+   "prerequisiteNote": "Imagery: simile, metaphor, personification (Stage 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-english-ch04-st3",
+   "chapterId": "cambridge-g9-english-ch04",
+   "order": 3,
+   "name": "Analysing figurative language, imagery and sound",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-english-ch04-st2"
+   ],
+   "prerequisiteNote": "Literary devices in poetry and prose (Stage 9 Unit 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-english-ch04-st4",
+   "chapterId": "cambridge-g9-english-ch04",
+   "order": 4,
+   "name": "Analysing structure and sentence forms for effect",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-english-ch04-st2",
+    "cambridge-g8-english-ch07-st3"
+   ],
+   "prerequisiteNote": "Narrative structure; sentence types (Stage 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-english-ch05-st1",
+   "chapterId": "cambridge-g9-english-ch05",
+   "order": 1,
+   "name": "Writing in role: letter, speech, journal or report based on a text",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-english-ch02-st2"
+   ],
+   "prerequisiteNote": "Inference and selecting relevant ideas from a passage",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-english-ch05-st2",
+   "chapterId": "cambridge-g9-english-ch05",
+   "order": 2,
+   "name": "Developing and extending ideas from the passage with evidence",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-english-ch05-st1",
+    "cambridge-g9-english-ch02-st2"
+   ],
+   "prerequisiteNote": "Implicit meaning; selecting material",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-english-ch05-st3",
+   "chapterId": "cambridge-g9-english-ch05",
+   "order": 3,
+   "name": "Adapting voice, register and form to the task",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-english-ch05-st1",
+    "cambridge-g8-english-ch09-st3"
+   ],
+   "prerequisiteNote": "Formal and informal register (Stage 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-english-ch05-st4",
+   "chapterId": "cambridge-g9-english-ch05",
+   "order": 4,
+   "name": "Evaluating viewpoints and attitudes in a text",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-english-ch05-st2"
+   ],
+   "prerequisiteNote": "Fact vs opinion and bias (Stage 9 Unit 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-english-ch06-st1",
+   "chapterId": "cambridge-g9-english-ch06",
+   "order": 1,
+   "name": "Timed practice on fiction and literary non-fiction passages",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-english-ch02-st4",
+    "cambridge-g9-english-ch04-st3"
+   ],
+   "prerequisiteNote": "Comprehension and writers' effects skills",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-english-ch06-st2",
+   "chapterId": "cambridge-g9-english-ch06",
+   "order": 2,
+   "name": "Timed practice on non-fiction: articles, reports and blogs",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-english-ch03-st3",
+    "cambridge-g9-english-ch05-st2"
+   ],
+   "prerequisiteNote": "Summary and extended response skills",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-english-ch06-st3",
+   "chapterId": "cambridge-g9-english-ch06",
+   "order": 3,
+   "name": "Planning time and marks across the four Paper 1 questions",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-english-ch06-st1"
+   ],
+   "prerequisiteNote": "Understanding mark schemes and assessment objectives",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-english-ch06-st4",
+   "chapterId": "cambridge-g9-english-ch06",
+   "order": 4,
+   "name": "Self-assessment against R1–R5 reading objectives",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-english-ch06-st3"
+   ],
+   "prerequisiteNote": "Reading assessment objectives (Paper 1)",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

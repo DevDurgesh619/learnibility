@@ -1,0 +1,405 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cambridge-g10-english",
+  "board": "cambridge",
+  "grade": 10,
+  "stream": "none",
+  "slug": "english",
+  "name": "English",
+  "programme": "Cambridge IGCSE First Language English 0500 (NEW 2027–29)",
+  "textbook": "CUP Coursebook 6th ed. (11 units)",
+  "examPattern": "Paper 1 Reading 2 h, 80 marks (50%): 4 compulsory questions × 20 (comprehension, summary, language task, extended response). Paper 2 Directed Writing & Composition 2 h, 80 marks (50%): 1 directed writing + 1 composition from 4 titles. Or Component 3 Coursework. Optional Speaking (endorsed 1–5). (ESL 0510 alternative: Reading & Writing 2 h + Listening ~50 min.)",
+  "chapterCount": 5,
+  "questionTarget": 354
+ },
+ "items": [
+  {
+   "id": "cambridge-g10-english-ch01",
+   "subjectId": "cambridge-g10-english",
+   "order": 1,
+   "name": "Writing Skills (Coursebook Units 7–11)",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cambridge-g10-english-ch01-st1",
+    "cambridge-g10-english-ch01-st2",
+    "cambridge-g10-english-ch01-st3",
+    "cambridge-g10-english-ch01-st4",
+    "cambridge-g10-english-ch01-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g10-english-ch02",
+   "subjectId": "cambridge-g10-english",
+   "order": 2,
+   "name": "Directed Writing (Paper 2 Section A)",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cambridge-g10-english-ch02-st1",
+    "cambridge-g10-english-ch02-st2",
+    "cambridge-g10-english-ch02-st3",
+    "cambridge-g10-english-ch02-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g10-english-ch03",
+   "subjectId": "cambridge-g10-english",
+   "order": 3,
+   "name": "Descriptive Writing (Composition)",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "cambridge-g10-english-ch03-st1",
+    "cambridge-g10-english-ch03-st2",
+    "cambridge-g10-english-ch03-st3",
+    "cambridge-g10-english-ch03-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g10-english-ch04",
+   "subjectId": "cambridge-g10-english",
+   "order": 4,
+   "name": "Narrative Writing (Composition)",
+   "teachingPeriods": 15,
+   "subtopicIds": [
+    "cambridge-g10-english-ch04-st1",
+    "cambridge-g10-english-ch04-st2",
+    "cambridge-g10-english-ch04-st3",
+    "cambridge-g10-english-ch04-st4",
+    "cambridge-g10-english-ch04-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g10-english-ch05",
+   "subjectId": "cambridge-g10-english",
+   "order": 5,
+   "name": "Argumentative and Discursive Composition",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cambridge-g10-english-ch05-st1",
+    "cambridge-g10-english-ch05-st2",
+    "cambridge-g10-english-ch05-st3",
+    "cambridge-g10-english-ch05-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cambridge-g10-english-ch01-st1",
+   "chapterId": "cambridge-g10-english-ch01",
+   "order": 1,
+   "name": "Writing objectives W1–W5: ideas, organisation, vocabulary and accuracy",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-english-ch06-st4"
+   ],
+   "prerequisiteNote": "Reading assessment objectives; planning extended writing (Stage 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-english-ch01-st2",
+   "chapterId": "cambridge-g10-english-ch01",
+   "order": 2,
+   "name": "Varying sentence structures for effect",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-english-ch09-st1"
+   ],
+   "prerequisiteNote": "Complex sentences and subordinate clauses (Stage 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-english-ch01-st3",
+   "chapterId": "cambridge-g10-english-ch01",
+   "order": 3,
+   "name": "Precise and ambitious vocabulary; register for audience",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-english-ch05-st3"
+   ],
+   "prerequisiteNote": "Register and audience (IGCSE reading Unit 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-english-ch01-st4",
+   "chapterId": "cambridge-g10-english-ch01",
+   "order": 4,
+   "name": "Spelling, punctuation and grammar accuracy",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-english-ch09-st2"
+   ],
+   "prerequisiteNote": "Punctuation for clarity (Stage 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-english-ch01-st5",
+   "chapterId": "cambridge-g10-english-ch01",
+   "order": 5,
+   "name": "Planning, paragraphing and cohesion in extended writing",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-english-ch01-st1"
+   ],
+   "prerequisiteNote": "Paragraphing and discourse markers (Stage 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-english-ch02-st1",
+   "chapterId": "cambridge-g10-english-ch02",
+   "order": 1,
+   "name": "Reading and evaluating ideas from two texts",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-english-ch05-st4",
+    "cambridge-g9-english-ch03-st1"
+   ],
+   "prerequisiteNote": "Evaluating viewpoints; selecting relevant points (IGCSE Grade 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-english-ch02-st2",
+   "chapterId": "cambridge-g10-english-ch02",
+   "order": 2,
+   "name": "Writing an argument, speech or letter from source material",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-english-ch02-st1",
+    "cambridge-g10-english-ch01-st5"
+   ],
+   "prerequisiteNote": "Extended response to reading (IGCSE Grade 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-english-ch02-st3",
+   "chapterId": "cambridge-g10-english-ch02",
+   "order": 3,
+   "name": "Using appropriate form, voice and register for the task",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g10-english-ch02-st2",
+    "cambridge-g10-english-ch01-st3"
+   ],
+   "prerequisiteNote": "Writing in role (IGCSE Grade 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-english-ch02-st4",
+   "chapterId": "cambridge-g10-english-ch02",
+   "order": 4,
+   "name": "Developing a sustained, critical response with own judgement",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g10-english-ch02-st1"
+   ],
+   "prerequisiteNote": "Evaluating bias and opinion (Stage 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-english-ch03-st1",
+   "chapterId": "cambridge-g10-english-ch03",
+   "order": 1,
+   "name": "Creating atmosphere and a sense of place",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-english-ch04-st3"
+   ],
+   "prerequisiteNote": "Imagery and figurative language (IGCSE Grade 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-english-ch03-st2",
+   "chapterId": "cambridge-g10-english-ch03",
+   "order": 2,
+   "name": "Using sensory detail, imagery and zoom-in focus",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-english-ch03-st1"
+   ],
+   "prerequisiteNote": "Similes, metaphors and the five senses",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-english-ch03-st3",
+   "chapterId": "cambridge-g10-english-ch03",
+   "order": 3,
+   "name": "Structuring description without narrative: moments in time",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g10-english-ch03-st2",
+    "cambridge-g10-english-ch01-st5"
+   ],
+   "prerequisiteNote": "Paragraph cohesion in descriptive writing",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-english-ch03-st4",
+   "chapterId": "cambridge-g10-english-ch03",
+   "order": 4,
+   "name": "Avoiding cliché and overwriting",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-english-ch03-st2"
+   ],
+   "prerequisiteNote": "Precise vocabulary choices",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-english-ch04-st1",
+   "chapterId": "cambridge-g10-english-ch04",
+   "order": 1,
+   "name": "Planning plot and structure: openings, climax and resolution",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-english-ch07-st3",
+    "cambridge-g10-english-ch01-st5"
+   ],
+   "prerequisiteNote": "Narrative structure: flashback, foreshadowing (Stage 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-english-ch04-st2",
+   "chapterId": "cambridge-g10-english-ch04",
+   "order": 2,
+   "name": "Developing convincing characters and narrative voice",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-english-ch01-st2"
+   ],
+   "prerequisiteNote": "Narrative viewpoint and characterisation (Stage 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-english-ch04-st3",
+   "chapterId": "cambridge-g10-english-ch04",
+   "order": 3,
+   "name": "Building tension, pace and suspense",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g10-english-ch04-st1",
+    "cambridge-g10-english-ch01-st2"
+   ],
+   "prerequisiteNote": "Sentence variety for effect",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-english-ch04-st4",
+   "chapterId": "cambridge-g10-english-ch04",
+   "order": 4,
+   "name": "Writing effective dialogue within narrative",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g10-english-ch04-st2",
+    "cambridge-g10-english-ch01-st4"
+   ],
+   "prerequisiteNote": "Speech punctuation and layout",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-english-ch04-st5",
+   "chapterId": "cambridge-g10-english-ch04",
+   "order": 5,
+   "name": "Crafting endings with impact",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-english-ch04-st1"
+   ],
+   "prerequisiteNote": "Story structure and resolution",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-english-ch05-st1",
+   "chapterId": "cambridge-g10-english-ch05",
+   "order": 1,
+   "name": "Argumentative vs discursive writing: purpose and stance",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g10-english-ch02-st4"
+   ],
+   "prerequisiteNote": "Persuasive techniques and balanced argument (Stage 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-english-ch05-st2",
+   "chapterId": "cambridge-g10-english-ch05",
+   "order": 2,
+   "name": "Building a persuasive argument with evidence and rhetorical devices",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-english-ch05-st1",
+    "cambridge-g8-english-ch04-st1"
+   ],
+   "prerequisiteNote": "Rhetorical questions, emotive language, rule of three (Stage 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-english-ch05-st3",
+   "chapterId": "cambridge-g10-english-ch05",
+   "order": 3,
+   "name": "Writing a balanced discursive essay weighing both sides",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-english-ch05-st1",
+    "cambridge-g10-english-ch01-st5"
+   ],
+   "prerequisiteNote": "Counter-argument structure (Stage 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-english-ch05-st4",
+   "chapterId": "cambridge-g10-english-ch05",
+   "order": 4,
+   "name": "Counter-argument, rebuttal and persuasive conclusions",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g10-english-ch05-st2"
+   ],
+   "prerequisiteNote": "Structuring paragraphs with topic sentences",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

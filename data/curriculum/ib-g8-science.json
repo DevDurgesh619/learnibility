@@ -1,0 +1,958 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "ib-g8-science",
+  "board": "ib",
+  "grade": 8,
+  "stream": "none",
+  "slug": "science",
+  "name": "Sciences",
+  "programme": "IB MYP 3 Sciences (integrated; Biology / Chemistry / Physics options in MYP 5)",
+  "examPattern": "MYP 3: no external exam – school-designed summative tasks assessed on criteria A–D (each 0–8, total /32 → grade 1–7); every criterion assessed ≥2× per year. Mock papers here mirror the MYP 5 eAssessment format so students practise it early. Mock: 3-task paper in MYP 5 Sciences eAssessment style (~20 items).",
+  "chapterCount": 12,
+  "questionTarget": 1140
+ },
+ "items": [
+  {
+   "id": "ib-g8-science-ch01",
+   "subjectId": "ib-g8-science",
+   "order": 1,
+   "name": "Scientific Investigation and Laboratory Skills",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g8-science-ch01-st1",
+    "ib-g8-science-ch01-st2",
+    "ib-g8-science-ch01-st3",
+    "ib-g8-science-ch01-st4",
+    "ib-g8-science-ch01-st5"
+   ]
+  },
+  {
+   "id": "ib-g8-science-ch02",
+   "subjectId": "ib-g8-science",
+   "order": 2,
+   "name": "Cells: Structure and Organisation",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "ib-g8-science-ch02-st1",
+    "ib-g8-science-ch02-st2",
+    "ib-g8-science-ch02-st3",
+    "ib-g8-science-ch02-st4",
+    "ib-g8-science-ch02-st5"
+   ]
+  },
+  {
+   "id": "ib-g8-science-ch03",
+   "subjectId": "ib-g8-science",
+   "order": 3,
+   "name": "Human Body Systems: Digestion and Nutrition",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "ib-g8-science-ch03-st1",
+    "ib-g8-science-ch03-st2",
+    "ib-g8-science-ch03-st3",
+    "ib-g8-science-ch03-st4"
+   ]
+  },
+  {
+   "id": "ib-g8-science-ch04",
+   "subjectId": "ib-g8-science",
+   "order": 4,
+   "name": "Human Body Systems: Circulation and Respiration",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g8-science-ch04-st1",
+    "ib-g8-science-ch04-st2",
+    "ib-g8-science-ch04-st3",
+    "ib-g8-science-ch04-st4"
+   ]
+  },
+  {
+   "id": "ib-g8-science-ch05",
+   "subjectId": "ib-g8-science",
+   "order": 5,
+   "name": "Ecosystems and Food Webs",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g8-science-ch05-st1",
+    "ib-g8-science-ch05-st2",
+    "ib-g8-science-ch05-st3",
+    "ib-g8-science-ch05-st4",
+    "ib-g8-science-ch05-st5"
+   ]
+  },
+  {
+   "id": "ib-g8-science-ch06",
+   "subjectId": "ib-g8-science",
+   "order": 6,
+   "name": "Particles and States of Matter",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "ib-g8-science-ch06-st1",
+    "ib-g8-science-ch06-st2",
+    "ib-g8-science-ch06-st3",
+    "ib-g8-science-ch06-st4"
+   ]
+  },
+  {
+   "id": "ib-g8-science-ch07",
+   "subjectId": "ib-g8-science",
+   "order": 7,
+   "name": "Elements, Compounds and Mixtures",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "ib-g8-science-ch07-st1",
+    "ib-g8-science-ch07-st2",
+    "ib-g8-science-ch07-st3",
+    "ib-g8-science-ch07-st4",
+    "ib-g8-science-ch07-st5"
+   ]
+  },
+  {
+   "id": "ib-g8-science-ch08",
+   "subjectId": "ib-g8-science",
+   "order": 8,
+   "name": "Chemical Reactions",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g8-science-ch08-st1",
+    "ib-g8-science-ch08-st2",
+    "ib-g8-science-ch08-st3",
+    "ib-g8-science-ch08-st4",
+    "ib-g8-science-ch08-st5"
+   ]
+  },
+  {
+   "id": "ib-g8-science-ch09",
+   "subjectId": "ib-g8-science",
+   "order": 9,
+   "name": "Acids, Alkalis and Neutralisation",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "ib-g8-science-ch09-st1",
+    "ib-g8-science-ch09-st2",
+    "ib-g8-science-ch09-st3",
+    "ib-g8-science-ch09-st4"
+   ]
+  },
+  {
+   "id": "ib-g8-science-ch10",
+   "subjectId": "ib-g8-science",
+   "order": 10,
+   "name": "Forces and Motion",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "ib-g8-science-ch10-st1",
+    "ib-g8-science-ch10-st2",
+    "ib-g8-science-ch10-st3",
+    "ib-g8-science-ch10-st4",
+    "ib-g8-science-ch10-st5"
+   ]
+  },
+  {
+   "id": "ib-g8-science-ch11",
+   "subjectId": "ib-g8-science",
+   "order": 11,
+   "name": "Energy: Stores and Transfers",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g8-science-ch11-st1",
+    "ib-g8-science-ch11-st2",
+    "ib-g8-science-ch11-st3",
+    "ib-g8-science-ch11-st4"
+   ]
+  },
+  {
+   "id": "ib-g8-science-ch12",
+   "subjectId": "ib-g8-science",
+   "order": 12,
+   "name": "Electricity and Circuits",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "ib-g8-science-ch12-st1",
+    "ib-g8-science-ch12-st2",
+    "ib-g8-science-ch12-st3",
+    "ib-g8-science-ch12-st4",
+    "ib-g8-science-ch12-st5"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "ib-g8-science-ch01-st1",
+   "chapterId": "ib-g8-science-ch01",
+   "order": 1,
+   "name": "Asking a testable question and writing a hypothesis",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Cause and effect in everyday observations (MYP 2)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch01-st2",
+   "chapterId": "ib-g8-science-ch01",
+   "order": 2,
+   "name": "Variables: independent, dependent and controlled",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-science-ch01-st1"
+   ],
+   "prerequisiteNote": "Testable questions and hypotheses",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch01-st3",
+   "chapterId": "ib-g8-science-ch01",
+   "order": 3,
+   "name": "Laboratory safety, apparatus and measuring with SI units",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Reading scales; metric units (MYP 2 maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch01-st4",
+   "chapterId": "ib-g8-science-ch01",
+   "order": 4,
+   "name": "Recording data in tables, drawing graphs and drawing conclusions",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-science-ch01-st2",
+    "ib-g8-maths-ch06-st2",
+    "ib-g8-maths-ch11-st3"
+   ],
+   "prerequisiteNote": "Plotting coordinates; mean of repeat readings (MYP 3 maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch01-st5",
+   "chapterId": "ib-g8-science-ch01",
+   "order": 5,
+   "name": "Evaluating a method: reliability, validity and improvements",
+   "weight": "L",
+   "teachingPeriods": 1,
+   "prerequisiteIds": [
+    "ib-g8-science-ch01-st2"
+   ],
+   "prerequisiteNote": "Variables and fair testing",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch02-st1",
+   "chapterId": "ib-g8-science-ch02",
+   "order": 1,
+   "name": "Characteristics of living things (MRS GREN)",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Living and non-living things (MYP 2)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch02-st2",
+   "chapterId": "ib-g8-science-ch02",
+   "order": 2,
+   "name": "Plant and animal cell structure and functions of organelles",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-science-ch02-st1"
+   ],
+   "prerequisiteNote": "Characteristics of living things; using a microscope",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch02-st3",
+   "chapterId": "ib-g8-science-ch02",
+   "order": 3,
+   "name": "Using a light microscope and calculating magnification",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-maths-ch02-st4"
+   ],
+   "prerequisiteNote": "Multiplication and division of decimals; standard form",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch02-st4",
+   "chapterId": "ib-g8-science-ch02",
+   "order": 4,
+   "name": "Specialised cells and levels of organisation: cell, tissue, organ, system",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-science-ch02-st2"
+   ],
+   "prerequisiteNote": "Plant and animal cell structure",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch02-st5",
+   "chapterId": "ib-g8-science-ch02",
+   "order": 5,
+   "name": "Diffusion and osmosis across cell membranes",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-science-ch02-st2"
+   ],
+   "prerequisiteNote": "Particle movement; cell membrane function",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch03-st1",
+   "chapterId": "ib-g8-science-ch03",
+   "order": 1,
+   "name": "Nutrients and a balanced diet",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Food groups (MYP 2)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch03-st2",
+   "chapterId": "ib-g8-science-ch03",
+   "order": 2,
+   "name": "The digestive system: organs and their functions",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-science-ch02-st4"
+   ],
+   "prerequisiteNote": "Levels of organisation in organisms",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch03-st3",
+   "chapterId": "ib-g8-science-ch03",
+   "order": 3,
+   "name": "Enzymes in digestion and factors affecting them",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-science-ch03-st2",
+    "ib-g8-science-ch01-st2"
+   ],
+   "prerequisiteNote": "Digestive system; variables in an investigation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch03-st4",
+   "chapterId": "ib-g8-science-ch03",
+   "order": 4,
+   "name": "Food tests and energy content of foods",
+   "weight": "L",
+   "teachingPeriods": 1,
+   "prerequisiteIds": [
+    "ib-g8-science-ch03-st1",
+    "ib-g8-science-ch01-st3"
+   ],
+   "prerequisiteNote": "Laboratory safety; nutrients",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch04-st1",
+   "chapterId": "ib-g8-science-ch04",
+   "order": 1,
+   "name": "The heart, blood vessels and double circulation",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-science-ch02-st4",
+    "ib-g8-science-ch02-st5"
+   ],
+   "prerequisiteNote": "Organ systems; diffusion",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch04-st2",
+   "chapterId": "ib-g8-science-ch04",
+   "order": 2,
+   "name": "Components of blood and their functions",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-science-ch04-st1"
+   ],
+   "prerequisiteNote": "The heart and circulation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch04-st3",
+   "chapterId": "ib-g8-science-ch04",
+   "order": 3,
+   "name": "Gas exchange in the lungs and breathing",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-science-ch02-st5",
+    "ib-g8-science-ch04-st1"
+   ],
+   "prerequisiteNote": "Diffusion; circulatory system",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch04-st4",
+   "chapterId": "ib-g8-science-ch04",
+   "order": 4,
+   "name": "Aerobic and anaerobic respiration",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-science-ch04-st3",
+    "ib-g8-science-ch03-st1"
+   ],
+   "prerequisiteNote": "Gas exchange; nutrients as energy source",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch05-st1",
+   "chapterId": "ib-g8-science-ch05",
+   "order": 1,
+   "name": "Habitats, populations and communities",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Living things and their environment (MYP 2)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch05-st2",
+   "chapterId": "ib-g8-science-ch05",
+   "order": 2,
+   "name": "Food chains, food webs and energy transfer",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-science-ch05-st1",
+    "ib-g8-science-ch04-st4"
+   ],
+   "prerequisiteNote": "Producers and consumers; respiration",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch05-st3",
+   "chapterId": "ib-g8-science-ch05",
+   "order": 3,
+   "name": "Photosynthesis as the basis of food chains",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-science-ch02-st2"
+   ],
+   "prerequisiteNote": "Plant cell organelles (chloroplasts)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch05-st4",
+   "chapterId": "ib-g8-science-ch05",
+   "order": 4,
+   "name": "Adaptation, interdependence and human impact on ecosystems",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-science-ch05-st2"
+   ],
+   "prerequisiteNote": "Food webs; habitats",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch05-st5",
+   "chapterId": "ib-g8-science-ch05",
+   "order": 5,
+   "name": "Sampling organisms with quadrats and transects",
+   "weight": "L",
+   "teachingPeriods": 1,
+   "prerequisiteIds": [
+    "ib-g8-science-ch05-st1",
+    "ib-g8-maths-ch11-st3"
+   ],
+   "prerequisiteNote": "Mean and estimation from samples (MYP 3 maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch06-st1",
+   "chapterId": "ib-g8-science-ch06",
+   "order": 1,
+   "name": "Particle model of solids, liquids and gases",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Properties of materials (MYP 2)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch06-st2",
+   "chapterId": "ib-g8-science-ch06",
+   "order": 2,
+   "name": "Changes of state: melting, boiling, evaporation, condensation",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-science-ch06-st1"
+   ],
+   "prerequisiteNote": "Particle model",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch06-st3",
+   "chapterId": "ib-g8-science-ch06",
+   "order": 3,
+   "name": "Heating and cooling curves",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-science-ch06-st2",
+    "ib-g8-science-ch01-st4"
+   ],
+   "prerequisiteNote": "Changes of state; plotting line graphs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch06-st4",
+   "chapterId": "ib-g8-science-ch06",
+   "order": 4,
+   "name": "Diffusion, gas pressure and density in terms of particles",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-science-ch06-st1"
+   ],
+   "prerequisiteNote": "Particle model; division with decimals",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch07-st1",
+   "chapterId": "ib-g8-science-ch07",
+   "order": 1,
+   "name": "Atoms, elements and chemical symbols",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-science-ch06-st1"
+   ],
+   "prerequisiteNote": "Particle model of matter",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch07-st2",
+   "chapterId": "ib-g8-science-ch07",
+   "order": 2,
+   "name": "Introduction to the periodic table: metals and non-metals",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-science-ch07-st1"
+   ],
+   "prerequisiteNote": "Elements and symbols",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch07-st3",
+   "chapterId": "ib-g8-science-ch07",
+   "order": 3,
+   "name": "Compounds, simple formulae and word equations",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-science-ch07-st1"
+   ],
+   "prerequisiteNote": "Elements and symbols",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch07-st4",
+   "chapterId": "ib-g8-science-ch07",
+   "order": 4,
+   "name": "Mixtures and separation techniques: filtration, evaporation, distillation, chromatography",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-science-ch06-st2"
+   ],
+   "prerequisiteNote": "Particle model; changes of state",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch07-st5",
+   "chapterId": "ib-g8-science-ch07",
+   "order": 5,
+   "name": "Solutions, solubility and dissolving",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-science-ch07-st4"
+   ],
+   "prerequisiteNote": "Mixtures; particle model",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch08-st1",
+   "chapterId": "ib-g8-science-ch08",
+   "order": 1,
+   "name": "Physical versus chemical changes and signs of a reaction",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-science-ch06-st2",
+    "ib-g8-science-ch07-st3"
+   ],
+   "prerequisiteNote": "Changes of state; compounds",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch08-st2",
+   "chapterId": "ib-g8-science-ch08",
+   "order": 2,
+   "name": "Conservation of mass and word equations",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-science-ch07-st3"
+   ],
+   "prerequisiteNote": "Compounds and word equations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch08-st3",
+   "chapterId": "ib-g8-science-ch08",
+   "order": 3,
+   "name": "Combustion, oxidation and thermal decomposition",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-science-ch08-st1"
+   ],
+   "prerequisiteNote": "Signs of a chemical reaction",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch08-st4",
+   "chapterId": "ib-g8-science-ch08",
+   "order": 4,
+   "name": "Exothermic and endothermic reactions",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-science-ch08-st1",
+    "ib-g8-science-ch01-st3"
+   ],
+   "prerequisiteNote": "Chemical change; measuring temperature",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch08-st5",
+   "chapterId": "ib-g8-science-ch08",
+   "order": 5,
+   "name": "Reactions of metals with oxygen, water and acids",
+   "weight": "L",
+   "teachingPeriods": 1,
+   "prerequisiteIds": [
+    "ib-g8-science-ch07-st2"
+   ],
+   "prerequisiteNote": "Metals in the periodic table",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch09-st1",
+   "chapterId": "ib-g8-science-ch09",
+   "order": 1,
+   "name": "Acids and alkalis in everyday life and hazard symbols",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-science-ch01-st3"
+   ],
+   "prerequisiteNote": "Laboratory safety",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch09-st2",
+   "chapterId": "ib-g8-science-ch09",
+   "order": 2,
+   "name": "Indicators and the pH scale",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-science-ch09-st1"
+   ],
+   "prerequisiteNote": "Acids and alkalis",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch09-st3",
+   "chapterId": "ib-g8-science-ch09",
+   "order": 3,
+   "name": "Neutralisation reactions and salts",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-science-ch09-st2",
+    "ib-g8-science-ch08-st2"
+   ],
+   "prerequisiteNote": "pH scale; word equations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch09-st4",
+   "chapterId": "ib-g8-science-ch09",
+   "order": 4,
+   "name": "Acid rain and uses of neutralisation",
+   "weight": "L",
+   "teachingPeriods": 1,
+   "prerequisiteIds": [
+    "ib-g8-science-ch09-st3",
+    "ib-g8-science-ch08-st3"
+   ],
+   "prerequisiteNote": "Neutralisation; combustion of fuels",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch10-st1",
+   "chapterId": "ib-g8-science-ch10",
+   "order": 1,
+   "name": "Types of force, force diagrams and newtons",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Pushes and pulls (MYP 2)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch10-st2",
+   "chapterId": "ib-g8-science-ch10",
+   "order": 2,
+   "name": "Speed, distance-time graphs and calculating speed",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-maths-ch04-st4",
+    "ib-g8-maths-ch06-st4"
+   ],
+   "prerequisiteNote": "Rearranging formulae; gradient (MYP 3 maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch10-st3",
+   "chapterId": "ib-g8-science-ch10",
+   "order": 3,
+   "name": "Balanced and unbalanced forces and resultant force",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-science-ch10-st1"
+   ],
+   "prerequisiteNote": "Force diagrams",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch10-st4",
+   "chapterId": "ib-g8-science-ch10",
+   "order": 4,
+   "name": "Mass, weight and gravitational field strength",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-science-ch10-st1"
+   ],
+   "prerequisiteNote": "Types of force; multiplication with decimals",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch10-st5",
+   "chapterId": "ib-g8-science-ch10",
+   "order": 5,
+   "name": "Pressure in solids and liquids; moments",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-science-ch10-st3",
+    "ib-g8-maths-ch09-st1"
+   ],
+   "prerequisiteNote": "Forces; area of shapes (MYP 3 maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch11-st1",
+   "chapterId": "ib-g8-science-ch11",
+   "order": 1,
+   "name": "Energy stores and transfer pathways",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Forms of energy (MYP 2)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch11-st2",
+   "chapterId": "ib-g8-science-ch11",
+   "order": 2,
+   "name": "Conservation of energy and efficiency",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-science-ch11-st1",
+    "ib-g8-maths-ch03-st1"
+   ],
+   "prerequisiteNote": "Energy stores and transfers; percentages",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch11-st3",
+   "chapterId": "ib-g8-science-ch11",
+   "order": 3,
+   "name": "Thermal energy transfer: conduction, convection and radiation",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-science-ch06-st1",
+    "ib-g8-science-ch11-st1"
+   ],
+   "prerequisiteNote": "Particle model",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch11-st4",
+   "chapterId": "ib-g8-science-ch11",
+   "order": 4,
+   "name": "Renewable and non-renewable energy resources",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-science-ch11-st1",
+    "ib-g8-science-ch08-st3"
+   ],
+   "prerequisiteNote": "Energy stores; combustion",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch12-st1",
+   "chapterId": "ib-g8-science-ch12",
+   "order": 1,
+   "name": "Circuit symbols, series and parallel circuits",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-science-ch11-st1"
+   ],
+   "prerequisiteNote": "Energy transfer pathways",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch12-st2",
+   "chapterId": "ib-g8-science-ch12",
+   "order": 2,
+   "name": "Current and potential difference: measuring with ammeters and voltmeters",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-science-ch12-st1"
+   ],
+   "prerequisiteNote": "Circuit symbols and series/parallel",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch12-st3",
+   "chapterId": "ib-g8-science-ch12",
+   "order": 3,
+   "name": "Resistance and Ohm's law",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-science-ch12-st2",
+    "ib-g8-maths-ch04-st4"
+   ],
+   "prerequisiteNote": "Current and potential difference; rearranging formulae",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch12-st4",
+   "chapterId": "ib-g8-science-ch12",
+   "order": 4,
+   "name": "Electrical power, energy and safety in the home",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-science-ch12-st3",
+    "ib-g8-science-ch11-st2"
+   ],
+   "prerequisiteNote": "Ohm's law; energy transfers",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-science-ch12-st5",
+   "chapterId": "ib-g8-science-ch12",
+   "order": 5,
+   "name": "Static electricity and magnets",
+   "weight": "L",
+   "teachingPeriods": 1,
+   "prerequisiteIds": [
+    "ib-g8-science-ch10-st1"
+   ],
+   "prerequisiteNote": "Forces acting at a distance",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

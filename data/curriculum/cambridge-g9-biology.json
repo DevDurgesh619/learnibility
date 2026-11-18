@@ -1,0 +1,671 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cambridge-g9-biology",
+  "board": "cambridge",
+  "grade": 9,
+  "stream": "none",
+  "slug": "biology",
+  "name": "Biology",
+  "programme": "Cambridge IGCSE Biology 0610 (2026–28)",
+  "textbook": "CUP Coursebook (20 chapters)",
+  "examPattern": "Extended: Paper 2 MCQ 45 min, 40 questions + Paper 4 Theory 1 h 15, 80 marks (~6–8 structured) + Paper 6 ATP 1 h, 40 marks (or P5 Practical). Weights 30/50/20. Grades A*–G.",
+  "chapterCount": 10,
+  "questionTarget": 1006
+ },
+ "items": [
+  {
+   "id": "cambridge-g9-biology-ch01",
+   "subjectId": "cambridge-g9-biology",
+   "order": 1,
+   "name": "Characteristics and Classification of Living Organisms",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "cambridge-g9-biology-ch01-st1",
+    "cambridge-g9-biology-ch01-st2",
+    "cambridge-g9-biology-ch01-st3",
+    "cambridge-g9-biology-ch01-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g9-biology-ch02",
+   "subjectId": "cambridge-g9-biology",
+   "order": 2,
+   "name": "Organisation of the Organism",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "cambridge-g9-biology-ch02-st1",
+    "cambridge-g9-biology-ch02-st2",
+    "cambridge-g9-biology-ch02-st3",
+    "cambridge-g9-biology-ch02-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g9-biology-ch03",
+   "subjectId": "cambridge-g9-biology",
+   "order": 3,
+   "name": "Movement into and out of Cells",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "cambridge-g9-biology-ch03-st1",
+    "cambridge-g9-biology-ch03-st2",
+    "cambridge-g9-biology-ch03-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g9-biology-ch04",
+   "subjectId": "cambridge-g9-biology",
+   "order": 4,
+   "name": "Biological Molecules",
+   "teachingPeriods": 7,
+   "subtopicIds": [
+    "cambridge-g9-biology-ch04-st1",
+    "cambridge-g9-biology-ch04-st2",
+    "cambridge-g9-biology-ch04-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g9-biology-ch05",
+   "subjectId": "cambridge-g9-biology",
+   "order": 5,
+   "name": "Enzymes",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "cambridge-g9-biology-ch05-st1",
+    "cambridge-g9-biology-ch05-st2",
+    "cambridge-g9-biology-ch05-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g9-biology-ch06",
+   "subjectId": "cambridge-g9-biology",
+   "order": 6,
+   "name": "Plant Nutrition",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "cambridge-g9-biology-ch06-st1",
+    "cambridge-g9-biology-ch06-st2",
+    "cambridge-g9-biology-ch06-st3",
+    "cambridge-g9-biology-ch06-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g9-biology-ch07",
+   "subjectId": "cambridge-g9-biology",
+   "order": 7,
+   "name": "Human Nutrition",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cambridge-g9-biology-ch07-st1",
+    "cambridge-g9-biology-ch07-st2",
+    "cambridge-g9-biology-ch07-st3",
+    "cambridge-g9-biology-ch07-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g9-biology-ch08",
+   "subjectId": "cambridge-g9-biology",
+   "order": 8,
+   "name": "Transport in Plants",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cambridge-g9-biology-ch08-st1",
+    "cambridge-g9-biology-ch08-st2",
+    "cambridge-g9-biology-ch08-st3",
+    "cambridge-g9-biology-ch08-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g9-biology-ch09",
+   "subjectId": "cambridge-g9-biology",
+   "order": 9,
+   "name": "Transport in Animals",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cambridge-g9-biology-ch09-st1",
+    "cambridge-g9-biology-ch09-st2",
+    "cambridge-g9-biology-ch09-st3",
+    "cambridge-g9-biology-ch09-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g9-biology-ch10",
+   "subjectId": "cambridge-g9-biology",
+   "order": 10,
+   "name": "Diseases and Immunity",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cambridge-g9-biology-ch10-st1",
+    "cambridge-g9-biology-ch10-st2",
+    "cambridge-g9-biology-ch10-st3",
+    "cambridge-g9-biology-ch10-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cambridge-g9-biology-ch01-st1",
+   "chapterId": "cambridge-g9-biology-ch01",
+   "order": 1,
+   "name": "Characteristics of living organisms (MRS GREN)",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Life processes of living things (Lower Secondary Science Stage 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch01-st2",
+   "chapterId": "cambridge-g9-biology-ch01",
+   "order": 2,
+   "name": "Binomial system and classification by shared features; using dichotomous keys",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch01-st1"
+   ],
+   "prerequisiteNote": "Characteristics of living organisms; sorting and grouping organisms (Lower Secondary Stage 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch01-st3",
+   "chapterId": "cambridge-g9-biology-ch01",
+   "order": 3,
+   "name": "Kingdoms and main groups: vertebrates, arthropods, plants (ferns, flowering plants)",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch01-st2"
+   ],
+   "prerequisiteNote": "Binomial system and classification; vertebrate and invertebrate groups (Lower Secondary)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch01-st4",
+   "chapterId": "cambridge-g9-biology-ch01",
+   "order": 4,
+   "name": "Classification using DNA base sequences; features of the five kingdoms and viruses",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch01-st2",
+    "cambridge-g9-biology-ch01-st3"
+   ],
+   "prerequisiteNote": "Kingdoms and main groups; DNA as genetic material (Lower Secondary Stage 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch02-st1",
+   "chapterId": "cambridge-g9-biology-ch02",
+   "order": 1,
+   "name": "Structure of animal, plant and bacterial cells and functions of their parts",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Plant and animal cells under the light microscope (Lower Secondary Science Stage 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch02-st2",
+   "chapterId": "cambridge-g9-biology-ch02",
+   "order": 2,
+   "name": "Specialised cells, tissues, organs and organ systems",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch02-st1"
+   ],
+   "prerequisiteNote": "Cell structure; organs and organ systems (Lower Secondary Stage 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch02-st3",
+   "chapterId": "cambridge-g9-biology-ch02",
+   "order": 3,
+   "name": "Magnification calculations and converting between mm and μm",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch02-st1"
+   ],
+   "prerequisiteNote": "Using a microscope; unit conversion and rearranging formulae (maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch02-st4",
+   "chapterId": "cambridge-g9-biology-ch02",
+   "order": 4,
+   "name": "New cells produced by division of existing cells; cell structures seen in electron micrographs",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch02-st1"
+   ],
+   "prerequisiteNote": "Cell structure; mitochondria and ribosomes as organelles",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch03-st1",
+   "chapterId": "cambridge-g9-biology-ch03",
+   "order": 1,
+   "name": "Diffusion: net movement of particles down a concentration gradient and factors affecting rate",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch02-st1"
+   ],
+   "prerequisiteNote": "Particle movement in liquids and gases (Lower Secondary Stage 8); cell membrane",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch03-st2",
+   "chapterId": "cambridge-g9-biology-ch03",
+   "order": 2,
+   "name": "Osmosis: water potential and effects on plant and animal cells (turgor, plasmolysis, lysis)",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch03-st1"
+   ],
+   "prerequisiteNote": "Diffusion; partially permeable membranes; plant cell wall and vacuole",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch03-st3",
+   "chapterId": "cambridge-g9-biology-ch03",
+   "order": 3,
+   "name": "Active transport against a concentration gradient using energy from respiration",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch03-st1"
+   ],
+   "prerequisiteNote": "Diffusion; protein carriers in membranes; respiration releases energy",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch04-st1",
+   "chapterId": "cambridge-g9-biology-ch04",
+   "order": 1,
+   "name": "Chemical elements in carbohydrates, fats and proteins; large molecules from smaller units",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Food groups in a balanced diet (Lower Secondary Science Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch04-st2",
+   "chapterId": "cambridge-g9-biology-ch04",
+   "order": 2,
+   "name": "Food tests: iodine, Benedict's, biuret, ethanol emulsion and DCPIP",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch04-st1"
+   ],
+   "prerequisiteNote": "Carbohydrates, fats and proteins; safe use of a water bath (practical skills)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch04-st3",
+   "chapterId": "cambridge-g9-biology-ch04",
+   "order": 3,
+   "name": "Structure of DNA: double helix and complementary base pairing",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch04-st1"
+   ],
+   "prerequisiteNote": "Chromosomes and genes (Lower Secondary Stage 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch05-st1",
+   "chapterId": "cambridge-g9-biology-ch05",
+   "order": 1,
+   "name": "Enzymes as biological catalysts; active site and enzyme–substrate complex",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch04-st1"
+   ],
+   "prerequisiteNote": "Proteins as large molecules; catalysts speed up reactions (Lower Secondary chemistry)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch05-st2",
+   "chapterId": "cambridge-g9-biology-ch05",
+   "order": 2,
+   "name": "Effect of temperature on enzyme activity; denaturation",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch05-st1"
+   ],
+   "prerequisiteNote": "Active site and enzyme–substrate complex; kinetic energy and collisions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch05-st3",
+   "chapterId": "cambridge-g9-biology-ch05",
+   "order": 3,
+   "name": "Effect of pH on enzyme activity and investigating enzyme action",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch05-st1",
+    "cambridge-g9-biology-ch05-st2"
+   ],
+   "prerequisiteNote": "Effect of temperature on enzymes; pH scale (IGCSE Chemistry)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch06-st1",
+   "chapterId": "cambridge-g9-biology-ch06",
+   "order": 1,
+   "name": "Photosynthesis: word and balanced chemical equations; role of chlorophyll",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch04-st1"
+   ],
+   "prerequisiteNote": "Plants make food using light (Lower Secondary Stage 8); balanced equations (IGCSE Chemistry)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch06-st2",
+   "chapterId": "cambridge-g9-biology-ch06",
+   "order": 2,
+   "name": "Investigating limiting factors: light intensity, carbon dioxide and temperature",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch06-st1",
+    "cambridge-g9-biology-ch05-st2"
+   ],
+   "prerequisiteNote": "Photosynthesis equation; effect of temperature on enzymes",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch06-st3",
+   "chapterId": "cambridge-g9-biology-ch06",
+   "order": 3,
+   "name": "Leaf structure and its adaptations for photosynthesis",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch06-st1",
+    "cambridge-g9-biology-ch02-st2"
+   ],
+   "prerequisiteNote": "Photosynthesis; tissues and organs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch06-st4",
+   "chapterId": "cambridge-g9-biology-ch06",
+   "order": 4,
+   "name": "Mineral requirements of plants: nitrate and magnesium ions",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch06-st1"
+   ],
+   "prerequisiteNote": "Photosynthesis; plants make proteins and chlorophyll",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch07-st1",
+   "chapterId": "cambridge-g9-biology-ch07",
+   "order": 1,
+   "name": "Balanced diet, nutrients and deficiency diseases (vitamin C, vitamin D, calcium, iron)",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch04-st1"
+   ],
+   "prerequisiteNote": "Food groups and balanced diet (Lower Secondary Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch07-st2",
+   "chapterId": "cambridge-g9-biology-ch07",
+   "order": 2,
+   "name": "Organs of the digestive system and their functions; mechanical digestion and teeth",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch07-st1",
+    "cambridge-g9-biology-ch02-st2"
+   ],
+   "prerequisiteNote": "Balanced diet; organs and organ systems",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch07-st3",
+   "chapterId": "cambridge-g9-biology-ch07",
+   "order": 3,
+   "name": "Chemical digestion: amylase, protease and lipase; role of hydrochloric acid and bile",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch07-st2",
+    "cambridge-g9-biology-ch05-st3"
+   ],
+   "prerequisiteNote": "Digestive system organs; enzyme action and pH",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch07-st4",
+   "chapterId": "cambridge-g9-biology-ch07",
+   "order": 4,
+   "name": "Absorption in the small intestine and structure of villi",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch07-st3",
+    "cambridge-g9-biology-ch03-st1"
+   ],
+   "prerequisiteNote": "Chemical digestion; diffusion and surface area",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch08-st1",
+   "chapterId": "cambridge-g9-biology-ch08",
+   "order": 1,
+   "name": "Xylem and phloem: structure and position in roots, stems and leaves",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch02-st2"
+   ],
+   "prerequisiteNote": "Specialised cells and tissues; root hair cells",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch08-st2",
+   "chapterId": "cambridge-g9-biology-ch08",
+   "order": 2,
+   "name": "Water uptake by root hair cells and the pathway through the plant",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch08-st1",
+    "cambridge-g9-biology-ch03-st2"
+   ],
+   "prerequisiteNote": "Xylem structure; osmosis",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch08-st3",
+   "chapterId": "cambridge-g9-biology-ch08",
+   "order": 3,
+   "name": "Transpiration and factors affecting its rate; wilting",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch08-st2",
+    "cambridge-g9-biology-ch03-st1"
+   ],
+   "prerequisiteNote": "Water uptake pathway; diffusion and evaporation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch08-st4",
+   "chapterId": "cambridge-g9-biology-ch08",
+   "order": 4,
+   "name": "Translocation of sucrose and amino acids from sources to sinks",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch08-st1",
+    "cambridge-g9-biology-ch06-st1"
+   ],
+   "prerequisiteNote": "Phloem structure; products of photosynthesis",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch09-st1",
+   "chapterId": "cambridge-g9-biology-ch09",
+   "order": 1,
+   "name": "Single and double circulatory systems",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Heart and blood vessels in the circulatory system (Lower Secondary Science Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch09-st2",
+   "chapterId": "cambridge-g9-biology-ch09",
+   "order": 2,
+   "name": "Structure and function of the heart; heart rate and coronary heart disease",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch09-st1"
+   ],
+   "prerequisiteNote": "Double circulation; muscle tissue and organs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch09-st3",
+   "chapterId": "cambridge-g9-biology-ch09",
+   "order": 3,
+   "name": "Blood vessels: arteries, veins and capillaries",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch09-st2"
+   ],
+   "prerequisiteNote": "Structure of the heart; diffusion across thin walls",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch09-st4",
+   "chapterId": "cambridge-g9-biology-ch09",
+   "order": 4,
+   "name": "Components of blood and their functions; blood clotting",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch09-st3",
+    "cambridge-g9-biology-ch02-st2"
+   ],
+   "prerequisiteNote": "Blood vessels; specialised cells (red blood cells)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch10-st1",
+   "chapterId": "cambridge-g9-biology-ch10",
+   "order": 1,
+   "name": "Pathogens, transmissible diseases and methods of transmission",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch01-st4"
+   ],
+   "prerequisiteNote": "Microorganisms: bacteria, viruses and fungi (Lower Secondary Stage 7-9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch10-st2",
+   "chapterId": "cambridge-g9-biology-ch10",
+   "order": 2,
+   "name": "Body defences: skin, mucus, stomach acid and phagocytosis",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch10-st1",
+    "cambridge-g9-biology-ch09-st4"
+   ],
+   "prerequisiteNote": "Pathogens; white blood cells in blood",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch10-st3",
+   "chapterId": "cambridge-g9-biology-ch10",
+   "order": 3,
+   "name": "Antibodies, active immunity, vaccination and passive immunity",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch10-st2"
+   ],
+   "prerequisiteNote": "Body defences; lymphocytes; protein shape and complementary binding",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-biology-ch10-st4",
+   "chapterId": "cambridge-g9-biology-ch10",
+   "order": 4,
+   "name": "Controlling the spread of disease: hygiene, sanitation and food safety; cholera",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch10-st1",
+    "cambridge-g9-biology-ch03-st2"
+   ],
+   "prerequisiteNote": "Pathogens and transmission; osmosis (cholera toxin and water loss)",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

@@ -1,0 +1,785 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cbse-g11-legal-studies",
+  "board": "cbse",
+  "grade": 11,
+  "stream": "commerce",
+  "slug": "legal-studies",
+  "name": "Legal Studies",
+  "programme": "CBSE Class 11 Legal Studies (074)",
+  "textbook": "CBSE Legal Studies XI textbook (074) – 5 units, 12 chapters",
+  "examPattern": "School-conducted annual exam (no CBSE SQP for Class XI); 3 h; same marks split and question design as Class XII; 50% competency-based, 20% MCQ, 30% short/long answer (Circular 30/2024). Theory 80 + Project 20. Assumed 40 questions (XII template: 20×1, 8×2, 8×3, 4×5).",
+  "chapterCount": 12,
+  "questionTarget": 1020
+ },
+ "items": [
+  {
+   "id": "cbse-g11-legal-studies-ch01",
+   "subjectId": "cbse-g11-legal-studies",
+   "order": 1,
+   "name": "Concept of State",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g11-legal-studies-ch01-st1",
+    "cbse-g11-legal-studies-ch01-st2",
+    "cbse-g11-legal-studies-ch01-st3",
+    "cbse-g11-legal-studies-ch01-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch02",
+   "subjectId": "cbse-g11-legal-studies",
+   "order": 2,
+   "name": "Forms and Organs of Government",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cbse-g11-legal-studies-ch02-st1",
+    "cbse-g11-legal-studies-ch02-st2",
+    "cbse-g11-legal-studies-ch02-st3"
+   ]
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch03",
+   "subjectId": "cbse-g11-legal-studies",
+   "order": 3,
+   "name": "Separation of Powers",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cbse-g11-legal-studies-ch03-st1",
+    "cbse-g11-legal-studies-ch03-st2",
+    "cbse-g11-legal-studies-ch03-st3"
+   ]
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch04",
+   "subjectId": "cbse-g11-legal-studies",
+   "order": 4,
+   "name": "Basic Features of the Indian Constitution",
+   "teachingPeriods": 24,
+   "subtopicIds": [
+    "cbse-g11-legal-studies-ch04-st1",
+    "cbse-g11-legal-studies-ch04-st2",
+    "cbse-g11-legal-studies-ch04-st3",
+    "cbse-g11-legal-studies-ch04-st4",
+    "cbse-g11-legal-studies-ch04-st5"
+   ]
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch05",
+   "subjectId": "cbse-g11-legal-studies",
+   "order": 5,
+   "name": "Nature and Meaning of Law",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cbse-g11-legal-studies-ch05-st1",
+    "cbse-g11-legal-studies-ch05-st2",
+    "cbse-g11-legal-studies-ch05-st3"
+   ]
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch06",
+   "subjectId": "cbse-g11-legal-studies",
+   "order": 6,
+   "name": "Classification of Laws",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g11-legal-studies-ch06-st1",
+    "cbse-g11-legal-studies-ch06-st2",
+    "cbse-g11-legal-studies-ch06-st3",
+    "cbse-g11-legal-studies-ch06-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch07",
+   "subjectId": "cbse-g11-legal-studies",
+   "order": 7,
+   "name": "Sources of Law",
+   "teachingPeriods": 19,
+   "subtopicIds": [
+    "cbse-g11-legal-studies-ch07-st1",
+    "cbse-g11-legal-studies-ch07-st2",
+    "cbse-g11-legal-studies-ch07-st3",
+    "cbse-g11-legal-studies-ch07-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch08",
+   "subjectId": "cbse-g11-legal-studies",
+   "order": 8,
+   "name": "Law Reform",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "cbse-g11-legal-studies-ch08-st1",
+    "cbse-g11-legal-studies-ch08-st2",
+    "cbse-g11-legal-studies-ch08-st3"
+   ]
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch09",
+   "subjectId": "cbse-g11-legal-studies",
+   "order": 9,
+   "name": "Cyber Laws",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cbse-g11-legal-studies-ch09-st1",
+    "cbse-g11-legal-studies-ch09-st2",
+    "cbse-g11-legal-studies-ch09-st3"
+   ]
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch10",
+   "subjectId": "cbse-g11-legal-studies",
+   "order": 10,
+   "name": "Judiciary: Courts and Processes",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cbse-g11-legal-studies-ch10-st1",
+    "cbse-g11-legal-studies-ch10-st2",
+    "cbse-g11-legal-studies-ch10-st3",
+    "cbse-g11-legal-studies-ch10-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch11",
+   "subjectId": "cbse-g11-legal-studies",
+   "order": 11,
+   "name": "Family Justice System",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "cbse-g11-legal-studies-ch11-st1",
+    "cbse-g11-legal-studies-ch11-st2",
+    "cbse-g11-legal-studies-ch11-st3",
+    "cbse-g11-legal-studies-ch11-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch12",
+   "subjectId": "cbse-g11-legal-studies",
+   "order": 12,
+   "name": "Child Rights",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cbse-g11-legal-studies-ch12-st1",
+    "cbse-g11-legal-studies-ch12-st2",
+    "cbse-g11-legal-studies-ch12-st3"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cbse-g11-legal-studies-ch01-st1",
+   "chapterId": "cbse-g11-legal-studies-ch01",
+   "order": 1,
+   "name": "Meaning of state and its essential elements: population, territory, government, sovereignty",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "What is democracy and why government is needed (Democratic Politics Cl 9 ch 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch01-st2",
+   "chapterId": "cbse-g11-legal-studies-ch01",
+   "order": 2,
+   "name": "Theories of the origin of the state: divine, force, social contract (Hobbes, Locke, Rousseau) and evolutionary",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch01-st1"
+   ],
+   "prerequisiteNote": "Elements of the state",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch01-st3",
+   "chapterId": "cbse-g11-legal-studies-ch01",
+   "order": 3,
+   "name": "State and nation, state and society: distinctions",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch01-st1"
+   ],
+   "prerequisiteNote": "Elements of the state; idea of community and identity",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch01-st4",
+   "chapterId": "cbse-g11-legal-studies-ch01",
+   "order": 4,
+   "name": "Sovereignty: internal and external; monistic and pluralistic views",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch01-st1"
+   ],
+   "prerequisiteNote": "Sovereignty as an element of the state",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch02-st1",
+   "chapterId": "cbse-g11-legal-studies-ch02",
+   "order": 1,
+   "name": "Forms of government: monarchy, aristocracy, democracy; unitary and federal",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch01-st1"
+   ],
+   "prerequisiteNote": "Federalism in India (Democratic Politics Cl 10 ch 2)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch02-st2",
+   "chapterId": "cbse-g11-legal-studies-ch02",
+   "order": 2,
+   "name": "Parliamentary and presidential systems compared",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch02-st1"
+   ],
+   "prerequisiteNote": "Forms of government; working of institutions (Democratic Politics Cl 9 ch 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch02-st3",
+   "chapterId": "cbse-g11-legal-studies-ch02",
+   "order": 3,
+   "name": "Organs of government: legislature, executive and judiciary and their functions",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch02-st1"
+   ],
+   "prerequisiteNote": "Parliament and law-making (Social and Political Life Cl 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch03-st1",
+   "chapterId": "cbse-g11-legal-studies-ch03",
+   "order": 1,
+   "name": "Doctrine of separation of powers: Montesquieu and its meaning",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch02-st3"
+   ],
+   "prerequisiteNote": "Three organs of government and their functions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch03-st2",
+   "chapterId": "cbse-g11-legal-studies-ch03",
+   "order": 2,
+   "name": "Separation of powers in the USA and UK; checks and balances",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch03-st1",
+    "cbse-g11-legal-studies-ch02-st2"
+   ],
+   "prerequisiteNote": "Parliamentary vs presidential systems",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch03-st3",
+   "chapterId": "cbse-g11-legal-studies-ch03",
+   "order": 3,
+   "name": "Separation of powers under the Indian Constitution and the basic structure (Kesavananda Bharati, Indira Gandhi v Raj Narain)",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch03-st2"
+   ],
+   "prerequisiteNote": "Checks and balances; Supreme Court's role (Cl 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch04-st1",
+   "chapterId": "cbse-g11-legal-studies-ch04",
+   "order": 1,
+   "name": "Making of the Constitution: Constituent Assembly and the Preamble",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch01-st4"
+   ],
+   "prerequisiteNote": "Constitutional design (Democratic Politics Cl 9 ch 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch04-st2",
+   "chapterId": "cbse-g11-legal-studies-ch04",
+   "order": 2,
+   "name": "Salient features: written, federal with unitary bias, parliamentary, secular, independent judiciary",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch04-st1",
+    "cbse-g11-legal-studies-ch02-st1"
+   ],
+   "prerequisiteNote": "Preamble; forms of government (federal and unitary)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch04-st3",
+   "chapterId": "cbse-g11-legal-studies-ch04",
+   "order": 3,
+   "name": "Fundamental Rights and the right to constitutional remedies",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch04-st2"
+   ],
+   "prerequisiteNote": "Democratic rights (Democratic Politics Cl 9 ch 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch04-st4",
+   "chapterId": "cbse-g11-legal-studies-ch04",
+   "order": 4,
+   "name": "Directive Principles of State Policy and Fundamental Duties",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch04-st3"
+   ],
+   "prerequisiteNote": "Fundamental Rights (justiciable vs non-justiciable)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch04-st5",
+   "chapterId": "cbse-g11-legal-studies-ch04",
+   "order": 5,
+   "name": "Amendment of the Constitution (Article 368)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch04-st2",
+    "cbse-g11-legal-studies-ch03-st3"
+   ],
+   "prerequisiteNote": "Basic structure doctrine; salient features",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch05-st1",
+   "chapterId": "cbse-g11-legal-studies-ch05",
+   "order": 1,
+   "name": "Meaning and definitions of law; law and morality, law and justice",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch01-st1"
+   ],
+   "prerequisiteNote": "Role of the state; idea of rules in society (Cl 8 Why do we need laws)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch05-st2",
+   "chapterId": "cbse-g11-legal-studies-ch05",
+   "order": 2,
+   "name": "Schools of jurisprudence: natural law, positivist (Austin's command theory), historical and sociological",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch05-st1"
+   ],
+   "prerequisiteNote": "Meaning and definitions of law",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch05-st3",
+   "chapterId": "cbse-g11-legal-studies-ch05",
+   "order": 3,
+   "name": "Purpose and functions of law in society",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch05-st1"
+   ],
+   "prerequisiteNote": "Meaning of law; law and justice",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch06-st1",
+   "chapterId": "cbse-g11-legal-studies-ch06",
+   "order": 1,
+   "name": "Public and private law; substantive and procedural law",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch05-st1"
+   ],
+   "prerequisiteNote": "Meaning and definitions of law",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch06-st2",
+   "chapterId": "cbse-g11-legal-studies-ch06",
+   "order": 2,
+   "name": "Civil and criminal law",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch06-st1"
+   ],
+   "prerequisiteNote": "Public and private law; idea of wrongs against individual vs society",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch06-st3",
+   "chapterId": "cbse-g11-legal-studies-ch06",
+   "order": 3,
+   "name": "Municipal and international law; constitutional and statutory law",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch06-st1",
+    "cbse-g11-legal-studies-ch04-st2"
+   ],
+   "prerequisiteNote": "Constitution as supreme law",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch06-st4",
+   "chapterId": "cbse-g11-legal-studies-ch06",
+   "order": 4,
+   "name": "Common law and equity",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch06-st1"
+   ],
+   "prerequisiteNote": "Sources of law: precedent; historical school",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch07-st1",
+   "chapterId": "cbse-g11-legal-studies-ch07",
+   "order": 1,
+   "name": "Custom as a source of law: essentials of a valid custom",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch05-st2"
+   ],
+   "prerequisiteNote": "Historical school of jurisprudence",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch07-st2",
+   "chapterId": "cbse-g11-legal-studies-ch07",
+   "order": 2,
+   "name": "Legislation: supreme and subordinate (delegated) legislation",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch07-st1",
+    "cbse-g11-legal-studies-ch02-st3"
+   ],
+   "prerequisiteNote": "Functions of the legislature",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch07-st3",
+   "chapterId": "cbse-g11-legal-studies-ch07",
+   "order": 3,
+   "name": "Precedent (stare decisis): ratio decidendi and obiter dicta; Article 141",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch07-st2",
+    "cbse-g11-legal-studies-ch06-st4"
+   ],
+   "prerequisiteNote": "Common law; judiciary's role",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch07-st4",
+   "chapterId": "cbse-g11-legal-studies-ch07",
+   "order": 4,
+   "name": "Other sources: religion, juristic writings and international conventions",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch07-st1"
+   ],
+   "prerequisiteNote": "Custom as a source of law",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch08-st1",
+   "chapterId": "cbse-g11-legal-studies-ch08",
+   "order": 1,
+   "name": "Meaning and need for law reform; agencies of law reform",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch07-st2"
+   ],
+   "prerequisiteNote": "Legislation as a source of law",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch08-st2",
+   "chapterId": "cbse-g11-legal-studies-ch08",
+   "order": 2,
+   "name": "Law Commission of India: role and major reports",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch08-st1"
+   ],
+   "prerequisiteNote": "Agencies of law reform",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch08-st3",
+   "chapterId": "cbse-g11-legal-studies-ch08",
+   "order": 3,
+   "name": "Role of the judiciary and public interest litigation in law reform",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch08-st1",
+    "cbse-g11-legal-studies-ch07-st3"
+   ],
+   "prerequisiteNote": "Precedent; Fundamental Rights and Article 32",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch09-st1",
+   "chapterId": "cbse-g11-legal-studies-ch09",
+   "order": 1,
+   "name": "Cyberspace and cybercrime: types (hacking, phishing, identity theft, cyberstalking)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch06-st2"
+   ],
+   "prerequisiteNote": "Civil and criminal law; safe internet use (Computer Science/IT Cl 8-9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch09-st2",
+   "chapterId": "cbse-g11-legal-studies-ch09",
+   "order": 2,
+   "name": "Information Technology Act 2000: objectives, key provisions and offences",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch09-st1"
+   ],
+   "prerequisiteNote": "Types of cybercrime; legislation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch09-st3",
+   "chapterId": "cbse-g11-legal-studies-ch09",
+   "order": 3,
+   "name": "Electronic records, digital signatures and data protection",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch09-st2"
+   ],
+   "prerequisiteNote": "IT Act provisions; meaning of a signature on a document",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch10-st1",
+   "chapterId": "cbse-g11-legal-studies-ch10",
+   "order": 1,
+   "name": "Hierarchy of courts in India: Supreme Court, High Courts and subordinate courts",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch02-st3"
+   ],
+   "prerequisiteNote": "Judiciary in India (Social and Political Life Cl 8 ch 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch10-st2",
+   "chapterId": "cbse-g11-legal-studies-ch10",
+   "order": 2,
+   "name": "Jurisdiction of the Supreme Court and High Courts: original, appellate, advisory and writ",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch10-st1",
+    "cbse-g11-legal-studies-ch04-st3"
+   ],
+   "prerequisiteNote": "Hierarchy of courts; right to constitutional remedies",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch10-st3",
+   "chapterId": "cbse-g11-legal-studies-ch10",
+   "order": 3,
+   "name": "Independence of the judiciary and appointment of judges (collegium)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch10-st1",
+    "cbse-g11-legal-studies-ch03-st3"
+   ],
+   "prerequisiteNote": "Separation of powers in India",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch10-st4",
+   "chapterId": "cbse-g11-legal-studies-ch10",
+   "order": 4,
+   "name": "Civil and criminal court procedure: stages of a case",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch10-st1",
+    "cbse-g11-legal-studies-ch06-st2"
+   ],
+   "prerequisiteNote": "Civil and criminal law",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch11-st1",
+   "chapterId": "cbse-g11-legal-studies-ch11",
+   "order": 1,
+   "name": "Personal laws in India and the Uniform Civil Code debate",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch04-st4"
+   ],
+   "prerequisiteNote": "Directive Principles (Article 44); secularism",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch11-st2",
+   "chapterId": "cbse-g11-legal-studies-ch11",
+   "order": 2,
+   "name": "Marriage: essentials of a valid Hindu and Muslim marriage",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch11-st1"
+   ],
+   "prerequisiteNote": "Personal laws in India",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch11-st3",
+   "chapterId": "cbse-g11-legal-studies-ch11",
+   "order": 3,
+   "name": "Divorce and maintenance under personal laws",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch11-st2"
+   ],
+   "prerequisiteNote": "Valid marriage; concept of grounds for relief",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch11-st4",
+   "chapterId": "cbse-g11-legal-studies-ch11",
+   "order": 4,
+   "name": "Family courts and alternative mechanisms (Family Courts Act 1984, Lok Adalats)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch11-st3",
+    "cbse-g11-legal-studies-ch10-st1"
+   ],
+   "prerequisiteNote": "Hierarchy of courts",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch12-st1",
+   "chapterId": "cbse-g11-legal-studies-ch12",
+   "order": 1,
+   "name": "Concept of the child and child rights; UN Convention on the Rights of the Child",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch04-st3"
+   ],
+   "prerequisiteNote": "Fundamental Rights; human rights idea (Cl 9 Democratic Rights)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch12-st2",
+   "chapterId": "cbse-g11-legal-studies-ch12",
+   "order": 2,
+   "name": "Constitutional provisions and laws: RTE Act 2009, child labour law and POCSO Act 2012",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch12-st1",
+    "cbse-g11-legal-studies-ch04-st4"
+   ],
+   "prerequisiteNote": "UNCRC; Directive Principles",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-legal-studies-ch12-st3",
+   "chapterId": "cbse-g11-legal-studies-ch12",
+   "order": 3,
+   "name": "Juvenile Justice (Care and Protection of Children) Act 2015",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch12-st2",
+    "cbse-g11-legal-studies-ch06-st2"
+   ],
+   "prerequisiteNote": "Criminal law; child protection laws",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

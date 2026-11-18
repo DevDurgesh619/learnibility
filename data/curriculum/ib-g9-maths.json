@@ -1,0 +1,907 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "ib-g9-maths",
+  "board": "ib",
+  "grade": 9,
+  "stream": "none",
+  "slug": "maths",
+  "name": "Mathematics",
+  "programme": "IB MYP 4 Mathematics (Standard & Extended)",
+  "examPattern": "MYP 4: no external exam – school-designed summative tasks assessed on criteria A–D (each 0–8, total /32 → grade 1–7); every criterion assessed ≥2× per year. Mock papers here mirror the MYP 5 eAssessment format so students practise it early. Mock: 3-task paper in MYP 5 eAssessment style (~25 items).",
+  "chapterCount": 12,
+  "questionTarget": 1275
+ },
+ "items": [
+  {
+   "id": "ib-g9-maths-ch01",
+   "subjectId": "ib-g9-maths",
+   "order": 1,
+   "name": "Real Numbers and Surds",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "ib-g9-maths-ch01-st1",
+    "ib-g9-maths-ch01-st2",
+    "ib-g9-maths-ch01-st3",
+    "ib-g9-maths-ch01-st4"
+   ]
+  },
+  {
+   "id": "ib-g9-maths-ch02",
+   "subjectId": "ib-g9-maths",
+   "order": 2,
+   "name": "Indices and Standard Form",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "ib-g9-maths-ch02-st1",
+    "ib-g9-maths-ch02-st2",
+    "ib-g9-maths-ch02-st3",
+    "ib-g9-maths-ch02-st4"
+   ]
+  },
+  {
+   "id": "ib-g9-maths-ch03",
+   "subjectId": "ib-g9-maths",
+   "order": 3,
+   "name": "Algebraic Expressions: Expansion and Factorisation",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "ib-g9-maths-ch03-st1",
+    "ib-g9-maths-ch03-st2",
+    "ib-g9-maths-ch03-st3",
+    "ib-g9-maths-ch03-st4",
+    "ib-g9-maths-ch03-st5"
+   ]
+  },
+  {
+   "id": "ib-g9-maths-ch04",
+   "subjectId": "ib-g9-maths",
+   "order": 4,
+   "name": "Linear Equations, Inequalities and Simultaneous Equations",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "ib-g9-maths-ch04-st1",
+    "ib-g9-maths-ch04-st2",
+    "ib-g9-maths-ch04-st3",
+    "ib-g9-maths-ch04-st4",
+    "ib-g9-maths-ch04-st5"
+   ]
+  },
+  {
+   "id": "ib-g9-maths-ch05",
+   "subjectId": "ib-g9-maths",
+   "order": 5,
+   "name": "Quadratic Equations",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g9-maths-ch05-st1",
+    "ib-g9-maths-ch05-st2",
+    "ib-g9-maths-ch05-st3",
+    "ib-g9-maths-ch05-st4"
+   ]
+  },
+  {
+   "id": "ib-g9-maths-ch06",
+   "subjectId": "ib-g9-maths",
+   "order": 6,
+   "name": "Functions and Their Graphs",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "ib-g9-maths-ch06-st1",
+    "ib-g9-maths-ch06-st2",
+    "ib-g9-maths-ch06-st3",
+    "ib-g9-maths-ch06-st4"
+   ]
+  },
+  {
+   "id": "ib-g9-maths-ch07",
+   "subjectId": "ib-g9-maths",
+   "order": 7,
+   "name": "Coordinate Geometry",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "ib-g9-maths-ch07-st1",
+    "ib-g9-maths-ch07-st2",
+    "ib-g9-maths-ch07-st3",
+    "ib-g9-maths-ch07-st4"
+   ]
+  },
+  {
+   "id": "ib-g9-maths-ch08",
+   "subjectId": "ib-g9-maths",
+   "order": 8,
+   "name": "Similarity and Congruence",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "ib-g9-maths-ch08-st1",
+    "ib-g9-maths-ch08-st2",
+    "ib-g9-maths-ch08-st3",
+    "ib-g9-maths-ch08-st4"
+   ]
+  },
+  {
+   "id": "ib-g9-maths-ch09",
+   "subjectId": "ib-g9-maths",
+   "order": 9,
+   "name": "Right-Angled Triangle Trigonometry",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g9-maths-ch09-st1",
+    "ib-g9-maths-ch09-st2",
+    "ib-g9-maths-ch09-st3",
+    "ib-g9-maths-ch09-st4"
+   ]
+  },
+  {
+   "id": "ib-g9-maths-ch10",
+   "subjectId": "ib-g9-maths",
+   "order": 10,
+   "name": "Circles and Mensuration",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "ib-g9-maths-ch10-st1",
+    "ib-g9-maths-ch10-st2",
+    "ib-g9-maths-ch10-st3",
+    "ib-g9-maths-ch10-st4"
+   ]
+  },
+  {
+   "id": "ib-g9-maths-ch11",
+   "subjectId": "ib-g9-maths",
+   "order": 11,
+   "name": "Statistics: Grouped Data",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g9-maths-ch11-st1",
+    "ib-g9-maths-ch11-st2",
+    "ib-g9-maths-ch11-st3",
+    "ib-g9-maths-ch11-st4"
+   ]
+  },
+  {
+   "id": "ib-g9-maths-ch12",
+   "subjectId": "ib-g9-maths",
+   "order": 12,
+   "name": "Probability: Venn and Tree Diagrams",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g9-maths-ch12-st1",
+    "ib-g9-maths-ch12-st2",
+    "ib-g9-maths-ch12-st3",
+    "ib-g9-maths-ch12-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "ib-g9-maths-ch01-st1",
+   "chapterId": "ib-g9-maths-ch01",
+   "order": 1,
+   "name": "Number sets: natural, integer, rational and irrational numbers",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-maths-ch01-st1",
+    "ib-g8-maths-ch01-st3"
+   ],
+   "prerequisiteNote": "Classifying rational numbers (MYP 3); recurring decimals",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch01-st2",
+   "chapterId": "ib-g9-maths-ch01",
+   "order": 2,
+   "name": "Simplifying surds and rules for multiplying surds",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch01-st1",
+    "ib-g8-maths-ch02-st2"
+   ],
+   "prerequisiteNote": "Square roots and prime factorisation (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch01-st3",
+   "chapterId": "ib-g9-maths-ch01",
+   "order": 3,
+   "name": "Adding, subtracting and expanding expressions with surds",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch01-st2",
+    "ib-g8-maths-ch04-st2"
+   ],
+   "prerequisiteNote": "Simplifying surds; expanding brackets (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch01-st4",
+   "chapterId": "ib-g9-maths-ch01",
+   "order": 4,
+   "name": "Rationalising the denominator",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch01-st3"
+   ],
+   "prerequisiteNote": "Expanding surd expressions; equivalent fractions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch02-st1",
+   "chapterId": "ib-g9-maths-ch02",
+   "order": 1,
+   "name": "Laws of indices with integer exponents",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-maths-ch02-st1",
+    "ib-g8-maths-ch02-st3"
+   ],
+   "prerequisiteNote": "Laws of exponents (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch02-st2",
+   "chapterId": "ib-g9-maths-ch02",
+   "order": 2,
+   "name": "Fractional (rational) exponents and roots",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch02-st1",
+    "ib-g9-maths-ch01-st2"
+   ],
+   "prerequisiteNote": "Laws of indices; square and cube roots",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch02-st3",
+   "chapterId": "ib-g9-maths-ch02",
+   "order": 3,
+   "name": "Calculations in standard form with and without a calculator",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch02-st1",
+    "ib-g8-maths-ch02-st4"
+   ],
+   "prerequisiteNote": "Standard form (MYP 3); laws of indices",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch02-st4",
+   "chapterId": "ib-g9-maths-ch02",
+   "order": 4,
+   "name": "Upper and lower bounds and limits of accuracy",
+   "weight": "L",
+   "teachingPeriods": 1,
+   "prerequisiteIds": [
+    "ib-g8-maths-ch01-st4"
+   ],
+   "prerequisiteNote": "Rounding to decimal places and significant figures (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch03-st1",
+   "chapterId": "ib-g9-maths-ch03",
+   "order": 1,
+   "name": "Expanding binomial products and special products",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-maths-ch04-st2"
+   ],
+   "prerequisiteNote": "Expanding single brackets (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch03-st2",
+   "chapterId": "ib-g9-maths-ch03",
+   "order": 2,
+   "name": "Factorising by common factor and grouping",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-maths-ch04-st3"
+   ],
+   "prerequisiteNote": "Factorising by a common factor (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch03-st3",
+   "chapterId": "ib-g9-maths-ch03",
+   "order": 3,
+   "name": "Factorising quadratic trinomials",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch03-st1",
+    "ib-g9-maths-ch03-st2"
+   ],
+   "prerequisiteNote": "Expanding binomial products; factor pairs of integers",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch03-st4",
+   "chapterId": "ib-g9-maths-ch03",
+   "order": 4,
+   "name": "Difference of two squares and perfect squares",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch03-st1"
+   ],
+   "prerequisiteNote": "Expanding special products",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch03-st5",
+   "chapterId": "ib-g9-maths-ch03",
+   "order": 5,
+   "name": "Simplifying algebraic fractions",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch03-st3",
+    "ib-g8-maths-ch01-st2"
+   ],
+   "prerequisiteNote": "Factorising quadratics; operations with fractions (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch04-st1",
+   "chapterId": "ib-g9-maths-ch04",
+   "order": 1,
+   "name": "Solving linear equations including algebraic fractions",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-maths-ch05-st2"
+   ],
+   "prerequisiteNote": "Equations with brackets and fractions (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch04-st2",
+   "chapterId": "ib-g9-maths-ch04",
+   "order": 2,
+   "name": "Changing the subject of a formula",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-maths-ch04-st4"
+   ],
+   "prerequisiteNote": "Rearranging simple formulae (MYP 3); inverse operations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch04-st3",
+   "chapterId": "ib-g9-maths-ch04",
+   "order": 3,
+   "name": "Solving linear inequalities and interval notation",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch04-st1",
+    "ib-g8-maths-ch05-st4"
+   ],
+   "prerequisiteNote": "Linear inequalities on a number line (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch04-st4",
+   "chapterId": "ib-g9-maths-ch04",
+   "order": 4,
+   "name": "Simultaneous linear equations by substitution and elimination",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch04-st1"
+   ],
+   "prerequisiteNote": "Solving linear equations; substitution",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch04-st5",
+   "chapterId": "ib-g9-maths-ch04",
+   "order": 5,
+   "name": "Simultaneous equations from word problems and graphical solution",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch04-st4",
+    "ib-g8-maths-ch06-st3"
+   ],
+   "prerequisiteNote": "Simultaneous equations by elimination; plotting straight lines",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch05-st1",
+   "chapterId": "ib-g9-maths-ch05",
+   "order": 1,
+   "name": "Solving quadratic equations by factorisation",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch03-st3"
+   ],
+   "prerequisiteNote": "Factorising quadratic trinomials; zero product property",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch05-st2",
+   "chapterId": "ib-g9-maths-ch05",
+   "order": 2,
+   "name": "Completing the square",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch03-st4"
+   ],
+   "prerequisiteNote": "Perfect squares; expanding binomials",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch05-st3",
+   "chapterId": "ib-g9-maths-ch05",
+   "order": 3,
+   "name": "The quadratic formula and the discriminant",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch05-st2",
+    "ib-g9-maths-ch01-st2"
+   ],
+   "prerequisiteNote": "Completing the square; simplifying surds",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch05-st4",
+   "chapterId": "ib-g9-maths-ch05",
+   "order": 4,
+   "name": "Problems leading to quadratic equations",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch05-st1",
+    "ib-g9-maths-ch05-st3"
+   ],
+   "prerequisiteNote": "Forming equations from contexts; solving quadratics",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch06-st1",
+   "chapterId": "ib-g9-maths-ch06",
+   "order": 1,
+   "name": "Relations and functions: mapping diagrams, domain and range",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-maths-ch06-st2"
+   ],
+   "prerequisiteNote": "Tables of values and coordinates (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch06-st2",
+   "chapterId": "ib-g9-maths-ch06",
+   "order": 2,
+   "name": "Function notation and evaluating f(x)",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch06-st1",
+    "ib-g8-maths-ch04-st4"
+   ],
+   "prerequisiteNote": "Substitution into expressions (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch06-st3",
+   "chapterId": "ib-g9-maths-ch06",
+   "order": 3,
+   "name": "Quadratic functions and parabolas: vertex, axis of symmetry, intercepts",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch06-st2",
+    "ib-g9-maths-ch05-st1",
+    "ib-g9-maths-ch05-st2"
+   ],
+   "prerequisiteNote": "Solving quadratics; completing the square",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch06-st4",
+   "chapterId": "ib-g9-maths-ch06",
+   "order": 4,
+   "name": "Linear and quadratic models of real-life situations",
+   "weight": "L",
+   "teachingPeriods": 1,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch06-st3"
+   ],
+   "prerequisiteNote": "Linear and quadratic graphs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch07-st1",
+   "chapterId": "ib-g9-maths-ch07",
+   "order": 1,
+   "name": "Gradient of a line from two points",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-maths-ch06-st3"
+   ],
+   "prerequisiteNote": "Gradient and y = mx + c (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch07-st2",
+   "chapterId": "ib-g9-maths-ch07",
+   "order": 2,
+   "name": "Equations of straight lines: gradient-intercept and general form",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch07-st1",
+    "ib-g9-maths-ch04-st2"
+   ],
+   "prerequisiteNote": "Gradient from two points; changing the subject",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch07-st3",
+   "chapterId": "ib-g9-maths-ch07",
+   "order": 3,
+   "name": "Parallel and perpendicular lines",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch07-st2"
+   ],
+   "prerequisiteNote": "Gradient; negative reciprocal",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch07-st4",
+   "chapterId": "ib-g9-maths-ch07",
+   "order": 4,
+   "name": "Midpoint and distance between two points",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-maths-ch08-st4"
+   ],
+   "prerequisiteNote": "Distance by Pythagoras (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch08-st1",
+   "chapterId": "ib-g9-maths-ch08",
+   "order": 1,
+   "name": "Congruent triangles: SSS, SAS, ASA, RHS tests",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-maths-ch10-st4",
+    "ib-g8-maths-ch07-st3"
+   ],
+   "prerequisiteNote": "Enlargement and congruence (MYP 3); angle facts",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch08-st2",
+   "chapterId": "ib-g9-maths-ch08",
+   "order": 2,
+   "name": "Similar triangles: tests and finding unknown lengths",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-maths-ch03-st2",
+    "ib-g8-maths-ch07-st2"
+   ],
+   "prerequisiteNote": "Ratio and scale factor; parallel line angles (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch08-st3",
+   "chapterId": "ib-g9-maths-ch08",
+   "order": 3,
+   "name": "Area and volume ratios of similar figures",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch08-st2",
+    "ib-g8-maths-ch09-st4"
+   ],
+   "prerequisiteNote": "Similar triangles; area and volume formulae",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch08-st4",
+   "chapterId": "ib-g9-maths-ch08",
+   "order": 4,
+   "name": "Geometric proof using congruence and similarity",
+   "weight": "L",
+   "teachingPeriods": 1,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch08-st1",
+    "ib-g9-maths-ch08-st2"
+   ],
+   "prerequisiteNote": "Congruence tests; angle reasoning",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch09-st1",
+   "chapterId": "ib-g9-maths-ch09",
+   "order": 1,
+   "name": "Sine, cosine and tangent ratios in right-angled triangles",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch08-st2",
+    "ib-g8-maths-ch08-st2"
+   ],
+   "prerequisiteNote": "Similar triangles; Pythagoras (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch09-st2",
+   "chapterId": "ib-g9-maths-ch09",
+   "order": 2,
+   "name": "Finding unknown sides and angles using trigonometry",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch09-st1",
+    "ib-g9-maths-ch04-st2"
+   ],
+   "prerequisiteNote": "Trigonometric ratios; rearranging formulae",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch09-st3",
+   "chapterId": "ib-g9-maths-ch09",
+   "order": 3,
+   "name": "Angles of elevation and depression and bearings",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch09-st2"
+   ],
+   "prerequisiteNote": "Finding sides and angles; angle facts",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch09-st4",
+   "chapterId": "ib-g9-maths-ch09",
+   "order": 4,
+   "name": "Trigonometry and Pythagoras in multi-step and 3D problems",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch09-st2",
+    "ib-g8-maths-ch08-st2"
+   ],
+   "prerequisiteNote": "Pythagoras; right-angled trigonometry",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch10-st1",
+   "chapterId": "ib-g9-maths-ch10",
+   "order": 1,
+   "name": "Arc length and area of a sector",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-maths-ch09-st2"
+   ],
+   "prerequisiteNote": "Circumference and area of circle (MYP 3); fractions of 360",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch10-st2",
+   "chapterId": "ib-g9-maths-ch10",
+   "order": 2,
+   "name": "Circle theorems: angles at the centre and in a semicircle",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-maths-ch07-st3"
+   ],
+   "prerequisiteNote": "Angle facts and isosceles triangles (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch10-st3",
+   "chapterId": "ib-g9-maths-ch10",
+   "order": 3,
+   "name": "Tangents and chords properties",
+   "weight": "L",
+   "teachingPeriods": 1,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch10-st2",
+    "ib-g8-maths-ch08-st2"
+   ],
+   "prerequisiteNote": "Circle theorems; Pythagoras",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch10-st4",
+   "chapterId": "ib-g9-maths-ch10",
+   "order": 4,
+   "name": "Surface area and volume of pyramids, cones and spheres",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-maths-ch09-st4",
+    "ib-g8-maths-ch09-st3"
+   ],
+   "prerequisiteNote": "Volume of prisms and cylinders (MYP 3); Pythagoras for slant height",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch11-st1",
+   "chapterId": "ib-g9-maths-ch11",
+   "order": 1,
+   "name": "Grouped frequency tables and histograms of continuous data",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-maths-ch11-st2"
+   ],
+   "prerequisiteNote": "Frequency tables and bar charts (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch11-st2",
+   "chapterId": "ib-g9-maths-ch11",
+   "order": 2,
+   "name": "Estimated mean, modal class and median class of grouped data",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch11-st1",
+    "ib-g8-maths-ch11-st3"
+   ],
+   "prerequisiteNote": "Mean from a frequency table (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch11-st3",
+   "chapterId": "ib-g9-maths-ch11",
+   "order": 3,
+   "name": "Cumulative frequency curves, quartiles and box-and-whisker plots",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch11-st1",
+    "ib-g8-maths-ch11-st3"
+   ],
+   "prerequisiteNote": "Median and range; plotting points",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch11-st4",
+   "chapterId": "ib-g9-maths-ch11",
+   "order": 4,
+   "name": "Comparing distributions and interquartile range",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch11-st3"
+   ],
+   "prerequisiteNote": "Box plots; measures of centre and spread",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch12-st1",
+   "chapterId": "ib-g9-maths-ch12",
+   "order": 1,
+   "name": "Sets, set notation and Venn diagrams",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch01-st1"
+   ],
+   "prerequisiteNote": "Classifying numbers into sets",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch12-st2",
+   "chapterId": "ib-g9-maths-ch12",
+   "order": 2,
+   "name": "Probability from Venn diagrams: union, intersection and complement",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch12-st1",
+    "ib-g8-maths-ch12-st1"
+   ],
+   "prerequisiteNote": "Venn diagrams; theoretical probability (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch12-st3",
+   "chapterId": "ib-g9-maths-ch12",
+   "order": 3,
+   "name": "Tree diagrams for independent and dependent events",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-maths-ch12-st2"
+   ],
+   "prerequisiteNote": "Multiplying fractions; sample spaces (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-maths-ch12-st4",
+   "chapterId": "ib-g9-maths-ch12",
+   "order": 4,
+   "name": "Combined events and conditional probability from tables",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch12-st3",
+    "ib-g8-maths-ch12-st2"
+   ],
+   "prerequisiteNote": "Two-way tables; tree diagrams",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

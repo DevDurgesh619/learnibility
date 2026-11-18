@@ -1,0 +1,920 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "ib-g9-science",
+  "board": "ib",
+  "grade": 9,
+  "stream": "none",
+  "slug": "science",
+  "name": "Sciences",
+  "programme": "IB MYP 4 Sciences (integrated; Biology / Chemistry / Physics options in MYP 5)",
+  "examPattern": "MYP 4: no external exam – school-designed summative tasks assessed on criteria A–D (each 0–8, total /32 → grade 1–7); every criterion assessed ≥2× per year. Mock papers here mirror the MYP 5 eAssessment format so students practise it early. Mock: 3-task paper in MYP 5 Sciences eAssessment style (~20 items).",
+  "chapterCount": 12,
+  "questionTarget": 1140
+ },
+ "items": [
+  {
+   "id": "ib-g9-science-ch01",
+   "subjectId": "ib-g9-science",
+   "order": 1,
+   "name": "Cell Division and DNA",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g9-science-ch01-st1",
+    "ib-g9-science-ch01-st2",
+    "ib-g9-science-ch01-st3",
+    "ib-g9-science-ch01-st4"
+   ]
+  },
+  {
+   "id": "ib-g9-science-ch02",
+   "subjectId": "ib-g9-science",
+   "order": 2,
+   "name": "Genetics and Inheritance",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g9-science-ch02-st1",
+    "ib-g9-science-ch02-st2",
+    "ib-g9-science-ch02-st3",
+    "ib-g9-science-ch02-st4",
+    "ib-g9-science-ch02-st5"
+   ]
+  },
+  {
+   "id": "ib-g9-science-ch03",
+   "subjectId": "ib-g9-science",
+   "order": 3,
+   "name": "Homeostasis and Coordination",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g9-science-ch03-st1",
+    "ib-g9-science-ch03-st2",
+    "ib-g9-science-ch03-st3",
+    "ib-g9-science-ch03-st4"
+   ]
+  },
+  {
+   "id": "ib-g9-science-ch04",
+   "subjectId": "ib-g9-science",
+   "order": 4,
+   "name": "Atomic Structure and the Periodic Table",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "ib-g9-science-ch04-st1",
+    "ib-g9-science-ch04-st2",
+    "ib-g9-science-ch04-st3",
+    "ib-g9-science-ch04-st4",
+    "ib-g9-science-ch04-st5"
+   ]
+  },
+  {
+   "id": "ib-g9-science-ch05",
+   "subjectId": "ib-g9-science",
+   "order": 5,
+   "name": "Chemical Bonding and Structure",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g9-science-ch05-st1",
+    "ib-g9-science-ch05-st2",
+    "ib-g9-science-ch05-st3",
+    "ib-g9-science-ch05-st4"
+   ]
+  },
+  {
+   "id": "ib-g9-science-ch06",
+   "subjectId": "ib-g9-science",
+   "order": 6,
+   "name": "Chemical Equations and Reaction Types",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "ib-g9-science-ch06-st1",
+    "ib-g9-science-ch06-st2",
+    "ib-g9-science-ch06-st3",
+    "ib-g9-science-ch06-st4"
+   ]
+  },
+  {
+   "id": "ib-g9-science-ch07",
+   "subjectId": "ib-g9-science",
+   "order": 7,
+   "name": "Rates of Reaction",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g9-science-ch07-st1",
+    "ib-g9-science-ch07-st2",
+    "ib-g9-science-ch07-st3",
+    "ib-g9-science-ch07-st4"
+   ]
+  },
+  {
+   "id": "ib-g9-science-ch08",
+   "subjectId": "ib-g9-science",
+   "order": 8,
+   "name": "Motion",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "ib-g9-science-ch08-st1",
+    "ib-g9-science-ch08-st2",
+    "ib-g9-science-ch08-st3",
+    "ib-g9-science-ch08-st4"
+   ]
+  },
+  {
+   "id": "ib-g9-science-ch09",
+   "subjectId": "ib-g9-science",
+   "order": 9,
+   "name": "Forces and Newton's Laws",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g9-science-ch09-st1",
+    "ib-g9-science-ch09-st2",
+    "ib-g9-science-ch09-st3",
+    "ib-g9-science-ch09-st4",
+    "ib-g9-science-ch09-st5"
+   ]
+  },
+  {
+   "id": "ib-g9-science-ch10",
+   "subjectId": "ib-g9-science",
+   "order": 10,
+   "name": "Waves: Properties and the Electromagnetic Spectrum",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "ib-g9-science-ch10-st1",
+    "ib-g9-science-ch10-st2",
+    "ib-g9-science-ch10-st3",
+    "ib-g9-science-ch10-st4"
+   ]
+  },
+  {
+   "id": "ib-g9-science-ch11",
+   "subjectId": "ib-g9-science",
+   "order": 11,
+   "name": "Light and Sound",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "ib-g9-science-ch11-st1",
+    "ib-g9-science-ch11-st2",
+    "ib-g9-science-ch11-st3",
+    "ib-g9-science-ch11-st4"
+   ]
+  },
+  {
+   "id": "ib-g9-science-ch12",
+   "subjectId": "ib-g9-science",
+   "order": 12,
+   "name": "Magnetism and Electromagnetism",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "ib-g9-science-ch12-st1",
+    "ib-g9-science-ch12-st2",
+    "ib-g9-science-ch12-st3",
+    "ib-g9-science-ch12-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "ib-g9-science-ch01-st1",
+   "chapterId": "ib-g9-science-ch01",
+   "order": 1,
+   "name": "Structure of DNA, genes and chromosomes",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-science-ch02-st2"
+   ],
+   "prerequisiteNote": "Plant and animal cell structure: nucleus (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch01-st2",
+   "chapterId": "ib-g9-science-ch01",
+   "order": 2,
+   "name": "Mitosis and the cell cycle: growth and repair",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-science-ch01-st1"
+   ],
+   "prerequisiteNote": "Chromosomes and the nucleus",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch01-st3",
+   "chapterId": "ib-g9-science-ch01",
+   "order": 3,
+   "name": "Meiosis and the formation of gametes",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-science-ch01-st2"
+   ],
+   "prerequisiteNote": "Mitosis; chromosome number",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch01-st4",
+   "chapterId": "ib-g9-science-ch01",
+   "order": 4,
+   "name": "Stem cells and cell differentiation",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-science-ch01-st2",
+    "ib-g8-science-ch02-st4"
+   ],
+   "prerequisiteNote": "Mitosis; specialised cells (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch02-st1",
+   "chapterId": "ib-g9-science-ch02",
+   "order": 1,
+   "name": "Alleles, genotype and phenotype: dominant and recessive",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-science-ch01-st1"
+   ],
+   "prerequisiteNote": "DNA, genes and chromosomes",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch02-st2",
+   "chapterId": "ib-g9-science-ch02",
+   "order": 2,
+   "name": "Monohybrid crosses with Punnett squares and probability ratios",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-science-ch02-st1",
+    "ib-g8-maths-ch12-st2"
+   ],
+   "prerequisiteNote": "Alleles; probability from sample spaces (MYP 3 maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch02-st3",
+   "chapterId": "ib-g9-science-ch02",
+   "order": 3,
+   "name": "Sex determination and sex-linked inheritance",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-science-ch01-st3",
+    "ib-g9-science-ch02-st2"
+   ],
+   "prerequisiteNote": "Meiosis; Punnett squares",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch02-st4",
+   "chapterId": "ib-g9-science-ch02",
+   "order": 4,
+   "name": "Pedigree charts and inherited disorders",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-science-ch02-st2"
+   ],
+   "prerequisiteNote": "Monohybrid crosses",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch02-st5",
+   "chapterId": "ib-g9-science-ch02",
+   "order": 5,
+   "name": "Variation: continuous and discontinuous, genetic and environmental",
+   "weight": "L",
+   "teachingPeriods": 1,
+   "prerequisiteIds": [
+    "ib-g9-science-ch02-st1",
+    "ib-g8-maths-ch11-st2"
+   ],
+   "prerequisiteNote": "Alleles; bar charts and histograms",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch03-st1",
+   "chapterId": "ib-g9-science-ch03",
+   "order": 1,
+   "name": "Homeostasis and negative feedback",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-science-ch04-st1"
+   ],
+   "prerequisiteNote": "Body systems working together (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch03-st2",
+   "chapterId": "ib-g9-science-ch03",
+   "order": 2,
+   "name": "The nervous system: neurones, synapses and reflex arcs",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-science-ch02-st4",
+    "ib-g9-science-ch03-st1"
+   ],
+   "prerequisiteNote": "Specialised cells; homeostasis",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch03-st3",
+   "chapterId": "ib-g9-science-ch03",
+   "order": 3,
+   "name": "The endocrine system and control of blood glucose",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-science-ch03-st1",
+    "ib-g8-science-ch03-st2"
+   ],
+   "prerequisiteNote": "Homeostasis and negative feedback; digestion of carbohydrates",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch03-st4",
+   "chapterId": "ib-g9-science-ch03",
+   "order": 4,
+   "name": "Thermoregulation and water balance by the kidneys",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-science-ch03-st1",
+    "ib-g8-science-ch02-st5"
+   ],
+   "prerequisiteNote": "Negative feedback; osmosis (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch04-st1",
+   "chapterId": "ib-g9-science-ch04",
+   "order": 1,
+   "name": "Protons, neutrons and electrons; atomic and mass number",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-science-ch07-st1"
+   ],
+   "prerequisiteNote": "Atoms and elements (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch04-st2",
+   "chapterId": "ib-g9-science-ch04",
+   "order": 2,
+   "name": "Isotopes and relative atomic mass",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-science-ch04-st1"
+   ],
+   "prerequisiteNote": "Atomic and mass number; weighted mean",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch04-st3",
+   "chapterId": "ib-g9-science-ch04",
+   "order": 3,
+   "name": "Electron arrangement in shells",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-science-ch04-st1"
+   ],
+   "prerequisiteNote": "Protons, neutrons and electrons",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch04-st4",
+   "chapterId": "ib-g9-science-ch04",
+   "order": 4,
+   "name": "Groups and periods: trends in group 1 and group 17",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-science-ch04-st3",
+    "ib-g8-science-ch07-st2"
+   ],
+   "prerequisiteNote": "Electron arrangement; periodic table metals and non-metals (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch04-st5",
+   "chapterId": "ib-g9-science-ch04",
+   "order": 5,
+   "name": "Development of the atomic model and the periodic table",
+   "weight": "L",
+   "teachingPeriods": 1,
+   "prerequisiteIds": [
+    "ib-g9-science-ch04-st1"
+   ],
+   "prerequisiteNote": "Atomic structure",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch05-st1",
+   "chapterId": "ib-g9-science-ch05",
+   "order": 1,
+   "name": "Ionic bonding and dot-and-cross diagrams",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-science-ch04-st3",
+    "ib-g9-science-ch04-st4"
+   ],
+   "prerequisiteNote": "Electron shells; group trends",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch05-st2",
+   "chapterId": "ib-g9-science-ch05",
+   "order": 2,
+   "name": "Covalent bonding in simple molecules",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-science-ch04-st3"
+   ],
+   "prerequisiteNote": "Electron shells; non-metals",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch05-st3",
+   "chapterId": "ib-g9-science-ch05",
+   "order": 3,
+   "name": "Giant ionic, giant covalent and simple molecular structures and properties",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-science-ch05-st1",
+    "ib-g9-science-ch05-st2",
+    "ib-g8-science-ch06-st1"
+   ],
+   "prerequisiteNote": "Ionic and covalent bonding; particle model (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch05-st4",
+   "chapterId": "ib-g9-science-ch05",
+   "order": 4,
+   "name": "Metallic bonding and properties of metals and alloys",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-science-ch04-st3"
+   ],
+   "prerequisiteNote": "Electron arrangement; metals",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch06-st1",
+   "chapterId": "ib-g9-science-ch06",
+   "order": 1,
+   "name": "Writing formulae and balancing symbol equations",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-science-ch05-st1",
+    "ib-g8-science-ch08-st2"
+   ],
+   "prerequisiteNote": "Ionic formulae; conservation of mass (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch06-st2",
+   "chapterId": "ib-g9-science-ch06",
+   "order": 2,
+   "name": "State symbols and types of reaction: synthesis, decomposition, displacement",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-science-ch06-st1"
+   ],
+   "prerequisiteNote": "Balanced equations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch06-st3",
+   "chapterId": "ib-g9-science-ch06",
+   "order": 3,
+   "name": "Reactivity series and displacement reactions",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-science-ch06-st2",
+    "ib-g8-science-ch08-st5"
+   ],
+   "prerequisiteNote": "Reactions of metals (MYP 3); displacement",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch06-st4",
+   "chapterId": "ib-g9-science-ch06",
+   "order": 4,
+   "name": "Relative formula mass and percentage composition",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-science-ch04-st2",
+    "ib-g8-maths-ch03-st1"
+   ],
+   "prerequisiteNote": "Relative atomic mass; percentages (MYP 3 maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch07-st1",
+   "chapterId": "ib-g9-science-ch07",
+   "order": 1,
+   "name": "Measuring rate of reaction from mass loss and gas volume",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-science-ch06-st1",
+    "ib-g8-maths-ch06-st3"
+   ],
+   "prerequisiteNote": "Balanced equations; gradient of a graph (MYP 3 maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch07-st2",
+   "chapterId": "ib-g9-science-ch07",
+   "order": 2,
+   "name": "Collision theory and activation energy",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-science-ch06-st1",
+    "ib-g8-science-ch08-st4"
+   ],
+   "prerequisiteNote": "Particle model; exothermic and endothermic (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch07-st3",
+   "chapterId": "ib-g9-science-ch07",
+   "order": 3,
+   "name": "Factors affecting rate: temperature, concentration, surface area, catalysts",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-science-ch07-st2",
+    "ib-g8-science-ch01-st2"
+   ],
+   "prerequisiteNote": "Collision theory; controlling variables",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch07-st4",
+   "chapterId": "ib-g9-science-ch07",
+   "order": 4,
+   "name": "Interpreting rate graphs and calculating mean rate",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-science-ch07-st1"
+   ],
+   "prerequisiteNote": "Measuring rate; gradient",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch08-st1",
+   "chapterId": "ib-g9-science-ch08",
+   "order": 1,
+   "name": "Scalars and vectors: distance, displacement, speed and velocity",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-science-ch10-st2"
+   ],
+   "prerequisiteNote": "Speed and distance-time graphs (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch08-st2",
+   "chapterId": "ib-g9-science-ch08",
+   "order": 2,
+   "name": "Acceleration and velocity-time graphs",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-science-ch08-st1",
+    "ib-g9-maths-ch07-st1"
+   ],
+   "prerequisiteNote": "Velocity; gradient of a line",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch08-st3",
+   "chapterId": "ib-g9-science-ch08",
+   "order": 3,
+   "name": "Distance travelled from the area under a velocity-time graph",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-science-ch08-st2",
+    "ib-g8-maths-ch09-st1"
+   ],
+   "prerequisiteNote": "Velocity-time graphs; area of trapezium",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch08-st4",
+   "chapterId": "ib-g9-science-ch08",
+   "order": 4,
+   "name": "Equations of motion for uniform acceleration",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-science-ch08-st2",
+    "ib-g9-maths-ch04-st2"
+   ],
+   "prerequisiteNote": "Acceleration; rearranging formulae",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch09-st1",
+   "chapterId": "ib-g9-science-ch09",
+   "order": 1,
+   "name": "Resultant forces and free-body diagrams",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-science-ch10-st3"
+   ],
+   "prerequisiteNote": "Balanced and unbalanced forces (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch09-st2",
+   "chapterId": "ib-g9-science-ch09",
+   "order": 2,
+   "name": "Newton's first and second laws: F = ma",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-science-ch09-st1",
+    "ib-g9-science-ch08-st2"
+   ],
+   "prerequisiteNote": "Resultant force; acceleration",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch09-st3",
+   "chapterId": "ib-g9-science-ch09",
+   "order": 3,
+   "name": "Newton's third law and interaction pairs",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-science-ch09-st1"
+   ],
+   "prerequisiteNote": "Types of force",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch09-st4",
+   "chapterId": "ib-g9-science-ch09",
+   "order": 4,
+   "name": "Friction, air resistance and terminal velocity",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-science-ch09-st2",
+    "ib-g9-science-ch08-st2"
+   ],
+   "prerequisiteNote": "Newton's second law; velocity-time graphs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch09-st5",
+   "chapterId": "ib-g9-science-ch09",
+   "order": 5,
+   "name": "Momentum and stopping distances in road safety",
+   "weight": "L",
+   "teachingPeriods": 1,
+   "prerequisiteIds": [
+    "ib-g9-science-ch09-st2"
+   ],
+   "prerequisiteNote": "F = ma; speed",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch10-st1",
+   "chapterId": "ib-g9-science-ch10",
+   "order": 1,
+   "name": "Transverse and longitudinal waves",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-science-ch11-st1"
+   ],
+   "prerequisiteNote": "Energy transfer (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch10-st2",
+   "chapterId": "ib-g9-science-ch10",
+   "order": 2,
+   "name": "Wave quantities: amplitude, wavelength, frequency, period and v = fλ",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-science-ch10-st1",
+    "ib-g9-maths-ch02-st3"
+   ],
+   "prerequisiteNote": "Wave types; standard form",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch10-st3",
+   "chapterId": "ib-g9-science-ch10",
+   "order": 3,
+   "name": "The electromagnetic spectrum: order, uses and dangers",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-science-ch10-st2"
+   ],
+   "prerequisiteNote": "Wave equation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch10-st4",
+   "chapterId": "ib-g9-science-ch10",
+   "order": 4,
+   "name": "Wave behaviour: reflection, refraction and diffraction of water waves",
+   "weight": "L",
+   "teachingPeriods": 1,
+   "prerequisiteIds": [
+    "ib-g9-science-ch10-st2"
+   ],
+   "prerequisiteNote": "Wave quantities",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch11-st1",
+   "chapterId": "ib-g9-science-ch11",
+   "order": 1,
+   "name": "Reflection of light and plane mirrors",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-maths-ch07-st1"
+   ],
+   "prerequisiteNote": "Angle facts; protractor use (MYP 3 maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch11-st2",
+   "chapterId": "ib-g9-science-ch11",
+   "order": 2,
+   "name": "Refraction, Snell's law and total internal reflection",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-science-ch11-st1",
+    "ib-g9-maths-ch09-st1"
+   ],
+   "prerequisiteNote": "Reflection; sine ratio",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch11-st3",
+   "chapterId": "ib-g9-science-ch11",
+   "order": 3,
+   "name": "Lenses and image formation",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-science-ch11-st2"
+   ],
+   "prerequisiteNote": "Refraction",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch11-st4",
+   "chapterId": "ib-g9-science-ch11",
+   "order": 4,
+   "name": "Sound waves: pitch, loudness, speed of sound and echoes",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-science-ch10-st1",
+    "ib-g8-science-ch10-st2"
+   ],
+   "prerequisiteNote": "Longitudinal waves; speed equation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch12-st1",
+   "chapterId": "ib-g9-science-ch12",
+   "order": 1,
+   "name": "Magnets, magnetic materials and field patterns",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-science-ch12-st5"
+   ],
+   "prerequisiteNote": "Magnets (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch12-st2",
+   "chapterId": "ib-g9-science-ch12",
+   "order": 2,
+   "name": "Magnetic field of a current: solenoids and electromagnets",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-science-ch12-st1",
+    "ib-g8-science-ch12-st2"
+   ],
+   "prerequisiteNote": "Magnetic fields; electric current",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch12-st3",
+   "chapterId": "ib-g9-science-ch12",
+   "order": 3,
+   "name": "The motor effect and simple DC motors",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-science-ch12-st2",
+    "ib-g9-science-ch09-st1"
+   ],
+   "prerequisiteNote": "Electromagnets; forces",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-science-ch12-st4",
+   "chapterId": "ib-g9-science-ch12",
+   "order": 4,
+   "name": "Uses of electromagnets: relays, bells and loudspeakers",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-science-ch12-st2"
+   ],
+   "prerequisiteNote": "Electromagnets",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

@@ -1,0 +1,932 @@
+{
+  "subjectId": "cambridge-g11-accountancy",
+  "chapters": [
+    {
+      "name": "The Accounting System and Double-Entry Bookkeeping",
+      "subtopics": [
+        {
+          "name": "Purpose of accounting and users of financial information",
+          "weight": "L",
+          "prereq": [],
+          "note": "Basic business vocabulary: income, expenses, profit (IGCSE Accounting/Business, if taken)"
+        },
+        {
+          "name": "The accounting equation: assets, liabilities and capital",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-accountancy-ch01-st1"
+          ],
+          "note": "Addition and subtraction of balances; idea of ownership"
+        },
+        {
+          "name": "Double-entry rules: debits and credits in the ledger",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-accountancy-ch01-st2"
+          ],
+          "note": "The accounting equation"
+        },
+        {
+          "name": "Recording cash and credit transactions in ledger accounts",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch01-st3"
+          ],
+          "note": "Double-entry rules"
+        }
+      ]
+    },
+    {
+      "name": "Books of Prime Entry",
+      "subtopics": [
+        {
+          "name": "Sales and purchases journals and returns journals",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch01-st4"
+          ],
+          "note": "Credit transactions and double entry"
+        },
+        {
+          "name": "Three-column cash book with discounts",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch01-st4"
+          ],
+          "note": "Cash and bank ledger accounts"
+        },
+        {
+          "name": "Petty cash book and the imprest system",
+          "weight": "L",
+          "prereq": [
+            "cambridge-g11-accountancy-ch02-st2"
+          ],
+          "note": "Cash book entries"
+        },
+        {
+          "name": "The general journal: opening entries, non-routine items",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch01-st3"
+          ],
+          "note": "Double-entry rules"
+        }
+      ]
+    },
+    {
+      "name": "Balancing Accounts and the Trial Balance",
+      "subtopics": [
+        {
+          "name": "Balancing off ledger accounts",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch01-st4"
+          ],
+          "note": "Ledger posting and arithmetic of balances"
+        },
+        {
+          "name": "Preparing a trial balance",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-accountancy-ch03-st1"
+          ],
+          "note": "Balancing accounts; debit vs credit balances"
+        },
+        {
+          "name": "Limitations of the trial balance",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch03-st2"
+          ],
+          "note": "Purpose of a trial balance"
+        }
+      ]
+    },
+    {
+      "name": "Accounting Principles and Concepts",
+      "subtopics": [
+        {
+          "name": "Going concern, consistency, prudence and accruals (matching)",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-accountancy-ch01-st1"
+          ],
+          "note": "Users of financial information"
+        },
+        {
+          "name": "Business entity, duality, money measurement, historical cost",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch04-st1"
+          ],
+          "note": "The accounting equation"
+        },
+        {
+          "name": "Materiality, realisation and substance over form",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch04-st1"
+          ],
+          "note": "Accounting concepts: prudence and accruals"
+        },
+        {
+          "name": "Qualitative characteristics: relevance and faithful representation",
+          "weight": "L",
+          "prereq": [
+            "cambridge-g11-accountancy-ch04-st3"
+          ],
+          "note": "Purpose of financial statements"
+        }
+      ]
+    },
+    {
+      "name": "Introduction to Financial Statements of a Sole Trader",
+      "subtopics": [
+        {
+          "name": "Capital and revenue expenditure and receipts",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch04-st1"
+          ],
+          "note": "Accruals and consistency concepts"
+        },
+        {
+          "name": "Income statement: gross profit and profit for the year",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch03-st2"
+          ],
+          "note": "Trial balance; cost of sales calculation"
+        },
+        {
+          "name": "Statement of financial position: current and non-current items",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-accountancy-ch05-st2",
+            "cambridge-g11-accountancy-ch01-st2"
+          ],
+          "note": "The accounting equation"
+        },
+        {
+          "name": "Drawings and the capital account",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch05-st3"
+          ],
+          "note": "Business entity concept"
+        }
+      ]
+    },
+    {
+      "name": "Accruals and Prepayments",
+      "subtopics": [
+        {
+          "name": "Accrued and prepaid expenses in ledger accounts",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-accountancy-ch04-st1",
+            "cambridge-g11-accountancy-ch05-st2"
+          ],
+          "note": "Accruals (matching) concept"
+        },
+        {
+          "name": "Accrued and prepaid income",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch06-st1"
+          ],
+          "note": "Accrued and prepaid expenses"
+        },
+        {
+          "name": "Adjusting the financial statements for accruals and prepayments",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch06-st2",
+            "cambridge-g11-accountancy-ch05-st3"
+          ],
+          "note": "Income statement and SOFP layout"
+        }
+      ]
+    },
+    {
+      "name": "Irrecoverable Debts and Allowance for Doubtful Debts",
+      "subtopics": [
+        {
+          "name": "Writing off irrecoverable debts and recoveries",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch01-st4"
+          ],
+          "note": "Trade receivables ledger"
+        },
+        {
+          "name": "Creating and adjusting an allowance for doubtful debts",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-accountancy-ch07-st1",
+            "cambridge-g11-accountancy-ch04-st1"
+          ],
+          "note": "Prudence concept; percentages"
+        },
+        {
+          "name": "Presenting receivables net of allowance in financial statements",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch07-st2",
+            "cambridge-g11-accountancy-ch05-st3"
+          ],
+          "note": "SOFP current assets"
+        }
+      ]
+    },
+    {
+      "name": "Non-current Assets and Depreciation",
+      "subtopics": [
+        {
+          "name": "Causes of depreciation and the straight-line method",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-accountancy-ch05-st1"
+          ],
+          "note": "Capital vs revenue expenditure; percentages"
+        },
+        {
+          "name": "Reducing-balance and revaluation methods",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch08-st1"
+          ],
+          "note": "Straight-line depreciation; compound percentages (Maths)"
+        },
+        {
+          "name": "Ledger accounts for provision for depreciation",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch08-st1"
+          ],
+          "note": "Double-entry rules"
+        },
+        {
+          "name": "Disposal of non-current assets: profit or loss on disposal",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-accountancy-ch08-st3"
+          ],
+          "note": "Provision for depreciation account"
+        },
+        {
+          "name": "Non-current asset register and IAS 16 basics",
+          "weight": "L",
+          "prereq": [
+            "cambridge-g11-accountancy-ch08-st4"
+          ],
+          "note": "Disposal accounts"
+        }
+      ]
+    },
+    {
+      "name": "Inventory Valuation",
+      "subtopics": [
+        {
+          "name": "Lower of cost and net realisable value",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch04-st1"
+          ],
+          "note": "Prudence concept"
+        },
+        {
+          "name": "FIFO and AVCO methods of inventory valuation",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-accountancy-ch09-st1"
+          ],
+          "note": "Cost of sales calculation"
+        },
+        {
+          "name": "Effect of inventory valuation on profit",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch09-st2",
+            "cambridge-g11-accountancy-ch05-st2"
+          ],
+          "note": "Gross profit calculation"
+        }
+      ]
+    },
+    {
+      "name": "Bank Reconciliation Statements",
+      "subtopics": [
+        {
+          "name": "Reasons for differences between cash book and bank statement",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch02-st2"
+          ],
+          "note": "Three-column cash book"
+        },
+        {
+          "name": "Updating the cash book for bank charges, credit transfers and dishonoured cheques",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch10-st1"
+          ],
+          "note": "Cash book entries"
+        },
+        {
+          "name": "Preparing a bank reconciliation statement",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-accountancy-ch10-st2"
+          ],
+          "note": "Unpresented cheques and outstanding lodgements"
+        }
+      ]
+    },
+    {
+      "name": "Control Accounts",
+      "subtopics": [
+        {
+          "name": "Purpose of sales and purchases ledger control accounts",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch02-st1"
+          ],
+          "note": "Books of prime entry"
+        },
+        {
+          "name": "Preparing control accounts from given information",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch11-st1"
+          ],
+          "note": "Sales and purchases journals; cash book totals"
+        },
+        {
+          "name": "Contra entries and reconciling control accounts with ledgers",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch11-st2"
+          ],
+          "note": "Control account preparation"
+        }
+      ]
+    },
+    {
+      "name": "Correction of Errors and Suspense Accounts",
+      "subtopics": [
+        {
+          "name": "Errors not revealed by the trial balance",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch03-st3"
+          ],
+          "note": "Limitations of the trial balance"
+        },
+        {
+          "name": "Journal entries to correct errors",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch12-st1",
+            "cambridge-g11-accountancy-ch02-st4"
+          ],
+          "note": "The general journal"
+        },
+        {
+          "name": "Suspense accounts and their clearance",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-accountancy-ch12-st2"
+          ],
+          "note": "Trial balance totals and correction journals"
+        },
+        {
+          "name": "Effect of corrections on profit and the statement of financial position",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch12-st3",
+            "cambridge-g11-accountancy-ch05-st2"
+          ],
+          "note": "Income statement structure"
+        }
+      ]
+    },
+    {
+      "name": "Incomplete Records",
+      "subtopics": [
+        {
+          "name": "Statement of affairs and profit from change in capital",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch05-st3"
+          ],
+          "note": "Accounting equation; capital account"
+        },
+        {
+          "name": "Reconstructing accounts: receivables, payables and cash",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-accountancy-ch13-st1",
+            "cambridge-g11-accountancy-ch11-st2"
+          ],
+          "note": "Control account logic"
+        },
+        {
+          "name": "Mark-up and margin to find missing figures",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch13-st2"
+          ],
+          "note": "Percentages; gross profit calculation"
+        },
+        {
+          "name": "Preparing financial statements from incomplete records",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch13-st3"
+          ],
+          "note": "Sole trader financial statements"
+        }
+      ]
+    },
+    {
+      "name": "Financial Statements of Sole Traders with Adjustments",
+      "subtopics": [
+        {
+          "name": "Year-end adjustments from a trial balance",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-accountancy-ch06-st3",
+            "cambridge-g11-accountancy-ch07-st3",
+            "cambridge-g11-accountancy-ch08-st3"
+          ],
+          "note": "Accruals, allowance for doubtful debts, depreciation"
+        },
+        {
+          "name": "Full income statement and statement of financial position",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-accountancy-ch14-st1",
+            "cambridge-g11-accountancy-ch09-st3"
+          ],
+          "note": "Inventory valuation; SOFP layout"
+        },
+        {
+          "name": "Calculating and interpreting profit and working capital",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch14-st2"
+          ],
+          "note": "Current assets and current liabilities"
+        }
+      ]
+    },
+    {
+      "name": "Partnership Accounts",
+      "subtopics": [
+        {
+          "name": "Partnership agreement and the Partnership Act 1890 provisions",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch04-st2"
+          ],
+          "note": "Business entity concept"
+        },
+        {
+          "name": "Appropriation account: interest on capital and drawings, salaries, profit share",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-accountancy-ch15-st1",
+            "cambridge-g11-accountancy-ch14-st2"
+          ],
+          "note": "Profit for the year calculation"
+        },
+        {
+          "name": "Capital and current accounts of partners",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch15-st2"
+          ],
+          "note": "Capital account and drawings (sole trader)"
+        },
+        {
+          "name": "Partnership statement of financial position",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch15-st3"
+          ],
+          "note": "SOFP layout"
+        }
+      ]
+    },
+    {
+      "name": "Clubs and Societies (Not-for-profit Organisations)",
+      "subtopics": [
+        {
+          "name": "Receipts and payments account",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch02-st2"
+          ],
+          "note": "Cash book"
+        },
+        {
+          "name": "Subscriptions accounts with arrears and advances",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch16-st1",
+            "cambridge-g11-accountancy-ch06-st2"
+          ],
+          "note": "Accrued and prepaid income"
+        },
+        {
+          "name": "Income and expenditure account and accumulated fund",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-accountancy-ch16-st2",
+            "cambridge-g11-accountancy-ch14-st2"
+          ],
+          "note": "Income statement format"
+        },
+        {
+          "name": "Trading activities of clubs (bar or café profit)",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch16-st3"
+          ],
+          "note": "Gross profit calculation"
+        }
+      ]
+    },
+    {
+      "name": "Manufacturing Accounts",
+      "subtopics": [
+        {
+          "name": "Prime cost, factory overheads and cost of production",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch05-st2"
+          ],
+          "note": "Cost of sales; direct vs indirect costs"
+        },
+        {
+          "name": "Inventories of raw materials, work in progress and finished goods",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch17-st1",
+            "cambridge-g11-accountancy-ch09-st2"
+          ],
+          "note": "Inventory valuation"
+        },
+        {
+          "name": "Manufacturing profit and unrealised profit on inventory",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch17-st2"
+          ],
+          "note": "Mark-up and margin"
+        }
+      ]
+    },
+    {
+      "name": "Limited Company Accounts",
+      "subtopics": [
+        {
+          "name": "Features of limited companies: limited liability, shares and debentures",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch15-st1"
+          ],
+          "note": "Partnership vs sole trader ownership"
+        },
+        {
+          "name": "Equity: ordinary and preference shares, reserves",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch18-st1"
+          ],
+          "note": "Capital account (sole trader)"
+        },
+        {
+          "name": "Income statement and statement of financial position of a limited company",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-accountancy-ch18-st2",
+            "cambridge-g11-accountancy-ch14-st2"
+          ],
+          "note": "Sole trader financial statements"
+        },
+        {
+          "name": "Statement of changes in equity and dividends",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch18-st3"
+          ],
+          "note": "Reserves and retained earnings"
+        }
+      ]
+    },
+    {
+      "name": "Share Issues and Capital Reserves",
+      "subtopics": [
+        {
+          "name": "Issue of shares at par and at a premium",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch18-st2"
+          ],
+          "note": "Equity and share capital"
+        },
+        {
+          "name": "Rights issues and bonus issues",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-accountancy-ch19-st1"
+          ],
+          "note": "Share premium; reserves"
+        },
+        {
+          "name": "Capital and revenue reserves; uses of share premium",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch19-st2",
+            "cambridge-g11-accountancy-ch18-st4"
+          ],
+          "note": "Statement of changes in equity"
+        }
+      ]
+    },
+    {
+      "name": "Ratio Analysis: Profitability",
+      "subtopics": [
+        {
+          "name": "Gross margin, profit margin and mark-up",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-accountancy-ch14-st3",
+            "cambridge-g11-accountancy-ch13-st3"
+          ],
+          "note": "Mark-up and margin"
+        },
+        {
+          "name": "Return on capital employed (ROCE)",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-accountancy-ch20-st1",
+            "cambridge-g11-accountancy-ch18-st3"
+          ],
+          "note": "Capital employed from the SOFP"
+        },
+        {
+          "name": "Expenses to revenue and other profitability ratios",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch20-st1"
+          ],
+          "note": "Percentages"
+        }
+      ]
+    },
+    {
+      "name": "Ratio Analysis: Liquidity and Efficiency",
+      "subtopics": [
+        {
+          "name": "Current ratio and liquid (acid test) ratio",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-accountancy-ch14-st3"
+          ],
+          "note": "Working capital"
+        },
+        {
+          "name": "Trade receivables and trade payables turnover in days",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch21-st1"
+          ],
+          "note": "Ratio calculation; days in a year"
+        },
+        {
+          "name": "Inventory turnover and non-current asset turnover",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch21-st2",
+            "cambridge-g11-accountancy-ch09-st3"
+          ],
+          "note": "Cost of sales and average inventory"
+        },
+        {
+          "name": "Gearing ratio at AS level",
+          "weight": "L",
+          "prereq": [
+            "cambridge-g11-accountancy-ch21-st1",
+            "cambridge-g11-accountancy-ch18-st2"
+          ],
+          "note": "Debentures and equity"
+        }
+      ]
+    },
+    {
+      "name": "Interpretation and Communication of Accounting Information",
+      "subtopics": [
+        {
+          "name": "Interpreting ratios and comparing with previous years or competitors",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-accountancy-ch20-st2",
+            "cambridge-g11-accountancy-ch21-st3"
+          ],
+          "note": "Ratio calculations"
+        },
+        {
+          "name": "Stakeholders' interests in financial information",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch22-st1",
+            "cambridge-g11-accountancy-ch01-st1"
+          ],
+          "note": "Users of financial information"
+        },
+        {
+          "name": "Limitations of ratio analysis and financial statements",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch22-st1"
+          ],
+          "note": "Historical cost concept"
+        }
+      ]
+    },
+    {
+      "name": "Costing: Materials and Labour",
+      "subtopics": [
+        {
+          "name": "Classification of costs: direct, indirect, fixed, variable",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-accountancy-ch17-st1"
+          ],
+          "note": "Prime cost and overheads"
+        },
+        {
+          "name": "Valuing material issues: FIFO and AVCO stores ledger",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch09-st2"
+          ],
+          "note": "FIFO and AVCO inventory valuation"
+        },
+        {
+          "name": "Labour remuneration: time rates, piece rates and bonus schemes",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch23-st1"
+          ],
+          "note": "Percentages and wages calculations"
+        }
+      ]
+    },
+    {
+      "name": "Absorption Costing",
+      "subtopics": [
+        {
+          "name": "Allocation and apportionment of overheads to cost centres",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-accountancy-ch23-st1"
+          ],
+          "note": "Classification of costs; ratios and proportions"
+        },
+        {
+          "name": "Reapportionment of service department costs",
+          "weight": "L",
+          "prereq": [
+            "cambridge-g11-accountancy-ch24-st1"
+          ],
+          "note": "Overhead apportionment"
+        },
+        {
+          "name": "Overhead absorption rates: labour-hour and machine-hour",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-accountancy-ch24-st2"
+          ],
+          "note": "Production cost centres"
+        },
+        {
+          "name": "Under- and over-absorption of overheads",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch24-st3"
+          ],
+          "note": "Overhead absorption rates"
+        },
+        {
+          "name": "Pricing using absorption cost-plus",
+          "weight": "L",
+          "prereq": [
+            "cambridge-g11-accountancy-ch24-st3",
+            "cambridge-g11-accountancy-ch20-st1"
+          ],
+          "note": "Mark-up on cost"
+        }
+      ]
+    },
+    {
+      "name": "Marginal Costing and Break-even Analysis",
+      "subtopics": [
+        {
+          "name": "Contribution and contribution per unit",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-accountancy-ch23-st1"
+          ],
+          "note": "Fixed vs variable costs"
+        },
+        {
+          "name": "Break-even point, margin of safety and target profit",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-accountancy-ch25-st1"
+          ],
+          "note": "Contribution per unit"
+        },
+        {
+          "name": "Break-even charts and limitations of CVP analysis",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch25-st2"
+          ],
+          "note": "Drawing linear graphs (Maths)"
+        }
+      ]
+    },
+    {
+      "name": "Decision Making Using Marginal Costing",
+      "subtopics": [
+        {
+          "name": "Special orders and pricing decisions",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-accountancy-ch25-st1"
+          ],
+          "note": "Contribution analysis"
+        },
+        {
+          "name": "Make or buy decisions",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch26-st1"
+          ],
+          "note": "Relevant costs and contribution"
+        },
+        {
+          "name": "Limiting factor analysis: ranking by contribution per unit of scarce resource",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-accountancy-ch25-st1"
+          ],
+          "note": "Contribution per unit"
+        },
+        {
+          "name": "Non-financial factors in decision making",
+          "weight": "L",
+          "prereq": [
+            "cambridge-g11-accountancy-ch26-st2"
+          ],
+          "note": "Contribution-based decisions"
+        }
+      ]
+    },
+    {
+      "name": "Comparing Absorption and Marginal Costing",
+      "subtopics": [
+        {
+          "name": "Inventory valuation under absorption and marginal costing",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch24-st3",
+            "cambridge-g11-accountancy-ch25-st1"
+          ],
+          "note": "Absorption rates; contribution"
+        },
+        {
+          "name": "Reconciling profits under the two methods",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-accountancy-ch27-st1"
+          ],
+          "note": "Fixed overheads in opening and closing inventory"
+        },
+        {
+          "name": "Advantages and limitations of each costing method",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-accountancy-ch27-st2"
+          ],
+          "note": "Absorption and marginal costing principles"
+        }
+      ]
+    }
+  ]
+}

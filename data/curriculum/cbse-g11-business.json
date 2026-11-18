@@ -1,0 +1,732 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cbse-g11-business",
+  "board": "cbse",
+  "grade": 11,
+  "stream": "commerce",
+  "slug": "business",
+  "name": "Business Studies",
+  "programme": "CBSE Class 11 Business Studies (054)",
+  "textbook": "NCERT Business Studies XI (054) – 10 units (Ch 7 Formation of a Company not assessed)",
+  "examPattern": "School-conducted annual exam (no CBSE SQP for Class XI); 3 h; same marks split and question design as Class XII; 50% competency-based, 20% MCQ, 30% short/long answer (Circular 30/2024). Theory 80 + Project 20. Assumed 34 questions (XII template: 20×1, 4×3, 6×4, 4×6).",
+  "chapterCount": 10,
+  "questionTarget": 902
+ },
+ "items": [
+  {
+   "id": "cbse-g11-business-ch01",
+   "subjectId": "cbse-g11-business",
+   "order": 1,
+   "name": "Business, Trade and Commerce",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g11-business-ch01-st1",
+    "cbse-g11-business-ch01-st2",
+    "cbse-g11-business-ch01-st3",
+    "cbse-g11-business-ch01-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-business-ch02",
+   "subjectId": "cbse-g11-business",
+   "order": 2,
+   "name": "Forms of Business Organisation",
+   "teachingPeriods": 24,
+   "subtopicIds": [
+    "cbse-g11-business-ch02-st1",
+    "cbse-g11-business-ch02-st2",
+    "cbse-g11-business-ch02-st3",
+    "cbse-g11-business-ch02-st4",
+    "cbse-g11-business-ch02-st5"
+   ]
+  },
+  {
+   "id": "cbse-g11-business-ch03",
+   "subjectId": "cbse-g11-business",
+   "order": 3,
+   "name": "Private, Public and Global Enterprises",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g11-business-ch03-st1",
+    "cbse-g11-business-ch03-st2",
+    "cbse-g11-business-ch03-st3",
+    "cbse-g11-business-ch03-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-business-ch04",
+   "subjectId": "cbse-g11-business",
+   "order": 4,
+   "name": "Business Services",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g11-business-ch04-st1",
+    "cbse-g11-business-ch04-st2",
+    "cbse-g11-business-ch04-st3",
+    "cbse-g11-business-ch04-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-business-ch05",
+   "subjectId": "cbse-g11-business",
+   "order": 5,
+   "name": "Emerging Modes of Business",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "cbse-g11-business-ch05-st1",
+    "cbse-g11-business-ch05-st2",
+    "cbse-g11-business-ch05-st3"
+   ]
+  },
+  {
+   "id": "cbse-g11-business-ch06",
+   "subjectId": "cbse-g11-business",
+   "order": 6,
+   "name": "Social Responsibilities of Business and Business Ethics",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g11-business-ch06-st1",
+    "cbse-g11-business-ch06-st2",
+    "cbse-g11-business-ch06-st3",
+    "cbse-g11-business-ch06-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-business-ch07",
+   "subjectId": "cbse-g11-business",
+   "order": 7,
+   "name": "Sources of Business Finance",
+   "teachingPeriods": 24,
+   "subtopicIds": [
+    "cbse-g11-business-ch07-st1",
+    "cbse-g11-business-ch07-st2",
+    "cbse-g11-business-ch07-st3",
+    "cbse-g11-business-ch07-st4",
+    "cbse-g11-business-ch07-st5"
+   ]
+  },
+  {
+   "id": "cbse-g11-business-ch08",
+   "subjectId": "cbse-g11-business",
+   "order": 8,
+   "name": "Small Business and Enterprises",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g11-business-ch08-st1",
+    "cbse-g11-business-ch08-st2",
+    "cbse-g11-business-ch08-st3",
+    "cbse-g11-business-ch08-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-business-ch09",
+   "subjectId": "cbse-g11-business",
+   "order": 9,
+   "name": "Internal Trade",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g11-business-ch09-st1",
+    "cbse-g11-business-ch09-st2",
+    "cbse-g11-business-ch09-st3",
+    "cbse-g11-business-ch09-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-business-ch10",
+   "subjectId": "cbse-g11-business",
+   "order": 10,
+   "name": "International Business",
+   "teachingPeriods": 19,
+   "subtopicIds": [
+    "cbse-g11-business-ch10-st1",
+    "cbse-g11-business-ch10-st2",
+    "cbse-g11-business-ch10-st3",
+    "cbse-g11-business-ch10-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cbse-g11-business-ch01-st1",
+   "chapterId": "cbse-g11-business-ch01",
+   "order": 1,
+   "name": "History of trade and commerce in India: indigenous banking, trade routes and rise of intermediaries",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Trade and markets in medieval India (Social Science Cl 7-8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch01-st2",
+   "chapterId": "cbse-g11-business-ch01",
+   "order": 2,
+   "name": "Concept, characteristics and objectives of business; business, profession and employment compared",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Economic and non-economic activities (Economics Cl 9 Story of Village Palampur)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch01-st3",
+   "chapterId": "cbse-g11-business-ch01",
+   "order": 3,
+   "name": "Classification of business activities: industry and commerce, trade and auxiliaries to trade",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch01-st2"
+   ],
+   "prerequisiteNote": "Concept of business; primary, secondary and tertiary sectors (Economics Cl 10 Sectors of the Indian Economy)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch01-st4",
+   "chapterId": "cbse-g11-business-ch01",
+   "order": 4,
+   "name": "Business risk: nature and causes; starting a business: basic factors",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch01-st2"
+   ],
+   "prerequisiteNote": "Characteristics of business (uncertainty of returns)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch02-st1",
+   "chapterId": "cbse-g11-business-ch02",
+   "order": 1,
+   "name": "Sole proprietorship and Joint Hindu Family business: features, merits and limitations",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch01-st2"
+   ],
+   "prerequisiteNote": "Concept and objectives of business",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch02-st2",
+   "chapterId": "cbse-g11-business-ch02",
+   "order": 2,
+   "name": "Partnership: features, types of partners and partnerships, registration and partnership deed",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch02-st1"
+   ],
+   "prerequisiteNote": "Sole proprietorship merits and limitations (unlimited liability)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch02-st3",
+   "chapterId": "cbse-g11-business-ch02",
+   "order": 3,
+   "name": "Cooperative societies: features, merits, limitations and types",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch02-st1"
+   ],
+   "prerequisiteNote": "Sole proprietorship; idea of democratic one-member-one-vote",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch02-st4",
+   "chapterId": "cbse-g11-business-ch02",
+   "order": 4,
+   "name": "Joint stock company: features, merits, limitations; private, public and one person company",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch02-st2"
+   ],
+   "prerequisiteNote": "Partnership limitations (limited capital, unlimited liability)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch02-st5",
+   "chapterId": "cbse-g11-business-ch02",
+   "order": 5,
+   "name": "Choice of form of business organisation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch02-st1",
+    "cbse-g11-business-ch02-st2",
+    "cbse-g11-business-ch02-st3",
+    "cbse-g11-business-ch02-st4"
+   ],
+   "prerequisiteNote": "Merits and limitations of each form",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch03-st1",
+   "chapterId": "cbse-g11-business-ch03",
+   "order": 1,
+   "name": "Private sector and public sector; forms of public sector enterprises: departmental undertaking, statutory corporation, government company",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch02-st4"
+   ],
+   "prerequisiteNote": "Joint stock company; government company as a company form",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch03-st2",
+   "chapterId": "cbse-g11-business-ch03",
+   "order": 2,
+   "name": "Changing role of public sector since 1991",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch03-st1"
+   ],
+   "prerequisiteNote": "Forms of public sector enterprises; the 1991 economic reforms (Economics Cl 10 Globalisation)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch03-st3",
+   "chapterId": "cbse-g11-business-ch03",
+   "order": 3,
+   "name": "Global enterprises (MNCs): features",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch03-st1"
+   ],
+   "prerequisiteNote": "Globalisation and MNCs (Economics Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch03-st4",
+   "chapterId": "cbse-g11-business-ch03",
+   "order": 4,
+   "name": "Joint ventures and public private partnership (PPP)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch03-st3"
+   ],
+   "prerequisiteNote": "Global enterprises; partnership concept",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch04-st1",
+   "chapterId": "cbse-g11-business-ch04",
+   "order": 1,
+   "name": "Nature and types of business services",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch01-st3"
+   ],
+   "prerequisiteNote": "Auxiliaries to trade",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch04-st2",
+   "chapterId": "cbse-g11-business-ch04",
+   "order": 2,
+   "name": "Banking: types of banks, functions of commercial banks and e-banking",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch04-st1"
+   ],
+   "prerequisiteNote": "Money and credit, role of banks (Economics Cl 10 Money and Credit)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch04-st3",
+   "chapterId": "cbse-g11-business-ch04",
+   "order": 3,
+   "name": "Insurance: principles of insurance and types (life, fire, marine, health)",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch04-st1",
+    "cbse-g11-business-ch01-st4"
+   ],
+   "prerequisiteNote": "Business risk and its causes",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch04-st4",
+   "chapterId": "cbse-g11-business-ch04",
+   "order": 4,
+   "name": "Communication services: postal and telecom services",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch04-st1"
+   ],
+   "prerequisiteNote": "Types of business services",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch05-st1",
+   "chapterId": "cbse-g11-business-ch05",
+   "order": 1,
+   "name": "E-business: scope, benefits, and e-business vs traditional business",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch01-st3"
+   ],
+   "prerequisiteNote": "Classification of business activities; internet basics",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch05-st2",
+   "chapterId": "cbse-g11-business-ch05",
+   "order": 2,
+   "name": "Online transactions and payment mechanisms; security and safety of e-business",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch05-st1",
+    "cbse-g11-business-ch04-st2"
+   ],
+   "prerequisiteNote": "E-banking and digital payments",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch05-st3",
+   "chapterId": "cbse-g11-business-ch05",
+   "order": 3,
+   "name": "Outsourcing: concept, need and scope (BPO, KPO)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch05-st1"
+   ],
+   "prerequisiteNote": "Business services; specialisation of work",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch06-st1",
+   "chapterId": "cbse-g11-business-ch06",
+   "order": 1,
+   "name": "Concept and need for social responsibility; arguments for and against",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch01-st2"
+   ],
+   "prerequisiteNote": "Objectives of business (social objectives)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch06-st2",
+   "chapterId": "cbse-g11-business-ch06",
+   "order": 2,
+   "name": "Kinds of social responsibility and responsibility towards different interest groups",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch06-st1"
+   ],
+   "prerequisiteNote": "Concept of social responsibility; stakeholders",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch06-st3",
+   "chapterId": "cbse-g11-business-ch06",
+   "order": 3,
+   "name": "Business and environmental protection: causes of pollution and role of business",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch06-st2"
+   ],
+   "prerequisiteNote": "Environmental issues and pollution (Science Cl 8-9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch06-st4",
+   "chapterId": "cbse-g11-business-ch06",
+   "order": 4,
+   "name": "Business ethics: concept and elements",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch06-st1"
+   ],
+   "prerequisiteNote": "Social responsibility; values and fairness",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch07-st1",
+   "chapterId": "cbse-g11-business-ch07",
+   "order": 1,
+   "name": "Business finance: meaning, nature, significance and classification of sources",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch02-st4"
+   ],
+   "prerequisiteNote": "Forms of business organisation (owners' vs borrowed funds)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch07-st2",
+   "chapterId": "cbse-g11-business-ch07",
+   "order": 2,
+   "name": "Owners' funds: equity shares, preference shares and retained earnings",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch07-st1"
+   ],
+   "prerequisiteNote": "Joint stock company; shares and shareholders",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch07-st3",
+   "chapterId": "cbse-g11-business-ch07",
+   "order": 3,
+   "name": "Borrowed funds: debentures, loans from financial institutions, commercial banks, trade credit, public deposits",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch07-st1",
+    "cbse-g11-business-ch04-st2"
+   ],
+   "prerequisiteNote": "Functions of commercial banks; interest as cost of borrowing",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch07-st4",
+   "chapterId": "cbse-g11-business-ch07",
+   "order": 4,
+   "name": "International sources: ADR, GDR, FCCB, commercial banks and international agencies",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch07-st2",
+    "cbse-g11-business-ch03-st3"
+   ],
+   "prerequisiteNote": "Equity shares; global enterprises",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch07-st5",
+   "chapterId": "cbse-g11-business-ch07",
+   "order": 5,
+   "name": "Factors affecting the choice of source of funds",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch07-st2",
+    "cbse-g11-business-ch07-st3"
+   ],
+   "prerequisiteNote": "Merits and limitations of owners' and borrowed funds",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch08-st1",
+   "chapterId": "cbse-g11-business-ch08",
+   "order": 1,
+   "name": "Entrepreneurship development: concept, characteristics and need; Startup India scheme",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch01-st2"
+   ],
+   "prerequisiteNote": "Concept of business; risk-taking in business",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch08-st2",
+   "chapterId": "cbse-g11-business-ch08",
+   "order": 2,
+   "name": "Small scale enterprises as per MSMED Act 2006 and their role in India",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch08-st1"
+   ],
+   "prerequisiteNote": "Concept of entrepreneurship; investment and turnover limits",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch08-st3",
+   "chapterId": "cbse-g11-business-ch08",
+   "order": 3,
+   "name": "Problems of small business and government assistance to MSMEs (NSIC, DIC)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch08-st2",
+    "cbse-g11-business-ch07-st3"
+   ],
+   "prerequisiteNote": "Small scale enterprises; sources of finance",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch08-st4",
+   "chapterId": "cbse-g11-business-ch08",
+   "order": 4,
+   "name": "Intellectual property rights: meaning and types relevant to entrepreneurs",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch08-st1"
+   ],
+   "prerequisiteNote": "Concept of entrepreneurship; idea of innovation and ownership",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch09-st1",
+   "chapterId": "cbse-g11-business-ch09",
+   "order": 1,
+   "name": "Internal trade: meaning and types; services of wholesalers and retailers",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch01-st3"
+   ],
+   "prerequisiteNote": "Classification of trade (internal and external)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch09-st2",
+   "chapterId": "cbse-g11-business-ch09",
+   "order": 2,
+   "name": "Types of retail trade: itinerant and fixed shop retailers",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch09-st1"
+   ],
+   "prerequisiteNote": "Services of retailers",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch09-st3",
+   "chapterId": "cbse-g11-business-ch09",
+   "order": 3,
+   "name": "Large-scale retailers: departmental stores, chain stores and malls",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch09-st2"
+   ],
+   "prerequisiteNote": "Fixed shop retailers",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch09-st4",
+   "chapterId": "cbse-g11-business-ch09",
+   "order": 4,
+   "name": "GST and the role of chambers of commerce and industry in promoting internal trade",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch09-st1",
+    "cbse-g11-accountancy-ch02-st5"
+   ],
+   "prerequisiteNote": "GST basics (Accountancy XI ch 2)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch10-st1",
+   "chapterId": "cbse-g11-business-ch10",
+   "order": 1,
+   "name": "Nature, scope, benefits and modes of entry into international business",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch03-st3"
+   ],
+   "prerequisiteNote": "Global enterprises and joint ventures",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch10-st2",
+   "chapterId": "cbse-g11-business-ch10",
+   "order": 2,
+   "name": "Export-import procedures and documentation",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch10-st1"
+   ],
+   "prerequisiteNote": "Modes of entry; sequence of steps in a trade transaction",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch10-st3",
+   "chapterId": "cbse-g11-business-ch10",
+   "order": 3,
+   "name": "Foreign trade promotion: incentives and organisational support (SEZs, EOUs)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch10-st2"
+   ],
+   "prerequisiteNote": "Export procedure",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-business-ch10-st4",
+   "chapterId": "cbse-g11-business-ch10",
+   "order": 4,
+   "name": "World Trade Organisation (WTO): objectives and role",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-business-ch10-st1"
+   ],
+   "prerequisiteNote": "Globalisation and international trade (Economics Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

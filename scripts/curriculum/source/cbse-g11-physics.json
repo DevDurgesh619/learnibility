@@ -1,0 +1,541 @@
+{
+ "subjectId": "cbse-g11-physics",
+ "chapters": [
+  {
+   "sheetName": "Units and Measurements",
+   "name": "Units and Measurements",
+   "subtopics": [
+    {
+     "name": "The international system of units and significant figures",
+     "weight": "S",
+     "prereq": [
+      "cbse-g9-science-ch03-st1"
+     ],
+     "note": "SI units and unit conversion (Cl 9); standard form for large/small numbers (Cl 8 maths)"
+    },
+    {
+     "name": "Dimensions of physical quantities and dimensional analysis",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-physics-ch01-st1"
+     ],
+     "note": "SI base and derived units; laws of exponents (Cl 8 maths)"
+    },
+    {
+     "name": "Errors in measurement and their propagation",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-physics-ch01-st1"
+     ],
+     "note": "Significant figures; percentages (Cl 7-8 maths)"
+    }
+   ]
+  },
+  {
+   "sheetName": "Motion in a Straight Line",
+   "name": "Motion in a Straight Line",
+   "subtopics": [
+    {
+     "name": "Position, path length, displacement, average and instantaneous velocity",
+     "weight": "S",
+     "prereq": [
+      "cbse-g9-science-ch03-st2"
+     ],
+     "note": "Speed and velocity (Cl 9)"
+    },
+    {
+     "name": "Acceleration and kinematic equations for uniformly accelerated motion",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-physics-ch02-st1",
+      "cbse-g9-science-ch03-st3"
+     ],
+     "note": "Equations of motion (Cl 9); solving quadratic equations (Cl 10 maths)"
+    },
+    {
+     "name": "Position-time and velocity-time graphs; motion under gravity",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-physics-ch02-st2",
+      "cbse-g9-science-ch03-st4"
+     ],
+     "note": "Distance-time and velocity-time graphs (Cl 9); slope and area under a graph"
+    },
+    {
+     "name": "Relative velocity in one dimension",
+     "weight": "L",
+     "prereq": [
+      "cbse-g11-physics-ch02-st1"
+     ],
+     "note": "Displacement and velocity with signs"
+    }
+   ]
+  },
+  {
+   "sheetName": "Motion in a Plane",
+   "name": "Motion in a Plane",
+   "subtopics": [
+    {
+     "name": "Scalars and vectors: addition, resolution and unit vectors",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-physics-ch02-st1"
+     ],
+     "note": "Trigonometric ratios (Cl 10 maths); Displacement as a directed quantity"
+    },
+    {
+     "name": "Motion in a plane with constant acceleration; relative velocity in two dimensions",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-physics-ch03-st1",
+      "cbse-g11-physics-ch02-st2"
+     ],
+     "note": "Vector resolution; Kinematic equations"
+    },
+    {
+     "name": "Projectile motion",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-physics-ch03-st2"
+     ],
+     "note": "Motion in a plane; motion under gravity; trigonometric ratios (Cl 10 maths)"
+    },
+    {
+     "name": "Uniform circular motion and centripetal acceleration",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-physics-ch03-st1",
+      "cbse-g9-science-ch03-st5"
+     ],
+     "note": "Uniform circular motion (Cl 9); vectors"
+    }
+   ]
+  },
+  {
+   "sheetName": "Laws of Motion",
+   "name": "Laws of Motion",
+   "subtopics": [
+    {
+     "name": "Newton's laws of motion, momentum and impulse",
+     "weight": "S",
+     "prereq": [
+      "cbse-g9-science-ch05-st2",
+      "cbse-g9-science-ch05-st3"
+     ],
+     "note": "Newton's laws and conservation of momentum (Cl 9)"
+    },
+    {
+     "name": "Equilibrium of a particle and free-body diagrams; connected bodies",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-physics-ch04-st1",
+      "cbse-g11-physics-ch03-st1"
+     ],
+     "note": "Newton's laws; vector resolution"
+    },
+    {
+     "name": "Friction: static, kinetic and rolling; motion on an inclined plane",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-physics-ch04-st2",
+      "cbse-g9-science-ch05-st4"
+     ],
+     "note": "Friction (Cl 9); free-body diagrams"
+    },
+    {
+     "name": "Dynamics of uniform circular motion: banking of roads",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-physics-ch04-st3",
+      "cbse-g11-physics-ch03-st4"
+     ],
+     "note": "Centripetal acceleration; friction"
+    }
+   ]
+  },
+  {
+   "sheetName": "Work, Energy and Power",
+   "name": "Work, Energy and Power",
+   "subtopics": [
+    {
+     "name": "Work done by constant and variable forces; scalar product",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-physics-ch03-st1",
+      "cbse-g9-science-ch06-st1"
+     ],
+     "note": "Work done by a force (Cl 9); dot product of vectors"
+    },
+    {
+     "name": "Work-energy theorem; kinetic and potential energy of a spring",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-physics-ch05-st1",
+      "cbse-g9-science-ch06-st2"
+     ],
+     "note": "Kinetic and potential energy (Cl 9); Work done by variable force"
+    },
+    {
+     "name": "Conservation of mechanical energy and power",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-physics-ch05-st2",
+      "cbse-g9-science-ch06-st3"
+     ],
+     "note": "Power (Cl 9); Work-energy theorem"
+    },
+    {
+     "name": "Collisions in one and two dimensions",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-physics-ch05-st3",
+      "cbse-g11-physics-ch04-st1"
+     ],
+     "note": "Conservation of momentum; Conservation of mechanical energy"
+    }
+   ]
+  },
+  {
+   "sheetName": "System of Particles and Rotational Motion",
+   "name": "System of Particles and Rotational Motion",
+   "subtopics": [
+    {
+     "name": "Centre of mass and its motion",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-physics-ch04-st1"
+     ],
+     "note": "Newton's laws; weighted average (maths)"
+    },
+    {
+     "name": "Vector product, angular velocity and torque",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-physics-ch06-st1",
+      "cbse-g11-physics-ch03-st1"
+     ],
+     "note": "Vector addition; Moment of force and levers (Cl 9 simple machines)"
+    },
+    {
+     "name": "Angular momentum and its conservation; equilibrium of a rigid body",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-physics-ch06-st2"
+     ],
+     "note": "Torque and angular velocity"
+    },
+    {
+     "name": "Moment of inertia and dynamics of rotational motion about a fixed axis",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-physics-ch06-st2",
+      "cbse-g11-physics-ch05-st2"
+     ],
+     "note": "Torque; Kinetic energy"
+    }
+   ]
+  },
+  {
+   "sheetName": "Gravitation",
+   "name": "Gravitation",
+   "subtopics": [
+    {
+     "name": "Kepler's laws and the universal law of gravitation",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-physics-ch03-st4"
+     ],
+     "note": "Centripetal acceleration; inverse-square relationships"
+    },
+    {
+     "name": "Acceleration due to gravity and its variation with altitude and depth",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-physics-ch07-st1"
+     ],
+     "note": "Universal law of gravitation; motion under gravity"
+    },
+    {
+     "name": "Gravitational potential energy, escape speed and orbital speed",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-physics-ch07-st2",
+      "cbse-g11-physics-ch05-st3"
+     ],
+     "note": "Conservation of energy; Acceleration due to gravity"
+    },
+    {
+     "name": "Energy of an orbiting satellite and geostationary satellites",
+     "weight": "L",
+     "prereq": [
+      "cbse-g11-physics-ch07-st3"
+     ],
+     "note": "Orbital speed; circular motion"
+    }
+   ]
+  },
+  {
+   "sheetName": "Mechanical Properties of Solids",
+   "name": "Mechanical Properties of Solids",
+   "subtopics": [
+    {
+     "name": "Stress, strain and the stress-strain curve",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-physics-ch04-st1"
+     ],
+     "note": "Force and area; pressure as force per unit area (Cl 8)"
+    },
+    {
+     "name": "Hooke's law and elastic moduli: Young's, bulk and shear",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-physics-ch08-st1"
+     ],
+     "note": "Stress and strain"
+    },
+    {
+     "name": "Applications of elastic behaviour of materials",
+     "weight": "L",
+     "prereq": [
+      "cbse-g11-physics-ch08-st2"
+     ],
+     "note": "Elastic moduli"
+    }
+   ]
+  },
+  {
+   "sheetName": "Mechanical Properties of Fluids",
+   "name": "Mechanical Properties of Fluids",
+   "subtopics": [
+    {
+     "name": "Pressure in fluids: Pascal's law and hydraulic machines",
+     "weight": "S",
+     "prereq": [
+      "cbse-g8-science-ch06-st2"
+     ],
+     "note": "Pressure in liquids and atmospheric pressure (Cl 8)"
+    },
+    {
+     "name": "Streamline flow, equation of continuity and Bernoulli's principle",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-physics-ch09-st1",
+      "cbse-g11-physics-ch05-st3"
+     ],
+     "note": "Pressure in fluids; Conservation of mechanical energy"
+    },
+    {
+     "name": "Viscosity, Stokes' law and terminal velocity",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-physics-ch09-st2",
+      "cbse-g11-physics-ch04-st3"
+     ],
+     "note": "Streamline flow; friction-like resistive forces"
+    },
+    {
+     "name": "Surface tension, angle of contact and capillary rise",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-physics-ch09-st1"
+     ],
+     "note": "Pressure in fluids; intermolecular forces (Cl 8 particulate nature)"
+    }
+   ]
+  },
+  {
+   "sheetName": "Thermal Properties of Matter",
+   "name": "Thermal Properties of Matter",
+   "subtopics": [
+    {
+     "name": "Temperature, heat and thermal expansion",
+     "weight": "S",
+     "prereq": [
+      "cbse-g8-science-ch07-st3"
+     ],
+     "note": "Interparticle attraction and spaces (Cl 8); reading a thermometer"
+    },
+    {
+     "name": "Specific heat capacity, calorimetry and change of state with latent heat",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-physics-ch10-st1",
+      "cbse-g8-science-ch07-st4"
+     ],
+     "note": "Changes of state (Cl 8); Temperature and heat"
+    },
+    {
+     "name": "Heat transfer: conduction, convection and radiation",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-physics-ch10-st1",
+      "cbse-g8-science-ch06-st3"
+     ],
+     "note": "Convection and winds (Cl 8); Temperature and heat"
+    },
+    {
+     "name": "Newton's law of cooling",
+     "weight": "L",
+     "prereq": [
+      "cbse-g11-physics-ch10-st3"
+     ],
+     "note": "Heat transfer; reading graphs"
+    }
+   ]
+  },
+  {
+   "sheetName": "Thermodynamics",
+   "name": "Thermodynamics",
+   "subtopics": [
+    {
+     "name": "Thermal equilibrium, zeroth law, heat, internal energy and work",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-physics-ch10-st1",
+      "cbse-g11-physics-ch05-st1"
+     ],
+     "note": "Temperature and heat; Work done by a force"
+    },
+    {
+     "name": "First law of thermodynamics and specific heats of gases",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-physics-ch11-st1",
+      "cbse-g11-physics-ch10-st2"
+     ],
+     "note": "Internal energy; specific heat capacity"
+    },
+    {
+     "name": "Thermodynamic processes: isothermal, adiabatic, isochoric, isobaric",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-physics-ch11-st2"
+     ],
+     "note": "First law of thermodynamics; area under a graph"
+    },
+    {
+     "name": "Heat engines, refrigerators, second law and Carnot engine",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-physics-ch11-st3"
+     ],
+     "note": "Thermodynamic processes; efficiency as a ratio"
+    }
+   ]
+  },
+  {
+   "sheetName": "Kinetic Theory",
+   "name": "Kinetic Theory",
+   "subtopics": [
+    {
+     "name": "Molecular nature of matter and behaviour of gases: ideal gas equation",
+     "weight": "S",
+     "prereq": [
+      "cbse-g9-science-ch08-st4",
+      "cbse-g8-science-ch07-st2"
+     ],
+     "note": "Mole concept (Cl 9); particle motion in gases (Cl 8)"
+    },
+    {
+     "name": "Kinetic theory of an ideal gas: pressure and kinetic interpretation of temperature",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-physics-ch12-st1",
+      "cbse-g11-physics-ch04-st1"
+     ],
+     "note": "Ideal gas equation; momentum and impulse"
+    },
+    {
+     "name": "Law of equipartition of energy and specific heat capacity",
+     "weight": "L",
+     "prereq": [
+      "cbse-g11-physics-ch12-st2",
+      "cbse-g11-physics-ch11-st2"
+     ],
+     "note": "Kinetic interpretation of temperature; specific heats of gases"
+    },
+    {
+     "name": "Mean free path",
+     "weight": "L",
+     "prereq": [
+      "cbse-g11-physics-ch12-st2"
+     ],
+     "note": "Kinetic theory of an ideal gas"
+    }
+   ]
+  },
+  {
+   "sheetName": "Oscillations",
+   "name": "Oscillations",
+   "subtopics": [
+    {
+     "name": "Periodic and oscillatory motion; simple harmonic motion and its equation",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-physics-ch03-st4"
+     ],
+     "note": "Uniform circular motion; sine and cosine functions (Cl 11 maths)"
+    },
+    {
+     "name": "Velocity, acceleration, force and energy in SHM",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-physics-ch13-st1",
+      "cbse-g11-physics-ch05-st2"
+     ],
+     "note": "SHM equation; spring potential energy"
+    },
+    {
+     "name": "Spring-mass system and simple pendulum",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-physics-ch13-st2"
+     ],
+     "note": "Force in SHM; free-body diagrams"
+    }
+   ]
+  },
+  {
+   "sheetName": "Waves",
+   "name": "Waves",
+   "subtopics": [
+    {
+     "name": "Transverse and longitudinal waves; displacement relation of a progressive wave",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-physics-ch13-st1",
+      "cbse-g9-science-ch09-st2"
+     ],
+     "note": "Characteristics of a sound wave (Cl 9); SHM equation"
+    },
+    {
+     "name": "Speed of a travelling wave: on a string and sound in a medium",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-physics-ch14-st1",
+      "cbse-g11-physics-ch08-st2"
+     ],
+     "note": "Wave relation v = f lambda; elastic moduli"
+    },
+    {
+     "name": "Principle of superposition, reflection of waves and standing waves",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-physics-ch14-st2",
+      "cbse-g9-science-ch09-st3"
+     ],
+     "note": "Reflection of sound (Cl 9); Speed of a travelling wave"
+    },
+    {
+     "name": "Normal modes in strings and pipes; beats",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-physics-ch14-st3"
+     ],
+     "note": "Standing waves"
+    }
+   ]
+  }
+ ]
+}

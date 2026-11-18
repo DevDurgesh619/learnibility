@@ -1,0 +1,704 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cambridge-g8-social-science",
+  "board": "cambridge",
+  "grade": 8,
+  "stream": "none",
+  "slug": "social-science",
+  "name": "Humanities (People, Past, Places)",
+  "programme": "Cambridge Lower Secondary Humanities 0839 (People",
+  "textbook": "Past · Places) – school-assessed",
+  "examPattern": "NO Cambridge Checkpoint test for Humanities ('There are no Progression or Checkpoint tests for this subject'). School sets end-of-year paper; model assumes a ~30-question paper mirroring the IGCSE History/Geography style (source-, map- and data-based).",
+  "chapterCount": 9,
+  "questionTarget": 810
+ },
+ "items": [
+  {
+   "id": "cambridge-g8-social-science-ch01",
+   "subjectId": "cambridge-g8-social-science",
+   "order": 1,
+   "name": "Thinking and Working as a Humanities Specialist: Enquiry, Sources and Evidence",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "cambridge-g8-social-science-ch01-st1",
+    "cambridge-g8-social-science-ch01-st2",
+    "cambridge-g8-social-science-ch01-st3",
+    "cambridge-g8-social-science-ch01-st4",
+    "cambridge-g8-social-science-ch01-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g8-social-science-ch02",
+   "subjectId": "cambridge-g8-social-science",
+   "order": 2,
+   "name": "Past: The Industrial Revolution and Changing Societies",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cambridge-g8-social-science-ch02-st1",
+    "cambridge-g8-social-science-ch02-st2",
+    "cambridge-g8-social-science-ch02-st3",
+    "cambridge-g8-social-science-ch02-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g8-social-science-ch03",
+   "subjectId": "cambridge-g8-social-science",
+   "order": 3,
+   "name": "Past: Empire, Colonialism and Independence",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cambridge-g8-social-science-ch03-st1",
+    "cambridge-g8-social-science-ch03-st2",
+    "cambridge-g8-social-science-ch03-st3",
+    "cambridge-g8-social-science-ch03-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g8-social-science-ch04",
+   "subjectId": "cambridge-g8-social-science",
+   "order": 4,
+   "name": "Past: Conflict in the 20th Century: The World Wars",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cambridge-g8-social-science-ch04-st1",
+    "cambridge-g8-social-science-ch04-st2",
+    "cambridge-g8-social-science-ch04-st3",
+    "cambridge-g8-social-science-ch04-st4",
+    "cambridge-g8-social-science-ch04-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g8-social-science-ch05",
+   "subjectId": "cambridge-g8-social-science",
+   "order": 5,
+   "name": "Places: Plate Tectonics and Living with Natural Hazards",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cambridge-g8-social-science-ch05-st1",
+    "cambridge-g8-social-science-ch05-st2",
+    "cambridge-g8-social-science-ch05-st3",
+    "cambridge-g8-social-science-ch05-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g8-social-science-ch06",
+   "subjectId": "cambridge-g8-social-science",
+   "order": 6,
+   "name": "Places: Weather, Climate and Climate Change",
+   "teachingPeriods": 19,
+   "subtopicIds": [
+    "cambridge-g8-social-science-ch06-st1",
+    "cambridge-g8-social-science-ch06-st2",
+    "cambridge-g8-social-science-ch06-st3",
+    "cambridge-g8-social-science-ch06-st4",
+    "cambridge-g8-social-science-ch06-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g8-social-science-ch07",
+   "subjectId": "cambridge-g8-social-science",
+   "order": 7,
+   "name": "Places: Population, Migration and Urbanisation",
+   "teachingPeriods": 19,
+   "subtopicIds": [
+    "cambridge-g8-social-science-ch07-st1",
+    "cambridge-g8-social-science-ch07-st2",
+    "cambridge-g8-social-science-ch07-st3",
+    "cambridge-g8-social-science-ch07-st4",
+    "cambridge-g8-social-science-ch07-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g8-social-science-ch08",
+   "subjectId": "cambridge-g8-social-science",
+   "order": 8,
+   "name": "People: Rights, Responsibilities and Citizenship",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cambridge-g8-social-science-ch08-st1",
+    "cambridge-g8-social-science-ch08-st2",
+    "cambridge-g8-social-science-ch08-st3",
+    "cambridge-g8-social-science-ch08-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g8-social-science-ch09",
+   "subjectId": "cambridge-g8-social-science",
+   "order": 9,
+   "name": "People: Globalisation, Trade and Sustainable Development",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "cambridge-g8-social-science-ch09-st1",
+    "cambridge-g8-social-science-ch09-st2",
+    "cambridge-g8-social-science-ch09-st3",
+    "cambridge-g8-social-science-ch09-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cambridge-g8-social-science-ch01-st1",
+   "chapterId": "cambridge-g8-social-science-ch01",
+   "order": 1,
+   "name": "Asking enquiry questions and planning a humanities investigation",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Forming questions and sorting information (Stage 7-8 Humanities); difference between fact and opinion",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch01-st2",
+   "chapterId": "cambridge-g8-social-science-ch01",
+   "order": 2,
+   "name": "Primary and secondary sources: origin, purpose and reliability",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Reading a short text for main idea; who made a source and when (Stage 7-8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch01-st3",
+   "chapterId": "cambridge-g8-social-science-ch01",
+   "order": 3,
+   "name": "Using maps, grid references, scale and direction",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Four-figure grid references and compass points (Stage 7-8); measuring with a ruler and ratio",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch01-st4",
+   "chapterId": "cambridge-g8-social-science-ch01",
+   "order": 4,
+   "name": "Presenting and interpreting data: graphs, tables and climate charts",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Reading bar and line graphs (Stage 7-8 Maths); calculating averages and percentages",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch01-st5",
+   "chapterId": "cambridge-g8-social-science-ch01",
+   "order": 5,
+   "name": "Reaching a supported conclusion and reflecting on the enquiry",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch01-st1",
+    "cambridge-g8-social-science-ch01-st2"
+   ],
+   "prerequisiteNote": "Asking enquiry questions; judging source reliability; writing a paragraph with a claim and evidence",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch02-st1",
+   "chapterId": "cambridge-g8-social-science-ch02",
+   "order": 1,
+   "name": "Causes of the Industrial Revolution in Britain: population, agriculture, coal and capital",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch01-st2"
+   ],
+   "prerequisiteNote": "Chronology and timelines (Stage 7-8); Primary and secondary sources",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch02-st2",
+   "chapterId": "cambridge-g8-social-science-ch02",
+   "order": 2,
+   "name": "New technology and the factory system: textiles, steam power and railways",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch02-st1"
+   ],
+   "prerequisiteNote": "Causes of the Industrial Revolution; cause and consequence vocabulary",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch02-st3",
+   "chapterId": "cambridge-g8-social-science-ch02",
+   "order": 3,
+   "name": "Living and working conditions in industrial towns",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch02-st2",
+    "cambridge-g8-social-science-ch01-st2"
+   ],
+   "prerequisiteNote": "Factory system; judging source reliability (e.g. reports, photographs, cartoons)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch02-st4",
+   "chapterId": "cambridge-g8-social-science-ch02",
+   "order": 4,
+   "name": "Reform and protest: factory acts, public health and trade unions",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch02-st3"
+   ],
+   "prerequisiteNote": "Living and working conditions in industrial towns; idea of change and continuity",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch03-st1",
+   "chapterId": "cambridge-g8-social-science-ch03",
+   "order": 1,
+   "name": "Why European empires expanded in the 19th century",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch02-st1"
+   ],
+   "prerequisiteNote": "Causes of the Industrial Revolution (demand for raw materials and markets); reading a world map",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch03-st2",
+   "chapterId": "cambridge-g8-social-science-ch03",
+   "order": 2,
+   "name": "The experience of colonised peoples: economy, culture and resistance",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch03-st1",
+    "cambridge-g8-social-science-ch01-st2"
+   ],
+   "prerequisiteNote": "Why European empires expanded; considering different perspectives in sources",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch03-st3",
+   "chapterId": "cambridge-g8-social-science-ch03",
+   "order": 3,
+   "name": "Independence movements: the case of India and Gandhi",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch03-st2"
+   ],
+   "prerequisiteNote": "Experience of colonised peoples; idea of nonviolent protest",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch03-st4",
+   "chapterId": "cambridge-g8-social-science-ch03",
+   "order": 4,
+   "name": "Decolonisation in Africa and Asia after 1945 and its legacies",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch03-st3"
+   ],
+   "prerequisiteNote": "Independence movements; continuity and change over time",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch04-st1",
+   "chapterId": "cambridge-g8-social-science-ch04",
+   "order": 1,
+   "name": "Long-term and short-term causes of the First World War",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch03-st1"
+   ],
+   "prerequisiteNote": "Empire rivalry (Unit 3); distinguishing long-term and short-term causes",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch04-st2",
+   "chapterId": "cambridge-g8-social-science-ch04",
+   "order": 2,
+   "name": "Life in the trenches and the home front, 1914-18",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch04-st1",
+    "cambridge-g8-social-science-ch01-st2"
+   ],
+   "prerequisiteNote": "Causes of the First World War; using eyewitness sources",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch04-st3",
+   "chapterId": "cambridge-g8-social-science-ch04",
+   "order": 3,
+   "name": "From peace treaties to the rise of dictators, 1919-39",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch04-st1"
+   ],
+   "prerequisiteNote": "Outcome of the First World War; basic idea of democracy versus dictatorship",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch04-st4",
+   "chapterId": "cambridge-g8-social-science-ch04",
+   "order": 4,
+   "name": "The Second World War and the Holocaust: causes, events and impact on civilians",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch04-st3"
+   ],
+   "prerequisiteNote": "Rise of dictators 1919-39; chronology of 20th-century events",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch04-st5",
+   "chapterId": "cambridge-g8-social-science-ch04",
+   "order": 5,
+   "name": "How and why we remember war: memorials and significance",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch04-st4",
+    "cambridge-g8-social-science-ch01-st2"
+   ],
+   "prerequisiteNote": "Second World War events; historical significance and interpretations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch05-st1",
+   "chapterId": "cambridge-g8-social-science-ch05",
+   "order": 1,
+   "name": "Structure of the Earth and plate boundaries",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch01-st3"
+   ],
+   "prerequisiteNote": "Layers of the Earth (Stage 7-8 Science); reading a world map with key",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch05-st2",
+   "chapterId": "cambridge-g8-social-science-ch05",
+   "order": 2,
+   "name": "Causes and effects of earthquakes and volcanic eruptions",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch05-st1"
+   ],
+   "prerequisiteNote": "Plate boundaries; primary versus secondary effects",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch05-st3",
+   "chapterId": "cambridge-g8-social-science-ch05",
+   "order": 3,
+   "name": "Why people live in hazardous areas and how risk is reduced",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch05-st2"
+   ],
+   "prerequisiteNote": "Effects of earthquakes and volcanoes; benefits of fertile soils and tourism",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch05-st4",
+   "chapterId": "cambridge-g8-social-science-ch05",
+   "order": 4,
+   "name": "Comparing hazard responses in countries at different levels of development",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch05-st3",
+    "cambridge-g8-social-science-ch01-st4"
+   ],
+   "prerequisiteNote": "Reducing hazard risk; reading data tables of deaths and costs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch06-st1",
+   "chapterId": "cambridge-g8-social-science-ch06",
+   "order": 1,
+   "name": "Elements of weather and how they are measured",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch01-st4"
+   ],
+   "prerequisiteNote": "Temperature and rainfall units (Stage 7-8 Science); reading instruments and scales",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch06-st2",
+   "chapterId": "cambridge-g8-social-science-ch06",
+   "order": 2,
+   "name": "Factors affecting climate: latitude, altitude, distance from sea and winds",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch06-st1"
+   ],
+   "prerequisiteNote": "Elements of weather; latitude on a globe",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch06-st3",
+   "chapterId": "cambridge-g8-social-science-ch06",
+   "order": 3,
+   "name": "Reading climate graphs and describing climate zones",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch06-st2",
+    "cambridge-g8-social-science-ch01-st4"
+   ],
+   "prerequisiteNote": "Factors affecting climate; drawing and reading bar and line graphs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch06-st4",
+   "chapterId": "cambridge-g8-social-science-ch06",
+   "order": 4,
+   "name": "Causes of climate change and the enhanced greenhouse effect",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch06-st2"
+   ],
+   "prerequisiteNote": "Factors affecting climate; burning fossil fuels and carbon dioxide (Stage 8 Science)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch06-st5",
+   "chapterId": "cambridge-g8-social-science-ch06",
+   "order": 5,
+   "name": "Impacts of climate change and local and global responses",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch06-st4"
+   ],
+   "prerequisiteNote": "Causes of climate change; idea of mitigation versus adaptation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch07-st1",
+   "chapterId": "cambridge-g8-social-science-ch07",
+   "order": 1,
+   "name": "Population distribution and density",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch01-st3"
+   ],
+   "prerequisiteNote": "Using maps with keys and shading; calculating people per km2",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch07-st2",
+   "chapterId": "cambridge-g8-social-science-ch07",
+   "order": 2,
+   "name": "Population change: birth rate, death rate and population pyramids",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch07-st1",
+    "cambridge-g8-social-science-ch01-st4"
+   ],
+   "prerequisiteNote": "Population distribution; reading bar charts and percentages",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch07-st3",
+   "chapterId": "cambridge-g8-social-science-ch07",
+   "order": 3,
+   "name": "Migration: push and pull factors, impacts on source and host areas",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch07-st2"
+   ],
+   "prerequisiteNote": "Population change; meaning of push and pull",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch07-st4",
+   "chapterId": "cambridge-g8-social-science-ch07",
+   "order": 4,
+   "name": "Urbanisation and the growth of megacities",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch07-st3"
+   ],
+   "prerequisiteNote": "Migration push and pull factors; rural versus urban",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch07-st5",
+   "chapterId": "cambridge-g8-social-science-ch07",
+   "order": 5,
+   "name": "Challenges of urban living: informal settlements and sustainable cities",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch07-st4"
+   ],
+   "prerequisiteNote": "Urbanisation and megacities; idea of sustainability",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch08-st1",
+   "chapterId": "cambridge-g8-social-science-ch08",
+   "order": 1,
+   "name": "Human rights and the Universal Declaration of Human Rights",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Rules and fairness in school and community (Stage 7-8); difference between rights and responsibilities",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch08-st2",
+   "chapterId": "cambridge-g8-social-science-ch08",
+   "order": 2,
+   "name": "How governments work: democracy, elections and the rule of law",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch04-st3"
+   ],
+   "prerequisiteNote": "Democracy versus dictatorship (Unit 4); local and national government",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch08-st3",
+   "chapterId": "cambridge-g8-social-science-ch08",
+   "order": 3,
+   "name": "Active citizenship: campaigning, voting and making change",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch08-st2",
+    "cambridge-g8-social-science-ch03-st3"
+   ],
+   "prerequisiteNote": "How governments work; examples of protest movements (Unit 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch08-st4",
+   "chapterId": "cambridge-g8-social-science-ch08",
+   "order": 4,
+   "name": "Identity, diversity and community belonging",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch08-st1"
+   ],
+   "prerequisiteNote": "Human rights; respecting different perspectives",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch09-st1",
+   "chapterId": "cambridge-g8-social-science-ch09",
+   "order": 1,
+   "name": "What is globalisation? Trade, transport and communication links",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch02-st2",
+    "cambridge-g8-social-science-ch03-st1"
+   ],
+   "prerequisiteNote": "Industrial technology and railways (Unit 2); empire trade links (Unit 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch09-st2",
+   "chapterId": "cambridge-g8-social-science-ch09",
+   "order": 2,
+   "name": "Global supply chains and transnational companies",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch09-st1"
+   ],
+   "prerequisiteNote": "Globalisation and trade links; imports and exports",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch09-st3",
+   "chapterId": "cambridge-g8-social-science-ch09",
+   "order": 3,
+   "name": "Fair trade, inequality and development indicators",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch09-st2",
+    "cambridge-g8-social-science-ch01-st4"
+   ],
+   "prerequisiteNote": "Transnational companies; reading GDP per capita and life expectancy data",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-social-science-ch09-st4",
+   "chapterId": "cambridge-g8-social-science-ch09",
+   "order": 4,
+   "name": "The UN Sustainable Development Goals and taking action",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch09-st3",
+    "cambridge-g8-social-science-ch06-st5"
+   ],
+   "prerequisiteNote": "Development indicators; responses to climate change (Unit 6)",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

@@ -1,0 +1,990 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cbse-g8-english",
+  "board": "cbse",
+  "grade": 8,
+  "stream": "none",
+  "slug": "english",
+  "name": "English",
+  "programme": "CBSE Class 8 English",
+  "textbook": "NCERT Poorvi (5 units, 15 texts)",
+  "examPattern": "School-based (no CBSE board exam in Class 8; legacy CBSE scheme Circular Acad-14/2017: 80-mark written exam + 20 periodic assessment). Model mirrors the Class 9/10 CBSE paper design so students build board-exam habits early. Assumed paper: 80 marks, 14 questions (Class 9 R1 design: Reading 20, Grammar 10, Writing 20, Literature 30).",
+  "chapterCount": 15,
+  "questionTarget": 942
+ },
+ "items": [
+  {
+   "id": "cbse-g8-english-ch01",
+   "subjectId": "cbse-g8-english",
+   "order": 1,
+   "name": "The Wit that Won Hearts",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cbse-g8-english-ch01-st1",
+    "cbse-g8-english-ch01-st2",
+    "cbse-g8-english-ch01-st3",
+    "cbse-g8-english-ch01-st4"
+   ]
+  },
+  {
+   "id": "cbse-g8-english-ch02",
+   "subjectId": "cbse-g8-english",
+   "order": 2,
+   "name": "A Concrete Example (poem, Reginald Arkell)",
+   "teachingPeriods": 5,
+   "subtopicIds": [
+    "cbse-g8-english-ch02-st1",
+    "cbse-g8-english-ch02-st2",
+    "cbse-g8-english-ch02-st3"
+   ]
+  },
+  {
+   "id": "cbse-g8-english-ch03",
+   "subjectId": "cbse-g8-english",
+   "order": 3,
+   "name": "Wisdom Paves the Way (play)",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "cbse-g8-english-ch03-st1",
+    "cbse-g8-english-ch03-st2",
+    "cbse-g8-english-ch03-st3",
+    "cbse-g8-english-ch03-st4"
+   ]
+  },
+  {
+   "id": "cbse-g8-english-ch04",
+   "subjectId": "cbse-g8-english",
+   "order": 4,
+   "name": "A Tale of Valour: Major Somnath Sharma and the Battle of Badgam",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "cbse-g8-english-ch04-st1",
+    "cbse-g8-english-ch04-st2",
+    "cbse-g8-english-ch04-st3",
+    "cbse-g8-english-ch04-st4"
+   ]
+  },
+  {
+   "id": "cbse-g8-english-ch05",
+   "subjectId": "cbse-g8-english",
+   "order": 5,
+   "name": "Somebody's Mother (poem, Mary Dow Brine)",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "cbse-g8-english-ch05-st1",
+    "cbse-g8-english-ch05-st2",
+    "cbse-g8-english-ch05-st3",
+    "cbse-g8-english-ch05-st4"
+   ]
+  },
+  {
+   "id": "cbse-g8-english-ch06",
+   "subjectId": "cbse-g8-english",
+   "order": 6,
+   "name": "Verghese Kurien: I Too Had a Dream",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cbse-g8-english-ch06-st1",
+    "cbse-g8-english-ch06-st2",
+    "cbse-g8-english-ch06-st3",
+    "cbse-g8-english-ch06-st4"
+   ]
+  },
+  {
+   "id": "cbse-g8-english-ch07",
+   "subjectId": "cbse-g8-english",
+   "order": 7,
+   "name": "The Case of the Fifth Word",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "cbse-g8-english-ch07-st1",
+    "cbse-g8-english-ch07-st2",
+    "cbse-g8-english-ch07-st3",
+    "cbse-g8-english-ch07-st4"
+   ]
+  },
+  {
+   "id": "cbse-g8-english-ch08",
+   "subjectId": "cbse-g8-english",
+   "order": 8,
+   "name": "The Magic Brush of Dreams",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cbse-g8-english-ch08-st1",
+    "cbse-g8-english-ch08-st2",
+    "cbse-g8-english-ch08-st3",
+    "cbse-g8-english-ch08-st4"
+   ]
+  },
+  {
+   "id": "cbse-g8-english-ch09",
+   "subjectId": "cbse-g8-english",
+   "order": 9,
+   "name": "Spectacular Wonders",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cbse-g8-english-ch09-st1",
+    "cbse-g8-english-ch09-st2",
+    "cbse-g8-english-ch09-st3",
+    "cbse-g8-english-ch09-st4"
+   ]
+  },
+  {
+   "id": "cbse-g8-english-ch10",
+   "subjectId": "cbse-g8-english",
+   "order": 10,
+   "name": "The Cherry Tree (Ruskin Bond)",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cbse-g8-english-ch10-st1",
+    "cbse-g8-english-ch10-st2",
+    "cbse-g8-english-ch10-st3",
+    "cbse-g8-english-ch10-st4"
+   ]
+  },
+  {
+   "id": "cbse-g8-english-ch11",
+   "subjectId": "cbse-g8-english",
+   "order": 11,
+   "name": "Harvest Hymn",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "cbse-g8-english-ch11-st1",
+    "cbse-g8-english-ch11-st2",
+    "cbse-g8-english-ch11-st3",
+    "cbse-g8-english-ch11-st4"
+   ]
+  },
+  {
+   "id": "cbse-g8-english-ch12",
+   "subjectId": "cbse-g8-english",
+   "order": 12,
+   "name": "Waiting for the Rain",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "cbse-g8-english-ch12-st1",
+    "cbse-g8-english-ch12-st2",
+    "cbse-g8-english-ch12-st3",
+    "cbse-g8-english-ch12-st4"
+   ]
+  },
+  {
+   "id": "cbse-g8-english-ch13",
+   "subjectId": "cbse-g8-english",
+   "order": 13,
+   "name": "Feathered Friend (Arthur C. Clarke)",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "cbse-g8-english-ch13-st1",
+    "cbse-g8-english-ch13-st2",
+    "cbse-g8-english-ch13-st3",
+    "cbse-g8-english-ch13-st4"
+   ]
+  },
+  {
+   "id": "cbse-g8-english-ch14",
+   "subjectId": "cbse-g8-english",
+   "order": 14,
+   "name": "Magnifying Glass (poem)",
+   "teachingPeriods": 6,
+   "subtopicIds": [
+    "cbse-g8-english-ch14-st1",
+    "cbse-g8-english-ch14-st2",
+    "cbse-g8-english-ch14-st3"
+   ]
+  },
+  {
+   "id": "cbse-g8-english-ch15",
+   "subjectId": "cbse-g8-english",
+   "order": 15,
+   "name": "Bibha Chowdhuri: The Beam of Light that Lit the Path for Women in Indian Science",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cbse-g8-english-ch15-st1",
+    "cbse-g8-english-ch15-st2",
+    "cbse-g8-english-ch15-st3",
+    "cbse-g8-english-ch15-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cbse-g8-english-ch01-st1",
+   "chapterId": "cbse-g8-english-ch01",
+   "order": 1,
+   "name": "Tenali Rama's paddy-seed trick: plot and sequence of events",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Reading a short story for gist and sequence (Cl 7 Poorvi)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch01-st2",
+   "chapterId": "cbse-g8-english-ch01",
+   "order": 2,
+   "name": "Overreaction, wit and reconciliation: the king, the queen and the court poet",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-english-ch01-st1"
+   ],
+   "prerequisiteNote": "Inferring character from actions and dialogue (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch01-st3",
+   "chapterId": "cbse-g8-english-ch01",
+   "order": 3,
+   "name": "Idioms and expressions of humour from the story",
+   "weight": "L",
+   "teachingPeriods": 1,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Literal vs figurative meaning of common expressions (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch01-st4",
+   "chapterId": "cbse-g8-english-ch01",
+   "order": 4,
+   "name": "Grammar: simple past and past continuous in narration",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Past tense forms of regular and irregular verbs (Cl 6-7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch02-st1",
+   "chapterId": "cbse-g8-english-ch02",
+   "order": 1,
+   "name": "Mrs Jones's stony garden and the poet's gentle humour",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Reading a poem aloud for rhythm and meaning (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch02-st2",
+   "chapterId": "cbse-g8-english-ch02",
+   "order": 2,
+   "name": "Exaggeration, rhyme scheme and the twist ending",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g8-english-ch02-st1"
+   ],
+   "prerequisiteNote": "Rhyme and rhyming words in poems (Cl 6-7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch02-st3",
+   "chapterId": "cbse-g8-english-ch02",
+   "order": 3,
+   "name": "Pun in the title: \"concrete\" example and tiny flowers",
+   "weight": "L",
+   "teachingPeriods": 1,
+   "prerequisiteIds": [
+    "cbse-g8-english-ch02-st2"
+   ],
+   "prerequisiteNote": "Words with more than one meaning (Cl 6-7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch03-st1",
+   "chapterId": "cbse-g8-english-ch03",
+   "order": 1,
+   "name": "Scene-wise reading of a play: the four brothers on the road to Ujjain",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Difference between story and play; stage directions (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch03-st2",
+   "chapterId": "cbse-g8-english-ch03",
+   "order": 2,
+   "name": "Deduction from clues: how the brothers described the lost camel",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-english-ch03-st1"
+   ],
+   "prerequisiteNote": "Cause-effect reasoning from details in a text (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch03-st3",
+   "chapterId": "cbse-g8-english-ch03",
+   "order": 3,
+   "name": "Justice in the King's court: honesty, observation and reward",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g8-english-ch03-st2",
+    "cbse-g8-english-ch01-st2"
+   ],
+   "prerequisiteNote": "Character traits with textual evidence",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch03-st4",
+   "chapterId": "cbse-g8-english-ch03",
+   "order": 4,
+   "name": "Grammar: direct and indirect speech (statements and questions) from dialogue",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-english-ch01-st4"
+   ],
+   "prerequisiteNote": "Punctuating dialogue; tense of verbs in present and past (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch04-st1",
+   "chapterId": "cbse-g8-english-ch04",
+   "order": 1,
+   "name": "First Param Vir Chakra: Major Somnath Sharma's life and early career",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Reading a biography for facts and timeline (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch04-st2",
+   "chapterId": "cbse-g8-english-ch04",
+   "order": 2,
+   "name": "Battle of Badgam, 1947: leadership, courage and sacrifice",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-english-ch04-st1"
+   ],
+   "prerequisiteNote": "Identifying main idea and supporting details in non-fiction",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch04-st3",
+   "chapterId": "cbse-g8-english-ch04",
+   "order": 3,
+   "name": "Military and valour vocabulary: gallantry, outnumbered, reinforcement",
+   "weight": "L",
+   "teachingPeriods": 1,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Using a dictionary for meaning in context (Cl 6-7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch04-st4",
+   "chapterId": "cbse-g8-english-ch04",
+   "order": 4,
+   "name": "Writing: biographical sketch / tribute paragraph",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g8-english-ch04-st2"
+   ],
+   "prerequisiteNote": "Paragraph with topic sentence and supporting points (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch05-st1",
+   "chapterId": "cbse-g8-english-ch05",
+   "order": 1,
+   "name": "The old woman on the wintry street and the boy who helps her",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Reading a narrative poem for story and speaker (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch05-st2",
+   "chapterId": "cbse-g8-english-ch05",
+   "order": 2,
+   "name": "Empathy and kindness: the message of \"somebody's mother\"",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-english-ch05-st1"
+   ],
+   "prerequisiteNote": "Inferring theme from a poem's ending",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch05-st3",
+   "chapterId": "cbse-g8-english-ch05",
+   "order": 3,
+   "name": "Imagery of winter and contrast between the crowd and the boy",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g8-english-ch02-st2"
+   ],
+   "prerequisiteNote": "Sensory words and imagery in poems (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch05-st4",
+   "chapterId": "cbse-g8-english-ch05",
+   "order": 4,
+   "name": "Narrative verse: rhyme, refrain and stanza structure",
+   "weight": "L",
+   "teachingPeriods": 1,
+   "prerequisiteIds": [
+    "cbse-g8-english-ch02-st2"
+   ],
+   "prerequisiteNote": "Rhyme scheme identification",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch06-st1",
+   "chapterId": "cbse-g8-english-ch06",
+   "order": 1,
+   "name": "Kurien's choices: from engineer to the milk co-operative at Anand",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Reading autobiographical prose for key events (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch06-st2",
+   "chapterId": "cbse-g8-english-ch06",
+   "order": 2,
+   "name": "Operation Flood and the co-operative model: vision, service and integrity",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-english-ch06-st1"
+   ],
+   "prerequisiteNote": "Main idea vs detail; cause and effect in non-fiction",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch06-st3",
+   "chapterId": "cbse-g8-english-ch06",
+   "order": 3,
+   "name": "Vocabulary: co-operative, self-reliance, word formation with prefixes and suffixes",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Prefixes and suffixes (Cl 6-7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch06-st4",
+   "chapterId": "cbse-g8-english-ch06",
+   "order": 4,
+   "name": "Writing: formal letter / e-mail of appreciation or request",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g8-english-ch04-st4"
+   ],
+   "prerequisiteNote": "Format of an informal letter (Cl 7); paragraphing",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch07-st1",
+   "chapterId": "cbse-g8-english-ch07",
+   "order": 1,
+   "name": "Chief Brown and Tim Nolan: structure of a detective story",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Story elements: setting, characters, conflict, resolution (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch07-st2",
+   "chapterId": "cbse-g8-english-ch07",
+   "order": 2,
+   "name": "Decoding the clue: logical reasoning and use of the encyclopedia",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-english-ch07-st1",
+    "cbse-g8-english-ch03-st2"
+   ],
+   "prerequisiteNote": "Skimming and scanning reference material (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch07-st3",
+   "chapterId": "cbse-g8-english-ch07",
+   "order": 3,
+   "name": "Suspense techniques: foreshadowing and the reveal",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g8-english-ch07-st1"
+   ],
+   "prerequisiteNote": "Predicting outcomes while reading",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch07-st4",
+   "chapterId": "cbse-g8-english-ch07",
+   "order": 4,
+   "name": "Grammar: modals for deduction and possibility (must, might, could, can't)",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Modal verbs can/may/must for ability and permission (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch08-st1",
+   "chapterId": "cbse-g8-english-ch08",
+   "order": 1,
+   "name": "Gopi's magic brush: plot of a folk tale",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Features of folk tales and fables (Cl 6-7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch08-st2",
+   "chapterId": "cbse-g8-english-ch08",
+   "order": 2,
+   "name": "Kindness, greed and justice: Gopi versus the zamindar",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-english-ch08-st1",
+    "cbse-g8-english-ch05-st2"
+   ],
+   "prerequisiteNote": "Moral of a story with evidence from the text",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch08-st3",
+   "chapterId": "cbse-g8-english-ch08",
+   "order": 3,
+   "name": "Descriptive vocabulary: adjectives and adverbs that create pictures",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Adjectives and adverbs (Cl 6-7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch08-st4",
+   "chapterId": "cbse-g8-english-ch08",
+   "order": 4,
+   "name": "Writing: story completion with a moral",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g8-english-ch08-st2"
+   ],
+   "prerequisiteNote": "Sequencing events with time connectives (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch09-st1",
+   "chapterId": "cbse-g8-english-ch09",
+   "order": 1,
+   "name": "Natural wonders of India: Valley of Flowers, Living Root Bridges, Lonar Crater, Sundarbans",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Reading informational text with headings (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch09-st2",
+   "chapterId": "cbse-g8-english-ch09",
+   "order": 2,
+   "name": "Note-making and summarising an informational text",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-english-ch09-st1",
+    "cbse-g8-english-ch06-st2"
+   ],
+   "prerequisiteNote": "Main idea and supporting details",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch09-st3",
+   "chapterId": "cbse-g8-english-ch09",
+   "order": 3,
+   "name": "Geographical and descriptive vocabulary: endemic, biodiversity, crater, mangrove",
+   "weight": "L",
+   "teachingPeriods": 1,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Using context clues for unfamiliar words",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch09-st4",
+   "chapterId": "cbse-g8-english-ch09",
+   "order": 4,
+   "name": "Writing: descriptive paragraph on a place / travel brochure",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-english-ch09-st1",
+    "cbse-g8-english-ch08-st3"
+   ],
+   "prerequisiteNote": "Descriptive writing using sensory details (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch10-st1",
+   "chapterId": "cbse-g8-english-ch10",
+   "order": 1,
+   "name": "Rakesh and the cherry seed: stages of the tree's growth",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Sequencing events in a story (Cl 6-7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch10-st2",
+   "chapterId": "cbse-g8-english-ch10",
+   "order": 2,
+   "name": "Patience, care for nature and the boy-tree bond",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-english-ch10-st1",
+    "cbse-g8-english-ch08-st2"
+   ],
+   "prerequisiteNote": "Inferring theme and feelings of characters",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch10-st3",
+   "chapterId": "cbse-g8-english-ch10",
+   "order": 3,
+   "name": "Ruskin Bond's hill-setting imagery and seasons",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g8-english-ch05-st3"
+   ],
+   "prerequisiteNote": "Sensory imagery in prose",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch10-st4",
+   "chapterId": "cbse-g8-english-ch10",
+   "order": 4,
+   "name": "Grammar: present perfect and simple past with time expressions",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g8-english-ch01-st4"
+   ],
+   "prerequisiteNote": "Simple past tense (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch11-st1",
+   "chapterId": "cbse-g8-english-ch11",
+   "order": 1,
+   "name": "Harvest festivals and the rituals of thanksgiving in the poem",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Indian festivals and seasons (EVS/Social Science, Cl 6-7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch11-st2",
+   "chapterId": "cbse-g8-english-ch11",
+   "order": 2,
+   "name": "Gratitude to nature: theme and tone of a hymn",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-english-ch11-st1",
+    "cbse-g8-english-ch05-st2"
+   ],
+   "prerequisiteNote": "Identifying tone and mood in poems",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch11-st3",
+   "chapterId": "cbse-g8-english-ch11",
+   "order": 3,
+   "name": "Archaic words in poetry: thee, thou, thy, hath and their modern forms",
+   "weight": "L",
+   "teachingPeriods": 1,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Pronouns: subject, object and possessive (Cl 6-7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch11-st4",
+   "chapterId": "cbse-g8-english-ch11",
+   "order": 4,
+   "name": "Personification, apostrophe and repetition in the hymn",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g8-english-ch05-st3"
+   ],
+   "prerequisiteNote": "Simile and metaphor (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch12-st1",
+   "chapterId": "cbse-g8-english-ch12",
+   "order": 1,
+   "name": "Velu's village in drought: setting, conflict and the astrologers",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Story elements (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch12-st2",
+   "chapterId": "cbse-g8-english-ch12",
+   "order": 2,
+   "name": "Traditional knowledge vs superstition: the old woman's wisdom and hope",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-english-ch12-st1",
+    "cbse-g8-english-ch10-st2"
+   ],
+   "prerequisiteNote": "Comparing two characters' viewpoints",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch12-st3",
+   "chapterId": "cbse-g8-english-ch12",
+   "order": 3,
+   "name": "Weather and farming vocabulary; collocations with rain",
+   "weight": "L",
+   "teachingPeriods": 1,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Word families and collocations (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch12-st4",
+   "chapterId": "cbse-g8-english-ch12",
+   "order": 4,
+   "name": "Writing: diary entry expressing feelings",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g8-english-ch12-st2"
+   ],
+   "prerequisiteNote": "Personal writing in first person (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch13-st1",
+   "chapterId": "cbse-g8-english-ch13",
+   "order": 1,
+   "name": "Life on a space station: Sven and the canary Claribel",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Reading science fiction; basic facts about space (Science, Cl 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch13-st2",
+   "chapterId": "cbse-g8-english-ch13",
+   "order": 2,
+   "name": "Claribel as an early-warning system: observation and problem-solving",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-english-ch13-st1",
+    "cbse-g8-english-ch07-st2"
+   ],
+   "prerequisiteNote": "Cause and effect in a narrative",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch13-st3",
+   "chapterId": "cbse-g8-english-ch13",
+   "order": 3,
+   "name": "Scientific and technical vocabulary: air purifier, weightlessness, oxygen",
+   "weight": "L",
+   "teachingPeriods": 1,
+   "prerequisiteIds": [
+    "cbse-g8-english-ch09-st3"
+   ],
+   "prerequisiteNote": "Using context and a glossary",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch13-st4",
+   "chapterId": "cbse-g8-english-ch13",
+   "order": 4,
+   "name": "Grammar: passive voice in scientific description",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g8-english-ch10-st4"
+   ],
+   "prerequisiteNote": "Active sentences and transitive verbs (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch14-st1",
+   "chapterId": "cbse-g8-english-ch14",
+   "order": 1,
+   "name": "Observing the small world: what the magnifying glass reveals",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Reading a poem for its subject and speaker",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch14-st2",
+   "chapterId": "cbse-g8-english-ch14",
+   "order": 2,
+   "name": "Visual imagery, enumeration and figurative language in the poem",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-english-ch11-st4",
+    "cbse-g8-english-ch02-st2"
+   ],
+   "prerequisiteNote": "Imagery and simile (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch14-st3",
+   "chapterId": "cbse-g8-english-ch14",
+   "order": 3,
+   "name": "Science connection: lenses and magnification",
+   "weight": "L",
+   "teachingPeriods": 1,
+   "prerequisiteIds": [
+    "cbse-g8-english-ch14-st1"
+   ],
+   "prerequisiteNote": "Convex lens (Science, Cl 7-8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch15-st1",
+   "chapterId": "cbse-g8-english-ch15",
+   "order": 1,
+   "name": "Bibha Chowdhuri's journey in particle physics and cosmic-ray research",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g8-english-ch04-st1"
+   ],
+   "prerequisiteNote": "Reading a biography for timeline and key achievements",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch15-st2",
+   "chapterId": "cbse-g8-english-ch15",
+   "order": 2,
+   "name": "Breaking barriers: gender, perseverance and legacy for women in science",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-english-ch15-st1",
+    "cbse-g8-english-ch06-st2"
+   ],
+   "prerequisiteNote": "Main idea and author's purpose in non-fiction",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch15-st3",
+   "chapterId": "cbse-g8-english-ch15",
+   "order": 3,
+   "name": "Grammar: relative clauses (who, which, whose, that) in biographical writing",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Joining sentences with conjunctions (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-english-ch15-st4",
+   "chapterId": "cbse-g8-english-ch15",
+   "order": 4,
+   "name": "Writing: article / speech on women in science today",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g8-english-ch15-st2",
+    "cbse-g8-english-ch04-st4"
+   ],
+   "prerequisiteNote": "Paragraph organisation; formal vs informal register",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

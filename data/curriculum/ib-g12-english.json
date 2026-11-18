@@ -1,0 +1,803 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "ib-g12-english",
+  "board": "ib",
+  "grade": 12,
+  "stream": "science",
+  "slug": "english",
+  "name": "Language & Literature (English)",
+  "programme": "IB DP English A: Language & Literature SL/HL (first exam 2021)",
+  "examPattern": "IB DP – graded 1–7; recommended 150 h SL / 240 h HL; exams May (Hindi May only). HL: Paper 1 Guided textual analysis 2 h 15, 40 marks (35%) – both unseen non-literary passages; Paper 2 Comparative essay 1 h 45, 30 marks (25%) – 1 of 4 questions; HL essay 1,200–1,500 words (20%); Individual Oral 15 min, 40 marks (20%). SL: P1 1 of 2 passages (35%), P2 35%, IO 30%.",
+  "chapterCount": 13,
+  "questionTarget": 816
+ },
+ "items": [
+  {
+   "id": "ib-g12-english-ch01",
+   "subjectId": "ib-g12-english",
+   "order": 1,
+   "name": "Intertextuality: Connecting Texts - key concepts",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g12-english-ch01-st1",
+    "ib-g12-english-ch01-st2",
+    "ib-g12-english-ch01-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-english-ch02",
+   "subjectId": "ib-g12-english",
+   "order": 2,
+   "name": "Intertextuality: Literary work 4 - the novel",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "ib-g12-english-ch02-st1",
+    "ib-g12-english-ch02-st2",
+    "ib-g12-english-ch02-st3",
+    "ib-g12-english-ch02-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-english-ch03",
+   "subjectId": "ib-g12-english",
+   "order": 3,
+   "name": "Intertextuality: Literary work 5 - poetry in translation or short stories",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g12-english-ch03-st1",
+    "ib-g12-english-ch03-st2",
+    "ib-g12-english-ch03-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-english-ch04",
+   "subjectId": "ib-g12-english",
+   "order": 4,
+   "name": "Intertextuality: Literary work 6 - graphic novel or literary non-fiction",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g12-english-ch04-st1",
+    "ib-g12-english-ch04-st2",
+    "ib-g12-english-ch04-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-english-ch05",
+   "subjectId": "ib-g12-english",
+   "order": 5,
+   "name": "Intertextuality: Non-literary body of work - adaptation across media",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "ib-g12-english-ch05-st1",
+    "ib-g12-english-ch05-st2",
+    "ib-g12-english-ch05-st3",
+    "ib-g12-english-ch05-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-english-ch06",
+   "subjectId": "ib-g12-english",
+   "order": 6,
+   "name": "Intertextuality: Non-literary body of work - satire, parody and humour",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "ib-g12-english-ch06-st1",
+    "ib-g12-english-ch06-st2",
+    "ib-g12-english-ch06-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-english-ch07",
+   "subjectId": "ib-g12-english",
+   "order": 7,
+   "name": "Intertextuality: Non-literary body of work - campaigns and public communication",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g12-english-ch07-st1",
+    "ib-g12-english-ch07-st2",
+    "ib-g12-english-ch07-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-english-ch08",
+   "subjectId": "ib-g12-english",
+   "order": 8,
+   "name": "Paper 2: Comparative essay - reading the questions and choosing works",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "ib-g12-english-ch08-st1",
+    "ib-g12-english-ch08-st2",
+    "ib-g12-english-ch08-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-english-ch09",
+   "subjectId": "ib-g12-english",
+   "order": 9,
+   "name": "Paper 2: Writing the comparative essay",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "ib-g12-english-ch09-st1",
+    "ib-g12-english-ch09-st2",
+    "ib-g12-english-ch09-st3",
+    "ib-g12-english-ch09-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-english-ch10",
+   "subjectId": "ib-g12-english",
+   "order": 10,
+   "name": "HL essay: Developing a line of inquiry",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g12-english-ch10-st1",
+    "ib-g12-english-ch10-st2",
+    "ib-g12-english-ch10-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-english-ch11",
+   "subjectId": "ib-g12-english",
+   "order": 11,
+   "name": "HL essay: Drafting, referencing and final submission",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g12-english-ch11-st1",
+    "ib-g12-english-ch11-st2",
+    "ib-g12-english-ch11-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-english-ch12",
+   "subjectId": "ib-g12-english",
+   "order": 12,
+   "name": "Paper 1 consolidation: unseen non-literary texts",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g12-english-ch12-st1",
+    "ib-g12-english-ch12-st2",
+    "ib-g12-english-ch12-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-english-ch13",
+   "subjectId": "ib-g12-english",
+   "order": 13,
+   "name": "Final revision: synthesising the three areas of exploration",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g12-english-ch13-st1",
+    "ib-g12-english-ch13-st2",
+    "ib-g12-english-ch13-st3"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "ib-g12-english-ch01-st1",
+   "chapterId": "ib-g12-english-ch01",
+   "order": 1,
+   "name": "Intertextuality: allusion, quotation, pastiche, parody and adaptation",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-english-ch02-st4",
+    "ib-g11-english-ch01-st2"
+   ],
+   "prerequisiteNote": "Reader response and the seven course concepts (DP Year 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch01-st2",
+   "chapterId": "ib-g12-english-ch01",
+   "order": 2,
+   "name": "Genre conventions and how texts follow, mix or subvert them",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-english-ch01-st1"
+   ],
+   "prerequisiteNote": "Text types and their conventions (DP Year 1 Readers, writers and texts)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch01-st3",
+   "chapterId": "ib-g12-english-ch01",
+   "order": 3,
+   "name": "Comparing literary and non-literary texts through a shared concept",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-english-ch01-st1",
+    "ib-g11-english-ch06-st1"
+   ],
+   "prerequisiteNote": "Context of a body of work (DP Year 1 Time and space)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch02-st1",
+   "chapterId": "ib-g12-english-ch02",
+   "order": 1,
+   "name": "Development of thematic concerns across a whole work",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-english-ch04-st3",
+    "ib-g11-english-ch04-st4"
+   ],
+   "prerequisiteNote": "Setting, symbolism and narrative structure (DP Year 1 prose fiction)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch02-st2",
+   "chapterId": "ib-g12-english-ch02",
+   "order": 2,
+   "name": "Narrative experimentation: unreliable narrators, stream of consciousness and fragmented time",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-english-ch02-st1",
+    "ib-g11-english-ch04-st1"
+   ],
+   "prerequisiteNote": "Narrative voice, point of view and focalisation (DP Year 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch02-st3",
+   "chapterId": "ib-g12-english-ch02",
+   "order": 3,
+   "name": "Critical lenses: feminist, postcolonial and Marxist readings of a novel",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-english-ch02-st1",
+    "ib-g11-english-ch07-st2"
+   ],
+   "prerequisiteNote": "Representation of gender, class and power (DP Year 1 work in translation)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch02-st4",
+   "chapterId": "ib-g12-english-ch02",
+   "order": 4,
+   "name": "How a novel responds to earlier literature (rewrites and retellings)",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g12-english-ch01-st1",
+    "ib-g12-english-ch02-st1"
+   ],
+   "prerequisiteNote": "Allusion and adaptation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch03-st1",
+   "chapterId": "ib-g12-english-ch03",
+   "order": 1,
+   "name": "Recurring images, motifs and forms across a body of poems",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-english-ch05-st2",
+    "ib-g11-english-ch07-st1"
+   ],
+   "prerequisiteNote": "Imagery in a poet's body of work; reading works in translation (DP Year 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch03-st2",
+   "chapterId": "ib-g12-english-ch03",
+   "order": 2,
+   "name": "Voice and perspective of the marginalised in literature",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-english-ch03-st1",
+    "ib-g11-english-ch05-st3"
+   ],
+   "prerequisiteNote": "Speaker, persona and tone (DP Year 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch03-st3",
+   "chapterId": "ib-g12-english-ch03",
+   "order": 3,
+   "name": "Short story form: compression, epiphany and open endings",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-english-ch03-st1"
+   ],
+   "prerequisiteNote": "Elements of the short story (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch04-st1",
+   "chapterId": "ib-g12-english-ch04",
+   "order": 1,
+   "name": "Reading the graphic novel: panels, gutters, framing and word-image interplay",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-english-ch03-st1"
+   ],
+   "prerequisiteNote": "Visual grammar: composition, framing, colour (DP Year 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch04-st2",
+   "chapterId": "ib-g12-english-ch04",
+   "order": 2,
+   "name": "Memoir and testimony: truth, memory and the constructed self",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-english-ch04-st1"
+   ],
+   "prerequisiteNote": "Conventions of memoir and personal essay (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch04-st3",
+   "chapterId": "ib-g12-english-ch04",
+   "order": 3,
+   "name": "Representation of history and trauma in a hybrid literary work",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-english-ch04-st1",
+    "ib-g12-english-ch04-st2",
+    "ib-g11-english-ch06-st1"
+   ],
+   "prerequisiteNote": "Historical and cultural context (DP Year 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch05-st1",
+   "chapterId": "ib-g12-english-ch05",
+   "order": 1,
+   "name": "From page to screen: film adaptation of a literary work",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-english-ch01-st1",
+    "ib-g12-english-ch04-st1"
+   ],
+   "prerequisiteNote": "Allusion and adaptation; visual grammar",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch05-st2",
+   "chapterId": "ib-g12-english-ch05",
+   "order": 2,
+   "name": "Film language: camera angle, shot type, editing, sound and mise-en-scene",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-english-ch05-st1",
+    "ib-g11-english-ch03-st1"
+   ],
+   "prerequisiteNote": "Visual grammar (DP Year 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch05-st3",
+   "chapterId": "ib-g12-english-ch05",
+   "order": 3,
+   "name": "Fan fiction, remix culture and transformation of texts",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-english-ch05-st1",
+    "ib-g11-english-ch10-st1"
+   ],
+   "prerequisiteNote": "Language and identity online (DP Year 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch05-st4",
+   "chapterId": "ib-g12-english-ch05",
+   "order": 4,
+   "name": "Comparing a literary extract with its film or stage version in a learner portfolio entry",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g12-english-ch05-st1",
+    "ib-g12-english-ch05-st2"
+   ],
+   "prerequisiteNote": "Learner portfolio entry types (DP Year 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch06-st1",
+   "chapterId": "ib-g12-english-ch06",
+   "order": 1,
+   "name": "How satire works: irony, exaggeration and incongruity",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-english-ch01-st1"
+   ],
+   "prerequisiteNote": "Tone and irony in texts (DP Year 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch06-st2",
+   "chapterId": "ib-g12-english-ch06",
+   "order": 2,
+   "name": "Political cartoons and satirical journalism as a body of work",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-english-ch06-st1",
+    "ib-g11-english-ch06-st2",
+    "ib-g11-english-ch03-st4"
+   ],
+   "prerequisiteNote": "Infographics, cartoons; news and public opinion (DP Year 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch06-st3",
+   "chapterId": "ib-g12-english-ch06",
+   "order": 3,
+   "name": "Parody advertising and culture jamming",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g12-english-ch06-st1",
+    "ib-g11-english-ch03-st2"
+   ],
+   "prerequisiteNote": "Advertising and the construction of desire (DP Year 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch07-st1",
+   "chapterId": "ib-g12-english-ch07",
+   "order": 1,
+   "name": "Charity, NGO and public-health campaigns across platforms",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-english-ch03-st2",
+    "ib-g11-english-ch02-st1"
+   ],
+   "prerequisiteNote": "Advertising; purpose, audience and context (DP Year 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch07-st2",
+   "chapterId": "ib-g12-english-ch07",
+   "order": 2,
+   "name": "Representation and ethics in campaign imagery",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-english-ch07-st1",
+    "ib-g11-english-ch03-st1"
+   ],
+   "prerequisiteNote": "Visual grammar (DP Year 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch07-st3",
+   "chapterId": "ib-g12-english-ch07",
+   "order": 3,
+   "name": "Speeches and manifestos in social movements",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-english-ch07-st1",
+    "ib-g11-english-ch06-st3"
+   ],
+   "prerequisiteNote": "Political speeches and propaganda across time (DP Year 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch08-st1",
+   "chapterId": "ib-g12-english-ch08",
+   "order": 1,
+   "name": "Unpacking Paper 2 questions: key terms, scope and implied comparison",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-english-ch01-st3"
+   ],
+   "prerequisiteNote": "Comparing texts through a shared concept",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch08-st2",
+   "chapterId": "ib-g12-english-ch08",
+   "order": 2,
+   "name": "Choosing two literary works and pairing them for a question",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-english-ch08-st1",
+    "ib-g12-english-ch02-st1",
+    "ib-g12-english-ch03-st1"
+   ],
+   "prerequisiteNote": "Thematic concerns of the works studied",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch08-st3",
+   "chapterId": "ib-g12-english-ch08",
+   "order": 3,
+   "name": "Revising works: key passages, quotations and character/theme maps",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-english-ch08-st2"
+   ],
+   "prerequisiteNote": "Close knowledge of each literary work",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch09-st1",
+   "chapterId": "ib-g12-english-ch09",
+   "order": 1,
+   "name": "Building a comparative thesis that answers the question",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-english-ch08-st1",
+    "ib-g12-english-ch08-st2"
+   ],
+   "prerequisiteNote": "Unpacking Paper 2 questions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch09-st2",
+   "chapterId": "ib-g12-english-ch09",
+   "order": 2,
+   "name": "Comparing authorial choices and their effects across two works (Criterion B)",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-english-ch09-st1",
+    "ib-g11-english-ch12-st2"
+   ],
+   "prerequisiteNote": "Analysis and evaluation of authorial choices (DP Paper 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch09-st3",
+   "chapterId": "ib-g12-english-ch09",
+   "order": 3,
+   "name": "Coherent, balanced comparative structure and focus (Criterion C)",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-english-ch09-st1",
+    "ib-g11-english-ch12-st1"
+   ],
+   "prerequisiteNote": "Structuring a focused analysis (DP Paper 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch09-st4",
+   "chapterId": "ib-g12-english-ch09",
+   "order": 4,
+   "name": "Timed writing: planning and writing in 1 hour 45 minutes",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-english-ch09-st2",
+    "ib-g12-english-ch09-st3"
+   ],
+   "prerequisiteNote": "Comparative essay structure; quotation recall",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch10-st1",
+   "chapterId": "ib-g12-english-ch10",
+   "order": 1,
+   "name": "Choosing a text and formulating a line of inquiry linked to a course concept",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-english-ch01-st1",
+    "ib-g11-english-ch01-st2"
+   ],
+   "prerequisiteNote": "The seven course concepts (DP Year 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch10-st2",
+   "chapterId": "ib-g12-english-ch10",
+   "order": 2,
+   "name": "Using the learner portfolio to develop and test ideas",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-english-ch10-st1"
+   ],
+   "prerequisiteNote": "Learner portfolio entries (DP Year 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch10-st3",
+   "chapterId": "ib-g12-english-ch10",
+   "order": 3,
+   "name": "Secondary sources, critical reading and academic integrity",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-english-ch10-st1",
+    "ib-g12-english-ch02-st3"
+   ],
+   "prerequisiteNote": "Critical lenses; citing sources (MYP)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch11-st1",
+   "chapterId": "ib-g12-english-ch11",
+   "order": 1,
+   "name": "Structuring a 1,200-1,500 word analytical argument",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-english-ch10-st1",
+    "ib-g12-english-ch09-st1"
+   ],
+   "prerequisiteNote": "Thesis-led argument (Paper 2 essays)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch11-st2",
+   "chapterId": "ib-g12-english-ch11",
+   "order": 2,
+   "name": "Integrating textual evidence and referencing (MLA style, bibliography)",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-english-ch11-st1",
+    "ib-g12-english-ch10-st3"
+   ],
+   "prerequisiteNote": "Secondary sources and academic integrity",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch11-st3",
+   "chapterId": "ib-g12-english-ch11",
+   "order": 3,
+   "name": "Redrafting after teacher feedback and meeting criteria A-D",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-english-ch11-st1",
+    "ib-g12-english-ch11-st2"
+   ],
+   "prerequisiteNote": "HL essay criteria",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch12-st1",
+   "chapterId": "ib-g12-english-ch12",
+   "order": 1,
+   "name": "Analysing unfamiliar text types: blogs, reviews, opinion columns, brochures",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-english-ch11-st1",
+    "ib-g11-english-ch11-st2"
+   ],
+   "prerequisiteNote": "Identifying text type and building a line of argument (DP Year 1 Paper 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch12-st2",
+   "chapterId": "ib-g12-english-ch12",
+   "order": 2,
+   "name": "HL Paper 1: managing two unseen analyses in 2 hours 15 minutes",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-english-ch12-st1",
+    "ib-g11-english-ch11-st3"
+   ],
+   "prerequisiteNote": "Timed annotation and planning (DP Year 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch12-st3",
+   "chapterId": "ib-g12-english-ch12",
+   "order": 3,
+   "name": "Moderating own responses against Paper 1 markbands",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-english-ch12-st1",
+    "ib-g11-english-ch12-st4"
+   ],
+   "prerequisiteNote": "Self-assessment against Paper 1 criteria (DP Year 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch13-st1",
+   "chapterId": "ib-g12-english-ch13",
+   "order": 1,
+   "name": "Connecting works across areas of exploration and course concepts, including TOK links on language and knowledge",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-english-ch01-st3",
+    "ib-g12-english-ch08-st2"
+   ],
+   "prerequisiteNote": "Comparing texts through a shared concept",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch13-st2",
+   "chapterId": "ib-g12-english-ch13",
+   "order": 2,
+   "name": "Full mock: Paper 1 and Paper 2 under exam conditions",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-english-ch09-st4",
+    "ib-g12-english-ch12-st2"
+   ],
+   "prerequisiteNote": "Timed writing for Papers 1 and 2",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-english-ch13-st3",
+   "chapterId": "ib-g12-english-ch13",
+   "order": 3,
+   "name": "Reviewing errors and targeting weak assessment criteria",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-english-ch13-st2"
+   ],
+   "prerequisiteNote": "Mock exam feedback",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

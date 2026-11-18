@@ -1,0 +1,998 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cambridge-g8-maths",
+  "board": "cambridge",
+  "grade": 8,
+  "stream": "none",
+  "slug": "maths",
+  "name": "Mathematics",
+  "programme": "Cambridge Lower Secondary Mathematics 0862 (Stage 9)",
+  "textbook": "CUP Learner's Book 9 (2nd ed.)",
+  "examPattern": "Cambridge Lower Secondary Checkpoint (externally set, taken in school on timetabled date – Mar/May/Oct series). Paper 1 Non-calculator 1 h + Paper 2 Calculator 1 h, ~50 marks each (UNVERIFIED), ~20–25 multi-part questions each. Reported on 0–50 scale + performance band.",
+  "chapterCount": 15,
+  "questionTarget": 1632
+ },
+ "items": [
+  {
+   "id": "cambridge-g8-maths-ch01",
+   "subjectId": "cambridge-g8-maths",
+   "order": 1,
+   "name": "Number and calculation",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "cambridge-g8-maths-ch01-st1",
+    "cambridge-g8-maths-ch01-st2",
+    "cambridge-g8-maths-ch01-st3",
+    "cambridge-g8-maths-ch01-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g8-maths-ch02",
+   "subjectId": "cambridge-g8-maths",
+   "order": 2,
+   "name": "Expressions and formulae",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "cambridge-g8-maths-ch02-st1",
+    "cambridge-g8-maths-ch02-st2",
+    "cambridge-g8-maths-ch02-st3",
+    "cambridge-g8-maths-ch02-st4",
+    "cambridge-g8-maths-ch02-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g8-maths-ch03",
+   "subjectId": "cambridge-g8-maths",
+   "order": 3,
+   "name": "Decimals, percentages and rounding",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "cambridge-g8-maths-ch03-st1",
+    "cambridge-g8-maths-ch03-st2",
+    "cambridge-g8-maths-ch03-st3",
+    "cambridge-g8-maths-ch03-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g8-maths-ch04",
+   "subjectId": "cambridge-g8-maths",
+   "order": 4,
+   "name": "Equations and inequalities",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "cambridge-g8-maths-ch04-st1",
+    "cambridge-g8-maths-ch04-st2",
+    "cambridge-g8-maths-ch04-st3",
+    "cambridge-g8-maths-ch04-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g8-maths-ch05",
+   "subjectId": "cambridge-g8-maths",
+   "order": 5,
+   "name": "Angles",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "cambridge-g8-maths-ch05-st1",
+    "cambridge-g8-maths-ch05-st2",
+    "cambridge-g8-maths-ch05-st3",
+    "cambridge-g8-maths-ch05-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g8-maths-ch06",
+   "subjectId": "cambridge-g8-maths",
+   "order": 6,
+   "name": "Statistical investigations",
+   "teachingPeriods": 6,
+   "subtopicIds": [
+    "cambridge-g8-maths-ch06-st1",
+    "cambridge-g8-maths-ch06-st2",
+    "cambridge-g8-maths-ch06-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g8-maths-ch07",
+   "subjectId": "cambridge-g8-maths",
+   "order": 7,
+   "name": "Shapes and measurements",
+   "teachingPeriods": 7,
+   "subtopicIds": [
+    "cambridge-g8-maths-ch07-st1",
+    "cambridge-g8-maths-ch07-st2",
+    "cambridge-g8-maths-ch07-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g8-maths-ch08",
+   "subjectId": "cambridge-g8-maths",
+   "order": 8,
+   "name": "Fractions",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cambridge-g8-maths-ch08-st1",
+    "cambridge-g8-maths-ch08-st2",
+    "cambridge-g8-maths-ch08-st3",
+    "cambridge-g8-maths-ch08-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g8-maths-ch09",
+   "subjectId": "cambridge-g8-maths",
+   "order": 9,
+   "name": "Sequences and functions",
+   "teachingPeriods": 7,
+   "subtopicIds": [
+    "cambridge-g8-maths-ch09-st1",
+    "cambridge-g8-maths-ch09-st2",
+    "cambridge-g8-maths-ch09-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g8-maths-ch10",
+   "subjectId": "cambridge-g8-maths",
+   "order": 10,
+   "name": "Graphs",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cambridge-g8-maths-ch10-st1",
+    "cambridge-g8-maths-ch10-st2",
+    "cambridge-g8-maths-ch10-st3",
+    "cambridge-g8-maths-ch10-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g8-maths-ch11",
+   "subjectId": "cambridge-g8-maths",
+   "order": 11,
+   "name": "Ratio and proportion",
+   "teachingPeriods": 7,
+   "subtopicIds": [
+    "cambridge-g8-maths-ch11-st1",
+    "cambridge-g8-maths-ch11-st2",
+    "cambridge-g8-maths-ch11-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g8-maths-ch12",
+   "subjectId": "cambridge-g8-maths",
+   "order": 12,
+   "name": "Probability",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cambridge-g8-maths-ch12-st1",
+    "cambridge-g8-maths-ch12-st2",
+    "cambridge-g8-maths-ch12-st3",
+    "cambridge-g8-maths-ch12-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g8-maths-ch13",
+   "subjectId": "cambridge-g8-maths",
+   "order": 13,
+   "name": "Position and transformation",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cambridge-g8-maths-ch13-st1",
+    "cambridge-g8-maths-ch13-st2",
+    "cambridge-g8-maths-ch13-st3",
+    "cambridge-g8-maths-ch13-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g8-maths-ch14",
+   "subjectId": "cambridge-g8-maths",
+   "order": 14,
+   "name": "Volume, surface area and symmetry",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cambridge-g8-maths-ch14-st1",
+    "cambridge-g8-maths-ch14-st2",
+    "cambridge-g8-maths-ch14-st3",
+    "cambridge-g8-maths-ch14-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g8-maths-ch15",
+   "subjectId": "cambridge-g8-maths",
+   "order": 15,
+   "name": "Interpreting and discussing results",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cambridge-g8-maths-ch15-st1",
+    "cambridge-g8-maths-ch15-st2",
+    "cambridge-g8-maths-ch15-st3",
+    "cambridge-g8-maths-ch15-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cambridge-g8-maths-ch01-st1",
+   "chapterId": "cambridge-g8-maths-ch01",
+   "order": 1,
+   "name": "Irrational numbers: surds and their approximate values",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Square roots and cube roots of perfect squares and cubes (Stage 8); decimal place value",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch01-st2",
+   "chapterId": "cambridge-g8-maths-ch01",
+   "order": 2,
+   "name": "Standard form for large and small numbers",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Multiplying and dividing by powers of 10 (Stage 8); place value of decimals",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch01-st3",
+   "chapterId": "cambridge-g8-maths-ch01",
+   "order": 3,
+   "name": "Laws of indices including zero and negative indices",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Index notation and positive integer indices (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch01-st4",
+   "chapterId": "cambridge-g8-maths-ch01",
+   "order": 4,
+   "name": "Estimating and calculating with standard form",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch01-st2",
+    "cambridge-g8-maths-ch01-st3"
+   ],
+   "prerequisiteNote": "Standard form for large and small numbers; laws of indices",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch02-st1",
+   "chapterId": "cambridge-g8-maths-ch02",
+   "order": 1,
+   "name": "Substituting into expressions and formulae",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Order of operations with negative numbers (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch02-st2",
+   "chapterId": "cambridge-g8-maths-ch02",
+   "order": 2,
+   "name": "Constructing expressions and formulae",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch02-st1"
+   ],
+   "prerequisiteNote": "Using letters to represent unknowns (Stage 7-8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch02-st3",
+   "chapterId": "cambridge-g8-maths-ch02",
+   "order": 3,
+   "name": "Expanding the product of two linear expressions",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch02-st1"
+   ],
+   "prerequisiteNote": "Expanding a single bracket and collecting like terms (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch02-st4",
+   "chapterId": "cambridge-g8-maths-ch02",
+   "order": 4,
+   "name": "Factorising by taking out common factors",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch02-st3"
+   ],
+   "prerequisiteNote": "Highest common factor of numbers (Stage 7-8); expanding brackets",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch02-st5",
+   "chapterId": "cambridge-g8-maths-ch02",
+   "order": 5,
+   "name": "Simplifying and adding algebraic fractions",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch02-st4"
+   ],
+   "prerequisiteNote": "Adding and simplifying numerical fractions (Stage 8); factorising",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch03-st1",
+   "chapterId": "cambridge-g8-maths-ch03",
+   "order": 1,
+   "name": "Multiplying and dividing by powers of 10",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch01-st3"
+   ],
+   "prerequisiteNote": "Place value and decimals (Stage 8); laws of indices",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch03-st2",
+   "chapterId": "cambridge-g8-maths-ch03",
+   "order": 2,
+   "name": "Multiplying and dividing decimals",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch03-st1"
+   ],
+   "prerequisiteNote": "Written multiplication and division of whole numbers (Stage 7-8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch03-st3",
+   "chapterId": "cambridge-g8-maths-ch03",
+   "order": 3,
+   "name": "Understanding compound percentages and repeated percentage change",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch03-st2"
+   ],
+   "prerequisiteNote": "Percentage increase and decrease using a multiplier (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch03-st4",
+   "chapterId": "cambridge-g8-maths-ch03",
+   "order": 4,
+   "name": "Understanding upper and lower bounds of rounded values",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch03-st1"
+   ],
+   "prerequisiteNote": "Rounding to decimal places and significant figures (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch04-st1",
+   "chapterId": "cambridge-g8-maths-ch04",
+   "order": 1,
+   "name": "Constructing and solving linear equations, including with brackets and fractions",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch02-st2",
+    "cambridge-g8-maths-ch02-st3"
+   ],
+   "prerequisiteNote": "Solving two-step linear equations (Stage 8); expanding a single bracket",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch04-st2",
+   "chapterId": "cambridge-g8-maths-ch04",
+   "order": 2,
+   "name": "Solving simultaneous linear equations",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch04-st1"
+   ],
+   "prerequisiteNote": "Solving linear equations; substitution into expressions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch04-st3",
+   "chapterId": "cambridge-g8-maths-ch04",
+   "order": 3,
+   "name": "Representing and solving linear inequalities",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch04-st1"
+   ],
+   "prerequisiteNote": "Inequality symbols and number lines (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch04-st4",
+   "chapterId": "cambridge-g8-maths-ch04",
+   "order": 4,
+   "name": "Changing the subject of a formula",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch02-st2",
+    "cambridge-g8-maths-ch04-st1"
+   ],
+   "prerequisiteNote": "Inverse operations; solving linear equations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch05-st1",
+   "chapterId": "cambridge-g8-maths-ch05",
+   "order": 1,
+   "name": "Calculating angles: parallel lines, alternate, corresponding and co-interior angles",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Angles on a line, at a point and in a triangle (Stage 7-8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch05-st2",
+   "chapterId": "cambridge-g8-maths-ch05",
+   "order": 2,
+   "name": "Interior and exterior angles of polygons",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch05-st1"
+   ],
+   "prerequisiteNote": "Angle sum of a triangle and quadrilateral (Stage 7-8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch05-st3",
+   "chapterId": "cambridge-g8-maths-ch05",
+   "order": 3,
+   "name": "Constructions: perpendicular bisectors and angle bisectors",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch05-st1"
+   ],
+   "prerequisiteNote": "Using a ruler, compasses and protractor (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch05-st4",
+   "chapterId": "cambridge-g8-maths-ch05",
+   "order": 4,
+   "name": "Pythagoras' theorem in right-angled triangles",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch01-st1"
+   ],
+   "prerequisiteNote": "Squares and square roots (Stage 8); irrational numbers",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch06-st1",
+   "chapterId": "cambridge-g8-maths-ch06",
+   "order": 1,
+   "name": "Planning a statistical investigation and choosing data to collect",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Primary and secondary data; types of data (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch06-st2",
+   "chapterId": "cambridge-g8-maths-ch06",
+   "order": 2,
+   "name": "Sampling methods and sample size",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Populations and samples (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch06-st3",
+   "chapterId": "cambridge-g8-maths-ch06",
+   "order": 3,
+   "name": "Recognising and reducing bias in data collection",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch06-st2"
+   ],
+   "prerequisiteNote": "Sampling methods; designing questions for a questionnaire (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch07-st1",
+   "chapterId": "cambridge-g8-maths-ch07",
+   "order": 1,
+   "name": "Circumference and area of a circle",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch01-st1"
+   ],
+   "prerequisiteNote": "Area of rectangles, triangles and parallelograms (Stage 7-8); using pi as an irrational number",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch07-st2",
+   "chapterId": "cambridge-g8-maths-ch07",
+   "order": 2,
+   "name": "Areas of compound shapes including semicircles and sectors",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch07-st1"
+   ],
+   "prerequisiteNote": "Area of a circle; area of trapezium (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch07-st3",
+   "chapterId": "cambridge-g8-maths-ch07",
+   "order": 3,
+   "name": "Converting between large and small units of area and volume",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch03-st1"
+   ],
+   "prerequisiteNote": "Converting metric units of length (Stage 7-8); multiplying by powers of 10",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch08-st1",
+   "chapterId": "cambridge-g8-maths-ch08",
+   "order": 1,
+   "name": "Fractions and recurring decimals",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch03-st2"
+   ],
+   "prerequisiteNote": "Converting fractions to terminating decimals (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch08-st2",
+   "chapterId": "cambridge-g8-maths-ch08",
+   "order": 2,
+   "name": "Fractions and the correct order of operations",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch08-st1"
+   ],
+   "prerequisiteNote": "Order of operations (Stage 8); adding fractions with different denominators",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch08-st3",
+   "chapterId": "cambridge-g8-maths-ch08",
+   "order": 3,
+   "name": "Multiplying and dividing fractions and mixed numbers",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch08-st2"
+   ],
+   "prerequisiteNote": "Multiplying a fraction by an integer (Stage 8); reciprocals",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch08-st4",
+   "chapterId": "cambridge-g8-maths-ch08",
+   "order": 4,
+   "name": "Making calculations easier using fraction strategies",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch08-st3"
+   ],
+   "prerequisiteNote": "Equivalent fractions and cancelling common factors (Stage 7-8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch09-st1",
+   "chapterId": "cambridge-g8-maths-ch09",
+   "order": 1,
+   "name": "Generating sequences from term-to-term and position-to-term rules",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Term-to-term rules for linear sequences (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch09-st2",
+   "chapterId": "cambridge-g8-maths-ch09",
+   "order": 2,
+   "name": "Finding and using the nth term of linear and quadratic sequences",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch09-st1",
+    "cambridge-g8-maths-ch02-st1"
+   ],
+   "prerequisiteNote": "Generating sequences; substituting into expressions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch09-st3",
+   "chapterId": "cambridge-g8-maths-ch09",
+   "order": 3,
+   "name": "Functions as mappings and inverse functions",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch09-st2",
+    "cambridge-g8-maths-ch04-st1"
+   ],
+   "prerequisiteNote": "Function machines and inverse operations (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch10-st1",
+   "chapterId": "cambridge-g8-maths-ch10",
+   "order": 1,
+   "name": "Functions and their linear graphs",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch09-st3"
+   ],
+   "prerequisiteNote": "Plotting coordinates in four quadrants (Stage 7-8); function mappings",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch10-st2",
+   "chapterId": "cambridge-g8-maths-ch10",
+   "order": 2,
+   "name": "Plotting graphs of linear and simple non-linear functions",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch10-st1"
+   ],
+   "prerequisiteNote": "Substituting values into a function; drawing tables of values",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch10-st3",
+   "chapterId": "cambridge-g8-maths-ch10",
+   "order": 3,
+   "name": "Gradient and intercept: y = mx + c",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch10-st1",
+    "cambridge-g8-maths-ch04-st4"
+   ],
+   "prerequisiteNote": "Gradient as steepness from a table of values (Stage 8); changing the subject of a formula",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch10-st4",
+   "chapterId": "cambridge-g8-maths-ch10",
+   "order": 4,
+   "name": "Interpreting real-life graphs including distance-time graphs",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch10-st3"
+   ],
+   "prerequisiteNote": "Reading scales on axes; speed = distance / time (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch11-st1",
+   "chapterId": "cambridge-g8-maths-ch11",
+   "order": 1,
+   "name": "Using ratios and dividing a quantity in a given ratio",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Simplifying ratios and sharing in a ratio (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch11-st2",
+   "chapterId": "cambridge-g8-maths-ch11",
+   "order": 2,
+   "name": "Direct and inverse proportion",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch11-st1",
+    "cambridge-g8-maths-ch10-st3"
+   ],
+   "prerequisiteNote": "Unitary method (Stage 8); equations of straight-line graphs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch11-st3",
+   "chapterId": "cambridge-g8-maths-ch11",
+   "order": 3,
+   "name": "Compound measures: speed, density and rates",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch11-st2"
+   ],
+   "prerequisiteNote": "Direct proportion; units of mass, volume and time",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch12-st1",
+   "chapterId": "cambridge-g8-maths-ch12",
+   "order": 1,
+   "name": "Mutually exclusive events and the sum of probabilities",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Probability scale from 0 to 1; complementary events (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch12-st2",
+   "chapterId": "cambridge-g8-maths-ch12",
+   "order": 2,
+   "name": "Independent events and the multiplication rule",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch12-st1",
+    "cambridge-g8-maths-ch08-st3"
+   ],
+   "prerequisiteNote": "Mutually exclusive events; multiplying fractions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch12-st3",
+   "chapterId": "cambridge-g8-maths-ch12",
+   "order": 3,
+   "name": "Combined events: sample spaces and tree diagrams",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch12-st2"
+   ],
+   "prerequisiteNote": "Listing outcomes systematically (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch12-st4",
+   "chapterId": "cambridge-g8-maths-ch12",
+   "order": 4,
+   "name": "Chance experiments: relative frequency and expected outcomes",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch12-st1"
+   ],
+   "prerequisiteNote": "Experimental probability (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch13-st1",
+   "chapterId": "cambridge-g8-maths-ch13",
+   "order": 1,
+   "name": "Bearings and scale drawings",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch05-st1"
+   ],
+   "prerequisiteNote": "Measuring angles with a protractor; using scales and ratio (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch13-st2",
+   "chapterId": "cambridge-g8-maths-ch13",
+   "order": 2,
+   "name": "Points on a line segment: midpoints and dividing in a ratio",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch11-st1"
+   ],
+   "prerequisiteNote": "Coordinates of a midpoint (Stage 8); dividing in a ratio",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch13-st3",
+   "chapterId": "cambridge-g8-maths-ch13",
+   "order": 3,
+   "name": "Transformations: reflection, rotation, translation and combined transformations",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Reflecting, rotating and translating shapes on a grid (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch13-st4",
+   "chapterId": "cambridge-g8-maths-ch13",
+   "order": 4,
+   "name": "Enlarging shapes with positive and fractional scale factors",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch13-st3",
+    "cambridge-g8-maths-ch08-st3"
+   ],
+   "prerequisiteNote": "Enlargement with a positive integer scale factor (Stage 8); multiplying fractions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch14-st1",
+   "chapterId": "cambridge-g8-maths-ch14",
+   "order": 1,
+   "name": "Properties of quadrilaterals and polygons",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch05-st2"
+   ],
+   "prerequisiteNote": "Classifying quadrilaterals by sides and angles (Stage 7-8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch14-st2",
+   "chapterId": "cambridge-g8-maths-ch14",
+   "order": 2,
+   "name": "Nets and plans and elevations of 3D shapes",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Recognising faces, edges and vertices of 3D shapes (Stage 7-8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch14-st3",
+   "chapterId": "cambridge-g8-maths-ch14",
+   "order": 3,
+   "name": "Volume and surface area of prisms and cylinders",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch07-st1",
+    "cambridge-g8-maths-ch14-st2"
+   ],
+   "prerequisiteNote": "Area of a circle; volume of cuboids (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch14-st4",
+   "chapterId": "cambridge-g8-maths-ch14",
+   "order": 4,
+   "name": "Planes of symmetry in 3D shapes",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch14-st1"
+   ],
+   "prerequisiteNote": "Line and rotational symmetry of 2D shapes (Stage 7-8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch15-st1",
+   "chapterId": "cambridge-g8-maths-ch15",
+   "order": 1,
+   "name": "Interpreting and drawing frequency tables, frequency polygons and diagrams",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch06-st1"
+   ],
+   "prerequisiteNote": "Grouped frequency tables and bar charts (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch15-st2",
+   "chapterId": "cambridge-g8-maths-ch15",
+   "order": 2,
+   "name": "Time series graphs and moving trends",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch10-st4"
+   ],
+   "prerequisiteNote": "Line graphs and reading scales (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch15-st3",
+   "chapterId": "cambridge-g8-maths-ch15",
+   "order": 3,
+   "name": "Stem-and-leaf diagrams and comparing distributions",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch15-st1"
+   ],
+   "prerequisiteNote": "Mean, median, mode and range (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-maths-ch15-st4",
+   "chapterId": "cambridge-g8-maths-ch15",
+   "order": 4,
+   "name": "Scatter graphs, correlation and lines of best fit",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch15-st1",
+    "cambridge-g8-maths-ch10-st3"
+   ],
+   "prerequisiteNote": "Plotting coordinates; gradient of a straight line",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

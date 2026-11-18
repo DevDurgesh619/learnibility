@@ -1,0 +1,879 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cambridge-g10-maths",
+  "board": "cambridge",
+  "grade": 10,
+  "stream": "none",
+  "slug": "maths",
+  "name": "Mathematics",
+  "programme": "Cambridge IGCSE Mathematics 0580 (2025–27 syllabus)",
+  "textbook": "CUP Core & Extended Coursebook 3rd ed. (24 chapters)",
+  "examPattern": "IGCSE Extended: Paper 2 Non-calculator 2 h, 100 marks + Paper 4 Calculator 2 h, 100 marks (50% each), structured & unstructured questions (~20–30 on P2, ~15–25 multi-part on P4). Core: P1 + P3, 1 h 30 each, 80 marks. Grades A*–E (Extended) / C–G (Core).",
+  "chapterCount": 12,
+  "questionTarget": 1470
+ },
+ "items": [
+  {
+   "id": "cambridge-g10-maths-ch01",
+   "subjectId": "cambridge-g10-maths",
+   "order": 1,
+   "name": "Understanding measurement",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "cambridge-g10-maths-ch01-st1",
+    "cambridge-g10-maths-ch01-st2",
+    "cambridge-g10-maths-ch01-st3",
+    "cambridge-g10-maths-ch01-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g10-maths-ch02",
+   "subjectId": "cambridge-g10-maths",
+   "order": 2,
+   "name": "Further solving of equations and inequalities",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "cambridge-g10-maths-ch02-st1",
+    "cambridge-g10-maths-ch02-st2",
+    "cambridge-g10-maths-ch02-st3",
+    "cambridge-g10-maths-ch02-st4",
+    "cambridge-g10-maths-ch02-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g10-maths-ch03",
+   "subjectId": "cambridge-g10-maths",
+   "order": 3,
+   "name": "Scale drawings, bearings and trigonometry",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "cambridge-g10-maths-ch03-st1",
+    "cambridge-g10-maths-ch03-st2",
+    "cambridge-g10-maths-ch03-st3",
+    "cambridge-g10-maths-ch03-st4",
+    "cambridge-g10-maths-ch03-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g10-maths-ch04",
+   "subjectId": "cambridge-g10-maths",
+   "order": 4,
+   "name": "Scatter diagrams and correlation",
+   "teachingPeriods": 5,
+   "subtopicIds": [
+    "cambridge-g10-maths-ch04-st1",
+    "cambridge-g10-maths-ch04-st2",
+    "cambridge-g10-maths-ch04-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g10-maths-ch05",
+   "subjectId": "cambridge-g10-maths",
+   "order": 5,
+   "name": "Managing money",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cambridge-g10-maths-ch05-st1",
+    "cambridge-g10-maths-ch05-st2",
+    "cambridge-g10-maths-ch05-st3",
+    "cambridge-g10-maths-ch05-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g10-maths-ch06",
+   "subjectId": "cambridge-g10-maths",
+   "order": 6,
+   "name": "Curved graphs",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "cambridge-g10-maths-ch06-st1",
+    "cambridge-g10-maths-ch06-st2",
+    "cambridge-g10-maths-ch06-st3",
+    "cambridge-g10-maths-ch06-st4",
+    "cambridge-g10-maths-ch06-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g10-maths-ch07",
+   "subjectId": "cambridge-g10-maths",
+   "order": 7,
+   "name": "Symmetry",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "cambridge-g10-maths-ch07-st1",
+    "cambridge-g10-maths-ch07-st2",
+    "cambridge-g10-maths-ch07-st3",
+    "cambridge-g10-maths-ch07-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g10-maths-ch08",
+   "subjectId": "cambridge-g10-maths",
+   "order": 8,
+   "name": "Histograms and frequency distribution diagrams",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "cambridge-g10-maths-ch08-st1",
+    "cambridge-g10-maths-ch08-st2",
+    "cambridge-g10-maths-ch08-st3",
+    "cambridge-g10-maths-ch08-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g10-maths-ch09",
+   "subjectId": "cambridge-g10-maths",
+   "order": 9,
+   "name": "Ratio, rate and proportion",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "cambridge-g10-maths-ch09-st1",
+    "cambridge-g10-maths-ch09-st2",
+    "cambridge-g10-maths-ch09-st3",
+    "cambridge-g10-maths-ch09-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g10-maths-ch10",
+   "subjectId": "cambridge-g10-maths",
+   "order": 10,
+   "name": "More equations, formulae and functions",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cambridge-g10-maths-ch10-st1",
+    "cambridge-g10-maths-ch10-st2",
+    "cambridge-g10-maths-ch10-st3",
+    "cambridge-g10-maths-ch10-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g10-maths-ch11",
+   "subjectId": "cambridge-g10-maths",
+   "order": 11,
+   "name": "Transformations and vectors",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cambridge-g10-maths-ch11-st1",
+    "cambridge-g10-maths-ch11-st2",
+    "cambridge-g10-maths-ch11-st3",
+    "cambridge-g10-maths-ch11-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g10-maths-ch12",
+   "subjectId": "cambridge-g10-maths",
+   "order": 12,
+   "name": "Probability using tree diagrams and Venn diagrams",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "cambridge-g10-maths-ch12-st1",
+    "cambridge-g10-maths-ch12-st2",
+    "cambridge-g10-maths-ch12-st3"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cambridge-g10-maths-ch01-st1",
+   "chapterId": "cambridge-g10-maths-ch01",
+   "order": 1,
+   "name": "Units of measurement and converting units of length, area, volume and capacity",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-maths-ch07-st4"
+   ],
+   "prerequisiteNote": "Metric conversions (Stage 9); area and volume",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch01-st2",
+   "chapterId": "cambridge-g10-maths-ch01",
+   "order": 2,
+   "name": "Time: 12- and 24-hour clock and timetables",
+   "weight": "L",
+   "teachingPeriods": 1,
+   "prerequisiteIds": [
+    "cambridge-g9-maths-ch01-st3"
+   ],
+   "prerequisiteNote": "Reading clock times; adding and subtracting time",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch01-st3",
+   "chapterId": "cambridge-g10-maths-ch01",
+   "order": 3,
+   "name": "Upper and lower bounds and calculations with bounds",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-maths-ch05-st4"
+   ],
+   "prerequisiteNote": "Rounding to significant figures and decimal places",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch01-st4",
+   "chapterId": "cambridge-g10-maths-ch01",
+   "order": 4,
+   "name": "Conversion graphs and money: currency exchange rates",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-maths-ch10-st1"
+   ],
+   "prerequisiteNote": "Reading straight-line graphs; direct proportion",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch02-st1",
+   "chapterId": "cambridge-g10-maths-ch02",
+   "order": 1,
+   "name": "Simultaneous linear equations by elimination and substitution",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-maths-ch06-st1"
+   ],
+   "prerequisiteNote": "Solving linear equations; substitution",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch02-st2",
+   "chapterId": "cambridge-g10-maths-ch02",
+   "order": 2,
+   "name": "Solving quadratic equations: completing the square and the quadratic formula",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-maths-ch10-st4",
+    "cambridge-g9-maths-ch09-st3"
+   ],
+   "prerequisiteNote": "Solving quadratics by factorising; surds",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch02-st3",
+   "chapterId": "cambridge-g10-maths-ch02",
+   "order": 3,
+   "name": "Linear inequalities and representing them on a number line",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-maths-ch06-st1"
+   ],
+   "prerequisiteNote": "Solving linear equations; inequality notation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch02-st4",
+   "chapterId": "cambridge-g10-maths-ch02",
+   "order": 4,
+   "name": "Regions in the Cartesian plane defined by inequalities",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-maths-ch02-st3",
+    "cambridge-g9-maths-ch10-st1"
+   ],
+   "prerequisiteNote": "Linear inequalities; drawing straight-line graphs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch02-st5",
+   "chapterId": "cambridge-g10-maths-ch02",
+   "order": 5,
+   "name": "Algebraic fractions: simplifying, adding, multiplying and solving equations",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-maths-ch06-st2"
+   ],
+   "prerequisiteNote": "Factorising; operations with numerical fractions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch03-st1",
+   "chapterId": "cambridge-g10-maths-ch03",
+   "order": 1,
+   "name": "Scale drawings and three-figure bearings",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-maths-ch03-st4"
+   ],
+   "prerequisiteNote": "Measuring angles; scales and ratio",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch03-st2",
+   "chapterId": "cambridge-g10-maths-ch03",
+   "order": 2,
+   "name": "Right-angled trigonometry: sine, cosine and tangent ratios",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-maths-ch11-st1",
+    "cambridge-g9-maths-ch11-st2"
+   ],
+   "prerequisiteNote": "Pythagoras' theorem; similar triangles",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch03-st3",
+   "chapterId": "cambridge-g10-maths-ch03",
+   "order": 3,
+   "name": "Angles of elevation and depression",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-maths-ch03-st2"
+   ],
+   "prerequisiteNote": "Trigonometric ratios; drawing diagrams from words",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch03-st4",
+   "chapterId": "cambridge-g10-maths-ch03",
+   "order": 4,
+   "name": "Sine rule, cosine rule and area of a triangle using ½ab sin C",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g10-maths-ch03-st2"
+   ],
+   "prerequisiteNote": "Trigonometric ratios; rearranging formulae",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch03-st5",
+   "chapterId": "cambridge-g10-maths-ch03",
+   "order": 5,
+   "name": "Trigonometry in three dimensions and graphs of sine, cosine and tangent",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-maths-ch03-st4"
+   ],
+   "prerequisiteNote": "Pythagoras in 3D; sine and cosine rules",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch04-st1",
+   "chapterId": "cambridge-g10-maths-ch04",
+   "order": 1,
+   "name": "Drawing scatter diagrams and describing correlation",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-maths-ch04-st1"
+   ],
+   "prerequisiteNote": "Plotting coordinates; types of data",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch04-st2",
+   "chapterId": "cambridge-g10-maths-ch04",
+   "order": 2,
+   "name": "Lines of best fit, interpolation and extrapolation",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-maths-ch04-st1",
+    "cambridge-g9-maths-ch10-st1"
+   ],
+   "prerequisiteNote": "Straight-line graphs; reading values from a graph",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch04-st3",
+   "chapterId": "cambridge-g10-maths-ch04",
+   "order": 3,
+   "name": "Correlation and causation in context",
+   "weight": "L",
+   "teachingPeriods": 1,
+   "prerequisiteIds": [
+    "cambridge-g10-maths-ch04-st2"
+   ],
+   "prerequisiteNote": "Describing correlation; data collection",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch05-st1",
+   "chapterId": "cambridge-g10-maths-ch05",
+   "order": 1,
+   "name": "Earning money: wages, salaries, commission and deductions",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-maths-ch05-st2"
+   ],
+   "prerequisiteNote": "Percentage of a quantity",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch05-st2",
+   "chapterId": "cambridge-g10-maths-ch05",
+   "order": 2,
+   "name": "Simple and compound interest",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-maths-ch05-st2"
+   ],
+   "prerequisiteNote": "Percentage change and multipliers",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch05-st3",
+   "chapterId": "cambridge-g10-maths-ch05",
+   "order": 3,
+   "name": "Profit, loss, discount and percentage change in buying and selling",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-maths-ch05-st2"
+   ],
+   "prerequisiteNote": "Percentage change; reverse percentages",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch05-st4",
+   "chapterId": "cambridge-g10-maths-ch05",
+   "order": 4,
+   "name": "Exponential growth and decay",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-maths-ch05-st2",
+    "cambridge-g9-maths-ch09-st1"
+   ],
+   "prerequisiteNote": "Compound interest; exponential sequences",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch06-st1",
+   "chapterId": "cambridge-g10-maths-ch06",
+   "order": 1,
+   "name": "Quadratic graphs: plotting, roots, turning point and line of symmetry",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-maths-ch10-st4"
+   ],
+   "prerequisiteNote": "Solving quadratics by factorising; tables of values",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch06-st2",
+   "chapterId": "cambridge-g10-maths-ch06",
+   "order": 2,
+   "name": "Reciprocal, cubic and exponential graphs",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-maths-ch06-st1"
+   ],
+   "prerequisiteNote": "Plotting curves from tables of values; exponential growth",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch06-st3",
+   "chapterId": "cambridge-g10-maths-ch06",
+   "order": 3,
+   "name": "Solving equations graphically and finding intersections",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-maths-ch06-st1",
+    "cambridge-g10-maths-ch06-st2"
+   ],
+   "prerequisiteNote": "Reading values from graphs; straight-line graphs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch06-st4",
+   "chapterId": "cambridge-g10-maths-ch06",
+   "order": 4,
+   "name": "Gradient of a curve: tangents and differentiation of ax^n",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g10-maths-ch06-st1",
+    "cambridge-g9-maths-ch10-st1"
+   ],
+   "prerequisiteNote": "Gradient of a straight line; laws of indices",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch06-st5",
+   "chapterId": "cambridge-g10-maths-ch06",
+   "order": 5,
+   "name": "Stationary points and their nature using the derivative",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-maths-ch06-st4"
+   ],
+   "prerequisiteNote": "Differentiation of ax^n; solving equations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch07-st1",
+   "chapterId": "cambridge-g10-maths-ch07",
+   "order": 1,
+   "name": "Line and rotational symmetry of 2D shapes",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-maths-ch03-st2"
+   ],
+   "prerequisiteNote": "Properties of polygons and quadrilaterals",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch07-st2",
+   "chapterId": "cambridge-g10-maths-ch07",
+   "order": 2,
+   "name": "Symmetry in 3D: planes and axes of symmetry",
+   "weight": "L",
+   "teachingPeriods": 1,
+   "prerequisiteIds": [
+    "cambridge-g10-maths-ch07-st1"
+   ],
+   "prerequisiteNote": "Planes of symmetry (Stage 9); nets of solids",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch07-st3",
+   "chapterId": "cambridge-g10-maths-ch07",
+   "order": 3,
+   "name": "Symmetry properties of circles: chords and tangents",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g10-maths-ch07-st1",
+    "cambridge-g9-maths-ch03-st3"
+   ],
+   "prerequisiteNote": "Circle theorems; isosceles triangles",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch07-st4",
+   "chapterId": "cambridge-g10-maths-ch07",
+   "order": 4,
+   "name": "Angle relationships in circles and proofs",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-maths-ch07-st3"
+   ],
+   "prerequisiteNote": "Circle theorems; angle properties of parallel lines",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch08-st1",
+   "chapterId": "cambridge-g10-maths-ch08",
+   "order": 1,
+   "name": "Histograms with equal and unequal class widths: frequency density",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-maths-ch12-st2"
+   ],
+   "prerequisiteNote": "Grouped frequency tables; class width and midpoint",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch08-st2",
+   "chapterId": "cambridge-g10-maths-ch08",
+   "order": 2,
+   "name": "Cumulative frequency tables and curves",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-maths-ch12-st2"
+   ],
+   "prerequisiteNote": "Grouped frequency tables; plotting points",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch08-st3",
+   "chapterId": "cambridge-g10-maths-ch08",
+   "order": 3,
+   "name": "Median, quartiles, interquartile range and percentiles from cumulative frequency",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-maths-ch08-st2",
+    "cambridge-g9-maths-ch12-st3"
+   ],
+   "prerequisiteNote": "Quartiles and IQR from raw data",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch08-st4",
+   "chapterId": "cambridge-g10-maths-ch08",
+   "order": 4,
+   "name": "Comparing distributions using histograms and cumulative frequency",
+   "weight": "L",
+   "teachingPeriods": 1,
+   "prerequisiteIds": [
+    "cambridge-g10-maths-ch08-st1",
+    "cambridge-g10-maths-ch08-st3"
+   ],
+   "prerequisiteNote": "Comparing distributions using averages and spread",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch09-st1",
+   "chapterId": "cambridge-g10-maths-ch09",
+   "order": 1,
+   "name": "Working with ratio: simplifying and sharing in a given ratio",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-maths-ch05-st1"
+   ],
+   "prerequisiteNote": "Dividing a quantity in a ratio (Stage 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch09-st2",
+   "chapterId": "cambridge-g10-maths-ch09",
+   "order": 2,
+   "name": "Rates and compound measures: speed, density and pressure",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-maths-ch09-st1"
+   ],
+   "prerequisiteNote": "Speed = distance / time; units of measurement",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch09-st3",
+   "chapterId": "cambridge-g10-maths-ch09",
+   "order": 3,
+   "name": "Direct and inverse proportion: forming equations y = kx^n",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g10-maths-ch09-st1",
+    "cambridge-g9-maths-ch06-st3"
+   ],
+   "prerequisiteNote": "Direct and inverse proportion (Stage 9); rearranging formulae",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch09-st4",
+   "chapterId": "cambridge-g10-maths-ch09",
+   "order": 4,
+   "name": "Increasing and decreasing amounts by a given ratio; best buys",
+   "weight": "L",
+   "teachingPeriods": 1,
+   "prerequisiteIds": [
+    "cambridge-g10-maths-ch09-st1"
+   ],
+   "prerequisiteNote": "Unitary method; ratio",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch10-st1",
+   "chapterId": "cambridge-g10-maths-ch10",
+   "order": 1,
+   "name": "Constructing and solving equations from contexts",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-maths-ch06-st4"
+   ],
+   "prerequisiteNote": "Constructing equations from words",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch10-st2",
+   "chapterId": "cambridge-g10-maths-ch10",
+   "order": 2,
+   "name": "Function notation, domain and range",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-maths-ch02-st2"
+   ],
+   "prerequisiteNote": "Substituting into expressions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch10-st3",
+   "chapterId": "cambridge-g10-maths-ch10",
+   "order": 3,
+   "name": "Composite functions",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-maths-ch10-st2"
+   ],
+   "prerequisiteNote": "Function notation; substitution",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch10-st4",
+   "chapterId": "cambridge-g10-maths-ch10",
+   "order": 4,
+   "name": "Inverse functions",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g10-maths-ch10-st2",
+    "cambridge-g9-maths-ch06-st3"
+   ],
+   "prerequisiteNote": "Rearranging and changing the subject",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch11-st1",
+   "chapterId": "cambridge-g10-maths-ch11",
+   "order": 1,
+   "name": "Reflection, rotation and translation and describing transformations fully",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch13-st3"
+   ],
+   "prerequisiteNote": "Transformations (Stage 9); equations of lines x = a, y = b",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch11-st2",
+   "chapterId": "cambridge-g10-maths-ch11",
+   "order": 2,
+   "name": "Enlargement including fractional and negative scale factors",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-maths-ch11-st1",
+    "cambridge-g9-maths-ch11-st2"
+   ],
+   "prerequisiteNote": "Enlarging shapes (Stage 9); similar triangles",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch11-st3",
+   "chapterId": "cambridge-g10-maths-ch11",
+   "order": 3,
+   "name": "Vector notation, addition, subtraction and scalar multiples",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-maths-ch11-st1"
+   ],
+   "prerequisiteNote": "Column vectors for translations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch11-st4",
+   "chapterId": "cambridge-g10-maths-ch11",
+   "order": 4,
+   "name": "Magnitude of a vector and vector geometry",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g10-maths-ch11-st3",
+    "cambridge-g9-maths-ch11-st1"
+   ],
+   "prerequisiteNote": "Pythagoras' theorem; adding vectors",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch12-st1",
+   "chapterId": "cambridge-g10-maths-ch12",
+   "order": 1,
+   "name": "Tree diagrams for independent and dependent events",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-maths-ch08-st3"
+   ],
+   "prerequisiteNote": "Probability of combined events; multiplying fractions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch12-st2",
+   "chapterId": "cambridge-g10-maths-ch12",
+   "order": 2,
+   "name": "Venn diagrams and probability",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-maths-ch09-st4"
+   ],
+   "prerequisiteNote": "Sets and Venn diagram notation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-maths-ch12-st3",
+   "chapterId": "cambridge-g10-maths-ch12",
+   "order": 3,
+   "name": "Conditional probability",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g10-maths-ch12-st1",
+    "cambridge-g10-maths-ch12-st2"
+   ],
+   "prerequisiteNote": "Tree diagrams; Venn diagrams",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

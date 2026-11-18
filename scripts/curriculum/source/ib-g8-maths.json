@@ -1,0 +1,457 @@
+{
+  "subjectId": "ib-g8-maths",
+  "chapters": [
+    {
+      "name": "Rational Numbers and Number Sets",
+      "subtopics": [
+        {
+          "name": "Natural numbers, integers and rational numbers: classifying numbers",
+          "weight": "S",
+          "note": "Place value and ordering whole numbers and decimals (MYP 2 / Grade 7)"
+        },
+        {
+          "name": "Operations with fractions, decimals and negative numbers",
+          "weight": "H",
+          "note": "Times tables; equivalent fractions; integer rules for signs (MYP 2)"
+        },
+        {
+          "name": "Converting between fractions, decimals and percentages; recurring decimals",
+          "weight": "S",
+          "prereq": [
+            "ib-g8-maths-ch01-st2"
+          ],
+          "note": "Division and place value; equivalent fractions"
+        },
+        {
+          "name": "Estimation, rounding to decimal places and significant figures",
+          "weight": "L",
+          "prereq": [
+            "ib-g8-maths-ch01-st1"
+          ],
+          "note": "Place value of decimals (MYP 2)"
+        }
+      ]
+    },
+    {
+      "name": "Powers and Roots",
+      "subtopics": [
+        {
+          "name": "Exponent notation and laws of exponents",
+          "weight": "H",
+          "note": "Exponents as repeated multiplication (MYP 2); times tables"
+        },
+        {
+          "name": "Squares, cubes, square roots and cube roots",
+          "weight": "S",
+          "prereq": [
+            "ib-g8-maths-ch02-st1"
+          ],
+          "note": "Multiplication tables; prime factorisation (MYP 2)"
+        },
+        {
+          "name": "Zero and negative exponents",
+          "weight": "S",
+          "prereq": [
+            "ib-g8-maths-ch02-st1",
+            "ib-g8-maths-ch01-st2"
+          ],
+          "note": "Laws of exponents; reciprocal of a fraction"
+        },
+        {
+          "name": "Standard form for very large and very small numbers",
+          "weight": "S",
+          "prereq": [
+            "ib-g8-maths-ch02-st3",
+            "ib-g8-maths-ch01-st4"
+          ],
+          "note": "Zero and negative exponents; decimal place value"
+        }
+      ]
+    },
+    {
+      "name": "Percentages, Ratio and Proportion",
+      "subtopics": [
+        {
+          "name": "Percentage of a quantity and percentage change",
+          "weight": "H",
+          "prereq": [
+            "ib-g8-maths-ch01-st3"
+          ],
+          "note": "Converting between fractions, decimals and percentages"
+        },
+        {
+          "name": "Ratio: simplifying and dividing in a given ratio",
+          "weight": "S",
+          "prereq": [
+            "ib-g8-maths-ch01-st2"
+          ],
+          "note": "Equivalent fractions; HCF (MYP 2)"
+        },
+        {
+          "name": "Direct and inverse proportion",
+          "weight": "H",
+          "prereq": [
+            "ib-g8-maths-ch03-st2"
+          ],
+          "note": "Ratio and unit rates; multiplication and division of decimals"
+        },
+        {
+          "name": "Financial applications: simple interest, discount, profit and loss",
+          "weight": "S",
+          "prereq": [
+            "ib-g8-maths-ch03-st1"
+          ],
+          "note": "Percentage of a quantity and percentage change"
+        }
+      ]
+    },
+    {
+      "name": "Algebraic Expressions and Formulae",
+      "subtopics": [
+        {
+          "name": "Variables, terms and writing algebraic expressions",
+          "weight": "S",
+          "note": "Order of operations BIDMAS (MYP 2)"
+        },
+        {
+          "name": "Simplifying expressions: collecting like terms and expanding brackets",
+          "weight": "H",
+          "prereq": [
+            "ib-g8-maths-ch04-st1",
+            "ib-g8-maths-ch01-st2"
+          ],
+          "note": "Integer operations; distributive law with numbers"
+        },
+        {
+          "name": "Factorising by taking out a common factor",
+          "weight": "S",
+          "prereq": [
+            "ib-g8-maths-ch04-st2"
+          ],
+          "note": "HCF of numbers; expanding brackets"
+        },
+        {
+          "name": "Substituting into and rearranging simple formulae",
+          "weight": "S",
+          "prereq": [
+            "ib-g8-maths-ch04-st1"
+          ],
+          "note": "Order of operations; inverse operations"
+        }
+      ]
+    },
+    {
+      "name": "Linear Equations and Inequalities",
+      "subtopics": [
+        {
+          "name": "Solving one- and two-step linear equations",
+          "weight": "H",
+          "prereq": [
+            "ib-g8-maths-ch04-st2"
+          ],
+          "note": "Inverse operations; integer arithmetic (MYP 2)"
+        },
+        {
+          "name": "Equations with brackets, fractions and unknowns on both sides",
+          "weight": "H",
+          "prereq": [
+            "ib-g8-maths-ch05-st1",
+            "ib-g8-maths-ch04-st2"
+          ],
+          "note": "Solving one- and two-step linear equations; expanding brackets"
+        },
+        {
+          "name": "Forming equations from word problems",
+          "weight": "S",
+          "prereq": [
+            "ib-g8-maths-ch05-st2",
+            "ib-g8-maths-ch04-st1"
+          ],
+          "note": "Writing algebraic expressions; solving linear equations"
+        },
+        {
+          "name": "Linear inequalities: solving and representing on a number line",
+          "weight": "S",
+          "prereq": [
+            "ib-g8-maths-ch05-st2"
+          ],
+          "note": "Solving linear equations; ordering negative numbers"
+        }
+      ]
+    },
+    {
+      "name": "Sequences, Coordinates and Straight-Line Graphs",
+      "subtopics": [
+        {
+          "name": "Number patterns and the nth term of a linear sequence",
+          "weight": "S",
+          "prereq": [
+            "ib-g8-maths-ch04-st4"
+          ],
+          "note": "Times tables; substitution into expressions"
+        },
+        {
+          "name": "Plotting points in four quadrants and tables of values",
+          "weight": "S",
+          "prereq": [
+            "ib-g8-maths-ch01-st1"
+          ],
+          "note": "Negative numbers on a number line (MYP 2)"
+        },
+        {
+          "name": "Gradient and the equation y = mx + c",
+          "weight": "H",
+          "prereq": [
+            "ib-g8-maths-ch06-st2",
+            "ib-g8-maths-ch04-st4"
+          ],
+          "note": "Plotting coordinates; substitution; division with negatives"
+        },
+        {
+          "name": "Real-life linear graphs: conversion and distance-time graphs",
+          "weight": "L",
+          "prereq": [
+            "ib-g8-maths-ch06-st3"
+          ],
+          "note": "Gradient as rate of change; reading scales"
+        }
+      ]
+    },
+    {
+      "name": "Angles, Triangles and Polygons",
+      "subtopics": [
+        {
+          "name": "Angle facts: on a line, at a point, vertically opposite",
+          "weight": "S",
+          "note": "Measuring angles with a protractor (MYP 2)"
+        },
+        {
+          "name": "Angles in parallel lines: corresponding, alternate and co-interior",
+          "weight": "H",
+          "prereq": [
+            "ib-g8-maths-ch07-st1"
+          ],
+          "note": "Angle facts on a line and at a point"
+        },
+        {
+          "name": "Angle sum of triangles and quadrilaterals",
+          "weight": "S",
+          "prereq": [
+            "ib-g8-maths-ch07-st2"
+          ],
+          "note": "Angles on a straight line; parallel line angles"
+        },
+        {
+          "name": "Interior and exterior angles of polygons",
+          "weight": "S",
+          "prereq": [
+            "ib-g8-maths-ch07-st3"
+          ],
+          "note": "Angle sum of a triangle"
+        },
+        {
+          "name": "Geometric constructions with ruler and compasses",
+          "weight": "L",
+          "prereq": [
+            "ib-g8-maths-ch07-st1"
+          ],
+          "note": "Using compasses and protractor (MYP 2)"
+        }
+      ]
+    },
+    {
+      "name": "Pythagoras' Theorem",
+      "subtopics": [
+        {
+          "name": "Pythagoras' theorem: finding the hypotenuse",
+          "weight": "H",
+          "prereq": [
+            "ib-g8-maths-ch02-st2"
+          ],
+          "note": "Squares and square roots"
+        },
+        {
+          "name": "Finding a shorter side and solving problems with Pythagoras",
+          "weight": "H",
+          "prereq": [
+            "ib-g8-maths-ch08-st1",
+            "ib-g8-maths-ch04-st4"
+          ],
+          "note": "Pythagoras' theorem for the hypotenuse; rearranging"
+        },
+        {
+          "name": "Converse of Pythagoras and Pythagorean triples",
+          "weight": "S",
+          "prereq": [
+            "ib-g8-maths-ch08-st1"
+          ],
+          "note": "Squares of whole numbers"
+        },
+        {
+          "name": "Distance between two points on a coordinate grid",
+          "weight": "S",
+          "prereq": [
+            "ib-g8-maths-ch08-st2",
+            "ib-g8-maths-ch06-st2"
+          ],
+          "note": "Pythagoras' theorem; plotting points"
+        }
+      ]
+    },
+    {
+      "name": "Area, Surface Area and Volume",
+      "subtopics": [
+        {
+          "name": "Area of triangles, parallelograms, trapeziums and compound shapes",
+          "weight": "S",
+          "prereq": [
+            "ib-g8-maths-ch01-st2"
+          ],
+          "note": "Area of rectangle (MYP 2); multiplication of decimals"
+        },
+        {
+          "name": "Circumference and area of a circle",
+          "weight": "S",
+          "prereq": [
+            "ib-g8-maths-ch04-st4"
+          ],
+          "note": "Substitution into formulae; use of pi"
+        },
+        {
+          "name": "Surface area of prisms and cylinders",
+          "weight": "H",
+          "prereq": [
+            "ib-g8-maths-ch09-st1",
+            "ib-g8-maths-ch09-st2"
+          ],
+          "note": "Area of plane shapes; nets of solids"
+        },
+        {
+          "name": "Volume of prisms and cylinders",
+          "weight": "H",
+          "prereq": [
+            "ib-g8-maths-ch09-st1",
+            "ib-g8-maths-ch09-st2",
+            "ib-g8-maths-ch02-st1"
+          ],
+          "note": "Area of cross-section; exponents for units cubed"
+        },
+        {
+          "name": "Converting units of length, area and volume",
+          "weight": "L",
+          "prereq": [
+            "ib-g8-maths-ch02-st4"
+          ],
+          "note": "Metric units and powers of ten"
+        }
+      ]
+    },
+    {
+      "name": "Transformations and Symmetry",
+      "subtopics": [
+        {
+          "name": "Line and rotational symmetry",
+          "weight": "S",
+          "note": "Properties of 2D shapes (MYP 2)"
+        },
+        {
+          "name": "Translations using column vectors and reflections in lines",
+          "weight": "S",
+          "prereq": [
+            "ib-g8-maths-ch06-st2"
+          ],
+          "note": "Coordinates in four quadrants; equations of horizontal/vertical lines"
+        },
+        {
+          "name": "Rotations about a point",
+          "weight": "S",
+          "prereq": [
+            "ib-g8-maths-ch06-st2",
+            "ib-g8-maths-ch07-st1"
+          ],
+          "note": "Angles and coordinates"
+        },
+        {
+          "name": "Enlargements with positive scale factors and congruence",
+          "weight": "S",
+          "prereq": [
+            "ib-g8-maths-ch03-st2"
+          ],
+          "note": "Multiplying by a scale factor; ratio"
+        }
+      ]
+    },
+    {
+      "name": "Statistics: Data Collection, Displays and Averages",
+      "subtopics": [
+        {
+          "name": "Types of data, sampling and designing a survey",
+          "weight": "L",
+          "note": "Tally charts and frequency tables (MYP 2)"
+        },
+        {
+          "name": "Bar charts, pie charts, stem-and-leaf and histograms of discrete data",
+          "weight": "S",
+          "prereq": [
+            "ib-g8-maths-ch03-st1"
+          ],
+          "note": "Angles in a circle; fractions of 360"
+        },
+        {
+          "name": "Mean, median, mode and range, including from frequency tables",
+          "weight": "H",
+          "prereq": [
+            "ib-g8-maths-ch01-st2"
+          ],
+          "note": "Adding and dividing decimals; ordering numbers"
+        },
+        {
+          "name": "Scatter diagrams and describing correlation",
+          "weight": "S",
+          "prereq": [
+            "ib-g8-maths-ch06-st2"
+          ],
+          "note": "Plotting coordinates"
+        }
+      ]
+    },
+    {
+      "name": "Probability: Simple and Experimental",
+      "subtopics": [
+        {
+          "name": "Probability scale and theoretical probability of single events",
+          "weight": "S",
+          "prereq": [
+            "ib-g8-maths-ch01-st3"
+          ],
+          "note": "Fractions and decimals between 0 and 1"
+        },
+        {
+          "name": "Sample spaces: listing outcomes and two-way tables",
+          "weight": "S",
+          "prereq": [
+            "ib-g8-maths-ch12-st1"
+          ],
+          "note": "Systematic listing; probability of single events"
+        },
+        {
+          "name": "Experimental probability and relative frequency",
+          "weight": "S",
+          "prereq": [
+            "ib-g8-maths-ch12-st1",
+            "ib-g8-maths-ch11-st3"
+          ],
+          "note": "Fractions and percentages from data"
+        },
+        {
+          "name": "Expected outcomes and fairness of games",
+          "weight": "L",
+          "prereq": [
+            "ib-g8-maths-ch12-st1"
+          ],
+          "note": "Probability of single events; multiplying fractions"
+        }
+      ]
+    }
+  ]
+}

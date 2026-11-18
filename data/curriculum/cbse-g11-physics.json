@@ -1,0 +1,970 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cbse-g11-physics",
+  "board": "cbse",
+  "grade": 11,
+  "stream": "science",
+  "slug": "physics",
+  "name": "Physics",
+  "programme": "CBSE Class 11 Physics (042)",
+  "textbook": "NCERT Physics XI Part I + II (042)",
+  "examPattern": "School-conducted annual exam (no CBSE SQP for Class XI); 3 h; same marks split and question design as Class XII; 50% competency-based, 20% MCQ, 30% short/long answer (Circular 30/2024). Theory 70 + Practical 30. Assumed 33 questions (XII template: 16×1 incl. 4 A-R, 5×2, 7×3, 2 case×4, 3×5).",
+  "chapterCount": 14,
+  "questionTarget": 1499
+ },
+ "items": [
+  {
+   "id": "cbse-g11-physics-ch01",
+   "subjectId": "cbse-g11-physics",
+   "order": 1,
+   "name": "Units and Measurements",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cbse-g11-physics-ch01-st1",
+    "cbse-g11-physics-ch01-st2",
+    "cbse-g11-physics-ch01-st3"
+   ]
+  },
+  {
+   "id": "cbse-g11-physics-ch02",
+   "subjectId": "cbse-g11-physics",
+   "order": 2,
+   "name": "Motion in a Straight Line",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "cbse-g11-physics-ch02-st1",
+    "cbse-g11-physics-ch02-st2",
+    "cbse-g11-physics-ch02-st3",
+    "cbse-g11-physics-ch02-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-physics-ch03",
+   "subjectId": "cbse-g11-physics",
+   "order": 3,
+   "name": "Motion in a Plane",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g11-physics-ch03-st1",
+    "cbse-g11-physics-ch03-st2",
+    "cbse-g11-physics-ch03-st3",
+    "cbse-g11-physics-ch03-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-physics-ch04",
+   "subjectId": "cbse-g11-physics",
+   "order": 4,
+   "name": "Laws of Motion",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g11-physics-ch04-st1",
+    "cbse-g11-physics-ch04-st2",
+    "cbse-g11-physics-ch04-st3",
+    "cbse-g11-physics-ch04-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-physics-ch05",
+   "subjectId": "cbse-g11-physics",
+   "order": 5,
+   "name": "Work, Energy and Power",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g11-physics-ch05-st1",
+    "cbse-g11-physics-ch05-st2",
+    "cbse-g11-physics-ch05-st3",
+    "cbse-g11-physics-ch05-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-physics-ch06",
+   "subjectId": "cbse-g11-physics",
+   "order": 6,
+   "name": "System of Particles and Rotational Motion",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g11-physics-ch06-st1",
+    "cbse-g11-physics-ch06-st2",
+    "cbse-g11-physics-ch06-st3",
+    "cbse-g11-physics-ch06-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-physics-ch07",
+   "subjectId": "cbse-g11-physics",
+   "order": 7,
+   "name": "Gravitation",
+   "teachingPeriods": 15,
+   "subtopicIds": [
+    "cbse-g11-physics-ch07-st1",
+    "cbse-g11-physics-ch07-st2",
+    "cbse-g11-physics-ch07-st3",
+    "cbse-g11-physics-ch07-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-physics-ch08",
+   "subjectId": "cbse-g11-physics",
+   "order": 8,
+   "name": "Mechanical Properties of Solids",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "cbse-g11-physics-ch08-st1",
+    "cbse-g11-physics-ch08-st2",
+    "cbse-g11-physics-ch08-st3"
+   ]
+  },
+  {
+   "id": "cbse-g11-physics-ch09",
+   "subjectId": "cbse-g11-physics",
+   "order": 9,
+   "name": "Mechanical Properties of Fluids",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g11-physics-ch09-st1",
+    "cbse-g11-physics-ch09-st2",
+    "cbse-g11-physics-ch09-st3",
+    "cbse-g11-physics-ch09-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-physics-ch10",
+   "subjectId": "cbse-g11-physics",
+   "order": 10,
+   "name": "Thermal Properties of Matter",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cbse-g11-physics-ch10-st1",
+    "cbse-g11-physics-ch10-st2",
+    "cbse-g11-physics-ch10-st3",
+    "cbse-g11-physics-ch10-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-physics-ch11",
+   "subjectId": "cbse-g11-physics",
+   "order": 11,
+   "name": "Thermodynamics",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g11-physics-ch11-st1",
+    "cbse-g11-physics-ch11-st2",
+    "cbse-g11-physics-ch11-st3",
+    "cbse-g11-physics-ch11-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-physics-ch12",
+   "subjectId": "cbse-g11-physics",
+   "order": 12,
+   "name": "Kinetic Theory",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cbse-g11-physics-ch12-st1",
+    "cbse-g11-physics-ch12-st2",
+    "cbse-g11-physics-ch12-st3",
+    "cbse-g11-physics-ch12-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-physics-ch13",
+   "subjectId": "cbse-g11-physics",
+   "order": 13,
+   "name": "Oscillations",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cbse-g11-physics-ch13-st1",
+    "cbse-g11-physics-ch13-st2",
+    "cbse-g11-physics-ch13-st3"
+   ]
+  },
+  {
+   "id": "cbse-g11-physics-ch14",
+   "subjectId": "cbse-g11-physics",
+   "order": 14,
+   "name": "Waves",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g11-physics-ch14-st1",
+    "cbse-g11-physics-ch14-st2",
+    "cbse-g11-physics-ch14-st3",
+    "cbse-g11-physics-ch14-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cbse-g11-physics-ch01-st1",
+   "chapterId": "cbse-g11-physics-ch01",
+   "order": 1,
+   "name": "The international system of units and significant figures",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g9-science-ch03-st1"
+   ],
+   "prerequisiteNote": "SI units and unit conversion (Cl 9); standard form for large/small numbers (Cl 8 maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch01-st2",
+   "chapterId": "cbse-g11-physics-ch01",
+   "order": 2,
+   "name": "Dimensions of physical quantities and dimensional analysis",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch01-st1"
+   ],
+   "prerequisiteNote": "SI base and derived units; laws of exponents (Cl 8 maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch01-st3",
+   "chapterId": "cbse-g11-physics-ch01",
+   "order": 3,
+   "name": "Errors in measurement and their propagation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch01-st1"
+   ],
+   "prerequisiteNote": "Significant figures; percentages (Cl 7-8 maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch02-st1",
+   "chapterId": "cbse-g11-physics-ch02",
+   "order": 1,
+   "name": "Position, path length, displacement, average and instantaneous velocity",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g9-science-ch03-st2"
+   ],
+   "prerequisiteNote": "Speed and velocity (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch02-st2",
+   "chapterId": "cbse-g11-physics-ch02",
+   "order": 2,
+   "name": "Acceleration and kinematic equations for uniformly accelerated motion",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch02-st1",
+    "cbse-g9-science-ch03-st3"
+   ],
+   "prerequisiteNote": "Equations of motion (Cl 9); solving quadratic equations (Cl 10 maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch02-st3",
+   "chapterId": "cbse-g11-physics-ch02",
+   "order": 3,
+   "name": "Position-time and velocity-time graphs; motion under gravity",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch02-st2",
+    "cbse-g9-science-ch03-st4"
+   ],
+   "prerequisiteNote": "Distance-time and velocity-time graphs (Cl 9); slope and area under a graph",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch02-st4",
+   "chapterId": "cbse-g11-physics-ch02",
+   "order": 4,
+   "name": "Relative velocity in one dimension",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch02-st1"
+   ],
+   "prerequisiteNote": "Displacement and velocity with signs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch03-st1",
+   "chapterId": "cbse-g11-physics-ch03",
+   "order": 1,
+   "name": "Scalars and vectors: addition, resolution and unit vectors",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch02-st1"
+   ],
+   "prerequisiteNote": "Trigonometric ratios (Cl 10 maths); Displacement as a directed quantity",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch03-st2",
+   "chapterId": "cbse-g11-physics-ch03",
+   "order": 2,
+   "name": "Motion in a plane with constant acceleration; relative velocity in two dimensions",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch03-st1",
+    "cbse-g11-physics-ch02-st2"
+   ],
+   "prerequisiteNote": "Vector resolution; Kinematic equations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch03-st3",
+   "chapterId": "cbse-g11-physics-ch03",
+   "order": 3,
+   "name": "Projectile motion",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch03-st2"
+   ],
+   "prerequisiteNote": "Motion in a plane; motion under gravity; trigonometric ratios (Cl 10 maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch03-st4",
+   "chapterId": "cbse-g11-physics-ch03",
+   "order": 4,
+   "name": "Uniform circular motion and centripetal acceleration",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch03-st1",
+    "cbse-g9-science-ch03-st5"
+   ],
+   "prerequisiteNote": "Uniform circular motion (Cl 9); vectors",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch04-st1",
+   "chapterId": "cbse-g11-physics-ch04",
+   "order": 1,
+   "name": "Newton's laws of motion, momentum and impulse",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g9-science-ch05-st2",
+    "cbse-g9-science-ch05-st3"
+   ],
+   "prerequisiteNote": "Newton's laws and conservation of momentum (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch04-st2",
+   "chapterId": "cbse-g11-physics-ch04",
+   "order": 2,
+   "name": "Equilibrium of a particle and free-body diagrams; connected bodies",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch04-st1",
+    "cbse-g11-physics-ch03-st1"
+   ],
+   "prerequisiteNote": "Newton's laws; vector resolution",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch04-st3",
+   "chapterId": "cbse-g11-physics-ch04",
+   "order": 3,
+   "name": "Friction: static, kinetic and rolling; motion on an inclined plane",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch04-st2",
+    "cbse-g9-science-ch05-st4"
+   ],
+   "prerequisiteNote": "Friction (Cl 9); free-body diagrams",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch04-st4",
+   "chapterId": "cbse-g11-physics-ch04",
+   "order": 4,
+   "name": "Dynamics of uniform circular motion: banking of roads",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch04-st3",
+    "cbse-g11-physics-ch03-st4"
+   ],
+   "prerequisiteNote": "Centripetal acceleration; friction",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch05-st1",
+   "chapterId": "cbse-g11-physics-ch05",
+   "order": 1,
+   "name": "Work done by constant and variable forces; scalar product",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch03-st1",
+    "cbse-g9-science-ch06-st1"
+   ],
+   "prerequisiteNote": "Work done by a force (Cl 9); dot product of vectors",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch05-st2",
+   "chapterId": "cbse-g11-physics-ch05",
+   "order": 2,
+   "name": "Work-energy theorem; kinetic and potential energy of a spring",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch05-st1",
+    "cbse-g9-science-ch06-st2"
+   ],
+   "prerequisiteNote": "Kinetic and potential energy (Cl 9); Work done by variable force",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch05-st3",
+   "chapterId": "cbse-g11-physics-ch05",
+   "order": 3,
+   "name": "Conservation of mechanical energy and power",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch05-st2",
+    "cbse-g9-science-ch06-st3"
+   ],
+   "prerequisiteNote": "Power (Cl 9); Work-energy theorem",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch05-st4",
+   "chapterId": "cbse-g11-physics-ch05",
+   "order": 4,
+   "name": "Collisions in one and two dimensions",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch05-st3",
+    "cbse-g11-physics-ch04-st1"
+   ],
+   "prerequisiteNote": "Conservation of momentum; Conservation of mechanical energy",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch06-st1",
+   "chapterId": "cbse-g11-physics-ch06",
+   "order": 1,
+   "name": "Centre of mass and its motion",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch04-st1"
+   ],
+   "prerequisiteNote": "Newton's laws; weighted average (maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch06-st2",
+   "chapterId": "cbse-g11-physics-ch06",
+   "order": 2,
+   "name": "Vector product, angular velocity and torque",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch06-st1",
+    "cbse-g11-physics-ch03-st1"
+   ],
+   "prerequisiteNote": "Vector addition; Moment of force and levers (Cl 9 simple machines)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch06-st3",
+   "chapterId": "cbse-g11-physics-ch06",
+   "order": 3,
+   "name": "Angular momentum and its conservation; equilibrium of a rigid body",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch06-st2"
+   ],
+   "prerequisiteNote": "Torque and angular velocity",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch06-st4",
+   "chapterId": "cbse-g11-physics-ch06",
+   "order": 4,
+   "name": "Moment of inertia and dynamics of rotational motion about a fixed axis",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch06-st2",
+    "cbse-g11-physics-ch05-st2"
+   ],
+   "prerequisiteNote": "Torque; Kinetic energy",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch07-st1",
+   "chapterId": "cbse-g11-physics-ch07",
+   "order": 1,
+   "name": "Kepler's laws and the universal law of gravitation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch03-st4"
+   ],
+   "prerequisiteNote": "Centripetal acceleration; inverse-square relationships",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch07-st2",
+   "chapterId": "cbse-g11-physics-ch07",
+   "order": 2,
+   "name": "Acceleration due to gravity and its variation with altitude and depth",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch07-st1"
+   ],
+   "prerequisiteNote": "Universal law of gravitation; motion under gravity",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch07-st3",
+   "chapterId": "cbse-g11-physics-ch07",
+   "order": 3,
+   "name": "Gravitational potential energy, escape speed and orbital speed",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch07-st2",
+    "cbse-g11-physics-ch05-st3"
+   ],
+   "prerequisiteNote": "Conservation of energy; Acceleration due to gravity",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch07-st4",
+   "chapterId": "cbse-g11-physics-ch07",
+   "order": 4,
+   "name": "Energy of an orbiting satellite and geostationary satellites",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch07-st3"
+   ],
+   "prerequisiteNote": "Orbital speed; circular motion",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch08-st1",
+   "chapterId": "cbse-g11-physics-ch08",
+   "order": 1,
+   "name": "Stress, strain and the stress-strain curve",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch04-st1"
+   ],
+   "prerequisiteNote": "Force and area; pressure as force per unit area (Cl 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch08-st2",
+   "chapterId": "cbse-g11-physics-ch08",
+   "order": 2,
+   "name": "Hooke's law and elastic moduli: Young's, bulk and shear",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch08-st1"
+   ],
+   "prerequisiteNote": "Stress and strain",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch08-st3",
+   "chapterId": "cbse-g11-physics-ch08",
+   "order": 3,
+   "name": "Applications of elastic behaviour of materials",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch08-st2"
+   ],
+   "prerequisiteNote": "Elastic moduli",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch09-st1",
+   "chapterId": "cbse-g11-physics-ch09",
+   "order": 1,
+   "name": "Pressure in fluids: Pascal's law and hydraulic machines",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch06-st2"
+   ],
+   "prerequisiteNote": "Pressure in liquids and atmospheric pressure (Cl 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch09-st2",
+   "chapterId": "cbse-g11-physics-ch09",
+   "order": 2,
+   "name": "Streamline flow, equation of continuity and Bernoulli's principle",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch09-st1",
+    "cbse-g11-physics-ch05-st3"
+   ],
+   "prerequisiteNote": "Pressure in fluids; Conservation of mechanical energy",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch09-st3",
+   "chapterId": "cbse-g11-physics-ch09",
+   "order": 3,
+   "name": "Viscosity, Stokes' law and terminal velocity",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch09-st2",
+    "cbse-g11-physics-ch04-st3"
+   ],
+   "prerequisiteNote": "Streamline flow; friction-like resistive forces",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch09-st4",
+   "chapterId": "cbse-g11-physics-ch09",
+   "order": 4,
+   "name": "Surface tension, angle of contact and capillary rise",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch09-st1"
+   ],
+   "prerequisiteNote": "Pressure in fluids; intermolecular forces (Cl 8 particulate nature)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch10-st1",
+   "chapterId": "cbse-g11-physics-ch10",
+   "order": 1,
+   "name": "Temperature, heat and thermal expansion",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-science-ch07-st3"
+   ],
+   "prerequisiteNote": "Interparticle attraction and spaces (Cl 8); reading a thermometer",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch10-st2",
+   "chapterId": "cbse-g11-physics-ch10",
+   "order": 2,
+   "name": "Specific heat capacity, calorimetry and change of state with latent heat",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch10-st1",
+    "cbse-g8-science-ch07-st4"
+   ],
+   "prerequisiteNote": "Changes of state (Cl 8); Temperature and heat",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch10-st3",
+   "chapterId": "cbse-g11-physics-ch10",
+   "order": 3,
+   "name": "Heat transfer: conduction, convection and radiation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch10-st1",
+    "cbse-g8-science-ch06-st3"
+   ],
+   "prerequisiteNote": "Convection and winds (Cl 8); Temperature and heat",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch10-st4",
+   "chapterId": "cbse-g11-physics-ch10",
+   "order": 4,
+   "name": "Newton's law of cooling",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch10-st3"
+   ],
+   "prerequisiteNote": "Heat transfer; reading graphs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch11-st1",
+   "chapterId": "cbse-g11-physics-ch11",
+   "order": 1,
+   "name": "Thermal equilibrium, zeroth law, heat, internal energy and work",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch10-st1",
+    "cbse-g11-physics-ch05-st1"
+   ],
+   "prerequisiteNote": "Temperature and heat; Work done by a force",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch11-st2",
+   "chapterId": "cbse-g11-physics-ch11",
+   "order": 2,
+   "name": "First law of thermodynamics and specific heats of gases",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch11-st1",
+    "cbse-g11-physics-ch10-st2"
+   ],
+   "prerequisiteNote": "Internal energy; specific heat capacity",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch11-st3",
+   "chapterId": "cbse-g11-physics-ch11",
+   "order": 3,
+   "name": "Thermodynamic processes: isothermal, adiabatic, isochoric, isobaric",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch11-st2"
+   ],
+   "prerequisiteNote": "First law of thermodynamics; area under a graph",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch11-st4",
+   "chapterId": "cbse-g11-physics-ch11",
+   "order": 4,
+   "name": "Heat engines, refrigerators, second law and Carnot engine",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch11-st3"
+   ],
+   "prerequisiteNote": "Thermodynamic processes; efficiency as a ratio",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch12-st1",
+   "chapterId": "cbse-g11-physics-ch12",
+   "order": 1,
+   "name": "Molecular nature of matter and behaviour of gases: ideal gas equation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g9-science-ch08-st4",
+    "cbse-g8-science-ch07-st2"
+   ],
+   "prerequisiteNote": "Mole concept (Cl 9); particle motion in gases (Cl 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch12-st2",
+   "chapterId": "cbse-g11-physics-ch12",
+   "order": 2,
+   "name": "Kinetic theory of an ideal gas: pressure and kinetic interpretation of temperature",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch12-st1",
+    "cbse-g11-physics-ch04-st1"
+   ],
+   "prerequisiteNote": "Ideal gas equation; momentum and impulse",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch12-st3",
+   "chapterId": "cbse-g11-physics-ch12",
+   "order": 3,
+   "name": "Law of equipartition of energy and specific heat capacity",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch12-st2",
+    "cbse-g11-physics-ch11-st2"
+   ],
+   "prerequisiteNote": "Kinetic interpretation of temperature; specific heats of gases",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch12-st4",
+   "chapterId": "cbse-g11-physics-ch12",
+   "order": 4,
+   "name": "Mean free path",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch12-st2"
+   ],
+   "prerequisiteNote": "Kinetic theory of an ideal gas",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch13-st1",
+   "chapterId": "cbse-g11-physics-ch13",
+   "order": 1,
+   "name": "Periodic and oscillatory motion; simple harmonic motion and its equation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch03-st4"
+   ],
+   "prerequisiteNote": "Uniform circular motion; sine and cosine functions (Cl 11 maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch13-st2",
+   "chapterId": "cbse-g11-physics-ch13",
+   "order": 2,
+   "name": "Velocity, acceleration, force and energy in SHM",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch13-st1",
+    "cbse-g11-physics-ch05-st2"
+   ],
+   "prerequisiteNote": "SHM equation; spring potential energy",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch13-st3",
+   "chapterId": "cbse-g11-physics-ch13",
+   "order": 3,
+   "name": "Spring-mass system and simple pendulum",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch13-st2"
+   ],
+   "prerequisiteNote": "Force in SHM; free-body diagrams",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch14-st1",
+   "chapterId": "cbse-g11-physics-ch14",
+   "order": 1,
+   "name": "Transverse and longitudinal waves; displacement relation of a progressive wave",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch13-st1",
+    "cbse-g9-science-ch09-st2"
+   ],
+   "prerequisiteNote": "Characteristics of a sound wave (Cl 9); SHM equation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch14-st2",
+   "chapterId": "cbse-g11-physics-ch14",
+   "order": 2,
+   "name": "Speed of a travelling wave: on a string and sound in a medium",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch14-st1",
+    "cbse-g11-physics-ch08-st2"
+   ],
+   "prerequisiteNote": "Wave relation v = f lambda; elastic moduli",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch14-st3",
+   "chapterId": "cbse-g11-physics-ch14",
+   "order": 3,
+   "name": "Principle of superposition, reflection of waves and standing waves",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch14-st2",
+    "cbse-g9-science-ch09-st3"
+   ],
+   "prerequisiteNote": "Reflection of sound (Cl 9); Speed of a travelling wave",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-physics-ch14-st4",
+   "chapterId": "cbse-g11-physics-ch14",
+   "order": 4,
+   "name": "Normal modes in strings and pipes; beats",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch14-st3"
+   ],
+   "prerequisiteNote": "Standing waves",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

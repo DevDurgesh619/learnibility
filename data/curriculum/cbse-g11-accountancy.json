@@ -1,0 +1,724 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cbse-g11-accountancy",
+  "board": "cbse",
+  "grade": 11,
+  "stream": "commerce",
+  "slug": "accountancy",
+  "name": "Accountancy",
+  "programme": "CBSE Class 11 Accountancy (055)",
+  "textbook": "NCERT Financial Accounting Part I (7) + Part II (2) – 055",
+  "examPattern": "School-conducted annual exam (no CBSE SQP for Class XI); 3 h; same marks split and question design as Class XII; 50% competency-based, 20% MCQ, 30% short/long answer (Circular 30/2024). Theory 80 + Project 20. Assumed 34 questions (XII template: 20×1, 6×3, 3×4, 5×6).",
+  "chapterCount": 9,
+  "questionTarget": 822
+ },
+ "items": [
+  {
+   "id": "cbse-g11-accountancy-ch01",
+   "subjectId": "cbse-g11-accountancy",
+   "order": 1,
+   "name": "Introduction to Accounting",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g11-accountancy-ch01-st1",
+    "cbse-g11-accountancy-ch01-st2",
+    "cbse-g11-accountancy-ch01-st3",
+    "cbse-g11-accountancy-ch01-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-accountancy-ch02",
+   "subjectId": "cbse-g11-accountancy",
+   "order": 2,
+   "name": "Theory Base of Accounting",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cbse-g11-accountancy-ch02-st1",
+    "cbse-g11-accountancy-ch02-st2",
+    "cbse-g11-accountancy-ch02-st3",
+    "cbse-g11-accountancy-ch02-st4",
+    "cbse-g11-accountancy-ch02-st5"
+   ]
+  },
+  {
+   "id": "cbse-g11-accountancy-ch03",
+   "subjectId": "cbse-g11-accountancy",
+   "order": 3,
+   "name": "Recording of Transactions - I",
+   "teachingPeriods": 26,
+   "subtopicIds": [
+    "cbse-g11-accountancy-ch03-st1",
+    "cbse-g11-accountancy-ch03-st2",
+    "cbse-g11-accountancy-ch03-st3",
+    "cbse-g11-accountancy-ch03-st4",
+    "cbse-g11-accountancy-ch03-st5"
+   ]
+  },
+  {
+   "id": "cbse-g11-accountancy-ch04",
+   "subjectId": "cbse-g11-accountancy",
+   "order": 4,
+   "name": "Recording of Transactions - II",
+   "teachingPeriods": 19,
+   "subtopicIds": [
+    "cbse-g11-accountancy-ch04-st1",
+    "cbse-g11-accountancy-ch04-st2",
+    "cbse-g11-accountancy-ch04-st3",
+    "cbse-g11-accountancy-ch04-st4",
+    "cbse-g11-accountancy-ch04-st5"
+   ]
+  },
+  {
+   "id": "cbse-g11-accountancy-ch05",
+   "subjectId": "cbse-g11-accountancy",
+   "order": 5,
+   "name": "Bank Reconciliation Statement",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g11-accountancy-ch05-st1",
+    "cbse-g11-accountancy-ch05-st2",
+    "cbse-g11-accountancy-ch05-st3",
+    "cbse-g11-accountancy-ch05-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-accountancy-ch06",
+   "subjectId": "cbse-g11-accountancy",
+   "order": 6,
+   "name": "Trial Balance and Rectification of Errors",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g11-accountancy-ch06-st1",
+    "cbse-g11-accountancy-ch06-st2",
+    "cbse-g11-accountancy-ch06-st3",
+    "cbse-g11-accountancy-ch06-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-accountancy-ch07",
+   "subjectId": "cbse-g11-accountancy",
+   "order": 7,
+   "name": "Depreciation, Provisions and Reserves",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g11-accountancy-ch07-st1",
+    "cbse-g11-accountancy-ch07-st2",
+    "cbse-g11-accountancy-ch07-st3",
+    "cbse-g11-accountancy-ch07-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-accountancy-ch08",
+   "subjectId": "cbse-g11-accountancy",
+   "order": 8,
+   "name": "Financial Statements - I",
+   "teachingPeriods": 22,
+   "subtopicIds": [
+    "cbse-g11-accountancy-ch08-st1",
+    "cbse-g11-accountancy-ch08-st2",
+    "cbse-g11-accountancy-ch08-st3",
+    "cbse-g11-accountancy-ch08-st4",
+    "cbse-g11-accountancy-ch08-st5"
+   ]
+  },
+  {
+   "id": "cbse-g11-accountancy-ch09",
+   "subjectId": "cbse-g11-accountancy",
+   "order": 9,
+   "name": "Financial Statements - II",
+   "teachingPeriods": 24,
+   "subtopicIds": [
+    "cbse-g11-accountancy-ch09-st1",
+    "cbse-g11-accountancy-ch09-st2",
+    "cbse-g11-accountancy-ch09-st3",
+    "cbse-g11-accountancy-ch09-st4",
+    "cbse-g11-accountancy-ch09-st5"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cbse-g11-accountancy-ch01-st1",
+   "chapterId": "cbse-g11-accountancy-ch01",
+   "order": 1,
+   "name": "Meaning of accounting, accounting as a source of information and its users",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Idea of a business and its transactions (everyday buying and selling); reading simple money records",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch01-st2",
+   "chapterId": "cbse-g11-accountancy-ch01",
+   "order": 2,
+   "name": "Objectives, role, advantages and limitations of accounting",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch01-st1"
+   ],
+   "prerequisiteNote": "Meaning of accounting and its users",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch01-st3",
+   "chapterId": "cbse-g11-accountancy-ch01",
+   "order": 3,
+   "name": "Qualitative characteristics of accounting information",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch01-st1"
+   ],
+   "prerequisiteNote": "Users of accounting information and what each needs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch01-st4",
+   "chapterId": "cbse-g11-accountancy-ch01",
+   "order": 4,
+   "name": "Basic accounting terms: entity, transaction, capital, drawings, assets, liabilities, revenue, expense, debtors, creditors",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch01-st1"
+   ],
+   "prerequisiteNote": "Meaning of accounting; idea of owning and owing (personal money sense)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch02-st1",
+   "chapterId": "cbse-g11-accountancy-ch02",
+   "order": 1,
+   "name": "Generally accepted accounting principles (GAAP): meaning and need",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch01-st3"
+   ],
+   "prerequisiteNote": "Qualitative characteristics of accounting information",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch02-st2",
+   "chapterId": "cbse-g11-accountancy-ch02",
+   "order": 2,
+   "name": "Basic accounting concepts: business entity, money measurement, going concern, accounting period, cost, dual aspect",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch02-st1",
+    "cbse-g11-accountancy-ch01-st4"
+   ],
+   "prerequisiteNote": "Basic accounting terms (capital, assets, liabilities)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch02-st3",
+   "chapterId": "cbse-g11-accountancy-ch02",
+   "order": 3,
+   "name": "Revenue recognition, matching, full disclosure, consistency, conservatism, materiality and objectivity",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch02-st2"
+   ],
+   "prerequisiteNote": "Basic accounting concepts; accrual idea of income earned vs cash received",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch02-st4",
+   "chapterId": "cbse-g11-accountancy-ch02",
+   "order": 4,
+   "name": "Bases of accounting (cash and accrual) and accounting standards, Ind AS and IFRS",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch02-st3"
+   ],
+   "prerequisiteNote": "Revenue recognition and matching concepts",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch02-st5",
+   "chapterId": "cbse-g11-accountancy-ch02",
+   "order": 5,
+   "name": "Goods and Services Tax (GST): features, CGST, SGST, IGST and input tax credit",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch01-st4"
+   ],
+   "prerequisiteNote": "Percentages and tax on a bill (Cl 8 Comparing Quantities)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch03-st1",
+   "chapterId": "cbse-g11-accountancy-ch03",
+   "order": 1,
+   "name": "Business transactions and source documents: cash memo, invoice, bill, voucher",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch01-st4"
+   ],
+   "prerequisiteNote": "Basic accounting terms (transaction, debtor, creditor)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch03-st2",
+   "chapterId": "cbse-g11-accountancy-ch03",
+   "order": 2,
+   "name": "Accounting equation and effect of transactions on it",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch02-st2"
+   ],
+   "prerequisiteNote": "Dual aspect concept; Assets = Liabilities + Capital; solving simple linear equations (Cl 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch03-st3",
+   "chapterId": "cbse-g11-accountancy-ch03",
+   "order": 3,
+   "name": "Rules of debit and credit (modern / accounting equation approach)",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch03-st2"
+   ],
+   "prerequisiteNote": "Accounting equation; classification of accounts",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch03-st4",
+   "chapterId": "cbse-g11-accountancy-ch03",
+   "order": 4,
+   "name": "Journal: format, journalising simple, compound and GST transactions",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch03-st3",
+    "cbse-g11-accountancy-ch02-st5"
+   ],
+   "prerequisiteNote": "Rules of debit and credit; GST basics",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch03-st5",
+   "chapterId": "cbse-g11-accountancy-ch03",
+   "order": 5,
+   "name": "Ledger: posting from journal and balancing of accounts",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch03-st4"
+   ],
+   "prerequisiteNote": "Journal entries; debit and credit sides of an account",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch04-st1",
+   "chapterId": "cbse-g11-accountancy-ch04",
+   "order": 1,
+   "name": "Cash book: simple (single column) cash book",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch03-st5"
+   ],
+   "prerequisiteNote": "Ledger posting and balancing; cash account",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch04-st2",
+   "chapterId": "cbse-g11-accountancy-ch04",
+   "order": 2,
+   "name": "Double column (cash and bank) cash book and contra entries",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch04-st1"
+   ],
+   "prerequisiteNote": "Simple cash book; bank transactions (cheque deposit, withdrawal)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch04-st3",
+   "chapterId": "cbse-g11-accountancy-ch04",
+   "order": 3,
+   "name": "Petty cash book under the imprest system",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch04-st1"
+   ],
+   "prerequisiteNote": "Simple cash book",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch04-st4",
+   "chapterId": "cbse-g11-accountancy-ch04",
+   "order": 4,
+   "name": "Special purpose books: purchases, sales, purchases return and sales return books",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch03-st4"
+   ],
+   "prerequisiteNote": "Journal entries for credit purchases and sales; trade discount (Cl 8 percentages)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch04-st5",
+   "chapterId": "cbse-g11-accountancy-ch04",
+   "order": 5,
+   "name": "Posting from special purpose books and use of debit note and credit note",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch04-st4",
+    "cbse-g11-accountancy-ch03-st5"
+   ],
+   "prerequisiteNote": "Special purpose books; ledger posting",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch05-st1",
+   "chapterId": "cbse-g11-accountancy-ch05",
+   "order": 1,
+   "name": "Meaning and need of bank reconciliation statement; cash book vs pass book",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch04-st2"
+   ],
+   "prerequisiteNote": "Bank column of the double column cash book",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch05-st2",
+   "chapterId": "cbse-g11-accountancy-ch05",
+   "order": 2,
+   "name": "Causes of difference between cash book and pass book balances",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch05-st1"
+   ],
+   "prerequisiteNote": "Debit/credit entries in cash book vs pass book (opposite sides)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch05-st3",
+   "chapterId": "cbse-g11-accountancy-ch05",
+   "order": 3,
+   "name": "Preparing BRS with favourable balance and overdraft",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch05-st2"
+   ],
+   "prerequisiteNote": "Causes of difference; adding and subtracting items from a starting balance",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch05-st4",
+   "chapterId": "cbse-g11-accountancy-ch05",
+   "order": 4,
+   "name": "Preparing BRS after amending the cash book",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch05-st3"
+   ],
+   "prerequisiteNote": "Preparing a simple BRS; journal entries for bank charges and interest",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch06-st1",
+   "chapterId": "cbse-g11-accountancy-ch06",
+   "order": 1,
+   "name": "Meaning, objectives and preparation of trial balance (balance method)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch03-st5"
+   ],
+   "prerequisiteNote": "Balancing ledger accounts; debit and credit balances",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch06-st2",
+   "chapterId": "cbse-g11-accountancy-ch06",
+   "order": 2,
+   "name": "Types of errors: omission, commission, principle and compensating errors",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch06-st1"
+   ],
+   "prerequisiteNote": "Trial balance; which errors affect agreement of trial balance",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch06-st3",
+   "chapterId": "cbse-g11-accountancy-ch06",
+   "order": 3,
+   "name": "Searching for errors and the suspense account",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch06-st2"
+   ],
+   "prerequisiteNote": "Types of errors; one-sided vs two-sided errors",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch06-st4",
+   "chapterId": "cbse-g11-accountancy-ch06",
+   "order": 4,
+   "name": "Rectification of errors before and after preparation of trial balance",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch06-st3",
+    "cbse-g11-accountancy-ch03-st4"
+   ],
+   "prerequisiteNote": "Types of errors; suspense account; journal entries",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch07-st1",
+   "chapterId": "cbse-g11-accountancy-ch07",
+   "order": 1,
+   "name": "Meaning, need, causes and factors affecting depreciation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch02-st3"
+   ],
+   "prerequisiteNote": "Matching concept; fixed assets vs current assets",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch07-st2",
+   "chapterId": "cbse-g11-accountancy-ch07",
+   "order": 2,
+   "name": "Methods of depreciation: straight line method and written down value method",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch07-st1"
+   ],
+   "prerequisiteNote": "Percentages and reducing balance (Cl 8 compound interest idea)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch07-st3",
+   "chapterId": "cbse-g11-accountancy-ch07",
+   "order": 3,
+   "name": "Recording depreciation: charging to asset account and provision for depreciation account; disposal of asset",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch07-st2",
+    "cbse-g11-accountancy-ch03-st5"
+   ],
+   "prerequisiteNote": "Depreciation methods; ledger posting and balancing",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch07-st4",
+   "chapterId": "cbse-g11-accountancy-ch07",
+   "order": 4,
+   "name": "Provisions and reserves: types of reserves and secret reserve",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch02-st3"
+   ],
+   "prerequisiteNote": "Conservatism concept; profit as a surplus",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch08-st1",
+   "chapterId": "cbse-g11-accountancy-ch08",
+   "order": 1,
+   "name": "Meaning, objectives and importance of financial statements; stakeholders and their information needs",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch01-st1"
+   ],
+   "prerequisiteNote": "Users of accounting information",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch08-st2",
+   "chapterId": "cbse-g11-accountancy-ch08",
+   "order": 2,
+   "name": "Capital and revenue expenditure and receipts",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch02-st3"
+   ],
+   "prerequisiteNote": "Matching concept; meaning of expense and asset",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch08-st3",
+   "chapterId": "cbse-g11-accountancy-ch08",
+   "order": 3,
+   "name": "Trading and profit and loss account: gross profit and net profit",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch08-st2",
+    "cbse-g11-accountancy-ch06-st1"
+   ],
+   "prerequisiteNote": "Trial balance; capital vs revenue items",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch08-st4",
+   "chapterId": "cbse-g11-accountancy-ch08",
+   "order": 4,
+   "name": "Operating profit (EBIT) and the balance sheet: grouping and marshalling of assets and liabilities",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch08-st3"
+   ],
+   "prerequisiteNote": "Trading and profit and loss account; classification of assets and liabilities",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch08-st5",
+   "chapterId": "cbse-g11-accountancy-ch08",
+   "order": 5,
+   "name": "Opening and closing entries",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch08-st3"
+   ],
+   "prerequisiteNote": "Journal entries; nominal accounts transferred to profit and loss",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch09-st1",
+   "chapterId": "cbse-g11-accountancy-ch09",
+   "order": 1,
+   "name": "Need for adjustments: closing stock, outstanding and prepaid expenses",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch08-st4"
+   ],
+   "prerequisiteNote": "Preparing trading and P&L account and balance sheet; accrual concept",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch09-st2",
+   "chapterId": "cbse-g11-accountancy-ch09",
+   "order": 2,
+   "name": "Accrued income and income received in advance",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch09-st1"
+   ],
+   "prerequisiteNote": "Outstanding and prepaid expense adjustments",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch09-st3",
+   "chapterId": "cbse-g11-accountancy-ch09",
+   "order": 3,
+   "name": "Depreciation, bad debts, provision for doubtful debts and provision for discount on debtors",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch09-st1",
+    "cbse-g11-accountancy-ch07-st3"
+   ],
+   "prerequisiteNote": "Depreciation methods; debtors account",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch09-st4",
+   "chapterId": "cbse-g11-accountancy-ch09",
+   "order": 4,
+   "name": "Manager's commission, interest on capital and interest on drawings",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch09-st1"
+   ],
+   "prerequisiteNote": "Percentage of profit before/after commission (Cl 8 percentages)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-accountancy-ch09-st5",
+   "chapterId": "cbse-g11-accountancy-ch09",
+   "order": 5,
+   "name": "Preparing financial statements with adjustments (sole proprietorship)",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-accountancy-ch09-st2",
+    "cbse-g11-accountancy-ch09-st3",
+    "cbse-g11-accountancy-ch09-st4"
+   ],
+   "prerequisiteNote": "All adjustments; trading, P&L account and balance sheet format",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

@@ -1,0 +1,793 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cbse-g8-maths",
+  "board": "cbse",
+  "grade": 8,
+  "stream": "none",
+  "slug": "maths",
+  "name": "Mathematics",
+  "programme": "CBSE Class 8 Mathematics",
+  "textbook": "NCERT Ganita Prakash Part I + II (NCF-2023 books)",
+  "examPattern": "School-based (no CBSE board exam in Class 8; legacy CBSE scheme Circular Acad-14/2017: 80-mark written exam + 20 periodic assessment). Model mirrors the Class 9/10 CBSE paper design so students build board-exam habits early. Assumed paper: 3 h, 80 marks, 38 questions – A 20×1 (MCQ + assertion-reason), B 5×2, C 6×3, D 4×5, E 3 case-based×4; ~50% competency-based.",
+  "chapterCount": 14,
+  "questionTarget": 1514
+ },
+ "items": [
+  {
+   "id": "cbse-g8-maths-ch01",
+   "subjectId": "cbse-g8-maths",
+   "order": 1,
+   "name": "A Square and a Cube",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cbse-g8-maths-ch01-st1",
+    "cbse-g8-maths-ch01-st2",
+    "cbse-g8-maths-ch01-st3",
+    "cbse-g8-maths-ch01-st4"
+   ]
+  },
+  {
+   "id": "cbse-g8-maths-ch02",
+   "subjectId": "cbse-g8-maths",
+   "order": 2,
+   "name": "Power Play",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "cbse-g8-maths-ch02-st1",
+    "cbse-g8-maths-ch02-st2",
+    "cbse-g8-maths-ch02-st3"
+   ]
+  },
+  {
+   "id": "cbse-g8-maths-ch03",
+   "subjectId": "cbse-g8-maths",
+   "order": 3,
+   "name": "A Story of Numbers",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cbse-g8-maths-ch03-st1",
+    "cbse-g8-maths-ch03-st2",
+    "cbse-g8-maths-ch03-st3"
+   ]
+  },
+  {
+   "id": "cbse-g8-maths-ch04",
+   "subjectId": "cbse-g8-maths",
+   "order": 4,
+   "name": "Quadrilaterals",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cbse-g8-maths-ch04-st1",
+    "cbse-g8-maths-ch04-st2",
+    "cbse-g8-maths-ch04-st3",
+    "cbse-g8-maths-ch04-st4"
+   ]
+  },
+  {
+   "id": "cbse-g8-maths-ch05",
+   "subjectId": "cbse-g8-maths",
+   "order": 5,
+   "name": "Number Play",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cbse-g8-maths-ch05-st1",
+    "cbse-g8-maths-ch05-st2",
+    "cbse-g8-maths-ch05-st3"
+   ]
+  },
+  {
+   "id": "cbse-g8-maths-ch06",
+   "subjectId": "cbse-g8-maths",
+   "order": 6,
+   "name": "We Distribute, Yet Things Multiply",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "cbse-g8-maths-ch06-st1",
+    "cbse-g8-maths-ch06-st2",
+    "cbse-g8-maths-ch06-st3"
+   ]
+  },
+  {
+   "id": "cbse-g8-maths-ch07",
+   "subjectId": "cbse-g8-maths",
+   "order": 7,
+   "name": "Proportional Reasoning-1",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "cbse-g8-maths-ch07-st1",
+    "cbse-g8-maths-ch07-st2",
+    "cbse-g8-maths-ch07-st3"
+   ]
+  },
+  {
+   "id": "cbse-g8-maths-ch08",
+   "subjectId": "cbse-g8-maths",
+   "order": 8,
+   "name": "Fractions in Disguise",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "cbse-g8-maths-ch08-st1",
+    "cbse-g8-maths-ch08-st2",
+    "cbse-g8-maths-ch08-st3"
+   ]
+  },
+  {
+   "id": "cbse-g8-maths-ch09",
+   "subjectId": "cbse-g8-maths",
+   "order": 9,
+   "name": "The Baudhayana-Pythagoras Theorem",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "cbse-g8-maths-ch09-st1",
+    "cbse-g8-maths-ch09-st2",
+    "cbse-g8-maths-ch09-st3"
+   ]
+  },
+  {
+   "id": "cbse-g8-maths-ch10",
+   "subjectId": "cbse-g8-maths",
+   "order": 10,
+   "name": "Proportional Reasoning-2",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "cbse-g8-maths-ch10-st1",
+    "cbse-g8-maths-ch10-st2",
+    "cbse-g8-maths-ch10-st3"
+   ]
+  },
+  {
+   "id": "cbse-g8-maths-ch11",
+   "subjectId": "cbse-g8-maths",
+   "order": 11,
+   "name": "Exploring Some Geometric Themes",
+   "teachingPeriods": 7,
+   "subtopicIds": [
+    "cbse-g8-maths-ch11-st1",
+    "cbse-g8-maths-ch11-st2",
+    "cbse-g8-maths-ch11-st3"
+   ]
+  },
+  {
+   "id": "cbse-g8-maths-ch12",
+   "subjectId": "cbse-g8-maths",
+   "order": 12,
+   "name": "Tales by Dots and Lines",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cbse-g8-maths-ch12-st1",
+    "cbse-g8-maths-ch12-st2",
+    "cbse-g8-maths-ch12-st3"
+   ]
+  },
+  {
+   "id": "cbse-g8-maths-ch13",
+   "subjectId": "cbse-g8-maths",
+   "order": 13,
+   "name": "Algebra Play",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "cbse-g8-maths-ch13-st1",
+    "cbse-g8-maths-ch13-st2",
+    "cbse-g8-maths-ch13-st3"
+   ]
+  },
+  {
+   "id": "cbse-g8-maths-ch14",
+   "subjectId": "cbse-g8-maths",
+   "order": 14,
+   "name": "Area",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cbse-g8-maths-ch14-st1",
+    "cbse-g8-maths-ch14-st2",
+    "cbse-g8-maths-ch14-st3",
+    "cbse-g8-maths-ch14-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cbse-g8-maths-ch01-st1",
+   "chapterId": "cbse-g8-maths-ch01",
+   "order": 1,
+   "name": "Perfect squares and their patterns",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Multiplication tables to 20; square of a number (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch01-st2",
+   "chapterId": "cbse-g8-maths-ch01",
+   "order": 2,
+   "name": "Square roots: prime factorisation and estimation",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch01-st1"
+   ],
+   "prerequisiteNote": "Prime factorisation (Cl 6-7); Perfect squares and their patterns",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch01-st3",
+   "chapterId": "cbse-g8-maths-ch01",
+   "order": 3,
+   "name": "Perfect cubes and cube roots",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch01-st1"
+   ],
+   "prerequisiteNote": "Prime factorisation; Perfect squares and their patterns",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch01-st4",
+   "chapterId": "cbse-g8-maths-ch01",
+   "order": 4,
+   "name": "Pythagorean triplets and square-number puzzles",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch01-st1",
+    "cbse-g8-maths-ch01-st2"
+   ],
+   "prerequisiteNote": "Perfect squares and their patterns; Square roots",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch02-st1",
+   "chapterId": "cbse-g8-maths-ch02",
+   "order": 1,
+   "name": "Exponent notation and laws of exponents",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Exponents as repeated multiplication (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch02-st2",
+   "chapterId": "cbse-g8-maths-ch02",
+   "order": 2,
+   "name": "Zero and negative exponents",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch02-st1"
+   ],
+   "prerequisiteNote": "Exponent notation and laws of exponents",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch02-st3",
+   "chapterId": "cbse-g8-maths-ch02",
+   "order": 3,
+   "name": "Standard form for very large / small numbers",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch02-st2"
+   ],
+   "prerequisiteNote": "Zero and negative exponents; decimal place value",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch03-st1",
+   "chapterId": "cbse-g8-maths-ch03",
+   "order": 1,
+   "name": "Evolution of number systems and place value",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Place value of whole numbers (Cl 6)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch03-st2",
+   "chapterId": "cbse-g8-maths-ch03",
+   "order": 2,
+   "name": "Rational numbers: representation and properties",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Integers and fractions: four operations (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch03-st3",
+   "chapterId": "cbse-g8-maths-ch03",
+   "order": 3,
+   "name": "Rational numbers on the number line; numbers between two rationals",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch03-st2"
+   ],
+   "prerequisiteNote": "Rational numbers: representation and properties; fractions on a number line",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch04-st1",
+   "chapterId": "cbse-g8-maths-ch04",
+   "order": 1,
+   "name": "Types of quadrilaterals and their properties",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Parallel lines and angles; triangles (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch04-st2",
+   "chapterId": "cbse-g8-maths-ch04",
+   "order": 2,
+   "name": "Angle-sum and exterior angle properties",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Angle sum of a triangle (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch04-st3",
+   "chapterId": "cbse-g8-maths-ch04",
+   "order": 3,
+   "name": "Parallelogram family: sides, angles, diagonals",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch04-st1",
+    "cbse-g8-maths-ch04-st2"
+   ],
+   "prerequisiteNote": "Types of quadrilaterals; Angle-sum and exterior angle properties",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch04-st4",
+   "chapterId": "cbse-g8-maths-ch04",
+   "order": 4,
+   "name": "Constructing quadrilaterals from given data",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch04-st1"
+   ],
+   "prerequisiteNote": "Constructing triangles (Cl 7); Types of quadrilaterals",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch05-st1",
+   "chapterId": "cbse-g8-maths-ch05",
+   "order": 1,
+   "name": "Divisibility rules and reasoning",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Factors, multiples, HCF/LCM (Cl 6)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch05-st2",
+   "chapterId": "cbse-g8-maths-ch05",
+   "order": 2,
+   "name": "Number patterns, magic squares, puzzles",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch05-st1"
+   ],
+   "prerequisiteNote": "Arithmetic fluency; Divisibility rules",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch05-st3",
+   "chapterId": "cbse-g8-maths-ch05",
+   "order": 3,
+   "name": "Letters for digits / cryptarithms",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Place value; addition/multiplication with carrying",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch06-st1",
+   "chapterId": "cbse-g8-maths-ch06",
+   "order": 1,
+   "name": "Distributive property with numbers",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Order of operations; multiplication facts (Cl 6)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch06-st2",
+   "chapterId": "cbse-g8-maths-ch06",
+   "order": 2,
+   "name": "Algebraic expressions: terms, like terms, addition",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Variables and simple expressions (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch06-st3",
+   "chapterId": "cbse-g8-maths-ch06",
+   "order": 3,
+   "name": "Multiplying expressions (monomial × binomial, binomial × binomial)",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch06-st1",
+    "cbse-g8-maths-ch06-st2"
+   ],
+   "prerequisiteNote": "Distributive property with numbers; Algebraic expressions: like terms",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch07-st1",
+   "chapterId": "cbse-g8-maths-ch07",
+   "order": 1,
+   "name": "Ratio, unitary method and scaling",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Fractions and simplification (Cl 6-7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch07-st2",
+   "chapterId": "cbse-g8-maths-ch07",
+   "order": 2,
+   "name": "Direct proportion",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch07-st1"
+   ],
+   "prerequisiteNote": "Ratio, unitary method and scaling",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch07-st3",
+   "chapterId": "cbse-g8-maths-ch07",
+   "order": 3,
+   "name": "Inverse proportion",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch07-st2",
+    "cbse-g8-maths-ch07-st1"
+   ],
+   "prerequisiteNote": "Direct proportion; Ratio, unitary method and scaling",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch08-st1",
+   "chapterId": "cbse-g8-maths-ch08",
+   "order": 1,
+   "name": "Equivalent fractions, decimals and conversions",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Fractions and decimals (Cl 6-7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch08-st2",
+   "chapterId": "cbse-g8-maths-ch08",
+   "order": 2,
+   "name": "Terminating and recurring decimals",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch08-st1"
+   ],
+   "prerequisiteNote": "Long division; Equivalent fractions, decimals and conversions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch08-st3",
+   "chapterId": "cbse-g8-maths-ch08",
+   "order": 3,
+   "name": "Comparing and ordering fractions/decimals",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch08-st1"
+   ],
+   "prerequisiteNote": "Equivalent fractions, decimals and conversions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch09-st1",
+   "chapterId": "cbse-g8-maths-ch09",
+   "order": 1,
+   "name": "Statement, history and verification",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch01-st1"
+   ],
+   "prerequisiteNote": "Perfect squares; right-angled triangle (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch09-st2",
+   "chapterId": "cbse-g8-maths-ch09",
+   "order": 2,
+   "name": "Finding an unknown side",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch01-st2",
+    "cbse-g8-maths-ch09-st1"
+   ],
+   "prerequisiteNote": "Square roots; Statement, history and verification",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch09-st3",
+   "chapterId": "cbse-g8-maths-ch09",
+   "order": 3,
+   "name": "Converse and real-life applications",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch09-st2"
+   ],
+   "prerequisiteNote": "Finding an unknown side",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch10-st1",
+   "chapterId": "cbse-g8-maths-ch10",
+   "order": 1,
+   "name": "Percentages and percentage change",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Fractions to percent conversion (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch10-st2",
+   "chapterId": "cbse-g8-maths-ch10",
+   "order": 2,
+   "name": "Profit, loss, discount and tax",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch10-st1"
+   ],
+   "prerequisiteNote": "Percentages and percentage change",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch10-st3",
+   "chapterId": "cbse-g8-maths-ch10",
+   "order": 3,
+   "name": "Simple and compound interest",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch10-st1",
+    "cbse-g8-maths-ch02-st1"
+   ],
+   "prerequisiteNote": "Percentages and percentage change; Exponent notation (for CI powers)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch11-st1",
+   "chapterId": "cbse-g8-maths-ch11",
+   "order": 1,
+   "name": "Line and rotational symmetry",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Symmetry (Cl 6-7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch11-st2",
+   "chapterId": "cbse-g8-maths-ch11",
+   "order": 2,
+   "name": "Geometric constructions and patterns",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Basic constructions with compass (Cl 6-7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch11-st3",
+   "chapterId": "cbse-g8-maths-ch11",
+   "order": 3,
+   "name": "Tessellations and tilings",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch11-st1"
+   ],
+   "prerequisiteNote": "Angle sums of polygons; Line and rotational symmetry",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch12-st1",
+   "chapterId": "cbse-g8-maths-ch12",
+   "order": 1,
+   "name": "Coordinate plane and plotting points",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Number line with negatives (Cl 6-7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch12-st2",
+   "chapterId": "cbse-g8-maths-ch12",
+   "order": 2,
+   "name": "Reading and drawing line graphs",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch12-st1"
+   ],
+   "prerequisiteNote": "Coordinate plane and plotting points; bar graphs (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch12-st3",
+   "chapterId": "cbse-g8-maths-ch12",
+   "order": 3,
+   "name": "Linear relationships from tables to graphs",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch12-st2",
+    "cbse-g8-maths-ch06-st2"
+   ],
+   "prerequisiteNote": "Reading and drawing line graphs; Algebraic expressions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch13-st1",
+   "chapterId": "cbse-g8-maths-ch13",
+   "order": 1,
+   "name": "Algebraic identities",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch06-st3"
+   ],
+   "prerequisiteNote": "Multiplying expressions (binomial x binomial)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch13-st2",
+   "chapterId": "cbse-g8-maths-ch13",
+   "order": 2,
+   "name": "Factorisation of expressions",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch13-st1",
+    "cbse-g8-maths-ch06-st1"
+   ],
+   "prerequisiteNote": "Algebraic identities; HCF of terms; Distributive property",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch13-st3",
+   "chapterId": "cbse-g8-maths-ch13",
+   "order": 3,
+   "name": "Linear equations in one variable and word problems",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch06-st2"
+   ],
+   "prerequisiteNote": "Simple equations (Cl 7); Algebraic expressions: like terms",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch14-st1",
+   "chapterId": "cbse-g8-maths-ch14",
+   "order": 1,
+   "name": "Area of quadrilaterals, trapezium and polygons",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Area of rectangle, triangle, parallelogram (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch14-st2",
+   "chapterId": "cbse-g8-maths-ch14",
+   "order": 2,
+   "name": "Circle: circumference and area",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Circumference and area of circle (Cl 7); fractions with 22/7",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch14-st3",
+   "chapterId": "cbse-g8-maths-ch14",
+   "order": 3,
+   "name": "Composite figures",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch14-st1",
+    "cbse-g8-maths-ch14-st2"
+   ],
+   "prerequisiteNote": "Area of quadrilaterals; Circle: circumference and area",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g8-maths-ch14-st4",
+   "chapterId": "cbse-g8-maths-ch14",
+   "order": 4,
+   "name": "Surface area and volume of cube, cuboid, cylinder",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Area of rectangle and circle; Exponents (units squared/cubed)",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}
