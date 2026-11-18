@@ -4,6 +4,7 @@ import { ExternalLink, Info } from 'lucide-react';
 import { Badge, type BadgeProps } from '@/components/ui/badge';
 import type { ApplicationStatus } from '@/lib/data/types';
 import type { Sourced, University } from '@/lib/types';
+import { SafeImg } from '@/components/ui/safe-img';
 import { uniPhoto } from '@/lib/media';
 import { cn } from '@/lib/utils';
 import type { FitBand } from './fit';
@@ -39,12 +40,9 @@ const COUNTRY_TILE: Record<string, string> = {
 export function UniMark({ uni, size = 'md' }: { uni: Pick<University, 'shortName' | 'country'> & { id?: string }; size?: 'sm' | 'md' | 'lg' }) {
   const dims = { sm: 'size-8 text-[11px]', md: 'size-10 text-xs', lg: 'size-14 text-base' }[size];
   const photo = uniPhoto(uni.id);
-  if (photo) {
-    // eslint-disable-next-line @next/next/no-img-element
-    return <img src={photo.src} alt="" aria-hidden loading="lazy" className={cn('shrink-0 rounded-lg bg-surface-muted object-cover ring-1 ring-black/5', dims)} />;
-  }
   const letters = uni.shortName.replace(/[^A-Za-z ]/g, '').split(/\s+/).filter(Boolean).slice(0, 2).map((w) => w[0]).join('').toUpperCase() || uni.shortName.slice(0, 2);
-  return <span aria-hidden className={cn('inline-flex shrink-0 items-center justify-center rounded-lg font-bold', dims, COUNTRY_TILE[uni.country] ?? 'bg-surface-muted text-ink')}>{letters}</span>;
+  const tile = <span aria-hidden className={cn('inline-flex shrink-0 items-center justify-center rounded-lg font-bold', dims, COUNTRY_TILE[uni.country] ?? 'bg-surface-muted text-ink')}>{letters}</span>;
+  return photo ? <SafeImg src={photo.src} alt="" className={cn('shrink-0 rounded-lg bg-surface-muted object-cover ring-1 ring-black/5', dims)} fallback={tile} /> : tile;
 }
 
 /** Photo credit for a campus image (author, licence, source), as the licence requires. */

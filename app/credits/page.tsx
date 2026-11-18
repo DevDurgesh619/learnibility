@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Logo } from '@/components/shell/logo';
 import { Avatar } from '@/components/ui/avatar';
 import { Card, CardBody, CardHeader } from '@/components/ui/card';
+import { SafeImg } from '@/components/ui/safe-img';
 import { PERSON_PHOTOS, UNI_PHOTOS } from '@/lib/media';
 import { getUniversity } from '@/lib/data';
 
@@ -32,8 +33,7 @@ export default function CreditsPage() {
               <ul className="grid gap-3 sm:grid-cols-2">
                 {campuses.map(({ id, p, name }) => (
                   <li key={id} className="flex items-center gap-3">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={p.src} alt="" className="h-12 w-16 shrink-0 rounded-md object-cover" loading="lazy" />
+                    <SafeImg src={p.src} alt="" className="h-12 w-16 shrink-0 rounded-md object-cover" fallback={<span className="h-12 w-16 shrink-0 rounded-md bg-surface-muted" />} />
                     <div className="min-w-0 text-xs">
                       <p className="truncate font-medium text-ink">{name}</p>
                       <p className="truncate text-muted">

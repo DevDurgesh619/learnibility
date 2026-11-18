@@ -7,6 +7,7 @@ import { Search, SlidersHorizontal, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { EmptyState } from '@/components/ui/empty-state';
+import { SafeImg } from '@/components/ui/safe-img';
 import { cn } from '@/lib/utils';
 import { SHOW_COSTS } from './config';
 import { ActionButton } from './action-button';
@@ -117,15 +118,12 @@ const TILE: Record<string, string> = { us: 'from-sky-500 to-indigo-600', uk: 'fr
 
 /** Campus photo thumbnail for a result row; a tinted monogram when there is no photo. */
 export function UniThumb({ row, className }: { row: Pick<UniRow, 'photo' | 'shortName' | 'country'>; className?: string }) {
-  if (row.photo) {
-    // eslint-disable-next-line @next/next/no-img-element
-    return <img src={row.photo} alt="" loading="lazy" className={cn('h-16 w-24 rounded-lg bg-surface-muted object-cover ring-1 ring-black/5', className)} />;
-  }
-  return (
+  const tile = (
     <span className={cn('flex h-16 w-24 items-center justify-center rounded-lg bg-gradient-to-br text-sm font-bold text-white', TILE[row.country] ?? 'from-slate-500 to-slate-700', className)}>
       {row.shortName.split(/\s+/).slice(0, 2).map((w) => w[0]).join('')}
     </span>
   );
+  return row.photo ? <SafeImg src={row.photo} alt="" className={cn('h-16 w-24 rounded-lg bg-surface-muted object-cover ring-1 ring-black/5', className)} fallback={tile} /> : tile;
 }
 
 export function UniversityExplorer({

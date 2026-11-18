@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { redirect } from 'next/navigation';
 import { Bookmark } from 'lucide-react';
 import { Card, CardBody, CardHeader } from '@/components/ui/card';
+import { SafeImg } from '@/components/ui/safe-img';
 import { applicationsBundle, fitInputs, isPaid, listUniversities, studentCtx } from '@/components/applications/data';
 import { UniThumb, UniversityExplorer } from '@/components/applications/explorer';
 import { FitHeader } from '@/components/applications/fit-header';
@@ -46,8 +47,7 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ q
                     <Card className="h-full overflow-hidden transition-all group-hover:-translate-y-0.5 group-hover:border-brand-300 group-hover:shadow-md">
                       <div className="relative h-36 bg-surface-muted">
                         {r.photo
-                          // eslint-disable-next-line @next/next/no-img-element
-                          ? <img src={r.photo} alt={`${r.name} campus`} className="size-full object-cover transition-transform duration-500 group-hover:scale-[1.03]" />
+                          ? <SafeImg src={r.photo} alt={`${r.name} campus`} className="size-full object-cover transition-transform duration-500 group-hover:scale-[1.03]" fallback={<UniThumb row={{ ...r, photo: undefined }} className="size-full rounded-none text-2xl" />} />
                           : <UniThumb row={r} className="size-full rounded-none text-2xl" />}
                         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
                         <span className="absolute top-2 left-2 rounded-full bg-white/90 px-2 py-0.5 text-[11px] font-semibold text-ink shadow-sm">QS #{r.qsRank}</span>
