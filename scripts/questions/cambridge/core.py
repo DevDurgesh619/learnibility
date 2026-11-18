@@ -626,7 +626,7 @@ def equalise_mocks(items, papers):
         diff = target - tot[m]
         # prefer items whose key carries no part marks, then ones with a single trailing [n] (rewritten to match)
         nomark = [q for q in qs if q['type'] != 'mcq' and not re.search(r'\[\d+\]', str(q.get('markingKey', '')))]
-        single = [q for q in qs if q['type'] != 'mcq' and len(re.findall(r'\[\d+\]', str(q.get('markingKey', '')))) == 1
+        single = [q for q in qs if q['type'] not in ('mcq', 'long') and len(re.findall(r'\[\d+\]', str(q.get('markingKey', '')))) == 1
                   and re.search(r'\[\d+\]\s*$', str(q.get('markingKey', '')))
                   and not re.search(r'\(\d\)', str(q.get('markingKey', '')))]   # inner "(1)" points would disagree
         broad = [q for q in qs if '(a)' not in q['stem'] and q['type'] != 'mcq'] or [q for q in qs if q['type'] != 'mcq'] or qs
