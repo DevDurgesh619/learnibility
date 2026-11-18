@@ -1,0 +1,66 @@
+{
+  "subjectId": "cbse-g12-legal-studies",
+  "generatedBy": "scripts/questions/cbse/g12_legal_studies.py",
+  "curriculumSource": "data/curriculum/cbse-g12-legal-studies.json",
+  "generatedAt": "2026-11-18T09:51:03Z",
+  "chaptersDone": [
+    "cbse-g12-legal-studies-ch01",
+    "cbse-g12-legal-studies-ch02",
+    "cbse-g12-legal-studies-ch03",
+    "cbse-g12-legal-studies-ch04",
+    "cbse-g12-legal-studies-ch05",
+    "cbse-g12-legal-studies-ch06",
+    "cbse-g12-legal-studies-ch07",
+    "cbse-g12-legal-studies-ch08",
+    "cbse-g12-legal-studies-ch09",
+    "cbse-g12-legal-studies-ch10",
+    "cbse-g12-legal-studies-ch11",
+    "cbse-g12-legal-studies-ch12",
+    "cbse-g12-legal-studies-ch13"
+  ],
+  "mocksDone": true,
+  "target": 1215,
+  "generated": 1215,
+  "validated": true,
+  "counts": {
+    "mastery_bank": 455,
+    "practice": 520,
+    "mock": 240,
+    "total": 1215
+  },
+  "mix": {
+    "C": {
+      "C1": 17.4,
+      "C2": 29.2,
+      "C3": 34.3,
+      "C4": 19.1
+    },
+    "D": {
+      "D1": 7.7,
+      "D2": 40.7,
+      "D3": 35.6,
+      "D4": 12.5,
+      "D5": 3.5
+    }
+  },
+  "validatedAt": "2026-11-18T09:51:03.885Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": [],
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "5 random generated items per chapter (65 items) plus all written items of mock 3 (20 items) re-solved by hand against the CBSE Legal Studies class 12 textbook and the bare Acts and judgments cited; every fact line re-checked",
+      "checked": 85,
+      "mismatches": 0,
+      "fixes": [
+        "engine keys cited 'NCERT'; Legal Studies uses the CBSE textbook, so keys now cite the CBSE textbook",
+        "source-based items: a variant whose part (ii) asks to explain the same term that answers part (i) is now rejected and regenerated (no_echo guard); the redundant 'A natural person is' recall line was dropped",
+        "arbitrator-number item reworded (Section 10: the number fixed by the parties must not be even; otherwise a sole arbitrator)",
+        "dropped a 'year of M.C. Mehta absolute liability' item (judgment of December 1986 is reported as 1987, so the year is ambiguous)",
+        "three vague assertion lines ('legal literacy camps are organised' etc.) rewritten as arguable statements for the 'Examine' items",
+        "mock sections use custom kinds q3 and long5 so the 3-mark and 5-mark slots take only items whose keys are written for those marks"
+      ]
+    }
+  ]
+}

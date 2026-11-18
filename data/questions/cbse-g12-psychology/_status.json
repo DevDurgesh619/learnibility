@@ -1,0 +1,59 @@
+{
+  "subjectId": "cbse-g12-psychology",
+  "generatedBy": "scripts/questions/cbse/g12_psychology.py",
+  "curriculumSource": "data/curriculum/cbse-g12-psychology.json",
+  "generatedAt": "2026-11-18T09:51:03Z",
+  "chaptersDone": [
+    "cbse-g12-psychology-ch01",
+    "cbse-g12-psychology-ch02",
+    "cbse-g12-psychology-ch03",
+    "cbse-g12-psychology-ch04",
+    "cbse-g12-psychology-ch05",
+    "cbse-g12-psychology-ch06",
+    "cbse-g12-psychology-ch07"
+  ],
+  "mocksDone": true,
+  "target": 758,
+  "generated": 758,
+  "validated": true,
+  "counts": {
+    "mastery_bank": 280,
+    "practice": 280,
+    "mock": 198,
+    "total": 758
+  },
+  "mix": {
+    "C": {
+      "C1": 17.5,
+      "C2": 29.3,
+      "C3": 33.9,
+      "C4": 19.3
+    },
+    "D": {
+      "D1": 7.5,
+      "D2": 40.7,
+      "D3": 35.7,
+      "D4": 12.5,
+      "D5": 3.6
+    }
+  },
+  "validatedAt": "2026-11-18T09:51:03.774Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": [],
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "5 random generated items per chapter (35 items) plus all written items of mock 2 (19 items) re-solved by hand against NCERT Psychology class 12; every fact line, vignette and distinguish pair re-checked against the chapters",
+      "checked": 54,
+      "mismatches": 0,
+      "fixes": [
+        "source-based items: a variant whose part (ii) asks to explain the same term that answers part (i) is now rejected and regenerated (no_echo guard)",
+        "dropped the 'placebo effect' item from healing factors (NCERT frames them as techniques, alliance, catharsis and non-specific patient/therapist factors)",
+        "renamed duplicate key terms ('modelling' in ch05 and ch06, 'social identity' in ch02 and ch07) so subject-wide term stems stay distinct",
+        "curated 'distinguish between' pairs exclude pairs already written as hand items, avoiding near-duplicate stems",
+        "Section F case items use original one-paragraph vignettes (case1: identify, 1 mark; case2: identify and explain, 2 marks) from one shared deck per subtopic so a vignette is never reused"
+      ]
+    }
+  ]
+}

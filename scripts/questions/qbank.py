@@ -230,7 +230,7 @@ def load_curriculum(subject_id: str, fallback: dict | None = None) -> dict:
             elif isinstance(v, dict):
                 i = v.get('id')
                 if isinstance(i, str) and i.startswith(subject_id + '-ch'):
-                    if '-st' in i:
+                    if re.search(r'-st\d+$', i):
                         subtopics[i] = v
                     else:
                         chapters[i] = v

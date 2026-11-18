@@ -1,0 +1,68 @@
+{
+  "subjectId": "cbse-g12-economics",
+  "generatedBy": "scripts/questions/cbse/g12_economics.py",
+  "curriculumSource": "data/curriculum/cbse-g12-economics.json",
+  "generatedAt": "2026-11-18T09:51:02Z",
+  "chaptersDone": [
+    "cbse-g12-economics-ch01",
+    "cbse-g12-economics-ch02",
+    "cbse-g12-economics-ch03",
+    "cbse-g12-economics-ch04",
+    "cbse-g12-economics-ch05",
+    "cbse-g12-economics-ch06",
+    "cbse-g12-economics-ch07",
+    "cbse-g12-economics-ch08",
+    "cbse-g12-economics-ch09",
+    "cbse-g12-economics-ch10",
+    "cbse-g12-economics-ch11",
+    "cbse-g12-economics-ch12",
+    "cbse-g12-economics-ch13",
+    "cbse-g12-economics-ch14"
+  ],
+  "mocksDone": true,
+  "target": 1394,
+  "generated": 1394,
+  "validated": true,
+  "counts": {
+    "mastery_bank": 630,
+    "practice": 560,
+    "mock": 204,
+    "total": 1394
+  },
+  "mix": {
+    "C": {
+      "C1": 16.7,
+      "C2": 29.4,
+      "C3": 34.4,
+      "C4": 19.5
+    },
+    "D": {
+      "D1": 8.4,
+      "D2": 40.5,
+      "D3": 35.4,
+      "D4": 12.4,
+      "D5": 3.3
+    }
+  },
+  "validatedAt": "2026-11-18T09:51:03.627Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": [],
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "5 random generated items per chapter (70 items) plus one variant of every numerical family (37) and 8 extra numerical/data items from the bank, re-solved by hand against NCERT Introductory Macroeconomics and Indian Economic Development; one full mock reviewed for slot marks",
+      "checked": 115,
+      "mismatches": 0,
+      "fixes": [
+        "source-based items: a variant whose part (ii) asks to explain the same term that answers part (i) is now rejected and regenerated (no_echo guard)",
+        "China sector item rewritten: services, not industry, now has the largest share of China's GDP; the item asks which sector has a much larger share than in India",
+        "ASCII minus in negative data values (e.g. change in stock, NFIA) replaced by the true minus sign in stems and keys",
+        "fractional MPC/MPS coefficients printed as (2/3)Y and ÷ (1/6), not 2/3Y",
+        "MPS/MPC MCQ distractors rebuilt (one distractor expression could repeat the answer)",
+        "exchange-rate key reworded for appreciation; inflationary-gap item now says \"reduce government expenditure by ₹x crore\"",
+        "stock/flow options keep month names capitalised; one causal reason line corrected for grammar"
+      ]
+    }
+  ]
+}

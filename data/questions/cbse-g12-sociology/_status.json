@@ -1,0 +1,61 @@
+{
+  "subjectId": "cbse-g12-sociology",
+  "generatedBy": "scripts/questions/cbse/g12_sociology.py",
+  "curriculumSource": "data/curriculum/cbse-g12-sociology.json",
+  "generatedAt": "2026-11-18T09:51:02Z",
+  "chaptersDone": [
+    "cbse-g12-sociology-ch01",
+    "cbse-g12-sociology-ch02",
+    "cbse-g12-sociology-ch03",
+    "cbse-g12-sociology-ch04",
+    "cbse-g12-sociology-ch05",
+    "cbse-g12-sociology-ch06",
+    "cbse-g12-sociology-ch07",
+    "cbse-g12-sociology-ch08",
+    "cbse-g12-sociology-ch09"
+  ],
+  "mocksDone": true,
+  "target": 885,
+  "generated": 885,
+  "validated": true,
+  "counts": {
+    "mastery_bank": 315,
+    "practice": 360,
+    "mock": 210,
+    "total": 885
+  },
+  "mix": {
+    "C": {
+      "C1": 17.5,
+      "C2": 29.2,
+      "C3": 34.3,
+      "C4": 19
+    },
+    "D": {
+      "D1": 7.3,
+      "D2": 40.6,
+      "D3": 35.9,
+      "D4": 12.7,
+      "D5": 3.5
+    }
+  },
+  "validatedAt": "2026-11-18T09:51:03.718Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": [],
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "5 random generated items per chapter (45 items) plus all written items of mock 1 (19 items) re-solved by hand against NCERT Indian Society and Social Change and Development in India; every fact line re-checked against the chapters",
+      "checked": 64,
+      "mismatches": 0,
+      "fixes": [
+        "source-based items: a variant whose part (ii) asks to explain the same term that answers part (i) is now rejected and regenerated (no_echo guard)",
+        "'largest tribe' item replaced (Census 2011 counts more Bhils than Gonds); it now asks for one of the large tribes numbering over a million",
+        "'Distinguish between' 2-mark items use curated contrastive term pairs only (the first draft paired unrelated terms such as civil society / RTI Act)",
+        "the 2-mark mock section ran out of items in mock 5; the curated distinguish family fixes this",
+        "Birsa Munda item distractor corrected to Sidhu Murmu"
+      ]
+    }
+  ]
+}
