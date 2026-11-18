@@ -36,3 +36,12 @@ Newest first. Each entry: date, decision, who decided, why.
 - **Fixture learners use real persona ids** (Kabir, Rohan, Ishita, Sara, Nikhil, Ananya) so screens switch to Wave 3 data without code changes. Fixture questions use ids `{subtopicId}-q9NN` to avoid clashing with the real bank. (W2-0.)
 - **Retention probes re-diagnose the last full check** with the probe's retention as the signal (L4 → L5, or G6 under 70%), because a 2-item probe alone is "insufficient evidence" for the engine. (W2-0.)
 - **ALR edge case:** a 100% pre-test makes the engine's dK 0/0; the data layer treats it as 99%. Reported to the engines owner. (W2-0.)
+
+## 2026-11-18 (W2-S2 Student daily loop)
+
+- **One data seam.** Every daily-loop screen reads through `components/student/load.ts`, which calls `@/lib/data` and `@/lib/engines` only; components render view models from `components/student/model.ts`. (W2-S2.)
+- **Request change shows for any student with a counsellor** (`counsellorIds` not empty), not by plan, because Heena counsels all 14 students and `PlanId` has no counselling-only plan. Requests are `TimetableRequest` records (`kind: 'move'`, `proposed` slot, reason "task · repeat · why"); Undo marks them `declined` with note "Withdrawn by the student". (W2-S2.)
+- **Ticking a timetable block** re-stores that week (`putRecord('timetable', …)`) with the block's status; tasks use `putRecord('tasks', …)`. Both append an M16 event. (W2-S2, per W2-0.)
+- **Metric definitions (PDF 2b/2d).** Learning rate = mean latest LRS per chapter; retention = mean latest R per chapter; discipline = study blocks done ÷ planned so far this week (last week early in the week); task completion = non-timetable tasks done ÷ due in the last 7 days. The metric detail is `/student?metric=…` so it stays inside S2's routes. (W2-S2.)
+- **Inventory folders.** `DocumentRecord` carries only the shelf, so the folder is derived: academics by school year (April to March) relative to the current grade, others by title and kind; uploads pin their folder with `refId: "folder:{slug}"`. (W2-S2.)
+- **Next best action links** are remapped to final routes (engine's `/student/profile` → Inventory, `/student/careers` → `/student/career`). (W2-S2.)
