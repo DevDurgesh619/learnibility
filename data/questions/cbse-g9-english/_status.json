@@ -1,0 +1,71 @@
+{
+  "subjectId": "cbse-g9-english",
+  "generatedBy": "scripts/questions/cbse/g9_english.py",
+  "curriculumSource": "data/curriculum/cbse-g9-english.json",
+  "generatedAt": "2026-11-18T08:53:37Z",
+  "chaptersDone": [
+    "cbse-g9-english-ch01",
+    "cbse-g9-english-ch02",
+    "cbse-g9-english-ch03",
+    "cbse-g9-english-ch04",
+    "cbse-g9-english-ch05",
+    "cbse-g9-english-ch06",
+    "cbse-g9-english-ch07",
+    "cbse-g9-english-ch08",
+    "cbse-g9-english-ch09",
+    "cbse-g9-english-ch10",
+    "cbse-g9-english-ch11",
+    "cbse-g9-english-ch12",
+    "cbse-g9-english-ch13",
+    "cbse-g9-english-ch14",
+    "cbse-g9-english-ch15",
+    "cbse-g9-english-ch16"
+  ],
+  "mocksDone": true,
+  "target": 1002,
+  "generated": 1002,
+  "validated": true,
+  "counts": {
+    "mastery_bank": 480,
+    "practice": 480,
+    "mock": 42,
+    "total": 1002
+  },
+  "mix": {
+    "C": {
+      "C1": 15.2,
+      "C2": 29.6,
+      "C3": 35.2,
+      "C4": 20
+    },
+    "D": {
+      "D1": 9.4,
+      "D2": 40.2,
+      "D3": 35.2,
+      "D4": 12.7,
+      "D5": 2.5
+    }
+  },
+  "validatedAt": "2026-11-18T08:53:59.204Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": [],
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "5 random items per chapter plus 5 mock items (two seeds, 170 items) and a full dump of all 1-3 mark grammar items (127), re-solved by hand; data-case arithmetic recomputed",
+      "checked": 297,
+      "mismatches": 0,
+      "fixes": [
+        "sequence-of-tenses blanks where 'would' also fitted now carry the cue '(can)'",
+        "fill-in determiner items with more than one valid answer (the/these, any/many) limited to MCQ; 'Each' accepted for 'Every'",
+        "concord head-noun item named the wrong head noun and had a nonsense predicate",
+        "grammar sets could repeat the same clause; near-duplicates now excluded and inner (i)/(ii) relabelled (a)/(b)",
+        "duplicated city in two writing prompts; World Music Day prompt carried a random date",
+        "'chose to help instead of compete' corrected",
+        "factual-description subtopic no longer asks brochure/biography format facts"
+      ],
+      "note": "No wrong answer keys found. Kaveri texts not widely known (Bharat Our Land, Gifts of Grace, Canvas of Soil, Vitamin-M, Twin Melodies, A Friend Found in Music, Words, Believe in Yourself) are examined only through their curriculum-stated themes, devices and original extracts; no invented plot details."
+    }
+  ]
+}

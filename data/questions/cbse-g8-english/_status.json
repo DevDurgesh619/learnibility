@@ -1,0 +1,84 @@
+{
+  "subjectId": "cbse-g8-english",
+  "generatedBy": "scripts/questions/cbse/g8_english.py",
+  "curriculumSource": "data/curriculum/cbse-g8-english.json",
+  "generatedAt": "2026-11-18T08:53:37Z",
+  "chaptersDone": [
+    "cbse-g8-english-ch01",
+    "cbse-g8-english-ch02",
+    "cbse-g8-english-ch03",
+    "cbse-g8-english-ch04",
+    "cbse-g8-english-ch05",
+    "cbse-g8-english-ch06",
+    "cbse-g8-english-ch07",
+    "cbse-g8-english-ch08",
+    "cbse-g8-english-ch09",
+    "cbse-g8-english-ch10",
+    "cbse-g8-english-ch11",
+    "cbse-g8-english-ch12",
+    "cbse-g8-english-ch13",
+    "cbse-g8-english-ch14",
+    "cbse-g8-english-ch15"
+  ],
+  "mocksDone": true,
+  "target": 942,
+  "generated": 942,
+  "validated": true,
+  "counts": {
+    "mastery_bank": 450,
+    "practice": 450,
+    "mock": 42,
+    "total": 942
+  },
+  "mix": {
+    "C": {
+      "C1": 15.6,
+      "C2": 28.7,
+      "C3": 35.6,
+      "C4": 20.2
+    },
+    "D": {
+      "D1": 8.9,
+      "D2": 40.7,
+      "D3": 36.4,
+      "D4": 11.6,
+      "D5": 2.4
+    }
+  },
+  "validatedAt": "2026-11-18T08:53:59.083Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": [],
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "5 random items per chapter (75) plus mock items and a full dump of grammar-subtopic MCQ/short items, re-solved by hand",
+      "checked": 150,
+      "mismatches": 0,
+      "fixes": [
+        "AR option b used an unrelated reason from another chapter; b now only with an explicit reason",
+        "passive distractor 'was open' was grammatical; replaced",
+        "'A article' corrected to 'An article'",
+        "role/club mismatch in writing prompts; Head Girl/Boy roles removed",
+        "device-subtopic stems said 'according to the poem'; leads reworded",
+        "duplicate names in grammar write prompts",
+        "reported-speech pronoun distractors produced ungrammatical forms",
+        "modal-function distractors that were also correct removed"
+      ],
+      "note": "No wrong answer keys found after fixes. Passages are original; text questions limited to well-known facts."
+    },
+    {
+      "date": "2026-11-18",
+      "method": "re-check after fixes to the shared grammar engine made during the class 9 check: 25 random grammar/vocabulary items re-solved by hand",
+      "checked": 25,
+      "mismatches": 0,
+      "fixes": [
+        "'flickered and go out' frame corrected",
+        "passive item where both 'were' and 'was' fitted ('the crew') reworded",
+        "'have been a member' concord frame corrected",
+        "grammar sets no longer repeat near-identical clauses; inner (i)/(ii) relabelled (a)/(b)"
+      ],
+      "note": "Engine defects found while checking class 9 were fixed and class 8 regenerated."
+    }
+  ]
+}

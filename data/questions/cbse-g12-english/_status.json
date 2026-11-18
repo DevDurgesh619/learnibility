@@ -1,0 +1,68 @@
+{
+  "subjectId": "cbse-g12-english",
+  "generatedBy": "scripts/questions/cbse/g12_english.py",
+  "curriculumSource": "data/curriculum/cbse-g12-english.json",
+  "generatedAt": "2026-11-18T08:53:38Z",
+  "chaptersDone": [
+    "cbse-g12-english-ch01",
+    "cbse-g12-english-ch02",
+    "cbse-g12-english-ch03",
+    "cbse-g12-english-ch04",
+    "cbse-g12-english-ch05",
+    "cbse-g12-english-ch06",
+    "cbse-g12-english-ch07",
+    "cbse-g12-english-ch08",
+    "cbse-g12-english-ch09",
+    "cbse-g12-english-ch10",
+    "cbse-g12-english-ch11",
+    "cbse-g12-english-ch12",
+    "cbse-g12-english-ch13",
+    "cbse-g12-english-ch14",
+    "cbse-g12-english-ch15",
+    "cbse-g12-english-ch16",
+    "cbse-g12-english-ch17",
+    "cbse-g12-english-ch18",
+    "cbse-g12-english-ch19"
+  ],
+  "mocksDone": true,
+  "target": 1218,
+  "generated": 1218,
+  "validated": true,
+  "counts": {
+    "mastery_bank": 570,
+    "practice": 570,
+    "mock": 78,
+    "total": 1218
+  },
+  "mix": {
+    "C": {
+      "C1": 16.1,
+      "C2": 31.1,
+      "C3": 34,
+      "C4": 18.8
+    },
+    "D": {
+      "D1": 10.2,
+      "D2": 38.2,
+      "D3": 36,
+      "D4": 12.3,
+      "D5": 3.3
+    }
+  },
+  "validatedAt": "2026-11-18T08:53:59.339Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": [],
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "5 random items per chapter (95) plus 18 mock items (mock 1 in full and samples from mock 2), re-solved by hand against the texts; data-case arithmetic recomputed",
+      "checked": 113,
+      "mismatches": 0,
+      "fixes": [
+        "writing marking keys said 'Expression (1 marks)' for 4-mark notices and invitations; singular now used"
+      ],
+      "note": "No wrong answer keys found. All reading passages and extracts are original, written on each chapter's theme; text questions use only well-known plot facts of the Flamingo and Vistas texts. Keats's 'Endymion' lines quoted are public domain."
+    }
+  ]
+}
