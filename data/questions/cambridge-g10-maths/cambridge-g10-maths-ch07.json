@@ -1600,12 +1600,18 @@
    "subjectId": "cambridge-g10-maths",
    "conceptGroup": "C1",
    "difficulty": "D3",
-   "type": "short",
-   "stem": "Answer both parts. (a) The angle between a tangent to a circle and the radius at the point of contact is (b) The perpendicular from the centre of a circle to a chord",
-   "answer": "(a) 90° (b) bisects the chord",
-   "markingKey": "(a) A tangent is perpendicular to the radius at the point of contact. (b) It meets the chord at its midpoint.",
+   "type": "mcq",
+   "stem": "A chord of a circle of radius 13 cm is 5 cm from the centre. What is the length of the chord?",
+   "options": [
+    "24 cm",
+    "12 cm",
+    "18 cm",
+    "10 cm"
+   ],
+   "answer": "24 cm",
+   "markingKey": "Half-chord = √(13² − 5²) = 12; chord = 24 cm.",
    "marks": 2,
-   "minutes": 2.5,
+   "minutes": 1.5,
    "alrRole": "practised",
    "likelyGapOnWrong": "G1",
    "set": "practice_form_b"

@@ -200,7 +200,9 @@ def fmt(x, dp=2):
     """Format a number without trailing zeros."""
     if isinstance(x, int):
         return f'{x:,}' if abs(x) >= 10000 else str(x)
-    s = f'{x:.{dp}f}'.rstrip('0').rstrip('.')
+    s = f'{x:.{dp}f}'
+    if '.' in s:   # only strip decimal zeros: 150.0 at dp=0 must stay "150"
+        s = s.rstrip('0').rstrip('.')
     if s == '-0':
         s = '0'
     return s

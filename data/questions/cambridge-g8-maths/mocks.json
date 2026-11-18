@@ -1589,15 +1589,15 @@
    "conceptGroup": "C1",
    "difficulty": "D2",
    "type": "mcq",
-   "stem": "Which of these is a leading question? \"How many hours do you sleep?\", \"You sleep too little, don't you?\", \"What time do you go to bed?\", \"Do you have a bedtime?\"",
+   "stem": "What is bias in data collection?",
    "options": [
-    "You sleep too little, don't you?",
-    "How many hours do you sleep?",
-    "Do you have a bedtime?",
-    "What time do you go to bed?"
+    "Something that makes the results unrepresentative or unfair in one direction",
+    "Rounding the data",
+    "Drawing a bar chart",
+    "Using a large sample"
    ],
-   "answer": "You sleep too little, don't you?",
-   "markingKey": "It suggests the answer. [1]",
+   "answer": "Something that makes the results unrepresentative or unfair in one direction",
+   "markingKey": "Bias distorts results systematically. [1]",
    "marks": 1,
    "minutes": 1,
    "alrRole": "practised",
@@ -1649,8 +1649,8 @@
    "stem": "Without working it out exactly, explain why 2 1/4 × 1 2/3 must be between 2 and 6.",
    "answer": "2 1/4 is between 2 and 3, and 1 2/3 is between 1 and 2, so the product is between 2 and 6 (it is 3 3/4).",
    "markingKey": "B1 bounds for each number; B1 conclusion. [2]",
-   "marks": 1,
-   "minutes": 1,
+   "marks": 2,
+   "minutes": 2,
    "alrRole": "practised",
    "likelyGapOnWrong": "G2",
    "set": "mock"
@@ -1804,12 +1804,18 @@
    "subjectId": "cambridge-g8-maths",
    "conceptGroup": "C1",
    "difficulty": "D2",
-   "type": "short",
-   "stem": "Answer both parts. (a) Write down the area of a quarter circle of radius 2 cm, in terms of π. (b) Which formula gives the arc length of a sector with angle θ° and radius r?",
-   "answer": "(a) π cm² (b) θ/360 × 2πr",
-   "markingKey": "(a) ¼ × π × 4. B1 [1] (b) Fraction of the circumference. [1]",
-   "marks": 2,
-   "minutes": 2.5,
+   "type": "mcq",
+   "stem": "What fraction of a full circle is a sector with angle 36°?",
+   "options": [
+    "1/10",
+    "1/3",
+    "9/25",
+    "1/5"
+   ],
+   "answer": "1/10",
+   "markingKey": "36/360 = 1/10. [1]",
+   "marks": 1,
+   "minutes": 1,
    "alrRole": "practised",
    "likelyGapOnWrong": "G1",
    "set": "mock"
@@ -2537,7 +2543,7 @@
     }
    ],
    "totalMarks": 129,
-   "minutes": 149.0
+   "minutes": 148.5
   }
  ]
 }
