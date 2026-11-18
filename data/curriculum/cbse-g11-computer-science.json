@@ -1,0 +1,765 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cbse-g11-computer-science",
+  "board": "cbse",
+  "grade": 11,
+  "stream": "science",
+  "slug": "computer-science",
+  "name": "Computer Science",
+  "programme": "CBSE Class 11 Computer Science (083)",
+  "textbook": "NCERT Computer Science XI (083)",
+  "examPattern": "School-conducted annual exam (no CBSE SQP for Class XI); 3 h; same marks split and question design as Class XII; 50% competency-based, 20% MCQ, 30% short/long answer (Circular 30/2024). Theory 70 + Practical 30. Assumed 37 questions (XII template: 21×1, 7×2, 3×3, 4×4, 2×5).",
+  "chapterCount": 11,
+  "questionTarget": 1101
+ },
+ "items": [
+  {
+   "id": "cbse-g11-computer-science-ch01",
+   "subjectId": "cbse-g11-computer-science",
+   "order": 1,
+   "name": "Computer System",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g11-computer-science-ch01-st1",
+    "cbse-g11-computer-science-ch01-st2",
+    "cbse-g11-computer-science-ch01-st3",
+    "cbse-g11-computer-science-ch01-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-computer-science-ch02",
+   "subjectId": "cbse-g11-computer-science",
+   "order": 2,
+   "name": "Encoding Schemes and Number System",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "cbse-g11-computer-science-ch02-st1",
+    "cbse-g11-computer-science-ch02-st2",
+    "cbse-g11-computer-science-ch02-st3"
+   ]
+  },
+  {
+   "id": "cbse-g11-computer-science-ch03",
+   "subjectId": "cbse-g11-computer-science",
+   "order": 3,
+   "name": "Emerging Trends",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cbse-g11-computer-science-ch03-st1",
+    "cbse-g11-computer-science-ch03-st2",
+    "cbse-g11-computer-science-ch03-st3",
+    "cbse-g11-computer-science-ch03-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-computer-science-ch04",
+   "subjectId": "cbse-g11-computer-science",
+   "order": 4,
+   "name": "Introduction to Problem Solving",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g11-computer-science-ch04-st1",
+    "cbse-g11-computer-science-ch04-st2",
+    "cbse-g11-computer-science-ch04-st3",
+    "cbse-g11-computer-science-ch04-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-computer-science-ch05",
+   "subjectId": "cbse-g11-computer-science",
+   "order": 5,
+   "name": "Getting Started with Python",
+   "teachingPeriods": 24,
+   "subtopicIds": [
+    "cbse-g11-computer-science-ch05-st1",
+    "cbse-g11-computer-science-ch05-st2",
+    "cbse-g11-computer-science-ch05-st3",
+    "cbse-g11-computer-science-ch05-st4",
+    "cbse-g11-computer-science-ch05-st5"
+   ]
+  },
+  {
+   "id": "cbse-g11-computer-science-ch06",
+   "subjectId": "cbse-g11-computer-science",
+   "order": 6,
+   "name": "Flow of Control",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cbse-g11-computer-science-ch06-st1",
+    "cbse-g11-computer-science-ch06-st2",
+    "cbse-g11-computer-science-ch06-st3",
+    "cbse-g11-computer-science-ch06-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-computer-science-ch07",
+   "subjectId": "cbse-g11-computer-science",
+   "order": 7,
+   "name": "Functions",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g11-computer-science-ch07-st1",
+    "cbse-g11-computer-science-ch07-st2",
+    "cbse-g11-computer-science-ch07-st3",
+    "cbse-g11-computer-science-ch07-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-computer-science-ch08",
+   "subjectId": "cbse-g11-computer-science",
+   "order": 8,
+   "name": "Strings",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g11-computer-science-ch08-st1",
+    "cbse-g11-computer-science-ch08-st2",
+    "cbse-g11-computer-science-ch08-st3",
+    "cbse-g11-computer-science-ch08-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-computer-science-ch09",
+   "subjectId": "cbse-g11-computer-science",
+   "order": 9,
+   "name": "Lists",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cbse-g11-computer-science-ch09-st1",
+    "cbse-g11-computer-science-ch09-st2",
+    "cbse-g11-computer-science-ch09-st3",
+    "cbse-g11-computer-science-ch09-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-computer-science-ch10",
+   "subjectId": "cbse-g11-computer-science",
+   "order": 10,
+   "name": "Tuples and Dictionaries",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cbse-g11-computer-science-ch10-st1",
+    "cbse-g11-computer-science-ch10-st2",
+    "cbse-g11-computer-science-ch10-st3"
+   ]
+  },
+  {
+   "id": "cbse-g11-computer-science-ch11",
+   "subjectId": "cbse-g11-computer-science",
+   "order": 11,
+   "name": "Societal Impact",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cbse-g11-computer-science-ch11-st1",
+    "cbse-g11-computer-science-ch11-st2",
+    "cbse-g11-computer-science-ch11-st3",
+    "cbse-g11-computer-science-ch11-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cbse-g11-computer-science-ch01-st1",
+   "chapterId": "cbse-g11-computer-science-ch01",
+   "order": 1,
+   "name": "Basic computer organisation: input, output, CPU, memory units and data transfer",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Parts of a computer and input/output devices (Computer studies Cl 6-8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch01-st2",
+   "chapterId": "cbse-g11-computer-science-ch01",
+   "order": 2,
+   "name": "Types of memory: primary (RAM, ROM, cache) and secondary storage; units of memory",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch01-st1"
+   ],
+   "prerequisiteNote": "Basic computer organisation; powers of 2 (Maths Cl 8 exponents)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch01-st3",
+   "chapterId": "cbse-g11-computer-science-ch01",
+   "order": 3,
+   "name": "Software: system software, operating system, utilities, language translators and application software",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch01-st1"
+   ],
+   "prerequisiteNote": "Hardware vs software",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch01-st4",
+   "chapterId": "cbse-g11-computer-science-ch01",
+   "order": 4,
+   "name": "Boolean logic: NOT, AND, OR, NAND, NOR, XOR gates, truth tables and De Morgan's laws",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch01-st1"
+   ],
+   "prerequisiteNote": "Logical true/false statements using and, or, not (everyday reasoning); binary 0 and 1",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch02-st1",
+   "chapterId": "cbse-g11-computer-science-ch02",
+   "order": 1,
+   "name": "Encoding schemes: ASCII, ISCII and Unicode (UTF-8, UTF-32)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch01-st2"
+   ],
+   "prerequisiteNote": "Units of memory: bit and byte",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch02-st2",
+   "chapterId": "cbse-g11-computer-science-ch02",
+   "order": 2,
+   "name": "Number systems: binary, octal, decimal and hexadecimal",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch01-st2"
+   ],
+   "prerequisiteNote": "Place value and powers (Maths Cl 8 exponents)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch02-st3",
+   "chapterId": "cbse-g11-computer-science-ch02",
+   "order": 3,
+   "name": "Conversion between number systems (including fractional parts)",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch02-st2"
+   ],
+   "prerequisiteNote": "Number systems; repeated division and multiplication",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch03-st1",
+   "chapterId": "cbse-g11-computer-science-ch03",
+   "order": 1,
+   "name": "Artificial intelligence, machine learning, NLP and immersive experiences (AR/VR)",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch01-st3"
+   ],
+   "prerequisiteNote": "Application software; idea of data-driven programs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch03-st2",
+   "chapterId": "cbse-g11-computer-science-ch03",
+   "order": 2,
+   "name": "Robotics, big data and data analytics",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch03-st1"
+   ],
+   "prerequisiteNote": "Artificial intelligence basics",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch03-st3",
+   "chapterId": "cbse-g11-computer-science-ch03",
+   "order": 3,
+   "name": "Internet of Things, sensors, smart cities and cloud computing (IaaS, PaaS, SaaS)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch03-st2"
+   ],
+   "prerequisiteNote": "Big data; networking basics",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch03-st4",
+   "chapterId": "cbse-g11-computer-science-ch03",
+   "order": 4,
+   "name": "Blockchain technology",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch03-st3"
+   ],
+   "prerequisiteNote": "Cloud and distributed computing",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch04-st1",
+   "chapterId": "cbse-g11-computer-science-ch04",
+   "order": 1,
+   "name": "Steps for problem solving: analysing, developing an algorithm, coding, testing and debugging",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Logical step-by-step reasoning; following instructions in order",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch04-st2",
+   "chapterId": "cbse-g11-computer-science-ch04",
+   "order": 2,
+   "name": "Algorithms and their representation using flowcharts and pseudocode",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch04-st1"
+   ],
+   "prerequisiteNote": "Steps for problem solving",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch04-st3",
+   "chapterId": "cbse-g11-computer-science-ch04",
+   "order": 3,
+   "name": "Flow of control in algorithms: sequence, selection and repetition; verifying algorithms",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch04-st2"
+   ],
+   "prerequisiteNote": "Algorithms, flowcharts and pseudocode",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch04-st4",
+   "chapterId": "cbse-g11-computer-science-ch04",
+   "order": 4,
+   "name": "Decomposition and comparison of algorithms",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch04-st3"
+   ],
+   "prerequisiteNote": "Flow of control in algorithms",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch05-st1",
+   "chapterId": "cbse-g11-computer-science-ch05",
+   "order": 1,
+   "name": "Python features, interactive and script modes; keywords, identifiers and comments",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch04-st2"
+   ],
+   "prerequisiteNote": "Algorithms and pseudocode; using a code editor",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch05-st2",
+   "chapterId": "cbse-g11-computer-science-ch05",
+   "order": 2,
+   "name": "Data types (int, float, complex, bool, str, list, tuple, dict, None) and mutable vs immutable",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch05-st1"
+   ],
+   "prerequisiteNote": "Identifiers and variables",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch05-st3",
+   "chapterId": "cbse-g11-computer-science-ch05",
+   "order": 3,
+   "name": "Operators and expressions: arithmetic, relational, logical, assignment, identity, membership; precedence",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch05-st2",
+    "cbse-g11-computer-science-ch01-st4"
+   ],
+   "prerequisiteNote": "Boolean logic (ch 1); operator precedence BODMAS (Maths Cl 6)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch05-st4",
+   "chapterId": "cbse-g11-computer-science-ch05",
+   "order": 4,
+   "name": "Input/output statements and type conversion (explicit and implicit)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch05-st2"
+   ],
+   "prerequisiteNote": "Data types",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch05-st5",
+   "chapterId": "cbse-g11-computer-science-ch05",
+   "order": 5,
+   "name": "Errors: syntax, logical and runtime errors and debugging",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch05-st3"
+   ],
+   "prerequisiteNote": "Writing expressions; testing and debugging steps",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch06-st1",
+   "chapterId": "cbse-g11-computer-science-ch06",
+   "order": 1,
+   "name": "Selection: if, if-else and if-elif-else statements; indentation",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch05-st3",
+    "cbse-g11-computer-science-ch04-st3"
+   ],
+   "prerequisiteNote": "Relational and logical operators; selection in algorithms",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch06-st2",
+   "chapterId": "cbse-g11-computer-science-ch06",
+   "order": 2,
+   "name": "Repetition: for loop with range() and while loop",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch06-st1"
+   ],
+   "prerequisiteNote": "Selection statements; repetition in algorithms",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch06-st3",
+   "chapterId": "cbse-g11-computer-science-ch06",
+   "order": 3,
+   "name": "break and continue statements",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch06-st2"
+   ],
+   "prerequisiteNote": "Loops",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch06-st4",
+   "chapterId": "cbse-g11-computer-science-ch06",
+   "order": 4,
+   "name": "Nested loops and pattern programs",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch06-st2"
+   ],
+   "prerequisiteNote": "for and while loops",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch07-st1",
+   "chapterId": "cbse-g11-computer-science-ch07",
+   "order": 1,
+   "name": "Need for functions; user-defined functions: def, arguments, parameters and default parameters",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch06-st2"
+   ],
+   "prerequisiteNote": "Flow of control; decomposition (ch 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch07-st2",
+   "chapterId": "cbse-g11-computer-science-ch07",
+   "order": 2,
+   "name": "Return values and the flow of execution",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch07-st1"
+   ],
+   "prerequisiteNote": "Defining and calling functions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch07-st3",
+   "chapterId": "cbse-g11-computer-science-ch07",
+   "order": 3,
+   "name": "Scope of a variable: local and global",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch07-st1"
+   ],
+   "prerequisiteNote": "Function parameters",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch07-st4",
+   "chapterId": "cbse-g11-computer-science-ch07",
+   "order": 4,
+   "name": "Built-in functions and modules: math, random and statistics",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch07-st1"
+   ],
+   "prerequisiteNote": "Calling functions; importing a module",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch08-st1",
+   "chapterId": "cbse-g11-computer-science-ch08",
+   "order": 1,
+   "name": "String operations: indexing, slicing, concatenation, repetition and membership",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch05-st2"
+   ],
+   "prerequisiteNote": "Data types (str is immutable); indexing from 0",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch08-st2",
+   "chapterId": "cbse-g11-computer-science-ch08",
+   "order": 2,
+   "name": "Traversing a string using loops",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch08-st1",
+    "cbse-g11-computer-science-ch06-st2"
+   ],
+   "prerequisiteNote": "String indexing; for and while loops",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch08-st3",
+   "chapterId": "cbse-g11-computer-science-ch08",
+   "order": 3,
+   "name": "Built-in string methods: len, upper, lower, find, count, split, join, replace, strip and others",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch08-st1"
+   ],
+   "prerequisiteNote": "String operations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch08-st4",
+   "chapterId": "cbse-g11-computer-science-ch08",
+   "order": 4,
+   "name": "String handling programs (palindrome, counting vowels, reversing)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch08-st2",
+    "cbse-g11-computer-science-ch08-st3"
+   ],
+   "prerequisiteNote": "Traversing strings; string methods",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch09-st1",
+   "chapterId": "cbse-g11-computer-science-ch09",
+   "order": 1,
+   "name": "List operations: indexing, slicing, concatenation, repetition, membership; mutability",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch08-st1"
+   ],
+   "prerequisiteNote": "String indexing and slicing",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch09-st2",
+   "chapterId": "cbse-g11-computer-science-ch09",
+   "order": 2,
+   "name": "Traversing a list and built-in list methods (append, extend, insert, pop, remove, sort, etc.)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch09-st1",
+    "cbse-g11-computer-science-ch06-st2"
+   ],
+   "prerequisiteNote": "List operations; loops",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch09-st3",
+   "chapterId": "cbse-g11-computer-science-ch09",
+   "order": 3,
+   "name": "Nested lists and copying lists",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch09-st2"
+   ],
+   "prerequisiteNote": "Traversing a list",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch09-st4",
+   "chapterId": "cbse-g11-computer-science-ch09",
+   "order": 4,
+   "name": "List manipulation programs: max/min, mean, linear search, frequency count",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch09-st2",
+    "cbse-g11-computer-science-ch07-st1"
+   ],
+   "prerequisiteNote": "List methods; user-defined functions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch10-st1",
+   "chapterId": "cbse-g11-computer-science-ch10",
+   "order": 1,
+   "name": "Tuples: creation, operations, methods, tuple assignment and nested tuples",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch09-st1"
+   ],
+   "prerequisiteNote": "List operations; immutability",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch10-st2",
+   "chapterId": "cbse-g11-computer-science-ch10",
+   "order": 2,
+   "name": "Dictionaries: creation, accessing items, mutability, traversing",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch09-st2"
+   ],
+   "prerequisiteNote": "Traversing a list; key-value idea",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch10-st3",
+   "chapterId": "cbse-g11-computer-science-ch10",
+   "order": 3,
+   "name": "Dictionary methods and programs (counting frequency, updating records)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch10-st2"
+   ],
+   "prerequisiteNote": "Accessing and traversing dictionaries",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch11-st1",
+   "chapterId": "cbse-g11-computer-science-ch11",
+   "order": 1,
+   "name": "Digital footprints, digital society and netiquette (net, communication and social media etiquette)",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Safe use of the internet (Computer studies Cl 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch11-st2",
+   "chapterId": "cbse-g11-computer-science-ch11",
+   "order": 2,
+   "name": "Data protection and intellectual property rights: copyright, patent, trademark; plagiarism and licensing (GPL, Creative Commons, FOSS)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch11-st1"
+   ],
+   "prerequisiteNote": "Digital footprints; meaning of ownership of creative work",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch11-st3",
+   "chapterId": "cbse-g11-computer-science-ch11",
+   "order": 3,
+   "name": "Cyber crime: hacking, phishing, ransomware, cyber bullying; cyber safety and the IT Act",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch11-st1"
+   ],
+   "prerequisiteNote": "Netiquette; safe browsing practices",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-computer-science-ch11-st4",
+   "chapterId": "cbse-g11-computer-science-ch11",
+   "order": 4,
+   "name": "E-waste management and health concerns of technology use",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch11-st1"
+   ],
+   "prerequisiteNote": "Digital society; recycling and environment (Science Cl 8-9)",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

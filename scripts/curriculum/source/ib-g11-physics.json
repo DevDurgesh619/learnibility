@@ -1,0 +1,491 @@
+{
+  "subjectId": "ib-g11-physics",
+  "chapters": [
+    {
+      "name": "A.1 Kinematics",
+      "subtopics": [
+        {
+          "name": "Displacement, velocity and acceleration as vector quantities; instantaneous and average values",
+          "weight": "S",
+          "prereq": [
+            "ib-g9-science-ch08-st1"
+          ],
+          "note": "Scalars and vectors; speed (MYP 4)"
+        },
+        {
+          "name": "Equations of motion for uniform acceleration (suvat)",
+          "weight": "H",
+          "prereq": [
+            "ib-g9-science-ch08-st4",
+            "ib-g10-maths-ch03-st2"
+          ],
+          "note": "Equations of motion (MYP 4); rearranging formulae"
+        },
+        {
+          "name": "Motion graphs: gradients and areas of displacement-time, velocity-time and acceleration-time graphs",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-physics-ch01-st1",
+            "ib-g9-science-ch08-st3"
+          ],
+          "note": "Velocity-time graphs (MYP 4)"
+        },
+        {
+          "name": "Projectile motion with and without fluid resistance",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-physics-ch01-st2",
+            "ib-g10-maths-ch10-st2"
+          ],
+          "note": "suvat equations; resolving vectors with trigonometry"
+        }
+      ]
+    },
+    {
+      "name": "A.2 Forces and Momentum",
+      "subtopics": [
+        {
+          "name": "Free-body diagrams and types of force: weight, normal, friction, tension, drag and upthrust",
+          "weight": "S",
+          "prereq": [
+            "ib-g9-science-ch09-st1"
+          ],
+          "note": "Resultant forces (MYP 4)"
+        },
+        {
+          "name": "Newton's three laws of motion and equilibrium",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-physics-ch02-st1",
+            "ib-g9-science-ch09-st2"
+          ],
+          "note": "Newton's laws (MYP 4); free-body diagrams"
+        },
+        {
+          "name": "Static and dynamic friction and Stokes' law for drag",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-physics-ch02-st1"
+          ],
+          "note": "Types of force"
+        },
+        {
+          "name": "Linear momentum, impulse and conservation of momentum in collisions and explosions",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-physics-ch02-st2"
+          ],
+          "note": "Newton's second and third laws"
+        },
+        {
+          "name": "Circular motion: centripetal force and acceleration",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-physics-ch02-st2",
+            "ib-g10-maths-ch09-st1"
+          ],
+          "note": "Newton's second law; radians (MYP 5)"
+        }
+      ]
+    },
+    {
+      "name": "A.3 Work, Energy and Power",
+      "subtopics": [
+        {
+          "name": "Work done by a force and the work-energy principle",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-physics-ch02-st2"
+          ],
+          "note": "Forces; scalar product idea"
+        },
+        {
+          "name": "Kinetic, gravitational potential and elastic potential energy; conservation of energy",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-physics-ch03-st1",
+            "ib-g8-science-ch11-st2"
+          ],
+          "note": "Energy stores and conservation (MYP 3)"
+        },
+        {
+          "name": "Power and efficiency, including P = Fv",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-physics-ch03-st1",
+            "ib-g8-science-ch11-st2"
+          ],
+          "note": "Work done; efficiency (MYP 3)"
+        },
+        {
+          "name": "Energy density of fuels",
+          "weight": "L",
+          "prereq": [
+            "ib-g11-physics-ch03-st2"
+          ],
+          "note": "Energy conservation; units and standard form"
+        }
+      ]
+    },
+    {
+      "name": "A.4 Rigid Body Mechanics (HL)",
+      "subtopics": [
+        {
+          "name": "Torque, moments and rotational equilibrium",
+          "weight": "S",
+          "prereq": [
+            "ib-g8-science-ch10-st5",
+            "ib-g11-physics-ch02-st2"
+          ],
+          "note": "Moments (MYP 3); forces"
+        },
+        {
+          "name": "Angular displacement, velocity and acceleration; equations of rotational motion",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-physics-ch01-st2",
+            "ib-g11-physics-ch02-st5"
+          ],
+          "note": "suvat; radians"
+        },
+        {
+          "name": "Moment of inertia and Newton's second law for rotation",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-physics-ch04-st1",
+            "ib-g11-physics-ch04-st2"
+          ],
+          "note": "Torque; angular acceleration"
+        },
+        {
+          "name": "Angular momentum, conservation and rotational kinetic energy",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-physics-ch04-st3",
+            "ib-g11-physics-ch02-st4"
+          ],
+          "note": "Moment of inertia; linear momentum"
+        }
+      ]
+    },
+    {
+      "name": "A.5 Galilean and Special Relativity (HL)",
+      "subtopics": [
+        {
+          "name": "Reference frames and Galilean transformations",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-physics-ch01-st1"
+          ],
+          "note": "Relative velocity; displacement"
+        },
+        {
+          "name": "Postulates of special relativity and Lorentz transformations",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-physics-ch05-st1"
+          ],
+          "note": "Galilean relativity"
+        },
+        {
+          "name": "Time dilation, length contraction and relativistic velocity addition",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-physics-ch05-st2"
+          ],
+          "note": "Lorentz transformations"
+        },
+        {
+          "name": "Spacetime interval and spacetime (Minkowski) diagrams",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-physics-ch05-st3"
+          ],
+          "note": "Lorentz transformations; graphs"
+        }
+      ]
+    },
+    {
+      "name": "B.1 Thermal Energy Transfers",
+      "subtopics": [
+        {
+          "name": "Molecular theory of solids, liquids and gases; density",
+          "weight": "S",
+          "prereq": [
+            "ib-g8-science-ch06-st1"
+          ],
+          "note": "Particle model (MYP 3)"
+        },
+        {
+          "name": "Temperature, internal energy and specific heat capacity",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-physics-ch06-st1",
+            "ib-g11-physics-ch03-st2"
+          ],
+          "note": "Particle model; energy conservation"
+        },
+        {
+          "name": "Phase change and specific latent heat",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-physics-ch06-st2",
+            "ib-g8-science-ch06-st3"
+          ],
+          "note": "Specific heat capacity; heating curves (MYP 3)"
+        },
+        {
+          "name": "Conduction, convection and thermal radiation; Stefan-Boltzmann law and Wien's law",
+          "weight": "S",
+          "prereq": [
+            "ib-g8-science-ch11-st3",
+            "ib-g11-physics-ch06-st2"
+          ],
+          "note": "Thermal energy transfer (MYP 3)"
+        }
+      ]
+    },
+    {
+      "name": "B.2 Greenhouse Effect",
+      "subtopics": [
+        {
+          "name": "Black-body radiation, emissivity and albedo",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-physics-ch06-st4"
+          ],
+          "note": "Stefan-Boltzmann law"
+        },
+        {
+          "name": "Energy balance of the Earth-atmosphere system",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-physics-ch07-st1"
+          ],
+          "note": "Emissivity, albedo; intensity"
+        },
+        {
+          "name": "Greenhouse gases and the greenhouse effect: molecular absorption of infrared",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-physics-ch07-st2",
+            "ib-g9-science-ch10-st3"
+          ],
+          "note": "Energy balance; EM spectrum (MYP 4)"
+        },
+        {
+          "name": "Enhanced greenhouse effect and climate change",
+          "weight": "L",
+          "prereq": [
+            "ib-g11-physics-ch07-st3"
+          ],
+          "note": "Greenhouse effect"
+        }
+      ]
+    },
+    {
+      "name": "B.3 Gas Laws",
+      "subtopics": [
+        {
+          "name": "Pressure, moles, Avogadro's constant and molar mass",
+          "weight": "S",
+          "prereq": [
+            "ib-g8-science-ch06-st4"
+          ],
+          "note": "Gas pressure (MYP 3); mole concept"
+        },
+        {
+          "name": "The ideal gas laws and the equation of state pV = nRT",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-physics-ch08-st1",
+            "ib-g11-physics-ch06-st2"
+          ],
+          "note": "Pressure and moles; temperature in kelvin"
+        },
+        {
+          "name": "Kinetic model of an ideal gas and the link between temperature and mean kinetic energy",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-physics-ch08-st2",
+            "ib-g11-physics-ch02-st4"
+          ],
+          "note": "Ideal gas law; momentum"
+        },
+        {
+          "name": "Real gases versus ideal gases",
+          "weight": "L",
+          "prereq": [
+            "ib-g11-physics-ch08-st3"
+          ],
+          "note": "Kinetic model assumptions"
+        }
+      ]
+    },
+    {
+      "name": "B.4 Thermodynamics (HL)",
+      "subtopics": [
+        {
+          "name": "First law of thermodynamics, work done by a gas and internal energy",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-physics-ch08-st2",
+            "ib-g11-physics-ch03-st1"
+          ],
+          "note": "Ideal gas law; work done"
+        },
+        {
+          "name": "Isovolumetric, isobaric, isothermal and adiabatic processes on p-V diagrams",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-physics-ch09-st1"
+          ],
+          "note": "First law of thermodynamics"
+        },
+        {
+          "name": "Entropy and the second law of thermodynamics",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-physics-ch09-st1"
+          ],
+          "note": "First law; probability of microstates"
+        },
+        {
+          "name": "Heat engines, Carnot cycle and efficiency",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-physics-ch09-st2",
+            "ib-g11-physics-ch03-st3"
+          ],
+          "note": "Thermodynamic processes; efficiency"
+        }
+      ]
+    },
+    {
+      "name": "B.5 Current and Circuits",
+      "subtopics": [
+        {
+          "name": "Electric current, charge and potential difference",
+          "weight": "S",
+          "prereq": [
+            "ib-g8-science-ch12-st2"
+          ],
+          "note": "Current and p.d. (MYP 3)"
+        },
+        {
+          "name": "Resistance, resistivity and Ohm's law; I-V characteristics",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-physics-ch10-st1",
+            "ib-g8-science-ch12-st3"
+          ],
+          "note": "Ohm's law (MYP 3)"
+        },
+        {
+          "name": "Series and parallel circuits and Kirchhoff's laws",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-physics-ch10-st2"
+          ],
+          "note": "Resistance; current and p.d."
+        },
+        {
+          "name": "Electrical power and energy",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-physics-ch10-st2",
+            "ib-g11-physics-ch03-st3"
+          ],
+          "note": "Power and current"
+        },
+        {
+          "name": "Electromotive force and internal resistance; potential dividers",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-physics-ch10-st3"
+          ],
+          "note": "Series circuits"
+        }
+      ]
+    },
+    {
+      "name": "C.1 Simple Harmonic Motion",
+      "subtopics": [
+        {
+          "name": "Conditions for SHM: restoring force proportional to displacement",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-physics-ch02-st2"
+          ],
+          "note": "Newton's second law; forces"
+        },
+        {
+          "name": "Time period, frequency, amplitude and phase; the mass-spring system and simple pendulum",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-physics-ch11-st1",
+            "ib-g10-maths-ch09-st2"
+          ],
+          "note": "SHM conditions; trigonometric graphs (MYP 5)"
+        },
+        {
+          "name": "Energy changes during SHM",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-physics-ch11-st2",
+            "ib-g11-physics-ch03-st2"
+          ],
+          "note": "Kinetic and elastic potential energy"
+        },
+        {
+          "name": "Equations of SHM: displacement, velocity and acceleration (HL)",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-physics-ch11-st2"
+          ],
+          "note": "Time period; differentiation of sine (DP maths)"
+        }
+      ]
+    },
+    {
+      "name": "C.2 Wave Model",
+      "subtopics": [
+        {
+          "name": "Transverse and longitudinal travelling waves",
+          "weight": "S",
+          "prereq": [
+            "ib-g9-science-ch10-st1",
+            "ib-g11-physics-ch11-st1"
+          ],
+          "note": "Wave types (MYP 4)"
+        },
+        {
+          "name": "Wave speed, frequency and wavelength: v = fλ",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-physics-ch12-st1",
+            "ib-g9-science-ch10-st2"
+          ],
+          "note": "Wave equation (MYP 4)"
+        },
+        {
+          "name": "Displacement-distance and displacement-time graphs of waves",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-physics-ch12-st2"
+          ],
+          "note": "Wave quantities"
+        },
+        {
+          "name": "Sound waves and electromagnetic waves: nature and speed",
+          "weight": "L",
+          "prereq": [
+            "ib-g9-science-ch10-st3",
+            "ib-g9-science-ch11-st4"
+          ],
+          "note": "EM spectrum; sound (MYP 4)"
+        }
+      ]
+    }
+  ]
+}

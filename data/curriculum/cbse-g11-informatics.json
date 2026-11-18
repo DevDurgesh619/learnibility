@@ -1,0 +1,542 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cbse-g11-informatics",
+  "board": "cbse",
+  "grade": 11,
+  "stream": "commerce",
+  "slug": "informatics",
+  "name": "Informatics Practices",
+  "programme": "CBSE Class 11 Informatics Practices (065)",
+  "textbook": "NCERT Informatics Practices XI (065)",
+  "examPattern": "School-conducted annual exam (no CBSE SQP for Class XI); 3 h; same marks split and question design as Class XII; 50% competency-based, 20% MCQ, 30% short/long answer (Circular 30/2024). Theory 70 + Practical 30. Assumed 37 questions (XII template).",
+  "chapterCount": 8,
+  "questionTarget": 831
+ },
+ "items": [
+  {
+   "id": "cbse-g11-informatics-ch01",
+   "subjectId": "cbse-g11-informatics",
+   "order": 1,
+   "name": "Computer System",
+   "teachingPeriods": 15,
+   "subtopicIds": [
+    "cbse-g11-informatics-ch01-st1",
+    "cbse-g11-informatics-ch01-st2",
+    "cbse-g11-informatics-ch01-st3",
+    "cbse-g11-informatics-ch01-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-informatics-ch02",
+   "subjectId": "cbse-g11-informatics",
+   "order": 2,
+   "name": "Emerging Trends",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cbse-g11-informatics-ch02-st1",
+    "cbse-g11-informatics-ch02-st2",
+    "cbse-g11-informatics-ch02-st3",
+    "cbse-g11-informatics-ch02-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-informatics-ch03",
+   "subjectId": "cbse-g11-informatics",
+   "order": 3,
+   "name": "Brief Overview of Python",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cbse-g11-informatics-ch03-st1",
+    "cbse-g11-informatics-ch03-st2",
+    "cbse-g11-informatics-ch03-st3",
+    "cbse-g11-informatics-ch03-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-informatics-ch04",
+   "subjectId": "cbse-g11-informatics",
+   "order": 4,
+   "name": "Working with Lists and Dictionaries",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cbse-g11-informatics-ch04-st1",
+    "cbse-g11-informatics-ch04-st2",
+    "cbse-g11-informatics-ch04-st3",
+    "cbse-g11-informatics-ch04-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-informatics-ch05",
+   "subjectId": "cbse-g11-informatics",
+   "order": 5,
+   "name": "Understanding Data",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cbse-g11-informatics-ch05-st1",
+    "cbse-g11-informatics-ch05-st2",
+    "cbse-g11-informatics-ch05-st3"
+   ]
+  },
+  {
+   "id": "cbse-g11-informatics-ch06",
+   "subjectId": "cbse-g11-informatics",
+   "order": 6,
+   "name": "Introduction to NumPy",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g11-informatics-ch06-st1",
+    "cbse-g11-informatics-ch06-st2",
+    "cbse-g11-informatics-ch06-st3",
+    "cbse-g11-informatics-ch06-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-informatics-ch07",
+   "subjectId": "cbse-g11-informatics",
+   "order": 7,
+   "name": "Database Concepts",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "cbse-g11-informatics-ch07-st1",
+    "cbse-g11-informatics-ch07-st2",
+    "cbse-g11-informatics-ch07-st3"
+   ]
+  },
+  {
+   "id": "cbse-g11-informatics-ch08",
+   "subjectId": "cbse-g11-informatics",
+   "order": 8,
+   "name": "Introduction to Structured Query Language (SQL)",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g11-informatics-ch08-st1",
+    "cbse-g11-informatics-ch08-st2",
+    "cbse-g11-informatics-ch08-st3",
+    "cbse-g11-informatics-ch08-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cbse-g11-informatics-ch01-st1",
+   "chapterId": "cbse-g11-informatics-ch01",
+   "order": 1,
+   "name": "Introduction to computer system: components, input and output devices",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Parts of a computer (Computer studies Cl 6-8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-informatics-ch01-st2",
+   "chapterId": "cbse-g11-informatics-ch01",
+   "order": 2,
+   "name": "Evolution of computers and the CPU, memory (primary, cache, secondary) and units of memory",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-informatics-ch01-st1"
+   ],
+   "prerequisiteNote": "Components of a computer; powers of 2 (Maths Cl 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-informatics-ch01-st3",
+   "chapterId": "cbse-g11-informatics-ch01",
+   "order": 3,
+   "name": "Data and information: data capturing, storage and retrieval",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-informatics-ch01-st2"
+   ],
+   "prerequisiteNote": "Memory and storage devices",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-informatics-ch01-st4",
+   "chapterId": "cbse-g11-informatics-ch01",
+   "order": 4,
+   "name": "Software: system software, operating system, programming tools, language translators and application software",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-informatics-ch01-st1"
+   ],
+   "prerequisiteNote": "Hardware vs software",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-informatics-ch02-st1",
+   "chapterId": "cbse-g11-informatics-ch02",
+   "order": 1,
+   "name": "Artificial intelligence, machine learning and natural language processing",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-informatics-ch01-st3"
+   ],
+   "prerequisiteNote": "Data and information",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-informatics-ch02-st2",
+   "chapterId": "cbse-g11-informatics-ch02",
+   "order": 2,
+   "name": "Immersive experiences (AR/VR), robotics and big data with its characteristics",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-informatics-ch02-st1"
+   ],
+   "prerequisiteNote": "Artificial intelligence basics",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-informatics-ch02-st3",
+   "chapterId": "cbse-g11-informatics-ch02",
+   "order": 3,
+   "name": "Internet of Things, sensors, smart cities, cloud computing and grid computing",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-informatics-ch02-st2"
+   ],
+   "prerequisiteNote": "Big data; internet basics",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-informatics-ch02-st4",
+   "chapterId": "cbse-g11-informatics-ch02",
+   "order": 4,
+   "name": "Blockchain technology and its applications",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-informatics-ch02-st3"
+   ],
+   "prerequisiteNote": "Cloud computing; idea of shared records",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-informatics-ch03-st1",
+   "chapterId": "cbse-g11-informatics-ch03",
+   "order": 1,
+   "name": "Python basics: execution modes, keywords, identifiers, variables and comments",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-informatics-ch01-st4"
+   ],
+   "prerequisiteNote": "Programming tools and translators",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-informatics-ch03-st2",
+   "chapterId": "cbse-g11-informatics-ch03",
+   "order": 2,
+   "name": "Data types, operators and expressions with precedence",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-informatics-ch03-st1"
+   ],
+   "prerequisiteNote": "Variables; BODMAS (Maths Cl 6); true/false logic",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-informatics-ch03-st3",
+   "chapterId": "cbse-g11-informatics-ch03",
+   "order": 3,
+   "name": "Input/output, type conversion and debugging errors",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-informatics-ch03-st2"
+   ],
+   "prerequisiteNote": "Data types",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-informatics-ch03-st4",
+   "chapterId": "cbse-g11-informatics-ch03",
+   "order": 4,
+   "name": "Flow of control: if-elif-else, for loop with range() and while loop",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-informatics-ch03-st2"
+   ],
+   "prerequisiteNote": "Relational and logical operators; step-by-step algorithm thinking",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-informatics-ch04-st1",
+   "chapterId": "cbse-g11-informatics-ch04",
+   "order": 1,
+   "name": "Lists: creation, indexing, slicing, operations and traversing",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-informatics-ch03-st4"
+   ],
+   "prerequisiteNote": "for loop; indexing from 0",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-informatics-ch04-st2",
+   "chapterId": "cbse-g11-informatics-ch04",
+   "order": 2,
+   "name": "List methods and built-in functions (len, append, extend, insert, count, index, remove, pop, sort, min, max, sum)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-informatics-ch04-st1"
+   ],
+   "prerequisiteNote": "List operations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-informatics-ch04-st3",
+   "chapterId": "cbse-g11-informatics-ch04",
+   "order": 3,
+   "name": "Dictionaries: creation, accessing, adding and modifying items, traversal",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-informatics-ch04-st1"
+   ],
+   "prerequisiteNote": "Lists; key-value pairs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-informatics-ch04-st4",
+   "chapterId": "cbse-g11-informatics-ch04",
+   "order": 4,
+   "name": "Dictionary methods (keys, values, items, get, update, del, clear) and programs",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-informatics-ch04-st3"
+   ],
+   "prerequisiteNote": "Accessing and traversing dictionaries",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-informatics-ch05-st1",
+   "chapterId": "cbse-g11-informatics-ch05",
+   "order": 1,
+   "name": "Data and its purpose; types of data: structured and unstructured",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-informatics-ch01-st3"
+   ],
+   "prerequisiteNote": "Data and information (ch 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-informatics-ch05-st2",
+   "chapterId": "cbse-g11-informatics-ch05",
+   "order": 2,
+   "name": "Data collection, storage, processing and data quality",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-informatics-ch05-st1"
+   ],
+   "prerequisiteNote": "Types of data; surveys and records (Maths Cl 9 Statistics)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-informatics-ch05-st3",
+   "chapterId": "cbse-g11-informatics-ch05",
+   "order": 3,
+   "name": "Statistical techniques: mean, median, mode, range, standard deviation and variance",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-informatics-ch05-st2"
+   ],
+   "prerequisiteNote": "Mean, median and mode of data (Maths Cl 9-10 Statistics)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-informatics-ch06-st1",
+   "chapterId": "cbse-g11-informatics-ch06",
+   "order": 1,
+   "name": "NumPy arrays vs lists; creating 1-D and 2-D arrays (array, zeros, ones, arange, linspace)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-informatics-ch04-st2"
+   ],
+   "prerequisiteNote": "Lists in Python; rows and columns of a table",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-informatics-ch06-st2",
+   "chapterId": "cbse-g11-informatics-ch06",
+   "order": 2,
+   "name": "Indexing, slicing and array operations (arithmetic, transpose, sort)",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-informatics-ch06-st1"
+   ],
+   "prerequisiteNote": "Creating arrays; list slicing",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-informatics-ch06-st3",
+   "chapterId": "cbse-g11-informatics-ch06",
+   "order": 3,
+   "name": "Concatenating, reshaping and splitting arrays",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-informatics-ch06-st2"
+   ],
+   "prerequisiteNote": "Indexing and slicing arrays",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-informatics-ch06-st4",
+   "chapterId": "cbse-g11-informatics-ch06",
+   "order": 4,
+   "name": "Statistical operations on arrays and loading arrays from files",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-informatics-ch06-st2",
+    "cbse-g11-informatics-ch05-st3"
+   ],
+   "prerequisiteNote": "Mean, median and standard deviation (ch 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-informatics-ch07-st1",
+   "chapterId": "cbse-g11-informatics-ch07",
+   "order": 1,
+   "name": "File system vs database; limitations of the file system and DBMS",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-informatics-ch05-st2"
+   ],
+   "prerequisiteNote": "Data storage and processing",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-informatics-ch07-st2",
+   "chapterId": "cbse-g11-informatics-ch07",
+   "order": 2,
+   "name": "Relational data model: relation, attribute, tuple, domain, degree, cardinality",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-informatics-ch07-st1"
+   ],
+   "prerequisiteNote": "Tables of rows and columns",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-informatics-ch07-st3",
+   "chapterId": "cbse-g11-informatics-ch07",
+   "order": 3,
+   "name": "Keys in a relational database: candidate, primary, alternate and foreign key",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-informatics-ch07-st2"
+   ],
+   "prerequisiteNote": "Relational model terms",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-informatics-ch08-st1",
+   "chapterId": "cbse-g11-informatics-ch08",
+   "order": 1,
+   "name": "SQL and MySQL; data types and constraints",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-informatics-ch07-st3"
+   ],
+   "prerequisiteNote": "Keys and relations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-informatics-ch08-st2",
+   "chapterId": "cbse-g11-informatics-ch08",
+   "order": 2,
+   "name": "DDL: CREATE DATABASE, CREATE TABLE, DESCRIBE, ALTER TABLE, DROP",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-informatics-ch08-st1"
+   ],
+   "prerequisiteNote": "SQL data types and constraints",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-informatics-ch08-st3",
+   "chapterId": "cbse-g11-informatics-ch08",
+   "order": 3,
+   "name": "DML: INSERT INTO, UPDATE, DELETE",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-informatics-ch08-st2"
+   ],
+   "prerequisiteNote": "CREATE TABLE",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-informatics-ch08-st4",
+   "chapterId": "cbse-g11-informatics-ch08",
+   "order": 4,
+   "name": "SELECT queries: WHERE, DISTINCT, IN, BETWEEN, LIKE, NULL, ORDER BY and arithmetic operators",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-informatics-ch08-st3"
+   ],
+   "prerequisiteNote": "Inserting data; relational and logical operators (ch 3)",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

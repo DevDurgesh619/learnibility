@@ -1,0 +1,624 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cambridge-g9-history",
+  "board": "cambridge",
+  "grade": 9,
+  "stream": "none",
+  "slug": "history",
+  "name": "History",
+  "programme": "Cambridge IGCSE History 0470 (2027–28)",
+  "textbook": "CUP Option B: the 20th Century 3rd ed.",
+  "examPattern": "Paper 1 Structured 2 h, 60 marks (40%): answer 2 of 8 core questions + 1 depth-study question, each in parts (a)(b)(c). Paper 2 Document questions 1 h 45, 40 marks (30%): 1 question, 5 parts, up to 7 sources. Component 3 Coursework (2,000 words) or Paper 4 Alternative 1 h, 40 marks (30%). Model writes all 18 P1 questions + P2 + P4.",
+  "chapterCount": 8,
+  "questionTarget": 580
+ },
+ "items": [
+  {
+   "id": "cambridge-g9-history-ch01",
+   "subjectId": "cambridge-g9-history",
+   "order": 1,
+   "name": "Historical Skills: Explaining, Analysing and Using Sources",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cambridge-g9-history-ch01-st1",
+    "cambridge-g9-history-ch01-st2",
+    "cambridge-g9-history-ch01-st3",
+    "cambridge-g9-history-ch01-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g9-history-ch02",
+   "subjectId": "cambridge-g9-history",
+   "order": 2,
+   "name": "Background: The First World War and the World in 1918",
+   "teachingPeriods": 7,
+   "subtopicIds": [
+    "cambridge-g9-history-ch02-st1",
+    "cambridge-g9-history-ch02-st2",
+    "cambridge-g9-history-ch02-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g9-history-ch03",
+   "subjectId": "cambridge-g9-history",
+   "order": 3,
+   "name": "Were the Peace Treaties of 1919-23 Fair?",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "cambridge-g9-history-ch03-st1",
+    "cambridge-g9-history-ch03-st2",
+    "cambridge-g9-history-ch03-st3",
+    "cambridge-g9-history-ch03-st4",
+    "cambridge-g9-history-ch03-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g9-history-ch04",
+   "subjectId": "cambridge-g9-history",
+   "order": 4,
+   "name": "To What Extent Was the League of Nations a Success?",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cambridge-g9-history-ch04-st1",
+    "cambridge-g9-history-ch04-st2",
+    "cambridge-g9-history-ch04-st3",
+    "cambridge-g9-history-ch04-st4",
+    "cambridge-g9-history-ch04-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g9-history-ch05",
+   "subjectId": "cambridge-g9-history",
+   "order": 5,
+   "name": "Why Had International Peace Collapsed by 1939?",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cambridge-g9-history-ch05-st1",
+    "cambridge-g9-history-ch05-st2",
+    "cambridge-g9-history-ch05-st3",
+    "cambridge-g9-history-ch05-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g9-history-ch06",
+   "subjectId": "cambridge-g9-history",
+   "order": 6,
+   "name": "Who Was to Blame for the Cold War?",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cambridge-g9-history-ch06-st1",
+    "cambridge-g9-history-ch06-st2",
+    "cambridge-g9-history-ch06-st3",
+    "cambridge-g9-history-ch06-st4",
+    "cambridge-g9-history-ch06-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g9-history-ch07",
+   "subjectId": "cambridge-g9-history",
+   "order": 7,
+   "name": "How Effectively Did the USA Contain the Spread of Communism?",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cambridge-g9-history-ch07-st1",
+    "cambridge-g9-history-ch07-st2",
+    "cambridge-g9-history-ch07-st3",
+    "cambridge-g9-history-ch07-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g9-history-ch08",
+   "subjectId": "cambridge-g9-history",
+   "order": 8,
+   "name": "How Secure Was the USSR's Control over Eastern Europe, 1948-c.1989?",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "cambridge-g9-history-ch08-st1",
+    "cambridge-g9-history-ch08-st2",
+    "cambridge-g9-history-ch08-st3",
+    "cambridge-g9-history-ch08-st4",
+    "cambridge-g9-history-ch08-st5"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cambridge-g9-history-ch01-st1",
+   "chapterId": "cambridge-g9-history-ch01",
+   "order": 1,
+   "name": "Knowledge and description: writing a precise (a) answer",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch01-st5"
+   ],
+   "prerequisiteNote": "Supported conclusions (Stage 9 Humanities); selecting relevant factual detail",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-history-ch01-st2",
+   "chapterId": "cambridge-g9-history-ch01",
+   "order": 2,
+   "name": "Causation and consequence: explaining why events happened",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch04-st1"
+   ],
+   "prerequisiteNote": "Long- and short-term causes (Stage 9 Humanities: causes of WW1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-history-ch01-st3",
+   "chapterId": "cambridge-g9-history-ch01",
+   "order": 3,
+   "name": "Analysing sources: content, provenance, purpose and cross-referencing",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch01-st2"
+   ],
+   "prerequisiteNote": "Primary and secondary sources: origin, purpose and reliability (Stage 9 Humanities)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-history-ch01-st4",
+   "chapterId": "cambridge-g9-history-ch01",
+   "order": 4,
+   "name": "Reaching a judgement: 'How far' and 'Who was to blame' questions",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch01-st2"
+   ],
+   "prerequisiteNote": "Explaining causation; comparing factors and weighing evidence",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-history-ch02-st1",
+   "chapterId": "cambridge-g9-history-ch02",
+   "order": 1,
+   "name": "Empires and alliances before 1914 and the outbreak of war",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch04-st1"
+   ],
+   "prerequisiteNote": "Causes of the First World War (Stage 9 Humanities)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-history-ch02-st2",
+   "chapterId": "cambridge-g9-history-ch02",
+   "order": 2,
+   "name": "The end of the war: armistice, collapse of empires and new states",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch02-st1"
+   ],
+   "prerequisiteNote": "Outbreak of war; map of Europe 1914 versus 1919",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-history-ch02-st3",
+   "chapterId": "cambridge-g9-history-ch02",
+   "order": 3,
+   "name": "Wilson's Fourteen Points and the idea of self-determination",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch02-st2"
+   ],
+   "prerequisiteNote": "Collapse of empires; meaning of self-determination and collective security",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-history-ch03-st1",
+   "chapterId": "cambridge-g9-history-ch03",
+   "order": 1,
+   "name": "Motives and aims of the Big Three at Versailles",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch02-st3"
+   ],
+   "prerequisiteNote": "Wilson's Fourteen Points; impact of the war on France and Britain",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-history-ch03-st2",
+   "chapterId": "cambridge-g9-history-ch03",
+   "order": 2,
+   "name": "Why the victors did not get everything they wanted",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch03-st1"
+   ],
+   "prerequisiteNote": "Aims of the Big Three; compromise at the Paris Peace Conference",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-history-ch03-st3",
+   "chapterId": "cambridge-g9-history-ch03",
+   "order": 3,
+   "name": "Terms of the Treaty of Versailles and its impact on Germany to 1923",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch03-st2"
+   ],
+   "prerequisiteNote": "Big Three aims; reparations, war guilt, territory and military terms",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-history-ch03-st4",
+   "chapterId": "cambridge-g9-history-ch03",
+   "order": 4,
+   "name": "The other treaties: Saint-Germain, Trianon, Neuilly, Sèvres and Lausanne",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch03-st3"
+   ],
+   "prerequisiteNote": "Treaty of Versailles terms; collapse of Austria-Hungary and Ottoman empires",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-history-ch03-st5",
+   "chapterId": "cambridge-g9-history-ch03",
+   "order": 5,
+   "name": "Could the treaties be justified at the time?",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch03-st3",
+    "cambridge-g9-history-ch01-st4"
+   ],
+   "prerequisiteNote": "Treaty terms; reaching a judgement on 'fairness'",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-history-ch04-st1",
+   "chapterId": "cambridge-g9-history-ch04",
+   "order": 1,
+   "name": "Aims, organisation and membership of the League",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch02-st3",
+    "cambridge-g9-history-ch03-st1"
+   ],
+   "prerequisiteNote": "Fourteen Points; why the USA did not join",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-history-ch04-st2",
+   "chapterId": "cambridge-g9-history-ch04",
+   "order": 2,
+   "name": "Successes and failures of the League in the 1920s",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch04-st1"
+   ],
+   "prerequisiteNote": "League organisation; border disputes (Aaland Islands, Vilna, Corfu, Bulgaria)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-history-ch04-st3",
+   "chapterId": "cambridge-g9-history-ch04",
+   "order": 3,
+   "name": "Weaknesses in the League's organisation and the role of collective security",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch04-st1"
+   ],
+   "prerequisiteNote": "League structure; sanctions and the absence of an army",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-history-ch04-st4",
+   "chapterId": "cambridge-g9-history-ch04",
+   "order": 4,
+   "name": "How the Depression made the work of the League more difficult",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch04-st3"
+   ],
+   "prerequisiteNote": "League weaknesses; Wall Street Crash 1929 as economic background",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-history-ch04-st5",
+   "chapterId": "cambridge-g9-history-ch04",
+   "order": 5,
+   "name": "The League in the 1930s: Manchuria and Abyssinia",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch04-st4"
+   ],
+   "prerequisiteNote": "Depression; collective security and sanctions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-history-ch05-st1",
+   "chapterId": "cambridge-g9-history-ch05",
+   "order": 1,
+   "name": "Long-term consequences of the peace treaties and failures of the League",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch03-st3",
+    "cambridge-g9-history-ch04-st5"
+   ],
+   "prerequisiteNote": "Treaty of Versailles; League in the 1930s",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-history-ch05-st2",
+   "chapterId": "cambridge-g9-history-ch05",
+   "order": 2,
+   "name": "Hitler's foreign policy aims and actions, 1933-38",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch05-st1"
+   ],
+   "prerequisiteNote": "Treaty grievances; rearmament, Rhineland, Anschluss and Sudetenland",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-history-ch05-st3",
+   "chapterId": "cambridge-g9-history-ch05",
+   "order": 3,
+   "name": "Was the policy of appeasement justified?",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch05-st2",
+    "cambridge-g9-history-ch01-st3"
+   ],
+   "prerequisiteNote": "Hitler's foreign policy; using sources on Munich 1938",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-history-ch05-st4",
+   "chapterId": "cambridge-g9-history-ch05",
+   "order": 4,
+   "name": "The Nazi-Soviet Pact and the outbreak of war in September 1939",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch05-st2"
+   ],
+   "prerequisiteNote": "Hitler's foreign policy; Poland and the Polish Corridor",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-history-ch06-st1",
+   "chapterId": "cambridge-g9-history-ch06",
+   "order": 1,
+   "name": "Why the USA-USSR alliance broke down in 1945: Yalta and Potsdam",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch05-st4"
+   ],
+   "prerequisiteNote": "Second World War alliance; capitalism versus communism",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-history-ch06-st2",
+   "chapterId": "cambridge-g9-history-ch06",
+   "order": 2,
+   "name": "How the USSR gained control of Eastern Europe by 1948",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch06-st1"
+   ],
+   "prerequisiteNote": "Yalta and Potsdam; salami tactics and the Iron Curtain",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-history-ch06-st3",
+   "chapterId": "cambridge-g9-history-ch06",
+   "order": 3,
+   "name": "The US reaction: Truman Doctrine and Marshall Plan",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch06-st2"
+   ],
+   "prerequisiteNote": "Soviet expansion in Eastern Europe; meaning of containment",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-history-ch06-st4",
+   "chapterId": "cambridge-g9-history-ch06",
+   "order": 4,
+   "name": "The Berlin Blockade and airlift and their consequences",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch06-st3"
+   ],
+   "prerequisiteNote": "Marshall Plan; division of Germany after 1945",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-history-ch06-st5",
+   "chapterId": "cambridge-g9-history-ch06",
+   "order": 5,
+   "name": "Who was more to blame for the Cold War? Traditional and revisionist views",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch06-st4",
+    "cambridge-g9-history-ch01-st4"
+   ],
+   "prerequisiteNote": "Berlin Blockade; reaching a judgement on blame",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-history-ch07-st1",
+   "chapterId": "cambridge-g9-history-ch07",
+   "order": 1,
+   "name": "The Korean War, 1950-53",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch06-st3"
+   ],
+   "prerequisiteNote": "Containment and the Truman Doctrine; China becoming communist 1949",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-history-ch07-st2",
+   "chapterId": "cambridge-g9-history-ch07",
+   "order": 2,
+   "name": "The Cuban Missile Crisis, 1962",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch07-st1"
+   ],
+   "prerequisiteNote": "Containment; arms race and nuclear deterrence",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-history-ch07-st3",
+   "chapterId": "cambridge-g9-history-ch07",
+   "order": 3,
+   "name": "US involvement in Vietnam: escalation and tactics",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch07-st1"
+   ],
+   "prerequisiteNote": "Korean War; domino theory",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-history-ch07-st4",
+   "chapterId": "cambridge-g9-history-ch07",
+   "order": 4,
+   "name": "Why the USA withdrew from Vietnam and how far containment succeeded",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch07-st3"
+   ],
+   "prerequisiteNote": "US involvement in Vietnam; opposition at home",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-history-ch08-st1",
+   "chapterId": "cambridge-g9-history-ch08",
+   "order": 1,
+   "name": "Soviet control of Eastern Europe and the Warsaw Pact",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch06-st2"
+   ],
+   "prerequisiteNote": "How the USSR gained control by 1948; Cominform and Comecon",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-history-ch08-st2",
+   "chapterId": "cambridge-g9-history-ch08",
+   "order": 2,
+   "name": "The Hungarian Uprising, 1956",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch08-st1"
+   ],
+   "prerequisiteNote": "Warsaw Pact; de-Stalinisation under Khrushchev",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-history-ch08-st3",
+   "chapterId": "cambridge-g9-history-ch08",
+   "order": 3,
+   "name": "The Berlin Wall, 1961",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch08-st1",
+    "cambridge-g9-history-ch06-st4"
+   ],
+   "prerequisiteNote": "Soviet control; Berlin Blockade and divided Germany",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-history-ch08-st4",
+   "chapterId": "cambridge-g9-history-ch08",
+   "order": 4,
+   "name": "The Prague Spring, 1968 and the Brezhnev Doctrine",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch08-st2"
+   ],
+   "prerequisiteNote": "Hungarian Uprising (comparison of Soviet responses)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-history-ch08-st5",
+   "chapterId": "cambridge-g9-history-ch08",
+   "order": 5,
+   "name": "Solidarity in Poland and Gorbachev: the collapse of Soviet control by 1989",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch08-st4"
+   ],
+   "prerequisiteNote": "Brezhnev Doctrine; economic weakness of the USSR",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

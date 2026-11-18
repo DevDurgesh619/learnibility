@@ -1,0 +1,525 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cambridge-g11-legal-studies",
+  "board": "cambridge",
+  "grade": 11,
+  "stream": "commerce",
+  "slug": "legal-studies",
+  "name": "Law",
+  "programme": "Cambridge AS Law 9084 – English legal system + criminal law",
+  "examPattern": "AS: P1 English Legal System 1 h 30, 75 marks (5 compulsory + 2 of 3 essays, 50%) + P2 Criminal Law 1 h 30, 60 marks (1 scenario + 1 of 2, 50%).",
+  "chapterCount": 7,
+  "questionTarget": 591
+ },
+ "items": [
+  {
+   "id": "cambridge-g11-legal-studies-ch01",
+   "subjectId": "cambridge-g11-legal-studies",
+   "order": 1,
+   "name": "Sources of Law: Parliamentary and Delegated Legislation",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cambridge-g11-legal-studies-ch01-st1",
+    "cambridge-g11-legal-studies-ch01-st2",
+    "cambridge-g11-legal-studies-ch01-st3",
+    "cambridge-g11-legal-studies-ch01-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g11-legal-studies-ch02",
+   "subjectId": "cambridge-g11-legal-studies",
+   "order": 2,
+   "name": "Statutory Interpretation",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cambridge-g11-legal-studies-ch02-st1",
+    "cambridge-g11-legal-studies-ch02-st2",
+    "cambridge-g11-legal-studies-ch02-st3",
+    "cambridge-g11-legal-studies-ch02-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g11-legal-studies-ch03",
+   "subjectId": "cambridge-g11-legal-studies",
+   "order": 3,
+   "name": "Judicial Precedent",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cambridge-g11-legal-studies-ch03-st1",
+    "cambridge-g11-legal-studies-ch03-st2",
+    "cambridge-g11-legal-studies-ch03-st3",
+    "cambridge-g11-legal-studies-ch03-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g11-legal-studies-ch04",
+   "subjectId": "cambridge-g11-legal-studies",
+   "order": 4,
+   "name": "The Courts and Alternative Dispute Resolution",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cambridge-g11-legal-studies-ch04-st1",
+    "cambridge-g11-legal-studies-ch04-st2",
+    "cambridge-g11-legal-studies-ch04-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g11-legal-studies-ch05",
+   "subjectId": "cambridge-g11-legal-studies",
+   "order": 5,
+   "name": "Legal Personnel: The Legal Profession, Judiciary and Lay People",
+   "teachingPeriods": 15,
+   "subtopicIds": [
+    "cambridge-g11-legal-studies-ch05-st1",
+    "cambridge-g11-legal-studies-ch05-st2",
+    "cambridge-g11-legal-studies-ch05-st3",
+    "cambridge-g11-legal-studies-ch05-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g11-legal-studies-ch06",
+   "subjectId": "cambridge-g11-legal-studies",
+   "order": 6,
+   "name": "Criminal Law: General Elements of Criminal Liability",
+   "teachingPeriods": 26,
+   "subtopicIds": [
+    "cambridge-g11-legal-studies-ch06-st1",
+    "cambridge-g11-legal-studies-ch06-st2",
+    "cambridge-g11-legal-studies-ch06-st3",
+    "cambridge-g11-legal-studies-ch06-st4",
+    "cambridge-g11-legal-studies-ch06-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g11-legal-studies-ch07",
+   "subjectId": "cambridge-g11-legal-studies",
+   "order": 7,
+   "name": "Criminal Law: Offences and Defences",
+   "teachingPeriods": 24,
+   "subtopicIds": [
+    "cambridge-g11-legal-studies-ch07-st1",
+    "cambridge-g11-legal-studies-ch07-st2",
+    "cambridge-g11-legal-studies-ch07-st3",
+    "cambridge-g11-legal-studies-ch07-st4",
+    "cambridge-g11-legal-studies-ch07-st5"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cambridge-g11-legal-studies-ch01-st1",
+   "chapterId": "cambridge-g11-legal-studies-ch01",
+   "order": 1,
+   "name": "Parliamentary law-making: Green and White Papers, the legislative process and Royal Assent",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch08-st2"
+   ],
+   "prerequisiteNote": "How governments work: democracy, elections and the rule of law (Stage 9 Humanities)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-legal-studies-ch01-st2",
+   "chapterId": "cambridge-g11-legal-studies-ch01",
+   "order": 2,
+   "name": "Parliamentary sovereignty and the influences on Parliament",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-legal-studies-ch01-st1"
+   ],
+   "prerequisiteNote": "Legislative process; separation of powers",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-legal-studies-ch01-st3",
+   "chapterId": "cambridge-g11-legal-studies-ch01",
+   "order": 3,
+   "name": "Delegated legislation: statutory instruments, by-laws and Orders in Council",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-legal-studies-ch01-st1"
+   ],
+   "prerequisiteNote": "Parliamentary law-making; enabling (parent) Acts",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-legal-studies-ch01-st4",
+   "chapterId": "cambridge-g11-legal-studies-ch01",
+   "order": 4,
+   "name": "Controls on delegated legislation: parliamentary and judicial (ultra vires)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-legal-studies-ch01-st3"
+   ],
+   "prerequisiteNote": "Types of delegated legislation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-legal-studies-ch02-st1",
+   "chapterId": "cambridge-g11-legal-studies-ch02",
+   "order": 1,
+   "name": "The literal, golden and mischief rules",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-legal-studies-ch01-st1"
+   ],
+   "prerequisiteNote": "Legislative process; reading statutory wording closely",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-legal-studies-ch02-st2",
+   "chapterId": "cambridge-g11-legal-studies-ch02",
+   "order": 2,
+   "name": "The purposive approach",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-legal-studies-ch02-st1"
+   ],
+   "prerequisiteNote": "Literal and mischief rules",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-legal-studies-ch02-st3",
+   "chapterId": "cambridge-g11-legal-studies-ch02",
+   "order": 3,
+   "name": "Intrinsic and extrinsic aids and rules of language",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-legal-studies-ch02-st1"
+   ],
+   "prerequisiteNote": "Rules of interpretation; Hansard and Pepper v Hart",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-legal-studies-ch02-st4",
+   "chapterId": "cambridge-g11-legal-studies-ch02",
+   "order": 4,
+   "name": "Applying the rules of interpretation to a scenario",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-legal-studies-ch02-st2",
+    "cambridge-g11-legal-studies-ch02-st3"
+   ],
+   "prerequisiteNote": "Rules and aids of interpretation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-legal-studies-ch03-st1",
+   "chapterId": "cambridge-g11-legal-studies-ch03",
+   "order": 1,
+   "name": "Stare decisis, ratio decidendi and obiter dicta",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-legal-studies-ch02-st1"
+   ],
+   "prerequisiteNote": "Role of judges; structure of a law report",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-legal-studies-ch03-st2",
+   "chapterId": "cambridge-g11-legal-studies-ch03",
+   "order": 2,
+   "name": "The court hierarchy and binding precedent; the Practice Statement 1966",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-legal-studies-ch03-st1"
+   ],
+   "prerequisiteNote": "Stare decisis; outline of the court structure (Supreme Court, Court of Appeal, High Court)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-legal-studies-ch03-st3",
+   "chapterId": "cambridge-g11-legal-studies-ch03",
+   "order": 3,
+   "name": "Avoiding precedent: distinguishing, overruling and reversing",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-legal-studies-ch03-st2"
+   ],
+   "prerequisiteNote": "Court hierarchy and binding precedent",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-legal-studies-ch03-st4",
+   "chapterId": "cambridge-g11-legal-studies-ch03",
+   "order": 4,
+   "name": "Advantages and disadvantages of the doctrine of precedent",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g11-legal-studies-ch03-st3"
+   ],
+   "prerequisiteNote": "Avoiding precedent",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-legal-studies-ch04-st1",
+   "chapterId": "cambridge-g11-legal-studies-ch04",
+   "order": 1,
+   "name": "Civil and criminal courts: jurisdiction and the appeal system",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch08-st2"
+   ],
+   "prerequisiteNote": "Civil versus criminal law; rule of law (Stage 9 Humanities)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-legal-studies-ch04-st2",
+   "chapterId": "cambridge-g11-legal-studies-ch04",
+   "order": 2,
+   "name": "Criminal process: bail, classification of offences and sentencing aims",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-legal-studies-ch04-st1"
+   ],
+   "prerequisiteNote": "Criminal courts; summary, either-way and indictable offences",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-legal-studies-ch04-st3",
+   "chapterId": "cambridge-g11-legal-studies-ch04",
+   "order": 3,
+   "name": "Tribunals and alternative dispute resolution: negotiation, mediation, conciliation and arbitration",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-legal-studies-ch04-st1"
+   ],
+   "prerequisiteNote": "Civil courts; costs and delays of litigation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-legal-studies-ch05-st1",
+   "chapterId": "cambridge-g11-legal-studies-ch05",
+   "order": 1,
+   "name": "The legal profession: solicitors and barristers, training and roles",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g11-legal-studies-ch04-st1"
+   ],
+   "prerequisiteNote": "Court structure",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-legal-studies-ch05-st2",
+   "chapterId": "cambridge-g11-legal-studies-ch05",
+   "order": 2,
+   "name": "The judiciary: types of judge, appointment, independence and the separation of powers",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-legal-studies-ch01-st2",
+    "cambridge-g11-legal-studies-ch04-st1"
+   ],
+   "prerequisiteNote": "Parliamentary sovereignty; court hierarchy",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-legal-studies-ch05-st3",
+   "chapterId": "cambridge-g11-legal-studies-ch05",
+   "order": 3,
+   "name": "Lay magistrates: selection, role and evaluation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-legal-studies-ch04-st2"
+   ],
+   "prerequisiteNote": "Criminal process; magistrates' court jurisdiction",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-legal-studies-ch05-st4",
+   "chapterId": "cambridge-g11-legal-studies-ch05",
+   "order": 4,
+   "name": "Juries: selection, role and evaluation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-legal-studies-ch04-st2",
+    "cambridge-g11-legal-studies-ch05-st3"
+   ],
+   "prerequisiteNote": "Criminal process; lay participation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-legal-studies-ch06-st1",
+   "chapterId": "cambridge-g11-legal-studies-ch06",
+   "order": 1,
+   "name": "Actus reus: voluntary acts, omissions and duties to act",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-legal-studies-ch04-st2"
+   ],
+   "prerequisiteNote": "Classification of offences; legal reasoning from cases",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-legal-studies-ch06-st2",
+   "chapterId": "cambridge-g11-legal-studies-ch06",
+   "order": 2,
+   "name": "Causation: factual and legal causation and intervening acts",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-legal-studies-ch06-st1",
+    "cambridge-g11-legal-studies-ch03-st1"
+   ],
+   "prerequisiteNote": "Actus reus; applying case precedents",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-legal-studies-ch06-st3",
+   "chapterId": "cambridge-g11-legal-studies-ch06",
+   "order": 3,
+   "name": "Mens rea: direct and oblique intention, recklessness and negligence",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-legal-studies-ch06-st1"
+   ],
+   "prerequisiteNote": "Actus reus; meaning of intention and foresight",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-legal-studies-ch06-st4",
+   "chapterId": "cambridge-g11-legal-studies-ch06",
+   "order": 4,
+   "name": "Coincidence of actus reus and mens rea; transferred malice",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-legal-studies-ch06-st3"
+   ],
+   "prerequisiteNote": "Mens rea; continuing act",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-legal-studies-ch06-st5",
+   "chapterId": "cambridge-g11-legal-studies-ch06",
+   "order": 5,
+   "name": "Strict liability offences",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-legal-studies-ch06-st3",
+    "cambridge-g11-legal-studies-ch02-st4"
+   ],
+   "prerequisiteNote": "Mens rea; statutory interpretation (presumption of mens rea)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-legal-studies-ch07-st1",
+   "chapterId": "cambridge-g11-legal-studies-ch07",
+   "order": 1,
+   "name": "Non-fatal offences against the person: assault, battery, ABH, GBH and wounding",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-legal-studies-ch06-st3",
+    "cambridge-g11-legal-studies-ch06-st2"
+   ],
+   "prerequisiteNote": "Mens rea and causation; Offences Against the Person Act 1861",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-legal-studies-ch07-st2",
+   "chapterId": "cambridge-g11-legal-studies-ch07",
+   "order": 2,
+   "name": "Murder and voluntary manslaughter: loss of control and diminished responsibility",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-legal-studies-ch07-st1"
+   ],
+   "prerequisiteNote": "Non-fatal offences; mens rea of intention",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-legal-studies-ch07-st3",
+   "chapterId": "cambridge-g11-legal-studies-ch07",
+   "order": 3,
+   "name": "Involuntary manslaughter: unlawful act and gross negligence manslaughter",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-legal-studies-ch07-st2"
+   ],
+   "prerequisiteNote": "Murder; causation and duty of care",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-legal-studies-ch07-st4",
+   "chapterId": "cambridge-g11-legal-studies-ch07",
+   "order": 4,
+   "name": "General defences: self-defence, duress and necessity",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-legal-studies-ch07-st1"
+   ],
+   "prerequisiteNote": "Offences against the person; reasonableness test",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-legal-studies-ch07-st5",
+   "chapterId": "cambridge-g11-legal-studies-ch07",
+   "order": 5,
+   "name": "Capacity defences: insanity, automatism and intoxication",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-legal-studies-ch07-st4",
+    "cambridge-g11-legal-studies-ch06-st3"
+   ],
+   "prerequisiteNote": "General defences; mens rea and voluntariness",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

@@ -1,0 +1,1262 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cambridge-g12-maths",
+  "board": "cambridge",
+  "grade": 12,
+  "stream": "science",
+  "slug": "maths",
+  "name": "Mathematics",
+  "programme": "Cambridge A Level Mathematics 9709 – P3 Pure 3 + P4 Mechanics",
+  "examPattern": "A2 papers: P3 Pure 3 1 h 50, 75 marks (9–11 questions, 30% of A Level) + P4 Mechanics 1 h 15, 50 marks (6–8 questions, 20%). Full A Level = P1+P3+P4+P5 (or P1+P3+P5+P6). Graded A*–E. Staged route assumed: AS papers sat at end of Gr 11, A2 papers at end of Gr 12.",
+  "chapterCount": 20,
+  "questionTarget": 2302
+ },
+ "items": [
+  {
+   "id": "cambridge-g12-maths-ch01",
+   "subjectId": "cambridge-g12-maths",
+   "order": 1,
+   "name": "Algebra",
+   "teachingPeriods": 15,
+   "subtopicIds": [
+    "cambridge-g12-maths-ch01-st1",
+    "cambridge-g12-maths-ch01-st2",
+    "cambridge-g12-maths-ch01-st3",
+    "cambridge-g12-maths-ch01-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g12-maths-ch02",
+   "subjectId": "cambridge-g12-maths",
+   "order": 2,
+   "name": "Logarithmic and exponential functions",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cambridge-g12-maths-ch02-st1",
+    "cambridge-g12-maths-ch02-st2",
+    "cambridge-g12-maths-ch02-st3",
+    "cambridge-g12-maths-ch02-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g12-maths-ch03",
+   "subjectId": "cambridge-g12-maths",
+   "order": 3,
+   "name": "Trigonometry",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cambridge-g12-maths-ch03-st1",
+    "cambridge-g12-maths-ch03-st2",
+    "cambridge-g12-maths-ch03-st3",
+    "cambridge-g12-maths-ch03-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g12-maths-ch04",
+   "subjectId": "cambridge-g12-maths",
+   "order": 4,
+   "name": "Differentiation",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cambridge-g12-maths-ch04-st1",
+    "cambridge-g12-maths-ch04-st2",
+    "cambridge-g12-maths-ch04-st3",
+    "cambridge-g12-maths-ch04-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g12-maths-ch05",
+   "subjectId": "cambridge-g12-maths",
+   "order": 5,
+   "name": "Integration",
+   "teachingPeriods": 15,
+   "subtopicIds": [
+    "cambridge-g12-maths-ch05-st1",
+    "cambridge-g12-maths-ch05-st2",
+    "cambridge-g12-maths-ch05-st3",
+    "cambridge-g12-maths-ch05-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g12-maths-ch06",
+   "subjectId": "cambridge-g12-maths",
+   "order": 6,
+   "name": "Numerical solutions of equations",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "cambridge-g12-maths-ch06-st1",
+    "cambridge-g12-maths-ch06-st2",
+    "cambridge-g12-maths-ch06-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g12-maths-ch07",
+   "subjectId": "cambridge-g12-maths",
+   "order": 7,
+   "name": "Further algebra",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cambridge-g12-maths-ch07-st1",
+    "cambridge-g12-maths-ch07-st2",
+    "cambridge-g12-maths-ch07-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g12-maths-ch08",
+   "subjectId": "cambridge-g12-maths",
+   "order": 8,
+   "name": "Further calculus",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "cambridge-g12-maths-ch08-st1",
+    "cambridge-g12-maths-ch08-st2",
+    "cambridge-g12-maths-ch08-st3",
+    "cambridge-g12-maths-ch08-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g12-maths-ch09",
+   "subjectId": "cambridge-g12-maths",
+   "order": 9,
+   "name": "Vectors",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cambridge-g12-maths-ch09-st1",
+    "cambridge-g12-maths-ch09-st2",
+    "cambridge-g12-maths-ch09-st3",
+    "cambridge-g12-maths-ch09-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g12-maths-ch10",
+   "subjectId": "cambridge-g12-maths",
+   "order": 10,
+   "name": "Differential equations",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cambridge-g12-maths-ch10-st1",
+    "cambridge-g12-maths-ch10-st2",
+    "cambridge-g12-maths-ch10-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g12-maths-ch11",
+   "subjectId": "cambridge-g12-maths",
+   "order": 11,
+   "name": "Complex numbers",
+   "teachingPeriods": 21,
+   "subtopicIds": [
+    "cambridge-g12-maths-ch11-st1",
+    "cambridge-g12-maths-ch11-st2",
+    "cambridge-g12-maths-ch11-st3",
+    "cambridge-g12-maths-ch11-st4",
+    "cambridge-g12-maths-ch11-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g12-maths-ch12",
+   "subjectId": "cambridge-g12-maths",
+   "order": 12,
+   "name": "Kinematics: velocity and acceleration",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cambridge-g12-maths-ch12-st1",
+    "cambridge-g12-maths-ch12-st2",
+    "cambridge-g12-maths-ch12-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g12-maths-ch13",
+   "subjectId": "cambridge-g12-maths",
+   "order": 13,
+   "name": "Forces and Newton's laws in one dimension",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "cambridge-g12-maths-ch13-st1",
+    "cambridge-g12-maths-ch13-st2",
+    "cambridge-g12-maths-ch13-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g12-maths-ch14",
+   "subjectId": "cambridge-g12-maths",
+   "order": 14,
+   "name": "Forces in two dimensions",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cambridge-g12-maths-ch14-st1",
+    "cambridge-g12-maths-ch14-st2",
+    "cambridge-g12-maths-ch14-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g12-maths-ch15",
+   "subjectId": "cambridge-g12-maths",
+   "order": 15,
+   "name": "Friction",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "cambridge-g12-maths-ch15-st1",
+    "cambridge-g12-maths-ch15-st2",
+    "cambridge-g12-maths-ch15-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g12-maths-ch16",
+   "subjectId": "cambridge-g12-maths",
+   "order": 16,
+   "name": "Connected particles",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cambridge-g12-maths-ch16-st1",
+    "cambridge-g12-maths-ch16-st2",
+    "cambridge-g12-maths-ch16-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g12-maths-ch17",
+   "subjectId": "cambridge-g12-maths",
+   "order": 17,
+   "name": "General motion in a straight line",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cambridge-g12-maths-ch17-st1",
+    "cambridge-g12-maths-ch17-st2",
+    "cambridge-g12-maths-ch17-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g12-maths-ch18",
+   "subjectId": "cambridge-g12-maths",
+   "order": 18,
+   "name": "Momentum",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "cambridge-g12-maths-ch18-st1",
+    "cambridge-g12-maths-ch18-st2",
+    "cambridge-g12-maths-ch18-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g12-maths-ch19",
+   "subjectId": "cambridge-g12-maths",
+   "order": 19,
+   "name": "Work and energy",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "cambridge-g12-maths-ch19-st1",
+    "cambridge-g12-maths-ch19-st2",
+    "cambridge-g12-maths-ch19-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g12-maths-ch20",
+   "subjectId": "cambridge-g12-maths",
+   "order": 20,
+   "name": "Work-energy principle and power",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cambridge-g12-maths-ch20-st1",
+    "cambridge-g12-maths-ch20-st2",
+    "cambridge-g12-maths-ch20-st3"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cambridge-g12-maths-ch01-st1",
+   "chapterId": "cambridge-g12-maths-ch01",
+   "order": 1,
+   "name": "The modulus function: graphs of y = ∣ax + b∣ and solving modulus equations and inequalities",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-maths-ch02-st4"
+   ],
+   "prerequisiteNote": "Transformations of graphs (AS Pure 1); linear inequalities",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch01-st2",
+   "chapterId": "cambridge-g12-maths-ch01",
+   "order": 2,
+   "name": "Division of polynomials and the remainder theorem",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-maths-ch01-st1"
+   ],
+   "prerequisiteNote": "Algebraic long division; expanding brackets",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch01-st3",
+   "chapterId": "cambridge-g12-maths-ch01",
+   "order": 3,
+   "name": "The factor theorem and factorising cubic and quartic polynomials",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch01-st2"
+   ],
+   "prerequisiteNote": "Remainder theorem; solving quadratics",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch01-st4",
+   "chapterId": "cambridge-g12-maths-ch01",
+   "order": 4,
+   "name": "Solving polynomial equations and sketching polynomial graphs",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch01-st3"
+   ],
+   "prerequisiteNote": "Factor theorem; roots and intercepts",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch02-st1",
+   "chapterId": "cambridge-g12-maths-ch02",
+   "order": 1,
+   "name": "Logarithms and the laws of logarithms",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-maths-ch02-st3"
+   ],
+   "prerequisiteNote": "Inverse functions (AS Pure 1); laws of indices",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch02-st2",
+   "chapterId": "cambridge-g12-maths-ch02",
+   "order": 2,
+   "name": "The exponential function eˣ and natural logarithm ln x",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch02-st1"
+   ],
+   "prerequisiteNote": "Laws of logarithms; graphs of exponential functions (IGCSE)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch02-st3",
+   "chapterId": "cambridge-g12-maths-ch02",
+   "order": 3,
+   "name": "Solving equations and inequalities of the form aˣ = b using logarithms",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch02-st1",
+    "cambridge-g12-maths-ch02-st2"
+   ],
+   "prerequisiteNote": "Laws of logarithms; inequalities",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch02-st4",
+   "chapterId": "cambridge-g12-maths-ch02",
+   "order": 4,
+   "name": "Using logarithms to reduce relationships to linear form",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch02-st1",
+    "cambridge-g11-maths-ch03-st1"
+   ],
+   "prerequisiteNote": "Equation of a straight line; laws of logarithms",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch03-st1",
+   "chapterId": "cambridge-g12-maths-ch03",
+   "order": 1,
+   "name": "Secant, cosecant and cotangent and their graphs",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-maths-ch05-st3"
+   ],
+   "prerequisiteNote": "sin²θ + cos²θ = 1 (AS Pure 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch03-st2",
+   "chapterId": "cambridge-g12-maths-ch03",
+   "order": 2,
+   "name": "Compound angle formulae for sin(A ± B), cos(A ± B) and tan(A ± B)",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch03-st1"
+   ],
+   "prerequisiteNote": "Trig identities; exact values",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch03-st3",
+   "chapterId": "cambridge-g12-maths-ch03",
+   "order": 3,
+   "name": "Double angle formulae and proving identities",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch03-st2"
+   ],
+   "prerequisiteNote": "Compound angle formulae",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch03-st4",
+   "chapterId": "cambridge-g12-maths-ch03",
+   "order": 4,
+   "name": "Expressing a sin θ + b cos θ as R sin(θ ± α)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch03-st2",
+    "cambridge-g11-maths-ch05-st4"
+   ],
+   "prerequisiteNote": "Compound angle formulae; solving trigonometric equations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch04-st1",
+   "chapterId": "cambridge-g12-maths-ch04",
+   "order": 1,
+   "name": "Product and quotient rules",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g11-maths-ch07-st3"
+   ],
+   "prerequisiteNote": "The chain rule (AS Pure 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch04-st2",
+   "chapterId": "cambridge-g12-maths-ch04",
+   "order": 2,
+   "name": "Derivatives of eˣ, ln x, sin x, cos x and tan x",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch04-st1",
+    "cambridge-g12-maths-ch02-st2"
+   ],
+   "prerequisiteNote": "Product rule; exponential and log functions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch04-st3",
+   "chapterId": "cambridge-g12-maths-ch04",
+   "order": 3,
+   "name": "Implicit differentiation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch04-st2"
+   ],
+   "prerequisiteNote": "Chain rule; product rule",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch04-st4",
+   "chapterId": "cambridge-g12-maths-ch04",
+   "order": 4,
+   "name": "Parametric differentiation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch04-st2"
+   ],
+   "prerequisiteNote": "Chain rule; dy/dx = (dy/dt)/(dx/dt)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch05-st1",
+   "chapterId": "cambridge-g12-maths-ch05",
+   "order": 1,
+   "name": "Integrating eˣ, 1/x, sin x, cos x and sec²x",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch04-st2",
+    "cambridge-g11-maths-ch09-st2"
+   ],
+   "prerequisiteNote": "Derivatives of standard functions; reverse of differentiation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch05-st2",
+   "chapterId": "cambridge-g12-maths-ch05",
+   "order": 2,
+   "name": "Using trigonometric identities in integration",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch05-st1",
+    "cambridge-g12-maths-ch03-st3"
+   ],
+   "prerequisiteNote": "Double angle formulae",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch05-st3",
+   "chapterId": "cambridge-g12-maths-ch05",
+   "order": 3,
+   "name": "The trapezium rule and over- or under-estimation",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g11-maths-ch09-st3"
+   ],
+   "prerequisiteNote": "Definite integrals as area; trapezium area",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch05-st4",
+   "chapterId": "cambridge-g12-maths-ch05",
+   "order": 4,
+   "name": "Definite integrals of exponential, logarithmic and trigonometric functions",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch05-st1"
+   ],
+   "prerequisiteNote": "Standard integrals; evaluating limits",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch06-st1",
+   "chapterId": "cambridge-g12-maths-ch06",
+   "order": 1,
+   "name": "Locating roots by sign change and graphically",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch01-st4"
+   ],
+   "prerequisiteNote": "Sketching graphs; continuity of functions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch06-st2",
+   "chapterId": "cambridge-g12-maths-ch06",
+   "order": 2,
+   "name": "Iterative formulae xₙ₊₁ = F(xₙ) and convergence",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch06-st1"
+   ],
+   "prerequisiteNote": "Rearranging equations; recursive sequences",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch06-st3",
+   "chapterId": "cambridge-g12-maths-ch06",
+   "order": 3,
+   "name": "Using iteration to solve equations to a given accuracy",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch06-st2"
+   ],
+   "prerequisiteNote": "Iterative formulae; rounding and bounds",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch07-st1",
+   "chapterId": "cambridge-g12-maths-ch07",
+   "order": 1,
+   "name": "Partial fractions with linear and repeated linear denominators",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch01-st2"
+   ],
+   "prerequisiteNote": "Polynomial division; algebraic fractions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch07-st2",
+   "chapterId": "cambridge-g12-maths-ch07",
+   "order": 2,
+   "name": "Partial fractions with a quadratic factor in the denominator",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch07-st1"
+   ],
+   "prerequisiteNote": "Partial fractions with linear denominators",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch07-st3",
+   "chapterId": "cambridge-g12-maths-ch07",
+   "order": 3,
+   "name": "Binomial expansion of (1 + x)ⁿ for any rational n and validity",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-maths-ch06-st1"
+   ],
+   "prerequisiteNote": "Binomial expansion for positive integer n (AS Pure 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch08-st1",
+   "chapterId": "cambridge-g12-maths-ch08",
+   "order": 1,
+   "name": "Integration by substitution",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch05-st4"
+   ],
+   "prerequisiteNote": "Chain rule; changing limits",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch08-st2",
+   "chapterId": "cambridge-g12-maths-ch08",
+   "order": 2,
+   "name": "Integration by parts",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch05-st4",
+    "cambridge-g12-maths-ch04-st1"
+   ],
+   "prerequisiteNote": "Product rule",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch08-st3",
+   "chapterId": "cambridge-g12-maths-ch08",
+   "order": 3,
+   "name": "Integrating using partial fractions",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch07-st2",
+    "cambridge-g12-maths-ch05-st1"
+   ],
+   "prerequisiteNote": "Partial fractions; integral of 1/x",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch08-st4",
+   "chapterId": "cambridge-g12-maths-ch08",
+   "order": 4,
+   "name": "Inverse tangent: derivative and integration of 1/(a² + x²)",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch08-st1"
+   ],
+   "prerequisiteNote": "Integration by substitution; tan identities",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch09-st1",
+   "chapterId": "cambridge-g12-maths-ch09",
+   "order": 1,
+   "name": "Vectors in two and three dimensions: magnitude and unit vectors",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-maths-ch11-st4"
+   ],
+   "prerequisiteNote": "Magnitude of a vector (IGCSE)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch09-st2",
+   "chapterId": "cambridge-g12-maths-ch09",
+   "order": 2,
+   "name": "Scalar product and the angle between two vectors",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch09-st1"
+   ],
+   "prerequisiteNote": "Magnitude of a vector; cosine rule",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch09-st3",
+   "chapterId": "cambridge-g12-maths-ch09",
+   "order": 3,
+   "name": "Vector equation of a line and intersection of lines",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch09-st1"
+   ],
+   "prerequisiteNote": "Position vectors; simultaneous equations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch09-st4",
+   "chapterId": "cambridge-g12-maths-ch09",
+   "order": 4,
+   "name": "Perpendicular distance from a point to a line and skew lines",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch09-st2",
+    "cambridge-g12-maths-ch09-st3"
+   ],
+   "prerequisiteNote": "Scalar product; vector equation of a line",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch10-st1",
+   "chapterId": "cambridge-g12-maths-ch10",
+   "order": 1,
+   "name": "Forming differential equations from a context",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch04-st2",
+    "cambridge-g11-maths-ch08-st4"
+   ],
+   "prerequisiteNote": "Connected rates of change (AS Pure 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch10-st2",
+   "chapterId": "cambridge-g12-maths-ch10",
+   "order": 2,
+   "name": "Solving first-order differential equations by separating variables",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch10-st1",
+    "cambridge-g12-maths-ch08-st1"
+   ],
+   "prerequisiteNote": "Integration techniques; logarithms",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch10-st3",
+   "chapterId": "cambridge-g12-maths-ch10",
+   "order": 3,
+   "name": "Interpreting general and particular solutions in context",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch10-st2"
+   ],
+   "prerequisiteNote": "Separating variables; exponential growth and decay",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch11-st1",
+   "chapterId": "cambridge-g12-maths-ch11",
+   "order": 1,
+   "name": "Complex numbers: Cartesian form, arithmetic and conjugates",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-maths-ch01-st2"
+   ],
+   "prerequisiteNote": "The discriminant (AS Pure 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch11-st2",
+   "chapterId": "cambridge-g12-maths-ch11",
+   "order": 2,
+   "name": "Argand diagrams, modulus and argument and polar form",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch11-st1"
+   ],
+   "prerequisiteNote": "Trigonometry; radians",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch11-st3",
+   "chapterId": "cambridge-g12-maths-ch11",
+   "order": 3,
+   "name": "Multiplying and dividing in polar and exponential form",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch11-st2",
+    "cambridge-g12-maths-ch03-st2"
+   ],
+   "prerequisiteNote": "Compound angle formulae; modulus and argument",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch11-st4",
+   "chapterId": "cambridge-g12-maths-ch11",
+   "order": 4,
+   "name": "Loci in the Argand diagram",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch11-st2",
+    "cambridge-g11-maths-ch03-st3"
+   ],
+   "prerequisiteNote": "Equation of a circle; perpendicular bisector",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch11-st5",
+   "chapterId": "cambridge-g12-maths-ch11",
+   "order": 5,
+   "name": "Complex roots of polynomial equations and square roots of complex numbers",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch11-st1",
+    "cambridge-g12-maths-ch01-st3"
+   ],
+   "prerequisiteNote": "Factor theorem; conjugate pairs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch12-st1",
+   "chapterId": "cambridge-g12-maths-ch12",
+   "order": 1,
+   "name": "Displacement, velocity and acceleration and displacement-time and velocity-time graphs",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch02-st2"
+   ],
+   "prerequisiteNote": "Kinematics graphs (AS Physics); gradient and area under a graph",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch12-st2",
+   "chapterId": "cambridge-g12-maths-ch12",
+   "order": 2,
+   "name": "Constant acceleration equations (suvat)",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch12-st1",
+    "cambridge-g11-physics-ch03-st1"
+   ],
+   "prerequisiteNote": "Rearranging formulae; velocity-time graphs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch12-st3",
+   "chapterId": "cambridge-g12-maths-ch12",
+   "order": 3,
+   "name": "Vertical motion under gravity",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch12-st2"
+   ],
+   "prerequisiteNote": "Constant acceleration equations; g = 9.8 or 10 m s⁻²",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch13-st1",
+   "chapterId": "cambridge-g12-maths-ch13",
+   "order": 1,
+   "name": "Types of force: weight, normal contact, tension, thrust and friction and force diagrams",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch04-st1"
+   ],
+   "prerequisiteNote": "Newton's laws of motion (AS Physics)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch13-st2",
+   "chapterId": "cambridge-g12-maths-ch13",
+   "order": 2,
+   "name": "Newton's second law F = ma in one dimension",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch13-st1",
+    "cambridge-g12-maths-ch12-st2"
+   ],
+   "prerequisiteNote": "Constant acceleration equations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch13-st3",
+   "chapterId": "cambridge-g12-maths-ch13",
+   "order": 3,
+   "name": "Motion in a lift and Newton's third law",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch13-st2"
+   ],
+   "prerequisiteNote": "F = ma; action-reaction pairs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch14-st1",
+   "chapterId": "cambridge-g12-maths-ch14",
+   "order": 1,
+   "name": "Resolving forces into components and resultant forces",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch13-st1",
+    "cambridge-g11-maths-ch05-st3"
+   ],
+   "prerequisiteNote": "Trigonometry in right-angled triangles",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch14-st2",
+   "chapterId": "cambridge-g12-maths-ch14",
+   "order": 2,
+   "name": "Equilibrium of a particle under coplanar forces",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch14-st1"
+   ],
+   "prerequisiteNote": "Resolving forces",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch14-st3",
+   "chapterId": "cambridge-g12-maths-ch14",
+   "order": 3,
+   "name": "Motion on an inclined plane",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch14-st1",
+    "cambridge-g12-maths-ch13-st2"
+   ],
+   "prerequisiteNote": "Resolving forces; F = ma",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch15-st1",
+   "chapterId": "cambridge-g12-maths-ch15",
+   "order": 1,
+   "name": "Limiting friction and the coefficient of friction F ≤ μR",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch14-st1"
+   ],
+   "prerequisiteNote": "Resolving forces; normal reaction",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch15-st2",
+   "chapterId": "cambridge-g12-maths-ch15",
+   "order": 2,
+   "name": "Equilibrium and motion with friction, including on rough slopes",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch15-st1",
+    "cambridge-g12-maths-ch14-st3"
+   ],
+   "prerequisiteNote": "Inclined plane; coefficient of friction",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch15-st3",
+   "chapterId": "cambridge-g12-maths-ch15",
+   "order": 3,
+   "name": "Smooth and rough contact and modelling assumptions",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch15-st1"
+   ],
+   "prerequisiteNote": "Limiting friction; models in mechanics",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch16-st1",
+   "chapterId": "cambridge-g12-maths-ch16",
+   "order": 1,
+   "name": "Particles connected by strings: tension and towing problems",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch13-st2"
+   ],
+   "prerequisiteNote": "Newton's second law",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch16-st2",
+   "chapterId": "cambridge-g12-maths-ch16",
+   "order": 2,
+   "name": "Pulley systems over smooth pegs and pulleys",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch16-st1",
+    "cambridge-g12-maths-ch15-st2"
+   ],
+   "prerequisiteNote": "Connected particles; friction",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch16-st3",
+   "chapterId": "cambridge-g12-maths-ch16",
+   "order": 3,
+   "name": "Motion after a string becomes slack or breaks",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch16-st2",
+    "cambridge-g12-maths-ch12-st3"
+   ],
+   "prerequisiteNote": "Pulley systems; vertical motion under gravity",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch17-st1",
+   "chapterId": "cambridge-g12-maths-ch17",
+   "order": 1,
+   "name": "Variable acceleration: differentiating displacement and velocity with respect to time",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch12-st1",
+    "cambridge-g11-maths-ch07-st2"
+   ],
+   "prerequisiteNote": "Differentiation of polynomials (AS Pure 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch17-st2",
+   "chapterId": "cambridge-g12-maths-ch17",
+   "order": 2,
+   "name": "Integrating acceleration and velocity and using initial conditions",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch17-st1",
+    "cambridge-g11-maths-ch09-st2"
+   ],
+   "prerequisiteNote": "Integration and constant of integration (AS Pure 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch17-st3",
+   "chapterId": "cambridge-g12-maths-ch17",
+   "order": 3,
+   "name": "Maximum displacement, velocity and total distance travelled",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch17-st2",
+    "cambridge-g11-maths-ch08-st1"
+   ],
+   "prerequisiteNote": "Stationary points",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch18-st1",
+   "chapterId": "cambridge-g12-maths-ch18",
+   "order": 1,
+   "name": "Momentum and impulse in one dimension",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch05-st1"
+   ],
+   "prerequisiteNote": "Momentum (AS Physics); vectors in one dimension",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch18-st2",
+   "chapterId": "cambridge-g12-maths-ch18",
+   "order": 2,
+   "name": "Conservation of linear momentum in direct collisions",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch18-st1"
+   ],
+   "prerequisiteNote": "Momentum; sign conventions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch18-st3",
+   "chapterId": "cambridge-g12-maths-ch18",
+   "order": 3,
+   "name": "Coalescence and successive collisions",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch18-st2"
+   ],
+   "prerequisiteNote": "Conservation of momentum",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch19-st1",
+   "chapterId": "cambridge-g12-maths-ch19",
+   "order": 1,
+   "name": "Work done by a constant force including at an angle",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch14-st1",
+    "cambridge-g11-physics-ch08-st1"
+   ],
+   "prerequisiteNote": "Work, energy and power (AS Physics); resolving forces",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch19-st2",
+   "chapterId": "cambridge-g12-maths-ch19",
+   "order": 2,
+   "name": "Kinetic energy and gravitational potential energy",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch19-st1"
+   ],
+   "prerequisiteNote": "Work done; ½mv² and mgh",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch19-st3",
+   "chapterId": "cambridge-g12-maths-ch19",
+   "order": 3,
+   "name": "Conservation of mechanical energy",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch19-st2"
+   ],
+   "prerequisiteNote": "Kinetic and potential energy",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch20-st1",
+   "chapterId": "cambridge-g12-maths-ch20",
+   "order": 1,
+   "name": "The work-energy principle including work done against resistance",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch19-st3",
+    "cambridge-g12-maths-ch15-st2"
+   ],
+   "prerequisiteNote": "Conservation of energy; friction",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch20-st2",
+   "chapterId": "cambridge-g12-maths-ch20",
+   "order": 2,
+   "name": "Power as rate of doing work and P = Fv",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch20-st1"
+   ],
+   "prerequisiteNote": "Work done; driving force",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-maths-ch20-st3",
+   "chapterId": "cambridge-g12-maths-ch20",
+   "order": 3,
+   "name": "Motion with variable resistance and power on slopes",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch20-st2",
+    "cambridge-g12-maths-ch14-st3"
+   ],
+   "prerequisiteNote": "Power P = Fv; inclined plane",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

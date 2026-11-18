@@ -1,0 +1,420 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cambridge-g12-applied-maths",
+  "board": "cambridge",
+  "grade": 12,
+  "stream": "commerce",
+  "slug": "applied-maths",
+  "name": "Probability & Statistics 2",
+  "programme": "Cambridge A Level 9709 – P6 Probability & Statistics 2 (statistics route)",
+  "examPattern": "P6 Prob & Stats 2: 1 h 15, 50 marks, 6–8 questions (20% of A Level, statistics route P1+P3+P5+P6). P3 Pure 3 is already counted in the Maths row.",
+  "chapterCount": 6,
+  "questionTarget": 702
+ },
+ "items": [
+  {
+   "id": "cambridge-g12-applied-maths-ch01",
+   "subjectId": "cambridge-g12-applied-maths",
+   "order": 1,
+   "name": "The Poisson distribution",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cambridge-g12-applied-maths-ch01-st1",
+    "cambridge-g12-applied-maths-ch01-st2",
+    "cambridge-g12-applied-maths-ch01-st3",
+    "cambridge-g12-applied-maths-ch01-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g12-applied-maths-ch02",
+   "subjectId": "cambridge-g12-applied-maths",
+   "order": 2,
+   "name": "Linear combinations of random variables",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cambridge-g12-applied-maths-ch02-st1",
+    "cambridge-g12-applied-maths-ch02-st2",
+    "cambridge-g12-applied-maths-ch02-st3",
+    "cambridge-g12-applied-maths-ch02-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g12-applied-maths-ch03",
+   "subjectId": "cambridge-g12-applied-maths",
+   "order": 3,
+   "name": "Continuous random variables",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cambridge-g12-applied-maths-ch03-st1",
+    "cambridge-g12-applied-maths-ch03-st2",
+    "cambridge-g12-applied-maths-ch03-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g12-applied-maths-ch04",
+   "subjectId": "cambridge-g12-applied-maths",
+   "order": 4,
+   "name": "Sampling",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cambridge-g12-applied-maths-ch04-st1",
+    "cambridge-g12-applied-maths-ch04-st2",
+    "cambridge-g12-applied-maths-ch04-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g12-applied-maths-ch05",
+   "subjectId": "cambridge-g12-applied-maths",
+   "order": 5,
+   "name": "Estimation",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cambridge-g12-applied-maths-ch05-st1",
+    "cambridge-g12-applied-maths-ch05-st2",
+    "cambridge-g12-applied-maths-ch05-st3",
+    "cambridge-g12-applied-maths-ch05-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g12-applied-maths-ch06",
+   "subjectId": "cambridge-g12-applied-maths",
+   "order": 6,
+   "name": "Hypothesis tests",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cambridge-g12-applied-maths-ch06-st1",
+    "cambridge-g12-applied-maths-ch06-st2",
+    "cambridge-g12-applied-maths-ch06-st3",
+    "cambridge-g12-applied-maths-ch06-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cambridge-g12-applied-maths-ch01-st1",
+   "chapterId": "cambridge-g12-applied-maths-ch01",
+   "order": 1,
+   "name": "The Poisson distribution Po(λ): conditions and calculating probabilities",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-maths-ch16-st1",
+    "cambridge-g12-maths-ch02-st2"
+   ],
+   "prerequisiteNote": "Binomial distribution (AS Prob & Stats 1); the exponential function eˣ",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-applied-maths-ch01-st2",
+   "chapterId": "cambridge-g12-applied-maths-ch01",
+   "order": 2,
+   "name": "Mean and variance of the Poisson distribution and checking suitability",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-applied-maths-ch01-st1",
+    "cambridge-g11-maths-ch15-st2"
+   ],
+   "prerequisiteNote": "Expectation and variance of a discrete random variable (AS)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-applied-maths-ch01-st3",
+   "chapterId": "cambridge-g12-applied-maths-ch01",
+   "order": 3,
+   "name": "Using the Poisson distribution as an approximation to the binomial",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-applied-maths-ch01-st1",
+    "cambridge-g11-maths-ch16-st2"
+   ],
+   "prerequisiteNote": "Mean and variance of the binomial distribution (AS)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-applied-maths-ch01-st4",
+   "chapterId": "cambridge-g12-applied-maths-ch01",
+   "order": 4,
+   "name": "Normal approximation to the Poisson distribution with continuity correction",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-applied-maths-ch01-st2",
+    "cambridge-g11-maths-ch17-st4"
+   ],
+   "prerequisiteNote": "Normal approximation to the binomial (AS)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-applied-maths-ch02-st1",
+   "chapterId": "cambridge-g12-applied-maths-ch02",
+   "order": 1,
+   "name": "E(aX + b) and Var(aX + b)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-maths-ch15-st2"
+   ],
+   "prerequisiteNote": "Expectation and variance of a discrete random variable (AS)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-applied-maths-ch02-st2",
+   "chapterId": "cambridge-g12-applied-maths-ch02",
+   "order": 2,
+   "name": "E(aX + bY) and Var(aX + bY) for independent random variables",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-applied-maths-ch02-st1"
+   ],
+   "prerequisiteNote": "Expectation and variance of aX + b",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-applied-maths-ch02-st3",
+   "chapterId": "cambridge-g12-applied-maths-ch02",
+   "order": 3,
+   "name": "Linear combinations of independent normal variables",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-applied-maths-ch02-st2",
+    "cambridge-g11-maths-ch17-st1"
+   ],
+   "prerequisiteNote": "Standardising normal variables (AS)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-applied-maths-ch02-st4",
+   "chapterId": "cambridge-g12-applied-maths-ch02",
+   "order": 4,
+   "name": "Sums of independent Poisson variables",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-applied-maths-ch02-st2",
+    "cambridge-g12-applied-maths-ch01-st2"
+   ],
+   "prerequisiteNote": "Poisson distribution and its mean",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-applied-maths-ch03-st1",
+   "chapterId": "cambridge-g12-applied-maths-ch03",
+   "order": 1,
+   "name": "Probability density functions and calculating probabilities by integration",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-maths-ch05-st4",
+    "cambridge-g11-maths-ch09-st3"
+   ],
+   "prerequisiteNote": "Definite integration (Pure 1 and Pure 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-applied-maths-ch03-st2",
+   "chapterId": "cambridge-g12-applied-maths-ch03",
+   "order": 2,
+   "name": "Mean and variance of a continuous random variable",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-applied-maths-ch03-st1",
+    "cambridge-g12-applied-maths-ch02-st1"
+   ],
+   "prerequisiteNote": "Integration of polynomials; E(X) and Var(X) for discrete variables",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-applied-maths-ch03-st3",
+   "chapterId": "cambridge-g12-applied-maths-ch03",
+   "order": 3,
+   "name": "Median and other percentiles of a continuous random variable",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-applied-maths-ch03-st1",
+    "cambridge-g12-maths-ch06-st1"
+   ],
+   "prerequisiteNote": "Solving polynomial equations; definite integration",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-applied-maths-ch04-st1",
+   "chapterId": "cambridge-g12-applied-maths-ch04",
+   "order": 1,
+   "name": "Populations, samples, random sampling and sources of bias",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch06-st2"
+   ],
+   "prerequisiteNote": "Sampling methods (Lower Secondary Stage 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-applied-maths-ch04-st2",
+   "chapterId": "cambridge-g12-applied-maths-ch04",
+   "order": 2,
+   "name": "Using random numbers to select a sample",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g12-applied-maths-ch04-st1"
+   ],
+   "prerequisiteNote": "Random sampling",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-applied-maths-ch04-st3",
+   "chapterId": "cambridge-g12-applied-maths-ch04",
+   "order": 3,
+   "name": "The distribution of the sample mean and the central limit theorem",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-applied-maths-ch04-st1",
+    "cambridge-g12-applied-maths-ch02-st2"
+   ],
+   "prerequisiteNote": "Var(aX + bY); normal distribution",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-applied-maths-ch05-st1",
+   "chapterId": "cambridge-g12-applied-maths-ch05",
+   "order": 1,
+   "name": "Unbiased estimates of population mean and variance",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-applied-maths-ch04-st3",
+    "cambridge-g11-maths-ch12-st3"
+   ],
+   "prerequisiteNote": "Variance from Σx and Σx² (AS)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-applied-maths-ch05-st2",
+   "chapterId": "cambridge-g12-applied-maths-ch05",
+   "order": 2,
+   "name": "Confidence intervals for a population mean using the normal distribution",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-applied-maths-ch05-st1",
+    "cambridge-g12-applied-maths-ch04-st3"
+   ],
+   "prerequisiteNote": "Distribution of the sample mean; z-values",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-applied-maths-ch05-st3",
+   "chapterId": "cambridge-g12-applied-maths-ch05",
+   "order": 3,
+   "name": "Confidence intervals for a population proportion from a large sample",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-applied-maths-ch05-st2",
+    "cambridge-g11-maths-ch17-st4"
+   ],
+   "prerequisiteNote": "Normal approximation to the binomial (AS)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-applied-maths-ch05-st4",
+   "chapterId": "cambridge-g12-applied-maths-ch05",
+   "order": 4,
+   "name": "Interpreting confidence intervals in context",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g12-applied-maths-ch05-st2"
+   ],
+   "prerequisiteNote": "Confidence intervals",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-applied-maths-ch06-st1",
+   "chapterId": "cambridge-g12-applied-maths-ch06",
+   "order": 1,
+   "name": "Null and alternative hypotheses, significance level, one- and two-tailed tests",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-maths-ch16-st1"
+   ],
+   "prerequisiteNote": "Binomial probabilities (AS)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-applied-maths-ch06-st2",
+   "chapterId": "cambridge-g12-applied-maths-ch06",
+   "order": 2,
+   "name": "Hypothesis tests using the binomial and Poisson distributions",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-applied-maths-ch06-st1",
+    "cambridge-g12-applied-maths-ch01-st2"
+   ],
+   "prerequisiteNote": "Binomial and Poisson probabilities; cumulative probabilities",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-applied-maths-ch06-st3",
+   "chapterId": "cambridge-g12-applied-maths-ch06",
+   "order": 3,
+   "name": "Hypothesis tests for a population mean using the normal distribution",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-applied-maths-ch06-st1",
+    "cambridge-g12-applied-maths-ch04-st3"
+   ],
+   "prerequisiteNote": "Distribution of the sample mean",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-applied-maths-ch06-st4",
+   "chapterId": "cambridge-g12-applied-maths-ch06",
+   "order": 4,
+   "name": "Type I and Type II errors and their probabilities",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-applied-maths-ch06-st2",
+    "cambridge-g12-applied-maths-ch06-st3"
+   ],
+   "prerequisiteNote": "Critical regions; hypothesis tests",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

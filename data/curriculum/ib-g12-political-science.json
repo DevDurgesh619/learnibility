@@ -1,0 +1,786 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "ib-g12-political-science",
+  "board": "ib",
+  "grade": 12,
+  "stream": "humanities",
+  "slug": "political-science",
+  "name": "Global Politics",
+  "programme": "IB DP Global Politics SL/HL (first exam 2026)",
+  "examPattern": "IB DP – graded 1–7; recommended 150 h SL / 240 h HL; exams May (Hindi May only). HL: Paper 1 source-based 1 h 15 (20%) – 4 sources, 4 questions; Paper 2 extended response 1 h 30 (30%) – 2 essays; Paper 3 HL 1 h 30 (30%) – 3 stimulus-based questions on challenges; IA engagement project (20%). Paper marks UNVERIFIED.",
+  "chapterCount": 13,
+  "questionTarget": 1041
+ },
+ "items": [
+  {
+   "id": "ib-g12-political-science-ch01",
+   "subjectId": "ib-g12-political-science",
+   "order": 1,
+   "name": "Thematic Study: Peace and Conflict – Contested Meanings of Peace, Conflict and Violence",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g12-political-science-ch01-st1",
+    "ib-g12-political-science-ch01-st2",
+    "ib-g12-political-science-ch01-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-political-science-ch02",
+   "subjectId": "ib-g12-political-science",
+   "order": 2,
+   "name": "Peace and Conflict – Causes and Types of Conflict",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "ib-g12-political-science-ch02-st1",
+    "ib-g12-political-science-ch02-st2",
+    "ib-g12-political-science-ch02-st3",
+    "ib-g12-political-science-ch02-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-political-science-ch03",
+   "subjectId": "ib-g12-political-science",
+   "order": 3,
+   "name": "Peace and Conflict – Conflict Dynamics and Third-Party Intervention",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g12-political-science-ch03-st1",
+    "ib-g12-political-science-ch03-st2",
+    "ib-g12-political-science-ch03-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-political-science-ch04",
+   "subjectId": "ib-g12-political-science",
+   "order": 4,
+   "name": "Peace and Conflict – Post-conflict Transformation and Peacebuilding",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "ib-g12-political-science-ch04-st1",
+    "ib-g12-political-science-ch04-st2",
+    "ib-g12-political-science-ch04-st3",
+    "ib-g12-political-science-ch04-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-political-science-ch05",
+   "subjectId": "ib-g12-political-science",
+   "order": 5,
+   "name": "HL Global Political Challenge: Borders",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g12-political-science-ch05-st1",
+    "ib-g12-political-science-ch05-st2",
+    "ib-g12-political-science-ch05-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-political-science-ch06",
+   "subjectId": "ib-g12-political-science",
+   "order": 6,
+   "name": "HL Global Political Challenge: Security",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g12-political-science-ch06-st1",
+    "ib-g12-political-science-ch06-st2",
+    "ib-g12-political-science-ch06-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-political-science-ch07",
+   "subjectId": "ib-g12-political-science",
+   "order": 7,
+   "name": "HL Global Political Challenge: Environment",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g12-political-science-ch07-st1",
+    "ib-g12-political-science-ch07-st2",
+    "ib-g12-political-science-ch07-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-political-science-ch08",
+   "subjectId": "ib-g12-political-science",
+   "order": 8,
+   "name": "HL Global Political Challenge: Poverty",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g12-political-science-ch08-st1",
+    "ib-g12-political-science-ch08-st2",
+    "ib-g12-political-science-ch08-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-political-science-ch09",
+   "subjectId": "ib-g12-political-science",
+   "order": 9,
+   "name": "HL Global Political Challenge: Health",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "ib-g12-political-science-ch09-st1",
+    "ib-g12-political-science-ch09-st2",
+    "ib-g12-political-science-ch09-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-political-science-ch10",
+   "subjectId": "ib-g12-political-science",
+   "order": 10,
+   "name": "HL Global Political Challenge: Identity",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g12-political-science-ch10-st1",
+    "ib-g12-political-science-ch10-st2",
+    "ib-g12-political-science-ch10-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-political-science-ch11",
+   "subjectId": "ib-g12-political-science",
+   "order": 11,
+   "name": "HL Global Political Challenge: Technology",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "ib-g12-political-science-ch11-st1",
+    "ib-g12-political-science-ch11-st2",
+    "ib-g12-political-science-ch11-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-political-science-ch12",
+   "subjectId": "ib-g12-political-science",
+   "order": 12,
+   "name": "HL Global Political Challenge: Equality",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g12-political-science-ch12-st1",
+    "ib-g12-political-science-ch12-st2",
+    "ib-g12-political-science-ch12-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-political-science-ch13",
+   "subjectId": "ib-g12-political-science",
+   "order": 13,
+   "name": "Internal Assessment and Paper 3: Engagement Project and HL Challenge Case Studies",
+   "teachingPeriods": 19,
+   "subtopicIds": [
+    "ib-g12-political-science-ch13-st1",
+    "ib-g12-political-science-ch13-st2",
+    "ib-g12-political-science-ch13-st3",
+    "ib-g12-political-science-ch13-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "ib-g12-political-science-ch01-st1",
+   "chapterId": "ib-g12-political-science-ch01",
+   "order": 1,
+   "name": "Defining peace: negative and positive peace (Galtung) and structural violence",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-political-science-ch01-st3"
+   ],
+   "prerequisiteNote": "Key concepts of the course (Grade 11 Global Politics)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch01-st2",
+   "chapterId": "ib-g12-political-science-ch01",
+   "order": 2,
+   "name": "Types of violence: direct, structural and cultural violence; the violence triangle",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-political-science-ch01-st1"
+   ],
+   "prerequisiteNote": "Positive and negative peace; Galtung's model",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch01-st3",
+   "chapterId": "ib-g12-political-science-ch01",
+   "order": 3,
+   "name": "Non-violence as a strategy: Gandhi, King and non-violent resistance movements",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-political-science-ch01-st2"
+   ],
+   "prerequisiteNote": "Types of violence; civil rights movements (MYP 5 I&S)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch02-st1",
+   "chapterId": "ib-g12-political-science-ch02",
+   "order": 1,
+   "name": "Types of conflict: interstate, intrastate, ethnic, resource, identity-based and asymmetric conflict",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-political-science-ch01-st2",
+    "ib-g11-political-science-ch03-st3"
+   ],
+   "prerequisiteNote": "Types of violence; contested statehood and self-determination (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch02-st2",
+   "chapterId": "ib-g12-political-science-ch02",
+   "order": 2,
+   "name": "Causes of conflict: greed vs grievance, security dilemma and identity politics",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-political-science-ch02-st1",
+    "ib-g11-political-science-ch06-st1"
+   ],
+   "prerequisiteNote": "Realism and the security dilemma (Grade 11 Global Politics)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch02-st3",
+   "chapterId": "ib-g12-political-science-ch02",
+   "order": 3,
+   "name": "Parties to conflict: states, rebel groups, militias, terrorist organisations and private military companies",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-political-science-ch02-st1"
+   ],
+   "prerequisiteNote": "Types of conflict; state and non-state actors (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch02-st4",
+   "chapterId": "ib-g12-political-science-ch02",
+   "order": 4,
+   "name": "Measuring conflict: datasets and indices (Global Peace Index, UCDP)",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-political-science-ch02-st1"
+   ],
+   "prerequisiteNote": "Types of conflict; reading tables and indices",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch03-st1",
+   "chapterId": "ib-g12-political-science-ch03",
+   "order": 1,
+   "name": "Conflict dynamics: escalation, stalemate and de-escalation models",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-political-science-ch02-st2"
+   ],
+   "prerequisiteNote": "Causes of conflict; parties to conflict",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch03-st2",
+   "chapterId": "ib-g12-political-science-ch03",
+   "order": 2,
+   "name": "Third-party involvement: mediation, peacekeeping, sanctions and military intervention",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-political-science-ch03-st1",
+    "ib-g11-political-science-ch08-st4"
+   ],
+   "prerequisiteNote": "R2P and humanitarian intervention (Grade 11); conflict dynamics",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch03-st3",
+   "chapterId": "ib-g12-political-science-ch03",
+   "order": 3,
+   "name": "Case study analysis: contemporary conflict (e.g. Ukraine, Syria, Yemen or Myanmar)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-political-science-ch03-st2",
+    "ib-g12-political-science-ch02-st3"
+   ],
+   "prerequisiteNote": "Third-party intervention; parties to conflict",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch04-st1",
+   "chapterId": "ib-g12-political-science-ch04",
+   "order": 1,
+   "name": "Peacemaking, peacekeeping and peacebuilding: approaches and UN operations",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-political-science-ch03-st2"
+   ],
+   "prerequisiteNote": "Third-party involvement; UN system (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch04-st2",
+   "chapterId": "ib-g12-political-science-ch04",
+   "order": 2,
+   "name": "Transitional justice: truth commissions, tribunals and reconciliation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-political-science-ch04-st1",
+    "ib-g11-political-science-ch08-st2"
+   ],
+   "prerequisiteNote": "Protection and monitoring of rights (ICC, tribunals) (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch04-st3",
+   "chapterId": "ib-g12-political-science-ch04",
+   "order": 3,
+   "name": "Disarmament, demobilisation and reintegration (DDR) and post-conflict reconstruction",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-political-science-ch04-st1"
+   ],
+   "prerequisiteNote": "Peacebuilding approaches; role of NGOs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch04-st4",
+   "chapterId": "ib-g12-political-science-ch04",
+   "order": 4,
+   "name": "Liberal peace critique and local ownership of peace processes",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-political-science-ch04-st1",
+    "ib-g11-political-science-ch06-st4"
+   ],
+   "prerequisiteNote": "Critical perspectives: postcolonialism (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch05-st1",
+   "chapterId": "ib-g12-political-science-ch05",
+   "order": 1,
+   "name": "Nature of borders: physical, political, economic and virtual borders",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-political-science-ch03-st1"
+   ],
+   "prerequisiteNote": "Sovereignty and the state (Grade 11 Global Politics)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch05-st2",
+   "chapterId": "ib-g12-political-science-ch05",
+   "order": 2,
+   "name": "Border disputes and their political consequences (e.g. India-China, Israel-Palestine)",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-political-science-ch05-st1",
+    "ib-g12-political-science-ch02-st1"
+   ],
+   "prerequisiteNote": "Nature of borders; types of conflict",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch05-st3",
+   "chapterId": "ib-g12-political-science-ch05",
+   "order": 3,
+   "name": "Borders and migration: refugees, asylum and border control policies",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-political-science-ch05-st1",
+    "ib-g10-social-science-ch10-st1"
+   ],
+   "prerequisiteNote": "Migration push and pull factors (MYP 5 I&S)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch06-st1",
+   "chapterId": "ib-g12-political-science-ch06",
+   "order": 1,
+   "name": "Traditional vs human security: the expanding concept of security",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-political-science-ch02-st2"
+   ],
+   "prerequisiteNote": "Causes of conflict; security dilemma",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch06-st2",
+   "chapterId": "ib-g12-political-science-ch06",
+   "order": 2,
+   "name": "Non-traditional threats: terrorism, cyber security, food and energy security",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-political-science-ch06-st1"
+   ],
+   "prerequisiteNote": "Human security concept; non-state actors",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch06-st3",
+   "chapterId": "ib-g12-political-science-ch06",
+   "order": 3,
+   "name": "Security arrangements: alliances, collective security and arms control",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-political-science-ch06-st1",
+    "ib-g12-political-science-ch03-st2"
+   ],
+   "prerequisiteNote": "Third-party involvement; NATO and the UN Security Council",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch07-st1",
+   "chapterId": "ib-g12-political-science-ch07",
+   "order": 1,
+   "name": "Environmental degradation as a political challenge: climate change, biodiversity and pollution",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-political-science-ch12-st2"
+   ],
+   "prerequisiteNote": "Climate governance: UNFCCC and Paris Agreement (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch07-st2",
+   "chapterId": "ib-g12-political-science-ch07",
+   "order": 2,
+   "name": "Environmental conflicts and climate-induced migration",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-political-science-ch07-st1",
+    "ib-g12-political-science-ch05-st3"
+   ],
+   "prerequisiteNote": "Environmental degradation; borders and migration",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch07-st3",
+   "chapterId": "ib-g12-political-science-ch07",
+   "order": 3,
+   "name": "Environmental actors and activism: Indigenous groups, youth movements and NGOs",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-political-science-ch07-st1"
+   ],
+   "prerequisiteNote": "Environmental challenges; power of non-state actors",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch08-st1",
+   "chapterId": "ib-g12-political-science-ch08",
+   "order": 1,
+   "name": "Poverty as a global political issue: measurement and the politics of poverty",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-political-science-ch10-st2"
+   ],
+   "prerequisiteNote": "Measuring development: MPI, HDI (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch08-st2",
+   "chapterId": "ib-g12-political-science-ch08",
+   "order": 2,
+   "name": "Responses to poverty: aid, debt relief, microfinance and social protection",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-political-science-ch08-st1",
+    "ib-g11-political-science-ch11-st3"
+   ],
+   "prerequisiteNote": "Role of development actors (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch08-st3",
+   "chapterId": "ib-g12-political-science-ch08",
+   "order": 3,
+   "name": "Poverty, inequality and political instability",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-political-science-ch08-st1",
+    "ib-g12-political-science-ch02-st2"
+   ],
+   "prerequisiteNote": "Politics of poverty; greed vs grievance",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch09-st1",
+   "chapterId": "ib-g12-political-science-ch09",
+   "order": 1,
+   "name": "Health as a global political issue: pandemics, access to medicines and health security",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-political-science-ch06-st1"
+   ],
+   "prerequisiteNote": "Human security; interdependence (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch09-st2",
+   "chapterId": "ib-g12-political-science-ch09",
+   "order": 2,
+   "name": "Global health governance: WHO, COVAX and public-private partnerships",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-political-science-ch09-st1",
+    "ib-g11-political-science-ch05-st2"
+   ],
+   "prerequisiteNote": "Global governance and the UN system (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch09-st3",
+   "chapterId": "ib-g12-political-science-ch09",
+   "order": 3,
+   "name": "Health and rights: the right to health and intellectual property debates (TRIPS)",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-political-science-ch09-st2"
+   ],
+   "prerequisiteNote": "Global health governance; socio-economic rights (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch10-st1",
+   "chapterId": "ib-g12-political-science-ch10",
+   "order": 1,
+   "name": "Identity and politics: nationalism, ethnicity, religion and gender identity",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-political-science-ch06-st3"
+   ],
+   "prerequisiteNote": "Constructivism and identity (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch10-st2",
+   "chapterId": "ib-g12-political-science-ch10",
+   "order": 2,
+   "name": "Identity-based exclusion and claims for recognition: minorities and Indigenous peoples",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-political-science-ch10-st1",
+    "ib-g11-political-science-ch09-st3"
+   ],
+   "prerequisiteNote": "Contested rights of minorities and Indigenous peoples (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch10-st3",
+   "chapterId": "ib-g12-political-science-ch10",
+   "order": 3,
+   "name": "Populism and identity politics in contemporary democracies",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-political-science-ch10-st1"
+   ],
+   "prerequisiteNote": "Identity and politics; legitimacy of regimes",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch11-st1",
+   "chapterId": "ib-g12-political-science-ch11",
+   "order": 1,
+   "name": "Technology and power: digital surveillance, social media and political mobilisation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-political-science-ch02-st3"
+   ],
+   "prerequisiteNote": "Power of non-state actors including platforms (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch11-st2",
+   "chapterId": "ib-g12-political-science-ch11",
+   "order": 2,
+   "name": "Governance of emerging technologies: AI, cyber warfare and data sovereignty",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-political-science-ch11-st1",
+    "ib-g12-political-science-ch06-st2"
+   ],
+   "prerequisiteNote": "Technology and power; cyber security",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch11-st3",
+   "chapterId": "ib-g12-political-science-ch11",
+   "order": 3,
+   "name": "Digital divide and technology transfer in development",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-political-science-ch11-st1",
+    "ib-g12-political-science-ch08-st1"
+   ],
+   "prerequisiteNote": "Technology and power; poverty as political issue",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch12-st1",
+   "chapterId": "ib-g12-political-science-ch12",
+   "order": 1,
+   "name": "Equality and inequality: gender, income and political equality",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-political-science-ch09-st2"
+   ],
+   "prerequisiteNote": "Theories of justice (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch12-st2",
+   "chapterId": "ib-g12-political-science-ch12",
+   "order": 2,
+   "name": "Movements for equality: feminist movements, #MeToo, anti-racism and LGBTQ+ rights",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-political-science-ch12-st1",
+    "ib-g12-political-science-ch01-st3"
+   ],
+   "prerequisiteNote": "Equality concepts; non-violent resistance",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch12-st3",
+   "chapterId": "ib-g12-political-science-ch12",
+   "order": 3,
+   "name": "Measuring and addressing inequality: Gender Inequality Index, quotas and affirmative action",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-political-science-ch12-st1"
+   ],
+   "prerequisiteNote": "Equality concepts; indices and percentages",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch13-st1",
+   "chapterId": "ib-g12-political-science-ch13",
+   "order": 1,
+   "name": "Engagement project: choosing a political issue and planning engagement activities",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-political-science-ch01-st1"
+   ],
+   "prerequisiteNote": "Identifying political issues (Grade 11 Global Politics)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch13-st2",
+   "chapterId": "ib-g12-political-science-ch13",
+   "order": 2,
+   "name": "Analysing the engagement: linking experience to concepts, theories and perspectives",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-political-science-ch13-st1",
+    "ib-g11-political-science-ch13-st2"
+   ],
+   "prerequisiteNote": "Paper 2 use of concepts and theories (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch13-st3",
+   "chapterId": "ib-g12-political-science-ch13",
+   "order": 3,
+   "name": "HL Paper 3: responding to stimulus on a global political challenge using two case studies",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-political-science-ch13-st2",
+    "ib-g12-political-science-ch12-st2"
+   ],
+   "prerequisiteNote": "HL challenge case studies; source analysis skills (Grade 11 Paper 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-political-science-ch13-st4",
+   "chapterId": "ib-g12-political-science-ch13",
+   "order": 4,
+   "name": "Writing and reflecting: structure, evidence and the 2,000-word report",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-political-science-ch13-st2"
+   ],
+   "prerequisiteNote": "Analysing the engagement; academic referencing",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

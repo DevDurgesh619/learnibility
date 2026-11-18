@@ -1,0 +1,626 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cambridge-g12-biology",
+  "board": "cambridge",
+  "grade": 12,
+  "stream": "science",
+  "slug": "biology",
+  "name": "Biology",
+  "programme": "Cambridge A Level Biology 9700 (topics 12–19)",
+  "textbook": "CUP Coursebook ch 12–19",
+  "examPattern": "A2: P4 A Level Structured 2 h, 100 marks (~10–12 questions) + P5 Planning, Analysis & Evaluation 1 h 15, 30 marks (2 questions). Graded A*–E.",
+  "chapterCount": 8,
+  "questionTarget": 798
+ },
+ "items": [
+  {
+   "id": "cambridge-g12-biology-ch01",
+   "subjectId": "cambridge-g12-biology",
+   "order": 1,
+   "name": "Energy and Respiration",
+   "teachingPeriods": 23,
+   "subtopicIds": [
+    "cambridge-g12-biology-ch01-st1",
+    "cambridge-g12-biology-ch01-st2",
+    "cambridge-g12-biology-ch01-st3",
+    "cambridge-g12-biology-ch01-st4",
+    "cambridge-g12-biology-ch01-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g12-biology-ch02",
+   "subjectId": "cambridge-g12-biology",
+   "order": 2,
+   "name": "Photosynthesis",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cambridge-g12-biology-ch02-st1",
+    "cambridge-g12-biology-ch02-st2",
+    "cambridge-g12-biology-ch02-st3",
+    "cambridge-g12-biology-ch02-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g12-biology-ch03",
+   "subjectId": "cambridge-g12-biology",
+   "order": 3,
+   "name": "Homeostasis",
+   "teachingPeriods": 23,
+   "subtopicIds": [
+    "cambridge-g12-biology-ch03-st1",
+    "cambridge-g12-biology-ch03-st2",
+    "cambridge-g12-biology-ch03-st3",
+    "cambridge-g12-biology-ch03-st4",
+    "cambridge-g12-biology-ch03-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g12-biology-ch04",
+   "subjectId": "cambridge-g12-biology",
+   "order": 4,
+   "name": "Control and Coordination",
+   "teachingPeriods": 21,
+   "subtopicIds": [
+    "cambridge-g12-biology-ch04-st1",
+    "cambridge-g12-biology-ch04-st2",
+    "cambridge-g12-biology-ch04-st3",
+    "cambridge-g12-biology-ch04-st4",
+    "cambridge-g12-biology-ch04-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g12-biology-ch05",
+   "subjectId": "cambridge-g12-biology",
+   "order": 5,
+   "name": "Inheritance",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cambridge-g12-biology-ch05-st1",
+    "cambridge-g12-biology-ch05-st2",
+    "cambridge-g12-biology-ch05-st3",
+    "cambridge-g12-biology-ch05-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g12-biology-ch06",
+   "subjectId": "cambridge-g12-biology",
+   "order": 6,
+   "name": "Selection and Evolution",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cambridge-g12-biology-ch06-st1",
+    "cambridge-g12-biology-ch06-st2",
+    "cambridge-g12-biology-ch06-st3",
+    "cambridge-g12-biology-ch06-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g12-biology-ch07",
+   "subjectId": "cambridge-g12-biology",
+   "order": 7,
+   "name": "Classification, Biodiversity and Conservation",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cambridge-g12-biology-ch07-st1",
+    "cambridge-g12-biology-ch07-st2",
+    "cambridge-g12-biology-ch07-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g12-biology-ch08",
+   "subjectId": "cambridge-g12-biology",
+   "order": 8,
+   "name": "Genetic Technology",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cambridge-g12-biology-ch08-st1",
+    "cambridge-g12-biology-ch08-st2",
+    "cambridge-g12-biology-ch08-st3",
+    "cambridge-g12-biology-ch08-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cambridge-g12-biology-ch01-st1",
+   "chapterId": "cambridge-g12-biology-ch01",
+   "order": 1,
+   "name": "The need for energy in living organisms; ATP structure, synthesis and role",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch06-st1"
+   ],
+   "prerequisiteNote": "ATP as a nucleotide (AS ch 6); aerobic respiration (IGCSE ch 12)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-biology-ch01-st2",
+   "chapterId": "cambridge-g12-biology-ch01",
+   "order": 2,
+   "name": "Glycolysis, link reaction and Krebs cycle",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-biology-ch01-st1",
+    "cambridge-g10-biology-ch01-st1"
+   ],
+   "prerequisiteNote": "ATP; aerobic respiration equation (IGCSE ch 12)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-biology-ch01-st3",
+   "chapterId": "cambridge-g12-biology-ch01",
+   "order": 3,
+   "name": "Oxidative phosphorylation, electron transport chain and chemiosmosis in mitochondria",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-biology-ch01-st2",
+    "cambridge-g11-biology-ch01-st2"
+   ],
+   "prerequisiteNote": "Krebs cycle products (reduced NAD and FAD); mitochondrion structure (AS ch 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-biology-ch01-st4",
+   "chapterId": "cambridge-g12-biology-ch01",
+   "order": 4,
+   "name": "Anaerobic respiration in mammals and yeast; respiratory substrates and respiratory quotient",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-biology-ch01-st2",
+    "cambridge-g10-biology-ch01-st2"
+   ],
+   "prerequisiteNote": "Glycolysis; anaerobic respiration (IGCSE ch 12)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-biology-ch01-st5",
+   "chapterId": "cambridge-g12-biology-ch01",
+   "order": 5,
+   "name": "Investigating respiration rates with respirometers and redox indicators",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g12-biology-ch01-st4"
+   ],
+   "prerequisiteNote": "Respiratory quotient; volume and gas measurement",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-biology-ch02-st1",
+   "chapterId": "cambridge-g12-biology-ch02",
+   "order": 1,
+   "name": "Photosynthesis as an energy transfer process: chloroplast structure and photosynthetic pigments; chromatography",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch06-st3",
+    "cambridge-g11-biology-ch01-st2"
+   ],
+   "prerequisiteNote": "Leaf structure and chlorophyll (IGCSE ch 6); chloroplast ultrastructure (AS ch 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-biology-ch02-st2",
+   "chapterId": "cambridge-g12-biology-ch02",
+   "order": 2,
+   "name": "Light-dependent reactions: cyclic and non-cyclic photophosphorylation and photolysis",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-biology-ch02-st1",
+    "cambridge-g12-biology-ch01-st3"
+   ],
+   "prerequisiteNote": "Chloroplast and pigments; chemiosmosis in mitochondria",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-biology-ch02-st3",
+   "chapterId": "cambridge-g12-biology-ch02",
+   "order": 3,
+   "name": "Light-independent reactions: the Calvin cycle",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-biology-ch02-st2"
+   ],
+   "prerequisiteNote": "Light-dependent reactions (ATP and reduced NADP)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-biology-ch02-st4",
+   "chapterId": "cambridge-g12-biology-ch02",
+   "order": 4,
+   "name": "Limiting factors and investigating the rate of photosynthesis",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-biology-ch02-st3",
+    "cambridge-g9-biology-ch06-st2"
+   ],
+   "prerequisiteNote": "Calvin cycle; limiting factors (IGCSE ch 6)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-biology-ch03-st1",
+   "chapterId": "cambridge-g12-biology-ch03",
+   "order": 1,
+   "name": "Homeostasis in mammals: negative feedback and the role of hormones and nerves",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch03-st3"
+   ],
+   "prerequisiteNote": "Negative feedback and blood glucose control (IGCSE ch 14)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-biology-ch03-st2",
+   "chapterId": "cambridge-g12-biology-ch03",
+   "order": 2,
+   "name": "Excretion: kidney structure, ultrafiltration and selective reabsorption in the nephron",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-biology-ch03-st1",
+    "cambridge-g10-biology-ch03-st1",
+    "cambridge-g11-biology-ch04-st3"
+   ],
+   "prerequisiteNote": "Kidney and nephron (IGCSE ch 14); water potential (AS ch 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-biology-ch03-st3",
+   "chapterId": "cambridge-g12-biology-ch03",
+   "order": 3,
+   "name": "Osmoregulation: ADH and aquaporins",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-biology-ch03-st2",
+    "cambridge-g11-biology-ch04-st2"
+   ],
+   "prerequisiteNote": "Nephron function; cell signalling (AS ch 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-biology-ch03-st4",
+   "chapterId": "cambridge-g12-biology-ch03",
+   "order": 4,
+   "name": "Control of blood glucose: insulin, glucagon, cAMP second messenger; testing for glucose",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-biology-ch03-st1",
+    "cambridge-g11-biology-ch04-st2"
+   ],
+   "prerequisiteNote": "Negative feedback; cell signalling (AS ch 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-biology-ch03-st5",
+   "chapterId": "cambridge-g12-biology-ch03",
+   "order": 5,
+   "name": "Homeostasis in plants: stomatal opening and closing and the role of abscisic acid",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g12-biology-ch03-st1",
+    "cambridge-g11-biology-ch07-st2"
+   ],
+   "prerequisiteNote": "Negative feedback; transpiration (AS ch 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-biology-ch04-st1",
+   "chapterId": "cambridge-g12-biology-ch04",
+   "order": 1,
+   "name": "Hormonal communication: endocrine glands and the control of the menstrual cycle; contraceptive pill",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch05-st3",
+    "cambridge-g12-biology-ch03-st1"
+   ],
+   "prerequisiteNote": "Menstrual cycle (IGCSE ch 17); homeostasis and hormones",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-biology-ch04-st2",
+   "chapterId": "cambridge-g12-biology-ch04",
+   "order": 2,
+   "name": "Nervous communication: neurones, resting and action potentials and saltatory conduction",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch02-st1",
+    "cambridge-g11-biology-ch04-st4"
+   ],
+   "prerequisiteNote": "Neurones and reflex arcs (IGCSE ch 13); active transport (sodium–potassium pump)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-biology-ch04-st3",
+   "chapterId": "cambridge-g12-biology-ch04",
+   "order": 3,
+   "name": "Synapses: cholinergic synapse structure and transmission",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-biology-ch04-st2"
+   ],
+   "prerequisiteNote": "Action potentials; exocytosis",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-biology-ch04-st4",
+   "chapterId": "cambridge-g12-biology-ch04",
+   "order": 4,
+   "name": "Muscle contraction: sarcomere structure and the sliding filament model",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-biology-ch04-st3",
+    "cambridge-g12-biology-ch01-st1"
+   ],
+   "prerequisiteNote": "Synaptic transmission at neuromuscular junction; ATP",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-biology-ch04-st5",
+   "chapterId": "cambridge-g12-biology-ch04",
+   "order": 5,
+   "name": "Control and coordination in plants: rapid responses in the Venus fly trap; auxins and gibberellins",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g12-biology-ch04-st2",
+    "cambridge-g10-biology-ch02-st4"
+   ],
+   "prerequisiteNote": "Action potentials; tropisms and auxin (IGCSE ch 13)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-biology-ch05-st1",
+   "chapterId": "cambridge-g12-biology-ch05",
+   "order": 1,
+   "name": "Meiosis: stages and how it produces genetic variation",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch05-st2"
+   ],
+   "prerequisiteNote": "Mitotic cell cycle (AS ch 5); haploid and diploid (IGCSE ch 17)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-biology-ch05-st2",
+   "chapterId": "cambridge-g12-biology-ch05",
+   "order": 2,
+   "name": "Monohybrid and dihybrid crosses including codominance, multiple alleles and sex linkage",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-biology-ch05-st1",
+    "cambridge-g10-biology-ch06-st5"
+   ],
+   "prerequisiteNote": "Meiosis; genetic diagrams (IGCSE ch 17)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-biology-ch05-st3",
+   "chapterId": "cambridge-g12-biology-ch05",
+   "order": 3,
+   "name": "Autosomal linkage, epistasis and the chi-squared test",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-biology-ch05-st2"
+   ],
+   "prerequisiteNote": "Dihybrid crosses; expected ratios and statistics",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-biology-ch05-st4",
+   "chapterId": "cambridge-g12-biology-ch05",
+   "order": 4,
+   "name": "Gene control: lac operon, transcription factors and gibberellin/DELLA",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch06-st3",
+    "cambridge-g12-biology-ch05-st1"
+   ],
+   "prerequisiteNote": "Transcription and translation (AS ch 6)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-biology-ch06-st1",
+   "chapterId": "cambridge-g12-biology-ch06",
+   "order": 1,
+   "name": "Variation: continuous and discontinuous; t-test",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch07-st1"
+   ],
+   "prerequisiteNote": "Continuous and discontinuous variation (IGCSE ch 18); mean and standard deviation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-biology-ch06-st2",
+   "chapterId": "cambridge-g12-biology-ch06",
+   "order": 2,
+   "name": "Natural selection: stabilising, directional and disruptive selection; genetic drift; Hardy–Weinberg principle",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-biology-ch06-st1",
+    "cambridge-g10-biology-ch07-st3"
+   ],
+   "prerequisiteNote": "Natural selection (IGCSE ch 18); allele frequencies; algebra (p + q = 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-biology-ch06-st3",
+   "chapterId": "cambridge-g12-biology-ch06",
+   "order": 3,
+   "name": "Artificial selection: selective breeding of crops and dairy cattle",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-biology-ch06-st2",
+    "cambridge-g10-biology-ch07-st4"
+   ],
+   "prerequisiteNote": "Selective breeding (IGCSE ch 18); natural selection",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-biology-ch06-st4",
+   "chapterId": "cambridge-g12-biology-ch06",
+   "order": 4,
+   "name": "Evolution and speciation: allopatric and sympatric speciation; molecular comparisons",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-biology-ch06-st2"
+   ],
+   "prerequisiteNote": "Types of natural selection; isolation of populations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-biology-ch07-st1",
+   "chapterId": "cambridge-g12-biology-ch07",
+   "order": 1,
+   "name": "Classification: three domains, kingdoms and taxonomic hierarchy; viruses",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch01-st4"
+   ],
+   "prerequisiteNote": "Five kingdoms and classification by DNA (IGCSE ch 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-biology-ch07-st2",
+   "chapterId": "cambridge-g12-biology-ch07",
+   "order": 2,
+   "name": "Biodiversity: random sampling, quadrats, transects, Simpson's index and Spearman's rank / Pearson's correlation",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-biology-ch07-st1"
+   ],
+   "prerequisiteNote": "Classification; species and habitats; statistical correlation (maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-biology-ch07-st3",
+   "chapterId": "cambridge-g12-biology-ch07",
+   "order": 3,
+   "name": "Threats to biodiversity and conservation: protected areas, zoos, seed banks, IVF and the role of CITES",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-biology-ch07-st2",
+    "cambridge-g10-biology-ch09-st4"
+   ],
+   "prerequisiteNote": "Conservation methods (IGCSE ch 21); biodiversity measurement",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-biology-ch08-st1",
+   "chapterId": "cambridge-g12-biology-ch08",
+   "order": 1,
+   "name": "Principles of genetic technology: restriction enzymes, ligase, plasmids and recombinant DNA",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch10-st4",
+    "cambridge-g11-biology-ch06-st2"
+   ],
+   "prerequisiteNote": "Genetic modification (IGCSE ch 22); DNA structure (AS ch 6)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-biology-ch08-st2",
+   "chapterId": "cambridge-g12-biology-ch08",
+   "order": 2,
+   "name": "PCR and gel electrophoresis",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-biology-ch08-st1",
+    "cambridge-g11-biology-ch06-st2"
+   ],
+   "prerequisiteNote": "Recombinant DNA; DNA replication (AS ch 6)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-biology-ch08-st3",
+   "chapterId": "cambridge-g12-biology-ch08",
+   "order": 3,
+   "name": "Microarrays, bioinformatics, gene therapy and genetic screening",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-biology-ch08-st2"
+   ],
+   "prerequisiteNote": "PCR and gel electrophoresis; genetic diseases",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-biology-ch08-st4",
+   "chapterId": "cambridge-g12-biology-ch08",
+   "order": 4,
+   "name": "Genetic technology in agriculture: GM crops, Bt maize and herbicide resistance; ethics",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g12-biology-ch08-st1",
+    "cambridge-g10-biology-ch10-st4"
+   ],
+   "prerequisiteNote": "Principles of genetic technology; GM crops (IGCSE ch 22)",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

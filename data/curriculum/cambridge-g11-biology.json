@@ -1,0 +1,772 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cambridge-g11-biology",
+  "board": "cambridge",
+  "grade": 11,
+  "stream": "science",
+  "slug": "biology",
+  "name": "Biology",
+  "programme": "Cambridge AS Biology 9700 (topics 1–11)",
+  "textbook": "CUP Coursebook 5th ed. ch 1–11",
+  "examPattern": "AS: P1 MCQ 1 h 15, 40 questions + P2 AS Structured 1 h 15, 60 marks (~7) + P3 Practical 2 h, 40 marks (2 questions). Weights 31/46/23. Graded a–e.",
+  "chapterCount": 11,
+  "questionTarget": 1284
+ },
+ "items": [
+  {
+   "id": "cambridge-g11-biology-ch01",
+   "subjectId": "cambridge-g11-biology",
+   "order": 1,
+   "name": "Cell Structure",
+   "teachingPeriods": 19,
+   "subtopicIds": [
+    "cambridge-g11-biology-ch01-st1",
+    "cambridge-g11-biology-ch01-st2",
+    "cambridge-g11-biology-ch01-st3",
+    "cambridge-g11-biology-ch01-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g11-biology-ch02",
+   "subjectId": "cambridge-g11-biology",
+   "order": 2,
+   "name": "Biological Molecules",
+   "teachingPeriods": 24,
+   "subtopicIds": [
+    "cambridge-g11-biology-ch02-st1",
+    "cambridge-g11-biology-ch02-st2",
+    "cambridge-g11-biology-ch02-st3",
+    "cambridge-g11-biology-ch02-st4",
+    "cambridge-g11-biology-ch02-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g11-biology-ch03",
+   "subjectId": "cambridge-g11-biology",
+   "order": 3,
+   "name": "Enzymes",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cambridge-g11-biology-ch03-st1",
+    "cambridge-g11-biology-ch03-st2",
+    "cambridge-g11-biology-ch03-st3",
+    "cambridge-g11-biology-ch03-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g11-biology-ch04",
+   "subjectId": "cambridge-g11-biology",
+   "order": 4,
+   "name": "Cell Membranes and Transport",
+   "teachingPeriods": 19,
+   "subtopicIds": [
+    "cambridge-g11-biology-ch04-st1",
+    "cambridge-g11-biology-ch04-st2",
+    "cambridge-g11-biology-ch04-st3",
+    "cambridge-g11-biology-ch04-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g11-biology-ch05",
+   "subjectId": "cambridge-g11-biology",
+   "order": 5,
+   "name": "The Mitotic Cell Cycle",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cambridge-g11-biology-ch05-st1",
+    "cambridge-g11-biology-ch05-st2",
+    "cambridge-g11-biology-ch05-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g11-biology-ch06",
+   "subjectId": "cambridge-g11-biology",
+   "order": 6,
+   "name": "Nucleic Acids and Protein Synthesis",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cambridge-g11-biology-ch06-st1",
+    "cambridge-g11-biology-ch06-st2",
+    "cambridge-g11-biology-ch06-st3",
+    "cambridge-g11-biology-ch06-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g11-biology-ch07",
+   "subjectId": "cambridge-g11-biology",
+   "order": 7,
+   "name": "Transport in Plants",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cambridge-g11-biology-ch07-st1",
+    "cambridge-g11-biology-ch07-st2",
+    "cambridge-g11-biology-ch07-st3",
+    "cambridge-g11-biology-ch07-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g11-biology-ch08",
+   "subjectId": "cambridge-g11-biology",
+   "order": 8,
+   "name": "Transport in Mammals",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cambridge-g11-biology-ch08-st1",
+    "cambridge-g11-biology-ch08-st2",
+    "cambridge-g11-biology-ch08-st3",
+    "cambridge-g11-biology-ch08-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g11-biology-ch09",
+   "subjectId": "cambridge-g11-biology",
+   "order": 9,
+   "name": "Gas Exchange",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "cambridge-g11-biology-ch09-st1",
+    "cambridge-g11-biology-ch09-st2",
+    "cambridge-g11-biology-ch09-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g11-biology-ch10",
+   "subjectId": "cambridge-g11-biology",
+   "order": 10,
+   "name": "Infectious Diseases",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cambridge-g11-biology-ch10-st1",
+    "cambridge-g11-biology-ch10-st2",
+    "cambridge-g11-biology-ch10-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g11-biology-ch11",
+   "subjectId": "cambridge-g11-biology",
+   "order": 11,
+   "name": "Immunity",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cambridge-g11-biology-ch11-st1",
+    "cambridge-g11-biology-ch11-st2",
+    "cambridge-g11-biology-ch11-st3",
+    "cambridge-g11-biology-ch11-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cambridge-g11-biology-ch01-st1",
+   "chapterId": "cambridge-g11-biology-ch01",
+   "order": 1,
+   "name": "Light and electron microscopes: magnification, resolution and calculating actual size using eyepiece graticule and stage micrometer",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch02-st3"
+   ],
+   "prerequisiteNote": "Magnification calculations and unit conversion mm/μm (IGCSE ch 2)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch01-st2",
+   "chapterId": "cambridge-g11-biology-ch01",
+   "order": 2,
+   "name": "Ultrastructure of animal and plant cells and functions of organelles",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch01-st1",
+    "cambridge-g9-biology-ch02-st1"
+   ],
+   "prerequisiteNote": "Animal and plant cell structure (IGCSE ch 2); electron micrographs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch01-st3",
+   "chapterId": "cambridge-g11-biology-ch01",
+   "order": 3,
+   "name": "Prokaryotic cells compared with eukaryotic cells",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch01-st2"
+   ],
+   "prerequisiteNote": "Ultrastructure of eukaryotic cells; bacterial cell structure (IGCSE ch 2)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch01-st4",
+   "chapterId": "cambridge-g11-biology-ch01",
+   "order": 4,
+   "name": "Viruses: structure and non-cellular nature",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch01-st3"
+   ],
+   "prerequisiteNote": "Prokaryotic cells; pathogens (IGCSE ch 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch02-st1",
+   "chapterId": "cambridge-g11-biology-ch02",
+   "order": 1,
+   "name": "Monomers, polymers and macromolecules; condensation and hydrolysis; tests for biological molecules",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch04-st2"
+   ],
+   "prerequisiteNote": "Food tests (IGCSE ch 4); molecules built from smaller units",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch02-st2",
+   "chapterId": "cambridge-g11-biology-ch02",
+   "order": 2,
+   "name": "Carbohydrates: α- and β-glucose, glycosidic bonds; starch, glycogen and cellulose",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch02-st1"
+   ],
+   "prerequisiteNote": "Condensation and hydrolysis; carbohydrates (IGCSE ch 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch02-st3",
+   "chapterId": "cambridge-g11-biology-ch02",
+   "order": 3,
+   "name": "Lipids: triglycerides, ester bonds and phospholipids",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch02-st1"
+   ],
+   "prerequisiteNote": "Condensation reactions; fats and oils (IGCSE ch 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch02-st4",
+   "chapterId": "cambridge-g11-biology-ch02",
+   "order": 4,
+   "name": "Proteins: amino acids, peptide bonds and primary to quaternary structure; haemoglobin and collagen",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch02-st1"
+   ],
+   "prerequisiteNote": "Condensation and hydrolysis; proteins (IGCSE ch 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch02-st5",
+   "chapterId": "cambridge-g11-biology-ch02",
+   "order": 5,
+   "name": "Water: hydrogen bonding and properties important to organisms",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch02-st1"
+   ],
+   "prerequisiteNote": "Polar molecules and hydrogen bonding (IGCSE chemistry bonding)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch03-st1",
+   "chapterId": "cambridge-g11-biology-ch03",
+   "order": 1,
+   "name": "Mode of action of enzymes: lock-and-key and induced-fit hypotheses; lowering activation energy",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch02-st4",
+    "cambridge-g9-biology-ch05-st1"
+   ],
+   "prerequisiteNote": "Protein tertiary structure; enzymes and active site (IGCSE ch 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch03-st2",
+   "chapterId": "cambridge-g11-biology-ch03",
+   "order": 2,
+   "name": "Factors affecting enzyme action: temperature, pH, enzyme and substrate concentration",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch03-st1",
+    "cambridge-g9-biology-ch05-st3"
+   ],
+   "prerequisiteNote": "Mode of enzyme action; effect of temperature and pH (IGCSE ch 5); drawing rate graphs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch03-st3",
+   "chapterId": "cambridge-g11-biology-ch03",
+   "order": 3,
+   "name": "Competitive and non-competitive inhibition",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch03-st2"
+   ],
+   "prerequisiteNote": "Factors affecting enzyme action; active site shape",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch03-st4",
+   "chapterId": "cambridge-g11-biology-ch03",
+   "order": 4,
+   "name": "Vmax, Michaelis–Menten constant Km and immobilised enzymes",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch03-st2",
+    "cambridge-g11-biology-ch03-st3"
+   ],
+   "prerequisiteNote": "Enzyme and substrate concentration graphs; inhibition",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch04-st1",
+   "chapterId": "cambridge-g11-biology-ch04",
+   "order": 1,
+   "name": "Fluid mosaic model: phospholipids, proteins, glycoproteins, glycolipids and cholesterol",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch02-st3"
+   ],
+   "prerequisiteNote": "Phospholipid structure (Biological Molecules)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch04-st2",
+   "chapterId": "cambridge-g11-biology-ch04",
+   "order": 2,
+   "name": "Cell signalling across membranes via receptors",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch04-st1"
+   ],
+   "prerequisiteNote": "Fluid mosaic model; hormones bind to receptors (IGCSE ch 14)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch04-st3",
+   "chapterId": "cambridge-g11-biology-ch04",
+   "order": 3,
+   "name": "Simple and facilitated diffusion, osmosis and water potential",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch04-st1",
+    "cambridge-g9-biology-ch03-st2"
+   ],
+   "prerequisiteNote": "Diffusion and osmosis (IGCSE ch 3); fluid mosaic model",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch04-st4",
+   "chapterId": "cambridge-g11-biology-ch04",
+   "order": 4,
+   "name": "Active transport, endocytosis and exocytosis; surface area to volume ratio",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch04-st3",
+    "cambridge-g9-biology-ch03-st3"
+   ],
+   "prerequisiteNote": "Active transport (IGCSE ch 3); simple and facilitated diffusion",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch05-st1",
+   "chapterId": "cambridge-g11-biology-ch05",
+   "order": 1,
+   "name": "Chromosome structure: chromatids, centromere and telomeres",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch06-st1"
+   ],
+   "prerequisiteNote": "Chromosomes, genes and alleles (IGCSE ch 17)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch05-st2",
+   "chapterId": "cambridge-g11-biology-ch05",
+   "order": 2,
+   "name": "The mitotic cell cycle: interphase, mitosis and cytokinesis",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch05-st1",
+    "cambridge-g10-biology-ch06-st3"
+   ],
+   "prerequisiteNote": "Chromosome structure; mitosis (IGCSE ch 17)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch05-st3",
+   "chapterId": "cambridge-g11-biology-ch05",
+   "order": 3,
+   "name": "Role of mitosis in growth, repair and asexual reproduction; stem cells and cancer",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch05-st2"
+   ],
+   "prerequisiteNote": "The mitotic cell cycle",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch06-st1",
+   "chapterId": "cambridge-g11-biology-ch06",
+   "order": 1,
+   "name": "Structure of nucleotides, ATP, DNA and RNA",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch04-st3",
+    "cambridge-g11-biology-ch02-st1"
+   ],
+   "prerequisiteNote": "DNA double helix and base pairing (IGCSE ch 4); condensation reactions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch06-st2",
+   "chapterId": "cambridge-g11-biology-ch06",
+   "order": 2,
+   "name": "Semi-conservative replication of DNA",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch06-st1"
+   ],
+   "prerequisiteNote": "Nucleotide and DNA structure",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch06-st3",
+   "chapterId": "cambridge-g11-biology-ch06",
+   "order": 3,
+   "name": "Transcription, mRNA processing and translation; the genetic code",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch06-st2",
+    "cambridge-g10-biology-ch06-st2"
+   ],
+   "prerequisiteNote": "DNA replication; protein synthesis (IGCSE ch 17)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch06-st4",
+   "chapterId": "cambridge-g11-biology-ch06",
+   "order": 4,
+   "name": "Gene mutations: substitution, insertion and deletion and their effects",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch06-st3"
+   ],
+   "prerequisiteNote": "Transcription and translation; triplet code",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch07-st1",
+   "chapterId": "cambridge-g11-biology-ch07",
+   "order": 1,
+   "name": "Structure of transport tissues: xylem vessels and phloem sieve tubes in stems, roots and leaves",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch08-st1",
+    "cambridge-g11-biology-ch01-st2"
+   ],
+   "prerequisiteNote": "Xylem and phloem (IGCSE ch 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch07-st2",
+   "chapterId": "cambridge-g11-biology-ch07",
+   "order": 2,
+   "name": "Transpiration and movement of water: apoplast and symplast pathways, cohesion–tension",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch07-st1",
+    "cambridge-g11-biology-ch04-st3",
+    "cambridge-g9-biology-ch08-st3"
+   ],
+   "prerequisiteNote": "Transpiration (IGCSE ch 8); water potential",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch07-st3",
+   "chapterId": "cambridge-g11-biology-ch07",
+   "order": 3,
+   "name": "Xerophytic adaptations",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch07-st2",
+    "cambridge-g10-biology-ch07-st2"
+   ],
+   "prerequisiteNote": "Transpiration; adaptive features (IGCSE ch 19)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch07-st4",
+   "chapterId": "cambridge-g11-biology-ch07",
+   "order": 4,
+   "name": "Translocation: mass flow of assimilates from source to sink and phloem loading",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch07-st1",
+    "cambridge-g11-biology-ch04-st4"
+   ],
+   "prerequisiteNote": "Phloem structure; active transport",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch08-st1",
+   "chapterId": "cambridge-g11-biology-ch08",
+   "order": 1,
+   "name": "Structure and function of arteries, veins and capillaries; tissue fluid formation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch09-st3"
+   ],
+   "prerequisiteNote": "Blood vessels (IGCSE ch 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch08-st2",
+   "chapterId": "cambridge-g11-biology-ch08",
+   "order": 2,
+   "name": "Red blood cells, haemoglobin and transport of oxygen and carbon dioxide; the Bohr shift",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch08-st1",
+    "cambridge-g11-biology-ch02-st4"
+   ],
+   "prerequisiteNote": "Haemoglobin quaternary structure; components of blood (IGCSE ch 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch08-st3",
+   "chapterId": "cambridge-g11-biology-ch08",
+   "order": 3,
+   "name": "The cardiac cycle and pressure changes in the heart",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch08-st1",
+    "cambridge-g9-biology-ch09-st2"
+   ],
+   "prerequisiteNote": "Structure of the heart (IGCSE ch 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch08-st4",
+   "chapterId": "cambridge-g11-biology-ch08",
+   "order": 4,
+   "name": "Control of the heartbeat: SAN, AVN and Purkyne tissue; interpreting ECGs",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch08-st3"
+   ],
+   "prerequisiteNote": "Cardiac cycle; nerve impulses (IGCSE ch 13)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch09-st1",
+   "chapterId": "cambridge-g11-biology-ch09",
+   "order": 1,
+   "name": "Structure of the gas exchange system: trachea, bronchi, bronchioles and alveoli; tissues present",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-biology-ch01-st3"
+   ],
+   "prerequisiteNote": "Gas exchange surfaces and breathing system (IGCSE ch 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch09-st2",
+   "chapterId": "cambridge-g11-biology-ch09",
+   "order": 2,
+   "name": "Gas exchange at alveoli and adaptations for efficient diffusion",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch09-st1",
+    "cambridge-g11-biology-ch04-st3"
+   ],
+   "prerequisiteNote": "Gas exchange system structure; diffusion and surface area",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch09-st3",
+   "chapterId": "cambridge-g11-biology-ch09",
+   "order": 3,
+   "name": "Ciliated epithelium, goblet cells and mucus in protecting the airways",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch09-st1"
+   ],
+   "prerequisiteNote": "Gas exchange system structure; specialised cells",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch10-st1",
+   "chapterId": "cambridge-g11-biology-ch10",
+   "order": 1,
+   "name": "Causes and transmission of cholera, malaria, tuberculosis, HIV/AIDS and measles",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch10-st1",
+    "cambridge-g11-biology-ch01-st4"
+   ],
+   "prerequisiteNote": "Pathogens and transmission (IGCSE ch 10); viruses and prokaryotes",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch10-st2",
+   "chapterId": "cambridge-g11-biology-ch10",
+   "order": 2,
+   "name": "Preventing and controlling the spread of infectious diseases",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch10-st1"
+   ],
+   "prerequisiteNote": "Causes and transmission of diseases",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch10-st3",
+   "chapterId": "cambridge-g11-biology-ch10",
+   "order": 3,
+   "name": "Antibiotics: how they work, antibiotic resistance and reducing its impact",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch10-st1",
+    "cambridge-g10-biology-ch07-st3"
+   ],
+   "prerequisiteNote": "Prokaryotic cells; antibiotic resistance and natural selection (IGCSE ch 19)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch11-st1",
+   "chapterId": "cambridge-g11-biology-ch11",
+   "order": 1,
+   "name": "Phagocytes and the non-specific immune response",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-biology-ch10-st2"
+   ],
+   "prerequisiteNote": "Body defences and phagocytosis (IGCSE ch 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch11-st2",
+   "chapterId": "cambridge-g11-biology-ch11",
+   "order": 2,
+   "name": "Lymphocytes: B cells, T cells, clonal selection and memory cells",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch11-st1",
+    "cambridge-g11-biology-ch05-st3"
+   ],
+   "prerequisiteNote": "Phagocytes; mitosis and clonal expansion",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch11-st3",
+   "chapterId": "cambridge-g11-biology-ch11",
+   "order": 3,
+   "name": "Antibody structure and function",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch11-st2",
+    "cambridge-g11-biology-ch02-st4"
+   ],
+   "prerequisiteNote": "Lymphocytes; protein quaternary structure",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-biology-ch11-st4",
+   "chapterId": "cambridge-g11-biology-ch11",
+   "order": 4,
+   "name": "Active and passive immunity; vaccination and monoclonal antibodies",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-biology-ch11-st3",
+    "cambridge-g9-biology-ch10-st3"
+   ],
+   "prerequisiteNote": "Antibodies; vaccination (IGCSE ch 10)",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

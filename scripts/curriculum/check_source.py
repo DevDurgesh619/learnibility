@@ -91,7 +91,7 @@ def find_cycles(all_src):
     return cyc
 
 def main(argv):
-    rows = {r["id"]: r for r in sheet.read_rows()}
+    rows = {r["id"]: r for r in sheet.read_rows() if r["counted"]}
     all_src = load_all()
     known = {i for s in all_src.values() for i in subtopic_ids(s)}
     targets = argv or list(all_src)

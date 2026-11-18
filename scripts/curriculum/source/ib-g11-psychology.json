@@ -1,0 +1,460 @@
+{
+  "subjectId": "ib-g11-psychology",
+  "chapters": [
+    {
+      "name": "Introduction to Psychology: Concepts, Content and Contexts",
+      "subtopics": [
+        {
+          "name": "What is psychology? Biological, cognitive and sociocultural approaches to behaviour",
+          "weight": "L",
+          "prereq": [],
+          "note": "Everyday ideas of behaviour and mind; no prior psychology assumed"
+        },
+        {
+          "name": "The six key concepts: bias, causality, change, measurement, perspective and responsibility",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-psychology-ch01-st1"
+          ],
+          "note": "Cause versus correlation in everyday reasoning (MYP sciences)"
+        },
+        {
+          "name": "Interaction of approaches: why behaviour needs more than one explanation",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-psychology-ch01-st1",
+            "ib-g11-psychology-ch01-st2"
+          ],
+          "note": "The three approaches; perspective as a concept"
+        }
+      ]
+    },
+    {
+      "name": "Research Methods: Quantitative Approaches",
+      "subtopics": [
+        {
+          "name": "The experiment: IV, DV, operationalisation, controls and hypotheses",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-psychology-ch01-st2"
+          ],
+          "note": "Fair test and variables (MYP sciences); causality concept"
+        },
+        {
+          "name": "Experimental designs: independent samples, repeated measures, matched pairs",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-psychology-ch02-st1"
+          ],
+          "note": "Experimental variables and controls"
+        },
+        {
+          "name": "Correlational studies and the problem of causality",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-psychology-ch02-st1",
+            "ib-g11-psychology-ch01-st2"
+          ],
+          "note": "Scatter graphs and positive/negative correlation (MYP maths)"
+        },
+        {
+          "name": "Sampling techniques: random, opportunity, self-selected, purposive, snowball",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-psychology-ch02-st1"
+          ],
+          "note": "Population and sample (MYP maths statistics)"
+        }
+      ]
+    },
+    {
+      "name": "Research Methods: Qualitative Approaches, Ethics and Evaluation",
+      "subtopics": [
+        {
+          "name": "Qualitative methods: interviews, observations, case studies and focus groups",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-psychology-ch02-st4"
+          ],
+          "note": "Sampling techniques; difference between numbers and words as data"
+        },
+        {
+          "name": "Ethical guidelines: informed consent, deception, debriefing, right to withdraw, protection from harm",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-psychology-ch01-st2"
+          ],
+          "note": "Responsibility as a key concept"
+        },
+        {
+          "name": "Evaluating research: credibility, generalisability, bias and reliability",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-psychology-ch02-st1",
+            "ib-g11-psychology-ch03-st1"
+          ],
+          "note": "Experimental and qualitative designs; bias concept"
+        },
+        {
+          "name": "Triangulation, reflexivity and the researcher's perspective",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-psychology-ch03-st3"
+          ],
+          "note": "Credibility and bias in research"
+        }
+      ]
+    },
+    {
+      "name": "Biological Content: The Brain and Behaviour",
+      "subtopics": [
+        {
+          "name": "Localisation of function and brain imaging techniques (MRI, fMRI, EEG)",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-psychology-ch01-st1"
+          ],
+          "note": "Structure of the nervous system and neurons (MYP 5 biology)"
+        },
+        {
+          "name": "Neuroplasticity: neural networks, synaptic pruning and recovery",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-psychology-ch04-st1",
+            "ib-g11-psychology-ch03-st3"
+          ],
+          "note": "Localisation of function; evaluating research"
+        },
+        {
+          "name": "Neurotransmitters and behaviour: agonists, antagonists and synaptic transmission",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-psychology-ch04-st1"
+          ],
+          "note": "Synapse and nerve impulse (MYP 5 biology)"
+        },
+        {
+          "name": "Animal research in biological psychology: value and ethics",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-psychology-ch04-st2",
+            "ib-g11-psychology-ch03-st2"
+          ],
+          "note": "Ethical guidelines; neuroplasticity studies"
+        }
+      ]
+    },
+    {
+      "name": "Biological Content: Hormones, Pheromones and Genetics",
+      "subtopics": [
+        {
+          "name": "Hormones and behaviour: cortisol, oxytocin, testosterone",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-psychology-ch04-st3"
+          ],
+          "note": "Endocrine system and glands (MYP 5 biology)"
+        },
+        {
+          "name": "Pheromones and human behaviour: the debate",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-psychology-ch05-st1",
+            "ib-g11-psychology-ch03-st3"
+          ],
+          "note": "Hormones and behaviour; evaluating research"
+        },
+        {
+          "name": "Genetics and behaviour: twin, family and adoption studies",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-psychology-ch02-st3"
+          ],
+          "note": "Genes and inheritance (MYP 5 biology); correlation"
+        },
+        {
+          "name": "Evolutionary explanations of behaviour",
+          "weight": "L",
+          "prereq": [
+            "ib-g11-psychology-ch05-st3"
+          ],
+          "note": "Natural selection (MYP biology)"
+        }
+      ]
+    },
+    {
+      "name": "Cognitive Content: Cognitive Processing and Memory",
+      "subtopics": [
+        {
+          "name": "Models of memory: multi-store and working memory models",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-psychology-ch01-st1",
+            "ib-g11-psychology-ch02-st1"
+          ],
+          "note": "Experiments and variables; everyday ideas of memory"
+        },
+        {
+          "name": "Schema theory and its role in perception and memory",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-psychology-ch06-st1"
+          ],
+          "note": "Models of memory"
+        },
+        {
+          "name": "Thinking and decision-making: dual-process model (System 1 and System 2)",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-psychology-ch06-st2"
+          ],
+          "note": "Schema theory"
+        },
+        {
+          "name": "Brain basis of memory: hippocampus and case study of HM",
+          "weight": "L",
+          "prereq": [
+            "ib-g11-psychology-ch06-st1",
+            "ib-g11-psychology-ch04-st1"
+          ],
+          "note": "Localisation of function; case studies"
+        }
+      ]
+    },
+    {
+      "name": "Cognitive Content: Reliability of Cognitive Processes and Emotion",
+      "subtopics": [
+        {
+          "name": "Reconstructive memory and eyewitness testimony (Loftus and Palmer)",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-psychology-ch06-st2"
+          ],
+          "note": "Schema theory; experimental design"
+        },
+        {
+          "name": "Cognitive biases and heuristics: anchoring, framing, availability",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-psychology-ch06-st3"
+          ],
+          "note": "Dual-process model"
+        },
+        {
+          "name": "Emotion and cognition: flashbulb memory and the role of the amygdala",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-psychology-ch07-st1",
+            "ib-g11-psychology-ch04-st1"
+          ],
+          "note": "Reconstructive memory; localisation"
+        }
+      ]
+    },
+    {
+      "name": "Sociocultural Content: The Individual, the Group and Culture",
+      "subtopics": [
+        {
+          "name": "Social identity theory and social categorisation",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-psychology-ch01-st1"
+          ],
+          "note": "Group membership in everyday life; perspective concept"
+        },
+        {
+          "name": "Social cognitive theory and observational learning",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-psychology-ch08-st1"
+          ],
+          "note": "Social identity theory; modelling"
+        },
+        {
+          "name": "Formation and effects of stereotypes",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-psychology-ch08-st1",
+            "ib-g11-psychology-ch06-st2"
+          ],
+          "note": "Social identity theory; schema theory"
+        },
+        {
+          "name": "Culture, cultural norms and cultural dimensions (Hofstede)",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-psychology-ch08-st1"
+          ],
+          "note": "Definitions of culture and norms"
+        },
+        {
+          "name": "Enculturation and acculturation",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-psychology-ch08-st4"
+          ],
+          "note": "Culture and cultural dimensions"
+        }
+      ]
+    },
+    {
+      "name": "Context: Health and Well-being",
+      "subtopics": [
+        {
+          "name": "Defining health and well-being: biopsychosocial model",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-psychology-ch01-st3"
+          ],
+          "note": "Interaction of approaches"
+        },
+        {
+          "name": "Explaining a health problem (stress or depression): biological, cognitive and sociocultural factors",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-psychology-ch09-st1",
+            "ib-g11-psychology-ch05-st1",
+            "ib-g11-psychology-ch07-st2"
+          ],
+          "note": "Hormones (cortisol); cognitive biases; sociocultural factors"
+        },
+        {
+          "name": "Treatments and interventions: biological and psychological therapies and their effectiveness",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-psychology-ch09-st2",
+            "ib-g11-psychology-ch04-st3"
+          ],
+          "note": "Neurotransmitters; explanations of the health problem"
+        },
+        {
+          "name": "Health promotion: approaches and evaluation of a campaign",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-psychology-ch09-st2",
+            "ib-g11-psychology-ch08-st2"
+          ],
+          "note": "Social cognitive theory; health explanations"
+        }
+      ]
+    },
+    {
+      "name": "Context: Human Development",
+      "subtopics": [
+        {
+          "name": "Brain development in childhood and adolescence",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-psychology-ch04-st2"
+          ],
+          "note": "Neuroplasticity and synaptic pruning"
+        },
+        {
+          "name": "Cognitive development: Piaget and Vygotsky",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-psychology-ch10-st1",
+            "ib-g11-psychology-ch06-st2"
+          ],
+          "note": "Schema theory; brain development"
+        },
+        {
+          "name": "Attachment: Bowlby, Ainsworth's Strange Situation and cross-cultural research",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-psychology-ch10-st1",
+            "ib-g11-psychology-ch08-st4"
+          ],
+          "note": "Cultural dimensions; observational methods"
+        },
+        {
+          "name": "Development of identity: gender identity and social roles",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-psychology-ch10-st3",
+            "ib-g11-psychology-ch08-st1"
+          ],
+          "note": "Social identity theory; attachment"
+        }
+      ]
+    },
+    {
+      "name": "Class Practical 1: Conducting an Experiment",
+      "subtopics": [
+        {
+          "name": "Designing a replication: aim, hypotheses, materials and standardised procedure",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-psychology-ch02-st1",
+            "ib-g11-psychology-ch02-st2"
+          ],
+          "note": "Experimental design and variables"
+        },
+        {
+          "name": "Collecting and organising data: tables, raw data and levels of measurement",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-psychology-ch11-st1"
+          ],
+          "note": "Experimental procedure; types of data (MYP maths)"
+        },
+        {
+          "name": "Descriptive statistics: mean, median, mode, range, standard deviation and graphs",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-psychology-ch11-st2"
+          ],
+          "note": "Averages and spread (MYP maths)"
+        },
+        {
+          "name": "Evaluating the experiment: validity, reliability and ethical considerations",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-psychology-ch11-st3",
+            "ib-g11-psychology-ch03-st3"
+          ],
+          "note": "Credibility and bias in research"
+        }
+      ]
+    },
+    {
+      "name": "Class Practical 2: Conducting an Observation",
+      "subtopics": [
+        {
+          "name": "Naturalistic, controlled, participant and covert observation",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-psychology-ch03-st1"
+          ],
+          "note": "Qualitative methods overview"
+        },
+        {
+          "name": "Behaviour checklists, coding schemes and inter-rater reliability",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-psychology-ch12-st1"
+          ],
+          "note": "Observation types; reliability"
+        },
+        {
+          "name": "Ethical issues and observer bias in observational research",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-psychology-ch12-st2",
+            "ib-g11-psychology-ch03-st2"
+          ],
+          "note": "Ethical guidelines; bias concept"
+        },
+        {
+          "name": "Answering Paper 2 practical-based questions on observations and experiments",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-psychology-ch12-st3",
+            "ib-g11-psychology-ch11-st4"
+          ],
+          "note": "Evaluation of both practicals"
+        }
+      ]
+    }
+  ]
+}

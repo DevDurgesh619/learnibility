@@ -1,0 +1,767 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "ib-g11-chemistry",
+  "board": "ib",
+  "grade": 11,
+  "stream": "science",
+  "slug": "chemistry",
+  "name": "Chemistry",
+  "programme": "IB DP Chemistry SL/HL (first exam 2025) – Structure & Reactivity, 22 subtopics",
+  "examPattern": "IB DP – graded 1–7; recommended 150 h SL / 240 h HL; exams May (Hindi May only). HL: Paper 1 2 h, 75 marks (36%) = 1A 40 MCQ + 1B data-based/experimental (35); Paper 2 2 h 30, 90 marks (44%), ~9 structured questions; IA 24 marks (20%). SL: 1A 30 MCQ + 1B 25 (1 h 30), P2 50 marks 1 h 30.",
+  "chapterCount": 11,
+  "questionTarget": 1256
+ },
+ "items": [
+  {
+   "id": "ib-g11-chemistry-ch01",
+   "subjectId": "ib-g11-chemistry",
+   "order": 1,
+   "name": "S1.1 Introduction to the Particulate Nature of Matter and S1.2 The Nuclear Atom",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "ib-g11-chemistry-ch01-st1",
+    "ib-g11-chemistry-ch01-st2",
+    "ib-g11-chemistry-ch01-st3",
+    "ib-g11-chemistry-ch01-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-chemistry-ch02",
+   "subjectId": "ib-g11-chemistry",
+   "order": 2,
+   "name": "S1.3 Electron Configurations",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "ib-g11-chemistry-ch02-st1",
+    "ib-g11-chemistry-ch02-st2",
+    "ib-g11-chemistry-ch02-st3",
+    "ib-g11-chemistry-ch02-st4",
+    "ib-g11-chemistry-ch02-st5"
+   ]
+  },
+  {
+   "id": "ib-g11-chemistry-ch03",
+   "subjectId": "ib-g11-chemistry",
+   "order": 3,
+   "name": "S1.4 Counting Particles by Mass: the Mole",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "ib-g11-chemistry-ch03-st1",
+    "ib-g11-chemistry-ch03-st2",
+    "ib-g11-chemistry-ch03-st3",
+    "ib-g11-chemistry-ch03-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-chemistry-ch04",
+   "subjectId": "ib-g11-chemistry",
+   "order": 4,
+   "name": "S1.5 Ideal Gases",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g11-chemistry-ch04-st1",
+    "ib-g11-chemistry-ch04-st2",
+    "ib-g11-chemistry-ch04-st3"
+   ]
+  },
+  {
+   "id": "ib-g11-chemistry-ch05",
+   "subjectId": "ib-g11-chemistry",
+   "order": 5,
+   "name": "R2.1 How Much? The Amount of Chemical Change",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "ib-g11-chemistry-ch05-st1",
+    "ib-g11-chemistry-ch05-st2",
+    "ib-g11-chemistry-ch05-st3",
+    "ib-g11-chemistry-ch05-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-chemistry-ch06",
+   "subjectId": "ib-g11-chemistry",
+   "order": 6,
+   "name": "S2.1 The Ionic Model",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "ib-g11-chemistry-ch06-st1",
+    "ib-g11-chemistry-ch06-st2",
+    "ib-g11-chemistry-ch06-st3"
+   ]
+  },
+  {
+   "id": "ib-g11-chemistry-ch07",
+   "subjectId": "ib-g11-chemistry",
+   "order": 7,
+   "name": "S2.2 The Covalent Model",
+   "teachingPeriods": 22,
+   "subtopicIds": [
+    "ib-g11-chemistry-ch07-st1",
+    "ib-g11-chemistry-ch07-st2",
+    "ib-g11-chemistry-ch07-st3",
+    "ib-g11-chemistry-ch07-st4",
+    "ib-g11-chemistry-ch07-st5"
+   ]
+  },
+  {
+   "id": "ib-g11-chemistry-ch08",
+   "subjectId": "ib-g11-chemistry",
+   "order": 8,
+   "name": "S2.3 The Metallic Model and S2.4 From Models to Materials",
+   "teachingPeriods": 15,
+   "subtopicIds": [
+    "ib-g11-chemistry-ch08-st1",
+    "ib-g11-chemistry-ch08-st2",
+    "ib-g11-chemistry-ch08-st3",
+    "ib-g11-chemistry-ch08-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-chemistry-ch09",
+   "subjectId": "ib-g11-chemistry",
+   "order": 9,
+   "name": "R1.1 Measuring Enthalpy Changes and R1.2 Energy Cycles in Reactions",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "ib-g11-chemistry-ch09-st1",
+    "ib-g11-chemistry-ch09-st2",
+    "ib-g11-chemistry-ch09-st3",
+    "ib-g11-chemistry-ch09-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-chemistry-ch10",
+   "subjectId": "ib-g11-chemistry",
+   "order": 10,
+   "name": "R1.3 Energy from Fuels",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "ib-g11-chemistry-ch10-st1",
+    "ib-g11-chemistry-ch10-st2",
+    "ib-g11-chemistry-ch10-st3"
+   ]
+  },
+  {
+   "id": "ib-g11-chemistry-ch11",
+   "subjectId": "ib-g11-chemistry",
+   "order": 11,
+   "name": "R1.4 Entropy and Spontaneity (HL)",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g11-chemistry-ch11-st1",
+    "ib-g11-chemistry-ch11-st2",
+    "ib-g11-chemistry-ch11-st3"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "ib-g11-chemistry-ch01-st1",
+   "chapterId": "ib-g11-chemistry-ch01",
+   "order": 1,
+   "name": "S1.1 Elements, compounds and mixtures; separation techniques",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g8-science-ch07-st3",
+    "ib-g8-science-ch07-st4"
+   ],
+   "prerequisiteNote": "Elements, compounds and mixtures (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch01-st2",
+   "chapterId": "ib-g11-chemistry-ch01",
+   "order": 2,
+   "name": "S1.1 Kinetic molecular theory, states of matter and the Kelvin scale",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g8-science-ch06-st2"
+   ],
+   "prerequisiteNote": "Particle model and changes of state (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch01-st3",
+   "chapterId": "ib-g11-chemistry-ch01",
+   "order": 3,
+   "name": "S1.2 Subatomic particles, nuclear symbols and isotopes",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g9-science-ch04-st2"
+   ],
+   "prerequisiteNote": "Atomic structure and isotopes (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch01-st4",
+   "chapterId": "ib-g11-chemistry-ch01",
+   "order": 4,
+   "name": "S1.2 Relative atomic mass from isotopic abundance and mass spectra (HL)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-chemistry-ch01-st3",
+    "ib-g9-maths-ch11-st2"
+   ],
+   "prerequisiteNote": "Isotopes; weighted mean (MYP maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch02-st1",
+   "chapterId": "ib-g11-chemistry-ch02",
+   "order": 1,
+   "name": "Emission spectra and the hydrogen line spectrum: energy levels",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g9-science-ch04-st3",
+    "ib-g9-science-ch10-st3"
+   ],
+   "prerequisiteNote": "Electron shells (MYP 4); EM spectrum",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch02-st2",
+   "chapterId": "ib-g11-chemistry-ch02",
+   "order": 2,
+   "name": "Sublevels, orbitals and full electron configurations using the Aufbau principle, Hund's rule and Pauli exclusion",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-chemistry-ch02-st1"
+   ],
+   "prerequisiteNote": "Electron shells and energy levels",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch02-st3",
+   "chapterId": "ib-g11-chemistry-ch02",
+   "order": 3,
+   "name": "Condensed configurations and exceptions (Cr and Cu); orbital diagrams",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-chemistry-ch02-st2"
+   ],
+   "prerequisiteNote": "Full electron configurations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch02-st4",
+   "chapterId": "ib-g11-chemistry-ch02",
+   "order": 4,
+   "name": "Ionisation energy trends and successive ionisation energies (HL)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-chemistry-ch02-st2"
+   ],
+   "prerequisiteNote": "Electron configurations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch02-st5",
+   "chapterId": "ib-g11-chemistry-ch02",
+   "order": 5,
+   "name": "Ionisation energy from the convergence limit of spectra (HL)",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-chemistry-ch02-st1"
+   ],
+   "prerequisiteNote": "Hydrogen line spectrum; E = hf",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch03-st1",
+   "chapterId": "ib-g11-chemistry-ch03",
+   "order": 1,
+   "name": "The mole, Avogadro's constant and molar mass",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g10-science-ch05-st1",
+    "ib-g11-chemistry-ch01-st4"
+   ],
+   "prerequisiteNote": "The mole (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch03-st2",
+   "chapterId": "ib-g11-chemistry-ch03",
+   "order": 2,
+   "name": "Empirical and molecular formulae from composition data",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-chemistry-ch03-st1",
+    "ib-g9-science-ch06-st4"
+   ],
+   "prerequisiteNote": "Molar mass; percentage composition (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch03-st3",
+   "chapterId": "ib-g11-chemistry-ch03",
+   "order": 3,
+   "name": "Concentration of solutions in mol dm⁻³ and g dm⁻³; dilution",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-chemistry-ch03-st1",
+    "ib-g10-science-ch05-st3"
+   ],
+   "prerequisiteNote": "Moles and volume units",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch03-st4",
+   "chapterId": "ib-g11-chemistry-ch03",
+   "order": 4,
+   "name": "Avogadro's law and molar volume of gases",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-chemistry-ch03-st1"
+   ],
+   "prerequisiteNote": "The mole",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch04-st1",
+   "chapterId": "ib-g11-chemistry-ch04",
+   "order": 1,
+   "name": "Assumptions of the ideal gas model and deviation of real gases",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-chemistry-ch01-st2"
+   ],
+   "prerequisiteNote": "Kinetic molecular theory",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch04-st2",
+   "chapterId": "ib-g11-chemistry-ch04",
+   "order": 2,
+   "name": "Gas laws and the ideal gas equation pV = nRT",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-chemistry-ch03-st1",
+    "ib-g11-chemistry-ch01-st2"
+   ],
+   "prerequisiteNote": "Mole; Kelvin scale; rearranging formulae",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch04-st3",
+   "chapterId": "ib-g11-chemistry-ch04",
+   "order": 3,
+   "name": "Determining molar mass of a gas experimentally",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-chemistry-ch04-st2"
+   ],
+   "prerequisiteNote": "Ideal gas equation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch05-st1",
+   "chapterId": "ib-g11-chemistry-ch05",
+   "order": 1,
+   "name": "Balanced equations and mole ratios in reacting masses",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g9-science-ch06-st1",
+    "ib-g11-chemistry-ch03-st1"
+   ],
+   "prerequisiteNote": "Balancing equations (MYP 4); the mole",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch05-st2",
+   "chapterId": "ib-g11-chemistry-ch05",
+   "order": 2,
+   "name": "Limiting and excess reactants",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-chemistry-ch05-st1"
+   ],
+   "prerequisiteNote": "Mole ratios",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch05-st3",
+   "chapterId": "ib-g11-chemistry-ch05",
+   "order": 3,
+   "name": "Theoretical, experimental and percentage yield; atom economy",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-chemistry-ch05-st2"
+   ],
+   "prerequisiteNote": "Mole ratios; limiting reactants",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch05-st4",
+   "chapterId": "ib-g11-chemistry-ch05",
+   "order": 4,
+   "name": "Titration and gas-volume stoichiometry",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-chemistry-ch03-st3",
+    "ib-g11-chemistry-ch03-st4",
+    "ib-g11-chemistry-ch05-st1"
+   ],
+   "prerequisiteNote": "Concentration; molar volume",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch06-st1",
+   "chapterId": "ib-g11-chemistry-ch06",
+   "order": 1,
+   "name": "Formation of ions and ionic bonding",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-chemistry-ch02-st2",
+    "ib-g9-science-ch05-st1"
+   ],
+   "prerequisiteNote": "Electron configurations; ionic bonding (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch06-st2",
+   "chapterId": "ib-g11-chemistry-ch06",
+   "order": 2,
+   "name": "Formulae and names of ionic compounds, including polyatomic ions",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-chemistry-ch06-st1"
+   ],
+   "prerequisiteNote": "Ion charges from group number",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch06-st3",
+   "chapterId": "ib-g11-chemistry-ch06",
+   "order": 3,
+   "name": "Ionic lattices, lattice enthalpy and physical properties of ionic compounds",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-chemistry-ch06-st1"
+   ],
+   "prerequisiteNote": "Ionic bonding",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch07-st1",
+   "chapterId": "ib-g11-chemistry-ch07",
+   "order": 1,
+   "name": "Covalent bonds, Lewis formulae, coordination bonds and the octet rule",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g9-science-ch05-st2"
+   ],
+   "prerequisiteNote": "Covalent bonding (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch07-st2",
+   "chapterId": "ib-g11-chemistry-ch07",
+   "order": 2,
+   "name": "VSEPR theory: electron domain and molecular geometry",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-chemistry-ch07-st1"
+   ],
+   "prerequisiteNote": "Lewis formulae",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch07-st3",
+   "chapterId": "ib-g11-chemistry-ch07",
+   "order": 3,
+   "name": "Bond polarity, electronegativity and molecular polarity",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-chemistry-ch07-st2"
+   ],
+   "prerequisiteNote": "VSEPR shapes; periodic trends",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch07-st4",
+   "chapterId": "ib-g11-chemistry-ch07",
+   "order": 4,
+   "name": "Intermolecular forces: London dispersion, dipole-dipole and hydrogen bonding; effect on properties",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-chemistry-ch07-st3"
+   ],
+   "prerequisiteNote": "Molecular polarity",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch07-st5",
+   "chapterId": "ib-g11-chemistry-ch07",
+   "order": 5,
+   "name": "Resonance, hybridisation and sigma/pi bonds; covalent network structures (HL)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-chemistry-ch07-st2"
+   ],
+   "prerequisiteNote": "Lewis formulae and VSEPR",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch08-st1",
+   "chapterId": "ib-g11-chemistry-ch08",
+   "order": 1,
+   "name": "Metallic bonding and properties of metals; transition elements (HL)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g9-science-ch05-st4"
+   ],
+   "prerequisiteNote": "Metallic bonding (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch08-st2",
+   "chapterId": "ib-g11-chemistry-ch08",
+   "order": 2,
+   "name": "The bonding triangle and the bonding continuum",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-chemistry-ch06-st3",
+    "ib-g11-chemistry-ch07-st3",
+    "ib-g11-chemistry-ch08-st1"
+   ],
+   "prerequisiteNote": "Ionic, covalent and metallic models; electronegativity",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch08-st3",
+   "chapterId": "ib-g11-chemistry-ch08",
+   "order": 3,
+   "name": "Alloys and polymers: addition and condensation polymers",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-chemistry-ch08-st1",
+    "ib-g10-science-ch06-st5"
+   ],
+   "prerequisiteNote": "Metallic bonding; addition polymerisation (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch08-st4",
+   "chapterId": "ib-g11-chemistry-ch08",
+   "order": 4,
+   "name": "Materials science: properties and applications of materials",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-chemistry-ch08-st2"
+   ],
+   "prerequisiteNote": "Bonding triangle",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch09-st1",
+   "chapterId": "ib-g11-chemistry-ch09",
+   "order": 1,
+   "name": "Exothermic and endothermic reactions, enthalpy profiles and standard conditions",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g10-science-ch07-st1"
+   ],
+   "prerequisiteNote": "Energetics (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch09-st2",
+   "chapterId": "ib-g11-chemistry-ch09",
+   "order": 2,
+   "name": "Calorimetry: calculating ΔH from q = mcΔT",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-chemistry-ch09-st1",
+    "ib-g11-chemistry-ch03-st1"
+   ],
+   "prerequisiteNote": "Enthalpy profiles; moles",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch09-st3",
+   "chapterId": "ib-g11-chemistry-ch09",
+   "order": 3,
+   "name": "Hess's law and enthalpy of formation and combustion cycles",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-chemistry-ch09-st2",
+    "ib-g11-chemistry-ch05-st1"
+   ],
+   "prerequisiteNote": "Enthalpy changes; balanced equations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch09-st4",
+   "chapterId": "ib-g11-chemistry-ch09",
+   "order": 4,
+   "name": "Bond enthalpies and Born-Haber cycles (HL)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-chemistry-ch09-st3",
+    "ib-g11-chemistry-ch06-st3"
+   ],
+   "prerequisiteNote": "Hess's law; lattice enthalpy",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch10-st1",
+   "chapterId": "ib-g11-chemistry-ch10",
+   "order": 1,
+   "name": "Combustion of fuels: complete and incomplete; specific energy and energy density",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g10-science-ch06-st3"
+   ],
+   "prerequisiteNote": "Combustion (MYP 3); organic fuels (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch10-st2",
+   "chapterId": "ib-g11-chemistry-ch10",
+   "order": 2,
+   "name": "Fossil fuels, biofuels and their environmental impact",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-chemistry-ch10-st1"
+   ],
+   "prerequisiteNote": "Combustion of fuels",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch10-st3",
+   "chapterId": "ib-g11-chemistry-ch10",
+   "order": 3,
+   "name": "Fuel cells: hydrogen and methanol",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-chemistry-ch10-st1"
+   ],
+   "prerequisiteNote": "Combustion; electron transfer",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch11-st1",
+   "chapterId": "ib-g11-chemistry-ch11",
+   "order": 1,
+   "name": "Entropy and predicting the sign of ΔS",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-chemistry-ch01-st2"
+   ],
+   "prerequisiteNote": "Kinetic molecular theory; states of matter",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch11-st2",
+   "chapterId": "ib-g11-chemistry-ch11",
+   "order": 2,
+   "name": "Gibbs energy ΔG = ΔH - TΔS and spontaneity",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-chemistry-ch11-st1",
+    "ib-g11-chemistry-ch09-st3"
+   ],
+   "prerequisiteNote": "Entropy; enthalpy changes",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-chemistry-ch11-st3",
+   "chapterId": "ib-g11-chemistry-ch11",
+   "order": 3,
+   "name": "Effect of temperature on spontaneity and ΔG in relation to equilibrium",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-chemistry-ch11-st2"
+   ],
+   "prerequisiteNote": "Gibbs energy",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

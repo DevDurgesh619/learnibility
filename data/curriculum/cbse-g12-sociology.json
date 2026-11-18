@@ -1,0 +1,599 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cbse-g12-sociology",
+  "board": "cbse",
+  "grade": 12,
+  "stream": "humanities",
+  "slug": "sociology",
+  "name": "Sociology",
+  "programme": "CBSE Class 12 Sociology (039)",
+  "textbook": "NCERT Indian Society + Social Change & Development in India – 9 chapters assessed (039)",
+  "examPattern": "CBSE Board exam, 3 h; SQP 2026-27 – 'no change in question paper design'. 50% competency-based, 20% MCQ, 30% SA/LA, ~33% internal choice. Theory 80 + Project 20. 35 questions: 16×1, 9×2, 7×4, 3×6.",
+  "chapterCount": 9,
+  "questionTarget": 885
+ },
+ "items": [
+  {
+   "id": "cbse-g12-sociology-ch01",
+   "subjectId": "cbse-g12-sociology",
+   "order": 1,
+   "name": "The Demographic Structure of Indian Society",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g12-sociology-ch01-st1",
+    "cbse-g12-sociology-ch01-st2",
+    "cbse-g12-sociology-ch01-st3",
+    "cbse-g12-sociology-ch01-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-sociology-ch02",
+   "subjectId": "cbse-g12-sociology",
+   "order": 2,
+   "name": "Social Institutions: Continuity and Change",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "cbse-g12-sociology-ch02-st1",
+    "cbse-g12-sociology-ch02-st2",
+    "cbse-g12-sociology-ch02-st3"
+   ]
+  },
+  {
+   "id": "cbse-g12-sociology-ch03",
+   "subjectId": "cbse-g12-sociology",
+   "order": 3,
+   "name": "Patterns of Social Inequality and Exclusion",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g12-sociology-ch03-st1",
+    "cbse-g12-sociology-ch03-st2",
+    "cbse-g12-sociology-ch03-st3",
+    "cbse-g12-sociology-ch03-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-sociology-ch04",
+   "subjectId": "cbse-g12-sociology",
+   "order": 4,
+   "name": "The Challenges of Cultural Diversity",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cbse-g12-sociology-ch04-st1",
+    "cbse-g12-sociology-ch04-st2",
+    "cbse-g12-sociology-ch04-st3"
+   ]
+  },
+  {
+   "id": "cbse-g12-sociology-ch05",
+   "subjectId": "cbse-g12-sociology",
+   "order": 5,
+   "name": "Structural Change",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cbse-g12-sociology-ch05-st1",
+    "cbse-g12-sociology-ch05-st2",
+    "cbse-g12-sociology-ch05-st3"
+   ]
+  },
+  {
+   "id": "cbse-g12-sociology-ch06",
+   "subjectId": "cbse-g12-sociology",
+   "order": 6,
+   "name": "Cultural Change",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cbse-g12-sociology-ch06-st1",
+    "cbse-g12-sociology-ch06-st2",
+    "cbse-g12-sociology-ch06-st3"
+   ]
+  },
+  {
+   "id": "cbse-g12-sociology-ch07",
+   "subjectId": "cbse-g12-sociology",
+   "order": 7,
+   "name": "Change and Development in Rural Society",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g12-sociology-ch07-st1",
+    "cbse-g12-sociology-ch07-st2",
+    "cbse-g12-sociology-ch07-st3",
+    "cbse-g12-sociology-ch07-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-sociology-ch08",
+   "subjectId": "cbse-g12-sociology",
+   "order": 8,
+   "name": "Change and Development in Industrial Society",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g12-sociology-ch08-st1",
+    "cbse-g12-sociology-ch08-st2",
+    "cbse-g12-sociology-ch08-st3",
+    "cbse-g12-sociology-ch08-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-sociology-ch09",
+   "subjectId": "cbse-g12-sociology",
+   "order": 9,
+   "name": "Social Movements",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g12-sociology-ch09-st1",
+    "cbse-g12-sociology-ch09-st2",
+    "cbse-g12-sociology-ch09-st3",
+    "cbse-g12-sociology-ch09-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cbse-g12-sociology-ch01-st1",
+   "chapterId": "cbse-g12-sociology-ch01",
+   "order": 1,
+   "name": "Demography: formal and social demography; Malthusian theory",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-social-science-ch13-st2"
+   ],
+   "prerequisiteNote": "Population growth, birth and death rates (Cl 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-sociology-ch01-st2",
+   "chapterId": "cbse-g12-sociology-ch01",
+   "order": 2,
+   "name": "Theory of demographic transition; common concepts and indicators (birth, death, fertility, sex ratio, dependency ratio)",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-sociology-ch01-st1",
+    "cbse-g12-geography-ch02-st3"
+   ],
+   "prerequisiteNote": "Malthus; demographic transition (Cl 12 Geography)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-sociology-ch01-st3",
+   "chapterId": "cbse-g12-sociology-ch01",
+   "order": 3,
+   "name": "Size, growth and age structure of India's population; declining sex ratio",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-sociology-ch01-st2",
+    "cbse-g12-geography-ch09-st2"
+   ],
+   "prerequisiteNote": "Demographic indicators; population growth in India (Cl 12 Geography)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-sociology-ch01-st4",
+   "chapterId": "cbse-g12-sociology-ch01",
+   "order": 4,
+   "name": "Literacy, rural-urban differences and population policy in India",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-sociology-ch01-st3"
+   ],
+   "prerequisiteNote": "Age structure and sex ratio",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-sociology-ch02-st1",
+   "chapterId": "cbse-g12-sociology-ch02",
+   "order": 1,
+   "name": "Caste and the caste system: in the past, under colonialism and in the present",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-sociology-ch03-st1",
+    "cbse-g12-history-ch03-st2"
+   ],
+   "prerequisiteNote": "Social institutions (Cl 11); varna and jati (Cl 12 History)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-sociology-ch02-st2",
+   "chapterId": "cbse-g12-sociology-ch02",
+   "order": 2,
+   "name": "Tribal communities: classification, mainstream attitudes and tribal identity",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-sociology-ch02-st1"
+   ],
+   "prerequisiteNote": "Caste system",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-sociology-ch02-st3",
+   "chapterId": "cbse-g12-sociology-ch02",
+   "order": 3,
+   "name": "Family and kinship: structure, matrilineal and patrilineal families",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-sociology-ch03-st1"
+   ],
+   "prerequisiteNote": "Family, marriage and kinship (Cl 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-sociology-ch03-st1",
+   "chapterId": "cbse-g12-sociology-ch03",
+   "order": 1,
+   "name": "Social inequality and social exclusion: concepts and features",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-sociology-ch02-st3"
+   ],
+   "prerequisiteNote": "Social stratification (Cl 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-sociology-ch03-st2",
+   "chapterId": "cbse-g12-sociology-ch03",
+   "order": 2,
+   "name": "Caste and social exclusion: untouchability, Dalits and the state's affirmative action",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-sociology-ch03-st1",
+    "cbse-g12-sociology-ch02-st1"
+   ],
+   "prerequisiteNote": "Social exclusion; caste system",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-sociology-ch03-st3",
+   "chapterId": "cbse-g12-sociology-ch03",
+   "order": 3,
+   "name": "Adivasi struggles and the struggle for women's equality and rights",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-sociology-ch03-st1",
+    "cbse-g12-sociology-ch02-st2"
+   ],
+   "prerequisiteNote": "Tribal communities; gender and politics (s10:15.1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-sociology-ch03-st4",
+   "chapterId": "cbse-g12-sociology-ch03",
+   "order": 4,
+   "name": "Struggles of the differently abled",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g12-sociology-ch03-st1"
+   ],
+   "prerequisiteNote": "Social exclusion concepts",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-sociology-ch04-st1",
+   "chapterId": "cbse-g12-sociology-ch04",
+   "order": 1,
+   "name": "Cultural communities and the nation-state: assimilation and integration",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-sociology-ch04-st1"
+   ],
+   "prerequisiteNote": "Culture (Cl 11); power-sharing (s10:13.2)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-sociology-ch04-st2",
+   "chapterId": "cbse-g12-sociology-ch04",
+   "order": 2,
+   "name": "Regionalism, communalism and the secular state",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-sociology-ch04-st1",
+    "cbse-g10-social-science-ch15-st2"
+   ],
+   "prerequisiteNote": "Community and nation-state; religion and politics (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-sociology-ch04-st3",
+   "chapterId": "cbse-g12-sociology-ch04",
+   "order": 3,
+   "name": "The authoritarian state and civil society; minority rights",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-sociology-ch04-st2",
+    "cbse-g11-political-science-ch02-st2"
+   ],
+   "prerequisiteNote": "Communalism and secularism; Fundamental Rights (Cl 11 Political Science)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-sociology-ch05-st1",
+   "chapterId": "cbse-g12-sociology-ch05",
+   "order": 1,
+   "name": "Understanding colonialism: capitalism and the colonial economy",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-history-ch09-st1",
+    "cbse-g8-social-science-ch04-st3"
+   ],
+   "prerequisiteNote": "Colonial economy (Cl 8, Cl 12 History)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-sociology-ch05-st2",
+   "chapterId": "cbse-g12-sociology-ch05",
+   "order": 2,
+   "name": "Urbanisation and industrialisation in colonial India",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-sociology-ch05-st1",
+    "cbse-g10-social-science-ch04-st3"
+   ],
+   "prerequisiteNote": "Colonialism; industrialisation in the colonies (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-sociology-ch05-st3",
+   "chapterId": "cbse-g12-sociology-ch05",
+   "order": 3,
+   "name": "Industrialisation and urbanisation in independent India",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-sociology-ch05-st2"
+   ],
+   "prerequisiteNote": "Colonial industrialisation and urbanisation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-sociology-ch06-st1",
+   "chapterId": "cbse-g12-sociology-ch06",
+   "order": 1,
+   "name": "Social reform movements of the 19th and early 20th century",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-sociology-ch05-st1",
+    "cbse-g10-social-science-ch05-st3"
+   ],
+   "prerequisiteNote": "Colonialism; print and social reform (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-sociology-ch06-st2",
+   "chapterId": "cbse-g12-sociology-ch06",
+   "order": 2,
+   "name": "Different kinds of social change: Sanskritisation and Westernisation",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-sociology-ch06-st1",
+    "cbse-g11-sociology-ch07-st4"
+   ],
+   "prerequisiteNote": "Social reform; M.N. Srinivas (Cl 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-sociology-ch06-st3",
+   "chapterId": "cbse-g12-sociology-ch06",
+   "order": 3,
+   "name": "Modernisation and secularisation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-sociology-ch06-st2"
+   ],
+   "prerequisiteNote": "Sanskritisation and Westernisation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-sociology-ch07-st1",
+   "chapterId": "cbse-g12-sociology-ch07",
+   "order": 1,
+   "name": "Agrarian structure: caste and class in rural India",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-sociology-ch02-st1",
+    "cbse-g11-sociology-ch05-st3"
+   ],
+   "prerequisiteNote": "Caste system; village society (Cl 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-sociology-ch07-st2",
+   "chapterId": "cbse-g12-sociology-ch07",
+   "order": 2,
+   "name": "Land reforms after independence and the Green Revolution and its social consequences",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-sociology-ch07-st1",
+    "cbse-g12-economics-ch08-st2"
+   ],
+   "prerequisiteNote": "Agrarian structure; land reforms and Green Revolution (Cl 12 Economics)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-sociology-ch07-st3",
+   "chapterId": "cbse-g12-sociology-ch07",
+   "order": 3,
+   "name": "Transformations in rural society after independence: labour circulation and migration",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-sociology-ch07-st2"
+   ],
+   "prerequisiteNote": "Green Revolution consequences",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-sociology-ch07-st4",
+   "chapterId": "cbse-g12-sociology-ch07",
+   "order": 4,
+   "name": "Globalisation, liberalisation and rural society; farmer suicides",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g12-sociology-ch07-st3",
+    "cbse-g12-economics-ch09-st3"
+   ],
+   "prerequisiteNote": "Rural transformations; globalisation (Cl 12 Economics)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-sociology-ch08-st1",
+   "chapterId": "cbse-g12-sociology-ch08",
+   "order": 1,
+   "name": "Images of industrial society and industrialisation in India",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-sociology-ch05-st3"
+   ],
+   "prerequisiteNote": "Industrialisation in independent India",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-sociology-ch08-st2",
+   "chapterId": "cbse-g12-sociology-ch08",
+   "order": 2,
+   "name": "Globalisation, liberalisation and changes in Indian industry; getting a job",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-sociology-ch08-st1",
+    "cbse-g12-economics-ch12-st3"
+   ],
+   "prerequisiteNote": "Indian industrialisation; informalisation of the workforce (Cl 12 Economics)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-sociology-ch08-st3",
+   "chapterId": "cbse-g12-sociology-ch08",
+   "order": 3,
+   "name": "Work processes: how work is done, working conditions, home-based work",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-sociology-ch08-st2"
+   ],
+   "prerequisiteNote": "Changes in Indian industry",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-sociology-ch08-st4",
+   "chapterId": "cbse-g12-sociology-ch08",
+   "order": 4,
+   "name": "Strikes and unions",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g12-sociology-ch08-st3"
+   ],
+   "prerequisiteNote": "Working conditions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-sociology-ch09-st1",
+   "chapterId": "cbse-g12-sociology-ch09",
+   "order": 1,
+   "name": "Features of social movements; social change vs social movements",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-sociology-ch06-st1"
+   ],
+   "prerequisiteNote": "Social reform movements",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-sociology-ch09-st2",
+   "chapterId": "cbse-g12-sociology-ch09",
+   "order": 2,
+   "name": "Theories and classification: relative deprivation, logic of collective action, resource mobilisation; old and new movements",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-sociology-ch09-st1"
+   ],
+   "prerequisiteNote": "Features of social movements",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-sociology-ch09-st3",
+   "chapterId": "cbse-g12-sociology-ch09",
+   "order": 3,
+   "name": "Ecological and class-based movements: Chipko, peasants and workers",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-sociology-ch09-st2",
+    "cbse-g10-social-science-ch07-st3"
+   ],
+   "prerequisiteNote": "Theories of movements; forest conservation (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-sociology-ch09-st4",
+   "chapterId": "cbse-g12-sociology-ch09",
+   "order": 4,
+   "name": "Caste-based, tribal and women's movements",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-sociology-ch09-st2",
+    "cbse-g12-sociology-ch03-st3"
+   ],
+   "prerequisiteNote": "Theories of movements; struggles of Adivasis and women",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

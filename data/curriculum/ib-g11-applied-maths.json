@@ -1,0 +1,896 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "ib-g11-applied-maths",
+  "board": "ib",
+  "grade": 11,
+  "stream": "commerce",
+  "slug": "applied-maths",
+  "name": "Mathematics: Applications & Interpretation",
+  "programme": "IB DP Mathematics: Applications & Interpretation SL/HL (2019 guide, valid to Nov 2028)",
+  "examPattern": "IB DP – graded 1–7; recommended 150 h SL / 240 h HL; exams May (Hindi May only). HL: Paper 1 short-response 2 h, 110 marks (30%); Paper 2 extended-response 2 h, 110 marks (30%); Paper 3 1 h, 55 marks, 2 extended problems (20%); IA 20%. SL: P1 + P2 1 h 30, 80 marks each (40%+40%) + IA 20%. Calculator on all papers.",
+  "chapterCount": 13,
+  "questionTarget": 1499
+ },
+ "items": [
+  {
+   "id": "ib-g11-applied-maths-ch01",
+   "subjectId": "ib-g11-applied-maths",
+   "order": 1,
+   "name": "Approximation and Scientific Notation (SL 1.1, 1.6)",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "ib-g11-applied-maths-ch01-st1",
+    "ib-g11-applied-maths-ch01-st2",
+    "ib-g11-applied-maths-ch01-st3"
+   ]
+  },
+  {
+   "id": "ib-g11-applied-maths-ch02",
+   "subjectId": "ib-g11-applied-maths",
+   "order": 2,
+   "name": "Sequences and Series (SL 1.2, 1.3; AHL 1.11)",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g11-applied-maths-ch02-st1",
+    "ib-g11-applied-maths-ch02-st2",
+    "ib-g11-applied-maths-ch02-st3",
+    "ib-g11-applied-maths-ch02-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-applied-maths-ch03",
+   "subjectId": "ib-g11-applied-maths",
+   "order": 3,
+   "name": "Financial Mathematics (SL 1.4, 1.7)",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g11-applied-maths-ch03-st1",
+    "ib-g11-applied-maths-ch03-st2",
+    "ib-g11-applied-maths-ch03-st3",
+    "ib-g11-applied-maths-ch03-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-applied-maths-ch04",
+   "subjectId": "ib-g11-applied-maths",
+   "order": 4,
+   "name": "Exponents, Logarithms and Systems of Equations (SL 1.5, 1.8; AHL 1.9, 1.10)",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "ib-g11-applied-maths-ch04-st1",
+    "ib-g11-applied-maths-ch04-st2",
+    "ib-g11-applied-maths-ch04-st3",
+    "ib-g11-applied-maths-ch04-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-applied-maths-ch05",
+   "subjectId": "ib-g11-applied-maths",
+   "order": 5,
+   "name": "Complex Numbers (AHL 1.12, 1.13)",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "ib-g11-applied-maths-ch05-st1",
+    "ib-g11-applied-maths-ch05-st2",
+    "ib-g11-applied-maths-ch05-st3"
+   ]
+  },
+  {
+   "id": "ib-g11-applied-maths-ch06",
+   "subjectId": "ib-g11-applied-maths",
+   "order": 6,
+   "name": "Matrices (AHL 1.14, 1.15)",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "ib-g11-applied-maths-ch06-st1",
+    "ib-g11-applied-maths-ch06-st2",
+    "ib-g11-applied-maths-ch06-st3"
+   ]
+  },
+  {
+   "id": "ib-g11-applied-maths-ch07",
+   "subjectId": "ib-g11-applied-maths",
+   "order": 7,
+   "name": "Functions and Linear Models (SL 2.1-2.4)",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g11-applied-maths-ch07-st1",
+    "ib-g11-applied-maths-ch07-st2",
+    "ib-g11-applied-maths-ch07-st3",
+    "ib-g11-applied-maths-ch07-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-applied-maths-ch08",
+   "subjectId": "ib-g11-applied-maths",
+   "order": 8,
+   "name": "Modelling with Functions (SL 2.5-2.6)",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "ib-g11-applied-maths-ch08-st1",
+    "ib-g11-applied-maths-ch08-st2",
+    "ib-g11-applied-maths-ch08-st3",
+    "ib-g11-applied-maths-ch08-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-applied-maths-ch09",
+   "subjectId": "ib-g11-applied-maths",
+   "order": 9,
+   "name": "Further Functions and Modelling (AHL 2.7-2.10)",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g11-applied-maths-ch09-st1",
+    "ib-g11-applied-maths-ch09-st2",
+    "ib-g11-applied-maths-ch09-st3",
+    "ib-g11-applied-maths-ch09-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-applied-maths-ch10",
+   "subjectId": "ib-g11-applied-maths",
+   "order": 10,
+   "name": "Descriptive Statistics (SL 4.1-4.3; AHL 4.12)",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "ib-g11-applied-maths-ch10-st1",
+    "ib-g11-applied-maths-ch10-st2",
+    "ib-g11-applied-maths-ch10-st3",
+    "ib-g11-applied-maths-ch10-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-applied-maths-ch11",
+   "subjectId": "ib-g11-applied-maths",
+   "order": 11,
+   "name": "Correlation and Regression (SL 4.4, 4.10; AHL 4.13)",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g11-applied-maths-ch11-st1",
+    "ib-g11-applied-maths-ch11-st2",
+    "ib-g11-applied-maths-ch11-st3",
+    "ib-g11-applied-maths-ch11-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-applied-maths-ch12",
+   "subjectId": "ib-g11-applied-maths",
+   "order": 12,
+   "name": "Probability (SL 4.5-4.6)",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "ib-g11-applied-maths-ch12-st1",
+    "ib-g11-applied-maths-ch12-st2",
+    "ib-g11-applied-maths-ch12-st3"
+   ]
+  },
+  {
+   "id": "ib-g11-applied-maths-ch13",
+   "subjectId": "ib-g11-applied-maths",
+   "order": 13,
+   "name": "Probability Distributions (SL 4.7-4.9; AHL 4.14, 4.17)",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "ib-g11-applied-maths-ch13-st1",
+    "ib-g11-applied-maths-ch13-st2",
+    "ib-g11-applied-maths-ch13-st3",
+    "ib-g11-applied-maths-ch13-st4",
+    "ib-g11-applied-maths-ch13-st5"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "ib-g11-applied-maths-ch01-st1",
+   "chapterId": "ib-g11-applied-maths-ch01",
+   "order": 1,
+   "name": "SL 1.1 Operations with numbers in the form a × 10^k",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch02-st3"
+   ],
+   "prerequisiteNote": "Standard form (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch01-st2",
+   "chapterId": "ib-g11-applied-maths-ch01",
+   "order": 2,
+   "name": "SL 1.6 Approximation: decimal places, significant figures and estimation",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-maths-ch01-st4"
+   ],
+   "prerequisiteNote": "Rounding (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch01-st3",
+   "chapterId": "ib-g11-applied-maths-ch01",
+   "order": 3,
+   "name": "SL 1.6 Upper and lower bounds and percentage error",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch01-st2",
+    "ib-g10-maths-ch01-st4"
+   ],
+   "prerequisiteNote": "Bounds and percentage error (MYP 4-5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch02-st1",
+   "chapterId": "ib-g11-applied-maths-ch02",
+   "order": 1,
+   "name": "SL 1.2 Arithmetic sequences and series and their applications",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch02-st1"
+   ],
+   "prerequisiteNote": "Arithmetic sequences (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch02-st2",
+   "chapterId": "ib-g11-applied-maths-ch02",
+   "order": 2,
+   "name": "SL 1.3 Geometric sequences and series and their applications",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch02-st2"
+   ],
+   "prerequisiteNote": "Geometric sequences (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch02-st3",
+   "chapterId": "ib-g11-applied-maths-ch02",
+   "order": 3,
+   "name": "AHL 1.11 Sum of infinite geometric sequences",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch02-st2"
+   ],
+   "prerequisiteNote": "Geometric series",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch02-st4",
+   "chapterId": "ib-g11-applied-maths-ch02",
+   "order": 4,
+   "name": "Modelling with sequences: simple interest versus compound growth",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch02-st1",
+    "ib-g11-applied-maths-ch02-st2"
+   ],
+   "prerequisiteNote": "Arithmetic and geometric sequences",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch03-st1",
+   "chapterId": "ib-g11-applied-maths-ch03",
+   "order": 1,
+   "name": "SL 1.4 Compound interest, annual depreciation and the TVM solver",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch02-st3",
+    "ib-g11-applied-maths-ch02-st2"
+   ],
+   "prerequisiteNote": "Compound interest (MYP 5); geometric sequences",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch03-st2",
+   "chapterId": "ib-g11-applied-maths-ch03",
+   "order": 2,
+   "name": "SL 1.4 Effects of inflation and real value",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch03-st1"
+   ],
+   "prerequisiteNote": "Compound interest",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch03-st3",
+   "chapterId": "ib-g11-applied-maths-ch03",
+   "order": 3,
+   "name": "SL 1.7 Amortization and annuities using technology",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch03-st1"
+   ],
+   "prerequisiteNote": "Compound interest; TVM solver",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch03-st4",
+   "chapterId": "ib-g11-applied-maths-ch03",
+   "order": 4,
+   "name": "Comparing loans, investments and payment plans",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch03-st3"
+   ],
+   "prerequisiteNote": "Amortization and annuities",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch04-st1",
+   "chapterId": "ib-g11-applied-maths-ch04",
+   "order": 1,
+   "name": "SL 1.5 Laws of exponents with integer exponents; introduction to logarithms base 10 and e",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch01-st2",
+    "ib-g10-maths-ch06-st1"
+   ],
+   "prerequisiteNote": "Exponent laws and logarithms (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch04-st2",
+   "chapterId": "ib-g11-applied-maths-ch04",
+   "order": 2,
+   "name": "SL 1.8 Solving systems of linear equations and polynomial equations using technology",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch04-st4",
+    "ib-g10-maths-ch03-st2"
+   ],
+   "prerequisiteNote": "Simultaneous equations (MYP 4); quadratics",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch04-st3",
+   "chapterId": "ib-g11-applied-maths-ch04",
+   "order": 3,
+   "name": "AHL 1.9 Laws of logarithms",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch04-st1",
+    "ib-g10-maths-ch06-st2"
+   ],
+   "prerequisiteNote": "Introduction to logarithms",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch04-st4",
+   "chapterId": "ib-g11-applied-maths-ch04",
+   "order": 4,
+   "name": "AHL 1.10 Simplifying expressions with rational exponents",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch04-st1",
+    "ib-g10-maths-ch01-st2"
+   ],
+   "prerequisiteNote": "Laws of exponents",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch05-st1",
+   "chapterId": "ib-g11-applied-maths-ch05",
+   "order": 1,
+   "name": "AHL 1.12 Complex numbers: Cartesian form, operations and the Argand diagram",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch03-st2"
+   ],
+   "prerequisiteNote": "Solving quadratics; real number system (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch05-st2",
+   "chapterId": "ib-g11-applied-maths-ch05",
+   "order": 2,
+   "name": "AHL 1.13 Modulus-argument and exponential forms; products and quotients",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch05-st1",
+    "ib-g10-maths-ch08-st1"
+   ],
+   "prerequisiteNote": "Cartesian form; trigonometry (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch05-st3",
+   "chapterId": "ib-g11-applied-maths-ch05",
+   "order": 3,
+   "name": "Applications of complex numbers: AC circuits and sinusoidal sums",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch05-st2"
+   ],
+   "prerequisiteNote": "Polar and exponential forms",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch06-st1",
+   "chapterId": "ib-g11-applied-maths-ch06",
+   "order": 1,
+   "name": "AHL 1.14 Matrix definition, addition, subtraction and multiplication",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch04-st2"
+   ],
+   "prerequisiteNote": "Systems of equations; arithmetic",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch06-st2",
+   "chapterId": "ib-g11-applied-maths-ch06",
+   "order": 2,
+   "name": "AHL 1.14 Determinant, inverse and solving systems with matrices",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch06-st1"
+   ],
+   "prerequisiteNote": "Matrix multiplication",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch06-st3",
+   "chapterId": "ib-g11-applied-maths-ch06",
+   "order": 3,
+   "name": "AHL 1.15 Eigenvalues and eigenvectors; diagonalisation and powers of 2×2 matrices",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch06-st2",
+    "ib-g10-maths-ch03-st2"
+   ],
+   "prerequisiteNote": "Determinant and inverse; quadratic equations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch07-st1",
+   "chapterId": "ib-g11-applied-maths-ch07",
+   "order": 1,
+   "name": "SL 2.1 Gradient, intercepts and equations of straight lines; parallel and perpendicular lines",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch07-st2",
+    "ib-g9-maths-ch07-st3"
+   ],
+   "prerequisiteNote": "Coordinate geometry (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch07-st2",
+   "chapterId": "ib-g11-applied-maths-ch07",
+   "order": 2,
+   "name": "SL 2.2 Functions: domain, range, mapping notation and inverse as reflection",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch04-st1"
+   ],
+   "prerequisiteNote": "Domain and range (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch07-st3",
+   "chapterId": "ib-g11-applied-maths-ch07",
+   "order": 3,
+   "name": "SL 2.3-2.4 Graphs of functions using technology: key features, intercepts and intersections",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch07-st2"
+   ],
+   "prerequisiteNote": "Function graphs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch07-st4",
+   "chapterId": "ib-g11-applied-maths-ch07",
+   "order": 4,
+   "name": "Linear models: piecewise linear functions and interpreting gradient as rate",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch07-st1"
+   ],
+   "prerequisiteNote": "Straight lines",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch08-st1",
+   "chapterId": "ib-g11-applied-maths-ch08",
+   "order": 1,
+   "name": "SL 2.5 Quadratic models and direct and inverse variation",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch03-st4",
+    "ib-g11-applied-maths-ch07-st3"
+   ],
+   "prerequisiteNote": "Quadratic functions (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch08-st2",
+   "chapterId": "ib-g11-applied-maths-ch08",
+   "order": 2,
+   "name": "SL 2.5 Exponential growth and decay models",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch05-st2",
+    "ib-g11-applied-maths-ch04-st1"
+   ],
+   "prerequisiteNote": "Exponential models (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch08-st3",
+   "chapterId": "ib-g11-applied-maths-ch08",
+   "order": 3,
+   "name": "SL 2.5 Cubic and sinusoidal models",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch07-st3",
+    "ib-g10-maths-ch09-st3"
+   ],
+   "prerequisiteNote": "Function graphs; trig graphs (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch08-st4",
+   "chapterId": "ib-g11-applied-maths-ch08",
+   "order": 4,
+   "name": "SL 2.6 The modelling cycle: developing, testing, reflecting on and refining models",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch08-st1",
+    "ib-g11-applied-maths-ch08-st2"
+   ],
+   "prerequisiteNote": "Linear, quadratic and exponential models",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch09-st1",
+   "chapterId": "ib-g11-applied-maths-ch09",
+   "order": 1,
+   "name": "AHL 2.7 Composite and inverse functions; domain restriction",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch04-st2",
+    "ib-g10-maths-ch04-st3"
+   ],
+   "prerequisiteNote": "Composite and inverse functions (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch09-st2",
+   "chapterId": "ib-g11-applied-maths-ch09",
+   "order": 2,
+   "name": "AHL 2.8 Transformations of graphs and composite transformations",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch07-st4"
+   ],
+   "prerequisiteNote": "Transformations of functions (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch09-st3",
+   "chapterId": "ib-g11-applied-maths-ch09",
+   "order": 3,
+   "name": "AHL 2.9 Logarithmic, logistic and piecewise models",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch08-st2",
+    "ib-g11-applied-maths-ch04-st3"
+   ],
+   "prerequisiteNote": "Exponential models; laws of logarithms",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch09-st4",
+   "chapterId": "ib-g11-applied-maths-ch09",
+   "order": 4,
+   "name": "AHL 2.10 Scaling with logarithms and linearising data: log-log and semi-log graphs",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch04-st3",
+    "ib-g11-applied-maths-ch07-st1"
+   ],
+   "prerequisiteNote": "Laws of logarithms; straight lines",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch10-st1",
+   "chapterId": "ib-g11-applied-maths-ch10",
+   "order": 1,
+   "name": "SL 4.1 Population, sample, sampling techniques and outliers",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch11-st4"
+   ],
+   "prerequisiteNote": "Sampling and bias (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch10-st2",
+   "chapterId": "ib-g11-applied-maths-ch10",
+   "order": 2,
+   "name": "SL 4.2 Frequency distributions, histograms, cumulative frequency and box plots",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch11-st3"
+   ],
+   "prerequisiteNote": "Cumulative frequency and box plots (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch10-st3",
+   "chapterId": "ib-g11-applied-maths-ch10",
+   "order": 3,
+   "name": "SL 4.3 Measures of central tendency and dispersion; effects of constant changes",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch10-st2",
+    "ib-g10-maths-ch11-st5"
+   ],
+   "prerequisiteNote": "Mean, median, quartiles and standard deviation (MYP 4-5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch10-st4",
+   "chapterId": "ib-g11-applied-maths-ch10",
+   "order": 4,
+   "name": "AHL 4.12 Designing data collection methods; reliability and validity tests",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch10-st1"
+   ],
+   "prerequisiteNote": "Sampling techniques",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch11-st1",
+   "chapterId": "ib-g11-applied-maths-ch11",
+   "order": 1,
+   "name": "SL 4.4 Pearson's product-moment correlation coefficient and the regression line y on x",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch11-st3",
+    "ib-g10-maths-ch11-st2"
+   ],
+   "prerequisiteNote": "Correlation and line of best fit (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch11-st2",
+   "chapterId": "ib-g11-applied-maths-ch11",
+   "order": 2,
+   "name": "SL 4.4 Interpolation, extrapolation and piecewise linear models",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch11-st1"
+   ],
+   "prerequisiteNote": "Regression line",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch11-st3",
+   "chapterId": "ib-g11-applied-maths-ch11",
+   "order": 3,
+   "name": "SL 4.10 Spearman's rank correlation coefficient",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch11-st1"
+   ],
+   "prerequisiteNote": "Ranking data; Pearson's correlation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch11-st4",
+   "chapterId": "ib-g11-applied-maths-ch11",
+   "order": 4,
+   "name": "AHL 4.13 Non-linear regression and the coefficient of determination R²",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch11-st1",
+    "ib-g11-applied-maths-ch09-st3"
+   ],
+   "prerequisiteNote": "Regression; exponential and power models",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch12-st1",
+   "chapterId": "ib-g11-applied-maths-ch12",
+   "order": 1,
+   "name": "SL 4.5 Concepts of trial, outcome, sample space, relative frequency and expected outcomes",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch12-st4"
+   ],
+   "prerequisiteNote": "Probability (MYP 3-5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch12-st2",
+   "chapterId": "ib-g11-applied-maths-ch12",
+   "order": 2,
+   "name": "SL 4.6 Venn diagrams, tree diagrams, sample space diagrams and tables of outcomes",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch12-st1",
+    "ib-g10-maths-ch12-st1"
+   ],
+   "prerequisiteNote": "Venn and tree diagrams (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch12-st3",
+   "chapterId": "ib-g11-applied-maths-ch12",
+   "order": 3,
+   "name": "SL 4.6 Combined events, mutually exclusive and independent events; conditional probability",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch12-st2",
+    "ib-g10-maths-ch12-st2"
+   ],
+   "prerequisiteNote": "Venn and tree diagrams",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch13-st1",
+   "chapterId": "ib-g11-applied-maths-ch13",
+   "order": 1,
+   "name": "SL 4.7 Discrete random variables and expected value; fair games",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch12-st1"
+   ],
+   "prerequisiteNote": "Probability tables; expected outcomes",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch13-st2",
+   "chapterId": "ib-g11-applied-maths-ch13",
+   "order": 2,
+   "name": "SL 4.8 The binomial distribution",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch13-st1",
+    "ib-g11-applied-maths-ch12-st3"
+   ],
+   "prerequisiteNote": "Independent events; discrete random variables",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch13-st3",
+   "chapterId": "ib-g11-applied-maths-ch13",
+   "order": 3,
+   "name": "SL 4.9 The normal distribution and inverse normal calculations",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch10-st3"
+   ],
+   "prerequisiteNote": "Mean and standard deviation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch13-st4",
+   "chapterId": "ib-g11-applied-maths-ch13",
+   "order": 4,
+   "name": "AHL 4.14 Linear transformation of a random variable and unbiased estimates of mean and variance",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch13-st1",
+    "ib-g11-applied-maths-ch10-st3"
+   ],
+   "prerequisiteNote": "Expected value; variance",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-applied-maths-ch13-st5",
+   "chapterId": "ib-g11-applied-maths-ch13",
+   "order": 5,
+   "name": "AHL 4.17 The Poisson distribution, its mean and variance; sum of independent Poisson variables",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch13-st1"
+   ],
+   "prerequisiteNote": "Discrete random variables",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

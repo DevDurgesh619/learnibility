@@ -1,0 +1,803 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "ib-g9-social-science",
+  "board": "ib",
+  "grade": 9,
+  "stream": "none",
+  "slug": "social-science",
+  "name": "Individuals & Societies",
+  "programme": "IB MYP 4 Individuals & Societies (integrated humanities; History / Geography options)",
+  "examPattern": "MYP 4: no external exam – school-designed summative tasks assessed on criteria A–D (each 0–8, total /32 → grade 1–7); every criterion assessed ≥2× per year. Mock papers here mirror the MYP 5 eAssessment format so students practise it early. Mock: 3-task paper in MYP 5 I&S eAssessment style (~15 items).",
+  "chapterCount": 12,
+  "questionTarget": 1005
+ },
+ "items": [
+  {
+   "id": "ib-g9-social-science-ch01",
+   "subjectId": "ib-g9-social-science",
+   "order": 1,
+   "name": "Change: The Age of Revolutions – America and France (Related concepts: causality, power; Global context: fairness and development)",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "ib-g9-social-science-ch01-st1",
+    "ib-g9-social-science-ch01-st2",
+    "ib-g9-social-science-ch01-st3",
+    "ib-g9-social-science-ch01-st4"
+   ]
+  },
+  {
+   "id": "ib-g9-social-science-ch02",
+   "subjectId": "ib-g9-social-science",
+   "order": 2,
+   "name": "Change: Nationalism in Europe and India (Related concepts: identity, conflict; Global context: identities and relationships)",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "ib-g9-social-science-ch02-st1",
+    "ib-g9-social-science-ch02-st2",
+    "ib-g9-social-science-ch02-st3",
+    "ib-g9-social-science-ch02-st4"
+   ]
+  },
+  {
+   "id": "ib-g9-social-science-ch03",
+   "subjectId": "ib-g9-social-science",
+   "order": 3,
+   "name": "Global Interactions: Imperialism and Colonial Rule (Related concepts: power, perspective; Global context: fairness and development)",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "ib-g9-social-science-ch03-st1",
+    "ib-g9-social-science-ch03-st2",
+    "ib-g9-social-science-ch03-st3",
+    "ib-g9-social-science-ch03-st4"
+   ]
+  },
+  {
+   "id": "ib-g9-social-science-ch04",
+   "subjectId": "ib-g9-social-science",
+   "order": 4,
+   "name": "Time, Place and Space: Urbanisation and Urban Challenges (Related concepts: patterns, scale; Global context: globalization and sustainability)",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "ib-g9-social-science-ch04-st1",
+    "ib-g9-social-science-ch04-st2",
+    "ib-g9-social-science-ch04-st3",
+    "ib-g9-social-science-ch04-st4"
+   ]
+  },
+  {
+   "id": "ib-g9-social-science-ch05",
+   "subjectId": "ib-g9-social-science",
+   "order": 5,
+   "name": "Systems: Ecosystems and Biomes Under Pressure (Related concepts: processes, sustainability; Global context: globalization and sustainability)",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "ib-g9-social-science-ch05-st1",
+    "ib-g9-social-science-ch05-st2",
+    "ib-g9-social-science-ch05-st3",
+    "ib-g9-social-science-ch05-st4"
+   ]
+  },
+  {
+   "id": "ib-g9-social-science-ch06",
+   "subjectId": "ib-g9-social-science",
+   "order": 6,
+   "name": "Global Interactions: Tourism and Its Impacts (Related concepts: interdependence, globalisation; Global context: globalization and sustainability)",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "ib-g9-social-science-ch06-st1",
+    "ib-g9-social-science-ch06-st2",
+    "ib-g9-social-science-ch06-st3"
+   ]
+  },
+  {
+   "id": "ib-g9-social-science-ch07",
+   "subjectId": "ib-g9-social-science",
+   "order": 7,
+   "name": "Systems: Markets, Supply, Demand and Prices (Related concepts: choice, resources; Global context: fairness and development)",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "ib-g9-social-science-ch07-st1",
+    "ib-g9-social-science-ch07-st2",
+    "ib-g9-social-science-ch07-st3"
+   ]
+  },
+  {
+   "id": "ib-g9-social-science-ch08",
+   "subjectId": "ib-g9-social-science",
+   "order": 8,
+   "name": "Change: Rights and Democracy – Suffrage and Representation (Related concepts: rights, equity; Global context: fairness and development)",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "ib-g9-social-science-ch08-st1",
+    "ib-g9-social-science-ch08-st2",
+    "ib-g9-social-science-ch08-st3",
+    "ib-g9-social-science-ch08-st4"
+   ]
+  },
+  {
+   "id": "ib-g9-social-science-ch09",
+   "subjectId": "ib-g9-social-science",
+   "order": 9,
+   "name": "Global Interactions: Migration Through History (Related concepts: identity, causality; Global context: identities and relationships)",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "ib-g9-social-science-ch09-st1",
+    "ib-g9-social-science-ch09-st2",
+    "ib-g9-social-science-ch09-st3",
+    "ib-g9-social-science-ch09-st4"
+   ]
+  },
+  {
+   "id": "ib-g9-social-science-ch10",
+   "subjectId": "ib-g9-social-science",
+   "order": 10,
+   "name": "Systems: Agriculture and Food Security (Related concepts: resources, sustainability; Global context: globalization and sustainability)",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "ib-g9-social-science-ch10-st1",
+    "ib-g9-social-science-ch10-st2",
+    "ib-g9-social-science-ch10-st3"
+   ]
+  },
+  {
+   "id": "ib-g9-social-science-ch11",
+   "subjectId": "ib-g9-social-science",
+   "order": 11,
+   "name": "Systems: Money, Banking and Trade (Related concepts: interdependence, choice; Global context: globalization and sustainability)",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "ib-g9-social-science-ch11-st1",
+    "ib-g9-social-science-ch11-st2",
+    "ib-g9-social-science-ch11-st3"
+   ]
+  },
+  {
+   "id": "ib-g9-social-science-ch12",
+   "subjectId": "ib-g9-social-science",
+   "order": 12,
+   "name": "Inquiry Skills: Investigation Planning and Communicating Findings (MYP Criteria B–D)",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "ib-g9-social-science-ch12-st1",
+    "ib-g9-social-science-ch12-st2",
+    "ib-g9-social-science-ch12-st3",
+    "ib-g9-social-science-ch12-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "ib-g9-social-science-ch01-st1",
+   "chapterId": "ib-g9-social-science-ch01",
+   "order": 1,
+   "name": "Causes of the American Revolution: taxation, representation and Enlightenment ideas",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch09-st1"
+   ],
+   "prerequisiteNote": "Types of government and why laws are needed (MYP 3 Civics)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch01-st2",
+   "chapterId": "ib-g9-social-science-ch01",
+   "order": 2,
+   "name": "Causes of the French Revolution: the Ancien Régime, financial crisis and the Estates-General",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch01-st1"
+   ],
+   "prerequisiteNote": "Feudal society and social hierarchy (MYP 3 Medieval societies)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch01-st3",
+   "chapterId": "ib-g9-social-science-ch01",
+   "order": 3,
+   "name": "Course of the French Revolution: Declaration of the Rights of Man, the Terror and Napoleon",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch01-st2"
+   ],
+   "prerequisiteNote": "Causes of the French Revolution; timelines",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch01-st4",
+   "chapterId": "ib-g9-social-science-ch01",
+   "order": 4,
+   "name": "Consequences and legacy: spread of liberty, equality and democracy",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch01-st3"
+   ],
+   "prerequisiteNote": "Course of the revolutions; rights of citizens (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch02-st1",
+   "chapterId": "ib-g9-social-science-ch02",
+   "order": 1,
+   "name": "What is nationalism? Nation, state, identity and symbols",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch01-st4"
+   ],
+   "prerequisiteNote": "Legacy of the French Revolution",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch02-st2",
+   "chapterId": "ib-g9-social-science-ch02",
+   "order": 2,
+   "name": "Unification of Italy and Germany: Mazzini, Cavour, Garibaldi and Bismarck",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch02-st1"
+   ],
+   "prerequisiteNote": "Nationalism concept; map of 19th-century Europe",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch02-st3",
+   "chapterId": "ib-g9-social-science-ch02",
+   "order": 3,
+   "name": "The Indian national movement: Congress, Gandhi and non-cooperation",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch02-st1",
+    "ib-g8-social-science-ch06-st4"
+   ],
+   "prerequisiteNote": "Colonial rule and the East India Company (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch02-st4",
+   "chapterId": "ib-g9-social-science-ch02",
+   "order": 4,
+   "name": "Nationalism as a cause of conflict: the road to 1914",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch02-st2"
+   ],
+   "prerequisiteNote": "Unification of Germany; alliances",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch03-st1",
+   "chapterId": "ib-g9-social-science-ch03",
+   "order": 1,
+   "name": "Motives for imperialism: economic, political, religious and social Darwinist",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch07-st4"
+   ],
+   "prerequisiteNote": "Global impacts of industrialisation (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch03-st2",
+   "chapterId": "ib-g9-social-science-ch03",
+   "order": 2,
+   "name": "The Scramble for Africa and the Berlin Conference (1884–85)",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch03-st1"
+   ],
+   "prerequisiteNote": "Motives for imperialism; map of Africa",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch03-st3",
+   "chapterId": "ib-g9-social-science-ch03",
+   "order": 3,
+   "name": "British rule in India after 1857: the Raj, economy and resistance",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch03-st1",
+    "ib-g9-social-science-ch02-st3"
+   ],
+   "prerequisiteNote": "Imperial motives; Indian national movement",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch03-st4",
+   "chapterId": "ib-g9-social-science-ch03",
+   "order": 4,
+   "name": "Perspectives on empire: colonisers and colonised in sources",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch03-st3",
+    "ib-g8-social-science-ch12-st3"
+   ],
+   "prerequisiteNote": "Evaluating sources (MYP 3 Inquiry skills)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch04-st1",
+   "chapterId": "ib-g9-social-science-ch04",
+   "order": 1,
+   "name": "Urbanisation trends: urban growth in HICs and LICs and the rise of megacities",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch10-st2"
+   ],
+   "prerequisiteNote": "Settlement site, situation and hierarchy (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch04-st2",
+   "chapterId": "ib-g9-social-science-ch04",
+   "order": 2,
+   "name": "Push and pull factors of rural-urban migration",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch04-st1"
+   ],
+   "prerequisiteNote": "Urban growth trends; reasons people move",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch04-st3",
+   "chapterId": "ib-g9-social-science-ch04",
+   "order": 3,
+   "name": "Urban challenges: informal settlements, traffic, pollution and services",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch04-st2"
+   ],
+   "prerequisiteNote": "Rural-urban migration; urban growth",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch04-st4",
+   "chapterId": "ib-g9-social-science-ch04",
+   "order": 4,
+   "name": "Planning sustainable cities: case study of a smart city",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch04-st3",
+    "ib-g8-social-science-ch11-st3"
+   ],
+   "prerequisiteNote": "Urban challenges; sustainable living (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch05-st1",
+   "chapterId": "ib-g9-social-science-ch05",
+   "order": 1,
+   "name": "Ecosystems: food chains, nutrient cycles and biotic and abiotic factors",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch03-st2"
+   ],
+   "prerequisiteNote": "Climate zones (MYP 3); food chains (Grade 8 Science)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch05-st2",
+   "chapterId": "ib-g9-social-science-ch05",
+   "order": 2,
+   "name": "Global biomes: tropical rainforests, deserts and tundra",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch05-st1"
+   ],
+   "prerequisiteNote": "Ecosystems; climate graphs (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch05-st3",
+   "chapterId": "ib-g9-social-science-ch05",
+   "order": 3,
+   "name": "Threats to ecosystems: deforestation, desertification and biodiversity loss",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch05-st2"
+   ],
+   "prerequisiteNote": "Global biomes; human activities",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch05-st4",
+   "chapterId": "ib-g9-social-science-ch05",
+   "order": 4,
+   "name": "Conservation and sustainable management of ecosystems",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch05-st3"
+   ],
+   "prerequisiteNote": "Threats to ecosystems",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch06-st1",
+   "chapterId": "ib-g9-social-science-ch06",
+   "order": 1,
+   "name": "Growth of global tourism: causes and types of tourism",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch04-st1"
+   ],
+   "prerequisiteNote": "Urban growth; transport and globalisation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch06-st2",
+   "chapterId": "ib-g9-social-science-ch06",
+   "order": 2,
+   "name": "Economic, social and environmental impacts of tourism",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch06-st1",
+    "ib-g9-social-science-ch05-st3"
+   ],
+   "prerequisiteNote": "Growth of tourism; threats to ecosystems",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch06-st3",
+   "chapterId": "ib-g9-social-science-ch06",
+   "order": 3,
+   "name": "Sustainable tourism and ecotourism",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch06-st2",
+    "ib-g9-social-science-ch05-st4"
+   ],
+   "prerequisiteNote": "Tourism impacts; conservation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch07-st1",
+   "chapterId": "ib-g9-social-science-ch07",
+   "order": 1,
+   "name": "Demand and supply: what determines how much people buy and sell",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch08-st3"
+   ],
+   "prerequisiteNote": "Market economic systems (MYP 3 Economic choices)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch07-st2",
+   "chapterId": "ib-g9-social-science-ch07",
+   "order": 2,
+   "name": "Price determination: equilibrium, shortages and surpluses",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch07-st1"
+   ],
+   "prerequisiteNote": "Demand and supply; reading graphs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch07-st3",
+   "chapterId": "ib-g9-social-science-ch07",
+   "order": 3,
+   "name": "Government role in markets: price controls, taxes and subsidies",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch07-st2"
+   ],
+   "prerequisiteNote": "Price determination; mixed economies (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch08-st1",
+   "chapterId": "ib-g9-social-science-ch08",
+   "order": 1,
+   "name": "Struggle for the vote: the suffragette movement and universal adult franchise",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch01-st4"
+   ],
+   "prerequisiteNote": "Legacy of the French Revolution; democracy (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch08-st2",
+   "chapterId": "ib-g9-social-science-ch08",
+   "order": 2,
+   "name": "Electoral systems and representation: first past the post and proportional representation",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch08-st1",
+    "ib-g8-social-science-ch09-st2"
+   ],
+   "prerequisiteNote": "Democracy in India: elections (MYP 3 Civics)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch08-st3",
+   "chapterId": "ib-g9-social-science-ch08",
+   "order": 3,
+   "name": "Indian Constitution: making of the constitution and B. R. Ambedkar's role",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch08-st1",
+    "ib-g9-social-science-ch02-st3"
+   ],
+   "prerequisiteNote": "Indian national movement; fundamental rights (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch08-st4",
+   "chapterId": "ib-g9-social-science-ch08",
+   "order": 4,
+   "name": "Political participation: pressure groups, media and civil society",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch08-st2"
+   ],
+   "prerequisiteNote": "Electoral systems; rights and responsibilities",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch09-st1",
+   "chapterId": "ib-g9-social-science-ch09",
+   "order": 1,
+   "name": "Types of migration: voluntary and forced, internal and international",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch04-st2"
+   ],
+   "prerequisiteNote": "Push and pull factors (rural-urban migration)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch09-st2",
+   "chapterId": "ib-g9-social-science-ch09",
+   "order": 2,
+   "name": "Historical migrations: indentured labour, the Atlantic slave trade and the Indian diaspora",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch09-st1",
+    "ib-g8-social-science-ch06-st3"
+   ],
+   "prerequisiteNote": "Atlantic slave trade (MYP 3); British rule in India",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch09-st3",
+   "chapterId": "ib-g9-social-science-ch09",
+   "order": 3,
+   "name": "Partition and refugee movements in the 20th century",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch09-st1",
+    "ib-g9-social-science-ch03-st3"
+   ],
+   "prerequisiteNote": "British rule in India; forced migration",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch09-st4",
+   "chapterId": "ib-g9-social-science-ch09",
+   "order": 4,
+   "name": "Impacts of migration on source and host communities",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch09-st2"
+   ],
+   "prerequisiteNote": "Historical migrations; diaspora",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch10-st1",
+   "chapterId": "ib-g9-social-science-ch10",
+   "order": 1,
+   "name": "Farming systems: subsistence and commercial, arable and pastoral",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch05-st1"
+   ],
+   "prerequisiteNote": "Ecosystems and nutrient cycles",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch10-st2",
+   "chapterId": "ib-g9-social-science-ch10",
+   "order": 2,
+   "name": "The Green Revolution in India: causes, benefits and problems",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch10-st1"
+   ],
+   "prerequisiteNote": "Farming systems; Indian economy after independence",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch10-st3",
+   "chapterId": "ib-g9-social-science-ch10",
+   "order": 3,
+   "name": "Food security and food insecurity: causes and solutions",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch10-st2",
+    "ib-g9-social-science-ch07-st2"
+   ],
+   "prerequisiteNote": "Green Revolution; price determination",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch11-st1",
+   "chapterId": "ib-g9-social-science-ch11",
+   "order": 1,
+   "name": "Functions of money and the role of banks and credit",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch07-st1"
+   ],
+   "prerequisiteNote": "Demand and supply; personal finance (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch11-st2",
+   "chapterId": "ib-g9-social-science-ch11",
+   "order": 2,
+   "name": "Why countries trade: imports, exports and specialisation",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch11-st1",
+    "ib-g9-social-science-ch03-st1"
+   ],
+   "prerequisiteNote": "Money and banks; imperial trade",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch11-st3",
+   "chapterId": "ib-g9-social-science-ch11",
+   "order": 3,
+   "name": "Fair trade and ethical consumption",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch11-st2",
+    "ib-g9-social-science-ch06-st2"
+   ],
+   "prerequisiteNote": "Why countries trade; impacts of tourism and global interactions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch12-st1",
+   "chapterId": "ib-g9-social-science-ch12",
+   "order": 1,
+   "name": "Formulating a research question and justifying its relevance (Criterion B)",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch12-st1"
+   ],
+   "prerequisiteNote": "Formulating an inquiry question (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch12-st2",
+   "chapterId": "ib-g9-social-science-ch12",
+   "order": 2,
+   "name": "Using a range of primary and secondary sources and citing in MLA/APA format",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch12-st1",
+    "ib-g8-social-science-ch12-st2"
+   ],
+   "prerequisiteNote": "Note-taking and citing sources (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch12-st3",
+   "chapterId": "ib-g9-social-science-ch12",
+   "order": 3,
+   "name": "Thinking critically: analysing sources for origin, purpose, value and limitation (Criterion D)",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch12-st2",
+    "ib-g9-social-science-ch03-st4"
+   ],
+   "prerequisiteNote": "Perspectives on empire in sources; evaluating sources (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g9-social-science-ch12-st4",
+   "chapterId": "ib-g9-social-science-ch12",
+   "order": 4,
+   "name": "Communicating information in structured essays, reports and presentations (Criterion C)",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-social-science-ch12-st3"
+   ],
+   "prerequisiteNote": "Source analysis; structured paragraphs (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

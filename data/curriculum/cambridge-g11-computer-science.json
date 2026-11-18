@@ -1,0 +1,963 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cambridge-g11-computer-science",
+  "board": "cambridge",
+  "grade": 11,
+  "stream": "science",
+  "slug": "computer-science",
+  "name": "Computer Science",
+  "programme": "Cambridge AS Computer Science 9618 (sections 1–12)",
+  "textbook": "CUP Coursebook 2nd ed. ch 1–15",
+  "examPattern": "AS: P1 Theory Fundamentals 1 h 30, 75 marks (~8–10 questions, 50%) + P2 Fundamental Problem-solving & Programming 2 h, 75 marks (~7–9 questions, pseudocode, 50%). No calculators.",
+  "chapterCount": 15,
+  "questionTarget": 1452
+ },
+ "items": [
+  {
+   "id": "cambridge-g11-computer-science-ch01",
+   "subjectId": "cambridge-g11-computer-science",
+   "order": 1,
+   "name": "Information Representation",
+   "teachingPeriods": 22,
+   "subtopicIds": [
+    "cambridge-g11-computer-science-ch01-st1",
+    "cambridge-g11-computer-science-ch01-st2",
+    "cambridge-g11-computer-science-ch01-st3",
+    "cambridge-g11-computer-science-ch01-st4",
+    "cambridge-g11-computer-science-ch01-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch02",
+   "subjectId": "cambridge-g11-computer-science",
+   "order": 2,
+   "name": "Communication",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cambridge-g11-computer-science-ch02-st1",
+    "cambridge-g11-computer-science-ch02-st2",
+    "cambridge-g11-computer-science-ch02-st3",
+    "cambridge-g11-computer-science-ch02-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch03",
+   "subjectId": "cambridge-g11-computer-science",
+   "order": 3,
+   "name": "Hardware",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "cambridge-g11-computer-science-ch03-st1",
+    "cambridge-g11-computer-science-ch03-st2",
+    "cambridge-g11-computer-science-ch03-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch04",
+   "subjectId": "cambridge-g11-computer-science",
+   "order": 4,
+   "name": "Logic Gates and Logic Circuits",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "cambridge-g11-computer-science-ch04-st1",
+    "cambridge-g11-computer-science-ch04-st2",
+    "cambridge-g11-computer-science-ch04-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch05",
+   "subjectId": "cambridge-g11-computer-science",
+   "order": 5,
+   "name": "Processor Fundamentals",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cambridge-g11-computer-science-ch05-st1",
+    "cambridge-g11-computer-science-ch05-st2",
+    "cambridge-g11-computer-science-ch05-st3",
+    "cambridge-g11-computer-science-ch05-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch06",
+   "subjectId": "cambridge-g11-computer-science",
+   "order": 6,
+   "name": "Assembly Language Programming",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cambridge-g11-computer-science-ch06-st1",
+    "cambridge-g11-computer-science-ch06-st2",
+    "cambridge-g11-computer-science-ch06-st3",
+    "cambridge-g11-computer-science-ch06-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch07",
+   "subjectId": "cambridge-g11-computer-science",
+   "order": 7,
+   "name": "Monitoring and Control Systems",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "cambridge-g11-computer-science-ch07-st1",
+    "cambridge-g11-computer-science-ch07-st2",
+    "cambridge-g11-computer-science-ch07-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch08",
+   "subjectId": "cambridge-g11-computer-science",
+   "order": 8,
+   "name": "System Software",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cambridge-g11-computer-science-ch08-st1",
+    "cambridge-g11-computer-science-ch08-st2",
+    "cambridge-g11-computer-science-ch08-st3",
+    "cambridge-g11-computer-science-ch08-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch09",
+   "subjectId": "cambridge-g11-computer-science",
+   "order": 9,
+   "name": "Security, Privacy and Data Integrity",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cambridge-g11-computer-science-ch09-st1",
+    "cambridge-g11-computer-science-ch09-st2",
+    "cambridge-g11-computer-science-ch09-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch10",
+   "subjectId": "cambridge-g11-computer-science",
+   "order": 10,
+   "name": "Ethics and Ownership",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "cambridge-g11-computer-science-ch10-st1",
+    "cambridge-g11-computer-science-ch10-st2",
+    "cambridge-g11-computer-science-ch10-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch11",
+   "subjectId": "cambridge-g11-computer-science",
+   "order": 11,
+   "name": "Databases",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cambridge-g11-computer-science-ch11-st1",
+    "cambridge-g11-computer-science-ch11-st2",
+    "cambridge-g11-computer-science-ch11-st3",
+    "cambridge-g11-computer-science-ch11-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch12",
+   "subjectId": "cambridge-g11-computer-science",
+   "order": 12,
+   "name": "Algorithm Design and Problem-solving",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cambridge-g11-computer-science-ch12-st1",
+    "cambridge-g11-computer-science-ch12-st2",
+    "cambridge-g11-computer-science-ch12-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch13",
+   "subjectId": "cambridge-g11-computer-science",
+   "order": 13,
+   "name": "Data Types and Structures",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cambridge-g11-computer-science-ch13-st1",
+    "cambridge-g11-computer-science-ch13-st2",
+    "cambridge-g11-computer-science-ch13-st3",
+    "cambridge-g11-computer-science-ch13-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch14",
+   "subjectId": "cambridge-g11-computer-science",
+   "order": 14,
+   "name": "Programming",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "cambridge-g11-computer-science-ch14-st1",
+    "cambridge-g11-computer-science-ch14-st2",
+    "cambridge-g11-computer-science-ch14-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch15",
+   "subjectId": "cambridge-g11-computer-science",
+   "order": 15,
+   "name": "Software Development",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cambridge-g11-computer-science-ch15-st1",
+    "cambridge-g11-computer-science-ch15-st2",
+    "cambridge-g11-computer-science-ch15-st3",
+    "cambridge-g11-computer-science-ch15-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cambridge-g11-computer-science-ch01-st1",
+   "chapterId": "cambridge-g11-computer-science-ch01",
+   "order": 1,
+   "name": "Binary, denary and hexadecimal conversion; binary and decimal prefixes (kibi, mebi vs kilo, mega)",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Place value and powers of 2 and 10 (maths); IGCSE Computer Science 0478 number systems",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch01-st2",
+   "chapterId": "cambridge-g11-computer-science-ch01",
+   "order": 2,
+   "name": "Two's complement, binary addition and subtraction, overflow and BCD",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch01-st1"
+   ],
+   "prerequisiteNote": "Binary conversion; negative numbers and place value",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch01-st3",
+   "chapterId": "cambridge-g11-computer-science-ch01",
+   "order": 3,
+   "name": "Character sets: ASCII, extended ASCII and Unicode",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch01-st1"
+   ],
+   "prerequisiteNote": "Binary representation; number of bits and range of values",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch01-st4",
+   "chapterId": "cambridge-g11-computer-science-ch01",
+   "order": 4,
+   "name": "Bitmap and vector graphics: resolution, colour depth and file size calculations",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch01-st1"
+   ],
+   "prerequisiteNote": "Binary prefixes; multiplying large numbers and unit conversion",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch01-st5",
+   "chapterId": "cambridge-g11-computer-science-ch01",
+   "order": 5,
+   "name": "Sound representation, sampling rate and resolution; lossy and lossless compression including run-length encoding",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch01-st4"
+   ],
+   "prerequisiteNote": "Bitmap file size; binary representation of data",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch02-st1",
+   "chapterId": "cambridge-g11-computer-science-ch02",
+   "order": 1,
+   "name": "Networks: LAN and WAN, client–server and peer-to-peer models, thin and thick clients",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Basic network use and the internet (IGCSE ICT/CS)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch02-st2",
+   "chapterId": "cambridge-g11-computer-science-ch02",
+   "order": 2,
+   "name": "Network topologies (bus, star, mesh, hybrid) and cloud computing",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch02-st1"
+   ],
+   "prerequisiteNote": "LAN and WAN; client–server model",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch02-st3",
+   "chapterId": "cambridge-g11-computer-science-ch02",
+   "order": 3,
+   "name": "Wired and wireless transmission media; Ethernet, CSMA/CD and network hardware (switch, router, NIC, WAP)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch02-st2"
+   ],
+   "prerequisiteNote": "Network topologies; data transmission as bits",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch02-st4",
+   "chapterId": "cambridge-g11-computer-science-ch02",
+   "order": 4,
+   "name": "IP addressing: IPv4, IPv6, subnetting, public and private addresses, DNS and URLs",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch02-st3",
+    "cambridge-g11-computer-science-ch01-st1"
+   ],
+   "prerequisiteNote": "Network hardware and routing; binary and hexadecimal conversion",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch03-st1",
+   "chapterId": "cambridge-g11-computer-science-ch03",
+   "order": 1,
+   "name": "Input, output and storage devices: laser printer, 3D printer, microphone, speakers, SSD, magnetic and optical storage",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Common input and output devices (IGCSE ICT/CS)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch03-st2",
+   "chapterId": "cambridge-g11-computer-science-ch03",
+   "order": 2,
+   "name": "Primary memory: RAM and ROM, SRAM and DRAM, PROM, EPROM and EEPROM",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch03-st1"
+   ],
+   "prerequisiteNote": "Storage devices; role of memory in a computer",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch03-st3",
+   "chapterId": "cambridge-g11-computer-science-ch03",
+   "order": 3,
+   "name": "Embedded systems and buffers",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch03-st2"
+   ],
+   "prerequisiteNote": "Primary memory; devices with dedicated functions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch04-st1",
+   "chapterId": "cambridge-g11-computer-science-ch04",
+   "order": 1,
+   "name": "Logic gates (NOT, AND, OR, NAND, NOR, XOR) and their truth tables",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Boolean values true/false; IGCSE logic gates",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch04-st2",
+   "chapterId": "cambridge-g11-computer-science-ch04",
+   "order": 2,
+   "name": "Constructing logic circuits and truth tables from problem statements and logic expressions",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch04-st1"
+   ],
+   "prerequisiteNote": "Logic gates and truth tables",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch04-st3",
+   "chapterId": "cambridge-g11-computer-science-ch04",
+   "order": 3,
+   "name": "Simplifying logic circuits and expressions using NAND/NOR equivalence",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch04-st2"
+   ],
+   "prerequisiteNote": "Constructing logic circuits; order of operations in expressions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch05-st1",
+   "chapterId": "cambridge-g11-computer-science-ch05",
+   "order": 1,
+   "name": "Von Neumann architecture: registers (PC, MDR, MAR, ACC, IX, CIR, status), ALU, CU, clock and system buses",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch03-st2"
+   ],
+   "prerequisiteNote": "Primary memory; binary data in memory locations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch05-st2",
+   "chapterId": "cambridge-g11-computer-science-ch05",
+   "order": 2,
+   "name": "Factors affecting performance: clock speed, cores, bus width and cache memory",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch05-st1"
+   ],
+   "prerequisiteNote": "Von Neumann architecture components",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch05-st3",
+   "chapterId": "cambridge-g11-computer-science-ch05",
+   "order": 3,
+   "name": "Ports (USB, HDMI, VGA) and the fetch–execute cycle in register transfer notation",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch05-st1"
+   ],
+   "prerequisiteNote": "Registers and buses; sequence of operations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch05-st4",
+   "chapterId": "cambridge-g11-computer-science-ch05",
+   "order": 4,
+   "name": "Interrupts and interrupt service routines",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch05-st3"
+   ],
+   "prerequisiteNote": "Fetch–execute cycle; priorities and processor state",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch06-st1",
+   "chapterId": "cambridge-g11-computer-science-ch06",
+   "order": 1,
+   "name": "Assembly language and machine code; two-pass assemblers",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch05-st3"
+   ],
+   "prerequisiteNote": "Fetch–execute cycle; registers",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch06-st2",
+   "chapterId": "cambridge-g11-computer-science-ch06",
+   "order": 2,
+   "name": "Instruction groups and addressing modes: immediate, direct, indirect, indexed and relative",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch06-st1",
+    "cambridge-g11-computer-science-ch05-st1"
+   ],
+   "prerequisiteNote": "Assembly language; registers including IX and ACC",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch06-st3",
+   "chapterId": "cambridge-g11-computer-science-ch06",
+   "order": 3,
+   "name": "Tracing simple assembly language programs",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch06-st2"
+   ],
+   "prerequisiteNote": "Addressing modes; trace tables",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch06-st4",
+   "chapterId": "cambridge-g11-computer-science-ch06",
+   "order": 4,
+   "name": "Bit manipulation: logical and arithmetic shifts and masking to test and set bits",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch06-st2",
+    "cambridge-g11-computer-science-ch01-st2",
+    "cambridge-g11-computer-science-ch04-st1"
+   ],
+   "prerequisiteNote": "Instruction groups; binary arithmetic; AND/OR/XOR operations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch07-st1",
+   "chapterId": "cambridge-g11-computer-science-ch07",
+   "order": 1,
+   "name": "Sensors and actuators in monitoring and control systems",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch03-st1"
+   ],
+   "prerequisiteNote": "Input and output devices; embedded systems",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch07-st2",
+   "chapterId": "cambridge-g11-computer-science-ch07",
+   "order": 2,
+   "name": "Feedback in control systems and the need for analogue-to-digital conversion",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch07-st1"
+   ],
+   "prerequisiteNote": "Sensors and actuators; sampling and digital representation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch07-st3",
+   "chapterId": "cambridge-g11-computer-science-ch07",
+   "order": 3,
+   "name": "Using bit manipulation to monitor and control devices",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch07-st2",
+    "cambridge-g11-computer-science-ch06-st4"
+   ],
+   "prerequisiteNote": "Feedback control; bit masking and shifting",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch08-st1",
+   "chapterId": "cambridge-g11-computer-science-ch08",
+   "order": 1,
+   "name": "Operating system functions: memory, file, security, hardware and process management; user interface",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch05-st1"
+   ],
+   "prerequisiteNote": "Processor fundamentals; interrupts",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch08-st2",
+   "chapterId": "cambridge-g11-computer-science-ch08",
+   "order": 2,
+   "name": "Utility software: disk formatter, virus checker, defragmenter, compression and back-up; program libraries and DLLs",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch08-st1"
+   ],
+   "prerequisiteNote": "Operating system functions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch08-st3",
+   "chapterId": "cambridge-g11-computer-science-ch08",
+   "order": 3,
+   "name": "Language translators: assembler, compiler and interpreter; advantages and disadvantages",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch06-st1"
+   ],
+   "prerequisiteNote": "Assembly language and machine code",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch08-st4",
+   "chapterId": "cambridge-g11-computer-science-ch08",
+   "order": 4,
+   "name": "Integrated development environment features: prettyprint, context-sensitive prompts, debugging tools",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch08-st3"
+   ],
+   "prerequisiteNote": "Language translators; writing and running programs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch09-st1",
+   "chapterId": "cambridge-g11-computer-science-ch09",
+   "order": 1,
+   "name": "Security of data and systems: threats such as malware, hacking, phishing and pharming",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch02-st4"
+   ],
+   "prerequisiteNote": "Networks and IP addressing; internet use",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch09-st2",
+   "chapterId": "cambridge-g11-computer-science-ch09",
+   "order": 2,
+   "name": "Security measures: user accounts, passwords, firewalls, encryption, anti-malware, access rights",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch09-st1"
+   ],
+   "prerequisiteNote": "Threats to systems; operating system security management",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch09-st3",
+   "chapterId": "cambridge-g11-computer-science-ch09",
+   "order": 3,
+   "name": "Data integrity: validation (range, format, length, presence, existence, check digit) and verification (double entry, parity, checksums)",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch09-st2",
+    "cambridge-g11-computer-science-ch01-st1"
+   ],
+   "prerequisiteNote": "Security measures; binary and parity bits",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch10-st1",
+   "chapterId": "cambridge-g11-computer-science-ch10",
+   "order": 1,
+   "name": "Professional ethics and codes of conduct (BCS, IEEE)",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Responsible use of technology (IGCSE ICT)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch10-st2",
+   "chapterId": "cambridge-g11-computer-science-ch10",
+   "order": 2,
+   "name": "Copyright legislation and software licensing: free software, open source, shareware and commercial",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch10-st1"
+   ],
+   "prerequisiteNote": "Professional ethics; ownership of intellectual property",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch10-st3",
+   "chapterId": "cambridge-g11-computer-science-ch10",
+   "order": 3,
+   "name": "Artificial intelligence: social, economic and environmental impacts",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch10-st1"
+   ],
+   "prerequisiteNote": "Professional ethics; examples of AI in everyday life",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch11-st1",
+   "chapterId": "cambridge-g11-computer-science-ch11",
+   "order": 1,
+   "name": "Limitations of file-based systems and features of a relational database: entity, table, record, field, keys",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Spreadsheets and flat-file data (IGCSE ICT)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch11-st2",
+   "chapterId": "cambridge-g11-computer-science-ch11",
+   "order": 2,
+   "name": "Entity-relationship modelling and normalisation to third normal form",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch11-st1"
+   ],
+   "prerequisiteNote": "Relational database terminology; primary and foreign keys",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch11-st3",
+   "chapterId": "cambridge-g11-computer-science-ch11",
+   "order": 3,
+   "name": "Database management systems: data dictionary, logical schema, access rights and developer interface",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch11-st1"
+   ],
+   "prerequisiteNote": "Relational database features",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch11-st4",
+   "chapterId": "cambridge-g11-computer-science-ch11",
+   "order": 4,
+   "name": "SQL: data definition language and data manipulation language queries",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch11-st2"
+   ],
+   "prerequisiteNote": "Normalised tables; Boolean conditions and operators",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch12-st1",
+   "chapterId": "cambridge-g11-computer-science-ch12",
+   "order": 1,
+   "name": "Computational thinking: abstraction and decomposition",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Problem-solving and breaking tasks into steps (IGCSE CS)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch12-st2",
+   "chapterId": "cambridge-g11-computer-science-ch12",
+   "order": 2,
+   "name": "Writing algorithms in structured English, flowcharts and pseudocode; identifiers and identifier tables",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch12-st1"
+   ],
+   "prerequisiteNote": "Abstraction and decomposition; flowchart symbols (IGCSE CS)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch12-st3",
+   "chapterId": "cambridge-g11-computer-science-ch12",
+   "order": 3,
+   "name": "Stepwise refinement of algorithms",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch12-st2"
+   ],
+   "prerequisiteNote": "Writing algorithms in pseudocode",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch13-st1",
+   "chapterId": "cambridge-g11-computer-science-ch13",
+   "order": 1,
+   "name": "Data types: INTEGER, REAL, CHAR, STRING, BOOLEAN, DATE; records",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch01-st3",
+    "cambridge-g11-computer-science-ch12-st2"
+   ],
+   "prerequisiteNote": "Character sets; pseudocode identifiers",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch13-st2",
+   "chapterId": "cambridge-g11-computer-science-ch13",
+   "order": 2,
+   "name": "1D and 2D arrays; linear search and bubble sort",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch13-st1",
+    "cambridge-g11-computer-science-ch12-st3"
+   ],
+   "prerequisiteNote": "Data types; loops in pseudocode",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch13-st3",
+   "chapterId": "cambridge-g11-computer-science-ch13",
+   "order": 3,
+   "name": "Text files: reading, writing and appending",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch13-st1"
+   ],
+   "prerequisiteNote": "Data types; sequence of records",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch13-st4",
+   "chapterId": "cambridge-g11-computer-science-ch13",
+   "order": 4,
+   "name": "Abstract data types: stack, queue and linked list",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch13-st2"
+   ],
+   "prerequisiteNote": "Arrays and indexes; pointers",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch14-st1",
+   "chapterId": "cambridge-g11-computer-science-ch14",
+   "order": 1,
+   "name": "Programming basics: variables, constants, input, output, assignment and built-in functions (string and numeric)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch13-st1"
+   ],
+   "prerequisiteNote": "Data types; pseudocode statements",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch14-st2",
+   "chapterId": "cambridge-g11-computer-science-ch14",
+   "order": 2,
+   "name": "Constructs: selection (IF, CASE) and iteration (count-controlled, pre-condition and post-condition loops)",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch14-st1",
+    "cambridge-g11-computer-science-ch12-st2"
+   ],
+   "prerequisiteNote": "Programming basics; flowchart decisions and loops",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch14-st3",
+   "chapterId": "cambridge-g11-computer-science-ch14",
+   "order": 3,
+   "name": "Structured programming: procedures, functions, parameters by value and by reference",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch14-st2"
+   ],
+   "prerequisiteNote": "Selection and iteration constructs; decomposition",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch15-st1",
+   "chapterId": "cambridge-g11-computer-science-ch15",
+   "order": 1,
+   "name": "Program development life cycle: analysis, design, coding, testing and maintenance; waterfall, iterative and RAD",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch12-st1"
+   ],
+   "prerequisiteNote": "Computational thinking; stages of problem-solving",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch15-st2",
+   "chapterId": "cambridge-g11-computer-science-ch15",
+   "order": 2,
+   "name": "Program design using structure charts and state-transition diagrams",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch15-st1",
+    "cambridge-g11-computer-science-ch14-st3"
+   ],
+   "prerequisiteNote": "Development life cycle; procedures and parameters",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch15-st3",
+   "chapterId": "cambridge-g11-computer-science-ch15",
+   "order": 3,
+   "name": "Types of errors and testing methods: dry-run, walkthrough, white-box, black-box, alpha, beta, acceptance; test data",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch15-st1",
+    "cambridge-g11-computer-science-ch13-st2"
+   ],
+   "prerequisiteNote": "Development life cycle; trace tables for arrays and loops",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-computer-science-ch15-st4",
+   "chapterId": "cambridge-g11-computer-science-ch15",
+   "order": 4,
+   "name": "Maintenance: corrective, adaptive and perfective",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g11-computer-science-ch15-st3"
+   ],
+   "prerequisiteNote": "Testing and error types",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

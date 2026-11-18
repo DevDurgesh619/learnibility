@@ -1,0 +1,753 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "ib-g11-informatics",
+  "board": "ib",
+  "grade": 11,
+  "stream": "commerce",
+  "slug": "informatics",
+  "name": "Digital Society",
+  "programme": "IB DP Digital Society SL/HL (first exam 2024) – nearest to Informatics Practices",
+  "examPattern": "IB DP – graded 1–7; recommended 150 h SL / 240 h HL; exams May (Hindi May only). HL: Paper 1 2 h 15 (35%); Paper 2 source-based 1 h 15 (20%); Paper 3 pre-released intervention brief 1 h 15 (25%); IA inquiry project (20%). SL: P1 1 h 30 (40%), P2 (30%), IA (30%). Paper marks UNVERIFIED.",
+  "chapterCount": 13,
+  "questionTarget": 1020
+ },
+ "items": [
+  {
+   "id": "ib-g11-informatics-ch01",
+   "subjectId": "ib-g11-informatics",
+   "order": 1,
+   "name": "Introduction to Digital Society and the Inquiry Process",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "ib-g11-informatics-ch01-st1",
+    "ib-g11-informatics-ch01-st2",
+    "ib-g11-informatics-ch01-st3"
+   ]
+  },
+  {
+   "id": "ib-g11-informatics-ch02",
+   "subjectId": "ib-g11-informatics",
+   "order": 2,
+   "name": "Concepts 2.1–2.2: Change and Expression",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g11-informatics-ch02-st1",
+    "ib-g11-informatics-ch02-st2",
+    "ib-g11-informatics-ch02-st3"
+   ]
+  },
+  {
+   "id": "ib-g11-informatics-ch03",
+   "subjectId": "ib-g11-informatics",
+   "order": 3,
+   "name": "Concepts 2.3–2.4: Identity and Power",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "ib-g11-informatics-ch03-st1",
+    "ib-g11-informatics-ch03-st2",
+    "ib-g11-informatics-ch03-st3"
+   ]
+  },
+  {
+   "id": "ib-g11-informatics-ch04",
+   "subjectId": "ib-g11-informatics",
+   "order": 4,
+   "name": "Concepts 2.5–2.7: Space, Systems and Values and Ethics",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "ib-g11-informatics-ch04-st1",
+    "ib-g11-informatics-ch04-st2",
+    "ib-g11-informatics-ch04-st3"
+   ]
+  },
+  {
+   "id": "ib-g11-informatics-ch05",
+   "subjectId": "ib-g11-informatics",
+   "order": 5,
+   "name": "Content 3.1 Data: Types, Collection and Storage",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "ib-g11-informatics-ch05-st1",
+    "ib-g11-informatics-ch05-st2",
+    "ib-g11-informatics-ch05-st3",
+    "ib-g11-informatics-ch05-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-informatics-ch06",
+   "subjectId": "ib-g11-informatics",
+   "order": 6,
+   "name": "Content 3.1 Data: Uses, Privacy and Surveillance",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "ib-g11-informatics-ch06-st1",
+    "ib-g11-informatics-ch06-st2",
+    "ib-g11-informatics-ch06-st3"
+   ]
+  },
+  {
+   "id": "ib-g11-informatics-ch07",
+   "subjectId": "ib-g11-informatics",
+   "order": 7,
+   "name": "Content 3.2 Algorithms: Nature and Design",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "ib-g11-informatics-ch07-st1",
+    "ib-g11-informatics-ch07-st2",
+    "ib-g11-informatics-ch07-st3"
+   ]
+  },
+  {
+   "id": "ib-g11-informatics-ch08",
+   "subjectId": "ib-g11-informatics",
+   "order": 8,
+   "name": "Content 3.2 Algorithms: Bias, Transparency and Accountability",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "ib-g11-informatics-ch08-st1",
+    "ib-g11-informatics-ch08-st2",
+    "ib-g11-informatics-ch08-st3"
+   ]
+  },
+  {
+   "id": "ib-g11-informatics-ch09",
+   "subjectId": "ib-g11-informatics",
+   "order": 9,
+   "name": "Content 3.3 Computers: Hardware, Software and Evolution",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "ib-g11-informatics-ch09-st1",
+    "ib-g11-informatics-ch09-st2",
+    "ib-g11-informatics-ch09-st3"
+   ]
+  },
+  {
+   "id": "ib-g11-informatics-ch10",
+   "subjectId": "ib-g11-informatics",
+   "order": 10,
+   "name": "Content 3.3 Computers: Access, Equity and Environmental Impact",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g11-informatics-ch10-st1",
+    "ib-g11-informatics-ch10-st2",
+    "ib-g11-informatics-ch10-st3"
+   ]
+  },
+  {
+   "id": "ib-g11-informatics-ch11",
+   "subjectId": "ib-g11-informatics",
+   "order": 11,
+   "name": "Content 3.4 Networks and the Internet: Structure and Types",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "ib-g11-informatics-ch11-st1",
+    "ib-g11-informatics-ch11-st2",
+    "ib-g11-informatics-ch11-st3"
+   ]
+  },
+  {
+   "id": "ib-g11-informatics-ch12",
+   "subjectId": "ib-g11-informatics",
+   "order": 12,
+   "name": "Content 3.4 Networks and the Internet: Governance, Security and Social Impact",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "ib-g11-informatics-ch12-st1",
+    "ib-g11-informatics-ch12-st2",
+    "ib-g11-informatics-ch12-st3"
+   ]
+  },
+  {
+   "id": "ib-g11-informatics-ch13",
+   "subjectId": "ib-g11-informatics",
+   "order": 13,
+   "name": "Contexts and Paper 2 Source-based Skills",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "ib-g11-informatics-ch13-st1",
+    "ib-g11-informatics-ch13-st2",
+    "ib-g11-informatics-ch13-st3"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "ib-g11-informatics-ch01-st1",
+   "chapterId": "ib-g11-informatics-ch01",
+   "order": 1,
+   "name": "What is digital society? Digital systems, people and communities",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g10-social-science-ch08-st1"
+   ],
+   "prerequisiteNote": "Globalisation and technology (MYP 5 I&S); everyday use of digital devices",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch01-st2",
+   "chapterId": "ib-g11-informatics-ch01",
+   "order": 2,
+   "name": "The inquiry process: exploring, investigating, reflecting and sharing (1.1–1.4)",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch01-st1",
+    "ib-g10-social-science-ch12-st1"
+   ],
+   "prerequisiteNote": "Formulating research questions (MYP 5 Inquiry skills)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch01-st3",
+   "chapterId": "ib-g11-informatics-ch01",
+   "order": 3,
+   "name": "Evaluating sources and claims about digital technology",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch01-st2",
+    "ib-g10-social-science-ch12-st2"
+   ],
+   "prerequisiteNote": "Source evaluation OPVL (MYP 5); inquiry process",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch02-st1",
+   "chapterId": "ib-g11-informatics-ch02",
+   "order": 1,
+   "name": "2.1 Change: causality, transformation, innovation and disruption by digital systems",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch01-st1"
+   ],
+   "prerequisiteNote": "Digital systems; key concept change (MYP I&S)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch02-st2",
+   "chapterId": "ib-g11-informatics-ch02",
+   "order": 2,
+   "name": "2.2 Expression: digital forms of creative, cultural and political expression",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch01-st1"
+   ],
+   "prerequisiteNote": "Digital communities; forms of media (MYP Language and Literature)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch02-st3",
+   "chapterId": "ib-g11-informatics-ch02",
+   "order": 3,
+   "name": "Remix culture, memes and participatory culture",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch02-st2"
+   ],
+   "prerequisiteNote": "Digital expression; copyright basics",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch03-st1",
+   "chapterId": "ib-g11-informatics-ch03",
+   "order": 1,
+   "name": "2.3 Identity: digital identities, self-presentation and online communities",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch02-st2"
+   ],
+   "prerequisiteNote": "Digital expression; identity and belonging (MYP)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch03-st2",
+   "chapterId": "ib-g11-informatics-ch03",
+   "order": 2,
+   "name": "2.4 Power: digital platforms, gatekeeping, control and resistance",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch02-st1"
+   ],
+   "prerequisiteNote": "Change and disruption; forms of power (Global Politics core if taken)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch03-st3",
+   "chapterId": "ib-g11-informatics-ch03",
+   "order": 3,
+   "name": "Digital citizenship, online activism and the attention economy",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch03-st1",
+    "ib-g11-informatics-ch03-st2"
+   ],
+   "prerequisiteNote": "Digital identity; platform power",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch04-st1",
+   "chapterId": "ib-g11-informatics-ch04",
+   "order": 1,
+   "name": "2.5 Space: virtual spaces, place, borders and connectivity",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch01-st1"
+   ],
+   "prerequisiteNote": "Digital systems; time, place and space (MYP key concept)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch04-st2",
+   "chapterId": "ib-g11-informatics-ch04",
+   "order": 2,
+   "name": "2.6 Systems: components, interactions, feedback and emergent behaviour",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch04-st1"
+   ],
+   "prerequisiteNote": "Space and connectivity; systems key concept (MYP)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch04-st3",
+   "chapterId": "ib-g11-informatics-ch04",
+   "order": 3,
+   "name": "2.7 Values and ethics: ethical frameworks for digital dilemmas (consequentialism, deontology, virtue ethics)",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch03-st2"
+   ],
+   "prerequisiteNote": "Platform power; fairness and rights (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch05-st1",
+   "chapterId": "ib-g11-informatics-ch05",
+   "order": 1,
+   "name": "Types of data: qualitative, quantitative, structured, unstructured and metadata",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch04-st2"
+   ],
+   "prerequisiteNote": "Systems concept; data handling (MYP Maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch05-st2",
+   "chapterId": "ib-g11-informatics-ch05",
+   "order": 2,
+   "name": "Data collection: sensors, surveys, tracking and digital footprints",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch05-st1"
+   ],
+   "prerequisiteNote": "Types of data; digital identity",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch05-st3",
+   "chapterId": "ib-g11-informatics-ch05",
+   "order": 3,
+   "name": "Data storage and management: databases, cloud storage and data centres",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch05-st1"
+   ],
+   "prerequisiteNote": "Types of data; computer storage units (bits, bytes)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch05-st4",
+   "chapterId": "ib-g11-informatics-ch05",
+   "order": 4,
+   "name": "Data representation: binary, encoding and compression",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch05-st1"
+   ],
+   "prerequisiteNote": "Types of data; place value and powers of two (MYP Maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch06-st1",
+   "chapterId": "ib-g11-informatics-ch06",
+   "order": 1,
+   "name": "Big data, datafication and data analytics",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch05-st2",
+    "ib-g11-informatics-ch05-st3"
+   ],
+   "prerequisiteNote": "Data collection and storage",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch06-st2",
+   "chapterId": "ib-g11-informatics-ch06",
+   "order": 2,
+   "name": "Privacy, consent and data protection laws (GDPR, India's DPDP Act)",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch06-st1",
+    "ib-g11-informatics-ch04-st3"
+   ],
+   "prerequisiteNote": "Big data; values and ethics",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch06-st3",
+   "chapterId": "ib-g11-informatics-ch06",
+   "order": 3,
+   "name": "Surveillance: state and corporate surveillance and surveillance capitalism",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch06-st2",
+    "ib-g11-informatics-ch03-st2"
+   ],
+   "prerequisiteNote": "Privacy; platform power",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch07-st1",
+   "chapterId": "ib-g11-informatics-ch07",
+   "order": 1,
+   "name": "What is an algorithm? Inputs, processes, outputs and flowcharts",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch04-st2"
+   ],
+   "prerequisiteNote": "Systems concept; logical step-by-step instructions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch07-st2",
+   "chapterId": "ib-g11-informatics-ch07",
+   "order": 2,
+   "name": "Algorithm design: searching, sorting, recommendation and ranking algorithms",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch07-st1"
+   ],
+   "prerequisiteNote": "Flowcharts and pseudocode",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch07-st3",
+   "chapterId": "ib-g11-informatics-ch07",
+   "order": 3,
+   "name": "Evaluating algorithms: efficiency, accuracy and automation of decisions",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch07-st2"
+   ],
+   "prerequisiteNote": "Algorithm design; big data",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch08-st1",
+   "chapterId": "ib-g11-informatics-ch08",
+   "order": 1,
+   "name": "Algorithmic bias: sources in data and design, and its consequences",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch07-st3",
+    "ib-g11-informatics-ch06-st1"
+   ],
+   "prerequisiteNote": "Evaluating algorithms; big data",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch08-st2",
+   "chapterId": "ib-g11-informatics-ch08",
+   "order": 2,
+   "name": "Transparency, explainability and the \"black box\" problem",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch08-st1"
+   ],
+   "prerequisiteNote": "Algorithmic bias",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch08-st3",
+   "chapterId": "ib-g11-informatics-ch08",
+   "order": 3,
+   "name": "Accountability and regulation of algorithms: audits and legislation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch08-st2",
+    "ib-g11-informatics-ch06-st2"
+   ],
+   "prerequisiteNote": "Transparency; data protection laws",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch09-st1",
+   "chapterId": "ib-g11-informatics-ch09",
+   "order": 1,
+   "name": "Computer components: CPU, memory, storage, input and output devices",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch05-st3"
+   ],
+   "prerequisiteNote": "Data storage; everyday devices",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch09-st2",
+   "chapterId": "ib-g11-informatics-ch09",
+   "order": 2,
+   "name": "Types of computers and software: operating systems, applications, open source and proprietary",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch09-st1"
+   ],
+   "prerequisiteNote": "Computer components",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch09-st3",
+   "chapterId": "ib-g11-informatics-ch09",
+   "order": 3,
+   "name": "History and evolution of computing: Moore's law, mobile and wearable devices",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch09-st1",
+    "ib-g11-informatics-ch02-st1"
+   ],
+   "prerequisiteNote": "Computer components; change and innovation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch10-st1",
+   "chapterId": "ib-g11-informatics-ch10",
+   "order": 1,
+   "name": "The digital divide: access, skills and inequality within and between societies",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch09-st2",
+    "ib-g10-social-science-ch07-st1"
+   ],
+   "prerequisiteNote": "Development and inequality (MYP 5 I&S)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch10-st2",
+   "chapterId": "ib-g11-informatics-ch10",
+   "order": 2,
+   "name": "Environmental impacts of computing: energy use, rare minerals and e-waste",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch09-st3"
+   ],
+   "prerequisiteNote": "Computer hardware evolution; sustainability (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch10-st3",
+   "chapterId": "ib-g11-informatics-ch10",
+   "order": 3,
+   "name": "Assistive technologies and inclusive design",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch10-st1"
+   ],
+   "prerequisiteNote": "Digital divide; computer input and output devices",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch11-st1",
+   "chapterId": "ib-g11-informatics-ch11",
+   "order": 1,
+   "name": "Network types and components: LAN, WAN, routers, servers and cloud computing",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch09-st1"
+   ],
+   "prerequisiteNote": "Computer components",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch11-st2",
+   "chapterId": "ib-g11-informatics-ch11",
+   "order": 2,
+   "name": "How the internet works: packets, protocols (TCP/IP, HTTP) and IP addresses",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch11-st1"
+   ],
+   "prerequisiteNote": "Network components",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch11-st3",
+   "chapterId": "ib-g11-informatics-ch11",
+   "order": 3,
+   "name": "The World Wide Web, search engines and the Internet of Things",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch11-st2",
+    "ib-g11-informatics-ch07-st2"
+   ],
+   "prerequisiteNote": "Internet protocols; ranking algorithms",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch12-st1",
+   "chapterId": "ib-g11-informatics-ch12",
+   "order": 1,
+   "name": "Internet governance: ICANN, net neutrality and state control (firewalls, shutdowns)",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch11-st2",
+    "ib-g11-informatics-ch03-st2"
+   ],
+   "prerequisiteNote": "How the internet works; platform power",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch12-st2",
+   "chapterId": "ib-g11-informatics-ch12",
+   "order": 2,
+   "name": "Cybersecurity threats: malware, phishing, hacking and responses",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch11-st2"
+   ],
+   "prerequisiteNote": "Internet protocols; privacy",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch12-st3",
+   "chapterId": "ib-g11-informatics-ch12",
+   "order": 3,
+   "name": "Social impact of networks: social media, filter bubbles and echo chambers",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch11-st3",
+    "ib-g11-informatics-ch08-st1"
+   ],
+   "prerequisiteNote": "WWW and search engines; algorithmic transparency",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch13-st1",
+   "chapterId": "ib-g11-informatics-ch13",
+   "order": 1,
+   "name": "The seven contexts: cultural, economic, environmental, health, human knowledge, political and social",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch02-st1"
+   ],
+   "prerequisiteNote": "Concepts of change and power; content areas",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch13-st2",
+   "chapterId": "ib-g11-informatics-ch13",
+   "order": 2,
+   "name": "Paper 2 source analysis: identifying claims, comparing sources and evaluating evidence",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch01-st3",
+    "ib-g11-informatics-ch13-st1"
+   ],
+   "prerequisiteNote": "Evaluating sources and claims; contexts",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-informatics-ch13-st3",
+   "chapterId": "ib-g11-informatics-ch13",
+   "order": 3,
+   "name": "Applying concepts, content and contexts in a real-world example (Paper 1 practice)",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch13-st1",
+    "ib-g11-informatics-ch12-st3",
+    "ib-g11-informatics-ch08-st1"
+   ],
+   "prerequisiteNote": "Contexts; networks and algorithms content",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

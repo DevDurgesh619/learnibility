@@ -1,0 +1,932 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "ib-g12-maths",
+  "board": "ib",
+  "grade": 12,
+  "stream": "science",
+  "slug": "maths",
+  "name": "Mathematics",
+  "programme": "IB DP Mathematics: Analysis & Approaches SL/HL (2019 guide, valid to Nov 2028; new course first exam May 2029)",
+  "examPattern": "IB DP – graded 1–7; recommended 150 h SL / 240 h HL; exams May (Hindi May only). HL: Paper 1 no-calculator 2 h, 110 marks (30%); Paper 2 calculator 2 h, 110 marks (30%) – each Section A short + Section B extended (~9 + 3 questions); Paper 3 1 h, 55 marks, 2 extended problem-solving questions (20%); IA mathematical exploration 20%. SL: P1 + P2 1 h 30, 80 marks each (40%+40%) + IA 20%.",
+  "chapterCount": 13,
+  "questionTarget": 1586
+ },
+ "items": [
+  {
+   "id": "ib-g12-maths-ch01",
+   "subjectId": "ib-g12-maths",
+   "order": 1,
+   "name": "Trigonometric Functions and Identities (SL 3.5-3.6; AHL 3.9-3.11)",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "ib-g12-maths-ch01-st1",
+    "ib-g12-maths-ch01-st2",
+    "ib-g12-maths-ch01-st3",
+    "ib-g12-maths-ch01-st4",
+    "ib-g12-maths-ch01-st5"
+   ]
+  },
+  {
+   "id": "ib-g12-maths-ch02",
+   "subjectId": "ib-g12-maths",
+   "order": 2,
+   "name": "Trigonometric Graphs and Equations (SL 3.7-3.8)",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "ib-g12-maths-ch02-st1",
+    "ib-g12-maths-ch02-st2",
+    "ib-g12-maths-ch02-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-maths-ch03",
+   "subjectId": "ib-g12-maths",
+   "order": 3,
+   "name": "Vectors (AHL 3.12-3.13)",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "ib-g12-maths-ch03-st1",
+    "ib-g12-maths-ch03-st2",
+    "ib-g12-maths-ch03-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-maths-ch04",
+   "subjectId": "ib-g12-maths",
+   "order": 4,
+   "name": "Lines and Planes in 3D (AHL 3.14-3.18)",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "ib-g12-maths-ch04-st1",
+    "ib-g12-maths-ch04-st2",
+    "ib-g12-maths-ch04-st3",
+    "ib-g12-maths-ch04-st4",
+    "ib-g12-maths-ch04-st5"
+   ]
+  },
+  {
+   "id": "ib-g12-maths-ch05",
+   "subjectId": "ib-g12-maths",
+   "order": 5,
+   "name": "Limits and Introduction to Differentiation (SL 5.1-5.4; AHL 5.12)",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "ib-g12-maths-ch05-st1",
+    "ib-g12-maths-ch05-st2",
+    "ib-g12-maths-ch05-st3",
+    "ib-g12-maths-ch05-st4",
+    "ib-g12-maths-ch05-st5"
+   ]
+  },
+  {
+   "id": "ib-g12-maths-ch06",
+   "subjectId": "ib-g12-maths",
+   "order": 6,
+   "name": "Differentiation Rules (SL 5.6; AHL 5.14-5.15)",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "ib-g12-maths-ch06-st1",
+    "ib-g12-maths-ch06-st2",
+    "ib-g12-maths-ch06-st3",
+    "ib-g12-maths-ch06-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-maths-ch07",
+   "subjectId": "ib-g12-maths",
+   "order": 7,
+   "name": "Applications of Differentiation (SL 5.7-5.8; AHL 5.14)",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g12-maths-ch07-st1",
+    "ib-g12-maths-ch07-st2",
+    "ib-g12-maths-ch07-st3",
+    "ib-g12-maths-ch07-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-maths-ch08",
+   "subjectId": "ib-g12-maths",
+   "order": 8,
+   "name": "Integration (SL 5.5, 5.10, 5.11)",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "ib-g12-maths-ch08-st1",
+    "ib-g12-maths-ch08-st2",
+    "ib-g12-maths-ch08-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-maths-ch09",
+   "subjectId": "ib-g12-maths",
+   "order": 9,
+   "name": "Kinematics (SL 5.9)",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g12-maths-ch09-st1",
+    "ib-g12-maths-ch09-st2",
+    "ib-g12-maths-ch09-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-maths-ch10",
+   "subjectId": "ib-g12-maths",
+   "order": 10,
+   "name": "Further Integration (AHL 5.16-5.17)",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "ib-g12-maths-ch10-st1",
+    "ib-g12-maths-ch10-st2",
+    "ib-g12-maths-ch10-st3",
+    "ib-g12-maths-ch10-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-maths-ch11",
+   "subjectId": "ib-g12-maths",
+   "order": 11,
+   "name": "Differential Equations (AHL 5.18)",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g12-maths-ch11-st1",
+    "ib-g12-maths-ch11-st2",
+    "ib-g12-maths-ch11-st3",
+    "ib-g12-maths-ch11-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-maths-ch12",
+   "subjectId": "ib-g12-maths",
+   "order": 12,
+   "name": "Maclaurin Series and Limits (AHL 5.13, 5.19)",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "ib-g12-maths-ch12-st1",
+    "ib-g12-maths-ch12-st2",
+    "ib-g12-maths-ch12-st3",
+    "ib-g12-maths-ch12-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-maths-ch13",
+   "subjectId": "ib-g12-maths",
+   "order": 13,
+   "name": "Mathematical Exploration (IA) and Paper 3 Problem-Solving",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "ib-g12-maths-ch13-st1",
+    "ib-g12-maths-ch13-st2",
+    "ib-g12-maths-ch13-st3",
+    "ib-g12-maths-ch13-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "ib-g12-maths-ch01-st1",
+   "chapterId": "ib-g12-maths-ch01",
+   "order": 1,
+   "name": "SL 3.5 The unit circle definitions of sin, cos and tan; exact values",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-maths-ch13-st4",
+    "ib-g10-maths-ch08-st1"
+   ],
+   "prerequisiteNote": "Radians; trig ratios of any angle (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch01-st2",
+   "chapterId": "ib-g12-maths-ch01",
+   "order": 2,
+   "name": "SL 3.6 Pythagorean identity and double angle identities for sine and cosine",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch01-st1"
+   ],
+   "prerequisiteNote": "Unit circle definitions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch01-st3",
+   "chapterId": "ib-g12-maths-ch01",
+   "order": 3,
+   "name": "AHL 3.9 Reciprocal trig ratios sec, cosec, cot; inverse trig functions arcsin, arccos, arctan",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch01-st1",
+    "ib-g11-maths-ch08-st2"
+   ],
+   "prerequisiteNote": "Unit circle; inverse functions (DP1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch01-st4",
+   "chapterId": "ib-g12-maths-ch01",
+   "order": 4,
+   "name": "AHL 3.10 Compound angle identities and double angle for tangent",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch01-st2"
+   ],
+   "prerequisiteNote": "Double angle identities",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch01-st5",
+   "chapterId": "ib-g12-maths-ch01",
+   "order": 5,
+   "name": "AHL 3.11 Symmetry properties of trigonometric graphs",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch01-st1",
+    "ib-g11-maths-ch08-st2"
+   ],
+   "prerequisiteNote": "Unit circle; odd and even functions (DP1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch02-st1",
+   "chapterId": "ib-g12-maths-ch02",
+   "order": 1,
+   "name": "SL 3.7 Circular functions: amplitude, period, horizontal and vertical translations, modelling",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch09-st2",
+    "ib-g11-maths-ch08-st1"
+   ],
+   "prerequisiteNote": "Trig graphs (MYP 5); transformations (DP1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch02-st2",
+   "chapterId": "ib-g12-maths-ch02",
+   "order": 2,
+   "name": "SL 3.8 Solving trigonometric equations in a finite interval, including quadratic types",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch01-st2",
+    "ib-g11-maths-ch06-st2"
+   ],
+   "prerequisiteNote": "Identities; unit circle; solving quadratics",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch02-st3",
+   "chapterId": "ib-g12-maths-ch02",
+   "order": 3,
+   "name": "Applications of trigonometric models to periodic contexts",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch02-st1"
+   ],
+   "prerequisiteNote": "Circular functions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch03-st1",
+   "chapterId": "ib-g12-maths-ch03",
+   "order": 1,
+   "name": "AHL 3.12 Vector concepts in 2D and 3D: components, magnitude, unit vectors, position vectors",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch10-st3",
+    "ib-g11-maths-ch13-st1"
+   ],
+   "prerequisiteNote": "Vectors (MYP 5); 3D distance (DP1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch03-st2",
+   "chapterId": "ib-g12-maths-ch03",
+   "order": 2,
+   "name": "AHL 3.13 The scalar product and the angle between two vectors; perpendicular vectors",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch03-st1",
+    "ib-g11-maths-ch13-st2"
+   ],
+   "prerequisiteNote": "Vector components; cosine rule",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch03-st3",
+   "chapterId": "ib-g12-maths-ch03",
+   "order": 3,
+   "name": "Vector geometry problems in 2D and 3D",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch03-st2"
+   ],
+   "prerequisiteNote": "Vector operations; scalar product",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch04-st1",
+   "chapterId": "ib-g12-maths-ch04",
+   "order": 1,
+   "name": "AHL 3.14 Vector equation of a line in 2D and 3D; parametric and Cartesian forms",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch03-st1"
+   ],
+   "prerequisiteNote": "Position vectors",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch04-st2",
+   "chapterId": "ib-g12-maths-ch04",
+   "order": 2,
+   "name": "AHL 3.15 Classification of lines: parallel, intersecting, skew; points of intersection",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch04-st1",
+    "ib-g11-maths-ch09-st5"
+   ],
+   "prerequisiteNote": "Vector equation of a line; systems of equations (DP1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch04-st3",
+   "chapterId": "ib-g12-maths-ch04",
+   "order": 3,
+   "name": "AHL 3.16 The vector product and its geometric interpretation; areas",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch03-st2"
+   ],
+   "prerequisiteNote": "Scalar product; 3x3 components",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch04-st4",
+   "chapterId": "ib-g12-maths-ch04",
+   "order": 4,
+   "name": "AHL 3.17 Vector and Cartesian equations of a plane",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch04-st3"
+   ],
+   "prerequisiteNote": "Vector product; normal vectors",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch04-st5",
+   "chapterId": "ib-g12-maths-ch04",
+   "order": 5,
+   "name": "AHL 3.18 Intersections and angles between lines and planes; distances",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch04-st4",
+    "ib-g12-maths-ch04-st2"
+   ],
+   "prerequisiteNote": "Equations of planes and lines",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch05-st1",
+   "chapterId": "ib-g12-maths-ch05",
+   "order": 1,
+   "name": "SL 5.1 Concept of a limit and the derivative as gradient function and rate of change",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch07-st1",
+    "ib-g11-maths-ch01-st5"
+   ],
+   "prerequisiteNote": "Gradient of a line (MYP 4); sequences converging (DP1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch05-st2",
+   "chapterId": "ib-g12-maths-ch05",
+   "order": 2,
+   "name": "SL 5.2 Increasing and decreasing functions; graphical interpretation of f'(x)",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch05-st1"
+   ],
+   "prerequisiteNote": "Concept of the derivative",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch05-st3",
+   "chapterId": "ib-g12-maths-ch05",
+   "order": 3,
+   "name": "SL 5.3 Derivative of axⁿ for rational n and sums of such terms",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch05-st1",
+    "ib-g11-maths-ch02-st2"
+   ],
+   "prerequisiteNote": "Exponent laws with rational exponents (DP1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch05-st4",
+   "chapterId": "ib-g12-maths-ch05",
+   "order": 4,
+   "name": "SL 5.4 Tangents and normals at a given point",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch05-st3",
+    "ib-g11-maths-ch05-st1"
+   ],
+   "prerequisiteNote": "Derivative of axⁿ; equations of lines (DP1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch05-st5",
+   "chapterId": "ib-g12-maths-ch05",
+   "order": 5,
+   "name": "AHL 5.12 Continuity, differentiability and differentiation from first principles",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch05-st1",
+    "ib-g11-maths-ch03-st2"
+   ],
+   "prerequisiteNote": "Limits; binomial expansion (DP1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch06-st1",
+   "chapterId": "ib-g12-maths-ch06",
+   "order": 1,
+   "name": "SL 5.6 Derivatives of sin x, cos x, eˣ and ln x",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch05-st3",
+    "ib-g11-maths-ch07-st2"
+   ],
+   "prerequisiteNote": "Derivative of axⁿ; exponential and log functions (DP1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch06-st2",
+   "chapterId": "ib-g12-maths-ch06",
+   "order": 2,
+   "name": "SL 5.6 The chain rule, product rule and quotient rule",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch06-st1",
+    "ib-g11-maths-ch05-st4"
+   ],
+   "prerequisiteNote": "Standard derivatives; composite functions (DP1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch06-st3",
+   "chapterId": "ib-g12-maths-ch06",
+   "order": 3,
+   "name": "AHL 5.15 Derivatives of tan x, sec x, cosec x, cot x, aˣ, logₐx and inverse trig functions",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch06-st2",
+    "ib-g12-maths-ch01-st3"
+   ],
+   "prerequisiteNote": "Chain rule; reciprocal and inverse trig",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch06-st4",
+   "chapterId": "ib-g12-maths-ch06",
+   "order": 4,
+   "name": "AHL 5.14 Implicit differentiation",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch06-st2"
+   ],
+   "prerequisiteNote": "Chain rule",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch07-st1",
+   "chapterId": "ib-g12-maths-ch07",
+   "order": 1,
+   "name": "SL 5.7 The second derivative and the graphical behaviour of f, f' and f''",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch06-st2"
+   ],
+   "prerequisiteNote": "Differentiation rules",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch07-st2",
+   "chapterId": "ib-g12-maths-ch07",
+   "order": 2,
+   "name": "SL 5.8 Local maxima and minima, points of inflection, and optimisation problems",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch07-st1",
+    "ib-g12-maths-ch05-st4"
+   ],
+   "prerequisiteNote": "Second derivative; tangents",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch07-st3",
+   "chapterId": "ib-g12-maths-ch07",
+   "order": 3,
+   "name": "AHL 5.14 Related rates of change",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch06-st4"
+   ],
+   "prerequisiteNote": "Implicit differentiation; chain rule",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch07-st4",
+   "chapterId": "ib-g12-maths-ch07",
+   "order": 4,
+   "name": "Curve sketching using calculus and technology",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch07-st2",
+    "ib-g11-maths-ch05-st3"
+   ],
+   "prerequisiteNote": "Stationary points; asymptotes (DP1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch08-st1",
+   "chapterId": "ib-g12-maths-ch08",
+   "order": 1,
+   "name": "SL 5.5 Introduction to integration as anti-differentiation; boundary conditions",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch05-st3"
+   ],
+   "prerequisiteNote": "Derivative of axⁿ",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch08-st2",
+   "chapterId": "ib-g12-maths-ch08",
+   "order": 2,
+   "name": "SL 5.10 Indefinite integrals of xⁿ, sin x, cos x, 1/x, eˣ and composites with ax+b; substitution by inspection",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch08-st1",
+    "ib-g12-maths-ch06-st2"
+   ],
+   "prerequisiteNote": "Standard derivatives; chain rule",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch08-st3",
+   "chapterId": "ib-g12-maths-ch08",
+   "order": 3,
+   "name": "SL 5.11 Definite integrals and the area under a curve and between curves",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch08-st2"
+   ],
+   "prerequisiteNote": "Indefinite integrals",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch09-st1",
+   "chapterId": "ib-g12-maths-ch09",
+   "order": 1,
+   "name": "SL 5.9 Displacement, velocity and acceleration using derivatives and integrals",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch05-st1",
+    "ib-g12-maths-ch08-st3"
+   ],
+   "prerequisiteNote": "Derivatives as rates; definite integrals",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch09-st2",
+   "chapterId": "ib-g12-maths-ch09",
+   "order": 2,
+   "name": "Distance travelled versus displacement and the use of ∣v∣",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch09-st1"
+   ],
+   "prerequisiteNote": "Kinematics; area under curves",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch09-st3",
+   "chapterId": "ib-g12-maths-ch09",
+   "order": 3,
+   "name": "Kinematics problems with trigonometric and exponential motion",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch09-st1",
+    "ib-g12-maths-ch06-st1"
+   ],
+   "prerequisiteNote": "Differentiation of trig and exponential functions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch10-st1",
+   "chapterId": "ib-g12-maths-ch10",
+   "order": 1,
+   "name": "AHL 5.16 Integration by substitution",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch08-st2",
+    "ib-g12-maths-ch06-st2"
+   ],
+   "prerequisiteNote": "Chain rule; indefinite integrals",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch10-st2",
+   "chapterId": "ib-g12-maths-ch10",
+   "order": 2,
+   "name": "AHL 5.16 Integration by parts, including repeated use",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch06-st2",
+    "ib-g12-maths-ch08-st2"
+   ],
+   "prerequisiteNote": "Product rule; indefinite integrals",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch10-st3",
+   "chapterId": "ib-g12-maths-ch10",
+   "order": 3,
+   "name": "Integration using partial fractions and inverse trig results",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-maths-ch09-st4",
+    "ib-g12-maths-ch06-st3"
+   ],
+   "prerequisiteNote": "Partial fractions (DP1); inverse trig derivatives",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch10-st4",
+   "chapterId": "ib-g12-maths-ch10",
+   "order": 4,
+   "name": "AHL 5.17 Area between a curve and the y-axis; volumes of revolution about the x- and y-axes",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch08-st3"
+   ],
+   "prerequisiteNote": "Definite integrals; area of a circle",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch11-st1",
+   "chapterId": "ib-g12-maths-ch11",
+   "order": 1,
+   "name": "AHL 5.18 Setting up first-order differential equations from contexts",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch05-st1",
+    "ib-g12-maths-ch08-st1"
+   ],
+   "prerequisiteNote": "Rates of change; derivatives",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch11-st2",
+   "chapterId": "ib-g12-maths-ch11",
+   "order": 2,
+   "name": "AHL 5.18 Solving by separation of variables",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch11-st1",
+    "ib-g12-maths-ch10-st1"
+   ],
+   "prerequisiteNote": "Integration techniques",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch11-st3",
+   "chapterId": "ib-g12-maths-ch11",
+   "order": 3,
+   "name": "AHL 5.18 Homogeneous equations dy/dx = f(y/x) and the integrating factor method",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch11-st2",
+    "ib-g12-maths-ch06-st2"
+   ],
+   "prerequisiteNote": "Separation of variables; product rule",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch11-st4",
+   "chapterId": "ib-g12-maths-ch11",
+   "order": 4,
+   "name": "AHL 5.18 Euler's method for numerical solutions and slope fields",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch11-st1",
+    "ib-g12-maths-ch05-st4"
+   ],
+   "prerequisiteNote": "First-order DEs; tangents",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch12-st1",
+   "chapterId": "ib-g12-maths-ch12",
+   "order": 1,
+   "name": "AHL 5.13 Limits of functions and L'Hôpital's rule; repeated use",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch05-st1",
+    "ib-g12-maths-ch06-st2"
+   ],
+   "prerequisiteNote": "Limits; differentiation rules",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch12-st2",
+   "chapterId": "ib-g12-maths-ch12",
+   "order": 2,
+   "name": "AHL 5.19 Maclaurin series for eˣ, sin x, cos x, ln(1+x) and (1+x)ᵖ",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch07-st1",
+    "ib-g11-maths-ch03-st4"
+   ],
+   "prerequisiteNote": "Higher derivatives; extended binomial theorem (DP1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch12-st3",
+   "chapterId": "ib-g12-maths-ch12",
+   "order": 3,
+   "name": "AHL 5.19 Maclaurin series by substitution, products, integration and differentiation",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch12-st2"
+   ],
+   "prerequisiteNote": "Standard Maclaurin series",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch12-st4",
+   "chapterId": "ib-g12-maths-ch12",
+   "order": 4,
+   "name": "AHL 5.19 Maclaurin series from differential equations",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch12-st2",
+    "ib-g12-maths-ch11-st1"
+   ],
+   "prerequisiteNote": "Maclaurin series; differential equations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch13-st1",
+   "chapterId": "ib-g12-maths-ch13",
+   "order": 1,
+   "name": "Choosing an exploration topic and defining an aim",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Familiarity with the SL/AHL syllabus; personal interest",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch13-st2",
+   "chapterId": "ib-g12-maths-ch13",
+   "order": 2,
+   "name": "IA criteria: presentation, mathematical communication, personal engagement, reflection and use of mathematics",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-maths-ch13-st1"
+   ],
+   "prerequisiteNote": "Choosing a topic and aim",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch13-st3",
+   "chapterId": "ib-g12-maths-ch13",
+   "order": 3,
+   "name": "Paper 3: extended problem-solving and generalising from patterns",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-maths-ch03-st5",
+    "ib-g11-maths-ch01-st2"
+   ],
+   "prerequisiteNote": "Proof by induction (DP1); sequences",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-maths-ch13-st4",
+   "chapterId": "ib-g12-maths-ch13",
+   "order": 4,
+   "name": "Using technology (GDC, GeoGebra, spreadsheets) to investigate and verify conjectures",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g11-maths-ch07-st3"
+   ],
+   "prerequisiteNote": "Graphing functions with technology (DP1)",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

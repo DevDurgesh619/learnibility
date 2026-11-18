@@ -1,0 +1,441 @@
+{
+  "subjectId": "cambridge-g12-computer-science",
+  "chapters": [
+    {
+      "name": "User-defined Data Types and File Organisation",
+      "subtopics": [
+        {
+          "name": "User-defined data types: non-composite (enumerated, pointer) and composite (record, set, class)",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-computer-science-ch13-st1"
+          ],
+          "note": "Built-in data types and records (AS ch 13)"
+        },
+        {
+          "name": "File organisation: serial, sequential and random files",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-computer-science-ch13-st3"
+          ],
+          "note": "Text files (AS ch 13)"
+        },
+        {
+          "name": "File access methods: sequential and direct access; hashing algorithms",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-computer-science-ch01-st2"
+          ],
+          "note": "File organisation; modulo arithmetic (maths)"
+        }
+      ]
+    },
+    {
+      "name": "Floating-point Numbers, Representation and Manipulation",
+      "subtopics": [
+        {
+          "name": "Floating-point representation: mantissa and exponent in two's complement",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-computer-science-ch01-st2"
+          ],
+          "note": "Two's complement and binary fractions (AS ch 1)"
+        },
+        {
+          "name": "Normalisation of floating-point numbers and converting between denary and floating-point",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-computer-science-ch02-st1"
+          ],
+          "note": "Floating-point representation; place value of binary fractions"
+        },
+        {
+          "name": "Trade-off between range and precision; rounding errors, overflow and underflow",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-computer-science-ch02-st2"
+          ],
+          "note": "Normalisation; number of bits allocated to mantissa and exponent"
+        }
+      ]
+    },
+    {
+      "name": "Communication and Internet Technologies",
+      "subtopics": [
+        {
+          "name": "Protocols and the TCP/IP four-layer stack; HTTP, FTP, POP3, IMAP and SMTP",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-computer-science-ch02-st4"
+          ],
+          "note": "IP addressing and DNS (AS ch 2)"
+        },
+        {
+          "name": "Circuit switching and packet switching; role of routers",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-computer-science-ch03-st1",
+            "cambridge-g11-computer-science-ch02-st3"
+          ],
+          "note": "TCP/IP stack; network hardware (AS ch 2)"
+        },
+        {
+          "name": "Peer-to-peer file sharing with BitTorrent: swarms, seeds, leeches and trackers",
+          "weight": "L",
+          "prereq": [
+            "cambridge-g12-computer-science-ch03-st1"
+          ],
+          "note": "TCP/IP application layer protocols; peer-to-peer networks (AS ch 2)"
+        }
+      ]
+    },
+    {
+      "name": "Hardware and Virtual Machines",
+      "subtopics": [
+        {
+          "name": "RISC and CISC processors; pipelining and registers",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-computer-science-ch05-st1"
+          ],
+          "note": "Von Neumann architecture and registers (AS ch 5)"
+        },
+        {
+          "name": "Parallel processing: SISD, SIMD, MISD and MIMD; massively parallel computers",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-computer-science-ch04-st1"
+          ],
+          "note": "RISC and CISC; multi-core processors (AS ch 5)"
+        },
+        {
+          "name": "Virtual machines: concept, examples and benefits and limitations",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-computer-science-ch04-st1",
+            "cambridge-g11-computer-science-ch08-st1"
+          ],
+          "note": "Processor architecture; operating system role (AS ch 8)"
+        }
+      ]
+    },
+    {
+      "name": "Boolean Algebra and Logic Circuits",
+      "subtopics": [
+        {
+          "name": "Boolean algebra: De Morgan's laws and simplifying expressions",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-computer-science-ch04-st3"
+          ],
+          "note": "Simplifying logic circuits and expressions (AS ch 4)"
+        },
+        {
+          "name": "Karnaugh maps: sum-of-products form and simplification",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-computer-science-ch05-st1"
+          ],
+          "note": "Boolean algebra; truth tables (AS ch 4)"
+        },
+        {
+          "name": "Half adder, full adder and SR and JK flip-flops",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-computer-science-ch05-st1",
+            "cambridge-g11-computer-science-ch04-st2"
+          ],
+          "note": "Constructing logic circuits from truth tables (AS ch 4)"
+        }
+      ]
+    },
+    {
+      "name": "System Software",
+      "subtopics": [
+        {
+          "name": "Operating system: maximising resource use, user interface; process states and scheduling algorithms",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-computer-science-ch08-st1",
+            "cambridge-g11-computer-science-ch05-st4"
+          ],
+          "note": "Operating system functions and interrupts (AS ch 5, 8)"
+        },
+        {
+          "name": "Memory management: paging, segmentation, virtual memory and disk thrashing",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-computer-science-ch06-st1"
+          ],
+          "note": "Process management; RAM and secondary storage (AS ch 3)"
+        },
+        {
+          "name": "Translation software: stages of compilation (lexical, syntax analysis, code generation, optimisation)",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-computer-science-ch08-st3"
+          ],
+          "note": "Compilers and interpreters (AS ch 8)"
+        },
+        {
+          "name": "Backus–Naur form, syntax diagrams and Reverse Polish Notation",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-computer-science-ch06-st3"
+          ],
+          "note": "Stages of compilation; expression evaluation and stacks (AS ch 13)"
+        }
+      ]
+    },
+    {
+      "name": "Security",
+      "subtopics": [
+        {
+          "name": "Symmetric and asymmetric encryption; public and private keys",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-computer-science-ch09-st2"
+          ],
+          "note": "Security measures and encryption (AS ch 9)"
+        },
+        {
+          "name": "Secure Socket Layer (SSL) and Transport Layer Security (TLS)",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-computer-science-ch07-st1",
+            "cambridge-g12-computer-science-ch03-st1"
+          ],
+          "note": "Asymmetric encryption; TCP/IP protocols"
+        },
+        {
+          "name": "Digital certificates and digital signatures; quantum cryptography",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-computer-science-ch07-st1"
+          ],
+          "note": "Public and private keys; hashing (File access methods)"
+        }
+      ]
+    },
+    {
+      "name": "Artificial Intelligence",
+      "subtopics": [
+        {
+          "name": "Graphs as a data structure for AI; Dijkstra's and A* search algorithms",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-computer-science-ch13-st4"
+          ],
+          "note": "Abstract data types and linked structures (AS ch 13); weighted networks"
+        },
+        {
+          "name": "Machine learning: supervised, unsupervised and reinforcement learning",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-computer-science-ch08-st1"
+          ],
+          "note": "Graph representations in AI; use of data in algorithms"
+        },
+        {
+          "name": "Deep learning and artificial neural networks; back propagation and regression",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-computer-science-ch08-st2"
+          ],
+          "note": "Types of machine learning"
+        }
+      ]
+    },
+    {
+      "name": "Abstract Data Types",
+      "subtopics": [
+        {
+          "name": "Implementing stacks and queues (including circular queues) using arrays",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-computer-science-ch13-st4",
+            "cambridge-g11-computer-science-ch13-st2"
+          ],
+          "note": "Stacks, queues and 1D arrays (AS ch 13)"
+        },
+        {
+          "name": "Linked lists: insertion, deletion and searching using pointers",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-computer-science-ch09-st1",
+            "cambridge-g12-computer-science-ch01-st1"
+          ],
+          "note": "Stacks and queues; pointer data types"
+        },
+        {
+          "name": "Binary trees: insertion and traversal (in-order, pre-order, post-order)",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-computer-science-ch09-st2"
+          ],
+          "note": "Linked lists and pointers"
+        },
+        {
+          "name": "Graphs and dictionaries as ADTs",
+          "weight": "L",
+          "prereq": [
+            "cambridge-g12-computer-science-ch09-st3",
+            "cambridge-g12-computer-science-ch08-st1"
+          ],
+          "note": "Binary trees; graphs in AI"
+        }
+      ]
+    },
+    {
+      "name": "Algorithms",
+      "subtopics": [
+        {
+          "name": "Linear and binary search algorithms and their conditions",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-computer-science-ch13-st2"
+          ],
+          "note": "Linear search and arrays (AS ch 13)"
+        },
+        {
+          "name": "Insertion sort and bubble sort; comparing performance",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-computer-science-ch10-st1"
+          ],
+          "note": "Bubble sort (AS ch 13); search algorithms"
+        },
+        {
+          "name": "Big O notation for time and space complexity",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-computer-science-ch10-st2"
+          ],
+          "note": "Sort and search algorithms; growth of functions (maths)"
+        }
+      ]
+    },
+    {
+      "name": "Recursion",
+      "subtopics": [
+        {
+          "name": "Essential features of recursion: base case, general case and stack frames",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-computer-science-ch14-st3",
+            "cambridge-g12-computer-science-ch09-st1"
+          ],
+          "note": "Functions and parameters (AS ch 14); stacks"
+        },
+        {
+          "name": "Tracing recursive algorithms and comparing with iterative solutions",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-computer-science-ch11-st1"
+          ],
+          "note": "Features of recursion; trace tables"
+        },
+        {
+          "name": "How compilers implement recursion using a call stack",
+          "weight": "L",
+          "prereq": [
+            "cambridge-g12-computer-science-ch11-st1",
+            "cambridge-g12-computer-science-ch06-st3"
+          ],
+          "note": "Recursion; stages of compilation"
+        }
+      ]
+    },
+    {
+      "name": "Programming Paradigms",
+      "subtopics": [
+        {
+          "name": "Low-level programming: addressing modes revisited",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-computer-science-ch06-st2"
+          ],
+          "note": "Addressing modes and assembly language (AS ch 6)"
+        },
+        {
+          "name": "Imperative (procedural) programming",
+          "weight": "L",
+          "prereq": [
+            "cambridge-g11-computer-science-ch14-st3"
+          ],
+          "note": "Structured programming with procedures and functions (AS ch 14)"
+        },
+        {
+          "name": "Declarative programming: facts, rules and goals (Prolog-style)",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-computer-science-ch12-st2"
+          ],
+          "note": "Imperative programming; logic expressions"
+        }
+      ]
+    },
+    {
+      "name": "Object-oriented Programming",
+      "subtopics": [
+        {
+          "name": "Classes, objects, attributes, methods and encapsulation",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-computer-science-ch14-st3",
+            "cambridge-g12-computer-science-ch01-st1"
+          ],
+          "note": "Procedures and functions (AS ch 14); composite user-defined types"
+        },
+        {
+          "name": "Constructors, getters and setters; instance and private attributes",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-computer-science-ch13-st1"
+          ],
+          "note": "Classes and objects"
+        },
+        {
+          "name": "Inheritance, polymorphism, overloading and containment (aggregation)",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-computer-science-ch13-st2"
+          ],
+          "note": "Constructors and methods; class relationships"
+        }
+      ]
+    },
+    {
+      "name": "File Processing and Exception Handling",
+      "subtopics": [
+        {
+          "name": "Writing, reading and appending records to serial, sequential and random files",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-computer-science-ch01-st3",
+            "cambridge-g11-computer-science-ch13-st3"
+          ],
+          "note": "File access methods; text files (AS ch 13)"
+        },
+        {
+          "name": "Exception handling: try, except and finally; robust programs",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-computer-science-ch14-st1",
+            "cambridge-g11-computer-science-ch15-st3"
+          ],
+          "note": "File processing; types of errors (AS ch 15)"
+        },
+        {
+          "name": "Implementing file-based programs in Python, Java or VB.NET",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-computer-science-ch14-st2",
+            "cambridge-g12-computer-science-ch13-st1"
+          ],
+          "note": "Exception handling; classes and objects"
+        }
+      ]
+    }
+  ]
+}

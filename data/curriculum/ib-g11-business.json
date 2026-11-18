@@ -1,0 +1,889 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "ib-g11-business",
+  "board": "ib",
+  "grade": 11,
+  "stream": "commerce",
+  "slug": "business",
+  "name": "Business Management",
+  "programme": "IB DP Business Management SL/HL (first exam 2024) – 5 units, 36 subtopics",
+  "examPattern": "IB DP – graded 1–7; recommended 150 h SL / 240 h HL; exams May (Hindi May only). HL: Paper 1 pre-released statement + unseen case 1 h 30, 30 marks (25%); Paper 2 quantitative 1 h 45, ~50 marks (30%, UNVERIFIED 50/60); Paper 3 social enterprise 1 h 15, 25 marks (25%); IA research project 25 marks (20%). SL: P1 35%, P2 40 marks 35%, IA 30%.",
+  "chapterCount": 14,
+  "questionTarget": 1165
+ },
+ "items": [
+  {
+   "id": "ib-g11-business-ch01",
+   "subjectId": "ib-g11-business",
+   "order": 1,
+   "name": "Unit 1.1 Introduction to Business Management",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g11-business-ch01-st1",
+    "ib-g11-business-ch01-st2",
+    "ib-g11-business-ch01-st3",
+    "ib-g11-business-ch01-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-business-ch02",
+   "subjectId": "ib-g11-business",
+   "order": 2,
+   "name": "Unit 1.2 Types of Business Entities",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "ib-g11-business-ch02-st1",
+    "ib-g11-business-ch02-st2",
+    "ib-g11-business-ch02-st3"
+   ]
+  },
+  {
+   "id": "ib-g11-business-ch03",
+   "subjectId": "ib-g11-business",
+   "order": 3,
+   "name": "Unit 1.3 Business Objectives",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g11-business-ch03-st1",
+    "ib-g11-business-ch03-st2",
+    "ib-g11-business-ch03-st3",
+    "ib-g11-business-ch03-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-business-ch04",
+   "subjectId": "ib-g11-business",
+   "order": 4,
+   "name": "Unit 1.4 Stakeholders",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "ib-g11-business-ch04-st1",
+    "ib-g11-business-ch04-st2",
+    "ib-g11-business-ch04-st3"
+   ]
+  },
+  {
+   "id": "ib-g11-business-ch05",
+   "subjectId": "ib-g11-business",
+   "order": 5,
+   "name": "Unit 1.5-1.6 Growth and Evolution; Multinational Companies",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "ib-g11-business-ch05-st1",
+    "ib-g11-business-ch05-st2",
+    "ib-g11-business-ch05-st3",
+    "ib-g11-business-ch05-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-business-ch06",
+   "subjectId": "ib-g11-business",
+   "order": 6,
+   "name": "Unit 2.1-2.2 Introduction to HRM and Organizational Structure",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g11-business-ch06-st1",
+    "ib-g11-business-ch06-st2",
+    "ib-g11-business-ch06-st3",
+    "ib-g11-business-ch06-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-business-ch07",
+   "subjectId": "ib-g11-business",
+   "order": 7,
+   "name": "Unit 2.3 Leadership and Management",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "ib-g11-business-ch07-st1",
+    "ib-g11-business-ch07-st2",
+    "ib-g11-business-ch07-st3"
+   ]
+  },
+  {
+   "id": "ib-g11-business-ch08",
+   "subjectId": "ib-g11-business",
+   "order": 8,
+   "name": "Unit 2.4 Motivation and Demotivation",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "ib-g11-business-ch08-st1",
+    "ib-g11-business-ch08-st2",
+    "ib-g11-business-ch08-st3",
+    "ib-g11-business-ch08-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-business-ch09",
+   "subjectId": "ib-g11-business",
+   "order": 9,
+   "name": "Unit 2.5-2.7 Organizational Culture, Employer-Employee Relations and Communication",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "ib-g11-business-ch09-st1",
+    "ib-g11-business-ch09-st2",
+    "ib-g11-business-ch09-st3"
+   ]
+  },
+  {
+   "id": "ib-g11-business-ch10",
+   "subjectId": "ib-g11-business",
+   "order": 10,
+   "name": "Unit 3.1-3.3 Introduction to Finance, Sources of Finance, Costs and Revenues",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g11-business-ch10-st1",
+    "ib-g11-business-ch10-st2",
+    "ib-g11-business-ch10-st3"
+   ]
+  },
+  {
+   "id": "ib-g11-business-ch11",
+   "subjectId": "ib-g11-business",
+   "order": 11,
+   "name": "Unit 3.4 Final Accounts",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g11-business-ch11-st1",
+    "ib-g11-business-ch11-st2",
+    "ib-g11-business-ch11-st3"
+   ]
+  },
+  {
+   "id": "ib-g11-business-ch12",
+   "subjectId": "ib-g11-business",
+   "order": 12,
+   "name": "Unit 3.5-3.6 Profitability, Liquidity, Efficiency and Insolvency Ratio Analysis",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g11-business-ch12-st1",
+    "ib-g11-business-ch12-st2",
+    "ib-g11-business-ch12-st3",
+    "ib-g11-business-ch12-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-business-ch13",
+   "subjectId": "ib-g11-business",
+   "order": 13,
+   "name": "Unit 3.7-3.8 Cash Flow and Investment Appraisal",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "ib-g11-business-ch13-st1",
+    "ib-g11-business-ch13-st2",
+    "ib-g11-business-ch13-st3",
+    "ib-g11-business-ch13-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-business-ch14",
+   "subjectId": "ib-g11-business",
+   "order": 14,
+   "name": "Unit 3.9 Budgets and Business Management Tools",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "ib-g11-business-ch14-st1",
+    "ib-g11-business-ch14-st2",
+    "ib-g11-business-ch14-st3"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "ib-g11-business-ch01-st1",
+   "chapterId": "ib-g11-business-ch01",
+   "order": 1,
+   "name": "Role of businesses: combining human, physical and financial resources to create goods and services",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g10-social-science-ch08-st1"
+   ],
+   "prerequisiteNote": "Markets and trade (MYP 5 I&S); factors of production (MYP 4 Markets unit)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch01-st2",
+   "chapterId": "ib-g11-business-ch01",
+   "order": 2,
+   "name": "Business functions and their interrelationships: HR, finance, marketing and operations",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-business-ch01-st1"
+   ],
+   "prerequisiteNote": "Role of businesses",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch01-st3",
+   "chapterId": "ib-g11-business-ch01",
+   "order": 3,
+   "name": "Primary, secondary, tertiary and quaternary sectors and sectoral change",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-business-ch01-st1"
+   ],
+   "prerequisiteNote": "Economic sectors (MYP 3-4 I&S)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch01-st4",
+   "chapterId": "ib-g11-business-ch01",
+   "order": 4,
+   "name": "Entrepreneurship and intrapreneurship; reasons for starting a business and problems faced by start-ups",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g11-business-ch01-st2"
+   ],
+   "prerequisiteNote": "Business functions; risk and reward",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch02-st1",
+   "chapterId": "ib-g11-business-ch02",
+   "order": 1,
+   "name": "Distinction between private and public sectors",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-business-ch01-st3"
+   ],
+   "prerequisiteNote": "Business sectors; role of government (MYP 3 Civics)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch02-st2",
+   "chapterId": "ib-g11-business-ch02",
+   "order": 2,
+   "name": "For-profit entities: sole traders, partnerships and privately and publicly held companies",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-business-ch02-st1"
+   ],
+   "prerequisiteNote": "Public vs private sector; limited and unlimited liability",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch02-st3",
+   "chapterId": "ib-g11-business-ch02",
+   "order": 3,
+   "name": "Social enterprises: for-profit social enterprises, non-profit social enterprises, NGOs and cooperatives",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-business-ch02-st2"
+   ],
+   "prerequisiteNote": "For-profit entities; aims of charities",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch03-st1",
+   "chapterId": "ib-g11-business-ch03",
+   "order": 1,
+   "name": "Vision and mission statements; aims, objectives, strategies and tactics",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-business-ch02-st2"
+   ],
+   "prerequisiteNote": "Types of business entities",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch03-st2",
+   "chapterId": "ib-g11-business-ch03",
+   "order": 2,
+   "name": "Common business objectives: growth, profit, protecting shareholder value, ethical objectives",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-business-ch03-st1"
+   ],
+   "prerequisiteNote": "Aims and objectives hierarchy",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch03-st3",
+   "chapterId": "ib-g11-business-ch03",
+   "order": 3,
+   "name": "Corporate social responsibility (CSR) and changing objectives",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-business-ch03-st2"
+   ],
+   "prerequisiteNote": "Ethical objectives; stakeholders",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch03-st4",
+   "chapterId": "ib-g11-business-ch03",
+   "order": 4,
+   "name": "Business management tools: SWOT and STEEPLE analysis applied to objectives",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g11-business-ch03-st1"
+   ],
+   "prerequisiteNote": "Objectives; external environment factors",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch04-st1",
+   "chapterId": "ib-g11-business-ch04",
+   "order": 1,
+   "name": "Internal and external stakeholders and their interests",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-business-ch03-st2"
+   ],
+   "prerequisiteNote": "Business objectives",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch04-st2",
+   "chapterId": "ib-g11-business-ch04",
+   "order": 2,
+   "name": "Conflict between stakeholders and stakeholder mapping (HL)",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-business-ch04-st1"
+   ],
+   "prerequisiteNote": "Stakeholder interests; power and interest grid",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch04-st3",
+   "chapterId": "ib-g11-business-ch04",
+   "order": 3,
+   "name": "Mutual benefits of stakeholders and stakeholder influence on decision-making",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-business-ch04-st2"
+   ],
+   "prerequisiteNote": "Stakeholder conflict; business objectives",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch05-st1",
+   "chapterId": "ib-g11-business-ch05",
+   "order": 1,
+   "name": "Economies and diseconomies of scale",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-business-ch03-st2"
+   ],
+   "prerequisiteNote": "Growth objectives; average cost",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch05-st2",
+   "chapterId": "ib-g11-business-ch05",
+   "order": 2,
+   "name": "Internal (organic) and external growth: mergers and acquisitions, takeovers, joint ventures, strategic alliances, franchising",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-business-ch05-st1"
+   ],
+   "prerequisiteNote": "Economies of scale; types of business entities",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch05-st3",
+   "chapterId": "ib-g11-business-ch05",
+   "order": 3,
+   "name": "Reasons for businesses to stay small and the impact of size",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-business-ch05-st1"
+   ],
+   "prerequisiteNote": "Economies and diseconomies of scale",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch05-st4",
+   "chapterId": "ib-g11-business-ch05",
+   "order": 4,
+   "name": "Multinational companies (MNCs): growth and impact on host countries",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-business-ch05-st2",
+    "ib-g11-business-ch04-st2"
+   ],
+   "prerequisiteNote": "External growth; stakeholder conflict",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch06-st1",
+   "chapterId": "ib-g11-business-ch06",
+   "order": 1,
+   "name": "Role of human resource management: workforce planning, recruitment, training and appraisal",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-business-ch01-st2"
+   ],
+   "prerequisiteNote": "Business functions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch06-st2",
+   "chapterId": "ib-g11-business-ch06",
+   "order": 2,
+   "name": "Organizational structure: hierarchy, chain of command, span of control, delayering and delegation",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-business-ch06-st1"
+   ],
+   "prerequisiteNote": "HR planning; organisation charts",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch06-st3",
+   "chapterId": "ib-g11-business-ch06",
+   "order": 3,
+   "name": "Types of structure: flat, tall, matrix and project-based; centralisation and decentralisation",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-business-ch06-st2"
+   ],
+   "prerequisiteNote": "Hierarchy and span of control",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch06-st4",
+   "chapterId": "ib-g11-business-ch06",
+   "order": 4,
+   "name": "Changes in work patterns: flexible working, gig economy, outsourcing and offshoring",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g11-business-ch06-st1"
+   ],
+   "prerequisiteNote": "HR planning; technology in the workplace",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch07-st1",
+   "chapterId": "ib-g11-business-ch07",
+   "order": 1,
+   "name": "Functions of management (Fayol) and leadership vs management",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-business-ch06-st2"
+   ],
+   "prerequisiteNote": "Organizational structure",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch07-st2",
+   "chapterId": "ib-g11-business-ch07",
+   "order": 2,
+   "name": "Leadership styles: autocratic, paternalistic, democratic, laissez-faire and situational",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-business-ch07-st1"
+   ],
+   "prerequisiteNote": "Functions of management",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch07-st3",
+   "chapterId": "ib-g11-business-ch07",
+   "order": 3,
+   "name": "Cultural and ethical influences on leadership",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-business-ch07-st2"
+   ],
+   "prerequisiteNote": "Leadership styles; ethical objectives (CSR)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch08-st1",
+   "chapterId": "ib-g11-business-ch08",
+   "order": 1,
+   "name": "Content theories: Taylor, Maslow and Herzberg",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-business-ch07-st2"
+   ],
+   "prerequisiteNote": "Leadership styles; human needs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch08-st2",
+   "chapterId": "ib-g11-business-ch08",
+   "order": 2,
+   "name": "Process theories (HL): Adams' equity theory and Pink's drive theory",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-business-ch08-st1"
+   ],
+   "prerequisiteNote": "Content theories of motivation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch08-st3",
+   "chapterId": "ib-g11-business-ch08",
+   "order": 3,
+   "name": "Financial rewards: salary, wages, commission, profit-related pay, performance-related pay and fringe payments",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-business-ch08-st1"
+   ],
+   "prerequisiteNote": "Content theories (Taylor)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch08-st4",
+   "chapterId": "ib-g11-business-ch08",
+   "order": 4,
+   "name": "Non-financial rewards: job enrichment, rotation, empowerment, purpose and teamwork",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-business-ch08-st1",
+    "ib-g11-business-ch08-st3"
+   ],
+   "prerequisiteNote": "Herzberg; financial rewards",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch09-st1",
+   "chapterId": "ib-g11-business-ch09",
+   "order": 1,
+   "name": "Organizational culture (HL): types, cultural clashes and culture during growth",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-business-ch07-st3",
+    "ib-g11-business-ch05-st2"
+   ],
+   "prerequisiteNote": "Leadership influences; mergers and acquisitions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch09-st2",
+   "chapterId": "ib-g11-business-ch09",
+   "order": 2,
+   "name": "Industrial/employee relations (HL): collective bargaining, trade unions and resolution methods",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-business-ch09-st1",
+    "ib-g11-business-ch04-st2"
+   ],
+   "prerequisiteNote": "Stakeholder conflict; organizational culture",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch09-st3",
+   "chapterId": "ib-g11-business-ch09",
+   "order": 3,
+   "name": "Communication: formal and informal methods and barriers to communication",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-business-ch06-st2"
+   ],
+   "prerequisiteNote": "Organizational structure; chain of command",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch10-st1",
+   "chapterId": "ib-g11-business-ch10",
+   "order": 1,
+   "name": "Role of finance: capital vs revenue expenditure",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-business-ch01-st2"
+   ],
+   "prerequisiteNote": "Business functions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch10-st2",
+   "chapterId": "ib-g11-business-ch10",
+   "order": 2,
+   "name": "Internal and external sources of finance and their appropriateness",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-business-ch10-st1",
+    "ib-g11-business-ch02-st2"
+   ],
+   "prerequisiteNote": "Capital expenditure; types of business entities",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch10-st3",
+   "chapterId": "ib-g11-business-ch10",
+   "order": 3,
+   "name": "Types of costs (fixed, variable, direct, indirect) and revenue streams",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-business-ch10-st1"
+   ],
+   "prerequisiteNote": "Role of finance; simple arithmetic and graphs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch11-st1",
+   "chapterId": "ib-g11-business-ch11",
+   "order": 1,
+   "name": "Purpose of accounts to stakeholders and principles of ethical accounting",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-business-ch10-st1",
+    "ib-g11-business-ch04-st1"
+   ],
+   "prerequisiteNote": "Role of finance; stakeholder interests",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch11-st2",
+   "chapterId": "ib-g11-business-ch11",
+   "order": 2,
+   "name": "The statement of profit or loss and the statement of financial position",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-business-ch11-st1",
+    "ib-g11-business-ch10-st3"
+   ],
+   "prerequisiteNote": "Costs and revenues; assets and liabilities",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch11-st3",
+   "chapterId": "ib-g11-business-ch11",
+   "order": 3,
+   "name": "Intangible assets and depreciation: straight-line and units of production (HL)",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-business-ch11-st2"
+   ],
+   "prerequisiteNote": "Statement of financial position; percentages",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch12-st1",
+   "chapterId": "ib-g11-business-ch12",
+   "order": 1,
+   "name": "Profitability ratios: gross profit margin, profit margin and ROCE",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-business-ch11-st2"
+   ],
+   "prerequisiteNote": "Statement of profit or loss; percentages",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch12-st2",
+   "chapterId": "ib-g11-business-ch12",
+   "order": 2,
+   "name": "Liquidity ratios: current ratio and acid-test ratio; strategies to improve ratios",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-business-ch11-st2"
+   ],
+   "prerequisiteNote": "Statement of financial position; current assets and liabilities",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch12-st3",
+   "chapterId": "ib-g11-business-ch12",
+   "order": 3,
+   "name": "Efficiency ratios (HL): stock turnover, debtor and creditor days and gearing ratio",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-business-ch12-st2"
+   ],
+   "prerequisiteNote": "Liquidity ratios; final accounts",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch12-st4",
+   "chapterId": "ib-g11-business-ch12",
+   "order": 4,
+   "name": "Insolvency vs bankruptcy and limitations of ratio analysis",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g11-business-ch12-st3"
+   ],
+   "prerequisiteNote": "Gearing and liquidity ratios",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch13-st1",
+   "chapterId": "ib-g11-business-ch13",
+   "order": 1,
+   "name": "Difference between profit and cash flow; working capital cycle",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-business-ch11-st2"
+   ],
+   "prerequisiteNote": "Final accounts; liquidity ratios",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch13-st2",
+   "chapterId": "ib-g11-business-ch13",
+   "order": 2,
+   "name": "Cash flow forecasts and strategies to deal with cash-flow problems",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-business-ch13-st1"
+   ],
+   "prerequisiteNote": "Profit vs cash flow; spreadsheets and monthly tables",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch13-st3",
+   "chapterId": "ib-g11-business-ch13",
+   "order": 3,
+   "name": "Investment appraisal: payback period and average rate of return",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-business-ch10-st1"
+   ],
+   "prerequisiteNote": "Capital expenditure; percentage calculations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch13-st4",
+   "chapterId": "ib-g11-business-ch13",
+   "order": 4,
+   "name": "Net present value using discount factors (HL)",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-business-ch13-st3"
+   ],
+   "prerequisiteNote": "Payback and ARR; time value of money",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch14-st1",
+   "chapterId": "ib-g11-business-ch14",
+   "order": 1,
+   "name": "Budgets (HL): importance, cost and profit centres",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-business-ch13-st2"
+   ],
+   "prerequisiteNote": "Cash flow forecasts; costs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch14-st2",
+   "chapterId": "ib-g11-business-ch14",
+   "order": 2,
+   "name": "Variance analysis: favourable and adverse variances (HL)",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-business-ch14-st1"
+   ],
+   "prerequisiteNote": "Budgets; subtraction and percentages",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-business-ch14-st3",
+   "chapterId": "ib-g11-business-ch14",
+   "order": 3,
+   "name": "Business management toolkit: decision trees and force field analysis",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g11-business-ch13-st3",
+    "ib-g11-business-ch03-st4"
+   ],
+   "prerequisiteNote": "Investment appraisal; SWOT and STEEPLE",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

@@ -1,0 +1,641 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cambridge-g12-informatics",
+  "board": "cambridge",
+  "grade": 12,
+  "stream": "commerce",
+  "slug": "informatics",
+  "name": "Information Technology",
+  "programme": "Cambridge A Level Information Technology 9626 (topics 12–21)",
+  "examPattern": "A2: P3 Advanced Theory 1 h 45, 70 marks (~10 questions, 25%) + P4 Advanced Practical 2 h 30, 90 marks (~4 tasks, 25%).",
+  "chapterCount": 10,
+  "questionTarget": 984
+ },
+ "items": [
+  {
+   "id": "cambridge-g12-informatics-ch01",
+   "subjectId": "cambridge-g12-informatics",
+   "order": 1,
+   "name": "IT in Society",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cambridge-g12-informatics-ch01-st1",
+    "cambridge-g12-informatics-ch01-st2",
+    "cambridge-g12-informatics-ch01-st3",
+    "cambridge-g12-informatics-ch01-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g12-informatics-ch02",
+   "subjectId": "cambridge-g12-informatics",
+   "order": 2,
+   "name": "New and Emerging Technologies",
+   "teachingPeriods": 15,
+   "subtopicIds": [
+    "cambridge-g12-informatics-ch02-st1",
+    "cambridge-g12-informatics-ch02-st2",
+    "cambridge-g12-informatics-ch02-st3",
+    "cambridge-g12-informatics-ch02-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g12-informatics-ch03",
+   "subjectId": "cambridge-g12-informatics",
+   "order": 3,
+   "name": "Communications Technology",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cambridge-g12-informatics-ch03-st1",
+    "cambridge-g12-informatics-ch03-st2",
+    "cambridge-g12-informatics-ch03-st3",
+    "cambridge-g12-informatics-ch03-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g12-informatics-ch04",
+   "subjectId": "cambridge-g12-informatics",
+   "order": 4,
+   "name": "Project Management",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cambridge-g12-informatics-ch04-st1",
+    "cambridge-g12-informatics-ch04-st2",
+    "cambridge-g12-informatics-ch04-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g12-informatics-ch05",
+   "subjectId": "cambridge-g12-informatics",
+   "order": 5,
+   "name": "Graphics Creation",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cambridge-g12-informatics-ch05-st1",
+    "cambridge-g12-informatics-ch05-st2",
+    "cambridge-g12-informatics-ch05-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g12-informatics-ch06",
+   "subjectId": "cambridge-g12-informatics",
+   "order": 6,
+   "name": "Animation",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cambridge-g12-informatics-ch06-st1",
+    "cambridge-g12-informatics-ch06-st2",
+    "cambridge-g12-informatics-ch06-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g12-informatics-ch07",
+   "subjectId": "cambridge-g12-informatics",
+   "order": 7,
+   "name": "Mail Merge",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cambridge-g12-informatics-ch07-st1",
+    "cambridge-g12-informatics-ch07-st2",
+    "cambridge-g12-informatics-ch07-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g12-informatics-ch08",
+   "subjectId": "cambridge-g12-informatics",
+   "order": 8,
+   "name": "Programming for the Web",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cambridge-g12-informatics-ch08-st1",
+    "cambridge-g12-informatics-ch08-st2",
+    "cambridge-g12-informatics-ch08-st3",
+    "cambridge-g12-informatics-ch08-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g12-informatics-ch09",
+   "subjectId": "cambridge-g12-informatics",
+   "order": 9,
+   "name": "System Life Cycle",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cambridge-g12-informatics-ch09-st1",
+    "cambridge-g12-informatics-ch09-st2",
+    "cambridge-g12-informatics-ch09-st3",
+    "cambridge-g12-informatics-ch09-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g12-informatics-ch10",
+   "subjectId": "cambridge-g12-informatics",
+   "order": 10,
+   "name": "Expert Systems",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cambridge-g12-informatics-ch10-st1",
+    "cambridge-g12-informatics-ch10-st2",
+    "cambridge-g12-informatics-ch10-st3"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cambridge-g12-informatics-ch01-st1",
+   "chapterId": "cambridge-g12-informatics-ch01",
+   "order": 1,
+   "name": "Digital currencies, cryptocurrencies and blockchain; electronic funds transfer",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch01-st5"
+   ],
+   "prerequisiteNote": "Encryption and secure transactions (AS ch 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-informatics-ch01-st2",
+   "chapterId": "cambridge-g12-informatics-ch01",
+   "order": 2,
+   "name": "Data mining and its use in business, medicine and security",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch10-st3"
+   ],
+   "prerequisiteNote": "Database queries and reports (AS ch 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-informatics-ch01-st3",
+   "chapterId": "cambridge-g12-informatics-ch01",
+   "order": 3,
+   "name": "Social networking, online gaming and the impact of IT on business, employment and education",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch06-st2"
+   ],
+   "prerequisiteNote": "The digital divide (AS ch 6)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-informatics-ch01-st4",
+   "chapterId": "cambridge-g12-informatics-ch01",
+   "order": 4,
+   "name": "Technology-enabled crime: phishing, pharming, smishing and hacking; protection methods",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch05-st2"
+   ],
+   "prerequisiteNote": "eSafety and security measures (AS ch 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-informatics-ch02-st1",
+   "chapterId": "cambridge-g12-informatics-ch02",
+   "order": 1,
+   "name": "Nanotechnology, quantum cryptography and computer-assisted translation",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Encryption (AS ch 1); everyday uses of technology",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-informatics-ch02-st2",
+   "chapterId": "cambridge-g12-informatics-ch02",
+   "order": 2,
+   "name": "Virtual reality, augmented reality and holographic imaging",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch02-st4"
+   ],
+   "prerequisiteNote": "User interfaces including gesture-based (AS ch 2)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-informatics-ch02-st3",
+   "chapterId": "cambridge-g12-informatics-ch02",
+   "order": 3,
+   "name": "Robotics, autonomous vehicles, biometrics and wearable computing",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch03-st3"
+   ],
+   "prerequisiteNote": "Control systems with sensors and actuators (AS ch 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-informatics-ch02-st4",
+   "chapterId": "cambridge-g12-informatics-ch02",
+   "order": 4,
+   "name": "Cloud computing, the Internet of Things and 3D printing",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch08-st1"
+   ],
+   "prerequisiteNote": "Networks and the internet (AS ch 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-informatics-ch03-st1",
+   "chapterId": "cambridge-g12-informatics-ch03",
+   "order": 1,
+   "name": "Network components and types: WLAN, WPAN, VPN and their uses",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch08-st1"
+   ],
+   "prerequisiteNote": "Network types and components (AS ch 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-informatics-ch03-st2",
+   "chapterId": "cambridge-g12-informatics-ch03",
+   "order": 2,
+   "name": "Network protocols: TCP/IP, HTTP, FTP, SMTP, IMAP and VoIP",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-informatics-ch03-st1"
+   ],
+   "prerequisiteNote": "Network types; client–server communication",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-informatics-ch03-st3",
+   "chapterId": "cambridge-g12-informatics-ch03",
+   "order": 3,
+   "name": "Transmission media and mobile communication: fibre optic, satellites, GPS and 4G/5G",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-informatics-ch03-st1"
+   ],
+   "prerequisiteNote": "Network components; signals and bandwidth",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-informatics-ch03-st4",
+   "chapterId": "cambridge-g12-informatics-ch03",
+   "order": 4,
+   "name": "Network security: firewalls, proxy servers and encryption",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-informatics-ch03-st2",
+    "cambridge-g12-informatics-ch01-st4"
+   ],
+   "prerequisiteNote": "Network protocols; technology-enabled crime",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-informatics-ch04-st1",
+   "chapterId": "cambridge-g12-informatics-ch04",
+   "order": 1,
+   "name": "Stages of the project life cycle: initiation, planning, execution, monitoring and closure",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Planning tasks and time management",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-informatics-ch04-st2",
+   "chapterId": "cambridge-g12-informatics-ch04",
+   "order": 2,
+   "name": "Project management tools: Gantt charts, PERT charts and critical path analysis",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-informatics-ch04-st1"
+   ],
+   "prerequisiteNote": "Project life cycle stages; ordering dependent tasks",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-informatics-ch04-st3",
+   "chapterId": "cambridge-g12-informatics-ch04",
+   "order": 3,
+   "name": "Project management software: resource allocation, budgeting, communication and collaboration",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-informatics-ch04-st2"
+   ],
+   "prerequisiteNote": "Gantt and PERT charts",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-informatics-ch05-st1",
+   "chapterId": "cambridge-g12-informatics-ch05",
+   "order": 1,
+   "name": "Vector and bitmap graphics: properties, file formats and compression",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch11-st4"
+   ],
+   "prerequisiteNote": "File formats and sizes (AS ch 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-informatics-ch05-st2",
+   "chapterId": "cambridge-g12-informatics-ch05",
+   "order": 2,
+   "name": "Creating and editing vector graphics: shapes, layers, gradients and grouping",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-informatics-ch05-st1"
+   ],
+   "prerequisiteNote": "Vector and bitmap graphics properties",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-informatics-ch05-st3",
+   "chapterId": "cambridge-g12-informatics-ch05",
+   "order": 3,
+   "name": "Bitmap editing: cropping, resizing, colour adjustment, masking and filters",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-informatics-ch05-st1"
+   ],
+   "prerequisiteNote": "Vector and bitmap graphics; resolution and colour depth",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-informatics-ch06-st1",
+   "chapterId": "cambridge-g12-informatics-ch06",
+   "order": 1,
+   "name": "Principles of animation: frames, keyframes, tweening and frame rate",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-informatics-ch05-st2"
+   ],
+   "prerequisiteNote": "Creating vector graphics; persistence of vision",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-informatics-ch06-st2",
+   "chapterId": "cambridge-g12-informatics-ch06",
+   "order": 2,
+   "name": "Creating vector animations with motion paths, layers and timelines",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-informatics-ch06-st1",
+    "cambridge-g12-informatics-ch05-st2"
+   ],
+   "prerequisiteNote": "Principles of animation; vector graphics tools",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-informatics-ch06-st3",
+   "chapterId": "cambridge-g12-informatics-ch06",
+   "order": 3,
+   "name": "Exporting animations and choosing formats for an audience",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g12-informatics-ch06-st2",
+    "cambridge-g11-informatics-ch06-st1"
+   ],
+   "prerequisiteNote": "Creating animations; target audience (AS ch 6)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-informatics-ch07-st1",
+   "chapterId": "cambridge-g12-informatics-ch07",
+   "order": 1,
+   "name": "Master documents, data sources and merge fields",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch09-st3",
+    "cambridge-g11-informatics-ch10-st1"
+   ],
+   "prerequisiteNote": "Automating documents with fields (AS ch 9); database tables (AS ch 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-informatics-ch07-st2",
+   "chapterId": "cambridge-g12-informatics-ch07",
+   "order": 2,
+   "name": "Filtering, sorting and conditional (IF) fields in a mail merge",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-informatics-ch07-st1",
+    "cambridge-g11-informatics-ch10-st3"
+   ],
+   "prerequisiteNote": "Master documents and merge fields; queries with criteria (AS ch 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-informatics-ch07-st3",
+   "chapterId": "cambridge-g12-informatics-ch07",
+   "order": 3,
+   "name": "Mail merge for letters, labels and emails; automated document production",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-informatics-ch07-st2"
+   ],
+   "prerequisiteNote": "Filtering and conditional merge fields",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-informatics-ch08-st1",
+   "chapterId": "cambridge-g12-informatics-ch08",
+   "order": 1,
+   "name": "HTML structure and CSS styling of web pages",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch08-st3"
+   ],
+   "prerequisiteNote": "Websites and web pages (AS ch 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-informatics-ch08-st2",
+   "chapterId": "cambridge-g12-informatics-ch08",
+   "order": 2,
+   "name": "JavaScript basics: variables, data types, operators and functions",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-informatics-ch08-st1",
+    "cambridge-g11-informatics-ch04-st2"
+   ],
+   "prerequisiteNote": "HTML structure; algorithms with sequence, selection and iteration (AS ch 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-informatics-ch08-st3",
+   "chapterId": "cambridge-g12-informatics-ch08",
+   "order": 3,
+   "name": "JavaScript selection, loops and event handling with the DOM",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-informatics-ch08-st2"
+   ],
+   "prerequisiteNote": "JavaScript variables and functions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-informatics-ch08-st4",
+   "chapterId": "cambridge-g12-informatics-ch08",
+   "order": 4,
+   "name": "Validating form input with JavaScript",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-informatics-ch08-st3",
+    "cambridge-g11-informatics-ch01-st3"
+   ],
+   "prerequisiteNote": "Event handling; validation checks (AS ch 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-informatics-ch09-st1",
+   "chapterId": "cambridge-g12-informatics-ch09",
+   "order": 1,
+   "name": "Analysis: research methods (questionnaires, interviews, observation, document analysis) and system requirements",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-informatics-ch04-st1"
+   ],
+   "prerequisiteNote": "Project life cycle stages",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-informatics-ch09-st2",
+   "chapterId": "cambridge-g12-informatics-ch09",
+   "order": 2,
+   "name": "Design: data flow diagrams, system flowcharts, entity-relationship diagrams and input/output design",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-informatics-ch09-st1",
+    "cambridge-g11-informatics-ch10-st1"
+   ],
+   "prerequisiteNote": "Analysis; relational database structure (AS ch 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-informatics-ch09-st3",
+   "chapterId": "cambridge-g12-informatics-ch09",
+   "order": 3,
+   "name": "Development and testing: test plans and test data (normal, abnormal, extreme)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-informatics-ch09-st2",
+    "cambridge-g11-informatics-ch10-st2"
+   ],
+   "prerequisiteNote": "Design documents; validation rules (AS ch 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-informatics-ch09-st4",
+   "chapterId": "cambridge-g12-informatics-ch09",
+   "order": 4,
+   "name": "Implementation methods (direct, parallel, pilot, phased), documentation, evaluation and maintenance",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-informatics-ch09-st3"
+   ],
+   "prerequisiteNote": "Development and testing",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-informatics-ch10-st1",
+   "chapterId": "cambridge-g12-informatics-ch10",
+   "order": 1,
+   "name": "Components of an expert system: knowledge base, rules base, inference engine and user interface",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch04-st2"
+   ],
+   "prerequisiteNote": "Algorithms with selection and IF logic (AS ch 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-informatics-ch10-st2",
+   "chapterId": "cambridge-g12-informatics-ch10",
+   "order": 2,
+   "name": "Uses of expert systems: medical diagnosis, mineral prospecting, car fault diagnosis and financial planning",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-informatics-ch10-st1"
+   ],
+   "prerequisiteNote": "Expert system components",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-informatics-ch10-st3",
+   "chapterId": "cambridge-g12-informatics-ch10",
+   "order": 3,
+   "name": "Creating an expert system: gathering knowledge and building rules; forward and backward chaining",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-informatics-ch10-st1",
+    "cambridge-g12-informatics-ch09-st1"
+   ],
+   "prerequisiteNote": "Expert system components; analysis research methods",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

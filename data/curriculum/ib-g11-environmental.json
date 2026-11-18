@@ -1,0 +1,806 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "ib-g11-environmental",
+  "board": "ib",
+  "grade": 11,
+  "stream": "science",
+  "slug": "environmental",
+  "name": "Environmental Systems & Societies",
+  "programme": "IB DP Environmental Systems & Societies SL/HL (first exam 2026)",
+  "examPattern": "IB DP – graded 1–7; recommended 150 h SL / 240 h HL; exams May (Hindi May only). HL: Paper 1 unseen case study 2 h (30%), all compulsory, data analysis; Paper 2 2 h 30 (50%) – Section A short/data-based + Section B structured essays; IA individual investigation (20%). SL: P1 1 h (25%), P2 2 h (50%), IA 25%. Paper marks not published in brief (UNVERIFIED).",
+  "chapterCount": 12,
+  "questionTarget": 1014
+ },
+ "items": [
+  {
+   "id": "ib-g11-environmental-ch01",
+   "subjectId": "ib-g11-environmental",
+   "order": 1,
+   "name": "1.1 Perspectives",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g11-environmental-ch01-st1",
+    "ib-g11-environmental-ch01-st2",
+    "ib-g11-environmental-ch01-st3"
+   ]
+  },
+  {
+   "id": "ib-g11-environmental-ch02",
+   "subjectId": "ib-g11-environmental",
+   "order": 2,
+   "name": "1.2 Systems",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "ib-g11-environmental-ch02-st1",
+    "ib-g11-environmental-ch02-st2",
+    "ib-g11-environmental-ch02-st3",
+    "ib-g11-environmental-ch02-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-environmental-ch03",
+   "subjectId": "ib-g11-environmental",
+   "order": 3,
+   "name": "1.3 Sustainability",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "ib-g11-environmental-ch03-st1",
+    "ib-g11-environmental-ch03-st2",
+    "ib-g11-environmental-ch03-st3",
+    "ib-g11-environmental-ch03-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-environmental-ch04",
+   "subjectId": "ib-g11-environmental",
+   "order": 4,
+   "name": "2.1 Individuals, Populations, Communities and Ecosystems",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "ib-g11-environmental-ch04-st1",
+    "ib-g11-environmental-ch04-st2",
+    "ib-g11-environmental-ch04-st3",
+    "ib-g11-environmental-ch04-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-environmental-ch05",
+   "subjectId": "ib-g11-environmental",
+   "order": 5,
+   "name": "2.2 Energy and Biomass in Ecosystems",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "ib-g11-environmental-ch05-st1",
+    "ib-g11-environmental-ch05-st2",
+    "ib-g11-environmental-ch05-st3",
+    "ib-g11-environmental-ch05-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-environmental-ch06",
+   "subjectId": "ib-g11-environmental",
+   "order": 6,
+   "name": "2.3 Biogeochemical Cycles",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "ib-g11-environmental-ch06-st1",
+    "ib-g11-environmental-ch06-st2",
+    "ib-g11-environmental-ch06-st3"
+   ]
+  },
+  {
+   "id": "ib-g11-environmental-ch07",
+   "subjectId": "ib-g11-environmental",
+   "order": 7,
+   "name": "2.4 Climate and Biomes and 2.5 Zonation, Succession and Change in Ecosystems",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "ib-g11-environmental-ch07-st1",
+    "ib-g11-environmental-ch07-st2",
+    "ib-g11-environmental-ch07-st3",
+    "ib-g11-environmental-ch07-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-environmental-ch08",
+   "subjectId": "ib-g11-environmental",
+   "order": 8,
+   "name": "3.1 Biodiversity and Evolution",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "ib-g11-environmental-ch08-st1",
+    "ib-g11-environmental-ch08-st2",
+    "ib-g11-environmental-ch08-st3"
+   ]
+  },
+  {
+   "id": "ib-g11-environmental-ch09",
+   "subjectId": "ib-g11-environmental",
+   "order": 9,
+   "name": "3.2 Human Impact on Biodiversity and 3.3 Conservation and Regeneration",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "ib-g11-environmental-ch09-st1",
+    "ib-g11-environmental-ch09-st2",
+    "ib-g11-environmental-ch09-st3",
+    "ib-g11-environmental-ch09-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-environmental-ch10",
+   "subjectId": "ib-g11-environmental",
+   "order": 10,
+   "name": "4.1 Water Systems and 4.2 Water Access, Use and Security",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "ib-g11-environmental-ch10-st1",
+    "ib-g11-environmental-ch10-st2",
+    "ib-g11-environmental-ch10-st3",
+    "ib-g11-environmental-ch10-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-environmental-ch11",
+   "subjectId": "ib-g11-environmental",
+   "order": 11,
+   "name": "4.3 Aquatic Food Production Systems",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g11-environmental-ch11-st1",
+    "ib-g11-environmental-ch11-st2",
+    "ib-g11-environmental-ch11-st3"
+   ]
+  },
+  {
+   "id": "ib-g11-environmental-ch12",
+   "subjectId": "ib-g11-environmental",
+   "order": 12,
+   "name": "4.4 Water Pollution",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "ib-g11-environmental-ch12-st1",
+    "ib-g11-environmental-ch12-st2",
+    "ib-g11-environmental-ch12-st3",
+    "ib-g11-environmental-ch12-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "ib-g11-environmental-ch01-st1",
+   "chapterId": "ib-g11-environmental-ch01",
+   "order": 1,
+   "name": "Environmental value systems: ecocentric, anthropocentric and technocentric perspectives",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g10-science-ch03-st2"
+   ],
+   "prerequisiteNote": "Human impact on ecosystems (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch01-st2",
+   "chapterId": "ib-g11-environmental-ch01",
+   "order": 2,
+   "name": "Historical influences on the environmental movement",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-environmental-ch01-st1"
+   ],
+   "prerequisiteNote": "Environmental perspectives",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch01-st3",
+   "chapterId": "ib-g11-environmental-ch01",
+   "order": 3,
+   "name": "Indigenous and cultural perspectives on the environment",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-environmental-ch01-st1"
+   ],
+   "prerequisiteNote": "Environmental value systems",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch02-st1",
+   "chapterId": "ib-g11-environmental-ch02",
+   "order": 1,
+   "name": "Systems: storages, flows, inputs, outputs; open, closed and isolated systems",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g8-science-ch11-st1"
+   ],
+   "prerequisiteNote": "Energy transfers (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch02-st2",
+   "chapterId": "ib-g11-environmental-ch02",
+   "order": 2,
+   "name": "Transfers and transformations; models of systems and their limitations",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-environmental-ch02-st1"
+   ],
+   "prerequisiteNote": "Systems components",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch02-st3",
+   "chapterId": "ib-g11-environmental-ch02",
+   "order": 3,
+   "name": "Feedback loops: positive and negative; equilibrium and tipping points",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-environmental-ch02-st1",
+    "ib-g9-science-ch03-st1"
+   ],
+   "prerequisiteNote": "Negative feedback (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch02-st4",
+   "chapterId": "ib-g11-environmental-ch02",
+   "order": 4,
+   "name": "Laws of thermodynamics applied to environmental systems",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-environmental-ch02-st1",
+    "ib-g8-science-ch11-st2"
+   ],
+   "prerequisiteNote": "Energy conservation and efficiency (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch03-st1",
+   "chapterId": "ib-g11-environmental-ch03",
+   "order": 1,
+   "name": "Sustainability, natural capital and natural income",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-environmental-ch02-st1"
+   ],
+   "prerequisiteNote": "Systems and storages",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch03-st2",
+   "chapterId": "ib-g11-environmental-ch03",
+   "order": 2,
+   "name": "Ecological footprints and biocapacity",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-environmental-ch03-st1"
+   ],
+   "prerequisiteNote": "Sustainability concepts",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch03-st3",
+   "chapterId": "ib-g11-environmental-ch03",
+   "order": 3,
+   "name": "Planetary boundaries and the doughnut economics model",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-environmental-ch03-st1",
+    "ib-g11-environmental-ch02-st3"
+   ],
+   "prerequisiteNote": "Sustainability; tipping points",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch03-st4",
+   "chapterId": "ib-g11-environmental-ch03",
+   "order": 4,
+   "name": "Environmental impact assessments and the UN Sustainable Development Goals",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-environmental-ch03-st1"
+   ],
+   "prerequisiteNote": "Sustainability",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch04-st1",
+   "chapterId": "ib-g11-environmental-ch04",
+   "order": 1,
+   "name": "Species, populations, habitats and niches",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g8-science-ch05-st1",
+    "ib-g10-science-ch01-st4"
+   ],
+   "prerequisiteNote": "Habitats and populations (MYP 3); classification",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch04-st2",
+   "chapterId": "ib-g11-environmental-ch04",
+   "order": 2,
+   "name": "Biotic and abiotic factors; population growth curves and carrying capacity",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-environmental-ch04-st1",
+    "ib-g10-science-ch02-st1"
+   ],
+   "prerequisiteNote": "Population growth and limiting factors (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch04-st3",
+   "chapterId": "ib-g11-environmental-ch04",
+   "order": 3,
+   "name": "Species interactions: predation, competition, parasitism and mutualism",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-environmental-ch04-st1"
+   ],
+   "prerequisiteNote": "Populations and communities",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch04-st4",
+   "chapterId": "ib-g11-environmental-ch04",
+   "order": 4,
+   "name": "Sampling methods: quadrats, transects, Lincoln index and Simpson's index",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-environmental-ch04-st2",
+    "ib-g8-science-ch05-st5"
+   ],
+   "prerequisiteNote": "Sampling with quadrats (MYP 3); mean",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch05-st1",
+   "chapterId": "ib-g11-environmental-ch05",
+   "order": 1,
+   "name": "Trophic levels, food chains and webs; pyramids of numbers, biomass and energy",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g10-science-ch02-st2"
+   ],
+   "prerequisiteNote": "Energy flow and trophic levels (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch05-st2",
+   "chapterId": "ib-g11-environmental-ch05",
+   "order": 2,
+   "name": "Photosynthesis and respiration as energy transformations",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g8-science-ch05-st3",
+    "ib-g8-science-ch04-st4"
+   ],
+   "prerequisiteNote": "Photosynthesis and respiration (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch05-st3",
+   "chapterId": "ib-g11-environmental-ch05",
+   "order": 3,
+   "name": "Primary and secondary productivity: GPP, NPP, GSP and NSP",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-environmental-ch05-st1",
+    "ib-g11-environmental-ch05-st2"
+   ],
+   "prerequisiteNote": "Trophic levels; photosynthesis",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch05-st4",
+   "chapterId": "ib-g11-environmental-ch05",
+   "order": 4,
+   "name": "Bioaccumulation and biomagnification",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-environmental-ch05-st1"
+   ],
+   "prerequisiteNote": "Food chains",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch06-st1",
+   "chapterId": "ib-g11-environmental-ch06",
+   "order": 1,
+   "name": "The carbon cycle: stores, flows and human impacts",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g10-science-ch02-st3",
+    "ib-g11-environmental-ch02-st1"
+   ],
+   "prerequisiteNote": "Carbon cycle (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch06-st2",
+   "chapterId": "ib-g11-environmental-ch06",
+   "order": 2,
+   "name": "The nitrogen cycle: nitrogen fixation, nitrification and denitrification",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g10-science-ch02-st4"
+   ],
+   "prerequisiteNote": "Nitrogen cycle (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch06-st3",
+   "chapterId": "ib-g11-environmental-ch06",
+   "order": 3,
+   "name": "Ocean acidification and carbon sinks",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-environmental-ch06-st1",
+    "ib-g8-science-ch09-st2"
+   ],
+   "prerequisiteNote": "Carbon cycle; pH scale (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch07-st1",
+   "chapterId": "ib-g11-environmental-ch07",
+   "order": 1,
+   "name": "2.4 Climate and the distribution of biomes: tricellular model",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-environmental-ch04-st2"
+   ],
+   "prerequisiteNote": "Abiotic factors; atmospheric circulation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch07-st2",
+   "chapterId": "ib-g11-environmental-ch07",
+   "order": 2,
+   "name": "2.4 Biome characteristics and the effect of climate change on biomes",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-environmental-ch07-st1"
+   ],
+   "prerequisiteNote": "Distribution of biomes",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch07-st3",
+   "chapterId": "ib-g11-environmental-ch07",
+   "order": 3,
+   "name": "2.5 Ecological succession: primary and secondary; pioneer and climax communities",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-environmental-ch04-st3"
+   ],
+   "prerequisiteNote": "Species interactions; biotic factors",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch07-st4",
+   "chapterId": "ib-g11-environmental-ch07",
+   "order": 4,
+   "name": "2.5 Zonation and the use of transects",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-environmental-ch07-st3",
+    "ib-g11-environmental-ch04-st4"
+   ],
+   "prerequisiteNote": "Succession; sampling methods",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch08-st1",
+   "chapterId": "ib-g11-environmental-ch08",
+   "order": 1,
+   "name": "Biodiversity: genetic, species and habitat diversity",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g10-science-ch03-st1"
+   ],
+   "prerequisiteNote": "Biodiversity (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch08-st2",
+   "chapterId": "ib-g11-environmental-ch08",
+   "order": 2,
+   "name": "Natural selection, speciation and mass extinctions",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g10-science-ch01-st2",
+    "ib-g10-science-ch01-st3"
+   ],
+   "prerequisiteNote": "Natural selection and speciation (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch08-st3",
+   "chapterId": "ib-g11-environmental-ch08",
+   "order": 3,
+   "name": "Plate tectonics, isolation and biodiversity hotspots",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-environmental-ch08-st2"
+   ],
+   "prerequisiteNote": "Speciation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch09-st1",
+   "chapterId": "ib-g11-environmental-ch09",
+   "order": 1,
+   "name": "3.2 Causes of biodiversity loss: habitat loss, invasive species, pollution and overexploitation",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-environmental-ch08-st1"
+   ],
+   "prerequisiteNote": "Biodiversity",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch09-st2",
+   "chapterId": "ib-g11-environmental-ch09",
+   "order": 2,
+   "name": "3.2 IUCN Red List criteria and case studies of threatened species",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-environmental-ch09-st1"
+   ],
+   "prerequisiteNote": "Biodiversity loss",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch09-st3",
+   "chapterId": "ib-g11-environmental-ch09",
+   "order": 3,
+   "name": "3.3 Conservation strategies: species-based, habitat-based and protected area design",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-environmental-ch09-st2"
+   ],
+   "prerequisiteNote": "Threatened species; biodiversity loss",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch09-st4",
+   "chapterId": "ib-g11-environmental-ch09",
+   "order": 4,
+   "name": "3.3 Rewilding, ecological restoration and international conventions (CITES)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-environmental-ch09-st3"
+   ],
+   "prerequisiteNote": "Conservation strategies",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch10-st1",
+   "chapterId": "ib-g11-environmental-ch10",
+   "order": 1,
+   "name": "4.1 The hydrological cycle: storages and flows",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g10-science-ch02-st4",
+    "ib-g11-environmental-ch02-st1"
+   ],
+   "prerequisiteNote": "Water cycle (MYP 5); systems",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch10-st2",
+   "chapterId": "ib-g11-environmental-ch10",
+   "order": 2,
+   "name": "4.1 Ocean circulation, upwelling and thermohaline circulation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-environmental-ch10-st1"
+   ],
+   "prerequisiteNote": "Hydrological cycle",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch10-st3",
+   "chapterId": "ib-g11-environmental-ch10",
+   "order": 3,
+   "name": "4.2 Freshwater access, use and water security",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-environmental-ch10-st1",
+    "ib-g11-environmental-ch03-st1"
+   ],
+   "prerequisiteNote": "Hydrological cycle; sustainability",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch10-st4",
+   "chapterId": "ib-g11-environmental-ch10",
+   "order": 4,
+   "name": "4.2 Water footprint and strategies for sustainable water management",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-environmental-ch10-st3",
+    "ib-g11-environmental-ch03-st2"
+   ],
+   "prerequisiteNote": "Water security; ecological footprint",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch11-st1",
+   "chapterId": "ib-g11-environmental-ch11",
+   "order": 1,
+   "name": "Marine and freshwater ecosystems and their productivity",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-environmental-ch05-st3"
+   ],
+   "prerequisiteNote": "Primary productivity",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch11-st2",
+   "chapterId": "ib-g11-environmental-ch11",
+   "order": 2,
+   "name": "Overfishing, maximum sustainable yield and fisheries management",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-environmental-ch04-st2",
+    "ib-g11-environmental-ch11-st1"
+   ],
+   "prerequisiteNote": "Population growth and carrying capacity",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch11-st3",
+   "chapterId": "ib-g11-environmental-ch11",
+   "order": 3,
+   "name": "Aquaculture: benefits and environmental impacts",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-environmental-ch11-st2"
+   ],
+   "prerequisiteNote": "Fisheries management",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch12-st1",
+   "chapterId": "ib-g11-environmental-ch12",
+   "order": 1,
+   "name": "Sources and types of water pollution; point and non-point sources",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-environmental-ch10-st1"
+   ],
+   "prerequisiteNote": "Water systems",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch12-st2",
+   "chapterId": "ib-g11-environmental-ch12",
+   "order": 2,
+   "name": "Eutrophication: causes, consequences and management",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-environmental-ch06-st2",
+    "ib-g11-environmental-ch11-st1"
+   ],
+   "prerequisiteNote": "Nitrogen cycle; aquatic ecosystems",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch12-st3",
+   "chapterId": "ib-g11-environmental-ch12",
+   "order": 3,
+   "name": "Measuring water quality: biotic indices and BOD",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-environmental-ch12-st1",
+    "ib-g11-environmental-ch04-st4"
+   ],
+   "prerequisiteNote": "Water pollution; sampling",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-environmental-ch12-st4",
+   "chapterId": "ib-g11-environmental-ch12",
+   "order": 4,
+   "name": "Pollution management strategies applied to water",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-environmental-ch12-st2"
+   ],
+   "prerequisiteNote": "Eutrophication",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

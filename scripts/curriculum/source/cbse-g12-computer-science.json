@@ -1,0 +1,351 @@
+{
+ "subjectId": "cbse-g12-computer-science",
+ "chapters": [
+  {
+   "sheetName": "Python Revision and Functions",
+   "name": "Revision of Python Topics and Working with Functions",
+   "subtopics": [
+    {
+     "name": "Revision of Python: data types, operators, flow of control, strings, lists, tuples and dictionaries",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-computer-science-ch06-st2",
+      "cbse-g11-computer-science-ch09-st2",
+      "cbse-g11-computer-science-ch10-st2"
+     ],
+     "note": "Loops, list and dictionary operations (CS XI ch 6, 9, 10)"
+    },
+    {
+     "name": "Types of functions: built-in, module-defined and user-defined; creating functions",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-computer-science-ch01-st1",
+      "cbse-g11-computer-science-ch07-st1"
+     ],
+     "note": "User-defined functions (CS XI ch 7)"
+    },
+    {
+     "name": "Arguments and parameters: positional, default and keyword; returning multiple values",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-computer-science-ch01-st2"
+     ],
+     "note": "Defining functions and passing arguments (CS XI)"
+    },
+    {
+     "name": "Flow of execution and scope of variables (local, global, global keyword); passing mutable objects",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-computer-science-ch01-st3",
+      "cbse-g11-computer-science-ch07-st3"
+     ],
+     "note": "Local and global scope (CS XI ch 7)"
+    }
+   ]
+  },
+  {
+   "sheetName": "Exception Handling",
+   "name": "Exception Handling in Python",
+   "subtopics": [
+    {
+     "name": "Syntax errors vs exceptions; built-in exceptions (ZeroDivisionError, ValueError, TypeError, NameError, IndexError)",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-computer-science-ch01-st1",
+      "cbse-g11-computer-science-ch05-st5"
+     ],
+     "note": "Syntax, logical and runtime errors (CS XI ch 5)"
+    },
+    {
+     "name": "Handling exceptions with try, except, else and finally",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-computer-science-ch02-st1"
+     ],
+     "note": "Built-in exceptions; flow of control"
+    },
+    {
+     "name": "Raising exceptions with raise and assert",
+     "weight": "L",
+     "prereq": [
+      "cbse-g12-computer-science-ch02-st2"
+     ],
+     "note": "try-except blocks"
+    }
+   ]
+  },
+  {
+   "sheetName": "File Handling (Text, Binary, CSV)",
+   "name": "File Handling in Python",
+   "subtopics": [
+    {
+     "name": "Files and file paths; text vs binary files; opening and closing files, file modes and the with clause",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-computer-science-ch01-st1"
+     ],
+     "note": "Strings and string methods (CS XI ch 8)"
+    },
+    {
+     "name": "Text files: write(), writelines(), read(), readline(), readlines(); seek() and tell()",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-computer-science-ch03-st1",
+      "cbse-g11-computer-science-ch08-st3"
+     ],
+     "note": "String methods (split, strip); loops over lines"
+    },
+    {
+     "name": "Text file processing programs: counting words, lines, characters and searching",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-computer-science-ch03-st2",
+      "cbse-g12-computer-science-ch01-st3"
+     ],
+     "note": "Reading text files; functions"
+    },
+    {
+     "name": "Binary files with the pickle module: dump(), load(); search, append and update records",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-computer-science-ch03-st1",
+      "cbse-g12-computer-science-ch01-st1"
+     ],
+     "note": "Lists and dictionaries as records (CS XI ch 9-10)"
+    },
+    {
+     "name": "CSV files with the csv module: writer, writerow, writerows and reader",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-computer-science-ch03-st1"
+     ],
+     "note": "File modes; lists of lists"
+    }
+   ]
+  },
+  {
+   "sheetName": "Data Structures: Stack",
+   "name": "Data Structures: Stack",
+   "subtopics": [
+    {
+     "name": "Stack as a LIFO data structure: concept and applications",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-computer-science-ch01-st1"
+     ],
+     "note": "Lists in Python (CS XI ch 9)"
+    },
+    {
+     "name": "Push and pop operations using a Python list; overflow and underflow",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-computer-science-ch04-st1",
+      "cbse-g12-computer-science-ch01-st3"
+     ],
+     "note": "List methods append() and pop(); writing functions"
+    },
+    {
+     "name": "Stack applications: reversing a string, checking balanced parentheses, evaluating postfix",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-computer-science-ch04-st2"
+     ],
+     "note": "Push and pop operations; operator precedence"
+    }
+   ]
+  },
+  {
+   "sheetName": "Computer Networks",
+   "name": "Computer Networks",
+   "subtopics": [
+    {
+     "name": "Evolution of networking (ARPANET, NSFNET, Internet) and types of networks: PAN, LAN, MAN, WAN",
+     "weight": "L",
+     "prereq": [],
+     "note": "Basic idea of the internet (CS XI ch 3 Emerging Trends)"
+    },
+    {
+     "name": "Network devices: modem, Ethernet card, RJ45, repeater, hub, switch, router, gateway, Wi-Fi card",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-computer-science-ch05-st1"
+     ],
+     "note": "Types of networks"
+    },
+    {
+     "name": "Network topologies: bus, star, tree, mesh",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-computer-science-ch05-st2"
+     ],
+     "note": "Network devices; drawing node connections"
+    },
+    {
+     "name": "Network protocols (HTTP, FTP, PPP, SMTP, TCP/IP, POP3, HTTPS, TELNET, VoIP)",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-computer-science-ch05-st1"
+     ],
+     "note": "Types of networks; client-server idea"
+    },
+    {
+     "name": "Introduction to web services: WWW, HTML, XML, domain names, URL, websites, web browsers and web servers",
+     "weight": "L",
+     "prereq": [
+      "cbse-g12-computer-science-ch05-st4"
+     ],
+     "note": "Network protocols (HTTP)"
+    }
+   ]
+  },
+  {
+   "sheetName": "Data Communication",
+   "name": "Data Communication",
+   "subtopics": [
+    {
+     "name": "Data communication terminologies: sender, receiver, message, medium, protocol; bandwidth and data transfer rate",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-computer-science-ch05-st1"
+     ],
+     "note": "Units of memory and data (CS XI ch 1)"
+    },
+    {
+     "name": "Switching techniques: circuit and packet switching",
+     "weight": "L",
+     "prereq": [
+      "cbse-g12-computer-science-ch06-st1"
+     ],
+     "note": "Data communication components"
+    },
+    {
+     "name": "Transmission media: wired (twisted pair, coaxial, fibre optic) and wireless (radio, microwave, infrared)",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-computer-science-ch06-st1"
+     ],
+     "note": "Data communication components; electromagnetic spectrum (Physics Cl 10-12)"
+    },
+    {
+     "name": "Mobile telecommunication technologies (1G to 5G) and network-based case study design",
+     "weight": "L",
+     "prereq": [
+      "cbse-g12-computer-science-ch06-st3",
+      "cbse-g12-computer-science-ch05-st3"
+     ],
+     "note": "Transmission media; network topologies"
+    }
+   ]
+  },
+  {
+   "sheetName": "Database Concepts",
+   "name": "Database Concepts",
+   "subtopics": [
+    {
+     "name": "Need for a database and limitations of file system; DBMS",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-computer-science-ch03-st1"
+     ],
+     "note": "File handling and data redundancy"
+    },
+    {
+     "name": "Relational data model: relation, attribute, tuple, domain, degree, cardinality",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-computer-science-ch07-st1"
+     ],
+     "note": "Tables of rows and columns"
+    },
+    {
+     "name": "Keys: candidate key, primary key, alternate key and foreign key",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-computer-science-ch07-st2"
+     ],
+     "note": "Relational model terms"
+    }
+   ]
+  },
+  {
+   "sheetName": "Structured Query Language (SQL)",
+   "name": "Structured Query Language (SQL)",
+   "subtopics": [
+    {
+     "name": "SQL basics: DDL and DML; data types (CHAR, VARCHAR, INT, FLOAT, DATE) and constraints",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-computer-science-ch07-st3"
+     ],
+     "note": "Keys and relations"
+    },
+    {
+     "name": "DDL commands: CREATE DATABASE, CREATE TABLE, DROP, ALTER TABLE (add/remove attribute and primary key)",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-computer-science-ch08-st1"
+     ],
+     "note": "SQL data types and constraints"
+    },
+    {
+     "name": "DML and queries: INSERT, DELETE, UPDATE, SELECT with WHERE, DISTINCT, IN, BETWEEN, LIKE, IS NULL, ORDER BY",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-computer-science-ch08-st2"
+     ],
+     "note": "CREATE TABLE; relational and logical operators (CS XI ch 5)"
+    },
+    {
+     "name": "Aggregate functions (MAX, MIN, AVG, SUM, COUNT) with GROUP BY and HAVING",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-computer-science-ch08-st3"
+     ],
+     "note": "SELECT with WHERE; mean and count (Maths Cl 9 Statistics)"
+    },
+    {
+     "name": "Joins: Cartesian product, equi-join and natural join",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-computer-science-ch08-st3",
+      "cbse-g12-computer-science-ch07-st3"
+     ],
+     "note": "Foreign key; SELECT queries"
+    }
+   ]
+  },
+  {
+   "sheetName": "Interface of Python with MySQL",
+   "name": "Interface of Python with an SQL Database",
+   "subtopics": [
+    {
+     "name": "Connecting Python to MySQL with mysql.connector: connect(), cursor()",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-computer-science-ch08-st3",
+      "cbse-g12-computer-science-ch01-st2"
+     ],
+     "note": "Functions and modules in Python; SQL queries"
+    },
+    {
+     "name": "Executing queries: execute(), commit(), fetchone(), fetchall(), rowcount",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-computer-science-ch09-st1",
+      "cbse-g12-computer-science-ch08-st3"
+     ],
+     "note": "Connecting to MySQL; DML queries"
+    },
+    {
+     "name": "Parameterised queries using %s and format() and complete menu-driven database programs",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-computer-science-ch09-st2",
+      "cbse-g12-computer-science-ch02-st2"
+     ],
+     "note": "execute() and fetch methods; exception handling"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,793 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "ib-g8-social-science",
+  "board": "ib",
+  "grade": 8,
+  "stream": "none",
+  "slug": "social-science",
+  "name": "Individuals & Societies",
+  "programme": "IB MYP 3 Individuals & Societies (integrated humanities; History / Geography options)",
+  "examPattern": "MYP 3: no external exam – school-designed summative tasks assessed on criteria A–D (each 0–8, total /32 → grade 1–7); every criterion assessed ≥2× per year. Mock papers here mirror the MYP 5 eAssessment format so students practise it early. Mock: 3-task paper in MYP 5 I&S eAssessment style (~15 items).",
+  "chapterCount": 12,
+  "questionTarget": 1005
+ },
+ "items": [
+  {
+   "id": "ib-g8-social-science-ch01",
+   "subjectId": "ib-g8-social-science",
+   "order": 1,
+   "name": "Mapping Our World: Time, Place and Space (Related concepts: scale, location; Global context: orientation in space and time)",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "ib-g8-social-science-ch01-st1",
+    "ib-g8-social-science-ch01-st2",
+    "ib-g8-social-science-ch01-st3"
+   ]
+  },
+  {
+   "id": "ib-g8-social-science-ch02",
+   "subjectId": "ib-g8-social-science",
+   "order": 2,
+   "name": "Systems: Rivers and the Water Cycle (Related concepts: processes, patterns; Global context: globalization and sustainability)",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "ib-g8-social-science-ch02-st1",
+    "ib-g8-social-science-ch02-st2",
+    "ib-g8-social-science-ch02-st3",
+    "ib-g8-social-science-ch02-st4"
+   ]
+  },
+  {
+   "id": "ib-g8-social-science-ch03",
+   "subjectId": "ib-g8-social-science",
+   "order": 3,
+   "name": "Change: Natural Hazards – Earthquakes, Volcanoes and Extreme Weather (Related concepts: risk, processes; Global context: fairness and development)",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "ib-g8-social-science-ch03-st1",
+    "ib-g8-social-science-ch03-st2",
+    "ib-g8-social-science-ch03-st3",
+    "ib-g8-social-science-ch03-st4"
+   ]
+  },
+  {
+   "id": "ib-g8-social-science-ch04",
+   "subjectId": "ib-g8-social-science",
+   "order": 4,
+   "name": "Global Interactions: Ancient Civilisations and the Silk Road (Related concepts: trade, culture; Global context: orientation in space and time)",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "ib-g8-social-science-ch04-st1",
+    "ib-g8-social-science-ch04-st2",
+    "ib-g8-social-science-ch04-st3",
+    "ib-g8-social-science-ch04-st4"
+   ]
+  },
+  {
+   "id": "ib-g8-social-science-ch05",
+   "subjectId": "ib-g8-social-science",
+   "order": 5,
+   "name": "Change: Medieval Societies and Power (Related concepts: power, culture; Global context: identities and relationships)",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "ib-g8-social-science-ch05-st1",
+    "ib-g8-social-science-ch05-st2",
+    "ib-g8-social-science-ch05-st3",
+    "ib-g8-social-science-ch05-st4"
+   ]
+  },
+  {
+   "id": "ib-g8-social-science-ch06",
+   "subjectId": "ib-g8-social-science",
+   "order": 6,
+   "name": "Global Interactions: Exploration and Colonialism (Related concepts: interdependence, perspective; Global context: fairness and development)",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "ib-g8-social-science-ch06-st1",
+    "ib-g8-social-science-ch06-st2",
+    "ib-g8-social-science-ch06-st3",
+    "ib-g8-social-science-ch06-st4"
+   ]
+  },
+  {
+   "id": "ib-g8-social-science-ch07",
+   "subjectId": "ib-g8-social-science",
+   "order": 7,
+   "name": "Change: The Industrial Revolution (Related concepts: innovation, causality; Global context: scientific and technical innovation)",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "ib-g8-social-science-ch07-st1",
+    "ib-g8-social-science-ch07-st2",
+    "ib-g8-social-science-ch07-st3",
+    "ib-g8-social-science-ch07-st4"
+   ]
+  },
+  {
+   "id": "ib-g8-social-science-ch08",
+   "subjectId": "ib-g8-social-science",
+   "order": 8,
+   "name": "Systems: Economic Choices – Scarcity, Needs and Wants (Related concepts: choice, resources; Global context: fairness and development)",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "ib-g8-social-science-ch08-st1",
+    "ib-g8-social-science-ch08-st2",
+    "ib-g8-social-science-ch08-st3",
+    "ib-g8-social-science-ch08-st4"
+   ]
+  },
+  {
+   "id": "ib-g8-social-science-ch09",
+   "subjectId": "ib-g8-social-science",
+   "order": 9,
+   "name": "Systems: Government, Rules and Citizenship (Related concepts: governance, rights; Global context: fairness and development)",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "ib-g8-social-science-ch09-st1",
+    "ib-g8-social-science-ch09-st2",
+    "ib-g8-social-science-ch09-st3"
+   ]
+  },
+  {
+   "id": "ib-g8-social-science-ch10",
+   "subjectId": "ib-g8-social-science",
+   "order": 10,
+   "name": "Time, Place and Space: Population and Settlement (Related concepts: patterns, scale; Global context: globalization and sustainability)",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "ib-g8-social-science-ch10-st1",
+    "ib-g8-social-science-ch10-st2",
+    "ib-g8-social-science-ch10-st3"
+   ]
+  },
+  {
+   "id": "ib-g8-social-science-ch11",
+   "subjectId": "ib-g8-social-science",
+   "order": 11,
+   "name": "Global Interactions: Resources and Sustainability (Related concepts: sustainability, consumption; Global context: globalization and sustainability)",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "ib-g8-social-science-ch11-st1",
+    "ib-g8-social-science-ch11-st2",
+    "ib-g8-social-science-ch11-st3"
+   ]
+  },
+  {
+   "id": "ib-g8-social-science-ch12",
+   "subjectId": "ib-g8-social-science",
+   "order": 12,
+   "name": "Inquiry Skills: Research Process and Source Evaluation (MYP Criteria B and D)",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "ib-g8-social-science-ch12-st1",
+    "ib-g8-social-science-ch12-st2",
+    "ib-g8-social-science-ch12-st3",
+    "ib-g8-social-science-ch12-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "ib-g8-social-science-ch01-st1",
+   "chapterId": "ib-g8-social-science-ch01",
+   "order": 1,
+   "name": "Map skills: latitude, longitude, grid references, scale and direction",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Reading coordinates and ratio/scale (Grade 7 Maths); basic world map knowledge",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch01-st2",
+   "chapterId": "ib-g8-social-science-ch01",
+   "order": 2,
+   "name": "Types of maps and projections: topographic, thematic and choropleth maps",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch01-st1"
+   ],
+   "prerequisiteNote": "Map skills; reading keys and symbols",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch01-st3",
+   "chapterId": "ib-g8-social-science-ch01",
+   "order": 3,
+   "name": "Geospatial technology: GIS, satellite imagery and GPS",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch01-st2"
+   ],
+   "prerequisiteNote": "Types of maps; using digital tools",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch02-st1",
+   "chapterId": "ib-g8-social-science-ch02",
+   "order": 1,
+   "name": "The water cycle and the river basin as a system: inputs, stores, flows and outputs",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch01-st1"
+   ],
+   "prerequisiteNote": "Evaporation and condensation (Grade 7 Science); map reading",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch02-st2",
+   "chapterId": "ib-g8-social-science-ch02",
+   "order": 2,
+   "name": "River processes: erosion, transportation and deposition",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch02-st1"
+   ],
+   "prerequisiteNote": "Water cycle; forces and energy of moving water",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch02-st3",
+   "chapterId": "ib-g8-social-science-ch02",
+   "order": 3,
+   "name": "River landforms: V-shaped valleys, waterfalls, meanders, ox-bow lakes and deltas",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch02-st2"
+   ],
+   "prerequisiteNote": "River processes; reading cross-sections and diagrams",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch02-st4",
+   "chapterId": "ib-g8-social-science-ch02",
+   "order": 4,
+   "name": "Rivers and people: water supply, flooding and river management",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch02-st3"
+   ],
+   "prerequisiteNote": "River landforms; settlements near rivers",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch03-st1",
+   "chapterId": "ib-g8-social-science-ch03",
+   "order": 1,
+   "name": "Structure of the Earth and plate tectonics: plate boundaries, earthquakes and volcanoes",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch01-st2"
+   ],
+   "prerequisiteNote": "Layers of the Earth (Grade 6-7 Science); world map of plates",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch03-st2",
+   "chapterId": "ib-g8-social-science-ch03",
+   "order": 2,
+   "name": "Weather and climate: elements of weather, climate graphs and climate zones",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch01-st2"
+   ],
+   "prerequisiteNote": "Reading bar and line graphs; latitude",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch03-st3",
+   "chapterId": "ib-g8-social-science-ch03",
+   "order": 3,
+   "name": "Tropical storms, floods and droughts: causes and effects",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch03-st2",
+    "ib-g8-social-science-ch02-st4"
+   ],
+   "prerequisiteNote": "Weather and climate; rivers and flooding",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch03-st4",
+   "chapterId": "ib-g8-social-science-ch03",
+   "order": 4,
+   "name": "Responding to hazards: prediction, preparation and why some places are more vulnerable",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch03-st1",
+    "ib-g8-social-science-ch03-st3"
+   ],
+   "prerequisiteNote": "Plate tectonics; tropical storms and their effects",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch04-st1",
+   "chapterId": "ib-g8-social-science-ch04",
+   "order": 1,
+   "name": "Historical skills: chronology, BCE/CE and timelines",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Number lines and counting backwards (Grade 6-7 Maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch04-st2",
+   "chapterId": "ib-g8-social-science-ch04",
+   "order": 2,
+   "name": "River valley civilisations: Indus, Mesopotamia, Egypt and China",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch04-st1",
+    "ib-g8-social-science-ch02-st1"
+   ],
+   "prerequisiteNote": "Timelines; rivers and the water cycle",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch04-st3",
+   "chapterId": "ib-g8-social-science-ch04",
+   "order": 3,
+   "name": "The Silk Road: trade routes, goods, ideas and religions",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch04-st2",
+    "ib-g8-social-science-ch01-st2"
+   ],
+   "prerequisiteNote": "River valley civilisations; reading thematic maps",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch04-st4",
+   "chapterId": "ib-g8-social-science-ch04",
+   "order": 4,
+   "name": "Cultural exchange and the spread of technologies (paper, gunpowder, numerals)",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch04-st3"
+   ],
+   "prerequisiteNote": "The Silk Road",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch05-st1",
+   "chapterId": "ib-g8-social-science-ch05",
+   "order": 1,
+   "name": "Feudal society in medieval Europe: monarchy, nobility and peasants",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch04-st1"
+   ],
+   "prerequisiteNote": "Timelines; social hierarchy",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch05-st2",
+   "chapterId": "ib-g8-social-science-ch05",
+   "order": 2,
+   "name": "Medieval India and the Mughal Empire: administration, culture and religion",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch04-st4"
+   ],
+   "prerequisiteNote": "Cultural exchange; empires and rulers",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch05-st3",
+   "chapterId": "ib-g8-social-science-ch05",
+   "order": 3,
+   "name": "Sources of evidence in history: primary and secondary sources",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch04-st1"
+   ],
+   "prerequisiteNote": "Historical skills; difference between fact and opinion",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch05-st4",
+   "chapterId": "ib-g8-social-science-ch05",
+   "order": 4,
+   "name": "Comparing medieval empires: continuity and change in power",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch05-st1",
+    "ib-g8-social-science-ch05-st2"
+   ],
+   "prerequisiteNote": "Feudal society; Mughal Empire",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch06-st1",
+   "chapterId": "ib-g8-social-science-ch06",
+   "order": 1,
+   "name": "Motives and voyages of European exploration (Columbus, Vasco da Gama, Magellan)",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch04-st3",
+    "ib-g8-social-science-ch01-st2"
+   ],
+   "prerequisiteNote": "Silk Road trade; world maps",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch06-st2",
+   "chapterId": "ib-g8-social-science-ch06",
+   "order": 2,
+   "name": "The Columbian Exchange and its impacts on people and environments",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch06-st1"
+   ],
+   "prerequisiteNote": "European voyages; cultural exchange",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch06-st3",
+   "chapterId": "ib-g8-social-science-ch06",
+   "order": 3,
+   "name": "The Atlantic slave trade: causes, experiences and abolition",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch06-st2",
+    "ib-g8-social-science-ch05-st3"
+   ],
+   "prerequisiteNote": "Columbian Exchange; primary sources",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch06-st4",
+   "chapterId": "ib-g8-social-science-ch06",
+   "order": 4,
+   "name": "Colonial rule and the East India Company in India",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch06-st1",
+    "ib-g8-social-science-ch05-st2"
+   ],
+   "prerequisiteNote": "European exploration; Mughal Empire decline",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch07-st1",
+   "chapterId": "ib-g8-social-science-ch07",
+   "order": 1,
+   "name": "Causes of the Industrial Revolution in Britain",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch06-st4"
+   ],
+   "prerequisiteNote": "Colonial trade and raw materials; timelines",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch07-st2",
+   "chapterId": "ib-g8-social-science-ch07",
+   "order": 2,
+   "name": "Inventions and the factory system: steam power, textiles and railways",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch07-st1"
+   ],
+   "prerequisiteNote": "Causes of the Industrial Revolution",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch07-st3",
+   "chapterId": "ib-g8-social-science-ch07",
+   "order": 3,
+   "name": "Working and living conditions: child labour, urbanisation and public health",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch07-st2"
+   ],
+   "prerequisiteNote": "Factory system; primary sources",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch07-st4",
+   "chapterId": "ib-g8-social-science-ch07",
+   "order": 4,
+   "name": "Global impacts of industrialisation: colonies, trade and the environment",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch07-st2",
+    "ib-g8-social-science-ch06-st4"
+   ],
+   "prerequisiteNote": "Inventions and factory system; colonial rule",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch08-st1",
+   "chapterId": "ib-g8-social-science-ch08",
+   "order": 1,
+   "name": "Scarcity, needs and wants and opportunity cost",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Everyday choices with limited money; basic arithmetic",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch08-st2",
+   "chapterId": "ib-g8-social-science-ch08",
+   "order": 2,
+   "name": "Factors of production and the three economic questions",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch08-st1"
+   ],
+   "prerequisiteNote": "Scarcity and opportunity cost",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch08-st3",
+   "chapterId": "ib-g8-social-science-ch08",
+   "order": 3,
+   "name": "Economic systems: traditional, command, market and mixed",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch08-st2"
+   ],
+   "prerequisiteNote": "Three economic questions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch08-st4",
+   "chapterId": "ib-g8-social-science-ch08",
+   "order": 4,
+   "name": "Personal finance: budgeting, saving and spending decisions",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch08-st1"
+   ],
+   "prerequisiteNote": "Opportunity cost; percentages (Grade 7 Maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch09-st1",
+   "chapterId": "ib-g8-social-science-ch09",
+   "order": 1,
+   "name": "Why societies need rules and laws; types of government",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Rules at school and home; fairness",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch09-st2",
+   "chapterId": "ib-g8-social-science-ch09",
+   "order": 2,
+   "name": "Democracy in India: constitution, elections and fundamental rights",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch09-st1"
+   ],
+   "prerequisiteNote": "Types of government; voting and representation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch09-st3",
+   "chapterId": "ib-g8-social-science-ch09",
+   "order": 3,
+   "name": "Rights and responsibilities of citizens; children's rights (UNCRC)",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch09-st2"
+   ],
+   "prerequisiteNote": "Fundamental rights; rules and laws",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch10-st1",
+   "chapterId": "ib-g8-social-science-ch10",
+   "order": 1,
+   "name": "Population distribution and density: physical and human factors",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch01-st2"
+   ],
+   "prerequisiteNote": "Choropleth maps; area and per-square-km calculations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch10-st2",
+   "chapterId": "ib-g8-social-science-ch10",
+   "order": 2,
+   "name": "Settlement site, situation and function; settlement hierarchy",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch10-st1",
+    "ib-g8-social-science-ch02-st4"
+   ],
+   "prerequisiteNote": "Population distribution; rivers and people",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch10-st3",
+   "chapterId": "ib-g8-social-science-ch10",
+   "order": 3,
+   "name": "Population growth: birth rate, death rate and natural increase",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch10-st1"
+   ],
+   "prerequisiteNote": "Population distribution; rates and percentages",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch11-st1",
+   "chapterId": "ib-g8-social-science-ch11",
+   "order": 1,
+   "name": "Renewable and non-renewable resources",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch08-st2"
+   ],
+   "prerequisiteNote": "Factors of production; natural resources",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch11-st2",
+   "chapterId": "ib-g8-social-science-ch11",
+   "order": 2,
+   "name": "Energy resources: fossil fuels, renewables and their impacts",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch11-st1",
+    "ib-g8-social-science-ch07-st4"
+   ],
+   "prerequisiteNote": "Types of resources; industrialisation and environment",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch11-st3",
+   "chapterId": "ib-g8-social-science-ch11",
+   "order": 3,
+   "name": "Sustainable living: reduce, reuse, recycle and the ecological footprint",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch11-st2"
+   ],
+   "prerequisiteNote": "Energy resources; consumption patterns",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch12-st1",
+   "chapterId": "ib-g8-social-science-ch12",
+   "order": 1,
+   "name": "Formulating an inquiry question and an action plan (Criterion B)",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch05-st3"
+   ],
+   "prerequisiteNote": "Primary and secondary sources; asking open questions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch12-st2",
+   "chapterId": "ib-g8-social-science-ch12",
+   "order": 2,
+   "name": "Collecting and recording information: note-taking and citing sources",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch12-st1"
+   ],
+   "prerequisiteNote": "Inquiry question; reading for main idea",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch12-st3",
+   "chapterId": "ib-g8-social-science-ch12",
+   "order": 3,
+   "name": "Evaluating sources: origin, purpose and reliability (Criterion D)",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch12-st2",
+    "ib-g8-social-science-ch05-st3"
+   ],
+   "prerequisiteNote": "Primary and secondary sources",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g8-social-science-ch12-st4",
+   "chapterId": "ib-g8-social-science-ch12",
+   "order": 4,
+   "name": "Communicating findings: structured paragraphs, maps and graphs (Criterion C)",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-social-science-ch12-st2",
+    "ib-g8-social-science-ch01-st2"
+   ],
+   "prerequisiteNote": "Note-taking; types of maps and graphs",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

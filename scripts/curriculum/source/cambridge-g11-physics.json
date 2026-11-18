@@ -1,0 +1,533 @@
+{
+  "subjectId": "cambridge-g11-physics",
+  "chapters": [
+    {
+      "name": "Physical quantities and units",
+      "subtopics": [
+        {
+          "name": "SI base units, derived units and homogeneity of equations",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g9-physics-ch01-st1"
+          ],
+          "note": "Units of measurement (IGCSE ch 1); laws of indices"
+        },
+        {
+          "name": "Prefixes, standard form and estimating physical quantities",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-physics-ch01-st1",
+            "cambridge-g10-maths-ch01-st1"
+          ],
+          "note": "Standard form; converting units (IGCSE maths)"
+        },
+        {
+          "name": "Errors and uncertainties: systematic and random, precision and accuracy and combining uncertainties",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-physics-ch01-st1"
+          ],
+          "note": "Upper and lower bounds (IGCSE maths); percentages"
+        },
+        {
+          "name": "Scalars and vectors: adding, subtracting and resolving vectors",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g9-physics-ch01-st3",
+            "cambridge-g11-maths-ch05-st3"
+          ],
+          "note": "Scalars and vectors (IGCSE ch 1); trigonometry"
+        }
+      ]
+    },
+    {
+      "name": "Kinematics",
+      "subtopics": [
+        {
+          "name": "Distance, displacement, speed, velocity and acceleration",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-physics-ch01-st4",
+            "cambridge-g9-physics-ch02-st1"
+          ],
+          "note": "Speed and velocity (IGCSE ch 2)"
+        },
+        {
+          "name": "Displacement-time and velocity-time graphs: gradients and areas",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-physics-ch02-st1",
+            "cambridge-g9-physics-ch02-st3"
+          ],
+          "note": "Speed-time graphs (IGCSE ch 2); gradient and area under a graph"
+        },
+        {
+          "name": "Determining the acceleration of free fall experimentally",
+          "weight": "L",
+          "prereq": [
+            "cambridge-g11-physics-ch02-st2",
+            "cambridge-g11-physics-ch01-st3"
+          ],
+          "note": "Free fall (IGCSE); uncertainties"
+        }
+      ]
+    },
+    {
+      "name": "Accelerated motion",
+      "subtopics": [
+        {
+          "name": "Deriving and using the equations of uniformly accelerated motion",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-physics-ch02-st2"
+          ],
+          "note": "Velocity-time graphs; rearranging and solving quadratic equations"
+        },
+        {
+          "name": "Motion under gravity and the effect of air resistance",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-physics-ch03-st1",
+            "cambridge-g9-physics-ch03-st3"
+          ],
+          "note": "Terminal velocity (IGCSE ch 3)"
+        },
+        {
+          "name": "Projectile motion: independent horizontal and vertical components",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-physics-ch03-st1",
+            "cambridge-g11-physics-ch01-st4"
+          ],
+          "note": "Resolving vectors; equations of motion"
+        }
+      ]
+    },
+    {
+      "name": "Dynamics",
+      "subtopics": [
+        {
+          "name": "Newton's laws of motion and F = ma, mass as resistance to change in velocity",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-physics-ch02-st1",
+            "cambridge-g9-physics-ch03-st2"
+          ],
+          "note": "Resultant force and F = ma (IGCSE ch 3)"
+        },
+        {
+          "name": "Weight, friction, drag and terminal velocity",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-physics-ch04-st1",
+            "cambridge-g11-physics-ch03-st2"
+          ],
+          "note": "Air resistance; Newton's laws"
+        },
+        {
+          "name": "Free-body diagrams and resultant force in one dimension",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-physics-ch04-st1",
+            "cambridge-g11-physics-ch01-st4"
+          ],
+          "note": "Vectors; types of force"
+        }
+      ]
+    },
+    {
+      "name": "Momentum",
+      "subtopics": [
+        {
+          "name": "Linear momentum and force as rate of change of momentum",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-physics-ch04-st1",
+            "cambridge-g9-physics-ch03-st5"
+          ],
+          "note": "Momentum and impulse (IGCSE ch 3)"
+        },
+        {
+          "name": "Conservation of momentum in one and two dimensions",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-physics-ch05-st1",
+            "cambridge-g11-physics-ch01-st4"
+          ],
+          "note": "Momentum; resolving vectors"
+        },
+        {
+          "name": "Elastic and inelastic collisions and relative speed of approach and separation",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-physics-ch05-st2"
+          ],
+          "note": "Conservation of momentum; kinetic energy"
+        }
+      ]
+    },
+    {
+      "name": "Forces and equilibrium",
+      "subtopics": [
+        {
+          "name": "Turning effects: moment of a force and couples and torque",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g9-physics-ch04-st1"
+          ],
+          "note": "Moments (IGCSE ch 4)"
+        },
+        {
+          "name": "Equilibrium: principle of moments and triangle of forces",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-physics-ch06-st1",
+            "cambridge-g11-physics-ch01-st4"
+          ],
+          "note": "Principle of moments (IGCSE ch 4); vector triangles"
+        },
+        {
+          "name": "Centre of gravity and stability",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-physics-ch06-st2"
+          ],
+          "note": "Centre of gravity (IGCSE ch 4)"
+        }
+      ]
+    },
+    {
+      "name": "Density and pressure",
+      "subtopics": [
+        {
+          "name": "Density and pressure p = F/A",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g9-physics-ch05-st3"
+          ],
+          "note": "Density and pressure (IGCSE ch 1 and 5)"
+        },
+        {
+          "name": "Hydrostatic pressure Δp = ρgΔh",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-physics-ch07-st1",
+            "cambridge-g9-physics-ch05-st4"
+          ],
+          "note": "Pressure in liquids (IGCSE ch 5)"
+        },
+        {
+          "name": "Upthrust and Archimedes' principle F = ρgV",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-physics-ch07-st2"
+          ],
+          "note": "Hydrostatic pressure; weight"
+        }
+      ]
+    },
+    {
+      "name": "Work, energy and power",
+      "subtopics": [
+        {
+          "name": "Work done as force × displacement in the direction of the force",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-physics-ch01-st4",
+            "cambridge-g9-physics-ch08-st1"
+          ],
+          "note": "Work done (IGCSE ch 8); resolving vectors"
+        },
+        {
+          "name": "Gravitational potential energy and kinetic energy and their derivations",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-physics-ch08-st1",
+            "cambridge-g11-physics-ch03-st1"
+          ],
+          "note": "Equations of motion; energy stores (IGCSE ch 6)"
+        },
+        {
+          "name": "Work done by a gas: W = pΔV",
+          "weight": "L",
+          "prereq": [
+            "cambridge-g11-physics-ch08-st1",
+            "cambridge-g11-physics-ch07-st1"
+          ],
+          "note": "Pressure; work done"
+        },
+        {
+          "name": "Power P = W/t = Fv and efficiency",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-physics-ch08-st1",
+            "cambridge-g9-physics-ch08-st2"
+          ],
+          "note": "Power (IGCSE ch 8); efficiency"
+        }
+      ]
+    },
+    {
+      "name": "Deformation of solids",
+      "subtopics": [
+        {
+          "name": "Stress, strain and the Young modulus",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g9-physics-ch05-st1",
+            "cambridge-g11-physics-ch07-st1"
+          ],
+          "note": "Hooke's law (IGCSE ch 5); pressure as force per area"
+        },
+        {
+          "name": "Elastic and plastic deformation and force-extension graphs",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-physics-ch09-st1"
+          ],
+          "note": "Load-extension graphs (IGCSE ch 5)"
+        },
+        {
+          "name": "Elastic potential energy as area under a force-extension graph",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-physics-ch09-st2",
+            "cambridge-g11-physics-ch08-st1"
+          ],
+          "note": "Work done; area under a graph"
+        }
+      ]
+    },
+    {
+      "name": "Waves",
+      "subtopics": [
+        {
+          "name": "Progressive waves: displacement, amplitude, phase difference, period, frequency and wavelength",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g10-physics-ch01-st1"
+          ],
+          "note": "Wave properties (IGCSE ch 1 Year 2)"
+        },
+        {
+          "name": "Intensity of waves and its dependence on amplitude",
+          "weight": "L",
+          "prereq": [
+            "cambridge-g11-physics-ch10-st1"
+          ],
+          "note": "Energy and power; area of a sphere"
+        },
+        {
+          "name": "The Doppler effect for sound waves",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-physics-ch10-st1",
+            "cambridge-g10-physics-ch01-st2"
+          ],
+          "note": "The wave equation v = fλ (IGCSE)"
+        },
+        {
+          "name": "Electromagnetic spectrum and speed of light",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g10-physics-ch02-st1"
+          ],
+          "note": "EM spectrum (IGCSE)"
+        },
+        {
+          "name": "Polarisation and Malus's law",
+          "weight": "L",
+          "prereq": [
+            "cambridge-g11-physics-ch10-st4"
+          ],
+          "note": "Transverse waves; cos² function"
+        }
+      ]
+    },
+    {
+      "name": "Superposition",
+      "subtopics": [
+        {
+          "name": "Stationary waves: formation, nodes and antinodes",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-physics-ch10-st1"
+          ],
+          "note": "Progressive waves; phase difference"
+        },
+        {
+          "name": "Diffraction of waves",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-physics-ch10-st1",
+            "cambridge-g10-physics-ch01-st4"
+          ],
+          "note": "Diffraction (IGCSE)"
+        },
+        {
+          "name": "Interference, coherence and the double-slit experiment λ = ax/D",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-physics-ch11-st2"
+          ],
+          "note": "Diffraction; path difference"
+        },
+        {
+          "name": "The diffraction grating d sin θ = nλ",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-physics-ch11-st3"
+          ],
+          "note": "Double-slit interference; trigonometry"
+        }
+      ]
+    },
+    {
+      "name": "Electricity",
+      "subtopics": [
+        {
+          "name": "Electric current, charge and the elementary charge, I = Anvq",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g10-physics-ch05-st1"
+          ],
+          "note": "Current as rate of flow of charge (IGCSE)"
+        },
+        {
+          "name": "Potential difference and power: V = W/Q and P = VI = I²R",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-physics-ch12-st1",
+            "cambridge-g10-physics-ch05-st4"
+          ],
+          "note": "Electrical energy and power (IGCSE)"
+        },
+        {
+          "name": "Resistance and resistivity R = ρL/A",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-physics-ch12-st2",
+            "cambridge-g10-physics-ch05-st3"
+          ],
+          "note": "Resistance of a wire (IGCSE)"
+        },
+        {
+          "name": "I-V characteristics of resistors, filament lamps, diodes, thermistors and LDRs",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-physics-ch12-st3"
+          ],
+          "note": "Resistance; reading graphs"
+        }
+      ]
+    },
+    {
+      "name": "D.C. circuits",
+      "subtopics": [
+        {
+          "name": "Electromotive force and internal resistance",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-physics-ch12-st2"
+          ],
+          "note": "Potential difference; e.m.f. (IGCSE)"
+        },
+        {
+          "name": "Kirchhoff's first and second laws and combining resistors",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-physics-ch12-st3",
+            "cambridge-g10-physics-ch06-st2"
+          ],
+          "note": "Series and parallel circuits (IGCSE)"
+        },
+        {
+          "name": "Potential dividers, potentiometers and sensors",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-physics-ch13-st2",
+            "cambridge-g11-physics-ch12-st4"
+          ],
+          "note": "Potential divider circuits (IGCSE); thermistors and LDRs"
+        }
+      ]
+    },
+    {
+      "name": "Particle physics",
+      "subtopics": [
+        {
+          "name": "Atoms, nuclei and the α-particle scattering experiment",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g10-physics-ch09-st2"
+          ],
+          "note": "Rutherford scattering (IGCSE)"
+        },
+        {
+          "name": "Nucleons, isotopes and nuclear decay equations including β⁺ and the neutrino",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-physics-ch14-st1",
+            "cambridge-g10-physics-ch10-st3"
+          ],
+          "note": "Nuclear decay equations (IGCSE)"
+        },
+        {
+          "name": "Fundamental particles: quarks, antiparticles, hadrons and leptons",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-physics-ch14-st2"
+          ],
+          "note": "Nucleons and their charges"
+        },
+        {
+          "name": "Quark models of β⁻ and β⁺ decay",
+          "weight": "L",
+          "prereq": [
+            "cambridge-g11-physics-ch14-st3"
+          ],
+          "note": "Quark composition of protons and neutrons"
+        }
+      ]
+    },
+    {
+      "name": "Practical skills (AS)",
+      "subtopics": [
+        {
+          "name": "Manipulation, measurement and observation: using instruments and recording data",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-physics-ch01-st3"
+          ],
+          "note": "Using measuring instruments (IGCSE practical)"
+        },
+        {
+          "name": "Presentation of data: tables, graphs, gradients and intercepts",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-physics-ch15-st1",
+            "cambridge-g9-maths-ch10-st1"
+          ],
+          "note": "Straight-line graphs (IGCSE maths)"
+        },
+        {
+          "name": "Analysis, conclusions and evaluation including estimating uncertainties",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-physics-ch15-st2",
+            "cambridge-g11-physics-ch01-st3"
+          ],
+          "note": "Errors and uncertainties"
+        },
+        {
+          "name": "Identifying limitations and suggesting improvements to experiments",
+          "weight": "L",
+          "prereq": [
+            "cambridge-g11-physics-ch15-st3"
+          ],
+          "note": "Evaluating experiments; sources of error"
+        }
+      ]
+    }
+  ]
+}

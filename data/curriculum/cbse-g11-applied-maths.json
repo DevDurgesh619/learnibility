@@ -1,0 +1,944 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cbse-g11-applied-maths",
+  "board": "cbse",
+  "grade": 11,
+  "stream": "commerce",
+  "slug": "applied-maths",
+  "name": "Applied Mathematics",
+  "programme": "CBSE Class 11 Applied Mathematics (241)",
+  "textbook": "CBSE Applied Mathematics 241 (no NCERT book) – 7 units ≈ 14 chapter-equivalents",
+  "examPattern": "School-conducted annual exam (no CBSE SQP for Class XI); 3 h; same marks split and question design as Class XII; 50% competency-based, 20% MCQ, 30% short/long answer (Circular 30/2024). Theory 80 + IA 20. Assumed 38 questions (same template as 041).",
+  "chapterCount": 14,
+  "questionTarget": 1514
+ },
+ "items": [
+  {
+   "id": "cbse-g11-applied-maths-ch01",
+   "subjectId": "cbse-g11-applied-maths",
+   "order": 1,
+   "name": "Numbers, Quantification and Numerical Applications",
+   "teachingPeriods": 22,
+   "subtopicIds": [
+    "cbse-g11-applied-maths-ch01-st1",
+    "cbse-g11-applied-maths-ch01-st2",
+    "cbse-g11-applied-maths-ch01-st3",
+    "cbse-g11-applied-maths-ch01-st4",
+    "cbse-g11-applied-maths-ch01-st5"
+   ]
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch02",
+   "subjectId": "cbse-g11-applied-maths",
+   "order": 2,
+   "name": "Sets and Relations",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g11-applied-maths-ch02-st1",
+    "cbse-g11-applied-maths-ch02-st2",
+    "cbse-g11-applied-maths-ch02-st3",
+    "cbse-g11-applied-maths-ch02-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch03",
+   "subjectId": "cbse-g11-applied-maths",
+   "order": 3,
+   "name": "Sequences and Series",
+   "teachingPeriods": 15,
+   "subtopicIds": [
+    "cbse-g11-applied-maths-ch03-st1",
+    "cbse-g11-applied-maths-ch03-st2",
+    "cbse-g11-applied-maths-ch03-st3",
+    "cbse-g11-applied-maths-ch03-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch04",
+   "subjectId": "cbse-g11-applied-maths",
+   "order": 4,
+   "name": "Functions",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g11-applied-maths-ch04-st1",
+    "cbse-g11-applied-maths-ch04-st2",
+    "cbse-g11-applied-maths-ch04-st3",
+    "cbse-g11-applied-maths-ch04-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch05",
+   "subjectId": "cbse-g11-applied-maths",
+   "order": 5,
+   "name": "Limits and Continuity",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cbse-g11-applied-maths-ch05-st1",
+    "cbse-g11-applied-maths-ch05-st2",
+    "cbse-g11-applied-maths-ch05-st3"
+   ]
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch06",
+   "subjectId": "cbse-g11-applied-maths",
+   "order": 6,
+   "name": "Differentiation",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "cbse-g11-applied-maths-ch06-st1",
+    "cbse-g11-applied-maths-ch06-st2",
+    "cbse-g11-applied-maths-ch06-st3",
+    "cbse-g11-applied-maths-ch06-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch07",
+   "subjectId": "cbse-g11-applied-maths",
+   "order": 7,
+   "name": "Permutations and Combinations",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cbse-g11-applied-maths-ch07-st1",
+    "cbse-g11-applied-maths-ch07-st2",
+    "cbse-g11-applied-maths-ch07-st3"
+   ]
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch08",
+   "subjectId": "cbse-g11-applied-maths",
+   "order": 8,
+   "name": "Probability",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g11-applied-maths-ch08-st1",
+    "cbse-g11-applied-maths-ch08-st2",
+    "cbse-g11-applied-maths-ch08-st3",
+    "cbse-g11-applied-maths-ch08-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch09",
+   "subjectId": "cbse-g11-applied-maths",
+   "order": 9,
+   "name": "Descriptive Statistics: Dispersion and Percentiles",
+   "teachingPeriods": 15,
+   "subtopicIds": [
+    "cbse-g11-applied-maths-ch09-st1",
+    "cbse-g11-applied-maths-ch09-st2",
+    "cbse-g11-applied-maths-ch09-st3",
+    "cbse-g11-applied-maths-ch09-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch10",
+   "subjectId": "cbse-g11-applied-maths",
+   "order": 10,
+   "name": "Correlation and Regression",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g11-applied-maths-ch10-st1",
+    "cbse-g11-applied-maths-ch10-st2",
+    "cbse-g11-applied-maths-ch10-st3",
+    "cbse-g11-applied-maths-ch10-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch11",
+   "subjectId": "cbse-g11-applied-maths",
+   "order": 11,
+   "name": "Interest and Annuities",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cbse-g11-applied-maths-ch11-st1",
+    "cbse-g11-applied-maths-ch11-st2",
+    "cbse-g11-applied-maths-ch11-st3"
+   ]
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch12",
+   "subjectId": "cbse-g11-applied-maths",
+   "order": 12,
+   "name": "Taxation",
+   "teachingPeriods": 15,
+   "subtopicIds": [
+    "cbse-g11-applied-maths-ch12-st1",
+    "cbse-g11-applied-maths-ch12-st2",
+    "cbse-g11-applied-maths-ch12-st3",
+    "cbse-g11-applied-maths-ch12-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch13",
+   "subjectId": "cbse-g11-applied-maths",
+   "order": 13,
+   "name": "Straight Lines",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cbse-g11-applied-maths-ch13-st1",
+    "cbse-g11-applied-maths-ch13-st2",
+    "cbse-g11-applied-maths-ch13-st3"
+   ]
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch14",
+   "subjectId": "cbse-g11-applied-maths",
+   "order": 14,
+   "name": "Circles and Parabola",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "cbse-g11-applied-maths-ch14-st1",
+    "cbse-g11-applied-maths-ch14-st2",
+    "cbse-g11-applied-maths-ch14-st3"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cbse-g11-applied-maths-ch01-st1",
+   "chapterId": "cbse-g11-applied-maths-ch01",
+   "order": 1,
+   "name": "Binary number system: conversion between decimal and binary",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch02-st1"
+   ],
+   "prerequisiteNote": "Place value and powers of 2 (Cl 8: Power Play)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch01-st2",
+   "chapterId": "cbse-g11-applied-maths-ch01",
+   "order": 2,
+   "name": "Indices, logarithms and antilogarithms: laws and properties",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch02-st1"
+   ],
+   "prerequisiteNote": "Laws of exponents, zero and negative exponents (Cl 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch01-st3",
+   "chapterId": "cbse-g11-applied-maths-ch01",
+   "order": 3,
+   "name": "Clock and calendar problems",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch05-st1"
+   ],
+   "prerequisiteNote": "Division with remainder and divisibility (Cl 8); angles in degrees",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch01-st4",
+   "chapterId": "cbse-g11-applied-maths-ch01",
+   "order": 4,
+   "name": "Time, speed and distance: relative speed and trains",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch07-st3"
+   ],
+   "prerequisiteNote": "Direct and inverse proportion (Cl 8); unit conversion km/h to m/s",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch01-st5",
+   "chapterId": "cbse-g11-applied-maths-ch01",
+   "order": 5,
+   "name": "Time and work; seating arrangement and mensuration puzzles",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch07-st3",
+    "cbse-g10-maths-ch12-st2"
+   ],
+   "prerequisiteNote": "Inverse proportion (Cl 8); volume of solids (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch02-st1",
+   "chapterId": "cbse-g11-applied-maths-ch02",
+   "order": 1,
+   "name": "Sets: types, subsets, power set and intervals",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g9-maths-ch03-st1"
+   ],
+   "prerequisiteNote": "Number systems: rationals and reals (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch02-st2",
+   "chapterId": "cbse-g11-applied-maths-ch02",
+   "order": 2,
+   "name": "Venn diagrams, operations on sets and De Morgan's laws",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch02-st1"
+   ],
+   "prerequisiteNote": "Types of sets and subsets",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch02-st3",
+   "chapterId": "cbse-g11-applied-maths-ch02",
+   "order": 3,
+   "name": "Ordered pairs, Cartesian product and relations",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch02-st1",
+    "cbse-g9-maths-ch01-st1"
+   ],
+   "prerequisiteNote": "Ordered pairs in the coordinate plane (Cl 9); sets in roster form",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch02-st4",
+   "chapterId": "cbse-g11-applied-maths-ch02",
+   "order": 4,
+   "name": "Types of relations: reflexive, symmetric, transitive and equivalence",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch02-st3"
+   ],
+   "prerequisiteNote": "Relations as sets of ordered pairs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch03-st1",
+   "chapterId": "cbse-g11-applied-maths-ch03",
+   "order": 1,
+   "name": "Arithmetic progression revisited and arithmetic mean",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch05-st3"
+   ],
+   "prerequisiteNote": "nth term and sum of an AP (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch03-st2",
+   "chapterId": "cbse-g11-applied-maths-ch03",
+   "order": 2,
+   "name": "Geometric progression: nth term, sum of n terms and infinite GP",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch03-st1",
+    "cbse-g11-applied-maths-ch01-st2"
+   ],
+   "prerequisiteNote": "Geometric progressions (Cl 9); laws of indices",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch03-st3",
+   "chapterId": "cbse-g11-applied-maths-ch03",
+   "order": 3,
+   "name": "Geometric mean and relation between AM and GM",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch03-st2"
+   ],
+   "prerequisiteNote": "Geometric progression; arithmetic mean",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch03-st4",
+   "chapterId": "cbse-g11-applied-maths-ch03",
+   "order": 4,
+   "name": "Special series: sums of n, n² and n³",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch03-st1"
+   ],
+   "prerequisiteNote": "Sum of an AP; sigma notation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch04-st1",
+   "chapterId": "cbse-g11-applied-maths-ch04",
+   "order": 1,
+   "name": "Dependent and independent variables; domain and range of a function",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch02-st3"
+   ],
+   "prerequisiteNote": "Relations and Cartesian products; substituting values (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch04-st2",
+   "chapterId": "cbse-g11-applied-maths-ch04",
+   "order": 2,
+   "name": "Types of functions: polynomial, rational, exponential, logarithmic, modulus, step",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch04-st1",
+    "cbse-g11-applied-maths-ch01-st2"
+   ],
+   "prerequisiteNote": "Domain and range; indices and logarithms",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch04-st3",
+   "chapterId": "cbse-g11-applied-maths-ch04",
+   "order": 3,
+   "name": "Graphs of functions and their transformations",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch04-st2",
+    "cbse-g10-maths-ch02-st1"
+   ],
+   "prerequisiteNote": "Types of functions; graphs of linear and quadratic polynomials (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch04-st4",
+   "chapterId": "cbse-g11-applied-maths-ch04",
+   "order": 4,
+   "name": "Composition and inverse of a function",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch04-st1"
+   ],
+   "prerequisiteNote": "Domain and range; solving equations for a variable",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch05-st1",
+   "chapterId": "cbse-g11-applied-maths-ch05",
+   "order": 1,
+   "name": "Limit of a function: intuitive idea, left-hand and right-hand limits",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch04-st3"
+   ],
+   "prerequisiteNote": "Graphs of functions, including step and modulus functions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch05-st2",
+   "chapterId": "cbse-g11-applied-maths-ch05",
+   "order": 2,
+   "name": "Evaluating limits: algebraic methods, rationalisation and standard limits",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch05-st1",
+    "cbse-g9-maths-ch04-st4"
+   ],
+   "prerequisiteNote": "Intuitive limits; factorisation using identities (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch05-st3",
+   "chapterId": "cbse-g11-applied-maths-ch05",
+   "order": 3,
+   "name": "Continuity of a function at a point and over an interval",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch05-st1"
+   ],
+   "prerequisiteNote": "Left-hand and right-hand limits; function values",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch06-st1",
+   "chapterId": "cbse-g11-applied-maths-ch06",
+   "order": 1,
+   "name": "Derivative as rate of change; derivative from first principles",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch05-st2"
+   ],
+   "prerequisiteNote": "Evaluating limits; slope of a line",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch06-st2",
+   "chapterId": "cbse-g11-applied-maths-ch06",
+   "order": 2,
+   "name": "Rules of differentiation: sum, product, quotient and chain rule",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch06-st1"
+   ],
+   "prerequisiteNote": "Derivative from first principles; composition of functions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch06-st3",
+   "chapterId": "cbse-g11-applied-maths-ch06",
+   "order": 3,
+   "name": "Derivatives of exponential, logarithmic, implicit and parametric functions",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch06-st2",
+    "cbse-g11-applied-maths-ch01-st2"
+   ],
+   "prerequisiteNote": "Rules of differentiation; laws of logarithms",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch06-st4",
+   "chapterId": "cbse-g11-applied-maths-ch06",
+   "order": 4,
+   "name": "Second-order derivatives",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch06-st2"
+   ],
+   "prerequisiteNote": "Rules of differentiation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch07-st1",
+   "chapterId": "cbse-g11-applied-maths-ch07",
+   "order": 1,
+   "name": "Fundamental principle of counting and factorial notation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch14-st3"
+   ],
+   "prerequisiteNote": "Listing outcomes of experiments (Cl 9-10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch07-st2",
+   "chapterId": "cbse-g11-applied-maths-ch07",
+   "order": 2,
+   "name": "Permutations: with and without repetition, circular permutations",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch07-st1"
+   ],
+   "prerequisiteNote": "Fundamental principle of counting; factorials",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch07-st3",
+   "chapterId": "cbse-g11-applied-maths-ch07",
+   "order": 3,
+   "name": "Combinations and their applications",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch07-st2"
+   ],
+   "prerequisiteNote": "Permutations; whether order matters in a selection",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch08-st1",
+   "chapterId": "cbse-g11-applied-maths-ch08",
+   "order": 1,
+   "name": "Random experiments, sample space and types of events",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch14-st2"
+   ],
+   "prerequisiteNote": "Complementary, impossible and sure events (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch08-st2",
+   "chapterId": "cbse-g11-applied-maths-ch08",
+   "order": 2,
+   "name": "Axiomatic probability and the addition theorem",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch08-st1",
+    "cbse-g11-applied-maths-ch07-st3",
+    "cbse-g11-applied-maths-ch02-st2"
+   ],
+   "prerequisiteNote": "Sample space; combinations; union and intersection of sets",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch08-st3",
+   "chapterId": "cbse-g11-applied-maths-ch08",
+   "order": 3,
+   "name": "Conditional probability and independent events",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch08-st2"
+   ],
+   "prerequisiteNote": "Axiomatic probability; multiplication of fractions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch08-st4",
+   "chapterId": "cbse-g11-applied-maths-ch08",
+   "order": 4,
+   "name": "Total probability and Bayes' theorem",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch08-st3"
+   ],
+   "prerequisiteNote": "Conditional probability; tree diagrams (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch09-st1",
+   "chapterId": "cbse-g11-applied-maths-ch09",
+   "order": 1,
+   "name": "Data interpretation: frequency distributions and graphical representation",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch13-st1"
+   ],
+   "prerequisiteNote": "Grouped frequency tables and histograms (Cl 9-10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch09-st2",
+   "chapterId": "cbse-g11-applied-maths-ch09",
+   "order": 2,
+   "name": "Measures of dispersion: range, quartile deviation and mean deviation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch09-st1",
+    "cbse-g10-maths-ch13-st3"
+   ],
+   "prerequisiteNote": "Median and cumulative frequency (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch09-st3",
+   "chapterId": "cbse-g11-applied-maths-ch09",
+   "order": 3,
+   "name": "Variance, standard deviation and coefficient of variation",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch09-st2"
+   ],
+   "prerequisiteNote": "Mean of grouped data (Cl 10); squaring deviations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch09-st4",
+   "chapterId": "cbse-g11-applied-maths-ch09",
+   "order": 4,
+   "name": "Percentiles, quartiles and percentile rank",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch09-st1",
+    "cbse-g10-maths-ch13-st3"
+   ],
+   "prerequisiteNote": "Median of grouped data using cumulative frequency (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch10-st1",
+   "chapterId": "cbse-g11-applied-maths-ch10",
+   "order": 1,
+   "name": "Bivariate data and scatter diagrams",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch09-st1",
+    "cbse-g9-maths-ch01-st1"
+   ],
+   "prerequisiteNote": "Plotting points (Cl 9); frequency tables",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch10-st2",
+   "chapterId": "cbse-g11-applied-maths-ch10",
+   "order": 2,
+   "name": "Karl Pearson's coefficient of correlation",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch10-st1",
+    "cbse-g11-applied-maths-ch09-st3"
+   ],
+   "prerequisiteNote": "Scatter diagrams; standard deviation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch10-st3",
+   "chapterId": "cbse-g11-applied-maths-ch10",
+   "order": 3,
+   "name": "Spearman's rank correlation coefficient",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch10-st1"
+   ],
+   "prerequisiteNote": "Ranking data, including tied ranks",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch10-st4",
+   "chapterId": "cbse-g11-applied-maths-ch10",
+   "order": 4,
+   "name": "Lines of regression and prediction",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch10-st2",
+    "cbse-g9-maths-ch13-st3"
+   ],
+   "prerequisiteNote": "Karl Pearson's correlation; graph of a linear equation in two variables (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch11-st1",
+   "chapterId": "cbse-g11-applied-maths-ch11",
+   "order": 1,
+   "name": "Simple and compound interest; nominal and effective rate of interest",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch10-st3",
+    "cbse-g11-applied-maths-ch01-st2"
+   ],
+   "prerequisiteNote": "Simple and compound interest (Cl 8); indices and logarithms",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch11-st2",
+   "chapterId": "cbse-g11-applied-maths-ch11",
+   "order": 2,
+   "name": "Present value and future value of money",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch11-st1"
+   ],
+   "prerequisiteNote": "Compound interest; working backwards from an amount",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch11-st3",
+   "chapterId": "cbse-g11-applied-maths-ch11",
+   "order": 3,
+   "name": "Annuities: annuity immediate and annuity due",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch11-st2",
+    "cbse-g11-applied-maths-ch03-st2"
+   ],
+   "prerequisiteNote": "Present and future value; sum of a geometric progression",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch12-st1",
+   "chapterId": "cbse-g11-applied-maths-ch12",
+   "order": 1,
+   "name": "Indirect taxes and the GST structure: CGST, SGST and IGST",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch10-st2"
+   ],
+   "prerequisiteNote": "Profit, loss, discount and tax (Cl 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch12-st2",
+   "chapterId": "cbse-g11-applied-maths-ch12",
+   "order": 2,
+   "name": "Computing GST on goods and services; input tax credit",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch12-st1"
+   ],
+   "prerequisiteNote": "GST structure; percentage calculations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch12-st3",
+   "chapterId": "cbse-g11-applied-maths-ch12",
+   "order": 3,
+   "name": "Calculation of income tax using slab rates",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch10-st1"
+   ],
+   "prerequisiteNote": "Percentages and percentage change (Cl 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch12-st4",
+   "chapterId": "cbse-g11-applied-maths-ch12",
+   "order": 4,
+   "name": "Utility bills: electricity and water bill calculations",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch10-st1"
+   ],
+   "prerequisiteNote": "Percentages; reading tariff tables",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch13-st1",
+   "chapterId": "cbse-g11-applied-maths-ch13",
+   "order": 1,
+   "name": "Slope of a line; parallel and perpendicular lines",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch07-st1"
+   ],
+   "prerequisiteNote": "Coordinates and distance formula (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch13-st2",
+   "chapterId": "cbse-g11-applied-maths-ch13",
+   "order": 2,
+   "name": "Equation of a line in various forms",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch13-st1"
+   ],
+   "prerequisiteNote": "Slope of a line; graph of a linear equation (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch13-st3",
+   "chapterId": "cbse-g11-applied-maths-ch13",
+   "order": 3,
+   "name": "Distance of a point from a line and business applications of lines",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch13-st2"
+   ],
+   "prerequisiteNote": "Equation of a line; cost-revenue as linear relations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch14-st1",
+   "chapterId": "cbse-g11-applied-maths-ch14",
+   "order": 1,
+   "name": "Circle: standard and general equation, centre and radius",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch07-st1"
+   ],
+   "prerequisiteNote": "Distance formula (Cl 10); completing the square",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch14-st2",
+   "chapterId": "cbse-g11-applied-maths-ch14",
+   "order": 2,
+   "name": "Parabola: standard forms, focus, directrix and latus rectum",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch13-st2"
+   ],
+   "prerequisiteNote": "Equation of a line; distance formula",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-applied-maths-ch14-st3",
+   "chapterId": "cbse-g11-applied-maths-ch14",
+   "order": 3,
+   "name": "Applications of circles and parabolas in real contexts",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g11-applied-maths-ch14-st1",
+    "cbse-g11-applied-maths-ch14-st2"
+   ],
+   "prerequisiteNote": "Equations of circle and parabola",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

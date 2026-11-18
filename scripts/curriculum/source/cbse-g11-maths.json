@@ -1,0 +1,557 @@
+{
+  "subjectId": "cbse-g11-maths",
+  "chapters": [
+    {
+      "sheetName": "Sets",
+      "name": "Sets",
+      "subtopics": [
+        {
+          "name": "Sets and their representations: roster and set-builder form",
+          "weight": "S",
+          "prereq": [
+            "cbse-g9-maths-ch03-st1"
+          ],
+          "note": "Number systems: natural, whole, integers, rationals, reals (Cl 9)"
+        },
+        {
+          "name": "Types of sets: empty, finite, infinite, equal sets; subsets and power set",
+          "weight": "S",
+          "prereq": [
+            "cbse-g11-maths-ch01-st1"
+          ],
+          "note": "Sets and their representations; listing all possible selections"
+        },
+        {
+          "name": "Intervals as subsets of R",
+          "weight": "L",
+          "prereq": [
+            "cbse-g11-maths-ch01-st2",
+            "cbse-g9-maths-ch03-st4"
+          ],
+          "note": "Subsets; real numbers on the number line (Cl 9)"
+        },
+        {
+          "name": "Venn diagrams; union, intersection and difference of sets",
+          "weight": "S",
+          "prereq": [
+            "cbse-g11-maths-ch01-st2"
+          ],
+          "note": "Subsets; types of sets"
+        },
+        {
+          "name": "Complement of a set, De Morgan's laws and practical problems",
+          "weight": "H",
+          "prereq": [
+            "cbse-g11-maths-ch01-st4"
+          ],
+          "note": "Venn diagrams and operations on sets"
+        }
+      ]
+    },
+    {
+      "sheetName": "Relations & Functions",
+      "name": "Relations and Functions",
+      "subtopics": [
+        {
+          "name": "Ordered pairs and the Cartesian product of sets",
+          "weight": "S",
+          "prereq": [
+            "cbse-g11-maths-ch01-st1",
+            "cbse-g9-maths-ch01-st1"
+          ],
+          "note": "Ordered pairs in the coordinate plane (Cl 9); sets in roster form"
+        },
+        {
+          "name": "Relations: domain, codomain and range",
+          "weight": "S",
+          "prereq": [
+            "cbse-g11-maths-ch02-st1"
+          ],
+          "note": "Cartesian product of sets; arrow diagrams"
+        },
+        {
+          "name": "Functions and their graphs: identity, constant, polynomial, rational, modulus, signum, greatest integer",
+          "weight": "H",
+          "prereq": [
+            "cbse-g11-maths-ch02-st2",
+            "cbse-g10-maths-ch02-st1"
+          ],
+          "note": "Relations; graphs of linear and quadratic polynomials (Cl 10)"
+        },
+        {
+          "name": "Algebra of real functions: sum, difference, product, quotient",
+          "weight": "S",
+          "prereq": [
+            "cbse-g11-maths-ch02-st3"
+          ],
+          "note": "Functions and their domains; operations on polynomials (Cl 9-10)"
+        }
+      ]
+    },
+    {
+      "sheetName": "Trigonometric Functions",
+      "name": "Trigonometric Functions",
+      "subtopics": [
+        {
+          "name": "Angles: degree and radian measure and their conversion",
+          "weight": "S",
+          "prereq": [
+            "cbse-g10-maths-ch11-st2"
+          ],
+          "note": "Length of an arc of a circle (Cl 10)"
+        },
+        {
+          "name": "Trigonometric functions of any angle: signs, domain, range and graphs",
+          "weight": "H",
+          "prereq": [
+            "cbse-g11-maths-ch03-st1",
+            "cbse-g10-maths-ch08-st2"
+          ],
+          "note": "Ratios of standard angles and identities (Cl 10); radian measure"
+        },
+        {
+          "name": "Sum and difference formulae: sin(x±y), cos(x±y), tan(x±y)",
+          "weight": "H",
+          "prereq": [
+            "cbse-g11-maths-ch03-st2"
+          ],
+          "note": "Trigonometric functions of any angle; allied angles"
+        },
+        {
+          "name": "Multiple-angle formulae and sum-to-product transformations",
+          "weight": "S",
+          "prereq": [
+            "cbse-g11-maths-ch03-st3"
+          ],
+          "note": "Sum and difference formulae; algebraic identities (Cl 9)"
+        }
+      ]
+    },
+    {
+      "sheetName": "Complex Numbers & Quadratic Eqns",
+      "name": "Complex Numbers and Quadratic Equations",
+      "subtopics": [
+        {
+          "name": "Need for complex numbers: iota and integral powers of i",
+          "weight": "L",
+          "prereq": [
+            "cbse-g10-maths-ch04-st3"
+          ],
+          "note": "Discriminant and nature of roots of a quadratic (Cl 10)"
+        },
+        {
+          "name": "Algebra of complex numbers: addition, multiplication and division",
+          "weight": "H",
+          "prereq": [
+            "cbse-g11-maths-ch04-st1",
+            "cbse-g9-maths-ch03-st5"
+          ],
+          "note": "Powers of i; rationalising denominators (Cl 9)"
+        },
+        {
+          "name": "Modulus and conjugate of a complex number",
+          "weight": "S",
+          "prereq": [
+            "cbse-g11-maths-ch04-st2"
+          ],
+          "note": "Algebra of complex numbers; distance formula (Cl 10)"
+        },
+        {
+          "name": "Argand plane representation of complex numbers",
+          "weight": "L",
+          "prereq": [
+            "cbse-g11-maths-ch04-st3",
+            "cbse-g9-maths-ch01-st1"
+          ],
+          "note": "Modulus and conjugate; plotting points (Cl 9)"
+        }
+      ]
+    },
+    {
+      "sheetName": "Linear Inequalities",
+      "name": "Linear Inequalities",
+      "subtopics": [
+        {
+          "name": "Algebraic solution of linear inequalities in one variable",
+          "weight": "H",
+          "prereq": [
+            "cbse-g8-maths-ch13-st3"
+          ],
+          "note": "Linear equations in one variable (Cl 8); effect of multiplying by a negative number"
+        },
+        {
+          "name": "Representing solutions of inequalities on the number line",
+          "weight": "S",
+          "prereq": [
+            "cbse-g11-maths-ch05-st1",
+            "cbse-g11-maths-ch01-st3"
+          ],
+          "note": "Algebraic solution of inequalities; intervals as subsets of R"
+        },
+        {
+          "name": "Word problems on linear inequalities",
+          "weight": "S",
+          "prereq": [
+            "cbse-g11-maths-ch05-st1"
+          ],
+          "note": "Algebraic solution of inequalities; forming expressions from words (Cl 8-10)"
+        }
+      ]
+    },
+    {
+      "sheetName": "Permutations & Combinations",
+      "name": "Permutations and Combinations",
+      "subtopics": [
+        {
+          "name": "Fundamental principle of counting",
+          "weight": "H",
+          "prereq": [
+            "cbse-g10-maths-ch14-st3"
+          ],
+          "note": "Listing outcomes of two-stage experiments (Cl 9-10)"
+        },
+        {
+          "name": "Factorial notation and permutations nPr",
+          "weight": "S",
+          "prereq": [
+            "cbse-g11-maths-ch06-st1"
+          ],
+          "note": "Fundamental principle of counting; multiplication of consecutive integers"
+        },
+        {
+          "name": "Permutations with repeated objects and restrictions",
+          "weight": "H",
+          "prereq": [
+            "cbse-g11-maths-ch06-st2"
+          ],
+          "note": "Permutations nPr; dividing out identical arrangements"
+        },
+        {
+          "name": "Combinations nCr and their properties",
+          "weight": "S",
+          "prereq": [
+            "cbse-g11-maths-ch06-st2"
+          ],
+          "note": "Permutations; difference between order mattering and not mattering"
+        },
+        {
+          "name": "Mixed problems on selection and arrangement",
+          "weight": "S",
+          "prereq": [
+            "cbse-g11-maths-ch06-st3",
+            "cbse-g11-maths-ch06-st4"
+          ],
+          "note": "Permutations with restrictions; combinations"
+        }
+      ]
+    },
+    {
+      "sheetName": "Binomial Theorem",
+      "name": "Binomial Theorem",
+      "subtopics": [
+        {
+          "name": "Pascal's triangle and binomial coefficients",
+          "weight": "S",
+          "prereq": [
+            "cbse-g11-maths-ch06-st4"
+          ],
+          "note": "Combinations nCr; patterns in (a+b)² and (a+b)³ (Cl 9)"
+        },
+        {
+          "name": "Binomial theorem for positive integral indices: statement and proof",
+          "weight": "H",
+          "prereq": [
+            "cbse-g11-maths-ch07-st1",
+            "cbse-g9-maths-ch04-st3"
+          ],
+          "note": "Pascal's triangle; cube identities (Cl 9)"
+        },
+        {
+          "name": "Simple applications: expansions, approximations and divisibility",
+          "weight": "L",
+          "prereq": [
+            "cbse-g11-maths-ch07-st2"
+          ],
+          "note": "Binomial theorem; laws of exponents (Cl 8)"
+        }
+      ]
+    },
+    {
+      "sheetName": "Sequences & Series",
+      "name": "Sequences and Series",
+      "subtopics": [
+        {
+          "name": "Sequences and series: general term and sigma notation",
+          "weight": "S",
+          "prereq": [
+            "cbse-g10-maths-ch05-st2"
+          ],
+          "note": "nth term of an AP (Cl 10)"
+        },
+        {
+          "name": "Arithmetic progression and arithmetic mean",
+          "weight": "S",
+          "prereq": [
+            "cbse-g11-maths-ch08-st1",
+            "cbse-g10-maths-ch05-st3"
+          ],
+          "note": "nth term and sum of an AP (Cl 10)"
+        },
+        {
+          "name": "Geometric progression: nth term and sum of n terms",
+          "weight": "H",
+          "prereq": [
+            "cbse-g11-maths-ch08-st1",
+            "cbse-g9-maths-ch08-st3"
+          ],
+          "note": "Geometric progressions: common ratio (Cl 9); laws of exponents"
+        },
+        {
+          "name": "Geometric mean and the AM-GM inequality",
+          "weight": "S",
+          "prereq": [
+            "cbse-g11-maths-ch08-st3",
+            "cbse-g11-maths-ch08-st2"
+          ],
+          "note": "Geometric progression; arithmetic mean; squares are non-negative"
+        }
+      ]
+    },
+    {
+      "sheetName": "Straight Lines",
+      "name": "Straight Lines",
+      "subtopics": [
+        {
+          "name": "Slope of a line; parallel and perpendicular lines; angle between two lines",
+          "weight": "H",
+          "prereq": [
+            "cbse-g10-maths-ch07-st1",
+            "cbse-g11-maths-ch03-st2"
+          ],
+          "note": "Coordinates and distance formula (Cl 10); tangent of an angle"
+        },
+        {
+          "name": "Forms of the equation of a line: point-slope, two-point, slope-intercept, intercept",
+          "weight": "S",
+          "prereq": [
+            "cbse-g11-maths-ch09-st1"
+          ],
+          "note": "Slope of a line; graph of a linear equation (Cl 9)"
+        },
+        {
+          "name": "General equation of a line and conversion to standard forms",
+          "weight": "S",
+          "prereq": [
+            "cbse-g11-maths-ch09-st2"
+          ],
+          "note": "Forms of the equation of a line; rearranging linear equations"
+        },
+        {
+          "name": "Distance of a point from a line and between parallel lines",
+          "weight": "H",
+          "prereq": [
+            "cbse-g11-maths-ch09-st3"
+          ],
+          "note": "General equation of a line; distance formula (Cl 10)"
+        }
+      ]
+    },
+    {
+      "sheetName": "Conic Sections",
+      "name": "Conic Sections",
+      "subtopics": [
+        {
+          "name": "Sections of a cone; circle: standard equation, centre and radius",
+          "weight": "S",
+          "prereq": [
+            "cbse-g10-maths-ch07-st1"
+          ],
+          "note": "Distance formula (Cl 10); completing the square"
+        },
+        {
+          "name": "Parabola: standard equations, focus, directrix and latus rectum",
+          "weight": "H",
+          "prereq": [
+            "cbse-g11-maths-ch10-st1"
+          ],
+          "note": "Equation of a circle as a locus; distance of a point from a line"
+        },
+        {
+          "name": "Ellipse: standard equations, foci, eccentricity and latus rectum",
+          "weight": "H",
+          "prereq": [
+            "cbse-g11-maths-ch10-st1"
+          ],
+          "note": "Equation of a circle; distance formula"
+        },
+        {
+          "name": "Hyperbola: standard equations, foci, eccentricity and latus rectum",
+          "weight": "S",
+          "prereq": [
+            "cbse-g11-maths-ch10-st3"
+          ],
+          "note": "Ellipse: standard equations; difference vs sum of focal distances"
+        }
+      ]
+    },
+    {
+      "sheetName": "Intro to 3D Geometry",
+      "name": "Introduction to Three Dimensional Geometry",
+      "subtopics": [
+        {
+          "name": "Coordinate axes and coordinate planes in three dimensions; octants",
+          "weight": "L",
+          "prereq": [
+            "cbse-g10-maths-ch07-st1"
+          ],
+          "note": "Cartesian plane and quadrants (Cl 9-10)"
+        },
+        {
+          "name": "Coordinates of a point in space",
+          "weight": "S",
+          "prereq": [
+            "cbse-g11-maths-ch11-st1"
+          ],
+          "note": "Coordinate axes and planes; plotting points in 2D"
+        },
+        {
+          "name": "Distance between two points in space",
+          "weight": "S",
+          "prereq": [
+            "cbse-g11-maths-ch11-st2",
+            "cbse-g10-maths-ch07-st1"
+          ],
+          "note": "Distance formula in 2D (Cl 10); coordinates in space"
+        }
+      ]
+    },
+    {
+      "sheetName": "Limits & Derivatives",
+      "name": "Limits and Derivatives",
+      "subtopics": [
+        {
+          "name": "Intuitive idea of limits; left-hand and right-hand limits",
+          "weight": "S",
+          "prereq": [
+            "cbse-g11-maths-ch02-st3"
+          ],
+          "note": "Graphs of functions, including modulus and greatest integer functions"
+        },
+        {
+          "name": "Algebra of limits; limits of polynomial and rational functions",
+          "weight": "H",
+          "prereq": [
+            "cbse-g11-maths-ch12-st1",
+            "cbse-g9-maths-ch04-st4"
+          ],
+          "note": "Intuitive limits; factorisation using identities (Cl 9)"
+        },
+        {
+          "name": "Limits of trigonometric functions: lim sin x / x",
+          "weight": "S",
+          "prereq": [
+            "cbse-g11-maths-ch12-st2",
+            "cbse-g11-maths-ch03-st2"
+          ],
+          "note": "Algebra of limits; trigonometric functions in radians"
+        },
+        {
+          "name": "Derivative at a point and from first principles",
+          "weight": "H",
+          "prereq": [
+            "cbse-g11-maths-ch12-st2"
+          ],
+          "note": "Algebra of limits; slope of a line"
+        },
+        {
+          "name": "Algebra of derivatives; derivatives of polynomial and trigonometric functions",
+          "weight": "S",
+          "prereq": [
+            "cbse-g11-maths-ch12-st4",
+            "cbse-g11-maths-ch12-st3"
+          ],
+          "note": "First principles; standard trigonometric limits"
+        }
+      ]
+    },
+    {
+      "sheetName": "Statistics",
+      "name": "Statistics",
+      "subtopics": [
+        {
+          "name": "Range and mean deviation for ungrouped data",
+          "weight": "S",
+          "prereq": [
+            "cbse-g10-maths-ch13-st1",
+            "cbse-g10-maths-ch13-st3"
+          ],
+          "note": "Mean and median (Cl 9-10); absolute value"
+        },
+        {
+          "name": "Mean deviation for grouped data about mean and median",
+          "weight": "S",
+          "prereq": [
+            "cbse-g11-maths-ch13-st1"
+          ],
+          "note": "Mean deviation for ungrouped data; mean and median of grouped data (Cl 10)"
+        },
+        {
+          "name": "Variance and standard deviation of ungrouped and grouped data",
+          "weight": "H",
+          "prereq": [
+            "cbse-g11-maths-ch13-st2"
+          ],
+          "note": "Mean of grouped data (Cl 10); squaring deviations"
+        },
+        {
+          "name": "Shortcut (step-deviation) method for variance and standard deviation",
+          "weight": "L",
+          "prereq": [
+            "cbse-g11-maths-ch13-st3"
+          ],
+          "note": "Variance and standard deviation; step-deviation method for the mean (Cl 10)"
+        }
+      ]
+    },
+    {
+      "sheetName": "Probability",
+      "name": "Probability",
+      "subtopics": [
+        {
+          "name": "Random experiments, outcomes and sample spaces",
+          "weight": "S",
+          "prereq": [
+            "cbse-g10-maths-ch14-st1"
+          ],
+          "note": "Theoretical probability and elementary events (Cl 10)"
+        },
+        {
+          "name": "Events: types, algebra of events, mutually exclusive and exhaustive events",
+          "weight": "S",
+          "prereq": [
+            "cbse-g11-maths-ch14-st1",
+            "cbse-g11-maths-ch01-st5"
+          ],
+          "note": "Sample spaces; union, intersection and complement of sets"
+        },
+        {
+          "name": "Axiomatic approach to probability; probability of an event",
+          "weight": "H",
+          "prereq": [
+            "cbse-g11-maths-ch14-st2"
+          ],
+          "note": "Events and the algebra of events; counting outcomes"
+        },
+        {
+          "name": "Addition rule P(A ∪ B) and probability of 'not A'",
+          "weight": "H",
+          "prereq": [
+            "cbse-g11-maths-ch14-st3",
+            "cbse-g11-maths-ch06-st4"
+          ],
+          "note": "Axiomatic probability; combinations for counting favourable outcomes"
+        }
+      ]
+    }
+  ]
+}

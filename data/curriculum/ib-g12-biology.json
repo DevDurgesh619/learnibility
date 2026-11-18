@@ -1,0 +1,834 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "ib-g12-biology",
+  "board": "ib",
+  "grade": 12,
+  "stream": "science",
+  "slug": "biology",
+  "name": "Biology",
+  "programme": "IB DP Biology SL/HL (first exam 2025) – 4 themes, 40 subtopics",
+  "examPattern": "IB DP – graded 1–7; recommended 150 h SL / 240 h HL; exams May (Hindi May only). HL: Paper 1 2 h, 75 marks (36%) = 1A 40 MCQ + 1B 4 data-based questions (35); Paper 2 2 h 30, 80 marks (44%) = Section A data-based & short answer (48) + Section B 2 of 3 extended responses (32); IA 24 marks (20%). SL: 1A 30 MCQ, P2 1 of 2 extended.",
+  "chapterCount": 11,
+  "questionTarget": 1308
+ },
+ "items": [
+  {
+   "id": "ib-g12-biology-ch01",
+   "subjectId": "ib-g12-biology",
+   "order": 1,
+   "name": "C1.1 Enzymes and Metabolism",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "ib-g12-biology-ch01-st1",
+    "ib-g12-biology-ch01-st2",
+    "ib-g12-biology-ch01-st3",
+    "ib-g12-biology-ch01-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-biology-ch02",
+   "subjectId": "ib-g12-biology",
+   "order": 2,
+   "name": "C1.2 Cell Respiration and C1.3 Photosynthesis",
+   "teachingPeriods": 22,
+   "subtopicIds": [
+    "ib-g12-biology-ch02-st1",
+    "ib-g12-biology-ch02-st2",
+    "ib-g12-biology-ch02-st3",
+    "ib-g12-biology-ch02-st4",
+    "ib-g12-biology-ch02-st5"
+   ]
+  },
+  {
+   "id": "ib-g12-biology-ch03",
+   "subjectId": "ib-g12-biology",
+   "order": 3,
+   "name": "C2.1 Chemical Signalling and C2.2 Neural Signalling",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "ib-g12-biology-ch03-st1",
+    "ib-g12-biology-ch03-st2",
+    "ib-g12-biology-ch03-st3",
+    "ib-g12-biology-ch03-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-biology-ch04",
+   "subjectId": "ib-g12-biology",
+   "order": 4,
+   "name": "C3.1 Integration of Body Systems and C3.2 Defence Against Disease",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "ib-g12-biology-ch04-st1",
+    "ib-g12-biology-ch04-st2",
+    "ib-g12-biology-ch04-st3",
+    "ib-g12-biology-ch04-st4",
+    "ib-g12-biology-ch04-st5"
+   ]
+  },
+  {
+   "id": "ib-g12-biology-ch05",
+   "subjectId": "ib-g12-biology",
+   "order": 5,
+   "name": "C4.1 Populations and Communities and C4.2 Transfers of Energy and Matter",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "ib-g12-biology-ch05-st1",
+    "ib-g12-biology-ch05-st2",
+    "ib-g12-biology-ch05-st3",
+    "ib-g12-biology-ch05-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-biology-ch06",
+   "subjectId": "ib-g12-biology",
+   "order": 6,
+   "name": "D1.1-D1.3 DNA Replication, Protein Synthesis and Mutation",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "ib-g12-biology-ch06-st1",
+    "ib-g12-biology-ch06-st2",
+    "ib-g12-biology-ch06-st3",
+    "ib-g12-biology-ch06-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-biology-ch07",
+   "subjectId": "ib-g12-biology",
+   "order": 7,
+   "name": "D2.1-D2.3 Cell Division, Gene Expression and Water Potential",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "ib-g12-biology-ch07-st1",
+    "ib-g12-biology-ch07-st2",
+    "ib-g12-biology-ch07-st3",
+    "ib-g12-biology-ch07-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-biology-ch08",
+   "subjectId": "ib-g12-biology",
+   "order": 8,
+   "name": "D3.1 Reproduction and D3.2 Inheritance",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "ib-g12-biology-ch08-st1",
+    "ib-g12-biology-ch08-st2",
+    "ib-g12-biology-ch08-st3",
+    "ib-g12-biology-ch08-st4",
+    "ib-g12-biology-ch08-st5"
+   ]
+  },
+  {
+   "id": "ib-g12-biology-ch09",
+   "subjectId": "ib-g12-biology",
+   "order": 9,
+   "name": "D3.3 Homeostasis",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g12-biology-ch09-st1",
+    "ib-g12-biology-ch09-st2",
+    "ib-g12-biology-ch09-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-biology-ch10",
+   "subjectId": "ib-g12-biology",
+   "order": 10,
+   "name": "D4.1-D4.3 Natural Selection, Stability and Change, and Climate Change",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "ib-g12-biology-ch10-st1",
+    "ib-g12-biology-ch10-st2",
+    "ib-g12-biology-ch10-st3",
+    "ib-g12-biology-ch10-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-biology-ch11",
+   "subjectId": "ib-g12-biology",
+   "order": 11,
+   "name": "Internal Assessment and Practical Skills",
+   "teachingPeriods": 15,
+   "subtopicIds": [
+    "ib-g12-biology-ch11-st1",
+    "ib-g12-biology-ch11-st2",
+    "ib-g12-biology-ch11-st3",
+    "ib-g12-biology-ch11-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "ib-g12-biology-ch01-st1",
+   "chapterId": "ib-g12-biology-ch01",
+   "order": 1,
+   "name": "Enzymes as catalysts: active site, enzyme-substrate specificity and induced fit",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-biology-ch08-st2"
+   ],
+   "prerequisiteNote": "Protein structure (DP1 B1.2)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch01-st2",
+   "chapterId": "ib-g12-biology-ch01",
+   "order": 2,
+   "name": "Factors affecting enzyme activity: temperature, pH and substrate concentration",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-biology-ch01-st1",
+    "ib-g11-biology-ch08-st3"
+   ],
+   "prerequisiteNote": "Enzyme action; denaturation (DP1 B1.2)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch01-st3",
+   "chapterId": "ib-g12-biology-ch01",
+   "order": 3,
+   "name": "Activation energy and measuring rates of enzyme reactions",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-biology-ch01-st2"
+   ],
+   "prerequisiteNote": "Factors affecting enzymes; rate graphs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch01-st4",
+   "chapterId": "ib-g12-biology-ch01",
+   "order": 4,
+   "name": "Metabolic pathways and enzyme inhibition: competitive, non-competitive and end-product (HL)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-biology-ch01-st1"
+   ],
+   "prerequisiteNote": "Enzyme action",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch02-st1",
+   "chapterId": "ib-g12-biology-ch02",
+   "order": 1,
+   "name": "C1.2 ATP and the comparison of aerobic and anaerobic respiration",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g8-science-ch04-st4",
+    "ib-g11-biology-ch10-st2"
+   ],
+   "prerequisiteNote": "Respiration (MYP 3); mitochondria",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch02-st2",
+   "chapterId": "ib-g12-biology-ch02",
+   "order": 2,
+   "name": "C1.2 Glycolysis, the link reaction, Krebs cycle and oxidative phosphorylation (HL)",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-biology-ch02-st1",
+    "ib-g12-biology-ch01-st4"
+   ],
+   "prerequisiteNote": "ATP; mitochondria structure",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch02-st3",
+   "chapterId": "ib-g12-biology-ch02",
+   "order": 3,
+   "name": "C1.3 Photosynthetic pigments, chromatography and the action spectrum",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-biology-ch10-st2",
+    "ib-g8-science-ch07-st4"
+   ],
+   "prerequisiteNote": "Chloroplasts; separation by chromatography",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch02-st4",
+   "chapterId": "ib-g12-biology-ch02",
+   "order": 4,
+   "name": "C1.3 Light-dependent and light-independent reactions (HL)",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-biology-ch02-st3",
+    "ib-g12-biology-ch02-st1"
+   ],
+   "prerequisiteNote": "Pigments; ATP",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch02-st5",
+   "chapterId": "ib-g12-biology-ch02",
+   "order": 5,
+   "name": "C1.3 Limiting factors of photosynthesis and carbon dioxide enrichment",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-biology-ch02-st3",
+    "ib-g12-biology-ch01-st2"
+   ],
+   "prerequisiteNote": "Photosynthesis basics; enzyme rates",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch03-st1",
+   "chapterId": "ib-g12-biology-ch03",
+   "order": 1,
+   "name": "C2.1 Receptors, ligands, hormones and neurotransmitters (HL)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-biology-ch09-st3"
+   ],
+   "prerequisiteNote": "Membrane proteins (DP1 B2.1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch03-st2",
+   "chapterId": "ib-g12-biology-ch03",
+   "order": 2,
+   "name": "C2.1 Signal transduction: G-protein coupled and tyrosine kinase receptors (HL)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-biology-ch03-st1"
+   ],
+   "prerequisiteNote": "Receptors and ligands",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch03-st3",
+   "chapterId": "ib-g12-biology-ch03",
+   "order": 3,
+   "name": "C2.2 Neurones, resting potential, action potentials and myelination",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g9-science-ch03-st2",
+    "ib-g11-biology-ch09-st3"
+   ],
+   "prerequisiteNote": "Nervous system (MYP 4); active transport",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch03-st4",
+   "chapterId": "ib-g12-biology-ch03",
+   "order": 4,
+   "name": "C2.2 Synaptic transmission and the effect of drugs and pain",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-biology-ch03-st3"
+   ],
+   "prerequisiteNote": "Action potentials",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch04-st1",
+   "chapterId": "ib-g12-biology-ch04",
+   "order": 1,
+   "name": "C3.1 Integration by the nervous and endocrine systems; the brain, spinal cord and reflexes",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-biology-ch03-st3",
+    "ib-g9-science-ch03-st3"
+   ],
+   "prerequisiteNote": "Neural signalling; endocrine system (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch04-st2",
+   "chapterId": "ib-g12-biology-ch04",
+   "order": 2,
+   "name": "C3.1 Tropisms and plant hormones: auxin (HL)",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g12-biology-ch03-st1"
+   ],
+   "prerequisiteNote": "Chemical signalling",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch04-st3",
+   "chapterId": "ib-g12-biology-ch04",
+   "order": 3,
+   "name": "C3.2 Pathogens, primary defences, phagocytes and the specific immune response",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-biology-ch03-st5"
+   ],
+   "prerequisiteNote": "Cell structure and viruses (DP1 A2)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch04-st4",
+   "chapterId": "ib-g12-biology-ch04",
+   "order": 4,
+   "name": "C3.2 Antibodies, vaccination, herd immunity and antibiotic resistance",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-biology-ch04-st3",
+    "ib-g10-science-ch01-st5"
+   ],
+   "prerequisiteNote": "Immune response",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch04-st5",
+   "chapterId": "ib-g12-biology-ch04",
+   "order": 5,
+   "name": "C3.2 Zoonoses, HIV and the epidemiology of COVID-19",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g12-biology-ch04-st4"
+   ],
+   "prerequisiteNote": "Antibodies; viruses",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch05-st1",
+   "chapterId": "ib-g12-biology-ch05",
+   "order": 1,
+   "name": "C4.1 Populations: estimating size, sampling and sigmoid growth",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g10-science-ch02-st1",
+    "ib-g11-biology-ch12-st2"
+   ],
+   "prerequisiteNote": "Population growth (MYP 5); quadrats",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch05-st2",
+   "chapterId": "ib-g12-biology-ch05",
+   "order": 2,
+   "name": "C4.1 Interspecific relationships, keystone species and the chi-squared test for association",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-biology-ch05-st1",
+    "ib-g11-biology-ch12-st4"
+   ],
+   "prerequisiteNote": "Populations; ecological niches (DP1 B4.2)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch05-st3",
+   "chapterId": "ib-g12-biology-ch05",
+   "order": 3,
+   "name": "C4.2 Ecosystems, food chains, energy flow and pyramids of energy",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g10-science-ch02-st2"
+   ],
+   "prerequisiteNote": "Energy flow (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch05-st4",
+   "chapterId": "ib-g12-biology-ch05",
+   "order": 4,
+   "name": "C4.2 Primary productivity and the carbon cycle",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-biology-ch05-st3",
+    "ib-g12-biology-ch02-st5",
+    "ib-g10-science-ch02-st3"
+   ],
+   "prerequisiteNote": "Photosynthesis; carbon cycle (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch06-st1",
+   "chapterId": "ib-g12-biology-ch06",
+   "order": 1,
+   "name": "D1.1 Semi-conservative DNA replication, PCR and gel electrophoresis",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-biology-ch02-st2"
+   ],
+   "prerequisiteNote": "DNA structure and base pairing (DP1 A1.2)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch06-st2",
+   "chapterId": "ib-g12-biology-ch06",
+   "order": 2,
+   "name": "D1.2 Transcription and translation; the genetic code",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-biology-ch06-st1",
+    "ib-g11-biology-ch02-st3"
+   ],
+   "prerequisiteNote": "DNA replication; RNA (DP1 A1.2)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch06-st3",
+   "chapterId": "ib-g12-biology-ch06",
+   "order": 3,
+   "name": "D1.2 Post-transcriptional modification and the initiation of translation (HL)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-biology-ch06-st2"
+   ],
+   "prerequisiteNote": "Transcription",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch06-st4",
+   "chapterId": "ib-g12-biology-ch06",
+   "order": 4,
+   "name": "D1.3 Gene mutations: substitution, insertion and deletion; gene knockout and CRISPR",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-biology-ch06-st2"
+   ],
+   "prerequisiteNote": "Genetic code; protein synthesis",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch07-st1",
+   "chapterId": "ib-g12-biology-ch07",
+   "order": 1,
+   "name": "D2.1 Mitosis, meiosis and the cell cycle; non-disjunction",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g9-science-ch01-st2",
+    "ib-g9-science-ch01-st3"
+   ],
+   "prerequisiteNote": "Mitosis and meiosis (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch07-st2",
+   "chapterId": "ib-g12-biology-ch07",
+   "order": 2,
+   "name": "D2.1 Cell cycle control, cyclins and tumour formation (HL)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-biology-ch07-st1",
+    "ib-g12-biology-ch06-st4"
+   ],
+   "prerequisiteNote": "Cell cycle",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch07-st3",
+   "chapterId": "ib-g12-biology-ch07",
+   "order": 3,
+   "name": "D2.2 Gene expression: transcription factors, epigenetics and methylation (HL)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-biology-ch06-st2"
+   ],
+   "prerequisiteNote": "Transcription",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch07-st4",
+   "chapterId": "ib-g12-biology-ch07",
+   "order": 4,
+   "name": "D2.3 Water potential, solute and pressure potential; osmosis in plant and animal cells",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-biology-ch09-st2"
+   ],
+   "prerequisiteNote": "Osmosis (DP1 B2.1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch08-st1",
+   "chapterId": "ib-g12-biology-ch08",
+   "order": 1,
+   "name": "D3.1 Sexual and asexual reproduction; human reproductive systems and hormones",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-biology-ch07-st1",
+    "ib-g9-science-ch03-st3"
+   ],
+   "prerequisiteNote": "Meiosis; endocrine system (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch08-st2",
+   "chapterId": "ib-g12-biology-ch08",
+   "order": 2,
+   "name": "D3.1 Sexual reproduction in flowering plants",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g12-biology-ch08-st1"
+   ],
+   "prerequisiteNote": "Sexual reproduction",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch08-st3",
+   "chapterId": "ib-g12-biology-ch08",
+   "order": 3,
+   "name": "D3.2 Genetic crosses: dominance, codominance, multiple alleles and sex linkage",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g9-science-ch02-st3",
+    "ib-g12-biology-ch07-st1"
+   ],
+   "prerequisiteNote": "Monohybrid crosses (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch08-st4",
+   "chapterId": "ib-g12-biology-ch08",
+   "order": 4,
+   "name": "D3.2 Dihybrid crosses, linked genes and the chi-squared test (HL)",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-biology-ch08-st3",
+    "ib-g12-biology-ch05-st2"
+   ],
+   "prerequisiteNote": "Genetic crosses; meiosis",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch08-st5",
+   "chapterId": "ib-g12-biology-ch08",
+   "order": 5,
+   "name": "D3.2 Continuous variation and polygenic inheritance",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-biology-ch08-st3"
+   ],
+   "prerequisiteNote": "Genetic crosses",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch09-st1",
+   "chapterId": "ib-g12-biology-ch09",
+   "order": 1,
+   "name": "Negative feedback and control of blood glucose by insulin and glucagon",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g9-science-ch03-st3"
+   ],
+   "prerequisiteNote": "Homeostasis (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch09-st2",
+   "chapterId": "ib-g12-biology-ch09",
+   "order": 2,
+   "name": "Thermoregulation and the hypothalamus",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-biology-ch09-st1",
+    "ib-g12-biology-ch04-st1"
+   ],
+   "prerequisiteNote": "Negative feedback",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch09-st3",
+   "chapterId": "ib-g12-biology-ch09",
+   "order": 3,
+   "name": "Kidney function, osmoregulation and excretion (HL)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-biology-ch07-st4",
+    "ib-g12-biology-ch09-st1"
+   ],
+   "prerequisiteNote": "Water potential; negative feedback",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch10-st1",
+   "chapterId": "ib-g12-biology-ch10",
+   "order": 1,
+   "name": "D4.1 Natural selection: variation, overproduction, competition and selection pressures",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g10-science-ch01-st2",
+    "ib-g12-biology-ch06-st4"
+   ],
+   "prerequisiteNote": "Natural selection (MYP 5); mutation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch10-st2",
+   "chapterId": "ib-g12-biology-ch10",
+   "order": 2,
+   "name": "D4.1 Hardy-Weinberg principle and patterns of selection (HL)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-biology-ch10-st1"
+   ],
+   "prerequisiteNote": "Natural selection; allele frequencies",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch10-st3",
+   "chapterId": "ib-g12-biology-ch10",
+   "order": 3,
+   "name": "D4.2 Ecosystem stability, tipping points and sustainability",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-biology-ch05-st3"
+   ],
+   "prerequisiteNote": "Food chains and energy flow",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch10-st4",
+   "chapterId": "ib-g12-biology-ch10",
+   "order": 4,
+   "name": "D4.3 Climate change: anthropogenic causes and effects on ecosystems",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-biology-ch05-st4",
+    "ib-g10-science-ch03-st2"
+   ],
+   "prerequisiteNote": "Carbon cycle; enhanced greenhouse effect (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch11-st1",
+   "chapterId": "ib-g12-biology-ch11",
+   "order": 1,
+   "name": "Practical skills: microscopy, chromatography, sampling and data-logging",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g11-biology-ch03-st2"
+   ],
+   "prerequisiteNote": "Experimental techniques throughout DP1",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch11-st2",
+   "chapterId": "ib-g12-biology-ch11",
+   "order": 2,
+   "name": "Designing an investigation: research question, variables and methodology",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g8-science-ch01-st2"
+   ],
+   "prerequisiteNote": "Variables and fair testing (MYP)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch11-st3",
+   "chapterId": "ib-g12-biology-ch11",
+   "order": 3,
+   "name": "Statistical analysis: standard deviation, t-test and correlation in biological data",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch11-st5",
+    "ib-g12-biology-ch05-st2"
+   ],
+   "prerequisiteNote": "Standard deviation (MYP 5 maths); chi-squared",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-biology-ch11-st4",
+   "chapterId": "ib-g12-biology-ch11",
+   "order": 4,
+   "name": "Writing the IA: analysis, conclusion and evaluation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-biology-ch11-st2",
+    "ib-g12-biology-ch11-st3"
+   ],
+   "prerequisiteNote": "Investigation design; data processing",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

@@ -1,0 +1,824 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "ib-g12-physics",
+  "board": "ib",
+  "grade": 12,
+  "stream": "science",
+  "slug": "physics",
+  "name": "Physics",
+  "programme": "IB DP Physics SL/HL (first exam 2025) – 5 themes, 24 topics",
+  "examPattern": "IB DP – graded 1–7; recommended 150 h SL / 240 h HL; exams May (Hindi May only). HL: Paper 1 2 h, 60 marks (36%) = 1A 40 MCQ + 1B data-based questions on experimental work (20); Paper 2 2 h 30, 90 marks (44%), ~10 structured short & extended-response questions; IA scientific investigation 24 marks (20%). SL: P1 25 MCQ + 1B (45 marks, 1 h 30), P2 1 h 30.",
+  "chapterCount": 12,
+  "questionTarget": 1512
+ },
+ "items": [
+  {
+   "id": "ib-g12-physics-ch01",
+   "subjectId": "ib-g12-physics",
+   "order": 1,
+   "name": "C.3 Wave Phenomena",
+   "teachingPeriods": 22,
+   "subtopicIds": [
+    "ib-g12-physics-ch01-st1",
+    "ib-g12-physics-ch01-st2",
+    "ib-g12-physics-ch01-st3",
+    "ib-g12-physics-ch01-st4",
+    "ib-g12-physics-ch01-st5"
+   ]
+  },
+  {
+   "id": "ib-g12-physics-ch02",
+   "subjectId": "ib-g12-physics",
+   "order": 2,
+   "name": "C.4 Standing Waves and Resonance",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "ib-g12-physics-ch02-st1",
+    "ib-g12-physics-ch02-st2",
+    "ib-g12-physics-ch02-st3",
+    "ib-g12-physics-ch02-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-physics-ch03",
+   "subjectId": "ib-g12-physics",
+   "order": 3,
+   "name": "C.5 Doppler Effect",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "ib-g12-physics-ch03-st1",
+    "ib-g12-physics-ch03-st2",
+    "ib-g12-physics-ch03-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-physics-ch04",
+   "subjectId": "ib-g12-physics",
+   "order": 4,
+   "name": "D.1 Gravitational Fields",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "ib-g12-physics-ch04-st1",
+    "ib-g12-physics-ch04-st2",
+    "ib-g12-physics-ch04-st3",
+    "ib-g12-physics-ch04-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-physics-ch05",
+   "subjectId": "ib-g12-physics",
+   "order": 5,
+   "name": "D.2 Electric and Magnetic Fields",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "ib-g12-physics-ch05-st1",
+    "ib-g12-physics-ch05-st2",
+    "ib-g12-physics-ch05-st3",
+    "ib-g12-physics-ch05-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-physics-ch06",
+   "subjectId": "ib-g12-physics",
+   "order": 6,
+   "name": "D.3 Motion in Electromagnetic Fields",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g12-physics-ch06-st1",
+    "ib-g12-physics-ch06-st2",
+    "ib-g12-physics-ch06-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-physics-ch07",
+   "subjectId": "ib-g12-physics",
+   "order": 7,
+   "name": "D.4 Induction (HL)",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g12-physics-ch07-st1",
+    "ib-g12-physics-ch07-st2",
+    "ib-g12-physics-ch07-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-physics-ch08",
+   "subjectId": "ib-g12-physics",
+   "order": 8,
+   "name": "E.1 Structure of the Atom",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "ib-g12-physics-ch08-st1",
+    "ib-g12-physics-ch08-st2",
+    "ib-g12-physics-ch08-st3",
+    "ib-g12-physics-ch08-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-physics-ch09",
+   "subjectId": "ib-g12-physics",
+   "order": 9,
+   "name": "E.2 Quantum Physics (HL)",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "ib-g12-physics-ch09-st1",
+    "ib-g12-physics-ch09-st2",
+    "ib-g12-physics-ch09-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-physics-ch10",
+   "subjectId": "ib-g12-physics",
+   "order": 10,
+   "name": "E.3 Radioactive Decay",
+   "teachingPeriods": 21,
+   "subtopicIds": [
+    "ib-g12-physics-ch10-st1",
+    "ib-g12-physics-ch10-st2",
+    "ib-g12-physics-ch10-st3",
+    "ib-g12-physics-ch10-st4",
+    "ib-g12-physics-ch10-st5"
+   ]
+  },
+  {
+   "id": "ib-g12-physics-ch11",
+   "subjectId": "ib-g12-physics",
+   "order": 11,
+   "name": "E.4 Fission",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "ib-g12-physics-ch11-st1",
+    "ib-g12-physics-ch11-st2",
+    "ib-g12-physics-ch11-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-physics-ch12",
+   "subjectId": "ib-g12-physics",
+   "order": 12,
+   "name": "E.5 Fusion and Stars",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "ib-g12-physics-ch12-st1",
+    "ib-g12-physics-ch12-st2",
+    "ib-g12-physics-ch12-st3",
+    "ib-g12-physics-ch12-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "ib-g12-physics-ch01-st1",
+   "chapterId": "ib-g12-physics-ch01",
+   "order": 1,
+   "name": "Wavefronts and rays; reflection and refraction",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g9-science-ch11-st2",
+    "ib-g11-physics-ch12-st1"
+   ],
+   "prerequisiteNote": "Reflection and refraction (MYP 4); wave model",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch01-st2",
+   "chapterId": "ib-g12-physics-ch01",
+   "order": 2,
+   "name": "Snell's law, refractive index and critical angle",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-physics-ch01-st1",
+    "ib-g10-maths-ch08-st1"
+   ],
+   "prerequisiteNote": "Refraction; sine ratio",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch01-st3",
+   "chapterId": "ib-g12-physics-ch01",
+   "order": 3,
+   "name": "Diffraction and the principle of superposition",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch12-st3"
+   ],
+   "prerequisiteNote": "Wave model; displacement graphs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch01-st4",
+   "chapterId": "ib-g12-physics-ch01",
+   "order": 4,
+   "name": "Double-slit interference and path difference",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-physics-ch01-st3"
+   ],
+   "prerequisiteNote": "Superposition",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch01-st5",
+   "chapterId": "ib-g12-physics-ch01",
+   "order": 5,
+   "name": "Single-slit diffraction and diffraction gratings (HL)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-physics-ch01-st4"
+   ],
+   "prerequisiteNote": "Double-slit interference",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch02-st1",
+   "chapterId": "ib-g12-physics-ch02",
+   "order": 1,
+   "name": "Formation of standing waves: nodes and antinodes",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-physics-ch01-st3"
+   ],
+   "prerequisiteNote": "Superposition; reflection",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch02-st2",
+   "chapterId": "ib-g12-physics-ch02",
+   "order": 2,
+   "name": "Standing waves on strings and in pipes: harmonics",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-physics-ch02-st1",
+    "ib-g11-physics-ch12-st2"
+   ],
+   "prerequisiteNote": "Standing waves; v = fλ",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch02-st3",
+   "chapterId": "ib-g12-physics-ch02",
+   "order": 3,
+   "name": "Natural frequency, forced oscillations and resonance",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch11-st2",
+    "ib-g12-physics-ch02-st1"
+   ],
+   "prerequisiteNote": "SHM; standing waves",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch02-st4",
+   "chapterId": "ib-g12-physics-ch02",
+   "order": 4,
+   "name": "Damping and its effects on resonance",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-physics-ch02-st3",
+    "ib-g11-physics-ch11-st3"
+   ],
+   "prerequisiteNote": "Resonance; energy in SHM",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch03-st1",
+   "chapterId": "ib-g12-physics-ch03",
+   "order": 1,
+   "name": "The Doppler effect for sound waves: moving source and moving observer",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch12-st2"
+   ],
+   "prerequisiteNote": "Wave speed and frequency",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch03-st2",
+   "chapterId": "ib-g12-physics-ch03",
+   "order": 2,
+   "name": "Doppler effect for light: redshift and blueshift",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-physics-ch03-st1",
+    "ib-g10-science-ch12-st3"
+   ],
+   "prerequisiteNote": "Doppler effect; red-shift (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch03-st3",
+   "chapterId": "ib-g12-physics-ch03",
+   "order": 3,
+   "name": "Applications: radar speed measurement and astronomical motion",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-physics-ch03-st2"
+   ],
+   "prerequisiteNote": "Doppler shift equations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch04-st1",
+   "chapterId": "ib-g12-physics-ch04",
+   "order": 1,
+   "name": "Kepler's laws and Newton's universal law of gravitation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch02-st5"
+   ],
+   "prerequisiteNote": "Circular motion (DP1 A.2); inverse square relation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch04-st2",
+   "chapterId": "ib-g12-physics-ch04",
+   "order": 2,
+   "name": "Gravitational field strength and field lines",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-physics-ch04-st1"
+   ],
+   "prerequisiteNote": "Universal gravitation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch04-st3",
+   "chapterId": "ib-g12-physics-ch04",
+   "order": 3,
+   "name": "Orbital motion: satellites and orbital speed",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-physics-ch04-st1",
+    "ib-g11-physics-ch02-st5"
+   ],
+   "prerequisiteNote": "Gravitational force; centripetal force",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch04-st4",
+   "chapterId": "ib-g12-physics-ch04",
+   "order": 4,
+   "name": "Gravitational potential, potential energy and escape speed (HL)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-physics-ch04-st2",
+    "ib-g11-physics-ch03-st1"
+   ],
+   "prerequisiteNote": "Field strength; work done",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch05-st1",
+   "chapterId": "ib-g12-physics-ch05",
+   "order": 1,
+   "name": "Electric charge, Coulomb's law and conservation of charge",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch10-st1",
+    "ib-g12-physics-ch04-st1"
+   ],
+   "prerequisiteNote": "Charge (DP1 B.5); inverse square law",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch05-st2",
+   "chapterId": "ib-g12-physics-ch05",
+   "order": 2,
+   "name": "Electric field strength and field patterns; uniform fields between plates",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-physics-ch05-st1"
+   ],
+   "prerequisiteNote": "Coulomb's law",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch05-st3",
+   "chapterId": "ib-g12-physics-ch05",
+   "order": 3,
+   "name": "Magnetic fields of wires, coils and solenoids",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g9-science-ch12-st2"
+   ],
+   "prerequisiteNote": "Magnetic fields and electromagnetism (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch05-st4",
+   "chapterId": "ib-g12-physics-ch05",
+   "order": 4,
+   "name": "Electric potential and potential energy (HL)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-physics-ch05-st2",
+    "ib-g12-physics-ch04-st4"
+   ],
+   "prerequisiteNote": "Electric field; gravitational potential",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch06-st1",
+   "chapterId": "ib-g12-physics-ch06",
+   "order": 1,
+   "name": "Motion of charged particles in uniform electric fields",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-physics-ch05-st2",
+    "ib-g11-physics-ch01-st4"
+   ],
+   "prerequisiteNote": "Electric fields; projectile motion (DP1 A.1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch06-st2",
+   "chapterId": "ib-g12-physics-ch06",
+   "order": 2,
+   "name": "Force on a moving charge and the circular motion of charges in magnetic fields",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-physics-ch05-st3",
+    "ib-g11-physics-ch02-st5"
+   ],
+   "prerequisiteNote": "Magnetic fields; centripetal force",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch06-st3",
+   "chapterId": "ib-g12-physics-ch06",
+   "order": 3,
+   "name": "Force on a current-carrying conductor and between parallel wires",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-physics-ch06-st2"
+   ],
+   "prerequisiteNote": "Force on a moving charge",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch07-st1",
+   "chapterId": "ib-g12-physics-ch07",
+   "order": 1,
+   "name": "Magnetic flux and flux linkage",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-physics-ch05-st3"
+   ],
+   "prerequisiteNote": "Magnetic fields",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch07-st2",
+   "chapterId": "ib-g12-physics-ch07",
+   "order": 2,
+   "name": "Faraday's and Lenz's laws of electromagnetic induction",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-physics-ch07-st1",
+    "ib-g10-science-ch10-st1"
+   ],
+   "prerequisiteNote": "Magnetic flux; electromagnetic induction (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch07-st3",
+   "chapterId": "ib-g12-physics-ch07",
+   "order": 3,
+   "name": "Induced emf in moving conductors and rotating coils; AC generators",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-physics-ch07-st2"
+   ],
+   "prerequisiteNote": "Faraday's law",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch08-st1",
+   "chapterId": "ib-g12-physics-ch08",
+   "order": 1,
+   "name": "The nuclear model and Geiger-Marsden-Rutherford scattering",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g9-science-ch04-st1"
+   ],
+   "prerequisiteNote": "Atomic structure (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch08-st2",
+   "chapterId": "ib-g12-physics-ch08",
+   "order": 2,
+   "name": "Nuclear notation, isotopes and the size of the nucleus",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-physics-ch08-st1"
+   ],
+   "prerequisiteNote": "Nuclear model",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch08-st3",
+   "chapterId": "ib-g12-physics-ch08",
+   "order": 3,
+   "name": "Emission and absorption spectra and atomic energy levels",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch12-st4"
+   ],
+   "prerequisiteNote": "EM spectrum; photon energy",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch08-st4",
+   "chapterId": "ib-g12-physics-ch08",
+   "order": 4,
+   "name": "Bohr model for hydrogen (HL)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-physics-ch08-st3",
+    "ib-g11-physics-ch02-st5"
+   ],
+   "prerequisiteNote": "Energy levels; circular motion",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch09-st1",
+   "chapterId": "ib-g12-physics-ch09",
+   "order": 1,
+   "name": "The photoelectric effect and the photon model",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-physics-ch08-st3"
+   ],
+   "prerequisiteNote": "Energy levels; work function",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch09-st2",
+   "chapterId": "ib-g12-physics-ch09",
+   "order": 2,
+   "name": "Matter waves and the de Broglie wavelength",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-physics-ch09-st1",
+    "ib-g11-physics-ch02-st4"
+   ],
+   "prerequisiteNote": "Photon model; momentum",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch09-st3",
+   "chapterId": "ib-g12-physics-ch09",
+   "order": 3,
+   "name": "Compton scattering",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-physics-ch09-st2"
+   ],
+   "prerequisiteNote": "Photon momentum",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch10-st1",
+   "chapterId": "ib-g12-physics-ch10",
+   "order": 1,
+   "name": "Alpha, beta and gamma decay and nuclear equations",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-physics-ch08-st2"
+   ],
+   "prerequisiteNote": "Isotopes; nuclear notation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch10-st2",
+   "chapterId": "ib-g12-physics-ch10",
+   "order": 2,
+   "name": "Half-life and the radioactive decay law",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-physics-ch10-st1",
+    "ib-g10-science-ch11-st3",
+    "ib-g11-maths-ch02-st3"
+   ],
+   "prerequisiteNote": "Half-life (MYP 5); exponential decay and logarithms (DP maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch10-st3",
+   "chapterId": "ib-g12-physics-ch10",
+   "order": 3,
+   "name": "Mass defect, binding energy and binding energy per nucleon",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-physics-ch10-st1"
+   ],
+   "prerequisiteNote": "E = mc²; nuclear notation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch10-st4",
+   "chapterId": "ib-g12-physics-ch10",
+   "order": 4,
+   "name": "Penetration, ionising ability and background radiation",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-physics-ch10-st1"
+   ],
+   "prerequisiteNote": "Types of decay",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch10-st5",
+   "chapterId": "ib-g12-physics-ch10",
+   "order": 5,
+   "name": "Fundamental forces and the stability of nuclei",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-physics-ch10-st3"
+   ],
+   "prerequisiteNote": "Binding energy",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch11-st1",
+   "chapterId": "ib-g12-physics-ch11",
+   "order": 1,
+   "name": "Spontaneous and neutron-induced fission; chain reactions",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-physics-ch10-st3",
+    "ib-g10-science-ch11-st4"
+   ],
+   "prerequisiteNote": "Binding energy per nucleon; fission and fusion (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch11-st2",
+   "chapterId": "ib-g12-physics-ch11",
+   "order": 2,
+   "name": "Nuclear reactor components: moderator, control rods and heat exchanger",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-physics-ch11-st1"
+   ],
+   "prerequisiteNote": "Fission chain reaction",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch11-st3",
+   "chapterId": "ib-g12-physics-ch11",
+   "order": 3,
+   "name": "Nuclear waste and safety",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-physics-ch11-st2",
+    "ib-g12-physics-ch10-st2"
+   ],
+   "prerequisiteNote": "Reactors; half-life",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch12-st1",
+   "chapterId": "ib-g12-physics-ch12",
+   "order": 1,
+   "name": "Nuclear fusion and stellar equilibrium",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-physics-ch10-st3",
+    "ib-g12-physics-ch04-st1"
+   ],
+   "prerequisiteNote": "Binding energy; gravity",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch12-st2",
+   "chapterId": "ib-g12-physics-ch12",
+   "order": 2,
+   "name": "Hertzsprung-Russell diagram and stellar evolution",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-physics-ch12-st1",
+    "ib-g10-science-ch12-st2"
+   ],
+   "prerequisiteNote": "Stellar fusion; life cycle of stars (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch12-st3",
+   "chapterId": "ib-g12-physics-ch12",
+   "order": 3,
+   "name": "Stellar luminosity, apparent brightness and parallax distances",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch06-st4"
+   ],
+   "prerequisiteNote": "Stefan-Boltzmann law (DP1 B.1); inverse square law",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-physics-ch12-st4",
+   "chapterId": "ib-g12-physics-ch12",
+   "order": 4,
+   "name": "Main sequence lifetime and stellar remnants",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-physics-ch12-st2"
+   ],
+   "prerequisiteNote": "HR diagram",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

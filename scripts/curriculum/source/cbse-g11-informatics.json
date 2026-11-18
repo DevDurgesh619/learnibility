@@ -1,0 +1,292 @@
+{
+ "subjectId": "cbse-g11-informatics",
+ "chapters": [
+  {
+   "sheetName": "Computer System",
+   "name": "Computer System",
+   "subtopics": [
+    {
+     "name": "Introduction to computer system: components, input and output devices",
+     "weight": "S",
+     "prereq": [],
+     "note": "Parts of a computer (Computer studies Cl 6-8)"
+    },
+    {
+     "name": "Evolution of computers and the CPU, memory (primary, cache, secondary) and units of memory",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-informatics-ch01-st1"
+     ],
+     "note": "Components of a computer; powers of 2 (Maths Cl 8)"
+    },
+    {
+     "name": "Data and information: data capturing, storage and retrieval",
+     "weight": "L",
+     "prereq": [
+      "cbse-g11-informatics-ch01-st2"
+     ],
+     "note": "Memory and storage devices"
+    },
+    {
+     "name": "Software: system software, operating system, programming tools, language translators and application software",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-informatics-ch01-st1"
+     ],
+     "note": "Hardware vs software"
+    }
+   ]
+  },
+  {
+   "sheetName": "Emerging Trends",
+   "name": "Emerging Trends",
+   "subtopics": [
+    {
+     "name": "Artificial intelligence, machine learning and natural language processing",
+     "weight": "L",
+     "prereq": [
+      "cbse-g11-informatics-ch01-st3"
+     ],
+     "note": "Data and information"
+    },
+    {
+     "name": "Immersive experiences (AR/VR), robotics and big data with its characteristics",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-informatics-ch02-st1"
+     ],
+     "note": "Artificial intelligence basics"
+    },
+    {
+     "name": "Internet of Things, sensors, smart cities, cloud computing and grid computing",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-informatics-ch02-st2"
+     ],
+     "note": "Big data; internet basics"
+    },
+    {
+     "name": "Blockchain technology and its applications",
+     "weight": "L",
+     "prereq": [
+      "cbse-g11-informatics-ch02-st3"
+     ],
+     "note": "Cloud computing; idea of shared records"
+    }
+   ]
+  },
+  {
+   "sheetName": "Python Overview",
+   "name": "Brief Overview of Python",
+   "subtopics": [
+    {
+     "name": "Python basics: execution modes, keywords, identifiers, variables and comments",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-informatics-ch01-st4"
+     ],
+     "note": "Programming tools and translators"
+    },
+    {
+     "name": "Data types, operators and expressions with precedence",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-informatics-ch03-st1"
+     ],
+     "note": "Variables; BODMAS (Maths Cl 6); true/false logic"
+    },
+    {
+     "name": "Input/output, type conversion and debugging errors",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-informatics-ch03-st2"
+     ],
+     "note": "Data types"
+    },
+    {
+     "name": "Flow of control: if-elif-else, for loop with range() and while loop",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-informatics-ch03-st2"
+     ],
+     "note": "Relational and logical operators; step-by-step algorithm thinking"
+    }
+   ]
+  },
+  {
+   "sheetName": "Lists & Dictionaries",
+   "name": "Working with Lists and Dictionaries",
+   "subtopics": [
+    {
+     "name": "Lists: creation, indexing, slicing, operations and traversing",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-informatics-ch03-st4"
+     ],
+     "note": "for loop; indexing from 0"
+    },
+    {
+     "name": "List methods and built-in functions (len, append, extend, insert, count, index, remove, pop, sort, min, max, sum)",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-informatics-ch04-st1"
+     ],
+     "note": "List operations"
+    },
+    {
+     "name": "Dictionaries: creation, accessing, adding and modifying items, traversal",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-informatics-ch04-st1"
+     ],
+     "note": "Lists; key-value pairs"
+    },
+    {
+     "name": "Dictionary methods (keys, values, items, get, update, del, clear) and programs",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-informatics-ch04-st3"
+     ],
+     "note": "Accessing and traversing dictionaries"
+    }
+   ]
+  },
+  {
+   "sheetName": "Understanding Data",
+   "name": "Understanding Data",
+   "subtopics": [
+    {
+     "name": "Data and its purpose; types of data: structured and unstructured",
+     "weight": "L",
+     "prereq": [
+      "cbse-g11-informatics-ch01-st3"
+     ],
+     "note": "Data and information (ch 1)"
+    },
+    {
+     "name": "Data collection, storage, processing and data quality",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-informatics-ch05-st1"
+     ],
+     "note": "Types of data; surveys and records (Maths Cl 9 Statistics)"
+    },
+    {
+     "name": "Statistical techniques: mean, median, mode, range, standard deviation and variance",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-informatics-ch05-st2"
+     ],
+     "note": "Mean, median and mode of data (Maths Cl 9-10 Statistics)"
+    }
+   ]
+  },
+  {
+   "sheetName": "Introduction to NumPy",
+   "name": "Introduction to NumPy",
+   "subtopics": [
+    {
+     "name": "NumPy arrays vs lists; creating 1-D and 2-D arrays (array, zeros, ones, arange, linspace)",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-informatics-ch04-st2"
+     ],
+     "note": "Lists in Python; rows and columns of a table"
+    },
+    {
+     "name": "Indexing, slicing and array operations (arithmetic, transpose, sort)",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-informatics-ch06-st1"
+     ],
+     "note": "Creating arrays; list slicing"
+    },
+    {
+     "name": "Concatenating, reshaping and splitting arrays",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-informatics-ch06-st2"
+     ],
+     "note": "Indexing and slicing arrays"
+    },
+    {
+     "name": "Statistical operations on arrays and loading arrays from files",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-informatics-ch06-st2",
+      "cbse-g11-informatics-ch05-st3"
+     ],
+     "note": "Mean, median and standard deviation (ch 5)"
+    }
+   ]
+  },
+  {
+   "sheetName": "Database Concepts",
+   "name": "Database Concepts",
+   "subtopics": [
+    {
+     "name": "File system vs database; limitations of the file system and DBMS",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-informatics-ch05-st2"
+     ],
+     "note": "Data storage and processing"
+    },
+    {
+     "name": "Relational data model: relation, attribute, tuple, domain, degree, cardinality",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-informatics-ch07-st1"
+     ],
+     "note": "Tables of rows and columns"
+    },
+    {
+     "name": "Keys in a relational database: candidate, primary, alternate and foreign key",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-informatics-ch07-st2"
+     ],
+     "note": "Relational model terms"
+    }
+   ]
+  },
+  {
+   "sheetName": "Introduction to SQL",
+   "name": "Introduction to Structured Query Language (SQL)",
+   "subtopics": [
+    {
+     "name": "SQL and MySQL; data types and constraints",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-informatics-ch07-st3"
+     ],
+     "note": "Keys and relations"
+    },
+    {
+     "name": "DDL: CREATE DATABASE, CREATE TABLE, DESCRIBE, ALTER TABLE, DROP",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-informatics-ch08-st1"
+     ],
+     "note": "SQL data types and constraints"
+    },
+    {
+     "name": "DML: INSERT INTO, UPDATE, DELETE",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-informatics-ch08-st2"
+     ],
+     "note": "CREATE TABLE"
+    },
+    {
+     "name": "SELECT queries: WHERE, DISTINCT, IN, BETWEEN, LIKE, NULL, ORDER BY and arithmetic operators",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-informatics-ch08-st3"
+     ],
+     "note": "Inserting data; relational and logical operators (ch 3)"
+    }
+   ]
+  }
+ ]
+}

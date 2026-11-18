@@ -1,0 +1,501 @@
+{
+  "subjectId": "cbse-g12-maths",
+  "chapters": [
+    {
+      "sheetName": "Relations & Functions",
+      "name": "Relations and Functions",
+      "subtopics": [
+        {
+          "name": "Types of relations: empty, universal, reflexive, symmetric and transitive",
+          "weight": "S",
+          "prereq": [
+            "cbse-g11-maths-ch02-st2"
+          ],
+          "note": "Relations: domain, codomain and range (Cl 11)"
+        },
+        {
+          "name": "Equivalence relations and equivalence classes",
+          "weight": "H",
+          "prereq": [
+            "cbse-g12-maths-ch01-st1"
+          ],
+          "note": "Reflexive, symmetric and transitive relations; partitioning a set"
+        },
+        {
+          "name": "One-one, onto and bijective functions",
+          "weight": "H",
+          "prereq": [
+            "cbse-g11-maths-ch02-st3"
+          ],
+          "note": "Functions and their graphs: domain, codomain, range (Cl 11); solving equations for x"
+        }
+      ]
+    },
+    {
+      "sheetName": "Inverse Trigonometric Functions",
+      "name": "Inverse Trigonometric Functions",
+      "subtopics": [
+        {
+          "name": "Domain, range and principal value branches of inverse trigonometric functions",
+          "weight": "S",
+          "prereq": [
+            "cbse-g11-maths-ch03-st2",
+            "cbse-g12-maths-ch01-st3"
+          ],
+          "note": "Graphs of trigonometric functions (Cl 11); one-one and onto functions"
+        },
+        {
+          "name": "Graphs of inverse trigonometric functions",
+          "weight": "S",
+          "prereq": [
+            "cbse-g12-maths-ch02-st1"
+          ],
+          "note": "Principal value branches; reflecting a graph in the line y = x"
+        },
+        {
+          "name": "Evaluating expressions using principal values",
+          "weight": "L",
+          "prereq": [
+            "cbse-g12-maths-ch02-st1"
+          ],
+          "note": "Principal value branches; trigonometric ratios of standard angles (Cl 10)"
+        }
+      ]
+    },
+    {
+      "sheetName": "Matrices",
+      "name": "Matrices",
+      "subtopics": [
+        {
+          "name": "Matrix: order, types and equality of matrices",
+          "weight": "L",
+          "prereq": [],
+          "note": "Organising data in rows and columns; pair of linear equations (Cl 10)"
+        },
+        {
+          "name": "Operations on matrices: addition, scalar multiplication and multiplication",
+          "weight": "H",
+          "prereq": [
+            "cbse-g12-maths-ch03-st1"
+          ],
+          "note": "Order and types of matrices; row-by-column products"
+        },
+        {
+          "name": "Transpose; symmetric and skew-symmetric matrices",
+          "weight": "S",
+          "prereq": [
+            "cbse-g12-maths-ch03-st2"
+          ],
+          "note": "Matrix addition and scalar multiplication"
+        },
+        {
+          "name": "Invertible matrices and uniqueness of the inverse",
+          "weight": "S",
+          "prereq": [
+            "cbse-g12-maths-ch03-st2"
+          ],
+          "note": "Matrix multiplication; identity matrix"
+        }
+      ]
+    },
+    {
+      "sheetName": "Determinants",
+      "name": "Determinants",
+      "subtopics": [
+        {
+          "name": "Determinant of a square matrix up to order 3",
+          "weight": "S",
+          "prereq": [
+            "cbse-g12-maths-ch03-st1"
+          ],
+          "note": "Order and types of matrices; integer arithmetic"
+        },
+        {
+          "name": "Area of a triangle using determinants",
+          "weight": "L",
+          "prereq": [
+            "cbse-g12-maths-ch04-st1",
+            "cbse-g10-maths-ch07-st1"
+          ],
+          "note": "Evaluating 3 × 3 determinants; coordinates of vertices (Cl 10)"
+        },
+        {
+          "name": "Minors, cofactors, adjoint and inverse of a matrix",
+          "weight": "H",
+          "prereq": [
+            "cbse-g12-maths-ch04-st1",
+            "cbse-g12-maths-ch03-st4"
+          ],
+          "note": "Evaluating determinants; invertible matrices"
+        },
+        {
+          "name": "Solving a system of linear equations by the matrix method",
+          "weight": "H",
+          "prereq": [
+            "cbse-g12-maths-ch04-st3",
+            "cbse-g10-maths-ch03-st4"
+          ],
+          "note": "Inverse of a matrix; consistency of linear equations (Cl 10)"
+        }
+      ]
+    },
+    {
+      "sheetName": "Continuity & Differentiability",
+      "name": "Continuity and Differentiability",
+      "subtopics": [
+        {
+          "name": "Continuity of a function at a point and on an interval",
+          "weight": "S",
+          "prereq": [
+            "cbse-g11-maths-ch12-st2"
+          ],
+          "note": "Left-hand and right-hand limits; algebra of limits (Cl 11)"
+        },
+        {
+          "name": "Differentiability and the chain rule for composite functions",
+          "weight": "H",
+          "prereq": [
+            "cbse-g12-maths-ch05-st1",
+            "cbse-g11-maths-ch12-st5"
+          ],
+          "note": "Algebra of derivatives (Cl 11); composition of functions"
+        },
+        {
+          "name": "Derivatives of implicit functions and inverse trigonometric functions",
+          "weight": "S",
+          "prereq": [
+            "cbse-g12-maths-ch05-st2",
+            "cbse-g12-maths-ch02-st1"
+          ],
+          "note": "Chain rule; principal values of inverse trigonometric functions"
+        },
+        {
+          "name": "Exponential and logarithmic functions; logarithmic differentiation",
+          "weight": "S",
+          "prereq": [
+            "cbse-g12-maths-ch05-st2"
+          ],
+          "note": "Chain rule; laws of logarithms and exponents"
+        },
+        {
+          "name": "Derivatives of parametric functions and second-order derivatives",
+          "weight": "S",
+          "prereq": [
+            "cbse-g12-maths-ch05-st2"
+          ],
+          "note": "Chain rule; implicit differentiation"
+        }
+      ]
+    },
+    {
+      "sheetName": "Application of Derivatives",
+      "name": "Application of Derivatives",
+      "subtopics": [
+        {
+          "name": "Rate of change of quantities",
+          "weight": "S",
+          "prereq": [
+            "cbse-g12-maths-ch05-st2"
+          ],
+          "note": "Derivatives and the chain rule; mensuration formulae (Cl 9-10)"
+        },
+        {
+          "name": "Increasing and decreasing functions",
+          "weight": "S",
+          "prereq": [
+            "cbse-g12-maths-ch05-st4"
+          ],
+          "note": "Derivatives of standard functions; solving inequalities (Cl 11)"
+        },
+        {
+          "name": "Local maxima and minima: first and second derivative tests",
+          "weight": "S",
+          "prereq": [
+            "cbse-g12-maths-ch06-st2",
+            "cbse-g12-maths-ch05-st5"
+          ],
+          "note": "Increasing and decreasing functions; second-order derivatives"
+        },
+        {
+          "name": "Absolute maxima and minima and optimisation word problems",
+          "weight": "H",
+          "prereq": [
+            "cbse-g12-maths-ch06-st3",
+            "cbse-g10-maths-ch12-st2"
+          ],
+          "note": "Derivative tests; surface area and volume formulae (Cl 10)"
+        }
+      ]
+    },
+    {
+      "sheetName": "Integrals",
+      "name": "Integrals",
+      "subtopics": [
+        {
+          "name": "Integration as the inverse of differentiation; standard integrals",
+          "weight": "S",
+          "prereq": [
+            "cbse-g12-maths-ch05-st4"
+          ],
+          "note": "Derivatives of standard functions (Cl 11-12)"
+        },
+        {
+          "name": "Integration by substitution and using trigonometric identities",
+          "weight": "S",
+          "prereq": [
+            "cbse-g12-maths-ch07-st1",
+            "cbse-g11-maths-ch03-st4"
+          ],
+          "note": "Standard integrals; chain rule; multiple-angle formulae (Cl 11)"
+        },
+        {
+          "name": "Integration by partial fractions",
+          "weight": "S",
+          "prereq": [
+            "cbse-g12-maths-ch07-st1"
+          ],
+          "note": "Standard integrals; factorising polynomials and solving for constants"
+        },
+        {
+          "name": "Integration by parts and integrals of special forms",
+          "weight": "S",
+          "prereq": [
+            "cbse-g12-maths-ch07-st1"
+          ],
+          "note": "Standard integrals; product rule of differentiation"
+        },
+        {
+          "name": "Definite integrals: fundamental theorem of calculus and properties",
+          "weight": "H",
+          "prereq": [
+            "cbse-g12-maths-ch07-st2",
+            "cbse-g12-maths-ch07-st4"
+          ],
+          "note": "Methods of integration; evaluating functions at limits"
+        }
+      ]
+    },
+    {
+      "sheetName": "Application of Integrals",
+      "name": "Application of Integrals",
+      "subtopics": [
+        {
+          "name": "Area under simple curves: lines, circles, parabolas and ellipses",
+          "weight": "H",
+          "prereq": [
+            "cbse-g12-maths-ch07-st5",
+            "cbse-g11-maths-ch10-st2"
+          ],
+          "note": "Definite integrals; standard equations of conics (Cl 11)"
+        },
+        {
+          "name": "Area of the region bounded by a curve and a line",
+          "weight": "S",
+          "prereq": [
+            "cbse-g12-maths-ch08-st1"
+          ],
+          "note": "Area under simple curves; solving equations for points of intersection"
+        },
+        {
+          "name": "Using symmetry and choosing vertical or horizontal strips",
+          "weight": "L",
+          "prereq": [
+            "cbse-g12-maths-ch08-st1",
+            "cbse-g12-maths-ch08-st2"
+          ],
+          "note": "Area under simple curves; sketching graphs of conics"
+        }
+      ]
+    },
+    {
+      "sheetName": "Differential Equations",
+      "name": "Differential Equations",
+      "subtopics": [
+        {
+          "name": "Order and degree; general and particular solutions",
+          "weight": "S",
+          "prereq": [
+            "cbse-g12-maths-ch05-st5"
+          ],
+          "note": "Higher-order derivatives; constants of integration"
+        },
+        {
+          "name": "Differential equations with variables separable",
+          "weight": "H",
+          "prereq": [
+            "cbse-g12-maths-ch09-st1",
+            "cbse-g12-maths-ch07-st2"
+          ],
+          "note": "Order and degree; integration by substitution"
+        },
+        {
+          "name": "Homogeneous differential equations",
+          "weight": "S",
+          "prereq": [
+            "cbse-g12-maths-ch09-st2"
+          ],
+          "note": "Variable separable method; substitution y = vx"
+        },
+        {
+          "name": "Linear differential equations dy/dx + Py = Q",
+          "weight": "H",
+          "prereq": [
+            "cbse-g12-maths-ch09-st2",
+            "cbse-g12-maths-ch07-st4"
+          ],
+          "note": "Variable separable method; integration by parts for the integrating factor"
+        }
+      ]
+    },
+    {
+      "sheetName": "Vectors",
+      "name": "Vector Algebra",
+      "subtopics": [
+        {
+          "name": "Vectors and scalars; types of vectors; direction cosines",
+          "weight": "S",
+          "prereq": [
+            "cbse-g11-maths-ch11-st3"
+          ],
+          "note": "Coordinates and distance in space (Cl 11)"
+        },
+        {
+          "name": "Addition of vectors, scalar multiplication, components and section formula",
+          "weight": "S",
+          "prereq": [
+            "cbse-g12-maths-ch10-st1",
+            "cbse-g10-maths-ch07-st2"
+          ],
+          "note": "Types of vectors; section formula in 2D (Cl 10)"
+        },
+        {
+          "name": "Scalar (dot) product and projection of a vector",
+          "weight": "H",
+          "prereq": [
+            "cbse-g12-maths-ch10-st2"
+          ],
+          "note": "Components of vectors; cosine of an angle"
+        },
+        {
+          "name": "Vector (cross) product and its applications",
+          "weight": "S",
+          "prereq": [
+            "cbse-g12-maths-ch10-st3",
+            "cbse-g12-maths-ch04-st1"
+          ],
+          "note": "Scalar product; evaluating 3 × 3 determinants"
+        }
+      ]
+    },
+    {
+      "sheetName": "3D Geometry",
+      "name": "Three Dimensional Geometry",
+      "subtopics": [
+        {
+          "name": "Direction cosines and direction ratios of a line",
+          "weight": "S",
+          "prereq": [
+            "cbse-g12-maths-ch10-st1"
+          ],
+          "note": "Direction cosines of vectors; distance in space (Cl 11)"
+        },
+        {
+          "name": "Equation of a line in space: vector and Cartesian forms",
+          "weight": "S",
+          "prereq": [
+            "cbse-g12-maths-ch11-st1",
+            "cbse-g12-maths-ch10-st2"
+          ],
+          "note": "Direction ratios; position vectors"
+        },
+        {
+          "name": "Angle between two lines",
+          "weight": "S",
+          "prereq": [
+            "cbse-g12-maths-ch11-st2",
+            "cbse-g12-maths-ch10-st3"
+          ],
+          "note": "Equation of a line; scalar product"
+        },
+        {
+          "name": "Shortest distance between two lines: skew and parallel lines",
+          "weight": "H",
+          "prereq": [
+            "cbse-g12-maths-ch11-st2",
+            "cbse-g12-maths-ch10-st4"
+          ],
+          "note": "Equation of a line; vector (cross) product"
+        }
+      ]
+    },
+    {
+      "sheetName": "Linear Programming",
+      "name": "Linear Programming",
+      "subtopics": [
+        {
+          "name": "Formulating a linear programming problem: objective function and constraints",
+          "weight": "S",
+          "prereq": [
+            "cbse-g11-maths-ch05-st3"
+          ],
+          "note": "Word problems on linear inequalities (Cl 11)"
+        },
+        {
+          "name": "Graphical method: feasible region and corner-point method",
+          "weight": "H",
+          "prereq": [
+            "cbse-g12-maths-ch12-st1",
+            "cbse-g10-maths-ch03-st1"
+          ],
+          "note": "Graphing linear equations and inequalities in two variables (Cl 10-11)"
+        },
+        {
+          "name": "Bounded and unbounded feasible regions; optimal solutions",
+          "weight": "S",
+          "prereq": [
+            "cbse-g12-maths-ch12-st2"
+          ],
+          "note": "Corner-point method; checking an open half-plane"
+        }
+      ]
+    },
+    {
+      "sheetName": "Probability",
+      "name": "Probability",
+      "subtopics": [
+        {
+          "name": "Conditional probability and its properties",
+          "weight": "H",
+          "prereq": [
+            "cbse-g11-maths-ch14-st4"
+          ],
+          "note": "Addition rule and axiomatic probability (Cl 11)"
+        },
+        {
+          "name": "Multiplication theorem and independent events",
+          "weight": "S",
+          "prereq": [
+            "cbse-g12-maths-ch13-st1"
+          ],
+          "note": "Conditional probability; tree diagrams (Cl 9)"
+        },
+        {
+          "name": "Theorem of total probability and Bayes' theorem",
+          "weight": "H",
+          "prereq": [
+            "cbse-g12-maths-ch13-st2"
+          ],
+          "note": "Multiplication theorem; partitions of a sample space"
+        },
+        {
+          "name": "Random variables, probability distributions and mean",
+          "weight": "S",
+          "prereq": [
+            "cbse-g12-maths-ch13-st2"
+          ],
+          "note": "Multiplication theorem; mean of a frequency distribution (Cl 10)"
+        }
+      ]
+    }
+  ]
+}

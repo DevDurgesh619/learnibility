@@ -1,0 +1,486 @@
+{
+  "subjectId": "ib-g11-maths-ai",
+  "chapters": [
+    {
+      "name": "Approximation and Scientific Notation (SL 1.1, 1.6)",
+      "subtopics": [
+        {
+          "name": "SL 1.1 Operations with numbers in the form a × 10^k",
+          "weight": "S",
+          "prereq": [
+            "ib-g9-maths-ch02-st3"
+          ],
+          "note": "Standard form (MYP 4)"
+        },
+        {
+          "name": "SL 1.6 Approximation: decimal places, significant figures and estimation",
+          "weight": "S",
+          "prereq": [
+            "ib-g8-maths-ch01-st4"
+          ],
+          "note": "Rounding (MYP 3)"
+        },
+        {
+          "name": "SL 1.6 Upper and lower bounds and percentage error",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-maths-ai-ch01-st2",
+            "ib-g10-maths-ch01-st4"
+          ],
+          "note": "Bounds and percentage error (MYP 4-5)"
+        }
+      ]
+    },
+    {
+      "name": "Sequences and Series (SL 1.2, 1.3; AHL 1.11)",
+      "subtopics": [
+        {
+          "name": "SL 1.2 Arithmetic sequences and series and their applications",
+          "weight": "H",
+          "prereq": [
+            "ib-g10-maths-ch02-st1"
+          ],
+          "note": "Arithmetic sequences (MYP 5)"
+        },
+        {
+          "name": "SL 1.3 Geometric sequences and series and their applications",
+          "weight": "H",
+          "prereq": [
+            "ib-g10-maths-ch02-st2"
+          ],
+          "note": "Geometric sequences (MYP 5)"
+        },
+        {
+          "name": "AHL 1.11 Sum of infinite geometric sequences",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-maths-ai-ch02-st2"
+          ],
+          "note": "Geometric series"
+        },
+        {
+          "name": "Modelling with sequences: simple interest versus compound growth",
+          "weight": "L",
+          "prereq": [
+            "ib-g11-maths-ai-ch02-st1",
+            "ib-g11-maths-ai-ch02-st2"
+          ],
+          "note": "Arithmetic and geometric sequences"
+        }
+      ]
+    },
+    {
+      "name": "Financial Mathematics (SL 1.4, 1.7)",
+      "subtopics": [
+        {
+          "name": "SL 1.4 Compound interest, annual depreciation and the TVM solver",
+          "weight": "H",
+          "prereq": [
+            "ib-g10-maths-ch02-st3",
+            "ib-g11-maths-ai-ch02-st2"
+          ],
+          "note": "Compound interest (MYP 5); geometric sequences"
+        },
+        {
+          "name": "SL 1.4 Effects of inflation and real value",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-maths-ai-ch03-st1"
+          ],
+          "note": "Compound interest"
+        },
+        {
+          "name": "SL 1.7 Amortization and annuities using technology",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-maths-ai-ch03-st1"
+          ],
+          "note": "Compound interest; TVM solver"
+        },
+        {
+          "name": "Comparing loans, investments and payment plans",
+          "weight": "L",
+          "prereq": [
+            "ib-g11-maths-ai-ch03-st3"
+          ],
+          "note": "Amortization and annuities"
+        }
+      ]
+    },
+    {
+      "name": "Exponents, Logarithms and Systems of Equations (SL 1.5, 1.8; AHL 1.9, 1.10)",
+      "subtopics": [
+        {
+          "name": "SL 1.5 Laws of exponents with integer exponents; introduction to logarithms base 10 and e",
+          "weight": "S",
+          "prereq": [
+            "ib-g10-maths-ch01-st2",
+            "ib-g10-maths-ch06-st1"
+          ],
+          "note": "Exponent laws and logarithms (MYP 5)"
+        },
+        {
+          "name": "SL 1.8 Solving systems of linear equations and polynomial equations using technology",
+          "weight": "S",
+          "prereq": [
+            "ib-g9-maths-ch04-st4",
+            "ib-g10-maths-ch03-st2"
+          ],
+          "note": "Simultaneous equations (MYP 4); quadratics"
+        },
+        {
+          "name": "AHL 1.9 Laws of logarithms",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-maths-ai-ch04-st1",
+            "ib-g10-maths-ch06-st2"
+          ],
+          "note": "Introduction to logarithms"
+        },
+        {
+          "name": "AHL 1.10 Simplifying expressions with rational exponents",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-maths-ai-ch04-st1",
+            "ib-g10-maths-ch01-st2"
+          ],
+          "note": "Laws of exponents"
+        }
+      ]
+    },
+    {
+      "name": "Complex Numbers (AHL 1.12, 1.13)",
+      "subtopics": [
+        {
+          "name": "AHL 1.12 Complex numbers: Cartesian form, operations and the Argand diagram",
+          "weight": "S",
+          "prereq": [
+            "ib-g10-maths-ch03-st2"
+          ],
+          "note": "Solving quadratics; real number system (MYP 5)"
+        },
+        {
+          "name": "AHL 1.13 Modulus-argument and exponential forms; products and quotients",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-maths-ai-ch05-st1",
+            "ib-g10-maths-ch08-st1"
+          ],
+          "note": "Cartesian form; trigonometry (MYP 5)"
+        },
+        {
+          "name": "Applications of complex numbers: AC circuits and sinusoidal sums",
+          "weight": "L",
+          "prereq": [
+            "ib-g11-maths-ai-ch05-st2"
+          ],
+          "note": "Polar and exponential forms"
+        }
+      ]
+    },
+    {
+      "name": "Matrices (AHL 1.14, 1.15)",
+      "subtopics": [
+        {
+          "name": "AHL 1.14 Matrix definition, addition, subtraction and multiplication",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-maths-ai-ch04-st2"
+          ],
+          "note": "Systems of equations; arithmetic"
+        },
+        {
+          "name": "AHL 1.14 Determinant, inverse and solving systems with matrices",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-maths-ai-ch06-st1"
+          ],
+          "note": "Matrix multiplication"
+        },
+        {
+          "name": "AHL 1.15 Eigenvalues and eigenvectors; diagonalisation and powers of 2×2 matrices",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-maths-ai-ch06-st2",
+            "ib-g10-maths-ch03-st2"
+          ],
+          "note": "Determinant and inverse; quadratic equations"
+        }
+      ]
+    },
+    {
+      "name": "Functions and Linear Models (SL 2.1-2.4)",
+      "subtopics": [
+        {
+          "name": "SL 2.1 Gradient, intercepts and equations of straight lines; parallel and perpendicular lines",
+          "weight": "S",
+          "prereq": [
+            "ib-g9-maths-ch07-st2",
+            "ib-g9-maths-ch07-st3"
+          ],
+          "note": "Coordinate geometry (MYP 4)"
+        },
+        {
+          "name": "SL 2.2 Functions: domain, range, mapping notation and inverse as reflection",
+          "weight": "S",
+          "prereq": [
+            "ib-g10-maths-ch04-st1"
+          ],
+          "note": "Domain and range (MYP 5)"
+        },
+        {
+          "name": "SL 2.3-2.4 Graphs of functions using technology: key features, intercepts and intersections",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-maths-ai-ch07-st2"
+          ],
+          "note": "Function graphs"
+        },
+        {
+          "name": "Linear models: piecewise linear functions and interpreting gradient as rate",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-maths-ai-ch07-st1"
+          ],
+          "note": "Straight lines"
+        }
+      ]
+    },
+    {
+      "name": "Modelling with Functions (SL 2.5-2.6)",
+      "subtopics": [
+        {
+          "name": "SL 2.5 Quadratic models and direct and inverse variation",
+          "weight": "H",
+          "prereq": [
+            "ib-g10-maths-ch03-st4",
+            "ib-g11-maths-ai-ch07-st3"
+          ],
+          "note": "Quadratic functions (MYP 5)"
+        },
+        {
+          "name": "SL 2.5 Exponential growth and decay models",
+          "weight": "H",
+          "prereq": [
+            "ib-g10-maths-ch05-st2",
+            "ib-g11-maths-ai-ch04-st1"
+          ],
+          "note": "Exponential models (MYP 5)"
+        },
+        {
+          "name": "SL 2.5 Cubic and sinusoidal models",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-maths-ai-ch07-st3",
+            "ib-g10-maths-ch09-st3"
+          ],
+          "note": "Function graphs; trig graphs (MYP 5)"
+        },
+        {
+          "name": "SL 2.6 The modelling cycle: developing, testing, reflecting on and refining models",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-maths-ai-ch08-st1",
+            "ib-g11-maths-ai-ch08-st2"
+          ],
+          "note": "Linear, quadratic and exponential models"
+        }
+      ]
+    },
+    {
+      "name": "Further Functions and Modelling (AHL 2.7-2.10)",
+      "subtopics": [
+        {
+          "name": "AHL 2.7 Composite and inverse functions; domain restriction",
+          "weight": "S",
+          "prereq": [
+            "ib-g10-maths-ch04-st2",
+            "ib-g10-maths-ch04-st3"
+          ],
+          "note": "Composite and inverse functions (MYP 5)"
+        },
+        {
+          "name": "AHL 2.8 Transformations of graphs and composite transformations",
+          "weight": "S",
+          "prereq": [
+            "ib-g10-maths-ch07-st4"
+          ],
+          "note": "Transformations of functions (MYP 5)"
+        },
+        {
+          "name": "AHL 2.9 Logarithmic, logistic and piecewise models",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-maths-ai-ch08-st2",
+            "ib-g11-maths-ai-ch04-st3"
+          ],
+          "note": "Exponential models; laws of logarithms"
+        },
+        {
+          "name": "AHL 2.10 Scaling with logarithms and linearising data: log-log and semi-log graphs",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-maths-ai-ch04-st3",
+            "ib-g11-maths-ai-ch07-st1"
+          ],
+          "note": "Laws of logarithms; straight lines"
+        }
+      ]
+    },
+    {
+      "name": "Descriptive Statistics (SL 4.1-4.3; AHL 4.12)",
+      "subtopics": [
+        {
+          "name": "SL 4.1 Population, sample, sampling techniques and outliers",
+          "weight": "S",
+          "prereq": [
+            "ib-g10-maths-ch11-st4"
+          ],
+          "note": "Sampling and bias (MYP 5)"
+        },
+        {
+          "name": "SL 4.2 Frequency distributions, histograms, cumulative frequency and box plots",
+          "weight": "S",
+          "prereq": [
+            "ib-g9-maths-ch11-st3"
+          ],
+          "note": "Cumulative frequency and box plots (MYP 4)"
+        },
+        {
+          "name": "SL 4.3 Measures of central tendency and dispersion; effects of constant changes",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-maths-ai-ch10-st2",
+            "ib-g10-maths-ch11-st5"
+          ],
+          "note": "Mean, median, quartiles and standard deviation (MYP 4-5)"
+        },
+        {
+          "name": "AHL 4.12 Designing data collection methods; reliability and validity tests",
+          "weight": "L",
+          "prereq": [
+            "ib-g11-maths-ai-ch10-st1"
+          ],
+          "note": "Sampling techniques"
+        }
+      ]
+    },
+    {
+      "name": "Correlation and Regression (SL 4.4, 4.10; AHL 4.13)",
+      "subtopics": [
+        {
+          "name": "SL 4.4 Pearson's product-moment correlation coefficient and the regression line y on x",
+          "weight": "H",
+          "prereq": [
+            "ib-g10-maths-ch11-st3",
+            "ib-g10-maths-ch11-st2"
+          ],
+          "note": "Correlation and line of best fit (MYP 5)"
+        },
+        {
+          "name": "SL 4.4 Interpolation, extrapolation and piecewise linear models",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-maths-ai-ch11-st1"
+          ],
+          "note": "Regression line"
+        },
+        {
+          "name": "SL 4.10 Spearman's rank correlation coefficient",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-maths-ai-ch11-st1"
+          ],
+          "note": "Ranking data; Pearson's correlation"
+        },
+        {
+          "name": "AHL 4.13 Non-linear regression and the coefficient of determination R²",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-maths-ai-ch11-st1",
+            "ib-g11-maths-ai-ch09-st3"
+          ],
+          "note": "Regression; exponential and power models"
+        }
+      ]
+    },
+    {
+      "name": "Probability (SL 4.5-4.6)",
+      "subtopics": [
+        {
+          "name": "SL 4.5 Concepts of trial, outcome, sample space, relative frequency and expected outcomes",
+          "weight": "S",
+          "prereq": [
+            "ib-g10-maths-ch12-st4"
+          ],
+          "note": "Probability (MYP 3-5)"
+        },
+        {
+          "name": "SL 4.6 Venn diagrams, tree diagrams, sample space diagrams and tables of outcomes",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-maths-ai-ch12-st1",
+            "ib-g10-maths-ch12-st1"
+          ],
+          "note": "Venn and tree diagrams (MYP 5)"
+        },
+        {
+          "name": "SL 4.6 Combined events, mutually exclusive and independent events; conditional probability",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-maths-ai-ch12-st2",
+            "ib-g10-maths-ch12-st2"
+          ],
+          "note": "Venn and tree diagrams"
+        }
+      ]
+    },
+    {
+      "name": "Probability Distributions (SL 4.7-4.9; AHL 4.14, 4.17)",
+      "subtopics": [
+        {
+          "name": "SL 4.7 Discrete random variables and expected value; fair games",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-maths-ai-ch12-st1"
+          ],
+          "note": "Probability tables; expected outcomes"
+        },
+        {
+          "name": "SL 4.8 The binomial distribution",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-maths-ai-ch13-st1",
+            "ib-g11-maths-ai-ch12-st3"
+          ],
+          "note": "Independent events; discrete random variables"
+        },
+        {
+          "name": "SL 4.9 The normal distribution and inverse normal calculations",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-maths-ai-ch10-st3"
+          ],
+          "note": "Mean and standard deviation"
+        },
+        {
+          "name": "AHL 4.14 Linear transformation of a random variable and unbiased estimates of mean and variance",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-maths-ai-ch13-st1",
+            "ib-g11-maths-ai-ch10-st3"
+          ],
+          "note": "Expected value; variance"
+        },
+        {
+          "name": "AHL 4.17 The Poisson distribution, its mean and variance; sum of independent Poisson variables",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-maths-ai-ch13-st1"
+          ],
+          "note": "Discrete random variables"
+        }
+      ]
+    }
+  ]
+}

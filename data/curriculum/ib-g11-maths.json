@@ -1,0 +1,946 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "ib-g11-maths",
+  "board": "ib",
+  "grade": 11,
+  "stream": "science",
+  "slug": "maths",
+  "name": "Mathematics",
+  "programme": "IB DP Mathematics: Analysis & Approaches SL/HL (2019 guide, valid to Nov 2028; new course first exam May 2029)",
+  "examPattern": "IB DP – graded 1–7; recommended 150 h SL / 240 h HL; exams May (Hindi May only). HL: Paper 1 no-calculator 2 h, 110 marks (30%); Paper 2 calculator 2 h, 110 marks (30%) – each Section A short + Section B extended (~9 + 3 questions); Paper 3 1 h, 55 marks, 2 extended problem-solving questions (20%); IA mathematical exploration 20%. SL: P1 + P2 1 h 30, 80 marks each (40%+40%) + IA 20%.",
+  "chapterCount": 13,
+  "questionTarget": 1508
+ },
+ "items": [
+  {
+   "id": "ib-g11-maths-ch01",
+   "subjectId": "ib-g11-maths",
+   "order": 1,
+   "name": "Sequences and Series (SL 1.1-1.4, 1.8)",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "ib-g11-maths-ch01-st1",
+    "ib-g11-maths-ch01-st2",
+    "ib-g11-maths-ch01-st3",
+    "ib-g11-maths-ch01-st4",
+    "ib-g11-maths-ch01-st5"
+   ]
+  },
+  {
+   "id": "ib-g11-maths-ch02",
+   "subjectId": "ib-g11-maths",
+   "order": 2,
+   "name": "Exponents and Logarithms (SL 1.5, 1.7)",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g11-maths-ch02-st1",
+    "ib-g11-maths-ch02-st2",
+    "ib-g11-maths-ch02-st3"
+   ]
+  },
+  {
+   "id": "ib-g11-maths-ch03",
+   "subjectId": "ib-g11-maths",
+   "order": 3,
+   "name": "Proof and the Binomial Theorem (SL 1.6, 1.9; AHL 1.10, 1.15)",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "ib-g11-maths-ch03-st1",
+    "ib-g11-maths-ch03-st2",
+    "ib-g11-maths-ch03-st3",
+    "ib-g11-maths-ch03-st4",
+    "ib-g11-maths-ch03-st5"
+   ]
+  },
+  {
+   "id": "ib-g11-maths-ch04",
+   "subjectId": "ib-g11-maths",
+   "order": 4,
+   "name": "Complex Numbers (AHL 1.12-1.14)",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g11-maths-ch04-st1",
+    "ib-g11-maths-ch04-st2",
+    "ib-g11-maths-ch04-st3",
+    "ib-g11-maths-ch04-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-maths-ch05",
+   "subjectId": "ib-g11-maths",
+   "order": 5,
+   "name": "Functions: Concepts, Domain, Range and Inverse (SL 2.1-2.5)",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g11-maths-ch05-st1",
+    "ib-g11-maths-ch05-st2",
+    "ib-g11-maths-ch05-st3",
+    "ib-g11-maths-ch05-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-maths-ch06",
+   "subjectId": "ib-g11-maths",
+   "order": 6,
+   "name": "Quadratic Functions (SL 2.6-2.7)",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "ib-g11-maths-ch06-st1",
+    "ib-g11-maths-ch06-st2",
+    "ib-g11-maths-ch06-st3"
+   ]
+  },
+  {
+   "id": "ib-g11-maths-ch07",
+   "subjectId": "ib-g11-maths",
+   "order": 7,
+   "name": "Rational, Exponential and Logarithmic Functions (SL 2.8-2.10)",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g11-maths-ch07-st1",
+    "ib-g11-maths-ch07-st2",
+    "ib-g11-maths-ch07-st3"
+   ]
+  },
+  {
+   "id": "ib-g11-maths-ch08",
+   "subjectId": "ib-g11-maths",
+   "order": 8,
+   "name": "Transformations of Graphs (SL 2.11; AHL 2.14, 2.16)",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "ib-g11-maths-ch08-st1",
+    "ib-g11-maths-ch08-st2",
+    "ib-g11-maths-ch08-st3"
+   ]
+  },
+  {
+   "id": "ib-g11-maths-ch09",
+   "subjectId": "ib-g11-maths",
+   "order": 9,
+   "name": "Polynomials, Partial Fractions and Systems of Equations (AHL 1.11, 1.16, 2.12, 2.13, 2.15)",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "ib-g11-maths-ch09-st1",
+    "ib-g11-maths-ch09-st2",
+    "ib-g11-maths-ch09-st3",
+    "ib-g11-maths-ch09-st4",
+    "ib-g11-maths-ch09-st5"
+   ]
+  },
+  {
+   "id": "ib-g11-maths-ch10",
+   "subjectId": "ib-g11-maths",
+   "order": 10,
+   "name": "Descriptive Statistics and Bivariate Data (SL 4.1-4.4, 4.10)",
+   "teachingPeriods": 15,
+   "subtopicIds": [
+    "ib-g11-maths-ch10-st1",
+    "ib-g11-maths-ch10-st2",
+    "ib-g11-maths-ch10-st3",
+    "ib-g11-maths-ch10-st4",
+    "ib-g11-maths-ch10-st5"
+   ]
+  },
+  {
+   "id": "ib-g11-maths-ch11",
+   "subjectId": "ib-g11-maths",
+   "order": 11,
+   "name": "Probability (SL 4.5, 4.6, 4.11; AHL 4.13)",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g11-maths-ch11-st1",
+    "ib-g11-maths-ch11-st2",
+    "ib-g11-maths-ch11-st3",
+    "ib-g11-maths-ch11-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-maths-ch12",
+   "subjectId": "ib-g11-maths",
+   "order": 12,
+   "name": "Probability Distributions (SL 4.7-4.9, 4.12; AHL 4.14)",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "ib-g11-maths-ch12-st1",
+    "ib-g11-maths-ch12-st2",
+    "ib-g11-maths-ch12-st3",
+    "ib-g11-maths-ch12-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-maths-ch13",
+   "subjectId": "ib-g11-maths",
+   "order": 13,
+   "name": "Geometry and Trigonometry: Triangles, 3D Shapes and Radians (SL 3.1-3.4)",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g11-maths-ch13-st1",
+    "ib-g11-maths-ch13-st2",
+    "ib-g11-maths-ch13-st3",
+    "ib-g11-maths-ch13-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "ib-g11-maths-ch01-st1",
+   "chapterId": "ib-g11-maths-ch01",
+   "order": 1,
+   "name": "SL 1.1 Operations with numbers in scientific notation",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch02-st3"
+   ],
+   "prerequisiteNote": "Standard form (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch01-st2",
+   "chapterId": "ib-g11-maths-ch01",
+   "order": 2,
+   "name": "SL 1.2 Arithmetic sequences and series, sigma notation",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch02-st1"
+   ],
+   "prerequisiteNote": "Arithmetic sequences (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch01-st3",
+   "chapterId": "ib-g11-maths-ch01",
+   "order": 3,
+   "name": "SL 1.3 Geometric sequences and series",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch02-st2"
+   ],
+   "prerequisiteNote": "Geometric sequences (MYP 5); exponent laws",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch01-st4",
+   "chapterId": "ib-g11-maths-ch01",
+   "order": 4,
+   "name": "SL 1.4 Financial applications: compound interest and annual depreciation",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch02-st3",
+    "ib-g11-maths-ch01-st3"
+   ],
+   "prerequisiteNote": "Compound interest (MYP 5); geometric sequences",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch01-st5",
+   "chapterId": "ib-g11-maths-ch01",
+   "order": 5,
+   "name": "SL 1.8 Sum of an infinite convergent geometric series",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-maths-ch01-st3"
+   ],
+   "prerequisiteNote": "Geometric series; behaviour of r^n as n grows",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch02-st1",
+   "chapterId": "ib-g11-maths-ch02",
+   "order": 1,
+   "name": "SL 1.5 Laws of exponents with integer exponents and introduction to logarithms",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch01-st2",
+    "ib-g10-maths-ch06-st1"
+   ],
+   "prerequisiteNote": "Laws of indices and logarithm definition (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch02-st2",
+   "chapterId": "ib-g11-maths-ch02",
+   "order": 2,
+   "name": "SL 1.7 Laws of exponents with rational exponents and laws of logarithms, change of base",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-maths-ch02-st1",
+    "ib-g10-maths-ch06-st2"
+   ],
+   "prerequisiteNote": "Laws of logarithms (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch02-st3",
+   "chapterId": "ib-g11-maths-ch02",
+   "order": 3,
+   "name": "SL 1.7 Solving exponential equations using logarithms",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-maths-ch02-st2",
+    "ib-g10-maths-ch06-st3"
+   ],
+   "prerequisiteNote": "Laws of logarithms; exponential equations (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch03-st1",
+   "chapterId": "ib-g11-maths-ch03",
+   "order": 1,
+   "name": "SL 1.6 Simple deductive proof, LHS to RHS, and the symbols ≡ and ⇒",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch03-st3"
+   ],
+   "prerequisiteNote": "Expanding and factorising algebra (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch03-st2",
+   "chapterId": "ib-g11-maths-ch03",
+   "order": 2,
+   "name": "SL 1.9 The binomial theorem and nCr for positive integer n",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch03-st1"
+   ],
+   "prerequisiteNote": "Expanding binomial products; Pascal's triangle",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch03-st3",
+   "chapterId": "ib-g11-maths-ch03",
+   "order": 3,
+   "name": "AHL 1.10 Counting principles: permutations and combinations",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-maths-ch03-st2",
+    "ib-g10-maths-ch12-st4"
+   ],
+   "prerequisiteNote": "nCr; counting outcomes (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch03-st4",
+   "chapterId": "ib-g11-maths-ch03",
+   "order": 4,
+   "name": "AHL 1.10 Extension of the binomial theorem to fractional and negative indices",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-maths-ch03-st2",
+    "ib-g11-maths-ch01-st5"
+   ],
+   "prerequisiteNote": "Binomial theorem; infinite geometric series",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch03-st5",
+   "chapterId": "ib-g11-maths-ch03",
+   "order": 5,
+   "name": "AHL 1.15 Proof by mathematical induction, contradiction and counterexample",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-maths-ch03-st1",
+    "ib-g11-maths-ch01-st2"
+   ],
+   "prerequisiteNote": "Deductive proof; sigma notation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch04-st1",
+   "chapterId": "ib-g11-maths-ch04",
+   "order": 1,
+   "name": "AHL 1.12 Complex numbers: Cartesian form, operations and the complex plane",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch03-st2"
+   ],
+   "prerequisiteNote": "Solving quadratics with negative discriminant (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch04-st2",
+   "chapterId": "ib-g11-maths-ch04",
+   "order": 2,
+   "name": "AHL 1.13 Modulus-argument (polar) and Euler forms; products and quotients",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-maths-ch04-st1",
+    "ib-g10-maths-ch09-st1"
+   ],
+   "prerequisiteNote": "Cartesian form; radians and unit circle (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch04-st3",
+   "chapterId": "ib-g11-maths-ch04",
+   "order": 3,
+   "name": "AHL 1.14 Complex conjugate roots of polynomials and De Moivre's theorem",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-maths-ch04-st2",
+    "ib-g11-maths-ch03-st5"
+   ],
+   "prerequisiteNote": "Polar and Euler forms; proof by induction",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch04-st4",
+   "chapterId": "ib-g11-maths-ch04",
+   "order": 4,
+   "name": "AHL 1.14 Powers and roots of complex numbers and trigonometric identities",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-maths-ch04-st3"
+   ],
+   "prerequisiteNote": "De Moivre's theorem",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch05-st1",
+   "chapterId": "ib-g11-maths-ch05",
+   "order": 1,
+   "name": "SL 2.1 Equations of straight lines, parallel and perpendicular gradients",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch07-st2",
+    "ib-g9-maths-ch07-st3"
+   ],
+   "prerequisiteNote": "Coordinate geometry (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch05-st2",
+   "chapterId": "ib-g11-maths-ch05",
+   "order": 2,
+   "name": "SL 2.2-2.3 Concept of a function, domain, range and graph sketching with technology",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch04-st1"
+   ],
+   "prerequisiteNote": "Domain and range (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch05-st3",
+   "chapterId": "ib-g11-maths-ch05",
+   "order": 3,
+   "name": "SL 2.4 Key features of graphs: intercepts, maxima, minima, asymptotes and intersections",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-maths-ch05-st2"
+   ],
+   "prerequisiteNote": "Graphs of functions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch05-st4",
+   "chapterId": "ib-g11-maths-ch05",
+   "order": 4,
+   "name": "SL 2.5 Composite functions and inverse functions",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-maths-ch05-st2",
+    "ib-g10-maths-ch04-st2",
+    "ib-g10-maths-ch04-st3"
+   ],
+   "prerequisiteNote": "Composite and inverse functions (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch06-st1",
+   "chapterId": "ib-g11-maths-ch06",
+   "order": 1,
+   "name": "SL 2.6 Quadratic function forms and graphs: vertex, intercepts and axis of symmetry",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch03-st1"
+   ],
+   "prerequisiteNote": "Forms of a quadratic (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch06-st2",
+   "chapterId": "ib-g11-maths-ch06",
+   "order": 2,
+   "name": "SL 2.7 Solving quadratic equations and inequalities; the discriminant and nature of roots",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-maths-ch06-st1",
+    "ib-g10-maths-ch03-st2"
+   ],
+   "prerequisiteNote": "Quadratic formula and discriminant (MYP 4-5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch06-st3",
+   "chapterId": "ib-g11-maths-ch06",
+   "order": 3,
+   "name": "Quadratic problems involving parameters and tangency conditions",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-maths-ch06-st2",
+    "ib-g10-maths-ch03-st3"
+   ],
+   "prerequisiteNote": "Discriminant; linear-quadratic intersection (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch07-st1",
+   "chapterId": "ib-g11-maths-ch07",
+   "order": 1,
+   "name": "SL 2.8 Reciprocal function and rational functions of the form (ax+b)/(cx+d)",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch04-st4",
+    "ib-g11-maths-ch05-st3"
+   ],
+   "prerequisiteNote": "Asymptotes and rational functions (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch07-st2",
+   "chapterId": "ib-g11-maths-ch07",
+   "order": 2,
+   "name": "SL 2.9 Exponential and logarithmic functions, including base e, and their graphs",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch05-st2",
+    "ib-g11-maths-ch02-st2"
+   ],
+   "prerequisiteNote": "Exponential models (MYP 5); laws of logarithms",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch07-st3",
+   "chapterId": "ib-g11-maths-ch07",
+   "order": 3,
+   "name": "SL 2.10 Solving equations analytically and graphically with technology",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-maths-ch07-st2",
+    "ib-g11-maths-ch05-st3"
+   ],
+   "prerequisiteNote": "Function graphs; logarithms",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch08-st1",
+   "chapterId": "ib-g11-maths-ch08",
+   "order": 1,
+   "name": "SL 2.11 Translations, stretches, reflections and composite transformations",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch07-st4"
+   ],
+   "prerequisiteNote": "Transformations of functions (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch08-st2",
+   "chapterId": "ib-g11-maths-ch08",
+   "order": 2,
+   "name": "AHL 2.14 Odd and even functions, self-inverse functions and domain restriction for inverses",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g11-maths-ch05-st4",
+    "ib-g11-maths-ch08-st1"
+   ],
+   "prerequisiteNote": "Inverse functions; reflections",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch08-st3",
+   "chapterId": "ib-g11-maths-ch08",
+   "order": 3,
+   "name": "AHL 2.16 Graphs of y = ∣f(x)∣, y = f(∣x∣), y = 1/f(x) and y = [f(x)]²",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-maths-ch08-st1",
+    "ib-g11-maths-ch07-st1"
+   ],
+   "prerequisiteNote": "Transformations; reciprocal graphs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch09-st1",
+   "chapterId": "ib-g11-maths-ch09",
+   "order": 1,
+   "name": "AHL 2.12 Polynomial functions: factor and remainder theorems, sum and product of roots",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-maths-ch06-st2"
+   ],
+   "prerequisiteNote": "Algebraic division; quadratics",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch09-st2",
+   "chapterId": "ib-g11-maths-ch09",
+   "order": 2,
+   "name": "AHL 2.13 Rational functions with quadratic numerator or denominator; oblique asymptotes",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-maths-ch07-st1",
+    "ib-g11-maths-ch09-st1"
+   ],
+   "prerequisiteNote": "Rational functions; polynomial division",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch09-st3",
+   "chapterId": "ib-g11-maths-ch09",
+   "order": 3,
+   "name": "AHL 2.15 Solving polynomial and modulus inequalities",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-maths-ch09-st1",
+    "ib-g11-maths-ch08-st3"
+   ],
+   "prerequisiteNote": "Polynomial graphs; modulus graphs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch09-st4",
+   "chapterId": "ib-g11-maths-ch09",
+   "order": 4,
+   "name": "AHL 1.11 Partial fractions",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-maths-ch09-st1",
+    "ib-g9-maths-ch03-st5"
+   ],
+   "prerequisiteNote": "Factor theorem; algebraic fractions (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch09-st5",
+   "chapterId": "ib-g11-maths-ch09",
+   "order": 5,
+   "name": "AHL 1.16 Systems of up to three linear equations: unique, infinite or no solutions",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch04-st4"
+   ],
+   "prerequisiteNote": "Simultaneous equations (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch10-st1",
+   "chapterId": "ib-g11-maths-ch10",
+   "order": 1,
+   "name": "SL 4.1 Populations, samples, sampling techniques and outliers",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch11-st4"
+   ],
+   "prerequisiteNote": "Sampling methods and bias (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch10-st2",
+   "chapterId": "ib-g11-maths-ch10",
+   "order": 2,
+   "name": "SL 4.2 Presentation of data: histograms, cumulative frequency and box plots",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch11-st3"
+   ],
+   "prerequisiteNote": "Cumulative frequency and box plots (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch10-st3",
+   "chapterId": "ib-g11-maths-ch10",
+   "order": 3,
+   "name": "SL 4.3 Measures of central tendency and dispersion, effect of constant changes",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch11-st5",
+    "ib-g9-maths-ch11-st2"
+   ],
+   "prerequisiteNote": "Standard deviation (MYP 5); estimated mean",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch10-st4",
+   "chapterId": "ib-g11-maths-ch10",
+   "order": 4,
+   "name": "SL 4.4 Pearson's correlation coefficient and the least-squares regression line y on x",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch11-st3",
+    "ib-g11-maths-ch10-st3"
+   ],
+   "prerequisiteNote": "Correlation and line of best fit (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch10-st5",
+   "chapterId": "ib-g11-maths-ch10",
+   "order": 5,
+   "name": "SL 4.10 Regression line x on y and when to use each line",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g11-maths-ch10-st4"
+   ],
+   "prerequisiteNote": "Regression y on x",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch11-st1",
+   "chapterId": "ib-g11-maths-ch11",
+   "order": 1,
+   "name": "SL 4.5 Concepts of trial, outcome, sample space and expected outcomes",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch12-st4"
+   ],
+   "prerequisiteNote": "Theoretical and experimental probability (MYP 3-5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch11-st2",
+   "chapterId": "ib-g11-maths-ch11",
+   "order": 2,
+   "name": "SL 4.6 Venn diagrams, tree diagrams, tables and combined events",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-maths-ch11-st1",
+    "ib-g10-maths-ch12-st1"
+   ],
+   "prerequisiteNote": "Venn and tree diagrams (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch11-st3",
+   "chapterId": "ib-g11-maths-ch11",
+   "order": 3,
+   "name": "SL 4.11 Conditional probability and tests for independence",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-maths-ch11-st2",
+    "ib-g10-maths-ch12-st2"
+   ],
+   "prerequisiteNote": "Conditional probability (MYP 5); combined events",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch11-st4",
+   "chapterId": "ib-g11-maths-ch11",
+   "order": 4,
+   "name": "AHL 4.13 Bayes' theorem for up to three events",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-maths-ch11-st3"
+   ],
+   "prerequisiteNote": "Conditional probability; tree diagrams",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch12-st1",
+   "chapterId": "ib-g11-maths-ch12",
+   "order": 1,
+   "name": "SL 4.7 Discrete random variables and expected value",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-maths-ch11-st1"
+   ],
+   "prerequisiteNote": "Expected outcomes; probability tables",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch12-st2",
+   "chapterId": "ib-g11-maths-ch12",
+   "order": 2,
+   "name": "SL 4.8 The binomial distribution: mean and variance",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-maths-ch03-st2",
+    "ib-g11-maths-ch12-st1"
+   ],
+   "prerequisiteNote": "Binomial coefficients; independent events",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch12-st3",
+   "chapterId": "ib-g11-maths-ch12",
+   "order": 3,
+   "name": "SL 4.9 and 4.12 The normal distribution and standardisation of normal variables (z-values)",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-maths-ch10-st3"
+   ],
+   "prerequisiteNote": "Mean and standard deviation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch12-st4",
+   "chapterId": "ib-g11-maths-ch12",
+   "order": 4,
+   "name": "AHL 4.14 Variance of discrete random variables and continuous random variables with PDFs",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-maths-ch12-st1"
+   ],
+   "prerequisiteNote": "Expected value; integration as area (introduced in DP1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch13-st1",
+   "chapterId": "ib-g11-maths-ch13",
+   "order": 1,
+   "name": "SL 3.1 Distance and midpoint in 3D; volume and surface area of 3D solids; angle between a line and a plane",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch10-st4",
+    "ib-g9-maths-ch07-st4"
+   ],
+   "prerequisiteNote": "Mensuration of solids (MYP 4); Pythagoras",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch13-st2",
+   "chapterId": "ib-g11-maths-ch13",
+   "order": 2,
+   "name": "SL 3.2 Sine rule including ambiguous case, cosine rule and area ½ab sin C",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch08-st2",
+    "ib-g10-maths-ch08-st3"
+   ],
+   "prerequisiteNote": "Sine and cosine rules (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch13-st3",
+   "chapterId": "ib-g11-maths-ch13",
+   "order": 3,
+   "name": "SL 3.3 Applications of right and non-right-angled trigonometry: bearings, elevation and depression",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-maths-ch13-st2"
+   ],
+   "prerequisiteNote": "Sine and cosine rules; bearings",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-maths-ch13-st4",
+   "chapterId": "ib-g11-maths-ch13",
+   "order": 4,
+   "name": "SL 3.4 Radian measure; arc length and area of a sector",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch09-st1"
+   ],
+   "prerequisiteNote": "Radians and sector area (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

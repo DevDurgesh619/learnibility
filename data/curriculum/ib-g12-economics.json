@@ -1,0 +1,979 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "ib-g12-economics",
+  "board": "ib",
+  "grade": 12,
+  "stream": "science",
+  "slug": "economics",
+  "name": "Economics",
+  "programme": "IB DP Economics SL/HL (first exam 2022) – 4 units, 31 subtopics",
+  "examPattern": "IB DP – graded 1–7; recommended 150 h SL / 240 h HL; exams May (Hindi May only). HL: Paper 1 Extended response 1 h 15, 25 marks (20%) – 1 of 3 two-part questions; Paper 2 Data response 1 h 45, 40 marks (30%) – 1 of 2; Paper 3 Policy paper 1 h 45, 60 marks (30%) – 2 compulsory; IA portfolio of 3 commentaries (20%). SL: P1 30%, P2 40%, IA 30%.",
+  "chapterCount": 14,
+  "questionTarget": 1232
+ },
+ "items": [
+  {
+   "id": "ib-g12-economics-ch01",
+   "subjectId": "ib-g12-economics",
+   "order": 1,
+   "name": "Unit 3.1 Measuring Economic Activity and Illustrating Its Variations",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "ib-g12-economics-ch01-st1",
+    "ib-g12-economics-ch01-st2",
+    "ib-g12-economics-ch01-st3",
+    "ib-g12-economics-ch01-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-economics-ch02",
+   "subjectId": "ib-g12-economics",
+   "order": 2,
+   "name": "Unit 3.2 Variations in Economic Activity: Aggregate Demand and Aggregate Supply",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "ib-g12-economics-ch02-st1",
+    "ib-g12-economics-ch02-st2",
+    "ib-g12-economics-ch02-st3",
+    "ib-g12-economics-ch02-st4",
+    "ib-g12-economics-ch02-st5"
+   ]
+  },
+  {
+   "id": "ib-g12-economics-ch03",
+   "subjectId": "ib-g12-economics",
+   "order": 3,
+   "name": "Unit 3.3 Macroeconomic Objectives: Economic Growth",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g12-economics-ch03-st1",
+    "ib-g12-economics-ch03-st2",
+    "ib-g12-economics-ch03-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-economics-ch04",
+   "subjectId": "ib-g12-economics",
+   "order": 4,
+   "name": "Unit 3.3 Macroeconomic Objectives: Low Unemployment",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g12-economics-ch04-st1",
+    "ib-g12-economics-ch04-st2",
+    "ib-g12-economics-ch04-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-economics-ch05",
+   "subjectId": "ib-g12-economics",
+   "order": 5,
+   "name": "Unit 3.3 Macroeconomic Objectives: Low and Stable Inflation",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g12-economics-ch05-st1",
+    "ib-g12-economics-ch05-st2",
+    "ib-g12-economics-ch05-st3",
+    "ib-g12-economics-ch05-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-economics-ch06",
+   "subjectId": "ib-g12-economics",
+   "order": 6,
+   "name": "Unit 3.4 Economics of Inequality and Poverty",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "ib-g12-economics-ch06-st1",
+    "ib-g12-economics-ch06-st2",
+    "ib-g12-economics-ch06-st3",
+    "ib-g12-economics-ch06-st4",
+    "ib-g12-economics-ch06-st5"
+   ]
+  },
+  {
+   "id": "ib-g12-economics-ch07",
+   "subjectId": "ib-g12-economics",
+   "order": 7,
+   "name": "Unit 3.5 Demand Management: Monetary Policy",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "ib-g12-economics-ch07-st1",
+    "ib-g12-economics-ch07-st2",
+    "ib-g12-economics-ch07-st3",
+    "ib-g12-economics-ch07-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-economics-ch08",
+   "subjectId": "ib-g12-economics",
+   "order": 8,
+   "name": "Unit 3.6 Demand Management: Fiscal Policy",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g12-economics-ch08-st1",
+    "ib-g12-economics-ch08-st2",
+    "ib-g12-economics-ch08-st3",
+    "ib-g12-economics-ch08-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-economics-ch09",
+   "subjectId": "ib-g12-economics",
+   "order": 9,
+   "name": "Unit 3.7 Supply-side Policies",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g12-economics-ch09-st1",
+    "ib-g12-economics-ch09-st2",
+    "ib-g12-economics-ch09-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-economics-ch10",
+   "subjectId": "ib-g12-economics",
+   "order": 10,
+   "name": "Unit 4.1-4.3 Benefits of International Trade and Trade Protection",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "ib-g12-economics-ch10-st1",
+    "ib-g12-economics-ch10-st2",
+    "ib-g12-economics-ch10-st3",
+    "ib-g12-economics-ch10-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-economics-ch11",
+   "subjectId": "ib-g12-economics",
+   "order": 11,
+   "name": "Unit 4.4 Economic Integration",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "ib-g12-economics-ch11-st1",
+    "ib-g12-economics-ch11-st2",
+    "ib-g12-economics-ch11-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-economics-ch12",
+   "subjectId": "ib-g12-economics",
+   "order": 12,
+   "name": "Unit 4.5 Exchange Rates",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g12-economics-ch12-st1",
+    "ib-g12-economics-ch12-st2",
+    "ib-g12-economics-ch12-st3",
+    "ib-g12-economics-ch12-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-economics-ch13",
+   "subjectId": "ib-g12-economics",
+   "order": 13,
+   "name": "Unit 4.6 Balance of Payments",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "ib-g12-economics-ch13-st1",
+    "ib-g12-economics-ch13-st2",
+    "ib-g12-economics-ch13-st3",
+    "ib-g12-economics-ch13-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-economics-ch14",
+   "subjectId": "ib-g12-economics",
+   "order": 14,
+   "name": "Unit 4.7-4.9 Sustainable Development, Measuring Development and Barriers and Strategies",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "ib-g12-economics-ch14-st1",
+    "ib-g12-economics-ch14-st2",
+    "ib-g12-economics-ch14-st3",
+    "ib-g12-economics-ch14-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "ib-g12-economics-ch01-st1",
+   "chapterId": "ib-g12-economics-ch01",
+   "order": 1,
+   "name": "Measuring national income: GDP, GNI, nominal vs real, total vs per capita, PPP",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-economics-ch03-st3"
+   ],
+   "prerequisiteNote": "Circular flow and equality of income, output and expenditure (Grade 11 Economics)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch01-st2",
+   "chapterId": "ib-g12-economics-ch01",
+   "order": 2,
+   "name": "Calculating real GDP using a price deflator and real GDP per capita (HL calculations)",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch01-st1"
+   ],
+   "prerequisiteNote": "Nominal vs real; percentage change and index numbers",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch01-st3",
+   "chapterId": "ib-g12-economics-ch01",
+   "order": 3,
+   "name": "The business cycle: short-term fluctuations and long-term growth trend",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch01-st1"
+   ],
+   "prerequisiteNote": "GDP measures; PPC shifts and actual vs potential output (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch01-st4",
+   "chapterId": "ib-g12-economics-ch01",
+   "order": 4,
+   "name": "Limitations of GDP and alternative measures: OECD Better Life Index, Happiness Index, HPI",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch01-st1"
+   ],
+   "prerequisiteNote": "GDP measures; development indicators (MYP 5 Development unit)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch02-st1",
+   "chapterId": "ib-g12-economics-ch02",
+   "order": 1,
+   "name": "Aggregate demand: components (C + I + G + X - M) and determinants",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch01-st1",
+    "ib-g11-economics-ch04-st2"
+   ],
+   "prerequisiteNote": "GDP expenditure method; demand determinants (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch02-st2",
+   "chapterId": "ib-g12-economics-ch02",
+   "order": 2,
+   "name": "Short-run aggregate supply and its determinants",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch02-st1",
+    "ib-g11-economics-ch05-st2"
+   ],
+   "prerequisiteNote": "Supply determinants (Grade 11); costs of production",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch02-st3",
+   "chapterId": "ib-g12-economics-ch02",
+   "order": 3,
+   "name": "Long-run aggregate supply: monetarist/new classical vs Keynesian views",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch02-st2"
+   ],
+   "prerequisiteNote": "SRAS; full employment output and the PPC",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch02-st4",
+   "chapterId": "ib-g12-economics-ch02",
+   "order": 4,
+   "name": "Macroeconomic equilibrium: short-run, long-run, deflationary and inflationary gaps",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch02-st3"
+   ],
+   "prerequisiteNote": "AD and AS curves; market equilibrium analysis (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch02-st5",
+   "chapterId": "ib-g12-economics-ch02",
+   "order": 5,
+   "name": "Keynesian multiplier: marginal propensities and calculating the multiplier (HL)",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch02-st4"
+   ],
+   "prerequisiteNote": "AD components; leakages and injections (Grade 11 circular flow)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch03-st1",
+   "chapterId": "ib-g12-economics-ch03",
+   "order": 1,
+   "name": "Causes of economic growth: increases in AD and in quantity/quality of factors of production",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch02-st4",
+    "ib-g12-economics-ch01-st3"
+   ],
+   "prerequisiteNote": "AD/AS equilibrium; business cycle",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch03-st2",
+   "chapterId": "ib-g12-economics-ch03",
+   "order": 2,
+   "name": "Consequences of economic growth: living standards, unemployment, inflation, distribution and environment",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch03-st1"
+   ],
+   "prerequisiteNote": "Causes of growth; externalities (Grade 11 market failure)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch03-st3",
+   "chapterId": "ib-g12-economics-ch03",
+   "order": 3,
+   "name": "Calculating growth rates and interpreting growth data",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch03-st1",
+    "ib-g12-economics-ch01-st2"
+   ],
+   "prerequisiteNote": "Real GDP; percentage change",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch04-st1",
+   "chapterId": "ib-g12-economics-ch04",
+   "order": 1,
+   "name": "Measuring unemployment: unemployment rate, difficulties and hidden unemployment",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch01-st1"
+   ],
+   "prerequisiteNote": "Labour force definitions; percentages",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch04-st2",
+   "chapterId": "ib-g12-economics-ch04",
+   "order": 2,
+   "name": "Types and causes of unemployment: structural, frictional, seasonal and cyclical (demand-deficient)",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch04-st1",
+    "ib-g12-economics-ch02-st4"
+   ],
+   "prerequisiteNote": "Measuring unemployment; deflationary gap in AD/AS",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch04-st3",
+   "chapterId": "ib-g12-economics-ch04",
+   "order": 3,
+   "name": "Consequences of unemployment for the economy and individuals; natural rate of unemployment",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch04-st2"
+   ],
+   "prerequisiteNote": "Types of unemployment; LRAS at full employment",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch05-st1",
+   "chapterId": "ib-g12-economics-ch05",
+   "order": 1,
+   "name": "Measuring inflation: the consumer price index and its limitations; calculating inflation (HL)",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch01-st2"
+   ],
+   "prerequisiteNote": "Index numbers and percentage change; real vs nominal",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch05-st2",
+   "chapterId": "ib-g12-economics-ch05",
+   "order": 2,
+   "name": "Causes of inflation: demand-pull and cost-push; consequences of inflation and deflation",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch05-st1",
+    "ib-g12-economics-ch02-st4"
+   ],
+   "prerequisiteNote": "CPI; AD/AS inflationary gap",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch05-st3",
+   "chapterId": "ib-g12-economics-ch05",
+   "order": 3,
+   "name": "Short-run and long-run Phillips curve and the natural rate of unemployment (HL)",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch05-st2",
+    "ib-g12-economics-ch04-st3"
+   ],
+   "prerequisiteNote": "Causes of inflation; natural rate of unemployment",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch05-st4",
+   "chapterId": "ib-g12-economics-ch05",
+   "order": 4,
+   "name": "Possible conflicts between macroeconomic objectives",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch05-st3",
+    "ib-g12-economics-ch03-st2"
+   ],
+   "prerequisiteNote": "Phillips curve trade-off; consequences of growth",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch06-st1",
+   "chapterId": "ib-g12-economics-ch06",
+   "order": 1,
+   "name": "Measuring income and wealth inequality: Lorenz curve and Gini coefficient",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-economics-ch14-st1"
+   ],
+   "prerequisiteNote": "Equity vs equality (Grade 11 Unit 2.12); plotting cumulative percentages",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch06-st2",
+   "chapterId": "ib-g12-economics-ch06",
+   "order": 2,
+   "name": "Measuring poverty: absolute and relative poverty, poverty lines and MPI",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch06-st1"
+   ],
+   "prerequisiteNote": "Inequality measures; development indicators",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch06-st3",
+   "chapterId": "ib-g12-economics-ch06",
+   "order": 3,
+   "name": "Causes and consequences of poverty and inequality",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch06-st2"
+   ],
+   "prerequisiteNote": "Poverty measures; unemployment consequences",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch06-st4",
+   "chapterId": "ib-g12-economics-ch06",
+   "order": 4,
+   "name": "Policies to reduce poverty and inequality: progressive taxation, transfers, minimum wage, universal basic income",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch06-st3",
+    "ib-g11-economics-ch10-st2"
+   ],
+   "prerequisiteNote": "Price floors/minimum wage (Grade 11); causes of inequality",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch06-st5",
+   "chapterId": "ib-g12-economics-ch06",
+   "order": 5,
+   "name": "Calculating marginal and average tax rates (HL)",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch06-st4"
+   ],
+   "prerequisiteNote": "Progressive vs regressive taxation; percentages",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch07-st1",
+   "chapterId": "ib-g12-economics-ch07",
+   "order": 1,
+   "name": "Goals of monetary policy and the role of the central bank; inflation targeting",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch05-st3"
+   ],
+   "prerequisiteNote": "Inflation and its consequences; interest rates as price of money",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch07-st2",
+   "chapterId": "ib-g12-economics-ch07",
+   "order": 2,
+   "name": "Tools of monetary policy: interest rates, open market operations, reserve requirements and quantitative easing",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch07-st1"
+   ],
+   "prerequisiteNote": "Central bank roles; money supply and demand (HL money market diagram)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch07-st3",
+   "chapterId": "ib-g12-economics-ch07",
+   "order": 3,
+   "name": "Monetary policy and AD: effectiveness, time lags and constraints (liquidity trap)",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch07-st2",
+    "ib-g12-economics-ch02-st4"
+   ],
+   "prerequisiteNote": "Monetary policy tools; AD/AS equilibrium",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch07-st4",
+   "chapterId": "ib-g12-economics-ch07",
+   "order": 4,
+   "name": "Real interest rates and money creation by commercial banks (HL)",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch07-st2"
+   ],
+   "prerequisiteNote": "Nominal vs real; interest rates",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch08-st1",
+   "chapterId": "ib-g12-economics-ch08",
+   "order": 1,
+   "name": "Government revenue and expenditure; the government budget, deficit and surplus",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch02-st1"
+   ],
+   "prerequisiteNote": "AD components (G); taxes as leakages",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch08-st2",
+   "chapterId": "ib-g12-economics-ch08",
+   "order": 2,
+   "name": "Expansionary and contractionary fiscal policy and its effect on AD",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch08-st1",
+    "ib-g12-economics-ch02-st5"
+   ],
+   "prerequisiteNote": "Government budget; Keynesian multiplier",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch08-st3",
+   "chapterId": "ib-g12-economics-ch08",
+   "order": 3,
+   "name": "Automatic stabilisers, crowding out and the constraints of fiscal policy",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch08-st2"
+   ],
+   "prerequisiteNote": "Expansionary fiscal policy; interest rates",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch08-st4",
+   "chapterId": "ib-g12-economics-ch08",
+   "order": 4,
+   "name": "Government debt: causes, consequences and sustainability",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch08-st1"
+   ],
+   "prerequisiteNote": "Budget deficits; debt-to-GDP ratio",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch09-st1",
+   "chapterId": "ib-g12-economics-ch09",
+   "order": 1,
+   "name": "Market-based supply-side policies: labour market reforms, competition policy, incentive-related policies",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch02-st3",
+    "ib-g11-economics-ch12-st3"
+   ],
+   "prerequisiteNote": "LRAS; competition policy (Grade 11 market power)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch09-st2",
+   "chapterId": "ib-g12-economics-ch09",
+   "order": 2,
+   "name": "Interventionist supply-side policies: education, healthcare, infrastructure, R&D and industrial policy",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch09-st1"
+   ],
+   "prerequisiteNote": "LRAS shifts; positive externalities (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch09-st3",
+   "chapterId": "ib-g12-economics-ch09",
+   "order": 3,
+   "name": "Evaluating supply-side policies: time lags, equity and effect on LRAS and AD",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch09-st2",
+    "ib-g12-economics-ch08-st3"
+   ],
+   "prerequisiteNote": "Market-based and interventionist policies; constraints of fiscal policy",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch10-st1",
+   "chapterId": "ib-g12-economics-ch10",
+   "order": 1,
+   "name": "Absolute and comparative advantage: gains from trade and opportunity cost (HL calculations)",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-economics-ch02-st1"
+   ],
+   "prerequisiteNote": "PPC and opportunity cost (Grade 11 Unit 1.1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch10-st2",
+   "chapterId": "ib-g12-economics-ch10",
+   "order": 2,
+   "name": "The World Trade Organization and the case for free trade",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch10-st1"
+   ],
+   "prerequisiteNote": "Comparative advantage; interdependence and globalisation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch10-st3",
+   "chapterId": "ib-g12-economics-ch10",
+   "order": 3,
+   "name": "Types of trade protection: tariffs, quotas, subsidies and administrative barriers (with diagrams)",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch10-st2",
+    "ib-g11-economics-ch10-st3"
+   ],
+   "prerequisiteNote": "Indirect taxes and subsidies diagrams (Grade 11 Unit 2.7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch10-st4",
+   "chapterId": "ib-g12-economics-ch10",
+   "order": 4,
+   "name": "Arguments for and against trade protection",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch10-st3"
+   ],
+   "prerequisiteNote": "Types of trade protection; infant industry and anti-dumping",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch11-st1",
+   "chapterId": "ib-g12-economics-ch11",
+   "order": 1,
+   "name": "Forms of economic integration: preferential trade agreements, free trade areas, customs unions, common markets",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch10-st2"
+   ],
+   "prerequisiteNote": "WTO and free trade; regional cooperation (Global Politics)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch11-st2",
+   "chapterId": "ib-g12-economics-ch11",
+   "order": 2,
+   "name": "Monetary union: advantages and disadvantages (the eurozone)",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch11-st1",
+    "ib-g12-economics-ch07-st1"
+   ],
+   "prerequisiteNote": "Forms of integration; monetary policy",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch11-st3",
+   "chapterId": "ib-g12-economics-ch11",
+   "order": 3,
+   "name": "Trade creation and trade diversion (HL)",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch11-st1",
+    "ib-g12-economics-ch10-st3"
+   ],
+   "prerequisiteNote": "Customs union; effects of tariffs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch12-st1",
+   "chapterId": "ib-g12-economics-ch12",
+   "order": 1,
+   "name": "Freely floating exchange rates: determination by demand and supply of currency",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-economics-ch06-st2"
+   ],
+   "prerequisiteNote": "Equilibrium and shifts in demand and supply (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch12-st2",
+   "chapterId": "ib-g12-economics-ch12",
+   "order": 2,
+   "name": "Causes of exchange-rate changes: interest rates, inflation, trade flows, speculation and FDI",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch12-st1",
+    "ib-g12-economics-ch07-st2"
+   ],
+   "prerequisiteNote": "Exchange rate determination; interest rates",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch12-st3",
+   "chapterId": "ib-g12-economics-ch12",
+   "order": 3,
+   "name": "Consequences of exchange-rate changes for inflation, growth, employment and the current account",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch12-st2"
+   ],
+   "prerequisiteNote": "Causes of exchange-rate changes; AD components X - M",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch12-st4",
+   "chapterId": "ib-g12-economics-ch12",
+   "order": 4,
+   "name": "Fixed and managed exchange rate systems; devaluation and revaluation (HL)",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch12-st1"
+   ],
+   "prerequisiteNote": "Floating exchange rates; central bank reserves",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch13-st1",
+   "chapterId": "ib-g12-economics-ch13",
+   "order": 1,
+   "name": "Structure of the balance of payments: current, capital and financial accounts",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch12-st1"
+   ],
+   "prerequisiteNote": "Exchange rates; exports and imports",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch13-st2",
+   "chapterId": "ib-g12-economics-ch13",
+   "order": 2,
+   "name": "Current account deficits and surpluses: causes, consequences and correction methods",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch13-st1",
+    "ib-g12-economics-ch12-st3"
+   ],
+   "prerequisiteNote": "BoP structure; exchange-rate consequences",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch13-st3",
+   "chapterId": "ib-g12-economics-ch13",
+   "order": 3,
+   "name": "Marshall-Lerner condition and the J-curve (HL)",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch13-st2",
+    "ib-g11-economics-ch08-st1"
+   ],
+   "prerequisiteNote": "PED (Grade 11); current account correction by depreciation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch13-st4",
+   "chapterId": "ib-g12-economics-ch13",
+   "order": 4,
+   "name": "Terms of trade: measurement, causes and consequences of changes (HL)",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch13-st1"
+   ],
+   "prerequisiteNote": "Index numbers; primary commodity PED (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch14-st1",
+   "chapterId": "ib-g12-economics-ch14",
+   "order": 1,
+   "name": "Sustainable development and the Sustainable Development Goals; multidimensional measures (HDI, IHDI, MPI, GII)",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch01-st4",
+    "ib-g12-economics-ch06-st2"
+   ],
+   "prerequisiteNote": "Limitations of GDP; poverty measures",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch14-st2",
+   "chapterId": "ib-g12-economics-ch14",
+   "order": 2,
+   "name": "Barriers to economic growth and development: poverty traps, infrastructure, corruption, debt, gender inequality",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch14-st1",
+    "ib-g12-economics-ch13-st4"
+   ],
+   "prerequisiteNote": "Development measures; terms of trade",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch14-st3",
+   "chapterId": "ib-g12-economics-ch14",
+   "order": 3,
+   "name": "Strategies for growth and development: trade, FDI, aid, microfinance, good governance and the informal economy",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch14-st2",
+    "ib-g12-economics-ch10-st2"
+   ],
+   "prerequisiteNote": "Barriers to development; WTO and free trade",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-economics-ch14-st4",
+   "chapterId": "ib-g12-economics-ch14",
+   "order": 4,
+   "name": "IA commentary portfolio: macroeconomics and global economy commentaries using the key concepts",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-economics-ch14-st3",
+    "ib-g11-economics-ch14-st3"
+   ],
+   "prerequisiteNote": "IA commentary skills (Grade 11); macro and international diagrams",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

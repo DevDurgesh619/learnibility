@@ -1,0 +1,920 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "ib-g12-applied-maths",
+  "board": "ib",
+  "grade": 12,
+  "stream": "commerce",
+  "slug": "applied-maths",
+  "name": "Mathematics: Applications & Interpretation",
+  "programme": "IB DP Mathematics: Applications & Interpretation SL/HL (2019 guide, valid to Nov 2028)",
+  "examPattern": "IB DP – graded 1–7; recommended 150 h SL / 240 h HL; exams May (Hindi May only). HL: Paper 1 short-response 2 h, 110 marks (30%); Paper 2 extended-response 2 h, 110 marks (30%); Paper 3 1 h, 55 marks, 2 extended problems (20%); IA 20%. SL: P1 + P2 1 h 30, 80 marks each (40%+40%) + IA 20%. Calculator on all papers.",
+  "chapterCount": 13,
+  "questionTarget": 1568
+ },
+ "items": [
+  {
+   "id": "ib-g12-applied-maths-ch01",
+   "subjectId": "ib-g12-applied-maths",
+   "order": 1,
+   "name": "Geometry and Trigonometry in 2D and 3D (SL 3.1-3.4)",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g12-applied-maths-ch01-st1",
+    "ib-g12-applied-maths-ch01-st2",
+    "ib-g12-applied-maths-ch01-st3",
+    "ib-g12-applied-maths-ch01-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-applied-maths-ch02",
+   "subjectId": "ib-g12-applied-maths",
+   "order": 2,
+   "name": "Voronoi Diagrams (SL 3.5-3.6)",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "ib-g12-applied-maths-ch02-st1",
+    "ib-g12-applied-maths-ch02-st2",
+    "ib-g12-applied-maths-ch02-st3",
+    "ib-g12-applied-maths-ch02-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-applied-maths-ch03",
+   "subjectId": "ib-g12-applied-maths",
+   "order": 3,
+   "name": "Radians, Trig Identities and Matrix Transformations (AHL 3.7-3.9)",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g12-applied-maths-ch03-st1",
+    "ib-g12-applied-maths-ch03-st2",
+    "ib-g12-applied-maths-ch03-st3",
+    "ib-g12-applied-maths-ch03-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-applied-maths-ch04",
+   "subjectId": "ib-g12-applied-maths",
+   "order": 4,
+   "name": "Vectors and Vector Kinematics (AHL 3.10-3.13)",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g12-applied-maths-ch04-st1",
+    "ib-g12-applied-maths-ch04-st2",
+    "ib-g12-applied-maths-ch04-st3",
+    "ib-g12-applied-maths-ch04-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-applied-maths-ch05",
+   "subjectId": "ib-g12-applied-maths",
+   "order": 5,
+   "name": "Graph Theory (AHL 3.14-3.16)",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "ib-g12-applied-maths-ch05-st1",
+    "ib-g12-applied-maths-ch05-st2",
+    "ib-g12-applied-maths-ch05-st3",
+    "ib-g12-applied-maths-ch05-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-applied-maths-ch06",
+   "subjectId": "ib-g12-applied-maths",
+   "order": 6,
+   "name": "Introduction to Differentiation (SL 5.1-5.4)",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g12-applied-maths-ch06-st1",
+    "ib-g12-applied-maths-ch06-st2",
+    "ib-g12-applied-maths-ch06-st3",
+    "ib-g12-applied-maths-ch06-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-applied-maths-ch07",
+   "subjectId": "ib-g12-applied-maths",
+   "order": 7,
+   "name": "Further Differentiation (AHL 5.9-5.10)",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g12-applied-maths-ch07-st1",
+    "ib-g12-applied-maths-ch07-st2",
+    "ib-g12-applied-maths-ch07-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-applied-maths-ch08",
+   "subjectId": "ib-g12-applied-maths",
+   "order": 8,
+   "name": "Optimisation (SL 5.6-5.7)",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g12-applied-maths-ch08-st1",
+    "ib-g12-applied-maths-ch08-st2",
+    "ib-g12-applied-maths-ch08-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-applied-maths-ch09",
+   "subjectId": "ib-g12-applied-maths",
+   "order": 9,
+   "name": "Integration (SL 5.5, 5.8; AHL 5.11-5.12)",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g12-applied-maths-ch09-st1",
+    "ib-g12-applied-maths-ch09-st2",
+    "ib-g12-applied-maths-ch09-st3",
+    "ib-g12-applied-maths-ch09-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-applied-maths-ch10",
+   "subjectId": "ib-g12-applied-maths",
+   "order": 10,
+   "name": "Kinematics and Differential Equations (AHL 5.13-5.18)",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "ib-g12-applied-maths-ch10-st1",
+    "ib-g12-applied-maths-ch10-st2",
+    "ib-g12-applied-maths-ch10-st3",
+    "ib-g12-applied-maths-ch10-st4",
+    "ib-g12-applied-maths-ch10-st5"
+   ]
+  },
+  {
+   "id": "ib-g12-applied-maths-ch11",
+   "subjectId": "ib-g12-applied-maths",
+   "order": 11,
+   "name": "Inferential Statistics: χ² and t-tests (SL 4.11)",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "ib-g12-applied-maths-ch11-st1",
+    "ib-g12-applied-maths-ch11-st2",
+    "ib-g12-applied-maths-ch11-st3",
+    "ib-g12-applied-maths-ch11-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-applied-maths-ch12",
+   "subjectId": "ib-g12-applied-maths",
+   "order": 12,
+   "name": "Further Statistics: Estimation, Hypothesis Testing and Markov Chains (AHL 4.15, 4.16, 4.18, 4.19)",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g12-applied-maths-ch12-st1",
+    "ib-g12-applied-maths-ch12-st2",
+    "ib-g12-applied-maths-ch12-st3",
+    "ib-g12-applied-maths-ch12-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-applied-maths-ch13",
+   "subjectId": "ib-g12-applied-maths",
+   "order": 13,
+   "name": "Mathematical Exploration (IA) and Paper 3",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "ib-g12-applied-maths-ch13-st1",
+    "ib-g12-applied-maths-ch13-st2",
+    "ib-g12-applied-maths-ch13-st3",
+    "ib-g12-applied-maths-ch13-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "ib-g12-applied-maths-ch01-st1",
+   "chapterId": "ib-g12-applied-maths-ch01",
+   "order": 1,
+   "name": "SL 3.1 Distance and midpoint in 3D; volume and surface area of 3D solids; angles between lines and planes",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch10-st4",
+    "ib-g9-maths-ch07-st4"
+   ],
+   "prerequisiteNote": "Mensuration and Pythagoras (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch01-st2",
+   "chapterId": "ib-g12-applied-maths-ch01",
+   "order": 2,
+   "name": "SL 3.2 Right-angled trigonometry, sine rule, cosine rule and area of a triangle",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch08-st2",
+    "ib-g10-maths-ch08-st3"
+   ],
+   "prerequisiteNote": "Sine and cosine rules (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch01-st3",
+   "chapterId": "ib-g12-applied-maths-ch01",
+   "order": 3,
+   "name": "SL 3.3 Applications: angles of elevation and depression, bearings and construction of labelled diagrams",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch01-st2"
+   ],
+   "prerequisiteNote": "Triangle trigonometry",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch01-st4",
+   "chapterId": "ib-g12-applied-maths-ch01",
+   "order": 4,
+   "name": "SL 3.4 Length of an arc and area of a sector in degrees",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch10-st1"
+   ],
+   "prerequisiteNote": "Arc length and sector area (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch02-st1",
+   "chapterId": "ib-g12-applied-maths-ch02",
+   "order": 1,
+   "name": "SL 3.5 Equations of perpendicular bisectors",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch07-st1"
+   ],
+   "prerequisiteNote": "Gradient, midpoint and perpendicular lines (DP1 SL 2.1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch02-st2",
+   "chapterId": "ib-g12-applied-maths-ch02",
+   "order": 2,
+   "name": "SL 3.6 Voronoi diagrams: sites, vertices, edges and cells",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch02-st1"
+   ],
+   "prerequisiteNote": "Perpendicular bisectors",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch02-st3",
+   "chapterId": "ib-g12-applied-maths-ch02",
+   "order": 3,
+   "name": "SL 3.6 Adding a site to a Voronoi diagram; nearest-neighbour interpolation",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch02-st2"
+   ],
+   "prerequisiteNote": "Voronoi diagrams",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch02-st4",
+   "chapterId": "ib-g12-applied-maths-ch02",
+   "order": 4,
+   "name": "SL 3.6 Toxic waste dump problem: largest empty circle",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch02-st2"
+   ],
+   "prerequisiteNote": "Voronoi diagrams; distance between points",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch03-st1",
+   "chapterId": "ib-g12-applied-maths-ch03",
+   "order": 1,
+   "name": "AHL 3.7 Radian measure, arc length and sector area in radians",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch01-st4"
+   ],
+   "prerequisiteNote": "Arc and sector in degrees",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch03-st2",
+   "chapterId": "ib-g12-applied-maths-ch03",
+   "order": 2,
+   "name": "AHL 3.8 Unit circle, Pythagorean identity and solving trigonometric equations graphically and analytically",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch03-st1",
+    "ib-g10-maths-ch09-st4"
+   ],
+   "prerequisiteNote": "Radians; trig graphs (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch03-st3",
+   "chapterId": "ib-g12-applied-maths-ch03",
+   "order": 3,
+   "name": "AHL 3.9 Geometric transformations with matrices: reflections, rotations, enlargements and stretches",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch06-st1"
+   ],
+   "prerequisiteNote": "Matrix multiplication (DP1 AHL 1.14)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch03-st4",
+   "chapterId": "ib-g12-applied-maths-ch03",
+   "order": 4,
+   "name": "AHL 3.9 Composition of transformations and area scale factor via the determinant",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch03-st3",
+    "ib-g11-applied-maths-ch06-st2"
+   ],
+   "prerequisiteNote": "Matrix transformations; determinant",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch04-st1",
+   "chapterId": "ib-g12-applied-maths-ch04",
+   "order": 1,
+   "name": "AHL 3.10 Vector concepts: components, magnitude, unit vectors and position vectors",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch10-st2"
+   ],
+   "prerequisiteNote": "Vectors (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch04-st2",
+   "chapterId": "ib-g12-applied-maths-ch04",
+   "order": 2,
+   "name": "AHL 3.11 Vector equation of a line in 2D and 3D; angle between two lines",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch04-st1"
+   ],
+   "prerequisiteNote": "Position vectors",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch04-st3",
+   "chapterId": "ib-g12-applied-maths-ch04",
+   "order": 3,
+   "name": "AHL 3.12 Vector applications to kinematics: constant velocity and projectile motion",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch04-st2"
+   ],
+   "prerequisiteNote": "Vector equation of a line",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch04-st4",
+   "chapterId": "ib-g12-applied-maths-ch04",
+   "order": 4,
+   "name": "AHL 3.13 Scalar and vector products and their geometric interpretation",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch04-st1",
+    "ib-g12-applied-maths-ch01-st2"
+   ],
+   "prerequisiteNote": "Vector components; area of a triangle",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch05-st1",
+   "chapterId": "ib-g12-applied-maths-ch05",
+   "order": 1,
+   "name": "AHL 3.14 Graph theory terminology: vertices, edges, degree, simple, complete, weighted and directed graphs",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Network diagrams in contexts",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch05-st2",
+   "chapterId": "ib-g12-applied-maths-ch05",
+   "order": 2,
+   "name": "AHL 3.15 Adjacency matrices and transition matrices for walks",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch05-st1",
+    "ib-g11-applied-maths-ch06-st1"
+   ],
+   "prerequisiteNote": "Matrix multiplication (DP1 AHL 1.14)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch05-st3",
+   "chapterId": "ib-g12-applied-maths-ch05",
+   "order": 3,
+   "name": "AHL 3.16 Minimum spanning trees: Kruskal's and Prim's algorithms",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch05-st1"
+   ],
+   "prerequisiteNote": "Weighted graphs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch05-st4",
+   "chapterId": "ib-g12-applied-maths-ch05",
+   "order": 4,
+   "name": "AHL 3.16 Chinese postman problem and the travelling salesman problem: nearest neighbour and deleted vertex bounds",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch05-st3"
+   ],
+   "prerequisiteNote": "Weighted graphs; spanning trees",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch06-st1",
+   "chapterId": "ib-g12-applied-maths-ch06",
+   "order": 1,
+   "name": "SL 5.1 Concept of a limit and the derivative as gradient and rate of change",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch07-st1"
+   ],
+   "prerequisiteNote": "Gradient of a line (DP1 SL 2.1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch06-st2",
+   "chapterId": "ib-g12-applied-maths-ch06",
+   "order": 2,
+   "name": "SL 5.2 Increasing and decreasing functions",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch06-st1"
+   ],
+   "prerequisiteNote": "Derivative concept",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch06-st3",
+   "chapterId": "ib-g12-applied-maths-ch06",
+   "order": 3,
+   "name": "SL 5.3 Derivative of axⁿ for integer n and sums of terms",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch06-st1",
+    "ib-g11-applied-maths-ch04-st1"
+   ],
+   "prerequisiteNote": "Exponent laws (DP1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch06-st4",
+   "chapterId": "ib-g12-applied-maths-ch06",
+   "order": 4,
+   "name": "SL 5.4 Tangents and normals at a given point",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch06-st3",
+    "ib-g11-applied-maths-ch07-st1"
+   ],
+   "prerequisiteNote": "Derivative of axⁿ; equations of lines",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch07-st1",
+   "chapterId": "ib-g12-applied-maths-ch07",
+   "order": 1,
+   "name": "AHL 5.9 Derivatives of sin x, cos x, tan x, eˣ, ln x and xⁿ (n rational); chain, product and quotient rules",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch06-st3",
+    "ib-g11-applied-maths-ch09-st1"
+   ],
+   "prerequisiteNote": "Derivative of axⁿ; composite functions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch07-st2",
+   "chapterId": "ib-g12-applied-maths-ch07",
+   "order": 2,
+   "name": "AHL 5.9 Related rates of change",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch07-st1"
+   ],
+   "prerequisiteNote": "Chain rule",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch07-st3",
+   "chapterId": "ib-g12-applied-maths-ch07",
+   "order": 3,
+   "name": "AHL 5.10 The second derivative and its use in determining concavity and points of inflection",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch07-st1"
+   ],
+   "prerequisiteNote": "Differentiation rules",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch08-st1",
+   "chapterId": "ib-g12-applied-maths-ch08",
+   "order": 1,
+   "name": "SL 5.6 Values of x where the gradient is zero; local maxima and minima",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch06-st4",
+    "ib-g12-applied-maths-ch07-st3"
+   ],
+   "prerequisiteNote": "Derivatives; tangents",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch08-st2",
+   "chapterId": "ib-g12-applied-maths-ch08",
+   "order": 2,
+   "name": "SL 5.7 Optimisation problems in context",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch08-st1",
+    "ib-g11-applied-maths-ch08-st4"
+   ],
+   "prerequisiteNote": "Stationary points; forming functions from contexts",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch08-st3",
+   "chapterId": "ib-g12-applied-maths-ch08",
+   "order": 3,
+   "name": "Optimisation of volume, area and cost with technology",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch08-st2",
+    "ib-g12-applied-maths-ch01-st1"
+   ],
+   "prerequisiteNote": "Optimisation; mensuration",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch09-st1",
+   "chapterId": "ib-g12-applied-maths-ch09",
+   "order": 1,
+   "name": "SL 5.5 Introduction to integration as anti-differentiation; definite integrals using technology; area under a curve",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch06-st3"
+   ],
+   "prerequisiteNote": "Derivative of axⁿ",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch09-st2",
+   "chapterId": "ib-g12-applied-maths-ch09",
+   "order": 2,
+   "name": "SL 5.8 Approximating areas using the trapezoidal rule",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch09-st1"
+   ],
+   "prerequisiteNote": "Area under a curve; area of a trapezium",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch09-st3",
+   "chapterId": "ib-g12-applied-maths-ch09",
+   "order": 3,
+   "name": "AHL 5.11 Indefinite integrals of standard functions and integration by inspection or substitution",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch09-st1",
+    "ib-g12-applied-maths-ch07-st1"
+   ],
+   "prerequisiteNote": "Anti-differentiation; chain rule",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch09-st4",
+   "chapterId": "ib-g12-applied-maths-ch09",
+   "order": 4,
+   "name": "AHL 5.12 Areas under curves and between curves and the y-axis; volumes of revolution",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch09-st3"
+   ],
+   "prerequisiteNote": "Definite integrals",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch10-st1",
+   "chapterId": "ib-g12-applied-maths-ch10",
+   "order": 1,
+   "name": "AHL 5.13 Kinematics: displacement, velocity, acceleration and total distance",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch07-st1",
+    "ib-g12-applied-maths-ch09-st3"
+   ],
+   "prerequisiteNote": "Derivatives and integrals",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch10-st2",
+   "chapterId": "ib-g12-applied-maths-ch10",
+   "order": 2,
+   "name": "AHL 5.14 Setting up differential equations and solving by separation of variables",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch09-st3"
+   ],
+   "prerequisiteNote": "Integration of standard functions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch10-st3",
+   "chapterId": "ib-g12-applied-maths-ch10",
+   "order": 3,
+   "name": "AHL 5.15 Slope fields and their diagrams",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch10-st2"
+   ],
+   "prerequisiteNote": "Differential equations; gradients",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch10-st4",
+   "chapterId": "ib-g12-applied-maths-ch10",
+   "order": 4,
+   "name": "AHL 5.16 Euler's method for first-order and coupled differential equations",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch10-st2"
+   ],
+   "prerequisiteNote": "Differential equations; tangent approximation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch10-st5",
+   "chapterId": "ib-g12-applied-maths-ch10",
+   "order": 5,
+   "name": "AHL 5.17-5.18 Phase portraits, eigenvalues and second-order differential equations",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch10-st4",
+    "ib-g11-applied-maths-ch06-st3"
+   ],
+   "prerequisiteNote": "Eigenvalues (DP1 AHL 1.15); coupled systems",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch11-st1",
+   "chapterId": "ib-g12-applied-maths-ch11",
+   "order": 1,
+   "name": "SL 4.11 Formulation of null and alternative hypotheses, significance levels and p-values",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch13-st3"
+   ],
+   "prerequisiteNote": "Probability; normal distribution (DP1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch11-st2",
+   "chapterId": "ib-g12-applied-maths-ch11",
+   "order": 2,
+   "name": "SL 4.11 χ² test for independence using contingency tables",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch11-st1"
+   ],
+   "prerequisiteNote": "Hypotheses and p-values; expected frequencies",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch11-st3",
+   "chapterId": "ib-g12-applied-maths-ch11",
+   "order": 3,
+   "name": "SL 4.11 χ² goodness of fit test",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch11-st2"
+   ],
+   "prerequisiteNote": "χ² test for independence",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch11-st4",
+   "chapterId": "ib-g12-applied-maths-ch11",
+   "order": 4,
+   "name": "SL 4.11 The t-test for comparing two population means",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch11-st1",
+    "ib-g11-applied-maths-ch10-st3"
+   ],
+   "prerequisiteNote": "Hypotheses; mean and standard deviation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch12-st1",
+   "chapterId": "ib-g12-applied-maths-ch12",
+   "order": 1,
+   "name": "AHL 4.15 The central limit theorem and the distribution of sample means",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch13-st3",
+    "ib-g11-applied-maths-ch13-st4"
+   ],
+   "prerequisiteNote": "Normal distribution; unbiased estimates (DP1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch12-st2",
+   "chapterId": "ib-g12-applied-maths-ch12",
+   "order": 2,
+   "name": "AHL 4.16 Confidence intervals for the mean using normal and t-distributions",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch12-st1"
+   ],
+   "prerequisiteNote": "Central limit theorem",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch12-st3",
+   "chapterId": "ib-g12-applied-maths-ch12",
+   "order": 3,
+   "name": "AHL 4.18 Hypothesis testing with binomial, Poisson and Pearson's r; type I and type II errors",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch11-st1",
+    "ib-g11-applied-maths-ch13-st2",
+    "ib-g11-applied-maths-ch13-st5"
+   ],
+   "prerequisiteNote": "Hypothesis testing; binomial and Poisson (DP1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch12-st4",
+   "chapterId": "ib-g12-applied-maths-ch12",
+   "order": 4,
+   "name": "AHL 4.19 Transition matrices and Markov chains; steady state",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch06-st3"
+   ],
+   "prerequisiteNote": "Matrices and eigenvectors (DP1 AHL 1.15)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch13-st1",
+   "chapterId": "ib-g12-applied-maths-ch13",
+   "order": 1,
+   "name": "Choosing a topic and aim for the mathematical exploration",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch08-st4"
+   ],
+   "prerequisiteNote": "Modelling cycle (DP1 SL 2.6)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch13-st2",
+   "chapterId": "ib-g12-applied-maths-ch13",
+   "order": 2,
+   "name": "IA criteria: presentation, communication, personal engagement, reflection and use of mathematics",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch13-st1"
+   ],
+   "prerequisiteNote": "Exploration topic and aim",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch13-st3",
+   "chapterId": "ib-g12-applied-maths-ch13",
+   "order": 3,
+   "name": "Paper 3: extended modelling and investigation problems",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-applied-maths-ch10-st4",
+    "ib-g12-applied-maths-ch12-st3"
+   ],
+   "prerequisiteNote": "Modelling; statistics and calculus across the course",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-applied-maths-ch13-st4",
+   "chapterId": "ib-g12-applied-maths-ch13",
+   "order": 4,
+   "name": "Using technology (GDC, spreadsheets, GeoGebra, statistical software) for modelling",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g11-applied-maths-ch09-st4"
+   ],
+   "prerequisiteNote": "Technology use in DP1",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

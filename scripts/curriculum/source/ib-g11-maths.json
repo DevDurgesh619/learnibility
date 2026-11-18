@@ -1,0 +1,515 @@
+{
+  "subjectId": "ib-g11-maths",
+  "chapters": [
+    {
+      "name": "Sequences and Series (SL 1.1-1.4, 1.8)",
+      "subtopics": [
+        {
+          "name": "SL 1.1 Operations with numbers in scientific notation",
+          "weight": "L",
+          "prereq": [
+            "ib-g9-maths-ch02-st3"
+          ],
+          "note": "Standard form (MYP 4)"
+        },
+        {
+          "name": "SL 1.2 Arithmetic sequences and series, sigma notation",
+          "weight": "H",
+          "prereq": [
+            "ib-g10-maths-ch02-st1"
+          ],
+          "note": "Arithmetic sequences (MYP 5)"
+        },
+        {
+          "name": "SL 1.3 Geometric sequences and series",
+          "weight": "H",
+          "prereq": [
+            "ib-g10-maths-ch02-st2"
+          ],
+          "note": "Geometric sequences (MYP 5); exponent laws"
+        },
+        {
+          "name": "SL 1.4 Financial applications: compound interest and annual depreciation",
+          "weight": "S",
+          "prereq": [
+            "ib-g10-maths-ch02-st3",
+            "ib-g11-maths-ch01-st3"
+          ],
+          "note": "Compound interest (MYP 5); geometric sequences"
+        },
+        {
+          "name": "SL 1.8 Sum of an infinite convergent geometric series",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-maths-ch01-st3"
+          ],
+          "note": "Geometric series; behaviour of r^n as n grows"
+        }
+      ]
+    },
+    {
+      "name": "Exponents and Logarithms (SL 1.5, 1.7)",
+      "subtopics": [
+        {
+          "name": "SL 1.5 Laws of exponents with integer exponents and introduction to logarithms",
+          "weight": "S",
+          "prereq": [
+            "ib-g10-maths-ch01-st2",
+            "ib-g10-maths-ch06-st1"
+          ],
+          "note": "Laws of indices and logarithm definition (MYP 5)"
+        },
+        {
+          "name": "SL 1.7 Laws of exponents with rational exponents and laws of logarithms, change of base",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-maths-ch02-st1",
+            "ib-g10-maths-ch06-st2"
+          ],
+          "note": "Laws of logarithms (MYP 5)"
+        },
+        {
+          "name": "SL 1.7 Solving exponential equations using logarithms",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-maths-ch02-st2",
+            "ib-g10-maths-ch06-st3"
+          ],
+          "note": "Laws of logarithms; exponential equations (MYP 5)"
+        }
+      ]
+    },
+    {
+      "name": "Proof and the Binomial Theorem (SL 1.6, 1.9; AHL 1.10, 1.15)",
+      "subtopics": [
+        {
+          "name": "SL 1.6 Simple deductive proof, LHS to RHS, and the symbols ≡ and ⇒",
+          "weight": "S",
+          "prereq": [
+            "ib-g9-maths-ch03-st3"
+          ],
+          "note": "Expanding and factorising algebra (MYP 4)"
+        },
+        {
+          "name": "SL 1.9 The binomial theorem and nCr for positive integer n",
+          "weight": "H",
+          "prereq": [
+            "ib-g9-maths-ch03-st1"
+          ],
+          "note": "Expanding binomial products; Pascal's triangle"
+        },
+        {
+          "name": "AHL 1.10 Counting principles: permutations and combinations",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-maths-ch03-st2",
+            "ib-g10-maths-ch12-st4"
+          ],
+          "note": "nCr; counting outcomes (MYP 5)"
+        },
+        {
+          "name": "AHL 1.10 Extension of the binomial theorem to fractional and negative indices",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-maths-ch03-st2",
+            "ib-g11-maths-ch01-st5"
+          ],
+          "note": "Binomial theorem; infinite geometric series"
+        },
+        {
+          "name": "AHL 1.15 Proof by mathematical induction, contradiction and counterexample",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-maths-ch03-st1",
+            "ib-g11-maths-ch01-st2"
+          ],
+          "note": "Deductive proof; sigma notation"
+        }
+      ]
+    },
+    {
+      "name": "Complex Numbers (AHL 1.12-1.14)",
+      "subtopics": [
+        {
+          "name": "AHL 1.12 Complex numbers: Cartesian form, operations and the complex plane",
+          "weight": "S",
+          "prereq": [
+            "ib-g10-maths-ch03-st2"
+          ],
+          "note": "Solving quadratics with negative discriminant (MYP 5)"
+        },
+        {
+          "name": "AHL 1.13 Modulus-argument (polar) and Euler forms; products and quotients",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-maths-ch04-st1",
+            "ib-g10-maths-ch09-st1"
+          ],
+          "note": "Cartesian form; radians and unit circle (MYP 5)"
+        },
+        {
+          "name": "AHL 1.14 Complex conjugate roots of polynomials and De Moivre's theorem",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-maths-ch04-st2",
+            "ib-g11-maths-ch03-st5"
+          ],
+          "note": "Polar and Euler forms; proof by induction"
+        },
+        {
+          "name": "AHL 1.14 Powers and roots of complex numbers and trigonometric identities",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-maths-ch04-st3"
+          ],
+          "note": "De Moivre's theorem"
+        }
+      ]
+    },
+    {
+      "name": "Functions: Concepts, Domain, Range and Inverse (SL 2.1-2.5)",
+      "subtopics": [
+        {
+          "name": "SL 2.1 Equations of straight lines, parallel and perpendicular gradients",
+          "weight": "S",
+          "prereq": [
+            "ib-g9-maths-ch07-st2",
+            "ib-g9-maths-ch07-st3"
+          ],
+          "note": "Coordinate geometry (MYP 4)"
+        },
+        {
+          "name": "SL 2.2-2.3 Concept of a function, domain, range and graph sketching with technology",
+          "weight": "S",
+          "prereq": [
+            "ib-g10-maths-ch04-st1"
+          ],
+          "note": "Domain and range (MYP 5)"
+        },
+        {
+          "name": "SL 2.4 Key features of graphs: intercepts, maxima, minima, asymptotes and intersections",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-maths-ch05-st2"
+          ],
+          "note": "Graphs of functions"
+        },
+        {
+          "name": "SL 2.5 Composite functions and inverse functions",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-maths-ch05-st2",
+            "ib-g10-maths-ch04-st2",
+            "ib-g10-maths-ch04-st3"
+          ],
+          "note": "Composite and inverse functions (MYP 5)"
+        }
+      ]
+    },
+    {
+      "name": "Quadratic Functions (SL 2.6-2.7)",
+      "subtopics": [
+        {
+          "name": "SL 2.6 Quadratic function forms and graphs: vertex, intercepts and axis of symmetry",
+          "weight": "H",
+          "prereq": [
+            "ib-g10-maths-ch03-st1"
+          ],
+          "note": "Forms of a quadratic (MYP 5)"
+        },
+        {
+          "name": "SL 2.7 Solving quadratic equations and inequalities; the discriminant and nature of roots",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-maths-ch06-st1",
+            "ib-g10-maths-ch03-st2"
+          ],
+          "note": "Quadratic formula and discriminant (MYP 4-5)"
+        },
+        {
+          "name": "Quadratic problems involving parameters and tangency conditions",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-maths-ch06-st2",
+            "ib-g10-maths-ch03-st3"
+          ],
+          "note": "Discriminant; linear-quadratic intersection (MYP 5)"
+        }
+      ]
+    },
+    {
+      "name": "Rational, Exponential and Logarithmic Functions (SL 2.8-2.10)",
+      "subtopics": [
+        {
+          "name": "SL 2.8 Reciprocal function and rational functions of the form (ax+b)/(cx+d)",
+          "weight": "S",
+          "prereq": [
+            "ib-g10-maths-ch04-st4",
+            "ib-g11-maths-ch05-st3"
+          ],
+          "note": "Asymptotes and rational functions (MYP 5)"
+        },
+        {
+          "name": "SL 2.9 Exponential and logarithmic functions, including base e, and their graphs",
+          "weight": "H",
+          "prereq": [
+            "ib-g10-maths-ch05-st2",
+            "ib-g11-maths-ch02-st2"
+          ],
+          "note": "Exponential models (MYP 5); laws of logarithms"
+        },
+        {
+          "name": "SL 2.10 Solving equations analytically and graphically with technology",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-maths-ch07-st2",
+            "ib-g11-maths-ch05-st3"
+          ],
+          "note": "Function graphs; logarithms"
+        }
+      ]
+    },
+    {
+      "name": "Transformations of Graphs (SL 2.11; AHL 2.14, 2.16)",
+      "subtopics": [
+        {
+          "name": "SL 2.11 Translations, stretches, reflections and composite transformations",
+          "weight": "S",
+          "prereq": [
+            "ib-g10-maths-ch07-st4"
+          ],
+          "note": "Transformations of functions (MYP 5)"
+        },
+        {
+          "name": "AHL 2.14 Odd and even functions, self-inverse functions and domain restriction for inverses",
+          "weight": "L",
+          "prereq": [
+            "ib-g11-maths-ch05-st4",
+            "ib-g11-maths-ch08-st1"
+          ],
+          "note": "Inverse functions; reflections"
+        },
+        {
+          "name": "AHL 2.16 Graphs of y = ∣f(x)∣, y = f(∣x∣), y = 1/f(x) and y = [f(x)]²",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-maths-ch08-st1",
+            "ib-g11-maths-ch07-st1"
+          ],
+          "note": "Transformations; reciprocal graphs"
+        }
+      ]
+    },
+    {
+      "name": "Polynomials, Partial Fractions and Systems of Equations (AHL 1.11, 1.16, 2.12, 2.13, 2.15)",
+      "subtopics": [
+        {
+          "name": "AHL 2.12 Polynomial functions: factor and remainder theorems, sum and product of roots",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-maths-ch06-st2"
+          ],
+          "note": "Algebraic division; quadratics"
+        },
+        {
+          "name": "AHL 2.13 Rational functions with quadratic numerator or denominator; oblique asymptotes",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-maths-ch07-st1",
+            "ib-g11-maths-ch09-st1"
+          ],
+          "note": "Rational functions; polynomial division"
+        },
+        {
+          "name": "AHL 2.15 Solving polynomial and modulus inequalities",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-maths-ch09-st1",
+            "ib-g11-maths-ch08-st3"
+          ],
+          "note": "Polynomial graphs; modulus graphs"
+        },
+        {
+          "name": "AHL 1.11 Partial fractions",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-maths-ch09-st1",
+            "ib-g9-maths-ch03-st5"
+          ],
+          "note": "Factor theorem; algebraic fractions (MYP 4)"
+        },
+        {
+          "name": "AHL 1.16 Systems of up to three linear equations: unique, infinite or no solutions",
+          "weight": "S",
+          "prereq": [
+            "ib-g9-maths-ch04-st4"
+          ],
+          "note": "Simultaneous equations (MYP 4)"
+        }
+      ]
+    },
+    {
+      "name": "Descriptive Statistics and Bivariate Data (SL 4.1-4.4, 4.10)",
+      "subtopics": [
+        {
+          "name": "SL 4.1 Populations, samples, sampling techniques and outliers",
+          "weight": "L",
+          "prereq": [
+            "ib-g10-maths-ch11-st4"
+          ],
+          "note": "Sampling methods and bias (MYP 5)"
+        },
+        {
+          "name": "SL 4.2 Presentation of data: histograms, cumulative frequency and box plots",
+          "weight": "S",
+          "prereq": [
+            "ib-g9-maths-ch11-st3"
+          ],
+          "note": "Cumulative frequency and box plots (MYP 4)"
+        },
+        {
+          "name": "SL 4.3 Measures of central tendency and dispersion, effect of constant changes",
+          "weight": "H",
+          "prereq": [
+            "ib-g10-maths-ch11-st5",
+            "ib-g9-maths-ch11-st2"
+          ],
+          "note": "Standard deviation (MYP 5); estimated mean"
+        },
+        {
+          "name": "SL 4.4 Pearson's correlation coefficient and the least-squares regression line y on x",
+          "weight": "H",
+          "prereq": [
+            "ib-g10-maths-ch11-st3",
+            "ib-g11-maths-ch10-st3"
+          ],
+          "note": "Correlation and line of best fit (MYP 5)"
+        },
+        {
+          "name": "SL 4.10 Regression line x on y and when to use each line",
+          "weight": "L",
+          "prereq": [
+            "ib-g11-maths-ch10-st4"
+          ],
+          "note": "Regression y on x"
+        }
+      ]
+    },
+    {
+      "name": "Probability (SL 4.5, 4.6, 4.11; AHL 4.13)",
+      "subtopics": [
+        {
+          "name": "SL 4.5 Concepts of trial, outcome, sample space and expected outcomes",
+          "weight": "S",
+          "prereq": [
+            "ib-g10-maths-ch12-st4"
+          ],
+          "note": "Theoretical and experimental probability (MYP 3-5)"
+        },
+        {
+          "name": "SL 4.6 Venn diagrams, tree diagrams, tables and combined events",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-maths-ch11-st1",
+            "ib-g10-maths-ch12-st1"
+          ],
+          "note": "Venn and tree diagrams (MYP 5)"
+        },
+        {
+          "name": "SL 4.11 Conditional probability and tests for independence",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-maths-ch11-st2",
+            "ib-g10-maths-ch12-st2"
+          ],
+          "note": "Conditional probability (MYP 5); combined events"
+        },
+        {
+          "name": "AHL 4.13 Bayes' theorem for up to three events",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-maths-ch11-st3"
+          ],
+          "note": "Conditional probability; tree diagrams"
+        }
+      ]
+    },
+    {
+      "name": "Probability Distributions (SL 4.7-4.9, 4.12; AHL 4.14)",
+      "subtopics": [
+        {
+          "name": "SL 4.7 Discrete random variables and expected value",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-maths-ch11-st1"
+          ],
+          "note": "Expected outcomes; probability tables"
+        },
+        {
+          "name": "SL 4.8 The binomial distribution: mean and variance",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-maths-ch03-st2",
+            "ib-g11-maths-ch12-st1"
+          ],
+          "note": "Binomial coefficients; independent events"
+        },
+        {
+          "name": "SL 4.9 and 4.12 The normal distribution and standardisation of normal variables (z-values)",
+          "weight": "H",
+          "prereq": [
+            "ib-g11-maths-ch10-st3"
+          ],
+          "note": "Mean and standard deviation"
+        },
+        {
+          "name": "AHL 4.14 Variance of discrete random variables and continuous random variables with PDFs",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-maths-ch12-st1"
+          ],
+          "note": "Expected value; integration as area (introduced in DP1)"
+        }
+      ]
+    },
+    {
+      "name": "Geometry and Trigonometry: Triangles, 3D Shapes and Radians (SL 3.1-3.4)",
+      "subtopics": [
+        {
+          "name": "SL 3.1 Distance and midpoint in 3D; volume and surface area of 3D solids; angle between a line and a plane",
+          "weight": "S",
+          "prereq": [
+            "ib-g9-maths-ch10-st4",
+            "ib-g9-maths-ch07-st4"
+          ],
+          "note": "Mensuration of solids (MYP 4); Pythagoras"
+        },
+        {
+          "name": "SL 3.2 Sine rule including ambiguous case, cosine rule and area ½ab sin C",
+          "weight": "H",
+          "prereq": [
+            "ib-g10-maths-ch08-st2",
+            "ib-g10-maths-ch08-st3"
+          ],
+          "note": "Sine and cosine rules (MYP 5)"
+        },
+        {
+          "name": "SL 3.3 Applications of right and non-right-angled trigonometry: bearings, elevation and depression",
+          "weight": "S",
+          "prereq": [
+            "ib-g11-maths-ch13-st2"
+          ],
+          "note": "Sine and cosine rules; bearings"
+        },
+        {
+          "name": "SL 3.4 Radian measure; arc length and area of a sector",
+          "weight": "S",
+          "prereq": [
+            "ib-g10-maths-ch09-st1"
+          ],
+          "note": "Radians and sector area (MYP 5)"
+        }
+      ]
+    }
+  ]
+}

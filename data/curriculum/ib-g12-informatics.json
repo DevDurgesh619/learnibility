@@ -1,0 +1,771 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "ib-g12-informatics",
+  "board": "ib",
+  "grade": 12,
+  "stream": "commerce",
+  "slug": "informatics",
+  "name": "Digital Society",
+  "programme": "IB DP Digital Society SL/HL (first exam 2024) – nearest to Informatics Practices",
+  "examPattern": "IB DP – graded 1–7; recommended 150 h SL / 240 h HL; exams May (Hindi May only). HL: Paper 1 2 h 15 (35%); Paper 2 source-based 1 h 15 (20%); Paper 3 pre-released intervention brief 1 h 15 (25%); IA inquiry project (20%). SL: P1 1 h 30 (40%), P2 (30%), IA (30%). Paper marks UNVERIFIED.",
+  "chapterCount": 13,
+  "questionTarget": 1065
+ },
+ "items": [
+  {
+   "id": "ib-g12-informatics-ch01",
+   "subjectId": "ib-g12-informatics",
+   "order": 1,
+   "name": "Content 3.5 Media: Types, Characteristics and Evolution",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "ib-g12-informatics-ch01-st1",
+    "ib-g12-informatics-ch01-st2",
+    "ib-g12-informatics-ch01-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-informatics-ch02",
+   "subjectId": "ib-g12-informatics",
+   "order": 2,
+   "name": "Content 3.5 Media: Influence, Misinformation and Platform Power",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g12-informatics-ch02-st1",
+    "ib-g12-informatics-ch02-st2",
+    "ib-g12-informatics-ch02-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-informatics-ch03",
+   "subjectId": "ib-g12-informatics",
+   "order": 3,
+   "name": "Content 3.6 Artificial Intelligence: Types and Machine Learning",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "ib-g12-informatics-ch03-st1",
+    "ib-g12-informatics-ch03-st2",
+    "ib-g12-informatics-ch03-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-informatics-ch04",
+   "subjectId": "ib-g12-informatics",
+   "order": 4,
+   "name": "Content 3.6 Artificial Intelligence: Ethical, Social and Economic Impacts",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "ib-g12-informatics-ch04-st1",
+    "ib-g12-informatics-ch04-st2",
+    "ib-g12-informatics-ch04-st3",
+    "ib-g12-informatics-ch04-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-informatics-ch05",
+   "subjectId": "ib-g12-informatics",
+   "order": 5,
+   "name": "Content 3.7 Robots and Autonomous Technologies: Characteristics and Uses",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "ib-g12-informatics-ch05-st1",
+    "ib-g12-informatics-ch05-st2",
+    "ib-g12-informatics-ch05-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-informatics-ch06",
+   "subjectId": "ib-g12-informatics",
+   "order": 6,
+   "name": "Content 3.7 Robots and Autonomous Technologies: Impacts and Dilemmas",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g12-informatics-ch06-st1",
+    "ib-g12-informatics-ch06-st2",
+    "ib-g12-informatics-ch06-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-informatics-ch07",
+   "subjectId": "ib-g12-informatics",
+   "order": 7,
+   "name": "Contexts in Depth: Applying Concepts and Content to Real-world Examples",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g12-informatics-ch07-st1",
+    "ib-g12-informatics-ch07-st2",
+    "ib-g12-informatics-ch07-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-informatics-ch08",
+   "subjectId": "ib-g12-informatics",
+   "order": 8,
+   "name": "HL Challenge 5.1 Global Well-being",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g12-informatics-ch08-st1",
+    "ib-g12-informatics-ch08-st2",
+    "ib-g12-informatics-ch08-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-informatics-ch09",
+   "subjectId": "ib-g12-informatics",
+   "order": 9,
+   "name": "HL Challenge 5.2 Governance and Human Rights",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g12-informatics-ch09-st1",
+    "ib-g12-informatics-ch09-st2",
+    "ib-g12-informatics-ch09-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-informatics-ch10",
+   "subjectId": "ib-g12-informatics",
+   "order": 10,
+   "name": "HL Challenge 5.3 Sustainable Development",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g12-informatics-ch10-st1",
+    "ib-g12-informatics-ch10-st2",
+    "ib-g12-informatics-ch10-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-informatics-ch11",
+   "subjectId": "ib-g12-informatics",
+   "order": 11,
+   "name": "HL Paper 3: Analysing Interventions from the Pre-released Brief",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g12-informatics-ch11-st1",
+    "ib-g12-informatics-ch11-st2",
+    "ib-g12-informatics-ch11-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-informatics-ch12",
+   "subjectId": "ib-g12-informatics",
+   "order": 12,
+   "name": "Paper 1 Extended Response Skills",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "ib-g12-informatics-ch12-st1",
+    "ib-g12-informatics-ch12-st2",
+    "ib-g12-informatics-ch12-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-informatics-ch13",
+   "subjectId": "ib-g12-informatics",
+   "order": 13,
+   "name": "Internal Assessment: Inquiry Project",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "ib-g12-informatics-ch13-st1",
+    "ib-g12-informatics-ch13-st2",
+    "ib-g12-informatics-ch13-st3",
+    "ib-g12-informatics-ch13-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "ib-g12-informatics-ch01-st1",
+   "chapterId": "ib-g12-informatics-ch01",
+   "order": 1,
+   "name": "Types of digital media: text, image, audio, video, games and virtual/augmented reality",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch02-st2"
+   ],
+   "prerequisiteNote": "Digital expression (Grade 11 Digital Society)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch01-st2",
+   "chapterId": "ib-g12-informatics-ch01",
+   "order": 2,
+   "name": "Evolution from mass media to participatory and social media",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch01-st1",
+    "ib-g11-informatics-ch12-st3"
+   ],
+   "prerequisiteNote": "Social impact of networks (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch01-st3",
+   "chapterId": "ib-g12-informatics-ch01",
+   "order": 3,
+   "name": "Media production and distribution: streaming, creators and the platform economy",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch01-st2"
+   ],
+   "prerequisiteNote": "Participatory media; platform power (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch02-st1",
+   "chapterId": "ib-g12-informatics-ch02",
+   "order": 1,
+   "name": "Misinformation, disinformation and deepfakes: spread and impact",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch01-st2",
+    "ib-g11-informatics-ch12-st3"
+   ],
+   "prerequisiteNote": "Filter bubbles and echo chambers (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch02-st2",
+   "chapterId": "ib-g12-informatics-ch02",
+   "order": 2,
+   "name": "Content moderation and the regulation of digital media platforms",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch02-st1",
+    "ib-g11-informatics-ch12-st1"
+   ],
+   "prerequisiteNote": "Internet governance (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch02-st3",
+   "chapterId": "ib-g12-informatics-ch02",
+   "order": 3,
+   "name": "Media literacy and verification practices",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch02-st1",
+    "ib-g11-informatics-ch01-st3"
+   ],
+   "prerequisiteNote": "Evaluating sources and claims (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch03-st1",
+   "chapterId": "ib-g12-informatics-ch03",
+   "order": 1,
+   "name": "Defining AI: narrow vs general AI, the Turing test and the history of AI",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch07-st1"
+   ],
+   "prerequisiteNote": "What is an algorithm (Grade 11 Digital Society)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch03-st2",
+   "chapterId": "ib-g12-informatics-ch03",
+   "order": 2,
+   "name": "Machine learning: supervised, unsupervised and reinforcement learning; training data",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch03-st1",
+    "ib-g11-informatics-ch06-st1"
+   ],
+   "prerequisiteNote": "Big data and data analytics (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch03-st3",
+   "chapterId": "ib-g12-informatics-ch03",
+   "order": 3,
+   "name": "Neural networks, deep learning and generative AI (large language models, image generators)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch03-st2"
+   ],
+   "prerequisiteNote": "Machine learning and training data",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch04-st1",
+   "chapterId": "ib-g12-informatics-ch04",
+   "order": 1,
+   "name": "AI bias and fairness in high-stakes decisions (hiring, policing, credit)",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch03-st2",
+    "ib-g11-informatics-ch08-st1"
+   ],
+   "prerequisiteNote": "Algorithmic bias (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch04-st2",
+   "chapterId": "ib-g12-informatics-ch04",
+   "order": 2,
+   "name": "AI and work: automation, job displacement and new skills",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch03-st3"
+   ],
+   "prerequisiteNote": "Generative AI; economic context",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch04-st3",
+   "chapterId": "ib-g12-informatics-ch04",
+   "order": 3,
+   "name": "AI governance: the EU AI Act, ethics guidelines and accountability",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch04-st1",
+    "ib-g11-informatics-ch08-st3"
+   ],
+   "prerequisiteNote": "Accountability and regulation of algorithms (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch04-st4",
+   "chapterId": "ib-g12-informatics-ch04",
+   "order": 4,
+   "name": "AI and creativity, authorship and intellectual property",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch03-st3",
+    "ib-g12-informatics-ch01-st3"
+   ],
+   "prerequisiteNote": "Generative AI; media production",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch05-st1",
+   "chapterId": "ib-g12-informatics-ch05",
+   "order": 1,
+   "name": "What is a robot? Sensors, actuators, control and degrees of autonomy",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch09-st1"
+   ],
+   "prerequisiteNote": "Computer components (Grade 11); systems concept",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch05-st2",
+   "chapterId": "ib-g12-informatics-ch05",
+   "order": 2,
+   "name": "Types and uses: industrial, service, social and medical robots, drones and autonomous vehicles",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch05-st1"
+   ],
+   "prerequisiteNote": "Robot characteristics",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch05-st3",
+   "chapterId": "ib-g12-informatics-ch05",
+   "order": 3,
+   "name": "Human-robot interaction and anthropomorphism",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch05-st2"
+   ],
+   "prerequisiteNote": "Social robots; identity concept",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch06-st1",
+   "chapterId": "ib-g12-informatics-ch06",
+   "order": 1,
+   "name": "Ethical dilemmas of autonomous vehicles and weapons: responsibility and the trolley problem",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch05-st2",
+    "ib-g11-informatics-ch04-st3"
+   ],
+   "prerequisiteNote": "Values and ethics frameworks (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch06-st2",
+   "chapterId": "ib-g12-informatics-ch06",
+   "order": 2,
+   "name": "Robots in health and care: benefits, risks and dignity",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch05-st2"
+   ],
+   "prerequisiteNote": "Medical and social robots",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch06-st3",
+   "chapterId": "ib-g12-informatics-ch06",
+   "order": 3,
+   "name": "Economic and environmental impacts of robotics and automation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch06-st2",
+    "ib-g12-informatics-ch04-st2"
+   ],
+   "prerequisiteNote": "Robots in care; AI and work",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch07-st1",
+   "chapterId": "ib-g12-informatics-ch07",
+   "order": 1,
+   "name": "Economic and political contexts: platform economy, elections and digital governance",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch02-st2",
+    "ib-g11-informatics-ch13-st1"
+   ],
+   "prerequisiteNote": "The seven contexts (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch07-st2",
+   "chapterId": "ib-g12-informatics-ch07",
+   "order": 2,
+   "name": "Health and environmental contexts: telemedicine, wearables and smart sustainability",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch06-st2"
+   ],
+   "prerequisiteNote": "Robots in health; environmental impacts of computing (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch07-st3",
+   "chapterId": "ib-g12-informatics-ch07",
+   "order": 3,
+   "name": "Cultural, social and human knowledge contexts: AI and knowledge, cultural preservation",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch07-st1",
+    "ib-g12-informatics-ch03-st3"
+   ],
+   "prerequisiteNote": "Economic and political contexts; generative AI",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch08-st1",
+   "chapterId": "ib-g12-informatics-ch08",
+   "order": 1,
+   "name": "Challenges to global well-being: digital health, mental health and online harms",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch07-st2"
+   ],
+   "prerequisiteNote": "Health context; social media impact",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch08-st2",
+   "chapterId": "ib-g12-informatics-ch08",
+   "order": 2,
+   "name": "Interventions for well-being: regulation, design changes and education",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch08-st1"
+   ],
+   "prerequisiteNote": "Challenges to well-being",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch08-st3",
+   "chapterId": "ib-g12-informatics-ch08",
+   "order": 3,
+   "name": "Evaluating interventions: stakeholders, effectiveness and unintended consequences",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch08-st2"
+   ],
+   "prerequisiteNote": "Interventions for well-being; stakeholders and ethics",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch09-st1",
+   "chapterId": "ib-g12-informatics-ch09",
+   "order": 1,
+   "name": "Digital rights: privacy, freedom of expression and access to information",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch02-st2",
+    "ib-g11-informatics-ch06-st2"
+   ],
+   "prerequisiteNote": "Privacy and data protection laws (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch09-st2",
+   "chapterId": "ib-g12-informatics-ch09",
+   "order": 2,
+   "name": "Surveillance, censorship and internet shutdowns as human rights challenges",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch09-st1",
+    "ib-g11-informatics-ch06-st3"
+   ],
+   "prerequisiteNote": "Surveillance (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch09-st3",
+   "chapterId": "ib-g12-informatics-ch09",
+   "order": 3,
+   "name": "Interventions: international law, digital constitutionalism and civil society",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch09-st2",
+    "ib-g12-informatics-ch04-st3"
+   ],
+   "prerequisiteNote": "Censorship challenges; AI governance",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch10-st1",
+   "chapterId": "ib-g12-informatics-ch10",
+   "order": 1,
+   "name": "Digital technology and the SDGs: opportunities and risks",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch10-st2"
+   ],
+   "prerequisiteNote": "Environmental impacts of computing (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch10-st2",
+   "chapterId": "ib-g12-informatics-ch10",
+   "order": 2,
+   "name": "Sustainable computing: green data centres, circular design and e-waste policy",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch10-st1"
+   ],
+   "prerequisiteNote": "Digital technology and SDGs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch10-st3",
+   "chapterId": "ib-g12-informatics-ch10",
+   "order": 3,
+   "name": "Digital inclusion interventions: connectivity, digital literacy and ICT4D",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch10-st1",
+    "ib-g11-informatics-ch10-st1"
+   ],
+   "prerequisiteNote": "Digital divide (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch11-st1",
+   "chapterId": "ib-g12-informatics-ch11",
+   "order": 1,
+   "name": "Unpacking the pre-released statement: challenge, stakeholders and context",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch08-st3"
+   ],
+   "prerequisiteNote": "Evaluating interventions; stakeholders",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch11-st2",
+   "chapterId": "ib-g12-informatics-ch11",
+   "order": 2,
+   "name": "Evaluating an intervention and recommending further steps",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch11-st1",
+    "ib-g12-informatics-ch09-st3"
+   ],
+   "prerequisiteNote": "Pre-released statement; governance interventions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch11-st3",
+   "chapterId": "ib-g12-informatics-ch11",
+   "order": 3,
+   "name": "Timed practice for Paper 3 with markband self-assessment",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch11-st2"
+   ],
+   "prerequisiteNote": "Evaluation and recommendation structure",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch12-st1",
+   "chapterId": "ib-g12-informatics-ch12",
+   "order": 1,
+   "name": "Paper 1 structured questions: definitions, explanations and examples",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch07-st3"
+   ],
+   "prerequisiteNote": "Concepts, content and contexts",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch12-st2",
+   "chapterId": "ib-g12-informatics-ch12",
+   "order": 2,
+   "name": "Paper 1 extended response: evaluating impacts using concepts and real-world examples",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch12-st1",
+    "ib-g11-informatics-ch13-st3"
+   ],
+   "prerequisiteNote": "Applying concepts, content and contexts (Grade 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch12-st3",
+   "chapterId": "ib-g12-informatics-ch12",
+   "order": 3,
+   "name": "Building a portfolio of current real-world examples",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch12-st2"
+   ],
+   "prerequisiteNote": "Extended response; following technology news",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch13-st1",
+   "chapterId": "ib-g12-informatics-ch13",
+   "order": 1,
+   "name": "Choosing a real-world digital system and formulating an inquiry focus",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-informatics-ch01-st2"
+   ],
+   "prerequisiteNote": "Inquiry process (Grade 11 Digital Society)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch13-st2",
+   "chapterId": "ib-g12-informatics-ch13",
+   "order": 2,
+   "name": "Researching and evaluating sources; documenting claims and perspectives",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch13-st1",
+    "ib-g12-informatics-ch02-st3"
+   ],
+   "prerequisiteNote": "Inquiry focus; media literacy",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch13-st3",
+   "chapterId": "ib-g12-informatics-ch13",
+   "order": 3,
+   "name": "Producing the multimedia presentation: analysis of impacts and implications",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch13-st2"
+   ],
+   "prerequisiteNote": "Research and claims; concepts and contexts",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-informatics-ch13-st4",
+   "chapterId": "ib-g12-informatics-ch13",
+   "order": 4,
+   "name": "Inquiry process document, citations and reflection",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g12-informatics-ch13-st3"
+   ],
+   "prerequisiteNote": "Multimedia presentation; academic integrity",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

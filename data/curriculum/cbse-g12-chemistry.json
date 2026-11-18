@@ -1,0 +1,753 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cbse-g12-chemistry",
+  "board": "cbse",
+  "grade": 12,
+  "stream": "science",
+  "slug": "chemistry",
+  "name": "Chemistry",
+  "programme": "CBSE Class 12 Chemistry (043)",
+  "textbook": "NCERT Chemistry XII Part I + II (043)",
+  "examPattern": "CBSE Board exam, 3 h; SQP 2026-27 – 'no change in question paper design'. 50% competency-based, 20% MCQ, 30% SA/LA, ~33% internal choice. Theory 70 + Practical 30. 33 questions (same pattern as Physics).",
+  "chapterCount": 10,
+  "questionTarget": 1198
+ },
+ "items": [
+  {
+   "id": "cbse-g12-chemistry-ch01",
+   "subjectId": "cbse-g12-chemistry",
+   "order": 1,
+   "name": "Solutions",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cbse-g12-chemistry-ch01-st1",
+    "cbse-g12-chemistry-ch01-st2",
+    "cbse-g12-chemistry-ch01-st3",
+    "cbse-g12-chemistry-ch01-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-chemistry-ch02",
+   "subjectId": "cbse-g12-chemistry",
+   "order": 2,
+   "name": "Electrochemistry",
+   "teachingPeriods": 21,
+   "subtopicIds": [
+    "cbse-g12-chemistry-ch02-st1",
+    "cbse-g12-chemistry-ch02-st2",
+    "cbse-g12-chemistry-ch02-st3",
+    "cbse-g12-chemistry-ch02-st4",
+    "cbse-g12-chemistry-ch02-st5"
+   ]
+  },
+  {
+   "id": "cbse-g12-chemistry-ch03",
+   "subjectId": "cbse-g12-chemistry",
+   "order": 3,
+   "name": "Chemical Kinetics",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cbse-g12-chemistry-ch03-st1",
+    "cbse-g12-chemistry-ch03-st2",
+    "cbse-g12-chemistry-ch03-st3",
+    "cbse-g12-chemistry-ch03-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-chemistry-ch04",
+   "subjectId": "cbse-g12-chemistry",
+   "order": 4,
+   "name": "The d- and f-Block Elements",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g12-chemistry-ch04-st1",
+    "cbse-g12-chemistry-ch04-st2",
+    "cbse-g12-chemistry-ch04-st3",
+    "cbse-g12-chemistry-ch04-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-chemistry-ch05",
+   "subjectId": "cbse-g12-chemistry",
+   "order": 5,
+   "name": "Coordination Compounds",
+   "teachingPeriods": 23,
+   "subtopicIds": [
+    "cbse-g12-chemistry-ch05-st1",
+    "cbse-g12-chemistry-ch05-st2",
+    "cbse-g12-chemistry-ch05-st3",
+    "cbse-g12-chemistry-ch05-st4",
+    "cbse-g12-chemistry-ch05-st5"
+   ]
+  },
+  {
+   "id": "cbse-g12-chemistry-ch06",
+   "subjectId": "cbse-g12-chemistry",
+   "order": 6,
+   "name": "Haloalkanes and Haloarenes",
+   "teachingPeriods": 21,
+   "subtopicIds": [
+    "cbse-g12-chemistry-ch06-st1",
+    "cbse-g12-chemistry-ch06-st2",
+    "cbse-g12-chemistry-ch06-st3",
+    "cbse-g12-chemistry-ch06-st4",
+    "cbse-g12-chemistry-ch06-st5"
+   ]
+  },
+  {
+   "id": "cbse-g12-chemistry-ch07",
+   "subjectId": "cbse-g12-chemistry",
+   "order": 7,
+   "name": "Alcohols, Phenols and Ethers",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g12-chemistry-ch07-st1",
+    "cbse-g12-chemistry-ch07-st2",
+    "cbse-g12-chemistry-ch07-st3",
+    "cbse-g12-chemistry-ch07-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-chemistry-ch08",
+   "subjectId": "cbse-g12-chemistry",
+   "order": 8,
+   "name": "Aldehydes, Ketones and Carboxylic Acids",
+   "teachingPeriods": 19,
+   "subtopicIds": [
+    "cbse-g12-chemistry-ch08-st1",
+    "cbse-g12-chemistry-ch08-st2",
+    "cbse-g12-chemistry-ch08-st3",
+    "cbse-g12-chemistry-ch08-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-chemistry-ch09",
+   "subjectId": "cbse-g12-chemistry",
+   "order": 9,
+   "name": "Amines",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cbse-g12-chemistry-ch09-st1",
+    "cbse-g12-chemistry-ch09-st2",
+    "cbse-g12-chemistry-ch09-st3"
+   ]
+  },
+  {
+   "id": "cbse-g12-chemistry-ch10",
+   "subjectId": "cbse-g12-chemistry",
+   "order": 10,
+   "name": "Biomolecules",
+   "teachingPeriods": 15,
+   "subtopicIds": [
+    "cbse-g12-chemistry-ch10-st1",
+    "cbse-g12-chemistry-ch10-st2",
+    "cbse-g12-chemistry-ch10-st3",
+    "cbse-g12-chemistry-ch10-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cbse-g12-chemistry-ch01-st1",
+   "chapterId": "cbse-g12-chemistry-ch01",
+   "order": 1,
+   "name": "Types of solutions and expressing concentration of solutions",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch01-st5"
+   ],
+   "prerequisiteNote": "Molarity, molality and mole fraction (Cl 11 chemistry)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch01-st2",
+   "chapterId": "cbse-g12-chemistry-ch01",
+   "order": 2,
+   "name": "Solubility of solids and gases: Henry's law",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch01-st1",
+    "cbse-g11-chemistry-ch06-st1"
+   ],
+   "prerequisiteNote": "Concentration terms; dynamic equilibrium (Cl 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch01-st3",
+   "chapterId": "cbse-g12-chemistry-ch01",
+   "order": 3,
+   "name": "Vapour pressure of liquid solutions: Raoult's law, ideal and non-ideal solutions",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch01-st1"
+   ],
+   "prerequisiteNote": "Concentration terms; vapour pressure as dynamic equilibrium",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch01-st4",
+   "chapterId": "cbse-g12-chemistry-ch01",
+   "order": 4,
+   "name": "Colligative properties and determination of molar mass; van't Hoff factor",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch01-st3"
+   ],
+   "prerequisiteNote": "Raoult's law; Mole concept (Cl 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch02-st1",
+   "chapterId": "cbse-g12-chemistry-ch02",
+   "order": 1,
+   "name": "Electrochemical cells and galvanic cells; standard electrode potential",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch07-st4"
+   ],
+   "prerequisiteNote": "Redox reactions and electrode processes (Cl 11 chemistry)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch02-st2",
+   "chapterId": "cbse-g12-chemistry-ch02",
+   "order": 2,
+   "name": "Nernst equation and relation between cell emf and Gibbs energy",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch02-st1",
+    "cbse-g11-chemistry-ch05-st4"
+   ],
+   "prerequisiteNote": "Gibbs energy (Cl 11 chemistry); logarithms",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch02-st3",
+   "chapterId": "cbse-g12-chemistry-ch02",
+   "order": 3,
+   "name": "Conductance of electrolytic solutions: molar conductivity and Kohlrausch's law",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch02-st1",
+    "cbse-g11-chemistry-ch06-st3"
+   ],
+   "prerequisiteNote": "Ionisation of electrolytes (Cl 11); Ohm's law (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch02-st4",
+   "chapterId": "cbse-g12-chemistry-ch02",
+   "order": 4,
+   "name": "Electrolytic cells, electrolysis and Faraday's laws",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch02-st3"
+   ],
+   "prerequisiteNote": "Conductance; Mole concept",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch02-st5",
+   "chapterId": "cbse-g12-chemistry-ch02",
+   "order": 5,
+   "name": "Batteries, fuel cells and corrosion",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch02-st1",
+    "cbse-g12-chemistry-ch02-st4"
+   ],
+   "prerequisiteNote": "Galvanic cells; corrosion as oxidation (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch03-st1",
+   "chapterId": "cbse-g12-chemistry-ch03",
+   "order": 1,
+   "name": "Rate of a chemical reaction and factors affecting rate",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch01-st4"
+   ],
+   "prerequisiteNote": "Stoichiometry (Cl 11); concentration and time graphs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch03-st2",
+   "chapterId": "cbse-g12-chemistry-ch03",
+   "order": 2,
+   "name": "Rate law, order and molecularity",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch03-st1"
+   ],
+   "prerequisiteNote": "Rate of reaction",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch03-st3",
+   "chapterId": "cbse-g12-chemistry-ch03",
+   "order": 3,
+   "name": "Integrated rate equations for zero and first order reactions; half-life",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch03-st2"
+   ],
+   "prerequisiteNote": "Rate law and order; logarithms and exponentials",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch03-st4",
+   "chapterId": "cbse-g12-chemistry-ch03",
+   "order": 4,
+   "name": "Temperature dependence of rate: Arrhenius equation and collision theory",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch03-st2",
+    "cbse-g11-chemistry-ch05-st2"
+   ],
+   "prerequisiteNote": "Rate law; enthalpy change and activation energy (Cl 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch04-st1",
+   "chapterId": "cbse-g12-chemistry-ch04",
+   "order": 1,
+   "name": "Position and electronic configuration of transition elements",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch03-st2"
+   ],
+   "prerequisiteNote": "s, p, d, f blocks (Cl 11 chemistry); electronic configuration",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch04-st2",
+   "chapterId": "cbse-g12-chemistry-ch04",
+   "order": 2,
+   "name": "General properties of transition elements: oxidation states, magnetic properties, colour, catalytic behaviour",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch04-st1",
+    "cbse-g11-chemistry-ch03-st3"
+   ],
+   "prerequisiteNote": "Periodic trends (Cl 11); unpaired electrons",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch04-st3",
+   "chapterId": "cbse-g12-chemistry-ch04",
+   "order": 3,
+   "name": "Potassium dichromate and potassium permanganate: preparation and properties",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch04-st2",
+    "cbse-g11-chemistry-ch07-st3"
+   ],
+   "prerequisiteNote": "Balancing redox reactions (Cl 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch04-st4",
+   "chapterId": "cbse-g12-chemistry-ch04",
+   "order": 4,
+   "name": "Lanthanoids and actinoids: lanthanoid contraction",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch04-st1"
+   ],
+   "prerequisiteNote": "Electronic configuration of f-block",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch05-st1",
+   "chapterId": "cbse-g12-chemistry-ch05",
+   "order": 1,
+   "name": "Werner's theory and definitions of key terms",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch04-st2"
+   ],
+   "prerequisiteNote": "Oxidation states of transition metals",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch05-st2",
+   "chapterId": "cbse-g12-chemistry-ch05",
+   "order": 2,
+   "name": "IUPAC nomenclature of coordination compounds",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch05-st1"
+   ],
+   "prerequisiteNote": "Ligands, coordination number and oxidation state",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch05-st3",
+   "chapterId": "cbse-g12-chemistry-ch05",
+   "order": 3,
+   "name": "Isomerism in coordination compounds",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch05-st2"
+   ],
+   "prerequisiteNote": "IUPAC nomenclature; geometrical isomerism (Cl 11 hydrocarbons)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch05-st4",
+   "chapterId": "cbse-g12-chemistry-ch05",
+   "order": 4,
+   "name": "Bonding: valence bond theory and crystal field theory",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch05-st1",
+    "cbse-g11-chemistry-ch04-st4"
+   ],
+   "prerequisiteNote": "Hybridisation (Cl 11 chemistry); magnetic properties of d-block",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch05-st5",
+   "chapterId": "cbse-g12-chemistry-ch05",
+   "order": 5,
+   "name": "Importance and applications of coordination compounds",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch05-st4"
+   ],
+   "prerequisiteNote": "Bonding in coordination compounds",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch06-st1",
+   "chapterId": "cbse-g12-chemistry-ch06",
+   "order": 1,
+   "name": "Classification, nomenclature and nature of the C-X bond",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch08-st2"
+   ],
+   "prerequisiteNote": "IUPAC nomenclature (Cl 11 chemistry); bond polarity",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch06-st2",
+   "chapterId": "cbse-g12-chemistry-ch06",
+   "order": 2,
+   "name": "Methods of preparation and physical properties",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch06-st1",
+    "cbse-g11-chemistry-ch09-st2"
+   ],
+   "prerequisiteNote": "Alkene addition reactions (Cl 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch06-st3",
+   "chapterId": "cbse-g12-chemistry-ch06",
+   "order": 3,
+   "name": "Chemical reactions: SN1 and SN2 mechanisms; elimination; reactions with metals",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch06-st2",
+    "cbse-g11-chemistry-ch08-st3"
+   ],
+   "prerequisiteNote": "Electronic displacements and carbocations (Cl 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch06-st4",
+   "chapterId": "cbse-g12-chemistry-ch06",
+   "order": 4,
+   "name": "Stereochemistry: optical isomerism and chirality",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch06-st3"
+   ],
+   "prerequisiteNote": "SN1 and SN2 mechanisms",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch06-st5",
+   "chapterId": "cbse-g12-chemistry-ch06",
+   "order": 5,
+   "name": "Polyhalogen compounds: uses and environmental effects",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch06-st1"
+   ],
+   "prerequisiteNote": "Classification of halo compounds",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch07-st1",
+   "chapterId": "cbse-g12-chemistry-ch07",
+   "order": 1,
+   "name": "Nomenclature, structures and preparation of alcohols and phenols",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch06-st3"
+   ],
+   "prerequisiteNote": "Haloalkane substitution reactions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch07-st2",
+   "chapterId": "cbse-g12-chemistry-ch07",
+   "order": 2,
+   "name": "Physical and chemical properties of alcohols and phenols; acidity",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch07-st1",
+    "cbse-g11-chemistry-ch06-st4"
+   ],
+   "prerequisiteNote": "Acid strength and ionisation (Cl 11); hydrogen bonding",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch07-st3",
+   "chapterId": "cbse-g12-chemistry-ch07",
+   "order": 3,
+   "name": "Some commercially important alcohols",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch07-st2"
+   ],
+   "prerequisiteNote": "Properties of alcohols; ethanol (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch07-st4",
+   "chapterId": "cbse-g12-chemistry-ch07",
+   "order": 4,
+   "name": "Ethers: preparation, properties and Williamson synthesis",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch07-st2"
+   ],
+   "prerequisiteNote": "Properties of alcohols; SN2 mechanism",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch08-st1",
+   "chapterId": "cbse-g12-chemistry-ch08",
+   "order": 1,
+   "name": "Nomenclature, structure and preparation of aldehydes and ketones",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch07-st2"
+   ],
+   "prerequisiteNote": "Oxidation of alcohols",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch08-st2",
+   "chapterId": "cbse-g12-chemistry-ch08",
+   "order": 2,
+   "name": "Nucleophilic addition and other reactions of aldehydes and ketones",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch08-st1"
+   ],
+   "prerequisiteNote": "Carbonyl polarity; electronic displacements (Cl 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch08-st3",
+   "chapterId": "cbse-g12-chemistry-ch08",
+   "order": 3,
+   "name": "Carboxylic acids: preparation, acidity and chemical reactions",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch08-st2"
+   ],
+   "prerequisiteNote": "Reactions of carbonyl compounds; acid strength (Cl 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch08-st4",
+   "chapterId": "cbse-g12-chemistry-ch08",
+   "order": 4,
+   "name": "Uses of aldehydes, ketones and carboxylic acids",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch08-st3"
+   ],
+   "prerequisiteNote": "Carboxylic acid reactions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch09-st1",
+   "chapterId": "cbse-g12-chemistry-ch09",
+   "order": 1,
+   "name": "Structure, classification, nomenclature and preparation of amines",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch06-st3"
+   ],
+   "prerequisiteNote": "Haloalkane substitution; nomenclature",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch09-st2",
+   "chapterId": "cbse-g12-chemistry-ch09",
+   "order": 2,
+   "name": "Physical properties, basicity and chemical reactions of amines",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch09-st1",
+    "cbse-g11-chemistry-ch06-st4"
+   ],
+   "prerequisiteNote": "Base strength and Kb (Cl 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch09-st3",
+   "chapterId": "cbse-g12-chemistry-ch09",
+   "order": 3,
+   "name": "Diazonium salts: preparation and importance in synthesis",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch09-st2"
+   ],
+   "prerequisiteNote": "Reactions of aromatic amines",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch10-st1",
+   "chapterId": "cbse-g12-chemistry-ch10",
+   "order": 1,
+   "name": "Carbohydrates: classification, glucose, fructose, disaccharides and polysaccharides",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch08-st2"
+   ],
+   "prerequisiteNote": "Aldehyde and ketone reactions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch10-st2",
+   "chapterId": "cbse-g12-chemistry-ch10",
+   "order": 2,
+   "name": "Proteins: amino acids, peptide bond, structure and denaturation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch09-st2"
+   ],
+   "prerequisiteNote": "Amines basicity; carboxylic acids",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch10-st3",
+   "chapterId": "cbse-g12-chemistry-ch10",
+   "order": 3,
+   "name": "Enzymes, vitamins and hormones",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch10-st2"
+   ],
+   "prerequisiteNote": "Protein structure",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-chemistry-ch10-st4",
+   "chapterId": "cbse-g12-chemistry-ch10",
+   "order": 4,
+   "name": "Nucleic acids: DNA and RNA",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-chemistry-ch10-st1"
+   ],
+   "prerequisiteNote": "Carbohydrates (pentose sugars); nitrogen bases",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

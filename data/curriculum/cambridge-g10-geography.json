@@ -1,0 +1,461 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cambridge-g10-geography",
+  "board": "cambridge",
+  "grade": 10,
+  "stream": "none",
+  "slug": "geography",
+  "name": "Geography",
+  "programme": "Cambridge IGCSE Geography 0460 (NEW 2027–29 syllabus, 10 topics/35 subtopics)",
+  "textbook": "CUP Coursebook 3rd ed.",
+  "examPattern": "Paper 1 Physical 1 h 45, 75 marks (36%) and Paper 2 Human 1 h 45, 75 marks (36%): 1 compulsory + 2 of 3 questions, 25 marks each. Component 3 Coursework or Paper 4 Alternative to Coursework 1 h 30, 60 marks (28%), 2 compulsory questions.",
+  "chapterCount": 6,
+  "questionTarget": 540
+ },
+ "items": [
+  {
+   "id": "cambridge-g10-geography-ch01",
+   "subjectId": "cambridge-g10-geography",
+   "order": 1,
+   "name": "Population Dynamics",
+   "teachingPeriods": 22,
+   "subtopicIds": [
+    "cambridge-g10-geography-ch01-st1",
+    "cambridge-g10-geography-ch01-st2",
+    "cambridge-g10-geography-ch01-st3",
+    "cambridge-g10-geography-ch01-st4",
+    "cambridge-g10-geography-ch01-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g10-geography-ch02",
+   "subjectId": "cambridge-g10-geography",
+   "order": 2,
+   "name": "Settlement and Urbanisation",
+   "teachingPeriods": 15,
+   "subtopicIds": [
+    "cambridge-g10-geography-ch02-st1",
+    "cambridge-g10-geography-ch02-st2",
+    "cambridge-g10-geography-ch02-st3",
+    "cambridge-g10-geography-ch02-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g10-geography-ch03",
+   "subjectId": "cambridge-g10-geography",
+   "order": 3,
+   "name": "Development",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cambridge-g10-geography-ch03-st1",
+    "cambridge-g10-geography-ch03-st2",
+    "cambridge-g10-geography-ch03-st3",
+    "cambridge-g10-geography-ch03-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g10-geography-ch04",
+   "subjectId": "cambridge-g10-geography",
+   "order": 4,
+   "name": "Economic Activity: Agriculture, Industry and Tourism",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cambridge-g10-geography-ch04-st1",
+    "cambridge-g10-geography-ch04-st2",
+    "cambridge-g10-geography-ch04-st3",
+    "cambridge-g10-geography-ch04-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g10-geography-ch05",
+   "subjectId": "cambridge-g10-geography",
+   "order": 5,
+   "name": "Resources and the Environment: Energy, Water and Environmental Risks",
+   "teachingPeriods": 15,
+   "subtopicIds": [
+    "cambridge-g10-geography-ch05-st1",
+    "cambridge-g10-geography-ch05-st2",
+    "cambridge-g10-geography-ch05-st3",
+    "cambridge-g10-geography-ch05-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g10-geography-ch06",
+   "subjectId": "cambridge-g10-geography",
+   "order": 6,
+   "name": "Geographical Enquiry and Fieldwork: Coursework and Paper 4 Skills",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cambridge-g10-geography-ch06-st1",
+    "cambridge-g10-geography-ch06-st2",
+    "cambridge-g10-geography-ch06-st3",
+    "cambridge-g10-geography-ch06-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cambridge-g10-geography-ch01-st1",
+   "chapterId": "cambridge-g10-geography-ch01",
+   "order": 1,
+   "name": "Global population growth: birth rates, death rates and natural increase",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-geography-ch01-st3"
+   ],
+   "prerequisiteNote": "Population change: birth and death rates (Stage 9 Humanities); interpreting statistical data (IGCSE yr 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-geography-ch01-st2",
+   "chapterId": "cambridge-g10-geography-ch01",
+   "order": 2,
+   "name": "Population structure: population pyramids and dependency ratios",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g10-geography-ch01-st1",
+    "cambridge-g8-social-science-ch07-st2"
+   ],
+   "prerequisiteNote": "Birth and death rates; reading population pyramids (Stage 9 Humanities)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-geography-ch01-st3",
+   "chapterId": "cambridge-g10-geography-ch01",
+   "order": 3,
+   "name": "Overpopulation, underpopulation and population policies",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-geography-ch01-st2"
+   ],
+   "prerequisiteNote": "Population structure; resources versus population",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-geography-ch01-st4",
+   "chapterId": "cambridge-g10-geography-ch01",
+   "order": 4,
+   "name": "Population density and distribution: physical and human factors",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-geography-ch01-st1"
+   ],
+   "prerequisiteNote": "Population distribution and density (Stage 9 Humanities); map skills",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-geography-ch01-st5",
+   "chapterId": "cambridge-g10-geography-ch01",
+   "order": 5,
+   "name": "Migration: types, causes and impacts",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g10-geography-ch01-st1",
+    "cambridge-g8-social-science-ch07-st3"
+   ],
+   "prerequisiteNote": "Push and pull factors (Stage 9 Humanities); natural increase",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-geography-ch02-st1",
+   "chapterId": "cambridge-g10-geography-ch02",
+   "order": 1,
+   "name": "Settlement sites, functions and hierarchies",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-geography-ch01-st2"
+   ],
+   "prerequisiteNote": "Contours and relief on topographic maps (IGCSE yr 1 skills)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-geography-ch02-st2",
+   "chapterId": "cambridge-g10-geography-ch02",
+   "order": 2,
+   "name": "Urban land use zones and change in cities",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-geography-ch02-st1"
+   ],
+   "prerequisiteNote": "Settlement functions; land value and accessibility",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-geography-ch02-st3",
+   "chapterId": "cambridge-g10-geography-ch02",
+   "order": 3,
+   "name": "Rapid urbanisation in LICs and the growth of informal settlements",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g10-geography-ch01-st5",
+    "cambridge-g8-social-science-ch07-st5"
+   ],
+   "prerequisiteNote": "Rural-urban migration; challenges of urban living (Stage 9 Humanities)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-geography-ch02-st4",
+   "chapterId": "cambridge-g10-geography-ch02",
+   "order": 4,
+   "name": "Urban problems and sustainable solutions in HICs and LICs",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-geography-ch02-st2",
+    "cambridge-g10-geography-ch02-st3"
+   ],
+   "prerequisiteNote": "Urban land use; rapid urbanisation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-geography-ch03-st1",
+   "chapterId": "cambridge-g10-geography-ch03",
+   "order": 1,
+   "name": "Indicators of development: GNI per capita, HDI and others",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g8-social-science-ch09-st3"
+   ],
+   "prerequisiteNote": "Development indicators (Stage 9 Humanities); interpreting statistical data",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-geography-ch03-st2",
+   "chapterId": "cambridge-g10-geography-ch03",
+   "order": 2,
+   "name": "Inequalities between and within countries",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-geography-ch03-st1"
+   ],
+   "prerequisiteNote": "Development indicators; core and periphery",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-geography-ch03-st3",
+   "chapterId": "cambridge-g10-geography-ch03",
+   "order": 3,
+   "name": "Employment structure and the sectors of industry",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-geography-ch03-st1"
+   ],
+   "prerequisiteNote": "Primary, secondary, tertiary and quaternary sectors",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-geography-ch03-st4",
+   "chapterId": "cambridge-g10-geography-ch03",
+   "order": 4,
+   "name": "Globalisation and transnational corporations: benefits and problems",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g10-geography-ch03-st3",
+    "cambridge-g8-social-science-ch09-st2"
+   ],
+   "prerequisiteNote": "Employment structure; global supply chains (Stage 9 Humanities)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-geography-ch04-st1",
+   "chapterId": "cambridge-g10-geography-ch04",
+   "order": 1,
+   "name": "Agricultural systems: inputs, processes and outputs",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-geography-ch03-st3",
+    "cambridge-g9-geography-ch05-st2"
+   ],
+   "prerequisiteNote": "Employment sectors; weather data and climate",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-geography-ch04-st2",
+   "chapterId": "cambridge-g10-geography-ch04",
+   "order": 2,
+   "name": "Food shortages: causes, impacts and solutions",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-geography-ch04-st1",
+    "cambridge-g10-geography-ch01-st3"
+   ],
+   "prerequisiteNote": "Agricultural systems; overpopulation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-geography-ch04-st3",
+   "chapterId": "cambridge-g10-geography-ch04",
+   "order": 3,
+   "name": "Industrial systems and factors affecting the location of industry",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-geography-ch03-st3"
+   ],
+   "prerequisiteNote": "Employment structure; raw materials, labour, market and transport",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-geography-ch04-st4",
+   "chapterId": "cambridge-g10-geography-ch04",
+   "order": 4,
+   "name": "Growth of tourism: benefits, problems and sustainable tourism",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-geography-ch03-st4"
+   ],
+   "prerequisiteNote": "Globalisation; positive and negative impacts on economy and environment",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-geography-ch05-st1",
+   "chapterId": "cambridge-g10-geography-ch05",
+   "order": 1,
+   "name": "Energy resources: non-renewable and renewable sources",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-geography-ch04-st3"
+   ],
+   "prerequisiteNote": "Industrial location (power supply); fossil fuels and climate change (Stage 9 Humanities)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-geography-ch05-st2",
+   "chapterId": "cambridge-g10-geography-ch05",
+   "order": 2,
+   "name": "Water supply and demand: shortages and management",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-geography-ch03-st1"
+   ],
+   "prerequisiteNote": "Drainage basin and hydrological cycle (IGCSE yr 1 Rivers)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-geography-ch05-st3",
+   "chapterId": "cambridge-g10-geography-ch05",
+   "order": 3,
+   "name": "Environmental risks of economic development: pollution, soil erosion and climate change",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g10-geography-ch05-st1",
+    "cambridge-g10-geography-ch04-st3",
+    "cambridge-g9-geography-ch06-st3"
+   ],
+   "prerequisiteNote": "Energy resources; industry; deforestation (IGCSE yr 1 Ecosystems)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-geography-ch05-st4",
+   "chapterId": "cambridge-g10-geography-ch05",
+   "order": 4,
+   "name": "Managing resources sustainably: conservation and international cooperation",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g10-geography-ch05-st3"
+   ],
+   "prerequisiteNote": "Environmental risks; sustainable development goals",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-geography-ch06-st1",
+   "chapterId": "cambridge-g10-geography-ch06",
+   "order": 1,
+   "name": "Forming hypotheses and planning a geographical investigation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-geography-ch01-st3"
+   ],
+   "prerequisiteNote": "Interpreting statistical data (IGCSE yr 1 skills); enquiry questions (Stage 9 Humanities)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-geography-ch06-st2",
+   "chapterId": "cambridge-g10-geography-ch06",
+   "order": 2,
+   "name": "Sampling and data collection methods: questionnaires, traffic counts and river measurements",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g10-geography-ch06-st1",
+    "cambridge-g9-geography-ch03-st2"
+   ],
+   "prerequisiteNote": "Hypotheses; river processes (velocity, width, depth)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-geography-ch06-st3",
+   "chapterId": "cambridge-g10-geography-ch06",
+   "order": 3,
+   "name": "Presenting fieldwork data: choosing and drawing suitable graphs and maps",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g10-geography-ch06-st2",
+    "cambridge-g9-geography-ch01-st3"
+   ],
+   "prerequisiteNote": "Data collection; graph types and scales",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-geography-ch06-st4",
+   "chapterId": "cambridge-g10-geography-ch06",
+   "order": 4,
+   "name": "Analysing results, drawing conclusions and evaluating the enquiry",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-geography-ch06-st3"
+   ],
+   "prerequisiteNote": "Presenting data; reliability and accuracy of methods",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

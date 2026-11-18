@@ -1,0 +1,618 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cbse-g11-psychology",
+  "board": "cbse",
+  "grade": 11,
+  "stream": "science",
+  "slug": "psychology",
+  "name": "Psychology",
+  "programme": "CBSE Class 11 Psychology (037)",
+  "textbook": "NCERT Introduction to Psychology (037)",
+  "examPattern": "School-conducted annual exam (no CBSE SQP for Class XI); 3 h; same marks split and question design as Class XII; 50% competency-based, 20% MCQ, 30% short/long answer (Circular 30/2024). Theory 70 + Practical 30. Assumed 33 questions (XII template).",
+  "chapterCount": 8,
+  "questionTarget": 739
+ },
+ "items": [
+  {
+   "id": "cbse-g11-psychology-ch01",
+   "subjectId": "cbse-g11-psychology",
+   "order": 1,
+   "name": "What is Psychology?",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g11-psychology-ch01-st1",
+    "cbse-g11-psychology-ch01-st2",
+    "cbse-g11-psychology-ch01-st3",
+    "cbse-g11-psychology-ch01-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-psychology-ch02",
+   "subjectId": "cbse-g11-psychology",
+   "order": 2,
+   "name": "Methods of Enquiry in Psychology",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g11-psychology-ch02-st1",
+    "cbse-g11-psychology-ch02-st2",
+    "cbse-g11-psychology-ch02-st3",
+    "cbse-g11-psychology-ch02-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-psychology-ch03",
+   "subjectId": "cbse-g11-psychology",
+   "order": 3,
+   "name": "Human Development",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cbse-g11-psychology-ch03-st1",
+    "cbse-g11-psychology-ch03-st2",
+    "cbse-g11-psychology-ch03-st3",
+    "cbse-g11-psychology-ch03-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-psychology-ch04",
+   "subjectId": "cbse-g11-psychology",
+   "order": 4,
+   "name": "Sensory, Attentional and Perceptual Processes",
+   "teachingPeriods": 21,
+   "subtopicIds": [
+    "cbse-g11-psychology-ch04-st1",
+    "cbse-g11-psychology-ch04-st2",
+    "cbse-g11-psychology-ch04-st3",
+    "cbse-g11-psychology-ch04-st4",
+    "cbse-g11-psychology-ch04-st5"
+   ]
+  },
+  {
+   "id": "cbse-g11-psychology-ch05",
+   "subjectId": "cbse-g11-psychology",
+   "order": 5,
+   "name": "Learning",
+   "teachingPeriods": 24,
+   "subtopicIds": [
+    "cbse-g11-psychology-ch05-st1",
+    "cbse-g11-psychology-ch05-st2",
+    "cbse-g11-psychology-ch05-st3",
+    "cbse-g11-psychology-ch05-st4",
+    "cbse-g11-psychology-ch05-st5"
+   ]
+  },
+  {
+   "id": "cbse-g11-psychology-ch06",
+   "subjectId": "cbse-g11-psychology",
+   "order": 6,
+   "name": "Human Memory",
+   "teachingPeriods": 23,
+   "subtopicIds": [
+    "cbse-g11-psychology-ch06-st1",
+    "cbse-g11-psychology-ch06-st2",
+    "cbse-g11-psychology-ch06-st3",
+    "cbse-g11-psychology-ch06-st4",
+    "cbse-g11-psychology-ch06-st5"
+   ]
+  },
+  {
+   "id": "cbse-g11-psychology-ch07",
+   "subjectId": "cbse-g11-psychology",
+   "order": 7,
+   "name": "Thinking",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g11-psychology-ch07-st1",
+    "cbse-g11-psychology-ch07-st2",
+    "cbse-g11-psychology-ch07-st3",
+    "cbse-g11-psychology-ch07-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-psychology-ch08",
+   "subjectId": "cbse-g11-psychology",
+   "order": 8,
+   "name": "Motivation and Emotion",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g11-psychology-ch08-st1",
+    "cbse-g11-psychology-ch08-st2",
+    "cbse-g11-psychology-ch08-st3",
+    "cbse-g11-psychology-ch08-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cbse-g11-psychology-ch01-st1",
+   "chapterId": "cbse-g11-psychology-ch01",
+   "order": 1,
+   "name": "Psychology as a discipline: mind, behaviour and psychology as a natural and social science",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Everyday observations of behaviour; scientific method (Science Cl 6-9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-psychology-ch01-st2",
+   "chapterId": "cbse-g11-psychology-ch01",
+   "order": 2,
+   "name": "Evolution of psychology: structuralism, functionalism, behaviourism, Gestalt, psychoanalysis, humanistic and cognitive perspectives",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-psychology-ch01-st1"
+   ],
+   "prerequisiteNote": "Psychology as a discipline",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-psychology-ch01-st3",
+   "chapterId": "cbse-g11-psychology-ch01",
+   "order": 3,
+   "name": "Development of psychology in India",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-psychology-ch01-st2"
+   ],
+   "prerequisiteNote": "Schools of psychology",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-psychology-ch01-st4",
+   "chapterId": "cbse-g11-psychology-ch01",
+   "order": 4,
+   "name": "Branches of psychology and psychology in everyday life; relationship with other disciplines",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-psychology-ch01-st1"
+   ],
+   "prerequisiteNote": "Psychology as a discipline",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-psychology-ch02-st1",
+   "chapterId": "cbse-g11-psychology-ch02",
+   "order": 1,
+   "name": "Goals of psychological enquiry and steps in conducting scientific research",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-psychology-ch01-st1"
+   ],
+   "prerequisiteNote": "Scientific method: hypothesis and testing (Science Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-psychology-ch02-st2",
+   "chapterId": "cbse-g11-psychology-ch02",
+   "order": 2,
+   "name": "Nature of psychological data",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-psychology-ch02-st1"
+   ],
+   "prerequisiteNote": "Steps in research",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-psychology-ch02-st3",
+   "chapterId": "cbse-g11-psychology-ch02",
+   "order": 3,
+   "name": "Methods: observation, experimental, correlational, survey, case study and psychological testing",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-psychology-ch02-st1"
+   ],
+   "prerequisiteNote": "Steps in research; independent and dependent variables",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-psychology-ch02-st4",
+   "chapterId": "cbse-g11-psychology-ch02",
+   "order": 4,
+   "name": "Analysis of data (quantitative and qualitative), limitations of psychological enquiry and ethical issues",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-psychology-ch02-st3"
+   ],
+   "prerequisiteNote": "Research methods; mean and correlation idea (Maths Cl 9-10 Statistics)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-psychology-ch03-st1",
+   "chapterId": "cbse-g11-psychology-ch03",
+   "order": 1,
+   "name": "Meaning of development; life-span perspective and factors influencing development (heredity and environment)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-psychology-ch01-st4"
+   ],
+   "prerequisiteNote": "Heredity and genes (Science Cl 10 Heredity)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-psychology-ch03-st2",
+   "chapterId": "cbse-g11-psychology-ch03",
+   "order": 2,
+   "name": "Context of development: Bronfenbrenner's ecological systems",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-psychology-ch03-st1"
+   ],
+   "prerequisiteNote": "Factors influencing development",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-psychology-ch03-st3",
+   "chapterId": "cbse-g11-psychology-ch03",
+   "order": 3,
+   "name": "Stages of development: prenatal, infancy and childhood; Piaget's stages of cognitive development",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-psychology-ch03-st1"
+   ],
+   "prerequisiteNote": "Life-span perspective",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-psychology-ch03-st4",
+   "chapterId": "cbse-g11-psychology-ch03",
+   "order": 4,
+   "name": "Adolescence (physical, cognitive, identity) and adulthood and old age",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-psychology-ch03-st3"
+   ],
+   "prerequisiteNote": "Stages of development; puberty (Science Cl 8 Reaching the Age of Adolescence)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-psychology-ch04-st1",
+   "chapterId": "cbse-g11-psychology-ch04",
+   "order": 1,
+   "name": "Knowing the world; nature and varieties of stimulus; sense modalities and functional limitations of sense organs",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-psychology-ch01-st1"
+   ],
+   "prerequisiteNote": "Human eye and ear (Science Cl 8-10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-psychology-ch04-st2",
+   "chapterId": "cbse-g11-psychology-ch04",
+   "order": 2,
+   "name": "Attentional processes: selective, sustained and divided attention; theories of selective attention",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-psychology-ch04-st1"
+   ],
+   "prerequisiteNote": "Sense modalities",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-psychology-ch04-st3",
+   "chapterId": "cbse-g11-psychology-ch04",
+   "order": 3,
+   "name": "Perceptual processes: processing approaches and perceptual organisation (Gestalt principles)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-psychology-ch04-st2",
+    "cbse-g11-psychology-ch01-st2"
+   ],
+   "prerequisiteNote": "Gestalt school (ch 1); attention",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-psychology-ch04-st4",
+   "chapterId": "cbse-g11-psychology-ch04",
+   "order": 4,
+   "name": "Perception of space, depth and distance; perceptual constancies and illusions",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-psychology-ch04-st3"
+   ],
+   "prerequisiteNote": "Perceptual organisation; binocular vision (Science Cl 10 Human Eye)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-psychology-ch04-st5",
+   "chapterId": "cbse-g11-psychology-ch04",
+   "order": 5,
+   "name": "Socio-cultural influences on perception",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-psychology-ch04-st4"
+   ],
+   "prerequisiteNote": "Perceptual constancies and illusions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-psychology-ch05-st1",
+   "chapterId": "cbse-g11-psychology-ch05",
+   "order": 1,
+   "name": "Nature of learning and paradigms of learning",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-psychology-ch01-st2"
+   ],
+   "prerequisiteNote": "Behaviourism (ch 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-psychology-ch05-st2",
+   "chapterId": "cbse-g11-psychology-ch05",
+   "order": 2,
+   "name": "Classical conditioning: Pavlov's experiment and its determinants",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-psychology-ch05-st1"
+   ],
+   "prerequisiteNote": "Nature of learning; stimulus and response",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-psychology-ch05-st3",
+   "chapterId": "cbse-g11-psychology-ch05",
+   "order": 3,
+   "name": "Operant conditioning: Skinner, types of reinforcement and schedules",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-psychology-ch05-st2"
+   ],
+   "prerequisiteNote": "Classical conditioning",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-psychology-ch05-st4",
+   "chapterId": "cbse-g11-psychology-ch05",
+   "order": 4,
+   "name": "Observational, cognitive and verbal learning; skill learning",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-psychology-ch05-st3"
+   ],
+   "prerequisiteNote": "Conditioning paradigms",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-psychology-ch05-st5",
+   "chapterId": "cbse-g11-psychology-ch05",
+   "order": 5,
+   "name": "Factors facilitating learning and learning disabilities",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-psychology-ch05-st4"
+   ],
+   "prerequisiteNote": "Types of learning",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-psychology-ch06-st1",
+   "chapterId": "cbse-g11-psychology-ch06",
+   "order": 1,
+   "name": "Nature of memory: encoding, storage and retrieval",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-psychology-ch04-st2"
+   ],
+   "prerequisiteNote": "Attention and perception",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-psychology-ch06-st2",
+   "chapterId": "cbse-g11-psychology-ch06",
+   "order": 2,
+   "name": "Information processing (stage) model: sensory, short-term and long-term memory; working memory",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-psychology-ch06-st1"
+   ],
+   "prerequisiteNote": "Encoding, storage and retrieval",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-psychology-ch06-st3",
+   "chapterId": "cbse-g11-psychology-ch06",
+   "order": 3,
+   "name": "Levels of processing and types of long-term memory",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-psychology-ch06-st2"
+   ],
+   "prerequisiteNote": "Stage model of memory",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-psychology-ch06-st4",
+   "chapterId": "cbse-g11-psychology-ch06",
+   "order": 4,
+   "name": "Knowledge representation, memory as a constructive process; nature and causes of forgetting",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-psychology-ch06-st3"
+   ],
+   "prerequisiteNote": "Long-term memory types",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-psychology-ch06-st5",
+   "chapterId": "cbse-g11-psychology-ch06",
+   "order": 5,
+   "name": "Enhancing memory: mnemonics and other strategies",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-psychology-ch06-st4"
+   ],
+   "prerequisiteNote": "Causes of forgetting",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-psychology-ch07-st1",
+   "chapterId": "cbse-g11-psychology-ch07",
+   "order": 1,
+   "name": "Nature of thinking: building blocks (mental images and concepts) and the processes of thinking",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-psychology-ch06-st4"
+   ],
+   "prerequisiteNote": "Knowledge representation in memory",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-psychology-ch07-st2",
+   "chapterId": "cbse-g11-psychology-ch07",
+   "order": 2,
+   "name": "Problem solving and obstacles; reasoning (deductive and inductive) and decision making",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-psychology-ch07-st1"
+   ],
+   "prerequisiteNote": "Building blocks of thought",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-psychology-ch07-st3",
+   "chapterId": "cbse-g11-psychology-ch07",
+   "order": 3,
+   "name": "Creative thinking: nature, process and strategies",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-psychology-ch07-st2"
+   ],
+   "prerequisiteNote": "Problem solving; divergent vs convergent thinking",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-psychology-ch07-st4",
+   "chapterId": "cbse-g11-psychology-ch07",
+   "order": 4,
+   "name": "Thought and language; development of language and language use",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-psychology-ch07-st1",
+    "cbse-g11-psychology-ch03-st3"
+   ],
+   "prerequisiteNote": "Piaget's stages of cognitive development",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-psychology-ch08-st1",
+   "chapterId": "cbse-g11-psychology-ch08",
+   "order": 1,
+   "name": "Nature of motivation: motivational cycle; biological and psychosocial motives",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-psychology-ch01-st1"
+   ],
+   "prerequisiteNote": "Needs and drives in everyday behaviour",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-psychology-ch08-st2",
+   "chapterId": "cbse-g11-psychology-ch08",
+   "order": 2,
+   "name": "Maslow's hierarchy of needs",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-psychology-ch08-st1"
+   ],
+   "prerequisiteNote": "Psychosocial motives",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-psychology-ch08-st3",
+   "chapterId": "cbse-g11-psychology-ch08",
+   "order": 3,
+   "name": "Nature of emotions: physiological and cognitive bases; culture and emotional expression",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-psychology-ch08-st1"
+   ],
+   "prerequisiteNote": "Nervous and endocrine control (Science Cl 10 Control and Coordination)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-psychology-ch08-st4",
+   "chapterId": "cbse-g11-psychology-ch08",
+   "order": 4,
+   "name": "Managing negative emotions and enhancing positive emotions",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-psychology-ch08-st3"
+   ],
+   "prerequisiteNote": "Nature of emotions",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

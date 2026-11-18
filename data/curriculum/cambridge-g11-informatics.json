@@ -1,0 +1,698 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cambridge-g11-informatics",
+  "board": "cambridge",
+  "grade": 11,
+  "stream": "commerce",
+  "slug": "informatics",
+  "name": "Information Technology",
+  "programme": "Cambridge AS Information Technology 9626 (topics 1–11)",
+  "textbook": "CUP Coursebook 3rd ed.",
+  "examPattern": "AS: P1 Theory 1 h 45, 70 marks (~10 questions, 50%) + P2 Practical 2 h 30, 90 marks (~4 software tasks, 50%).",
+  "chapterCount": 11,
+  "questionTarget": 1074
+ },
+ "items": [
+  {
+   "id": "cambridge-g11-informatics-ch01",
+   "subjectId": "cambridge-g11-informatics",
+   "order": 1,
+   "name": "Data Processing and Information",
+   "teachingPeriods": 24,
+   "subtopicIds": [
+    "cambridge-g11-informatics-ch01-st1",
+    "cambridge-g11-informatics-ch01-st2",
+    "cambridge-g11-informatics-ch01-st3",
+    "cambridge-g11-informatics-ch01-st4",
+    "cambridge-g11-informatics-ch01-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g11-informatics-ch02",
+   "subjectId": "cambridge-g11-informatics",
+   "order": 2,
+   "name": "Hardware and Software",
+   "teachingPeriods": 15,
+   "subtopicIds": [
+    "cambridge-g11-informatics-ch02-st1",
+    "cambridge-g11-informatics-ch02-st2",
+    "cambridge-g11-informatics-ch02-st3",
+    "cambridge-g11-informatics-ch02-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g11-informatics-ch03",
+   "subjectId": "cambridge-g11-informatics",
+   "order": 3,
+   "name": "Monitoring and Control",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cambridge-g11-informatics-ch03-st1",
+    "cambridge-g11-informatics-ch03-st2",
+    "cambridge-g11-informatics-ch03-st3",
+    "cambridge-g11-informatics-ch03-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g11-informatics-ch04",
+   "subjectId": "cambridge-g11-informatics",
+   "order": 4,
+   "name": "Algorithms and Flowcharts",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cambridge-g11-informatics-ch04-st1",
+    "cambridge-g11-informatics-ch04-st2",
+    "cambridge-g11-informatics-ch04-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g11-informatics-ch05",
+   "subjectId": "cambridge-g11-informatics",
+   "order": 5,
+   "name": "eSafety and Health",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cambridge-g11-informatics-ch05-st1",
+    "cambridge-g11-informatics-ch05-st2",
+    "cambridge-g11-informatics-ch05-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g11-informatics-ch06",
+   "subjectId": "cambridge-g11-informatics",
+   "order": 6,
+   "name": "The Digital Divide and Audience",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "cambridge-g11-informatics-ch06-st1",
+    "cambridge-g11-informatics-ch06-st2",
+    "cambridge-g11-informatics-ch06-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g11-informatics-ch07",
+   "subjectId": "cambridge-g11-informatics",
+   "order": 7,
+   "name": "Copyright and Legal Issues",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "cambridge-g11-informatics-ch07-st1",
+    "cambridge-g11-informatics-ch07-st2",
+    "cambridge-g11-informatics-ch07-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g11-informatics-ch08",
+   "subjectId": "cambridge-g11-informatics",
+   "order": 8,
+   "name": "Communication and Networks",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "cambridge-g11-informatics-ch08-st1",
+    "cambridge-g11-informatics-ch08-st2",
+    "cambridge-g11-informatics-ch08-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g11-informatics-ch09",
+   "subjectId": "cambridge-g11-informatics",
+   "order": 9,
+   "name": "Document Production",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cambridge-g11-informatics-ch09-st1",
+    "cambridge-g11-informatics-ch09-st2",
+    "cambridge-g11-informatics-ch09-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g11-informatics-ch10",
+   "subjectId": "cambridge-g11-informatics",
+   "order": 10,
+   "name": "Database and File Concepts",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cambridge-g11-informatics-ch10-st1",
+    "cambridge-g11-informatics-ch10-st2",
+    "cambridge-g11-informatics-ch10-st3",
+    "cambridge-g11-informatics-ch10-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g11-informatics-ch11",
+   "subjectId": "cambridge-g11-informatics",
+   "order": 11,
+   "name": "Spreadsheets, Modelling and Graphics",
+   "teachingPeriods": 19,
+   "subtopicIds": [
+    "cambridge-g11-informatics-ch11-st1",
+    "cambridge-g11-informatics-ch11-st2",
+    "cambridge-g11-informatics-ch11-st3",
+    "cambridge-g11-informatics-ch11-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cambridge-g11-informatics-ch01-st1",
+   "chapterId": "cambridge-g11-informatics-ch01",
+   "order": 1,
+   "name": "Data, information and knowledge; direct and indirect data sources",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Data and information (IGCSE ICT 0417)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch01-st2",
+   "chapterId": "cambridge-g11-informatics-ch01",
+   "order": 2,
+   "name": "Quality of information: accuracy, relevance, age, level of detail and completeness",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch01-st1"
+   ],
+   "prerequisiteNote": "Data, information and sources",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch01-st3",
+   "chapterId": "cambridge-g11-informatics-ch01",
+   "order": 3,
+   "name": "Validation and verification methods",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch01-st1"
+   ],
+   "prerequisiteNote": "Data entry and checking (IGCSE ICT)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch01-st4",
+   "chapterId": "cambridge-g11-informatics-ch01",
+   "order": 4,
+   "name": "Batch, online and real-time processing; master and transaction files",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch01-st3"
+   ],
+   "prerequisiteNote": "Validation and verification; file updating",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch01-st5",
+   "chapterId": "cambridge-g11-informatics-ch01",
+   "order": 5,
+   "name": "Encryption: symmetric and asymmetric, and protocols such as SSL/TLS and HTTPS",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch01-st4"
+   ],
+   "prerequisiteNote": "Batch and online processing; data transmitted over networks",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch02-st1",
+   "chapterId": "cambridge-g11-informatics-ch02",
+   "order": 1,
+   "name": "Mainframe computers and supercomputers: characteristics and uses",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Types of computer (IGCSE ICT)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch02-st2",
+   "chapterId": "cambridge-g11-informatics-ch02",
+   "order": 2,
+   "name": "System software: compilers, interpreters, linkers, device drivers, operating systems and utilities",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch02-st1"
+   ],
+   "prerequisiteNote": "Hardware and software (IGCSE ICT)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch02-st3",
+   "chapterId": "cambridge-g11-informatics-ch02",
+   "order": 3,
+   "name": "Custom-written versus off-the-shelf software; proprietary and open-source software",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch02-st2"
+   ],
+   "prerequisiteNote": "System and application software",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch02-st4",
+   "chapterId": "cambridge-g11-informatics-ch02",
+   "order": 4,
+   "name": "User interfaces: command line, graphical, dialogue and gesture-based",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch02-st2"
+   ],
+   "prerequisiteNote": "Operating system role; human–computer interaction",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch03-st1",
+   "chapterId": "cambridge-g11-informatics-ch03",
+   "order": 1,
+   "name": "Sensors used in monitoring and control systems",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch02-st1"
+   ],
+   "prerequisiteNote": "Input devices (IGCSE ICT); analogue and digital data",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch03-st2",
+   "chapterId": "cambridge-g11-informatics-ch03",
+   "order": 2,
+   "name": "Monitoring systems: environmental, weather stations and patient monitoring",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch03-st1"
+   ],
+   "prerequisiteNote": "Sensors; analogue-to-digital conversion",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch03-st3",
+   "chapterId": "cambridge-g11-informatics-ch03",
+   "order": 3,
+   "name": "Control systems, microprocessors, actuators and feedback (greenhouse, central heating, traffic lights)",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch03-st2"
+   ],
+   "prerequisiteNote": "Monitoring systems; sensors and feedback loops",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch03-st4",
+   "chapterId": "cambridge-g11-informatics-ch03",
+   "order": 4,
+   "name": "Writing control algorithms for monitoring and control scenarios",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch03-st3"
+   ],
+   "prerequisiteNote": "Control systems; flowchart decisions and loops (IGCSE ICT algorithms)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch04-st1",
+   "chapterId": "cambridge-g11-informatics-ch04",
+   "order": 1,
+   "name": "Flowchart symbols and algorithms as sequences of instructions",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Logical sequencing of steps (IGCSE ICT)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch04-st2",
+   "chapterId": "cambridge-g11-informatics-ch04",
+   "order": 2,
+   "name": "Writing algorithms using flowcharts and pseudocode: sequence, selection and iteration",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch04-st1"
+   ],
+   "prerequisiteNote": "Flowchart symbols; IF and loop logic",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch04-st3",
+   "chapterId": "cambridge-g11-informatics-ch04",
+   "order": 3,
+   "name": "Tracing and correcting algorithms; comparing flowcharts and pseudocode",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch04-st2"
+   ],
+   "prerequisiteNote": "Writing algorithms in flowcharts and pseudocode",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch05-st1",
+   "chapterId": "cambridge-g11-informatics-ch05",
+   "order": 1,
+   "name": "Personal data and protecting personal data online; data protection legislation",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch01-st5"
+   ],
+   "prerequisiteNote": "Encryption; personal information (IGCSE ICT)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch05-st2",
+   "chapterId": "cambridge-g11-informatics-ch05",
+   "order": 2,
+   "name": "eSafety: using the internet, email, social media and online gaming safely",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch05-st1"
+   ],
+   "prerequisiteNote": "Personal data protection",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch05-st3",
+   "chapterId": "cambridge-g11-informatics-ch05",
+   "order": 3,
+   "name": "Health issues from using IT: RSI, eyestrain, back problems and their prevention",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Health and safety when using computers (IGCSE ICT)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch06-st1",
+   "chapterId": "cambridge-g11-informatics-ch06",
+   "order": 1,
+   "name": "Identifying the target audience and their needs when designing ICT solutions",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Purpose and audience of documents (IGCSE ICT)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch06-st2",
+   "chapterId": "cambridge-g11-informatics-ch06",
+   "order": 2,
+   "name": "The digital divide: causes and effects on individuals, organisations and societies",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch06-st1"
+   ],
+   "prerequisiteNote": "Target audience needs; access to technology",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch06-st3",
+   "chapterId": "cambridge-g11-informatics-ch06",
+   "order": 3,
+   "name": "Reducing the digital divide: initiatives and accessibility features",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch06-st2"
+   ],
+   "prerequisiteNote": "Causes of the digital divide",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch07-st1",
+   "chapterId": "cambridge-g11-informatics-ch07",
+   "order": 1,
+   "name": "Copyright legislation and the protection of intellectual property",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Ownership of digital content (IGCSE ICT)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch07-st2",
+   "chapterId": "cambridge-g11-informatics-ch07",
+   "order": 2,
+   "name": "Software licensing: single-user, multi-user, site licence, freeware and shareware; preventing piracy",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch07-st1",
+    "cambridge-g11-informatics-ch02-st3"
+   ],
+   "prerequisiteNote": "Copyright legislation; proprietary and open-source software",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch07-st3",
+   "chapterId": "cambridge-g11-informatics-ch07",
+   "order": 3,
+   "name": "Ethical and legal implications of using IT: plagiarism, hacking and acceptable use policies",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch07-st1"
+   ],
+   "prerequisiteNote": "Copyright and intellectual property",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch08-st1",
+   "chapterId": "cambridge-g11-informatics-ch08",
+   "order": 1,
+   "name": "Network types and components: LAN, WAN, routers, switches and the internet",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch02-st2"
+   ],
+   "prerequisiteNote": "Basic networking (IGCSE ICT)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch08-st2",
+   "chapterId": "cambridge-g11-informatics-ch08",
+   "order": 2,
+   "name": "Email, instant messaging and video conferencing for communication",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch08-st1",
+    "cambridge-g11-informatics-ch05-st2"
+   ],
+   "prerequisiteNote": "Networks and the internet; eSafety",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch08-st3",
+   "chapterId": "cambridge-g11-informatics-ch08",
+   "order": 3,
+   "name": "Websites, intranets and extranets; search engines and evaluating online information",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch08-st1",
+    "cambridge-g11-informatics-ch01-st2"
+   ],
+   "prerequisiteNote": "Networks; quality of information",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch09-st1",
+   "chapterId": "cambridge-g11-informatics-ch09",
+   "order": 1,
+   "name": "House style, templates and corporate branding",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch06-st1"
+   ],
+   "prerequisiteNote": "Target audience; word processing basics (IGCSE ICT)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch09-st2",
+   "chapterId": "cambridge-g11-informatics-ch09",
+   "order": 2,
+   "name": "Page layout: headers, footers, columns, tables, section and page breaks",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch09-st1"
+   ],
+   "prerequisiteNote": "House style; editing text in a word processor",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch09-st3",
+   "chapterId": "cambridge-g11-informatics-ch09",
+   "order": 3,
+   "name": "Automating documents: fields, styles, tables of contents, indexes and track changes",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch09-st2"
+   ],
+   "prerequisiteNote": "Page layout features",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch10-st1",
+   "chapterId": "cambridge-g11-informatics-ch10",
+   "order": 1,
+   "name": "Flat-file and relational databases; primary, foreign and compound keys; relationships",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch01-st1"
+   ],
+   "prerequisiteNote": "Data and information; tables and fields (IGCSE ICT)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch10-st2",
+   "chapterId": "cambridge-g11-informatics-ch10",
+   "order": 2,
+   "name": "Designing data entry forms and validation rules",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch10-st1",
+    "cambridge-g11-informatics-ch01-st3"
+   ],
+   "prerequisiteNote": "Relational database structure; Validation and verification",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch10-st3",
+   "chapterId": "cambridge-g11-informatics-ch10",
+   "order": 3,
+   "name": "Queries with multiple criteria, calculated fields and reports with grouping and summaries",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch10-st1"
+   ],
+   "prerequisiteNote": "Relational databases; Boolean operators AND/OR/NOT",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch10-st4",
+   "chapterId": "cambridge-g11-informatics-ch10",
+   "order": 4,
+   "name": "Normalisation to 3NF and data dictionaries",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch10-st1"
+   ],
+   "prerequisiteNote": "Keys and relationships in relational databases",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch11-st1",
+   "chapterId": "cambridge-g11-informatics-ch11",
+   "order": 1,
+   "name": "Spreadsheet formulae and functions: absolute and relative referencing, named ranges, nested IF, VLOOKUP and HLOOKUP",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch04-st2"
+   ],
+   "prerequisiteNote": "Cell referencing and basic formulae (IGCSE ICT); selection logic",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch11-st2",
+   "chapterId": "cambridge-g11-informatics-ch11",
+   "order": 2,
+   "name": "Modelling and what-if analysis: goal seek, scenarios and simulations",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch11-st1"
+   ],
+   "prerequisiteNote": "Spreadsheet formulae and functions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch11-st3",
+   "chapterId": "cambridge-g11-informatics-ch11",
+   "order": 3,
+   "name": "Charts and graphs: choosing appropriate types and formatting for an audience",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch11-st1",
+    "cambridge-g11-informatics-ch06-st1"
+   ],
+   "prerequisiteNote": "Spreadsheet data ranges; Target audience",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-informatics-ch11-st4",
+   "chapterId": "cambridge-g11-informatics-ch11",
+   "order": 4,
+   "name": "Sound and video editing: trimming, transitions, compression and file formats",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g11-informatics-ch06-st1"
+   ],
+   "prerequisiteNote": "Target audience; file sizes and formats",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

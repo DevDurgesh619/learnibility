@@ -1,0 +1,980 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cambridge-g11-physics",
+  "board": "cambridge",
+  "grade": 11,
+  "stream": "science",
+  "slug": "physics",
+  "name": "Physics",
+  "programme": "Cambridge AS Physics 9702 (topics 1–11)",
+  "textbook": "CUP Coursebook 3rd ed. ch 1–15 + practical skills",
+  "examPattern": "AS: P1 MCQ 1 h 15, 40 questions (31%) + P2 AS Structured 1 h 15, 60 marks (~6–8 questions, 46%) + P3 Advanced Practical Skills 2 h, 40 marks (2 questions, 23%). Graded a–e.",
+  "chapterCount": 15,
+  "questionTarget": 1794
+ },
+ "items": [
+  {
+   "id": "cambridge-g11-physics-ch01",
+   "subjectId": "cambridge-g11-physics",
+   "order": 1,
+   "name": "Physical quantities and units",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cambridge-g11-physics-ch01-st1",
+    "cambridge-g11-physics-ch01-st2",
+    "cambridge-g11-physics-ch01-st3",
+    "cambridge-g11-physics-ch01-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g11-physics-ch02",
+   "subjectId": "cambridge-g11-physics",
+   "order": 2,
+   "name": "Kinematics",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cambridge-g11-physics-ch02-st1",
+    "cambridge-g11-physics-ch02-st2",
+    "cambridge-g11-physics-ch02-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g11-physics-ch03",
+   "subjectId": "cambridge-g11-physics",
+   "order": 3,
+   "name": "Accelerated motion",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "cambridge-g11-physics-ch03-st1",
+    "cambridge-g11-physics-ch03-st2",
+    "cambridge-g11-physics-ch03-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g11-physics-ch04",
+   "subjectId": "cambridge-g11-physics",
+   "order": 4,
+   "name": "Dynamics",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cambridge-g11-physics-ch04-st1",
+    "cambridge-g11-physics-ch04-st2",
+    "cambridge-g11-physics-ch04-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g11-physics-ch05",
+   "subjectId": "cambridge-g11-physics",
+   "order": 5,
+   "name": "Momentum",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "cambridge-g11-physics-ch05-st1",
+    "cambridge-g11-physics-ch05-st2",
+    "cambridge-g11-physics-ch05-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g11-physics-ch06",
+   "subjectId": "cambridge-g11-physics",
+   "order": 6,
+   "name": "Forces and equilibrium",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cambridge-g11-physics-ch06-st1",
+    "cambridge-g11-physics-ch06-st2",
+    "cambridge-g11-physics-ch06-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g11-physics-ch07",
+   "subjectId": "cambridge-g11-physics",
+   "order": 7,
+   "name": "Density and pressure",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "cambridge-g11-physics-ch07-st1",
+    "cambridge-g11-physics-ch07-st2",
+    "cambridge-g11-physics-ch07-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g11-physics-ch08",
+   "subjectId": "cambridge-g11-physics",
+   "order": 8,
+   "name": "Work, energy and power",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cambridge-g11-physics-ch08-st1",
+    "cambridge-g11-physics-ch08-st2",
+    "cambridge-g11-physics-ch08-st3",
+    "cambridge-g11-physics-ch08-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g11-physics-ch09",
+   "subjectId": "cambridge-g11-physics",
+   "order": 9,
+   "name": "Deformation of solids",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "cambridge-g11-physics-ch09-st1",
+    "cambridge-g11-physics-ch09-st2",
+    "cambridge-g11-physics-ch09-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g11-physics-ch10",
+   "subjectId": "cambridge-g11-physics",
+   "order": 10,
+   "name": "Waves",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cambridge-g11-physics-ch10-st1",
+    "cambridge-g11-physics-ch10-st2",
+    "cambridge-g11-physics-ch10-st3",
+    "cambridge-g11-physics-ch10-st4",
+    "cambridge-g11-physics-ch10-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g11-physics-ch11",
+   "subjectId": "cambridge-g11-physics",
+   "order": 11,
+   "name": "Superposition",
+   "teachingPeriods": 22,
+   "subtopicIds": [
+    "cambridge-g11-physics-ch11-st1",
+    "cambridge-g11-physics-ch11-st2",
+    "cambridge-g11-physics-ch11-st3",
+    "cambridge-g11-physics-ch11-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g11-physics-ch12",
+   "subjectId": "cambridge-g11-physics",
+   "order": 12,
+   "name": "Electricity",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cambridge-g11-physics-ch12-st1",
+    "cambridge-g11-physics-ch12-st2",
+    "cambridge-g11-physics-ch12-st3",
+    "cambridge-g11-physics-ch12-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g11-physics-ch13",
+   "subjectId": "cambridge-g11-physics",
+   "order": 13,
+   "name": "D.C. circuits",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "cambridge-g11-physics-ch13-st1",
+    "cambridge-g11-physics-ch13-st2",
+    "cambridge-g11-physics-ch13-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g11-physics-ch14",
+   "subjectId": "cambridge-g11-physics",
+   "order": 14,
+   "name": "Particle physics",
+   "teachingPeriods": 15,
+   "subtopicIds": [
+    "cambridge-g11-physics-ch14-st1",
+    "cambridge-g11-physics-ch14-st2",
+    "cambridge-g11-physics-ch14-st3",
+    "cambridge-g11-physics-ch14-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g11-physics-ch15",
+   "subjectId": "cambridge-g11-physics",
+   "order": 15,
+   "name": "Practical skills (AS)",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cambridge-g11-physics-ch15-st1",
+    "cambridge-g11-physics-ch15-st2",
+    "cambridge-g11-physics-ch15-st3",
+    "cambridge-g11-physics-ch15-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cambridge-g11-physics-ch01-st1",
+   "chapterId": "cambridge-g11-physics-ch01",
+   "order": 1,
+   "name": "SI base units, derived units and homogeneity of equations",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch01-st1"
+   ],
+   "prerequisiteNote": "Units of measurement (IGCSE ch 1); laws of indices",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch01-st2",
+   "chapterId": "cambridge-g11-physics-ch01",
+   "order": 2,
+   "name": "Prefixes, standard form and estimating physical quantities",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch01-st1",
+    "cambridge-g10-maths-ch01-st1"
+   ],
+   "prerequisiteNote": "Standard form; converting units (IGCSE maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch01-st3",
+   "chapterId": "cambridge-g11-physics-ch01",
+   "order": 3,
+   "name": "Errors and uncertainties: systematic and random, precision and accuracy and combining uncertainties",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch01-st1"
+   ],
+   "prerequisiteNote": "Upper and lower bounds (IGCSE maths); percentages",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch01-st4",
+   "chapterId": "cambridge-g11-physics-ch01",
+   "order": 4,
+   "name": "Scalars and vectors: adding, subtracting and resolving vectors",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch01-st3",
+    "cambridge-g11-maths-ch05-st3"
+   ],
+   "prerequisiteNote": "Scalars and vectors (IGCSE ch 1); trigonometry",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch02-st1",
+   "chapterId": "cambridge-g11-physics-ch02",
+   "order": 1,
+   "name": "Distance, displacement, speed, velocity and acceleration",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch01-st4",
+    "cambridge-g9-physics-ch02-st1"
+   ],
+   "prerequisiteNote": "Speed and velocity (IGCSE ch 2)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch02-st2",
+   "chapterId": "cambridge-g11-physics-ch02",
+   "order": 2,
+   "name": "Displacement-time and velocity-time graphs: gradients and areas",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch02-st1",
+    "cambridge-g9-physics-ch02-st3"
+   ],
+   "prerequisiteNote": "Speed-time graphs (IGCSE ch 2); gradient and area under a graph",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch02-st3",
+   "chapterId": "cambridge-g11-physics-ch02",
+   "order": 3,
+   "name": "Determining the acceleration of free fall experimentally",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch02-st2",
+    "cambridge-g11-physics-ch01-st3"
+   ],
+   "prerequisiteNote": "Free fall (IGCSE); uncertainties",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch03-st1",
+   "chapterId": "cambridge-g11-physics-ch03",
+   "order": 1,
+   "name": "Deriving and using the equations of uniformly accelerated motion",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch02-st2"
+   ],
+   "prerequisiteNote": "Velocity-time graphs; rearranging and solving quadratic equations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch03-st2",
+   "chapterId": "cambridge-g11-physics-ch03",
+   "order": 2,
+   "name": "Motion under gravity and the effect of air resistance",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch03-st1",
+    "cambridge-g9-physics-ch03-st3"
+   ],
+   "prerequisiteNote": "Terminal velocity (IGCSE ch 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch03-st3",
+   "chapterId": "cambridge-g11-physics-ch03",
+   "order": 3,
+   "name": "Projectile motion: independent horizontal and vertical components",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch03-st1",
+    "cambridge-g11-physics-ch01-st4"
+   ],
+   "prerequisiteNote": "Resolving vectors; equations of motion",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch04-st1",
+   "chapterId": "cambridge-g11-physics-ch04",
+   "order": 1,
+   "name": "Newton's laws of motion and F = ma, mass as resistance to change in velocity",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch02-st1",
+    "cambridge-g9-physics-ch03-st2"
+   ],
+   "prerequisiteNote": "Resultant force and F = ma (IGCSE ch 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch04-st2",
+   "chapterId": "cambridge-g11-physics-ch04",
+   "order": 2,
+   "name": "Weight, friction, drag and terminal velocity",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch04-st1",
+    "cambridge-g11-physics-ch03-st2"
+   ],
+   "prerequisiteNote": "Air resistance; Newton's laws",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch04-st3",
+   "chapterId": "cambridge-g11-physics-ch04",
+   "order": 3,
+   "name": "Free-body diagrams and resultant force in one dimension",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch04-st1",
+    "cambridge-g11-physics-ch01-st4"
+   ],
+   "prerequisiteNote": "Vectors; types of force",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch05-st1",
+   "chapterId": "cambridge-g11-physics-ch05",
+   "order": 1,
+   "name": "Linear momentum and force as rate of change of momentum",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch04-st1",
+    "cambridge-g9-physics-ch03-st5"
+   ],
+   "prerequisiteNote": "Momentum and impulse (IGCSE ch 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch05-st2",
+   "chapterId": "cambridge-g11-physics-ch05",
+   "order": 2,
+   "name": "Conservation of momentum in one and two dimensions",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch05-st1",
+    "cambridge-g11-physics-ch01-st4"
+   ],
+   "prerequisiteNote": "Momentum; resolving vectors",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch05-st3",
+   "chapterId": "cambridge-g11-physics-ch05",
+   "order": 3,
+   "name": "Elastic and inelastic collisions and relative speed of approach and separation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch05-st2"
+   ],
+   "prerequisiteNote": "Conservation of momentum; kinetic energy",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch06-st1",
+   "chapterId": "cambridge-g11-physics-ch06",
+   "order": 1,
+   "name": "Turning effects: moment of a force and couples and torque",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch04-st1"
+   ],
+   "prerequisiteNote": "Moments (IGCSE ch 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch06-st2",
+   "chapterId": "cambridge-g11-physics-ch06",
+   "order": 2,
+   "name": "Equilibrium: principle of moments and triangle of forces",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch06-st1",
+    "cambridge-g11-physics-ch01-st4"
+   ],
+   "prerequisiteNote": "Principle of moments (IGCSE ch 4); vector triangles",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch06-st3",
+   "chapterId": "cambridge-g11-physics-ch06",
+   "order": 3,
+   "name": "Centre of gravity and stability",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch06-st2"
+   ],
+   "prerequisiteNote": "Centre of gravity (IGCSE ch 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch07-st1",
+   "chapterId": "cambridge-g11-physics-ch07",
+   "order": 1,
+   "name": "Density and pressure p = F/A",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch05-st3"
+   ],
+   "prerequisiteNote": "Density and pressure (IGCSE ch 1 and 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch07-st2",
+   "chapterId": "cambridge-g11-physics-ch07",
+   "order": 2,
+   "name": "Hydrostatic pressure Δp = ρgΔh",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch07-st1",
+    "cambridge-g9-physics-ch05-st4"
+   ],
+   "prerequisiteNote": "Pressure in liquids (IGCSE ch 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch07-st3",
+   "chapterId": "cambridge-g11-physics-ch07",
+   "order": 3,
+   "name": "Upthrust and Archimedes' principle F = ρgV",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch07-st2"
+   ],
+   "prerequisiteNote": "Hydrostatic pressure; weight",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch08-st1",
+   "chapterId": "cambridge-g11-physics-ch08",
+   "order": 1,
+   "name": "Work done as force × displacement in the direction of the force",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch01-st4",
+    "cambridge-g9-physics-ch08-st1"
+   ],
+   "prerequisiteNote": "Work done (IGCSE ch 8); resolving vectors",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch08-st2",
+   "chapterId": "cambridge-g11-physics-ch08",
+   "order": 2,
+   "name": "Gravitational potential energy and kinetic energy and their derivations",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch08-st1",
+    "cambridge-g11-physics-ch03-st1"
+   ],
+   "prerequisiteNote": "Equations of motion; energy stores (IGCSE ch 6)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch08-st3",
+   "chapterId": "cambridge-g11-physics-ch08",
+   "order": 3,
+   "name": "Work done by a gas: W = pΔV",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch08-st1",
+    "cambridge-g11-physics-ch07-st1"
+   ],
+   "prerequisiteNote": "Pressure; work done",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch08-st4",
+   "chapterId": "cambridge-g11-physics-ch08",
+   "order": 4,
+   "name": "Power P = W/t = Fv and efficiency",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch08-st1",
+    "cambridge-g9-physics-ch08-st2"
+   ],
+   "prerequisiteNote": "Power (IGCSE ch 8); efficiency",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch09-st1",
+   "chapterId": "cambridge-g11-physics-ch09",
+   "order": 1,
+   "name": "Stress, strain and the Young modulus",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch05-st1",
+    "cambridge-g11-physics-ch07-st1"
+   ],
+   "prerequisiteNote": "Hooke's law (IGCSE ch 5); pressure as force per area",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch09-st2",
+   "chapterId": "cambridge-g11-physics-ch09",
+   "order": 2,
+   "name": "Elastic and plastic deformation and force-extension graphs",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch09-st1"
+   ],
+   "prerequisiteNote": "Load-extension graphs (IGCSE ch 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch09-st3",
+   "chapterId": "cambridge-g11-physics-ch09",
+   "order": 3,
+   "name": "Elastic potential energy as area under a force-extension graph",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch09-st2",
+    "cambridge-g11-physics-ch08-st1"
+   ],
+   "prerequisiteNote": "Work done; area under a graph",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch10-st1",
+   "chapterId": "cambridge-g11-physics-ch10",
+   "order": 1,
+   "name": "Progressive waves: displacement, amplitude, phase difference, period, frequency and wavelength",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-physics-ch01-st1"
+   ],
+   "prerequisiteNote": "Wave properties (IGCSE ch 1 Year 2)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch10-st2",
+   "chapterId": "cambridge-g11-physics-ch10",
+   "order": 2,
+   "name": "Intensity of waves and its dependence on amplitude",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch10-st1"
+   ],
+   "prerequisiteNote": "Energy and power; area of a sphere",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch10-st3",
+   "chapterId": "cambridge-g11-physics-ch10",
+   "order": 3,
+   "name": "The Doppler effect for sound waves",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch10-st1",
+    "cambridge-g10-physics-ch01-st2"
+   ],
+   "prerequisiteNote": "The wave equation v = fλ (IGCSE)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch10-st4",
+   "chapterId": "cambridge-g11-physics-ch10",
+   "order": 4,
+   "name": "Electromagnetic spectrum and speed of light",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-physics-ch02-st1"
+   ],
+   "prerequisiteNote": "EM spectrum (IGCSE)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch10-st5",
+   "chapterId": "cambridge-g11-physics-ch10",
+   "order": 5,
+   "name": "Polarisation and Malus's law",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch10-st4"
+   ],
+   "prerequisiteNote": "Transverse waves; cos² function",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch11-st1",
+   "chapterId": "cambridge-g11-physics-ch11",
+   "order": 1,
+   "name": "Stationary waves: formation, nodes and antinodes",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch10-st1"
+   ],
+   "prerequisiteNote": "Progressive waves; phase difference",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch11-st2",
+   "chapterId": "cambridge-g11-physics-ch11",
+   "order": 2,
+   "name": "Diffraction of waves",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch10-st1",
+    "cambridge-g10-physics-ch01-st4"
+   ],
+   "prerequisiteNote": "Diffraction (IGCSE)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch11-st3",
+   "chapterId": "cambridge-g11-physics-ch11",
+   "order": 3,
+   "name": "Interference, coherence and the double-slit experiment λ = ax/D",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch11-st2"
+   ],
+   "prerequisiteNote": "Diffraction; path difference",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch11-st4",
+   "chapterId": "cambridge-g11-physics-ch11",
+   "order": 4,
+   "name": "The diffraction grating d sin θ = nλ",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch11-st3"
+   ],
+   "prerequisiteNote": "Double-slit interference; trigonometry",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch12-st1",
+   "chapterId": "cambridge-g11-physics-ch12",
+   "order": 1,
+   "name": "Electric current, charge and the elementary charge, I = Anvq",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-physics-ch05-st1"
+   ],
+   "prerequisiteNote": "Current as rate of flow of charge (IGCSE)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch12-st2",
+   "chapterId": "cambridge-g11-physics-ch12",
+   "order": 2,
+   "name": "Potential difference and power: V = W/Q and P = VI = I²R",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch12-st1",
+    "cambridge-g10-physics-ch05-st4"
+   ],
+   "prerequisiteNote": "Electrical energy and power (IGCSE)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch12-st3",
+   "chapterId": "cambridge-g11-physics-ch12",
+   "order": 3,
+   "name": "Resistance and resistivity R = ρL/A",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch12-st2",
+    "cambridge-g10-physics-ch05-st3"
+   ],
+   "prerequisiteNote": "Resistance of a wire (IGCSE)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch12-st4",
+   "chapterId": "cambridge-g11-physics-ch12",
+   "order": 4,
+   "name": "I-V characteristics of resistors, filament lamps, diodes, thermistors and LDRs",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch12-st3"
+   ],
+   "prerequisiteNote": "Resistance; reading graphs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch13-st1",
+   "chapterId": "cambridge-g11-physics-ch13",
+   "order": 1,
+   "name": "Electromotive force and internal resistance",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch12-st2"
+   ],
+   "prerequisiteNote": "Potential difference; e.m.f. (IGCSE)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch13-st2",
+   "chapterId": "cambridge-g11-physics-ch13",
+   "order": 2,
+   "name": "Kirchhoff's first and second laws and combining resistors",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch12-st3",
+    "cambridge-g10-physics-ch06-st2"
+   ],
+   "prerequisiteNote": "Series and parallel circuits (IGCSE)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch13-st3",
+   "chapterId": "cambridge-g11-physics-ch13",
+   "order": 3,
+   "name": "Potential dividers, potentiometers and sensors",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch13-st2",
+    "cambridge-g11-physics-ch12-st4"
+   ],
+   "prerequisiteNote": "Potential divider circuits (IGCSE); thermistors and LDRs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch14-st1",
+   "chapterId": "cambridge-g11-physics-ch14",
+   "order": 1,
+   "name": "Atoms, nuclei and the α-particle scattering experiment",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-physics-ch09-st2"
+   ],
+   "prerequisiteNote": "Rutherford scattering (IGCSE)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch14-st2",
+   "chapterId": "cambridge-g11-physics-ch14",
+   "order": 2,
+   "name": "Nucleons, isotopes and nuclear decay equations including β⁺ and the neutrino",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch14-st1",
+    "cambridge-g10-physics-ch10-st3"
+   ],
+   "prerequisiteNote": "Nuclear decay equations (IGCSE)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch14-st3",
+   "chapterId": "cambridge-g11-physics-ch14",
+   "order": 3,
+   "name": "Fundamental particles: quarks, antiparticles, hadrons and leptons",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch14-st2"
+   ],
+   "prerequisiteNote": "Nucleons and their charges",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch14-st4",
+   "chapterId": "cambridge-g11-physics-ch14",
+   "order": 4,
+   "name": "Quark models of β⁻ and β⁺ decay",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch14-st3"
+   ],
+   "prerequisiteNote": "Quark composition of protons and neutrons",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch15-st1",
+   "chapterId": "cambridge-g11-physics-ch15",
+   "order": 1,
+   "name": "Manipulation, measurement and observation: using instruments and recording data",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch01-st3"
+   ],
+   "prerequisiteNote": "Using measuring instruments (IGCSE practical)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch15-st2",
+   "chapterId": "cambridge-g11-physics-ch15",
+   "order": 2,
+   "name": "Presentation of data: tables, graphs, gradients and intercepts",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch15-st1",
+    "cambridge-g9-maths-ch10-st1"
+   ],
+   "prerequisiteNote": "Straight-line graphs (IGCSE maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch15-st3",
+   "chapterId": "cambridge-g11-physics-ch15",
+   "order": 3,
+   "name": "Analysis, conclusions and evaluation including estimating uncertainties",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch15-st2",
+    "cambridge-g11-physics-ch01-st3"
+   ],
+   "prerequisiteNote": "Errors and uncertainties",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-physics-ch15-st4",
+   "chapterId": "cambridge-g11-physics-ch15",
+   "order": 4,
+   "name": "Identifying limitations and suggesting improvements to experiments",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch15-st3"
+   ],
+   "prerequisiteNote": "Evaluating experiments; sources of error",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

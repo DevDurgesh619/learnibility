@@ -1,0 +1,639 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cbse-g12-computer-science",
+  "board": "cbse",
+  "grade": 12,
+  "stream": "science",
+  "slug": "computer-science",
+  "name": "Computer Science",
+  "programme": "CBSE Class 12 Computer Science (083)",
+  "textbook": "NCERT Computer Science XII (083) – 9 chapters in CBSE syllabus",
+  "examPattern": "CBSE Board exam, 3 h; SQP 2026-27 – 'no change in question paper design'. 50% competency-based, 20% MCQ, 30% SA/LA, ~33% internal choice. Theory 70 + Practical 30. 37 questions: A 21×1, B 7×2, C 3×3, D 4×4, E 2×5.",
+  "chapterCount": 9,
+  "questionTarget": 1032
+ },
+ "items": [
+  {
+   "id": "cbse-g12-computer-science-ch01",
+   "subjectId": "cbse-g12-computer-science",
+   "order": 1,
+   "name": "Revision of Python Topics and Working with Functions",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g12-computer-science-ch01-st1",
+    "cbse-g12-computer-science-ch01-st2",
+    "cbse-g12-computer-science-ch01-st3",
+    "cbse-g12-computer-science-ch01-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-computer-science-ch02",
+   "subjectId": "cbse-g12-computer-science",
+   "order": 2,
+   "name": "Exception Handling in Python",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cbse-g12-computer-science-ch02-st1",
+    "cbse-g12-computer-science-ch02-st2",
+    "cbse-g12-computer-science-ch02-st3"
+   ]
+  },
+  {
+   "id": "cbse-g12-computer-science-ch03",
+   "subjectId": "cbse-g12-computer-science",
+   "order": 3,
+   "name": "File Handling in Python",
+   "teachingPeriods": 24,
+   "subtopicIds": [
+    "cbse-g12-computer-science-ch03-st1",
+    "cbse-g12-computer-science-ch03-st2",
+    "cbse-g12-computer-science-ch03-st3",
+    "cbse-g12-computer-science-ch03-st4",
+    "cbse-g12-computer-science-ch03-st5"
+   ]
+  },
+  {
+   "id": "cbse-g12-computer-science-ch04",
+   "subjectId": "cbse-g12-computer-science",
+   "order": 4,
+   "name": "Data Structures: Stack",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cbse-g12-computer-science-ch04-st1",
+    "cbse-g12-computer-science-ch04-st2",
+    "cbse-g12-computer-science-ch04-st3"
+   ]
+  },
+  {
+   "id": "cbse-g12-computer-science-ch05",
+   "subjectId": "cbse-g12-computer-science",
+   "order": 5,
+   "name": "Computer Networks",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cbse-g12-computer-science-ch05-st1",
+    "cbse-g12-computer-science-ch05-st2",
+    "cbse-g12-computer-science-ch05-st3",
+    "cbse-g12-computer-science-ch05-st4",
+    "cbse-g12-computer-science-ch05-st5"
+   ]
+  },
+  {
+   "id": "cbse-g12-computer-science-ch06",
+   "subjectId": "cbse-g12-computer-science",
+   "order": 6,
+   "name": "Data Communication",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "cbse-g12-computer-science-ch06-st1",
+    "cbse-g12-computer-science-ch06-st2",
+    "cbse-g12-computer-science-ch06-st3",
+    "cbse-g12-computer-science-ch06-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-computer-science-ch07",
+   "subjectId": "cbse-g12-computer-science",
+   "order": 7,
+   "name": "Database Concepts",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "cbse-g12-computer-science-ch07-st1",
+    "cbse-g12-computer-science-ch07-st2",
+    "cbse-g12-computer-science-ch07-st3"
+   ]
+  },
+  {
+   "id": "cbse-g12-computer-science-ch08",
+   "subjectId": "cbse-g12-computer-science",
+   "order": 8,
+   "name": "Structured Query Language (SQL)",
+   "teachingPeriods": 24,
+   "subtopicIds": [
+    "cbse-g12-computer-science-ch08-st1",
+    "cbse-g12-computer-science-ch08-st2",
+    "cbse-g12-computer-science-ch08-st3",
+    "cbse-g12-computer-science-ch08-st4",
+    "cbse-g12-computer-science-ch08-st5"
+   ]
+  },
+  {
+   "id": "cbse-g12-computer-science-ch09",
+   "subjectId": "cbse-g12-computer-science",
+   "order": 9,
+   "name": "Interface of Python with an SQL Database",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "cbse-g12-computer-science-ch09-st1",
+    "cbse-g12-computer-science-ch09-st2",
+    "cbse-g12-computer-science-ch09-st3"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cbse-g12-computer-science-ch01-st1",
+   "chapterId": "cbse-g12-computer-science-ch01",
+   "order": 1,
+   "name": "Revision of Python: data types, operators, flow of control, strings, lists, tuples and dictionaries",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-computer-science-ch06-st2",
+    "cbse-g11-computer-science-ch09-st2",
+    "cbse-g11-computer-science-ch10-st2"
+   ],
+   "prerequisiteNote": "Loops, list and dictionary operations (CS XI ch 6, 9, 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-computer-science-ch01-st2",
+   "chapterId": "cbse-g12-computer-science-ch01",
+   "order": 2,
+   "name": "Types of functions: built-in, module-defined and user-defined; creating functions",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-computer-science-ch01-st1",
+    "cbse-g11-computer-science-ch07-st1"
+   ],
+   "prerequisiteNote": "User-defined functions (CS XI ch 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-computer-science-ch01-st3",
+   "chapterId": "cbse-g12-computer-science-ch01",
+   "order": 3,
+   "name": "Arguments and parameters: positional, default and keyword; returning multiple values",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-computer-science-ch01-st2"
+   ],
+   "prerequisiteNote": "Defining functions and passing arguments (CS XI)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-computer-science-ch01-st4",
+   "chapterId": "cbse-g12-computer-science-ch01",
+   "order": 4,
+   "name": "Flow of execution and scope of variables (local, global, global keyword); passing mutable objects",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-computer-science-ch01-st3",
+    "cbse-g11-computer-science-ch07-st3"
+   ],
+   "prerequisiteNote": "Local and global scope (CS XI ch 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-computer-science-ch02-st1",
+   "chapterId": "cbse-g12-computer-science-ch02",
+   "order": 1,
+   "name": "Syntax errors vs exceptions; built-in exceptions (ZeroDivisionError, ValueError, TypeError, NameError, IndexError)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-computer-science-ch01-st1",
+    "cbse-g11-computer-science-ch05-st5"
+   ],
+   "prerequisiteNote": "Syntax, logical and runtime errors (CS XI ch 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-computer-science-ch02-st2",
+   "chapterId": "cbse-g12-computer-science-ch02",
+   "order": 2,
+   "name": "Handling exceptions with try, except, else and finally",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-computer-science-ch02-st1"
+   ],
+   "prerequisiteNote": "Built-in exceptions; flow of control",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-computer-science-ch02-st3",
+   "chapterId": "cbse-g12-computer-science-ch02",
+   "order": 3,
+   "name": "Raising exceptions with raise and assert",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g12-computer-science-ch02-st2"
+   ],
+   "prerequisiteNote": "try-except blocks",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-computer-science-ch03-st1",
+   "chapterId": "cbse-g12-computer-science-ch03",
+   "order": 1,
+   "name": "Files and file paths; text vs binary files; opening and closing files, file modes and the with clause",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-computer-science-ch01-st1"
+   ],
+   "prerequisiteNote": "Strings and string methods (CS XI ch 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-computer-science-ch03-st2",
+   "chapterId": "cbse-g12-computer-science-ch03",
+   "order": 2,
+   "name": "Text files: write(), writelines(), read(), readline(), readlines(); seek() and tell()",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-computer-science-ch03-st1",
+    "cbse-g11-computer-science-ch08-st3"
+   ],
+   "prerequisiteNote": "String methods (split, strip); loops over lines",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-computer-science-ch03-st3",
+   "chapterId": "cbse-g12-computer-science-ch03",
+   "order": 3,
+   "name": "Text file processing programs: counting words, lines, characters and searching",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-computer-science-ch03-st2",
+    "cbse-g12-computer-science-ch01-st3"
+   ],
+   "prerequisiteNote": "Reading text files; functions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-computer-science-ch03-st4",
+   "chapterId": "cbse-g12-computer-science-ch03",
+   "order": 4,
+   "name": "Binary files with the pickle module: dump(), load(); search, append and update records",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-computer-science-ch03-st1",
+    "cbse-g12-computer-science-ch01-st1"
+   ],
+   "prerequisiteNote": "Lists and dictionaries as records (CS XI ch 9-10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-computer-science-ch03-st5",
+   "chapterId": "cbse-g12-computer-science-ch03",
+   "order": 5,
+   "name": "CSV files with the csv module: writer, writerow, writerows and reader",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-computer-science-ch03-st1"
+   ],
+   "prerequisiteNote": "File modes; lists of lists",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-computer-science-ch04-st1",
+   "chapterId": "cbse-g12-computer-science-ch04",
+   "order": 1,
+   "name": "Stack as a LIFO data structure: concept and applications",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-computer-science-ch01-st1"
+   ],
+   "prerequisiteNote": "Lists in Python (CS XI ch 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-computer-science-ch04-st2",
+   "chapterId": "cbse-g12-computer-science-ch04",
+   "order": 2,
+   "name": "Push and pop operations using a Python list; overflow and underflow",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-computer-science-ch04-st1",
+    "cbse-g12-computer-science-ch01-st3"
+   ],
+   "prerequisiteNote": "List methods append() and pop(); writing functions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-computer-science-ch04-st3",
+   "chapterId": "cbse-g12-computer-science-ch04",
+   "order": 3,
+   "name": "Stack applications: reversing a string, checking balanced parentheses, evaluating postfix",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-computer-science-ch04-st2"
+   ],
+   "prerequisiteNote": "Push and pop operations; operator precedence",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-computer-science-ch05-st1",
+   "chapterId": "cbse-g12-computer-science-ch05",
+   "order": 1,
+   "name": "Evolution of networking (ARPANET, NSFNET, Internet) and types of networks: PAN, LAN, MAN, WAN",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Basic idea of the internet (CS XI ch 3 Emerging Trends)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-computer-science-ch05-st2",
+   "chapterId": "cbse-g12-computer-science-ch05",
+   "order": 2,
+   "name": "Network devices: modem, Ethernet card, RJ45, repeater, hub, switch, router, gateway, Wi-Fi card",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-computer-science-ch05-st1"
+   ],
+   "prerequisiteNote": "Types of networks",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-computer-science-ch05-st3",
+   "chapterId": "cbse-g12-computer-science-ch05",
+   "order": 3,
+   "name": "Network topologies: bus, star, tree, mesh",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-computer-science-ch05-st2"
+   ],
+   "prerequisiteNote": "Network devices; drawing node connections",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-computer-science-ch05-st4",
+   "chapterId": "cbse-g12-computer-science-ch05",
+   "order": 4,
+   "name": "Network protocols (HTTP, FTP, PPP, SMTP, TCP/IP, POP3, HTTPS, TELNET, VoIP)",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-computer-science-ch05-st1"
+   ],
+   "prerequisiteNote": "Types of networks; client-server idea",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-computer-science-ch05-st5",
+   "chapterId": "cbse-g12-computer-science-ch05",
+   "order": 5,
+   "name": "Introduction to web services: WWW, HTML, XML, domain names, URL, websites, web browsers and web servers",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g12-computer-science-ch05-st4"
+   ],
+   "prerequisiteNote": "Network protocols (HTTP)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-computer-science-ch06-st1",
+   "chapterId": "cbse-g12-computer-science-ch06",
+   "order": 1,
+   "name": "Data communication terminologies: sender, receiver, message, medium, protocol; bandwidth and data transfer rate",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-computer-science-ch05-st1"
+   ],
+   "prerequisiteNote": "Units of memory and data (CS XI ch 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-computer-science-ch06-st2",
+   "chapterId": "cbse-g12-computer-science-ch06",
+   "order": 2,
+   "name": "Switching techniques: circuit and packet switching",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g12-computer-science-ch06-st1"
+   ],
+   "prerequisiteNote": "Data communication components",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-computer-science-ch06-st3",
+   "chapterId": "cbse-g12-computer-science-ch06",
+   "order": 3,
+   "name": "Transmission media: wired (twisted pair, coaxial, fibre optic) and wireless (radio, microwave, infrared)",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-computer-science-ch06-st1"
+   ],
+   "prerequisiteNote": "Data communication components; electromagnetic spectrum (Physics Cl 10-12)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-computer-science-ch06-st4",
+   "chapterId": "cbse-g12-computer-science-ch06",
+   "order": 4,
+   "name": "Mobile telecommunication technologies (1G to 5G) and network-based case study design",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g12-computer-science-ch06-st3",
+    "cbse-g12-computer-science-ch05-st3"
+   ],
+   "prerequisiteNote": "Transmission media; network topologies",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-computer-science-ch07-st1",
+   "chapterId": "cbse-g12-computer-science-ch07",
+   "order": 1,
+   "name": "Need for a database and limitations of file system; DBMS",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-computer-science-ch03-st1"
+   ],
+   "prerequisiteNote": "File handling and data redundancy",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-computer-science-ch07-st2",
+   "chapterId": "cbse-g12-computer-science-ch07",
+   "order": 2,
+   "name": "Relational data model: relation, attribute, tuple, domain, degree, cardinality",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-computer-science-ch07-st1"
+   ],
+   "prerequisiteNote": "Tables of rows and columns",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-computer-science-ch07-st3",
+   "chapterId": "cbse-g12-computer-science-ch07",
+   "order": 3,
+   "name": "Keys: candidate key, primary key, alternate key and foreign key",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-computer-science-ch07-st2"
+   ],
+   "prerequisiteNote": "Relational model terms",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-computer-science-ch08-st1",
+   "chapterId": "cbse-g12-computer-science-ch08",
+   "order": 1,
+   "name": "SQL basics: DDL and DML; data types (CHAR, VARCHAR, INT, FLOAT, DATE) and constraints",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-computer-science-ch07-st3"
+   ],
+   "prerequisiteNote": "Keys and relations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-computer-science-ch08-st2",
+   "chapterId": "cbse-g12-computer-science-ch08",
+   "order": 2,
+   "name": "DDL commands: CREATE DATABASE, CREATE TABLE, DROP, ALTER TABLE (add/remove attribute and primary key)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-computer-science-ch08-st1"
+   ],
+   "prerequisiteNote": "SQL data types and constraints",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-computer-science-ch08-st3",
+   "chapterId": "cbse-g12-computer-science-ch08",
+   "order": 3,
+   "name": "DML and queries: INSERT, DELETE, UPDATE, SELECT with WHERE, DISTINCT, IN, BETWEEN, LIKE, IS NULL, ORDER BY",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-computer-science-ch08-st2"
+   ],
+   "prerequisiteNote": "CREATE TABLE; relational and logical operators (CS XI ch 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-computer-science-ch08-st4",
+   "chapterId": "cbse-g12-computer-science-ch08",
+   "order": 4,
+   "name": "Aggregate functions (MAX, MIN, AVG, SUM, COUNT) with GROUP BY and HAVING",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-computer-science-ch08-st3"
+   ],
+   "prerequisiteNote": "SELECT with WHERE; mean and count (Maths Cl 9 Statistics)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-computer-science-ch08-st5",
+   "chapterId": "cbse-g12-computer-science-ch08",
+   "order": 5,
+   "name": "Joins: Cartesian product, equi-join and natural join",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-computer-science-ch08-st3",
+    "cbse-g12-computer-science-ch07-st3"
+   ],
+   "prerequisiteNote": "Foreign key; SELECT queries",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-computer-science-ch09-st1",
+   "chapterId": "cbse-g12-computer-science-ch09",
+   "order": 1,
+   "name": "Connecting Python to MySQL with mysql.connector: connect(), cursor()",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-computer-science-ch08-st3",
+    "cbse-g12-computer-science-ch01-st2"
+   ],
+   "prerequisiteNote": "Functions and modules in Python; SQL queries",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-computer-science-ch09-st2",
+   "chapterId": "cbse-g12-computer-science-ch09",
+   "order": 2,
+   "name": "Executing queries: execute(), commit(), fetchone(), fetchall(), rowcount",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-computer-science-ch09-st1",
+    "cbse-g12-computer-science-ch08-st3"
+   ],
+   "prerequisiteNote": "Connecting to MySQL; DML queries",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-computer-science-ch09-st3",
+   "chapterId": "cbse-g12-computer-science-ch09",
+   "order": 3,
+   "name": "Parameterised queries using %s and format() and complete menu-driven database programs",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-computer-science-ch09-st2",
+    "cbse-g12-computer-science-ch02-st2"
+   ],
+   "prerequisiteNote": "execute() and fetch methods; exception handling",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

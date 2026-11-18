@@ -1,0 +1,797 @@
+{
+  "subjectId": "cambridge-g12-sociology",
+  "chapters": [
+    {
+      "name": "Education: Perspectives on the Role of Education in Society",
+      "subtopics": [
+        {
+          "name": "Functionalist views: socialisation, role allocation and meritocracy",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-sociology-ch01-st1",
+            "cambridge-g11-sociology-ch02-st2"
+          ],
+          "note": "Functionalism (AS); secondary socialisation"
+        },
+        {
+          "name": "Marxist views: correspondence theory, reproduction and legitimation",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-sociology-ch01-st1",
+            "cambridge-g11-sociology-ch01-st2"
+          ],
+          "note": "Functionalist view of education; Marxism (AS)"
+        },
+        {
+          "name": "Feminist and interactionist views of education",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch01-st2",
+            "cambridge-g11-sociology-ch01-st3"
+          ],
+          "note": "Marxist view of education; feminist perspectives (AS)"
+        },
+        {
+          "name": "Neoliberal and New Right views of education",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch01-st1"
+          ],
+          "note": "Functionalist meritocracy; market competition"
+        }
+      ]
+    },
+    {
+      "name": "Education: Education, the Economy and Policy",
+      "subtopics": [
+        {
+          "name": "Education and the economy: human capital and vocational education",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch01-st1"
+          ],
+          "note": "Functionalist role allocation; skills and employment"
+        },
+        {
+          "name": "Marketisation, privatisation and parental choice",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-sociology-ch01-st4"
+          ],
+          "note": "New Right views; league tables and competition"
+        },
+        {
+          "name": "Education policy, globalisation and international comparisons",
+          "weight": "L",
+          "prereq": [
+            "cambridge-g12-sociology-ch02-st2"
+          ],
+          "note": "Marketisation; global labour markets"
+        }
+      ]
+    },
+    {
+      "name": "Education: Social Class and Educational Achievement",
+      "subtopics": [
+        {
+          "name": "Material deprivation and educational achievement",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch01-st2",
+            "cambridge-g11-sociology-ch04-st4"
+          ],
+          "note": "Marxist views of education; social class identity (AS)"
+        },
+        {
+          "name": "Cultural deprivation and cultural capital (Bourdieu)",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-sociology-ch03-st1"
+          ],
+          "note": "Material deprivation; socialisation in the family (AS)"
+        },
+        {
+          "name": "In-school factors and class: labelling and the self-fulfilling prophecy",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-sociology-ch03-st2",
+            "cambridge-g11-sociology-ch01-st4"
+          ],
+          "note": "Cultural capital; interactionism and labelling (AS)"
+        }
+      ]
+    },
+    {
+      "name": "Education: Gender and Educational Achievement",
+      "subtopics": [
+        {
+          "name": "Explaining the gender gap in achievement",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch03-st1",
+            "cambridge-g11-sociology-ch04-st1"
+          ],
+          "note": "Class explanations of achievement; gender identity (AS)"
+        },
+        {
+          "name": "Gender, subject choice and the hidden curriculum",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch04-st1"
+          ],
+          "note": "Gender gap; gender socialisation"
+        },
+        {
+          "name": "Masculinities, laddish subcultures and boys' achievement",
+          "weight": "L",
+          "prereq": [
+            "cambridge-g12-sociology-ch04-st1"
+          ],
+          "note": "Gender gap; masculinities and gender identity (AS)"
+        }
+      ]
+    },
+    {
+      "name": "Education: Ethnicity and Educational Achievement",
+      "subtopics": [
+        {
+          "name": "Patterns of ethnic differences in achievement",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch03-st1",
+            "cambridge-g11-sociology-ch04-st2"
+          ],
+          "note": "Class and achievement; ethnic identity (AS)"
+        },
+        {
+          "name": "External explanations: cultural, material and linguistic factors",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch05-st1"
+          ],
+          "note": "Ethnic achievement patterns; cultural deprivation"
+        },
+        {
+          "name": "Internal explanations: institutional racism, labelling and ethnocentric curriculum",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-sociology-ch05-st2",
+            "cambridge-g12-sociology-ch03-st3"
+          ],
+          "note": "External explanations; labelling and the self-fulfilling prophecy"
+        }
+      ]
+    },
+    {
+      "name": "Education: Processes within Schools",
+      "subtopics": [
+        {
+          "name": "Teacher-pupil relationships and labelling",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch03-st3"
+          ],
+          "note": "Labelling and the self-fulfilling prophecy (class)"
+        },
+        {
+          "name": "Setting, streaming and the organisation of learning",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch06-st1"
+          ],
+          "note": "Labelling; ability grouping"
+        },
+        {
+          "name": "Pupil subcultures: pro-school and anti-school responses",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-sociology-ch06-st2",
+            "cambridge-g11-sociology-ch03-st2"
+          ],
+          "note": "Setting and streaming; conformity and resistance (AS)"
+        }
+      ]
+    },
+    {
+      "name": "Education: The Curriculum and Knowledge",
+      "subtopics": [
+        {
+          "name": "The formal curriculum, the hidden curriculum and what counts as knowledge",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch01-st2"
+          ],
+          "note": "Marxist correspondence theory; social construction of knowledge"
+        },
+        {
+          "name": "Ethnocentrism and power in curriculum design",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch07-st1",
+            "cambridge-g12-sociology-ch05-st3"
+          ],
+          "note": "Hidden curriculum; ethnocentric curriculum"
+        },
+        {
+          "name": "Applying research methods to the study of education",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-sociology-ch06-st3",
+            "cambridge-g11-sociology-ch07-st2"
+          ],
+          "note": "School processes; participant observation (AS methods)"
+        }
+      ]
+    },
+    {
+      "name": "Globalisation: Defining Globalisation and its Dimensions",
+      "subtopics": [
+        {
+          "name": "Economic, political and cultural globalisation",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g8-social-science-ch09-st1"
+          ],
+          "note": "What is globalisation? (Stage 9 Humanities)"
+        },
+        {
+          "name": "Hyperglobalist, sceptic and transformationalist views",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-sociology-ch08-st1"
+          ],
+          "note": "Dimensions of globalisation"
+        },
+        {
+          "name": "Time-space compression and the role of communication technology",
+          "weight": "L",
+          "prereq": [
+            "cambridge-g12-sociology-ch08-st1"
+          ],
+          "note": "Dimensions of globalisation; internet and transport change"
+        }
+      ]
+    },
+    {
+      "name": "Globalisation: Development and Underdevelopment",
+      "subtopics": [
+        {
+          "name": "Defining and measuring development",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g10-geography-ch03-st1"
+          ],
+          "note": "Development indicators (IGCSE Geography)"
+        },
+        {
+          "name": "Modernisation theory",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-sociology-ch09-st1",
+            "cambridge-g11-sociology-ch01-st1"
+          ],
+          "note": "Measuring development; functionalism (AS)"
+        },
+        {
+          "name": "Dependency and world-systems theories",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-sociology-ch09-st2",
+            "cambridge-g11-sociology-ch01-st2"
+          ],
+          "note": "Modernisation theory; Marxism (AS)"
+        },
+        {
+          "name": "Neoliberal and post-development approaches",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch09-st3"
+          ],
+          "note": "Dependency theory; aid and trade"
+        }
+      ]
+    },
+    {
+      "name": "Globalisation: Global Inequality, Power and Transnational Corporations",
+      "subtopics": [
+        {
+          "name": "Transnational corporations and global economic power",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch09-st3",
+            "cambridge-g10-geography-ch03-st4"
+          ],
+          "note": "Dependency theory; TNCs (IGCSE Geography)"
+        },
+        {
+          "name": "Global inequality: poverty, debt and aid",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-sociology-ch09-st4"
+          ],
+          "note": "Neoliberal and post-development views"
+        },
+        {
+          "name": "International organisations: the IMF, World Bank and WTO",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch10-st2"
+          ],
+          "note": "Debt and aid"
+        }
+      ]
+    },
+    {
+      "name": "Globalisation: Culture and Identity",
+      "subtopics": [
+        {
+          "name": "Global culture, cultural imperialism and McDonaldisation",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-sociology-ch08-st2",
+            "cambridge-g11-sociology-ch02-st1"
+          ],
+          "note": "Views on globalisation; culture, norms and values (AS)"
+        },
+        {
+          "name": "Hybrid identities and glocalisation",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch11-st1",
+            "cambridge-g11-sociology-ch04-st2"
+          ],
+          "note": "Global culture; ethnic identity and hybridity (AS)"
+        },
+        {
+          "name": "Migration, diaspora and transnational communities",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch11-st2",
+            "cambridge-g11-geography-ch15-st1"
+          ],
+          "note": "Hybrid identities; international migration (AS Geography)"
+        }
+      ]
+    },
+    {
+      "name": "Globalisation: Crime, Risk and the Nation-State",
+      "subtopics": [
+        {
+          "name": "Global crime: trafficking, cybercrime and green crime",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch08-st3"
+          ],
+          "note": "Time-space compression; deviance and social control (AS)"
+        },
+        {
+          "name": "Risk society and global risks (Beck)",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch12-st1"
+          ],
+          "note": "Global crime; environmental risk"
+        },
+        {
+          "name": "Global social movements and the declining power of the nation-state",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch10-st3",
+            "cambridge-g12-sociology-ch12-st2"
+          ],
+          "note": "International organisations; risk society"
+        }
+      ]
+    },
+    {
+      "name": "Globalisation: Gender, Work and Global Change",
+      "subtopics": [
+        {
+          "name": "Gender and global labour: feminisation of employment",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch10-st1",
+            "cambridge-g11-sociology-ch04-st1"
+          ],
+          "note": "TNCs; gender identity (AS)"
+        },
+        {
+          "name": "Women, development and empowerment",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch13-st1",
+            "cambridge-g12-sociology-ch09-st2"
+          ],
+          "note": "Feminisation of employment; modernisation theory"
+        },
+        {
+          "name": "Feminist critiques of development theory",
+          "weight": "L",
+          "prereq": [
+            "cambridge-g12-sociology-ch13-st2",
+            "cambridge-g11-sociology-ch01-st3"
+          ],
+          "note": "Women and development; feminist perspectives (AS)"
+        }
+      ]
+    },
+    {
+      "name": "Media: Ownership and Control of the Media",
+      "subtopics": [
+        {
+          "name": "Concentration of ownership and media conglomerates",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-sociology-ch10-st1"
+          ],
+          "note": "TNCs and global power"
+        },
+        {
+          "name": "Marxist and neo-Marxist (hegemonic) approaches to media control",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-sociology-ch14-st1",
+            "cambridge-g11-sociology-ch03-st3"
+          ],
+          "note": "Concentration of ownership; hegemony (AS)"
+        },
+        {
+          "name": "Pluralist approaches to media ownership and control",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch14-st2"
+          ],
+          "note": "Marxist approaches (contrast)"
+        }
+      ]
+    },
+    {
+      "name": "Media: The Media, Ideology and the News",
+      "subtopics": [
+        {
+          "name": "News values, agenda-setting and gatekeeping",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch14-st2"
+          ],
+          "note": "Neo-Marxist approaches; journalists as gatekeepers"
+        },
+        {
+          "name": "Moral panics and folk devils",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-sociology-ch15-st1",
+            "cambridge-g11-sociology-ch03-st2"
+          ],
+          "note": "News values; deviance and labelling (AS)"
+        },
+        {
+          "name": "Media, ideology and the manufacture of consent",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch15-st1",
+            "cambridge-g12-sociology-ch14-st2"
+          ],
+          "note": "News selection; hegemony"
+        }
+      ]
+    },
+    {
+      "name": "Media: Media Representations of Social Groups",
+      "subtopics": [
+        {
+          "name": "Representations of gender and sexuality",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-sociology-ch15-st3",
+            "cambridge-g11-sociology-ch04-st1"
+          ],
+          "note": "Media ideology; gender identity (AS)"
+        },
+        {
+          "name": "Representations of ethnicity, age and social class",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch16-st1",
+            "cambridge-g11-sociology-ch04-st3"
+          ],
+          "note": "Gender representations; age and class identity (AS)"
+        },
+        {
+          "name": "Representations of disability and stereotyping",
+          "weight": "L",
+          "prereq": [
+            "cambridge-g12-sociology-ch16-st1"
+          ],
+          "note": "Representations of gender"
+        }
+      ]
+    },
+    {
+      "name": "Media: Media Effects and Audiences",
+      "subtopics": [
+        {
+          "name": "Direct effects models: hypodermic syringe and the debate on media violence",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-sociology-ch15-st2"
+          ],
+          "note": "Moral panics; experiments in sociology (AS methods)"
+        },
+        {
+          "name": "Limited effects models: two-step flow, uses and gratifications",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch17-st1"
+          ],
+          "note": "Hypodermic syringe model"
+        },
+        {
+          "name": "Cultural effects and reception analysis: active audiences",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch17-st2",
+            "cambridge-g12-sociology-ch15-st3"
+          ],
+          "note": "Limited effects; ideology"
+        }
+      ]
+    },
+    {
+      "name": "Media: New Media and the Digital Age",
+      "subtopics": [
+        {
+          "name": "Defining new media: digital, interactive and networked media",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch08-st3"
+          ],
+          "note": "Time-space compression"
+        },
+        {
+          "name": "Optimistic and pessimistic views of new media",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch18-st1",
+            "cambridge-g12-sociology-ch14-st3"
+          ],
+          "note": "New media features; pluralist views"
+        },
+        {
+          "name": "Social media, citizen journalism and digital surveillance",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch18-st2",
+            "cambridge-g12-sociology-ch15-st1"
+          ],
+          "note": "Views of new media; news values"
+        }
+      ]
+    },
+    {
+      "name": "Media: Media, Power and Globalisation",
+      "subtopics": [
+        {
+          "name": "Global media and cultural imperialism",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch11-st1",
+            "cambridge-g12-sociology-ch14-st1"
+          ],
+          "note": "Cultural imperialism; media conglomerates"
+        },
+        {
+          "name": "The media and the public sphere",
+          "weight": "L",
+          "prereq": [
+            "cambridge-g12-sociology-ch18-st3",
+            "cambridge-g12-sociology-ch14-st3"
+          ],
+          "note": "Social media; pluralism"
+        },
+        {
+          "name": "Researching the media: content analysis and semiology",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-sociology-ch07-st3",
+            "cambridge-g12-sociology-ch16-st2"
+          ],
+          "note": "Documents (AS methods); representations"
+        }
+      ]
+    },
+    {
+      "name": "Religion: Defining and Measuring Religion",
+      "subtopics": [
+        {
+          "name": "Substantive, functional and social constructionist definitions of religion",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-sociology-ch02-st1"
+          ],
+          "note": "Culture, norms and values (AS)"
+        },
+        {
+          "name": "Measuring religiosity: belief, belonging and practice",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch20-st1",
+            "cambridge-g11-sociology-ch06-st3"
+          ],
+          "note": "Definitions of religion; official statistics (AS)"
+        },
+        {
+          "name": "Religion and spirituality in contemporary society",
+          "weight": "L",
+          "prereq": [
+            "cambridge-g12-sociology-ch20-st2"
+          ],
+          "note": "Measuring religiosity"
+        }
+      ]
+    },
+    {
+      "name": "Religion: Religion, Social Order and Social Change",
+      "subtopics": [
+        {
+          "name": "Functionalist views: religion, integration and collective conscience (Durkheim)",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-sociology-ch20-st1",
+            "cambridge-g11-sociology-ch01-st1"
+          ],
+          "note": "Definitions of religion; functionalism (AS)"
+        },
+        {
+          "name": "Marxist views: religion as ideology and the opium of the people",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-sociology-ch21-st1",
+            "cambridge-g11-sociology-ch01-st2"
+          ],
+          "note": "Functionalist view; Marxism (AS)"
+        },
+        {
+          "name": "Weber and religion as a force for social change",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-sociology-ch21-st2"
+          ],
+          "note": "Marxist view; Protestant ethic and capitalism"
+        },
+        {
+          "name": "Feminist views of religion and patriarchy",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch21-st2",
+            "cambridge-g11-sociology-ch01-st3"
+          ],
+          "note": "Marxist view; feminist perspectives (AS)"
+        }
+      ]
+    },
+    {
+      "name": "Religion: Religious Organisations and Movements",
+      "subtopics": [
+        {
+          "name": "Churches, denominations, sects and cults",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch20-st1"
+          ],
+          "note": "Definitions of religion"
+        },
+        {
+          "name": "New religious movements: Wallis's typology",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch22-st1"
+          ],
+          "note": "Church-sect typology"
+        },
+        {
+          "name": "Explaining the growth of sects and New Age movements",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch22-st2",
+            "cambridge-g12-sociology-ch20-st3"
+          ],
+          "note": "New religious movements; spirituality"
+        }
+      ]
+    },
+    {
+      "name": "Religion: Religion, Gender, Ethnicity and Class",
+      "subtopics": [
+        {
+          "name": "Gender and religious participation",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch21-st4"
+          ],
+          "note": "Feminist views of religion"
+        },
+        {
+          "name": "Ethnicity, religion and identity",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch23-st1",
+            "cambridge-g12-sociology-ch11-st3"
+          ],
+          "note": "Gender and participation; diaspora communities"
+        },
+        {
+          "name": "Social class and religiosity",
+          "weight": "L",
+          "prereq": [
+            "cambridge-g12-sociology-ch23-st1",
+            "cambridge-g11-sociology-ch04-st4"
+          ],
+          "note": "Participation patterns; class identity (AS)"
+        }
+      ]
+    },
+    {
+      "name": "Religion: The Secularisation Debate",
+      "subtopics": [
+        {
+          "name": "Evidence for secularisation: decline in practice and institutional influence",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-sociology-ch20-st2",
+            "cambridge-g12-sociology-ch21-st1"
+          ],
+          "note": "Measuring religiosity; functionalist role of religion"
+        },
+        {
+          "name": "Arguments against secularisation: believing without belonging and religious markets",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch24-st1",
+            "cambridge-g12-sociology-ch22-st3"
+          ],
+          "note": "Evidence for secularisation; growth of sects"
+        },
+        {
+          "name": "Secularisation in a global context",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch24-st2"
+          ],
+          "note": "Arguments for and against secularisation"
+        }
+      ]
+    },
+    {
+      "name": "Religion: Religion, Globalisation and Fundamentalism",
+      "subtopics": [
+        {
+          "name": "Religious fundamentalism: causes and features",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch24-st3",
+            "cambridge-g12-sociology-ch12-st2"
+          ],
+          "note": "Secularisation globally; risk society"
+        },
+        {
+          "name": "Religion, globalisation and postmodernity",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-sociology-ch25-st1",
+            "cambridge-g12-sociology-ch11-st2"
+          ],
+          "note": "Fundamentalism; glocalisation"
+        },
+        {
+          "name": "Religion and conflict in a global society",
+          "weight": "L",
+          "prereq": [
+            "cambridge-g12-sociology-ch25-st1"
+          ],
+          "note": "Fundamentalism"
+        }
+      ]
+    }
+  ]
+}

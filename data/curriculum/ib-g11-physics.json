@@ -1,0 +1,904 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "ib-g11-physics",
+  "board": "ib",
+  "grade": 11,
+  "stream": "science",
+  "slug": "physics",
+  "name": "Physics",
+  "programme": "IB DP Physics SL/HL (first exam 2025) – 5 themes, 24 topics",
+  "examPattern": "IB DP – graded 1–7; recommended 150 h SL / 240 h HL; exams May (Hindi May only). HL: Paper 1 2 h, 60 marks (36%) = 1A 40 MCQ + 1B data-based questions on experimental work (20); Paper 2 2 h 30, 90 marks (44%), ~10 structured short & extended-response questions; IA scientific investigation 24 marks (20%). SL: P1 25 MCQ + 1B (45 marks, 1 h 30), P2 1 h 30.",
+  "chapterCount": 12,
+  "questionTarget": 1356
+ },
+ "items": [
+  {
+   "id": "ib-g11-physics-ch01",
+   "subjectId": "ib-g11-physics",
+   "order": 1,
+   "name": "A.1 Kinematics",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "ib-g11-physics-ch01-st1",
+    "ib-g11-physics-ch01-st2",
+    "ib-g11-physics-ch01-st3",
+    "ib-g11-physics-ch01-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-physics-ch02",
+   "subjectId": "ib-g11-physics",
+   "order": 2,
+   "name": "A.2 Forces and Momentum",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "ib-g11-physics-ch02-st1",
+    "ib-g11-physics-ch02-st2",
+    "ib-g11-physics-ch02-st3",
+    "ib-g11-physics-ch02-st4",
+    "ib-g11-physics-ch02-st5"
+   ]
+  },
+  {
+   "id": "ib-g11-physics-ch03",
+   "subjectId": "ib-g11-physics",
+   "order": 3,
+   "name": "A.3 Work, Energy and Power",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "ib-g11-physics-ch03-st1",
+    "ib-g11-physics-ch03-st2",
+    "ib-g11-physics-ch03-st3",
+    "ib-g11-physics-ch03-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-physics-ch04",
+   "subjectId": "ib-g11-physics",
+   "order": 4,
+   "name": "A.4 Rigid Body Mechanics (HL)",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g11-physics-ch04-st1",
+    "ib-g11-physics-ch04-st2",
+    "ib-g11-physics-ch04-st3",
+    "ib-g11-physics-ch04-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-physics-ch05",
+   "subjectId": "ib-g11-physics",
+   "order": 5,
+   "name": "A.5 Galilean and Special Relativity (HL)",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g11-physics-ch05-st1",
+    "ib-g11-physics-ch05-st2",
+    "ib-g11-physics-ch05-st3",
+    "ib-g11-physics-ch05-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-physics-ch06",
+   "subjectId": "ib-g11-physics",
+   "order": 6,
+   "name": "B.1 Thermal Energy Transfers",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g11-physics-ch06-st1",
+    "ib-g11-physics-ch06-st2",
+    "ib-g11-physics-ch06-st3",
+    "ib-g11-physics-ch06-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-physics-ch07",
+   "subjectId": "ib-g11-physics",
+   "order": 7,
+   "name": "B.2 Greenhouse Effect",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "ib-g11-physics-ch07-st1",
+    "ib-g11-physics-ch07-st2",
+    "ib-g11-physics-ch07-st3",
+    "ib-g11-physics-ch07-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-physics-ch08",
+   "subjectId": "ib-g11-physics",
+   "order": 8,
+   "name": "B.3 Gas Laws",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "ib-g11-physics-ch08-st1",
+    "ib-g11-physics-ch08-st2",
+    "ib-g11-physics-ch08-st3",
+    "ib-g11-physics-ch08-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-physics-ch09",
+   "subjectId": "ib-g11-physics",
+   "order": 9,
+   "name": "B.4 Thermodynamics (HL)",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g11-physics-ch09-st1",
+    "ib-g11-physics-ch09-st2",
+    "ib-g11-physics-ch09-st3",
+    "ib-g11-physics-ch09-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-physics-ch10",
+   "subjectId": "ib-g11-physics",
+   "order": 10,
+   "name": "B.5 Current and Circuits",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "ib-g11-physics-ch10-st1",
+    "ib-g11-physics-ch10-st2",
+    "ib-g11-physics-ch10-st3",
+    "ib-g11-physics-ch10-st4",
+    "ib-g11-physics-ch10-st5"
+   ]
+  },
+  {
+   "id": "ib-g11-physics-ch11",
+   "subjectId": "ib-g11-physics",
+   "order": 11,
+   "name": "C.1 Simple Harmonic Motion",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g11-physics-ch11-st1",
+    "ib-g11-physics-ch11-st2",
+    "ib-g11-physics-ch11-st3",
+    "ib-g11-physics-ch11-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-physics-ch12",
+   "subjectId": "ib-g11-physics",
+   "order": 12,
+   "name": "C.2 Wave Model",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "ib-g11-physics-ch12-st1",
+    "ib-g11-physics-ch12-st2",
+    "ib-g11-physics-ch12-st3",
+    "ib-g11-physics-ch12-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "ib-g11-physics-ch01-st1",
+   "chapterId": "ib-g11-physics-ch01",
+   "order": 1,
+   "name": "Displacement, velocity and acceleration as vector quantities; instantaneous and average values",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-science-ch08-st1"
+   ],
+   "prerequisiteNote": "Scalars and vectors; speed (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch01-st2",
+   "chapterId": "ib-g11-physics-ch01",
+   "order": 2,
+   "name": "Equations of motion for uniform acceleration (suvat)",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g9-science-ch08-st4",
+    "ib-g10-maths-ch03-st2"
+   ],
+   "prerequisiteNote": "Equations of motion (MYP 4); rearranging formulae",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch01-st3",
+   "chapterId": "ib-g11-physics-ch01",
+   "order": 3,
+   "name": "Motion graphs: gradients and areas of displacement-time, velocity-time and acceleration-time graphs",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch01-st1",
+    "ib-g9-science-ch08-st3"
+   ],
+   "prerequisiteNote": "Velocity-time graphs (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch01-st4",
+   "chapterId": "ib-g11-physics-ch01",
+   "order": 4,
+   "name": "Projectile motion with and without fluid resistance",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch01-st2",
+    "ib-g10-maths-ch10-st2"
+   ],
+   "prerequisiteNote": "suvat equations; resolving vectors with trigonometry",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch02-st1",
+   "chapterId": "ib-g11-physics-ch02",
+   "order": 1,
+   "name": "Free-body diagrams and types of force: weight, normal, friction, tension, drag and upthrust",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-science-ch09-st1"
+   ],
+   "prerequisiteNote": "Resultant forces (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch02-st2",
+   "chapterId": "ib-g11-physics-ch02",
+   "order": 2,
+   "name": "Newton's three laws of motion and equilibrium",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch02-st1",
+    "ib-g9-science-ch09-st2"
+   ],
+   "prerequisiteNote": "Newton's laws (MYP 4); free-body diagrams",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch02-st3",
+   "chapterId": "ib-g11-physics-ch02",
+   "order": 3,
+   "name": "Static and dynamic friction and Stokes' law for drag",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch02-st1"
+   ],
+   "prerequisiteNote": "Types of force",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch02-st4",
+   "chapterId": "ib-g11-physics-ch02",
+   "order": 4,
+   "name": "Linear momentum, impulse and conservation of momentum in collisions and explosions",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch02-st2"
+   ],
+   "prerequisiteNote": "Newton's second and third laws",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch02-st5",
+   "chapterId": "ib-g11-physics-ch02",
+   "order": 5,
+   "name": "Circular motion: centripetal force and acceleration",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch02-st2",
+    "ib-g10-maths-ch09-st1"
+   ],
+   "prerequisiteNote": "Newton's second law; radians (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch03-st1",
+   "chapterId": "ib-g11-physics-ch03",
+   "order": 1,
+   "name": "Work done by a force and the work-energy principle",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch02-st2"
+   ],
+   "prerequisiteNote": "Forces; scalar product idea",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch03-st2",
+   "chapterId": "ib-g11-physics-ch03",
+   "order": 2,
+   "name": "Kinetic, gravitational potential and elastic potential energy; conservation of energy",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch03-st1",
+    "ib-g8-science-ch11-st2"
+   ],
+   "prerequisiteNote": "Energy stores and conservation (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch03-st3",
+   "chapterId": "ib-g11-physics-ch03",
+   "order": 3,
+   "name": "Power and efficiency, including P = Fv",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch03-st1",
+    "ib-g8-science-ch11-st2"
+   ],
+   "prerequisiteNote": "Work done; efficiency (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch03-st4",
+   "chapterId": "ib-g11-physics-ch03",
+   "order": 4,
+   "name": "Energy density of fuels",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch03-st2"
+   ],
+   "prerequisiteNote": "Energy conservation; units and standard form",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch04-st1",
+   "chapterId": "ib-g11-physics-ch04",
+   "order": 1,
+   "name": "Torque, moments and rotational equilibrium",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-science-ch10-st5",
+    "ib-g11-physics-ch02-st2"
+   ],
+   "prerequisiteNote": "Moments (MYP 3); forces",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch04-st2",
+   "chapterId": "ib-g11-physics-ch04",
+   "order": 2,
+   "name": "Angular displacement, velocity and acceleration; equations of rotational motion",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch01-st2",
+    "ib-g11-physics-ch02-st5"
+   ],
+   "prerequisiteNote": "suvat; radians",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch04-st3",
+   "chapterId": "ib-g11-physics-ch04",
+   "order": 3,
+   "name": "Moment of inertia and Newton's second law for rotation",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch04-st1",
+    "ib-g11-physics-ch04-st2"
+   ],
+   "prerequisiteNote": "Torque; angular acceleration",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch04-st4",
+   "chapterId": "ib-g11-physics-ch04",
+   "order": 4,
+   "name": "Angular momentum, conservation and rotational kinetic energy",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch04-st3",
+    "ib-g11-physics-ch02-st4"
+   ],
+   "prerequisiteNote": "Moment of inertia; linear momentum",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch05-st1",
+   "chapterId": "ib-g11-physics-ch05",
+   "order": 1,
+   "name": "Reference frames and Galilean transformations",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch01-st1"
+   ],
+   "prerequisiteNote": "Relative velocity; displacement",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch05-st2",
+   "chapterId": "ib-g11-physics-ch05",
+   "order": 2,
+   "name": "Postulates of special relativity and Lorentz transformations",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch05-st1"
+   ],
+   "prerequisiteNote": "Galilean relativity",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch05-st3",
+   "chapterId": "ib-g11-physics-ch05",
+   "order": 3,
+   "name": "Time dilation, length contraction and relativistic velocity addition",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch05-st2"
+   ],
+   "prerequisiteNote": "Lorentz transformations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch05-st4",
+   "chapterId": "ib-g11-physics-ch05",
+   "order": 4,
+   "name": "Spacetime interval and spacetime (Minkowski) diagrams",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch05-st3"
+   ],
+   "prerequisiteNote": "Lorentz transformations; graphs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch06-st1",
+   "chapterId": "ib-g11-physics-ch06",
+   "order": 1,
+   "name": "Molecular theory of solids, liquids and gases; density",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-science-ch06-st1"
+   ],
+   "prerequisiteNote": "Particle model (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch06-st2",
+   "chapterId": "ib-g11-physics-ch06",
+   "order": 2,
+   "name": "Temperature, internal energy and specific heat capacity",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch06-st1",
+    "ib-g11-physics-ch03-st2"
+   ],
+   "prerequisiteNote": "Particle model; energy conservation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch06-st3",
+   "chapterId": "ib-g11-physics-ch06",
+   "order": 3,
+   "name": "Phase change and specific latent heat",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch06-st2",
+    "ib-g8-science-ch06-st3"
+   ],
+   "prerequisiteNote": "Specific heat capacity; heating curves (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch06-st4",
+   "chapterId": "ib-g11-physics-ch06",
+   "order": 4,
+   "name": "Conduction, convection and thermal radiation; Stefan-Boltzmann law and Wien's law",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-science-ch11-st3",
+    "ib-g11-physics-ch06-st2"
+   ],
+   "prerequisiteNote": "Thermal energy transfer (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch07-st1",
+   "chapterId": "ib-g11-physics-ch07",
+   "order": 1,
+   "name": "Black-body radiation, emissivity and albedo",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch06-st4"
+   ],
+   "prerequisiteNote": "Stefan-Boltzmann law",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch07-st2",
+   "chapterId": "ib-g11-physics-ch07",
+   "order": 2,
+   "name": "Energy balance of the Earth-atmosphere system",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch07-st1"
+   ],
+   "prerequisiteNote": "Emissivity, albedo; intensity",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch07-st3",
+   "chapterId": "ib-g11-physics-ch07",
+   "order": 3,
+   "name": "Greenhouse gases and the greenhouse effect: molecular absorption of infrared",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch07-st2",
+    "ib-g9-science-ch10-st3"
+   ],
+   "prerequisiteNote": "Energy balance; EM spectrum (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch07-st4",
+   "chapterId": "ib-g11-physics-ch07",
+   "order": 4,
+   "name": "Enhanced greenhouse effect and climate change",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch07-st3"
+   ],
+   "prerequisiteNote": "Greenhouse effect",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch08-st1",
+   "chapterId": "ib-g11-physics-ch08",
+   "order": 1,
+   "name": "Pressure, moles, Avogadro's constant and molar mass",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-science-ch06-st4"
+   ],
+   "prerequisiteNote": "Gas pressure (MYP 3); mole concept",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch08-st2",
+   "chapterId": "ib-g11-physics-ch08",
+   "order": 2,
+   "name": "The ideal gas laws and the equation of state pV = nRT",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch08-st1",
+    "ib-g11-physics-ch06-st2"
+   ],
+   "prerequisiteNote": "Pressure and moles; temperature in kelvin",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch08-st3",
+   "chapterId": "ib-g11-physics-ch08",
+   "order": 3,
+   "name": "Kinetic model of an ideal gas and the link between temperature and mean kinetic energy",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch08-st2",
+    "ib-g11-physics-ch02-st4"
+   ],
+   "prerequisiteNote": "Ideal gas law; momentum",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch08-st4",
+   "chapterId": "ib-g11-physics-ch08",
+   "order": 4,
+   "name": "Real gases versus ideal gases",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch08-st3"
+   ],
+   "prerequisiteNote": "Kinetic model assumptions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch09-st1",
+   "chapterId": "ib-g11-physics-ch09",
+   "order": 1,
+   "name": "First law of thermodynamics, work done by a gas and internal energy",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch08-st2",
+    "ib-g11-physics-ch03-st1"
+   ],
+   "prerequisiteNote": "Ideal gas law; work done",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch09-st2",
+   "chapterId": "ib-g11-physics-ch09",
+   "order": 2,
+   "name": "Isovolumetric, isobaric, isothermal and adiabatic processes on p-V diagrams",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch09-st1"
+   ],
+   "prerequisiteNote": "First law of thermodynamics",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch09-st3",
+   "chapterId": "ib-g11-physics-ch09",
+   "order": 3,
+   "name": "Entropy and the second law of thermodynamics",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch09-st1"
+   ],
+   "prerequisiteNote": "First law; probability of microstates",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch09-st4",
+   "chapterId": "ib-g11-physics-ch09",
+   "order": 4,
+   "name": "Heat engines, Carnot cycle and efficiency",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch09-st2",
+    "ib-g11-physics-ch03-st3"
+   ],
+   "prerequisiteNote": "Thermodynamic processes; efficiency",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch10-st1",
+   "chapterId": "ib-g11-physics-ch10",
+   "order": 1,
+   "name": "Electric current, charge and potential difference",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-science-ch12-st2"
+   ],
+   "prerequisiteNote": "Current and p.d. (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch10-st2",
+   "chapterId": "ib-g11-physics-ch10",
+   "order": 2,
+   "name": "Resistance, resistivity and Ohm's law; I-V characteristics",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch10-st1",
+    "ib-g8-science-ch12-st3"
+   ],
+   "prerequisiteNote": "Ohm's law (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch10-st3",
+   "chapterId": "ib-g11-physics-ch10",
+   "order": 3,
+   "name": "Series and parallel circuits and Kirchhoff's laws",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch10-st2"
+   ],
+   "prerequisiteNote": "Resistance; current and p.d.",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch10-st4",
+   "chapterId": "ib-g11-physics-ch10",
+   "order": 4,
+   "name": "Electrical power and energy",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch10-st2",
+    "ib-g11-physics-ch03-st3"
+   ],
+   "prerequisiteNote": "Power and current",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch10-st5",
+   "chapterId": "ib-g11-physics-ch10",
+   "order": 5,
+   "name": "Electromotive force and internal resistance; potential dividers",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch10-st3"
+   ],
+   "prerequisiteNote": "Series circuits",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch11-st1",
+   "chapterId": "ib-g11-physics-ch11",
+   "order": 1,
+   "name": "Conditions for SHM: restoring force proportional to displacement",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch02-st2"
+   ],
+   "prerequisiteNote": "Newton's second law; forces",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch11-st2",
+   "chapterId": "ib-g11-physics-ch11",
+   "order": 2,
+   "name": "Time period, frequency, amplitude and phase; the mass-spring system and simple pendulum",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch11-st1",
+    "ib-g10-maths-ch09-st2"
+   ],
+   "prerequisiteNote": "SHM conditions; trigonometric graphs (MYP 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch11-st3",
+   "chapterId": "ib-g11-physics-ch11",
+   "order": 3,
+   "name": "Energy changes during SHM",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch11-st2",
+    "ib-g11-physics-ch03-st2"
+   ],
+   "prerequisiteNote": "Kinetic and elastic potential energy",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch11-st4",
+   "chapterId": "ib-g11-physics-ch11",
+   "order": 4,
+   "name": "Equations of SHM: displacement, velocity and acceleration (HL)",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch11-st2"
+   ],
+   "prerequisiteNote": "Time period; differentiation of sine (DP maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch12-st1",
+   "chapterId": "ib-g11-physics-ch12",
+   "order": 1,
+   "name": "Transverse and longitudinal travelling waves",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-science-ch10-st1",
+    "ib-g11-physics-ch11-st1"
+   ],
+   "prerequisiteNote": "Wave types (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch12-st2",
+   "chapterId": "ib-g11-physics-ch12",
+   "order": 2,
+   "name": "Wave speed, frequency and wavelength: v = fλ",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch12-st1",
+    "ib-g9-science-ch10-st2"
+   ],
+   "prerequisiteNote": "Wave equation (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch12-st3",
+   "chapterId": "ib-g11-physics-ch12",
+   "order": 3,
+   "name": "Displacement-distance and displacement-time graphs of waves",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-physics-ch12-st2"
+   ],
+   "prerequisiteNote": "Wave quantities",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-physics-ch12-st4",
+   "chapterId": "ib-g11-physics-ch12",
+   "order": 4,
+   "name": "Sound waves and electromagnetic waves: nature and speed",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-science-ch10-st3",
+    "ib-g9-science-ch11-st4"
+   ],
+   "prerequisiteNote": "EM spectrum; sound (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

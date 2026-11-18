@@ -1,0 +1,415 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cambridge-g10-history",
+  "board": "cambridge",
+  "grade": 10,
+  "stream": "none",
+  "slug": "history",
+  "name": "History",
+  "programme": "Cambridge IGCSE History 0470 (2027–28)",
+  "textbook": "CUP Option B: the 20th Century 3rd ed.",
+  "examPattern": "Paper 1 Structured 2 h, 60 marks (40%): answer 2 of 8 core questions + 1 depth-study question, each in parts (a)(b)(c). Paper 2 Document questions 1 h 45, 40 marks (30%): 1 question, 5 parts, up to 7 sources. Component 3 Coursework (2,000 words) or Paper 4 Alternative 1 h, 40 marks (30%). Model writes all 18 P1 questions + P2 + P4.",
+  "chapterCount": 5,
+  "questionTarget": 445
+ },
+ "items": [
+  {
+   "id": "cambridge-g10-history-ch01",
+   "subjectId": "cambridge-g10-history",
+   "order": 1,
+   "name": "Depth Study A: The First World War, 1914-18",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "cambridge-g10-history-ch01-st1",
+    "cambridge-g10-history-ch01-st2",
+    "cambridge-g10-history-ch01-st3",
+    "cambridge-g10-history-ch01-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g10-history-ch02",
+   "subjectId": "cambridge-g10-history",
+   "order": 2,
+   "name": "Depth Study B: Germany, 1918-45",
+   "teachingPeriods": 22,
+   "subtopicIds": [
+    "cambridge-g10-history-ch02-st1",
+    "cambridge-g10-history-ch02-st2",
+    "cambridge-g10-history-ch02-st3",
+    "cambridge-g10-history-ch02-st4",
+    "cambridge-g10-history-ch02-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g10-history-ch03",
+   "subjectId": "cambridge-g10-history",
+   "order": 3,
+   "name": "Depth Study C: Russia, 1905-41",
+   "teachingPeriods": 22,
+   "subtopicIds": [
+    "cambridge-g10-history-ch03-st1",
+    "cambridge-g10-history-ch03-st2",
+    "cambridge-g10-history-ch03-st3",
+    "cambridge-g10-history-ch03-st4",
+    "cambridge-g10-history-ch03-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g10-history-ch04",
+   "subjectId": "cambridge-g10-history",
+   "order": 4,
+   "name": "Depth Study D: The USA, 1919-41",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cambridge-g10-history-ch04-st1",
+    "cambridge-g10-history-ch04-st2",
+    "cambridge-g10-history-ch04-st3",
+    "cambridge-g10-history-ch04-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g10-history-ch05",
+   "subjectId": "cambridge-g10-history",
+   "order": 5,
+   "name": "Depth Study E: The Second World War, 1939-c.1945",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cambridge-g10-history-ch05-st1",
+    "cambridge-g10-history-ch05-st2",
+    "cambridge-g10-history-ch05-st3",
+    "cambridge-g10-history-ch05-st4",
+    "cambridge-g10-history-ch05-st5"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cambridge-g10-history-ch01-st1",
+   "chapterId": "cambridge-g10-history-ch01",
+   "order": 1,
+   "name": "Why the war was not over by December 1914: the Schlieffen Plan, Mons, the Marne and the race to the sea",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch02-st1"
+   ],
+   "prerequisiteNote": "Empires and alliances before 1914 (IGCSE yr 1 background chapter)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-history-ch01-st2",
+   "chapterId": "cambridge-g10-history-ch01",
+   "order": 2,
+   "name": "Why there was stalemate on the Western Front: trench warfare, Verdun and the Somme",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-history-ch01-st1"
+   ],
+   "prerequisiteNote": "Failure of the Schlieffen Plan; defensive technology (machine guns, artillery)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-history-ch01-st3",
+   "chapterId": "cambridge-g10-history-ch01",
+   "order": 3,
+   "name": "How important were other fronts? Gallipoli, the war at sea and the Eastern Front",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g10-history-ch01-st2"
+   ],
+   "prerequisiteNote": "Stalemate on the Western Front; map of Europe and the Ottoman Empire",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-history-ch01-st4",
+   "chapterId": "cambridge-g10-history-ch01",
+   "order": 4,
+   "name": "Why Germany asked for an armistice in 1918: blockade, US entry and the Ludendorff Offensive",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-history-ch01-st3"
+   ],
+   "prerequisiteNote": "Other fronts and the war at sea; home front pressures in Germany",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-history-ch02-st1",
+   "chapterId": "cambridge-g10-history-ch02",
+   "order": 1,
+   "name": "Was the Weimar Republic doomed from the start? Constitution, Versailles and the crises of 1919-23",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch03-st3"
+   ],
+   "prerequisiteNote": "Treaty of Versailles and its impact on Germany to 1923 (IGCSE yr 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-history-ch02-st2",
+   "chapterId": "cambridge-g10-history-ch02",
+   "order": 2,
+   "name": "Recovery under Stresemann, 1924-29",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-history-ch02-st1"
+   ],
+   "prerequisiteNote": "Crises of 1923 (hyperinflation, Ruhr); Dawes Plan and Locarno",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-history-ch02-st3",
+   "chapterId": "cambridge-g10-history-ch02",
+   "order": 3,
+   "name": "Why Hitler was able to dominate Germany by 1934: Depression, elections and the consolidation of power",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g10-history-ch02-st2",
+    "cambridge-g9-history-ch04-st4"
+   ],
+   "prerequisiteNote": "Stresemann era; impact of the Depression (IGCSE yr 1 League chapter)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-history-ch02-st4",
+   "chapterId": "cambridge-g10-history-ch02",
+   "order": 4,
+   "name": "How effectively the Nazis controlled Germany, 1933-45: terror, propaganda and opposition",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-history-ch02-st3"
+   ],
+   "prerequisiteNote": "Hitler's rise to power; Enabling Act and Night of the Long Knives",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-history-ch02-st5",
+   "chapterId": "cambridge-g10-history-ch02",
+   "order": 5,
+   "name": "What was it like to live in Nazi Germany? Women, youth, workers and the persecution of minorities",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-history-ch02-st4"
+   ],
+   "prerequisiteNote": "Nazi control methods; Nazi ideology and racial policy",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-history-ch03-st1",
+   "chapterId": "cambridge-g10-history-ch03",
+   "order": 1,
+   "name": "Why the tsarist regime collapsed in 1917: the 1905 Revolution, Nicholas II and the First World War",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g10-history-ch01-st3"
+   ],
+   "prerequisiteNote": "Eastern Front in the First World War; autocracy and social structure of Russia",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-history-ch03-st2",
+   "chapterId": "cambridge-g10-history-ch03",
+   "order": 2,
+   "name": "How the Bolsheviks gained power in October 1917: the Provisional Government and Lenin",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-history-ch03-st1"
+   ],
+   "prerequisiteNote": "Collapse of tsarism; dual power and the April Theses",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-history-ch03-st3",
+   "chapterId": "cambridge-g10-history-ch03",
+   "order": 3,
+   "name": "How the Bolsheviks consolidated their rule: Civil War, War Communism and the NEP",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-history-ch03-st2"
+   ],
+   "prerequisiteNote": "October Revolution; Red and White forces",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-history-ch03-st4",
+   "chapterId": "cambridge-g10-history-ch03",
+   "order": 4,
+   "name": "How Stalin gained and held on to power: the leadership struggle and the purges",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g10-history-ch03-st3"
+   ],
+   "prerequisiteNote": "Lenin's death and the NEP debate; Trotsky versus Stalin",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-history-ch03-st5",
+   "chapterId": "cambridge-g10-history-ch03",
+   "order": 5,
+   "name": "The impact of Stalin's economic policies: collectivisation and the Five-Year Plans",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-history-ch03-st4"
+   ],
+   "prerequisiteNote": "Stalin's power; NEP and the need to industrialise",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-history-ch04-st1",
+   "chapterId": "cambridge-g10-history-ch04",
+   "order": 1,
+   "name": "How far the US economy boomed in the 1920s: mass production, credit and the groups left out",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch04-st1"
+   ],
+   "prerequisiteNote": "USA's refusal to join the League and isolationism (IGCSE yr 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-history-ch04-st2",
+   "chapterId": "cambridge-g10-history-ch04",
+   "order": 2,
+   "name": "How far US society changed in the 1920s: Prohibition, intolerance, immigration and the Roaring Twenties",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-history-ch04-st1"
+   ],
+   "prerequisiteNote": "Economic boom; Red Scare and Ku Klux Klan background",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-history-ch04-st3",
+   "chapterId": "cambridge-g10-history-ch04",
+   "order": 3,
+   "name": "The causes and consequences of the Wall Street Crash",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-history-ch04-st1"
+   ],
+   "prerequisiteNote": "Weaknesses of the 1920s economy; buying shares on the margin",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-history-ch04-st4",
+   "chapterId": "cambridge-g10-history-ch04",
+   "order": 4,
+   "name": "How successful was the New Deal? Roosevelt's alphabet agencies and opposition",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g10-history-ch04-st3"
+   ],
+   "prerequisiteNote": "Wall Street Crash and the Depression; Hoover's response",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-history-ch05-st1",
+   "chapterId": "cambridge-g10-history-ch05",
+   "order": 1,
+   "name": "German successes, 1939-41: Blitzkrieg, Dunkirk and the Battle of Britain",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch05-st4"
+   ],
+   "prerequisiteNote": "Outbreak of war in September 1939 (IGCSE yr 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-history-ch05-st2",
+   "chapterId": "cambridge-g10-history-ch05",
+   "order": 2,
+   "name": "The war on the Eastern Front: Operation Barbarossa to Stalingrad and Kursk",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-history-ch05-st1",
+    "cambridge-g10-history-ch03-st5"
+   ],
+   "prerequisiteNote": "German successes; Stalin's industrialisation (Depth Study C)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-history-ch05-st3",
+   "chapterId": "cambridge-g10-history-ch05",
+   "order": 3,
+   "name": "The war in the Pacific: Pearl Harbor, Midway and the atomic bombs",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-history-ch05-st1",
+    "cambridge-g10-history-ch04-st4"
+   ],
+   "prerequisiteNote": "German successes; US isolationism and the New Deal (Depth Study D)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-history-ch05-st4",
+   "chapterId": "cambridge-g10-history-ch05",
+   "order": 4,
+   "name": "Allied victory in Europe: D-Day, strategic bombing and the Holocaust",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g10-history-ch05-st2"
+   ],
+   "prerequisiteNote": "Eastern Front; Nazi racial policy (Depth Study B)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g10-history-ch05-st5",
+   "chapterId": "cambridge-g10-history-ch05",
+   "order": 5,
+   "name": "Coursework and Paper 4 skills: framing a question, using sources and interpretations, writing an extended answer",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g9-history-ch01-st3",
+    "cambridge-g9-history-ch01-st4"
+   ],
+   "prerequisiteNote": "Analysing sources and reaching a judgement (IGCSE yr 1 skills chapter)",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

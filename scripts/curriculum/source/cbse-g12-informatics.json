@@ -1,0 +1,254 @@
+{
+ "subjectId": "cbse-g12-informatics",
+ "chapters": [
+  {
+   "sheetName": "Querying & SQL Functions",
+   "name": "Querying and SQL Functions",
+   "subtopics": [
+    {
+     "name": "Single row math functions: POWER, ROUND, MOD",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-informatics-ch08-st4"
+     ],
+     "note": "SELECT queries with WHERE (IP XI ch 8)"
+    },
+    {
+     "name": "Text functions: UCASE/LCASE, MID/SUBSTRING, LENGTH, LEFT, RIGHT, INSTR, LTRIM, RTRIM, TRIM",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-informatics-ch01-st1"
+     ],
+     "note": "SELECT queries; string slicing idea (IP XI ch 3-4)"
+    },
+    {
+     "name": "Date functions: NOW, DATE, MONTH, MONTHNAME, YEAR, DAY, DAYNAME",
+     "weight": "L",
+     "prereq": [
+      "cbse-g12-informatics-ch01-st1"
+     ],
+     "note": "SELECT queries; DATE data type"
+    },
+    {
+     "name": "Aggregate functions (MAX, MIN, AVG, SUM, COUNT) with GROUP BY, HAVING and ORDER BY",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-informatics-ch01-st1",
+      "cbse-g11-informatics-ch05-st3"
+     ],
+     "note": "Mean and count (IP XI ch 5); WHERE clause"
+    },
+    {
+     "name": "Operations on relations: union, intersection, minus, Cartesian product and joins on two tables",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-informatics-ch01-st4",
+      "cbse-g11-informatics-ch07-st3"
+     ],
+     "note": "Primary and foreign keys (IP XI ch 7)"
+    }
+   ]
+  },
+  {
+   "sheetName": "Data Handling using Pandas-I",
+   "name": "Data Handling using Pandas - I",
+   "subtopics": [
+    {
+     "name": "Introduction to Python libraries: Pandas, NumPy, Matplotlib; installing and importing Pandas",
+     "weight": "L",
+     "prereq": [
+      "cbse-g11-informatics-ch06-st1"
+     ],
+     "note": "NumPy arrays (IP XI ch 6)"
+    },
+    {
+     "name": "Series: creation from ndarray, dictionary and scalar; indexing, slicing, head, tail; mathematical operations",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-informatics-ch02-st1",
+      "cbse-g11-informatics-ch04-st3"
+     ],
+     "note": "Lists and dictionaries (IP XI ch 4)"
+    },
+    {
+     "name": "DataFrame: creation from dictionary of Series, list of dictionaries and text/CSV files",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-informatics-ch02-st2"
+     ],
+     "note": "Series creation; dictionaries"
+    },
+    {
+     "name": "DataFrame operations: display, iteration, adding/renaming/deleting rows and columns, head, tail",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-informatics-ch02-st3"
+     ],
+     "note": "Creating DataFrames"
+    },
+    {
+     "name": "Indexing with labels and Boolean indexing (loc, iloc, at); importing/exporting CSV",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-informatics-ch02-st4"
+     ],
+     "note": "DataFrame operations; relational operators"
+    }
+   ]
+  },
+  {
+   "sheetName": "Pandas-II",
+   "name": "Data Handling using Pandas - II",
+   "subtopics": [
+    {
+     "name": "Descriptive statistics on DataFrames: max, min, count, sum, mean, median, mode, quartile, std, var",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-informatics-ch02-st5",
+      "cbse-g11-informatics-ch05-st3"
+     ],
+     "note": "Statistical techniques (IP XI ch 5)"
+    },
+    {
+     "name": "Data aggregation, sorting and GROUP BY functions in Pandas",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-informatics-ch03-st1",
+      "cbse-g12-informatics-ch01-st4"
+     ],
+     "note": "Aggregate functions in SQL (ch 1)"
+    },
+    {
+     "name": "Altering index and pivoting",
+     "weight": "L",
+     "prereq": [
+      "cbse-g12-informatics-ch03-st2"
+     ],
+     "note": "Sorting and grouping DataFrames"
+    },
+    {
+     "name": "Handling missing values: isnull, dropna, fillna",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-informatics-ch02-st5"
+     ],
+     "note": "Boolean indexing"
+    },
+    {
+     "name": "Importing and exporting data between Pandas and MySQL",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-informatics-ch02-st3",
+      "cbse-g12-informatics-ch01-st5"
+     ],
+     "note": "Reading CSV into DataFrames; SQL queries"
+    }
+   ]
+  },
+  {
+   "sheetName": "Plotting with Matplotlib",
+   "name": "Plotting Data using Matplotlib",
+   "subtopics": [
+    {
+     "name": "Plotting using pyplot: line plot, customisation (title, labels, legend, colour, marker, linestyle)",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-informatics-ch02-st3"
+     ],
+     "note": "Drawing line graphs from data (Maths Cl 8-9 data handling)"
+    },
+    {
+     "name": "Bar graph and histogram",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-informatics-ch04-st1",
+      "cbse-g12-informatics-ch03-st1"
+     ],
+     "note": "Line plots; frequency distribution (Maths Cl 9 Statistics)"
+    },
+    {
+     "name": "Plotting directly from a Pandas DataFrame and saving plots",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-informatics-ch04-st2"
+     ],
+     "note": "Bar graphs and histograms; DataFrame columns"
+    }
+   ]
+  },
+  {
+   "sheetName": "Internet & Web / Networks",
+   "name": "Computer Networks and Internet and Web",
+   "subtopics": [
+    {
+     "name": "Introduction to computer networks: types (PAN, LAN, MAN, WAN) and devices (modem, hub, switch, repeater, router, gateway)",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-informatics-ch01-st1"
+     ],
+     "note": "Computer system components (IP XI ch 1)"
+    },
+    {
+     "name": "Network topologies: bus, star, tree, mesh",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-informatics-ch05-st1"
+     ],
+     "note": "Network types and devices"
+    },
+    {
+     "name": "Introduction to Internet, URL, WWW and its applications (web, email, chat, VoIP)",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-informatics-ch05-st1"
+     ],
+     "note": "Network types"
+    },
+    {
+     "name": "Website, web page, web server, hosting; web browsers, add-ons, plug-ins and cookies",
+     "weight": "L",
+     "prereq": [
+      "cbse-g12-informatics-ch05-st3"
+     ],
+     "note": "WWW and URL"
+    }
+   ]
+  },
+  {
+   "sheetName": "Societal Impacts",
+   "name": "Societal Impacts",
+   "subtopics": [
+    {
+     "name": "Digital footprint, net and communication etiquette, social media etiquette",
+     "weight": "S",
+     "prereq": [],
+     "note": "Safe internet use (Computer studies Cl 8)"
+    },
+    {
+     "name": "Data protection and intellectual property rights: copyright, patent, trademark; licensing (GPL, Apache, Creative Commons)",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-informatics-ch06-st1"
+     ],
+     "note": "Digital footprint; ownership of creative work"
+    },
+    {
+     "name": "Open source software, cyber crimes (hacking, eavesdropping, phishing, ransomware) and cyber laws (IT Act)",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-informatics-ch06-st2"
+     ],
+     "note": "IPR and licensing; online safety"
+    },
+    {
+     "name": "E-waste management and health concerns related to technology",
+     "weight": "L",
+     "prereq": [
+      "cbse-g12-informatics-ch06-st1"
+     ],
+     "note": "Recycling and environment (Science Cl 8-9)"
+    }
+   ]
+  }
+ ]
+}

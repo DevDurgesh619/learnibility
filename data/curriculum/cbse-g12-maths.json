@@ -1,0 +1,906 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cbse-g12-maths",
+  "board": "cbse",
+  "grade": 12,
+  "stream": "science",
+  "slug": "maths",
+  "name": "Mathematics",
+  "programme": "CBSE Class 12 Mathematics (041)",
+  "textbook": "NCERT Mathematics XII Part I + II (041)",
+  "examPattern": "CBSE Board exam, 3 h; SQP 2026-27 – 'no change in question paper design'. 50% competency-based, 20% MCQ, 30% SA/LA, ~33% internal choice. Theory 80 + IA 20. 38 questions: A 20×1 (18 MCQ + 2 A-R), B 5×2, C 6×3, D 4×5, E 3 case×4.",
+  "chapterCount": 13,
+  "questionTarget": 1658
+ },
+ "items": [
+  {
+   "id": "cbse-g12-maths-ch01",
+   "subjectId": "cbse-g12-maths",
+   "order": 1,
+   "name": "Relations and Functions",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cbse-g12-maths-ch01-st1",
+    "cbse-g12-maths-ch01-st2",
+    "cbse-g12-maths-ch01-st3"
+   ]
+  },
+  {
+   "id": "cbse-g12-maths-ch02",
+   "subjectId": "cbse-g12-maths",
+   "order": 2,
+   "name": "Inverse Trigonometric Functions",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "cbse-g12-maths-ch02-st1",
+    "cbse-g12-maths-ch02-st2",
+    "cbse-g12-maths-ch02-st3"
+   ]
+  },
+  {
+   "id": "cbse-g12-maths-ch03",
+   "subjectId": "cbse-g12-maths",
+   "order": 3,
+   "name": "Matrices",
+   "teachingPeriods": 15,
+   "subtopicIds": [
+    "cbse-g12-maths-ch03-st1",
+    "cbse-g12-maths-ch03-st2",
+    "cbse-g12-maths-ch03-st3",
+    "cbse-g12-maths-ch03-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-maths-ch04",
+   "subjectId": "cbse-g12-maths",
+   "order": 4,
+   "name": "Determinants",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "cbse-g12-maths-ch04-st1",
+    "cbse-g12-maths-ch04-st2",
+    "cbse-g12-maths-ch04-st3",
+    "cbse-g12-maths-ch04-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-maths-ch05",
+   "subjectId": "cbse-g12-maths",
+   "order": 5,
+   "name": "Continuity and Differentiability",
+   "teachingPeriods": 21,
+   "subtopicIds": [
+    "cbse-g12-maths-ch05-st1",
+    "cbse-g12-maths-ch05-st2",
+    "cbse-g12-maths-ch05-st3",
+    "cbse-g12-maths-ch05-st4",
+    "cbse-g12-maths-ch05-st5"
+   ]
+  },
+  {
+   "id": "cbse-g12-maths-ch06",
+   "subjectId": "cbse-g12-maths",
+   "order": 6,
+   "name": "Application of Derivatives",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g12-maths-ch06-st1",
+    "cbse-g12-maths-ch06-st2",
+    "cbse-g12-maths-ch06-st3",
+    "cbse-g12-maths-ch06-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-maths-ch07",
+   "subjectId": "cbse-g12-maths",
+   "order": 7,
+   "name": "Integrals",
+   "teachingPeriods": 21,
+   "subtopicIds": [
+    "cbse-g12-maths-ch07-st1",
+    "cbse-g12-maths-ch07-st2",
+    "cbse-g12-maths-ch07-st3",
+    "cbse-g12-maths-ch07-st4",
+    "cbse-g12-maths-ch07-st5"
+   ]
+  },
+  {
+   "id": "cbse-g12-maths-ch08",
+   "subjectId": "cbse-g12-maths",
+   "order": 8,
+   "name": "Application of Integrals",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "cbse-g12-maths-ch08-st1",
+    "cbse-g12-maths-ch08-st2",
+    "cbse-g12-maths-ch08-st3"
+   ]
+  },
+  {
+   "id": "cbse-g12-maths-ch09",
+   "subjectId": "cbse-g12-maths",
+   "order": 9,
+   "name": "Differential Equations",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g12-maths-ch09-st1",
+    "cbse-g12-maths-ch09-st2",
+    "cbse-g12-maths-ch09-st3",
+    "cbse-g12-maths-ch09-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-maths-ch10",
+   "subjectId": "cbse-g12-maths",
+   "order": 10,
+   "name": "Vector Algebra",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g12-maths-ch10-st1",
+    "cbse-g12-maths-ch10-st2",
+    "cbse-g12-maths-ch10-st3",
+    "cbse-g12-maths-ch10-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-maths-ch11",
+   "subjectId": "cbse-g12-maths",
+   "order": 11,
+   "name": "Three Dimensional Geometry",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g12-maths-ch11-st1",
+    "cbse-g12-maths-ch11-st2",
+    "cbse-g12-maths-ch11-st3",
+    "cbse-g12-maths-ch11-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-maths-ch12",
+   "subjectId": "cbse-g12-maths",
+   "order": 12,
+   "name": "Linear Programming",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cbse-g12-maths-ch12-st1",
+    "cbse-g12-maths-ch12-st2",
+    "cbse-g12-maths-ch12-st3"
+   ]
+  },
+  {
+   "id": "cbse-g12-maths-ch13",
+   "subjectId": "cbse-g12-maths",
+   "order": 13,
+   "name": "Probability",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g12-maths-ch13-st1",
+    "cbse-g12-maths-ch13-st2",
+    "cbse-g12-maths-ch13-st3",
+    "cbse-g12-maths-ch13-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cbse-g12-maths-ch01-st1",
+   "chapterId": "cbse-g12-maths-ch01",
+   "order": 1,
+   "name": "Types of relations: empty, universal, reflexive, symmetric and transitive",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-maths-ch02-st2"
+   ],
+   "prerequisiteNote": "Relations: domain, codomain and range (Cl 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch01-st2",
+   "chapterId": "cbse-g12-maths-ch01",
+   "order": 2,
+   "name": "Equivalence relations and equivalence classes",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch01-st1"
+   ],
+   "prerequisiteNote": "Reflexive, symmetric and transitive relations; partitioning a set",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch01-st3",
+   "chapterId": "cbse-g12-maths-ch01",
+   "order": 3,
+   "name": "One-one, onto and bijective functions",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-maths-ch02-st3"
+   ],
+   "prerequisiteNote": "Functions and their graphs: domain, codomain, range (Cl 11); solving equations for x",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch02-st1",
+   "chapterId": "cbse-g12-maths-ch02",
+   "order": 1,
+   "name": "Domain, range and principal value branches of inverse trigonometric functions",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-maths-ch03-st2",
+    "cbse-g12-maths-ch01-st3"
+   ],
+   "prerequisiteNote": "Graphs of trigonometric functions (Cl 11); one-one and onto functions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch02-st2",
+   "chapterId": "cbse-g12-maths-ch02",
+   "order": 2,
+   "name": "Graphs of inverse trigonometric functions",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch02-st1"
+   ],
+   "prerequisiteNote": "Principal value branches; reflecting a graph in the line y = x",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch02-st3",
+   "chapterId": "cbse-g12-maths-ch02",
+   "order": 3,
+   "name": "Evaluating expressions using principal values",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch02-st1"
+   ],
+   "prerequisiteNote": "Principal value branches; trigonometric ratios of standard angles (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch03-st1",
+   "chapterId": "cbse-g12-maths-ch03",
+   "order": 1,
+   "name": "Matrix: order, types and equality of matrices",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Organising data in rows and columns; pair of linear equations (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch03-st2",
+   "chapterId": "cbse-g12-maths-ch03",
+   "order": 2,
+   "name": "Operations on matrices: addition, scalar multiplication and multiplication",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch03-st1"
+   ],
+   "prerequisiteNote": "Order and types of matrices; row-by-column products",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch03-st3",
+   "chapterId": "cbse-g12-maths-ch03",
+   "order": 3,
+   "name": "Transpose; symmetric and skew-symmetric matrices",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch03-st2"
+   ],
+   "prerequisiteNote": "Matrix addition and scalar multiplication",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch03-st4",
+   "chapterId": "cbse-g12-maths-ch03",
+   "order": 4,
+   "name": "Invertible matrices and uniqueness of the inverse",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch03-st2"
+   ],
+   "prerequisiteNote": "Matrix multiplication; identity matrix",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch04-st1",
+   "chapterId": "cbse-g12-maths-ch04",
+   "order": 1,
+   "name": "Determinant of a square matrix up to order 3",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch03-st1"
+   ],
+   "prerequisiteNote": "Order and types of matrices; integer arithmetic",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch04-st2",
+   "chapterId": "cbse-g12-maths-ch04",
+   "order": 2,
+   "name": "Area of a triangle using determinants",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch04-st1",
+    "cbse-g10-maths-ch07-st1"
+   ],
+   "prerequisiteNote": "Evaluating 3 × 3 determinants; coordinates of vertices (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch04-st3",
+   "chapterId": "cbse-g12-maths-ch04",
+   "order": 3,
+   "name": "Minors, cofactors, adjoint and inverse of a matrix",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch04-st1",
+    "cbse-g12-maths-ch03-st4"
+   ],
+   "prerequisiteNote": "Evaluating determinants; invertible matrices",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch04-st4",
+   "chapterId": "cbse-g12-maths-ch04",
+   "order": 4,
+   "name": "Solving a system of linear equations by the matrix method",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch04-st3",
+    "cbse-g10-maths-ch03-st4"
+   ],
+   "prerequisiteNote": "Inverse of a matrix; consistency of linear equations (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch05-st1",
+   "chapterId": "cbse-g12-maths-ch05",
+   "order": 1,
+   "name": "Continuity of a function at a point and on an interval",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-maths-ch12-st2"
+   ],
+   "prerequisiteNote": "Left-hand and right-hand limits; algebra of limits (Cl 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch05-st2",
+   "chapterId": "cbse-g12-maths-ch05",
+   "order": 2,
+   "name": "Differentiability and the chain rule for composite functions",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch05-st1",
+    "cbse-g11-maths-ch12-st5"
+   ],
+   "prerequisiteNote": "Algebra of derivatives (Cl 11); composition of functions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch05-st3",
+   "chapterId": "cbse-g12-maths-ch05",
+   "order": 3,
+   "name": "Derivatives of implicit functions and inverse trigonometric functions",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch05-st2",
+    "cbse-g12-maths-ch02-st1"
+   ],
+   "prerequisiteNote": "Chain rule; principal values of inverse trigonometric functions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch05-st4",
+   "chapterId": "cbse-g12-maths-ch05",
+   "order": 4,
+   "name": "Exponential and logarithmic functions; logarithmic differentiation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch05-st2"
+   ],
+   "prerequisiteNote": "Chain rule; laws of logarithms and exponents",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch05-st5",
+   "chapterId": "cbse-g12-maths-ch05",
+   "order": 5,
+   "name": "Derivatives of parametric functions and second-order derivatives",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch05-st2"
+   ],
+   "prerequisiteNote": "Chain rule; implicit differentiation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch06-st1",
+   "chapterId": "cbse-g12-maths-ch06",
+   "order": 1,
+   "name": "Rate of change of quantities",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch05-st2"
+   ],
+   "prerequisiteNote": "Derivatives and the chain rule; mensuration formulae (Cl 9-10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch06-st2",
+   "chapterId": "cbse-g12-maths-ch06",
+   "order": 2,
+   "name": "Increasing and decreasing functions",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch05-st4"
+   ],
+   "prerequisiteNote": "Derivatives of standard functions; solving inequalities (Cl 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch06-st3",
+   "chapterId": "cbse-g12-maths-ch06",
+   "order": 3,
+   "name": "Local maxima and minima: first and second derivative tests",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch06-st2",
+    "cbse-g12-maths-ch05-st5"
+   ],
+   "prerequisiteNote": "Increasing and decreasing functions; second-order derivatives",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch06-st4",
+   "chapterId": "cbse-g12-maths-ch06",
+   "order": 4,
+   "name": "Absolute maxima and minima and optimisation word problems",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch06-st3",
+    "cbse-g10-maths-ch12-st2"
+   ],
+   "prerequisiteNote": "Derivative tests; surface area and volume formulae (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch07-st1",
+   "chapterId": "cbse-g12-maths-ch07",
+   "order": 1,
+   "name": "Integration as the inverse of differentiation; standard integrals",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch05-st4"
+   ],
+   "prerequisiteNote": "Derivatives of standard functions (Cl 11-12)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch07-st2",
+   "chapterId": "cbse-g12-maths-ch07",
+   "order": 2,
+   "name": "Integration by substitution and using trigonometric identities",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch07-st1",
+    "cbse-g11-maths-ch03-st4"
+   ],
+   "prerequisiteNote": "Standard integrals; chain rule; multiple-angle formulae (Cl 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch07-st3",
+   "chapterId": "cbse-g12-maths-ch07",
+   "order": 3,
+   "name": "Integration by partial fractions",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch07-st1"
+   ],
+   "prerequisiteNote": "Standard integrals; factorising polynomials and solving for constants",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch07-st4",
+   "chapterId": "cbse-g12-maths-ch07",
+   "order": 4,
+   "name": "Integration by parts and integrals of special forms",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch07-st1"
+   ],
+   "prerequisiteNote": "Standard integrals; product rule of differentiation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch07-st5",
+   "chapterId": "cbse-g12-maths-ch07",
+   "order": 5,
+   "name": "Definite integrals: fundamental theorem of calculus and properties",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch07-st2",
+    "cbse-g12-maths-ch07-st4"
+   ],
+   "prerequisiteNote": "Methods of integration; evaluating functions at limits",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch08-st1",
+   "chapterId": "cbse-g12-maths-ch08",
+   "order": 1,
+   "name": "Area under simple curves: lines, circles, parabolas and ellipses",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch07-st5",
+    "cbse-g11-maths-ch10-st2"
+   ],
+   "prerequisiteNote": "Definite integrals; standard equations of conics (Cl 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch08-st2",
+   "chapterId": "cbse-g12-maths-ch08",
+   "order": 2,
+   "name": "Area of the region bounded by a curve and a line",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch08-st1"
+   ],
+   "prerequisiteNote": "Area under simple curves; solving equations for points of intersection",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch08-st3",
+   "chapterId": "cbse-g12-maths-ch08",
+   "order": 3,
+   "name": "Using symmetry and choosing vertical or horizontal strips",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch08-st1",
+    "cbse-g12-maths-ch08-st2"
+   ],
+   "prerequisiteNote": "Area under simple curves; sketching graphs of conics",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch09-st1",
+   "chapterId": "cbse-g12-maths-ch09",
+   "order": 1,
+   "name": "Order and degree; general and particular solutions",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch05-st5"
+   ],
+   "prerequisiteNote": "Higher-order derivatives; constants of integration",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch09-st2",
+   "chapterId": "cbse-g12-maths-ch09",
+   "order": 2,
+   "name": "Differential equations with variables separable",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch09-st1",
+    "cbse-g12-maths-ch07-st2"
+   ],
+   "prerequisiteNote": "Order and degree; integration by substitution",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch09-st3",
+   "chapterId": "cbse-g12-maths-ch09",
+   "order": 3,
+   "name": "Homogeneous differential equations",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch09-st2"
+   ],
+   "prerequisiteNote": "Variable separable method; substitution y = vx",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch09-st4",
+   "chapterId": "cbse-g12-maths-ch09",
+   "order": 4,
+   "name": "Linear differential equations dy/dx + Py = Q",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch09-st2",
+    "cbse-g12-maths-ch07-st4"
+   ],
+   "prerequisiteNote": "Variable separable method; integration by parts for the integrating factor",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch10-st1",
+   "chapterId": "cbse-g12-maths-ch10",
+   "order": 1,
+   "name": "Vectors and scalars; types of vectors; direction cosines",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-maths-ch11-st3"
+   ],
+   "prerequisiteNote": "Coordinates and distance in space (Cl 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch10-st2",
+   "chapterId": "cbse-g12-maths-ch10",
+   "order": 2,
+   "name": "Addition of vectors, scalar multiplication, components and section formula",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch10-st1",
+    "cbse-g10-maths-ch07-st2"
+   ],
+   "prerequisiteNote": "Types of vectors; section formula in 2D (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch10-st3",
+   "chapterId": "cbse-g12-maths-ch10",
+   "order": 3,
+   "name": "Scalar (dot) product and projection of a vector",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch10-st2"
+   ],
+   "prerequisiteNote": "Components of vectors; cosine of an angle",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch10-st4",
+   "chapterId": "cbse-g12-maths-ch10",
+   "order": 4,
+   "name": "Vector (cross) product and its applications",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch10-st3",
+    "cbse-g12-maths-ch04-st1"
+   ],
+   "prerequisiteNote": "Scalar product; evaluating 3 × 3 determinants",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch11-st1",
+   "chapterId": "cbse-g12-maths-ch11",
+   "order": 1,
+   "name": "Direction cosines and direction ratios of a line",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch10-st1"
+   ],
+   "prerequisiteNote": "Direction cosines of vectors; distance in space (Cl 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch11-st2",
+   "chapterId": "cbse-g12-maths-ch11",
+   "order": 2,
+   "name": "Equation of a line in space: vector and Cartesian forms",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch11-st1",
+    "cbse-g12-maths-ch10-st2"
+   ],
+   "prerequisiteNote": "Direction ratios; position vectors",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch11-st3",
+   "chapterId": "cbse-g12-maths-ch11",
+   "order": 3,
+   "name": "Angle between two lines",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch11-st2",
+    "cbse-g12-maths-ch10-st3"
+   ],
+   "prerequisiteNote": "Equation of a line; scalar product",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch11-st4",
+   "chapterId": "cbse-g12-maths-ch11",
+   "order": 4,
+   "name": "Shortest distance between two lines: skew and parallel lines",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch11-st2",
+    "cbse-g12-maths-ch10-st4"
+   ],
+   "prerequisiteNote": "Equation of a line; vector (cross) product",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch12-st1",
+   "chapterId": "cbse-g12-maths-ch12",
+   "order": 1,
+   "name": "Formulating a linear programming problem: objective function and constraints",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-maths-ch05-st3"
+   ],
+   "prerequisiteNote": "Word problems on linear inequalities (Cl 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch12-st2",
+   "chapterId": "cbse-g12-maths-ch12",
+   "order": 2,
+   "name": "Graphical method: feasible region and corner-point method",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch12-st1",
+    "cbse-g10-maths-ch03-st1"
+   ],
+   "prerequisiteNote": "Graphing linear equations and inequalities in two variables (Cl 10-11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch12-st3",
+   "chapterId": "cbse-g12-maths-ch12",
+   "order": 3,
+   "name": "Bounded and unbounded feasible regions; optimal solutions",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch12-st2"
+   ],
+   "prerequisiteNote": "Corner-point method; checking an open half-plane",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch13-st1",
+   "chapterId": "cbse-g12-maths-ch13",
+   "order": 1,
+   "name": "Conditional probability and its properties",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-maths-ch14-st4"
+   ],
+   "prerequisiteNote": "Addition rule and axiomatic probability (Cl 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch13-st2",
+   "chapterId": "cbse-g12-maths-ch13",
+   "order": 2,
+   "name": "Multiplication theorem and independent events",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch13-st1"
+   ],
+   "prerequisiteNote": "Conditional probability; tree diagrams (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch13-st3",
+   "chapterId": "cbse-g12-maths-ch13",
+   "order": 3,
+   "name": "Theorem of total probability and Bayes' theorem",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch13-st2"
+   ],
+   "prerequisiteNote": "Multiplication theorem; partitions of a sample space",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-maths-ch13-st4",
+   "chapterId": "cbse-g12-maths-ch13",
+   "order": 4,
+   "name": "Random variables, probability distributions and mean",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-maths-ch13-st2"
+   ],
+   "prerequisiteNote": "Multiplication theorem; mean of a frequency distribution (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

@@ -1,0 +1,649 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cambridge-g11-environmental",
+  "board": "cambridge",
+  "grade": 11,
+  "stream": "science",
+  "slug": "environmental",
+  "name": "Environmental Management",
+  "programme": "Cambridge AS Environmental Management 8291 (AS only)",
+  "textbook": "CUP Coursebook (8 chapters)",
+  "examPattern": "AS only: P1 1 h 45, 80 marks (4–6 structured questions + 1 essay of 2, 50%) + P2 1 h 45, 80 marks (4–6 structured questions, 50%). No A2 content.",
+  "chapterCount": 8,
+  "questionTarget": 712
+ },
+ "items": [
+  {
+   "id": "cambridge-g11-environmental-ch01",
+   "subjectId": "cambridge-g11-environmental",
+   "order": 1,
+   "name": "Lithosphere",
+   "teachingPeriods": 22,
+   "subtopicIds": [
+    "cambridge-g11-environmental-ch01-st1",
+    "cambridge-g11-environmental-ch01-st2",
+    "cambridge-g11-environmental-ch01-st3",
+    "cambridge-g11-environmental-ch01-st4",
+    "cambridge-g11-environmental-ch01-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g11-environmental-ch02",
+   "subjectId": "cambridge-g11-environmental",
+   "order": 2,
+   "name": "Hydrosphere",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cambridge-g11-environmental-ch02-st1",
+    "cambridge-g11-environmental-ch02-st2",
+    "cambridge-g11-environmental-ch02-st3",
+    "cambridge-g11-environmental-ch02-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g11-environmental-ch03",
+   "subjectId": "cambridge-g11-environmental",
+   "order": 3,
+   "name": "Atmosphere",
+   "teachingPeriods": 22,
+   "subtopicIds": [
+    "cambridge-g11-environmental-ch03-st1",
+    "cambridge-g11-environmental-ch03-st2",
+    "cambridge-g11-environmental-ch03-st3",
+    "cambridge-g11-environmental-ch03-st4",
+    "cambridge-g11-environmental-ch03-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g11-environmental-ch04",
+   "subjectId": "cambridge-g11-environmental",
+   "order": 4,
+   "name": "Biosphere",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cambridge-g11-environmental-ch04-st1",
+    "cambridge-g11-environmental-ch04-st2",
+    "cambridge-g11-environmental-ch04-st3",
+    "cambridge-g11-environmental-ch04-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g11-environmental-ch05",
+   "subjectId": "cambridge-g11-environmental",
+   "order": 5,
+   "name": "Human population",
+   "teachingPeriods": 19,
+   "subtopicIds": [
+    "cambridge-g11-environmental-ch05-st1",
+    "cambridge-g11-environmental-ch05-st2",
+    "cambridge-g11-environmental-ch05-st3",
+    "cambridge-g11-environmental-ch05-st4",
+    "cambridge-g11-environmental-ch05-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g11-environmental-ch06",
+   "subjectId": "cambridge-g11-environmental",
+   "order": 6,
+   "name": "Natural resources: energy, water and food",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cambridge-g11-environmental-ch06-st1",
+    "cambridge-g11-environmental-ch06-st2",
+    "cambridge-g11-environmental-ch06-st3",
+    "cambridge-g11-environmental-ch06-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g11-environmental-ch07",
+   "subjectId": "cambridge-g11-environmental",
+   "order": 7,
+   "name": "Environmental management and sustainability",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "cambridge-g11-environmental-ch07-st1",
+    "cambridge-g11-environmental-ch07-st2",
+    "cambridge-g11-environmental-ch07-st3",
+    "cambridge-g11-environmental-ch07-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g11-environmental-ch08",
+   "subjectId": "cambridge-g11-environmental",
+   "order": 8,
+   "name": "Research skills",
+   "teachingPeriods": 23,
+   "subtopicIds": [
+    "cambridge-g11-environmental-ch08-st1",
+    "cambridge-g11-environmental-ch08-st2",
+    "cambridge-g11-environmental-ch08-st3",
+    "cambridge-g11-environmental-ch08-st4",
+    "cambridge-g11-environmental-ch08-st5"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cambridge-g11-environmental-ch01-st1",
+   "chapterId": "cambridge-g11-environmental-ch01",
+   "order": 1,
+   "name": "Structure of the Earth and plate tectonics: plate boundaries and their landforms",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch06-st5"
+   ],
+   "prerequisiteNote": "Tectonics and continental drift (Lower Secondary Stage 9); structure of the Earth (IGCSE Geography)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-environmental-ch01-st2",
+   "chapterId": "cambridge-g11-environmental-ch01",
+   "order": 2,
+   "name": "The rock cycle: formation of igneous, sedimentary and metamorphic rocks",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-environmental-ch01-st1"
+   ],
+   "prerequisiteNote": "Types of rock and weathering (Lower Secondary Stage 7-8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-environmental-ch01-st3",
+   "chapterId": "cambridge-g11-environmental-ch01",
+   "order": 3,
+   "name": "Natural hazards: earthquakes, volcanoes and tsunamis, their impacts and management",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-environmental-ch01-st1"
+   ],
+   "prerequisiteNote": "Plate boundaries; hazard and risk (IGCSE Geography)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-environmental-ch01-st4",
+   "chapterId": "cambridge-g11-environmental-ch01",
+   "order": 4,
+   "name": "Soils: formation, composition, degradation and conservation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-environmental-ch01-st2"
+   ],
+   "prerequisiteNote": "Weathering and the rock cycle; plant nutrients (Lower Secondary Stage 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-environmental-ch01-st5",
+   "chapterId": "cambridge-g11-environmental-ch01",
+   "order": 5,
+   "name": "Mineral extraction: mining methods, environmental impacts and restoration",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-environmental-ch01-st2",
+    "cambridge-g11-environmental-ch01-st4"
+   ],
+   "prerequisiteNote": "The rock cycle; soil degradation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-environmental-ch02-st1",
+   "chapterId": "cambridge-g11-environmental-ch02",
+   "order": 1,
+   "name": "The hydrological cycle: stores, flows and processes",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch10-st3"
+   ],
+   "prerequisiteNote": "Melting, boiling and evaporation (IGCSE Physics ch 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-environmental-ch02-st2",
+   "chapterId": "cambridge-g11-environmental-ch02",
+   "order": 2,
+   "name": "Oceans: ocean currents, upwelling and El Niño Southern Oscillation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-environmental-ch02-st1",
+    "cambridge-g9-physics-ch11-st2"
+   ],
+   "prerequisiteNote": "Convection currents (IGCSE Physics ch 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-environmental-ch02-st3",
+   "chapterId": "cambridge-g11-environmental-ch02",
+   "order": 3,
+   "name": "Fresh water supply: groundwater, surface water and water pollution",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-environmental-ch02-st1",
+    "cambridge-g11-environmental-ch01-st2"
+   ],
+   "prerequisiteNote": "Hydrological cycle; permeable and impermeable rocks",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-environmental-ch02-st4",
+   "chapterId": "cambridge-g11-environmental-ch02",
+   "order": 4,
+   "name": "Flooding and drought: causes, impacts and management",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-environmental-ch02-st1",
+    "cambridge-g11-environmental-ch02-st3"
+   ],
+   "prerequisiteNote": "Hydrological cycle; fresh water supply",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-environmental-ch03-st1",
+   "chapterId": "cambridge-g11-environmental-ch03",
+   "order": 1,
+   "name": "Structure and composition of the atmosphere",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch09-st2"
+   ],
+   "prerequisiteNote": "Gas pressure (IGCSE Physics ch 9); gases in air (Lower Secondary)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-environmental-ch03-st2",
+   "chapterId": "cambridge-g11-environmental-ch03",
+   "order": 2,
+   "name": "Atmospheric circulation, weather and climate: tricellular model",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-environmental-ch03-st1",
+    "cambridge-g11-environmental-ch02-st2"
+   ],
+   "prerequisiteNote": "Convection and pressure; ocean currents",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-environmental-ch03-st3",
+   "chapterId": "cambridge-g11-environmental-ch03",
+   "order": 3,
+   "name": "The enhanced greenhouse effect and climate change: causes, impacts and responses",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-environmental-ch03-st1",
+    "cambridge-g8-science-ch01-st4",
+    "cambridge-g9-physics-ch11-st4"
+   ],
+   "prerequisiteNote": "Climate change (Lower Secondary Stage 9); Earth's energy balance (IGCSE Physics)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-environmental-ch03-st4",
+   "chapterId": "cambridge-g11-environmental-ch03",
+   "order": 4,
+   "name": "Ozone depletion: causes, impacts and the Montreal Protocol",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-environmental-ch03-st1",
+    "cambridge-g10-physics-ch02-st3"
+   ],
+   "prerequisiteNote": "Harmful effects of UV radiation (IGCSE Physics)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-environmental-ch03-st5",
+   "chapterId": "cambridge-g11-environmental-ch03",
+   "order": 5,
+   "name": "Air pollution: acid rain, photochemical smog and particulates",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-environmental-ch03-st1"
+   ],
+   "prerequisiteNote": "Combustion products of fossil fuels (IGCSE Chemistry); pH scale",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-environmental-ch04-st1",
+   "chapterId": "cambridge-g11-environmental-ch04",
+   "order": 1,
+   "name": "Ecosystems: energy flow, trophic levels, food chains and food webs, and productivity",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch01-st1"
+   ],
+   "prerequisiteNote": "Photosynthesis (Lower Secondary Stage 9); food chains (Lower Secondary Stage 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-environmental-ch04-st2",
+   "chapterId": "cambridge-g11-environmental-ch04",
+   "order": 2,
+   "name": "Biogeochemical cycles: carbon and nitrogen cycles",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-environmental-ch04-st1",
+    "cambridge-g8-science-ch01-st3"
+   ],
+   "prerequisiteNote": "The carbon cycle (Lower Secondary Stage 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-environmental-ch04-st3",
+   "chapterId": "cambridge-g11-environmental-ch04",
+   "order": 3,
+   "name": "Biomes, biodiversity and ecological succession",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-environmental-ch04-st1",
+    "cambridge-g11-environmental-ch03-st2"
+   ],
+   "prerequisiteNote": "Climate zones; adaptation (Lower Secondary)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-environmental-ch04-st4",
+   "chapterId": "cambridge-g11-environmental-ch04",
+   "order": 4,
+   "name": "Threats to biodiversity and conservation strategies: in situ and ex situ",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-environmental-ch04-st3"
+   ],
+   "prerequisiteNote": "Biodiversity; habitat loss and natural selection (Lower Secondary Stage 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-environmental-ch05-st1",
+   "chapterId": "cambridge-g11-environmental-ch05",
+   "order": 1,
+   "name": "Population growth and change: birth rate, death rate and natural increase",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Rates and percentages; reading line graphs (IGCSE maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-environmental-ch05-st2",
+   "chapterId": "cambridge-g11-environmental-ch05",
+   "order": 2,
+   "name": "The demographic transition model and population structure: population pyramids",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-environmental-ch05-st1"
+   ],
+   "prerequisiteNote": "Birth and death rates; interpreting graphs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-environmental-ch05-st3",
+   "chapterId": "cambridge-g11-environmental-ch05",
+   "order": 3,
+   "name": "Migration: push and pull factors and its impacts",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g11-environmental-ch05-st1"
+   ],
+   "prerequisiteNote": "Population change; reasons for movement (IGCSE Geography)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-environmental-ch05-st4",
+   "chapterId": "cambridge-g11-environmental-ch05",
+   "order": 4,
+   "name": "Population management policies: pro-natalist and anti-natalist",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g11-environmental-ch05-st2"
+   ],
+   "prerequisiteNote": "Demographic transition model; population structure",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-environmental-ch05-st5",
+   "chapterId": "cambridge-g11-environmental-ch05",
+   "order": 5,
+   "name": "Carrying capacity, overpopulation and the ecological footprint",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g11-environmental-ch05-st1",
+    "cambridge-g11-environmental-ch04-st1"
+   ],
+   "prerequisiteNote": "Population growth; ecosystem productivity",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-environmental-ch06-st1",
+   "chapterId": "cambridge-g11-environmental-ch06",
+   "order": 1,
+   "name": "Energy resources: renewable and non-renewable, energy demand and energy security",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch07-st3"
+   ],
+   "prerequisiteNote": "Comparing energy resources (IGCSE Physics ch 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-environmental-ch06-st2",
+   "chapterId": "cambridge-g11-environmental-ch06",
+   "order": 2,
+   "name": "Water resources: supply, demand, water scarcity and management strategies",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-environmental-ch02-st3"
+   ],
+   "prerequisiteNote": "Fresh water supply and pollution",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-environmental-ch06-st3",
+   "chapterId": "cambridge-g11-environmental-ch06",
+   "order": 3,
+   "name": "Food production systems: agriculture types and their environmental impacts",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-environmental-ch01-st4",
+    "cambridge-g11-environmental-ch04-st2"
+   ],
+   "prerequisiteNote": "Soils; nitrogen cycle",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-environmental-ch06-st4",
+   "chapterId": "cambridge-g11-environmental-ch06",
+   "order": 4,
+   "name": "Food security and sustainable agriculture",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-environmental-ch06-st3",
+    "cambridge-g11-environmental-ch05-st5"
+   ],
+   "prerequisiteNote": "Food production; carrying capacity",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-environmental-ch07-st1",
+   "chapterId": "cambridge-g11-environmental-ch07",
+   "order": 1,
+   "name": "Sustainable development: definitions, the triple bottom line and the SDGs",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-environmental-ch05-st5"
+   ],
+   "prerequisiteNote": "Ecological footprint; carrying capacity",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-environmental-ch07-st2",
+   "chapterId": "cambridge-g11-environmental-ch07",
+   "order": 2,
+   "name": "Environmental impact assessment and monitoring",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-environmental-ch07-st1",
+    "cambridge-g11-environmental-ch01-st5"
+   ],
+   "prerequisiteNote": "Mineral extraction impacts; sustainability",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-environmental-ch07-st3",
+   "chapterId": "cambridge-g11-environmental-ch07",
+   "order": 3,
+   "name": "Waste management: reduce, reuse, recycle, landfill and incineration",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-environmental-ch07-st1"
+   ],
+   "prerequisiteNote": "Sustainable development; pollution",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-environmental-ch07-st4",
+   "chapterId": "cambridge-g11-environmental-ch07",
+   "order": 4,
+   "name": "International agreements and the role of governments, NGOs and individuals",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-environmental-ch07-st1",
+    "cambridge-g11-environmental-ch03-st3",
+    "cambridge-g11-environmental-ch03-st4"
+   ],
+   "prerequisiteNote": "Climate change; ozone depletion and the Montreal Protocol",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-environmental-ch08-st1",
+   "chapterId": "cambridge-g11-environmental-ch08",
+   "order": 1,
+   "name": "Research design: aims, hypotheses and identifying variables",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-physics-ch15-st1"
+   ],
+   "prerequisiteNote": "Planning investigations and recording data (AS Physics practical skills)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-environmental-ch08-st2",
+   "chapterId": "cambridge-g11-environmental-ch08",
+   "order": 2,
+   "name": "Sampling techniques: random, systematic, stratified, quadrats and transects",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-environmental-ch08-st1",
+    "cambridge-g8-maths-ch06-st2"
+   ],
+   "prerequisiteNote": "Sampling methods (Lower Secondary Stage 9 maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-environmental-ch08-st3",
+   "chapterId": "cambridge-g11-environmental-ch08",
+   "order": 3,
+   "name": "Data collection: questionnaires, interviews and measuring abiotic factors",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-environmental-ch08-st2"
+   ],
+   "prerequisiteNote": "Sampling techniques; types of data",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-environmental-ch08-st4",
+   "chapterId": "cambridge-g11-environmental-ch08",
+   "order": 4,
+   "name": "Data presentation and analysis: graphs, Simpson's diversity index and Spearman's rank correlation",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-environmental-ch08-st3",
+    "cambridge-g11-maths-ch12-st2"
+   ],
+   "prerequisiteNote": "Standard deviation and scatter diagrams (AS Maths); correlation (IGCSE)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-environmental-ch08-st5",
+   "chapterId": "cambridge-g11-environmental-ch08",
+   "order": 5,
+   "name": "Evaluating methods, reliability and limitations of research",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g11-environmental-ch08-st4"
+   ],
+   "prerequisiteNote": "Data analysis; sources of error",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}
