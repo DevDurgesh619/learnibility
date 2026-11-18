@@ -1,0 +1,87 @@
+{
+  "subjectId": "cbse-g9-maths",
+  "generatedBy": "scripts/questions/cbse/g9_maths.py",
+  "curriculumSource": "data/curriculum/cbse-g9-maths.json",
+  "generatedAt": "2026-11-18T08:04:06Z",
+  "chaptersDone": [
+    "cbse-g9-maths-ch01",
+    "cbse-g9-maths-ch02",
+    "cbse-g9-maths-ch03",
+    "cbse-g9-maths-ch04",
+    "cbse-g9-maths-ch05",
+    "cbse-g9-maths-ch06",
+    "cbse-g9-maths-ch07",
+    "cbse-g9-maths-ch08",
+    "cbse-g9-maths-ch09",
+    "cbse-g9-maths-ch10",
+    "cbse-g9-maths-ch11",
+    "cbse-g9-maths-ch12",
+    "cbse-g9-maths-ch13",
+    "cbse-g9-maths-ch14"
+  ],
+  "mocksDone": true,
+  "target": 1514,
+  "generated": 1514,
+  "validated": true,
+  "counts": {
+    "mastery_bank": 840,
+    "practice": 560,
+    "mock": 114,
+    "total": 1514
+  },
+  "mix": {
+    "C": {
+      "C1": 15,
+      "C2": 29.9,
+      "C3": 34.8,
+      "C4": 20.4
+    },
+    "D": {
+      "D1": 10,
+      "D2": 40.1,
+      "D3": 35.2,
+      "D4": 12.3,
+      "D5": 2.4
+    }
+  },
+  "validatedAt": "2026-11-18T08:36:00.225Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": [],
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "5 random items per chapter from the built files re-solved by hand (70 items), plus one generated variant of every family (about 470 generators) read and checked",
+      "checked": 70,
+      "mismatches": 1,
+      "mismatchDetail": [
+        "ch04 factorisation item accepted 3(2x + 2y)(2x − 2y) for 12x² − 12y² (not fully factorised)"
+      ],
+      "fixes": [
+        "factorisation family now takes out the common factor and uses coprime coefficients",
+        "ASCII minus signs replaced by the true minus sign in all text",
+        "mark totals quoted in marking keys aligned with each item's marks",
+        "duplicate or equivalent MCQ distractors removed (factor order, intercepts, probabilities)",
+        "converse/inverse/contrapositive statements rewritten with a subject so they read grammatically",
+        "square-root-spiral items avoid perfect squares; science-fair and quiz cases give whole-number answers",
+        "number formatting: coefficient 1, fractions shown as decimals where they terminate, plurals"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "method": "second pass after regeneration: 5 new random items per chapter re-solved by hand (70 items)",
+      "checked": 70,
+      "mismatches": 2,
+      "mismatchDetail": [
+        "ch03 decimal-expansion explain item could pick 7/14 (= 1/2, terminating) but answered non-terminating",
+        "ch03 surd Assertion-Reason could pick (√5 + √5)²"
+      ],
+      "fixes": [
+        "numerator now coprime to the denominator and free of 3 and 7",
+        "surd A-R uses two different non-square surds",
+        "coefficient-1 display (\"1a\", \"1x\") and plural fixes"
+      ],
+      "note": "Bank regenerated and revalidated after each pass."
+    }
+  ]
+}

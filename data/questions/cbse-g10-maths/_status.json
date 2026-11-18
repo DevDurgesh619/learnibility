@@ -1,0 +1,79 @@
+{
+  "subjectId": "cbse-g10-maths",
+  "generatedBy": "scripts/questions/cbse/g10_maths.py",
+  "curriculumSource": "data/curriculum/cbse-g10-maths.json",
+  "generatedAt": "2026-11-18T08:34:31Z",
+  "chaptersDone": [
+    "cbse-g10-maths-ch01",
+    "cbse-g10-maths-ch02",
+    "cbse-g10-maths-ch03",
+    "cbse-g10-maths-ch04",
+    "cbse-g10-maths-ch05",
+    "cbse-g10-maths-ch06",
+    "cbse-g10-maths-ch07",
+    "cbse-g10-maths-ch08",
+    "cbse-g10-maths-ch09",
+    "cbse-g10-maths-ch10",
+    "cbse-g10-maths-ch11",
+    "cbse-g10-maths-ch12",
+    "cbse-g10-maths-ch13",
+    "cbse-g10-maths-ch14"
+  ],
+  "mocksDone": true,
+  "target": 1628,
+  "generated": 1628,
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "one generated variant of every family (about 420 generators) read and checked, plus 5 random items per chapter from the built files re-solved by hand (70 items)",
+      "checked": 70,
+      "mismatches": 1,
+      "mismatchDetail": [
+        "ch04 quadratic-formula item gave x = (6 ± 2√5)/2 instead of the simplest form 3 ± √5"
+      ],
+      "fixes": [
+        "quadratic-formula answers reduced to simplest surd form",
+        "coefficient-1 display fixed (1x, 1p, 1q, 1n) and polynomials built with the shared poly/term helpers",
+        "rationalised forms simplified (4/√2 = 2√2); redundant \"= 1/52 = 1/52\" style keys removed; plural \"unit(s)\"",
+        "surd heights shown as (p + q√3) m ≈ value, with the positive term first",
+        "generators with too few variants (ages, BPT algebra, trapezium diagonals, mensuration radii) widened",
+        "similar-triangle perimeter items give terminating answers; implausible or duplicate distractors replaced",
+        "class 9 wording \"Baudhayana-Pythagoras theorem\" replaced by the NCERT X \"Pythagoras theorem\""
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "method": "second pass after regeneration: 5 new random items per chapter re-solved by hand (70 items)",
+      "checked": 70,
+      "mismatches": 0,
+      "fixes": [],
+      "note": "Bank regenerated and revalidated after each pass."
+    }
+  ],
+  "validated": true,
+  "counts": {
+    "mastery_bank": 840,
+    "practice": 560,
+    "mock": 228,
+    "total": 1628
+  },
+  "mix": {
+    "C": {
+      "C1": 14.9,
+      "C2": 29.8,
+      "C3": 35.1,
+      "C4": 20.2
+    },
+    "D": {
+      "D1": 10,
+      "D2": 40.5,
+      "D3": 35,
+      "D4": 11.9,
+      "D5": 2.6
+    }
+  },
+  "validatedAt": "2026-11-18T08:36:00.397Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": []
+}
