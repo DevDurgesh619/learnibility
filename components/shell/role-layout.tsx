@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react';
 import { redirect } from 'next/navigation';
-import { roleHome } from '@/lib/nav';
+import { getStudent } from '@/lib/data';
+import { navFor, roleHome } from '@/lib/nav';
 import { currentPersona } from '@/lib/session';
 import type { Role } from '@/lib/types';
 import { AppShell } from './app-shell';
@@ -11,7 +12,7 @@ export async function RoleLayout({ role, children }: { role: Role; children: Rea
   if (!persona) redirect('/login');
   if (persona.role !== role) redirect(roleHome(persona.role));
   return (
-    <AppShell role={role} persona={persona}>
+    <AppShell role={role} persona={persona} nav={navFor(role, { plan: role === 'student' ? getStudent(persona.id)?.plan : undefined })}>
       {children}
     </AppShell>
   );

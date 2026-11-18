@@ -12,6 +12,16 @@ export interface NavItem {
   icon: NavIcon;
   /** One line shown on the placeholder until the screen is built. */
   blurb: string;
+  /** Overrides the default /{role}/{slug} link. */
+  href?: string;
+  /** Extra path prefixes that mark this item active. */
+  activePrefixes?: string[];
+}
+
+/** What the sidebar may depend on beyond the role. */
+export interface NavContext {
+  /** Student plan: paid plans swap University Fit for Application Support. */
+  plan?: 'free' | 'application_support' | 'full_package';
 }
 
 /** Sidebars from the blueprint, section "Role screens and flows". */
@@ -75,7 +85,27 @@ export const ROLE_LABEL: Record<Role, string> = {
 export const roleHome = (role: Role) => `/${role}`;
 
 export function navHref(role: Role, item: NavItem) {
+  if (item.href) return item.href;
   return item.slug ? `/${role}/${item.slug}` : `/${role}`;
+}
+
+/** The sidebar for a role, adjusted for the signed-in person (e.g. the student's plan). */
+export function navFor(role: Role, ctx: NavContext = {}): NavItem[] {
+  const items = NAV[role];
+  if (role === 'student' && ctx.plan && ctx.plan !== 'free') {
+    return items.map((i) =>
+      i.slug === 'universities'
+        ? {
+            ...i,
+            label: 'Application Support',
+            href: '/student/applications',
+            activePrefixes: ['/student/applications', '/student/universities'],
+            blurb: 'Your applications, checklists, essays and deadlines in one place.',
+          }
+        : i,
+    );
+  }
+  return items;
 }
 
 export function findNavItem(role: Role, slug: string): NavItem | undefined {

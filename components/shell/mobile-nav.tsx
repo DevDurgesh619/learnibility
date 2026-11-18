@@ -3,11 +3,12 @@
 import { useEffect, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { Menu, X } from 'lucide-react';
+import type { NavItem } from '@/lib/nav';
 import type { Role } from '@/lib/types';
 import { SidebarNav } from './sidebar-nav';
 import { Logo } from './logo';
 
-export function MobileNav({ role }: { role: Role }) {
+export function MobileNav({ role, items }: { role: Role; items: NavItem[] }) {
   const [open, setOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
   useEffect(() => setMounted(true), []);
@@ -26,7 +27,7 @@ export function MobileNav({ role }: { role: Role }) {
                 <X className="size-5" />
               </button>
             </div>
-            <SidebarNav role={role} onNavigate={() => setOpen(false)} />
+            <SidebarNav role={role} items={items} onNavigate={() => setOpen(false)} />
           </div>
         </div>,
         // Portal: the sticky header uses backdrop-blur, which would trap a fixed-position drawer inside it.

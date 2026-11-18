@@ -22,6 +22,7 @@ Add a heading per request: who asks, which file, what change, why. The owner mar
 - File: `app/page.tsx`.
 - Change: either redirect `/` to `/welcome` (W2-S1's PDF 1a landing, `app/(entry)/welcome`), or point its "Try the demo" button at `/signup` and add a "Get started" link there. Keep `/login` reachable (the 1b screen links "Demo persona picker").
 - Why: PDF 1a → 1b; the new-user demo starts at the landing page.
+- Done 2026-11-18 by W1 (commit 3c0d3e9): `/` redirects to `/welcome`.
 
 ## W2-S1 → everyone assigning tests (teacher, tutor, counsellor): how a test task opens (2026-11-18)
 - A `Task` with `kind: 'test'` and `questionIds` opens at `/student/assessments/task.{taskId}` (overview → instructions → full-screen test). Submitting it writes the attempt with `taskId` and `assignedBy` = `task.createdBy`, marks the task done and calls `recomputeLearner`.
@@ -36,3 +37,4 @@ Add a heading per request: who asks, which file, what change, why. The owner mar
 - File: student sidebar nav config.
 - Change: for students on the `application_support` plan, label the universities entry "Application Support", link it to `/student/applications` and highlight it on `/student/applications/**` and `/student/universities/**`. Free students keep "Universities" → `/student/universities`.
 - Why: PDF 7a; paid students land on the command center, free ones on the explorer (which redirects paid users).
+- Done 2026-11-18 by W1: `navFor(role, { plan })` in `lib/nav.ts`; students on `application_support` or `full_package` see "Application Support" → `/student/applications`, active on `/student/applications/**` and `/student/universities/**`. Free students keep "University Fit" → `/student/universities` (the blueprint's name). Checked as Nikhil (paid) and Kabir (free).

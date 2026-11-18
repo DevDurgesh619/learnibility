@@ -5,7 +5,7 @@ import { logout } from '@/app/login/actions';
 import { Avatar } from '@/components/ui/avatar';
 import { Badge } from '@/components/ui/badge';
 import { DEMO_NOW, DEMO_TIMEZONE } from '@/lib/demo-clock';
-import { ROLE_LABEL } from '@/lib/nav';
+import { NAV, ROLE_LABEL, type NavItem } from '@/lib/nav';
 import type { PersonaSummary, Role } from '@/lib/types';
 import { Logo } from './logo';
 import { MobileNav } from './mobile-nav';
@@ -14,12 +14,13 @@ import { SidebarNav } from './sidebar-nav';
 const demoDate = new Intl.DateTimeFormat('en-IN', { weekday: 'short', day: 'numeric', month: 'short', year: 'numeric', timeZone: DEMO_TIMEZONE }).format(DEMO_NOW);
 
 /** The signed-in frame: role sidebar on desktop, drawer on mobile, top bar with persona and demo date. */
-export function AppShell({ role, persona, children }: { role: Role; persona: PersonaSummary; children: ReactNode }) {
+export function AppShell({ role, persona, nav, children }: { role: Role; persona: PersonaSummary; nav?: NavItem[]; children: ReactNode }) {
+  const items = nav ?? NAV[role];
   return (
     <div className="min-h-screen lg:grid lg:grid-cols-[256px_1fr]">
       <aside className="sticky top-0 hidden h-screen flex-col gap-6 border-r border-line bg-surface p-4 lg:flex">
         <Logo href={`/${role}`} />
-        <SidebarNav role={role} />
+        <SidebarNav role={role} items={items} />
         <div className="mt-auto rounded-lg bg-surface-muted p-3 text-xs text-muted">
           <p className="font-medium text-ink">Demo mode</p>
           <p>All people and data are fictional. Today is {demoDate}.</p>
@@ -27,7 +28,7 @@ export function AppShell({ role, persona, children }: { role: Role; persona: Per
       </aside>
       <div className="flex min-w-0 flex-col">
         <header className="sticky top-0 z-40 flex h-16 items-center gap-3 border-b border-line bg-surface/90 px-4 backdrop-blur sm:px-6">
-          <MobileNav role={role} />
+          <MobileNav role={role} items={items} />
           <div className="lg:hidden"><Logo href={`/${role}`} /></div>
           <div className="ml-auto flex items-center gap-3">
             <Badge tone="brand" className="hidden sm:inline-flex">{ROLE_LABEL[role]}</Badge>

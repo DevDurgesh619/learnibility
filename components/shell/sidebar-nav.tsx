@@ -2,18 +2,19 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { NAV, navHref } from '@/lib/nav';
+import { navHref, type NavItem } from '@/lib/nav';
 import type { Role } from '@/lib/types';
 import { cn } from '@/lib/utils';
 import { NavIcon } from './nav-icon';
 
-export function SidebarNav({ role, onNavigate }: { role: Role; onNavigate?: () => void }) {
+export function SidebarNav({ role, items, onNavigate }: { role: Role; items: NavItem[]; onNavigate?: () => void }) {
   const pathname = usePathname();
   return (
     <nav className="flex flex-col gap-0.5" aria-label="Main">
-      {NAV[role].map((item) => {
+      {items.map((item) => {
         const href = navHref(role, item);
-        const active = item.slug ? pathname === href || pathname.startsWith(`${href}/`) : pathname === href;
+        const prefixes = [href, ...(item.activePrefixes ?? [])];
+        const active = item.slug ? prefixes.some((p) => pathname === p || pathname.startsWith(`${p}/`)) : pathname === href;
         return (
           <Link
             key={href}
