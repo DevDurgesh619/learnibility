@@ -1,0 +1,835 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cambridge-g12-chemistry",
+  "board": "cambridge",
+  "grade": 12,
+  "stream": "science",
+  "slug": "chemistry",
+  "name": "Chemistry",
+  "programme": "Cambridge A Level Chemistry 9701 (topics 23–37)",
+  "textbook": "CUP Coursebook ch 19–30",
+  "examPattern": "A2: P4 A Level Structured 2 h, 100 marks (~10–12 questions) + P5 Planning, Analysis & Evaluation 1 h 15, 30 marks (2+ questions). Graded A*–E.",
+  "chapterCount": 12,
+  "questionTarget": 1278
+ },
+ "items": [
+  {
+   "id": "cambridge-g12-chemistry-ch01",
+   "subjectId": "cambridge-g12-chemistry",
+   "order": 1,
+   "name": "Lattice Energy",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cambridge-g12-chemistry-ch01-st1",
+    "cambridge-g12-chemistry-ch01-st2",
+    "cambridge-g12-chemistry-ch01-st3",
+    "cambridge-g12-chemistry-ch01-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch02",
+   "subjectId": "cambridge-g12-chemistry",
+   "order": 2,
+   "name": "Electrochemistry",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cambridge-g12-chemistry-ch02-st1",
+    "cambridge-g12-chemistry-ch02-st2",
+    "cambridge-g12-chemistry-ch02-st3",
+    "cambridge-g12-chemistry-ch02-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch03",
+   "subjectId": "cambridge-g12-chemistry",
+   "order": 3,
+   "name": "Further Aspects of Equilibria",
+   "teachingPeriods": 23,
+   "subtopicIds": [
+    "cambridge-g12-chemistry-ch03-st1",
+    "cambridge-g12-chemistry-ch03-st2",
+    "cambridge-g12-chemistry-ch03-st3",
+    "cambridge-g12-chemistry-ch03-st4",
+    "cambridge-g12-chemistry-ch03-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch04",
+   "subjectId": "cambridge-g12-chemistry",
+   "order": 4,
+   "name": "Reaction Kinetics",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cambridge-g12-chemistry-ch04-st1",
+    "cambridge-g12-chemistry-ch04-st2",
+    "cambridge-g12-chemistry-ch04-st3",
+    "cambridge-g12-chemistry-ch04-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch05",
+   "subjectId": "cambridge-g12-chemistry",
+   "order": 5,
+   "name": "Entropy and Gibbs Free Energy",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cambridge-g12-chemistry-ch05-st1",
+    "cambridge-g12-chemistry-ch05-st2",
+    "cambridge-g12-chemistry-ch05-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch06",
+   "subjectId": "cambridge-g12-chemistry",
+   "order": 6,
+   "name": "Transition Elements",
+   "teachingPeriods": 24,
+   "subtopicIds": [
+    "cambridge-g12-chemistry-ch06-st1",
+    "cambridge-g12-chemistry-ch06-st2",
+    "cambridge-g12-chemistry-ch06-st3",
+    "cambridge-g12-chemistry-ch06-st4",
+    "cambridge-g12-chemistry-ch06-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch07",
+   "subjectId": "cambridge-g12-chemistry",
+   "order": 7,
+   "name": "Benzene and its Compounds",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cambridge-g12-chemistry-ch07-st1",
+    "cambridge-g12-chemistry-ch07-st2",
+    "cambridge-g12-chemistry-ch07-st3",
+    "cambridge-g12-chemistry-ch07-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch08",
+   "subjectId": "cambridge-g12-chemistry",
+   "order": 8,
+   "name": "Carboxylic Acids and their Derivatives",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cambridge-g12-chemistry-ch08-st1",
+    "cambridge-g12-chemistry-ch08-st2",
+    "cambridge-g12-chemistry-ch08-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch09",
+   "subjectId": "cambridge-g12-chemistry",
+   "order": 9,
+   "name": "Organic Nitrogen Compounds",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cambridge-g12-chemistry-ch09-st1",
+    "cambridge-g12-chemistry-ch09-st2",
+    "cambridge-g12-chemistry-ch09-st3",
+    "cambridge-g12-chemistry-ch09-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch10",
+   "subjectId": "cambridge-g12-chemistry",
+   "order": 10,
+   "name": "Polymerisation",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cambridge-g12-chemistry-ch10-st1",
+    "cambridge-g12-chemistry-ch10-st2",
+    "cambridge-g12-chemistry-ch10-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch11",
+   "subjectId": "cambridge-g12-chemistry",
+   "order": 11,
+   "name": "Analytical Chemistry",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cambridge-g12-chemistry-ch11-st1",
+    "cambridge-g12-chemistry-ch11-st2",
+    "cambridge-g12-chemistry-ch11-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch12",
+   "subjectId": "cambridge-g12-chemistry",
+   "order": 12,
+   "name": "Organic Synthesis",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "cambridge-g12-chemistry-ch12-st1",
+    "cambridge-g12-chemistry-ch12-st2",
+    "cambridge-g12-chemistry-ch12-st3"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cambridge-g12-chemistry-ch01-st1",
+   "chapterId": "cambridge-g12-chemistry-ch01",
+   "order": 1,
+   "name": "Lattice energy, enthalpy of atomisation and electron affinity: definitions",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-chemistry-ch05-st1",
+    "cambridge-g11-chemistry-ch02-st3"
+   ],
+   "prerequisiteNote": "Standard enthalpy change definitions; ionisation energies (AS ch 2, 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch01-st2",
+   "chapterId": "cambridge-g12-chemistry-ch01",
+   "order": 2,
+   "name": "Constructing Born–Haber cycles and calculating lattice energy",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-chemistry-ch01-st1",
+    "cambridge-g11-chemistry-ch05-st3"
+   ],
+   "prerequisiteNote": "Lattice energy definitions; Hess's law energy cycles (AS ch 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch01-st3",
+   "chapterId": "cambridge-g12-chemistry-ch01",
+   "order": 3,
+   "name": "Effect of ionic charge and radius on lattice energy",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-chemistry-ch01-st2",
+    "cambridge-g11-chemistry-ch01-st2"
+   ],
+   "prerequisiteNote": "Born–Haber cycles; ionic radius trends (AS ch 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch01-st4",
+   "chapterId": "cambridge-g12-chemistry-ch01",
+   "order": 4,
+   "name": "Enthalpies of solution and hydration; solubility and thermal stability trends of Group 2 compounds",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-chemistry-ch01-st3",
+    "cambridge-g11-chemistry-ch10-st3"
+   ],
+   "prerequisiteNote": "Lattice energy and ionic radius; Group 2 thermal decomposition and solubility (AS ch 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch02-st1",
+   "chapterId": "cambridge-g12-chemistry-ch02",
+   "order": 1,
+   "name": "Electrolysis: Faraday's laws, F = Le and calculating mass and volume of products",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g9-chemistry-ch06-st3",
+    "cambridge-g11-chemistry-ch01-st5"
+   ],
+   "prerequisiteNote": "Half-equations at electrodes (IGCSE ch 6); mole calculations (AS ch 1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch02-st2",
+   "chapterId": "cambridge-g12-chemistry-ch02",
+   "order": 2,
+   "name": "Standard electrode potentials and the standard hydrogen electrode; standard cell potentials",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-chemistry-ch06-st3"
+   ],
+   "prerequisiteNote": "Balancing redox equations with half-equations (AS ch 6)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch02-st3",
+   "chapterId": "cambridge-g12-chemistry-ch02",
+   "order": 3,
+   "name": "Using E° values to predict the feasibility of reactions and the direction of electron flow",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-chemistry-ch02-st2"
+   ],
+   "prerequisiteNote": "Standard electrode potentials; oxidising and reducing agents",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch02-st4",
+   "chapterId": "cambridge-g12-chemistry-ch02",
+   "order": 4,
+   "name": "The Nernst equation and effect of concentration on electrode potential",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-chemistry-ch02-st2",
+    "cambridge-g11-chemistry-ch07-st1"
+   ],
+   "prerequisiteNote": "Standard electrode potentials; Le Chatelier's principle (AS ch 7); logarithms (maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch03-st1",
+   "chapterId": "cambridge-g12-chemistry-ch03",
+   "order": 1,
+   "name": "pH, Kw, Ka and pKa: calculations for strong and weak acids and strong bases",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-chemistry-ch07-st4",
+    "cambridge-g11-chemistry-ch07-st2"
+   ],
+   "prerequisiteNote": "Brønsted–Lowry acids and Kc expressions (AS ch 7); logarithms (maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch03-st2",
+   "chapterId": "cambridge-g12-chemistry-ch03",
+   "order": 2,
+   "name": "Buffer solutions: how they work and calculating their pH; buffers in blood",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-chemistry-ch03-st1"
+   ],
+   "prerequisiteNote": "pH and Ka calculations; Le Chatelier's principle",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch03-st3",
+   "chapterId": "cambridge-g12-chemistry-ch03",
+   "order": 3,
+   "name": "pH titration curves and choice of indicator",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-chemistry-ch03-st1",
+    "cambridge-g10-chemistry-ch11-st4"
+   ],
+   "prerequisiteNote": "pH calculations; acid–base titration practice (IGCSE ch 22)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch03-st4",
+   "chapterId": "cambridge-g12-chemistry-ch03",
+   "order": 4,
+   "name": "Solubility product Ksp and the common ion effect",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-chemistry-ch07-st2"
+   ],
+   "prerequisiteNote": "Kc expressions and equilibrium calculations (AS ch 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch03-st5",
+   "chapterId": "cambridge-g12-chemistry-ch03",
+   "order": 5,
+   "name": "Partition coefficients between two immiscible solvents",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g11-chemistry-ch07-st2"
+   ],
+   "prerequisiteNote": "Equilibrium constant expressions (AS ch 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch04-st1",
+   "chapterId": "cambridge-g12-chemistry-ch04",
+   "order": 1,
+   "name": "Rate equations, orders of reaction and rate constants",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-chemistry-ch08-st1"
+   ],
+   "prerequisiteNote": "Calculating rates from experimental data (AS ch 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch04-st2",
+   "chapterId": "cambridge-g12-chemistry-ch04",
+   "order": 2,
+   "name": "Determining order from concentration–time and rate–concentration graphs; half-life",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-chemistry-ch04-st1"
+   ],
+   "prerequisiteNote": "Rate equations; gradients and tangents of graphs (maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch04-st3",
+   "chapterId": "cambridge-g12-chemistry-ch04",
+   "order": 3,
+   "name": "Rate-determining step and deducing mechanisms from rate equations",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-chemistry-ch04-st1",
+    "cambridge-g11-chemistry-ch15-st3"
+   ],
+   "prerequisiteNote": "Rate equations; SN1 and SN2 mechanisms (AS ch 16)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch04-st4",
+   "chapterId": "cambridge-g12-chemistry-ch04",
+   "order": 4,
+   "name": "Homogeneous and heterogeneous catalysis; effect of temperature on k and Arrhenius equation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-chemistry-ch04-st1",
+    "cambridge-g11-chemistry-ch08-st3"
+   ],
+   "prerequisiteNote": "Rate constants; catalysts and Boltzmann distribution (AS ch 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch05-st1",
+   "chapterId": "cambridge-g12-chemistry-ch05",
+   "order": 1,
+   "name": "Entropy, S: disorder, predicting the sign of ΔS and calculating entropy change",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-chemistry-ch04-st3"
+   ],
+   "prerequisiteNote": "States of matter and arrangement of particles (AS ch 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch05-st2",
+   "chapterId": "cambridge-g12-chemistry-ch05",
+   "order": 2,
+   "name": "Gibbs free energy: ΔG = ΔH – TΔS and feasibility of reactions",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-chemistry-ch05-st1",
+    "cambridge-g11-chemistry-ch05-st3"
+   ],
+   "prerequisiteNote": "Entropy change; enthalpy change and Hess's law (AS ch 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch05-st3",
+   "chapterId": "cambridge-g12-chemistry-ch05",
+   "order": 3,
+   "name": "Effect of temperature on feasibility; linking ΔG to E°cell",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-chemistry-ch05-st2",
+    "cambridge-g12-chemistry-ch02-st3"
+   ],
+   "prerequisiteNote": "Gibbs free energy; standard cell potentials",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch06-st1",
+   "chapterId": "cambridge-g12-chemistry-ch06",
+   "order": 1,
+   "name": "General properties of transition elements: electronic configuration, variable oxidation states and catalytic activity",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-chemistry-ch02-st2",
+    "cambridge-g10-chemistry-ch02-st4"
+   ],
+   "prerequisiteNote": "Electronic configurations (AS ch 2); transition elements (IGCSE ch 13)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch06-st2",
+   "chapterId": "cambridge-g12-chemistry-ch06",
+   "order": 2,
+   "name": "Complex ions: ligands, coordination number, geometry and stereoisomerism in complexes",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-chemistry-ch06-st1",
+    "cambridge-g11-chemistry-ch03-st3",
+    "cambridge-g11-chemistry-ch13-st4"
+   ],
+   "prerequisiteNote": "VSEPR shapes (AS ch 4); geometrical and optical isomerism (AS ch 14)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch06-st3",
+   "chapterId": "cambridge-g12-chemistry-ch06",
+   "order": 3,
+   "name": "Splitting of d orbitals and the origin of colour in complexes",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-chemistry-ch06-st2"
+   ],
+   "prerequisiteNote": "Complex ions; d-orbital shapes",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch06-st4",
+   "chapterId": "cambridge-g12-chemistry-ch06",
+   "order": 4,
+   "name": "Ligand exchange and stability constants Kstab",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-chemistry-ch06-st2",
+    "cambridge-g12-chemistry-ch03-st4"
+   ],
+   "prerequisiteNote": "Complex ions; equilibrium constant expressions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch06-st5",
+   "chapterId": "cambridge-g12-chemistry-ch06",
+   "order": 5,
+   "name": "Redox chemistry of transition elements: MnO4⁻ and Cr2O7²⁻ titrations",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-chemistry-ch06-st1",
+    "cambridge-g12-chemistry-ch02-st3"
+   ],
+   "prerequisiteNote": "Variable oxidation states; predicting feasibility with E°",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch07-st1",
+   "chapterId": "cambridge-g12-chemistry-ch07",
+   "order": 1,
+   "name": "Bonding in benzene: delocalised π system and stability compared with the Kekulé model",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-chemistry-ch13-st3",
+    "cambridge-g12-chemistry-ch01-st2"
+   ],
+   "prerequisiteNote": "σ and π bonds (AS ch 14); enthalpy cycles",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch07-st2",
+   "chapterId": "cambridge-g12-chemistry-ch07",
+   "order": 2,
+   "name": "Electrophilic substitution reactions of arenes: nitration, halogenation and Friedel–Crafts",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-chemistry-ch07-st1",
+    "cambridge-g11-chemistry-ch13-st2"
+   ],
+   "prerequisiteNote": "Delocalisation in benzene; electrophiles and mechanisms (AS ch 14)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch07-st3",
+   "chapterId": "cambridge-g12-chemistry-ch07",
+   "order": 3,
+   "name": "Phenol: acidity and reactions with bases, sodium and bromine water",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-chemistry-ch07-st2",
+    "cambridge-g12-chemistry-ch03-st1"
+   ],
+   "prerequisiteNote": "Electrophilic substitution; Ka and acid strength",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch07-st4",
+   "chapterId": "cambridge-g12-chemistry-ch07",
+   "order": 4,
+   "name": "Directing effects of substituents on the benzene ring",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g12-chemistry-ch07-st2"
+   ],
+   "prerequisiteNote": "Electrophilic substitution mechanism",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch08-st1",
+   "chapterId": "cambridge-g12-chemistry-ch08",
+   "order": 1,
+   "name": "Acidity of carboxylic acids and chlorine-substituted acids",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-chemistry-ch03-st1",
+    "cambridge-g11-chemistry-ch16-st3"
+   ],
+   "prerequisiteNote": "pKa (Further Aspects of Equilibria); carboxylic acids (AS ch 17)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch08-st2",
+   "chapterId": "cambridge-g12-chemistry-ch08",
+   "order": 2,
+   "name": "Acyl chlorides: preparation and reactions with water, alcohols, phenols and amines",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-chemistry-ch08-st1",
+    "cambridge-g11-chemistry-ch15-st2"
+   ],
+   "prerequisiteNote": "Carboxylic acids; nucleophilic substitution (AS ch 16)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch08-st3",
+   "chapterId": "cambridge-g12-chemistry-ch08",
+   "order": 3,
+   "name": "Addition–elimination mechanism of acyl chlorides",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-chemistry-ch08-st2"
+   ],
+   "prerequisiteNote": "Acyl chloride reactions; nucleophiles and curly arrows",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch09-st1",
+   "chapterId": "cambridge-g12-chemistry-ch09",
+   "order": 1,
+   "name": "Amines: preparation, basicity and relative basic strength of ammonia, ethylamine and phenylamine",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-chemistry-ch12-st1",
+    "cambridge-g12-chemistry-ch07-st3"
+   ],
+   "prerequisiteNote": "Ammonia as a base (AS ch 13); phenol and delocalisation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch09-st2",
+   "chapterId": "cambridge-g12-chemistry-ch09",
+   "order": 2,
+   "name": "Phenylamine and azo dyes: diazotisation and coupling",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-chemistry-ch09-st1",
+    "cambridge-g12-chemistry-ch07-st2"
+   ],
+   "prerequisiteNote": "Amines; electrophilic substitution of arenes",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch09-st3",
+   "chapterId": "cambridge-g12-chemistry-ch09",
+   "order": 3,
+   "name": "Amides: formation, hydrolysis and reduction",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-chemistry-ch08-st2"
+   ],
+   "prerequisiteNote": "Acyl chloride reactions with amines",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch09-st4",
+   "chapterId": "cambridge-g12-chemistry-ch09",
+   "order": 4,
+   "name": "Amino acids: zwitterions, isoelectric point and peptide bonds; electrophoresis",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-chemistry-ch09-st1",
+    "cambridge-g12-chemistry-ch09-st3"
+   ],
+   "prerequisiteNote": "Basicity of amines; acidity of carboxylic acids; amides",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch10-st1",
+   "chapterId": "cambridge-g12-chemistry-ch10",
+   "order": 1,
+   "name": "Condensation polymers: polyesters and polyamides including proteins",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-chemistry-ch08-st2",
+    "cambridge-g12-chemistry-ch09-st4",
+    "cambridge-g10-chemistry-ch09-st3"
+   ],
+   "prerequisiteNote": "Esterification and amide formation; condensation polymers (IGCSE ch 20)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch10-st2",
+   "chapterId": "cambridge-g12-chemistry-ch10",
+   "order": 2,
+   "name": "Predicting monomers and repeat units for addition and condensation polymers",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-chemistry-ch10-st1",
+    "cambridge-g11-chemistry-ch14-st4"
+   ],
+   "prerequisiteNote": "Condensation polymers; addition polymerisation (AS ch 15)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch10-st3",
+   "chapterId": "cambridge-g12-chemistry-ch10",
+   "order": 3,
+   "name": "Degradable polymers: biodegradability and photodegradability",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g12-chemistry-ch10-st1"
+   ],
+   "prerequisiteNote": "Polyesters and polyamides; hydrolysis of esters and amides",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch11-st1",
+   "chapterId": "cambridge-g12-chemistry-ch11",
+   "order": 1,
+   "name": "Thin-layer and gas–liquid chromatography: Rf and retention times",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-chemistry-ch10-st4"
+   ],
+   "prerequisiteNote": "Paper chromatography and Rf values (IGCSE ch 21)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch11-st2",
+   "chapterId": "cambridge-g12-chemistry-ch11",
+   "order": 2,
+   "name": "Carbon-13 NMR spectroscopy: number and environment of carbon atoms",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-chemistry-ch18-st1"
+   ],
+   "prerequisiteNote": "Infrared and mass spectra (AS ch 22)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch11-st3",
+   "chapterId": "cambridge-g12-chemistry-ch11",
+   "order": 3,
+   "name": "Proton (¹H) NMR: chemical shift, integration, splitting (n+1 rule) and D2O exchange",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-chemistry-ch11-st2"
+   ],
+   "prerequisiteNote": "Carbon-13 NMR; chemical environments in molecules",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch12-st1",
+   "chapterId": "cambridge-g12-chemistry-ch12",
+   "order": 1,
+   "name": "Chirality in drug synthesis: separating optical isomers and using natural chiral molecules",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-chemistry-ch13-st4"
+   ],
+   "prerequisiteNote": "Optical isomerism and chiral centres (AS ch 14)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch12-st2",
+   "chapterId": "cambridge-g12-chemistry-ch12",
+   "order": 2,
+   "name": "Multi-step synthetic routes: identifying functional groups and reagents to convert one compound to another",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-chemistry-ch18-st3",
+    "cambridge-g12-chemistry-ch08-st2",
+    "cambridge-g12-chemistry-ch09-st1"
+   ],
+   "prerequisiteNote": "AS synthetic routes; acyl chloride and amine reactions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-chemistry-ch12-st3",
+   "chapterId": "cambridge-g12-chemistry-ch12",
+   "order": 3,
+   "name": "Combining analytical data (IR, MS and NMR) to identify an unknown organic compound",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-chemistry-ch11-st3",
+    "cambridge-g11-chemistry-ch18-st2"
+   ],
+   "prerequisiteNote": "Proton NMR; mass spectrometry (AS ch 22)",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

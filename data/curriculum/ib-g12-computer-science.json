@@ -1,0 +1,893 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "ib-g12-computer-science",
+  "board": "ib",
+  "grade": 12,
+  "stream": "science",
+  "slug": "computer-science",
+  "name": "Computer Science",
+  "programme": "IB DP Computer Science SL/HL (NEW guide, first exam May 2027)",
+  "examPattern": "IB DP – graded 1–7; recommended 150 h SL / 240 h HL; exams May (Hindi May only). HL: Paper 1 (Theme A + case study) 2 h, 80 marks (40%) – Section A 56 + case study 24 (4 challenge questions); Paper 2 (Theme B, Java/Python) 2 h, ~80 marks (40%, UNVERIFIED); IA computational solution 30 marks (20%). SL: P1 1 h 15 (50 marks), P2 1 h 15, IA 30%.",
+  "chapterCount": 12,
+  "questionTarget": 1212
+ },
+ "items": [
+  {
+   "id": "ib-g12-computer-science-ch01",
+   "subjectId": "ib-g12-computer-science",
+   "order": 1,
+   "name": "A3.1 Database Fundamentals",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g12-computer-science-ch01-st1",
+    "ib-g12-computer-science-ch01-st2",
+    "ib-g12-computer-science-ch01-st3",
+    "ib-g12-computer-science-ch01-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-computer-science-ch02",
+   "subjectId": "ib-g12-computer-science",
+   "order": 2,
+   "name": "A3.2 Database Design",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "ib-g12-computer-science-ch02-st1",
+    "ib-g12-computer-science-ch02-st2",
+    "ib-g12-computer-science-ch02-st3",
+    "ib-g12-computer-science-ch02-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-computer-science-ch03",
+   "subjectId": "ib-g12-computer-science",
+   "order": 3,
+   "name": "A3.3 Database Programming",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "ib-g12-computer-science-ch03-st1",
+    "ib-g12-computer-science-ch03-st2",
+    "ib-g12-computer-science-ch03-st3",
+    "ib-g12-computer-science-ch03-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-computer-science-ch04",
+   "subjectId": "ib-g12-computer-science",
+   "order": 4,
+   "name": "A3.4 Alternative Databases and Data Warehouses (HL)",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g12-computer-science-ch04-st1",
+    "ib-g12-computer-science-ch04-st2",
+    "ib-g12-computer-science-ch04-st3",
+    "ib-g12-computer-science-ch04-st4"
+   ]
+  },
+  {
+   "id": "ib-g12-computer-science-ch05",
+   "subjectId": "ib-g12-computer-science",
+   "order": 5,
+   "name": "A4.1 Machine Learning Fundamentals",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "ib-g12-computer-science-ch05-st1",
+    "ib-g12-computer-science-ch05-st2",
+    "ib-g12-computer-science-ch05-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-computer-science-ch06",
+   "subjectId": "ib-g12-computer-science",
+   "order": 6,
+   "name": "A4.2 Data Preprocessing (HL)",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "ib-g12-computer-science-ch06-st1",
+    "ib-g12-computer-science-ch06-st2",
+    "ib-g12-computer-science-ch06-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-computer-science-ch07",
+   "subjectId": "ib-g12-computer-science",
+   "order": 7,
+   "name": "A4.3 Machine Learning Approaches",
+   "teachingPeriods": 19,
+   "subtopicIds": [
+    "ib-g12-computer-science-ch07-st1",
+    "ib-g12-computer-science-ch07-st2",
+    "ib-g12-computer-science-ch07-st3",
+    "ib-g12-computer-science-ch07-st4",
+    "ib-g12-computer-science-ch07-st5"
+   ]
+  },
+  {
+   "id": "ib-g12-computer-science-ch08",
+   "subjectId": "ib-g12-computer-science",
+   "order": 8,
+   "name": "A4.4 Ethical Considerations",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "ib-g12-computer-science-ch08-st1",
+    "ib-g12-computer-science-ch08-st2",
+    "ib-g12-computer-science-ch08-st3"
+   ]
+  },
+  {
+   "id": "ib-g12-computer-science-ch09",
+   "subjectId": "ib-g12-computer-science",
+   "order": 9,
+   "name": "B3.1 Fundamentals of OOP for a Single Class",
+   "teachingPeriods": 19,
+   "subtopicIds": [
+    "ib-g12-computer-science-ch09-st1",
+    "ib-g12-computer-science-ch09-st2",
+    "ib-g12-computer-science-ch09-st3",
+    "ib-g12-computer-science-ch09-st4",
+    "ib-g12-computer-science-ch09-st5"
+   ]
+  },
+  {
+   "id": "ib-g12-computer-science-ch10",
+   "subjectId": "ib-g12-computer-science",
+   "order": 10,
+   "name": "B3.2 Features of OOP for Multiple Classes (HL)",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "ib-g12-computer-science-ch10-st1",
+    "ib-g12-computer-science-ch10-st2",
+    "ib-g12-computer-science-ch10-st3",
+    "ib-g12-computer-science-ch10-st4",
+    "ib-g12-computer-science-ch10-st5"
+   ]
+  },
+  {
+   "id": "ib-g12-computer-science-ch11",
+   "subjectId": "ib-g12-computer-science",
+   "order": 11,
+   "name": "B4.1 Fundamentals of Abstract Data Types (HL)",
+   "teachingPeriods": 19,
+   "subtopicIds": [
+    "ib-g12-computer-science-ch11-st1",
+    "ib-g12-computer-science-ch11-st2",
+    "ib-g12-computer-science-ch11-st3",
+    "ib-g12-computer-science-ch11-st4",
+    "ib-g12-computer-science-ch11-st5"
+   ]
+  },
+  {
+   "id": "ib-g12-computer-science-ch12",
+   "subjectId": "ib-g12-computer-science",
+   "order": 12,
+   "name": "Pre-released Case Study and Internal Assessment",
+   "teachingPeriods": 19,
+   "subtopicIds": [
+    "ib-g12-computer-science-ch12-st1",
+    "ib-g12-computer-science-ch12-st2",
+    "ib-g12-computer-science-ch12-st3",
+    "ib-g12-computer-science-ch12-st4",
+    "ib-g12-computer-science-ch12-st5"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "ib-g12-computer-science-ch01-st1",
+   "chapterId": "ib-g12-computer-science-ch01",
+   "order": 1,
+   "name": "Features of relational databases: tables, records, fields and data types",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch09-st1"
+   ],
+   "prerequisiteNote": "Data types and records (DP1 B2.1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch01-st2",
+   "chapterId": "ib-g12-computer-science-ch01",
+   "order": 2,
+   "name": "Primary, foreign, composite and candidate keys and relationships",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch01-st1"
+   ],
+   "prerequisiteNote": "Relational tables and fields",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch01-st3",
+   "chapterId": "ib-g12-computer-science-ch01",
+   "order": 3,
+   "name": "Database management systems, data integrity and concurrency",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch01-st1"
+   ],
+   "prerequisiteNote": "Relational database features",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch01-st4",
+   "chapterId": "ib-g12-computer-science-ch01",
+   "order": 4,
+   "name": "Comparing relational and non-relational approaches",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch01-st3"
+   ],
+   "prerequisiteNote": "DBMS functions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch02-st1",
+   "chapterId": "ib-g12-computer-science-ch02",
+   "order": 1,
+   "name": "Entity-relationship diagrams and cardinality",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch01-st2"
+   ],
+   "prerequisiteNote": "Keys and relationships",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch02-st2",
+   "chapterId": "ib-g12-computer-science-ch02",
+   "order": 2,
+   "name": "Normalisation to first, second and third normal form",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch01-st2",
+    "ib-g12-computer-science-ch02-st1"
+   ],
+   "prerequisiteNote": "Keys; functional dependency",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch02-st3",
+   "chapterId": "ib-g12-computer-science-ch02",
+   "order": 3,
+   "name": "Choosing data types, constraints and validation rules",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch02-st2"
+   ],
+   "prerequisiteNote": "Normalised table design",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch02-st4",
+   "chapterId": "ib-g12-computer-science-ch02",
+   "order": 4,
+   "name": "Database schemas: conceptual, logical and physical",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch02-st1"
+   ],
+   "prerequisiteNote": "ER diagrams",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch03-st1",
+   "chapterId": "ib-g12-computer-science-ch03",
+   "order": 1,
+   "name": "SQL data definition: CREATE, ALTER and DROP",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch02-st3",
+    "ib-g12-computer-science-ch02-st4"
+   ],
+   "prerequisiteNote": "Database schemas and data types",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch03-st2",
+   "chapterId": "ib-g12-computer-science-ch03",
+   "order": 2,
+   "name": "SQL queries: SELECT, WHERE, ORDER BY, joins and aggregate functions",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch01-st2",
+    "ib-g11-computer-science-ch02-st4"
+   ],
+   "prerequisiteNote": "Primary and foreign keys; Boolean logic (DP1 A1.2)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch03-st3",
+   "chapterId": "ib-g12-computer-science-ch03",
+   "order": 3,
+   "name": "SQL data manipulation: INSERT, UPDATE and DELETE",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch03-st1"
+   ],
+   "prerequisiteNote": "SQL data definition",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch03-st4",
+   "chapterId": "ib-g12-computer-science-ch03",
+   "order": 4,
+   "name": "Views, transactions and ACID properties",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch03-st2",
+    "ib-g12-computer-science-ch01-st3"
+   ],
+   "prerequisiteNote": "SQL queries; concurrency",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch04-st1",
+   "chapterId": "ib-g12-computer-science-ch04",
+   "order": 1,
+   "name": "NoSQL databases: document, key-value, column and graph models",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch01-st4"
+   ],
+   "prerequisiteNote": "Relational versus non-relational",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch04-st2",
+   "chapterId": "ib-g12-computer-science-ch04",
+   "order": 2,
+   "name": "Data warehouses, ETL and OLAP",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch03-st2"
+   ],
+   "prerequisiteNote": "SQL queries and aggregate functions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch04-st3",
+   "chapterId": "ib-g12-computer-science-ch04",
+   "order": 3,
+   "name": "Distributed databases, replication and partitioning",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch03-st4",
+    "ib-g11-computer-science-ch05-st4"
+   ],
+   "prerequisiteNote": "Network architecture (DP1 A2.2); ACID",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch04-st4",
+   "chapterId": "ib-g12-computer-science-ch04",
+   "order": 4,
+   "name": "Spatial and temporal databases and data lakes",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch04-st1"
+   ],
+   "prerequisiteNote": "NoSQL models",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch05-st1",
+   "chapterId": "ib-g12-computer-science-ch05",
+   "order": 1,
+   "name": "Types of machine learning: supervised, unsupervised and reinforcement learning",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch08-st1"
+   ],
+   "prerequisiteNote": "Algorithms and data (DP1 B1.1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch05-st2",
+   "chapterId": "ib-g12-computer-science-ch05",
+   "order": 2,
+   "name": "Applications of machine learning and hardware requirements",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch05-st1",
+    "ib-g11-computer-science-ch01-st2"
+   ],
+   "prerequisiteNote": "Types of machine learning; CPU versus GPU (DP1 A1.1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch05-st3",
+   "chapterId": "ib-g12-computer-science-ch05",
+   "order": 3,
+   "name": "Deep learning and the AI/ML/DL distinction",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch05-st1"
+   ],
+   "prerequisiteNote": "Types of machine learning",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch06-st1",
+   "chapterId": "ib-g12-computer-science-ch06",
+   "order": 1,
+   "name": "Data cleaning: missing values, outliers, duplicates and normalisation",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch05-st1",
+    "ib-g9-maths-ch11-st4"
+   ],
+   "prerequisiteNote": "Data quality; mean and spread (MYP statistics)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch06-st2",
+   "chapterId": "ib-g12-computer-science-ch06",
+   "order": 2,
+   "name": "Feature selection and feature engineering",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch06-st1"
+   ],
+   "prerequisiteNote": "Data cleaning",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch06-st3",
+   "chapterId": "ib-g12-computer-science-ch06",
+   "order": 3,
+   "name": "Dimensionality reduction and the curse of dimensionality",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch06-st2"
+   ],
+   "prerequisiteNote": "Feature selection",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch07-st1",
+   "chapterId": "ib-g12-computer-science-ch07",
+   "order": 1,
+   "name": "Linear regression for prediction",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch05-st1",
+    "ib-g9-maths-ch07-st2"
+   ],
+   "prerequisiteNote": "Straight-line graphs and gradient (MYP maths); supervised learning",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch07-st2",
+   "chapterId": "ib-g12-computer-science-ch07",
+   "order": 2,
+   "name": "Classification: k-nearest neighbours and decision trees",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch05-st1",
+    "ib-g9-maths-ch07-st4"
+   ],
+   "prerequisiteNote": "Supervised learning; distance between points (MYP maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch07-st3",
+   "chapterId": "ib-g12-computer-science-ch07",
+   "order": 3,
+   "name": "Model evaluation: training/testing split, overfitting, accuracy, precision and recall",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch07-st1",
+    "ib-g12-computer-science-ch07-st2"
+   ],
+   "prerequisiteNote": "Regression and classification",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch07-st4",
+   "chapterId": "ib-g12-computer-science-ch07",
+   "order": 4,
+   "name": "Clustering with k-means and association rule learning",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch05-st1"
+   ],
+   "prerequisiteNote": "Unsupervised learning",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch07-st5",
+   "chapterId": "ib-g12-computer-science-ch07",
+   "order": 5,
+   "name": "Neural networks, reinforcement learning and genetic algorithms",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch07-st3"
+   ],
+   "prerequisiteNote": "Supervised learning; model evaluation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch08-st1",
+   "chapterId": "ib-g12-computer-science-ch08",
+   "order": 1,
+   "name": "Bias in training data and algorithmic fairness",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch07-st3"
+   ],
+   "prerequisiteNote": "Model training and evaluation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch08-st2",
+   "chapterId": "ib-g12-computer-science-ch08",
+   "order": 2,
+   "name": "Privacy, consent, transparency and accountability in ML systems",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch08-st1"
+   ],
+   "prerequisiteNote": "Bias and fairness",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch08-st3",
+   "chapterId": "ib-g12-computer-science-ch08",
+   "order": 3,
+   "name": "Environmental and societal impact of AI, including misinformation",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch08-st2"
+   ],
+   "prerequisiteNote": "Ethical considerations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch09-st1",
+   "chapterId": "ib-g12-computer-science-ch09",
+   "order": 1,
+   "name": "Classes, objects, attributes and methods",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch09-st4"
+   ],
+   "prerequisiteNote": "Functions and variables (DP1 B2.1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch09-st2",
+   "chapterId": "ib-g12-computer-science-ch09",
+   "order": 2,
+   "name": "Constructors and instantiating objects",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch09-st1"
+   ],
+   "prerequisiteNote": "Classes and objects",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch09-st3",
+   "chapterId": "ib-g12-computer-science-ch09",
+   "order": 3,
+   "name": "Encapsulation: access modifiers, getters and setters",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch09-st2"
+   ],
+   "prerequisiteNote": "Classes, attributes and methods",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch09-st4",
+   "chapterId": "ib-g12-computer-science-ch09",
+   "order": 4,
+   "name": "Static versus instance variables and methods",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch09-st2"
+   ],
+   "prerequisiteNote": "Classes and objects",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch09-st5",
+   "chapterId": "ib-g12-computer-science-ch09",
+   "order": 5,
+   "name": "UML class diagrams for a single class",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch09-st3"
+   ],
+   "prerequisiteNote": "Classes and encapsulation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch10-st1",
+   "chapterId": "ib-g12-computer-science-ch10",
+   "order": 1,
+   "name": "Inheritance and superclass/subclass relationships",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch09-st2"
+   ],
+   "prerequisiteNote": "Classes and constructors",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch10-st2",
+   "chapterId": "ib-g12-computer-science-ch10",
+   "order": 2,
+   "name": "Polymorphism: method overriding and overloading",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch10-st1"
+   ],
+   "prerequisiteNote": "Inheritance",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch10-st3",
+   "chapterId": "ib-g12-computer-science-ch10",
+   "order": 3,
+   "name": "Abstraction, abstract classes and interfaces",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch10-st2"
+   ],
+   "prerequisiteNote": "Inheritance and polymorphism",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch10-st4",
+   "chapterId": "ib-g12-computer-science-ch10",
+   "order": 4,
+   "name": "Composition and aggregation; UML for multiple classes",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch09-st5",
+    "ib-g12-computer-science-ch10-st1"
+   ],
+   "prerequisiteNote": "UML for a single class",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch10-st5",
+   "chapterId": "ib-g12-computer-science-ch10",
+   "order": 5,
+   "name": "Design patterns: singleton, factory and observer",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch10-st4"
+   ],
+   "prerequisiteNote": "Composition, inheritance and interfaces",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch11-st1",
+   "chapterId": "ib-g12-computer-science-ch11",
+   "order": 1,
+   "name": "Abstract data types and their operations",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch10-st4"
+   ],
+   "prerequisiteNote": "Data structures: arrays, stacks and queues (DP1 B2.2)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch11-st2",
+   "chapterId": "ib-g12-computer-science-ch11",
+   "order": 2,
+   "name": "Linked lists: singly, doubly and circular",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch11-st1",
+    "ib-g12-computer-science-ch09-st2"
+   ],
+   "prerequisiteNote": "ADTs; object references",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch11-st3",
+   "chapterId": "ib-g12-computer-science-ch11",
+   "order": 3,
+   "name": "Binary search trees: insertion, deletion and traversals",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch11-st2",
+    "ib-g11-computer-science-ch11-st4"
+   ],
+   "prerequisiteNote": "Linked nodes; recursion (DP1 B2.4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch11-st4",
+   "chapterId": "ib-g12-computer-science-ch11",
+   "order": 4,
+   "name": "Sets: union, intersection and difference",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch11-st1",
+    "ib-g9-maths-ch12-st1"
+   ],
+   "prerequisiteNote": "ADTs; Venn diagrams (MYP maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch11-st5",
+   "chapterId": "ib-g12-computer-science-ch11",
+   "order": 5,
+   "name": "Hash tables and dictionaries: hashing and collisions",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch11-st1"
+   ],
+   "prerequisiteNote": "ADTs; arrays",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch12-st1",
+   "chapterId": "ib-g12-computer-science-ch12",
+   "order": 1,
+   "name": "Analysing the pre-released case study: scenario, terminology and challenges",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch07-st5"
+   ],
+   "prerequisiteNote": "Theme A concepts across A1-A4",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch12-st2",
+   "chapterId": "ib-g12-computer-science-ch12",
+   "order": 2,
+   "name": "Answering case study challenge questions in Paper 1",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch12-st1"
+   ],
+   "prerequisiteNote": "Analysing the case study",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch12-st3",
+   "chapterId": "ib-g12-computer-science-ch12",
+   "order": 3,
+   "name": "IA computational solution: problem specification and success criteria",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch08-st4"
+   ],
+   "prerequisiteNote": "Computational thinking (DP1 B1.1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch12-st4",
+   "chapterId": "ib-g12-computer-science-ch12",
+   "order": 4,
+   "name": "IA planning, design, development and testing of the product",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch12-st3",
+    "ib-g12-computer-science-ch10-st1"
+   ],
+   "prerequisiteNote": "Programming constructs and OOP",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g12-computer-science-ch12-st5",
+   "chapterId": "ib-g12-computer-science-ch12",
+   "order": 5,
+   "name": "IA evaluation, documentation and video demonstration",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g12-computer-science-ch12-st4"
+   ],
+   "prerequisiteNote": "Testing against success criteria",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

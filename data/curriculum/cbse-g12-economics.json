@@ -1,0 +1,946 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cbse-g12-economics",
+  "board": "cbse",
+  "grade": 12,
+  "stream": "science",
+  "slug": "economics",
+  "name": "Economics",
+  "programme": "CBSE Class 12 Economics (030)",
+  "textbook": "NCERT Introductory Macroeconomics (6) + Indian Economic Development (8) – 030",
+  "examPattern": "CBSE Board exam, 3 h; SQP 2026-27 – 'no change in question paper design'. 50% competency-based, 20% MCQ, 30% SA/LA, ~33% internal choice. Theory 80 + Project 20. 34 questions: 20 MCQ×1, 4×3, 6×4, 4×6 (two halves: Macro 40, IED 40).",
+  "chapterCount": 14,
+  "questionTarget": 1394
+ },
+ "items": [
+  {
+   "id": "cbse-g12-economics-ch01",
+   "subjectId": "cbse-g12-economics",
+   "order": 1,
+   "name": "Introduction (Introductory Macroeconomics)",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "cbse-g12-economics-ch01-st1",
+    "cbse-g12-economics-ch01-st2",
+    "cbse-g12-economics-ch01-st3"
+   ]
+  },
+  {
+   "id": "cbse-g12-economics-ch02",
+   "subjectId": "cbse-g12-economics",
+   "order": 2,
+   "name": "National Income Accounting",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g12-economics-ch02-st1",
+    "cbse-g12-economics-ch02-st2",
+    "cbse-g12-economics-ch02-st3",
+    "cbse-g12-economics-ch02-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-economics-ch03",
+   "subjectId": "cbse-g12-economics",
+   "order": 3,
+   "name": "Money and Banking",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "cbse-g12-economics-ch03-st1",
+    "cbse-g12-economics-ch03-st2",
+    "cbse-g12-economics-ch03-st3",
+    "cbse-g12-economics-ch03-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-economics-ch04",
+   "subjectId": "cbse-g12-economics",
+   "order": 4,
+   "name": "Determination of Income and Employment",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g12-economics-ch04-st1",
+    "cbse-g12-economics-ch04-st2",
+    "cbse-g12-economics-ch04-st3",
+    "cbse-g12-economics-ch04-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-economics-ch05",
+   "subjectId": "cbse-g12-economics",
+   "order": 5,
+   "name": "Government Budget and the Economy",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g12-economics-ch05-st1",
+    "cbse-g12-economics-ch05-st2",
+    "cbse-g12-economics-ch05-st3",
+    "cbse-g12-economics-ch05-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-economics-ch06",
+   "subjectId": "cbse-g12-economics",
+   "order": 6,
+   "name": "Open Economy Macroeconomics",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g12-economics-ch06-st1",
+    "cbse-g12-economics-ch06-st2",
+    "cbse-g12-economics-ch06-st3",
+    "cbse-g12-economics-ch06-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-economics-ch07",
+   "subjectId": "cbse-g12-economics",
+   "order": 7,
+   "name": "Indian Economy on the Eve of Independence",
+   "teachingPeriods": 15,
+   "subtopicIds": [
+    "cbse-g12-economics-ch07-st1",
+    "cbse-g12-economics-ch07-st2",
+    "cbse-g12-economics-ch07-st3",
+    "cbse-g12-economics-ch07-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-economics-ch08",
+   "subjectId": "cbse-g12-economics",
+   "order": 8,
+   "name": "Indian Economy 1950–1990",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g12-economics-ch08-st1",
+    "cbse-g12-economics-ch08-st2",
+    "cbse-g12-economics-ch08-st3",
+    "cbse-g12-economics-ch08-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-economics-ch09",
+   "subjectId": "cbse-g12-economics",
+   "order": 9,
+   "name": "Liberalisation, Privatisation and Globalisation: An Appraisal",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g12-economics-ch09-st1",
+    "cbse-g12-economics-ch09-st2",
+    "cbse-g12-economics-ch09-st3",
+    "cbse-g12-economics-ch09-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-economics-ch10",
+   "subjectId": "cbse-g12-economics",
+   "order": 10,
+   "name": "Human Capital Formation in India",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cbse-g12-economics-ch10-st1",
+    "cbse-g12-economics-ch10-st2",
+    "cbse-g12-economics-ch10-st3"
+   ]
+  },
+  {
+   "id": "cbse-g12-economics-ch11",
+   "subjectId": "cbse-g12-economics",
+   "order": 11,
+   "name": "Rural Development",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "cbse-g12-economics-ch11-st1",
+    "cbse-g12-economics-ch11-st2",
+    "cbse-g12-economics-ch11-st3",
+    "cbse-g12-economics-ch11-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-economics-ch12",
+   "subjectId": "cbse-g12-economics",
+   "order": 12,
+   "name": "Employment: Growth, Informalisation and Other Issues",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g12-economics-ch12-st1",
+    "cbse-g12-economics-ch12-st2",
+    "cbse-g12-economics-ch12-st3",
+    "cbse-g12-economics-ch12-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-economics-ch13",
+   "subjectId": "cbse-g12-economics",
+   "order": 13,
+   "name": "Environment and Sustainable Development",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cbse-g12-economics-ch13-st1",
+    "cbse-g12-economics-ch13-st2",
+    "cbse-g12-economics-ch13-st3"
+   ]
+  },
+  {
+   "id": "cbse-g12-economics-ch14",
+   "subjectId": "cbse-g12-economics",
+   "order": 14,
+   "name": "Comparative Development Experiences of India and its Neighbours",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "cbse-g12-economics-ch14-st1",
+    "cbse-g12-economics-ch14-st2",
+    "cbse-g12-economics-ch14-st3"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cbse-g12-economics-ch01-st1",
+   "chapterId": "cbse-g12-economics-ch01",
+   "order": 1,
+   "name": "Emergence of macroeconomics: the Great Depression and Keynes",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch09-st4"
+   ],
+   "prerequisiteNote": "Micro vs macroeconomics (Cl 11); Great Depression (s10:3.3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch01-st2",
+   "chapterId": "cbse-g12-economics-ch01",
+   "order": 2,
+   "name": "Context of the present book: capitalist economy and its features",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch01-st1",
+    "cbse-g11-economics-ch09-st3"
+   ],
+   "prerequisiteNote": "Emergence of macroeconomics; market economy (Cl 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch01-st3",
+   "chapterId": "cbse-g12-economics-ch01",
+   "order": 3,
+   "name": "Basic concepts: sectors of a macroeconomy (households, firms, government, external sector)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch01-st2"
+   ],
+   "prerequisiteNote": "Capitalist economy; sectors of the economy (s10:19.1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch02-st1",
+   "chapterId": "cbse-g12-economics-ch02",
+   "order": 1,
+   "name": "Basic concepts: final and intermediate goods, consumption and capital goods, stocks and flows, depreciation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch01-st3"
+   ],
+   "prerequisiteNote": "Sectors of a macroeconomy; final goods (s10:19.2)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch02-st2",
+   "chapterId": "cbse-g12-economics-ch02",
+   "order": 2,
+   "name": "Circular flow of income and methods of calculating national income",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch02-st1"
+   ],
+   "prerequisiteNote": "Final goods; flows between households and firms",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch02-st3",
+   "chapterId": "cbse-g12-economics-ch02",
+   "order": 3,
+   "name": "Product (value added), expenditure and income methods; GDP, GNP, NDP, NNP at market price and factor cost",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch02-st2"
+   ],
+   "prerequisiteNote": "Circular flow; value added; arithmetic of aggregates",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch02-st4",
+   "chapterId": "cbse-g12-economics-ch02",
+   "order": 4,
+   "name": "Nominal and real GDP, GDP deflator; GDP and welfare",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch02-st3",
+    "cbse-g11-economics-ch07-st4"
+   ],
+   "prerequisiteNote": "National income aggregates; index numbers and inflation (Cl 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch03-st1",
+   "chapterId": "cbse-g12-economics-ch03",
+   "order": 1,
+   "name": "Functions of money; demand for money and supply of money (M1, M3)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch09-st1",
+    "cbse-g10-social-science-ch20-st1"
+   ],
+   "prerequisiteNote": "Money as medium of exchange (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch03-st2",
+   "chapterId": "cbse-g12-economics-ch03",
+   "order": 2,
+   "name": "Credit creation by commercial banks and the money multiplier",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch03-st1"
+   ],
+   "prerequisiteNote": "Supply of money; banks and loans (s10:20.2)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch03-st3",
+   "chapterId": "cbse-g12-economics-ch03",
+   "order": 3,
+   "name": "Central bank (RBI) and instruments of monetary policy: CRR, SLR, repo rate, OMO",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch03-st2"
+   ],
+   "prerequisiteNote": "Credit creation; role of banks",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch03-st4",
+   "chapterId": "cbse-g12-economics-ch03",
+   "order": 4,
+   "name": "Demonetisation and other policy episodes",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch03-st3"
+   ],
+   "prerequisiteNote": "Monetary policy instruments",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch04-st1",
+   "chapterId": "cbse-g12-economics-ch04",
+   "order": 1,
+   "name": "Aggregate demand and its components; consumption function, MPC, MPS, APC, APS",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch02-st2"
+   ],
+   "prerequisiteNote": "National income; e11 marginal concepts (consumer behaviour)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch04-st2",
+   "chapterId": "cbse-g12-economics-ch04",
+   "order": 2,
+   "name": "Ex ante and ex post; determination of equilibrium income in the short run",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch04-st1"
+   ],
+   "prerequisiteNote": "Aggregate demand components; equilibrium (e11:13.1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch04-st3",
+   "chapterId": "cbse-g12-economics-ch04",
+   "order": 3,
+   "name": "The investment multiplier and its mechanism",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch04-st2"
+   ],
+   "prerequisiteNote": "Equilibrium income; MPC",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch04-st4",
+   "chapterId": "cbse-g12-economics-ch04",
+   "order": 4,
+   "name": "Excess demand and deficient demand: inflationary and deflationary gaps and measures to correct them",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch04-st2",
+    "cbse-g12-economics-ch03-st3"
+   ],
+   "prerequisiteNote": "Equilibrium income; monetary policy instruments",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch05-st1",
+   "chapterId": "cbse-g12-economics-ch05",
+   "order": 1,
+   "name": "Government budget: meaning, objectives and components",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch04-st4"
+   ],
+   "prerequisiteNote": "Excess and deficient demand; role of government",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch05-st2",
+   "chapterId": "cbse-g12-economics-ch05",
+   "order": 2,
+   "name": "Classification of receipts and expenditure: revenue and capital",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch05-st1"
+   ],
+   "prerequisiteNote": "Components of the budget",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch05-st3",
+   "chapterId": "cbse-g12-economics-ch05",
+   "order": 3,
+   "name": "Measures of government deficit: revenue, fiscal and primary deficit",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch05-st2"
+   ],
+   "prerequisiteNote": "Revenue and capital receipts and expenditure",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch05-st4",
+   "chapterId": "cbse-g12-economics-ch05",
+   "order": 4,
+   "name": "Fiscal policy and the public debt",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch05-st3",
+    "cbse-g12-economics-ch04-st3"
+   ],
+   "prerequisiteNote": "Government deficit; multiplier",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch06-st1",
+   "chapterId": "cbse-g12-economics-ch06",
+   "order": 1,
+   "name": "Balance of payments: current account and capital account",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch02-st2",
+    "cbse-g10-social-science-ch21-st2"
+   ],
+   "prerequisiteNote": "National income; foreign trade and investment (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch06-st2",
+   "chapterId": "cbse-g12-economics-ch06",
+   "order": 2,
+   "name": "Surplus and deficit in BoP; autonomous and accommodating transactions",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch06-st1"
+   ],
+   "prerequisiteNote": "Current and capital account",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch06-st3",
+   "chapterId": "cbse-g12-economics-ch06",
+   "order": 3,
+   "name": "Foreign exchange rate: flexible, fixed and managed floating systems",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch06-st1",
+    "cbse-g11-economics-ch13-st2"
+   ],
+   "prerequisiteNote": "BoP; demand-supply equilibrium (Cl 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch06-st4",
+   "chapterId": "cbse-g12-economics-ch06",
+   "order": 4,
+   "name": "Determination of exchange rate by demand and supply of foreign exchange",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch06-st3"
+   ],
+   "prerequisiteNote": "Exchange rate systems; market equilibrium (Cl 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch07-st1",
+   "chapterId": "cbse-g12-economics-ch07",
+   "order": 1,
+   "name": "Low level of economic development under colonial rule",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-social-science-ch04-st3"
+   ],
+   "prerequisiteNote": "Economic impact of colonial rule (Cl 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch07-st2",
+   "chapterId": "cbse-g12-economics-ch07",
+   "order": 2,
+   "name": "Agricultural sector: stagnation and land revenue systems (zamindari)",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch07-st1"
+   ],
+   "prerequisiteNote": "Colonial economic policies",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch07-st3",
+   "chapterId": "cbse-g12-economics-ch07",
+   "order": 3,
+   "name": "Industrial sector, foreign trade and drain of wealth",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch07-st1",
+    "cbse-g10-social-science-ch04-st3"
+   ],
+   "prerequisiteNote": "Colonial rule; industrialisation in the colonies (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch07-st4",
+   "chapterId": "cbse-g12-economics-ch07",
+   "order": 4,
+   "name": "Demographic condition, occupational structure and infrastructure",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch07-st1",
+    "cbse-g8-social-science-ch13-st2"
+   ],
+   "prerequisiteNote": "Population growth indicators (Cl 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch08-st1",
+   "chapterId": "cbse-g12-economics-ch08",
+   "order": 1,
+   "name": "Five Year Plans and the goals of planning: growth, modernisation, self-reliance, equity",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch07-st1"
+   ],
+   "prerequisiteNote": "Economy at independence; mixed economy (e11:9.3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch08-st2",
+   "chapterId": "cbse-g12-economics-ch08",
+   "order": 2,
+   "name": "Agriculture: land reforms and the Green Revolution",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch08-st1",
+    "cbse-g12-economics-ch07-st2"
+   ],
+   "prerequisiteNote": "Goals of planning; zamindari system",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch08-st3",
+   "chapterId": "cbse-g12-economics-ch08",
+   "order": 3,
+   "name": "Industry and trade: role of the public sector, industrial policy 1956, import substitution",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch08-st1",
+    "cbse-g12-economics-ch07-st3"
+   ],
+   "prerequisiteNote": "Goals of planning; colonial industrial base",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch08-st4",
+   "chapterId": "cbse-g12-economics-ch08",
+   "order": 4,
+   "name": "Assessment of the 1950-90 period",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch08-st2",
+    "cbse-g12-economics-ch08-st3"
+   ],
+   "prerequisiteNote": "Agriculture and industrial policies",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch09-st1",
+   "chapterId": "cbse-g12-economics-ch09",
+   "order": 1,
+   "name": "Background of the 1991 crisis and the New Economic Policy",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch08-st4",
+    "cbse-g12-economics-ch06-st2"
+   ],
+   "prerequisiteNote": "Assessment of 1950-90; BoP deficit",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch09-st2",
+   "chapterId": "cbse-g12-economics-ch09",
+   "order": 2,
+   "name": "Liberalisation: industrial, financial, tax and foreign exchange reforms",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch09-st1",
+    "cbse-g12-economics-ch03-st3"
+   ],
+   "prerequisiteNote": "1991 crisis; monetary policy",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch09-st3",
+   "chapterId": "cbse-g12-economics-ch09",
+   "order": 3,
+   "name": "Privatisation and disinvestment; globalisation, outsourcing and WTO",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch09-st1",
+    "cbse-g10-social-science-ch21-st3"
+   ],
+   "prerequisiteNote": "1991 reforms; factors enabling globalisation (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch09-st4",
+   "chapterId": "cbse-g12-economics-ch09",
+   "order": 4,
+   "name": "Indian economy during reforms: an assessment of growth, agriculture, industry and demonetisation/GST",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch09-st2",
+    "cbse-g12-economics-ch09-st3"
+   ],
+   "prerequisiteNote": "Liberalisation and privatisation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch10-st1",
+   "chapterId": "cbse-g12-economics-ch10",
+   "order": 1,
+   "name": "Meaning of human capital and its sources: education, health, on-the-job training, migration, information",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g8-social-science-ch07-st3"
+   ],
+   "prerequisiteNote": "Human capital (Cl 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch10-st2",
+   "chapterId": "cbse-g12-economics-ch10",
+   "order": 2,
+   "name": "Human capital vs human development; human capital and economic growth",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch10-st1"
+   ],
+   "prerequisiteNote": "Sources of human capital",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch10-st3",
+   "chapterId": "cbse-g12-economics-ch10",
+   "order": 3,
+   "name": "State of human capital formation in India: education sector, government expenditure and challenges",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch10-st2"
+   ],
+   "prerequisiteNote": "Human capital and growth",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch11-st1",
+   "chapterId": "cbse-g12-economics-ch11",
+   "order": 1,
+   "name": "Meaning of rural development; rural credit and its institutions (NABARD, SHGs, microcredit)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch08-st2",
+    "cbse-g10-social-science-ch20-st4"
+   ],
+   "prerequisiteNote": "Green Revolution; Self-Help Groups (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch11-st2",
+   "chapterId": "cbse-g12-economics-ch11",
+   "order": 2,
+   "name": "Agricultural market system and emerging alternative marketing channels",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch11-st1"
+   ],
+   "prerequisiteNote": "Rural credit; market price (s9:9.3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch11-st3",
+   "chapterId": "cbse-g12-economics-ch11",
+   "order": 3,
+   "name": "Diversification into productive activities: animal husbandry, fisheries, horticulture",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch11-st1"
+   ],
+   "prerequisiteNote": "Rural development meaning",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch11-st4",
+   "chapterId": "cbse-g12-economics-ch11",
+   "order": 4,
+   "name": "Sustainable development and organic farming",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch11-st3"
+   ],
+   "prerequisiteNote": "Diversification of rural activities",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch12-st1",
+   "chapterId": "cbse-g12-economics-ch12",
+   "order": 1,
+   "name": "Workers and employment: participation of people in employment",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch10-st3"
+   ],
+   "prerequisiteNote": "Human capital in India",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch12-st2",
+   "chapterId": "cbse-g12-economics-ch12",
+   "order": 2,
+   "name": "Self-employed and hired workers; employment in firms, factories and offices",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch12-st1"
+   ],
+   "prerequisiteNote": "Worker participation rate",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch12-st3",
+   "chapterId": "cbse-g12-economics-ch12",
+   "order": 3,
+   "name": "Growth and changing structure of employment; informalisation of the workforce",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch12-st2",
+    "cbse-g10-social-science-ch19-st3"
+   ],
+   "prerequisiteNote": "Types of workers; organised and unorganised sectors (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch12-st4",
+   "chapterId": "cbse-g12-economics-ch12",
+   "order": 4,
+   "name": "Unemployment: types, causes and government policies",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch12-st3"
+   ],
+   "prerequisiteNote": "Changing structure of employment",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch13-st1",
+   "chapterId": "cbse-g12-economics-ch13",
+   "order": 1,
+   "name": "Environment: definition and functions; carrying and absorptive capacity",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Natural resources and conservation (s8:1.4); ecosystems (s9:11.1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch13-st2",
+   "chapterId": "cbse-g12-economics-ch13",
+   "order": 2,
+   "name": "State of India's environment: land degradation, air pollution, deforestation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch13-st1"
+   ],
+   "prerequisiteNote": "Functions of the environment",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch13-st3",
+   "chapterId": "cbse-g12-economics-ch13",
+   "order": 3,
+   "name": "Sustainable development and strategies for it",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch13-st2"
+   ],
+   "prerequisiteNote": "Environmental problems; resource planning (s10:6.1)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch14-st1",
+   "chapterId": "cbse-g12-economics-ch14",
+   "order": 1,
+   "name": "Developmental path of India, Pakistan and China",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch08-st4",
+    "cbse-g12-economics-ch09-st4"
+   ],
+   "prerequisiteNote": "Planning and reforms in India",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch14-st2",
+   "chapterId": "cbse-g12-economics-ch14",
+   "order": 2,
+   "name": "Comparison of demographic, GDP and sectoral indicators",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch14-st1",
+    "cbse-g12-economics-ch02-st4"
+   ],
+   "prerequisiteNote": "Developmental paths; real GDP and growth rates",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-economics-ch14-st3",
+   "chapterId": "cbse-g12-economics-ch14",
+   "order": 3,
+   "name": "Comparison of human development indicators and development strategies: an appraisal",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-economics-ch14-st2",
+    "cbse-g12-economics-ch10-st2"
+   ],
+   "prerequisiteNote": "Demographic indicators; human development",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

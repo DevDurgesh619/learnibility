@@ -1,0 +1,905 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cbse-g11-economics",
+  "board": "cbse",
+  "grade": 11,
+  "stream": "science",
+  "slug": "economics",
+  "name": "Economics",
+  "programme": "CBSE Class 11 Economics (030)",
+  "textbook": "NCERT Statistics for Economics (8) + Introductory Microeconomics (5) – 030",
+  "examPattern": "School-conducted annual exam (no CBSE SQP for Class XI); 3 h; same marks split and question design as Class XII; 50% competency-based, 20% MCQ, 30% short/long answer (Circular 30/2024). Theory 80 + Project 20. Assumed 34 questions (XII template: 20×1, 4×3, 6×4, 4×6).",
+  "chapterCount": 13,
+  "questionTarget": 1207
+ },
+ "items": [
+  {
+   "id": "cbse-g11-economics-ch01",
+   "subjectId": "cbse-g11-economics",
+   "order": 1,
+   "name": "Introduction (Statistics for Economics)",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "cbse-g11-economics-ch01-st1",
+    "cbse-g11-economics-ch01-st2",
+    "cbse-g11-economics-ch01-st3"
+   ]
+  },
+  {
+   "id": "cbse-g11-economics-ch02",
+   "subjectId": "cbse-g11-economics",
+   "order": 2,
+   "name": "Collection of Data",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g11-economics-ch02-st1",
+    "cbse-g11-economics-ch02-st2",
+    "cbse-g11-economics-ch02-st3",
+    "cbse-g11-economics-ch02-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-economics-ch03",
+   "subjectId": "cbse-g11-economics",
+   "order": 3,
+   "name": "Organisation of Data",
+   "teachingPeriods": 15,
+   "subtopicIds": [
+    "cbse-g11-economics-ch03-st1",
+    "cbse-g11-economics-ch03-st2",
+    "cbse-g11-economics-ch03-st3",
+    "cbse-g11-economics-ch03-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-economics-ch04",
+   "subjectId": "cbse-g11-economics",
+   "order": 4,
+   "name": "Presentation of Data",
+   "teachingPeriods": 15,
+   "subtopicIds": [
+    "cbse-g11-economics-ch04-st1",
+    "cbse-g11-economics-ch04-st2",
+    "cbse-g11-economics-ch04-st3",
+    "cbse-g11-economics-ch04-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-economics-ch05",
+   "subjectId": "cbse-g11-economics",
+   "order": 5,
+   "name": "Measures of Central Tendency",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g11-economics-ch05-st1",
+    "cbse-g11-economics-ch05-st2",
+    "cbse-g11-economics-ch05-st3",
+    "cbse-g11-economics-ch05-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-economics-ch06",
+   "subjectId": "cbse-g11-economics",
+   "order": 6,
+   "name": "Correlation",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cbse-g11-economics-ch06-st1",
+    "cbse-g11-economics-ch06-st2",
+    "cbse-g11-economics-ch06-st3"
+   ]
+  },
+  {
+   "id": "cbse-g11-economics-ch07",
+   "subjectId": "cbse-g11-economics",
+   "order": 7,
+   "name": "Index Numbers",
+   "teachingPeriods": 15,
+   "subtopicIds": [
+    "cbse-g11-economics-ch07-st1",
+    "cbse-g11-economics-ch07-st2",
+    "cbse-g11-economics-ch07-st3",
+    "cbse-g11-economics-ch07-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-economics-ch08",
+   "subjectId": "cbse-g11-economics",
+   "order": 8,
+   "name": "Use of Statistical Tools",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "cbse-g11-economics-ch08-st1",
+    "cbse-g11-economics-ch08-st2",
+    "cbse-g11-economics-ch08-st3"
+   ]
+  },
+  {
+   "id": "cbse-g11-economics-ch09",
+   "subjectId": "cbse-g11-economics",
+   "order": 9,
+   "name": "Introduction (Introductory Microeconomics)",
+   "teachingPeriods": 15,
+   "subtopicIds": [
+    "cbse-g11-economics-ch09-st1",
+    "cbse-g11-economics-ch09-st2",
+    "cbse-g11-economics-ch09-st3",
+    "cbse-g11-economics-ch09-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-economics-ch10",
+   "subjectId": "cbse-g11-economics",
+   "order": 10,
+   "name": "Theory of Consumer Behaviour",
+   "teachingPeriods": 23,
+   "subtopicIds": [
+    "cbse-g11-economics-ch10-st1",
+    "cbse-g11-economics-ch10-st2",
+    "cbse-g11-economics-ch10-st3",
+    "cbse-g11-economics-ch10-st4",
+    "cbse-g11-economics-ch10-st5"
+   ]
+  },
+  {
+   "id": "cbse-g11-economics-ch11",
+   "subjectId": "cbse-g11-economics",
+   "order": 11,
+   "name": "Production and Costs",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g11-economics-ch11-st1",
+    "cbse-g11-economics-ch11-st2",
+    "cbse-g11-economics-ch11-st3",
+    "cbse-g11-economics-ch11-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-economics-ch12",
+   "subjectId": "cbse-g11-economics",
+   "order": 12,
+   "name": "The Theory of the Firm under Perfect Competition",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g11-economics-ch12-st1",
+    "cbse-g11-economics-ch12-st2",
+    "cbse-g11-economics-ch12-st3",
+    "cbse-g11-economics-ch12-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-economics-ch13",
+   "subjectId": "cbse-g11-economics",
+   "order": 13,
+   "name": "Market Equilibrium",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g11-economics-ch13-st1",
+    "cbse-g11-economics-ch13-st2",
+    "cbse-g11-economics-ch13-st3",
+    "cbse-g11-economics-ch13-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cbse-g11-economics-ch01-st1",
+   "chapterId": "cbse-g11-economics-ch01",
+   "order": 1,
+   "name": "What economics is: consumption, production, distribution and scarcity",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g9-social-science-ch08-st1"
+   ],
+   "prerequisiteNote": "Scarcity and choice (Cl 9 Social Science)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch01-st2",
+   "chapterId": "cbse-g11-economics-ch01",
+   "order": 2,
+   "name": "Meaning, scope and importance of statistics in economics",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch01-st1"
+   ],
+   "prerequisiteNote": "What economics studies; collecting numbers for decisions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch01-st3",
+   "chapterId": "cbse-g11-economics-ch01",
+   "order": 3,
+   "name": "Quantitative and qualitative data; limitations of statistics",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch01-st2"
+   ],
+   "prerequisiteNote": "Meaning of statistics",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch02-st1",
+   "chapterId": "cbse-g11-economics-ch02",
+   "order": 1,
+   "name": "Sources of data: primary and secondary",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch01-st3"
+   ],
+   "prerequisiteNote": "Types of data; sources and evidence (s9:1.2)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch02-st2",
+   "chapterId": "cbse-g11-economics-ch02",
+   "order": 2,
+   "name": "Methods of collecting primary data: interviews, mailed and telephone questionnaires; preparing a questionnaire",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch02-st1"
+   ],
+   "prerequisiteNote": "Primary data; framing clear questions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch02-st3",
+   "chapterId": "cbse-g11-economics-ch02",
+   "order": 3,
+   "name": "Census and sample surveys; random and non-random sampling",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch02-st2"
+   ],
+   "prerequisiteNote": "Methods of data collection; idea of a population",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch02-st4",
+   "chapterId": "cbse-g11-economics-ch02",
+   "order": 4,
+   "name": "Sampling and non-sampling errors; Census of India and NSSO as data sources",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch02-st3"
+   ],
+   "prerequisiteNote": "Census and sampling methods",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch03-st1",
+   "chapterId": "cbse-g11-economics-ch03",
+   "order": 1,
+   "name": "Classification of data: chronological, spatial, qualitative and quantitative",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch02-st1"
+   ],
+   "prerequisiteNote": "Sources of data",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch03-st2",
+   "chapterId": "cbse-g11-economics-ch03",
+   "order": 2,
+   "name": "Variables: continuous and discrete",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch03-st1"
+   ],
+   "prerequisiteNote": "Classification of data",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch03-st3",
+   "chapterId": "cbse-g11-economics-ch03",
+   "order": 3,
+   "name": "Frequency distribution: class intervals, class limits, tally marks, exclusive and inclusive methods",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch03-st2"
+   ],
+   "prerequisiteNote": "Variables; tally marks and grouping data (Cl 8-9 maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch03-st4",
+   "chapterId": "cbse-g11-economics-ch03",
+   "order": 4,
+   "name": "Bivariate frequency distribution",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch03-st3"
+   ],
+   "prerequisiteNote": "Univariate frequency distribution",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch04-st1",
+   "chapterId": "cbse-g11-economics-ch04",
+   "order": 1,
+   "name": "Textual and tabular presentation: parts of a table and kinds of tables",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch03-st1"
+   ],
+   "prerequisiteNote": "Classification of data",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch04-st2",
+   "chapterId": "cbse-g11-economics-ch04",
+   "order": 2,
+   "name": "Diagrammatic presentation: bar diagrams and pie charts",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch04-st1"
+   ],
+   "prerequisiteNote": "Tabular presentation; angles and percentages (maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch04-st3",
+   "chapterId": "cbse-g11-economics-ch04",
+   "order": 3,
+   "name": "Frequency diagrams: histogram, frequency polygon and ogives",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch03-st3",
+    "cbse-g11-economics-ch04-st2"
+   ],
+   "prerequisiteNote": "Frequency distribution; plotting points on graph (Cl 9 maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch04-st4",
+   "chapterId": "cbse-g11-economics-ch04",
+   "order": 4,
+   "name": "Arithmetic line graphs (time series)",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch04-st2"
+   ],
+   "prerequisiteNote": "Diagrams; graph of a variable over time",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch05-st1",
+   "chapterId": "cbse-g11-economics-ch05",
+   "order": 1,
+   "name": "Arithmetic mean: direct, assumed mean and step-deviation methods for all series",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch03-st3"
+   ],
+   "prerequisiteNote": "Frequency distribution; mean of grouped data (Cl 10 maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch05-st2",
+   "chapterId": "cbse-g11-economics-ch05",
+   "order": 2,
+   "name": "Median, quartiles and percentiles",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch03-st3",
+    "cbse-g11-economics-ch05-st1"
+   ],
+   "prerequisiteNote": "Frequency distribution; cumulative frequency",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch05-st3",
+   "chapterId": "cbse-g11-economics-ch05",
+   "order": 3,
+   "name": "Mode for discrete and continuous series",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch05-st1"
+   ],
+   "prerequisiteNote": "Arithmetic mean; modal class (Cl 10 maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch05-st4",
+   "chapterId": "cbse-g11-economics-ch05",
+   "order": 4,
+   "name": "Relative position of mean, median and mode; choosing a suitable average",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch05-st2",
+    "cbse-g11-economics-ch05-st3"
+   ],
+   "prerequisiteNote": "Mean, median and mode",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch06-st1",
+   "chapterId": "cbse-g11-economics-ch06",
+   "order": 1,
+   "name": "Meaning and types of correlation; scatter diagram",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch04-st3"
+   ],
+   "prerequisiteNote": "Plotting points; graphs of data",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch06-st2",
+   "chapterId": "cbse-g11-economics-ch06",
+   "order": 2,
+   "name": "Karl Pearson's coefficient of correlation",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch06-st1",
+    "cbse-g11-economics-ch05-st1"
+   ],
+   "prerequisiteNote": "Scatter diagram; arithmetic mean and deviations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch06-st3",
+   "chapterId": "cbse-g11-economics-ch06",
+   "order": 3,
+   "name": "Spearman's rank correlation coefficient",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch06-st2"
+   ],
+   "prerequisiteNote": "Karl Pearson's coefficient; ranking data",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch07-st1",
+   "chapterId": "cbse-g11-economics-ch07",
+   "order": 1,
+   "name": "Meaning of index numbers and construction issues: base year, weights, choice of items",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch05-st1"
+   ],
+   "prerequisiteNote": "Arithmetic mean; percentages",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch07-st2",
+   "chapterId": "cbse-g11-economics-ch07",
+   "order": 2,
+   "name": "Simple aggregative and weighted index numbers: Laspeyres and Paasche methods",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch07-st1"
+   ],
+   "prerequisiteNote": "Meaning of index numbers; weighted mean",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch07-st3",
+   "chapterId": "cbse-g11-economics-ch07",
+   "order": 3,
+   "name": "Important indices: CPI, WPI, Index of Industrial Production, Sensex",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch07-st2"
+   ],
+   "prerequisiteNote": "Weighted index numbers",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch07-st4",
+   "chapterId": "cbse-g11-economics-ch07",
+   "order": 4,
+   "name": "Uses of index numbers: inflation and real wages",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch07-st3",
+    "cbse-g9-social-science-ch09-st4"
+   ],
+   "prerequisiteNote": "Important indices; rising prices (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch08-st1",
+   "chapterId": "cbse-g11-economics-ch08",
+   "order": 1,
+   "name": "Planning a statistical project: identifying a problem and the target group",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch02-st3"
+   ],
+   "prerequisiteNote": "Census and sample surveys",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch08-st2",
+   "chapterId": "cbse-g11-economics-ch08",
+   "order": 2,
+   "name": "Collecting, organising and presenting data for a project",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch08-st1",
+    "cbse-g11-economics-ch04-st3"
+   ],
+   "prerequisiteNote": "Project planning; frequency diagrams",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch08-st3",
+   "chapterId": "cbse-g11-economics-ch08",
+   "order": 3,
+   "name": "Analysing and interpreting results; writing the project report",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch08-st2",
+    "cbse-g11-economics-ch05-st4",
+    "cbse-g11-economics-ch06-st2"
+   ],
+   "prerequisiteNote": "Presentation of data; averages and correlation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch09-st1",
+   "chapterId": "cbse-g11-economics-ch09",
+   "order": 1,
+   "name": "A simple economy and the central problems of an economy",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g9-social-science-ch08-st3"
+   ],
+   "prerequisiteNote": "Central problems of an economy (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch09-st2",
+   "chapterId": "cbse-g11-economics-ch09",
+   "order": 2,
+   "name": "Production possibility frontier and opportunity cost",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch09-st1",
+    "cbse-g9-social-science-ch08-st2"
+   ],
+   "prerequisiteNote": "Central problems; opportunity cost (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch09-st3",
+   "chapterId": "cbse-g11-economics-ch09",
+   "order": 3,
+   "name": "Organisation of economic activities: centrally planned and market economies",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch09-st1",
+    "cbse-g9-social-science-ch08-st4"
+   ],
+   "prerequisiteNote": "Central problems; economic systems (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch09-st4",
+   "chapterId": "cbse-g11-economics-ch09",
+   "order": 4,
+   "name": "Positive and normative economics; microeconomics and macroeconomics",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch09-st3"
+   ],
+   "prerequisiteNote": "Economic systems",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch10-st1",
+   "chapterId": "cbse-g11-economics-ch10",
+   "order": 1,
+   "name": "Utility: total and marginal utility; law of diminishing marginal utility",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch09-st2"
+   ],
+   "prerequisiteNote": "Opportunity cost; marginal change concept",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch10-st2",
+   "chapterId": "cbse-g11-economics-ch10",
+   "order": 2,
+   "name": "Consumer's budget: budget set, budget line and changes in it",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch09-st2"
+   ],
+   "prerequisiteNote": "PPF and trade-offs; straight-line graphs (Cl 9-10 maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch10-st3",
+   "chapterId": "cbse-g11-economics-ch10",
+   "order": 3,
+   "name": "Preferences: indifference curves and the consumer's optimum",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch10-st1",
+    "cbse-g11-economics-ch10-st2"
+   ],
+   "prerequisiteNote": "Utility; budget line",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch10-st4",
+   "chapterId": "cbse-g11-economics-ch10",
+   "order": 4,
+   "name": "Demand: demand curve, law of demand, determinants and price elasticity of demand",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch10-st3",
+    "cbse-g9-social-science-ch09-st1"
+   ],
+   "prerequisiteNote": "Consumer's optimum; demand (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch10-st5",
+   "chapterId": "cbse-g11-economics-ch10",
+   "order": 5,
+   "name": "Normal and inferior goods; substitutes and complements; market demand",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch10-st4"
+   ],
+   "prerequisiteNote": "Demand and its determinants",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch11-st1",
+   "chapterId": "cbse-g11-economics-ch11",
+   "order": 1,
+   "name": "Production function: short run and long run",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch09-st2",
+    "cbse-g8-social-science-ch07-st2"
+   ],
+   "prerequisiteNote": "PPF; factors of production (Cl 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch11-st2",
+   "chapterId": "cbse-g11-economics-ch11",
+   "order": 2,
+   "name": "Total, average and marginal product; law of variable proportions",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch11-st1"
+   ],
+   "prerequisiteNote": "Production function; averages and rates of change",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch11-st3",
+   "chapterId": "cbse-g11-economics-ch11",
+   "order": 3,
+   "name": "Returns to scale",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch11-st1"
+   ],
+   "prerequisiteNote": "Production function in the long run",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch11-st4",
+   "chapterId": "cbse-g11-economics-ch11",
+   "order": 4,
+   "name": "Short-run and long-run costs: TFC, TVC, AC, AVC, MC and their shapes",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch11-st2"
+   ],
+   "prerequisiteNote": "Product curves and law of variable proportions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch12-st1",
+   "chapterId": "cbse-g11-economics-ch12",
+   "order": 1,
+   "name": "Features of perfect competition; total, average and marginal revenue",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch11-st4"
+   ],
+   "prerequisiteNote": "Cost curves; price as given in a market",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch12-st2",
+   "chapterId": "cbse-g11-economics-ch12",
+   "order": 2,
+   "name": "Profit maximisation: conditions MR = MC and MC rising",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch12-st1",
+    "cbse-g11-economics-ch11-st4"
+   ],
+   "prerequisiteNote": "Revenue concepts; marginal cost",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch12-st3",
+   "chapterId": "cbse-g11-economics-ch12",
+   "order": 3,
+   "name": "Supply curve of a firm, shut-down and break-even points",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch12-st2"
+   ],
+   "prerequisiteNote": "Profit maximisation; AVC and AC curves",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch12-st4",
+   "chapterId": "cbse-g11-economics-ch12",
+   "order": 4,
+   "name": "Market supply and price elasticity of supply; determinants of supply",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch12-st3",
+    "cbse-g9-social-science-ch09-st2"
+   ],
+   "prerequisiteNote": "Firm's supply curve; supply (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch13-st1",
+   "chapterId": "cbse-g11-economics-ch13",
+   "order": 1,
+   "name": "Equilibrium with fixed number of firms: excess demand and excess supply",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch10-st4",
+    "cbse-g11-economics-ch12-st4"
+   ],
+   "prerequisiteNote": "Market demand and market supply curves",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch13-st2",
+   "chapterId": "cbse-g11-economics-ch13",
+   "order": 2,
+   "name": "Shifts in demand and supply and their effect on equilibrium",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch13-st1"
+   ],
+   "prerequisiteNote": "Market equilibrium; determinants of demand and supply",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch13-st3",
+   "chapterId": "cbse-g11-economics-ch13",
+   "order": 3,
+   "name": "Free entry and exit: equilibrium with zero normal profit",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch13-st1",
+    "cbse-g11-economics-ch12-st2"
+   ],
+   "prerequisiteNote": "Equilibrium; profit maximisation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-economics-ch13-st4",
+   "chapterId": "cbse-g11-economics-ch13",
+   "order": 4,
+   "name": "Applications: price ceiling and price floor",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-economics-ch13-st2"
+   ],
+   "prerequisiteNote": "Shifts in demand and supply",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

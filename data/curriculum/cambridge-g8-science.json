@@ -1,0 +1,686 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cambridge-g8-science",
+  "board": "cambridge",
+  "grade": 8,
+  "stream": "none",
+  "slug": "science",
+  "name": "Science",
+  "programme": "Cambridge Lower Secondary Science 0893 (Stage 9)",
+  "textbook": "CUP Learner's Book 9 (2nd ed.)",
+  "examPattern": "Checkpoint Science: Paper 1 45 min + Paper 2 45 min, each mixing Biology, Chemistry, Physics (+ Earth & Space, Thinking & Working Scientifically). ~10–12 structured questions per paper (UNVERIFIED). 0–50 scale + band.",
+  "chapterCount": 9,
+  "questionTarget": 876
+ },
+ "items": [
+  {
+   "id": "cambridge-g8-science-ch01",
+   "subjectId": "cambridge-g8-science",
+   "order": 1,
+   "name": "Photosynthesis and the carbon cycle",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cambridge-g8-science-ch01-st1",
+    "cambridge-g8-science-ch01-st2",
+    "cambridge-g8-science-ch01-st3",
+    "cambridge-g8-science-ch01-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g8-science-ch02",
+   "subjectId": "cambridge-g8-science",
+   "order": 2,
+   "name": "Properties of materials",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cambridge-g8-science-ch02-st1",
+    "cambridge-g8-science-ch02-st2",
+    "cambridge-g8-science-ch02-st3",
+    "cambridge-g8-science-ch02-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g8-science-ch03",
+   "subjectId": "cambridge-g8-science",
+   "order": 3,
+   "name": "Forces and energy",
+   "teachingPeriods": 19,
+   "subtopicIds": [
+    "cambridge-g8-science-ch03-st1",
+    "cambridge-g8-science-ch03-st2",
+    "cambridge-g8-science-ch03-st3",
+    "cambridge-g8-science-ch03-st4",
+    "cambridge-g8-science-ch03-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g8-science-ch04",
+   "subjectId": "cambridge-g8-science",
+   "order": 4,
+   "name": "Maintaining life",
+   "teachingPeriods": 15,
+   "subtopicIds": [
+    "cambridge-g8-science-ch04-st1",
+    "cambridge-g8-science-ch04-st2",
+    "cambridge-g8-science-ch04-st3",
+    "cambridge-g8-science-ch04-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g8-science-ch05",
+   "subjectId": "cambridge-g8-science",
+   "order": 5,
+   "name": "Reactivity",
+   "teachingPeriods": 22,
+   "subtopicIds": [
+    "cambridge-g8-science-ch05-st1",
+    "cambridge-g8-science-ch05-st2",
+    "cambridge-g8-science-ch05-st3",
+    "cambridge-g8-science-ch05-st4",
+    "cambridge-g8-science-ch05-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g8-science-ch06",
+   "subjectId": "cambridge-g8-science",
+   "order": 6,
+   "name": "Sound and space",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cambridge-g8-science-ch06-st1",
+    "cambridge-g8-science-ch06-st2",
+    "cambridge-g8-science-ch06-st3",
+    "cambridge-g8-science-ch06-st4",
+    "cambridge-g8-science-ch06-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g8-science-ch07",
+   "subjectId": "cambridge-g8-science",
+   "order": 7,
+   "name": "Genes and inheritance",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cambridge-g8-science-ch07-st1",
+    "cambridge-g8-science-ch07-st2",
+    "cambridge-g8-science-ch07-st3",
+    "cambridge-g8-science-ch07-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g8-science-ch08",
+   "subjectId": "cambridge-g8-science",
+   "order": 8,
+   "name": "Rates of reaction",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "cambridge-g8-science-ch08-st1",
+    "cambridge-g8-science-ch08-st2",
+    "cambridge-g8-science-ch08-st3",
+    "cambridge-g8-science-ch08-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g8-science-ch09",
+   "subjectId": "cambridge-g8-science",
+   "order": 9,
+   "name": "Electricity",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "cambridge-g8-science-ch09-st1",
+    "cambridge-g8-science-ch09-st2",
+    "cambridge-g8-science-ch09-st3",
+    "cambridge-g8-science-ch09-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cambridge-g8-science-ch01-st1",
+   "chapterId": "cambridge-g8-science-ch01",
+   "order": 1,
+   "name": "Photosynthesis: word and symbol equations and the role of chlorophyll and light",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Plant organs and cells, chloroplasts (Stage 7); reactants and products (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch01-st2",
+   "chapterId": "cambridge-g8-science-ch01",
+   "order": 2,
+   "name": "The importance of water and minerals to plants: nitrate and magnesium ions",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch01-st1"
+   ],
+   "prerequisiteNote": "Root hair cells and plant structure (Stage 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch01-st3",
+   "chapterId": "cambridge-g8-science-ch01",
+   "order": 3,
+   "name": "The carbon cycle: photosynthesis, respiration, combustion and decomposition",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch01-st1"
+   ],
+   "prerequisiteNote": "Aerobic respiration (Stage 8); food chains",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch01-st4",
+   "chapterId": "cambridge-g8-science-ch01",
+   "order": 4,
+   "name": "Climate change: carbon dioxide, the greenhouse effect and human impact",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch01-st3"
+   ],
+   "prerequisiteNote": "Carbon cycle; reading line graphs of data over time",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch02-st1",
+   "chapterId": "cambridge-g8-science-ch02",
+   "order": 1,
+   "name": "Atomic structure: protons, neutrons, electrons and the Rutherford model",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch01-st2"
+   ],
+   "prerequisiteNote": "Atoms, elements and the Periodic Table (Stage 7-8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch02-st2",
+   "chapterId": "cambridge-g8-science-ch02",
+   "order": 2,
+   "name": "Trends in groups of the Periodic Table: Group 1, Group 7 and Group 8/0",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch02-st1"
+   ],
+   "prerequisiteNote": "Periodic Table layout of groups and periods (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch02-st3",
+   "chapterId": "cambridge-g8-science-ch02",
+   "order": 3,
+   "name": "Why elements react: ionic and covalent bonding",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch02-st1",
+    "cambridge-g8-science-ch02-st2"
+   ],
+   "prerequisiteNote": "Atomic structure; electron arrangement",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch02-st4",
+   "chapterId": "cambridge-g8-science-ch02",
+   "order": 4,
+   "name": "Simple and giant structures and their properties",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch02-st3"
+   ],
+   "prerequisiteNote": "Ionic and covalent bonding; melting and boiling points (Stage 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch03-st1",
+   "chapterId": "cambridge-g8-science-ch03",
+   "order": 1,
+   "name": "Density: calculating and comparing densities and floating and sinking",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-maths-ch11-st3"
+   ],
+   "prerequisiteNote": "Compound measures (Stage 9 maths); mass and volume units",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch03-st2",
+   "chapterId": "cambridge-g8-science-ch03",
+   "order": 2,
+   "name": "Heat and temperature: thermal energy, temperature and moving from hot to cold",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch03-st1"
+   ],
+   "prerequisiteNote": "Particle model (Stage 7); measuring temperature",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch03-st3",
+   "chapterId": "cambridge-g8-science-ch03",
+   "order": 3,
+   "name": "Conservation of energy and energy dissipation",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch03-st2"
+   ],
+   "prerequisiteNote": "Energy stores and transfers (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch03-st4",
+   "chapterId": "cambridge-g8-science-ch03",
+   "order": 4,
+   "name": "Ways of transferring thermal energy: conduction, convection and radiation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch03-st2"
+   ],
+   "prerequisiteNote": "Particle model of solids, liquids and gases (Stage 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch03-st5",
+   "chapterId": "cambridge-g8-science-ch03",
+   "order": 5,
+   "name": "Cooling by evaporation",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch03-st4"
+   ],
+   "prerequisiteNote": "Changes of state and particle energy (Stage 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch04-st1",
+   "chapterId": "cambridge-g8-science-ch04",
+   "order": 1,
+   "name": "Plants and water: water uptake and transport in xylem",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch01-st2"
+   ],
+   "prerequisiteNote": "Root hair cells; importance of water to plants",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch04-st2",
+   "chapterId": "cambridge-g8-science-ch04",
+   "order": 2,
+   "name": "Transpiration and factors affecting its rate",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch04-st1"
+   ],
+   "prerequisiteNote": "Water transport in plants; stomata",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch04-st3",
+   "chapterId": "cambridge-g8-science-ch04",
+   "order": 3,
+   "name": "Excretion in humans: the kidneys and removal of urea",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch01-st3"
+   ],
+   "prerequisiteNote": "Human organ systems and blood circulation (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch04-st4",
+   "chapterId": "cambridge-g8-science-ch04",
+   "order": 4,
+   "name": "Keeping a fetus healthy: placenta, nutrition and harmful substances",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch04-st3"
+   ],
+   "prerequisiteNote": "Human reproduction (Stage 7-8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch05-st1",
+   "chapterId": "cambridge-g8-science-ch05",
+   "order": 1,
+   "name": "Reactivity and displacement reactions",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch02-st2"
+   ],
+   "prerequisiteNote": "Metals and the reactivity series (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch05-st2",
+   "chapterId": "cambridge-g8-science-ch05",
+   "order": 2,
+   "name": "Using the reactivity series to predict reactions",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch05-st1"
+   ],
+   "prerequisiteNote": "Displacement reactions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch05-st3",
+   "chapterId": "cambridge-g8-science-ch05",
+   "order": 3,
+   "name": "Salts: making salts from acids and metals or bases",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch05-st2"
+   ],
+   "prerequisiteNote": "Acids, alkalis and neutralisation (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch05-st4",
+   "chapterId": "cambridge-g8-science-ch05",
+   "order": 4,
+   "name": "Other ways of making salts: acids and carbonates, and preparing a pure salt",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch05-st3"
+   ],
+   "prerequisiteNote": "Making salts; filtration and crystallisation (Stage 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch05-st5",
+   "chapterId": "cambridge-g8-science-ch05",
+   "order": 5,
+   "name": "Rearranging atoms: word and balanced symbol equations",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch05-st3",
+    "cambridge-g8-science-ch02-st3"
+   ],
+   "prerequisiteNote": "Chemical formulae; conservation of mass (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch06-st1",
+   "chapterId": "cambridge-g8-science-ch06",
+   "order": 1,
+   "name": "Loudness and pitch of sound: amplitude, frequency and oscilloscope traces",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Sound as vibrations (Stage 7-8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch06-st2",
+   "chapterId": "cambridge-g8-science-ch06",
+   "order": 2,
+   "name": "Interference of sound waves",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch06-st1"
+   ],
+   "prerequisiteNote": "Waves: amplitude and wavelength",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch06-st3",
+   "chapterId": "cambridge-g8-science-ch06",
+   "order": 3,
+   "name": "Formation of the Moon: the collision theory and evidence",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch02-st1"
+   ],
+   "prerequisiteNote": "Solar System (Stage 7-8); gravity",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch06-st4",
+   "chapterId": "cambridge-g8-science-ch06",
+   "order": 4,
+   "name": "Nebulae and the formation of stars and planets",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch06-st3"
+   ],
+   "prerequisiteNote": "Gravity; composition of stars",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch06-st5",
+   "chapterId": "cambridge-g8-science-ch06",
+   "order": 5,
+   "name": "Tectonics: plate movement and evidence for continental drift",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch06-st3"
+   ],
+   "prerequisiteNote": "Structure of the Earth (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch07-st1",
+   "chapterId": "cambridge-g8-science-ch07",
+   "order": 1,
+   "name": "Chromosomes, genes and DNA",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch04-st4"
+   ],
+   "prerequisiteNote": "Cell structure and the nucleus (Stage 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch07-st2",
+   "chapterId": "cambridge-g8-science-ch07",
+   "order": 2,
+   "name": "Gametes and inheritance including sex determination",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch07-st1",
+    "cambridge-g8-maths-ch12-st3"
+   ],
+   "prerequisiteNote": "Human reproduction (Stage 7-8); sample spaces (Stage 9 maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch07-st3",
+   "chapterId": "cambridge-g8-science-ch07",
+   "order": 3,
+   "name": "Variation: continuous and discontinuous and its causes",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch07-st2"
+   ],
+   "prerequisiteNote": "Classification and variation (Stage 7); bar charts and histograms",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch07-st4",
+   "chapterId": "cambridge-g8-science-ch07",
+   "order": 4,
+   "name": "Natural selection and evolution",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch07-st3"
+   ],
+   "prerequisiteNote": "Variation; adaptation (Stage 7-8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch08-st1",
+   "chapterId": "cambridge-g8-science-ch08",
+   "order": 1,
+   "name": "Measuring the rate of reaction: gas volume and mass loss",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch05-st5"
+   ],
+   "prerequisiteNote": "Balanced equations; plotting graphs (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch08-st2",
+   "chapterId": "cambridge-g8-science-ch08",
+   "order": 2,
+   "name": "Surface area and the rate of reaction",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch08-st1"
+   ],
+   "prerequisiteNote": "Measuring rate; particle model",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch08-st3",
+   "chapterId": "cambridge-g8-science-ch08",
+   "order": 3,
+   "name": "Temperature and the rate of reaction: particle collisions",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch08-st1",
+    "cambridge-g8-science-ch03-st2"
+   ],
+   "prerequisiteNote": "Measuring rate; heat and temperature",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch08-st4",
+   "chapterId": "cambridge-g8-science-ch08",
+   "order": 4,
+   "name": "Concentration and the rate of reaction",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch08-st1"
+   ],
+   "prerequisiteNote": "Measuring rate; dilute and concentrated solutions (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch09-st1",
+   "chapterId": "cambridge-g8-science-ch09",
+   "order": 1,
+   "name": "Parallel circuits and drawing circuit diagrams",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Series circuits, current and voltage (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch09-st2",
+   "chapterId": "cambridge-g8-science-ch09",
+   "order": 2,
+   "name": "Current and voltage in parallel circuits",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch09-st1"
+   ],
+   "prerequisiteNote": "Measuring current with an ammeter and voltage with a voltmeter (Stage 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch09-st3",
+   "chapterId": "cambridge-g8-science-ch09",
+   "order": 3,
+   "name": "Resistance: R = V/I and factors affecting it",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch09-st2",
+    "cambridge-g8-maths-ch10-st3"
+   ],
+   "prerequisiteNote": "Current and voltage; gradient of a straight line (Stage 9 maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g8-science-ch09-st4",
+   "chapterId": "cambridge-g8-science-ch09",
+   "order": 4,
+   "name": "Practical circuits: switches, fuses and designing circuits",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch09-st3"
+   ],
+   "prerequisiteNote": "Parallel circuits; resistance",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

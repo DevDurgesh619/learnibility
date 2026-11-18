@@ -1,0 +1,982 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cbse-g10-maths",
+  "board": "cbse",
+  "grade": 10,
+  "stream": "none",
+  "slug": "maths",
+  "name": "Mathematics",
+  "programme": "CBSE Class 10 Mathematics (241)",
+  "textbook": "NCERT Mathematics X (Standard 041 / Basic 241 – same syllabus)",
+  "examPattern": "CBSE Board exam, 3 h, 80 theory + 20 internal assessment; 'no change in question paper design for 2026-27'. Two board exams: Phase 1 (Feb, mandatory) + Phase 2 (May, optional improvement in up to 3 subjects). Paper (SQP 2026-27): 38 questions – A 20×1 (18 MCQ + 2 A-R), B 5×2, C 6×3, D 4×5, E 3 case-study×4. Typology Standard 54/24/22%, Basic 75/15/10%. No calculators.",
+  "chapterCount": 14,
+  "questionTarget": 1628
+ },
+ "items": [
+  {
+   "id": "cbse-g10-maths-ch01",
+   "subjectId": "cbse-g10-maths",
+   "order": 1,
+   "name": "Real Numbers",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "cbse-g10-maths-ch01-st1",
+    "cbse-g10-maths-ch01-st2",
+    "cbse-g10-maths-ch01-st3",
+    "cbse-g10-maths-ch01-st4"
+   ]
+  },
+  {
+   "id": "cbse-g10-maths-ch02",
+   "subjectId": "cbse-g10-maths",
+   "order": 2,
+   "name": "Polynomials",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "cbse-g10-maths-ch02-st1",
+    "cbse-g10-maths-ch02-st2",
+    "cbse-g10-maths-ch02-st3",
+    "cbse-g10-maths-ch02-st4"
+   ]
+  },
+  {
+   "id": "cbse-g10-maths-ch03",
+   "subjectId": "cbse-g10-maths",
+   "order": 3,
+   "name": "Pair of Linear Equations in Two Variables",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cbse-g10-maths-ch03-st1",
+    "cbse-g10-maths-ch03-st2",
+    "cbse-g10-maths-ch03-st3",
+    "cbse-g10-maths-ch03-st4",
+    "cbse-g10-maths-ch03-st5"
+   ]
+  },
+  {
+   "id": "cbse-g10-maths-ch04",
+   "subjectId": "cbse-g10-maths",
+   "order": 4,
+   "name": "Quadratic Equations",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "cbse-g10-maths-ch04-st1",
+    "cbse-g10-maths-ch04-st2",
+    "cbse-g10-maths-ch04-st3",
+    "cbse-g10-maths-ch04-st4"
+   ]
+  },
+  {
+   "id": "cbse-g10-maths-ch05",
+   "subjectId": "cbse-g10-maths",
+   "order": 5,
+   "name": "Arithmetic Progressions",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "cbse-g10-maths-ch05-st1",
+    "cbse-g10-maths-ch05-st2",
+    "cbse-g10-maths-ch05-st3",
+    "cbse-g10-maths-ch05-st4"
+   ]
+  },
+  {
+   "id": "cbse-g10-maths-ch06",
+   "subjectId": "cbse-g10-maths",
+   "order": 6,
+   "name": "Triangles",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "cbse-g10-maths-ch06-st1",
+    "cbse-g10-maths-ch06-st2",
+    "cbse-g10-maths-ch06-st3",
+    "cbse-g10-maths-ch06-st4"
+   ]
+  },
+  {
+   "id": "cbse-g10-maths-ch07",
+   "subjectId": "cbse-g10-maths",
+   "order": 7,
+   "name": "Coordinate Geometry",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "cbse-g10-maths-ch07-st1",
+    "cbse-g10-maths-ch07-st2",
+    "cbse-g10-maths-ch07-st3",
+    "cbse-g10-maths-ch07-st4"
+   ]
+  },
+  {
+   "id": "cbse-g10-maths-ch08",
+   "subjectId": "cbse-g10-maths",
+   "order": 8,
+   "name": "Introduction to Trigonometry",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "cbse-g10-maths-ch08-st1",
+    "cbse-g10-maths-ch08-st2",
+    "cbse-g10-maths-ch08-st3",
+    "cbse-g10-maths-ch08-st4"
+   ]
+  },
+  {
+   "id": "cbse-g10-maths-ch09",
+   "subjectId": "cbse-g10-maths",
+   "order": 9,
+   "name": "Some Applications of Trigonometry",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cbse-g10-maths-ch09-st1",
+    "cbse-g10-maths-ch09-st2",
+    "cbse-g10-maths-ch09-st3"
+   ]
+  },
+  {
+   "id": "cbse-g10-maths-ch10",
+   "subjectId": "cbse-g10-maths",
+   "order": 10,
+   "name": "Circles",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cbse-g10-maths-ch10-st1",
+    "cbse-g10-maths-ch10-st2",
+    "cbse-g10-maths-ch10-st3"
+   ]
+  },
+  {
+   "id": "cbse-g10-maths-ch11",
+   "subjectId": "cbse-g10-maths",
+   "order": 11,
+   "name": "Areas Related to Circles",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "cbse-g10-maths-ch11-st1",
+    "cbse-g10-maths-ch11-st2",
+    "cbse-g10-maths-ch11-st3",
+    "cbse-g10-maths-ch11-st4"
+   ]
+  },
+  {
+   "id": "cbse-g10-maths-ch12",
+   "subjectId": "cbse-g10-maths",
+   "order": 12,
+   "name": "Surface Areas and Volumes",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cbse-g10-maths-ch12-st1",
+    "cbse-g10-maths-ch12-st2",
+    "cbse-g10-maths-ch12-st3"
+   ]
+  },
+  {
+   "id": "cbse-g10-maths-ch13",
+   "subjectId": "cbse-g10-maths",
+   "order": 13,
+   "name": "Statistics",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "cbse-g10-maths-ch13-st1",
+    "cbse-g10-maths-ch13-st2",
+    "cbse-g10-maths-ch13-st3",
+    "cbse-g10-maths-ch13-st4"
+   ]
+  },
+  {
+   "id": "cbse-g10-maths-ch14",
+   "subjectId": "cbse-g10-maths",
+   "order": 14,
+   "name": "Probability",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "cbse-g10-maths-ch14-st1",
+    "cbse-g10-maths-ch14-st2",
+    "cbse-g10-maths-ch14-st3",
+    "cbse-g10-maths-ch14-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cbse-g10-maths-ch01-st1",
+   "chapterId": "cbse-g10-maths-ch01",
+   "order": 1,
+   "name": "Fundamental Theorem of Arithmetic and prime factorisation",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g9-maths-ch03-st1"
+   ],
+   "prerequisiteNote": "Prime factorisation and HCF/LCM (Cl 6-7); The World of Numbers: number system review (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch01-st2",
+   "chapterId": "cbse-g10-maths-ch01",
+   "order": 2,
+   "name": "HCF and LCM by prime factorisation; HCF × LCM = product of two numbers",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch01-st1",
+    "cbse-g9-maths-ch11-st2"
+   ],
+   "prerequisiteNote": "Fundamental Theorem of Arithmetic; Euclid's algorithm for HCF (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch01-st3",
+   "chapterId": "cbse-g10-maths-ch01",
+   "order": 3,
+   "name": "Word problems on HCF and LCM",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch01-st2"
+   ],
+   "prerequisiteNote": "HCF and LCM by prime factorisation; deciding which of HCF or LCM a context needs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch01-st4",
+   "chapterId": "cbse-g10-maths-ch01",
+   "order": 4,
+   "name": "Revisiting irrational numbers: proving the irrationality of √2, √3, √5 and related numbers",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch01-st1",
+    "cbse-g9-maths-ch03-st3"
+   ],
+   "prerequisiteNote": "Irrational numbers and proof by contradiction (Cl 9); Fundamental Theorem of Arithmetic",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch02-st1",
+   "chapterId": "cbse-g10-maths-ch02",
+   "order": 1,
+   "name": "Polynomials: degree, types and graphs of linear and quadratic polynomials",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g9-maths-ch02-st2",
+    "cbse-g9-maths-ch13-st3"
+   ],
+   "prerequisiteNote": "Linear polynomials and their zeros; graph of a linear equation (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch02-st2",
+   "chapterId": "cbse-g10-maths-ch02",
+   "order": 2,
+   "name": "Geometrical meaning of the zeroes of a polynomial",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch02-st1"
+   ],
+   "prerequisiteNote": "Graphs of polynomials; reading x-intercepts from a graph",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch02-st3",
+   "chapterId": "cbse-g10-maths-ch02",
+   "order": 3,
+   "name": "Relationship between zeroes and coefficients of a quadratic polynomial",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch02-st2",
+    "cbse-g9-maths-ch04-st4"
+   ],
+   "prerequisiteNote": "Factorisation by splitting the middle term (Cl 9); geometrical meaning of zeroes",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch02-st4",
+   "chapterId": "cbse-g10-maths-ch02",
+   "order": 4,
+   "name": "Forming a quadratic polynomial from given sum and product of zeroes",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch02-st3"
+   ],
+   "prerequisiteNote": "Relationship between zeroes and coefficients; operations with surds",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch03-st1",
+   "chapterId": "cbse-g10-maths-ch03",
+   "order": 1,
+   "name": "Graphical method of solving a pair of linear equations",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g9-maths-ch13-st3"
+   ],
+   "prerequisiteNote": "Graph of a linear equation in two variables (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch03-st2",
+   "chapterId": "cbse-g10-maths-ch03",
+   "order": 2,
+   "name": "Consistency conditions using the ratios a1/a2, b1/b2, c1/c2",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch03-st1"
+   ],
+   "prerequisiteNote": "Graphical method: intersecting, parallel and coincident lines; comparing fractions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch03-st3",
+   "chapterId": "cbse-g10-maths-ch03",
+   "order": 3,
+   "name": "Substitution method",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch03-st1"
+   ],
+   "prerequisiteNote": "Rearranging a linear equation to make one variable the subject (Cl 8-9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch03-st4",
+   "chapterId": "cbse-g10-maths-ch03",
+   "order": 4,
+   "name": "Elimination method",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch03-st1"
+   ],
+   "prerequisiteNote": "Multiplying equations by constants; adding/subtracting like terms (Cl 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch03-st5",
+   "chapterId": "cbse-g10-maths-ch03",
+   "order": 5,
+   "name": "Word problems leading to a pair of linear equations",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch03-st3",
+    "cbse-g10-maths-ch03-st4"
+   ],
+   "prerequisiteNote": "Substitution and elimination methods; translating words into equations (Cl 8-9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch04-st1",
+   "chapterId": "cbse-g10-maths-ch04",
+   "order": 1,
+   "name": "Standard form and representing situations as quadratic equations",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g9-maths-ch02-st1"
+   ],
+   "prerequisiteNote": "Algebraic expressions and expanding brackets (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch04-st2",
+   "chapterId": "cbse-g10-maths-ch04",
+   "order": 2,
+   "name": "Solution of a quadratic equation by factorisation",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch04-st1",
+    "cbse-g9-maths-ch04-st4"
+   ],
+   "prerequisiteNote": "Factorisation by splitting the middle term (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch04-st3",
+   "chapterId": "cbse-g10-maths-ch04",
+   "order": 3,
+   "name": "Quadratic formula and nature of roots using the discriminant",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch04-st2",
+    "cbse-g9-maths-ch03-st5"
+   ],
+   "prerequisiteNote": "Solution by factorisation; square roots and surds (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch04-st4",
+   "chapterId": "cbse-g10-maths-ch04",
+   "order": 4,
+   "name": "Word problems on quadratic equations",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch04-st3"
+   ],
+   "prerequisiteNote": "Quadratic formula; rejecting roots that do not fit the context",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch05-st1",
+   "chapterId": "cbse-g10-maths-ch05",
+   "order": 1,
+   "name": "Identifying arithmetic progressions and the common difference",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g9-maths-ch08-st2"
+   ],
+   "prerequisiteNote": "Arithmetic progressions: common difference (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch05-st2",
+   "chapterId": "cbse-g10-maths-ch05",
+   "order": 2,
+   "name": "nth term of an AP",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch05-st1"
+   ],
+   "prerequisiteNote": "Identifying APs; solving linear equations in one variable",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch05-st3",
+   "chapterId": "cbse-g10-maths-ch05",
+   "order": 3,
+   "name": "Sum of the first n terms of an AP",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch05-st2"
+   ],
+   "prerequisiteNote": "nth term of an AP; solving quadratic equations for n",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch05-st4",
+   "chapterId": "cbse-g10-maths-ch05",
+   "order": 4,
+   "name": "Real-life problems on APs",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch05-st3"
+   ],
+   "prerequisiteNote": "Sum of the first n terms; translating savings/instalment contexts into an AP",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch06-st1",
+   "chapterId": "cbse-g10-maths-ch06",
+   "order": 1,
+   "name": "Similar figures and similarity of polygons",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch07-st1"
+   ],
+   "prerequisiteNote": "Ratio, unitary method and scaling (Cl 8); congruent vs similar shapes",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch06-st2",
+   "chapterId": "cbse-g10-maths-ch06",
+   "order": 2,
+   "name": "Basic Proportionality Theorem (Thales) and its converse",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch06-st1",
+    "cbse-g9-maths-ch12-st4"
+   ],
+   "prerequisiteNote": "Similar figures; mid-point theorem (Cl 9); ratio of areas of triangles",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch06-st3",
+   "chapterId": "cbse-g10-maths-ch06",
+   "order": 3,
+   "name": "Criteria for similarity of triangles: AAA, SSS, SAS",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch06-st2",
+    "cbse-g9-maths-ch09-st5"
+   ],
+   "prerequisiteNote": "Congruence criteria of triangles (Cl 9); Basic Proportionality Theorem",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch06-st4",
+   "chapterId": "cbse-g10-maths-ch06",
+   "order": 4,
+   "name": "Using similarity to prove results and find unknown lengths",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch06-st3"
+   ],
+   "prerequisiteNote": "Similarity criteria; setting up proportions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch07-st1",
+   "chapterId": "cbse-g10-maths-ch07",
+   "order": 1,
+   "name": "Distance formula and its applications",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g9-maths-ch01-st2"
+   ],
+   "prerequisiteNote": "Distance between two points using the Baudhayana-Pythagoras theorem (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch07-st2",
+   "chapterId": "cbse-g10-maths-ch07",
+   "order": 2,
+   "name": "Section formula for internal division",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g9-maths-ch01-st3",
+    "cbse-g10-maths-ch06-st2"
+   ],
+   "prerequisiteNote": "Midpoint of a line segment (Cl 9); ratio and proportion",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch07-st3",
+   "chapterId": "cbse-g10-maths-ch07",
+   "order": 3,
+   "name": "Midpoints, points of trisection and finding the dividing ratio",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch07-st2"
+   ],
+   "prerequisiteNote": "Section formula; solving linear equations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch07-st4",
+   "chapterId": "cbse-g10-maths-ch07",
+   "order": 4,
+   "name": "Using coordinates to classify triangles and quadrilaterals",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch07-st1",
+    "cbse-g9-maths-ch12-st2"
+   ],
+   "prerequisiteNote": "Distance formula; properties of a parallelogram, rhombus and square (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch08-st1",
+   "chapterId": "cbse-g10-maths-ch08",
+   "order": 1,
+   "name": "Trigonometric ratios of an acute angle of a right triangle",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g8-maths-ch09-st2",
+    "cbse-g10-maths-ch06-st3"
+   ],
+   "prerequisiteNote": "Baudhayana-Pythagoras theorem (Cl 8); similar triangles give equal ratios",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch08-st2",
+   "chapterId": "cbse-g10-maths-ch08",
+   "order": 2,
+   "name": "Trigonometric ratios of 0°, 30°, 45°, 60° and 90°",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch08-st1"
+   ],
+   "prerequisiteNote": "Trigonometric ratios; equilateral and isosceles right triangles; simplifying surds (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch08-st3",
+   "chapterId": "cbse-g10-maths-ch08",
+   "order": 3,
+   "name": "Expressing one trigonometric ratio in terms of another",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch08-st1"
+   ],
+   "prerequisiteNote": "Trigonometric ratios; Pythagoras theorem to find the third side",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch08-st4",
+   "chapterId": "cbse-g10-maths-ch08",
+   "order": 4,
+   "name": "Trigonometric identities: sin²A + cos²A = 1 and related identities",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch08-st1",
+    "cbse-g9-maths-ch04-st1"
+   ],
+   "prerequisiteNote": "Trigonometric ratios; algebraic identities (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch09-st1",
+   "chapterId": "cbse-g10-maths-ch09",
+   "order": 1,
+   "name": "Line of sight, angle of elevation and angle of depression",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch08-st1"
+   ],
+   "prerequisiteNote": "Trigonometric ratios; alternate angles with parallel lines (Cl 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch09-st2",
+   "chapterId": "cbse-g10-maths-ch09",
+   "order": 2,
+   "name": "Heights and distances using one right triangle",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch09-st1",
+    "cbse-g10-maths-ch08-st2"
+   ],
+   "prerequisiteNote": "Ratios of standard angles; drawing a figure from a word problem",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch09-st3",
+   "chapterId": "cbse-g10-maths-ch09",
+   "order": 3,
+   "name": "Heights and distances using two angles or two observers",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch09-st2",
+    "cbse-g9-maths-ch03-st5"
+   ],
+   "prerequisiteNote": "Heights and distances with one triangle; rationalising surds (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch10-st1",
+   "chapterId": "cbse-g10-maths-ch10",
+   "order": 1,
+   "name": "Tangent to a circle: tangent perpendicular to the radius",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g9-maths-ch05-st2"
+   ],
+   "prerequisiteNote": "Chords and perpendicular from the centre (Cl 9); secant vs tangent",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch10-st2",
+   "chapterId": "cbse-g10-maths-ch10",
+   "order": 2,
+   "name": "Number of tangents from a point; equal tangent lengths",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch10-st1",
+    "cbse-g9-maths-ch09-st5"
+   ],
+   "prerequisiteNote": "Tangent perpendicular to radius; congruence of triangles (RHS) (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch10-st3",
+   "chapterId": "cbse-g10-maths-ch10",
+   "order": 3,
+   "name": "Problems on tangents with polygons and concentric circles",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch10-st2"
+   ],
+   "prerequisiteNote": "Equal tangent lengths; Pythagoras theorem",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch11-st1",
+   "chapterId": "cbse-g10-maths-ch11",
+   "order": 1,
+   "name": "Perimeter and area of a circle revisited",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g9-maths-ch06-st3"
+   ],
+   "prerequisiteNote": "Circumference and area of circles (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch11-st2",
+   "chapterId": "cbse-g10-maths-ch11",
+   "order": 2,
+   "name": "Area of a sector and length of an arc",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch11-st1"
+   ],
+   "prerequisiteNote": "Area of a circle; angle as a fraction of 360°",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch11-st3",
+   "chapterId": "cbse-g10-maths-ch11",
+   "order": 3,
+   "name": "Area of a segment of a circle",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch11-st2",
+    "cbse-g10-maths-ch08-st2"
+   ],
+   "prerequisiteNote": "Area of a sector; area of a triangle using trigonometric ratios of standard angles",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch11-st4",
+   "chapterId": "cbse-g10-maths-ch11",
+   "order": 4,
+   "name": "Real-life problems on sectors and segments",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch11-st3"
+   ],
+   "prerequisiteNote": "Areas of sectors and segments; clock hands, wipers and designs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch12-st1",
+   "chapterId": "cbse-g10-maths-ch12",
+   "order": 1,
+   "name": "Surface area of a combination of solids",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g9-maths-ch14-st2",
+    "cbse-g9-maths-ch14-st3"
+   ],
+   "prerequisiteNote": "Surface areas of cone, sphere, cylinder (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch12-st2",
+   "chapterId": "cbse-g10-maths-ch12",
+   "order": 2,
+   "name": "Volume of a combination of solids",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g9-maths-ch14-st2",
+    "cbse-g9-maths-ch14-st3"
+   ],
+   "prerequisiteNote": "Volumes of cone, sphere, cylinder (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch12-st3",
+   "chapterId": "cbse-g10-maths-ch12",
+   "order": 3,
+   "name": "Real-life problems on combined solids: tents, capsules and vessels",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch12-st1",
+    "cbse-g10-maths-ch12-st2"
+   ],
+   "prerequisiteNote": "Surface area and volume of combinations; unit conversions (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch13-st1",
+   "chapterId": "cbse-g10-maths-ch13",
+   "order": 1,
+   "name": "Mean of grouped data: direct, assumed mean and step-deviation methods",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g9-maths-ch10-st3"
+   ],
+   "prerequisiteNote": "Mean of ungrouped data; class marks of class intervals (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch13-st2",
+   "chapterId": "cbse-g10-maths-ch13",
+   "order": 2,
+   "name": "Mode of grouped data",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g9-maths-ch10-st3",
+    "cbse-g9-maths-ch10-st1"
+   ],
+   "prerequisiteNote": "Mode of ungrouped data; frequency tables with class intervals (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch13-st3",
+   "chapterId": "cbse-g10-maths-ch13",
+   "order": 3,
+   "name": "Median of grouped data using cumulative frequency",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g9-maths-ch10-st3",
+    "cbse-g9-maths-ch10-st1"
+   ],
+   "prerequisiteNote": "Median of ungrouped data; cumulative frequency (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch13-st4",
+   "chapterId": "cbse-g10-maths-ch13",
+   "order": 4,
+   "name": "Choosing and interpreting measures of central tendency",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch13-st1",
+    "cbse-g10-maths-ch13-st2",
+    "cbse-g10-maths-ch13-st3"
+   ],
+   "prerequisiteNote": "Mean, mode and median of grouped data",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch14-st1",
+   "chapterId": "cbse-g10-maths-ch14",
+   "order": 1,
+   "name": "Theoretical probability and elementary events",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g9-maths-ch07-st3"
+   ],
+   "prerequisiteNote": "Theoretical probability of equally likely outcomes (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch14-st2",
+   "chapterId": "cbse-g10-maths-ch14",
+   "order": 2,
+   "name": "Complementary, impossible and sure events",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch14-st1"
+   ],
+   "prerequisiteNote": "Theoretical probability; fractions summing to 1",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch14-st3",
+   "chapterId": "cbse-g10-maths-ch14",
+   "order": 3,
+   "name": "Problems with coins, dice and playing cards",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch14-st1",
+    "cbse-g9-maths-ch07-st4"
+   ],
+   "prerequisiteNote": "Outcome tables for two dice/coins (Cl 9); composition of a pack of cards",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g10-maths-ch14-st4",
+   "chapterId": "cbse-g10-maths-ch14",
+   "order": 4,
+   "name": "Probability in real-life contexts",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g10-maths-ch14-st3"
+   ],
+   "prerequisiteNote": "Probability problems with coins, dice and cards; reading the sample space from a context",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

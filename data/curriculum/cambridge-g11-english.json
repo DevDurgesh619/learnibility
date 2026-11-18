@@ -1,0 +1,421 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cambridge-g11-english",
+  "board": "cambridge",
+  "grade": 11,
+  "stream": "science",
+  "slug": "english",
+  "name": "English",
+  "programme": "Cambridge AS English Language 9093 (2027–28)",
+  "textbook": "CUP Coursebook 2nd ed. sections 1–6 (alt: AS English General Paper 8021)",
+  "examPattern": "AS: P1 Reading 2 h 15, 50 marks (2 compulsory questions, 50%) + P2 Writing 2 h, 50 marks (1 compulsory + 1 of 3, 50%). Graded a–e.",
+  "chapterCount": 6,
+  "questionTarget": 396
+ },
+ "items": [
+  {
+   "id": "cambridge-g11-english-ch01",
+   "subjectId": "cambridge-g11-english",
+   "order": 1,
+   "name": "Reading: Text Types and Analysis",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cambridge-g11-english-ch01-st1",
+    "cambridge-g11-english-ch01-st2",
+    "cambridge-g11-english-ch01-st3",
+    "cambridge-g11-english-ch01-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g11-english-ch02",
+   "subjectId": "cambridge-g11-english",
+   "order": 2,
+   "name": "Directed Response (Paper 1 Question 1(a))",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cambridge-g11-english-ch02-st1",
+    "cambridge-g11-english-ch02-st2",
+    "cambridge-g11-english-ch02-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g11-english-ch03",
+   "subjectId": "cambridge-g11-english",
+   "order": 3,
+   "name": "Writer's Style and Analysis (Paper 1 Question 1(b) and Question 2)",
+   "teachingPeriods": 25,
+   "subtopicIds": [
+    "cambridge-g11-english-ch03-st1",
+    "cambridge-g11-english-ch03-st2",
+    "cambridge-g11-english-ch03-st3",
+    "cambridge-g11-english-ch03-st4",
+    "cambridge-g11-english-ch03-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g11-english-ch04",
+   "subjectId": "cambridge-g11-english",
+   "order": 4,
+   "name": "Writing: Shorter Writing Tasks (Paper 2 Section A)",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "cambridge-g11-english-ch04-st1",
+    "cambridge-g11-english-ch04-st2",
+    "cambridge-g11-english-ch04-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g11-english-ch05",
+   "subjectId": "cambridge-g11-english",
+   "order": 5,
+   "name": "Reflective Commentary (Paper 2 Question 1(b))",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cambridge-g11-english-ch05-st1",
+    "cambridge-g11-english-ch05-st2",
+    "cambridge-g11-english-ch05-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g11-english-ch06",
+   "subjectId": "cambridge-g11-english",
+   "order": 6,
+   "name": "Extended Writing: Imaginative, Descriptive, Discursive and Argumentative (Paper 2 Section B)",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cambridge-g11-english-ch06-st1",
+    "cambridge-g11-english-ch06-st2",
+    "cambridge-g11-english-ch06-st3",
+    "cambridge-g11-english-ch06-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cambridge-g11-english-ch01-st1",
+   "chapterId": "cambridge-g11-english-ch01",
+   "order": 1,
+   "name": "Text types and conventions: speeches, articles, reviews, blogs, transcripts",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-english-ch02-st3"
+   ],
+   "prerequisiteNote": "Form, voice and register (IGCSE Directed Writing)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-english-ch01-st2",
+   "chapterId": "cambridge-g11-english-ch01",
+   "order": 2,
+   "name": "Audience, purpose and context of a text",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-english-ch01-st1",
+    "cambridge-g9-english-ch01-st2"
+   ],
+   "prerequisiteNote": "Identifying audience and purpose (IGCSE Reading)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-english-ch01-st3",
+   "chapterId": "cambridge-g11-english-ch01",
+   "order": 3,
+   "name": "Analysing spoken and multimodal texts: transcripts and visual features",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-english-ch01-st2"
+   ],
+   "prerequisiteNote": "Features of spoken language; layout and images",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-english-ch01-st4",
+   "chapterId": "cambridge-g11-english-ch01",
+   "order": 4,
+   "name": "Comparing two texts: similarities and differences in form and language",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-english-ch01-st2",
+    "cambridge-g11-english-ch01-st3"
+   ],
+   "prerequisiteNote": "Analysing a single text's language and purpose",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-english-ch02-st1",
+   "chapterId": "cambridge-g11-english-ch02",
+   "order": 1,
+   "name": "Transforming a source text for a new audience, purpose and form",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-english-ch01-st1",
+    "cambridge-g10-english-ch02-st2"
+   ],
+   "prerequisiteNote": "Writing from source material (IGCSE Directed Writing)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-english-ch02-st2",
+   "chapterId": "cambridge-g11-english-ch02",
+   "order": 2,
+   "name": "Selecting and adapting content from the source text",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-english-ch02-st1",
+    "cambridge-g9-english-ch03-st1"
+   ],
+   "prerequisiteNote": "Selecting relevant points (IGCSE Summary)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-english-ch02-st3",
+   "chapterId": "cambridge-g11-english-ch02",
+   "order": 3,
+   "name": "Controlling register, tone and voice in a directed response",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-english-ch02-st1"
+   ],
+   "prerequisiteNote": "Register and audience",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-english-ch03-st1",
+   "chapterId": "cambridge-g11-english-ch03",
+   "order": 1,
+   "name": "Lexis and semantic fields; connotation and figurative language",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-english-ch01-st2",
+    "cambridge-g9-english-ch04-st2"
+   ],
+   "prerequisiteNote": "Explaining connotation and effect (IGCSE Writers' Effects)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-english-ch03-st2",
+   "chapterId": "cambridge-g11-english-ch03",
+   "order": 2,
+   "name": "Grammar and syntax: sentence types, modality, tense and voice",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-english-ch03-st1"
+   ],
+   "prerequisiteNote": "Word classes and sentence structures",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-english-ch03-st3",
+   "chapterId": "cambridge-g11-english-ch03",
+   "order": 3,
+   "name": "Discourse structure, cohesion and narrative perspective",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-english-ch03-st2",
+    "cambridge-g9-english-ch04-st4"
+   ],
+   "prerequisiteNote": "Structure for effect (IGCSE)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-english-ch03-st4",
+   "chapterId": "cambridge-g11-english-ch03",
+   "order": 4,
+   "name": "Phonology and prosodic features in spoken and literary texts",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g11-english-ch03-st1"
+   ],
+   "prerequisiteNote": "Sound devices: alliteration, assonance (IGCSE)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-english-ch03-st5",
+   "chapterId": "cambridge-g11-english-ch03",
+   "order": 5,
+   "name": "Writing a style analysis using the language frameworks",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-english-ch03-st1",
+    "cambridge-g11-english-ch03-st2",
+    "cambridge-g11-english-ch03-st3"
+   ],
+   "prerequisiteNote": "Analytical paragraph writing (IGCSE Extended Response)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-english-ch04-st1",
+   "chapterId": "cambridge-g11-english-ch04",
+   "order": 1,
+   "name": "Writing short texts for a specified audience: leaflets, reviews, speeches, letters",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-english-ch01-st1",
+    "cambridge-g11-english-ch02-st3"
+   ],
+   "prerequisiteNote": "Text type conventions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-english-ch04-st2",
+   "chapterId": "cambridge-g11-english-ch04",
+   "order": 2,
+   "name": "Crafting openings, voice and stylistic choices in short texts",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-english-ch04-st1",
+    "cambridge-g11-english-ch03-st1"
+   ],
+   "prerequisiteNote": "Lexis and figurative language",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-english-ch04-st3",
+   "chapterId": "cambridge-g11-english-ch04",
+   "order": 3,
+   "name": "Editing for precision, concision and accuracy",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-english-ch04-st1",
+    "cambridge-g10-english-ch01-st4"
+   ],
+   "prerequisiteNote": "Spelling, punctuation and grammar (IGCSE)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-english-ch05-st1",
+   "chapterId": "cambridge-g11-english-ch05",
+   "order": 1,
+   "name": "Explaining own linguistic choices and their intended effects",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-english-ch04-st2",
+    "cambridge-g11-english-ch03-st5"
+   ],
+   "prerequisiteNote": "Style analysis using language frameworks",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-english-ch05-st2",
+   "chapterId": "cambridge-g11-english-ch05",
+   "order": 2,
+   "name": "Comparing own writing with a stimulus text",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-english-ch05-st1",
+    "cambridge-g11-english-ch01-st4"
+   ],
+   "prerequisiteNote": "Comparing two texts",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-english-ch05-st3",
+   "chapterId": "cambridge-g11-english-ch05",
+   "order": 3,
+   "name": "Structuring a reflective commentary with evidence from own writing",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-english-ch05-st1"
+   ],
+   "prerequisiteNote": "Analytical writing with quotation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-english-ch06-st1",
+   "chapterId": "cambridge-g11-english-ch06",
+   "order": 1,
+   "name": "Imaginative and descriptive writing: narrative techniques and atmosphere",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g10-english-ch04-st1",
+    "cambridge-g10-english-ch03-st2"
+   ],
+   "prerequisiteNote": "Narrative and descriptive composition (IGCSE)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-english-ch06-st2",
+   "chapterId": "cambridge-g11-english-ch06",
+   "order": 2,
+   "name": "Discursive writing: exploring a topic from multiple viewpoints",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g10-english-ch05-st3"
+   ],
+   "prerequisiteNote": "Balanced discursive essay (IGCSE)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-english-ch06-st3",
+   "chapterId": "cambridge-g11-english-ch06",
+   "order": 3,
+   "name": "Argumentative writing: persuasive structure and rhetoric",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g10-english-ch05-st2"
+   ],
+   "prerequisiteNote": "Persuasive argument with evidence (IGCSE)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g11-english-ch06-st4",
+   "chapterId": "cambridge-g11-english-ch06",
+   "order": 4,
+   "name": "Planning and structuring extended writing within the time limit",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-english-ch06-st1",
+    "cambridge-g11-english-ch06-st2",
+    "cambridge-g11-english-ch06-st3"
+   ],
+   "prerequisiteNote": "Paragraph planning and cohesion",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

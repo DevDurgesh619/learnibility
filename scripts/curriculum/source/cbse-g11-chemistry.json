@@ -1,0 +1,416 @@
+{
+ "subjectId": "cbse-g11-chemistry",
+ "chapters": [
+  {
+   "sheetName": "Some Basic Concepts of Chemistry",
+   "name": "Some Basic Concepts of Chemistry",
+   "subtopics": [
+    {
+     "name": "Importance of chemistry, nature of matter and properties of matter with SI units",
+     "weight": "L",
+     "prereq": [
+      "cbse-g9-science-ch04-st1"
+     ],
+     "note": "Pure substances and mixtures (Cl 9); SI units"
+    },
+    {
+     "name": "Laws of chemical combination, Dalton's atomic theory, atomic and molecular masses",
+     "weight": "L",
+     "prereq": [
+      "cbse-g9-science-ch08-st1",
+      "cbse-g9-science-ch08-st2"
+     ],
+     "note": "Laws of chemical combination and atomic mass (Cl 9)"
+    },
+    {
+     "name": "Mole concept and molar mass; percentage composition, empirical and molecular formulae",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-chemistry-ch01-st2",
+      "cbse-g9-science-ch08-st4"
+     ],
+     "note": "Mole concept (Cl 9); percentages (Cl 7-8 maths)"
+    },
+    {
+     "name": "Stoichiometry and calculations based on balanced equations; limiting reagent",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-chemistry-ch01-st3",
+      "cbse-g10-science-ch01-st2"
+     ],
+     "note": "Balancing chemical equations (Cl 10); Mole concept"
+    },
+    {
+     "name": "Concentration terms: mass percent, mole fraction, molarity and molality",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-chemistry-ch01-st3",
+      "cbse-g9-science-ch04-st2"
+     ],
+     "note": "Concentration of solutions (Cl 9); Mole concept"
+    }
+   ]
+  },
+  {
+   "sheetName": "Structure of Atom",
+   "name": "Structure of Atom",
+   "subtopics": [
+    {
+     "name": "Discovery of subatomic particles and atomic models of Thomson and Rutherford",
+     "weight": "S",
+     "prereq": [
+      "cbse-g9-science-ch07-st2"
+     ],
+     "note": "Atomic models (Cl 9)"
+    },
+    {
+     "name": "Electromagnetic radiation, Planck's quantum theory and photoelectric effect",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-chemistry-ch02-st1"
+     ],
+     "note": "Wave relation v = f lambda (Cl 11 physics waves); Rutherford model"
+    },
+    {
+     "name": "Bohr's model for hydrogen and line spectra",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-chemistry-ch02-st2",
+      "cbse-g9-science-ch07-st3"
+     ],
+     "note": "Electron shells (Cl 9); Planck's quantum theory"
+    },
+    {
+     "name": "Quantum mechanical model: quantum numbers, shapes of orbitals",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-chemistry-ch02-st3"
+     ],
+     "note": "Bohr's model; de Broglie relation and uncertainty principle"
+    },
+    {
+     "name": "Filling of orbitals: Aufbau, Pauli and Hund's rule; electronic configuration",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-chemistry-ch02-st4"
+     ],
+     "note": "Quantum numbers and orbitals"
+    }
+   ]
+  },
+  {
+   "sheetName": "Classification of Elements and Periodicity in Properties",
+   "name": "Classification of Elements and Periodicity in Properties",
+   "subtopics": [
+    {
+     "name": "Why classify elements: Mendeleev's periodic table and the modern periodic law",
+     "weight": "L",
+     "prereq": [
+      "cbse-g10-science-ch03-st1"
+     ],
+     "note": "Metals and non-metals properties (Cl 10); atomic number (Cl 9)"
+    },
+    {
+     "name": "Electronic configurations and types of elements: s, p, d, f blocks",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-chemistry-ch03-st1",
+      "cbse-g11-chemistry-ch02-st5"
+     ],
+     "note": "Electronic configuration"
+    },
+    {
+     "name": "Periodic trends: atomic radius, ionisation enthalpy, electron gain enthalpy, electronegativity",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-chemistry-ch03-st2"
+     ],
+     "note": "s, p, d, f blocks; electronic configuration"
+    },
+    {
+     "name": "Periodicity of valence, oxidation states and chemical reactivity",
+     "weight": "L",
+     "prereq": [
+      "cbse-g11-chemistry-ch03-st3"
+     ],
+     "note": "Periodic trends; valency (Cl 9)"
+    }
+   ]
+  },
+  {
+   "sheetName": "Chemical Bonding and Molecular Structure",
+   "name": "Chemical Bonding and Molecular Structure",
+   "subtopics": [
+    {
+     "name": "Kossel-Lewis approach: ionic and covalent bonds, Lewis structures and formal charge",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-chemistry-ch03-st4",
+      "cbse-g10-science-ch04-st1"
+     ],
+     "note": "Covalent bonding and electron-dot structures (Cl 10); Ionic compounds (Cl 10)"
+    },
+    {
+     "name": "Bond parameters, resonance, polarity and dipole moment",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-chemistry-ch04-st1",
+      "cbse-g11-chemistry-ch03-st3"
+     ],
+     "note": "Lewis structures; electronegativity"
+    },
+    {
+     "name": "VSEPR theory and shapes of molecules",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-chemistry-ch04-st1"
+     ],
+     "note": "Lewis structures; lone pairs and bond pairs"
+    },
+    {
+     "name": "Valence bond theory and hybridisation",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-chemistry-ch04-st3",
+      "cbse-g11-chemistry-ch02-st4"
+     ],
+     "note": "Shapes of orbitals; VSEPR theory"
+    },
+    {
+     "name": "Molecular orbital theory of homonuclear diatomics; hydrogen bonding",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-chemistry-ch04-st4"
+     ],
+     "note": "Hybridisation; orbital overlap; electronic configuration"
+    }
+   ]
+  },
+  {
+   "sheetName": "Thermodynamics",
+   "name": "Thermodynamics",
+   "subtopics": [
+    {
+     "name": "System, surroundings, state functions; work, heat and the first law",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-physics-ch11-st1"
+     ],
+     "note": "Heat, internal energy and work (Cl 11 physics thermodynamics)"
+    },
+    {
+     "name": "Enthalpy, heat capacity and measurement of delta U and delta H by calorimetry",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-chemistry-ch05-st1",
+      "cbse-g11-physics-ch10-st2"
+     ],
+     "note": "First law; calorimetry (Cl 11 physics)"
+    },
+    {
+     "name": "Thermochemical equations, Hess's law and enthalpies of reactions",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-chemistry-ch05-st2",
+      "cbse-g11-chemistry-ch01-st4"
+     ],
+     "note": "Enthalpy change; Stoichiometry"
+    },
+    {
+     "name": "Spontaneity: entropy, Gibbs energy and equilibrium",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-chemistry-ch05-st3"
+     ],
+     "note": "Enthalpy; second law of thermodynamics (Cl 11 physics)"
+    }
+   ]
+  },
+  {
+   "sheetName": "Equilibrium",
+   "name": "Equilibrium",
+   "subtopics": [
+    {
+     "name": "Dynamic equilibrium in physical and chemical processes; law of mass action",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-chemistry-ch01-st5"
+     ],
+     "note": "Concentration terms; reversible reactions"
+    },
+    {
+     "name": "Equilibrium constants Kc and Kp; Le Chatelier's principle",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-chemistry-ch06-st1",
+      "cbse-g11-chemistry-ch05-st4"
+     ],
+     "note": "Law of mass action; Gibbs energy and equilibrium"
+    },
+    {
+     "name": "Acids, bases and ionisation; ionic product of water and pH",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-chemistry-ch06-st2",
+      "cbse-g10-science-ch02-st3"
+     ],
+     "note": "pH scale (Cl 10); logarithms (calculator use)"
+    },
+    {
+     "name": "Ionisation of weak acids and bases, buffers, hydrolysis of salts",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-chemistry-ch06-st3"
+     ],
+     "note": "Ionic product of water and pH; equilibrium constant"
+    },
+    {
+     "name": "Solubility equilibria and the common ion effect",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-chemistry-ch06-st4"
+     ],
+     "note": "Ionisation constants; equilibrium constant"
+    }
+   ]
+  },
+  {
+   "sheetName": "Redox Reactions",
+   "name": "Redox Reactions",
+   "subtopics": [
+    {
+     "name": "Classical and electron-transfer ideas of oxidation and reduction",
+     "weight": "S",
+     "prereq": [
+      "cbse-g10-science-ch01-st4"
+     ],
+     "note": "Oxidation and reduction (Cl 10)"
+    },
+    {
+     "name": "Oxidation number and types of redox reactions",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-chemistry-ch07-st1",
+      "cbse-g11-chemistry-ch03-st4"
+     ],
+     "note": "Electron transfer; oxidation states"
+    },
+    {
+     "name": "Balancing redox reactions by oxidation number and half-reaction methods",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-chemistry-ch07-st2",
+      "cbse-g11-chemistry-ch01-st4"
+     ],
+     "note": "Oxidation number; balancing equations"
+    },
+    {
+     "name": "Redox reactions and electrode processes",
+     "weight": "L",
+     "prereq": [
+      "cbse-g11-chemistry-ch07-st3"
+     ],
+     "note": "Balancing redox reactions; reactivity series (Cl 10)"
+    }
+   ]
+  },
+  {
+   "sheetName": "Organic Chemistry: Some Basic Principles and Techniques",
+   "name": "Organic Chemistry: Some Basic Principles and Techniques",
+   "subtopics": [
+    {
+     "name": "Tetravalence of carbon, structural representations and classification of organic compounds",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-chemistry-ch04-st4",
+      "cbse-g10-science-ch04-st2"
+     ],
+     "note": "Versatile nature of carbon (Cl 10); hybridisation"
+    },
+    {
+     "name": "IUPAC nomenclature of organic compounds; isomerism",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-chemistry-ch08-st1",
+      "cbse-g10-science-ch04-st3"
+     ],
+     "note": "Homologous series and functional groups (Cl 10)"
+    },
+    {
+     "name": "Electronic displacements: inductive, resonance, electromeric and hyperconjugation; reaction intermediates",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-chemistry-ch08-st1",
+      "cbse-g11-chemistry-ch04-st2"
+     ],
+     "note": "Polarity and resonance; structural representations"
+    },
+    {
+     "name": "Types of organic reactions and fission of covalent bonds",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-chemistry-ch08-st3"
+     ],
+     "note": "Electronic displacements"
+    },
+    {
+     "name": "Methods of purification and qualitative and quantitative analysis",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-chemistry-ch08-st1",
+      "cbse-g9-science-ch04-st4"
+     ],
+     "note": "Chromatography and distillation (Cl 9); empirical formula"
+    }
+   ]
+  },
+  {
+   "sheetName": "Hydrocarbons",
+   "name": "Hydrocarbons",
+   "subtopics": [
+    {
+     "name": "Alkanes: preparation, properties and conformations of ethane",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-chemistry-ch08-st2"
+     ],
+     "note": "IUPAC nomenclature"
+    },
+    {
+     "name": "Alkenes: geometrical isomerism, preparation and electrophilic addition (Markovnikov)",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-chemistry-ch09-st1",
+      "cbse-g11-chemistry-ch08-st3"
+     ],
+     "note": "Alkanes; Electronic displacements and carbocations"
+    },
+    {
+     "name": "Alkynes: acidic character and addition reactions",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-chemistry-ch09-st2"
+     ],
+     "note": "Alkenes; hybridisation"
+    },
+    {
+     "name": "Aromatic hydrocarbons: benzene, aromaticity, electrophilic substitution and directive influence",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-chemistry-ch09-st2",
+      "cbse-g11-chemistry-ch04-st2"
+     ],
+     "note": "Resonance; electrophilic addition mechanisms"
+    },
+    {
+     "name": "Carcinogenicity and toxicity of hydrocarbons",
+     "weight": "L",
+     "prereq": [
+      "cbse-g11-chemistry-ch09-st4"
+     ],
+     "note": "Aromatic hydrocarbons"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,318 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cambridge-g12-english",
+  "board": "cambridge",
+  "grade": 12,
+  "stream": "science",
+  "slug": "english",
+  "name": "English",
+  "programme": "Cambridge A Level English Language 9093",
+  "textbook": "CUP Coursebook sections 7–10",
+  "examPattern": "A2: P3 Language Analysis 2 h 15, 50 marks (2 compulsory questions, 25%) + P4 Language Topics 2 h 15, 50 marks (2 compulsory questions, 25%).",
+  "chapterCount": 4,
+  "questionTarget": 264
+ },
+ "items": [
+  {
+   "id": "cambridge-g12-english-ch01",
+   "subjectId": "cambridge-g12-english",
+   "order": 1,
+   "name": "Language Change",
+   "teachingPeriods": 24,
+   "subtopicIds": [
+    "cambridge-g12-english-ch01-st1",
+    "cambridge-g12-english-ch01-st2",
+    "cambridge-g12-english-ch01-st3",
+    "cambridge-g12-english-ch01-st4",
+    "cambridge-g12-english-ch01-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g12-english-ch02",
+   "subjectId": "cambridge-g12-english",
+   "order": 2,
+   "name": "Child Language Acquisition",
+   "teachingPeriods": 22,
+   "subtopicIds": [
+    "cambridge-g12-english-ch02-st1",
+    "cambridge-g12-english-ch02-st2",
+    "cambridge-g12-english-ch02-st3",
+    "cambridge-g12-english-ch02-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g12-english-ch03",
+   "subjectId": "cambridge-g12-english",
+   "order": 3,
+   "name": "English in the World",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cambridge-g12-english-ch03-st1",
+    "cambridge-g12-english-ch03-st2",
+    "cambridge-g12-english-ch03-st3",
+    "cambridge-g12-english-ch03-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g12-english-ch04",
+   "subjectId": "cambridge-g12-english",
+   "order": 4,
+   "name": "Language and the Self",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cambridge-g12-english-ch04-st1",
+    "cambridge-g12-english-ch04-st2",
+    "cambridge-g12-english-ch04-st3",
+    "cambridge-g12-english-ch04-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cambridge-g12-english-ch01-st1",
+   "chapterId": "cambridge-g12-english-ch01",
+   "order": 1,
+   "name": "Historical development of English: Old, Middle, Early Modern and Late Modern English",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g11-english-ch03-st1"
+   ],
+   "prerequisiteNote": "Lexis and semantic fields (AS English Language)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-english-ch01-st2",
+   "chapterId": "cambridge-g12-english-ch01",
+   "order": 2,
+   "name": "Lexical change: borrowing, coinage, compounding, blending, semantic shift",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-english-ch01-st1"
+   ],
+   "prerequisiteNote": "Word formation: prefixes, suffixes, compounding (IGCSE)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-english-ch01-st3",
+   "chapterId": "cambridge-g12-english-ch01",
+   "order": 3,
+   "name": "Orthographic and grammatical change; standardisation and Johnson's dictionary",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-english-ch01-st1",
+    "cambridge-g11-english-ch03-st2"
+   ],
+   "prerequisiteNote": "Grammar and syntax frameworks (AS)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-english-ch01-st4",
+   "chapterId": "cambridge-g12-english-ch01",
+   "order": 4,
+   "name": "Using n-gram graphs and corpus data to analyse change",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-english-ch01-st2"
+   ],
+   "prerequisiteNote": "Reading line graphs; frequency data",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-english-ch01-st5",
+   "chapterId": "cambridge-g12-english-ch01",
+   "order": 5,
+   "name": "Attitudes to language change: prescriptivism and descriptivism (Aitchison)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-english-ch01-st2"
+   ],
+   "prerequisiteNote": "Concept of standard English",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-english-ch02-st1",
+   "chapterId": "cambridge-g12-english-ch02",
+   "order": 1,
+   "name": "Stages of spoken language development: pre-verbal to post-telegraphic",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-english-ch03-st4"
+   ],
+   "prerequisiteNote": "Phonology and grammar terminology (AS)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-english-ch02-st2",
+   "chapterId": "cambridge-g12-english-ch02",
+   "order": 2,
+   "name": "Theories of acquisition: behaviourist (Skinner), nativist (Chomsky), cognitive (Piaget)",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-english-ch02-st1"
+   ],
+   "prerequisiteNote": "Stages of language development",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-english-ch02-st3",
+   "chapterId": "cambridge-g12-english-ch02",
+   "order": 3,
+   "name": "Interactionist theory and child-directed speech (Bruner, Vygotsky)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-english-ch02-st2"
+   ],
+   "prerequisiteNote": "Behaviourist and nativist theories",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-english-ch02-st4",
+   "chapterId": "cambridge-g12-english-ch02",
+   "order": 4,
+   "name": "Analysing transcripts of child language: overextension, virtuous errors",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-english-ch02-st1",
+    "cambridge-g11-english-ch01-st3"
+   ],
+   "prerequisiteNote": "Analysing spoken transcripts (AS)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-english-ch03-st1",
+   "chapterId": "cambridge-g12-english-ch03",
+   "order": 1,
+   "name": "Global English: Kachru's concentric circles",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-english-ch01-st1"
+   ],
+   "prerequisiteNote": "History of English",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-english-ch03-st2",
+   "chapterId": "cambridge-g12-english-ch03",
+   "order": 2,
+   "name": "World Englishes, pidgins and creoles",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-english-ch03-st1"
+   ],
+   "prerequisiteNote": "Kachru's model",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-english-ch03-st3",
+   "chapterId": "cambridge-g12-english-ch03",
+   "order": 3,
+   "name": "English as a lingua franca, globalisation and the internet",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-english-ch03-st1"
+   ],
+   "prerequisiteNote": "Spread of English",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-english-ch03-st4",
+   "chapterId": "cambridge-g12-english-ch03",
+   "order": 4,
+   "name": "Language death, linguistic imperialism and attitudes to global English",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-english-ch03-st2",
+    "cambridge-g12-english-ch03-st3",
+    "cambridge-g12-english-ch01-st5"
+   ],
+   "prerequisiteNote": "Prescriptive and descriptive attitudes",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-english-ch04-st1",
+   "chapterId": "cambridge-g12-english-ch04",
+   "order": 1,
+   "name": "Language and identity: idiolect, sociolect and dialect",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-english-ch03-st2"
+   ],
+   "prerequisiteNote": "Varieties of English",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-english-ch04-st2",
+   "chapterId": "cambridge-g12-english-ch04",
+   "order": 2,
+   "name": "Language and gender: deficit, dominance, difference theories (Lakoff, Tannen)",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-english-ch04-st1"
+   ],
+   "prerequisiteNote": "Sociolect and identity",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-english-ch04-st3",
+   "chapterId": "cambridge-g12-english-ch04",
+   "order": 3,
+   "name": "Language and power: accommodation theory and politeness (Giles, Brown and Levinson)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-english-ch04-st1",
+    "cambridge-g11-english-ch01-st3"
+   ],
+   "prerequisiteNote": "Spoken language analysis (AS)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g12-english-ch04-st4",
+   "chapterId": "cambridge-g12-english-ch04",
+   "order": 4,
+   "name": "Writing a discursive essay on language topics using evidence and theory",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-english-ch04-st2",
+    "cambridge-g12-english-ch04-st3"
+   ],
+   "prerequisiteNote": "Discursive writing (AS)",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

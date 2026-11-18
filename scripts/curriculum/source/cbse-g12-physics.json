@@ -1,0 +1,524 @@
+{
+ "subjectId": "cbse-g12-physics",
+ "chapters": [
+  {
+   "sheetName": "Electric Charges & Fields",
+   "name": "Electric Charges and Fields",
+   "subtopics": [
+    {
+     "name": "Electric charge: conductors, insulators, charging by induction and basic properties of charge",
+     "weight": "S",
+     "prereq": [
+      "cbse-g10-science-ch11-st1"
+     ],
+     "note": "Electric current and charge (Cl 10)"
+    },
+    {
+     "name": "Coulomb's law and forces between multiple charges (superposition)",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-physics-ch01-st1",
+      "cbse-g11-physics-ch03-st1"
+     ],
+     "note": "Vector addition and resolution (Cl 11 physics); inverse-square law (gravitation, Cl 11)"
+    },
+    {
+     "name": "Electric field, field lines and the electric dipole; dipole in a uniform field",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-physics-ch01-st2",
+      "cbse-g11-physics-ch06-st2"
+     ],
+     "note": "Coulomb's law; torque (Cl 11 physics)"
+    },
+    {
+     "name": "Electric flux and Gauss's law with applications",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-physics-ch01-st3"
+     ],
+     "note": "Electric field lines; area and surface of sphere and cylinder (maths)"
+    }
+   ]
+  },
+  {
+   "sheetName": "Potential & Capacitance",
+   "name": "Electrostatic Potential and Capacitance",
+   "subtopics": [
+    {
+     "name": "Electrostatic potential and potential energy: point charge, dipole and system of charges",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-physics-ch01-st3",
+      "cbse-g11-physics-ch07-st3"
+     ],
+     "note": "Gravitational potential energy (Cl 11 physics); Electric field"
+    },
+    {
+     "name": "Equipotential surfaces; conductors in electrostatics",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-physics-ch02-st1",
+      "cbse-g12-physics-ch01-st4"
+     ],
+     "note": "Electrostatic potential; Gauss's law"
+    },
+    {
+     "name": "Dielectrics and polarisation",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-physics-ch02-st2"
+     ],
+     "note": "Conductors in electrostatics; Electric dipole"
+    },
+    {
+     "name": "Capacitors: parallel plate, combinations and energy stored",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-physics-ch02-st3",
+      "cbse-g10-science-ch11-st3"
+     ],
+     "note": "Series and parallel combinations (Cl 10); Electrostatic potential"
+    }
+   ]
+  },
+  {
+   "sheetName": "Current Electricity",
+   "name": "Current Electricity",
+   "subtopics": [
+    {
+     "name": "Drift velocity, mobility and Ohm's law; resistivity and its temperature dependence",
+     "weight": "S",
+     "prereq": [
+      "cbse-g10-science-ch11-st2"
+     ],
+     "note": "Ohm's law and resistivity (Cl 10)"
+    },
+    {
+     "name": "Electrical energy and power; combination of resistors (revision)",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-physics-ch03-st1",
+      "cbse-g10-science-ch11-st4"
+     ],
+     "note": "Resistors in series and parallel; electric power (Cl 10)"
+    },
+    {
+     "name": "Internal resistance, emf; cells in series and parallel",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-physics-ch03-st2"
+     ],
+     "note": "Combination of resistors; Ohm's law"
+    },
+    {
+     "name": "Kirchhoff's rules and the Wheatstone bridge",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-physics-ch03-st3"
+     ],
+     "note": "Internal resistance; solving simultaneous equations (Cl 10 maths)"
+    }
+   ]
+  },
+  {
+   "sheetName": "Moving Charges & Magnetism",
+   "name": "Moving Charges and Magnetism",
+   "subtopics": [
+    {
+     "name": "Magnetic force on a moving charge: Lorentz force and motion in a magnetic field",
+     "weight": "S",
+     "prereq": [
+      "cbse-g10-science-ch12-st2",
+      "cbse-g11-physics-ch03-st4"
+     ],
+     "note": "Force on a current-carrying conductor (Cl 10); circular motion (Cl 11)"
+    },
+    {
+     "name": "Biot-Savart law: field on the axis of a circular loop",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-physics-ch04-st1",
+      "cbse-g10-science-ch12-st1"
+     ],
+     "note": "Magnetic field of a straight wire and loop (Cl 10); vector product"
+    },
+    {
+     "name": "Ampere's circuital law: straight wire and solenoid",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-physics-ch04-st2"
+     ],
+     "note": "Biot-Savart law"
+    },
+    {
+     "name": "Force between parallel currents; torque on a current loop; moving coil galvanometer",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-physics-ch04-st3",
+      "cbse-g11-physics-ch06-st2"
+     ],
+     "note": "Ampere's law; torque (Cl 11 physics)"
+    }
+   ]
+  },
+  {
+   "sheetName": "Magnetism & Matter",
+   "name": "Magnetism and Matter",
+   "subtopics": [
+    {
+     "name": "Bar magnet as an equivalent solenoid; magnetic dipole in a uniform field",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-physics-ch04-st4"
+     ],
+     "note": "Torque on a current loop; Electric dipole analogy"
+    },
+    {
+     "name": "Magnetisation and magnetic intensity; magnetic susceptibility",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-physics-ch05-st1"
+     ],
+     "note": "Magnetic dipole"
+    },
+    {
+     "name": "Diamagnetic, paramagnetic and ferromagnetic materials",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-physics-ch05-st2"
+     ],
+     "note": "Magnetisation and susceptibility"
+    }
+   ]
+  },
+  {
+   "sheetName": "EMI",
+   "name": "Electromagnetic Induction",
+   "subtopics": [
+    {
+     "name": "Faraday's experiments, magnetic flux and Faraday's law",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-physics-ch04-st3",
+      "cbse-g12-physics-ch01-st4"
+     ],
+     "note": "Magnetic field of a solenoid; flux as field times area"
+    },
+    {
+     "name": "Lenz's law, conservation of energy and motional emf",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-physics-ch06-st1"
+     ],
+     "note": "Faraday's law; Fleming's rules (Cl 10)"
+    },
+    {
+     "name": "Eddy currents",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-physics-ch06-st2"
+     ],
+     "note": "Lenz's law"
+    },
+    {
+     "name": "Self and mutual inductance; AC generator",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-physics-ch06-st2"
+     ],
+     "note": "Faraday's law; Ampere's law for solenoid"
+    }
+   ]
+  },
+  {
+   "sheetName": "AC",
+   "name": "Alternating Current",
+   "subtopics": [
+    {
+     "name": "AC voltage applied to R, L and C; phasors and reactance",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-physics-ch06-st4",
+      "cbse-g11-physics-ch13-st1"
+     ],
+     "note": "SHM and sine functions (Cl 11 physics); Self inductance"
+    },
+    {
+     "name": "Series LCR circuit: impedance and resonance",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-physics-ch07-st1"
+     ],
+     "note": "Phasors and reactance"
+    },
+    {
+     "name": "Power in AC circuits: power factor and wattless current",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-physics-ch07-st2"
+     ],
+     "note": "Series LCR circuit; RMS values"
+    },
+    {
+     "name": "Transformers",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-physics-ch07-st3",
+      "cbse-g12-physics-ch06-st4"
+     ],
+     "note": "Mutual inductance; Power in AC circuits"
+    }
+   ]
+  },
+  {
+   "sheetName": "EM Waves",
+   "name": "Electromagnetic Waves",
+   "subtopics": [
+    {
+     "name": "Displacement current and sources of electromagnetic waves",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-physics-ch06-st1",
+      "cbse-g12-physics-ch02-st4"
+     ],
+     "note": "Faraday's law; capacitor charging"
+    },
+    {
+     "name": "Nature of electromagnetic waves and the electromagnetic spectrum",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-physics-ch08-st1",
+      "cbse-g11-physics-ch14-st1"
+     ],
+     "note": "Transverse waves (Cl 11 physics)"
+    },
+    {
+     "name": "Uses of different parts of the electromagnetic spectrum",
+     "weight": "L",
+     "prereq": [
+      "cbse-g12-physics-ch08-st2"
+     ],
+     "note": "EM spectrum"
+    }
+   ]
+  },
+  {
+   "sheetName": "Ray Optics",
+   "name": "Ray Optics and Optical Instruments",
+   "subtopics": [
+    {
+     "name": "Reflection by spherical mirrors and the mirror equation",
+     "weight": "S",
+     "prereq": [
+      "cbse-g10-science-ch09-st2"
+     ],
+     "note": "Mirror formula and sign convention (Cl 10)"
+    },
+    {
+     "name": "Refraction, total internal reflection; refraction at spherical surfaces and lens maker's formula",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-physics-ch09-st1",
+      "cbse-g10-science-ch09-st4"
+     ],
+     "note": "Refraction laws and lens formula (Cl 10)"
+    },
+    {
+     "name": "Refraction through a prism",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-physics-ch09-st2",
+      "cbse-g10-science-ch10-st3"
+     ],
+     "note": "Dispersion through a prism (Cl 10)"
+    },
+    {
+     "name": "Optical instruments: microscope and astronomical telescope",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-physics-ch09-st2"
+     ],
+     "note": "Lens formula and magnification"
+    }
+   ]
+  },
+  {
+   "sheetName": "Wave Optics",
+   "name": "Wave Optics",
+   "subtopics": [
+    {
+     "name": "Huygens' principle: reflection and refraction of plane waves",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-physics-ch09-st2",
+      "cbse-g11-physics-ch14-st3"
+     ],
+     "note": "Superposition and reflection of waves (Cl 11 physics)"
+    },
+    {
+     "name": "Coherent sources and interference; Young's double-slit experiment",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-physics-ch10-st1"
+     ],
+     "note": "Huygens' principle; path difference and phase"
+    },
+    {
+     "name": "Diffraction at a single slit",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-physics-ch10-st2"
+     ],
+     "note": "Interference; path difference"
+    },
+    {
+     "name": "Polarisation and Brewster's law",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-physics-ch10-st1"
+     ],
+     "note": "Transverse nature of light (EM waves)"
+    }
+   ]
+  },
+  {
+   "sheetName": "Dual Nature",
+   "name": "Dual Nature of Radiation and Matter",
+   "subtopics": [
+    {
+     "name": "Electron emission and photoelectric effect: experimental study",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-physics-ch03-st1",
+      "cbse-g12-physics-ch02-st1"
+     ],
+     "note": "Electrostatic potential (stopping potential); work function idea"
+    },
+    {
+     "name": "Einstein's photoelectric equation and particle nature of light",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-physics-ch11-st1",
+      "cbse-g11-chemistry-ch02-st2"
+     ],
+     "note": "Planck's quantum theory (Cl 11 chemistry); Photoelectric experiment"
+    },
+    {
+     "name": "Wave nature of matter: de Broglie relation",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-physics-ch11-st2",
+      "cbse-g11-physics-ch05-st2"
+     ],
+     "note": "Kinetic energy and momentum (Cl 11 physics); photon momentum"
+    }
+   ]
+  },
+  {
+   "sheetName": "Atoms",
+   "name": "Atoms",
+   "subtopics": [
+    {
+     "name": "Alpha-particle scattering and Rutherford's nuclear model",
+     "weight": "S",
+     "prereq": [
+      "cbse-g9-science-ch07-st2",
+      "cbse-g12-physics-ch01-st2"
+     ],
+     "note": "Atomic models (Cl 9); Coulomb's law"
+    },
+    {
+     "name": "Bohr model of the hydrogen atom: radii and energy levels",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-physics-ch12-st1",
+      "cbse-g11-chemistry-ch02-st3",
+      "cbse-g11-physics-ch03-st4"
+     ],
+     "note": "Bohr's model (Cl 11 chemistry); centripetal force (Cl 11 physics)"
+    },
+    {
+     "name": "Line spectra of hydrogen; de Broglie's explanation of Bohr's postulate",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-physics-ch12-st2",
+      "cbse-g12-physics-ch11-st3"
+     ],
+     "note": "Energy levels; de Broglie relation"
+    }
+   ]
+  },
+  {
+   "sheetName": "Nuclei",
+   "name": "Nuclei",
+   "subtopics": [
+    {
+     "name": "Atomic masses, composition and size of the nucleus",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-physics-ch12-st1",
+      "cbse-g9-science-ch07-st4"
+     ],
+     "note": "Isotopes and mass number (Cl 9)"
+    },
+    {
+     "name": "Mass-energy relation, mass defect and binding energy per nucleon",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-physics-ch13-st1"
+     ],
+     "note": "Composition of nucleus; E = mc^2 and unit conversions"
+    },
+    {
+     "name": "Nuclear force; nuclear fission and fusion",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-physics-ch13-st2"
+     ],
+     "note": "Binding energy curve"
+    }
+   ]
+  },
+  {
+   "sheetName": "Semiconductor Electronics",
+   "name": "Semiconductor Electronics: Materials, Devices and Simple Circuits",
+   "subtopics": [
+    {
+     "name": "Classification of metals, semiconductors and insulators; energy bands",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-physics-ch03-st1"
+     ],
+     "note": "Conductors and insulators; drift of charge carriers"
+    },
+    {
+     "name": "Intrinsic and extrinsic semiconductors: n-type and p-type",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-physics-ch14-st1",
+      "cbse-g11-chemistry-ch03-st2"
+     ],
+     "note": "Group 14 elements and valence electrons (Cl 11 chemistry); energy bands"
+    },
+    {
+     "name": "p-n junction diode: forward and reverse bias, I-V characteristics",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-physics-ch14-st2"
+     ],
+     "note": "Extrinsic semiconductors"
+    },
+    {
+     "name": "Diode as a rectifier: half-wave and full-wave",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-physics-ch14-st3",
+      "cbse-g12-physics-ch07-st1"
+     ],
+     "note": "p-n junction; AC voltage"
+    }
+   ]
+  }
+ ]
+}

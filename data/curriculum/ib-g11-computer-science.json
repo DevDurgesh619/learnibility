@@ -1,0 +1,937 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "ib-g11-computer-science",
+  "board": "ib",
+  "grade": 11,
+  "stream": "science",
+  "slug": "computer-science",
+  "name": "Computer Science",
+  "programme": "IB DP Computer Science SL/HL (NEW guide, first exam May 2027)",
+  "examPattern": "IB DP – graded 1–7; recommended 150 h SL / 240 h HL; exams May (Hindi May only). HL: Paper 1 (Theme A + case study) 2 h, 80 marks (40%) – Section A 56 + case study 24 (4 challenge questions); Paper 2 (Theme B, Java/Python) 2 h, ~80 marks (40%, UNVERIFIED); IA computational solution 30 marks (20%). SL: P1 1 h 15 (50 marks), P2 1 h 15, IA 30%.",
+  "chapterCount": 12,
+  "questionTarget": 1146
+ },
+ "items": [
+  {
+   "id": "ib-g11-computer-science-ch01",
+   "subjectId": "ib-g11-computer-science",
+   "order": 1,
+   "name": "A1.1 Computer Hardware and Operation",
+   "teachingPeriods": 15,
+   "subtopicIds": [
+    "ib-g11-computer-science-ch01-st1",
+    "ib-g11-computer-science-ch01-st2",
+    "ib-g11-computer-science-ch01-st3",
+    "ib-g11-computer-science-ch01-st4",
+    "ib-g11-computer-science-ch01-st5"
+   ]
+  },
+  {
+   "id": "ib-g11-computer-science-ch02",
+   "subjectId": "ib-g11-computer-science",
+   "order": 2,
+   "name": "A1.2 Data Representation and Computer Logic",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "ib-g11-computer-science-ch02-st1",
+    "ib-g11-computer-science-ch02-st2",
+    "ib-g11-computer-science-ch02-st3",
+    "ib-g11-computer-science-ch02-st4",
+    "ib-g11-computer-science-ch02-st5"
+   ]
+  },
+  {
+   "id": "ib-g11-computer-science-ch03",
+   "subjectId": "ib-g11-computer-science",
+   "order": 3,
+   "name": "A1.3 Operating Systems and Control Systems",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "ib-g11-computer-science-ch03-st1",
+    "ib-g11-computer-science-ch03-st2",
+    "ib-g11-computer-science-ch03-st3",
+    "ib-g11-computer-science-ch03-st4",
+    "ib-g11-computer-science-ch03-st5"
+   ]
+  },
+  {
+   "id": "ib-g11-computer-science-ch04",
+   "subjectId": "ib-g11-computer-science",
+   "order": 4,
+   "name": "A1.4 Translation (HL)",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "ib-g11-computer-science-ch04-st1",
+    "ib-g11-computer-science-ch04-st2",
+    "ib-g11-computer-science-ch04-st3"
+   ]
+  },
+  {
+   "id": "ib-g11-computer-science-ch05",
+   "subjectId": "ib-g11-computer-science",
+   "order": 5,
+   "name": "A2.1 Network Fundamentals and A2.2 Network Architecture",
+   "teachingPeriods": 15,
+   "subtopicIds": [
+    "ib-g11-computer-science-ch05-st1",
+    "ib-g11-computer-science-ch05-st2",
+    "ib-g11-computer-science-ch05-st3",
+    "ib-g11-computer-science-ch05-st4",
+    "ib-g11-computer-science-ch05-st5"
+   ]
+  },
+  {
+   "id": "ib-g11-computer-science-ch06",
+   "subjectId": "ib-g11-computer-science",
+   "order": 6,
+   "name": "A2.3 Data Transmission",
+   "teachingPeriods": 15,
+   "subtopicIds": [
+    "ib-g11-computer-science-ch06-st1",
+    "ib-g11-computer-science-ch06-st2",
+    "ib-g11-computer-science-ch06-st3",
+    "ib-g11-computer-science-ch06-st4",
+    "ib-g11-computer-science-ch06-st5"
+   ]
+  },
+  {
+   "id": "ib-g11-computer-science-ch07",
+   "subjectId": "ib-g11-computer-science",
+   "order": 7,
+   "name": "A2.4 Network Security",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g11-computer-science-ch07-st1",
+    "ib-g11-computer-science-ch07-st2",
+    "ib-g11-computer-science-ch07-st3",
+    "ib-g11-computer-science-ch07-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-computer-science-ch08",
+   "subjectId": "ib-g11-computer-science",
+   "order": 8,
+   "name": "B1.1 Approaches to Computational Thinking",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "ib-g11-computer-science-ch08-st1",
+    "ib-g11-computer-science-ch08-st2",
+    "ib-g11-computer-science-ch08-st3",
+    "ib-g11-computer-science-ch08-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-computer-science-ch09",
+   "subjectId": "ib-g11-computer-science",
+   "order": 9,
+   "name": "B2.1 Programming Fundamentals and B2.3 Programming Constructs",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "ib-g11-computer-science-ch09-st1",
+    "ib-g11-computer-science-ch09-st2",
+    "ib-g11-computer-science-ch09-st3",
+    "ib-g11-computer-science-ch09-st4",
+    "ib-g11-computer-science-ch09-st5"
+   ]
+  },
+  {
+   "id": "ib-g11-computer-science-ch10",
+   "subjectId": "ib-g11-computer-science",
+   "order": 10,
+   "name": "B2.2 Data Structures",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "ib-g11-computer-science-ch10-st1",
+    "ib-g11-computer-science-ch10-st2",
+    "ib-g11-computer-science-ch10-st3",
+    "ib-g11-computer-science-ch10-st4"
+   ]
+  },
+  {
+   "id": "ib-g11-computer-science-ch11",
+   "subjectId": "ib-g11-computer-science",
+   "order": 11,
+   "name": "B2.4 Programming Algorithms",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "ib-g11-computer-science-ch11-st1",
+    "ib-g11-computer-science-ch11-st2",
+    "ib-g11-computer-science-ch11-st3",
+    "ib-g11-computer-science-ch11-st4",
+    "ib-g11-computer-science-ch11-st5"
+   ]
+  },
+  {
+   "id": "ib-g11-computer-science-ch12",
+   "subjectId": "ib-g11-computer-science",
+   "order": 12,
+   "name": "B2.5 File Processing",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "ib-g11-computer-science-ch12-st1",
+    "ib-g11-computer-science-ch12-st2",
+    "ib-g11-computer-science-ch12-st3"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "ib-g11-computer-science-ch01-st1",
+   "chapterId": "ib-g11-computer-science-ch01",
+   "order": 1,
+   "name": "Functions of the CPU: ALU, CU, registers and the fetch-decode-execute cycle",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Inputs, processing and outputs of a computer system (MYP Design)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch01-st2",
+   "chapterId": "ib-g11-computer-science-ch01",
+   "order": 2,
+   "name": "GPUs and the differences between CPU and GPU architecture",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch01-st1"
+   ],
+   "prerequisiteNote": "Functions of the CPU",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch01-st3",
+   "chapterId": "ib-g11-computer-science-ch01",
+   "order": 3,
+   "name": "Primary memory: RAM, ROM, cache and their role in performance",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch01-st1"
+   ],
+   "prerequisiteNote": "Fetch-decode-execute cycle",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch01-st4",
+   "chapterId": "ib-g11-computer-science-ch01",
+   "order": 4,
+   "name": "Secondary storage and lossless versus lossy compression",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch01-st3"
+   ],
+   "prerequisiteNote": "Primary memory; binary units of storage",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch01-st5",
+   "chapterId": "ib-g11-computer-science-ch01",
+   "order": 5,
+   "name": "Cloud computing service models: SaaS, PaaS and IaaS",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch01-st4"
+   ],
+   "prerequisiteNote": "Secondary storage; client and server idea",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch02-st1",
+   "chapterId": "ib-g11-computer-science-ch02",
+   "order": 1,
+   "name": "Binary and hexadecimal number systems and conversions",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch02-st1"
+   ],
+   "prerequisiteNote": "Place value and powers (MYP maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch02-st2",
+   "chapterId": "ib-g11-computer-science-ch02",
+   "order": 2,
+   "name": "Representing integers, characters, colours, images and sound in binary",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch02-st1"
+   ],
+   "prerequisiteNote": "Binary and hexadecimal",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch02-st3",
+   "chapterId": "ib-g11-computer-science-ch02",
+   "order": 3,
+   "name": "Logic gates (AND, OR, NOT, NAND, NOR, XOR, XNOR) and truth tables",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch02-st1"
+   ],
+   "prerequisiteNote": "Binary values as true and false",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch02-st4",
+   "chapterId": "ib-g11-computer-science-ch02",
+   "order": 4,
+   "name": "Boolean expressions and logic circuit diagrams",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch02-st3"
+   ],
+   "prerequisiteNote": "Logic gates and truth tables",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch02-st5",
+   "chapterId": "ib-g11-computer-science-ch02",
+   "order": 5,
+   "name": "Simplifying logic with Boolean algebra and Karnaugh maps (HL)",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch02-st4",
+    "ib-g9-maths-ch12-st1"
+   ],
+   "prerequisiteNote": "Boolean expressions; set notation (MYP maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch03-st1",
+   "chapterId": "ib-g11-computer-science-ch03",
+   "order": 1,
+   "name": "Role and functions of an operating system: memory, file, device and process management",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch01-st1",
+    "ib-g11-computer-science-ch01-st3"
+   ],
+   "prerequisiteNote": "CPU and memory hierarchy",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch03-st2",
+   "chapterId": "ib-g11-computer-science-ch03",
+   "order": 2,
+   "name": "Scheduling approaches: first-come first-served, round robin, priority, multilevel queue",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch03-st1"
+   ],
+   "prerequisiteNote": "Process management by the OS",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch03-st3",
+   "chapterId": "ib-g11-computer-science-ch03",
+   "order": 3,
+   "name": "Polling versus interrupt handling",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch01-st1",
+    "ib-g11-computer-science-ch03-st1"
+   ],
+   "prerequisiteNote": "Fetch-decode-execute cycle; OS device management",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch03-st4",
+   "chapterId": "ib-g11-computer-science-ch03",
+   "order": 4,
+   "name": "Multitasking, deadlock and resource contention (HL)",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch03-st2"
+   ],
+   "prerequisiteNote": "Scheduling algorithms",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch03-st5",
+   "chapterId": "ib-g11-computer-science-ch03",
+   "order": 5,
+   "name": "Control systems: sensors, actuators, feedback loops and embedded systems",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch03-st3"
+   ],
+   "prerequisiteNote": "Polling and interrupts; input and output devices",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch04-st1",
+   "chapterId": "ib-g11-computer-science-ch04",
+   "order": 1,
+   "name": "Interpreters versus compilers: advantages and trade-offs",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch01-st1"
+   ],
+   "prerequisiteNote": "Fetch-decode-execute cycle; high- and low-level languages",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch04-st2",
+   "chapterId": "ib-g11-computer-science-ch04",
+   "order": 2,
+   "name": "Translation stages: lexical analysis, syntax analysis, code generation and optimisation",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch04-st1"
+   ],
+   "prerequisiteNote": "Interpreters versus compilers",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch04-st3",
+   "chapterId": "ib-g11-computer-science-ch04",
+   "order": 3,
+   "name": "Bytecode, virtual machines and just-in-time compilation",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch04-st1"
+   ],
+   "prerequisiteNote": "Interpreters and compilers",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch05-st1",
+   "chapterId": "ib-g11-computer-science-ch05",
+   "order": 1,
+   "name": "Types of network: LAN, WAN, PAN, VPN and the internet",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Computer systems as connected devices",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch05-st2",
+   "chapterId": "ib-g11-computer-science-ch05",
+   "order": 2,
+   "name": "Network devices: switches, routers, access points, modems and NICs",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch05-st1"
+   ],
+   "prerequisiteNote": "Types of network",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch05-st3",
+   "chapterId": "ib-g11-computer-science-ch05",
+   "order": 3,
+   "name": "Network topologies: star, mesh and hybrid",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch05-st2"
+   ],
+   "prerequisiteNote": "Network devices",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch05-st4",
+   "chapterId": "ib-g11-computer-science-ch05",
+   "order": 4,
+   "name": "Client-server and peer-to-peer models",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch05-st1"
+   ],
+   "prerequisiteNote": "Network types and topologies",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch05-st5",
+   "chapterId": "ib-g11-computer-science-ch05",
+   "order": 5,
+   "name": "Network segmentation and subnetting",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch02-st1",
+    "ib-g11-computer-science-ch05-st3"
+   ],
+   "prerequisiteNote": "Binary representation of numbers",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch06-st1",
+   "chapterId": "ib-g11-computer-science-ch06",
+   "order": 1,
+   "name": "TCP/IP model layers and common protocols (HTTP/S, TCP, UDP, IP, DNS, DHCP)",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch05-st4"
+   ],
+   "prerequisiteNote": "Client-server model",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch06-st2",
+   "chapterId": "ib-g11-computer-science-ch06",
+   "order": 2,
+   "name": "Packet switching, packet structure and error checking",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch06-st1"
+   ],
+   "prerequisiteNote": "TCP/IP layers",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch06-st3",
+   "chapterId": "ib-g11-computer-science-ch06",
+   "order": 3,
+   "name": "IP addressing: IPv4, IPv6, public, private, static and dynamic addresses",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch02-st1",
+    "ib-g11-computer-science-ch06-st1"
+   ],
+   "prerequisiteNote": "Binary and hexadecimal",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch06-st4",
+   "chapterId": "ib-g11-computer-science-ch06",
+   "order": 4,
+   "name": "Static versus dynamic routing (HL)",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch06-st2",
+    "ib-g11-computer-science-ch05-st2"
+   ],
+   "prerequisiteNote": "Packet switching; routers",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch06-st5",
+   "chapterId": "ib-g11-computer-science-ch06",
+   "order": 5,
+   "name": "Transmission media: wired versus wireless, bandwidth and latency",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch05-st2"
+   ],
+   "prerequisiteNote": "Network devices",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch07-st1",
+   "chapterId": "ib-g11-computer-science-ch07",
+   "order": 1,
+   "name": "Common vulnerabilities and threats: malware, phishing, DoS and man-in-the-middle",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch06-st1"
+   ],
+   "prerequisiteNote": "Network models and protocols",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch07-st2",
+   "chapterId": "ib-g11-computer-science-ch07",
+   "order": 2,
+   "name": "Firewalls, proxy servers and intrusion detection",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch07-st1",
+    "ib-g11-computer-science-ch06-st2"
+   ],
+   "prerequisiteNote": "Network threats; packet structure",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch07-st3",
+   "chapterId": "ib-g11-computer-science-ch07",
+   "order": 3,
+   "name": "Symmetric and asymmetric encryption",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch02-st2",
+    "ib-g11-computer-science-ch07-st1"
+   ],
+   "prerequisiteNote": "Binary data representation; network threats",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch07-st4",
+   "chapterId": "ib-g11-computer-science-ch07",
+   "order": 4,
+   "name": "Digital certificates, digital signatures and hashing",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch07-st3"
+   ],
+   "prerequisiteNote": "Asymmetric encryption",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch08-st1",
+   "chapterId": "ib-g11-computer-science-ch08",
+   "order": 1,
+   "name": "Decomposition, pattern recognition, abstraction and algorithmic design",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Following step-by-step instructions; problem-solving (MYP Design)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch08-st2",
+   "chapterId": "ib-g11-computer-science-ch08",
+   "order": 2,
+   "name": "Representing algorithms with flowcharts and pseudocode",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch08-st1"
+   ],
+   "prerequisiteNote": "Algorithmic design",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch08-st3",
+   "chapterId": "ib-g11-computer-science-ch08",
+   "order": 3,
+   "name": "Tracing algorithms with trace tables",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch08-st2"
+   ],
+   "prerequisiteNote": "Flowcharts and pseudocode",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch08-st4",
+   "chapterId": "ib-g11-computer-science-ch08",
+   "order": 4,
+   "name": "Applying computational thinking to real-world problems",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch08-st1"
+   ],
+   "prerequisiteNote": "Decomposition and abstraction",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch09-st1",
+   "chapterId": "ib-g11-computer-science-ch09",
+   "order": 1,
+   "name": "Variables, constants and primitive data types",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch02-st2",
+    "ib-g11-computer-science-ch08-st2"
+   ],
+   "prerequisiteNote": "Representing data in binary",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch09-st2",
+   "chapterId": "ib-g11-computer-science-ch09",
+   "order": 2,
+   "name": "String manipulation: indexing, slicing, searching and concatenation",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch09-st1"
+   ],
+   "prerequisiteNote": "Variables and data types",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch09-st3",
+   "chapterId": "ib-g11-computer-science-ch09",
+   "order": 3,
+   "name": "Selection and repetition: if-else, for and while loops",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch08-st2",
+    "ib-g11-computer-science-ch02-st4"
+   ],
+   "prerequisiteNote": "Flowcharts; Boolean expressions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch09-st4",
+   "chapterId": "ib-g11-computer-science-ch09",
+   "order": 4,
+   "name": "Functions and methods: parameters, return values and scope",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch09-st3"
+   ],
+   "prerequisiteNote": "Selection and loops",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch09-st5",
+   "chapterId": "ib-g11-computer-science-ch09",
+   "order": 5,
+   "name": "Exception handling, debugging and testing strategies",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch09-st4",
+    "ib-g11-computer-science-ch08-st3"
+   ],
+   "prerequisiteNote": "Functions and loops; trace tables",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch10-st1",
+   "chapterId": "ib-g11-computer-science-ch10",
+   "order": 1,
+   "name": "Static and dynamic arrays and lists: 1D and 2D",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch09-st3",
+    "ib-g11-computer-science-ch09-st2"
+   ],
+   "prerequisiteNote": "Loops and indexing",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch10-st2",
+   "chapterId": "ib-g11-computer-science-ch10",
+   "order": 2,
+   "name": "Stacks: push, pop, peek and applications",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch10-st1"
+   ],
+   "prerequisiteNote": "Arrays and lists",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch10-st3",
+   "chapterId": "ib-g11-computer-science-ch10",
+   "order": 3,
+   "name": "Queues: enqueue, dequeue and applications",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch10-st1"
+   ],
+   "prerequisiteNote": "Arrays and lists",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch10-st4",
+   "chapterId": "ib-g11-computer-science-ch10",
+   "order": 4,
+   "name": "Choosing an appropriate data structure for a problem",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch10-st2",
+    "ib-g11-computer-science-ch10-st3"
+   ],
+   "prerequisiteNote": "Arrays, stacks and queues",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch11-st1",
+   "chapterId": "ib-g11-computer-science-ch11",
+   "order": 1,
+   "name": "Time and space complexity using Big O notation",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch09-st3",
+    "ib-g11-computer-science-ch08-st3"
+   ],
+   "prerequisiteNote": "Loops; tracing algorithms",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch11-st2",
+   "chapterId": "ib-g11-computer-science-ch11",
+   "order": 2,
+   "name": "Linear and binary search",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch10-st1",
+    "ib-g11-computer-science-ch11-st1"
+   ],
+   "prerequisiteNote": "Arrays; Big O",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch11-st3",
+   "chapterId": "ib-g11-computer-science-ch11",
+   "order": 3,
+   "name": "Bubble sort and selection sort",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch10-st1",
+    "ib-g11-computer-science-ch09-st3"
+   ],
+   "prerequisiteNote": "Arrays and nested loops",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch11-st4",
+   "chapterId": "ib-g11-computer-science-ch11",
+   "order": 4,
+   "name": "Recursion and recursive algorithms (HL)",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch09-st4",
+    "ib-g11-computer-science-ch10-st2"
+   ],
+   "prerequisiteNote": "Functions and the call stack",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch11-st5",
+   "chapterId": "ib-g11-computer-science-ch11",
+   "order": 5,
+   "name": "Comparing algorithm efficiency empirically",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch11-st1",
+    "ib-g11-computer-science-ch11-st3"
+   ],
+   "prerequisiteNote": "Big O; searching and sorting",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch12-st1",
+   "chapterId": "ib-g11-computer-science-ch12",
+   "order": 1,
+   "name": "Opening, reading and closing text files",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch09-st2",
+    "ib-g11-computer-science-ch09-st3"
+   ],
+   "prerequisiteNote": "Strings and loops",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch12-st2",
+   "chapterId": "ib-g11-computer-science-ch12",
+   "order": 2,
+   "name": "Writing and appending to files",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch12-st1"
+   ],
+   "prerequisiteNote": "Reading files",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g11-computer-science-ch12-st3",
+   "chapterId": "ib-g11-computer-science-ch12",
+   "order": 3,
+   "name": "Processing records from files into data structures",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g11-computer-science-ch12-st1",
+    "ib-g11-computer-science-ch10-st1"
+   ],
+   "prerequisiteNote": "Files; arrays and lists",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

@@ -1,0 +1,458 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cbse-g12-entrepreneurship",
+  "board": "cbse",
+  "grade": 12,
+  "stream": "commerce",
+  "slug": "entrepreneurship",
+  "name": "Entrepreneurship",
+  "programme": "CBSE Class 12 Entrepreneurship (066)",
+  "textbook": "CBSE Entrepreneurship XII textbook (066) – 6 units",
+  "examPattern": "CBSE Board exam, 3 h; SQP 2026-27 – 'no change in question paper design'. 50% competency-based, 20% MCQ, 30% SA/LA, ~33% internal choice. Theory 70 + Project 30. 34 questions: 18×1, 6×2, 5×3, 5×5 (2025-26 SQP).",
+  "chapterCount": 6,
+  "questionTarget": 684
+ },
+ "items": [
+  {
+   "id": "cbse-g12-entrepreneurship-ch01",
+   "subjectId": "cbse-g12-entrepreneurship",
+   "order": 1,
+   "name": "Entrepreneurial Opportunity",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cbse-g12-entrepreneurship-ch01-st1",
+    "cbse-g12-entrepreneurship-ch01-st2",
+    "cbse-g12-entrepreneurship-ch01-st3",
+    "cbse-g12-entrepreneurship-ch01-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-entrepreneurship-ch02",
+   "subjectId": "cbse-g12-entrepreneurship",
+   "order": 2,
+   "name": "Entrepreneurial Planning",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g12-entrepreneurship-ch02-st1",
+    "cbse-g12-entrepreneurship-ch02-st2",
+    "cbse-g12-entrepreneurship-ch02-st3",
+    "cbse-g12-entrepreneurship-ch02-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-entrepreneurship-ch03",
+   "subjectId": "cbse-g12-entrepreneurship",
+   "order": 3,
+   "name": "Enterprise Marketing",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cbse-g12-entrepreneurship-ch03-st1",
+    "cbse-g12-entrepreneurship-ch03-st2",
+    "cbse-g12-entrepreneurship-ch03-st3",
+    "cbse-g12-entrepreneurship-ch03-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-entrepreneurship-ch04",
+   "subjectId": "cbse-g12-entrepreneurship",
+   "order": 4,
+   "name": "Enterprise Growth Strategies",
+   "teachingPeriods": 15,
+   "subtopicIds": [
+    "cbse-g12-entrepreneurship-ch04-st1",
+    "cbse-g12-entrepreneurship-ch04-st2",
+    "cbse-g12-entrepreneurship-ch04-st3",
+    "cbse-g12-entrepreneurship-ch04-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-entrepreneurship-ch05",
+   "subjectId": "cbse-g12-entrepreneurship",
+   "order": 5,
+   "name": "Business Arithmetic",
+   "teachingPeriods": 24,
+   "subtopicIds": [
+    "cbse-g12-entrepreneurship-ch05-st1",
+    "cbse-g12-entrepreneurship-ch05-st2",
+    "cbse-g12-entrepreneurship-ch05-st3",
+    "cbse-g12-entrepreneurship-ch05-st4",
+    "cbse-g12-entrepreneurship-ch05-st5"
+   ]
+  },
+  {
+   "id": "cbse-g12-entrepreneurship-ch06",
+   "subjectId": "cbse-g12-entrepreneurship",
+   "order": 6,
+   "name": "Resource Mobilisation",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g12-entrepreneurship-ch06-st1",
+    "cbse-g12-entrepreneurship-ch06-st2",
+    "cbse-g12-entrepreneurship-ch06-st3",
+    "cbse-g12-entrepreneurship-ch06-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cbse-g12-entrepreneurship-ch01-st1",
+   "chapterId": "cbse-g12-entrepreneurship-ch01",
+   "order": 1,
+   "name": "Sensing entrepreneurial opportunities: factors and the idea field (natural resources, knowledge, trends)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-entrepreneurship-ch03-st2"
+   ],
+   "prerequisiteNote": "Idea generation and opportunity assessment (Entrepreneurship XI ch 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-entrepreneurship-ch01-st2",
+   "chapterId": "cbse-g12-entrepreneurship-ch01",
+   "order": 2,
+   "name": "Environment scanning and the PESTLE / SWOT analysis",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-entrepreneurship-ch01-st1"
+   ],
+   "prerequisiteNote": "Sensing opportunities; dimensions of business environment (Business Studies XII ch 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-entrepreneurship-ch01-st3",
+   "chapterId": "cbse-g12-entrepreneurship-ch01",
+   "order": 3,
+   "name": "Problem identification, idea generation (brainstorming, mind-mapping) and selection of an idea",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-entrepreneurship-ch01-st2",
+    "cbse-g11-entrepreneurship-ch04-st2"
+   ],
+   "prerequisiteNote": "Design thinking (Entrepreneurship XI ch 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-entrepreneurship-ch01-st4",
+   "chapterId": "cbse-g12-entrepreneurship-ch01",
+   "order": 4,
+   "name": "Transforming ideas into opportunities: feasibility (technical, financial, market)",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-entrepreneurship-ch01-st3"
+   ],
+   "prerequisiteNote": "Idea selection; feasibility study (Entrepreneurship XI)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-entrepreneurship-ch02-st1",
+   "chapterId": "cbse-g12-entrepreneurship-ch02",
+   "order": 1,
+   "name": "Forms of business organisation for a new venture and their selection",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-entrepreneurship-ch03-st4"
+   ],
+   "prerequisiteNote": "Forms of business ownership (Entrepreneurship XI ch 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-entrepreneurship-ch02-st2",
+   "chapterId": "cbse-g12-entrepreneurship-ch02",
+   "order": 2,
+   "name": "Business plan: components and preparation (organisational, marketing, financial plan)",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-entrepreneurship-ch02-st1",
+    "cbse-g11-entrepreneurship-ch03-st3"
+   ],
+   "prerequisiteNote": "Business plan basics (Entrepreneurship XI)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-entrepreneurship-ch02-st3",
+   "chapterId": "cbse-g12-entrepreneurship-ch02",
+   "order": 3,
+   "name": "Operational plan: production, inventory and quality planning",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-entrepreneurship-ch02-st2"
+   ],
+   "prerequisiteNote": "Components of a business plan",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-entrepreneurship-ch02-st4",
+   "chapterId": "cbse-g12-entrepreneurship-ch02",
+   "order": 4,
+   "name": "Project report and pitching to investors",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-entrepreneurship-ch02-st2"
+   ],
+   "prerequisiteNote": "Business plan; presenting financial estimates",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-entrepreneurship-ch03-st1",
+   "chapterId": "cbse-g12-entrepreneurship-ch03",
+   "order": 1,
+   "name": "Goals of marketing and the marketing mix for an enterprise",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-entrepreneurship-ch05-st4"
+   ],
+   "prerequisiteNote": "Marketing mix 4Ps (Entrepreneurship XI ch 5)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-entrepreneurship-ch03-st2",
+   "chapterId": "cbse-g12-entrepreneurship-ch03",
+   "order": 2,
+   "name": "Unique selling proposition, branding, packaging and labelling",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-entrepreneurship-ch03-st1"
+   ],
+   "prerequisiteNote": "Marketing mix; product positioning",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-entrepreneurship-ch03-st3",
+   "chapterId": "cbse-g12-entrepreneurship-ch03",
+   "order": 3,
+   "name": "Pricing strategies: cost-based, competition-based, skimming and penetration",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-entrepreneurship-ch03-st1",
+    "cbse-g11-entrepreneurship-ch06-st1"
+   ],
+   "prerequisiteNote": "Unit price and unit cost (Entrepreneurship XI ch 6)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-entrepreneurship-ch03-st4",
+   "chapterId": "cbse-g12-entrepreneurship-ch03",
+   "order": 4,
+   "name": "Promotion and distribution: advertising, sales promotion, digital marketing and channels",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-entrepreneurship-ch03-st1"
+   ],
+   "prerequisiteNote": "Marketing mix: promotion and place",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-entrepreneurship-ch04-st1",
+   "chapterId": "cbse-g12-entrepreneurship-ch04",
+   "order": 1,
+   "name": "Need for growth and growth strategies of an enterprise",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g12-entrepreneurship-ch01-st4"
+   ],
+   "prerequisiteNote": "Opportunity assessment; meaning of business expansion",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-entrepreneurship-ch04-st2",
+   "chapterId": "cbse-g12-entrepreneurship-ch04",
+   "order": 2,
+   "name": "Franchising: types, advantages and limitations",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-entrepreneurship-ch04-st1"
+   ],
+   "prerequisiteNote": "Growth strategies; brand value",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-entrepreneurship-ch04-st3",
+   "chapterId": "cbse-g12-entrepreneurship-ch04",
+   "order": 3,
+   "name": "Mergers and acquisitions",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-entrepreneurship-ch04-st1"
+   ],
+   "prerequisiteNote": "Growth strategies; forms of companies (Business Studies XI ch 2)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-entrepreneurship-ch04-st4",
+   "chapterId": "cbse-g12-entrepreneurship-ch04",
+   "order": 4,
+   "name": "Value addition and product-line expansion",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-entrepreneurship-ch04-st1",
+    "cbse-g12-entrepreneurship-ch03-st2"
+   ],
+   "prerequisiteNote": "Branding and USP",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-entrepreneurship-ch05-st1",
+   "chapterId": "cbse-g12-entrepreneurship-ch05",
+   "order": 1,
+   "name": "Unit of sale, unit price, unit cost and unit margin for different business types",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-entrepreneurship-ch06-st1"
+   ],
+   "prerequisiteNote": "Unit price and unit cost (Entrepreneurship XI ch 6)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-entrepreneurship-ch05-st2",
+   "chapterId": "cbse-g12-entrepreneurship-ch05",
+   "order": 2,
+   "name": "Break-even point and margin of safety",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-entrepreneurship-ch05-st1",
+    "cbse-g11-entrepreneurship-ch06-st2"
+   ],
+   "prerequisiteNote": "Fixed and variable costs; break-even (Entrepreneurship XI)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-entrepreneurship-ch05-st3",
+   "chapterId": "cbse-g12-entrepreneurship-ch05",
+   "order": 3,
+   "name": "Working capital management and inventory valuation (EOQ, stock turnover)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-entrepreneurship-ch05-st1",
+    "cbse-g11-entrepreneurship-ch06-st3"
+   ],
+   "prerequisiteNote": "Working capital computation (Entrepreneurship XI)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-entrepreneurship-ch05-st4",
+   "chapterId": "cbse-g12-entrepreneurship-ch05",
+   "order": 4,
+   "name": "Financial ratios: ROI, return on equity, current ratio and debt-equity ratio",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-entrepreneurship-ch05-st2",
+    "cbse-g11-entrepreneurship-ch06-st4"
+   ],
+   "prerequisiteNote": "ROI and ROE (Entrepreneurship XI); ratios and percentages (Maths Cl 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-entrepreneurship-ch05-st5",
+   "chapterId": "cbse-g12-entrepreneurship-ch05",
+   "order": 5,
+   "name": "Cash flow projections and the income statement of a small enterprise",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-entrepreneurship-ch05-st3"
+   ],
+   "prerequisiteNote": "Working capital; cash inflows and outflows",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-entrepreneurship-ch06-st1",
+   "chapterId": "cbse-g12-entrepreneurship-ch06",
+   "order": 1,
+   "name": "Capital requirement: fixed and working capital estimation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-entrepreneurship-ch05-st3"
+   ],
+   "prerequisiteNote": "Working capital management",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-entrepreneurship-ch06-st2",
+   "chapterId": "cbse-g12-entrepreneurship-ch06",
+   "order": 2,
+   "name": "Angel investors, venture capital and the stages of funding",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-entrepreneurship-ch06-st1",
+    "cbse-g11-entrepreneurship-ch07-st3"
+   ],
+   "prerequisiteNote": "Sources of finance for startups (Entrepreneurship XI ch 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-entrepreneurship-ch06-st3",
+   "chapterId": "cbse-g12-entrepreneurship-ch06",
+   "order": 3,
+   "name": "Raising funds through the stock market: IPO, SME exchange and SEBI regulation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-entrepreneurship-ch06-st2"
+   ],
+   "prerequisiteNote": "Primary market and SEBI (Business Studies XII ch 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-entrepreneurship-ch06-st4",
+   "chapterId": "cbse-g12-entrepreneurship-ch06",
+   "order": 4,
+   "name": "Mobilising non-financial resources: technology, mentors, incubators and networks",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g12-entrepreneurship-ch06-st1"
+   ],
+   "prerequisiteNote": "Types of resources (Entrepreneurship XI ch 7)",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

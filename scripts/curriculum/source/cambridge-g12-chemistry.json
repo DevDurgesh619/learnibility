@@ -1,0 +1,463 @@
+{
+  "subjectId": "cambridge-g12-chemistry",
+  "chapters": [
+    {
+      "name": "Lattice Energy",
+      "subtopics": [
+        {
+          "name": "Lattice energy, enthalpy of atomisation and electron affinity: definitions",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-chemistry-ch05-st1",
+            "cambridge-g11-chemistry-ch02-st3"
+          ],
+          "note": "Standard enthalpy change definitions; ionisation energies (AS ch 2, 5)"
+        },
+        {
+          "name": "Constructing Born–Haber cycles and calculating lattice energy",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-chemistry-ch01-st1",
+            "cambridge-g11-chemistry-ch05-st3"
+          ],
+          "note": "Lattice energy definitions; Hess's law energy cycles (AS ch 5)"
+        },
+        {
+          "name": "Effect of ionic charge and radius on lattice energy",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-chemistry-ch01-st2",
+            "cambridge-g11-chemistry-ch01-st2"
+          ],
+          "note": "Born–Haber cycles; ionic radius trends (AS ch 1)"
+        },
+        {
+          "name": "Enthalpies of solution and hydration; solubility and thermal stability trends of Group 2 compounds",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-chemistry-ch01-st3",
+            "cambridge-g11-chemistry-ch10-st3"
+          ],
+          "note": "Lattice energy and ionic radius; Group 2 thermal decomposition and solubility (AS ch 10)"
+        }
+      ]
+    },
+    {
+      "name": "Electrochemistry",
+      "subtopics": [
+        {
+          "name": "Electrolysis: Faraday's laws, F = Le and calculating mass and volume of products",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g9-chemistry-ch06-st3",
+            "cambridge-g11-chemistry-ch01-st5"
+          ],
+          "note": "Half-equations at electrodes (IGCSE ch 6); mole calculations (AS ch 1)"
+        },
+        {
+          "name": "Standard electrode potentials and the standard hydrogen electrode; standard cell potentials",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-chemistry-ch06-st3"
+          ],
+          "note": "Balancing redox equations with half-equations (AS ch 6)"
+        },
+        {
+          "name": "Using E° values to predict the feasibility of reactions and the direction of electron flow",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-chemistry-ch02-st2"
+          ],
+          "note": "Standard electrode potentials; oxidising and reducing agents"
+        },
+        {
+          "name": "The Nernst equation and effect of concentration on electrode potential",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-chemistry-ch02-st2",
+            "cambridge-g11-chemistry-ch07-st1"
+          ],
+          "note": "Standard electrode potentials; Le Chatelier's principle (AS ch 7); logarithms (maths)"
+        }
+      ]
+    },
+    {
+      "sheetName": "Further aspects of equilibria",
+      "name": "Further Aspects of Equilibria",
+      "subtopics": [
+        {
+          "name": "pH, Kw, Ka and pKa: calculations for strong and weak acids and strong bases",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-chemistry-ch07-st4",
+            "cambridge-g11-chemistry-ch07-st2"
+          ],
+          "note": "Brønsted–Lowry acids and Kc expressions (AS ch 7); logarithms (maths)"
+        },
+        {
+          "name": "Buffer solutions: how they work and calculating their pH; buffers in blood",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-chemistry-ch03-st1"
+          ],
+          "note": "pH and Ka calculations; Le Chatelier's principle"
+        },
+        {
+          "name": "pH titration curves and choice of indicator",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-chemistry-ch03-st1",
+            "cambridge-g10-chemistry-ch11-st4"
+          ],
+          "note": "pH calculations; acid–base titration practice (IGCSE ch 22)"
+        },
+        {
+          "name": "Solubility product Ksp and the common ion effect",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-chemistry-ch07-st2"
+          ],
+          "note": "Kc expressions and equilibrium calculations (AS ch 7)"
+        },
+        {
+          "name": "Partition coefficients between two immiscible solvents",
+          "weight": "L",
+          "prereq": [
+            "cambridge-g11-chemistry-ch07-st2"
+          ],
+          "note": "Equilibrium constant expressions (AS ch 7)"
+        }
+      ]
+    },
+    {
+      "sheetName": "Reaction kinetics",
+      "name": "Reaction Kinetics",
+      "subtopics": [
+        {
+          "name": "Rate equations, orders of reaction and rate constants",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-chemistry-ch08-st1"
+          ],
+          "note": "Calculating rates from experimental data (AS ch 8)"
+        },
+        {
+          "name": "Determining order from concentration–time and rate–concentration graphs; half-life",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-chemistry-ch04-st1"
+          ],
+          "note": "Rate equations; gradients and tangents of graphs (maths)"
+        },
+        {
+          "name": "Rate-determining step and deducing mechanisms from rate equations",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-chemistry-ch04-st1",
+            "cambridge-g11-chemistry-ch15-st3"
+          ],
+          "note": "Rate equations; SN1 and SN2 mechanisms (AS ch 16)"
+        },
+        {
+          "name": "Homogeneous and heterogeneous catalysis; effect of temperature on k and Arrhenius equation",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-chemistry-ch04-st1",
+            "cambridge-g11-chemistry-ch08-st3"
+          ],
+          "note": "Rate constants; catalysts and Boltzmann distribution (AS ch 8)"
+        }
+      ]
+    },
+    {
+      "name": "Entropy and Gibbs Free Energy",
+      "subtopics": [
+        {
+          "name": "Entropy, S: disorder, predicting the sign of ΔS and calculating entropy change",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-chemistry-ch04-st3"
+          ],
+          "note": "States of matter and arrangement of particles (AS ch 4)"
+        },
+        {
+          "name": "Gibbs free energy: ΔG = ΔH – TΔS and feasibility of reactions",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-chemistry-ch05-st1",
+            "cambridge-g11-chemistry-ch05-st3"
+          ],
+          "note": "Entropy change; enthalpy change and Hess's law (AS ch 5)"
+        },
+        {
+          "name": "Effect of temperature on feasibility; linking ΔG to E°cell",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-chemistry-ch05-st2",
+            "cambridge-g12-chemistry-ch02-st3"
+          ],
+          "note": "Gibbs free energy; standard cell potentials"
+        }
+      ]
+    },
+    {
+      "name": "Transition Elements",
+      "subtopics": [
+        {
+          "name": "General properties of transition elements: electronic configuration, variable oxidation states and catalytic activity",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-chemistry-ch02-st2",
+            "cambridge-g10-chemistry-ch02-st4"
+          ],
+          "note": "Electronic configurations (AS ch 2); transition elements (IGCSE ch 13)"
+        },
+        {
+          "name": "Complex ions: ligands, coordination number, geometry and stereoisomerism in complexes",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-chemistry-ch06-st1",
+            "cambridge-g11-chemistry-ch03-st3",
+            "cambridge-g11-chemistry-ch13-st4"
+          ],
+          "note": "VSEPR shapes (AS ch 4); geometrical and optical isomerism (AS ch 14)"
+        },
+        {
+          "name": "Splitting of d orbitals and the origin of colour in complexes",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-chemistry-ch06-st2"
+          ],
+          "note": "Complex ions; d-orbital shapes"
+        },
+        {
+          "name": "Ligand exchange and stability constants Kstab",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-chemistry-ch06-st2",
+            "cambridge-g12-chemistry-ch03-st4"
+          ],
+          "note": "Complex ions; equilibrium constant expressions"
+        },
+        {
+          "name": "Redox chemistry of transition elements: MnO4⁻ and Cr2O7²⁻ titrations",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-chemistry-ch06-st1",
+            "cambridge-g12-chemistry-ch02-st3"
+          ],
+          "note": "Variable oxidation states; predicting feasibility with E°"
+        }
+      ]
+    },
+    {
+      "sheetName": "Arenes",
+      "name": "Benzene and its Compounds",
+      "subtopics": [
+        {
+          "name": "Bonding in benzene: delocalised π system and stability compared with the Kekulé model",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-chemistry-ch13-st3",
+            "cambridge-g12-chemistry-ch01-st2"
+          ],
+          "note": "σ and π bonds (AS ch 14); enthalpy cycles"
+        },
+        {
+          "name": "Electrophilic substitution reactions of arenes: nitration, halogenation and Friedel–Crafts",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-chemistry-ch07-st1",
+            "cambridge-g11-chemistry-ch13-st2"
+          ],
+          "note": "Delocalisation in benzene; electrophiles and mechanisms (AS ch 14)"
+        },
+        {
+          "name": "Phenol: acidity and reactions with bases, sodium and bromine water",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-chemistry-ch07-st2",
+            "cambridge-g12-chemistry-ch03-st1"
+          ],
+          "note": "Electrophilic substitution; Ka and acid strength"
+        },
+        {
+          "name": "Directing effects of substituents on the benzene ring",
+          "weight": "L",
+          "prereq": [
+            "cambridge-g12-chemistry-ch07-st2"
+          ],
+          "note": "Electrophilic substitution mechanism"
+        }
+      ]
+    },
+    {
+      "sheetName": "Carboxylic acids & derivatives",
+      "name": "Carboxylic Acids and their Derivatives",
+      "subtopics": [
+        {
+          "name": "Acidity of carboxylic acids and chlorine-substituted acids",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-chemistry-ch03-st1",
+            "cambridge-g11-chemistry-ch16-st3"
+          ],
+          "note": "pKa (Further Aspects of Equilibria); carboxylic acids (AS ch 17)"
+        },
+        {
+          "name": "Acyl chlorides: preparation and reactions with water, alcohols, phenols and amines",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-chemistry-ch08-st1",
+            "cambridge-g11-chemistry-ch15-st2"
+          ],
+          "note": "Carboxylic acids; nucleophilic substitution (AS ch 16)"
+        },
+        {
+          "name": "Addition–elimination mechanism of acyl chlorides",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-chemistry-ch08-st2"
+          ],
+          "note": "Acyl chloride reactions; nucleophiles and curly arrows"
+        }
+      ]
+    },
+    {
+      "sheetName": "Nitrogen compounds",
+      "name": "Organic Nitrogen Compounds",
+      "subtopics": [
+        {
+          "name": "Amines: preparation, basicity and relative basic strength of ammonia, ethylamine and phenylamine",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-chemistry-ch12-st1",
+            "cambridge-g12-chemistry-ch07-st3"
+          ],
+          "note": "Ammonia as a base (AS ch 13); phenol and delocalisation"
+        },
+        {
+          "name": "Phenylamine and azo dyes: diazotisation and coupling",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-chemistry-ch09-st1",
+            "cambridge-g12-chemistry-ch07-st2"
+          ],
+          "note": "Amines; electrophilic substitution of arenes"
+        },
+        {
+          "name": "Amides: formation, hydrolysis and reduction",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-chemistry-ch08-st2"
+          ],
+          "note": "Acyl chloride reactions with amines"
+        },
+        {
+          "name": "Amino acids: zwitterions, isoelectric point and peptide bonds; electrophoresis",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-chemistry-ch09-st1",
+            "cambridge-g12-chemistry-ch09-st3"
+          ],
+          "note": "Basicity of amines; acidity of carboxylic acids; amides"
+        }
+      ]
+    },
+    {
+      "name": "Polymerisation",
+      "subtopics": [
+        {
+          "name": "Condensation polymers: polyesters and polyamides including proteins",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-chemistry-ch08-st2",
+            "cambridge-g12-chemistry-ch09-st4",
+            "cambridge-g10-chemistry-ch09-st3"
+          ],
+          "note": "Esterification and amide formation; condensation polymers (IGCSE ch 20)"
+        },
+        {
+          "name": "Predicting monomers and repeat units for addition and condensation polymers",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g12-chemistry-ch10-st1",
+            "cambridge-g11-chemistry-ch14-st4"
+          ],
+          "note": "Condensation polymers; addition polymerisation (AS ch 15)"
+        },
+        {
+          "name": "Degradable polymers: biodegradability and photodegradability",
+          "weight": "L",
+          "prereq": [
+            "cambridge-g12-chemistry-ch10-st1"
+          ],
+          "note": "Polyesters and polyamides; hydrolysis of esters and amides"
+        }
+      ]
+    },
+    {
+      "sheetName": "Analytical techniques",
+      "name": "Analytical Chemistry",
+      "subtopics": [
+        {
+          "name": "Thin-layer and gas–liquid chromatography: Rf and retention times",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g10-chemistry-ch10-st4"
+          ],
+          "note": "Paper chromatography and Rf values (IGCSE ch 21)"
+        },
+        {
+          "name": "Carbon-13 NMR spectroscopy: number and environment of carbon atoms",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-chemistry-ch18-st1"
+          ],
+          "note": "Infrared and mass spectra (AS ch 22)"
+        },
+        {
+          "name": "Proton (¹H) NMR: chemical shift, integration, splitting (n+1 rule) and D2O exchange",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-chemistry-ch11-st2"
+          ],
+          "note": "Carbon-13 NMR; chemical environments in molecules"
+        }
+      ]
+    },
+    {
+      "sheetName": "Organic synthesis",
+      "name": "Organic Synthesis",
+      "subtopics": [
+        {
+          "name": "Chirality in drug synthesis: separating optical isomers and using natural chiral molecules",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g11-chemistry-ch13-st4"
+          ],
+          "note": "Optical isomerism and chiral centres (AS ch 14)"
+        },
+        {
+          "name": "Multi-step synthetic routes: identifying functional groups and reagents to convert one compound to another",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g11-chemistry-ch18-st3",
+            "cambridge-g12-chemistry-ch08-st2",
+            "cambridge-g12-chemistry-ch09-st1"
+          ],
+          "note": "AS synthetic routes; acyl chloride and amine reactions"
+        },
+        {
+          "name": "Combining analytical data (IR, MS and NMR) to identify an unknown organic compound",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g12-chemistry-ch11-st3",
+            "cambridge-g11-chemistry-ch18-st2"
+          ],
+          "note": "Proton NMR; mass spectrometry (AS ch 22)"
+        }
+      ]
+    }
+  ]
+}

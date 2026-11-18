@@ -1,0 +1,753 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cbse-g11-chemistry",
+  "board": "cbse",
+  "grade": 11,
+  "stream": "science",
+  "slug": "chemistry",
+  "name": "Chemistry",
+  "programme": "CBSE Class 11 Chemistry (043)",
+  "textbook": "NCERT Chemistry XI Part I + II (043) – 9 units assessed",
+  "examPattern": "School-conducted annual exam (no CBSE SQP for Class XI); 3 h; same marks split and question design as Class XII; 50% competency-based, 20% MCQ, 30% short/long answer (Circular 30/2024). Theory 70 + Practical 30. Assumed 33 questions (XII template).",
+  "chapterCount": 9,
+  "questionTarget": 999
+ },
+ "items": [
+  {
+   "id": "cbse-g11-chemistry-ch01",
+   "subjectId": "cbse-g11-chemistry",
+   "order": 1,
+   "name": "Some Basic Concepts of Chemistry",
+   "teachingPeriods": 22,
+   "subtopicIds": [
+    "cbse-g11-chemistry-ch01-st1",
+    "cbse-g11-chemistry-ch01-st2",
+    "cbse-g11-chemistry-ch01-st3",
+    "cbse-g11-chemistry-ch01-st4",
+    "cbse-g11-chemistry-ch01-st5"
+   ]
+  },
+  {
+   "id": "cbse-g11-chemistry-ch02",
+   "subjectId": "cbse-g11-chemistry",
+   "order": 2,
+   "name": "Structure of Atom",
+   "teachingPeriods": 22,
+   "subtopicIds": [
+    "cbse-g11-chemistry-ch02-st1",
+    "cbse-g11-chemistry-ch02-st2",
+    "cbse-g11-chemistry-ch02-st3",
+    "cbse-g11-chemistry-ch02-st4",
+    "cbse-g11-chemistry-ch02-st5"
+   ]
+  },
+  {
+   "id": "cbse-g11-chemistry-ch03",
+   "subjectId": "cbse-g11-chemistry",
+   "order": 3,
+   "name": "Classification of Elements and Periodicity in Properties",
+   "teachingPeriods": 16,
+   "subtopicIds": [
+    "cbse-g11-chemistry-ch03-st1",
+    "cbse-g11-chemistry-ch03-st2",
+    "cbse-g11-chemistry-ch03-st3",
+    "cbse-g11-chemistry-ch03-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-chemistry-ch04",
+   "subjectId": "cbse-g11-chemistry",
+   "order": 4,
+   "name": "Chemical Bonding and Molecular Structure",
+   "teachingPeriods": 26,
+   "subtopicIds": [
+    "cbse-g11-chemistry-ch04-st1",
+    "cbse-g11-chemistry-ch04-st2",
+    "cbse-g11-chemistry-ch04-st3",
+    "cbse-g11-chemistry-ch04-st4",
+    "cbse-g11-chemistry-ch04-st5"
+   ]
+  },
+  {
+   "id": "cbse-g11-chemistry-ch05",
+   "subjectId": "cbse-g11-chemistry",
+   "order": 5,
+   "name": "Thermodynamics",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g11-chemistry-ch05-st1",
+    "cbse-g11-chemistry-ch05-st2",
+    "cbse-g11-chemistry-ch05-st3",
+    "cbse-g11-chemistry-ch05-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-chemistry-ch06",
+   "subjectId": "cbse-g11-chemistry",
+   "order": 6,
+   "name": "Equilibrium",
+   "teachingPeriods": 22,
+   "subtopicIds": [
+    "cbse-g11-chemistry-ch06-st1",
+    "cbse-g11-chemistry-ch06-st2",
+    "cbse-g11-chemistry-ch06-st3",
+    "cbse-g11-chemistry-ch06-st4",
+    "cbse-g11-chemistry-ch06-st5"
+   ]
+  },
+  {
+   "id": "cbse-g11-chemistry-ch07",
+   "subjectId": "cbse-g11-chemistry",
+   "order": 7,
+   "name": "Redox Reactions",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g11-chemistry-ch07-st1",
+    "cbse-g11-chemistry-ch07-st2",
+    "cbse-g11-chemistry-ch07-st3",
+    "cbse-g11-chemistry-ch07-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-chemistry-ch08",
+   "subjectId": "cbse-g11-chemistry",
+   "order": 8,
+   "name": "Organic Chemistry: Some Basic Principles and Techniques",
+   "teachingPeriods": 24,
+   "subtopicIds": [
+    "cbse-g11-chemistry-ch08-st1",
+    "cbse-g11-chemistry-ch08-st2",
+    "cbse-g11-chemistry-ch08-st3",
+    "cbse-g11-chemistry-ch08-st4",
+    "cbse-g11-chemistry-ch08-st5"
+   ]
+  },
+  {
+   "id": "cbse-g11-chemistry-ch09",
+   "subjectId": "cbse-g11-chemistry",
+   "order": 9,
+   "name": "Hydrocarbons",
+   "teachingPeriods": 21,
+   "subtopicIds": [
+    "cbse-g11-chemistry-ch09-st1",
+    "cbse-g11-chemistry-ch09-st2",
+    "cbse-g11-chemistry-ch09-st3",
+    "cbse-g11-chemistry-ch09-st4",
+    "cbse-g11-chemistry-ch09-st5"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cbse-g11-chemistry-ch01-st1",
+   "chapterId": "cbse-g11-chemistry-ch01",
+   "order": 1,
+   "name": "Importance of chemistry, nature of matter and properties of matter with SI units",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g9-science-ch04-st1"
+   ],
+   "prerequisiteNote": "Pure substances and mixtures (Cl 9); SI units",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch01-st2",
+   "chapterId": "cbse-g11-chemistry-ch01",
+   "order": 2,
+   "name": "Laws of chemical combination, Dalton's atomic theory, atomic and molecular masses",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g9-science-ch08-st1",
+    "cbse-g9-science-ch08-st2"
+   ],
+   "prerequisiteNote": "Laws of chemical combination and atomic mass (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch01-st3",
+   "chapterId": "cbse-g11-chemistry-ch01",
+   "order": 3,
+   "name": "Mole concept and molar mass; percentage composition, empirical and molecular formulae",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch01-st2",
+    "cbse-g9-science-ch08-st4"
+   ],
+   "prerequisiteNote": "Mole concept (Cl 9); percentages (Cl 7-8 maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch01-st4",
+   "chapterId": "cbse-g11-chemistry-ch01",
+   "order": 4,
+   "name": "Stoichiometry and calculations based on balanced equations; limiting reagent",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch01-st3",
+    "cbse-g10-science-ch01-st2"
+   ],
+   "prerequisiteNote": "Balancing chemical equations (Cl 10); Mole concept",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch01-st5",
+   "chapterId": "cbse-g11-chemistry-ch01",
+   "order": 5,
+   "name": "Concentration terms: mass percent, mole fraction, molarity and molality",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch01-st3",
+    "cbse-g9-science-ch04-st2"
+   ],
+   "prerequisiteNote": "Concentration of solutions (Cl 9); Mole concept",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch02-st1",
+   "chapterId": "cbse-g11-chemistry-ch02",
+   "order": 1,
+   "name": "Discovery of subatomic particles and atomic models of Thomson and Rutherford",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g9-science-ch07-st2"
+   ],
+   "prerequisiteNote": "Atomic models (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch02-st2",
+   "chapterId": "cbse-g11-chemistry-ch02",
+   "order": 2,
+   "name": "Electromagnetic radiation, Planck's quantum theory and photoelectric effect",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch02-st1"
+   ],
+   "prerequisiteNote": "Wave relation v = f lambda (Cl 11 physics waves); Rutherford model",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch02-st3",
+   "chapterId": "cbse-g11-chemistry-ch02",
+   "order": 3,
+   "name": "Bohr's model for hydrogen and line spectra",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch02-st2",
+    "cbse-g9-science-ch07-st3"
+   ],
+   "prerequisiteNote": "Electron shells (Cl 9); Planck's quantum theory",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch02-st4",
+   "chapterId": "cbse-g11-chemistry-ch02",
+   "order": 4,
+   "name": "Quantum mechanical model: quantum numbers, shapes of orbitals",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch02-st3"
+   ],
+   "prerequisiteNote": "Bohr's model; de Broglie relation and uncertainty principle",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch02-st5",
+   "chapterId": "cbse-g11-chemistry-ch02",
+   "order": 5,
+   "name": "Filling of orbitals: Aufbau, Pauli and Hund's rule; electronic configuration",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch02-st4"
+   ],
+   "prerequisiteNote": "Quantum numbers and orbitals",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch03-st1",
+   "chapterId": "cbse-g11-chemistry-ch03",
+   "order": 1,
+   "name": "Why classify elements: Mendeleev's periodic table and the modern periodic law",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-science-ch03-st1"
+   ],
+   "prerequisiteNote": "Metals and non-metals properties (Cl 10); atomic number (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch03-st2",
+   "chapterId": "cbse-g11-chemistry-ch03",
+   "order": 2,
+   "name": "Electronic configurations and types of elements: s, p, d, f blocks",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch03-st1",
+    "cbse-g11-chemistry-ch02-st5"
+   ],
+   "prerequisiteNote": "Electronic configuration",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch03-st3",
+   "chapterId": "cbse-g11-chemistry-ch03",
+   "order": 3,
+   "name": "Periodic trends: atomic radius, ionisation enthalpy, electron gain enthalpy, electronegativity",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch03-st2"
+   ],
+   "prerequisiteNote": "s, p, d, f blocks; electronic configuration",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch03-st4",
+   "chapterId": "cbse-g11-chemistry-ch03",
+   "order": 4,
+   "name": "Periodicity of valence, oxidation states and chemical reactivity",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch03-st3"
+   ],
+   "prerequisiteNote": "Periodic trends; valency (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch04-st1",
+   "chapterId": "cbse-g11-chemistry-ch04",
+   "order": 1,
+   "name": "Kossel-Lewis approach: ionic and covalent bonds, Lewis structures and formal charge",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch03-st4",
+    "cbse-g10-science-ch04-st1"
+   ],
+   "prerequisiteNote": "Covalent bonding and electron-dot structures (Cl 10); Ionic compounds (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch04-st2",
+   "chapterId": "cbse-g11-chemistry-ch04",
+   "order": 2,
+   "name": "Bond parameters, resonance, polarity and dipole moment",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch04-st1",
+    "cbse-g11-chemistry-ch03-st3"
+   ],
+   "prerequisiteNote": "Lewis structures; electronegativity",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch04-st3",
+   "chapterId": "cbse-g11-chemistry-ch04",
+   "order": 3,
+   "name": "VSEPR theory and shapes of molecules",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch04-st1"
+   ],
+   "prerequisiteNote": "Lewis structures; lone pairs and bond pairs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch04-st4",
+   "chapterId": "cbse-g11-chemistry-ch04",
+   "order": 4,
+   "name": "Valence bond theory and hybridisation",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch04-st3",
+    "cbse-g11-chemistry-ch02-st4"
+   ],
+   "prerequisiteNote": "Shapes of orbitals; VSEPR theory",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch04-st5",
+   "chapterId": "cbse-g11-chemistry-ch04",
+   "order": 5,
+   "name": "Molecular orbital theory of homonuclear diatomics; hydrogen bonding",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch04-st4"
+   ],
+   "prerequisiteNote": "Hybridisation; orbital overlap; electronic configuration",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch05-st1",
+   "chapterId": "cbse-g11-chemistry-ch05",
+   "order": 1,
+   "name": "System, surroundings, state functions; work, heat and the first law",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-physics-ch11-st1"
+   ],
+   "prerequisiteNote": "Heat, internal energy and work (Cl 11 physics thermodynamics)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch05-st2",
+   "chapterId": "cbse-g11-chemistry-ch05",
+   "order": 2,
+   "name": "Enthalpy, heat capacity and measurement of delta U and delta H by calorimetry",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch05-st1",
+    "cbse-g11-physics-ch10-st2"
+   ],
+   "prerequisiteNote": "First law; calorimetry (Cl 11 physics)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch05-st3",
+   "chapterId": "cbse-g11-chemistry-ch05",
+   "order": 3,
+   "name": "Thermochemical equations, Hess's law and enthalpies of reactions",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch05-st2",
+    "cbse-g11-chemistry-ch01-st4"
+   ],
+   "prerequisiteNote": "Enthalpy change; Stoichiometry",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch05-st4",
+   "chapterId": "cbse-g11-chemistry-ch05",
+   "order": 4,
+   "name": "Spontaneity: entropy, Gibbs energy and equilibrium",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch05-st3"
+   ],
+   "prerequisiteNote": "Enthalpy; second law of thermodynamics (Cl 11 physics)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch06-st1",
+   "chapterId": "cbse-g11-chemistry-ch06",
+   "order": 1,
+   "name": "Dynamic equilibrium in physical and chemical processes; law of mass action",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch01-st5"
+   ],
+   "prerequisiteNote": "Concentration terms; reversible reactions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch06-st2",
+   "chapterId": "cbse-g11-chemistry-ch06",
+   "order": 2,
+   "name": "Equilibrium constants Kc and Kp; Le Chatelier's principle",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch06-st1",
+    "cbse-g11-chemistry-ch05-st4"
+   ],
+   "prerequisiteNote": "Law of mass action; Gibbs energy and equilibrium",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch06-st3",
+   "chapterId": "cbse-g11-chemistry-ch06",
+   "order": 3,
+   "name": "Acids, bases and ionisation; ionic product of water and pH",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch06-st2",
+    "cbse-g10-science-ch02-st3"
+   ],
+   "prerequisiteNote": "pH scale (Cl 10); logarithms (calculator use)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch06-st4",
+   "chapterId": "cbse-g11-chemistry-ch06",
+   "order": 4,
+   "name": "Ionisation of weak acids and bases, buffers, hydrolysis of salts",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch06-st3"
+   ],
+   "prerequisiteNote": "Ionic product of water and pH; equilibrium constant",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch06-st5",
+   "chapterId": "cbse-g11-chemistry-ch06",
+   "order": 5,
+   "name": "Solubility equilibria and the common ion effect",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch06-st4"
+   ],
+   "prerequisiteNote": "Ionisation constants; equilibrium constant",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch07-st1",
+   "chapterId": "cbse-g11-chemistry-ch07",
+   "order": 1,
+   "name": "Classical and electron-transfer ideas of oxidation and reduction",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g10-science-ch01-st4"
+   ],
+   "prerequisiteNote": "Oxidation and reduction (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch07-st2",
+   "chapterId": "cbse-g11-chemistry-ch07",
+   "order": 2,
+   "name": "Oxidation number and types of redox reactions",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch07-st1",
+    "cbse-g11-chemistry-ch03-st4"
+   ],
+   "prerequisiteNote": "Electron transfer; oxidation states",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch07-st3",
+   "chapterId": "cbse-g11-chemistry-ch07",
+   "order": 3,
+   "name": "Balancing redox reactions by oxidation number and half-reaction methods",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch07-st2",
+    "cbse-g11-chemistry-ch01-st4"
+   ],
+   "prerequisiteNote": "Oxidation number; balancing equations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch07-st4",
+   "chapterId": "cbse-g11-chemistry-ch07",
+   "order": 4,
+   "name": "Redox reactions and electrode processes",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch07-st3"
+   ],
+   "prerequisiteNote": "Balancing redox reactions; reactivity series (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch08-st1",
+   "chapterId": "cbse-g11-chemistry-ch08",
+   "order": 1,
+   "name": "Tetravalence of carbon, structural representations and classification of organic compounds",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch04-st4",
+    "cbse-g10-science-ch04-st2"
+   ],
+   "prerequisiteNote": "Versatile nature of carbon (Cl 10); hybridisation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch08-st2",
+   "chapterId": "cbse-g11-chemistry-ch08",
+   "order": 2,
+   "name": "IUPAC nomenclature of organic compounds; isomerism",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch08-st1",
+    "cbse-g10-science-ch04-st3"
+   ],
+   "prerequisiteNote": "Homologous series and functional groups (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch08-st3",
+   "chapterId": "cbse-g11-chemistry-ch08",
+   "order": 3,
+   "name": "Electronic displacements: inductive, resonance, electromeric and hyperconjugation; reaction intermediates",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch08-st1",
+    "cbse-g11-chemistry-ch04-st2"
+   ],
+   "prerequisiteNote": "Polarity and resonance; structural representations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch08-st4",
+   "chapterId": "cbse-g11-chemistry-ch08",
+   "order": 4,
+   "name": "Types of organic reactions and fission of covalent bonds",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch08-st3"
+   ],
+   "prerequisiteNote": "Electronic displacements",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch08-st5",
+   "chapterId": "cbse-g11-chemistry-ch08",
+   "order": 5,
+   "name": "Methods of purification and qualitative and quantitative analysis",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch08-st1",
+    "cbse-g9-science-ch04-st4"
+   ],
+   "prerequisiteNote": "Chromatography and distillation (Cl 9); empirical formula",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch09-st1",
+   "chapterId": "cbse-g11-chemistry-ch09",
+   "order": 1,
+   "name": "Alkanes: preparation, properties and conformations of ethane",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch08-st2"
+   ],
+   "prerequisiteNote": "IUPAC nomenclature",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch09-st2",
+   "chapterId": "cbse-g11-chemistry-ch09",
+   "order": 2,
+   "name": "Alkenes: geometrical isomerism, preparation and electrophilic addition (Markovnikov)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch09-st1",
+    "cbse-g11-chemistry-ch08-st3"
+   ],
+   "prerequisiteNote": "Alkanes; Electronic displacements and carbocations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch09-st3",
+   "chapterId": "cbse-g11-chemistry-ch09",
+   "order": 3,
+   "name": "Alkynes: acidic character and addition reactions",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch09-st2"
+   ],
+   "prerequisiteNote": "Alkenes; hybridisation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch09-st4",
+   "chapterId": "cbse-g11-chemistry-ch09",
+   "order": 4,
+   "name": "Aromatic hydrocarbons: benzene, aromaticity, electrophilic substitution and directive influence",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch09-st2",
+    "cbse-g11-chemistry-ch04-st2"
+   ],
+   "prerequisiteNote": "Resonance; electrophilic addition mechanisms",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-chemistry-ch09-st5",
+   "chapterId": "cbse-g11-chemistry-ch09",
+   "order": 5,
+   "name": "Carcinogenicity and toxicity of hydrocarbons",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-chemistry-ch09-st4"
+   ],
+   "prerequisiteNote": "Aromatic hydrocarbons",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

@@ -1,0 +1,918 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cambridge-g9-physics",
+  "board": "cambridge",
+  "grade": 9,
+  "stream": "none",
+  "slug": "physics",
+  "name": "Physics",
+  "programme": "Cambridge IGCSE Physics 0625 (2026–28)",
+  "textbook": "CUP Coursebook (25 chapters)",
+  "examPattern": "Extended: Paper 2 MCQ 45 min, 40 questions (30%) + Paper 4 Theory 1 h 15, 80 marks (50%, ~6–10 structured questions) + Paper 6 Alternative to Practical 1 h, 40 marks (20%) or Paper 5 Practical Test. Core uses P1 + P3. Grades A*–G.",
+  "chapterCount": 13,
+  "questionTarget": 1394
+ },
+ "items": [
+  {
+   "id": "cambridge-g9-physics-ch01",
+   "subjectId": "cambridge-g9-physics",
+   "order": 1,
+   "name": "Making measurements",
+   "teachingPeriods": 6,
+   "subtopicIds": [
+    "cambridge-g9-physics-ch01-st1",
+    "cambridge-g9-physics-ch01-st2",
+    "cambridge-g9-physics-ch01-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g9-physics-ch02",
+   "subjectId": "cambridge-g9-physics",
+   "order": 2,
+   "name": "Describing motion",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "cambridge-g9-physics-ch02-st1",
+    "cambridge-g9-physics-ch02-st2",
+    "cambridge-g9-physics-ch02-st3",
+    "cambridge-g9-physics-ch02-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g9-physics-ch03",
+   "subjectId": "cambridge-g9-physics",
+   "order": 3,
+   "name": "Forces and motion",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cambridge-g9-physics-ch03-st1",
+    "cambridge-g9-physics-ch03-st2",
+    "cambridge-g9-physics-ch03-st3",
+    "cambridge-g9-physics-ch03-st4",
+    "cambridge-g9-physics-ch03-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g9-physics-ch04",
+   "subjectId": "cambridge-g9-physics",
+   "order": 4,
+   "name": "Turning effects of forces",
+   "teachingPeriods": 6,
+   "subtopicIds": [
+    "cambridge-g9-physics-ch04-st1",
+    "cambridge-g9-physics-ch04-st2",
+    "cambridge-g9-physics-ch04-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g9-physics-ch05",
+   "subjectId": "cambridge-g9-physics",
+   "order": 5,
+   "name": "Forces and matter",
+   "teachingPeriods": 7,
+   "subtopicIds": [
+    "cambridge-g9-physics-ch05-st1",
+    "cambridge-g9-physics-ch05-st2",
+    "cambridge-g9-physics-ch05-st3",
+    "cambridge-g9-physics-ch05-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g9-physics-ch06",
+   "subjectId": "cambridge-g9-physics",
+   "order": 6,
+   "name": "Energy stores and transfers",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "cambridge-g9-physics-ch06-st1",
+    "cambridge-g9-physics-ch06-st2",
+    "cambridge-g9-physics-ch06-st3",
+    "cambridge-g9-physics-ch06-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g9-physics-ch07",
+   "subjectId": "cambridge-g9-physics",
+   "order": 7,
+   "name": "Energy resources",
+   "teachingPeriods": 7,
+   "subtopicIds": [
+    "cambridge-g9-physics-ch07-st1",
+    "cambridge-g9-physics-ch07-st2",
+    "cambridge-g9-physics-ch07-st3",
+    "cambridge-g9-physics-ch07-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g9-physics-ch08",
+   "subjectId": "cambridge-g9-physics",
+   "order": 8,
+   "name": "Work and power",
+   "teachingPeriods": 6,
+   "subtopicIds": [
+    "cambridge-g9-physics-ch08-st1",
+    "cambridge-g9-physics-ch08-st2",
+    "cambridge-g9-physics-ch08-st3"
+   ]
+  },
+  {
+   "id": "cambridge-g9-physics-ch09",
+   "subjectId": "cambridge-g9-physics",
+   "order": 9,
+   "name": "The kinetic particle model of matter",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "cambridge-g9-physics-ch09-st1",
+    "cambridge-g9-physics-ch09-st2",
+    "cambridge-g9-physics-ch09-st3",
+    "cambridge-g9-physics-ch09-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g9-physics-ch10",
+   "subjectId": "cambridge-g9-physics",
+   "order": 10,
+   "name": "Thermal properties of matter",
+   "teachingPeriods": 7,
+   "subtopicIds": [
+    "cambridge-g9-physics-ch10-st1",
+    "cambridge-g9-physics-ch10-st2",
+    "cambridge-g9-physics-ch10-st3",
+    "cambridge-g9-physics-ch10-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g9-physics-ch11",
+   "subjectId": "cambridge-g9-physics",
+   "order": 11,
+   "name": "Thermal energy transfers",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "cambridge-g9-physics-ch11-st1",
+    "cambridge-g9-physics-ch11-st2",
+    "cambridge-g9-physics-ch11-st3",
+    "cambridge-g9-physics-ch11-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g9-physics-ch12",
+   "subjectId": "cambridge-g9-physics",
+   "order": 12,
+   "name": "Sound",
+   "teachingPeriods": 7,
+   "subtopicIds": [
+    "cambridge-g9-physics-ch12-st1",
+    "cambridge-g9-physics-ch12-st2",
+    "cambridge-g9-physics-ch12-st3",
+    "cambridge-g9-physics-ch12-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g9-physics-ch13",
+   "subjectId": "cambridge-g9-physics",
+   "order": 13,
+   "name": "Light",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cambridge-g9-physics-ch13-st1",
+    "cambridge-g9-physics-ch13-st2",
+    "cambridge-g9-physics-ch13-st3",
+    "cambridge-g9-physics-ch13-st4",
+    "cambridge-g9-physics-ch13-st5"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cambridge-g9-physics-ch01-st1",
+   "chapterId": "cambridge-g9-physics-ch01",
+   "order": 1,
+   "name": "Measuring length, volume and time including multiple readings",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-maths-ch05-st4"
+   ],
+   "prerequisiteNote": "Using rulers, measuring cylinders and stopwatches (Lower Secondary); rounding and significant figures",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch01-st2",
+   "chapterId": "cambridge-g9-physics-ch01",
+   "order": 2,
+   "name": "Density: measuring and calculating ρ = m/V for liquids and regular and irregular solids",
+   "weight": "H",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch01-st1",
+    "cambridge-g8-science-ch03-st1"
+   ],
+   "prerequisiteNote": "Density (Lower Secondary Stage 9); volume of cuboids (IGCSE maths ch 7)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch01-st3",
+   "chapterId": "cambridge-g9-physics-ch01",
+   "order": 3,
+   "name": "Scalar and vector quantities and finding a resultant vector",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch01-st1",
+    "cambridge-g9-maths-ch11-st1"
+   ],
+   "prerequisiteNote": "Pythagoras' theorem (IGCSE maths ch 11); scale drawing",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch02-st1",
+   "chapterId": "cambridge-g9-physics-ch02",
+   "order": 1,
+   "name": "Speed and velocity: v = s/t and average speed",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Speed = distance / time (Lower Secondary Stage 8); rearranging formulae",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch02-st2",
+   "chapterId": "cambridge-g9-physics-ch02",
+   "order": 2,
+   "name": "Distance-time graphs and gradient as speed",
+   "weight": "H",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch02-st1",
+    "cambridge-g9-maths-ch10-st1"
+   ],
+   "prerequisiteNote": "Gradient of a straight line (IGCSE maths ch 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch02-st3",
+   "chapterId": "cambridge-g9-physics-ch02",
+   "order": 3,
+   "name": "Speed-time graphs, acceleration and distance from area under the graph",
+   "weight": "H",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch02-st2"
+   ],
+   "prerequisiteNote": "Distance-time graphs; area of triangles and trapezia",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch02-st4",
+   "chapterId": "cambridge-g9-physics-ch02",
+   "order": 4,
+   "name": "Acceleration of free fall g",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch02-st3"
+   ],
+   "prerequisiteNote": "Acceleration from a speed-time graph; weight and gravity (Lower Secondary)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch03-st1",
+   "chapterId": "cambridge-g9-physics-ch03",
+   "order": 1,
+   "name": "Mass, weight and gravitational field strength W = mg",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch02-st4"
+   ],
+   "prerequisiteNote": "Gravity as a force (Lower Secondary Stage 7-8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch03-st2",
+   "chapterId": "cambridge-g9-physics-ch03",
+   "order": 2,
+   "name": "Resultant force, Newton's laws and F = ma",
+   "weight": "H",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch03-st1",
+    "cambridge-g9-physics-ch01-st3"
+   ],
+   "prerequisiteNote": "Balanced and unbalanced forces (Lower Secondary); vector quantities",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch03-st3",
+   "chapterId": "cambridge-g9-physics-ch03",
+   "order": 3,
+   "name": "Friction, drag and terminal velocity",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch03-st2"
+   ],
+   "prerequisiteNote": "Resultant force; speed-time graphs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch03-st4",
+   "chapterId": "cambridge-g9-physics-ch03",
+   "order": 4,
+   "name": "Circular motion and the force towards the centre",
+   "weight": "L",
+   "teachingPeriods": 1,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch03-st2"
+   ],
+   "prerequisiteNote": "Resultant force; speed and velocity as vectors",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch03-st5",
+   "chapterId": "cambridge-g9-physics-ch03",
+   "order": 5,
+   "name": "Momentum, impulse and conservation of momentum",
+   "weight": "H",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch03-st2"
+   ],
+   "prerequisiteNote": "F = ma; velocity as a vector",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch04-st1",
+   "chapterId": "cambridge-g9-physics-ch04",
+   "order": 1,
+   "name": "Moment of a force as force × perpendicular distance",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch03-st2"
+   ],
+   "prerequisiteNote": "Forces as pushes and pulls; units N m",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch04-st2",
+   "chapterId": "cambridge-g9-physics-ch04",
+   "order": 2,
+   "name": "The principle of moments and equilibrium",
+   "weight": "H",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch04-st1"
+   ],
+   "prerequisiteNote": "Moment of a force; solving linear equations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch04-st3",
+   "chapterId": "cambridge-g9-physics-ch04",
+   "order": 3,
+   "name": "Centre of gravity and stability",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch04-st2"
+   ],
+   "prerequisiteNote": "Principle of moments; weight acting at a point",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch05-st1",
+   "chapterId": "cambridge-g9-physics-ch05",
+   "order": 1,
+   "name": "Effects of forces on shape: load-extension graphs, Hooke's law and limit of proportionality",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch03-st2"
+   ],
+   "prerequisiteNote": "Plotting graphs; direct proportion (IGCSE maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch05-st2",
+   "chapterId": "cambridge-g9-physics-ch05",
+   "order": 2,
+   "name": "Spring constant k = F/x",
+   "weight": "L",
+   "teachingPeriods": 1,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch05-st1"
+   ],
+   "prerequisiteNote": "Hooke's law; gradient of a straight line",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch05-st3",
+   "chapterId": "cambridge-g9-physics-ch05",
+   "order": 3,
+   "name": "Pressure p = F/A",
+   "weight": "H",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch03-st1"
+   ],
+   "prerequisiteNote": "Area of shapes; force in newtons",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch05-st4",
+   "chapterId": "cambridge-g9-physics-ch05",
+   "order": 4,
+   "name": "Pressure in liquids Δp = ρgΔh",
+   "weight": "H",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch05-st3",
+    "cambridge-g9-physics-ch01-st2"
+   ],
+   "prerequisiteNote": "Density; pressure p = F/A",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch06-st1",
+   "chapterId": "cambridge-g9-physics-ch06",
+   "order": 1,
+   "name": "Energy stores and transfers and the principle of conservation of energy",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch03-st3"
+   ],
+   "prerequisiteNote": "Conservation of energy (Lower Secondary Stage 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch06-st2",
+   "chapterId": "cambridge-g9-physics-ch06",
+   "order": 2,
+   "name": "Kinetic energy ½mv² and gravitational potential energy mgΔh",
+   "weight": "H",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch06-st1",
+    "cambridge-g9-physics-ch03-st1"
+   ],
+   "prerequisiteNote": "Speed; weight W = mg",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch06-st3",
+   "chapterId": "cambridge-g9-physics-ch06",
+   "order": 3,
+   "name": "Energy transfer diagrams and Sankey diagrams",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch06-st1"
+   ],
+   "prerequisiteNote": "Energy stores; reading diagrams to scale",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch06-st4",
+   "chapterId": "cambridge-g9-physics-ch06",
+   "order": 4,
+   "name": "Efficiency of energy transfers",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch06-st3"
+   ],
+   "prerequisiteNote": "Sankey diagrams; percentages",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch07-st1",
+   "chapterId": "cambridge-g9-physics-ch07",
+   "order": 1,
+   "name": "Non-renewable energy resources: fossil fuels and nuclear fission",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch06-st1"
+   ],
+   "prerequisiteNote": "Energy stores (chemical, nuclear)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch07-st2",
+   "chapterId": "cambridge-g9-physics-ch07",
+   "order": 2,
+   "name": "Renewable energy resources: solar, wind, hydroelectric, tidal, waves, geothermal and biofuels",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch07-st1"
+   ],
+   "prerequisiteNote": "Energy transfers; electricity generation by turbines",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch07-st3",
+   "chapterId": "cambridge-g9-physics-ch07",
+   "order": 3,
+   "name": "Comparing energy resources: availability, reliability, cost and environmental impact",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch07-st2",
+    "cambridge-g9-physics-ch06-st4"
+   ],
+   "prerequisiteNote": "Efficiency; renewable and non-renewable resources",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch07-st4",
+   "chapterId": "cambridge-g9-physics-ch07",
+   "order": 4,
+   "name": "The Sun as the main source of energy and nuclear fusion",
+   "weight": "L",
+   "teachingPeriods": 1,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch07-st2"
+   ],
+   "prerequisiteNote": "Energy resources; nuclear energy store",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch08-st1",
+   "chapterId": "cambridge-g9-physics-ch08",
+   "order": 1,
+   "name": "Work done W = Fd = ΔE",
+   "weight": "H",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch06-st2"
+   ],
+   "prerequisiteNote": "Kinetic and potential energy; forces in newtons",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch08-st2",
+   "chapterId": "cambridge-g9-physics-ch08",
+   "order": 2,
+   "name": "Power P = W/t = ΔE/t",
+   "weight": "H",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch08-st1"
+   ],
+   "prerequisiteNote": "Work done; time in seconds",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch08-st3",
+   "chapterId": "cambridge-g9-physics-ch08",
+   "order": 3,
+   "name": "Efficiency calculations using energy and power",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch08-st2",
+    "cambridge-g9-physics-ch06-st4"
+   ],
+   "prerequisiteNote": "Efficiency of energy transfers; percentages",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch09-st1",
+   "chapterId": "cambridge-g9-physics-ch09",
+   "order": 1,
+   "name": "States of matter and the particle model of solids, liquids and gases",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch03-st2"
+   ],
+   "prerequisiteNote": "Particle model (Lower Secondary Stage 7-8); heat and temperature (Stage 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch09-st2",
+   "chapterId": "cambridge-g9-physics-ch09",
+   "order": 2,
+   "name": "Brownian motion and gas pressure from particle collisions",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch09-st1",
+    "cambridge-g9-physics-ch05-st3"
+   ],
+   "prerequisiteNote": "Particle model; pressure p = F/A",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch09-st3",
+   "chapterId": "cambridge-g9-physics-ch09",
+   "order": 3,
+   "name": "Gas pressure and volume at constant temperature: pV = constant",
+   "weight": "H",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch09-st2"
+   ],
+   "prerequisiteNote": "Gas pressure; inverse proportion",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch09-st4",
+   "chapterId": "cambridge-g9-physics-ch09",
+   "order": 4,
+   "name": "Temperature, absolute zero and the Kelvin scale",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch09-st2"
+   ],
+   "prerequisiteNote": "Particle model; temperature in Celsius",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch10-st1",
+   "chapterId": "cambridge-g9-physics-ch10",
+   "order": 1,
+   "name": "Thermal expansion of solids, liquids and gases and its applications",
+   "weight": "L",
+   "teachingPeriods": 1,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch09-st1"
+   ],
+   "prerequisiteNote": "Particle model of solids, liquids and gases",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch10-st2",
+   "chapterId": "cambridge-g9-physics-ch10",
+   "order": 2,
+   "name": "Specific heat capacity: ΔE = mcΔT",
+   "weight": "H",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch09-st4",
+    "cambridge-g9-physics-ch06-st1"
+   ],
+   "prerequisiteNote": "Temperature and the Kelvin scale; energy stores",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch10-st3",
+   "chapterId": "cambridge-g9-physics-ch10",
+   "order": 3,
+   "name": "Melting, boiling and evaporation",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch09-st1",
+    "cambridge-g8-science-ch03-st5"
+   ],
+   "prerequisiteNote": "Cooling by evaporation (Lower Secondary Stage 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch10-st4",
+   "chapterId": "cambridge-g9-physics-ch10",
+   "order": 4,
+   "name": "Specific latent heat of fusion and vaporisation",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch10-st2",
+    "cambridge-g9-physics-ch10-st3"
+   ],
+   "prerequisiteNote": "Specific heat capacity; changes of state",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch11-st1",
+   "chapterId": "cambridge-g9-physics-ch11",
+   "order": 1,
+   "name": "Conduction: good and bad thermal conductors",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch09-st1",
+    "cambridge-g8-science-ch03-st4"
+   ],
+   "prerequisiteNote": "Ways of transferring thermal energy (Lower Secondary Stage 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch11-st2",
+   "chapterId": "cambridge-g9-physics-ch11",
+   "order": 2,
+   "name": "Convection and convection currents",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch11-st1",
+    "cambridge-g9-physics-ch10-st1"
+   ],
+   "prerequisiteNote": "Thermal expansion; density",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch11-st3",
+   "chapterId": "cambridge-g9-physics-ch11",
+   "order": 3,
+   "name": "Thermal radiation: infrared, surface colour and texture",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch11-st1"
+   ],
+   "prerequisiteNote": "EM radiation (preview of IGCSE Year 2); absorption and emission",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch11-st4",
+   "chapterId": "cambridge-g9-physics-ch11",
+   "order": 4,
+   "name": "Consequences and applications of thermal energy transfer, including Earth's energy balance",
+   "weight": "H",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch11-st2",
+    "cambridge-g9-physics-ch11-st3"
+   ],
+   "prerequisiteNote": "Conduction, convection and radiation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch12-st1",
+   "chapterId": "cambridge-g9-physics-ch12",
+   "order": 1,
+   "name": "Sound produced by vibrations and as a longitudinal wave: compressions and rarefactions",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g8-science-ch06-st1"
+   ],
+   "prerequisiteNote": "Loudness and pitch of sound (Lower Secondary Stage 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch12-st2",
+   "chapterId": "cambridge-g9-physics-ch12",
+   "order": 2,
+   "name": "Speed of sound in air and its measurement",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch12-st1",
+    "cambridge-g9-physics-ch02-st1"
+   ],
+   "prerequisiteNote": "Speed = distance / time",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch12-st3",
+   "chapterId": "cambridge-g9-physics-ch12",
+   "order": 3,
+   "name": "Pitch, loudness, frequency, amplitude and the range of human hearing",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch12-st1"
+   ],
+   "prerequisiteNote": "Loudness and pitch (Lower Secondary Stage 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch12-st4",
+   "chapterId": "cambridge-g9-physics-ch12",
+   "order": 4,
+   "name": "Echoes and ultrasound and their uses",
+   "weight": "L",
+   "teachingPeriods": 1,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch12-st2"
+   ],
+   "prerequisiteNote": "Speed of sound; reflection of waves",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch13-st1",
+   "chapterId": "cambridge-g9-physics-ch13",
+   "order": 1,
+   "name": "Reflection of light: law of reflection and plane mirror images",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch03-st1"
+   ],
+   "prerequisiteNote": "Measuring angles with a protractor; light travels in straight lines (Lower Secondary)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch13-st2",
+   "chapterId": "cambridge-g9-physics-ch13",
+   "order": 2,
+   "name": "Refraction of light: refractive index and n = sin i / sin r",
+   "weight": "H",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch13-st1",
+    "cambridge-g9-maths-ch03-st1"
+   ],
+   "prerequisiteNote": "Angle measurement; sine on a calculator (IGCSE maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch13-st3",
+   "chapterId": "cambridge-g9-physics-ch13",
+   "order": 3,
+   "name": "Total internal reflection, critical angle and optical fibres",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch13-st2"
+   ],
+   "prerequisiteNote": "Refraction; refractive index",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch13-st4",
+   "chapterId": "cambridge-g9-physics-ch13",
+   "order": 4,
+   "name": "Thin converging and diverging lenses: ray diagrams, real and virtual images",
+   "weight": "H",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch13-st2"
+   ],
+   "prerequisiteNote": "Refraction of light; drawing scale diagrams",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cambridge-g9-physics-ch13-st5",
+   "chapterId": "cambridge-g9-physics-ch13",
+   "order": 5,
+   "name": "Dispersion of light and the visible spectrum",
+   "weight": "L",
+   "teachingPeriods": 1,
+   "prerequisiteIds": [
+    "cambridge-g9-physics-ch13-st2"
+   ],
+   "prerequisiteNote": "Refraction; colours of light (Lower Secondary)",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

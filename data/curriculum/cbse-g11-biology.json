@@ -1,0 +1,1191 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cbse-g11-biology",
+  "board": "cbse",
+  "grade": 11,
+  "stream": "science",
+  "slug": "biology",
+  "name": "Biology",
+  "programme": "CBSE Class 11 Biology (044)",
+  "textbook": "NCERT Biology XI (044)",
+  "examPattern": "School-conducted annual exam (no CBSE SQP for Class XI); 3 h; same marks split and question design as Class XII; 50% competency-based, 20% MCQ, 30% short/long answer (Circular 30/2024). Theory 70 + Practical 30. Assumed 33 questions (XII template).",
+  "chapterCount": 19,
+  "questionTarget": 1809
+ },
+ "items": [
+  {
+   "id": "cbse-g11-biology-ch01",
+   "subjectId": "cbse-g11-biology",
+   "order": 1,
+   "name": "The Living World",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "cbse-g11-biology-ch01-st1",
+    "cbse-g11-biology-ch01-st2",
+    "cbse-g11-biology-ch01-st3"
+   ]
+  },
+  {
+   "id": "cbse-g11-biology-ch02",
+   "subjectId": "cbse-g11-biology",
+   "order": 2,
+   "name": "Biological Classification",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "cbse-g11-biology-ch02-st1",
+    "cbse-g11-biology-ch02-st2",
+    "cbse-g11-biology-ch02-st3",
+    "cbse-g11-biology-ch02-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-biology-ch03",
+   "subjectId": "cbse-g11-biology",
+   "order": 3,
+   "name": "Plant Kingdom",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cbse-g11-biology-ch03-st1",
+    "cbse-g11-biology-ch03-st2",
+    "cbse-g11-biology-ch03-st3",
+    "cbse-g11-biology-ch03-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-biology-ch04",
+   "subjectId": "cbse-g11-biology",
+   "order": 4,
+   "name": "Animal Kingdom",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "cbse-g11-biology-ch04-st1",
+    "cbse-g11-biology-ch04-st2",
+    "cbse-g11-biology-ch04-st3"
+   ]
+  },
+  {
+   "id": "cbse-g11-biology-ch05",
+   "subjectId": "cbse-g11-biology",
+   "order": 5,
+   "name": "Morphology of Flowering Plants",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cbse-g11-biology-ch05-st1",
+    "cbse-g11-biology-ch05-st2",
+    "cbse-g11-biology-ch05-st3",
+    "cbse-g11-biology-ch05-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-biology-ch06",
+   "subjectId": "cbse-g11-biology",
+   "order": 6,
+   "name": "Anatomy of Flowering Plants",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cbse-g11-biology-ch06-st1",
+    "cbse-g11-biology-ch06-st2",
+    "cbse-g11-biology-ch06-st3"
+   ]
+  },
+  {
+   "id": "cbse-g11-biology-ch07",
+   "subjectId": "cbse-g11-biology",
+   "order": 7,
+   "name": "Structural Organisation in Animals",
+   "teachingPeriods": 8,
+   "subtopicIds": [
+    "cbse-g11-biology-ch07-st1",
+    "cbse-g11-biology-ch07-st2",
+    "cbse-g11-biology-ch07-st3"
+   ]
+  },
+  {
+   "id": "cbse-g11-biology-ch08",
+   "subjectId": "cbse-g11-biology",
+   "order": 8,
+   "name": "Cell: The Unit of Life",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cbse-g11-biology-ch08-st1",
+    "cbse-g11-biology-ch08-st2",
+    "cbse-g11-biology-ch08-st3",
+    "cbse-g11-biology-ch08-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-biology-ch09",
+   "subjectId": "cbse-g11-biology",
+   "order": 9,
+   "name": "Biomolecules",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "cbse-g11-biology-ch09-st1",
+    "cbse-g11-biology-ch09-st2",
+    "cbse-g11-biology-ch09-st3"
+   ]
+  },
+  {
+   "id": "cbse-g11-biology-ch10",
+   "subjectId": "cbse-g11-biology",
+   "order": 10,
+   "name": "Cell Cycle and Cell Division",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "cbse-g11-biology-ch10-st1",
+    "cbse-g11-biology-ch10-st2",
+    "cbse-g11-biology-ch10-st3"
+   ]
+  },
+  {
+   "id": "cbse-g11-biology-ch11",
+   "subjectId": "cbse-g11-biology",
+   "order": 11,
+   "name": "Photosynthesis in Higher Plants",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cbse-g11-biology-ch11-st1",
+    "cbse-g11-biology-ch11-st2",
+    "cbse-g11-biology-ch11-st3",
+    "cbse-g11-biology-ch11-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-biology-ch12",
+   "subjectId": "cbse-g11-biology",
+   "order": 12,
+   "name": "Respiration in Plants",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "cbse-g11-biology-ch12-st1",
+    "cbse-g11-biology-ch12-st2",
+    "cbse-g11-biology-ch12-st3"
+   ]
+  },
+  {
+   "id": "cbse-g11-biology-ch13",
+   "subjectId": "cbse-g11-biology",
+   "order": 13,
+   "name": "Plant Growth and Development",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cbse-g11-biology-ch13-st1",
+    "cbse-g11-biology-ch13-st2",
+    "cbse-g11-biology-ch13-st3"
+   ]
+  },
+  {
+   "id": "cbse-g11-biology-ch14",
+   "subjectId": "cbse-g11-biology",
+   "order": 14,
+   "name": "Breathing and Exchange of Gases",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "cbse-g11-biology-ch14-st1",
+    "cbse-g11-biology-ch14-st2",
+    "cbse-g11-biology-ch14-st3",
+    "cbse-g11-biology-ch14-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-biology-ch15",
+   "subjectId": "cbse-g11-biology",
+   "order": 15,
+   "name": "Body Fluids and Circulation",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "cbse-g11-biology-ch15-st1",
+    "cbse-g11-biology-ch15-st2",
+    "cbse-g11-biology-ch15-st3",
+    "cbse-g11-biology-ch15-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-biology-ch16",
+   "subjectId": "cbse-g11-biology",
+   "order": 16,
+   "name": "Excretory Products and their Elimination",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "cbse-g11-biology-ch16-st1",
+    "cbse-g11-biology-ch16-st2",
+    "cbse-g11-biology-ch16-st3",
+    "cbse-g11-biology-ch16-st4"
+   ]
+  },
+  {
+   "id": "cbse-g11-biology-ch17",
+   "subjectId": "cbse-g11-biology",
+   "order": 17,
+   "name": "Locomotion and Movement",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "cbse-g11-biology-ch17-st1",
+    "cbse-g11-biology-ch17-st2",
+    "cbse-g11-biology-ch17-st3"
+   ]
+  },
+  {
+   "id": "cbse-g11-biology-ch18",
+   "subjectId": "cbse-g11-biology",
+   "order": 18,
+   "name": "Neural Control and Coordination",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "cbse-g11-biology-ch18-st1",
+    "cbse-g11-biology-ch18-st2",
+    "cbse-g11-biology-ch18-st3"
+   ]
+  },
+  {
+   "id": "cbse-g11-biology-ch19",
+   "subjectId": "cbse-g11-biology",
+   "order": 19,
+   "name": "Chemical Coordination and Integration",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "cbse-g11-biology-ch19-st1",
+    "cbse-g11-biology-ch19-st2",
+    "cbse-g11-biology-ch19-st3"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cbse-g11-biology-ch01-st1",
+   "chapterId": "cbse-g11-biology-ch01",
+   "order": 1,
+   "name": "What is living? Characteristics of living organisms",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g9-science-ch01-st1"
+   ],
+   "prerequisiteNote": "Cell theory and features of life (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch01-st2",
+   "chapterId": "cbse-g11-biology-ch01",
+   "order": 2,
+   "name": "Diversity in the living world: nomenclature and identification",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch01-st1",
+    "cbse-g9-science-ch11-st5"
+   ],
+   "prerequisiteNote": "Binomial nomenclature (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch01-st3",
+   "chapterId": "cbse-g11-biology-ch01",
+   "order": 3,
+   "name": "Taxonomic categories and taxonomical aids",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch01-st2",
+    "cbse-g9-science-ch11-st1"
+   ],
+   "prerequisiteNote": "Hierarchy of categories (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch02-st1",
+   "chapterId": "cbse-g11-biology-ch02",
+   "order": 1,
+   "name": "History of classification and Whittaker's five kingdom system",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch01-st3",
+    "cbse-g9-science-ch11-st2"
+   ],
+   "prerequisiteNote": "Five kingdom classification (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch02-st2",
+   "chapterId": "cbse-g11-biology-ch02",
+   "order": 2,
+   "name": "Kingdom Monera and Protista: features and examples",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch02-st1",
+    "cbse-g9-science-ch01-st4"
+   ],
+   "prerequisiteNote": "Prokaryotic and eukaryotic cells (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch02-st3",
+   "chapterId": "cbse-g11-biology-ch02",
+   "order": 3,
+   "name": "Kingdom Fungi: classes, nutrition and reproduction",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch02-st1",
+    "cbse-g8-science-ch02-st4"
+   ],
+   "prerequisiteNote": "Useful microorganisms (Cl 8); five kingdoms",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch02-st4",
+   "chapterId": "cbse-g11-biology-ch02",
+   "order": 4,
+   "name": "Viruses, viroids, prions and lichens",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch02-st2"
+   ],
+   "prerequisiteNote": "Monera and Protista; Harmful microorganisms (Cl 8)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch03-st1",
+   "chapterId": "cbse-g11-biology-ch03",
+   "order": 1,
+   "name": "Algae: classes, features and economic importance",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch02-st2",
+    "cbse-g9-science-ch11-st3"
+   ],
+   "prerequisiteNote": "Plant kingdom groups (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch03-st2",
+   "chapterId": "cbse-g11-biology-ch03",
+   "order": 2,
+   "name": "Bryophytes and pteridophytes",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch03-st1"
+   ],
+   "prerequisiteNote": "Algae; spore formation (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch03-st3",
+   "chapterId": "cbse-g11-biology-ch03",
+   "order": 3,
+   "name": "Gymnosperms and angiosperms",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch03-st2",
+    "cbse-g10-science-ch07-st3"
+   ],
+   "prerequisiteNote": "Sexual reproduction in flowering plants (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch03-st4",
+   "chapterId": "cbse-g11-biology-ch03",
+   "order": 4,
+   "name": "Plant life cycles and alternation of generations",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch03-st2",
+    "cbse-g11-biology-ch03-st3"
+   ],
+   "prerequisiteNote": "Bryophytes and pteridophytes; haploid and diploid (Cl 10 heredity)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch04-st1",
+   "chapterId": "cbse-g11-biology-ch04",
+   "order": 1,
+   "name": "Basis of classification: organisation, symmetry, germ layers, coelom, segmentation, notochord",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g9-science-ch11-st4"
+   ],
+   "prerequisiteNote": "Animal kingdom groups (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch04-st2",
+   "chapterId": "cbse-g11-biology-ch04",
+   "order": 2,
+   "name": "Non-chordate phyla: Porifera to Hemichordata",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch04-st1"
+   ],
+   "prerequisiteNote": "Basis of animal classification",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch04-st3",
+   "chapterId": "cbse-g11-biology-ch04",
+   "order": 3,
+   "name": "Phylum Chordata: classes from Cyclostomata to Mammalia",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch04-st1"
+   ],
+   "prerequisiteNote": "Basis of animal classification; vertebrate groups (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch05-st1",
+   "chapterId": "cbse-g11-biology-ch05",
+   "order": 1,
+   "name": "Root, stem and leaf: modifications and functions",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g9-science-ch02-st2"
+   ],
+   "prerequisiteNote": "Plant tissues (Cl 9); parts of a plant (Cl 6)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch05-st2",
+   "chapterId": "cbse-g11-biology-ch05",
+   "order": 2,
+   "name": "Inflorescence and the flower: aestivation, placentation and floral parts",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch05-st1",
+    "cbse-g10-science-ch07-st3"
+   ],
+   "prerequisiteNote": "Parts of a flower (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch05-st3",
+   "chapterId": "cbse-g11-biology-ch05",
+   "order": 3,
+   "name": "Fruit and seed structure (dicot and monocot)",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch05-st2"
+   ],
+   "prerequisiteNote": "The flower; fertilisation (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch05-st4",
+   "chapterId": "cbse-g11-biology-ch05",
+   "order": 4,
+   "name": "Semi-technical description of a typical flowering plant: family Solanaceae",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch05-st2",
+    "cbse-g11-biology-ch05-st3"
+   ],
+   "prerequisiteNote": "Floral formula and diagram; inflorescence",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch06-st1",
+   "chapterId": "cbse-g11-biology-ch06",
+   "order": 1,
+   "name": "Tissues and tissue systems: epidermal, ground and vascular",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g9-science-ch02-st2",
+    "cbse-g11-biology-ch05-st1"
+   ],
+   "prerequisiteNote": "Plant tissues (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch06-st2",
+   "chapterId": "cbse-g11-biology-ch06",
+   "order": 2,
+   "name": "Anatomy of dicot and monocot root, stem and leaf",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch06-st1"
+   ],
+   "prerequisiteNote": "Tissue systems; Root, stem and leaf morphology",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch06-st3",
+   "chapterId": "cbse-g11-biology-ch06",
+   "order": 3,
+   "name": "Secondary growth in dicot stem and root",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch06-st2"
+   ],
+   "prerequisiteNote": "Dicot stem anatomy; meristematic tissue (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch07-st1",
+   "chapterId": "cbse-g11-biology-ch07",
+   "order": 1,
+   "name": "Animal tissues: epithelial, connective, muscular and neural",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g9-science-ch02-st3"
+   ],
+   "prerequisiteNote": "Animal tissues (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch07-st2",
+   "chapterId": "cbse-g11-biology-ch07",
+   "order": 2,
+   "name": "Morphology and anatomy of frog: digestive, circulatory, respiratory, nervous and reproductive systems",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch07-st1",
+    "cbse-g11-biology-ch04-st3"
+   ],
+   "prerequisiteNote": "Animal tissues; Amphibia class",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch07-st3",
+   "chapterId": "cbse-g11-biology-ch07",
+   "order": 3,
+   "name": "Organ and organ systems in animals: a comparative overview",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch07-st2"
+   ],
+   "prerequisiteNote": "Frog organ systems",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch08-st1",
+   "chapterId": "cbse-g11-biology-ch08",
+   "order": 1,
+   "name": "Cell theory; overview of prokaryotic cells",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g9-science-ch01-st4",
+    "cbse-g11-biology-ch02-st2"
+   ],
+   "prerequisiteNote": "Prokaryotic cells (Cl 9); Kingdom Monera",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch08-st2",
+   "chapterId": "cbse-g11-biology-ch08",
+   "order": 2,
+   "name": "Eukaryotic cell: membrane fluid mosaic model, cell wall and endomembrane system",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch08-st1",
+    "cbse-g9-science-ch01-st3"
+   ],
+   "prerequisiteNote": "Cell organelles (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch08-st3",
+   "chapterId": "cbse-g11-biology-ch08",
+   "order": 3,
+   "name": "Mitochondria, plastids, ribosomes, cytoskeleton, cilia, flagella, centrosome and nucleus",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch08-st2"
+   ],
+   "prerequisiteNote": "Endomembrane system; Cell organelles (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch08-st4",
+   "chapterId": "cbse-g11-biology-ch08",
+   "order": 4,
+   "name": "Microbodies and differences between plant and animal cells",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch08-st3"
+   ],
+   "prerequisiteNote": "Cell organelles",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch09-st1",
+   "chapterId": "cbse-g11-biology-ch09",
+   "order": 1,
+   "name": "Chemical constituents of living tissues: analysis and primary/secondary metabolites",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch08-st2",
+    "cbse-g11-chemistry-ch08-st1"
+   ],
+   "prerequisiteNote": "Organic compounds and functional groups (Cl 11 chemistry)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch09-st2",
+   "chapterId": "cbse-g11-biology-ch09",
+   "order": 2,
+   "name": "Carbohydrates, proteins, lipids and nucleic acids: structure of polymers",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch09-st1"
+   ],
+   "prerequisiteNote": "Chemical constituents; covalent bonds and functional groups (Cl 10-11 chemistry)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch09-st3",
+   "chapterId": "cbse-g11-biology-ch09",
+   "order": 3,
+   "name": "Enzymes: nature, classification, factors affecting activity, cofactors",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch09-st2"
+   ],
+   "prerequisiteNote": "Proteins structure; activation energy idea",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch10-st1",
+   "chapterId": "cbse-g11-biology-ch10",
+   "order": 1,
+   "name": "Cell cycle phases and interphase",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch08-st3"
+   ],
+   "prerequisiteNote": "Nucleus and chromosomes",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch10-st2",
+   "chapterId": "cbse-g11-biology-ch10",
+   "order": 2,
+   "name": "Mitosis and its significance",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch10-st1"
+   ],
+   "prerequisiteNote": "Cell cycle phases",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch10-st3",
+   "chapterId": "cbse-g11-biology-ch10",
+   "order": 3,
+   "name": "Meiosis I and II and its significance",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch10-st2",
+    "cbse-g10-science-ch08-st3"
+   ],
+   "prerequisiteNote": "Mitosis; genes and chromosomes (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch11-st1",
+   "chapterId": "cbse-g11-biology-ch11",
+   "order": 1,
+   "name": "Early experiments; site of photosynthesis and pigments",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch08-st3",
+    "cbse-g10-science-ch05-st1"
+   ],
+   "prerequisiteNote": "Photosynthesis basics (Cl 10); plastids",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch11-st2",
+   "chapterId": "cbse-g11-biology-ch11",
+   "order": 2,
+   "name": "Light reaction: photosystems, cyclic and non-cyclic photophosphorylation, chemiosmosis",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch11-st1"
+   ],
+   "prerequisiteNote": "Pigments and photosystems; electron transport idea",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch11-st3",
+   "chapterId": "cbse-g11-biology-ch11",
+   "order": 3,
+   "name": "Biosynthetic phase: Calvin cycle; C4 pathway",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch11-st2"
+   ],
+   "prerequisiteNote": "Light reaction products ATP and NADPH",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch11-st4",
+   "chapterId": "cbse-g11-biology-ch11",
+   "order": 4,
+   "name": "Photorespiration and factors affecting photosynthesis",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch11-st3"
+   ],
+   "prerequisiteNote": "Calvin cycle; limiting factors",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch12-st1",
+   "chapterId": "cbse-g11-biology-ch12",
+   "order": 1,
+   "name": "Glycolysis and fermentation",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch09-st3",
+    "cbse-g10-science-ch05-st2"
+   ],
+   "prerequisiteNote": "Aerobic and anaerobic respiration (Cl 10); enzymes",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch12-st2",
+   "chapterId": "cbse-g11-biology-ch12",
+   "order": 2,
+   "name": "Aerobic respiration: Krebs cycle, electron transport system and oxidative phosphorylation",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch12-st1",
+    "cbse-g11-biology-ch08-st3"
+   ],
+   "prerequisiteNote": "Glycolysis; mitochondria structure",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch12-st3",
+   "chapterId": "cbse-g11-biology-ch12",
+   "order": 3,
+   "name": "Respiratory balance sheet, amphibolic pathway and respiratory quotient",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch12-st2"
+   ],
+   "prerequisiteNote": "Krebs cycle and ETS; ratios",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch13-st1",
+   "chapterId": "cbse-g11-biology-ch13",
+   "order": 1,
+   "name": "Growth: phases, growth rates and conditions; differentiation and redifferentiation",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch06-st1"
+   ],
+   "prerequisiteNote": "Meristems and tissue systems",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch13-st2",
+   "chapterId": "cbse-g11-biology-ch13",
+   "order": 2,
+   "name": "Plant growth regulators: auxins, gibberellins, cytokinins, ethylene and ABA",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch13-st1",
+    "cbse-g10-science-ch06-st2"
+   ],
+   "prerequisiteNote": "Plant hormones and tropisms (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch13-st3",
+   "chapterId": "cbse-g11-biology-ch13",
+   "order": 3,
+   "name": "Seed germination, dormancy and the idea of photoperiodism and vernalisation",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch13-st2"
+   ],
+   "prerequisiteNote": "Plant growth regulators",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch14-st1",
+   "chapterId": "cbse-g11-biology-ch14",
+   "order": 1,
+   "name": "Respiratory organs and the human respiratory system",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-science-ch05-st2",
+    "cbse-g11-biology-ch07-st1"
+   ],
+   "prerequisiteNote": "Human respiratory system (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch14-st2",
+   "chapterId": "cbse-g11-biology-ch14",
+   "order": 2,
+   "name": "Mechanism of breathing and respiratory volumes",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch14-st1",
+    "cbse-g11-physics-ch09-st1"
+   ],
+   "prerequisiteNote": "Respiratory system; pressure in fluids (Cl 11 physics)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch14-st3",
+   "chapterId": "cbse-g11-biology-ch14",
+   "order": 3,
+   "name": "Exchange and transport of gases; regulation of respiration",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch14-st2"
+   ],
+   "prerequisiteNote": "Mechanism of breathing; partial pressure idea",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch14-st4",
+   "chapterId": "cbse-g11-biology-ch14",
+   "order": 4,
+   "name": "Disorders of the respiratory system",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch14-st3"
+   ],
+   "prerequisiteNote": "Exchange of gases",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch15-st1",
+   "chapterId": "cbse-g11-biology-ch15",
+   "order": 1,
+   "name": "Blood composition, blood groups and coagulation; lymph",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-science-ch05-st3"
+   ],
+   "prerequisiteNote": "Blood and lymph (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch15-st2",
+   "chapterId": "cbse-g11-biology-ch15",
+   "order": 2,
+   "name": "Human circulatory system: heart, cardiac cycle and ECG",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch15-st1"
+   ],
+   "prerequisiteNote": "Heart structure (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch15-st3",
+   "chapterId": "cbse-g11-biology-ch15",
+   "order": 3,
+   "name": "Double circulation and regulation of cardiac activity",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch15-st2"
+   ],
+   "prerequisiteNote": "Cardiac cycle",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch15-st4",
+   "chapterId": "cbse-g11-biology-ch15",
+   "order": 4,
+   "name": "Disorders of the circulatory system",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch15-st3"
+   ],
+   "prerequisiteNote": "Double circulation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch16-st1",
+   "chapterId": "cbse-g11-biology-ch16",
+   "order": 1,
+   "name": "Modes of excretion; human excretory system",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-science-ch05-st4"
+   ],
+   "prerequisiteNote": "Excretion and the nephron (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch16-st2",
+   "chapterId": "cbse-g11-biology-ch16",
+   "order": 2,
+   "name": "Urine formation and mechanism of concentration of the filtrate",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch16-st1"
+   ],
+   "prerequisiteNote": "Nephron structure; osmosis (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch16-st3",
+   "chapterId": "cbse-g11-biology-ch16",
+   "order": 3,
+   "name": "Regulation of kidney function; micturition and role of other organs in excretion",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch16-st2"
+   ],
+   "prerequisiteNote": "Urine formation; hormones ADH and aldosterone (Cl 10 endocrine glands)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch16-st4",
+   "chapterId": "cbse-g11-biology-ch16",
+   "order": 4,
+   "name": "Disorders of the excretory system",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch16-st3"
+   ],
+   "prerequisiteNote": "Kidney function",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch17-st1",
+   "chapterId": "cbse-g11-biology-ch17",
+   "order": 1,
+   "name": "Types of movement; muscle structure",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch07-st1"
+   ],
+   "prerequisiteNote": "Muscular tissue",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch17-st2",
+   "chapterId": "cbse-g11-biology-ch17",
+   "order": 2,
+   "name": "Mechanism of muscle contraction: sliding filament theory",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch17-st1"
+   ],
+   "prerequisiteNote": "Muscle structure; ATP role (respiration)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch17-st3",
+   "chapterId": "cbse-g11-biology-ch17",
+   "order": 3,
+   "name": "Skeletal system and joints; disorders of muscular and skeletal systems",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch17-st1"
+   ],
+   "prerequisiteNote": "Types of movement; connective tissue",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch18-st1",
+   "chapterId": "cbse-g11-biology-ch18",
+   "order": 1,
+   "name": "Neural system and the neuron as the structural and functional unit",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-science-ch06-st1",
+    "cbse-g11-biology-ch07-st1"
+   ],
+   "prerequisiteNote": "Nervous system and neuron (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch18-st2",
+   "chapterId": "cbse-g11-biology-ch18",
+   "order": 2,
+   "name": "Generation and conduction of nerve impulse; transmission across a synapse",
+   "weight": "H",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch18-st1"
+   ],
+   "prerequisiteNote": "Neuron structure; ions and charge",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch18-st3",
+   "chapterId": "cbse-g11-biology-ch18",
+   "order": 3,
+   "name": "Central nervous system: the human brain",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch18-st1"
+   ],
+   "prerequisiteNote": "Human brain (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch19-st1",
+   "chapterId": "cbse-g11-biology-ch19",
+   "order": 1,
+   "name": "Endocrine glands and hormones: hypothalamus, pituitary, pineal, thyroid, parathyroid, thymus, adrenal, pancreas, gonads",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g10-science-ch06-st3"
+   ],
+   "prerequisiteNote": "Endocrine glands (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch19-st2",
+   "chapterId": "cbse-g11-biology-ch19",
+   "order": 2,
+   "name": "Hormones of heart, kidney and gastrointestinal tract",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch19-st1"
+   ],
+   "prerequisiteNote": "Endocrine glands",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g11-biology-ch19-st3",
+   "chapterId": "cbse-g11-biology-ch19",
+   "order": 3,
+   "name": "Mechanism of hormone action",
+   "weight": "S",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-biology-ch19-st1",
+    "cbse-g11-biology-ch09-st2"
+   ],
+   "prerequisiteNote": "Endocrine glands; proteins and steroid lipids",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

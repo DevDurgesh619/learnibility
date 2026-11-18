@@ -1,0 +1,811 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cbse-g12-legal-studies",
+  "board": "cbse",
+  "grade": 12,
+  "stream": "commerce",
+  "slug": "legal-studies",
+  "name": "Legal Studies",
+  "programme": "CBSE Class 12 Legal Studies (074)",
+  "textbook": "CBSE Legal Studies XII textbook (074) – 8 units, ~13 chapters",
+  "examPattern": "CBSE Board exam, 3 h; SQP 2026-27 – 'no change in question paper design'. 50% competency-based, 20% MCQ, 30% SA/LA, ~33% internal choice. Theory 80 + Project 20. 40 questions: 20 MCQ×1, 8×2, 8×3, 4×5 (2025-26 SQP).",
+  "chapterCount": 13,
+  "questionTarget": 1215
+ },
+ "items": [
+  {
+   "id": "cbse-g12-legal-studies-ch01",
+   "subjectId": "cbse-g12-legal-studies",
+   "order": 1,
+   "name": "Judiciary",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cbse-g12-legal-studies-ch01-st1",
+    "cbse-g12-legal-studies-ch01-st2",
+    "cbse-g12-legal-studies-ch01-st3",
+    "cbse-g12-legal-studies-ch01-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch02",
+   "subjectId": "cbse-g12-legal-studies",
+   "order": 2,
+   "name": "Arbitration, Tribunal Adjudication and Alternative Dispute Resolution",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g12-legal-studies-ch02-st1",
+    "cbse-g12-legal-studies-ch02-st2",
+    "cbse-g12-legal-studies-ch02-st3",
+    "cbse-g12-legal-studies-ch02-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch03",
+   "subjectId": "cbse-g12-legal-studies",
+   "order": 3,
+   "name": "Law of Contract",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cbse-g12-legal-studies-ch03-st1",
+    "cbse-g12-legal-studies-ch03-st2",
+    "cbse-g12-legal-studies-ch03-st3",
+    "cbse-g12-legal-studies-ch03-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch04",
+   "subjectId": "cbse-g12-legal-studies",
+   "order": 4,
+   "name": "Law of Torts",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g12-legal-studies-ch04-st1",
+    "cbse-g12-legal-studies-ch04-st2",
+    "cbse-g12-legal-studies-ch04-st3",
+    "cbse-g12-legal-studies-ch04-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch05",
+   "subjectId": "cbse-g12-legal-studies",
+   "order": 5,
+   "name": "Law of Property",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cbse-g12-legal-studies-ch05-st1",
+    "cbse-g12-legal-studies-ch05-st2",
+    "cbse-g12-legal-studies-ch05-st3"
+   ]
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch06",
+   "subjectId": "cbse-g12-legal-studies",
+   "order": 6,
+   "name": "Intellectual Property Rights",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cbse-g12-legal-studies-ch06-st1",
+    "cbse-g12-legal-studies-ch06-st2",
+    "cbse-g12-legal-studies-ch06-st3"
+   ]
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch07",
+   "subjectId": "cbse-g12-legal-studies",
+   "order": 7,
+   "name": "Law and Sustainable Development",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cbse-g12-legal-studies-ch07-st1",
+    "cbse-g12-legal-studies-ch07-st2",
+    "cbse-g12-legal-studies-ch07-st3"
+   ]
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch08",
+   "subjectId": "cbse-g12-legal-studies",
+   "order": 8,
+   "name": "Forms of Legal Entities",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "cbse-g12-legal-studies-ch08-st1",
+    "cbse-g12-legal-studies-ch08-st2",
+    "cbse-g12-legal-studies-ch08-st3"
+   ]
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch09",
+   "subjectId": "cbse-g12-legal-studies",
+   "order": 9,
+   "name": "Introduction to Criminal Laws in India",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cbse-g12-legal-studies-ch09-st1",
+    "cbse-g12-legal-studies-ch09-st2",
+    "cbse-g12-legal-studies-ch09-st3",
+    "cbse-g12-legal-studies-ch09-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch10",
+   "subjectId": "cbse-g12-legal-studies",
+   "order": 10,
+   "name": "Human Rights in India",
+   "teachingPeriods": 14,
+   "subtopicIds": [
+    "cbse-g12-legal-studies-ch10-st1",
+    "cbse-g12-legal-studies-ch10-st2",
+    "cbse-g12-legal-studies-ch10-st3"
+   ]
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch11",
+   "subjectId": "cbse-g12-legal-studies",
+   "order": 11,
+   "name": "Human Rights Violations and Complaint Mechanisms",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cbse-g12-legal-studies-ch11-st1",
+    "cbse-g12-legal-studies-ch11-st2",
+    "cbse-g12-legal-studies-ch11-st3"
+   ]
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch12",
+   "subjectId": "cbse-g12-legal-studies",
+   "order": 12,
+   "name": "International Context",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "cbse-g12-legal-studies-ch12-st1",
+    "cbse-g12-legal-studies-ch12-st2",
+    "cbse-g12-legal-studies-ch12-st3"
+   ]
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch13",
+   "subjectId": "cbse-g12-legal-studies",
+   "order": 13,
+   "name": "Legal Profession and Legal Services in India",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cbse-g12-legal-studies-ch13-st1",
+    "cbse-g12-legal-studies-ch13-st2",
+    "cbse-g12-legal-studies-ch13-st3"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cbse-g12-legal-studies-ch01-st1",
+   "chapterId": "cbse-g12-legal-studies-ch01",
+   "order": 1,
+   "name": "Structure and hierarchy of courts and the doctrine of judicial review",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch10-st1"
+   ],
+   "prerequisiteNote": "Hierarchy of courts (Legal Studies XI ch 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch01-st2",
+   "chapterId": "cbse-g12-legal-studies-ch01",
+   "order": 2,
+   "name": "Appointment, transfer and removal of judges; collegium and the NJAC case",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch01-st1",
+    "cbse-g11-legal-studies-ch10-st3"
+   ],
+   "prerequisiteNote": "Independence of the judiciary (Legal Studies XI)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch01-st3",
+   "chapterId": "cbse-g12-legal-studies-ch01",
+   "order": 3,
+   "name": "Public interest litigation and judicial activism",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch01-st1",
+    "cbse-g11-legal-studies-ch08-st3"
+   ],
+   "prerequisiteNote": "Role of judiciary in law reform; Article 32 and 226 writs (Legal Studies XI)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch01-st4",
+   "chapterId": "cbse-g12-legal-studies-ch01",
+   "order": 4,
+   "name": "Constitutional remedies: writs of habeas corpus, mandamus, prohibition, certiorari, quo warranto",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch01-st1",
+    "cbse-g11-legal-studies-ch10-st2"
+   ],
+   "prerequisiteNote": "Writ jurisdiction of SC and HC (Legal Studies XI ch 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch02-st1",
+   "chapterId": "cbse-g12-legal-studies-ch02",
+   "order": 1,
+   "name": "Adversarial and inquisitorial systems and the need for ADR",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch01-st1"
+   ],
+   "prerequisiteNote": "Civil court procedure and delays (Legal Studies XI ch 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch02-st2",
+   "chapterId": "cbse-g12-legal-studies-ch02",
+   "order": 2,
+   "name": "Arbitration and Conciliation Act 1996: arbitration and conciliation",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch02-st1"
+   ],
+   "prerequisiteNote": "Need for ADR; idea of an agreement between parties",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch02-st3",
+   "chapterId": "cbse-g12-legal-studies-ch02",
+   "order": 3,
+   "name": "Mediation, negotiation and Lok Adalats",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch02-st1"
+   ],
+   "prerequisiteNote": "Need for ADR; family courts and Lok Adalats (Legal Studies XI ch 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch02-st4",
+   "chapterId": "cbse-g12-legal-studies-ch02",
+   "order": 4,
+   "name": "Tribunal adjudication: administrative tribunals and Article 323A/323B",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch02-st1",
+    "cbse-g12-legal-studies-ch01-st1"
+   ],
+   "prerequisiteNote": "Hierarchy of courts; judicial review",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch03-st1",
+   "chapterId": "cbse-g12-legal-studies-ch03",
+   "order": 1,
+   "name": "Essentials of a valid contract under the Indian Contract Act 1872",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch06-st1"
+   ],
+   "prerequisiteNote": "Private and substantive law (Legal Studies XI ch 6)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch03-st2",
+   "chapterId": "cbse-g12-legal-studies-ch03",
+   "order": 2,
+   "name": "Offer, acceptance and consideration",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch03-st1"
+   ],
+   "prerequisiteNote": "Essentials of a valid contract",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch03-st3",
+   "chapterId": "cbse-g12-legal-studies-ch03",
+   "order": 3,
+   "name": "Capacity, free consent and void, voidable and illegal agreements",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch03-st2"
+   ],
+   "prerequisiteNote": "Offer and acceptance; minor's capacity",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch03-st4",
+   "chapterId": "cbse-g12-legal-studies-ch03",
+   "order": 4,
+   "name": "Discharge of contract and remedies for breach (damages, specific performance, injunction)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch03-st3"
+   ],
+   "prerequisiteNote": "Valid contract; idea of compensation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch04-st1",
+   "chapterId": "cbse-g12-legal-studies-ch04",
+   "order": 1,
+   "name": "Meaning and essentials of a tort; tort compared with crime and breach of contract",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch03-st1",
+    "cbse-g11-legal-studies-ch06-st2"
+   ],
+   "prerequisiteNote": "Civil and criminal law (Legal Studies XI)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch04-st2",
+   "chapterId": "cbse-g12-legal-studies-ch04",
+   "order": 2,
+   "name": "General defences in torts (volenti non fit injuria, act of God, inevitable accident)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch04-st1"
+   ],
+   "prerequisiteNote": "Essentials of a tort",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch04-st3",
+   "chapterId": "cbse-g12-legal-studies-ch04",
+   "order": 3,
+   "name": "Negligence; strict and absolute liability (Rylands v Fletcher, M C Mehta)",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch04-st1"
+   ],
+   "prerequisiteNote": "Essentials of a tort; duty of care",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch04-st4",
+   "chapterId": "cbse-g12-legal-studies-ch04",
+   "order": 4,
+   "name": "Vicarious liability and the tort of nuisance and defamation",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch04-st1"
+   ],
+   "prerequisiteNote": "Essentials of a tort; employer-employee relation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch05-st1",
+   "chapterId": "cbse-g12-legal-studies-ch05",
+   "order": 1,
+   "name": "Concept and kinds of property: movable and immovable, tangible and intangible",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch06-st1"
+   ],
+   "prerequisiteNote": "Private law (Legal Studies XI)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch05-st2",
+   "chapterId": "cbse-g12-legal-studies-ch05",
+   "order": 2,
+   "name": "Transfer of Property Act 1882: sale, mortgage, lease, gift and exchange",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch05-st1",
+    "cbse-g12-legal-studies-ch03-st1"
+   ],
+   "prerequisiteNote": "Kinds of property; valid contract",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch05-st3",
+   "chapterId": "cbse-g12-legal-studies-ch05",
+   "order": 3,
+   "name": "Ownership, possession and the right to property (Article 300A)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch05-st1",
+    "cbse-g11-legal-studies-ch04-st3"
+   ],
+   "prerequisiteNote": "Fundamental Rights and the 44th Amendment (Legal Studies XI)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch06-st1",
+   "chapterId": "cbse-g12-legal-studies-ch06",
+   "order": 1,
+   "name": "Concept of intellectual property and its rationale",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch05-st1"
+   ],
+   "prerequisiteNote": "Intangible property",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch06-st2",
+   "chapterId": "cbse-g12-legal-studies-ch06",
+   "order": 2,
+   "name": "Copyright and trademarks",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch06-st1"
+   ],
+   "prerequisiteNote": "Concept of intellectual property",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch06-st3",
+   "chapterId": "cbse-g12-legal-studies-ch06",
+   "order": 3,
+   "name": "Patents, designs and geographical indications; the TRIPS agreement",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch06-st1"
+   ],
+   "prerequisiteNote": "Concept of intellectual property; WTO (Business Studies XI ch 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch07-st1",
+   "chapterId": "cbse-g12-legal-studies-ch07",
+   "order": 1,
+   "name": "Concept of sustainable development: Stockholm, Rio and the SDGs",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [],
+   "prerequisiteNote": "Sustainable development (Geography/Economics Cl 10 Resources and Development)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch07-st2",
+   "chapterId": "cbse-g12-legal-studies-ch07",
+   "order": 2,
+   "name": "Constitutional provisions and environmental statutes: Environment Protection Act, Air and Water Acts",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch07-st1",
+    "cbse-g11-legal-studies-ch04-st4"
+   ],
+   "prerequisiteNote": "Directive Principles and Fundamental Duties (Article 48A, 51A(g))",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch07-st3",
+   "chapterId": "cbse-g12-legal-studies-ch07",
+   "order": 3,
+   "name": "Principles in environmental jurisprudence: polluter pays, precautionary principle, public trust; National Green Tribunal",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch07-st2",
+    "cbse-g12-legal-studies-ch04-st3"
+   ],
+   "prerequisiteNote": "Absolute liability (M C Mehta); environmental statutes",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch08-st1",
+   "chapterId": "cbse-g12-legal-studies-ch08",
+   "order": 1,
+   "name": "Legal persons: natural and artificial persons",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch05-st1"
+   ],
+   "prerequisiteNote": "Meaning of law; rights and duties",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch08-st2",
+   "chapterId": "cbse-g12-legal-studies-ch08",
+   "order": 2,
+   "name": "Sole proprietorship, partnership and limited liability partnership",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch08-st1"
+   ],
+   "prerequisiteNote": "Forms of business organisation (Business Studies XI ch 2)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch08-st3",
+   "chapterId": "cbse-g12-legal-studies-ch08",
+   "order": 3,
+   "name": "Companies under the Companies Act 2013 and the doctrine of lifting the corporate veil",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch08-st2"
+   ],
+   "prerequisiteNote": "Joint stock company features (Business Studies XI)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch09-st1",
+   "chapterId": "cbse-g12-legal-studies-ch09",
+   "order": 1,
+   "name": "Criminal law: meaning, elements of a crime (actus reus and mens rea) and the new criminal laws (BNS, BNSS, BSA 2023)",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch06-st2"
+   ],
+   "prerequisiteNote": "Civil and criminal law (Legal Studies XI)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch09-st2",
+   "chapterId": "cbse-g12-legal-studies-ch09",
+   "order": 2,
+   "name": "General exceptions and kinds of punishment",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch09-st1"
+   ],
+   "prerequisiteNote": "Elements of crime; mens rea",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch09-st3",
+   "chapterId": "cbse-g12-legal-studies-ch09",
+   "order": 3,
+   "name": "Criminal procedure: FIR, arrest, bail, investigation and trial",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch09-st1",
+    "cbse-g11-legal-studies-ch10-st4"
+   ],
+   "prerequisiteNote": "Stages of a criminal case (Legal Studies XI ch 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch09-st4",
+   "chapterId": "cbse-g12-legal-studies-ch09",
+   "order": 4,
+   "name": "Rights of the accused and of victims",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch09-st3",
+    "cbse-g12-legal-studies-ch01-st4"
+   ],
+   "prerequisiteNote": "Criminal procedure; Article 20, 21 and 22",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch10-st1",
+   "chapterId": "cbse-g12-legal-studies-ch10",
+   "order": 1,
+   "name": "Concept and evolution of human rights; Universal Declaration of Human Rights",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch12-st1"
+   ],
+   "prerequisiteNote": "UNCRC and child rights (Legal Studies XI ch 12)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch10-st2",
+   "chapterId": "cbse-g12-legal-studies-ch10",
+   "order": 2,
+   "name": "Human rights under the Indian Constitution: fundamental rights and right to life (Article 21)",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch10-st1",
+    "cbse-g11-legal-studies-ch04-st3"
+   ],
+   "prerequisiteNote": "Fundamental Rights (Legal Studies XI ch 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch10-st3",
+   "chapterId": "cbse-g12-legal-studies-ch10",
+   "order": 3,
+   "name": "Rights of vulnerable groups: women, SC/ST, persons with disabilities",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch10-st2"
+   ],
+   "prerequisiteNote": "Fundamental rights; equality before law (Article 14-17)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch11-st1",
+   "chapterId": "cbse-g12-legal-studies-ch11",
+   "order": 1,
+   "name": "Common human rights violations: custodial violence, discrimination and trafficking",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch10-st2",
+    "cbse-g12-legal-studies-ch09-st4"
+   ],
+   "prerequisiteNote": "Rights of the accused; Article 21",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch11-st2",
+   "chapterId": "cbse-g12-legal-studies-ch11",
+   "order": 2,
+   "name": "National and State Human Rights Commissions (Protection of Human Rights Act 1993)",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch11-st1"
+   ],
+   "prerequisiteNote": "Human rights violations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch11-st3",
+   "chapterId": "cbse-g12-legal-studies-ch11",
+   "order": 3,
+   "name": "Other commissions and complaint mechanisms: NCW, NCSC, NCPCR and filing a complaint",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch11-st2"
+   ],
+   "prerequisiteNote": "NHRC procedure",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch12-st1",
+   "chapterId": "cbse-g12-legal-studies-ch12",
+   "order": 1,
+   "name": "Meaning, nature and sources of international law (Article 38 ICJ Statute)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g11-legal-studies-ch06-st3"
+   ],
+   "prerequisiteNote": "Municipal and international law (Legal Studies XI)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch12-st2",
+   "chapterId": "cbse-g12-legal-studies-ch12",
+   "order": 2,
+   "name": "International law and municipal law; Article 51 and treaty implementation in India",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch12-st1"
+   ],
+   "prerequisiteNote": "Sources of international law",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch12-st3",
+   "chapterId": "cbse-g12-legal-studies-ch12",
+   "order": 3,
+   "name": "United Nations and the International Court of Justice: dispute settlement",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch12-st1"
+   ],
+   "prerequisiteNote": "United Nations and its organs (Political Science XI/XII)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch13-st1",
+   "chapterId": "cbse-g12-legal-studies-ch13",
+   "order": 1,
+   "name": "Legal profession: Advocates Act 1961, Bar Council of India and professional ethics",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch01-st1"
+   ],
+   "prerequisiteNote": "Courts and their hierarchy",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch13-st2",
+   "chapterId": "cbse-g12-legal-studies-ch13",
+   "order": 2,
+   "name": "Legal education and the role of women in the legal profession",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch13-st1"
+   ],
+   "prerequisiteNote": "Advocates Act and the Bar Council",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-legal-studies-ch13-st3",
+   "chapterId": "cbse-g12-legal-studies-ch13",
+   "order": 3,
+   "name": "Free legal aid: Article 39A and the Legal Services Authorities Act 1987 (NALSA, Lok Adalats)",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cbse-g12-legal-studies-ch13-st1",
+    "cbse-g12-legal-studies-ch02-st3",
+    "cbse-g12-legal-studies-ch01-st3"
+   ],
+   "prerequisiteNote": "Lok Adalats; PIL and access to justice",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

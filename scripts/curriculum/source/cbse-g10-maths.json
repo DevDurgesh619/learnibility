@@ -1,0 +1,546 @@
+{
+  "subjectId": "cbse-g10-maths",
+  "chapters": [
+    {
+      "sheetName": "Real Numbers",
+      "name": "Real Numbers",
+      "subtopics": [
+        {
+          "name": "Fundamental Theorem of Arithmetic and prime factorisation",
+          "weight": "H",
+          "prereq": [
+            "cbse-g9-maths-ch03-st1"
+          ],
+          "note": "Prime factorisation and HCF/LCM (Cl 6-7); The World of Numbers: number system review (Cl 9)"
+        },
+        {
+          "name": "HCF and LCM by prime factorisation; HCF × LCM = product of two numbers",
+          "weight": "S",
+          "prereq": [
+            "cbse-g10-maths-ch01-st1",
+            "cbse-g9-maths-ch11-st2"
+          ],
+          "note": "Fundamental Theorem of Arithmetic; Euclid's algorithm for HCF (Cl 9)"
+        },
+        {
+          "name": "Word problems on HCF and LCM",
+          "weight": "S",
+          "prereq": [
+            "cbse-g10-maths-ch01-st2"
+          ],
+          "note": "HCF and LCM by prime factorisation; deciding which of HCF or LCM a context needs"
+        },
+        {
+          "name": "Revisiting irrational numbers: proving the irrationality of √2, √3, √5 and related numbers",
+          "weight": "H",
+          "prereq": [
+            "cbse-g10-maths-ch01-st1",
+            "cbse-g9-maths-ch03-st3"
+          ],
+          "note": "Irrational numbers and proof by contradiction (Cl 9); Fundamental Theorem of Arithmetic"
+        }
+      ]
+    },
+    {
+      "sheetName": "Polynomials",
+      "name": "Polynomials",
+      "subtopics": [
+        {
+          "name": "Polynomials: degree, types and graphs of linear and quadratic polynomials",
+          "weight": "S",
+          "prereq": [
+            "cbse-g9-maths-ch02-st2",
+            "cbse-g9-maths-ch13-st3"
+          ],
+          "note": "Linear polynomials and their zeros; graph of a linear equation (Cl 9)"
+        },
+        {
+          "name": "Geometrical meaning of the zeroes of a polynomial",
+          "weight": "S",
+          "prereq": [
+            "cbse-g10-maths-ch02-st1"
+          ],
+          "note": "Graphs of polynomials; reading x-intercepts from a graph"
+        },
+        {
+          "name": "Relationship between zeroes and coefficients of a quadratic polynomial",
+          "weight": "H",
+          "prereq": [
+            "cbse-g10-maths-ch02-st2",
+            "cbse-g9-maths-ch04-st4"
+          ],
+          "note": "Factorisation by splitting the middle term (Cl 9); geometrical meaning of zeroes"
+        },
+        {
+          "name": "Forming a quadratic polynomial from given sum and product of zeroes",
+          "weight": "S",
+          "prereq": [
+            "cbse-g10-maths-ch02-st3"
+          ],
+          "note": "Relationship between zeroes and coefficients; operations with surds"
+        }
+      ]
+    },
+    {
+      "sheetName": "Pair of Linear Equations",
+      "name": "Pair of Linear Equations in Two Variables",
+      "subtopics": [
+        {
+          "name": "Graphical method of solving a pair of linear equations",
+          "weight": "S",
+          "prereq": [
+            "cbse-g9-maths-ch13-st3"
+          ],
+          "note": "Graph of a linear equation in two variables (Cl 9)"
+        },
+        {
+          "name": "Consistency conditions using the ratios a1/a2, b1/b2, c1/c2",
+          "weight": "L",
+          "prereq": [
+            "cbse-g10-maths-ch03-st1"
+          ],
+          "note": "Graphical method: intersecting, parallel and coincident lines; comparing fractions"
+        },
+        {
+          "name": "Substitution method",
+          "weight": "S",
+          "prereq": [
+            "cbse-g10-maths-ch03-st1"
+          ],
+          "note": "Rearranging a linear equation to make one variable the subject (Cl 8-9)"
+        },
+        {
+          "name": "Elimination method",
+          "weight": "S",
+          "prereq": [
+            "cbse-g10-maths-ch03-st1"
+          ],
+          "note": "Multiplying equations by constants; adding/subtracting like terms (Cl 8)"
+        },
+        {
+          "name": "Word problems leading to a pair of linear equations",
+          "weight": "H",
+          "prereq": [
+            "cbse-g10-maths-ch03-st3",
+            "cbse-g10-maths-ch03-st4"
+          ],
+          "note": "Substitution and elimination methods; translating words into equations (Cl 8-9)"
+        }
+      ]
+    },
+    {
+      "sheetName": "Quadratic Equations",
+      "name": "Quadratic Equations",
+      "subtopics": [
+        {
+          "name": "Standard form and representing situations as quadratic equations",
+          "weight": "S",
+          "prereq": [
+            "cbse-g9-maths-ch02-st1"
+          ],
+          "note": "Algebraic expressions and expanding brackets (Cl 9)"
+        },
+        {
+          "name": "Solution of a quadratic equation by factorisation",
+          "weight": "H",
+          "prereq": [
+            "cbse-g10-maths-ch04-st1",
+            "cbse-g9-maths-ch04-st4"
+          ],
+          "note": "Factorisation by splitting the middle term (Cl 9)"
+        },
+        {
+          "name": "Quadratic formula and nature of roots using the discriminant",
+          "weight": "H",
+          "prereq": [
+            "cbse-g10-maths-ch04-st2",
+            "cbse-g9-maths-ch03-st5"
+          ],
+          "note": "Solution by factorisation; square roots and surds (Cl 9)"
+        },
+        {
+          "name": "Word problems on quadratic equations",
+          "weight": "S",
+          "prereq": [
+            "cbse-g10-maths-ch04-st3"
+          ],
+          "note": "Quadratic formula; rejecting roots that do not fit the context"
+        }
+      ]
+    },
+    {
+      "sheetName": "Arithmetic Progressions",
+      "name": "Arithmetic Progressions",
+      "subtopics": [
+        {
+          "name": "Identifying arithmetic progressions and the common difference",
+          "weight": "S",
+          "prereq": [
+            "cbse-g9-maths-ch08-st2"
+          ],
+          "note": "Arithmetic progressions: common difference (Cl 9)"
+        },
+        {
+          "name": "nth term of an AP",
+          "weight": "S",
+          "prereq": [
+            "cbse-g10-maths-ch05-st1"
+          ],
+          "note": "Identifying APs; solving linear equations in one variable"
+        },
+        {
+          "name": "Sum of the first n terms of an AP",
+          "weight": "H",
+          "prereq": [
+            "cbse-g10-maths-ch05-st2"
+          ],
+          "note": "nth term of an AP; solving quadratic equations for n"
+        },
+        {
+          "name": "Real-life problems on APs",
+          "weight": "S",
+          "prereq": [
+            "cbse-g10-maths-ch05-st3"
+          ],
+          "note": "Sum of the first n terms; translating savings/instalment contexts into an AP"
+        }
+      ]
+    },
+    {
+      "sheetName": "Triangles",
+      "name": "Triangles",
+      "subtopics": [
+        {
+          "name": "Similar figures and similarity of polygons",
+          "weight": "L",
+          "prereq": [
+            "cbse-g8-maths-ch07-st1"
+          ],
+          "note": "Ratio, unitary method and scaling (Cl 8); congruent vs similar shapes"
+        },
+        {
+          "name": "Basic Proportionality Theorem (Thales) and its converse",
+          "weight": "H",
+          "prereq": [
+            "cbse-g10-maths-ch06-st1",
+            "cbse-g9-maths-ch12-st4"
+          ],
+          "note": "Similar figures; mid-point theorem (Cl 9); ratio of areas of triangles"
+        },
+        {
+          "name": "Criteria for similarity of triangles: AAA, SSS, SAS",
+          "weight": "S",
+          "prereq": [
+            "cbse-g10-maths-ch06-st2",
+            "cbse-g9-maths-ch09-st5"
+          ],
+          "note": "Congruence criteria of triangles (Cl 9); Basic Proportionality Theorem"
+        },
+        {
+          "name": "Using similarity to prove results and find unknown lengths",
+          "weight": "S",
+          "prereq": [
+            "cbse-g10-maths-ch06-st3"
+          ],
+          "note": "Similarity criteria; setting up proportions"
+        }
+      ]
+    },
+    {
+      "sheetName": "Coordinate Geometry",
+      "name": "Coordinate Geometry",
+      "subtopics": [
+        {
+          "name": "Distance formula and its applications",
+          "weight": "H",
+          "prereq": [
+            "cbse-g9-maths-ch01-st2"
+          ],
+          "note": "Distance between two points using the Baudhayana-Pythagoras theorem (Cl 9)"
+        },
+        {
+          "name": "Section formula for internal division",
+          "weight": "S",
+          "prereq": [
+            "cbse-g9-maths-ch01-st3",
+            "cbse-g10-maths-ch06-st2"
+          ],
+          "note": "Midpoint of a line segment (Cl 9); ratio and proportion"
+        },
+        {
+          "name": "Midpoints, points of trisection and finding the dividing ratio",
+          "weight": "S",
+          "prereq": [
+            "cbse-g10-maths-ch07-st2"
+          ],
+          "note": "Section formula; solving linear equations"
+        },
+        {
+          "name": "Using coordinates to classify triangles and quadrilaterals",
+          "weight": "S",
+          "prereq": [
+            "cbse-g10-maths-ch07-st1",
+            "cbse-g9-maths-ch12-st2"
+          ],
+          "note": "Distance formula; properties of a parallelogram, rhombus and square (Cl 9)"
+        }
+      ]
+    },
+    {
+      "sheetName": "Introduction to Trigonometry",
+      "name": "Introduction to Trigonometry",
+      "subtopics": [
+        {
+          "name": "Trigonometric ratios of an acute angle of a right triangle",
+          "weight": "H",
+          "prereq": [
+            "cbse-g8-maths-ch09-st2",
+            "cbse-g10-maths-ch06-st3"
+          ],
+          "note": "Baudhayana-Pythagoras theorem (Cl 8); similar triangles give equal ratios"
+        },
+        {
+          "name": "Trigonometric ratios of 0°, 30°, 45°, 60° and 90°",
+          "weight": "S",
+          "prereq": [
+            "cbse-g10-maths-ch08-st1"
+          ],
+          "note": "Trigonometric ratios; equilateral and isosceles right triangles; simplifying surds (Cl 9)"
+        },
+        {
+          "name": "Expressing one trigonometric ratio in terms of another",
+          "weight": "S",
+          "prereq": [
+            "cbse-g10-maths-ch08-st1"
+          ],
+          "note": "Trigonometric ratios; Pythagoras theorem to find the third side"
+        },
+        {
+          "name": "Trigonometric identities: sin²A + cos²A = 1 and related identities",
+          "weight": "H",
+          "prereq": [
+            "cbse-g10-maths-ch08-st1",
+            "cbse-g9-maths-ch04-st1"
+          ],
+          "note": "Trigonometric ratios; algebraic identities (Cl 9)"
+        }
+      ]
+    },
+    {
+      "sheetName": "Applications of Trigonometry",
+      "name": "Some Applications of Trigonometry",
+      "subtopics": [
+        {
+          "name": "Line of sight, angle of elevation and angle of depression",
+          "weight": "S",
+          "prereq": [
+            "cbse-g10-maths-ch08-st1"
+          ],
+          "note": "Trigonometric ratios; alternate angles with parallel lines (Cl 7)"
+        },
+        {
+          "name": "Heights and distances using one right triangle",
+          "weight": "H",
+          "prereq": [
+            "cbse-g10-maths-ch09-st1",
+            "cbse-g10-maths-ch08-st2"
+          ],
+          "note": "Ratios of standard angles; drawing a figure from a word problem"
+        },
+        {
+          "name": "Heights and distances using two angles or two observers",
+          "weight": "S",
+          "prereq": [
+            "cbse-g10-maths-ch09-st2",
+            "cbse-g9-maths-ch03-st5"
+          ],
+          "note": "Heights and distances with one triangle; rationalising surds (Cl 9)"
+        }
+      ]
+    },
+    {
+      "sheetName": "Circles",
+      "name": "Circles",
+      "subtopics": [
+        {
+          "name": "Tangent to a circle: tangent perpendicular to the radius",
+          "weight": "H",
+          "prereq": [
+            "cbse-g9-maths-ch05-st2"
+          ],
+          "note": "Chords and perpendicular from the centre (Cl 9); secant vs tangent"
+        },
+        {
+          "name": "Number of tangents from a point; equal tangent lengths",
+          "weight": "S",
+          "prereq": [
+            "cbse-g10-maths-ch10-st1",
+            "cbse-g9-maths-ch09-st5"
+          ],
+          "note": "Tangent perpendicular to radius; congruence of triangles (RHS) (Cl 9)"
+        },
+        {
+          "name": "Problems on tangents with polygons and concentric circles",
+          "weight": "S",
+          "prereq": [
+            "cbse-g10-maths-ch10-st2"
+          ],
+          "note": "Equal tangent lengths; Pythagoras theorem"
+        }
+      ]
+    },
+    {
+      "sheetName": "Areas Related to Circles",
+      "name": "Areas Related to Circles",
+      "subtopics": [
+        {
+          "name": "Perimeter and area of a circle revisited",
+          "weight": "L",
+          "prereq": [
+            "cbse-g9-maths-ch06-st3"
+          ],
+          "note": "Circumference and area of circles (Cl 9)"
+        },
+        {
+          "name": "Area of a sector and length of an arc",
+          "weight": "H",
+          "prereq": [
+            "cbse-g10-maths-ch11-st1"
+          ],
+          "note": "Area of a circle; angle as a fraction of 360°"
+        },
+        {
+          "name": "Area of a segment of a circle",
+          "weight": "S",
+          "prereq": [
+            "cbse-g10-maths-ch11-st2",
+            "cbse-g10-maths-ch08-st2"
+          ],
+          "note": "Area of a sector; area of a triangle using trigonometric ratios of standard angles"
+        },
+        {
+          "name": "Real-life problems on sectors and segments",
+          "weight": "S",
+          "prereq": [
+            "cbse-g10-maths-ch11-st3"
+          ],
+          "note": "Areas of sectors and segments; clock hands, wipers and designs"
+        }
+      ]
+    },
+    {
+      "sheetName": "Surface Areas & Volumes",
+      "name": "Surface Areas and Volumes",
+      "subtopics": [
+        {
+          "name": "Surface area of a combination of solids",
+          "weight": "S",
+          "prereq": [
+            "cbse-g9-maths-ch14-st2",
+            "cbse-g9-maths-ch14-st3"
+          ],
+          "note": "Surface areas of cone, sphere, cylinder (Cl 9)"
+        },
+        {
+          "name": "Volume of a combination of solids",
+          "weight": "H",
+          "prereq": [
+            "cbse-g9-maths-ch14-st2",
+            "cbse-g9-maths-ch14-st3"
+          ],
+          "note": "Volumes of cone, sphere, cylinder (Cl 9)"
+        },
+        {
+          "name": "Real-life problems on combined solids: tents, capsules and vessels",
+          "weight": "S",
+          "prereq": [
+            "cbse-g10-maths-ch12-st1",
+            "cbse-g10-maths-ch12-st2"
+          ],
+          "note": "Surface area and volume of combinations; unit conversions (Cl 9)"
+        }
+      ]
+    },
+    {
+      "sheetName": "Statistics",
+      "name": "Statistics",
+      "subtopics": [
+        {
+          "name": "Mean of grouped data: direct, assumed mean and step-deviation methods",
+          "weight": "H",
+          "prereq": [
+            "cbse-g9-maths-ch10-st3"
+          ],
+          "note": "Mean of ungrouped data; class marks of class intervals (Cl 9)"
+        },
+        {
+          "name": "Mode of grouped data",
+          "weight": "S",
+          "prereq": [
+            "cbse-g9-maths-ch10-st3",
+            "cbse-g9-maths-ch10-st1"
+          ],
+          "note": "Mode of ungrouped data; frequency tables with class intervals (Cl 9)"
+        },
+        {
+          "name": "Median of grouped data using cumulative frequency",
+          "weight": "H",
+          "prereq": [
+            "cbse-g9-maths-ch10-st3",
+            "cbse-g9-maths-ch10-st1"
+          ],
+          "note": "Median of ungrouped data; cumulative frequency (Cl 9)"
+        },
+        {
+          "name": "Choosing and interpreting measures of central tendency",
+          "weight": "L",
+          "prereq": [
+            "cbse-g10-maths-ch13-st1",
+            "cbse-g10-maths-ch13-st2",
+            "cbse-g10-maths-ch13-st3"
+          ],
+          "note": "Mean, mode and median of grouped data"
+        }
+      ]
+    },
+    {
+      "sheetName": "Probability",
+      "name": "Probability",
+      "subtopics": [
+        {
+          "name": "Theoretical probability and elementary events",
+          "weight": "S",
+          "prereq": [
+            "cbse-g9-maths-ch07-st3"
+          ],
+          "note": "Theoretical probability of equally likely outcomes (Cl 9)"
+        },
+        {
+          "name": "Complementary, impossible and sure events",
+          "weight": "S",
+          "prereq": [
+            "cbse-g10-maths-ch14-st1"
+          ],
+          "note": "Theoretical probability; fractions summing to 1"
+        },
+        {
+          "name": "Problems with coins, dice and playing cards",
+          "weight": "H",
+          "prereq": [
+            "cbse-g10-maths-ch14-st1",
+            "cbse-g9-maths-ch07-st4"
+          ],
+          "note": "Outcome tables for two dice/coins (Cl 9); composition of a pack of cards"
+        },
+        {
+          "name": "Probability in real-life contexts",
+          "weight": "L",
+          "prereq": [
+            "cbse-g10-maths-ch14-st3"
+          ],
+          "note": "Probability problems with coins, dice and cards; reading the sample space from a context"
+        }
+      ]
+    }
+  ]
+}

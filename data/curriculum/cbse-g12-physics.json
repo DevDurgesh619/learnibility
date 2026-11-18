@@ -1,0 +1,939 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cbse-g12-physics",
+  "board": "cbse",
+  "grade": 12,
+  "stream": "science",
+  "slug": "physics",
+  "name": "Physics",
+  "programme": "CBSE Class 12 Physics (042)",
+  "textbook": "NCERT Physics XII Part I + II (042)",
+  "examPattern": "CBSE Board exam, 3 h; SQP 2026-27 – 'no change in question paper design'. 50% competency-based, 20% MCQ, 30% SA/LA, ~33% internal choice. Theory 70 + Practical 30. 33 questions: A 16×1 (12 MCQ + 4 A-R), B 5×2, C 7×3, D 2 case×4, E 3×5.",
+  "chapterCount": 14,
+  "questionTarget": 1598
+ },
+ "items": [
+  {
+   "id": "cbse-g12-physics-ch01",
+   "subjectId": "cbse-g12-physics",
+   "order": 1,
+   "name": "Electric Charges and Fields",
+   "teachingPeriods": 19,
+   "subtopicIds": [
+    "cbse-g12-physics-ch01-st1",
+    "cbse-g12-physics-ch01-st2",
+    "cbse-g12-physics-ch01-st3",
+    "cbse-g12-physics-ch01-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-physics-ch02",
+   "subjectId": "cbse-g12-physics",
+   "order": 2,
+   "name": "Electrostatic Potential and Capacitance",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g12-physics-ch02-st1",
+    "cbse-g12-physics-ch02-st2",
+    "cbse-g12-physics-ch02-st3",
+    "cbse-g12-physics-ch02-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-physics-ch03",
+   "subjectId": "cbse-g12-physics",
+   "order": 3,
+   "name": "Current Electricity",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g12-physics-ch03-st1",
+    "cbse-g12-physics-ch03-st2",
+    "cbse-g12-physics-ch03-st3",
+    "cbse-g12-physics-ch03-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-physics-ch04",
+   "subjectId": "cbse-g12-physics",
+   "order": 4,
+   "name": "Moving Charges and Magnetism",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g12-physics-ch04-st1",
+    "cbse-g12-physics-ch04-st2",
+    "cbse-g12-physics-ch04-st3",
+    "cbse-g12-physics-ch04-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-physics-ch05",
+   "subjectId": "cbse-g12-physics",
+   "order": 5,
+   "name": "Magnetism and Matter",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "cbse-g12-physics-ch05-st1",
+    "cbse-g12-physics-ch05-st2",
+    "cbse-g12-physics-ch05-st3"
+   ]
+  },
+  {
+   "id": "cbse-g12-physics-ch06",
+   "subjectId": "cbse-g12-physics",
+   "order": 6,
+   "name": "Electromagnetic Induction",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g12-physics-ch06-st1",
+    "cbse-g12-physics-ch06-st2",
+    "cbse-g12-physics-ch06-st3",
+    "cbse-g12-physics-ch06-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-physics-ch07",
+   "subjectId": "cbse-g12-physics",
+   "order": 7,
+   "name": "Alternating Current",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g12-physics-ch07-st1",
+    "cbse-g12-physics-ch07-st2",
+    "cbse-g12-physics-ch07-st3",
+    "cbse-g12-physics-ch07-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-physics-ch08",
+   "subjectId": "cbse-g12-physics",
+   "order": 8,
+   "name": "Electromagnetic Waves",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "cbse-g12-physics-ch08-st1",
+    "cbse-g12-physics-ch08-st2",
+    "cbse-g12-physics-ch08-st3"
+   ]
+  },
+  {
+   "id": "cbse-g12-physics-ch09",
+   "subjectId": "cbse-g12-physics",
+   "order": 9,
+   "name": "Ray Optics and Optical Instruments",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cbse-g12-physics-ch09-st1",
+    "cbse-g12-physics-ch09-st2",
+    "cbse-g12-physics-ch09-st3",
+    "cbse-g12-physics-ch09-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-physics-ch10",
+   "subjectId": "cbse-g12-physics",
+   "order": 10,
+   "name": "Wave Optics",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g12-physics-ch10-st1",
+    "cbse-g12-physics-ch10-st2",
+    "cbse-g12-physics-ch10-st3",
+    "cbse-g12-physics-ch10-st4"
+   ]
+  },
+  {
+   "id": "cbse-g12-physics-ch11",
+   "subjectId": "cbse-g12-physics",
+   "order": 11,
+   "name": "Dual Nature of Radiation and Matter",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cbse-g12-physics-ch11-st1",
+    "cbse-g12-physics-ch11-st2",
+    "cbse-g12-physics-ch11-st3"
+   ]
+  },
+  {
+   "id": "cbse-g12-physics-ch12",
+   "subjectId": "cbse-g12-physics",
+   "order": 12,
+   "name": "Atoms",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cbse-g12-physics-ch12-st1",
+    "cbse-g12-physics-ch12-st2",
+    "cbse-g12-physics-ch12-st3"
+   ]
+  },
+  {
+   "id": "cbse-g12-physics-ch13",
+   "subjectId": "cbse-g12-physics",
+   "order": 13,
+   "name": "Nuclei",
+   "teachingPeriods": 13,
+   "subtopicIds": [
+    "cbse-g12-physics-ch13-st1",
+    "cbse-g12-physics-ch13-st2",
+    "cbse-g12-physics-ch13-st3"
+   ]
+  },
+  {
+   "id": "cbse-g12-physics-ch14",
+   "subjectId": "cbse-g12-physics",
+   "order": 14,
+   "name": "Semiconductor Electronics: Materials, Devices and Simple Circuits",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cbse-g12-physics-ch14-st1",
+    "cbse-g12-physics-ch14-st2",
+    "cbse-g12-physics-ch14-st3",
+    "cbse-g12-physics-ch14-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cbse-g12-physics-ch01-st1",
+   "chapterId": "cbse-g12-physics-ch01",
+   "order": 1,
+   "name": "Electric charge: conductors, insulators, charging by induction and basic properties of charge",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g10-science-ch11-st1"
+   ],
+   "prerequisiteNote": "Electric current and charge (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch01-st2",
+   "chapterId": "cbse-g12-physics-ch01",
+   "order": 2,
+   "name": "Coulomb's law and forces between multiple charges (superposition)",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch01-st1",
+    "cbse-g11-physics-ch03-st1"
+   ],
+   "prerequisiteNote": "Vector addition and resolution (Cl 11 physics); inverse-square law (gravitation, Cl 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch01-st3",
+   "chapterId": "cbse-g12-physics-ch01",
+   "order": 3,
+   "name": "Electric field, field lines and the electric dipole; dipole in a uniform field",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch01-st2",
+    "cbse-g11-physics-ch06-st2"
+   ],
+   "prerequisiteNote": "Coulomb's law; torque (Cl 11 physics)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch01-st4",
+   "chapterId": "cbse-g12-physics-ch01",
+   "order": 4,
+   "name": "Electric flux and Gauss's law with applications",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch01-st3"
+   ],
+   "prerequisiteNote": "Electric field lines; area and surface of sphere and cylinder (maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch02-st1",
+   "chapterId": "cbse-g12-physics-ch02",
+   "order": 1,
+   "name": "Electrostatic potential and potential energy: point charge, dipole and system of charges",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch01-st3",
+    "cbse-g11-physics-ch07-st3"
+   ],
+   "prerequisiteNote": "Gravitational potential energy (Cl 11 physics); Electric field",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch02-st2",
+   "chapterId": "cbse-g12-physics-ch02",
+   "order": 2,
+   "name": "Equipotential surfaces; conductors in electrostatics",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch02-st1",
+    "cbse-g12-physics-ch01-st4"
+   ],
+   "prerequisiteNote": "Electrostatic potential; Gauss's law",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch02-st3",
+   "chapterId": "cbse-g12-physics-ch02",
+   "order": 3,
+   "name": "Dielectrics and polarisation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch02-st2"
+   ],
+   "prerequisiteNote": "Conductors in electrostatics; Electric dipole",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch02-st4",
+   "chapterId": "cbse-g12-physics-ch02",
+   "order": 4,
+   "name": "Capacitors: parallel plate, combinations and energy stored",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch02-st3",
+    "cbse-g10-science-ch11-st3"
+   ],
+   "prerequisiteNote": "Series and parallel combinations (Cl 10); Electrostatic potential",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch03-st1",
+   "chapterId": "cbse-g12-physics-ch03",
+   "order": 1,
+   "name": "Drift velocity, mobility and Ohm's law; resistivity and its temperature dependence",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g10-science-ch11-st2"
+   ],
+   "prerequisiteNote": "Ohm's law and resistivity (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch03-st2",
+   "chapterId": "cbse-g12-physics-ch03",
+   "order": 2,
+   "name": "Electrical energy and power; combination of resistors (revision)",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch03-st1",
+    "cbse-g10-science-ch11-st4"
+   ],
+   "prerequisiteNote": "Resistors in series and parallel; electric power (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch03-st3",
+   "chapterId": "cbse-g12-physics-ch03",
+   "order": 3,
+   "name": "Internal resistance, emf; cells in series and parallel",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch03-st2"
+   ],
+   "prerequisiteNote": "Combination of resistors; Ohm's law",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch03-st4",
+   "chapterId": "cbse-g12-physics-ch03",
+   "order": 4,
+   "name": "Kirchhoff's rules and the Wheatstone bridge",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch03-st3"
+   ],
+   "prerequisiteNote": "Internal resistance; solving simultaneous equations (Cl 10 maths)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch04-st1",
+   "chapterId": "cbse-g12-physics-ch04",
+   "order": 1,
+   "name": "Magnetic force on a moving charge: Lorentz force and motion in a magnetic field",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g10-science-ch12-st2",
+    "cbse-g11-physics-ch03-st4"
+   ],
+   "prerequisiteNote": "Force on a current-carrying conductor (Cl 10); circular motion (Cl 11)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch04-st2",
+   "chapterId": "cbse-g12-physics-ch04",
+   "order": 2,
+   "name": "Biot-Savart law: field on the axis of a circular loop",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch04-st1",
+    "cbse-g10-science-ch12-st1"
+   ],
+   "prerequisiteNote": "Magnetic field of a straight wire and loop (Cl 10); vector product",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch04-st3",
+   "chapterId": "cbse-g12-physics-ch04",
+   "order": 3,
+   "name": "Ampere's circuital law: straight wire and solenoid",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch04-st2"
+   ],
+   "prerequisiteNote": "Biot-Savart law",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch04-st4",
+   "chapterId": "cbse-g12-physics-ch04",
+   "order": 4,
+   "name": "Force between parallel currents; torque on a current loop; moving coil galvanometer",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch04-st3",
+    "cbse-g11-physics-ch06-st2"
+   ],
+   "prerequisiteNote": "Ampere's law; torque (Cl 11 physics)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch05-st1",
+   "chapterId": "cbse-g12-physics-ch05",
+   "order": 1,
+   "name": "Bar magnet as an equivalent solenoid; magnetic dipole in a uniform field",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch04-st4"
+   ],
+   "prerequisiteNote": "Torque on a current loop; Electric dipole analogy",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch05-st2",
+   "chapterId": "cbse-g12-physics-ch05",
+   "order": 2,
+   "name": "Magnetisation and magnetic intensity; magnetic susceptibility",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch05-st1"
+   ],
+   "prerequisiteNote": "Magnetic dipole",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch05-st3",
+   "chapterId": "cbse-g12-physics-ch05",
+   "order": 3,
+   "name": "Diamagnetic, paramagnetic and ferromagnetic materials",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch05-st2"
+   ],
+   "prerequisiteNote": "Magnetisation and susceptibility",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch06-st1",
+   "chapterId": "cbse-g12-physics-ch06",
+   "order": 1,
+   "name": "Faraday's experiments, magnetic flux and Faraday's law",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch04-st3",
+    "cbse-g12-physics-ch01-st4"
+   ],
+   "prerequisiteNote": "Magnetic field of a solenoid; flux as field times area",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch06-st2",
+   "chapterId": "cbse-g12-physics-ch06",
+   "order": 2,
+   "name": "Lenz's law, conservation of energy and motional emf",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch06-st1"
+   ],
+   "prerequisiteNote": "Faraday's law; Fleming's rules (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch06-st3",
+   "chapterId": "cbse-g12-physics-ch06",
+   "order": 3,
+   "name": "Eddy currents",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch06-st2"
+   ],
+   "prerequisiteNote": "Lenz's law",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch06-st4",
+   "chapterId": "cbse-g12-physics-ch06",
+   "order": 4,
+   "name": "Self and mutual inductance; AC generator",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch06-st2"
+   ],
+   "prerequisiteNote": "Faraday's law; Ampere's law for solenoid",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch07-st1",
+   "chapterId": "cbse-g12-physics-ch07",
+   "order": 1,
+   "name": "AC voltage applied to R, L and C; phasors and reactance",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch06-st4",
+    "cbse-g11-physics-ch13-st1"
+   ],
+   "prerequisiteNote": "SHM and sine functions (Cl 11 physics); Self inductance",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch07-st2",
+   "chapterId": "cbse-g12-physics-ch07",
+   "order": 2,
+   "name": "Series LCR circuit: impedance and resonance",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch07-st1"
+   ],
+   "prerequisiteNote": "Phasors and reactance",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch07-st3",
+   "chapterId": "cbse-g12-physics-ch07",
+   "order": 3,
+   "name": "Power in AC circuits: power factor and wattless current",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch07-st2"
+   ],
+   "prerequisiteNote": "Series LCR circuit; RMS values",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch07-st4",
+   "chapterId": "cbse-g12-physics-ch07",
+   "order": 4,
+   "name": "Transformers",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch07-st3",
+    "cbse-g12-physics-ch06-st4"
+   ],
+   "prerequisiteNote": "Mutual inductance; Power in AC circuits",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch08-st1",
+   "chapterId": "cbse-g12-physics-ch08",
+   "order": 1,
+   "name": "Displacement current and sources of electromagnetic waves",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch06-st1",
+    "cbse-g12-physics-ch02-st4"
+   ],
+   "prerequisiteNote": "Faraday's law; capacitor charging",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch08-st2",
+   "chapterId": "cbse-g12-physics-ch08",
+   "order": 2,
+   "name": "Nature of electromagnetic waves and the electromagnetic spectrum",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch08-st1",
+    "cbse-g11-physics-ch14-st1"
+   ],
+   "prerequisiteNote": "Transverse waves (Cl 11 physics)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch08-st3",
+   "chapterId": "cbse-g12-physics-ch08",
+   "order": 3,
+   "name": "Uses of different parts of the electromagnetic spectrum",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch08-st2"
+   ],
+   "prerequisiteNote": "EM spectrum",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch09-st1",
+   "chapterId": "cbse-g12-physics-ch09",
+   "order": 1,
+   "name": "Reflection by spherical mirrors and the mirror equation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g10-science-ch09-st2"
+   ],
+   "prerequisiteNote": "Mirror formula and sign convention (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch09-st2",
+   "chapterId": "cbse-g12-physics-ch09",
+   "order": 2,
+   "name": "Refraction, total internal reflection; refraction at spherical surfaces and lens maker's formula",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch09-st1",
+    "cbse-g10-science-ch09-st4"
+   ],
+   "prerequisiteNote": "Refraction laws and lens formula (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch09-st3",
+   "chapterId": "cbse-g12-physics-ch09",
+   "order": 3,
+   "name": "Refraction through a prism",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch09-st2",
+    "cbse-g10-science-ch10-st3"
+   ],
+   "prerequisiteNote": "Dispersion through a prism (Cl 10)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch09-st4",
+   "chapterId": "cbse-g12-physics-ch09",
+   "order": 4,
+   "name": "Optical instruments: microscope and astronomical telescope",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch09-st2"
+   ],
+   "prerequisiteNote": "Lens formula and magnification",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch10-st1",
+   "chapterId": "cbse-g12-physics-ch10",
+   "order": 1,
+   "name": "Huygens' principle: reflection and refraction of plane waves",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch09-st2",
+    "cbse-g11-physics-ch14-st3"
+   ],
+   "prerequisiteNote": "Superposition and reflection of waves (Cl 11 physics)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch10-st2",
+   "chapterId": "cbse-g12-physics-ch10",
+   "order": 2,
+   "name": "Coherent sources and interference; Young's double-slit experiment",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch10-st1"
+   ],
+   "prerequisiteNote": "Huygens' principle; path difference and phase",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch10-st3",
+   "chapterId": "cbse-g12-physics-ch10",
+   "order": 3,
+   "name": "Diffraction at a single slit",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch10-st2"
+   ],
+   "prerequisiteNote": "Interference; path difference",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch10-st4",
+   "chapterId": "cbse-g12-physics-ch10",
+   "order": 4,
+   "name": "Polarisation and Brewster's law",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch10-st1"
+   ],
+   "prerequisiteNote": "Transverse nature of light (EM waves)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch11-st1",
+   "chapterId": "cbse-g12-physics-ch11",
+   "order": 1,
+   "name": "Electron emission and photoelectric effect: experimental study",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch03-st1",
+    "cbse-g12-physics-ch02-st1"
+   ],
+   "prerequisiteNote": "Electrostatic potential (stopping potential); work function idea",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch11-st2",
+   "chapterId": "cbse-g12-physics-ch11",
+   "order": 2,
+   "name": "Einstein's photoelectric equation and particle nature of light",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch11-st1",
+    "cbse-g11-chemistry-ch02-st2"
+   ],
+   "prerequisiteNote": "Planck's quantum theory (Cl 11 chemistry); Photoelectric experiment",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch11-st3",
+   "chapterId": "cbse-g12-physics-ch11",
+   "order": 3,
+   "name": "Wave nature of matter: de Broglie relation",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch11-st2",
+    "cbse-g11-physics-ch05-st2"
+   ],
+   "prerequisiteNote": "Kinetic energy and momentum (Cl 11 physics); photon momentum",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch12-st1",
+   "chapterId": "cbse-g12-physics-ch12",
+   "order": 1,
+   "name": "Alpha-particle scattering and Rutherford's nuclear model",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g9-science-ch07-st2",
+    "cbse-g12-physics-ch01-st2"
+   ],
+   "prerequisiteNote": "Atomic models (Cl 9); Coulomb's law",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch12-st2",
+   "chapterId": "cbse-g12-physics-ch12",
+   "order": 2,
+   "name": "Bohr model of the hydrogen atom: radii and energy levels",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch12-st1",
+    "cbse-g11-chemistry-ch02-st3",
+    "cbse-g11-physics-ch03-st4"
+   ],
+   "prerequisiteNote": "Bohr's model (Cl 11 chemistry); centripetal force (Cl 11 physics)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch12-st3",
+   "chapterId": "cbse-g12-physics-ch12",
+   "order": 3,
+   "name": "Line spectra of hydrogen; de Broglie's explanation of Bohr's postulate",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch12-st2",
+    "cbse-g12-physics-ch11-st3"
+   ],
+   "prerequisiteNote": "Energy levels; de Broglie relation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch13-st1",
+   "chapterId": "cbse-g12-physics-ch13",
+   "order": 1,
+   "name": "Atomic masses, composition and size of the nucleus",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch12-st1",
+    "cbse-g9-science-ch07-st4"
+   ],
+   "prerequisiteNote": "Isotopes and mass number (Cl 9)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch13-st2",
+   "chapterId": "cbse-g12-physics-ch13",
+   "order": 2,
+   "name": "Mass-energy relation, mass defect and binding energy per nucleon",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch13-st1"
+   ],
+   "prerequisiteNote": "Composition of nucleus; E = mc^2 and unit conversions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch13-st3",
+   "chapterId": "cbse-g12-physics-ch13",
+   "order": 3,
+   "name": "Nuclear force; nuclear fission and fusion",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch13-st2"
+   ],
+   "prerequisiteNote": "Binding energy curve",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch14-st1",
+   "chapterId": "cbse-g12-physics-ch14",
+   "order": 1,
+   "name": "Classification of metals, semiconductors and insulators; energy bands",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch03-st1"
+   ],
+   "prerequisiteNote": "Conductors and insulators; drift of charge carriers",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch14-st2",
+   "chapterId": "cbse-g12-physics-ch14",
+   "order": 2,
+   "name": "Intrinsic and extrinsic semiconductors: n-type and p-type",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch14-st1",
+    "cbse-g11-chemistry-ch03-st2"
+   ],
+   "prerequisiteNote": "Group 14 elements and valence electrons (Cl 11 chemistry); energy bands",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch14-st3",
+   "chapterId": "cbse-g12-physics-ch14",
+   "order": 3,
+   "name": "p-n junction diode: forward and reverse bias, I-V characteristics",
+   "weight": "H",
+   "teachingPeriods": 5,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch14-st2"
+   ],
+   "prerequisiteNote": "Extrinsic semiconductors",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "cbse-g12-physics-ch14-st4",
+   "chapterId": "cbse-g12-physics-ch14",
+   "order": 4,
+   "name": "Diode as a rectifier: half-wave and full-wave",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cbse-g12-physics-ch14-st3",
+    "cbse-g12-physics-ch07-st1"
+   ],
+   "prerequisiteNote": "p-n junction; AC voltage",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

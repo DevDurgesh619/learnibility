@@ -1,0 +1,886 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "ib-g10-maths",
+  "board": "ib",
+  "grade": 10,
+  "stream": "none",
+  "slug": "maths",
+  "name": "Mathematics",
+  "programme": "IB MYP 5 Mathematics (Standard & Extended)",
+  "examPattern": "MYP 5 (Gr 10) eAssessment – IB on-screen exam, May/Nov, taken on computer in school. Mathematics and Extended mathematics: 2 h each, 3 tasks ≈ 100 marks – Knowing & understanding (A+C) ~33, Investigating patterns (B+C) ~33, Applying maths in real-life contexts (C+D) ~33; on-screen graphing calculator. ~25 items assumed.",
+  "chapterCount": 12,
+  "questionTarget": 1350
+ },
+ "items": [
+  {
+   "id": "ib-g10-maths-ch01",
+   "subjectId": "ib-g10-maths",
+   "order": 1,
+   "name": "Number: Real Numbers, Surds and Exponents",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "ib-g10-maths-ch01-st1",
+    "ib-g10-maths-ch01-st2",
+    "ib-g10-maths-ch01-st3",
+    "ib-g10-maths-ch01-st4"
+   ]
+  },
+  {
+   "id": "ib-g10-maths-ch02",
+   "subjectId": "ib-g10-maths",
+   "order": 2,
+   "name": "Sequences and Financial Mathematics",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "ib-g10-maths-ch02-st1",
+    "ib-g10-maths-ch02-st2",
+    "ib-g10-maths-ch02-st3",
+    "ib-g10-maths-ch02-st4"
+   ]
+  },
+  {
+   "id": "ib-g10-maths-ch03",
+   "subjectId": "ib-g10-maths",
+   "order": 3,
+   "name": "Quadratic Functions and Equations",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g10-maths-ch03-st1",
+    "ib-g10-maths-ch03-st2",
+    "ib-g10-maths-ch03-st3",
+    "ib-g10-maths-ch03-st4"
+   ]
+  },
+  {
+   "id": "ib-g10-maths-ch04",
+   "subjectId": "ib-g10-maths",
+   "order": 4,
+   "name": "Functions: Domain, Range, Composite and Inverse",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g10-maths-ch04-st1",
+    "ib-g10-maths-ch04-st2",
+    "ib-g10-maths-ch04-st3",
+    "ib-g10-maths-ch04-st4"
+   ]
+  },
+  {
+   "id": "ib-g10-maths-ch05",
+   "subjectId": "ib-g10-maths",
+   "order": 5,
+   "name": "Exponential Functions and Models",
+   "teachingPeriods": 7,
+   "subtopicIds": [
+    "ib-g10-maths-ch05-st1",
+    "ib-g10-maths-ch05-st2",
+    "ib-g10-maths-ch05-st3"
+   ]
+  },
+  {
+   "id": "ib-g10-maths-ch06",
+   "subjectId": "ib-g10-maths",
+   "order": 6,
+   "name": "Logarithms (Extended)",
+   "teachingPeriods": 10,
+   "subtopicIds": [
+    "ib-g10-maths-ch06-st1",
+    "ib-g10-maths-ch06-st2",
+    "ib-g10-maths-ch06-st3",
+    "ib-g10-maths-ch06-st4"
+   ]
+  },
+  {
+   "id": "ib-g10-maths-ch07",
+   "subjectId": "ib-g10-maths",
+   "order": 7,
+   "name": "Transformations of Functions (Extended)",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "ib-g10-maths-ch07-st1",
+    "ib-g10-maths-ch07-st2",
+    "ib-g10-maths-ch07-st3",
+    "ib-g10-maths-ch07-st4"
+   ]
+  },
+  {
+   "id": "ib-g10-maths-ch08",
+   "subjectId": "ib-g10-maths",
+   "order": 8,
+   "name": "Non-right-angled Trigonometry",
+   "teachingPeriods": 12,
+   "subtopicIds": [
+    "ib-g10-maths-ch08-st1",
+    "ib-g10-maths-ch08-st2",
+    "ib-g10-maths-ch08-st3",
+    "ib-g10-maths-ch08-st4",
+    "ib-g10-maths-ch08-st5"
+   ]
+  },
+  {
+   "id": "ib-g10-maths-ch09",
+   "subjectId": "ib-g10-maths",
+   "order": 9,
+   "name": "Trigonometric Functions and Graphs (Extended)",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "ib-g10-maths-ch09-st1",
+    "ib-g10-maths-ch09-st2",
+    "ib-g10-maths-ch09-st3",
+    "ib-g10-maths-ch09-st4"
+   ]
+  },
+  {
+   "id": "ib-g10-maths-ch10",
+   "subjectId": "ib-g10-maths",
+   "order": 10,
+   "name": "Vectors (Extended)",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "ib-g10-maths-ch10-st1",
+    "ib-g10-maths-ch10-st2",
+    "ib-g10-maths-ch10-st3",
+    "ib-g10-maths-ch10-st4"
+   ]
+  },
+  {
+   "id": "ib-g10-maths-ch11",
+   "subjectId": "ib-g10-maths",
+   "order": 11,
+   "name": "Statistics: Correlation and Regression",
+   "teachingPeriods": 11,
+   "subtopicIds": [
+    "ib-g10-maths-ch11-st1",
+    "ib-g10-maths-ch11-st2",
+    "ib-g10-maths-ch11-st3",
+    "ib-g10-maths-ch11-st4",
+    "ib-g10-maths-ch11-st5"
+   ]
+  },
+  {
+   "id": "ib-g10-maths-ch12",
+   "subjectId": "ib-g10-maths",
+   "order": 12,
+   "name": "Further Probability (Extended)",
+   "teachingPeriods": 9,
+   "subtopicIds": [
+    "ib-g10-maths-ch12-st1",
+    "ib-g10-maths-ch12-st2",
+    "ib-g10-maths-ch12-st3",
+    "ib-g10-maths-ch12-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "ib-g10-maths-ch01-st1",
+   "chapterId": "ib-g10-maths-ch01",
+   "order": 1,
+   "name": "Number sets, interval notation and absolute value",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch01-st1",
+    "ib-g9-maths-ch04-st3"
+   ],
+   "prerequisiteNote": "Number sets and irrational numbers (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch01-st2",
+   "chapterId": "ib-g10-maths-ch01",
+   "order": 2,
+   "name": "Simplifying expressions with rational exponents and surds",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch02-st2",
+    "ib-g9-maths-ch01-st4"
+   ],
+   "prerequisiteNote": "Fractional exponents and surds (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch01-st3",
+   "chapterId": "ib-g10-maths-ch01",
+   "order": 3,
+   "name": "Exponential equations with a common base",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch01-st2"
+   ],
+   "prerequisiteNote": "Laws of indices",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch01-st4",
+   "chapterId": "ib-g10-maths-ch01",
+   "order": 4,
+   "name": "Accuracy, error and percentage error",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch02-st4"
+   ],
+   "prerequisiteNote": "Upper and lower bounds (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch02-st1",
+   "chapterId": "ib-g10-maths-ch02",
+   "order": 1,
+   "name": "Arithmetic sequences: general term and sum",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-maths-ch06-st1"
+   ],
+   "prerequisiteNote": "Linear sequences and nth term (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch02-st2",
+   "chapterId": "ib-g10-maths-ch02",
+   "order": 2,
+   "name": "Geometric sequences: general term and sum",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch02-st1",
+    "ib-g10-maths-ch01-st2"
+   ],
+   "prerequisiteNote": "Exponents; arithmetic sequences",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch02-st3",
+   "chapterId": "ib-g10-maths-ch02",
+   "order": 3,
+   "name": "Compound interest, depreciation and growth by a percentage",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g8-maths-ch03-st1",
+    "ib-g10-maths-ch02-st2"
+   ],
+   "prerequisiteNote": "Percentage change (MYP 3); geometric sequences",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch02-st4",
+   "chapterId": "ib-g10-maths-ch02",
+   "order": 4,
+   "name": "Loans, savings and comparing financial options",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch02-st3"
+   ],
+   "prerequisiteNote": "Compound interest",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch03-st1",
+   "chapterId": "ib-g10-maths-ch03",
+   "order": 1,
+   "name": "Forms of a quadratic: standard, factorised and vertex form",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch06-st3",
+    "ib-g9-maths-ch05-st2"
+   ],
+   "prerequisiteNote": "Quadratic functions and completing the square (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch03-st2",
+   "chapterId": "ib-g10-maths-ch03",
+   "order": 2,
+   "name": "Solving quadratic equations and inequalities",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch05-st3",
+    "ib-g9-maths-ch04-st3"
+   ],
+   "prerequisiteNote": "Quadratic formula and discriminant (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch03-st3",
+   "chapterId": "ib-g10-maths-ch03",
+   "order": 3,
+   "name": "Intersections of lines and parabolas: linear-quadratic simultaneous equations",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch04-st4",
+    "ib-g10-maths-ch03-st2"
+   ],
+   "prerequisiteNote": "Simultaneous equations (MYP 4); solving quadratics",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch03-st4",
+   "chapterId": "ib-g10-maths-ch03",
+   "order": 4,
+   "name": "Quadratic models: optimisation and projectile problems",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch03-st1",
+    "ib-g9-maths-ch05-st4"
+   ],
+   "prerequisiteNote": "Vertex form; contexts leading to quadratics",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch04-st1",
+   "chapterId": "ib-g10-maths-ch04",
+   "order": 1,
+   "name": "Domain and range from graphs and equations",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch06-st2"
+   ],
+   "prerequisiteNote": "Functions and function notation (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch04-st2",
+   "chapterId": "ib-g10-maths-ch04",
+   "order": 2,
+   "name": "Composite functions",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch04-st1"
+   ],
+   "prerequisiteNote": "Function notation; substitution",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch04-st3",
+   "chapterId": "ib-g10-maths-ch04",
+   "order": 3,
+   "name": "Inverse functions and their graphs",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch04-st2",
+    "ib-g10-maths-ch04-st2"
+   ],
+   "prerequisiteNote": "Changing the subject of a formula (MYP 4); composite functions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch04-st4",
+   "chapterId": "ib-g10-maths-ch04",
+   "order": 4,
+   "name": "Rational functions and asymptotes",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch04-st1"
+   ],
+   "prerequisiteNote": "Domain restrictions; reciprocal graphs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch05-st1",
+   "chapterId": "ib-g10-maths-ch05",
+   "order": 1,
+   "name": "Graphs of exponential functions and horizontal asymptotes",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch01-st2",
+    "ib-g10-maths-ch04-st4"
+   ],
+   "prerequisiteNote": "Exponent laws; asymptotes",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch05-st2",
+   "chapterId": "ib-g10-maths-ch05",
+   "order": 2,
+   "name": "Exponential growth and decay models",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch02-st3",
+    "ib-g10-maths-ch05-st1"
+   ],
+   "prerequisiteNote": "Compound growth; exponential graphs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch05-st3",
+   "chapterId": "ib-g10-maths-ch05",
+   "order": 3,
+   "name": "Fitting exponential models to data",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch05-st2"
+   ],
+   "prerequisiteNote": "Exponential growth and decay",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch06-st1",
+   "chapterId": "ib-g10-maths-ch06",
+   "order": 1,
+   "name": "Definition of logarithm and converting between exponential and logarithmic form",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch05-st1",
+    "ib-g10-maths-ch04-st3"
+   ],
+   "prerequisiteNote": "Exponential functions; inverse functions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch06-st2",
+   "chapterId": "ib-g10-maths-ch06",
+   "order": 2,
+   "name": "Laws of logarithms",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch06-st1",
+    "ib-g10-maths-ch01-st2"
+   ],
+   "prerequisiteNote": "Definition of logarithm; laws of indices",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch06-st3",
+   "chapterId": "ib-g10-maths-ch06",
+   "order": 3,
+   "name": "Solving exponential equations using logarithms",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch06-st2",
+    "ib-g10-maths-ch01-st3"
+   ],
+   "prerequisiteNote": "Laws of logarithms; exponential equations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch06-st4",
+   "chapterId": "ib-g10-maths-ch06",
+   "order": 4,
+   "name": "Logarithmic scales: pH, decibels and Richter scale",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch06-st1"
+   ],
+   "prerequisiteNote": "Logarithm definition",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch07-st1",
+   "chapterId": "ib-g10-maths-ch07",
+   "order": 1,
+   "name": "Translations of graphs: y = f(x) + k and y = f(x - h)",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch04-st1",
+    "ib-g10-maths-ch03-st1"
+   ],
+   "prerequisiteNote": "Function notation; vertex form of quadratic",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch07-st2",
+   "chapterId": "ib-g10-maths-ch07",
+   "order": 2,
+   "name": "Reflections in the axes: y = -f(x) and y = f(-x)",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch07-st1"
+   ],
+   "prerequisiteNote": "Translations of graphs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch07-st3",
+   "chapterId": "ib-g10-maths-ch07",
+   "order": 3,
+   "name": "Vertical and horizontal stretches",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch07-st2"
+   ],
+   "prerequisiteNote": "Translations and reflections",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch07-st4",
+   "chapterId": "ib-g10-maths-ch07",
+   "order": 4,
+   "name": "Combined transformations of functions",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch07-st3"
+   ],
+   "prerequisiteNote": "Translations, reflections and stretches",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch08-st1",
+   "chapterId": "ib-g10-maths-ch08",
+   "order": 1,
+   "name": "Trigonometric ratios of any angle and the unit circle",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch09-st2"
+   ],
+   "prerequisiteNote": "Right-angled trigonometry (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch08-st2",
+   "chapterId": "ib-g10-maths-ch08",
+   "order": 2,
+   "name": "The sine rule, including the ambiguous case",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch08-st1"
+   ],
+   "prerequisiteNote": "Trigonometric ratios; solving equations",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch08-st3",
+   "chapterId": "ib-g10-maths-ch08",
+   "order": 3,
+   "name": "The cosine rule",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch08-st1"
+   ],
+   "prerequisiteNote": "Pythagoras' theorem; trig ratios",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch08-st4",
+   "chapterId": "ib-g10-maths-ch08",
+   "order": 4,
+   "name": "Area of a triangle: ½ab sin C",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch08-st1"
+   ],
+   "prerequisiteNote": "Sine ratio; area of triangle",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch08-st5",
+   "chapterId": "ib-g10-maths-ch08",
+   "order": 5,
+   "name": "Bearings and 3D problems with sine and cosine rules",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch08-st2",
+    "ib-g10-maths-ch08-st3",
+    "ib-g9-maths-ch09-st3"
+   ],
+   "prerequisiteNote": "Sine and cosine rules; bearings (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch09-st1",
+   "chapterId": "ib-g10-maths-ch09",
+   "order": 1,
+   "name": "Radian measure, arc length and sector area",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch10-st1"
+   ],
+   "prerequisiteNote": "Arc length and sector area in degrees (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch09-st2",
+   "chapterId": "ib-g10-maths-ch09",
+   "order": 2,
+   "name": "Graphs of sine, cosine and tangent: amplitude, period and principal axis",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch08-st1",
+    "ib-g10-maths-ch07-st4"
+   ],
+   "prerequisiteNote": "Unit circle; transformations of functions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch09-st3",
+   "chapterId": "ib-g10-maths-ch09",
+   "order": 3,
+   "name": "Modelling periodic phenomena with sinusoidal functions",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch09-st2"
+   ],
+   "prerequisiteNote": "Graphs of trigonometric functions",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch09-st4",
+   "chapterId": "ib-g10-maths-ch09",
+   "order": 4,
+   "name": "Solving simple trigonometric equations",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch09-st2"
+   ],
+   "prerequisiteNote": "Unit circle; trig graphs",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch10-st1",
+   "chapterId": "ib-g10-maths-ch10",
+   "order": 1,
+   "name": "Vector notation, magnitude and direction",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-maths-ch10-st2",
+    "ib-g8-maths-ch08-st4"
+   ],
+   "prerequisiteNote": "Column vectors in translations (MYP 3); Pythagoras",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch10-st2",
+   "chapterId": "ib-g10-maths-ch10",
+   "order": 2,
+   "name": "Vector addition, subtraction and scalar multiplication",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch10-st1"
+   ],
+   "prerequisiteNote": "Vector notation",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch10-st3",
+   "chapterId": "ib-g10-maths-ch10",
+   "order": 3,
+   "name": "Position vectors and vector geometry proofs",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch10-st2",
+    "ib-g9-maths-ch07-st4"
+   ],
+   "prerequisiteNote": "Vector operations; midpoints",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch10-st4",
+   "chapterId": "ib-g10-maths-ch10",
+   "order": 4,
+   "name": "Vectors in context: displacement and velocity",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch10-st2",
+    "ib-g10-maths-ch08-st5"
+   ],
+   "prerequisiteNote": "Vector operations; bearings",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch11-st1",
+   "chapterId": "ib-g10-maths-ch11",
+   "order": 1,
+   "name": "Bivariate data and scatter diagrams",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-maths-ch11-st4"
+   ],
+   "prerequisiteNote": "Scatter diagrams and correlation (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch11-st2",
+   "chapterId": "ib-g10-maths-ch11",
+   "order": 2,
+   "name": "Line of best fit, its equation and interpolation versus extrapolation",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch11-st1",
+    "ib-g9-maths-ch07-st2"
+   ],
+   "prerequisiteNote": "Equation of a straight line (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch11-st3",
+   "chapterId": "ib-g10-maths-ch11",
+   "order": 3,
+   "name": "Pearson's correlation coefficient and interpreting r",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch11-st2"
+   ],
+   "prerequisiteNote": "Scatter diagrams; line of best fit",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch11-st4",
+   "chapterId": "ib-g10-maths-ch11",
+   "order": 4,
+   "name": "Sampling methods and bias",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g8-maths-ch11-st1"
+   ],
+   "prerequisiteNote": "Data collection (MYP 3)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch11-st5",
+   "chapterId": "ib-g10-maths-ch11",
+   "order": 5,
+   "name": "Standard deviation and comparing data sets",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch11-st4"
+   ],
+   "prerequisiteNote": "Mean and spread (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch12-st1",
+   "chapterId": "ib-g10-maths-ch12",
+   "order": 1,
+   "name": "Set notation, Venn diagrams and the addition rule",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch12-st2"
+   ],
+   "prerequisiteNote": "Venn diagrams (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch12-st2",
+   "chapterId": "ib-g10-maths-ch12",
+   "order": 2,
+   "name": "Conditional probability and independence",
+   "weight": "H",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch12-st1",
+    "ib-g9-maths-ch12-st3"
+   ],
+   "prerequisiteNote": "Tree diagrams and Venn diagrams (MYP 4)",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch12-st3",
+   "chapterId": "ib-g10-maths-ch12",
+   "order": 3,
+   "name": "Probability with and without replacement",
+   "weight": "S",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g9-maths-ch12-st3"
+   ],
+   "prerequisiteNote": "Tree diagrams",
+   "learnHours": {},
+   "masterHours": {}
+  },
+  {
+   "id": "ib-g10-maths-ch12-st4",
+   "chapterId": "ib-g10-maths-ch12",
+   "order": 4,
+   "name": "Counting principles and expected value",
+   "weight": "L",
+   "teachingPeriods": 2,
+   "prerequisiteIds": [
+    "ib-g10-maths-ch12-st2"
+   ],
+   "prerequisiteNote": "Probability of combined events",
+   "learnHours": {},
+   "masterHours": {}
+  }
+ ]
+}

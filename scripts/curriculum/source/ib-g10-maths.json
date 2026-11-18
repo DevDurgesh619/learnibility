@@ -1,0 +1,480 @@
+{
+  "subjectId": "ib-g10-maths",
+  "chapters": [
+    {
+      "name": "Number: Real Numbers, Surds and Exponents",
+      "subtopics": [
+        {
+          "name": "Number sets, interval notation and absolute value",
+          "weight": "S",
+          "prereq": [
+            "ib-g9-maths-ch01-st1",
+            "ib-g9-maths-ch04-st3"
+          ],
+          "note": "Number sets and irrational numbers (MYP 4)"
+        },
+        {
+          "name": "Simplifying expressions with rational exponents and surds",
+          "weight": "H",
+          "prereq": [
+            "ib-g9-maths-ch02-st2",
+            "ib-g9-maths-ch01-st4"
+          ],
+          "note": "Fractional exponents and surds (MYP 4)"
+        },
+        {
+          "name": "Exponential equations with a common base",
+          "weight": "S",
+          "prereq": [
+            "ib-g10-maths-ch01-st2"
+          ],
+          "note": "Laws of indices"
+        },
+        {
+          "name": "Accuracy, error and percentage error",
+          "weight": "L",
+          "prereq": [
+            "ib-g9-maths-ch02-st4"
+          ],
+          "note": "Upper and lower bounds (MYP 4)"
+        }
+      ]
+    },
+    {
+      "name": "Sequences and Financial Mathematics",
+      "subtopics": [
+        {
+          "name": "Arithmetic sequences: general term and sum",
+          "weight": "S",
+          "prereq": [
+            "ib-g8-maths-ch06-st1"
+          ],
+          "note": "Linear sequences and nth term (MYP 3)"
+        },
+        {
+          "name": "Geometric sequences: general term and sum",
+          "weight": "S",
+          "prereq": [
+            "ib-g10-maths-ch02-st1",
+            "ib-g10-maths-ch01-st2"
+          ],
+          "note": "Exponents; arithmetic sequences"
+        },
+        {
+          "name": "Compound interest, depreciation and growth by a percentage",
+          "weight": "H",
+          "prereq": [
+            "ib-g8-maths-ch03-st1",
+            "ib-g10-maths-ch02-st2"
+          ],
+          "note": "Percentage change (MYP 3); geometric sequences"
+        },
+        {
+          "name": "Loans, savings and comparing financial options",
+          "weight": "L",
+          "prereq": [
+            "ib-g10-maths-ch02-st3"
+          ],
+          "note": "Compound interest"
+        }
+      ]
+    },
+    {
+      "name": "Quadratic Functions and Equations",
+      "subtopics": [
+        {
+          "name": "Forms of a quadratic: standard, factorised and vertex form",
+          "weight": "H",
+          "prereq": [
+            "ib-g9-maths-ch06-st3",
+            "ib-g9-maths-ch05-st2"
+          ],
+          "note": "Quadratic functions and completing the square (MYP 4)"
+        },
+        {
+          "name": "Solving quadratic equations and inequalities",
+          "weight": "S",
+          "prereq": [
+            "ib-g9-maths-ch05-st3",
+            "ib-g9-maths-ch04-st3"
+          ],
+          "note": "Quadratic formula and discriminant (MYP 4)"
+        },
+        {
+          "name": "Intersections of lines and parabolas: linear-quadratic simultaneous equations",
+          "weight": "S",
+          "prereq": [
+            "ib-g9-maths-ch04-st4",
+            "ib-g10-maths-ch03-st2"
+          ],
+          "note": "Simultaneous equations (MYP 4); solving quadratics"
+        },
+        {
+          "name": "Quadratic models: optimisation and projectile problems",
+          "weight": "H",
+          "prereq": [
+            "ib-g10-maths-ch03-st1",
+            "ib-g9-maths-ch05-st4"
+          ],
+          "note": "Vertex form; contexts leading to quadratics"
+        }
+      ]
+    },
+    {
+      "name": "Functions: Domain, Range, Composite and Inverse",
+      "subtopics": [
+        {
+          "name": "Domain and range from graphs and equations",
+          "weight": "S",
+          "prereq": [
+            "ib-g9-maths-ch06-st2"
+          ],
+          "note": "Functions and function notation (MYP 4)"
+        },
+        {
+          "name": "Composite functions",
+          "weight": "H",
+          "prereq": [
+            "ib-g10-maths-ch04-st1"
+          ],
+          "note": "Function notation; substitution"
+        },
+        {
+          "name": "Inverse functions and their graphs",
+          "weight": "H",
+          "prereq": [
+            "ib-g9-maths-ch04-st2",
+            "ib-g10-maths-ch04-st2"
+          ],
+          "note": "Changing the subject of a formula (MYP 4); composite functions"
+        },
+        {
+          "name": "Rational functions and asymptotes",
+          "weight": "S",
+          "prereq": [
+            "ib-g10-maths-ch04-st1"
+          ],
+          "note": "Domain restrictions; reciprocal graphs"
+        }
+      ]
+    },
+    {
+      "name": "Exponential Functions and Models",
+      "subtopics": [
+        {
+          "name": "Graphs of exponential functions and horizontal asymptotes",
+          "weight": "S",
+          "prereq": [
+            "ib-g10-maths-ch01-st2",
+            "ib-g10-maths-ch04-st4"
+          ],
+          "note": "Exponent laws; asymptotes"
+        },
+        {
+          "name": "Exponential growth and decay models",
+          "weight": "H",
+          "prereq": [
+            "ib-g10-maths-ch02-st3",
+            "ib-g10-maths-ch05-st1"
+          ],
+          "note": "Compound growth; exponential graphs"
+        },
+        {
+          "name": "Fitting exponential models to data",
+          "weight": "S",
+          "prereq": [
+            "ib-g10-maths-ch05-st2"
+          ],
+          "note": "Exponential growth and decay"
+        }
+      ]
+    },
+    {
+      "name": "Logarithms (Extended)",
+      "subtopics": [
+        {
+          "name": "Definition of logarithm and converting between exponential and logarithmic form",
+          "weight": "H",
+          "prereq": [
+            "ib-g10-maths-ch05-st1",
+            "ib-g10-maths-ch04-st3"
+          ],
+          "note": "Exponential functions; inverse functions"
+        },
+        {
+          "name": "Laws of logarithms",
+          "weight": "H",
+          "prereq": [
+            "ib-g10-maths-ch06-st1",
+            "ib-g10-maths-ch01-st2"
+          ],
+          "note": "Definition of logarithm; laws of indices"
+        },
+        {
+          "name": "Solving exponential equations using logarithms",
+          "weight": "S",
+          "prereq": [
+            "ib-g10-maths-ch06-st2",
+            "ib-g10-maths-ch01-st3"
+          ],
+          "note": "Laws of logarithms; exponential equations"
+        },
+        {
+          "name": "Logarithmic scales: pH, decibels and Richter scale",
+          "weight": "L",
+          "prereq": [
+            "ib-g10-maths-ch06-st1"
+          ],
+          "note": "Logarithm definition"
+        }
+      ]
+    },
+    {
+      "name": "Transformations of Functions (Extended)",
+      "subtopics": [
+        {
+          "name": "Translations of graphs: y = f(x) + k and y = f(x - h)",
+          "weight": "H",
+          "prereq": [
+            "ib-g10-maths-ch04-st1",
+            "ib-g10-maths-ch03-st1"
+          ],
+          "note": "Function notation; vertex form of quadratic"
+        },
+        {
+          "name": "Reflections in the axes: y = -f(x) and y = f(-x)",
+          "weight": "S",
+          "prereq": [
+            "ib-g10-maths-ch07-st1"
+          ],
+          "note": "Translations of graphs"
+        },
+        {
+          "name": "Vertical and horizontal stretches",
+          "weight": "S",
+          "prereq": [
+            "ib-g10-maths-ch07-st2"
+          ],
+          "note": "Translations and reflections"
+        },
+        {
+          "name": "Combined transformations of functions",
+          "weight": "S",
+          "prereq": [
+            "ib-g10-maths-ch07-st3"
+          ],
+          "note": "Translations, reflections and stretches"
+        }
+      ]
+    },
+    {
+      "name": "Non-right-angled Trigonometry",
+      "subtopics": [
+        {
+          "name": "Trigonometric ratios of any angle and the unit circle",
+          "weight": "S",
+          "prereq": [
+            "ib-g9-maths-ch09-st2"
+          ],
+          "note": "Right-angled trigonometry (MYP 4)"
+        },
+        {
+          "name": "The sine rule, including the ambiguous case",
+          "weight": "H",
+          "prereq": [
+            "ib-g10-maths-ch08-st1"
+          ],
+          "note": "Trigonometric ratios; solving equations"
+        },
+        {
+          "name": "The cosine rule",
+          "weight": "H",
+          "prereq": [
+            "ib-g10-maths-ch08-st1"
+          ],
+          "note": "Pythagoras' theorem; trig ratios"
+        },
+        {
+          "name": "Area of a triangle: ½ab sin C",
+          "weight": "S",
+          "prereq": [
+            "ib-g10-maths-ch08-st1"
+          ],
+          "note": "Sine ratio; area of triangle"
+        },
+        {
+          "name": "Bearings and 3D problems with sine and cosine rules",
+          "weight": "S",
+          "prereq": [
+            "ib-g10-maths-ch08-st2",
+            "ib-g10-maths-ch08-st3",
+            "ib-g9-maths-ch09-st3"
+          ],
+          "note": "Sine and cosine rules; bearings (MYP 4)"
+        }
+      ]
+    },
+    {
+      "name": "Trigonometric Functions and Graphs (Extended)",
+      "subtopics": [
+        {
+          "name": "Radian measure, arc length and sector area",
+          "weight": "S",
+          "prereq": [
+            "ib-g9-maths-ch10-st1"
+          ],
+          "note": "Arc length and sector area in degrees (MYP 4)"
+        },
+        {
+          "name": "Graphs of sine, cosine and tangent: amplitude, period and principal axis",
+          "weight": "H",
+          "prereq": [
+            "ib-g10-maths-ch08-st1",
+            "ib-g10-maths-ch07-st4"
+          ],
+          "note": "Unit circle; transformations of functions"
+        },
+        {
+          "name": "Modelling periodic phenomena with sinusoidal functions",
+          "weight": "S",
+          "prereq": [
+            "ib-g10-maths-ch09-st2"
+          ],
+          "note": "Graphs of trigonometric functions"
+        },
+        {
+          "name": "Solving simple trigonometric equations",
+          "weight": "S",
+          "prereq": [
+            "ib-g10-maths-ch09-st2"
+          ],
+          "note": "Unit circle; trig graphs"
+        }
+      ]
+    },
+    {
+      "name": "Vectors (Extended)",
+      "subtopics": [
+        {
+          "name": "Vector notation, magnitude and direction",
+          "weight": "S",
+          "prereq": [
+            "ib-g8-maths-ch10-st2",
+            "ib-g8-maths-ch08-st4"
+          ],
+          "note": "Column vectors in translations (MYP 3); Pythagoras"
+        },
+        {
+          "name": "Vector addition, subtraction and scalar multiplication",
+          "weight": "H",
+          "prereq": [
+            "ib-g10-maths-ch10-st1"
+          ],
+          "note": "Vector notation"
+        },
+        {
+          "name": "Position vectors and vector geometry proofs",
+          "weight": "S",
+          "prereq": [
+            "ib-g10-maths-ch10-st2",
+            "ib-g9-maths-ch07-st4"
+          ],
+          "note": "Vector operations; midpoints"
+        },
+        {
+          "name": "Vectors in context: displacement and velocity",
+          "weight": "L",
+          "prereq": [
+            "ib-g10-maths-ch10-st2",
+            "ib-g10-maths-ch08-st5"
+          ],
+          "note": "Vector operations; bearings"
+        }
+      ]
+    },
+    {
+      "name": "Statistics: Correlation and Regression",
+      "subtopics": [
+        {
+          "name": "Bivariate data and scatter diagrams",
+          "weight": "S",
+          "prereq": [
+            "ib-g8-maths-ch11-st4"
+          ],
+          "note": "Scatter diagrams and correlation (MYP 3)"
+        },
+        {
+          "name": "Line of best fit, its equation and interpolation versus extrapolation",
+          "weight": "H",
+          "prereq": [
+            "ib-g10-maths-ch11-st1",
+            "ib-g9-maths-ch07-st2"
+          ],
+          "note": "Equation of a straight line (MYP 4)"
+        },
+        {
+          "name": "Pearson's correlation coefficient and interpreting r",
+          "weight": "S",
+          "prereq": [
+            "ib-g10-maths-ch11-st2"
+          ],
+          "note": "Scatter diagrams; line of best fit"
+        },
+        {
+          "name": "Sampling methods and bias",
+          "weight": "L",
+          "prereq": [
+            "ib-g8-maths-ch11-st1"
+          ],
+          "note": "Data collection (MYP 3)"
+        },
+        {
+          "name": "Standard deviation and comparing data sets",
+          "weight": "S",
+          "prereq": [
+            "ib-g9-maths-ch11-st4"
+          ],
+          "note": "Mean and spread (MYP 4)"
+        }
+      ]
+    },
+    {
+      "name": "Further Probability (Extended)",
+      "subtopics": [
+        {
+          "name": "Set notation, Venn diagrams and the addition rule",
+          "weight": "S",
+          "prereq": [
+            "ib-g9-maths-ch12-st2"
+          ],
+          "note": "Venn diagrams (MYP 4)"
+        },
+        {
+          "name": "Conditional probability and independence",
+          "weight": "H",
+          "prereq": [
+            "ib-g10-maths-ch12-st1",
+            "ib-g9-maths-ch12-st3"
+          ],
+          "note": "Tree diagrams and Venn diagrams (MYP 4)"
+        },
+        {
+          "name": "Probability with and without replacement",
+          "weight": "S",
+          "prereq": [
+            "ib-g9-maths-ch12-st3"
+          ],
+          "note": "Tree diagrams"
+        },
+        {
+          "name": "Counting principles and expected value",
+          "weight": "L",
+          "prereq": [
+            "ib-g10-maths-ch12-st2"
+          ],
+          "note": "Probability of combined events"
+        }
+      ]
+    }
+  ]
+}

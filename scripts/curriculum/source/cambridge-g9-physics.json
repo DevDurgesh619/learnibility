@@ -1,0 +1,506 @@
+{
+  "subjectId": "cambridge-g9-physics",
+  "chapters": [
+    {
+      "sheetName": "Measurements",
+      "name": "Making measurements",
+      "subtopics": [
+        {
+          "name": "Measuring length, volume and time including multiple readings",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g9-maths-ch05-st4"
+          ],
+          "note": "Using rulers, measuring cylinders and stopwatches (Lower Secondary); rounding and significant figures"
+        },
+        {
+          "name": "Density: measuring and calculating ρ = m/V for liquids and regular and irregular solids",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g9-physics-ch01-st1",
+            "cambridge-g8-science-ch03-st1"
+          ],
+          "note": "Density (Lower Secondary Stage 9); volume of cuboids (IGCSE maths ch 7)"
+        },
+        {
+          "name": "Scalar and vector quantities and finding a resultant vector",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g9-physics-ch01-st1",
+            "cambridge-g9-maths-ch11-st1"
+          ],
+          "note": "Pythagoras' theorem (IGCSE maths ch 11); scale drawing"
+        }
+      ]
+    },
+    {
+      "sheetName": "Motion",
+      "name": "Describing motion",
+      "subtopics": [
+        {
+          "name": "Speed and velocity: v = s/t and average speed",
+          "weight": "S",
+          "prereq": [],
+          "note": "Speed = distance / time (Lower Secondary Stage 8); rearranging formulae"
+        },
+        {
+          "name": "Distance-time graphs and gradient as speed",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g9-physics-ch02-st1",
+            "cambridge-g9-maths-ch10-st1"
+          ],
+          "note": "Gradient of a straight line (IGCSE maths ch 10)"
+        },
+        {
+          "name": "Speed-time graphs, acceleration and distance from area under the graph",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g9-physics-ch02-st2"
+          ],
+          "note": "Distance-time graphs; area of triangles and trapezia"
+        },
+        {
+          "name": "Acceleration of free fall g",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g9-physics-ch02-st3"
+          ],
+          "note": "Acceleration from a speed-time graph; weight and gravity (Lower Secondary)"
+        }
+      ]
+    },
+    {
+      "sheetName": "Forces & motion",
+      "name": "Forces and motion",
+      "subtopics": [
+        {
+          "name": "Mass, weight and gravitational field strength W = mg",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g9-physics-ch02-st4"
+          ],
+          "note": "Gravity as a force (Lower Secondary Stage 7-8)"
+        },
+        {
+          "name": "Resultant force, Newton's laws and F = ma",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g9-physics-ch03-st1",
+            "cambridge-g9-physics-ch01-st3"
+          ],
+          "note": "Balanced and unbalanced forces (Lower Secondary); vector quantities"
+        },
+        {
+          "name": "Friction, drag and terminal velocity",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g9-physics-ch03-st2"
+          ],
+          "note": "Resultant force; speed-time graphs"
+        },
+        {
+          "name": "Circular motion and the force towards the centre",
+          "weight": "L",
+          "prereq": [
+            "cambridge-g9-physics-ch03-st2"
+          ],
+          "note": "Resultant force; speed and velocity as vectors"
+        },
+        {
+          "name": "Momentum, impulse and conservation of momentum",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g9-physics-ch03-st2"
+          ],
+          "note": "F = ma; velocity as a vector"
+        }
+      ]
+    },
+    {
+      "sheetName": "Turning effects",
+      "name": "Turning effects of forces",
+      "subtopics": [
+        {
+          "name": "Moment of a force as force × perpendicular distance",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g9-physics-ch03-st2"
+          ],
+          "note": "Forces as pushes and pulls; units N m"
+        },
+        {
+          "name": "The principle of moments and equilibrium",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g9-physics-ch04-st1"
+          ],
+          "note": "Moment of a force; solving linear equations"
+        },
+        {
+          "name": "Centre of gravity and stability",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g9-physics-ch04-st2"
+          ],
+          "note": "Principle of moments; weight acting at a point"
+        }
+      ]
+    },
+    {
+      "sheetName": "Forces & matter",
+      "name": "Forces and matter",
+      "subtopics": [
+        {
+          "name": "Effects of forces on shape: load-extension graphs, Hooke's law and limit of proportionality",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g9-physics-ch03-st2"
+          ],
+          "note": "Plotting graphs; direct proportion (IGCSE maths)"
+        },
+        {
+          "name": "Spring constant k = F/x",
+          "weight": "L",
+          "prereq": [
+            "cambridge-g9-physics-ch05-st1"
+          ],
+          "note": "Hooke's law; gradient of a straight line"
+        },
+        {
+          "name": "Pressure p = F/A",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g9-physics-ch03-st1"
+          ],
+          "note": "Area of shapes; force in newtons"
+        },
+        {
+          "name": "Pressure in liquids Δp = ρgΔh",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g9-physics-ch05-st3",
+            "cambridge-g9-physics-ch01-st2"
+          ],
+          "note": "Density; pressure p = F/A"
+        }
+      ]
+    },
+    {
+      "sheetName": "Energy stores & transfers",
+      "name": "Energy stores and transfers",
+      "subtopics": [
+        {
+          "name": "Energy stores and transfers and the principle of conservation of energy",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g8-science-ch03-st3"
+          ],
+          "note": "Conservation of energy (Lower Secondary Stage 9)"
+        },
+        {
+          "name": "Kinetic energy ½mv² and gravitational potential energy mgΔh",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g9-physics-ch06-st1",
+            "cambridge-g9-physics-ch03-st1"
+          ],
+          "note": "Speed; weight W = mg"
+        },
+        {
+          "name": "Energy transfer diagrams and Sankey diagrams",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g9-physics-ch06-st1"
+          ],
+          "note": "Energy stores; reading diagrams to scale"
+        },
+        {
+          "name": "Efficiency of energy transfers",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g9-physics-ch06-st3"
+          ],
+          "note": "Sankey diagrams; percentages"
+        }
+      ]
+    },
+    {
+      "sheetName": "Energy resources",
+      "name": "Energy resources",
+      "subtopics": [
+        {
+          "name": "Non-renewable energy resources: fossil fuels and nuclear fission",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g9-physics-ch06-st1"
+          ],
+          "note": "Energy stores (chemical, nuclear)"
+        },
+        {
+          "name": "Renewable energy resources: solar, wind, hydroelectric, tidal, waves, geothermal and biofuels",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g9-physics-ch07-st1"
+          ],
+          "note": "Energy transfers; electricity generation by turbines"
+        },
+        {
+          "name": "Comparing energy resources: availability, reliability, cost and environmental impact",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g9-physics-ch07-st2",
+            "cambridge-g9-physics-ch06-st4"
+          ],
+          "note": "Efficiency; renewable and non-renewable resources"
+        },
+        {
+          "name": "The Sun as the main source of energy and nuclear fusion",
+          "weight": "L",
+          "prereq": [
+            "cambridge-g9-physics-ch07-st2"
+          ],
+          "note": "Energy resources; nuclear energy store"
+        }
+      ]
+    },
+    {
+      "sheetName": "Work & power",
+      "name": "Work and power",
+      "subtopics": [
+        {
+          "name": "Work done W = Fd = ΔE",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g9-physics-ch06-st2"
+          ],
+          "note": "Kinetic and potential energy; forces in newtons"
+        },
+        {
+          "name": "Power P = W/t = ΔE/t",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g9-physics-ch08-st1"
+          ],
+          "note": "Work done; time in seconds"
+        },
+        {
+          "name": "Efficiency calculations using energy and power",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g9-physics-ch08-st2",
+            "cambridge-g9-physics-ch06-st4"
+          ],
+          "note": "Efficiency of energy transfers; percentages"
+        }
+      ]
+    },
+    {
+      "sheetName": "Kinetic particle model",
+      "name": "The kinetic particle model of matter",
+      "subtopics": [
+        {
+          "name": "States of matter and the particle model of solids, liquids and gases",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g8-science-ch03-st2"
+          ],
+          "note": "Particle model (Lower Secondary Stage 7-8); heat and temperature (Stage 9)"
+        },
+        {
+          "name": "Brownian motion and gas pressure from particle collisions",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g9-physics-ch09-st1",
+            "cambridge-g9-physics-ch05-st3"
+          ],
+          "note": "Particle model; pressure p = F/A"
+        },
+        {
+          "name": "Gas pressure and volume at constant temperature: pV = constant",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g9-physics-ch09-st2"
+          ],
+          "note": "Gas pressure; inverse proportion"
+        },
+        {
+          "name": "Temperature, absolute zero and the Kelvin scale",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g9-physics-ch09-st2"
+          ],
+          "note": "Particle model; temperature in Celsius"
+        }
+      ]
+    },
+    {
+      "sheetName": "Thermal properties",
+      "name": "Thermal properties of matter",
+      "subtopics": [
+        {
+          "name": "Thermal expansion of solids, liquids and gases and its applications",
+          "weight": "L",
+          "prereq": [
+            "cambridge-g9-physics-ch09-st1"
+          ],
+          "note": "Particle model of solids, liquids and gases"
+        },
+        {
+          "name": "Specific heat capacity: ΔE = mcΔT",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g9-physics-ch09-st4",
+            "cambridge-g9-physics-ch06-st1"
+          ],
+          "note": "Temperature and the Kelvin scale; energy stores"
+        },
+        {
+          "name": "Melting, boiling and evaporation",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g9-physics-ch09-st1",
+            "cambridge-g8-science-ch03-st5"
+          ],
+          "note": "Cooling by evaporation (Lower Secondary Stage 9)"
+        },
+        {
+          "name": "Specific latent heat of fusion and vaporisation",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g9-physics-ch10-st2",
+            "cambridge-g9-physics-ch10-st3"
+          ],
+          "note": "Specific heat capacity; changes of state"
+        }
+      ]
+    },
+    {
+      "sheetName": "Thermal energy transfers",
+      "name": "Thermal energy transfers",
+      "subtopics": [
+        {
+          "name": "Conduction: good and bad thermal conductors",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g9-physics-ch09-st1",
+            "cambridge-g8-science-ch03-st4"
+          ],
+          "note": "Ways of transferring thermal energy (Lower Secondary Stage 9)"
+        },
+        {
+          "name": "Convection and convection currents",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g9-physics-ch11-st1",
+            "cambridge-g9-physics-ch10-st1"
+          ],
+          "note": "Thermal expansion; density"
+        },
+        {
+          "name": "Thermal radiation: infrared, surface colour and texture",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g9-physics-ch11-st1"
+          ],
+          "note": "EM radiation (preview of IGCSE Year 2); absorption and emission"
+        },
+        {
+          "name": "Consequences and applications of thermal energy transfer, including Earth's energy balance",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g9-physics-ch11-st2",
+            "cambridge-g9-physics-ch11-st3"
+          ],
+          "note": "Conduction, convection and radiation"
+        }
+      ]
+    },
+    {
+      "sheetName": "Sound",
+      "name": "Sound",
+      "subtopics": [
+        {
+          "name": "Sound produced by vibrations and as a longitudinal wave: compressions and rarefactions",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g8-science-ch06-st1"
+          ],
+          "note": "Loudness and pitch of sound (Lower Secondary Stage 9)"
+        },
+        {
+          "name": "Speed of sound in air and its measurement",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g9-physics-ch12-st1",
+            "cambridge-g9-physics-ch02-st1"
+          ],
+          "note": "Speed = distance / time"
+        },
+        {
+          "name": "Pitch, loudness, frequency, amplitude and the range of human hearing",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g9-physics-ch12-st1"
+          ],
+          "note": "Loudness and pitch (Lower Secondary Stage 9)"
+        },
+        {
+          "name": "Echoes and ultrasound and their uses",
+          "weight": "L",
+          "prereq": [
+            "cambridge-g9-physics-ch12-st2"
+          ],
+          "note": "Speed of sound; reflection of waves"
+        }
+      ]
+    },
+    {
+      "sheetName": "Light",
+      "name": "Light",
+      "subtopics": [
+        {
+          "name": "Reflection of light: law of reflection and plane mirror images",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g9-physics-ch03-st1"
+          ],
+          "note": "Measuring angles with a protractor; light travels in straight lines (Lower Secondary)"
+        },
+        {
+          "name": "Refraction of light: refractive index and n = sin i / sin r",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g9-physics-ch13-st1",
+            "cambridge-g9-maths-ch03-st1"
+          ],
+          "note": "Angle measurement; sine on a calculator (IGCSE maths)"
+        },
+        {
+          "name": "Total internal reflection, critical angle and optical fibres",
+          "weight": "S",
+          "prereq": [
+            "cambridge-g9-physics-ch13-st2"
+          ],
+          "note": "Refraction; refractive index"
+        },
+        {
+          "name": "Thin converging and diverging lenses: ray diagrams, real and virtual images",
+          "weight": "H",
+          "prereq": [
+            "cambridge-g9-physics-ch13-st2"
+          ],
+          "note": "Refraction of light; drawing scale diagrams"
+        },
+        {
+          "name": "Dispersion of light and the visible spectrum",
+          "weight": "L",
+          "prereq": [
+            "cambridge-g9-physics-ch13-st2"
+          ],
+          "note": "Refraction; colours of light (Lower Secondary)"
+        }
+      ]
+    }
+  ]
+}
