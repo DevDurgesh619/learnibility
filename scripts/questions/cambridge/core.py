@@ -622,16 +622,23 @@ def equalise_mocks(items, papers):
     target = max(set(tot.values()), key=list(tot.values()).count)
     for m, qs in by.items():
         diff = target - tot[m]
-        simple = [q for q in qs if '(a)' not in q['stem'] and q['type'] != 'mcq'] or [q for q in qs if q['type'] != 'mcq'] or qs
-        i = 0
-        while diff != 0 and i < 10 * len(simple):
-            q = simple[i % len(simple)]
-            step = 1 if diff > 0 else -1
-            if 1 <= q['marks'] + step <= 20:
-                q['marks'] += step
-                q['minutes'] = max(0.5, q['minutes'] + step)
-                diff -= step
-            i += 1
+        # prefer items whose key carries no part marks, then ones with a single trailing [n] (rewritten to match)
+        nomark = [q for q in qs if q['type'] != 'mcq' and not re.search(r'\[\d+\]', str(q.get('markingKey', '')))]
+        single = [q for q in qs if q['type'] != 'mcq' and len(re.findall(r'\[\d+\]', str(q.get('markingKey', '')))) == 1
+                  and re.search(r'\[\d+\]\s*$', str(q.get('markingKey', '')))]
+        broad = [q for q in qs if '(a)' not in q['stem'] and q['type'] != 'mcq'] or [q for q in qs if q['type'] != 'mcq'] or qs
+        for simple in (nomark + single, broad):
+          i = 0
+          while simple and diff != 0 and i < 10 * len(simple):
+              q = simple[i % len(simple)]
+              step = 1 if diff > 0 else -1
+              if 1 <= q['marks'] + step <= 20:
+                  q['marks'] += step
+                  q['minutes'] = max(0.5, q['minutes'] + step)
+                  if q in single:
+                      q['markingKey'] = re.sub(r'\[\d+\]\s*$', f"[{q['marks']}]", q['markingKey'])
+                  diff -= step
+              i += 1
     for p in papers:
         p['totalMarks'] = sum(q['marks'] for q in by[p['mock']])
         p['minutes'] = sum(q['minutes'] for q in by[p['mock']])
