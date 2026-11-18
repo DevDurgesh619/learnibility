@@ -1,0 +1,330 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/fixtures/build.ts",
+ "items": [
+  {
+   "learnerId": "lrn_ananya_kapoor",
+   "computedUtc": "2026-11-18T03:30:00.000Z",
+   "fits": [
+    {
+     "careerId": "career-research-scientist",
+     "title": "Research Scientist (Physical Sciences)",
+     "score": 65.8,
+     "parts": {
+      "interests": 35,
+      "aptitudeAcademics": 15.8,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "high",
+     "reasons": [
+      "Matches your I interests",
+      "Marks or aptitude below what the pathway expects",
+      "Affordable route: BS-MS at IISc / IISER, then PhD"
+     ]
+    },
+    {
+     "careerId": "career-product-manager",
+     "title": "Product Manager",
+     "score": 54.8,
+     "parts": {
+      "interests": 22.3,
+      "aptitudeAcademics": 17.5,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "medium",
+     "reasons": [
+      "Matches your IA interests",
+      "Affordable route: B.Tech, a few years as engineer/analyst, then APM or MBA"
+     ]
+    },
+    {
+     "careerId": "career-aerospace-engineer",
+     "title": "Aerospace Engineer",
+     "score": 54.4,
+     "parts": {
+      "interests": 21.9,
+      "aptitudeAcademics": 17.5,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "medium",
+     "reasons": [
+      "Matches your I interests",
+      "Affordable route: MEng Aeronautical Engineering in the UK"
+     ]
+    },
+    {
+     "careerId": "career-biotechnologist",
+     "title": "Biotechnologist",
+     "score": 54.4,
+     "parts": {
+      "interests": 21.9,
+      "aptitudeAcademics": 17.5,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "medium",
+     "reasons": [
+      "Matches your I interests",
+      "Affordable route: B.Tech / BSc Biotechnology, then MSc or PhD"
+     ]
+    },
+    {
+     "careerId": "career-doctor",
+     "title": "Doctor (MBBS)",
+     "score": 54.4,
+     "parts": {
+      "interests": 21.9,
+      "aptitudeAcademics": 17.5,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "medium",
+     "reasons": [
+      "Matches your I interests",
+      "Affordable route: MBBS at a government college via NEET"
+     ]
+    },
+    {
+     "careerId": "career-data-analyst",
+     "title": "Data Analyst",
+     "score": 53.1,
+     "parts": {
+      "interests": 20.6,
+      "aptitudeAcademics": 17.5,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "medium",
+     "reasons": [
+      "Matches your I interests",
+      "Affordable route: BSc Statistics / Economics or BCom + certificate"
+     ]
+    },
+    {
+     "careerId": "career-economist",
+     "title": "Economist",
+     "score": 53.1,
+     "parts": {
+      "interests": 20.6,
+      "aptitudeAcademics": 17.5,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "medium",
+     "reasons": [
+      "Matches your I interests",
+      "Affordable route: BA Economics (Hons) then MA (DSE / JNU / ISI)"
+     ]
+    },
+    {
+     "careerId": "career-policy-analyst",
+     "title": "Public Policy Analyst",
+     "score": 53.1,
+     "parts": {
+      "interests": 20.6,
+      "aptitudeAcademics": 17.5,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "medium",
+     "reasons": [
+      "Matches your I interests",
+      "Affordable route: BA Political Science / Economics, then MPP"
+     ]
+    }
+   ],
+   "shortlist": [
+    "career-economist"
+   ],
+   "gaps": {
+    "career-economist": {
+     "careerId": "career-economist",
+     "skills": [
+      {
+       "skillId": "skill-macroeconomics",
+       "name": "skill-macroeconomics",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 5,
+       "levelsToClimb": 5,
+       "hours": 100,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 100,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 75,
+        "inr": 21000
+       }
+      },
+      {
+       "skillId": "skill-microeconomics",
+       "name": "skill-microeconomics",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 5,
+       "levelsToClimb": 5,
+       "hours": 100,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 100,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 75,
+        "inr": 21000
+       }
+      },
+      {
+       "skillId": "skill-statistics",
+       "name": "skill-statistics",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-calculus",
+       "name": "skill-calculus",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 3,
+       "levelsToClimb": 3,
+       "hours": 60,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 60,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 45,
+        "inr": 12600
+       }
+      },
+      {
+       "skillId": "skill-python-programming",
+       "name": "skill-python-programming",
+       "importance": "helpful",
+       "currentLevel": 0,
+       "targetLevel": 3,
+       "levelsToClimb": 3,
+       "hours": 60,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 60,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 45,
+        "inr": 12600
+       }
+      },
+      {
+       "skillId": "skill-written-communication",
+       "name": "skill-written-communication",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-research",
+       "name": "skill-research",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      }
+     ],
+     "totalHours": 560,
+     "free": {
+      "hours": 560,
+      "inr": 0,
+      "months": 25.8
+     },
+     "paid": {
+      "hours": 420,
+      "inr": 117600,
+      "months": 19.3
+     },
+     "pathways": [
+      {
+       "id": "economist-india",
+       "label": "BA Economics (Hons) then MA (DSE / JNU / ISI)",
+       "region": "india",
+       "yearsToEntry": 5,
+       "costInr": {
+        "low": 300000,
+        "typical": 700000,
+        "high": 1500000
+       },
+       "examIds": [
+        "cuet-ug"
+       ],
+       "examPrepHours": 0,
+       "examFeesInr": 0
+      },
+      {
+       "id": "economist-uk",
+       "label": "BSc Economics in the UK",
+       "region": "abroad",
+       "yearsToEntry": 3,
+       "costInr": {
+        "low": 9500000,
+        "typical": 12500000,
+        "high": 16000000
+       },
+       "examIds": [
+        "ielts",
+        "tmua"
+       ],
+       "examPrepHours": 0,
+       "examFeesInr": 0
+      }
+     ]
+    }
+   }
+  }
+ ]
+}

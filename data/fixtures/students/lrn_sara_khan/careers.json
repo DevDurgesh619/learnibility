@@ -1,0 +1,529 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/fixtures/build.ts",
+ "items": [
+  {
+   "learnerId": "lrn_sara_khan",
+   "computedUtc": "2026-11-18T03:30:00.000Z",
+   "fits": [
+    {
+     "careerId": "career-chartered-accountant",
+     "title": "Chartered Accountant",
+     "score": 63.6,
+     "parts": {
+      "interests": 31.1,
+      "aptitudeAcademics": 17.5,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "medium",
+     "reasons": [
+      "Matches your CE interests",
+      "Affordable route: CA via ICAI: Foundation, Intermediate, articleship, Final"
+     ]
+    },
+    {
+     "careerId": "career-business-analyst",
+     "title": "Business Analyst",
+     "score": 60.9,
+     "parts": {
+      "interests": 28.4,
+      "aptitudeAcademics": 17.5,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "medium",
+     "reasons": [
+      "Matches your CE interests",
+      "Affordable route: BBA / BCom / B.Tech + analytics"
+     ]
+    },
+    {
+     "careerId": "career-actuary",
+     "title": "Actuary",
+     "score": 59.6,
+     "parts": {
+      "interests": 27.1,
+      "aptitudeAcademics": 17.5,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "medium",
+     "reasons": [
+      "Matches your C interests",
+      "Affordable route: BSc Statistics / Maths + IAI actuarial exams"
+     ]
+    },
+    {
+     "careerId": "career-financial-analyst",
+     "title": "Financial Analyst",
+     "score": 59.2,
+     "parts": {
+      "interests": 26.7,
+      "aptitudeAcademics": 17.5,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "medium",
+     "reasons": [
+      "Matches your CE interests",
+      "Affordable route: BCom / BBA + CFA Level 1-2"
+     ]
+    },
+    {
+     "careerId": "career-investment-banker",
+     "title": "Investment Banker",
+     "score": 56.8,
+     "parts": {
+      "interests": 26.2,
+      "aptitudeAcademics": 17.5,
+      "skills": 0,
+      "feasibility": 13.1
+     },
+     "confidence": "medium",
+     "reasons": [
+      "Matches your EC interests",
+      "Cheapest route (BCom / Economics at a top college, then MBA) costs more than the budget"
+     ]
+    },
+    {
+     "careerId": "career-supply-chain-manager",
+     "title": "Supply Chain Manager",
+     "score": 55.2,
+     "parts": {
+      "interests": 23.9,
+      "aptitudeAcademics": 17.5,
+      "skills": 0,
+      "feasibility": 13.8
+     },
+     "confidence": "medium",
+     "reasons": [
+      "Matches your EC interests",
+      "Cheapest route (BBA / B.Tech, then MBA Operations) costs more than the budget"
+     ]
+    },
+    {
+     "careerId": "career-data-analyst",
+     "title": "Data Analyst",
+     "score": 54.8,
+     "parts": {
+      "interests": 22.3,
+      "aptitudeAcademics": 17.5,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "medium",
+     "reasons": [
+      "Matches your CE interests",
+      "Affordable route: BSc Statistics / Economics or BCom + certificate"
+     ]
+    },
+    {
+     "careerId": "career-economist",
+     "title": "Economist",
+     "score": 54.8,
+     "parts": {
+      "interests": 22.3,
+      "aptitudeAcademics": 17.5,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "medium",
+     "reasons": [
+      "Matches your CE interests",
+      "Affordable route: BA Economics (Hons) then MA (DSE / JNU / ISI)"
+     ]
+    }
+   ],
+   "shortlist": [
+    "career-chartered-accountant",
+    "career-data-analyst"
+   ],
+   "gaps": {
+    "career-chartered-accountant": {
+     "careerId": "career-chartered-accountant",
+     "skills": [
+      {
+       "skillId": "skill-accounting",
+       "name": "skill-accounting",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 5,
+       "levelsToClimb": 5,
+       "hours": 100,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 100,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 75,
+        "inr": 21000
+       }
+      },
+      {
+       "skillId": "skill-taxation-audit",
+       "name": "skill-taxation-audit",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-spreadsheets",
+       "name": "skill-spreadsheets",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-financial-literacy",
+       "name": "skill-financial-literacy",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-ethical-reasoning",
+       "name": "skill-ethical-reasoning",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-written-communication",
+       "name": "skill-written-communication",
+       "importance": "helpful",
+       "currentLevel": 0,
+       "targetLevel": 3,
+       "levelsToClimb": 3,
+       "hours": 60,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 60,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 45,
+        "inr": 12600
+       }
+      },
+      {
+       "skillId": "skill-commercial-awareness",
+       "name": "skill-commercial-awareness",
+       "importance": "helpful",
+       "currentLevel": 0,
+       "targetLevel": 3,
+       "levelsToClimb": 3,
+       "hours": 60,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 60,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 45,
+        "inr": 12600
+       }
+      }
+     ],
+     "totalHours": 540,
+     "free": {
+      "hours": 540,
+      "inr": 0,
+      "months": 24.9
+     },
+     "paid": {
+      "hours": 405,
+      "inr": 113400,
+      "months": 18.6
+     },
+     "pathways": [
+      {
+       "id": "chartered-accountant-india",
+       "label": "CA via ICAI: Foundation, Intermediate, articleship, Final",
+       "region": "india",
+       "yearsToEntry": 5,
+       "costInr": {
+        "low": 150000,
+        "typical": 300000,
+        "high": 600000
+       },
+       "examIds": [
+        "ca-foundation"
+       ],
+       "examPrepHours": 0,
+       "examFeesInr": 0
+      },
+      {
+       "id": "chartered-accountant-uk",
+       "label": "BSc Accounting and Finance + ACCA/ACA in the UK",
+       "region": "abroad",
+       "yearsToEntry": 3,
+       "costInr": {
+        "low": 9500000,
+        "typical": 12500000,
+        "high": 16000000
+       },
+       "examIds": [
+        "ielts"
+       ],
+       "examPrepHours": 0,
+       "examFeesInr": 0
+      }
+     ]
+    },
+    "career-data-analyst": {
+     "careerId": "career-data-analyst",
+     "skills": [
+      {
+       "skillId": "skill-sql-databases",
+       "name": "skill-sql-databases",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 3,
+       "levelsToClimb": 3,
+       "hours": 60,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 60,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 45,
+        "inr": 12600
+       }
+      },
+      {
+       "skillId": "skill-spreadsheets",
+       "name": "skill-spreadsheets",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-statistics",
+       "name": "skill-statistics",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 3,
+       "levelsToClimb": 3,
+       "hours": 60,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 60,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 45,
+        "inr": 12600
+       }
+      },
+      {
+       "skillId": "skill-python-programming",
+       "name": "skill-python-programming",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 3,
+       "levelsToClimb": 3,
+       "hours": 60,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 60,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 45,
+        "inr": 12600
+       }
+      },
+      {
+       "skillId": "skill-data-visualisation",
+       "name": "skill-data-visualisation",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 3,
+       "levelsToClimb": 3,
+       "hours": 60,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 60,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 45,
+        "inr": 12600
+       }
+      },
+      {
+       "skillId": "skill-written-communication",
+       "name": "skill-written-communication",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 3,
+       "levelsToClimb": 3,
+       "hours": 60,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 60,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 45,
+        "inr": 12600
+       }
+      },
+      {
+       "skillId": "skill-commercial-awareness",
+       "name": "skill-commercial-awareness",
+       "importance": "helpful",
+       "currentLevel": 0,
+       "targetLevel": 2,
+       "levelsToClimb": 2,
+       "hours": 40,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 40,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 30,
+        "inr": 8400
+       }
+      }
+     ],
+     "totalHours": 420,
+     "free": {
+      "hours": 420,
+      "inr": 0,
+      "months": 19.3
+     },
+     "paid": {
+      "hours": 315,
+      "inr": 88200,
+      "months": 14.5
+     },
+     "pathways": [
+      {
+       "id": "data-analyst-india-btech",
+       "label": "B.Tech CSE or Data Science via JEE",
+       "region": "india",
+       "yearsToEntry": 4,
+       "costInr": {
+        "low": 900000,
+        "typical": 1400000,
+        "high": 2200000
+       },
+       "examIds": [
+        "jee-main",
+        "bitsat"
+       ],
+       "examPrepHours": 0,
+       "examFeesInr": 0
+      },
+      {
+       "id": "data-analyst-india-bsc",
+       "label": "BSc Statistics / Economics or BCom + certificate",
+       "region": "india",
+       "yearsToEntry": 3.5,
+       "costInr": {
+        "low": 300000,
+        "typical": 600000,
+        "high": 1200000
+       },
+       "examIds": [
+        "cuet-ug"
+       ],
+       "examPrepHours": 0,
+       "examFeesInr": 0
+      },
+      {
+       "id": "data-analyst-uk",
+       "label": "BSc Data Science / Economics in the UK",
+       "region": "abroad",
+       "yearsToEntry": 3,
+       "costInr": {
+        "low": 9500000,
+        "typical": 12500000,
+        "high": 16000000
+       },
+       "examIds": [
+        "ielts"
+       ],
+       "examPrepHours": 0,
+       "examFeesInr": 0
+      }
+     ]
+    }
+   }
+  }
+ ]
+}

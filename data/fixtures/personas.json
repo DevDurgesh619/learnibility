@@ -1,5 +1,195 @@
 {
-  "schemaVersion": 1,
-  "generatedBy": "scripts/fixtures/build.ts",
-  "items": []
+ "schemaVersion": 1,
+ "generatedBy": "scripts/fixtures/build.ts",
+ "items": [
+  {
+   "id": "lrn_kabir_singh",
+   "role": "student",
+   "name": "Kabir Singh",
+   "story": "Quick but careless, and more confident than his marks.",
+   "grade": 9,
+   "board": "cbse",
+   "stream": "none",
+   "programme": "CBSE Class 9",
+   "order": 1
+  },
+  {
+   "id": "lrn_rohan_das",
+   "role": "student",
+   "name": "Rohan Das",
+   "story": "Struggling in Maths; free plan has run 3 weeks without closing his gaps.",
+   "grade": 10,
+   "board": "cbse",
+   "stream": "none",
+   "programme": "CBSE Class 10",
+   "order": 2
+  },
+  {
+   "id": "lrn_ishita_rao",
+   "role": "student",
+   "name": "Ishita Rao",
+   "story": "Strong in English; Maths gaps from grade 7 fractions and integers.",
+   "grade": 8,
+   "board": "cambridge",
+   "stream": "none",
+   "programme": "Cambridge Lower Secondary",
+   "order": 3
+  },
+  {
+   "id": "lrn_sara_khan",
+   "role": "student",
+   "name": "Sara Khan",
+   "story": "Strong in Accountancy; rote gaps in Economics; CA vs Data Analyst.",
+   "grade": 11,
+   "board": "cbse",
+   "stream": "commerce",
+   "programme": "CBSE Commerce",
+   "order": 4
+  },
+  {
+   "id": "lrn_nikhil_reddy",
+   "role": "student",
+   "name": "Nikhil Reddy",
+   "story": "Application Support subscriber: UK and Canada business programmes.",
+   "grade": 12,
+   "board": "cambridge",
+   "stream": "commerce",
+   "programme": "Cambridge A Level",
+   "order": 5
+  },
+  {
+   "id": "lrn_ananya_kapoor",
+   "role": "student",
+   "name": "Ananya Kapoor",
+   "story": "IGCSE topper aiming at US universities; free University Fit used.",
+   "grade": 10,
+   "board": "cambridge",
+   "stream": "none",
+   "programme": "Cambridge IGCSE",
+   "order": 6
+  },
+  {
+   "id": "par_harpreet_singh",
+   "role": "parent",
+   "name": "Harpreet Singh",
+   "story": "Parent of Kabir.",
+   "linkedLearnerIds": [
+    "lrn_kabir_singh"
+   ],
+   "order": 1
+  },
+  {
+   "id": "par_anita_das",
+   "role": "parent",
+   "name": "Anita Das",
+   "story": "Parent of Rohan.",
+   "linkedLearnerIds": [
+    "lrn_rohan_das"
+   ],
+   "order": 2
+  },
+  {
+   "id": "par_sunita_rao",
+   "role": "parent",
+   "name": "Sunita Rao",
+   "story": "Parent of Ishita.",
+   "linkedLearnerIds": [
+    "lrn_ishita_rao"
+   ],
+   "order": 3
+  },
+  {
+   "id": "par_farida_khan",
+   "role": "parent",
+   "name": "Farida Khan",
+   "story": "Parent of Sara.",
+   "linkedLearnerIds": [
+    "lrn_sara_khan"
+   ],
+   "order": 4
+  },
+  {
+   "id": "par_lakshmi_reddy",
+   "role": "parent",
+   "name": "Lakshmi Reddy",
+   "story": "Parent of Nikhil.",
+   "linkedLearnerIds": [
+    "lrn_nikhil_reddy"
+   ],
+   "order": 5
+  },
+  {
+   "id": "par_neha_kapoor",
+   "role": "parent",
+   "name": "Neha Kapoor",
+   "story": "Parent of Aarav and Ananya.",
+   "linkedLearnerIds": [
+    "lrn_aarav_kapoor",
+    "lrn_ananya_kapoor"
+   ],
+   "order": 6
+  },
+  {
+   "id": "lrn_zoya_fernandes",
+   "role": "student",
+   "name": "Zoya Fernandes",
+   "story": "Signed up today; onboarding test not taken yet (live demo).",
+   "grade": 9,
+   "board": "cbse",
+   "stream": "none",
+   "programme": "CBSE Class 9",
+   "order": 7
+  },
+  {
+   "id": "csl_heena_qureshi",
+   "role": "counsellor",
+   "name": "Heena Qureshi",
+   "story": "Academic and wellbeing counsellor for every student.",
+   "linkedLearnerIds": [
+    "lrn_kabir_singh",
+    "lrn_rohan_das",
+    "lrn_ishita_rao",
+    "lrn_sara_khan",
+    "lrn_nikhil_reddy",
+    "lrn_ananya_kapoor"
+   ],
+   "order": 1
+  },
+  {
+   "id": "csl_farah_siddiqui",
+   "role": "counsellor",
+   "name": "Farah Siddiqui",
+   "story": "Applications counsellor: Ananya, Nikhil, Tara and Arjun.",
+   "linkedLearnerIds": [
+    "lrn_ananya_kapoor",
+    "lrn_nikhil_reddy",
+    "lrn_tara_menon",
+    "lrn_arjun_nair"
+   ],
+   "order": 2
+  },
+  {
+   "id": "tch_suresh_pillai",
+   "role": "teacher",
+   "name": "Suresh Pillai",
+   "story": "CBSE Maths teacher, 9A and 10B.",
+   "linkedLearnerIds": [
+    "lrn_kabir_singh",
+    "lrn_rohan_das"
+   ],
+   "order": 1
+  },
+  {
+   "id": "mnt_kelvin_thomas",
+   "role": "mentor",
+   "name": "Kelvin Thomas",
+   "story": "Career mentor for Sara, Arjun and Kunal.",
+   "linkedLearnerIds": [
+    "lrn_sara_khan",
+    "lrn_arjun_nair",
+    "lrn_kunal_verma"
+   ],
+   "order": 1
+  }
+ ]
 }

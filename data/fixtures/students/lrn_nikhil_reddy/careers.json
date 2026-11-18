@@ -1,0 +1,540 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/fixtures/build.ts",
+ "items": [
+  {
+   "learnerId": "lrn_nikhil_reddy",
+   "computedUtc": "2026-11-18T03:30:00.000Z",
+   "fits": [
+    {
+     "careerId": "career-chartered-accountant",
+     "title": "Chartered Accountant",
+     "score": 50,
+     "parts": {
+      "interests": 17.5,
+      "aptitudeAcademics": 17.5,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "low",
+     "reasons": [
+      "Affordable route: CA via ICAI: Foundation, Intermediate, articleship, Final"
+     ]
+    },
+    {
+     "careerId": "career-civil-services-officer",
+     "title": "Civil Services Officer (IAS / IPS / IFS)",
+     "score": 50,
+     "parts": {
+      "interests": 17.5,
+      "aptitudeAcademics": 17.5,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "low",
+     "reasons": [
+      "Affordable route: Any graduation, then UPSC Prelims, Mains and Interview"
+     ]
+    },
+    {
+     "careerId": "career-economist",
+     "title": "Economist",
+     "score": 50,
+     "parts": {
+      "interests": 17.5,
+      "aptitudeAcademics": 17.5,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "low",
+     "reasons": [
+      "Affordable route: BA Economics (Hons) then MA (DSE / JNU / ISI)"
+     ]
+    },
+    {
+     "careerId": "career-teacher",
+     "title": "Teacher / Educator",
+     "score": 50,
+     "parts": {
+      "interests": 17.5,
+      "aptitudeAcademics": 17.5,
+      "skills": 0,
+      "feasibility": 15
+     },
+     "confidence": "low",
+     "reasons": [
+      "Affordable route: Subject degree + B.Ed, then CTET / school hiring"
+     ]
+    },
+    {
+     "careerId": "career-actuary",
+     "title": "Actuary",
+     "score": 49.1,
+     "parts": {
+      "interests": 17.5,
+      "aptitudeAcademics": 17.5,
+      "skills": 0,
+      "feasibility": 14.1
+     },
+     "confidence": "low",
+     "reasons": [
+      "Cheapest route (BSc Statistics / Maths + IAI actuarial exams) costs more than the budget"
+     ]
+    },
+    {
+     "careerId": "career-data-analyst",
+     "title": "Data Analyst",
+     "score": 49.1,
+     "parts": {
+      "interests": 17.5,
+      "aptitudeAcademics": 17.5,
+      "skills": 0,
+      "feasibility": 14.1
+     },
+     "confidence": "low",
+     "reasons": [
+      "Cheapest route (BSc Statistics / Economics or BCom + certificate) costs more than the budget"
+     ]
+    },
+    {
+     "careerId": "career-research-scientist",
+     "title": "Research Scientist (Physical Sciences)",
+     "score": 49,
+     "parts": {
+      "interests": 17.5,
+      "aptitudeAcademics": 21.7,
+      "skills": 0,
+      "feasibility": 9.8
+     },
+     "confidence": "medium",
+     "reasons": [
+      "Usually entered from science",
+      "Affordable route: BS-MS at IISc / IISER, then PhD"
+     ]
+    },
+    {
+     "careerId": "career-hotel-manager",
+     "title": "Hotel and Hospitality Manager",
+     "score": 48.8,
+     "parts": {
+      "interests": 17.5,
+      "aptitudeAcademics": 17.5,
+      "skills": 0,
+      "feasibility": 13.8
+     },
+     "confidence": "low",
+     "reasons": [
+      "Cheapest route (BHM via NCHM JEE or Manipal WGSHA) costs more than the budget"
+     ]
+    }
+   ],
+   "shortlist": [
+    "career-management-consultant",
+    "career-business-analyst"
+   ],
+   "gaps": {
+    "career-management-consultant": {
+     "careerId": "career-management-consultant",
+     "skills": [
+      {
+       "skillId": "skill-problem-solving",
+       "name": "skill-problem-solving",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 5,
+       "levelsToClimb": 5,
+       "hours": 100,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 100,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 75,
+        "inr": 21000
+       }
+      },
+      {
+       "skillId": "skill-commercial-awareness",
+       "name": "skill-commercial-awareness",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-presentation",
+       "name": "skill-presentation",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-spreadsheets",
+       "name": "skill-spreadsheets",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-written-communication",
+       "name": "skill-written-communication",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-teamwork",
+       "name": "skill-teamwork",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-quantitative-reasoning",
+       "name": "skill-quantitative-reasoning",
+       "importance": "helpful",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      }
+     ],
+     "totalHours": 580,
+     "free": {
+      "hours": 580,
+      "inr": 0,
+      "months": 26.7
+     },
+     "paid": {
+      "hours": 435,
+      "inr": 121800,
+      "months": 20
+     },
+     "pathways": [
+      {
+       "id": "management-consultant-india",
+       "label": "Top UG (IIT / SRCC / IPM) then IIM MBA",
+       "region": "india",
+       "yearsToEntry": 7,
+       "costInr": {
+        "low": 1000000,
+        "typical": 2800000,
+        "high": 4000000
+       },
+       "examIds": [
+        "ipmat-indore",
+        "cuet-ug",
+        "jee-main"
+       ],
+       "examPrepHours": 0,
+       "examFeesInr": 0
+      },
+      {
+       "id": "management-consultant-uk",
+       "label": "BSc Management / Economics in the UK",
+       "region": "abroad",
+       "yearsToEntry": 3,
+       "costInr": {
+        "low": 9500000,
+        "typical": 12500000,
+        "high": 16000000
+       },
+       "examIds": [
+        "ielts"
+       ],
+       "examPrepHours": 0,
+       "examFeesInr": 0
+      },
+      {
+       "id": "management-consultant-canada",
+       "label": "BBA / HBA in Canada",
+       "region": "abroad",
+       "yearsToEntry": 4,
+       "costInr": {
+        "low": 11000000,
+        "typical": 15000000,
+        "high": 21000000
+       },
+       "examIds": [
+        "ielts"
+       ],
+       "examPrepHours": 0,
+       "examFeesInr": 0
+      }
+     ]
+    },
+    "career-business-analyst": {
+     "careerId": "career-business-analyst",
+     "skills": [
+      {
+       "skillId": "skill-spreadsheets",
+       "name": "skill-spreadsheets",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-sql-databases",
+       "name": "skill-sql-databases",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 3,
+       "levelsToClimb": 3,
+       "hours": 60,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 60,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 45,
+        "inr": 12600
+       }
+      },
+      {
+       "skillId": "skill-data-visualisation",
+       "name": "skill-data-visualisation",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 3,
+       "levelsToClimb": 3,
+       "hours": 60,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 60,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 45,
+        "inr": 12600
+       }
+      },
+      {
+       "skillId": "skill-written-communication",
+       "name": "skill-written-communication",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-problem-solving",
+       "name": "skill-problem-solving",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 4,
+       "levelsToClimb": 4,
+       "hours": 80,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 80,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 60,
+        "inr": 16800
+       }
+      },
+      {
+       "skillId": "skill-commercial-awareness",
+       "name": "skill-commercial-awareness",
+       "importance": "core",
+       "currentLevel": 0,
+       "targetLevel": 3,
+       "levelsToClimb": 3,
+       "hours": 60,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 60,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 45,
+        "inr": 12600
+       }
+      },
+      {
+       "skillId": "skill-empathy",
+       "name": "skill-empathy",
+       "importance": "helpful",
+       "currentLevel": 0,
+       "targetLevel": 3,
+       "levelsToClimb": 3,
+       "hours": 60,
+       "freeRoute": {
+        "resourceIds": [],
+        "hours": 60,
+        "inr": 0
+       },
+       "paidRoute": {
+        "resourceId": null,
+        "hours": 45,
+        "inr": 12600
+       }
+      }
+     ],
+     "totalHours": 480,
+     "free": {
+      "hours": 480,
+      "inr": 0,
+      "months": 22.1
+     },
+     "paid": {
+      "hours": 360,
+      "inr": 100800,
+      "months": 16.6
+     },
+     "pathways": [
+      {
+       "id": "business-analyst-india",
+       "label": "BBA / BCom / B.Tech + analytics",
+       "region": "india",
+       "yearsToEntry": 3,
+       "costInr": {
+        "low": 300000,
+        "typical": 800000,
+        "high": 1800000
+       },
+       "examIds": [
+        "cuet-ug",
+        "christ-entrance"
+       ],
+       "examPrepHours": 0,
+       "examFeesInr": 0
+      },
+      {
+       "id": "business-analyst-canada",
+       "label": "BCom / BBA in Canada with co-op",
+       "region": "abroad",
+       "yearsToEntry": 4,
+       "costInr": {
+        "low": 11000000,
+        "typical": 15000000,
+        "high": 21000000
+       },
+       "examIds": [
+        "ielts"
+       ],
+       "examPrepHours": 0,
+       "examFeesInr": 0
+      },
+      {
+       "id": "business-analyst-uk",
+       "label": "BSc Business Management in the UK",
+       "region": "abroad",
+       "yearsToEntry": 3,
+       "costInr": {
+        "low": 9500000,
+        "typical": 12500000,
+        "high": 16000000
+       },
+       "examIds": [
+        "ielts"
+       ],
+       "examPrepHours": 0,
+       "examFeesInr": 0
+      }
+     ]
+    }
+   }
+  }
+ ]
+}

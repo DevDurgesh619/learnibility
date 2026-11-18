@@ -1,0 +1,665 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/fixtures/build.ts",
+ "items": [
+  {
+   "eventId": "evt_lrn_ishita_rao_signup",
+   "learnerId": "lrn_ishita_rao",
+   "timestampUtc": "2026-08-17T04:30:00.000Z",
+   "sourceMethod": "M1",
+   "type": "account_created",
+   "payload": {
+    "parameterIds": [
+     "p1",
+     "p2",
+     "p3"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_lrn_ishita_rao_onboarding_form",
+   "learnerId": "lrn_ishita_rao",
+   "timestampUtc": "2026-08-17T04:30:00.000Z",
+   "sourceMethod": "M2",
+   "type": "onboarding_form",
+   "payload": {
+    "parameterIds": [
+     "p1",
+     "p2",
+     "p3",
+     "p4",
+     "p5",
+     "p6",
+     "p7",
+     "p9",
+     "p10",
+     "p11",
+     "p12",
+     "p13",
+     "p14",
+     "p15",
+     "p16",
+     "p17",
+     "p18",
+     "p19",
+     "p21",
+     "p22",
+     "p23",
+     "p24",
+     "p25",
+     "p26",
+     "p27",
+     "p28",
+     "p31",
+     "p32",
+     "p33",
+     "p34",
+     "p35",
+     "p36",
+     "p37",
+     "p38",
+     "p39",
+     "p40",
+     "p41",
+     "p42",
+     "p43",
+     "p44",
+     "p45",
+     "p46",
+     "p47",
+     "p48",
+     "p49",
+     "p50",
+     "p51",
+     "p52",
+     "p53",
+     "p54",
+     "p55",
+     "p56",
+     "p57",
+     "p58",
+     "p59",
+     "p63",
+     "p66",
+     "p69",
+     "p72",
+     "p78",
+     "p81",
+     "p84",
+     "p87",
+     "p90",
+     "p93",
+     "p96",
+     "p178",
+     "p193",
+     "p212",
+     "p163",
+     "p150"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_ishita_rao_01",
+   "learnerId": "lrn_ishita_rao",
+   "timestampUtc": "2026-10-07T13:24:36.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_ishita_rao_01",
+    "kind": "onboarding",
+    "score": 79,
+    "maxScore": 94,
+    "gaps": [],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_ishita_rao_02",
+   "learnerId": "lrn_ishita_rao",
+   "timestampUtc": "2026-10-08T13:08:24.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_ishita_rao_02",
+    "kind": "chapter_check",
+    "score": 30,
+    "maxScore": 70,
+    "gaps": [
+     "G1:cambridge-g8-maths-ch01-st2",
+     "G1:cambridge-g8-maths-ch01-st1",
+     "G4:cambridge-g8-maths-ch01-st3",
+     "G4:cambridge-g8-maths-ch01-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_ishita_rao_03",
+   "learnerId": "lrn_ishita_rao",
+   "timestampUtc": "2026-10-10T05:04:12.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_ishita_rao_03",
+    "kind": "weekly",
+    "score": 0,
+    "maxScore": 35,
+    "gaps": [
+     "G1:cambridge-g8-maths-ch01-st2",
+     "G1:cambridge-g8-maths-ch01-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_ishita_rao_04",
+   "learnerId": "lrn_ishita_rao",
+   "timestampUtc": "2026-10-10T05:35:24.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_ishita_rao_04",
+    "kind": "retention_probe",
+    "score": 6,
+    "maxScore": 6,
+    "gaps": [
+     "G4:cambridge-g8-maths-ch01-st3",
+     "G4:cambridge-g8-maths-ch01-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_ishita_rao_05",
+   "learnerId": "lrn_ishita_rao",
+   "timestampUtc": "2026-10-15T11:40:48.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_ishita_rao_05",
+    "kind": "retention_probe",
+    "score": 6,
+    "maxScore": 12,
+    "gaps": [
+     "G1:cambridge-g8-maths-ch01-st1",
+     "G1:cambridge-g8-maths-ch01-st2",
+     "G4:cambridge-g8-maths-ch01-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_ishita_rao_06",
+   "learnerId": "lrn_ishita_rao",
+   "timestampUtc": "2026-10-15T13:21:54.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_ishita_rao_06",
+    "kind": "chapter_check",
+    "score": 70,
+    "maxScore": 84,
+    "gaps": [
+     "G5:cambridge-g8-maths-ch02-st5",
+     "G4:cambridge-g8-maths-ch02-st3",
+     "G4:cambridge-g8-maths-ch02-st4",
+     "G4:cambridge-g8-maths-ch02-st1",
+     "G4:cambridge-g8-maths-ch02-st2"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_ishita_rao_07",
+   "learnerId": "lrn_ishita_rao",
+   "timestampUtc": "2026-10-17T05:17:42.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_ishita_rao_07",
+    "kind": "weekly",
+    "score": 14,
+    "maxScore": 49,
+    "gaps": [
+     "G2:cambridge-g8-maths-ch01-st2",
+     "G2:cambridge-g8-maths-ch01-st1",
+     "G3:cambridge-g8-maths-ch02-st5"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_ishita_rao_08",
+   "learnerId": "lrn_ishita_rao",
+   "timestampUtc": "2026-10-17T05:43:30.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_ishita_rao_08",
+    "kind": "retention_probe",
+    "score": 15,
+    "maxScore": 15,
+    "gaps": [
+     "G4:cambridge-g8-maths-ch01-st3",
+     "G4:cambridge-g8-maths-ch02-st1",
+     "G4:cambridge-g8-maths-ch02-st2",
+     "G4:cambridge-g8-maths-ch02-st3",
+     "G4:cambridge-g8-maths-ch02-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_ishita_rao_09",
+   "learnerId": "lrn_ishita_rao",
+   "timestampUtc": "2026-10-22T11:43:30.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_ishita_rao_09",
+    "kind": "retention_probe",
+    "score": 12,
+    "maxScore": 15,
+    "gaps": [
+     "G3:cambridge-g8-maths-ch02-st5"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_ishita_rao_10",
+   "learnerId": "lrn_ishita_rao",
+   "timestampUtc": "2026-10-22T13:08:24.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_ishita_rao_10",
+    "kind": "chapter_check",
+    "score": 45,
+    "maxScore": 70,
+    "gaps": [
+     "G1:cambridge-g8-maths-ch03-st1",
+     "G3:cambridge-g8-maths-ch03-st3",
+     "G4:cambridge-g8-maths-ch03-st4",
+     "G4:cambridge-g8-maths-ch03-st2"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_ishita_rao_12",
+   "learnerId": "lrn_ishita_rao",
+   "timestampUtc": "2026-10-24T05:38:06.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_ishita_rao_12",
+    "kind": "retention_probe",
+    "score": 9,
+    "maxScore": 9,
+    "gaps": [
+     "G4:cambridge-g8-maths-ch01-st3",
+     "G4:cambridge-g8-maths-ch03-st2",
+     "G4:cambridge-g8-maths-ch03-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_ishita_rao_11",
+   "learnerId": "lrn_ishita_rao",
+   "timestampUtc": "2026-10-24T05:51:54.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_ishita_rao_11",
+    "kind": "weekly",
+    "score": 36,
+    "maxScore": 84,
+    "gaps": [
+     "G1:cambridge-g8-maths-ch01-st2",
+     "G1:cambridge-g8-maths-ch01-st1",
+     "G1:cambridge-g8-maths-ch03-st1",
+     "G4:cambridge-g8-maths-ch03-st3",
+     "G6:cambridge-g8-maths-ch02-st5"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_ishita_rao_13",
+   "learnerId": "lrn_ishita_rao",
+   "timestampUtc": "2026-10-29T11:40:48.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_ishita_rao_13",
+    "kind": "retention_probe",
+    "score": 8,
+    "maxScore": 12,
+    "gaps": [
+     "G1:cambridge-g8-maths-ch03-st1",
+     "G6:cambridge-g8-maths-ch03-st3",
+     "G4:cambridge-g8-maths-ch03-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_ishita_rao_14",
+   "learnerId": "lrn_ishita_rao",
+   "timestampUtc": "2026-10-29T13:07:30.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_ishita_rao_14",
+    "kind": "chapter_check",
+    "score": 61,
+    "maxScore": 69,
+    "gaps": [
+     "G2:cambridge-g8-maths-ch04-st3",
+     "G4:cambridge-g8-maths-ch04-st1",
+     "G4:cambridge-g8-maths-ch04-st2",
+     "G4:cambridge-g8-maths-ch04-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_ishita_rao_15",
+   "learnerId": "lrn_ishita_rao",
+   "timestampUtc": "2026-10-31T05:31:12.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_ishita_rao_15",
+    "kind": "weekly",
+    "score": 15,
+    "maxScore": 63,
+    "gaps": [
+     "G1:cambridge-g8-maths-ch01-st2",
+     "G1:cambridge-g8-maths-ch03-st1",
+     "G2:cambridge-g8-maths-ch01-st1",
+     "G4:cambridge-g8-maths-ch04-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_ishita_rao_16",
+   "learnerId": "lrn_ishita_rao",
+   "timestampUtc": "2026-10-31T05:48:54.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_ishita_rao_16",
+    "kind": "retention_probe",
+    "score": 21,
+    "maxScore": 21,
+    "gaps": [
+     "G4:cambridge-g8-maths-ch01-st3",
+     "G6:cambridge-g8-maths-ch02-st5",
+     "G6:cambridge-g8-maths-ch03-st3",
+     "G4:cambridge-g8-maths-ch03-st4",
+     "G4:cambridge-g8-maths-ch04-st1",
+     "G4:cambridge-g8-maths-ch04-st2",
+     "G4:cambridge-g8-maths-ch04-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_ishita_rao_17",
+   "learnerId": "lrn_ishita_rao",
+   "timestampUtc": "2026-11-05T11:40:48.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_ishita_rao_17",
+    "kind": "retention_probe",
+    "score": 12,
+    "maxScore": 12,
+    "gaps": [
+     "G4:cambridge-g8-maths-ch04-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_ishita_rao_18",
+   "learnerId": "lrn_ishita_rao",
+   "timestampUtc": "2026-11-05T13:08:24.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_ishita_rao_18",
+    "kind": "chapter_check",
+    "score": 63,
+    "maxScore": 70,
+    "gaps": [
+     "G4:cambridge-g8-maths-ch05-st2",
+     "G4:cambridge-g8-maths-ch05-st4",
+     "G4:cambridge-g8-maths-ch05-st1",
+     "G4:cambridge-g8-maths-ch05-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_ishita_rao_19",
+   "learnerId": "lrn_ishita_rao",
+   "timestampUtc": "2026-11-07T05:17:42.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_ishita_rao_19",
+    "kind": "weekly",
+    "score": 4,
+    "maxScore": 49,
+    "gaps": [
+     "G1:cambridge-g8-maths-ch03-st1",
+     "G2:cambridge-g8-maths-ch01-st1",
+     "G3:cambridge-g8-maths-ch01-st2"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_ishita_rao_20",
+   "learnerId": "lrn_ishita_rao",
+   "timestampUtc": "2026-11-07T05:46:12.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_ishita_rao_20",
+    "kind": "retention_probe",
+    "score": 18,
+    "maxScore": 18,
+    "gaps": [
+     "G4:cambridge-g8-maths-ch01-st3",
+     "G4:cambridge-g8-maths-ch03-st4",
+     "G4:cambridge-g8-maths-ch05-st1",
+     "G4:cambridge-g8-maths-ch05-st2",
+     "G4:cambridge-g8-maths-ch05-st3",
+     "G4:cambridge-g8-maths-ch05-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_ishita_rao_21",
+   "learnerId": "lrn_ishita_rao",
+   "timestampUtc": "2026-11-12T11:40:48.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_ishita_rao_21",
+    "kind": "retention_probe",
+    "score": 10,
+    "maxScore": 12,
+    "gaps": [
+     "G6:cambridge-g8-maths-ch05-st1",
+     "G4:cambridge-g8-maths-ch05-st2"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_ishita_rao_22",
+   "learnerId": "lrn_ishita_rao",
+   "timestampUtc": "2026-11-12T12:39:36.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_ishita_rao_22",
+    "kind": "chapter_check",
+    "score": 35,
+    "maxScore": 41,
+    "gaps": [
+     "G3:cambridge-g8-maths-ch06-st1",
+     "G4:cambridge-g8-maths-ch06-st2",
+     "G4:cambridge-g8-maths-ch06-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_ishita_rao_23",
+   "learnerId": "lrn_ishita_rao",
+   "timestampUtc": "2026-11-14T05:31:12.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_ishita_rao_23",
+    "kind": "weekly",
+    "score": 15,
+    "maxScore": 63,
+    "gaps": [
+     "G1:cambridge-g8-maths-ch01-st2",
+     "G1:cambridge-g8-maths-ch03-st1",
+     "G2:cambridge-g8-maths-ch01-st1",
+     "G4:cambridge-g8-maths-ch06-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_ishita_rao_24",
+   "learnerId": "lrn_ishita_rao",
+   "timestampUtc": "2026-11-14T05:46:12.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_ishita_rao_24",
+    "kind": "retention_probe",
+    "score": 18,
+    "maxScore": 18,
+    "gaps": [
+     "G4:cambridge-g8-maths-ch01-st3",
+     "G4:cambridge-g8-maths-ch03-st4",
+     "G6:cambridge-g8-maths-ch05-st1",
+     "G4:cambridge-g8-maths-ch05-st2",
+     "G4:cambridge-g8-maths-ch06-st2",
+     "G4:cambridge-g8-maths-ch06-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  }
+ ]
+}

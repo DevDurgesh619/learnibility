@@ -1,0 +1,638 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/fixtures/build.ts",
+ "items": [
+  {
+   "eventId": "evt_lrn_kabir_singh_signup",
+   "learnerId": "lrn_kabir_singh",
+   "timestampUtc": "2026-04-06T04:30:00.000Z",
+   "sourceMethod": "M1",
+   "type": "account_created",
+   "payload": {
+    "parameterIds": [
+     "p1",
+     "p2",
+     "p3"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_lrn_kabir_singh_onboarding_form",
+   "learnerId": "lrn_kabir_singh",
+   "timestampUtc": "2026-04-06T04:30:00.000Z",
+   "sourceMethod": "M2",
+   "type": "onboarding_form",
+   "payload": {
+    "parameterIds": [
+     "p1",
+     "p2",
+     "p3",
+     "p4",
+     "p5",
+     "p6",
+     "p7",
+     "p9",
+     "p10",
+     "p11",
+     "p12",
+     "p13",
+     "p14",
+     "p15",
+     "p16",
+     "p17",
+     "p18",
+     "p19",
+     "p21",
+     "p22",
+     "p23",
+     "p24",
+     "p25",
+     "p26",
+     "p27",
+     "p28",
+     "p31",
+     "p32",
+     "p33",
+     "p34",
+     "p35",
+     "p36",
+     "p37",
+     "p38",
+     "p39",
+     "p40",
+     "p41",
+     "p42",
+     "p43",
+     "p44",
+     "p45",
+     "p46",
+     "p47",
+     "p48",
+     "p49",
+     "p50",
+     "p51",
+     "p52",
+     "p53",
+     "p54",
+     "p55",
+     "p56",
+     "p57",
+     "p58",
+     "p59",
+     "p63",
+     "p66",
+     "p69",
+     "p72",
+     "p78",
+     "p81",
+     "p84",
+     "p87",
+     "p90",
+     "p93",
+     "p96",
+     "p178",
+     "p193",
+     "p212",
+     "p230",
+     "p163",
+     "p150"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_kabir_singh_01",
+   "learnerId": "lrn_kabir_singh",
+   "timestampUtc": "2026-10-07T13:16:30.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_kabir_singh_01",
+    "kind": "onboarding",
+    "score": 86,
+    "maxScore": 102,
+    "gaps": [],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_kabir_singh_02",
+   "learnerId": "lrn_kabir_singh",
+   "timestampUtc": "2026-10-08T12:50:15.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_kabir_singh_02",
+    "kind": "chapter_check",
+    "score": 55,
+    "maxScore": 62,
+    "gaps": [
+     "G3:cbse-g9-maths-ch01-st1",
+     "G4:cbse-g9-maths-ch01-st2",
+     "G4:cbse-g9-maths-ch01-st3",
+     "G4:cbse-g9-maths-ch01-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_kabir_singh_03",
+   "learnerId": "lrn_kabir_singh",
+   "timestampUtc": "2026-10-10T04:41:15.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_kabir_singh_03",
+    "kind": "weekly",
+    "score": 14,
+    "maxScore": 14,
+    "gaps": [
+     "G4:cbse-g9-maths-ch01-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_kabir_singh_04",
+   "learnerId": "lrn_kabir_singh",
+   "timestampUtc": "2026-10-10T05:36:45.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_kabir_singh_04",
+    "kind": "retention_probe",
+    "score": 7,
+    "maxScore": 9,
+    "gaps": [
+     "G6:cbse-g9-maths-ch01-st2",
+     "G4:cbse-g9-maths-ch01-st3",
+     "G4:cbse-g9-maths-ch01-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_kabir_singh_05",
+   "learnerId": "lrn_kabir_singh",
+   "timestampUtc": "2026-10-15T11:39:00.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_kabir_singh_05",
+    "kind": "retention_probe",
+    "score": 12,
+    "maxScore": 12,
+    "gaps": [
+     "G4:cbse-g9-maths-ch01-st1",
+     "G6:cbse-g9-maths-ch01-st2"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_kabir_singh_06",
+   "learnerId": "lrn_kabir_singh",
+   "timestampUtc": "2026-10-15T12:57:00.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_kabir_singh_06",
+    "kind": "chapter_check",
+    "score": 67,
+    "maxScore": 70,
+    "gaps": [
+     "G4:cbse-g9-maths-ch02-st2",
+     "G4:cbse-g9-maths-ch02-st4",
+     "G4:cbse-g9-maths-ch02-st1",
+     "G4:cbse-g9-maths-ch02-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_kabir_singh_07",
+   "learnerId": "lrn_kabir_singh",
+   "timestampUtc": "2026-10-17T05:39:00.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_kabir_singh_07",
+    "kind": "retention_probe",
+    "score": 12,
+    "maxScore": 12,
+    "gaps": [
+     "G4:cbse-g9-maths-ch02-st1",
+     "G4:cbse-g9-maths-ch02-st2",
+     "G4:cbse-g9-maths-ch02-st3",
+     "G4:cbse-g9-maths-ch02-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_kabir_singh_08",
+   "learnerId": "lrn_kabir_singh",
+   "timestampUtc": "2026-10-22T11:39:00.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_kabir_singh_08",
+    "kind": "retention_probe",
+    "score": 10,
+    "maxScore": 12,
+    "gaps": [
+     "G6:cbse-g9-maths-ch02-st2"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_kabir_singh_09",
+   "learnerId": "lrn_kabir_singh",
+   "timestampUtc": "2026-10-22T13:08:15.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_kabir_singh_09",
+    "kind": "chapter_check",
+    "score": 69,
+    "maxScore": 84,
+    "gaps": [
+     "G2:cbse-g9-maths-ch03-st4",
+     "G3:cbse-g9-maths-ch03-st1",
+     "G4:cbse-g9-maths-ch03-st3",
+     "G4:cbse-g9-maths-ch03-st5",
+     "G4:cbse-g9-maths-ch03-st2"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_kabir_singh_10",
+   "learnerId": "lrn_kabir_singh",
+   "timestampUtc": "2026-10-24T04:52:30.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_kabir_singh_10",
+    "kind": "weekly",
+    "score": 22,
+    "maxScore": 28,
+    "gaps": [
+     "G2:cbse-g9-maths-ch03-st1",
+     "G4:cbse-g9-maths-ch03-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_kabir_singh_11",
+   "learnerId": "lrn_kabir_singh",
+   "timestampUtc": "2026-10-24T05:39:00.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_kabir_singh_11",
+    "kind": "retention_probe",
+    "score": 11,
+    "maxScore": 12,
+    "gaps": [
+     "G6:cbse-g9-maths-ch02-st2",
+     "G4:cbse-g9-maths-ch03-st2",
+     "G6:cbse-g9-maths-ch03-st3",
+     "G4:cbse-g9-maths-ch03-st5"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_kabir_singh_12",
+   "learnerId": "lrn_kabir_singh",
+   "timestampUtc": "2026-10-29T11:41:15.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_kabir_singh_12",
+    "kind": "retention_probe",
+    "score": 14,
+    "maxScore": 15,
+    "gaps": [
+     "G2:cbse-g9-maths-ch03-st1",
+     "G4:cbse-g9-maths-ch03-st3",
+     "G4:cbse-g9-maths-ch03-st4",
+     "G6:cbse-g9-maths-ch03-st5"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_kabir_singh_13",
+   "learnerId": "lrn_kabir_singh",
+   "timestampUtc": "2026-10-29T13:07:30.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_kabir_singh_13",
+    "kind": "chapter_check",
+    "score": 71,
+    "maxScore": 83,
+    "gaps": [
+     "G2:cbse-g9-maths-ch04-st5",
+     "G4:cbse-g9-maths-ch04-st3",
+     "G4:cbse-g9-maths-ch04-st4",
+     "G4:cbse-g9-maths-ch04-st1",
+     "G4:cbse-g9-maths-ch04-st2"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_kabir_singh_14",
+   "learnerId": "lrn_kabir_singh",
+   "timestampUtc": "2026-10-31T04:51:45.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_kabir_singh_14",
+    "kind": "weekly",
+    "score": 26,
+    "maxScore": 27,
+    "gaps": [
+     "G1:cbse-g9-maths-ch04-st5",
+     "G2:cbse-g9-maths-ch03-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_kabir_singh_15",
+   "learnerId": "lrn_kabir_singh",
+   "timestampUtc": "2026-10-31T05:43:30.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_kabir_singh_15",
+    "kind": "retention_probe",
+    "score": 17,
+    "maxScore": 18,
+    "gaps": [
+     "G4:cbse-g9-maths-ch03-st3",
+     "G6:cbse-g9-maths-ch03-st5",
+     "G6:cbse-g9-maths-ch04-st1",
+     "G4:cbse-g9-maths-ch04-st2",
+     "G4:cbse-g9-maths-ch04-st3",
+     "G4:cbse-g9-maths-ch04-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_kabir_singh_16",
+   "learnerId": "lrn_kabir_singh",
+   "timestampUtc": "2026-11-05T11:41:15.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_kabir_singh_16",
+    "kind": "retention_probe",
+    "score": 9,
+    "maxScore": 15,
+    "gaps": [
+     "G6:cbse-g9-maths-ch04-st1",
+     "G6:cbse-g9-maths-ch04-st3",
+     "G6:cbse-g9-maths-ch04-st4",
+     "G1:cbse-g9-maths-ch04-st5"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_kabir_singh_17",
+   "learnerId": "lrn_kabir_singh",
+   "timestampUtc": "2026-11-05T12:57:00.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_kabir_singh_17",
+    "kind": "chapter_check",
+    "score": 56,
+    "maxScore": 70,
+    "gaps": [
+     "G2:cbse-g9-maths-ch05-st3",
+     "G4:cbse-g9-maths-ch05-st2",
+     "G4:cbse-g9-maths-ch05-st1",
+     "G4:cbse-g9-maths-ch05-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_kabir_singh_18",
+   "learnerId": "lrn_kabir_singh",
+   "timestampUtc": "2026-11-07T04:57:45.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_kabir_singh_18",
+    "kind": "weekly",
+    "score": 17,
+    "maxScore": 34,
+    "gaps": [
+     "G2:cbse-g9-maths-ch05-st3",
+     "G6:cbse-g9-maths-ch04-st5"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_kabir_singh_19",
+   "learnerId": "lrn_kabir_singh",
+   "timestampUtc": "2026-11-07T05:43:30.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_kabir_singh_19",
+    "kind": "retention_probe",
+    "score": 17,
+    "maxScore": 18,
+    "gaps": [
+     "G4:cbse-g9-maths-ch03-st3",
+     "G6:cbse-g9-maths-ch04-st3",
+     "G6:cbse-g9-maths-ch04-st4",
+     "G4:cbse-g9-maths-ch05-st1",
+     "G4:cbse-g9-maths-ch05-st2",
+     "G6:cbse-g9-maths-ch05-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_kabir_singh_20",
+   "learnerId": "lrn_kabir_singh",
+   "timestampUtc": "2026-11-12T11:39:00.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_kabir_singh_20",
+    "kind": "retention_probe",
+    "score": 12,
+    "maxScore": 12,
+    "gaps": [
+     "G2:cbse-g9-maths-ch05-st3",
+     "G6:cbse-g9-maths-ch05-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_kabir_singh_21",
+   "learnerId": "lrn_kabir_singh",
+   "timestampUtc": "2026-11-12T12:57:00.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_kabir_singh_21",
+    "kind": "chapter_check",
+    "score": 54,
+    "maxScore": 70,
+    "gaps": [
+     "G2:cbse-g9-maths-ch06-st2",
+     "G2:cbse-g9-maths-ch06-st1",
+     "G4:cbse-g9-maths-ch06-st4",
+     "G4:cbse-g9-maths-ch06-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_kabir_singh_22",
+   "learnerId": "lrn_kabir_singh",
+   "timestampUtc": "2026-11-14T05:15:45.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_kabir_singh_22",
+    "kind": "weekly",
+    "score": 29,
+    "maxScore": 56,
+    "gaps": [
+     "G3:cbse-g9-maths-ch05-st3",
+     "G4:cbse-g9-maths-ch06-st2",
+     "G4:cbse-g9-maths-ch06-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_kabir_singh_23",
+   "learnerId": "lrn_kabir_singh",
+   "timestampUtc": "2026-11-14T05:39:00.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_kabir_singh_23",
+    "kind": "retention_probe",
+    "score": 11,
+    "maxScore": 12,
+    "gaps": [
+     "G4:cbse-g9-maths-ch03-st3",
+     "G6:cbse-g9-maths-ch04-st5",
+     "G4:cbse-g9-maths-ch06-st3",
+     "G6:cbse-g9-maths-ch06-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  }
+ ]
+}

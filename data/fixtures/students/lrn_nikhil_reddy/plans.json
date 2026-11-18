@@ -1,0 +1,465 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/fixtures/build.ts",
+ "items": [
+  {
+   "id": "plan_lrn_nikhil_reddy_202610101230",
+   "learnerId": "lrn_nikhil_reddy",
+   "createdUtc": "2026-10-10T12:30:00.000Z",
+   "status": "replaced",
+   "freePlanWeeks": 0,
+   "gapIds": [
+    "gap_lrn_nikhil_reddy_cambridge-g12-business-ch01-st4",
+    "gap_lrn_nikhil_reddy_cambridge-g12-business-ch01-st2"
+   ],
+   "plan": {
+    "gaps": [
+     {
+      "gapId": "gap_lrn_nikhil_reddy_cambridge-g12-business-ch01-st2",
+      "subtopicId": "cambridge-g12-business-ch01-st2",
+      "chapterId": "cambridge-g12-business-ch01",
+      "code": "G4",
+      "hours": 0.8,
+      "weeks": 0.1,
+      "steps": [
+       {
+        "interventionId": "int-g4-1",
+        "rank": 1,
+        "name": "Estimate-first rule",
+        "whatToDo": "Before answering, write an estimate or expected form of the answer (size, sign, units, key term). Compare at the end. Applies to every application item for two weeks.",
+        "timeCost": "1 min/item",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 30,
+        "alrIndices": [
+         "MCI",
+         "CE"
+        ]
+       },
+       {
+        "interventionId": "int-g4-2",
+        "rank": 2,
+        "name": "Slow-down protocol on D1–D2 items",
+        "whatToDo": "Timed practice is paused; reach 95% accuracy on D1 to D2 items before timed work resumes.",
+        "timeCost": "2 weeks",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 90,
+        "alrIndices": [
+         "CE"
+        ]
+       },
+       {
+        "interventionId": "int-g4-3",
+        "rank": 3,
+        "name": "Sleep / study-block hygiene check",
+        "whatToDo": "If sleep is short or a phone is in the study block, fix that first via the parent form (M2). Support context only, never a score.",
+        "timeCost": "0",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 0,
+        "alrIndices": [
+         "CE"
+        ]
+       }
+      ],
+      "addOns": [
+       {
+        "interventionId": "int-g9-1",
+        "rank": 1,
+        "name": "Predict-then-check on every quiz",
+        "whatToDo": "Learner writes the expected score before marking; show the predicted-versus-actual trend weekly.",
+        "timeCost": "2 min/quiz",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 6,
+        "alrIndices": [
+         "MCI"
+        ],
+        "addOnFor": "G9"
+       }
+      ],
+      "addOnText": "G9 predict-then-check; review confident-and-wrong items.",
+      "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
+      "deviceCheck": "Video / app options usable.",
+      "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.1 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
+      "retestDateUtc": "2026-10-17T12:30:00.000Z",
+      "retentionProbeDateUtc": "2026-10-24T12:30:00.000Z"
+     },
+     {
+      "gapId": "gap_lrn_nikhil_reddy_cambridge-g12-business-ch01-st4",
+      "subtopicId": "cambridge-g12-business-ch01-st4",
+      "chapterId": "cambridge-g12-business-ch01",
+      "code": "G4",
+      "hours": 0.8,
+      "weeks": 0.1,
+      "steps": [
+       {
+        "interventionId": "int-g4-1",
+        "rank": 1,
+        "name": "Estimate-first rule",
+        "whatToDo": "Before answering, write an estimate or expected form of the answer (size, sign, units, key term). Compare at the end. Applies to every application item for two weeks.",
+        "timeCost": "1 min/item",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 30,
+        "alrIndices": [
+         "MCI",
+         "CE"
+        ]
+       },
+       {
+        "interventionId": "int-g4-2",
+        "rank": 2,
+        "name": "Slow-down protocol on D1–D2 items",
+        "whatToDo": "Timed practice is paused; reach 95% accuracy on D1 to D2 items before timed work resumes.",
+        "timeCost": "2 weeks",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 90,
+        "alrIndices": [
+         "CE"
+        ]
+       },
+       {
+        "interventionId": "int-g4-3",
+        "rank": 3,
+        "name": "Sleep / study-block hygiene check",
+        "whatToDo": "If sleep is short or a phone is in the study block, fix that first via the parent form (M2). Support context only, never a score.",
+        "timeCost": "0",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 0,
+        "alrIndices": [
+         "CE"
+        ]
+       }
+      ],
+      "addOns": [],
+      "addOnText": "",
+      "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
+      "deviceCheck": "Video / app options usable.",
+      "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.1 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
+      "retestDateUtc": "2026-10-17T12:30:00.000Z",
+      "retentionProbeDateUtc": "2026-10-24T12:30:00.000Z"
+     }
+    ],
+    "paidTuition": {
+     "recommended": false,
+     "reason": "Not needed: gaps sit in one chapter and free, high-evidence methods cover them.",
+     "inrPerMonth": {
+      "min": 2000,
+      "max": 6000
+     },
+     "affordable": true
+    },
+    "optionalApp": {
+     "interventionId": "int-any-2",
+     "rank": 2,
+     "name": "Adaptive practice app (low-cost)",
+     "whatToDo": "Only if device and internet are adequate; use it for practice sets and spaced retrieval, not for teaching.",
+     "timeCost": "20 min/day",
+     "effort": "low",
+     "money": "low",
+     "inrPerMonth": {
+      "min": 0,
+      "max": 500
+     },
+     "totalMinutes": 100,
+     "alrIndices": [
+      "dK",
+      "R"
+     ]
+    },
+    "totalMinutes": 246,
+    "totalInrPerMonth": {
+     "min": 0,
+     "max": 0
+    },
+    "chaptersWithGaps": 1,
+    "orderOfOperations": "Optimising time, effort and money – the order of operations: (1) diagnose with the paper + one probe (10 min); (2) fix prerequisites before anything else; (3) use free, high-evidence methods (worked examples, retrieval, interleaving, spacing) – they cover 9 of 10 gap types at ₹0; (4) spend money only on a written gap list, and re-test to see if it worked (#426 recommendation effectiveness). Rank 1 = do first; Effort = what it demands of the student; Money = Free / Low / Paid."
+   }
+  },
+  {
+   "id": "plan_lrn_nikhil_reddy_202610171230",
+   "learnerId": "lrn_nikhil_reddy",
+   "createdUtc": "2026-10-17T12:30:00.000Z",
+   "status": "replaced",
+   "freePlanWeeks": 0,
+   "gapIds": [
+    "gap_lrn_nikhil_reddy_cambridge-g12-business-ch02-st4"
+   ],
+   "plan": {
+    "gaps": [
+     {
+      "gapId": "gap_lrn_nikhil_reddy_cambridge-g12-business-ch02-st4",
+      "subtopicId": "cambridge-g12-business-ch02-st4",
+      "chapterId": "cambridge-g12-business-ch02",
+      "code": "G4",
+      "hours": 0.6,
+      "weeks": 0.1,
+      "steps": [
+       {
+        "interventionId": "int-g4-1",
+        "rank": 1,
+        "name": "Estimate-first rule",
+        "whatToDo": "Before answering, write an estimate or expected form of the answer (size, sign, units, key term). Compare at the end. Applies to every application item for two weeks.",
+        "timeCost": "1 min/item",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 30,
+        "alrIndices": [
+         "MCI",
+         "CE"
+        ]
+       },
+       {
+        "interventionId": "int-g4-2",
+        "rank": 2,
+        "name": "Slow-down protocol on D1–D2 items",
+        "whatToDo": "Timed practice is paused; reach 95% accuracy on D1 to D2 items before timed work resumes.",
+        "timeCost": "2 weeks",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 90,
+        "alrIndices": [
+         "CE"
+        ]
+       },
+       {
+        "interventionId": "int-g4-3",
+        "rank": 3,
+        "name": "Sleep / study-block hygiene check",
+        "whatToDo": "If sleep is short or a phone is in the study block, fix that first via the parent form (M2). Support context only, never a score.",
+        "timeCost": "0",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 0,
+        "alrIndices": [
+         "CE"
+        ]
+       }
+      ],
+      "addOns": [
+       {
+        "interventionId": "int-g9-1",
+        "rank": 1,
+        "name": "Predict-then-check on every quiz",
+        "whatToDo": "Learner writes the expected score before marking; show the predicted-versus-actual trend weekly.",
+        "timeCost": "2 min/quiz",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 6,
+        "alrIndices": [
+         "MCI"
+        ],
+        "addOnFor": "G9"
+       }
+      ],
+      "addOnText": "G9 predict-then-check; review confident-and-wrong items.",
+      "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
+      "deviceCheck": "Video / app options usable.",
+      "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.1 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
+      "retestDateUtc": "2026-10-24T12:30:00.000Z",
+      "retentionProbeDateUtc": "2026-10-31T12:30:00.000Z"
+     }
+    ],
+    "paidTuition": {
+     "recommended": false,
+     "reason": "Not needed: gaps sit in one chapter and free, high-evidence methods cover them.",
+     "inrPerMonth": {
+      "min": 2000,
+      "max": 6000
+     },
+     "affordable": true
+    },
+    "optionalApp": {
+     "interventionId": "int-any-2",
+     "rank": 2,
+     "name": "Adaptive practice app (low-cost)",
+     "whatToDo": "Only if device and internet are adequate; use it for practice sets and spaced retrieval, not for teaching.",
+     "timeCost": "20 min/day",
+     "effort": "low",
+     "money": "low",
+     "inrPerMonth": {
+      "min": 0,
+      "max": 500
+     },
+     "totalMinutes": 100,
+     "alrIndices": [
+      "dK",
+      "R"
+     ]
+    },
+    "totalMinutes": 126,
+    "totalInrPerMonth": {
+     "min": 0,
+     "max": 0
+    },
+    "chaptersWithGaps": 1,
+    "orderOfOperations": "Optimising time, effort and money – the order of operations: (1) diagnose with the paper + one probe (10 min); (2) fix prerequisites before anything else; (3) use free, high-evidence methods (worked examples, retrieval, interleaving, spacing) – they cover 9 of 10 gap types at ₹0; (4) spend money only on a written gap list, and re-test to see if it worked (#426 recommendation effectiveness). Rank 1 = do first; Effort = what it demands of the student; Money = Free / Low / Paid."
+   }
+  },
+  {
+   "id": "plan_lrn_nikhil_reddy_202610241230",
+   "learnerId": "lrn_nikhil_reddy",
+   "createdUtc": "2026-10-24T12:30:00.000Z",
+   "status": "active",
+   "freePlanWeeks": 0,
+   "gapIds": [
+    "gap_lrn_nikhil_reddy_cambridge-g12-business-ch03-st4"
+   ],
+   "plan": {
+    "gaps": [
+     {
+      "gapId": "gap_lrn_nikhil_reddy_cambridge-g12-business-ch03-st4",
+      "subtopicId": "cambridge-g12-business-ch03-st4",
+      "chapterId": "cambridge-g12-business-ch03",
+      "code": "G4",
+      "hours": 0.6,
+      "weeks": 0.1,
+      "steps": [
+       {
+        "interventionId": "int-g4-1",
+        "rank": 1,
+        "name": "Estimate-first rule",
+        "whatToDo": "Before answering, write an estimate or expected form of the answer (size, sign, units, key term). Compare at the end. Applies to every application item for two weeks.",
+        "timeCost": "1 min/item",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 30,
+        "alrIndices": [
+         "MCI",
+         "CE"
+        ]
+       },
+       {
+        "interventionId": "int-g4-2",
+        "rank": 2,
+        "name": "Slow-down protocol on D1–D2 items",
+        "whatToDo": "Timed practice is paused; reach 95% accuracy on D1 to D2 items before timed work resumes.",
+        "timeCost": "2 weeks",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 90,
+        "alrIndices": [
+         "CE"
+        ]
+       },
+       {
+        "interventionId": "int-g4-3",
+        "rank": 3,
+        "name": "Sleep / study-block hygiene check",
+        "whatToDo": "If sleep is short or a phone is in the study block, fix that first via the parent form (M2). Support context only, never a score.",
+        "timeCost": "0",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 0,
+        "alrIndices": [
+         "CE"
+        ]
+       }
+      ],
+      "addOns": [],
+      "addOnText": "",
+      "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
+      "deviceCheck": "Video / app options usable.",
+      "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.1 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
+      "retestDateUtc": "2026-10-31T12:30:00.000Z",
+      "retentionProbeDateUtc": "2026-11-07T12:30:00.000Z"
+     }
+    ],
+    "paidTuition": {
+     "recommended": false,
+     "reason": "Not needed: gaps sit in one chapter and free, high-evidence methods cover them.",
+     "inrPerMonth": {
+      "min": 2000,
+      "max": 6000
+     },
+     "affordable": true
+    },
+    "optionalApp": {
+     "interventionId": "int-any-2",
+     "rank": 2,
+     "name": "Adaptive practice app (low-cost)",
+     "whatToDo": "Only if device and internet are adequate; use it for practice sets and spaced retrieval, not for teaching.",
+     "timeCost": "20 min/day",
+     "effort": "low",
+     "money": "low",
+     "inrPerMonth": {
+      "min": 0,
+      "max": 500
+     },
+     "totalMinutes": 100,
+     "alrIndices": [
+      "dK",
+      "R"
+     ]
+    },
+    "totalMinutes": 120,
+    "totalInrPerMonth": {
+     "min": 0,
+     "max": 0
+    },
+    "chaptersWithGaps": 1,
+    "orderOfOperations": "Optimising time, effort and money – the order of operations: (1) diagnose with the paper + one probe (10 min); (2) fix prerequisites before anything else; (3) use free, high-evidence methods (worked examples, retrieval, interleaving, spacing) – they cover 9 of 10 gap types at ₹0; (4) spend money only on a written gap list, and re-test to see if it worked (#426 recommendation effectiveness). Rank 1 = do first; Effort = what it demands of the student; Money = Free / Low / Paid."
+   }
+  }
+ ]
+}

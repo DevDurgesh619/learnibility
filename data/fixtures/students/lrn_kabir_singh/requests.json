@@ -1,0 +1,39 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/fixtures/build.ts",
+ "items": [
+  {
+   "id": "req_kabir_singh_1",
+   "learnerId": "lrn_kabir_singh",
+   "createdUtc": "2026-10-27T14:40:00.000Z",
+   "weekStart": "2026-10-26",
+   "blockIds": [],
+   "kind": "move",
+   "reason": "Cricket practice on Wednesdays this month.",
+   "proposed": "Move Wednesday study to Sunday 17:00",
+   "status": "approved",
+   "counsellorId": "csl_heena_qureshi",
+   "decidedBy": "csl_heena_qureshi",
+   "decidedUtc": "2026-10-28T05:30:00.000Z",
+   "decisionNote": "Approved; Sunday window added."
+  },
+  {
+   "id": "req_kabir_singh_2",
+   "learnerId": "lrn_kabir_singh",
+   "createdUtc": "2026-11-17T15:35:00.000Z",
+   "weekStart": "2026-11-16",
+   "blockIds": [
+    "blk_lrn_kabir_singh_2026-11-19_1730_review"
+   ],
+   "kind": "move",
+   "reason": "School science exhibition runs late on Thursday.",
+   "proposed": {
+    "date": "2026-11-22",
+    "start": "17:00",
+    "end": "18:00"
+   },
+   "status": "pending",
+   "counsellorId": "csl_heena_qureshi"
+  }
+ ]
+}

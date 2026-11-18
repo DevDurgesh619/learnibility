@@ -1,0 +1,37 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/fixtures/build.ts",
+ "items": [
+  {
+   "id": "inv_rohan_das_1",
+   "learnerId": "lrn_rohan_das",
+   "payerId": "par_anita_das",
+   "issuedUtc": "2026-10-05T03:30:00.000Z",
+   "dueDate": "2026-10-12",
+   "status": "paid",
+   "paidUtc": "2026-10-06T14:00:00.000Z",
+   "lines": [
+    {
+     "title": "Board-exam revision workshop (4 group sessions)",
+     "amountInr": 1400
+    }
+   ],
+   "amountInr": 1400
+  },
+  {
+   "id": "inv_rohan_das_2",
+   "learnerId": "lrn_rohan_das",
+   "payerId": "par_anita_das",
+   "issuedUtc": "2026-11-15T03:30:00.000Z",
+   "dueDate": "2026-11-22",
+   "status": "due",
+   "lines": [
+    {
+     "title": "Mock test series, Class 10 Maths",
+     "amountInr": 600
+    }
+   ],
+   "amountInr": 600
+  }
+ ]
+}

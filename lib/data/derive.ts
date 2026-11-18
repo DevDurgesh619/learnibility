@@ -82,12 +82,35 @@ export function applyAttempt(student: Student, attempt: Attempt, state: LearnerS
   if (!questions.length || attempt.status !== 'submitted') return effect;
   const subs = subtopicsFor(questions.map((q) => q.subjectId));
   const known = questions.filter((q) => subs[q.subtopicId]);
-  const diagnoses = diagnoseGaps(attempt.responses, known, {
-    learnerId: student.id,
-    band: student.band,
-    subtopics: subs,
-    weeklyHours: weeklyHoursPerSubject(student),
-  });
+  const ctx = { learnerId: student.id, band: student.band, subtopics: subs, weeklyHours: weeklyHoursPerSubject(student) };
+  let diagnoses: Diagnosis[];
+  if (attempt.kind === 'retention_probe') {
+    // A 7-day probe has too few items to diagnose on its own: it sets retention, then the subtopic's last
+    // full check is re-diagnosed with that retention signal (L4 → L5, or G6 when retention < 70%).
+    diagnoses = [];
+    const bySub = new Map<string, Question[]>();
+    for (const q of known) bySub.set(q.subtopicId, [...(bySub.get(q.subtopicId) ?? []), q]);
+    const byQ = new Map(attempt.responses.map((r) => [r.questionId, r]));
+    for (const [sid, qs] of bySub) {
+      const pct = Math.round((qs.filter((q) => byQ.get(q.id)?.correct).length / qs.length) * 100);
+      const m = state.mastery.get(sid);
+      if (m) state.mastery.set(sid, { ...m, retention: pct / 100 });
+      const prevCheck = allAttempts
+        .filter((a) => a.id !== attempt.id && a.kind !== 'retention_probe' && a.submittedUtc <= attempt.submittedUtc && a.status === 'submitted')
+        .map((a) => ({ a, qs: a.questionIds.map(getQ).filter((q): q is Question => !!q && q.subtopicId === sid) }))
+        .filter((x) => x.qs.length >= 4)
+        .pop();
+      if (!prevCheck) continue;
+      diagnoses.push(...diagnoseGaps(prevCheck.a.responses, prevCheck.qs, { ...ctx, signals: { [sid]: { retentionPct: pct } } }));
+    }
+  } else {
+    const signals: Record<string, { retentionPct: number }> = {};
+    for (const q of known) {
+      const r = state.mastery.get(q.subtopicId)?.retention;
+      if (r !== undefined) signals[q.subtopicId] = { retentionPct: Math.round(r * 100) };
+    }
+    diagnoses = diagnoseGaps(attempt.responses, known, { ...ctx, signals });
+  }
   effect.diagnoses = diagnoses;
   const now = attempt.submittedUtc;
   for (const d of diagnoses) {
@@ -98,7 +121,7 @@ export function applyAttempt(student: Student, attempt: Attempt, state: LearnerS
       level: d.level, pMastery: Math.round(d.scorePct) / 100, lastTestedUtc: now,
       ...(state.mastery.get(d.subtopicId)?.retention !== undefined ? { retention: state.mastery.get(d.subtopicId)!.retention } : {}),
     };
-    if (attempt.kind === 'retention_probe') m.retention = Math.round(d.scorePct) / 100;
+    if (attempt.kind === 'retention_probe') m.pMastery = state.mastery.get(d.subtopicId)?.pMastery ?? m.pMastery;
     state.mastery.set(d.subtopicId, m);
     effect.mastery.push(m);
 
@@ -151,6 +174,8 @@ export function applyAttempt(student: Student, attempt: Attempt, state: LearnerS
       delayed: delayed?.responses,
       minutesAllotted: post.minutesAllotted,
     });
+    // Engine edge case: a 100% pre-test makes dK 0/0 (NaN). Treat it as 99% so dK is defined.
+    if (inputs.preWeightedPct !== undefined && inputs.preWeightedPct >= 100) inputs.preWeightedPct = 99;
     const res = computeAlr(inputs);
     if (!res.snapshot) continue;
     const rec: AlrRecord = { ...res.snapshot, subjectId: subjectIdOf(chapterId), asOfUtc: now, missing: res.missing, action: res.action };

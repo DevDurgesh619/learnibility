@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/fixtures/build.ts",
+ "items": [
+  {
+   "id": "mtg_sara_khan_1",
+   "learnerId": "lrn_sara_khan",
+   "staffId": "csl_heena_qureshi",
+   "date": "2026-11-09",
+   "kind": "academic",
+   "tier": "T1",
+   "summary": "Reviewed Sara's gaps and timetable; agreed to keep the free plan steps and re-test after the weekly test.",
+   "decisions": [
+    "Keep current study windows",
+    "Re-test gaps on Saturday"
+   ],
+   "actionItems": [
+    {
+     "id": "ai_sara_khan_1",
+     "title": "Finish the gap practice blocks this week",
+     "dueOn": "2026-11-16",
+     "done": true
+    }
+   ]
+  },
+  {
+   "id": "mtg_sara_khan_career_1",
+   "learnerId": "lrn_sara_khan",
+   "staffId": "mnt_kelvin_thomas",
+   "date": "2026-11-12",
+   "kind": "career",
+   "tier": "T1",
+   "summary": "Compared Chartered Accountant (ICAI route, 4.5 to 5 years) with Data Analyst (BSc + SQL/Python skills). Sara enjoys accounting logic but wants more variety; both stay open.",
+   "decisions": [
+    "Keep both careers shortlisted",
+    "Try a free SQL course before deciding"
+   ],
+   "actionItems": [
+    {
+     "id": "ai_sara_career_1",
+     "title": "Finish the first 3 modules of a free SQL course",
+     "dueOn": "2026-11-25",
+     "taskId": "task_sara_khan_mnt_1"
+    },
+    {
+     "id": "ai_sara_career_2",
+     "title": "Read the ICAI Foundation syllabus",
+     "dueOn": "2026-11-22",
+     "taskId": "task_sara_khan_mnt_2"
+    }
+   ]
+  }
+ ]
+}

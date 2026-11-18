@@ -1,0 +1,40 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/fixtures/build.ts",
+ "items": [
+  {
+   "id": "ses_ishita_rao_csl_1",
+   "code": "C-1",
+   "learnerId": "lrn_ishita_rao",
+   "learnerIds": [
+    "lrn_ishita_rao"
+   ],
+   "hostId": "csl_heena_qureshi",
+   "hostRole": "counsellor",
+   "kind": "counselling",
+   "title": "Monthly check-in with Heena",
+   "startUtc": "2026-11-09T10:30:00.000Z",
+   "minutes": 30,
+   "status": "completed",
+   "mode": "online",
+   "meetingNoteId": "mtg_ishita_rao_1"
+  },
+  {
+   "id": "ses_ishita_rao_csl_2",
+   "code": "C-2",
+   "learnerId": "lrn_ishita_rao",
+   "learnerIds": [
+    "lrn_ishita_rao"
+   ],
+   "hostId": "csl_heena_qureshi",
+   "hostRole": "counsellor",
+   "kind": "counselling",
+   "title": "Check-in with Heena",
+   "startUtc": "2026-11-24T11:00:00.000Z",
+   "minutes": 30,
+   "status": "scheduled",
+   "mode": "online",
+   "joinUrl": "https://meet.learnibility.demo/heena"
+  }
+ ]
+}

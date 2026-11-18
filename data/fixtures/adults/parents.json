@@ -1,0 +1,92 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/fixtures/build.ts",
+ "items": [
+  {
+   "id": "par_harpreet_singh",
+   "role": "parent",
+   "firstName": "Harpreet",
+   "lastName": "Singh",
+   "name": "Harpreet Singh",
+   "city": "New Delhi",
+   "learnerIds": [
+    "lrn_kabir_singh"
+   ],
+   "relation": {
+    "lrn_kabir_singh": "father"
+   }
+  },
+  {
+   "id": "par_anita_das",
+   "role": "parent",
+   "firstName": "Anita",
+   "lastName": "Das",
+   "name": "Anita Das",
+   "city": "Kolkata",
+   "learnerIds": [
+    "lrn_rohan_das"
+   ],
+   "relation": {
+    "lrn_rohan_das": "mother"
+   }
+  },
+  {
+   "id": "par_sunita_rao",
+   "role": "parent",
+   "firstName": "Sunita",
+   "lastName": "Rao",
+   "name": "Sunita Rao",
+   "city": "Bengaluru",
+   "learnerIds": [
+    "lrn_ishita_rao"
+   ],
+   "relation": {
+    "lrn_ishita_rao": "mother"
+   }
+  },
+  {
+   "id": "par_farida_khan",
+   "role": "parent",
+   "firstName": "Farida",
+   "lastName": "Khan",
+   "name": "Farida Khan",
+   "city": "Mumbai",
+   "learnerIds": [
+    "lrn_sara_khan"
+   ],
+   "relation": {
+    "lrn_sara_khan": "mother"
+   }
+  },
+  {
+   "id": "par_lakshmi_reddy",
+   "role": "parent",
+   "firstName": "Lakshmi",
+   "lastName": "Reddy",
+   "name": "Lakshmi Reddy",
+   "city": "Hyderabad",
+   "learnerIds": [
+    "lrn_nikhil_reddy"
+   ],
+   "relation": {
+    "lrn_nikhil_reddy": "mother"
+   }
+  },
+  {
+   "id": "par_neha_kapoor",
+   "role": "parent",
+   "firstName": "Neha",
+   "lastName": "Kapoor",
+   "name": "Neha Kapoor",
+   "city": "Gurugram",
+   "learnerIds": [
+    "lrn_aarav_kapoor",
+    "lrn_ananya_kapoor"
+   ],
+   "relation": {
+    "lrn_aarav_kapoor": "mother",
+    "lrn_ananya_kapoor": "mother"
+   }
+  }
+ ]
+}

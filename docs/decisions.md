@@ -27,3 +27,12 @@ Newest first. Each entry: date, decision, who decided, why.
 - **Role visibility per tier** (`lib/visibility.ts`): student and counsellor see all tiers; parent sees T1 and C in full and T2/T3 as summaries only; teacher and mentor T1 only; tutor only parameters the student shared. T3 and consent records never feed ranking, admissions fit, career fit, tutor matching or work allocation. (W1, from the 430 file's Sensitivity Tiers sheet and the blueprint tier rule.)
 - **Dummy plan prices** (user, 07:45: "use dummy pricing we will change it later") (Free ₹0, Application Support ₹4,999/month, Full package ₹7,999/month) until the user sets pricing. (W1.)
 - **Demo clock.** `DEMO_NOW` = 2026-11-18 09:00 IST in `lib/demo-clock.ts`. (Personas brief.)
+
+## 2026-11-18 (W2-0 Data layer)
+
+- **Demo writes go to their own SQLite overlay, not the Prisma schema.** `lib/store/overlay.ts` keeps one table of `(collection, key, learnerId, data)` rows in `.data/overlay.sqlite` (better-sqlite3, already installed for Prisma's adapter), with a memory fallback for read-only hosting and tests. The Prisma schema's foreign keys need a fully seeded database that fixtures and contributed demo content are not in; a generic overlay lets every screen write without seeding and makes "Reset demo" a single delete. (W2-0.)
+- **Source priority per learner:** `data/personas/students/{id}/` wins over `data/fixtures/students/{id}/`; `data/fixtures/contrib/*.json` adds demo content authored by screen threads; the overlay wins over both. (W2-0.)
+- **Next best actions are computed on every read** from the current gaps, tasks, mastery and applications, so they change immediately after any write. (W2-0.)
+- **Fixture learners use real persona ids** (Kabir, Rohan, Ishita, Sara, Nikhil, Ananya) so screens switch to Wave 3 data without code changes. Fixture questions use ids `{subtopicId}-q9NN` to avoid clashing with the real bank. (W2-0.)
+- **Retention probes re-diagnose the last full check** with the probe's retention as the signal (L4 → L5, or G6 under 70%), because a 2-item probe alone is "insufficient evidence" for the engine. (W2-0.)
+- **ALR edge case:** a 100% pre-test makes the engine's dK 0/0; the data layer treats it as 99%. Reported to the engines owner. (W2-0.)

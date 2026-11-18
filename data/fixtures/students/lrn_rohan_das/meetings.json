@@ -1,0 +1,47 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/fixtures/build.ts",
+ "items": [
+  {
+   "id": "mtg_rohan_das_1",
+   "learnerId": "lrn_rohan_das",
+   "staffId": "csl_heena_qureshi",
+   "date": "2026-11-09",
+   "kind": "academic",
+   "tier": "T1",
+   "summary": "Reviewed Rohan's gaps and timetable; agreed to keep the free plan steps and re-test after the weekly test.",
+   "decisions": [
+    "Keep current study windows",
+    "Re-test gaps on Saturday"
+   ],
+   "actionItems": [
+    {
+     "id": "ai_rohan_das_1",
+     "title": "Finish the gap practice blocks this week",
+     "dueOn": "2026-11-16",
+     "done": true
+    }
+   ]
+  },
+  {
+   "id": "mtg_rohan_das_wellbeing_1",
+   "learnerId": "lrn_rohan_das",
+   "staffId": "csl_heena_qureshi",
+   "date": "2026-11-06",
+   "kind": "wellbeing",
+   "tier": "T3",
+   "summary": "Rohan reports exam stress and pressure at home. Agreed shorter study blocks and a weekly 10-minute check-in.",
+   "decisions": [
+    "Shorter 25-minute blocks",
+    "Weekly check-in"
+   ],
+   "actionItems": [
+    {
+     "id": "ai_rohan_wb_1",
+     "title": "Weekly 10-minute check-in with Heena",
+     "dueOn": "2026-11-20"
+    }
+   ]
+  }
+ ]
+}

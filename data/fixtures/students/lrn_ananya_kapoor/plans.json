@@ -1,0 +1,123 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/fixtures/build.ts",
+ "items": [
+  {
+   "id": "plan_lrn_ananya_kapoor_202610241230",
+   "learnerId": "lrn_ananya_kapoor",
+   "createdUtc": "2026-10-24T12:30:00.000Z",
+   "status": "active",
+   "freePlanWeeks": 0,
+   "gapIds": [
+    "gap_lrn_ananya_kapoor_cambridge-g10-maths-ch03-st5"
+   ],
+   "plan": {
+    "gaps": [
+     {
+      "gapId": "gap_lrn_ananya_kapoor_cambridge-g10-maths-ch03-st5",
+      "subtopicId": "cambridge-g10-maths-ch03-st5",
+      "chapterId": "cambridge-g10-maths-ch03",
+      "code": "G6",
+      "hours": 0.3,
+      "weeks": 0,
+      "steps": [
+       {
+        "interventionId": "int-g6-1",
+        "rank": 1,
+        "name": "Spaced retrieval schedule: day 1, 3, 7, 21",
+        "whatToDo": "3 to 4 retrieval-probe items on each date, closed book, self-marked. Dates go into the planner (M15).",
+        "timeCost": "4 × 8 min",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 32,
+        "alrIndices": [
+         "R"
+        ]
+       },
+       {
+        "interventionId": "int-g6-2",
+        "rank": 2,
+        "name": "Error-log re-do",
+        "whatToDo": "Every wrong item goes into an error log with the correct reasoning and is re-attempted after 7 days without looking.",
+        "timeCost": "10 min/week",
+        "effort": "medium",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 10,
+        "alrIndices": [
+         "R",
+         "ECV"
+        ]
+       },
+       {
+        "interventionId": "int-g6-3",
+        "rank": 3,
+        "name": "Cumulative 10-minute weekly quiz",
+        "whatToDo": "5 items from earlier chapters every week; no marks recorded, just tallies.",
+        "timeCost": "10 min/week",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 10,
+        "alrIndices": [
+         "R"
+        ]
+       }
+      ],
+      "addOns": [],
+      "addOnText": "",
+      "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
+      "deviceCheck": "Video / app options usable.",
+      "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
+      "retestDateUtc": "2026-10-31T12:30:00.000Z",
+      "retentionProbeDateUtc": "2026-11-07T12:30:00.000Z"
+     }
+    ],
+    "paidTuition": {
+     "recommended": false,
+     "reason": "Not needed: gaps sit in one chapter and free, high-evidence methods cover them.",
+     "inrPerMonth": {
+      "min": 2000,
+      "max": 6000
+     },
+     "affordable": true
+    },
+    "optionalApp": {
+     "interventionId": "int-any-2",
+     "rank": 2,
+     "name": "Adaptive practice app (low-cost)",
+     "whatToDo": "Only if device and internet are adequate; use it for practice sets and spaced retrieval, not for teaching.",
+     "timeCost": "20 min/day",
+     "effort": "low",
+     "money": "low",
+     "inrPerMonth": {
+      "min": 0,
+      "max": 500
+     },
+     "totalMinutes": 100,
+     "alrIndices": [
+      "dK",
+      "R"
+     ]
+    },
+    "totalMinutes": 52,
+    "totalInrPerMonth": {
+     "min": 0,
+     "max": 0
+    },
+    "chaptersWithGaps": 1,
+    "orderOfOperations": "Optimising time, effort and money – the order of operations: (1) diagnose with the paper + one probe (10 min); (2) fix prerequisites before anything else; (3) use free, high-evidence methods (worked examples, retrieval, interleaving, spacing) – they cover 9 of 10 gap types at ₹0; (4) spend money only on a written gap list, and re-test to see if it worked (#426 recommendation effectiveness). Rank 1 = do first; Effort = what it demands of the student; Money = Free / Low / Paid."
+   }
+  }
+ ]
+}
