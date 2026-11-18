@@ -1,0 +1,17 @@
+[
+  {
+    "date": "2026-11-18",
+    "method": "Three rounds of 5 random generated items per chapter (50 items each, 150 in all, across bank, practice forms and mocks; round 2 drawn only from computed items) re-solved by hand: every numerical recomputed from the stem data, every fact/MCQ key checked against NCERT Chemistry XII",
+    "checked": 150,
+    "mismatches": 2,
+    "fixes": [
+      "relative lowering of vapour pressure: key was computed from the unrounded vapour pressure, so the answer differed by about 0.3% from one worked from the stem; now computed from the printed value",
+      "pH/degree of dissociation of weak acids and bases: approximation alpha << 1 used where alpha was about 0.13 (e.g. 0.01 M HCOOH); such cases are now rejected and stems state the assumption",
+      "elevation of boiling point items with a negligible elevation (about 0.003 K) are rejected; answer now gives the elevation and the boiling point",
+      "sucrose hydrolysis answer now also answers the 'why invert sugar' part",
+      "imperative prompts ('Identify the cell') no longer end with a question mark; Greek letters no longer capitalised at the start of answers",
+      "'e.g.' feature cues and an inner-transition intro that did not fit the 3d series item reworded; awkward case template switched off for the transition-metal properties table"
+    ],
+    "note": "Two keys were numerically off (both fixed); no other wrong answers found. Bank regenerated and revalidated after the fixes."
+  }
+]

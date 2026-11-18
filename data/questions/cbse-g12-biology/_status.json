@@ -1,0 +1,68 @@
+{
+  "subjectId": "cbse-g12-biology",
+  "generatedBy": "scripts/questions/cbse/g12_biology.py",
+  "curriculumSource": "data/curriculum/cbse-g12-biology.json",
+  "generatedAt": "2026-11-18T09:00:10Z",
+  "chaptersDone": [
+    "cbse-g12-biology-ch01",
+    "cbse-g12-biology-ch02",
+    "cbse-g12-biology-ch03",
+    "cbse-g12-biology-ch04",
+    "cbse-g12-biology-ch05",
+    "cbse-g12-biology-ch06",
+    "cbse-g12-biology-ch07",
+    "cbse-g12-biology-ch08",
+    "cbse-g12-biology-ch09",
+    "cbse-g12-biology-ch10",
+    "cbse-g12-biology-ch11",
+    "cbse-g12-biology-ch12",
+    "cbse-g12-biology-ch13"
+  ],
+  "mocksDone": true,
+  "target": 1368,
+  "generated": 1368,
+  "validated": true,
+  "counts": {
+    "mastery_bank": 650,
+    "practice": 520,
+    "mock": 198,
+    "total": 1368
+  },
+  "mix": {
+    "C": {
+      "C1": 14.8,
+      "C2": 29.7,
+      "C3": 34.8,
+      "C4": 20.8
+    },
+    "D": {
+      "D1": 10.5,
+      "D2": 40.5,
+      "D3": 35.4,
+      "D4": 11.2,
+      "D5": 2.5
+    }
+  },
+  "validatedAt": "2026-11-18T09:00:10.787Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": [],
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "Three rounds of 5 random generated items per chapter (65 items each, 195 in all, across bank, practice forms and mocks) re-solved by hand: every numerical (ploidy, Mendelian and Hardy-Weinberg ratios, recombination, DNA length and H-bonds, PCR copies, restriction fragments, population change, exponential/logistic growth, NPP, 10% law, species-area Z) recomputed from the stem data, every fact/MCQ key checked against NCERT Biology XII",
+      "checked": 195,
+      "mismatches": 5,
+      "fixes": [
+        "evolution: 'disruptive selection' was keyed as NOT a factor that disturbs Hardy-Weinberg equilibrium (it is a form of natural selection, which does); the overlapping 'type of natural selection' group was replaced by origin-of-life ideas",
+        "populations: 'Which is a factor that increases population density?' offered both natality and birth rate; group replaced by indirect census methods (pug marks, faecal pellets, fish per trap)",
+        "conservation: the hotspot 'Indo-Burma' appeared as a wrong option for in situ conservation (hotspot protection is in situ); group replaced by causes of biodiversity loss",
+        "linkage: recombination frequency 10/800 printed as 1.2% instead of 1.25%; now given to two decimals",
+        "apomixis: 'citrus (orange)' was a wrong option for a parthenocarpic fruit although seedless navel oranges are parthenocarpic; replaced by jamun (Syzygium) in the polyembryony group",
+        "keys: answers inserted mid-sentence were capitalised ('controls Corn borer', 'is a Oral contraceptive'); fact-table keys now keep case and avoid the bad article",
+        "wording: decomposition stem for humification, birth-rate stem tense, hominid label 'Ramapithecus (and Dryopithecus)', species-area Z item now uses whole-number species counts"
+      ],
+      "note": "Five keys were wrong or ambiguous (all fixed); no other wrong answers found. Bank regenerated and revalidated after the fixes."
+    }
+  ]
+}

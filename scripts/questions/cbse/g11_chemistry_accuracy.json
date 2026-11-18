@@ -1,0 +1,17 @@
+[
+  {
+    "date": "2026-11-18",
+    "method": "Three rounds of 5 random generated items per chapter (45 items each, 135 in all, across bank, practice forms and mocks) re-solved by hand: every numerical recomputed from the stem data, every fact/MCQ key checked against NCERT Chemistry XI",
+    "checked": 135,
+    "mismatches": 0,
+    "fixes": [
+      "ASCII hyphen used as minus sign in thermochemistry and electrochemistry stems (now true minus throughout)",
+      "redox skeleton equation dropped H2O2 when stripping H2O (balancing item for MnO4-/H2O2)",
+      "Delta U values for Delta H = Delta U + Delta n RT now near real values for each reaction (previously random magnitude and sign)",
+      "generic case/long templates switched off for the spontaneity table and Lassaigne table where they read awkwardly",
+      "oxidising-agent MCQ family split from the written identify-all family; classification items typed short (2 marks)",
+      "Kc-expression and isotope-pair distractors that could duplicate the answer are rejected"
+    ],
+    "note": "No wrong answers found; fixes were wording/format and two generator bugs found while sampling. Bank regenerated and revalidated after the fixes."
+  }
+]
