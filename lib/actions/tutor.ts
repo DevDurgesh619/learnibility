@@ -245,3 +245,52 @@ export async function draftTest(p: DraftParams): Promise<(TutorQuestion & { flag
   }
   return out;
 }
+
+// ------------------------------------------------------------------ profile, availability, pricing, payout settings (7c, 8a-8e)
+
+/**
+ * Merges one settings section into the tutor's prefs cookie (see components/tutor/prefs.ts) and returns to the
+ * page with ?saved=1. Fields arrive as JSON in `patch` so each page can post its own shape.
+ */
+export async function saveTutorPrefs(data: FormData) {
+  const { tutorId } = await tutorFor();
+  const { prefsCookie } = await import('@/components/tutor/prefs');
+  const jar = await cookies();
+  let current: Record<string, unknown> = {};
+  try { current = JSON.parse(jar.get(prefsCookie(tutorId))?.value ?? '{}'); } catch { current = {}; }
+  let patch: Record<string, unknown> = {};
+  try { patch = JSON.parse(s(data, 'patch') || '{}'); } catch { patch = {}; }
+  for (const [k, v] of data.entries()) if (k.startsWith('f.')) patch[k.slice(2)] = String(v);
+  for (const k of data.getAll('list').map(String)) patch[k] = data.getAll(`l.${k}`).map(String);
+  if (s(data, 'section') === 'availability') {
+    const { BANDS } = await import('@/components/tutor/form-bits');
+    const cells = data.getAll('cell').map(String); // "mon:a"
+    const days = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
+    const slots: { day: string; start: string; end: string }[] = [];
+    for (const d of days) {
+      for (const b of BANDS.filter((x) => cells.includes(`${d}:${x.key}`))) {
+        const last = slots.at(-1);
+        if (last && last.day === d && last.end === b.start) last.end = b.end; else slots.push({ day: d, start: b.start, end: b.end });
+      }
+    }
+    patch.availability = slots;
+    patch.maxSessionsPerDay = Number(s(data, 'maxSessionsPerDay')) || 4;
+    const from = s(data, 'blockFrom');
+    const prev = (current.blocked as { from: string; to: string; label: string }[] | undefined) ?? [];
+    const keep = prev.filter((b) => !data.getAll('unblock').map(String).includes(b.from));
+    patch.blocked = from ? [...keep, { from, to: s(data, 'blockTo') || from, label: s(data, 'blockLabel') || 'Unavailable' }] : keep;
+  }
+  if (s(data, 'section') === 'pricing') {
+    const n = (k: string) => Math.max(0, Number(s(data, k)) || 0);
+    patch.pricing = { oneToOnePerHourInr: n('oneToOne'), groupPerStudentPerHourInr: s(data, 'group') ? n('group') : null, demoInr: n('demo'),
+      packages: s(data, 'pkgSessions') ? [{ label: `${n('pkgSessions')} sessions / month`, sessions: n('pkgSessions'), priceInr: n('pkgPrice') }] : [] };
+  }
+  if (s(data, 'section') === 'payout') {
+    patch.payout = { schedule: s(data, 'schedule') === 'monthly' ? 'monthly' : 'weekly', minimumInr: Number(s(data, 'minimumInr')) || 0, upi: s(data, 'upi') || undefined, gstin: s(data, 'gstin') || undefined };
+  }
+  if (patch.pricing && current.pricing) patch.pricing = { ...(current.pricing as object), ...(patch.pricing as object) };
+  jar.set(prefsCookie(tutorId), JSON.stringify({ ...current, ...patch }), { path: '/', maxAge: 60 * 60 * 24 * 365, sameSite: 'lax' });
+  touch();
+  const back = s(data, 'back') || '/tutor/profile';
+  redirect(`${back}${back.includes('?') ? '&' : '?'}saved=1`);
+}

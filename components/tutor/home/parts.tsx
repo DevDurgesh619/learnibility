@@ -43,7 +43,7 @@ export function NextSessionCard({ ws, s, now, compact }: { ws: TutorWorkspace; s
 
 export function NeedsAttention({ rows, compact }: { rows: StudentRow[]; compact?: boolean }) {
   return (
-    <Card>
+    <Card className="min-w-0">
       <CardHeader title={`Needs attention${rows.length ? ` · ${rows.length}` : ''}`} action={<Link href="/tutor/students" className="text-sm text-brand-700 hover:underline">Students</Link>} />
       <CardBody className="pt-3">
         {rows.length === 0 ? <p className="text-sm text-muted">Everyone is on track. Nice.</p> : compact ? (
@@ -66,7 +66,7 @@ export function NeedsAttention({ rows, compact }: { rows: StudentRow[]; compact?
 
 export function ReviewQueue({ ws, queue }: { ws: TutorWorkspace; queue: { a: TutorWorkspace['assignments'][number]; waiting: number }[] }) {
   return (
-    <Card>
+    <Card className="min-w-0">
       <CardHeader title={`Review queue${queue.length ? ` · ${queue.length}` : ''}`} />
       <CardBody className="pt-3">
         {queue.length === 0 ? <p className="text-sm text-muted">Nothing waiting for review.</p> : (
@@ -88,7 +88,7 @@ export function ReviewQueue({ ws, queue }: { ws: TutorWorkspace; queue: { a: Tut
 export function RestOfToday({ items }: { items: TodayItem[] }) {
   const sessions = items.filter((i) => i.kind === 'session');
   return (
-    <Card>
+    <Card className="min-w-0">
       <CardHeader title="Rest of today" action={<Link href="/tutor/today" className="text-sm text-brand-700 hover:underline">Today</Link>} />
       <CardBody className="pt-3">
         {sessions.length === 0 ? <p className="text-sm text-muted">No more sessions today.</p> : (

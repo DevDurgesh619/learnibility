@@ -60,11 +60,11 @@ export default async function TutorHome({ searchParams }: { searchParams: Promis
               <span className="font-medium">Open</span>
             </Link>
           )}
-          <div className="grid gap-6 lg:grid-cols-[1.2fr_1fr]">
+          <div className="grid grid-cols-1 gap-6 lg:grid-cols-[1.2fr_1fr]">
             <NextSessionCard ws={ws} s={next} now={now} />
             <NeedsAttention rows={attention} />
           </div>
-          <div className="grid gap-6 lg:grid-cols-2">
+          <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
             <ReviewQueue ws={ws} queue={queue} />
             <RestOfToday items={today} />
           </div>
@@ -80,7 +80,7 @@ export default async function TutorHome({ searchParams }: { searchParams: Promis
               )}
             </CardBody>
           </Card>
-          <div className="grid gap-6 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
             <NextSessionCard ws={ws} s={next} now={now} compact />
             <NeedsAttention rows={attention} compact />
             <Card className="p-5">
@@ -140,6 +140,7 @@ function FirstDay({ name, verified, profilePct }: { name: string; verified: bool
       <div className="mt-6 flex flex-wrap gap-2">
         <Link href="/tutor/profile" className={buttonVariants({ variant: 'secondary' })}><Eye /> Preview my public profile</Link>
         <Link href="/tutor/profile" className={buttonVariants({ variant: 'secondary' })}><Share2 /> Share profile link</Link>
+        <Link href="/tutor/onboarding" className={buttonVariants({ variant: 'ghost' })}>Guided setup</Link>
       </div>
     </>
   );
