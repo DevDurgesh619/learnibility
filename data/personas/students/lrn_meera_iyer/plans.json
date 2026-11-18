@@ -13,10 +13,10 @@
     "gap_lrn_meera_iyer_ib-g9-maths-ch01-st1",
     "gap_lrn_meera_iyer_ib-g9-maths-ch01-st3",
     "gap_lrn_meera_iyer_ib-g9-maths-ch01-st4",
-    "gap_lrn_meera_iyer_ib-g9-science-ch01-st4",
     "gap_lrn_meera_iyer_ib-g9-science-ch01-st2",
     "gap_lrn_meera_iyer_ib-g9-science-ch01-st3",
-    "gap_lrn_meera_iyer_ib-g9-science-ch01-st1"
+    "gap_lrn_meera_iyer_ib-g9-science-ch01-st1",
+    "gap_lrn_meera_iyer_ib-g9-science-ch01-st4"
    ],
    "plan": {
     "gaps": [
@@ -24,60 +24,60 @@
       "gapId": "gap_lrn_meera_iyer_ib-g9-maths-ch01-st2",
       "subtopicId": "ib-g9-maths-ch01-st2",
       "chapterId": "ib-g9-maths-ch01",
-      "code": "G1",
-      "hours": 5.2,
-      "weeks": 1.3,
+      "code": "G4",
+      "hours": 0.6,
+      "weeks": 0.2,
       "steps": [
        {
-        "interventionId": "int-g1-1",
+        "interventionId": "int-g4-1",
         "rank": 1,
-        "name": "Prerequisite mini-lesson (20 min) + 10 practice items",
-        "whatToDo": "Use the prerequisite listed for the subtopic. Teach only that earlier skill with 2 worked examples, give 10 items on it, then return to the failed subtopic.",
-        "timeCost": "20 min + 20 min practice, 1–2 sessions",
-        "effort": "medium",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 80,
-        "alrIndices": [
-         "dK"
-        ]
-       },
-       {
-        "interventionId": "int-g1-2",
-        "rank": 2,
-        "name": "Free video + NCERT exemplar for the earlier-class chapter",
-        "whatToDo": "Free official video or open course for the earlier-grade chapter (NCERT/DIKSHA, Khan Academy, board-endorsed resources), then solve level-1 exemplar items; the teacher checks 5 of them.",
-        "timeCost": "2 × 30 min",
-        "effort": "medium",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 60,
-        "alrIndices": [
-         "dK"
-        ]
-       },
-       {
-        "interventionId": "int-g1-3",
-        "rank": 3,
-        "name": "Peer tutor (a classmate at L4/L5) for 2 sessions",
-        "whatToDo": "Structured peer session with a classmate at L4/L5: the peer explains one worked example, the learner explains it back, then 5 items each from a teacher-provided list.",
-        "timeCost": "2 × 30 min",
+        "name": "Estimate-first rule",
+        "whatToDo": "Before answering, write an estimate or expected form of the answer (size, sign, units, key term). Compare at the end. Applies to every application item for two weeks.",
+        "timeCost": "1 min/item",
         "effort": "low",
         "money": "free",
         "inrPerMonth": {
          "min": 0,
          "max": 0
         },
-        "totalMinutes": 60,
+        "totalMinutes": 30,
         "alrIndices": [
-         "dK",
-         "MCI"
+         "MCI",
+         "CE"
+        ]
+       },
+       {
+        "interventionId": "int-g4-2",
+        "rank": 2,
+        "name": "Slow-down protocol on D1–D2 items",
+        "whatToDo": "Timed practice is paused; reach 95% accuracy on D1 to D2 items before timed work resumes.",
+        "timeCost": "2 weeks",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 90,
+        "alrIndices": [
+         "CE"
+        ]
+       },
+       {
+        "interventionId": "int-g4-3",
+        "rank": 3,
+        "name": "Sleep / study-block hygiene check",
+        "whatToDo": "If sleep is short or a phone is in the study block, fix that first via the parent form (M2). Support context only, never a score.",
+        "timeCost": "0",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 0,
+        "alrIndices": [
+         "CE"
         ]
        }
       ],
@@ -102,11 +102,11 @@
        }
       ],
       "addOnText": "G9 predict-then-check; review confident-and-wrong items.",
-      "moneyCheck": "Budget available and gap is deep: consider 4 weeks of targeted sessions (ANY-1, ₹2,000–6,000) WITH the written gap list; re-test after.",
+      "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
       "deviceCheck": "Video / app options usable.",
-      "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 1.3 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
-      "retestDateUtc": "2026-09-22T12:30:00.000Z",
-      "retentionProbeDateUtc": "2026-09-29T12:30:00.000Z"
+      "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.2 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
+      "retestDateUtc": "2026-09-19T12:30:00.000Z",
+      "retentionProbeDateUtc": "2026-09-26T12:30:00.000Z"
      },
      {
       "gapId": "gap_lrn_meera_iyer_ib-g9-science-ch01-st2",
@@ -259,24 +259,6 @@
       ],
       "addOns": [
        {
-        "interventionId": "int-g8-1",
-        "rank": 1,
-        "name": "Untimed re-test, then timed drills only after 90% accuracy",
-        "whatToDo": "Prove competence untimed; then build speed with 5-item timed sets, adding one item per week.",
-        "timeCost": "3 weeks",
-        "effort": "medium",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 120,
-        "alrIndices": [
-         "CE"
-        ],
-        "addOnFor": "G8"
-       },
-       {
         "interventionId": "int-g9-1",
         "rank": 1,
         "name": "Predict-then-check on every quiz",
@@ -295,7 +277,7 @@
         "addOnFor": "G9"
        }
       ],
-      "addOnText": "G8 untimed re-test first. G9 predict-then-check; review confident-and-wrong items.",
+      "addOnText": "G9 predict-then-check; review confident-and-wrong items.",
       "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
       "deviceCheck": "Video / app options usable.",
       "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.2 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
@@ -363,27 +345,8 @@
         ]
        }
       ],
-      "addOns": [
-       {
-        "interventionId": "int-g9-1",
-        "rank": 1,
-        "name": "Predict-then-check on every quiz",
-        "whatToDo": "Learner writes the expected score before marking; show the predicted-versus-actual trend weekly.",
-        "timeCost": "2 min/quiz",
-        "effort": "low",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 6,
-        "alrIndices": [
-         "MCI"
-        ],
-        "addOnFor": "G9"
-       }
-      ],
-      "addOnText": "G9 predict-then-check; review confident-and-wrong items.",
+      "addOns": [],
+      "addOnText": "",
       "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
       "deviceCheck": "Video / app options usable.",
       "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.1 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
@@ -539,8 +502,27 @@
         ]
        }
       ],
-      "addOns": [],
-      "addOnText": "",
+      "addOns": [
+       {
+        "interventionId": "int-g9-1",
+        "rank": 1,
+        "name": "Predict-then-check on every quiz",
+        "whatToDo": "Learner writes the expected score before marking; show the predicted-versus-actual trend weekly.",
+        "timeCost": "2 min/quiz",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 6,
+        "alrIndices": [
+         "MCI"
+        ],
+        "addOnFor": "G9"
+       }
+      ],
+      "addOnText": "G9 predict-then-check; review confident-and-wrong items.",
       "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
       "deviceCheck": "Video / app options usable.",
       "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.1 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
@@ -677,8 +659,27 @@
         ]
        }
       ],
-      "addOns": [],
-      "addOnText": "",
+      "addOns": [
+       {
+        "interventionId": "int-g9-1",
+        "rank": 1,
+        "name": "Predict-then-check on every quiz",
+        "whatToDo": "Learner writes the expected score before marking; show the predicted-versus-actual trend weekly.",
+        "timeCost": "2 min/quiz",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 6,
+        "alrIndices": [
+         "MCI"
+        ],
+        "addOnFor": "G9"
+       }
+      ],
+      "addOnText": "G9 predict-then-check; review confident-and-wrong items.",
       "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
       "deviceCheck": "Video / app options usable.",
       "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.1 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
@@ -713,7 +714,7 @@
       "R"
      ]
     },
-    "totalMinutes": 1190,
+    "totalMinutes": 996,
     "totalInrPerMonth": {
      "min": 0,
      "max": 0
@@ -723,20 +724,244 @@
    }
   },
   {
-   "id": "plan_lrn_meera_iyer_202609191230",
+   "id": "plan_lrn_meera_iyer_202609261230",
    "learnerId": "lrn_meera_iyer",
-   "createdUtc": "2026-09-19T12:30:00.000Z",
+   "createdUtc": "2026-09-26T12:30:00.000Z",
    "status": "replaced",
    "freePlanWeeks": 0,
    "gapIds": [
-    "gap_lrn_meera_iyer_ib-g9-maths-ch01-st2"
+    "gap_lrn_meera_iyer_ib-g9-maths-ch02-st1",
+    "gap_lrn_meera_iyer_ib-g9-maths-ch02-st2",
+    "gap_lrn_meera_iyer_ib-g9-maths-ch02-st3",
+    "gap_lrn_meera_iyer_ib-g9-maths-ch02-st4",
+    "gap_lrn_meera_iyer_ib-g9-science-ch02-st2",
+    "gap_lrn_meera_iyer_ib-g9-science-ch02-st1",
+    "gap_lrn_meera_iyer_ib-g9-science-ch02-st4",
+    "gap_lrn_meera_iyer_ib-g9-science-ch02-st3",
+    "gap_lrn_meera_iyer_ib-g9-science-ch02-st5"
    ],
    "plan": {
     "gaps": [
      {
-      "gapId": "gap_lrn_meera_iyer_ib-g9-maths-ch01-st2",
-      "subtopicId": "ib-g9-maths-ch01-st2",
-      "chapterId": "ib-g9-maths-ch01",
+      "gapId": "gap_lrn_meera_iyer_ib-g9-maths-ch02-st3",
+      "subtopicId": "ib-g9-maths-ch02-st3",
+      "chapterId": "ib-g9-maths-ch02",
+      "code": "G3",
+      "hours": 1.7,
+      "weeks": 0.4,
+      "steps": [
+       {
+        "interventionId": "int-g3-1",
+        "rank": 1,
+        "name": "Faded worked examples (4 → 0 steps shown)",
+        "whatToDo": "Item 1 fully worked; item 2 last step blank; item 3 last two steps blank; item 4 unaided. Same method, new values each time.",
+        "timeCost": "20 min, 2 sessions",
+        "effort": "medium",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 40,
+        "alrIndices": [
+         "dK",
+         "ECV"
+        ]
+       },
+       {
+        "interventionId": "int-g3-2",
+        "rank": 2,
+        "name": "Deliberate practice set: 12 items, 3 difficulty steps, immediate feedback",
+        "whatToDo": "12 items in 3 difficulty steps (4 at D1, 4 at D2, 4 at D3) from the wider bank, with feedback after each block; redo any block with an error.",
+        "timeCost": "30 min, 2–3 sessions",
+        "effort": "high",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 90,
+        "alrIndices": [
+         "dK",
+         "ECV"
+        ]
+       },
+       {
+        "interventionId": "int-g3-3",
+        "rank": 3,
+        "name": "Step-checklist card",
+        "whatToDo": "Learner writes the method as 3 to 5 numbered steps on a card and ticks them on every problem for a week.",
+        "timeCost": "5 min/day",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 30,
+        "alrIndices": [
+         "ECV"
+        ]
+       }
+      ],
+      "addOns": [
+       {
+        "interventionId": "int-g4-1",
+        "rank": 1,
+        "name": "Estimate-first rule",
+        "whatToDo": "Before answering, write an estimate or expected form of the answer (size, sign, units, key term). Compare at the end. Applies to every application item for two weeks.",
+        "timeCost": "1 min/item",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 30,
+        "alrIndices": [
+         "MCI",
+         "CE"
+        ],
+        "addOnFor": "G4"
+       },
+       {
+        "interventionId": "int-g9-1",
+        "rank": 1,
+        "name": "Predict-then-check on every quiz",
+        "whatToDo": "Learner writes the expected score before marking; show the predicted-versus-actual trend weekly.",
+        "timeCost": "2 min/quiz",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 6,
+        "alrIndices": [
+         "MCI"
+        ],
+        "addOnFor": "G9"
+       }
+      ],
+      "addOnText": "G4 estimate-first + slow-down. G9 predict-then-check; review confident-and-wrong items.",
+      "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
+      "deviceCheck": "Video / app options usable.",
+      "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.4 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
+      "retestDateUtc": "2026-10-03T12:30:00.000Z",
+      "retentionProbeDateUtc": "2026-10-10T12:30:00.000Z"
+     },
+     {
+      "gapId": "gap_lrn_meera_iyer_ib-g9-maths-ch02-st4",
+      "subtopicId": "ib-g9-maths-ch02-st4",
+      "chapterId": "ib-g9-maths-ch02",
+      "code": "G3",
+      "hours": 1,
+      "weeks": 0.3,
+      "steps": [
+       {
+        "interventionId": "int-g3-1",
+        "rank": 1,
+        "name": "Faded worked examples (4 → 0 steps shown)",
+        "whatToDo": "Item 1 fully worked; item 2 last step blank; item 3 last two steps blank; item 4 unaided. Same method, new values each time.",
+        "timeCost": "20 min, 2 sessions",
+        "effort": "medium",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 40,
+        "alrIndices": [
+         "dK",
+         "ECV"
+        ]
+       },
+       {
+        "interventionId": "int-g3-2",
+        "rank": 2,
+        "name": "Deliberate practice set: 12 items, 3 difficulty steps, immediate feedback",
+        "whatToDo": "12 items in 3 difficulty steps (4 at D1, 4 at D2, 4 at D3) from the wider bank, with feedback after each block; redo any block with an error.",
+        "timeCost": "30 min, 2–3 sessions",
+        "effort": "high",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 90,
+        "alrIndices": [
+         "dK",
+         "ECV"
+        ]
+       },
+       {
+        "interventionId": "int-g3-3",
+        "rank": 3,
+        "name": "Step-checklist card",
+        "whatToDo": "Learner writes the method as 3 to 5 numbered steps on a card and ticks them on every problem for a week.",
+        "timeCost": "5 min/day",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 30,
+        "alrIndices": [
+         "ECV"
+        ]
+       }
+      ],
+      "addOns": [
+       {
+        "interventionId": "int-g4-1",
+        "rank": 1,
+        "name": "Estimate-first rule",
+        "whatToDo": "Before answering, write an estimate or expected form of the answer (size, sign, units, key term). Compare at the end. Applies to every application item for two weeks.",
+        "timeCost": "1 min/item",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 30,
+        "alrIndices": [
+         "MCI",
+         "CE"
+        ],
+        "addOnFor": "G4"
+       },
+       {
+        "interventionId": "int-g9-1",
+        "rank": 1,
+        "name": "Predict-then-check on every quiz",
+        "whatToDo": "Learner writes the expected score before marking; show the predicted-versus-actual trend weekly.",
+        "timeCost": "2 min/quiz",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 6,
+        "alrIndices": [
+         "MCI"
+        ],
+        "addOnFor": "G9"
+       }
+      ],
+      "addOnText": "G4 estimate-first + slow-down. G9 predict-then-check; review confident-and-wrong items.",
+      "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
+      "deviceCheck": "Video / app options usable.",
+      "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.3 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
+      "retestDateUtc": "2026-10-03T12:30:00.000Z",
+      "retentionProbeDateUtc": "2026-10-10T12:30:00.000Z"
+     },
+     {
+      "gapId": "gap_lrn_meera_iyer_ib-g9-maths-ch02-st1",
+      "subtopicId": "ib-g9-maths-ch02-st1",
+      "chapterId": "ib-g9-maths-ch02",
       "code": "G4",
       "hours": 0.6,
       "weeks": 0.2,
@@ -818,69 +1043,13 @@
       "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
       "deviceCheck": "Video / app options usable.",
       "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.2 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
-      "retestDateUtc": "2026-09-26T12:30:00.000Z",
-      "retentionProbeDateUtc": "2026-10-03T12:30:00.000Z"
-     }
-    ],
-    "paidTuition": {
-     "recommended": false,
-     "reason": "Not needed: gaps sit in one chapter and free, high-evidence methods cover them.",
-     "inrPerMonth": {
-      "min": 2000,
-      "max": 6000
+      "retestDateUtc": "2026-10-03T12:30:00.000Z",
+      "retentionProbeDateUtc": "2026-10-10T12:30:00.000Z"
      },
-     "affordable": true
-    },
-    "optionalApp": {
-     "interventionId": "int-any-2",
-     "rank": 2,
-     "name": "Adaptive practice app (low-cost)",
-     "whatToDo": "Only if device and internet are adequate; use it for practice sets and spaced retrieval, not for teaching.",
-     "timeCost": "20 min/day",
-     "effort": "low",
-     "money": "low",
-     "inrPerMonth": {
-      "min": 0,
-      "max": 500
-     },
-     "totalMinutes": 100,
-     "alrIndices": [
-      "dK",
-      "R"
-     ]
-    },
-    "totalMinutes": 126,
-    "totalInrPerMonth": {
-     "min": 0,
-     "max": 0
-    },
-    "chaptersWithGaps": 1,
-    "orderOfOperations": "Optimising time, effort and money – the order of operations: (1) diagnose with the paper + one probe (10 min); (2) fix prerequisites before anything else; (3) use free, high-evidence methods (worked examples, retrieval, interleaving, spacing) – they cover 9 of 10 gap types at ₹0; (4) spend money only on a written gap list, and re-test to see if it worked (#426 recommendation effectiveness). Rank 1 = do first; Effort = what it demands of the student; Money = Free / Low / Paid."
-   }
-  },
-  {
-   "id": "plan_lrn_meera_iyer_202609261230",
-   "learnerId": "lrn_meera_iyer",
-   "createdUtc": "2026-09-26T12:30:00.000Z",
-   "status": "replaced",
-   "freePlanWeeks": 0,
-   "gapIds": [
-    "gap_lrn_meera_iyer_ib-g9-maths-ch02-st3",
-    "gap_lrn_meera_iyer_ib-g9-maths-ch02-st4",
-    "gap_lrn_meera_iyer_ib-g9-maths-ch02-st1",
-    "gap_lrn_meera_iyer_ib-g9-maths-ch02-st2",
-    "gap_lrn_meera_iyer_ib-g9-science-ch02-st3",
-    "gap_lrn_meera_iyer_ib-g9-science-ch02-st2",
-    "gap_lrn_meera_iyer_ib-g9-science-ch02-st1",
-    "gap_lrn_meera_iyer_ib-g9-science-ch02-st4",
-    "gap_lrn_meera_iyer_ib-g9-science-ch02-st5"
-   ],
-   "plan": {
-    "gaps": [
      {
-      "gapId": "gap_lrn_meera_iyer_ib-g9-maths-ch02-st1",
-      "subtopicId": "ib-g9-maths-ch02-st1",
-      "chapterId": "ib-g9-maths-ch02",
+      "gapId": "gap_lrn_meera_iyer_ib-g9-science-ch02-st2",
+      "subtopicId": "ib-g9-science-ch02-st2",
+      "chapterId": "ib-g9-science-ch02",
       "code": "G4",
       "hours": 0.6,
       "weeks": 0.2,
@@ -984,184 +1153,8 @@
       "retentionProbeDateUtc": "2026-10-10T12:30:00.000Z"
      },
      {
-      "gapId": "gap_lrn_meera_iyer_ib-g9-science-ch02-st2",
-      "subtopicId": "ib-g9-science-ch02-st2",
-      "chapterId": "ib-g9-science-ch02",
-      "code": "G4",
-      "hours": 0.6,
-      "weeks": 0.2,
-      "steps": [
-       {
-        "interventionId": "int-g4-1",
-        "rank": 1,
-        "name": "Estimate-first rule",
-        "whatToDo": "Before answering, write an estimate or expected form of the answer (size, sign, units, key term). Compare at the end. Applies to every application item for two weeks.",
-        "timeCost": "1 min/item",
-        "effort": "low",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 30,
-        "alrIndices": [
-         "MCI",
-         "CE"
-        ]
-       },
-       {
-        "interventionId": "int-g4-2",
-        "rank": 2,
-        "name": "Slow-down protocol on D1–D2 items",
-        "whatToDo": "Timed practice is paused; reach 95% accuracy on D1 to D2 items before timed work resumes.",
-        "timeCost": "2 weeks",
-        "effort": "low",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 90,
-        "alrIndices": [
-         "CE"
-        ]
-       },
-       {
-        "interventionId": "int-g4-3",
-        "rank": 3,
-        "name": "Sleep / study-block hygiene check",
-        "whatToDo": "If sleep is short or a phone is in the study block, fix that first via the parent form (M2). Support context only, never a score.",
-        "timeCost": "0",
-        "effort": "low",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 0,
-        "alrIndices": [
-         "CE"
-        ]
-       }
-      ],
-      "addOns": [
-       {
-        "interventionId": "int-g9-1",
-        "rank": 1,
-        "name": "Predict-then-check on every quiz",
-        "whatToDo": "Learner writes the expected score before marking; show the predicted-versus-actual trend weekly.",
-        "timeCost": "2 min/quiz",
-        "effort": "low",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 6,
-        "alrIndices": [
-         "MCI"
-        ],
-        "addOnFor": "G9"
-       }
-      ],
-      "addOnText": "G9 predict-then-check; review confident-and-wrong items.",
-      "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
-      "deviceCheck": "Video / app options usable.",
-      "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.2 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
-      "retestDateUtc": "2026-10-03T12:30:00.000Z",
-      "retentionProbeDateUtc": "2026-10-10T12:30:00.000Z"
-     },
-     {
       "gapId": "gap_lrn_meera_iyer_ib-g9-maths-ch02-st2",
       "subtopicId": "ib-g9-maths-ch02-st2",
-      "chapterId": "ib-g9-maths-ch02",
-      "code": "G4",
-      "hours": 0.4,
-      "weeks": 0.1,
-      "steps": [
-       {
-        "interventionId": "int-g4-1",
-        "rank": 1,
-        "name": "Estimate-first rule",
-        "whatToDo": "Before answering, write an estimate or expected form of the answer (size, sign, units, key term). Compare at the end. Applies to every application item for two weeks.",
-        "timeCost": "1 min/item",
-        "effort": "low",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 30,
-        "alrIndices": [
-         "MCI",
-         "CE"
-        ]
-       },
-       {
-        "interventionId": "int-g4-2",
-        "rank": 2,
-        "name": "Slow-down protocol on D1–D2 items",
-        "whatToDo": "Timed practice is paused; reach 95% accuracy on D1 to D2 items before timed work resumes.",
-        "timeCost": "2 weeks",
-        "effort": "low",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 90,
-        "alrIndices": [
-         "CE"
-        ]
-       },
-       {
-        "interventionId": "int-g4-3",
-        "rank": 3,
-        "name": "Sleep / study-block hygiene check",
-        "whatToDo": "If sleep is short or a phone is in the study block, fix that first via the parent form (M2). Support context only, never a score.",
-        "timeCost": "0",
-        "effort": "low",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 0,
-        "alrIndices": [
-         "CE"
-        ]
-       }
-      ],
-      "addOns": [
-       {
-        "interventionId": "int-g9-1",
-        "rank": 1,
-        "name": "Predict-then-check on every quiz",
-        "whatToDo": "Learner writes the expected score before marking; show the predicted-versus-actual trend weekly.",
-        "timeCost": "2 min/quiz",
-        "effort": "low",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 6,
-        "alrIndices": [
-         "MCI"
-        ],
-        "addOnFor": "G9"
-       }
-      ],
-      "addOnText": "G9 predict-then-check; review confident-and-wrong items.",
-      "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
-      "deviceCheck": "Video / app options usable.",
-      "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.1 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
-      "retestDateUtc": "2026-10-03T12:30:00.000Z",
-      "retentionProbeDateUtc": "2026-10-10T12:30:00.000Z"
-     },
-     {
-      "gapId": "gap_lrn_meera_iyer_ib-g9-maths-ch02-st3",
-      "subtopicId": "ib-g9-maths-ch02-st3",
       "chapterId": "ib-g9-maths-ch02",
       "code": "G4",
       "hours": 0.4,
@@ -1396,8 +1389,27 @@
         ]
        }
       ],
-      "addOns": [],
-      "addOnText": "",
+      "addOns": [
+       {
+        "interventionId": "int-g9-1",
+        "rank": 1,
+        "name": "Predict-then-check on every quiz",
+        "whatToDo": "Learner writes the expected score before marking; show the predicted-versus-actual trend weekly.",
+        "timeCost": "2 min/quiz",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 6,
+        "alrIndices": [
+         "MCI"
+        ],
+        "addOnFor": "G9"
+       }
+      ],
+      "addOnText": "G9 predict-then-check; review confident-and-wrong items.",
       "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
       "deviceCheck": "Video / app options usable.",
       "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.1 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
@@ -1465,115 +1477,8 @@
         ]
        }
       ],
-      "addOns": [
-       {
-        "interventionId": "int-g9-1",
-        "rank": 1,
-        "name": "Predict-then-check on every quiz",
-        "whatToDo": "Learner writes the expected score before marking; show the predicted-versus-actual trend weekly.",
-        "timeCost": "2 min/quiz",
-        "effort": "low",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 6,
-        "alrIndices": [
-         "MCI"
-        ],
-        "addOnFor": "G9"
-       }
-      ],
-      "addOnText": "G9 predict-then-check; review confident-and-wrong items.",
-      "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
-      "deviceCheck": "Video / app options usable.",
-      "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.1 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
-      "retestDateUtc": "2026-10-03T12:30:00.000Z",
-      "retentionProbeDateUtc": "2026-10-10T12:30:00.000Z"
-     },
-     {
-      "gapId": "gap_lrn_meera_iyer_ib-g9-maths-ch02-st4",
-      "subtopicId": "ib-g9-maths-ch02-st4",
-      "chapterId": "ib-g9-maths-ch02",
-      "code": "G4",
-      "hours": 0.2,
-      "weeks": 0.1,
-      "steps": [
-       {
-        "interventionId": "int-g4-1",
-        "rank": 1,
-        "name": "Estimate-first rule",
-        "whatToDo": "Before answering, write an estimate or expected form of the answer (size, sign, units, key term). Compare at the end. Applies to every application item for two weeks.",
-        "timeCost": "1 min/item",
-        "effort": "low",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 30,
-        "alrIndices": [
-         "MCI",
-         "CE"
-        ]
-       },
-       {
-        "interventionId": "int-g4-2",
-        "rank": 2,
-        "name": "Slow-down protocol on D1–D2 items",
-        "whatToDo": "Timed practice is paused; reach 95% accuracy on D1 to D2 items before timed work resumes.",
-        "timeCost": "2 weeks",
-        "effort": "low",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 90,
-        "alrIndices": [
-         "CE"
-        ]
-       },
-       {
-        "interventionId": "int-g4-3",
-        "rank": 3,
-        "name": "Sleep / study-block hygiene check",
-        "whatToDo": "If sleep is short or a phone is in the study block, fix that first via the parent form (M2). Support context only, never a score.",
-        "timeCost": "0",
-        "effort": "low",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 0,
-        "alrIndices": [
-         "CE"
-        ]
-       }
-      ],
-      "addOns": [
-       {
-        "interventionId": "int-g9-1",
-        "rank": 1,
-        "name": "Predict-then-check on every quiz",
-        "whatToDo": "Learner writes the expected score before marking; show the predicted-versus-actual trend weekly.",
-        "timeCost": "2 min/quiz",
-        "effort": "low",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 6,
-        "alrIndices": [
-         "MCI"
-        ],
-        "addOnFor": "G9"
-       }
-      ],
-      "addOnText": "G9 predict-then-check; review confident-and-wrong items.",
+      "addOns": [],
+      "addOnText": "",
       "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
       "deviceCheck": "Video / app options usable.",
       "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.1 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
@@ -1696,7 +1601,7 @@
       "R"
      ]
     },
-    "totalMinutes": 1248,
+    "totalMinutes": 1388,
     "totalInrPerMonth": {
      "min": 0,
      "max": 0
@@ -1780,27 +1685,8 @@
         ]
        }
       ],
-      "addOns": [
-       {
-        "interventionId": "int-g9-1",
-        "rank": 1,
-        "name": "Predict-then-check on every quiz",
-        "whatToDo": "Learner writes the expected score before marking; show the predicted-versus-actual trend weekly.",
-        "timeCost": "2 min/quiz",
-        "effort": "low",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 6,
-        "alrIndices": [
-         "MCI"
-        ],
-        "addOnFor": "G9"
-       }
-      ],
-      "addOnText": "G9 predict-then-check; review confident-and-wrong items.",
+      "addOns": [],
+      "addOnText": "",
       "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
       "deviceCheck": "Video / app options usable.",
       "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.2 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
@@ -2044,27 +1930,8 @@
         ]
        }
       ],
-      "addOns": [
-       {
-        "interventionId": "int-g9-1",
-        "rank": 1,
-        "name": "Predict-then-check on every quiz",
-        "whatToDo": "Learner writes the expected score before marking; show the predicted-versus-actual trend weekly.",
-        "timeCost": "2 min/quiz",
-        "effort": "low",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 6,
-        "alrIndices": [
-         "MCI"
-        ],
-        "addOnFor": "G9"
-       }
-      ],
-      "addOnText": "G9 predict-then-check; review confident-and-wrong items.",
+      "addOns": [],
+      "addOnText": "",
       "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
       "deviceCheck": "Video / app options usable.",
       "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.1 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
@@ -2099,7 +1966,7 @@
       "R"
      ]
     },
-    "totalMinutes": 504,
+    "totalMinutes": 492,
     "totalInrPerMonth": {
      "min": 0,
      "max": 0
@@ -2115,15 +1982,15 @@
    "status": "replaced",
    "freePlanWeeks": 0,
    "gapIds": [
+    "gap_lrn_meera_iyer_ib-g9-maths-ch03-st2",
     "gap_lrn_meera_iyer_ib-g9-maths-ch03-st1",
     "gap_lrn_meera_iyer_ib-g9-maths-ch03-st3",
-    "gap_lrn_meera_iyer_ib-g9-maths-ch03-st2",
     "gap_lrn_meera_iyer_ib-g9-maths-ch03-st4",
     "gap_lrn_meera_iyer_ib-g9-maths-ch03-st5",
-    "gap_lrn_meera_iyer_ib-g9-science-ch03-st4",
     "gap_lrn_meera_iyer_ib-g9-science-ch03-st2",
     "gap_lrn_meera_iyer_ib-g9-science-ch03-st3",
-    "gap_lrn_meera_iyer_ib-g9-science-ch03-st1"
+    "gap_lrn_meera_iyer_ib-g9-science-ch03-st1",
+    "gap_lrn_meera_iyer_ib-g9-science-ch03-st4"
    ],
    "plan": {
     "gaps": [
@@ -2278,24 +2145,6 @@
       ],
       "addOns": [
        {
-        "interventionId": "int-g8-1",
-        "rank": 1,
-        "name": "Untimed re-test, then timed drills only after 90% accuracy",
-        "whatToDo": "Prove competence untimed; then build speed with 5-item timed sets, adding one item per week.",
-        "timeCost": "3 weeks",
-        "effort": "medium",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 120,
-        "alrIndices": [
-         "CE"
-        ],
-        "addOnFor": "G8"
-       },
-       {
         "interventionId": "int-g9-1",
         "rank": 1,
         "name": "Predict-then-check on every quiz",
@@ -2314,7 +2163,7 @@
         "addOnFor": "G9"
        }
       ],
-      "addOnText": "G8 untimed re-test first. G9 predict-then-check; review confident-and-wrong items.",
+      "addOnText": "G9 predict-then-check; review confident-and-wrong items.",
       "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
       "deviceCheck": "Video / app options usable.",
       "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.2 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
@@ -3001,7 +2850,7 @@
       "R"
      ]
     },
-    "totalMinutes": 1404,
+    "totalMinutes": 1284,
     "totalInrPerMonth": {
      "min": 0,
      "max": 0
@@ -3011,29 +2860,20 @@
    }
   },
   {
-   "id": "plan_lrn_meera_iyer_202610311230",
+   "id": "plan_lrn_meera_iyer_202610241230",
    "learnerId": "lrn_meera_iyer",
-   "createdUtc": "2026-10-31T12:30:00.000Z",
+   "createdUtc": "2026-10-24T12:30:00.000Z",
    "status": "replaced",
-   "freePlanWeeks": 0,
+   "freePlanWeeks": 1,
    "gapIds": [
-    "gap_lrn_meera_iyer_ib-g9-maths-ch04-st4",
-    "gap_lrn_meera_iyer_ib-g9-maths-ch04-st3",
-    "gap_lrn_meera_iyer_ib-g9-maths-ch04-st5",
-    "gap_lrn_meera_iyer_ib-g9-maths-ch04-st1",
-    "gap_lrn_meera_iyer_ib-g9-maths-ch04-st2",
-    "gap_lrn_meera_iyer_ib-g9-science-ch04-st4",
-    "gap_lrn_meera_iyer_ib-g9-science-ch04-st1",
-    "gap_lrn_meera_iyer_ib-g9-science-ch04-st3",
-    "gap_lrn_meera_iyer_ib-g9-science-ch04-st2",
-    "gap_lrn_meera_iyer_ib-g9-science-ch04-st5"
+    "gap_lrn_meera_iyer_ib-g9-maths-ch03-st1"
    ],
    "plan": {
     "gaps": [
      {
-      "gapId": "gap_lrn_meera_iyer_ib-g9-science-ch04-st3",
-      "subtopicId": "ib-g9-science-ch04-st3",
-      "chapterId": "ib-g9-science-ch04",
+      "gapId": "gap_lrn_meera_iyer_ib-g9-maths-ch03-st1",
+      "subtopicId": "ib-g9-maths-ch03-st1",
+      "chapterId": "ib-g9-maths-ch03",
       "code": "G3",
       "hours": 2.4,
       "weeks": 0.6,
@@ -3111,77 +2951,190 @@
          "CE"
         ],
         "addOnFor": "G4"
-       }
-      ],
-      "addOnText": "G4 estimate-first + slow-down.",
-      "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
-      "deviceCheck": "Video / app options usable.",
-      "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.6 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
-      "retestDateUtc": "2026-11-07T12:30:00.000Z",
-      "retentionProbeDateUtc": "2026-11-14T12:30:00.000Z"
-     },
-     {
-      "gapId": "gap_lrn_meera_iyer_ib-g9-maths-ch04-st3",
-      "subtopicId": "ib-g9-maths-ch04-st3",
-      "chapterId": "ib-g9-maths-ch04",
-      "code": "G5",
-      "hours": 1,
-      "weeks": 0.3,
-      "steps": [
-       {
-        "interventionId": "int-g5-1",
-        "rank": 1,
-        "name": "Interleaved mixed set (this + 2 earlier subtopics)",
-        "whatToDo": "12 items shuffled across this and 2 earlier subtopics so the learner must CHOOSE the method. Ask 'which method and why?' before solving.",
-        "timeCost": "30 min, 2 sessions",
-        "effort": "high",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 60,
-        "alrIndices": [
-         "TQ"
-        ]
        },
        {
-        "interventionId": "int-g5-2",
-        "rank": 2,
-        "name": "Context-swap items",
-        "whatToDo": "Same method in 3 unfamiliar settings (everyday, another subject, current affairs). Use the C3-D4 items of the wider bank.",
-        "timeCost": "20 min",
+        "interventionId": "int-g7-1",
+        "rank": 1,
+        "name": "Restate-then-solve",
+        "whatToDo": "Learner rewrites each word or source-based question as a one-line 'given / find' in own words (home language allowed) before answering.",
+        "timeCost": "2 min/item",
         "effort": "medium",
         "money": "free",
         "inrPerMonth": {
          "min": 0,
          "max": 0
         },
-        "totalMinutes": 20,
+        "totalMinutes": 30,
         "alrIndices": [
-         "TQ"
+         "dK on C4"
+        ],
+        "addOnFor": "G7"
+       },
+       {
+        "interventionId": "int-g9-1",
+        "rank": 1,
+        "name": "Predict-then-check on every quiz",
+        "whatToDo": "Learner writes the expected score before marking; show the predicted-versus-actual trend weekly.",
+        "timeCost": "2 min/quiz",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 6,
+        "alrIndices": [
+         "MCI"
+        ],
+        "addOnFor": "G9"
+       }
+      ],
+      "addOnText": "G4 estimate-first + slow-down. G7 restate-then-solve + glossary. G9 predict-then-check; review confident-and-wrong items.",
+      "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
+      "deviceCheck": "Video / app options usable.",
+      "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.6 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
+      "retestDateUtc": "2026-10-31T12:30:00.000Z",
+      "retentionProbeDateUtc": "2026-11-07T12:30:00.000Z"
+     }
+    ],
+    "paidTuition": {
+     "recommended": false,
+     "reason": "Not needed: gaps sit in one chapter and free, high-evidence methods cover them.",
+     "inrPerMonth": {
+      "min": 2000,
+      "max": 6000
+     },
+     "affordable": true
+    },
+    "optionalApp": {
+     "interventionId": "int-any-2",
+     "rank": 2,
+     "name": "Adaptive practice app (low-cost)",
+     "whatToDo": "Only if device and internet are adequate; use it for practice sets and spaced retrieval, not for teaching.",
+     "timeCost": "20 min/day",
+     "effort": "low",
+     "money": "low",
+     "inrPerMonth": {
+      "min": 0,
+      "max": 500
+     },
+     "totalMinutes": 100,
+     "alrIndices": [
+      "dK",
+      "R"
+     ]
+    },
+    "totalMinutes": 226,
+    "totalInrPerMonth": {
+     "min": 0,
+     "max": 0
+    },
+    "chaptersWithGaps": 1,
+    "orderOfOperations": "Optimising time, effort and money – the order of operations: (1) diagnose with the paper + one probe (10 min); (2) fix prerequisites before anything else; (3) use free, high-evidence methods (worked examples, retrieval, interleaving, spacing) – they cover 9 of 10 gap types at ₹0; (4) spend money only on a written gap list, and re-test to see if it worked (#426 recommendation effectiveness). Rank 1 = do first; Effort = what it demands of the student; Money = Free / Low / Paid."
+   }
+  },
+  {
+   "id": "plan_lrn_meera_iyer_202610311230",
+   "learnerId": "lrn_meera_iyer",
+   "createdUtc": "2026-10-31T12:30:00.000Z",
+   "status": "replaced",
+   "freePlanWeeks": 0,
+   "gapIds": [
+    "gap_lrn_meera_iyer_ib-g9-maths-ch04-st5",
+    "gap_lrn_meera_iyer_ib-g9-maths-ch04-st4",
+    "gap_lrn_meera_iyer_ib-g9-maths-ch04-st1",
+    "gap_lrn_meera_iyer_ib-g9-maths-ch04-st2",
+    "gap_lrn_meera_iyer_ib-g9-maths-ch04-st3",
+    "gap_lrn_meera_iyer_ib-g9-science-ch04-st1",
+    "gap_lrn_meera_iyer_ib-g9-science-ch04-st3",
+    "gap_lrn_meera_iyer_ib-g9-science-ch04-st2",
+    "gap_lrn_meera_iyer_ib-g9-science-ch04-st4",
+    "gap_lrn_meera_iyer_ib-g9-science-ch04-st5"
+   ],
+   "plan": {
+    "gaps": [
+     {
+      "gapId": "gap_lrn_meera_iyer_ib-g9-maths-ch04-st4",
+      "subtopicId": "ib-g9-maths-ch04-st4",
+      "chapterId": "ib-g9-maths-ch04",
+      "code": "G3",
+      "hours": 2.4,
+      "weeks": 0.6,
+      "steps": [
+       {
+        "interventionId": "int-g3-1",
+        "rank": 1,
+        "name": "Faded worked examples (4 → 0 steps shown)",
+        "whatToDo": "Item 1 fully worked; item 2 last step blank; item 3 last two steps blank; item 4 unaided. Same method, new values each time.",
+        "timeCost": "20 min, 2 sessions",
+        "effort": "medium",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 40,
+        "alrIndices": [
+         "dK",
+         "ECV"
         ]
        },
        {
-        "interventionId": "int-g5-3",
-        "rank": 3,
-        "name": "Student writes ONE C4 item and its solution",
-        "whatToDo": "Learner writes ONE item that combines two ideas, with its solution. The teacher or tutor solves it with the class.",
-        "timeCost": "20 min",
+        "interventionId": "int-g3-2",
+        "rank": 2,
+        "name": "Deliberate practice set: 12 items, 3 difficulty steps, immediate feedback",
+        "whatToDo": "12 items in 3 difficulty steps (4 at D1, 4 at D2, 4 at D3) from the wider bank, with feedback after each block; redo any block with an error.",
+        "timeCost": "30 min, 2–3 sessions",
         "effort": "high",
         "money": "free",
         "inrPerMonth": {
          "min": 0,
          "max": 0
         },
-        "totalMinutes": 20,
+        "totalMinutes": 90,
         "alrIndices": [
-         "TQ",
-         "MCI"
+         "dK",
+         "ECV"
+        ]
+       },
+       {
+        "interventionId": "int-g3-3",
+        "rank": 3,
+        "name": "Step-checklist card",
+        "whatToDo": "Learner writes the method as 3 to 5 numbered steps on a card and ticks them on every problem for a week.",
+        "timeCost": "5 min/day",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 30,
+        "alrIndices": [
+         "ECV"
         ]
        }
       ],
       "addOns": [
+       {
+        "interventionId": "int-g4-1",
+        "rank": 1,
+        "name": "Estimate-first rule",
+        "whatToDo": "Before answering, write an estimate or expected form of the answer (size, sign, units, key term). Compare at the end. Applies to every application item for two weeks.",
+        "timeCost": "1 min/item",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 30,
+        "alrIndices": [
+         "MCI",
+         "CE"
+        ],
+        "addOnFor": "G4"
+       },
        {
         "interventionId": "int-g8-1",
         "rank": 1,
@@ -3219,98 +3172,10 @@
         "addOnFor": "G9"
        }
       ],
-      "addOnText": "G8 untimed re-test first. G9 predict-then-check; review confident-and-wrong items.",
+      "addOnText": "G4 estimate-first + slow-down. G8 untimed re-test first. G9 predict-then-check; review confident-and-wrong items.",
       "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
       "deviceCheck": "Video / app options usable.",
-      "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.3 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
-      "retestDateUtc": "2026-11-07T12:30:00.000Z",
-      "retentionProbeDateUtc": "2026-11-14T12:30:00.000Z"
-     },
-     {
-      "gapId": "gap_lrn_meera_iyer_ib-g9-maths-ch04-st4",
-      "subtopicId": "ib-g9-maths-ch04-st4",
-      "chapterId": "ib-g9-maths-ch04",
-      "code": "G4",
-      "hours": 0.6,
-      "weeks": 0.2,
-      "steps": [
-       {
-        "interventionId": "int-g4-1",
-        "rank": 1,
-        "name": "Estimate-first rule",
-        "whatToDo": "Before answering, write an estimate or expected form of the answer (size, sign, units, key term). Compare at the end. Applies to every application item for two weeks.",
-        "timeCost": "1 min/item",
-        "effort": "low",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 30,
-        "alrIndices": [
-         "MCI",
-         "CE"
-        ]
-       },
-       {
-        "interventionId": "int-g4-2",
-        "rank": 2,
-        "name": "Slow-down protocol on D1–D2 items",
-        "whatToDo": "Timed practice is paused; reach 95% accuracy on D1 to D2 items before timed work resumes.",
-        "timeCost": "2 weeks",
-        "effort": "low",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 90,
-        "alrIndices": [
-         "CE"
-        ]
-       },
-       {
-        "interventionId": "int-g4-3",
-        "rank": 3,
-        "name": "Sleep / study-block hygiene check",
-        "whatToDo": "If sleep is short or a phone is in the study block, fix that first via the parent form (M2). Support context only, never a score.",
-        "timeCost": "0",
-        "effort": "low",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 0,
-        "alrIndices": [
-         "CE"
-        ]
-       }
-      ],
-      "addOns": [
-       {
-        "interventionId": "int-g9-1",
-        "rank": 1,
-        "name": "Predict-then-check on every quiz",
-        "whatToDo": "Learner writes the expected score before marking; show the predicted-versus-actual trend weekly.",
-        "timeCost": "2 min/quiz",
-        "effort": "low",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 6,
-        "alrIndices": [
-         "MCI"
-        ],
-        "addOnFor": "G9"
-       }
-      ],
-      "addOnText": "G9 predict-then-check; review confident-and-wrong items.",
-      "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
-      "deviceCheck": "Video / app options usable.",
-      "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.2 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
+      "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.6 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
       "retestDateUtc": "2026-11-07T12:30:00.000Z",
       "retentionProbeDateUtc": "2026-11-14T12:30:00.000Z"
      },
@@ -3377,6 +3242,24 @@
       ],
       "addOns": [
        {
+        "interventionId": "int-g8-1",
+        "rank": 1,
+        "name": "Untimed re-test, then timed drills only after 90% accuracy",
+        "whatToDo": "Prove competence untimed; then build speed with 5-item timed sets, adding one item per week.",
+        "timeCost": "3 weeks",
+        "effort": "medium",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 120,
+        "alrIndices": [
+         "CE"
+        ],
+        "addOnFor": "G8"
+       },
+       {
         "interventionId": "int-g9-1",
         "rank": 1,
         "name": "Predict-then-check on every quiz",
@@ -3395,7 +3278,95 @@
         "addOnFor": "G9"
        }
       ],
-      "addOnText": "G9 predict-then-check; review confident-and-wrong items.",
+      "addOnText": "G8 untimed re-test first. G9 predict-then-check; review confident-and-wrong items.",
+      "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
+      "deviceCheck": "Video / app options usable.",
+      "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.2 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
+      "retestDateUtc": "2026-11-07T12:30:00.000Z",
+      "retentionProbeDateUtc": "2026-11-14T12:30:00.000Z"
+     },
+     {
+      "gapId": "gap_lrn_meera_iyer_ib-g9-science-ch04-st3",
+      "subtopicId": "ib-g9-science-ch04-st3",
+      "chapterId": "ib-g9-science-ch04",
+      "code": "G4",
+      "hours": 0.6,
+      "weeks": 0.2,
+      "steps": [
+       {
+        "interventionId": "int-g4-1",
+        "rank": 1,
+        "name": "Estimate-first rule",
+        "whatToDo": "Before answering, write an estimate or expected form of the answer (size, sign, units, key term). Compare at the end. Applies to every application item for two weeks.",
+        "timeCost": "1 min/item",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 30,
+        "alrIndices": [
+         "MCI",
+         "CE"
+        ]
+       },
+       {
+        "interventionId": "int-g4-2",
+        "rank": 2,
+        "name": "Slow-down protocol on D1–D2 items",
+        "whatToDo": "Timed practice is paused; reach 95% accuracy on D1 to D2 items before timed work resumes.",
+        "timeCost": "2 weeks",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 90,
+        "alrIndices": [
+         "CE"
+        ]
+       },
+       {
+        "interventionId": "int-g4-3",
+        "rank": 3,
+        "name": "Sleep / study-block hygiene check",
+        "whatToDo": "If sleep is short or a phone is in the study block, fix that first via the parent form (M2). Support context only, never a score.",
+        "timeCost": "0",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 0,
+        "alrIndices": [
+         "CE"
+        ]
+       }
+      ],
+      "addOns": [
+       {
+        "interventionId": "int-g8-1",
+        "rank": 1,
+        "name": "Untimed re-test, then timed drills only after 90% accuracy",
+        "whatToDo": "Prove competence untimed; then build speed with 5-item timed sets, adding one item per week.",
+        "timeCost": "3 weeks",
+        "effort": "medium",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 120,
+        "alrIndices": [
+         "CE"
+        ],
+        "addOnFor": "G8"
+       }
+      ],
+      "addOnText": "G8 untimed re-test first.",
       "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
       "deviceCheck": "Video / app options usable.",
       "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.2 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
@@ -3493,6 +3464,94 @@
      {
       "gapId": "gap_lrn_meera_iyer_ib-g9-maths-ch04-st2",
       "subtopicId": "ib-g9-maths-ch04-st2",
+      "chapterId": "ib-g9-maths-ch04",
+      "code": "G4",
+      "hours": 0.4,
+      "weeks": 0.1,
+      "steps": [
+       {
+        "interventionId": "int-g4-1",
+        "rank": 1,
+        "name": "Estimate-first rule",
+        "whatToDo": "Before answering, write an estimate or expected form of the answer (size, sign, units, key term). Compare at the end. Applies to every application item for two weeks.",
+        "timeCost": "1 min/item",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 30,
+        "alrIndices": [
+         "MCI",
+         "CE"
+        ]
+       },
+       {
+        "interventionId": "int-g4-2",
+        "rank": 2,
+        "name": "Slow-down protocol on D1–D2 items",
+        "whatToDo": "Timed practice is paused; reach 95% accuracy on D1 to D2 items before timed work resumes.",
+        "timeCost": "2 weeks",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 90,
+        "alrIndices": [
+         "CE"
+        ]
+       },
+       {
+        "interventionId": "int-g4-3",
+        "rank": 3,
+        "name": "Sleep / study-block hygiene check",
+        "whatToDo": "If sleep is short or a phone is in the study block, fix that first via the parent form (M2). Support context only, never a score.",
+        "timeCost": "0",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 0,
+        "alrIndices": [
+         "CE"
+        ]
+       }
+      ],
+      "addOns": [
+       {
+        "interventionId": "int-g9-1",
+        "rank": 1,
+        "name": "Predict-then-check on every quiz",
+        "whatToDo": "Learner writes the expected score before marking; show the predicted-versus-actual trend weekly.",
+        "timeCost": "2 min/quiz",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 6,
+        "alrIndices": [
+         "MCI"
+        ],
+        "addOnFor": "G9"
+       }
+      ],
+      "addOnText": "G9 predict-then-check; review confident-and-wrong items.",
+      "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
+      "deviceCheck": "Video / app options usable.",
+      "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.1 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
+      "retestDateUtc": "2026-11-07T12:30:00.000Z",
+      "retentionProbeDateUtc": "2026-11-14T12:30:00.000Z"
+     },
+     {
+      "gapId": "gap_lrn_meera_iyer_ib-g9-maths-ch04-st3",
+      "subtopicId": "ib-g9-maths-ch04-st3",
       "chapterId": "ib-g9-maths-ch04",
       "code": "G4",
       "hours": 0.4,
@@ -3884,27 +3943,8 @@
         ]
        }
       ],
-      "addOns": [
-       {
-        "interventionId": "int-g9-1",
-        "rank": 1,
-        "name": "Predict-then-check on every quiz",
-        "whatToDo": "Learner writes the expected score before marking; show the predicted-versus-actual trend weekly.",
-        "timeCost": "2 min/quiz",
-        "effort": "low",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 6,
-        "alrIndices": [
-         "MCI"
-        ],
-        "addOnFor": "G9"
-       }
-      ],
-      "addOnText": "G9 predict-then-check; review confident-and-wrong items.",
+      "addOns": [],
+      "addOnText": "",
       "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
       "deviceCheck": "Video / app options usable.",
       "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.1 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
@@ -3939,7 +3979,7 @@
       "R"
      ]
     },
-    "totalMinutes": 1418,
+    "totalMinutes": 1672,
     "totalInrPerMonth": {
      "min": 0,
      "max": 0
@@ -3963,244 +4003,101 @@
    "plan": {
     "gaps": [
      {
+      "gapId": "gap_lrn_meera_iyer_ib-g9-english-ch02-st4",
+      "subtopicId": "ib-g9-english-ch02-st4",
+      "chapterId": "ib-g9-english-ch02",
+      "code": "G1",
+      "hours": 3.6,
+      "weeks": 0.9,
+      "steps": [
+       {
+        "interventionId": "int-g1-1",
+        "rank": 1,
+        "name": "Prerequisite mini-lesson (20 min) + 10 practice items",
+        "whatToDo": "Use the prerequisite listed for the subtopic. Teach only that earlier skill with 2 worked examples, give 10 items on it, then return to the failed subtopic.",
+        "timeCost": "20 min + 20 min practice, 1–2 sessions",
+        "effort": "medium",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 80,
+        "alrIndices": [
+         "dK"
+        ]
+       },
+       {
+        "interventionId": "int-g1-2",
+        "rank": 2,
+        "name": "Free video + NCERT exemplar for the earlier-class chapter",
+        "whatToDo": "Free official video or open course for the earlier-grade chapter (NCERT/DIKSHA, Khan Academy, board-endorsed resources), then solve level-1 exemplar items; the teacher checks 5 of them.",
+        "timeCost": "2 × 30 min",
+        "effort": "medium",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 60,
+        "alrIndices": [
+         "dK"
+        ]
+       },
+       {
+        "interventionId": "int-g1-3",
+        "rank": 3,
+        "name": "Peer tutor (a classmate at L4/L5) for 2 sessions",
+        "whatToDo": "Structured peer session with a classmate at L4/L5: the peer explains one worked example, the learner explains it back, then 5 items each from a teacher-provided list.",
+        "timeCost": "2 × 30 min",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 60,
+        "alrIndices": [
+         "dK",
+         "MCI"
+        ]
+       }
+      ],
+      "addOns": [
+       {
+        "interventionId": "int-g9-1",
+        "rank": 1,
+        "name": "Predict-then-check on every quiz",
+        "whatToDo": "Learner writes the expected score before marking; show the predicted-versus-actual trend weekly.",
+        "timeCost": "2 min/quiz",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 6,
+        "alrIndices": [
+         "MCI"
+        ],
+        "addOnFor": "G9"
+       }
+      ],
+      "addOnText": "G9 predict-then-check; review confident-and-wrong items.",
+      "moneyCheck": "Budget available and gap is deep: consider 4 weeks of targeted sessions (ANY-1, ₹2,000–6,000) WITH the written gap list; re-test after.",
+      "deviceCheck": "Video / app options usable.",
+      "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.9 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
+      "retestDateUtc": "2026-11-14T12:30:00.000Z",
+      "retentionProbeDateUtc": "2026-11-21T12:30:00.000Z"
+     },
+     {
       "gapId": "gap_lrn_meera_iyer_ib-g9-english-ch02-st1",
       "subtopicId": "ib-g9-english-ch02-st1",
       "chapterId": "ib-g9-english-ch02",
-      "code": "G2",
-      "hours": 3.1,
-      "weeks": 0.8,
+      "code": "G4",
+      "hours": 0.6,
+      "weeks": 0.2,
       "steps": [
-       {
-        "interventionId": "int-g2-1",
-        "rank": 1,
-        "name": "Self-explanation on 3 worked examples",
-        "whatToDo": "Learner reads a fully worked example and writes WHY each step is done, then a counter-example where the rule fails. Mark the explanations, not the answers.",
-        "timeCost": "3 × 15 min",
-        "effort": "high",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 45,
-        "alrIndices": [
-         "TQ",
-         "dK"
-        ]
-       },
-       {
-        "interventionId": "int-g2-2",
-        "rank": 2,
-        "name": "Concrete → picture → symbol re-teach",
-        "whatToDo": "Re-teach with a concrete or visual model first (diagram, manipulative, simulation, timeline or flowchart as the subject suits), then the formal rule or symbol.",
-        "timeCost": "1 × 25 min",
-        "effort": "medium",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 25,
-        "alrIndices": [
-         "dK"
-        ]
-       },
-       {
-        "interventionId": "int-g2-3",
-        "rank": 3,
-        "name": "Compare-and-contrast pair",
-        "whatToDo": "Give two items that look alike but need different ideas. The learner must say what differs BEFORE solving.",
-        "timeCost": "2 × 10 min",
-        "effort": "medium",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 20,
-        "alrIndices": [
-         "TQ"
-        ]
-       }
-      ],
-      "addOns": [
-       {
-        "interventionId": "int-g9-1",
-        "rank": 1,
-        "name": "Predict-then-check on every quiz",
-        "whatToDo": "Learner writes the expected score before marking; show the predicted-versus-actual trend weekly.",
-        "timeCost": "2 min/quiz",
-        "effort": "low",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 6,
-        "alrIndices": [
-         "MCI"
-        ],
-        "addOnFor": "G9"
-       }
-      ],
-      "addOnText": "G9 predict-then-check; review confident-and-wrong items.",
-      "moneyCheck": "Budget available and gap is deep: consider 4 weeks of targeted sessions (ANY-1, ₹2,000–6,000) WITH the written gap list; re-test after.",
-      "deviceCheck": "Video / app options usable.",
-      "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.8 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
-      "retestDateUtc": "2026-11-14T12:30:00.000Z",
-      "retentionProbeDateUtc": "2026-11-21T12:30:00.000Z"
-     },
-     {
-      "gapId": "gap_lrn_meera_iyer_ib-g9-english-ch02-st2",
-      "subtopicId": "ib-g9-english-ch02-st2",
-      "chapterId": "ib-g9-english-ch02",
-      "code": "G2",
-      "hours": 3.1,
-      "weeks": 0.8,
-      "steps": [
-       {
-        "interventionId": "int-g2-1",
-        "rank": 1,
-        "name": "Self-explanation on 3 worked examples",
-        "whatToDo": "Learner reads a fully worked example and writes WHY each step is done, then a counter-example where the rule fails. Mark the explanations, not the answers.",
-        "timeCost": "3 × 15 min",
-        "effort": "high",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 45,
-        "alrIndices": [
-         "TQ",
-         "dK"
-        ]
-       },
-       {
-        "interventionId": "int-g2-2",
-        "rank": 2,
-        "name": "Concrete → picture → symbol re-teach",
-        "whatToDo": "Re-teach with a concrete or visual model first (diagram, manipulative, simulation, timeline or flowchart as the subject suits), then the formal rule or symbol.",
-        "timeCost": "1 × 25 min",
-        "effort": "medium",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 25,
-        "alrIndices": [
-         "dK"
-        ]
-       },
-       {
-        "interventionId": "int-g2-3",
-        "rank": 3,
-        "name": "Compare-and-contrast pair",
-        "whatToDo": "Give two items that look alike but need different ideas. The learner must say what differs BEFORE solving.",
-        "timeCost": "2 × 10 min",
-        "effort": "medium",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 20,
-        "alrIndices": [
-         "TQ"
-        ]
-       }
-      ],
-      "addOns": [
-       {
-        "interventionId": "int-g9-1",
-        "rank": 1,
-        "name": "Predict-then-check on every quiz",
-        "whatToDo": "Learner writes the expected score before marking; show the predicted-versus-actual trend weekly.",
-        "timeCost": "2 min/quiz",
-        "effort": "low",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 6,
-        "alrIndices": [
-         "MCI"
-        ],
-        "addOnFor": "G9"
-       }
-      ],
-      "addOnText": "G9 predict-then-check; review confident-and-wrong items.",
-      "moneyCheck": "Budget available and gap is deep: consider 4 weeks of targeted sessions (ANY-1, ₹2,000–6,000) WITH the written gap list; re-test after.",
-      "deviceCheck": "Video / app options usable.",
-      "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.8 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
-      "retestDateUtc": "2026-11-14T12:30:00.000Z",
-      "retentionProbeDateUtc": "2026-11-21T12:30:00.000Z"
-     },
-     {
-      "gapId": "gap_lrn_meera_iyer_ib-g9-english-ch02-st3",
-      "subtopicId": "ib-g9-english-ch02-st3",
-      "chapterId": "ib-g9-english-ch02",
-      "code": "G3",
-      "hours": 1.7,
-      "weeks": 0.4,
-      "steps": [
-       {
-        "interventionId": "int-g3-1",
-        "rank": 1,
-        "name": "Faded worked examples (4 → 0 steps shown)",
-        "whatToDo": "Item 1 fully worked; item 2 last step blank; item 3 last two steps blank; item 4 unaided. Same method, new values each time.",
-        "timeCost": "20 min, 2 sessions",
-        "effort": "medium",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 40,
-        "alrIndices": [
-         "dK",
-         "ECV"
-        ]
-       },
-       {
-        "interventionId": "int-g3-2",
-        "rank": 2,
-        "name": "Deliberate practice set: 12 items, 3 difficulty steps, immediate feedback",
-        "whatToDo": "12 items in 3 difficulty steps (4 at D1, 4 at D2, 4 at D3) from the wider bank, with feedback after each block; redo any block with an error.",
-        "timeCost": "30 min, 2–3 sessions",
-        "effort": "high",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 90,
-        "alrIndices": [
-         "dK",
-         "ECV"
-        ]
-       },
-       {
-        "interventionId": "int-g3-3",
-        "rank": 3,
-        "name": "Step-checklist card",
-        "whatToDo": "Learner writes the method as 3 to 5 numbered steps on a card and ticks them on every problem for a week.",
-        "timeCost": "5 min/day",
-        "effort": "low",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 30,
-        "alrIndices": [
-         "ECV"
-        ]
-       }
-      ],
-      "addOns": [
        {
         "interventionId": "int-g4-1",
         "rank": 1,
@@ -4217,8 +4114,149 @@
         "alrIndices": [
          "MCI",
          "CE"
+        ]
+       },
+       {
+        "interventionId": "int-g4-2",
+        "rank": 2,
+        "name": "Slow-down protocol on D1–D2 items",
+        "whatToDo": "Timed practice is paused; reach 95% accuracy on D1 to D2 items before timed work resumes.",
+        "timeCost": "2 weeks",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 90,
+        "alrIndices": [
+         "CE"
+        ]
+       },
+       {
+        "interventionId": "int-g4-3",
+        "rank": 3,
+        "name": "Sleep / study-block hygiene check",
+        "whatToDo": "If sleep is short or a phone is in the study block, fix that first via the parent form (M2). Support context only, never a score.",
+        "timeCost": "0",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 0,
+        "alrIndices": [
+         "CE"
+        ]
+       }
+      ],
+      "addOns": [
+       {
+        "interventionId": "int-g9-1",
+        "rank": 1,
+        "name": "Predict-then-check on every quiz",
+        "whatToDo": "Learner writes the expected score before marking; show the predicted-versus-actual trend weekly.",
+        "timeCost": "2 min/quiz",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 6,
+        "alrIndices": [
+         "MCI"
         ],
-        "addOnFor": "G4"
+        "addOnFor": "G9"
+       }
+      ],
+      "addOnText": "G9 predict-then-check; review confident-and-wrong items.",
+      "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
+      "deviceCheck": "Video / app options usable.",
+      "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.2 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
+      "retestDateUtc": "2026-11-14T12:30:00.000Z",
+      "retentionProbeDateUtc": "2026-11-21T12:30:00.000Z"
+     },
+     {
+      "gapId": "gap_lrn_meera_iyer_ib-g9-english-ch02-st2",
+      "subtopicId": "ib-g9-english-ch02-st2",
+      "chapterId": "ib-g9-english-ch02",
+      "code": "G4",
+      "hours": 0.6,
+      "weeks": 0.2,
+      "steps": [
+       {
+        "interventionId": "int-g4-1",
+        "rank": 1,
+        "name": "Estimate-first rule",
+        "whatToDo": "Before answering, write an estimate or expected form of the answer (size, sign, units, key term). Compare at the end. Applies to every application item for two weeks.",
+        "timeCost": "1 min/item",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 30,
+        "alrIndices": [
+         "MCI",
+         "CE"
+        ]
+       },
+       {
+        "interventionId": "int-g4-2",
+        "rank": 2,
+        "name": "Slow-down protocol on D1–D2 items",
+        "whatToDo": "Timed practice is paused; reach 95% accuracy on D1 to D2 items before timed work resumes.",
+        "timeCost": "2 weeks",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 90,
+        "alrIndices": [
+         "CE"
+        ]
+       },
+       {
+        "interventionId": "int-g4-3",
+        "rank": 3,
+        "name": "Sleep / study-block hygiene check",
+        "whatToDo": "If sleep is short or a phone is in the study block, fix that first via the parent form (M2). Support context only, never a score.",
+        "timeCost": "0",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 0,
+        "alrIndices": [
+         "CE"
+        ]
+       }
+      ],
+      "addOns": [
+       {
+        "interventionId": "int-g8-1",
+        "rank": 1,
+        "name": "Untimed re-test, then timed drills only after 90% accuracy",
+        "whatToDo": "Prove competence untimed; then build speed with 5-item timed sets, adding one item per week.",
+        "timeCost": "3 weeks",
+        "effort": "medium",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 120,
+        "alrIndices": [
+         "CE"
+        ],
+        "addOnFor": "G8"
        },
        {
         "interventionId": "int-g9-1",
@@ -4239,16 +4277,16 @@
         "addOnFor": "G9"
        }
       ],
-      "addOnText": "G4 estimate-first + slow-down. G9 predict-then-check; review confident-and-wrong items.",
+      "addOnText": "G8 untimed re-test first. G9 predict-then-check; review confident-and-wrong items.",
       "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
       "deviceCheck": "Video / app options usable.",
-      "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.4 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
+      "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.2 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
       "retestDateUtc": "2026-11-14T12:30:00.000Z",
       "retentionProbeDateUtc": "2026-11-21T12:30:00.000Z"
      },
      {
-      "gapId": "gap_lrn_meera_iyer_ib-g9-english-ch02-st4",
-      "subtopicId": "ib-g9-english-ch02-st4",
+      "gapId": "gap_lrn_meera_iyer_ib-g9-english-ch02-st3",
+      "subtopicId": "ib-g9-english-ch02-st3",
       "chapterId": "ib-g9-english-ch02",
       "code": "G4",
       "hours": 0.4,
@@ -4362,7 +4400,7 @@
       "R"
      ]
     },
-    "totalMinutes": 514,
+    "totalMinutes": 704,
     "totalInrPerMonth": {
      "min": 0,
      "max": 0
@@ -4378,10 +4416,10 @@
    "status": "active",
    "freePlanWeeks": 0,
    "gapIds": [
+    "gap_lrn_meera_iyer_ib-g9-maths-ch05-st4",
     "gap_lrn_meera_iyer_ib-g9-maths-ch05-st1",
     "gap_lrn_meera_iyer_ib-g9-maths-ch05-st3",
     "gap_lrn_meera_iyer_ib-g9-maths-ch05-st2",
-    "gap_lrn_meera_iyer_ib-g9-maths-ch05-st4",
     "gap_lrn_meera_iyer_ib-g9-science-ch05-st1",
     "gap_lrn_meera_iyer_ib-g9-science-ch05-st2",
     "gap_lrn_meera_iyer_ib-g9-science-ch05-st3",
@@ -4390,9 +4428,9 @@
    "plan": {
     "gaps": [
      {
-      "gapId": "gap_lrn_meera_iyer_ib-g9-maths-ch05-st3",
-      "subtopicId": "ib-g9-maths-ch05-st3",
-      "chapterId": "ib-g9-maths-ch05",
+      "gapId": "gap_lrn_meera_iyer_ib-g9-science-ch05-st1",
+      "subtopicId": "ib-g9-science-ch05-st1",
+      "chapterId": "ib-g9-science-ch05",
       "code": "G2",
       "hours": 3.1,
       "weeks": 0.8,
@@ -4497,9 +4535,9 @@
       "retentionProbeDateUtc": "2026-11-28T12:30:00.000Z"
      },
      {
-      "gapId": "gap_lrn_meera_iyer_ib-g9-maths-ch05-st2",
-      "subtopicId": "ib-g9-maths-ch05-st2",
-      "chapterId": "ib-g9-maths-ch05",
+      "gapId": "gap_lrn_meera_iyer_ib-g9-science-ch05-st3",
+      "subtopicId": "ib-g9-science-ch05-st3",
+      "chapterId": "ib-g9-science-ch05",
       "code": "G2",
       "hours": 2.2,
       "weeks": 0.6,
@@ -4557,6 +4595,304 @@
         ]
        }
       ],
+      "addOns": [],
+      "addOnText": "",
+      "moneyCheck": "Budget available and gap is deep: consider 4 weeks of targeted sessions (ANY-1, ₹2,000–6,000) WITH the written gap list; re-test after.",
+      "deviceCheck": "Video / app options usable.",
+      "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.6 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
+      "retestDateUtc": "2026-11-21T12:30:00.000Z",
+      "retentionProbeDateUtc": "2026-11-28T12:30:00.000Z"
+     },
+     {
+      "gapId": "gap_lrn_meera_iyer_ib-g9-maths-ch05-st4",
+      "subtopicId": "ib-g9-maths-ch05-st4",
+      "chapterId": "ib-g9-maths-ch05",
+      "code": "G3",
+      "hours": 1.7,
+      "weeks": 0.4,
+      "steps": [
+       {
+        "interventionId": "int-g3-1",
+        "rank": 1,
+        "name": "Faded worked examples (4 → 0 steps shown)",
+        "whatToDo": "Item 1 fully worked; item 2 last step blank; item 3 last two steps blank; item 4 unaided. Same method, new values each time.",
+        "timeCost": "20 min, 2 sessions",
+        "effort": "medium",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 40,
+        "alrIndices": [
+         "dK",
+         "ECV"
+        ]
+       },
+       {
+        "interventionId": "int-g3-2",
+        "rank": 2,
+        "name": "Deliberate practice set: 12 items, 3 difficulty steps, immediate feedback",
+        "whatToDo": "12 items in 3 difficulty steps (4 at D1, 4 at D2, 4 at D3) from the wider bank, with feedback after each block; redo any block with an error.",
+        "timeCost": "30 min, 2–3 sessions",
+        "effort": "high",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 90,
+        "alrIndices": [
+         "dK",
+         "ECV"
+        ]
+       },
+       {
+        "interventionId": "int-g3-3",
+        "rank": 3,
+        "name": "Step-checklist card",
+        "whatToDo": "Learner writes the method as 3 to 5 numbered steps on a card and ticks them on every problem for a week.",
+        "timeCost": "5 min/day",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 30,
+        "alrIndices": [
+         "ECV"
+        ]
+       }
+      ],
+      "addOns": [
+       {
+        "interventionId": "int-g4-1",
+        "rank": 1,
+        "name": "Estimate-first rule",
+        "whatToDo": "Before answering, write an estimate or expected form of the answer (size, sign, units, key term). Compare at the end. Applies to every application item for two weeks.",
+        "timeCost": "1 min/item",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 30,
+        "alrIndices": [
+         "MCI",
+         "CE"
+        ],
+        "addOnFor": "G4"
+       },
+       {
+        "interventionId": "int-g9-1",
+        "rank": 1,
+        "name": "Predict-then-check on every quiz",
+        "whatToDo": "Learner writes the expected score before marking; show the predicted-versus-actual trend weekly.",
+        "timeCost": "2 min/quiz",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 6,
+        "alrIndices": [
+         "MCI"
+        ],
+        "addOnFor": "G9"
+       }
+      ],
+      "addOnText": "G4 estimate-first + slow-down. G9 predict-then-check; review confident-and-wrong items.",
+      "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
+      "deviceCheck": "Video / app options usable.",
+      "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.4 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
+      "retestDateUtc": "2026-11-21T12:30:00.000Z",
+      "retentionProbeDateUtc": "2026-11-28T12:30:00.000Z"
+     },
+     {
+      "gapId": "gap_lrn_meera_iyer_ib-g9-maths-ch05-st2",
+      "subtopicId": "ib-g9-maths-ch05-st2",
+      "chapterId": "ib-g9-maths-ch05",
+      "code": "G5",
+      "hours": 1,
+      "weeks": 0.3,
+      "steps": [
+       {
+        "interventionId": "int-g5-1",
+        "rank": 1,
+        "name": "Interleaved mixed set (this + 2 earlier subtopics)",
+        "whatToDo": "12 items shuffled across this and 2 earlier subtopics so the learner must CHOOSE the method. Ask 'which method and why?' before solving.",
+        "timeCost": "30 min, 2 sessions",
+        "effort": "high",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 60,
+        "alrIndices": [
+         "TQ"
+        ]
+       },
+       {
+        "interventionId": "int-g5-2",
+        "rank": 2,
+        "name": "Context-swap items",
+        "whatToDo": "Same method in 3 unfamiliar settings (everyday, another subject, current affairs). Use the C3-D4 items of the wider bank.",
+        "timeCost": "20 min",
+        "effort": "medium",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 20,
+        "alrIndices": [
+         "TQ"
+        ]
+       },
+       {
+        "interventionId": "int-g5-3",
+        "rank": 3,
+        "name": "Student writes ONE C4 item and its solution",
+        "whatToDo": "Learner writes ONE item that combines two ideas, with its solution. The teacher or tutor solves it with the class.",
+        "timeCost": "20 min",
+        "effort": "high",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 20,
+        "alrIndices": [
+         "TQ",
+         "MCI"
+        ]
+       }
+      ],
+      "addOns": [
+       {
+        "interventionId": "int-g7-1",
+        "rank": 1,
+        "name": "Restate-then-solve",
+        "whatToDo": "Learner rewrites each word or source-based question as a one-line 'given / find' in own words (home language allowed) before answering.",
+        "timeCost": "2 min/item",
+        "effort": "medium",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 30,
+        "alrIndices": [
+         "dK on C4"
+        ],
+        "addOnFor": "G7"
+       },
+       {
+        "interventionId": "int-g8-1",
+        "rank": 1,
+        "name": "Untimed re-test, then timed drills only after 90% accuracy",
+        "whatToDo": "Prove competence untimed; then build speed with 5-item timed sets, adding one item per week.",
+        "timeCost": "3 weeks",
+        "effort": "medium",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 120,
+        "alrIndices": [
+         "CE"
+        ],
+        "addOnFor": "G8"
+       },
+       {
+        "interventionId": "int-g9-1",
+        "rank": 1,
+        "name": "Predict-then-check on every quiz",
+        "whatToDo": "Learner writes the expected score before marking; show the predicted-versus-actual trend weekly.",
+        "timeCost": "2 min/quiz",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 6,
+        "alrIndices": [
+         "MCI"
+        ],
+        "addOnFor": "G9"
+       }
+      ],
+      "addOnText": "G7 restate-then-solve + glossary. G8 untimed re-test first. G9 predict-then-check; review confident-and-wrong items.",
+      "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
+      "deviceCheck": "Video / app options usable.",
+      "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.3 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
+      "retestDateUtc": "2026-11-21T12:30:00.000Z",
+      "retentionProbeDateUtc": "2026-11-28T12:30:00.000Z"
+     },
+     {
+      "gapId": "gap_lrn_meera_iyer_ib-g9-maths-ch05-st1",
+      "subtopicId": "ib-g9-maths-ch05-st1",
+      "chapterId": "ib-g9-maths-ch05",
+      "code": "G10",
+      "hours": 0.6,
+      "weeks": 0.2,
+      "steps": [
+       {
+        "interventionId": "int-g10-1",
+        "rank": 1,
+        "name": "Shorten and schedule: 20-minute blocks, 5 days, one subtopic",
+        "whatToDo": "Fixed time, fixed place, one goal: 20-minute blocks on 5 days, one subtopic. A planner event each day (M15); the parent only asks 'did you do the 20 minutes?'",
+        "timeCost": "20 min/day",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 100,
+        "alrIndices": [
+         "all"
+        ]
+       },
+       {
+        "interventionId": "int-g10-2",
+        "rank": 2,
+        "name": "Choice + quick win",
+        "whatToDo": "Learner picks which of 2 subtopics to start; the first task is at D1 so success comes within 5 minutes.",
+        "timeCost": "0",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 5,
+        "alrIndices": [
+         "all"
+        ]
+       },
+       {
+        "interventionId": "int-g10-3",
+        "rank": 3,
+        "name": "Trusted-adult check-in / counsellor referral if burnout signals",
+        "whatToDo": "If burnout or social difficulty is flagged, route to the counsellor (M3) before any academic push.",
+        "timeCost": "1 conversation",
+        "effort": "low",
+        "money": "free",
+        "inrPerMonth": {
+         "min": 0,
+         "max": 0
+        },
+        "totalMinutes": 30,
+        "alrIndices": []
+       }
+      ],
       "addOns": [
        {
         "interventionId": "int-g9-1",
@@ -4578,324 +4914,6 @@
        }
       ],
       "addOnText": "G9 predict-then-check; review confident-and-wrong items.",
-      "moneyCheck": "Budget available and gap is deep: consider 4 weeks of targeted sessions (ANY-1, ₹2,000–6,000) WITH the written gap list; re-test after.",
-      "deviceCheck": "Video / app options usable.",
-      "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.6 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
-      "retestDateUtc": "2026-11-21T12:30:00.000Z",
-      "retentionProbeDateUtc": "2026-11-28T12:30:00.000Z"
-     },
-     {
-      "gapId": "gap_lrn_meera_iyer_ib-g9-maths-ch05-st4",
-      "subtopicId": "ib-g9-maths-ch05-st4",
-      "chapterId": "ib-g9-maths-ch05",
-      "code": "G5",
-      "hours": 1,
-      "weeks": 0.3,
-      "steps": [
-       {
-        "interventionId": "int-g5-1",
-        "rank": 1,
-        "name": "Interleaved mixed set (this + 2 earlier subtopics)",
-        "whatToDo": "12 items shuffled across this and 2 earlier subtopics so the learner must CHOOSE the method. Ask 'which method and why?' before solving.",
-        "timeCost": "30 min, 2 sessions",
-        "effort": "high",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 60,
-        "alrIndices": [
-         "TQ"
-        ]
-       },
-       {
-        "interventionId": "int-g5-2",
-        "rank": 2,
-        "name": "Context-swap items",
-        "whatToDo": "Same method in 3 unfamiliar settings (everyday, another subject, current affairs). Use the C3-D4 items of the wider bank.",
-        "timeCost": "20 min",
-        "effort": "medium",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 20,
-        "alrIndices": [
-         "TQ"
-        ]
-       },
-       {
-        "interventionId": "int-g5-3",
-        "rank": 3,
-        "name": "Student writes ONE C4 item and its solution",
-        "whatToDo": "Learner writes ONE item that combines two ideas, with its solution. The teacher or tutor solves it with the class.",
-        "timeCost": "20 min",
-        "effort": "high",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 20,
-        "alrIndices": [
-         "TQ",
-         "MCI"
-        ]
-       }
-      ],
-      "addOns": [
-       {
-        "interventionId": "int-g8-1",
-        "rank": 1,
-        "name": "Untimed re-test, then timed drills only after 90% accuracy",
-        "whatToDo": "Prove competence untimed; then build speed with 5-item timed sets, adding one item per week.",
-        "timeCost": "3 weeks",
-        "effort": "medium",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 120,
-        "alrIndices": [
-         "CE"
-        ],
-        "addOnFor": "G8"
-       },
-       {
-        "interventionId": "int-g9-1",
-        "rank": 1,
-        "name": "Predict-then-check on every quiz",
-        "whatToDo": "Learner writes the expected score before marking; show the predicted-versus-actual trend weekly.",
-        "timeCost": "2 min/quiz",
-        "effort": "low",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 6,
-        "alrIndices": [
-         "MCI"
-        ],
-        "addOnFor": "G9"
-       }
-      ],
-      "addOnText": "G8 untimed re-test first. G9 predict-then-check; review confident-and-wrong items.",
-      "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
-      "deviceCheck": "Video / app options usable.",
-      "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.3 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
-      "retestDateUtc": "2026-11-21T12:30:00.000Z",
-      "retentionProbeDateUtc": "2026-11-28T12:30:00.000Z"
-     },
-     {
-      "gapId": "gap_lrn_meera_iyer_ib-g9-science-ch05-st4",
-      "subtopicId": "ib-g9-science-ch05-st4",
-      "chapterId": "ib-g9-science-ch05",
-      "code": "G5",
-      "hours": 1,
-      "weeks": 0.3,
-      "steps": [
-       {
-        "interventionId": "int-g5-1",
-        "rank": 1,
-        "name": "Interleaved mixed set (this + 2 earlier subtopics)",
-        "whatToDo": "12 items shuffled across this and 2 earlier subtopics so the learner must CHOOSE the method. Ask 'which method and why?' before solving.",
-        "timeCost": "30 min, 2 sessions",
-        "effort": "high",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 60,
-        "alrIndices": [
-         "TQ"
-        ]
-       },
-       {
-        "interventionId": "int-g5-2",
-        "rank": 2,
-        "name": "Context-swap items",
-        "whatToDo": "Same method in 3 unfamiliar settings (everyday, another subject, current affairs). Use the C3-D4 items of the wider bank.",
-        "timeCost": "20 min",
-        "effort": "medium",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 20,
-        "alrIndices": [
-         "TQ"
-        ]
-       },
-       {
-        "interventionId": "int-g5-3",
-        "rank": 3,
-        "name": "Student writes ONE C4 item and its solution",
-        "whatToDo": "Learner writes ONE item that combines two ideas, with its solution. The teacher or tutor solves it with the class.",
-        "timeCost": "20 min",
-        "effort": "high",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 20,
-        "alrIndices": [
-         "TQ",
-         "MCI"
-        ]
-       }
-      ],
-      "addOns": [
-       {
-        "interventionId": "int-g8-1",
-        "rank": 1,
-        "name": "Untimed re-test, then timed drills only after 90% accuracy",
-        "whatToDo": "Prove competence untimed; then build speed with 5-item timed sets, adding one item per week.",
-        "timeCost": "3 weeks",
-        "effort": "medium",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 120,
-        "alrIndices": [
-         "CE"
-        ],
-        "addOnFor": "G8"
-       },
-       {
-        "interventionId": "int-g9-1",
-        "rank": 1,
-        "name": "Predict-then-check on every quiz",
-        "whatToDo": "Learner writes the expected score before marking; show the predicted-versus-actual trend weekly.",
-        "timeCost": "2 min/quiz",
-        "effort": "low",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 6,
-        "alrIndices": [
-         "MCI"
-        ],
-        "addOnFor": "G9"
-       }
-      ],
-      "addOnText": "G8 untimed re-test first. G9 predict-then-check; review confident-and-wrong items.",
-      "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
-      "deviceCheck": "Video / app options usable.",
-      "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.3 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
-      "retestDateUtc": "2026-11-21T12:30:00.000Z",
-      "retentionProbeDateUtc": "2026-11-28T12:30:00.000Z"
-     },
-     {
-      "gapId": "gap_lrn_meera_iyer_ib-g9-maths-ch05-st1",
-      "subtopicId": "ib-g9-maths-ch05-st1",
-      "chapterId": "ib-g9-maths-ch05",
-      "code": "G4",
-      "hours": 0.6,
-      "weeks": 0.2,
-      "steps": [
-       {
-        "interventionId": "int-g4-1",
-        "rank": 1,
-        "name": "Estimate-first rule",
-        "whatToDo": "Before answering, write an estimate or expected form of the answer (size, sign, units, key term). Compare at the end. Applies to every application item for two weeks.",
-        "timeCost": "1 min/item",
-        "effort": "low",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 30,
-        "alrIndices": [
-         "MCI",
-         "CE"
-        ]
-       },
-       {
-        "interventionId": "int-g4-2",
-        "rank": 2,
-        "name": "Slow-down protocol on D1–D2 items",
-        "whatToDo": "Timed practice is paused; reach 95% accuracy on D1 to D2 items before timed work resumes.",
-        "timeCost": "2 weeks",
-        "effort": "low",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 90,
-        "alrIndices": [
-         "CE"
-        ]
-       },
-       {
-        "interventionId": "int-g4-3",
-        "rank": 3,
-        "name": "Sleep / study-block hygiene check",
-        "whatToDo": "If sleep is short or a phone is in the study block, fix that first via the parent form (M2). Support context only, never a score.",
-        "timeCost": "0",
-        "effort": "low",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 0,
-        "alrIndices": [
-         "CE"
-        ]
-       }
-      ],
-      "addOns": [
-       {
-        "interventionId": "int-g8-1",
-        "rank": 1,
-        "name": "Untimed re-test, then timed drills only after 90% accuracy",
-        "whatToDo": "Prove competence untimed; then build speed with 5-item timed sets, adding one item per week.",
-        "timeCost": "3 weeks",
-        "effort": "medium",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 120,
-        "alrIndices": [
-         "CE"
-        ],
-        "addOnFor": "G8"
-       },
-       {
-        "interventionId": "int-g9-1",
-        "rank": 1,
-        "name": "Predict-then-check on every quiz",
-        "whatToDo": "Learner writes the expected score before marking; show the predicted-versus-actual trend weekly.",
-        "timeCost": "2 min/quiz",
-        "effort": "low",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 6,
-        "alrIndices": [
-         "MCI"
-        ],
-        "addOnFor": "G9"
-       }
-      ],
-      "addOnText": "G8 untimed re-test first. G9 predict-then-check; review confident-and-wrong items.",
       "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
       "deviceCheck": "Video / app options usable.",
       "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.2 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
@@ -4903,9 +4921,9 @@
       "retentionProbeDateUtc": "2026-11-28T12:30:00.000Z"
      },
      {
-      "gapId": "gap_lrn_meera_iyer_ib-g9-science-ch05-st1",
-      "subtopicId": "ib-g9-science-ch05-st1",
-      "chapterId": "ib-g9-science-ch05",
+      "gapId": "gap_lrn_meera_iyer_ib-g9-maths-ch05-st3",
+      "subtopicId": "ib-g9-maths-ch05-st3",
+      "chapterId": "ib-g9-maths-ch05",
       "code": "G4",
       "hours": 0.6,
       "weeks": 0.2,
@@ -4965,24 +4983,6 @@
       ],
       "addOns": [
        {
-        "interventionId": "int-g8-1",
-        "rank": 1,
-        "name": "Untimed re-test, then timed drills only after 90% accuracy",
-        "whatToDo": "Prove competence untimed; then build speed with 5-item timed sets, adding one item per week.",
-        "timeCost": "3 weeks",
-        "effort": "medium",
-        "money": "free",
-        "inrPerMonth": {
-         "min": 0,
-         "max": 0
-        },
-        "totalMinutes": 120,
-        "alrIndices": [
-         "CE"
-        ],
-        "addOnFor": "G8"
-       },
-       {
         "interventionId": "int-g9-1",
         "rank": 1,
         "name": "Predict-then-check on every quiz",
@@ -5001,7 +5001,7 @@
         "addOnFor": "G9"
        }
       ],
-      "addOnText": "G8 untimed re-test first. G9 predict-then-check; review confident-and-wrong items.",
+      "addOnText": "G9 predict-then-check; review confident-and-wrong items.",
       "moneyCheck": "Budget available but gap is shallow: free plan first; keep the money for a re-test in 3 weeks.",
       "deviceCheck": "Video / app options usable.",
       "retestRule": "Re-give the failed items (parallel versions from the wider bank) after the plan, then a 7-day retention probe. Log the attempts → ECV; if the level has not moved by 2 after the planned 0.2 weeks, re-diagnose – the gap type was probably wrong (usually G1 hiding under G3).",
@@ -5097,8 +5097,8 @@
       "retentionProbeDateUtc": "2026-11-28T12:30:00.000Z"
      },
      {
-      "gapId": "gap_lrn_meera_iyer_ib-g9-science-ch05-st3",
-      "subtopicId": "ib-g9-science-ch05-st3",
+      "gapId": "gap_lrn_meera_iyer_ib-g9-science-ch05-st4",
+      "subtopicId": "ib-g9-science-ch05-st4",
       "chapterId": "ib-g9-science-ch05",
       "code": "G4",
       "hours": 0.4,
@@ -5212,7 +5212,7 @@
       "R"
      ]
     },
-    "totalMinutes": 1418,
+    "totalMinutes": 1187,
     "totalInrPerMonth": {
      "min": 0,
      "max": 0

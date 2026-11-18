@@ -141,15 +141,15 @@
   {
    "eventId": "evt_att_meera_iyer_001",
    "learnerId": "lrn_meera_iyer",
-   "timestampUtc": "2026-08-17T15:58:48.000Z",
+   "timestampUtc": "2026-08-17T16:18:00.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_meera_iyer_001",
     "kind": "onboarding",
     "subjectId": "ib-g9-science",
-    "score": 142,
-    "maxScore": 156,
+    "score": 150,
+    "maxScore": 164,
     "gaps": [],
     "parameterIds": [
      "p8",
@@ -168,10 +168,10 @@
     "attemptId": "att_meera_iyer_002",
     "kind": "chapter_check",
     "subjectId": "ib-g9-maths",
-    "score": 63,
+    "score": 65,
     "maxScore": 71,
     "gaps": [
-     "G1:ib-g9-maths-ch01-st2",
+     "G4:ib-g9-maths-ch01-st2",
      "G4:ib-g9-maths-ch01-st1",
      "G4:ib-g9-maths-ch01-st3",
      "G4:ib-g9-maths-ch01-st4"
@@ -193,13 +193,13 @@
     "attemptId": "att_meera_iyer_003",
     "kind": "chapter_check",
     "subjectId": "ib-g9-science",
-    "score": 81,
+    "score": 82,
     "maxScore": 86,
     "gaps": [
-     "G1:ib-g9-science-ch01-st4",
-     "G4:ib-g9-science-ch01-st2",
+     "G1:ib-g9-science-ch01-st2",
      "G4:ib-g9-science-ch01-st3",
-     "G4:ib-g9-science-ch01-st1"
+     "G4:ib-g9-science-ch01-st1",
+     "G4:ib-g9-science-ch01-st4"
     ],
     "parameterIds": [
      "p8",
@@ -221,7 +221,7 @@
     "score": 63,
     "maxScore": 71,
     "gaps": [
-     "G1:ib-g9-maths-ch01-st2",
+     "G4:ib-g9-maths-ch01-st2",
      "G4:ib-g9-maths-ch01-st1",
      "G4:ib-g9-maths-ch01-st3",
      "G4:ib-g9-maths-ch01-st4"
@@ -268,13 +268,13 @@
     "attemptId": "att_meera_iyer_006",
     "kind": "retention_probe",
     "subjectId": "ib-g9-maths",
-    "score": 13,
+    "score": 12,
     "maxScore": 13,
     "gaps": [
      "G4:ib-g9-maths-ch01-st1",
-     "G1:ib-g9-maths-ch01-st2",
+     "G4:ib-g9-maths-ch01-st2",
      "G4:ib-g9-maths-ch01-st3",
-     "G4:ib-g9-maths-ch01-st4"
+     "G6:ib-g9-maths-ch01-st4"
     ],
     "parameterIds": [
      "p8",
@@ -311,17 +311,17 @@
   {
    "eventId": "evt_att_meera_iyer_008",
    "learnerId": "lrn_meera_iyer",
-   "timestampUtc": "2026-09-19T05:07:48.000Z",
+   "timestampUtc": "2026-09-19T05:34:48.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_meera_iyer_008",
-    "kind": "weekly",
+    "kind": "retention_probe",
     "subjectId": "ib-g9-maths",
-    "score": 19,
-    "maxScore": 25,
+    "score": 3,
+    "maxScore": 3,
     "gaps": [
-     "G4:ib-g9-maths-ch01-st2"
+     "G6:ib-g9-maths-ch01-st4"
     ],
     "parameterIds": [
      "p8",
@@ -340,13 +340,13 @@
     "attemptId": "att_meera_iyer_009",
     "kind": "chapter_check",
     "subjectId": "ib-g9-maths",
-    "score": 53,
+    "score": 62,
     "maxScore": 66,
     "gaps": [
-     "G3:ib-g9-maths-ch02-st3",
-     "G5:ib-g9-maths-ch02-st4",
      "G4:ib-g9-maths-ch02-st1",
-     "G4:ib-g9-maths-ch02-st2"
+     "G4:ib-g9-maths-ch02-st2",
+     "G4:ib-g9-maths-ch02-st3",
+     "G4:ib-g9-maths-ch02-st4"
     ],
     "parameterIds": [
      "p8",
@@ -365,14 +365,39 @@
     "attemptId": "att_meera_iyer_010",
     "kind": "chapter_check",
     "subjectId": "ib-g9-science",
-    "score": 82,
+    "score": 78,
     "maxScore": 86,
     "gaps": [
-     "G1:ib-g9-science-ch02-st3",
-     "G4:ib-g9-science-ch02-st2",
-     "G4:ib-g9-science-ch02-st1",
-     "G4:ib-g9-science-ch02-st4",
+     "G1:ib-g9-science-ch02-st2",
+     "G1:ib-g9-science-ch02-st1",
+     "G2:ib-g9-science-ch02-st4",
+     "G4:ib-g9-science-ch02-st3",
      "G4:ib-g9-science-ch02-st5"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_meera_iyer_012",
+   "learnerId": "lrn_meera_iyer",
+   "timestampUtc": "2026-09-26T06:12:36.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_meera_iyer_012",
+    "kind": "weekly",
+    "subjectId": "ib-g9-maths",
+    "score": 62,
+    "maxScore": 66,
+    "gaps": [
+     "G3:ib-g9-maths-ch02-st3",
+     "G3:ib-g9-maths-ch02-st4",
+     "G4:ib-g9-maths-ch02-st1",
+     "G4:ib-g9-maths-ch02-st2"
     ],
     "parameterIds": [
      "p8",
@@ -391,7 +416,7 @@
     "attemptId": "att_meera_iyer_011",
     "kind": "weekly",
     "subjectId": "ib-g9-science",
-    "score": 82,
+    "score": 77,
     "maxScore": 86,
     "gaps": [
      "G4:ib-g9-science-ch02-st2",
@@ -399,32 +424,6 @@
      "G4:ib-g9-science-ch02-st3",
      "G4:ib-g9-science-ch02-st4",
      "G4:ib-g9-science-ch02-st5"
-    ],
-    "parameterIds": [
-     "p8",
-     "p20",
-     "p60"
-    ]
-   }
-  },
-  {
-   "eventId": "evt_att_meera_iyer_012",
-   "learnerId": "lrn_meera_iyer",
-   "timestampUtc": "2026-09-26T06:50:24.000Z",
-   "sourceMethod": "M14",
-   "type": "assessment_submitted",
-   "payload": {
-    "attemptId": "att_meera_iyer_012",
-    "kind": "weekly",
-    "subjectId": "ib-g9-maths",
-    "score": 87,
-    "maxScore": 91,
-    "gaps": [
-     "G4:ib-g9-maths-ch02-st1",
-     "G4:ib-g9-maths-ch02-st2",
-     "G4:ib-g9-maths-ch02-st3",
-     "G4:ib-g9-maths-ch02-st4",
-     "G4:ib-g9-maths-ch01-st2"
     ],
     "parameterIds": [
      "p8",
@@ -443,13 +442,13 @@
     "attemptId": "att_meera_iyer_013",
     "kind": "retention_probe",
     "subjectId": "ib-g9-maths",
-    "score": 12,
+    "score": 13,
     "maxScore": 13,
     "gaps": [
-     "G6:ib-g9-maths-ch02-st1",
+     "G4:ib-g9-maths-ch02-st1",
      "G4:ib-g9-maths-ch02-st2",
-     "G4:ib-g9-maths-ch02-st3",
-     "G4:ib-g9-maths-ch02-st4"
+     "G3:ib-g9-maths-ch02-st3",
+     "G3:ib-g9-maths-ch02-st4"
     ],
     "parameterIds": [
      "p8",
@@ -468,13 +467,13 @@
     "attemptId": "att_meera_iyer_014",
     "kind": "retention_probe",
     "subjectId": "ib-g9-science",
-    "score": 16,
+    "score": 17,
     "maxScore": 17,
     "gaps": [
      "G4:ib-g9-science-ch02-st1",
      "G4:ib-g9-science-ch02-st2",
      "G4:ib-g9-science-ch02-st3",
-     "G6:ib-g9-science-ch02-st4",
+     "G4:ib-g9-science-ch02-st4",
      "G4:ib-g9-science-ch02-st5"
     ],
     "parameterIds": [
@@ -487,15 +486,15 @@
   {
    "eventId": "evt_att_meera_iyer_015",
    "learnerId": "lrn_meera_iyer",
-   "timestampUtc": "2026-10-02T13:21:36.000Z",
+   "timestampUtc": "2026-10-02T14:42:00.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_meera_iyer_015",
     "kind": "chapter_check",
     "subjectId": "ib-g9-english",
-    "score": 63,
-    "maxScore": 63,
+    "score": 86,
+    "maxScore": 90,
     "gaps": [
      "G4:ib-g9-english-ch01-st2",
      "G4:ib-g9-english-ch01-st1",
@@ -510,19 +509,20 @@
    }
   },
   {
-   "eventId": "evt_att_meera_iyer_017",
+   "eventId": "evt_att_meera_iyer_016",
    "learnerId": "lrn_meera_iyer",
-   "timestampUtc": "2026-10-03T05:34:48.000Z",
+   "timestampUtc": "2026-10-03T05:13:12.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
-    "attemptId": "att_meera_iyer_017",
-    "kind": "retention_probe",
+    "attemptId": "att_meera_iyer_016",
+    "kind": "weekly",
     "subjectId": "ib-g9-maths",
-    "score": 3,
-    "maxScore": 3,
+    "score": 28,
+    "maxScore": 28,
     "gaps": [
-     "G6:ib-g9-maths-ch02-st1"
+     "G3:ib-g9-maths-ch02-st3",
+     "G3:ib-g9-maths-ch02-st4"
     ],
     "parameterIds": [
      "p8",
@@ -532,19 +532,22 @@
    }
   },
   {
-   "eventId": "evt_att_meera_iyer_016",
+   "eventId": "evt_att_meera_iyer_017",
    "learnerId": "lrn_meera_iyer",
-   "timestampUtc": "2026-10-03T05:36:00.000Z",
+   "timestampUtc": "2026-10-03T07:12:00.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
-    "attemptId": "att_meera_iyer_016",
-    "kind": "retention_probe",
-    "subjectId": "ib-g9-science",
-    "score": 4,
-    "maxScore": 4,
+    "attemptId": "att_meera_iyer_017",
+    "kind": "weekly",
+    "subjectId": "ib-g9-english",
+    "score": 90,
+    "maxScore": 90,
     "gaps": [
-     "G6:ib-g9-science-ch02-st4"
+     "G4:ib-g9-english-ch01-st2",
+     "G4:ib-g9-english-ch01-st1",
+     "G4:ib-g9-english-ch01-st3",
+     "G4:ib-g9-english-ch01-st4"
     ],
     "parameterIds": [
      "p8",
@@ -556,18 +559,18 @@
   {
    "eventId": "evt_att_meera_iyer_018",
    "learnerId": "lrn_meera_iyer",
-   "timestampUtc": "2026-10-03T05:51:36.000Z",
+   "timestampUtc": "2026-10-09T11:58:48.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_meera_iyer_018",
-    "kind": "weekly",
+    "kind": "retention_probe",
     "subjectId": "ib-g9-english",
-    "score": 63,
-    "maxScore": 63,
+    "score": 16,
+    "maxScore": 16,
     "gaps": [
-     "G4:ib-g9-english-ch01-st2",
      "G4:ib-g9-english-ch01-st1",
+     "G4:ib-g9-english-ch01-st2",
      "G4:ib-g9-english-ch01-st3",
      "G4:ib-g9-english-ch01-st4"
     ],
@@ -581,44 +584,19 @@
   {
    "eventId": "evt_att_meera_iyer_019",
    "learnerId": "lrn_meera_iyer",
-   "timestampUtc": "2026-10-09T11:44:24.000Z",
-   "sourceMethod": "M14",
-   "type": "assessment_submitted",
-   "payload": {
-    "attemptId": "att_meera_iyer_019",
-    "kind": "retention_probe",
-    "subjectId": "ib-g9-english",
-    "score": 12,
-    "maxScore": 12,
-    "gaps": [
-     "G4:ib-g9-english-ch01-st1",
-     "G4:ib-g9-english-ch01-st2",
-     "G4:ib-g9-english-ch01-st3",
-     "G4:ib-g9-english-ch01-st4"
-    ],
-    "parameterIds": [
-     "p8",
-     "p20",
-     "p60"
-    ]
-   }
-  },
-  {
-   "eventId": "evt_att_meera_iyer_020",
-   "learnerId": "lrn_meera_iyer",
    "timestampUtc": "2026-10-13T14:25:48.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
-    "attemptId": "att_meera_iyer_020",
+    "attemptId": "att_meera_iyer_019",
     "kind": "chapter_check",
     "subjectId": "ib-g9-maths",
-    "score": 90,
+    "score": 89,
     "maxScore": 95,
     "gaps": [
+     "G1:ib-g9-maths-ch03-st2",
      "G4:ib-g9-maths-ch03-st1",
      "G4:ib-g9-maths-ch03-st3",
-     "G4:ib-g9-maths-ch03-st2",
      "G4:ib-g9-maths-ch03-st4",
      "G4:ib-g9-maths-ch03-st5"
     ],
@@ -630,41 +608,16 @@
    }
   },
   {
-   "eventId": "evt_att_meera_iyer_021",
+   "eventId": "evt_att_meera_iyer_020",
    "learnerId": "lrn_meera_iyer",
    "timestampUtc": "2026-10-15T14:08:24.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
-    "attemptId": "att_meera_iyer_021",
+    "attemptId": "att_meera_iyer_020",
     "kind": "chapter_check",
     "subjectId": "ib-g9-science",
-    "score": 86,
-    "maxScore": 88,
-    "gaps": [
-     "G1:ib-g9-science-ch03-st4",
-     "G4:ib-g9-science-ch03-st2",
-     "G4:ib-g9-science-ch03-st3",
-     "G4:ib-g9-science-ch03-st1"
-    ],
-    "parameterIds": [
-     "p8",
-     "p20",
-     "p60"
-    ]
-   }
-  },
-  {
-   "eventId": "evt_att_meera_iyer_022",
-   "learnerId": "lrn_meera_iyer",
-   "timestampUtc": "2026-10-17T06:38:24.000Z",
-   "sourceMethod": "M14",
-   "type": "assessment_submitted",
-   "payload": {
-    "attemptId": "att_meera_iyer_022",
-    "kind": "weekly",
-    "subjectId": "ib-g9-science",
-    "score": 73,
+    "score": 88,
     "maxScore": 88,
     "gaps": [
      "G4:ib-g9-science-ch03-st2",
@@ -680,13 +633,38 @@
    }
   },
   {
-   "eventId": "evt_att_meera_iyer_023",
+   "eventId": "evt_att_meera_iyer_021",
+   "learnerId": "lrn_meera_iyer",
+   "timestampUtc": "2026-10-17T06:38:24.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_meera_iyer_021",
+    "kind": "weekly",
+    "subjectId": "ib-g9-science",
+    "score": 76,
+    "maxScore": 88,
+    "gaps": [
+     "G4:ib-g9-science-ch03-st2",
+     "G4:ib-g9-science-ch03-st3",
+     "G4:ib-g9-science-ch03-st1",
+     "G4:ib-g9-science-ch03-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_meera_iyer_022",
    "learnerId": "lrn_meera_iyer",
    "timestampUtc": "2026-10-17T06:55:48.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
-    "attemptId": "att_meera_iyer_023",
+    "attemptId": "att_meera_iyer_022",
     "kind": "weekly",
     "subjectId": "ib-g9-maths",
     "score": 84,
@@ -706,22 +684,22 @@
    }
   },
   {
-   "eventId": "evt_att_meera_iyer_024",
+   "eventId": "evt_att_meera_iyer_023",
    "learnerId": "lrn_meera_iyer",
    "timestampUtc": "2026-10-20T11:57:00.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
-    "attemptId": "att_meera_iyer_024",
+    "attemptId": "att_meera_iyer_023",
     "kind": "retention_probe",
     "subjectId": "ib-g9-maths",
-    "score": 15,
+    "score": 11,
     "maxScore": 17,
     "gaps": [
      "G4:ib-g9-maths-ch03-st1",
      "G4:ib-g9-maths-ch03-st2",
-     "G4:ib-g9-maths-ch03-st3",
-     "G4:ib-g9-maths-ch03-st4",
+     "G6:ib-g9-maths-ch03-st3",
+     "G6:ib-g9-maths-ch03-st4",
      "G6:ib-g9-maths-ch03-st5"
     ],
     "parameterIds": [
@@ -732,13 +710,13 @@
    }
   },
   {
-   "eventId": "evt_att_meera_iyer_025",
+   "eventId": "evt_att_meera_iyer_024",
    "learnerId": "lrn_meera_iyer",
    "timestampUtc": "2026-10-22T11:54:00.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
-    "attemptId": "att_meera_iyer_025",
+    "attemptId": "att_meera_iyer_024",
     "kind": "retention_probe",
     "subjectId": "ib-g9-science",
     "score": 16,
@@ -757,19 +735,43 @@
    }
   },
   {
+   "eventId": "evt_att_meera_iyer_025",
+   "learnerId": "lrn_meera_iyer",
+   "timestampUtc": "2026-10-24T05:09:00.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_meera_iyer_025",
+    "kind": "weekly",
+    "subjectId": "ib-g9-maths",
+    "score": 19,
+    "maxScore": 26,
+    "gaps": [
+     "G3:ib-g9-maths-ch03-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
    "eventId": "evt_att_meera_iyer_026",
    "learnerId": "lrn_meera_iyer",
-   "timestampUtc": "2026-10-24T05:05:24.000Z",
+   "timestampUtc": "2026-10-24T05:47:24.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_meera_iyer_026",
-    "kind": "weekly",
-    "subjectId": "ib-g9-science",
-    "score": 19,
-    "maxScore": 24,
+    "kind": "retention_probe",
+    "subjectId": "ib-g9-maths",
+    "score": 11,
+    "maxScore": 11,
     "gaps": [
-     "G4:ib-g9-science-ch03-st3"
+     "G6:ib-g9-maths-ch03-st3",
+     "G6:ib-g9-maths-ch03-st4",
+     "G6:ib-g9-maths-ch03-st5"
     ],
     "parameterIds": [
      "p8",
@@ -781,17 +783,21 @@
   {
    "eventId": "evt_att_meera_iyer_027",
    "learnerId": "lrn_meera_iyer",
-   "timestampUtc": "2026-10-24T05:34:48.000Z",
+   "timestampUtc": "2026-10-27T14:15:36.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_meera_iyer_027",
-    "kind": "retention_probe",
+    "kind": "chapter_check",
     "subjectId": "ib-g9-maths",
-    "score": 3,
-    "maxScore": 3,
+    "score": 73,
+    "maxScore": 88,
     "gaps": [
-     "G6:ib-g9-maths-ch03-st5"
+     "G5:ib-g9-maths-ch04-st5",
+     "G4:ib-g9-maths-ch04-st4",
+     "G4:ib-g9-maths-ch04-st1",
+     "G4:ib-g9-maths-ch04-st2",
+     "G4:ib-g9-maths-ch04-st3"
     ],
     "parameterIds": [
      "p8",
@@ -803,96 +809,18 @@
   {
    "eventId": "evt_att_meera_iyer_028",
    "learnerId": "lrn_meera_iyer",
-   "timestampUtc": "2026-10-27T14:15:36.000Z",
+   "timestampUtc": "2026-10-29T14:19:12.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_meera_iyer_028",
     "kind": "chapter_check",
-    "subjectId": "ib-g9-maths",
-    "score": 73,
-    "maxScore": 88,
-    "gaps": [
-     "G2:ib-g9-maths-ch04-st4",
-     "G5:ib-g9-maths-ch04-st3",
-     "G5:ib-g9-maths-ch04-st5",
-     "G4:ib-g9-maths-ch04-st1",
-     "G4:ib-g9-maths-ch04-st2"
-    ],
-    "parameterIds": [
-     "p8",
-     "p20",
-     "p60"
-    ]
-   }
-  },
-  {
-   "eventId": "evt_att_meera_iyer_029",
-   "learnerId": "lrn_meera_iyer",
-   "timestampUtc": "2026-10-29T14:19:12.000Z",
-   "sourceMethod": "M14",
-   "type": "assessment_submitted",
-   "payload": {
-    "attemptId": "att_meera_iyer_029",
-    "kind": "chapter_check",
     "subjectId": "ib-g9-science",
-    "score": 94,
+    "score": 92,
     "maxScore": 95,
     "gaps": [
-     "G1:ib-g9-science-ch04-st4",
      "G4:ib-g9-science-ch04-st1",
      "G4:ib-g9-science-ch04-st3",
-     "G4:ib-g9-science-ch04-st2",
-     "G4:ib-g9-science-ch04-st5"
-    ],
-    "parameterIds": [
-     "p8",
-     "p20",
-     "p60"
-    ]
-   }
-  },
-  {
-   "eventId": "evt_att_meera_iyer_031",
-   "learnerId": "lrn_meera_iyer",
-   "timestampUtc": "2026-10-31T06:45:36.000Z",
-   "sourceMethod": "M14",
-   "type": "assessment_submitted",
-   "payload": {
-    "attemptId": "att_meera_iyer_031",
-    "kind": "weekly",
-    "subjectId": "ib-g9-maths",
-    "score": 80,
-    "maxScore": 88,
-    "gaps": [
-     "G5:ib-g9-maths-ch04-st3",
-     "G4:ib-g9-maths-ch04-st4",
-     "G4:ib-g9-maths-ch04-st1",
-     "G4:ib-g9-maths-ch04-st2",
-     "G4:ib-g9-maths-ch04-st5"
-    ],
-    "parameterIds": [
-     "p8",
-     "p20",
-     "p60"
-    ]
-   }
-  },
-  {
-   "eventId": "evt_att_meera_iyer_030",
-   "learnerId": "lrn_meera_iyer",
-   "timestampUtc": "2026-10-31T06:49:12.000Z",
-   "sourceMethod": "M14",
-   "type": "assessment_submitted",
-   "payload": {
-    "attemptId": "att_meera_iyer_030",
-    "kind": "weekly",
-    "subjectId": "ib-g9-science",
-    "score": 90,
-    "maxScore": 95,
-    "gaps": [
-     "G3:ib-g9-science-ch04-st3",
-     "G4:ib-g9-science-ch04-st1",
      "G4:ib-g9-science-ch04-st2",
      "G4:ib-g9-science-ch04-st4",
      "G4:ib-g9-science-ch04-st5"
@@ -905,22 +833,75 @@
    }
   },
   {
-   "eventId": "evt_att_meera_iyer_032",
+   "eventId": "evt_att_meera_iyer_029",
+   "learnerId": "lrn_meera_iyer",
+   "timestampUtc": "2026-10-31T06:49:12.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_meera_iyer_029",
+    "kind": "weekly",
+    "subjectId": "ib-g9-science",
+    "score": 82,
+    "maxScore": 95,
+    "gaps": [
+     "G4:ib-g9-science-ch04-st1",
+     "G4:ib-g9-science-ch04-st3",
+     "G4:ib-g9-science-ch04-st2",
+     "G4:ib-g9-science-ch04-st4",
+     "G4:ib-g9-science-ch04-st5"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_meera_iyer_030",
+   "learnerId": "lrn_meera_iyer",
+   "timestampUtc": "2026-10-31T07:24:36.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_meera_iyer_030",
+    "kind": "weekly",
+    "subjectId": "ib-g9-maths",
+    "score": 108,
+    "maxScore": 114,
+    "gaps": [
+     "G3:ib-g9-maths-ch04-st4",
+     "G4:ib-g9-maths-ch04-st1",
+     "G4:ib-g9-maths-ch04-st2",
+     "G4:ib-g9-maths-ch04-st3",
+     "G4:ib-g9-maths-ch04-st5",
+     "G3:ib-g9-maths-ch03-st1"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_meera_iyer_031",
    "learnerId": "lrn_meera_iyer",
    "timestampUtc": "2026-11-03T11:58:12.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
-    "attemptId": "att_meera_iyer_032",
+    "attemptId": "att_meera_iyer_031",
     "kind": "retention_probe",
     "subjectId": "ib-g9-maths",
     "score": 14,
     "maxScore": 18,
     "gaps": [
-     "G6:ib-g9-maths-ch04-st1",
+     "G4:ib-g9-maths-ch04-st1",
      "G4:ib-g9-maths-ch04-st2",
-     "G5:ib-g9-maths-ch04-st3",
-     "G6:ib-g9-maths-ch04-st4",
+     "G6:ib-g9-maths-ch04-st3",
+     "G3:ib-g9-maths-ch04-st4",
      "G4:ib-g9-maths-ch04-st5"
     ],
     "parameterIds": [
@@ -947,21 +928,21 @@
    }
   },
   {
-   "eventId": "evt_att_meera_iyer_033",
+   "eventId": "evt_att_meera_iyer_032",
    "learnerId": "lrn_meera_iyer",
    "timestampUtc": "2026-11-05T11:57:36.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
-    "attemptId": "att_meera_iyer_033",
+    "attemptId": "att_meera_iyer_032",
     "kind": "retention_probe",
     "subjectId": "ib-g9-science",
-    "score": 17,
+    "score": 16,
     "maxScore": 18,
     "gaps": [
      "G4:ib-g9-science-ch04-st1",
-     "G6:ib-g9-science-ch04-st2",
-     "G3:ib-g9-science-ch04-st3",
+     "G4:ib-g9-science-ch04-st2",
+     "G6:ib-g9-science-ch04-st3",
      "G4:ib-g9-science-ch04-st4",
      "G4:ib-g9-science-ch04-st5"
     ],
@@ -973,19 +954,19 @@
    }
   },
   {
-   "eventId": "evt_att_meera_iyer_034",
+   "eventId": "evt_att_meera_iyer_033",
    "learnerId": "lrn_meera_iyer",
-   "timestampUtc": "2026-11-06T13:31:12.000Z",
+   "timestampUtc": "2026-11-06T14:58:12.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
-    "attemptId": "att_meera_iyer_034",
+    "attemptId": "att_meera_iyer_033",
     "kind": "chapter_check",
     "subjectId": "ib-g9-english",
-    "score": 60,
-    "maxScore": 70,
+    "score": 92,
+    "maxScore": 99,
     "gaps": [
-     "G3:ib-g9-english-ch02-st1",
+     "G1:ib-g9-english-ch02-st1",
      "G4:ib-g9-english-ch02-st2",
      "G4:ib-g9-english-ch02-st3",
      "G4:ib-g9-english-ch02-st4"
@@ -998,19 +979,19 @@
    }
   },
   {
-   "eventId": "evt_att_meera_iyer_037",
+   "eventId": "evt_att_meera_iyer_035",
    "learnerId": "lrn_meera_iyer",
-   "timestampUtc": "2026-11-07T04:55:12.000Z",
+   "timestampUtc": "2026-11-07T05:05:24.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
-    "attemptId": "att_meera_iyer_037",
+    "attemptId": "att_meera_iyer_035",
     "kind": "weekly",
     "subjectId": "ib-g9-maths",
-    "score": 16,
-    "maxScore": 16,
+    "score": 23,
+    "maxScore": 23,
     "gaps": [
-     "G5:ib-g9-maths-ch04-st3"
+     "G3:ib-g9-maths-ch04-st4"
     ],
     "parameterIds": [
      "p8",
@@ -1020,19 +1001,19 @@
    }
   },
   {
-   "eventId": "evt_att_meera_iyer_035",
+   "eventId": "evt_att_meera_iyer_034",
    "learnerId": "lrn_meera_iyer",
-   "timestampUtc": "2026-11-07T05:07:48.000Z",
+   "timestampUtc": "2026-11-07T05:36:00.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
-    "attemptId": "att_meera_iyer_035",
-    "kind": "weekly",
+    "attemptId": "att_meera_iyer_034",
+    "kind": "retention_probe",
     "subjectId": "ib-g9-science",
-    "score": 26,
-    "maxScore": 26,
+    "score": 4,
+    "maxScore": 4,
     "gaps": [
-     "G3:ib-g9-science-ch04-st3"
+     "G6:ib-g9-science-ch04-st3"
     ],
     "parameterIds": [
      "p8",
@@ -1044,17 +1025,42 @@
   {
    "eventId": "evt_att_meera_iyer_036",
    "learnerId": "lrn_meera_iyer",
-   "timestampUtc": "2026-11-07T05:34:48.000Z",
+   "timestampUtc": "2026-11-07T05:36:36.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_meera_iyer_036",
     "kind": "retention_probe",
-    "subjectId": "ib-g9-science",
-    "score": 3,
-    "maxScore": 3,
+    "subjectId": "ib-g9-maths",
+    "score": 4,
+    "maxScore": 4,
     "gaps": [
-     "G6:ib-g9-science-ch04-st2"
+     "G6:ib-g9-maths-ch04-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_meera_iyer_037",
+   "learnerId": "lrn_meera_iyer",
+   "timestampUtc": "2026-11-07T07:28:12.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_meera_iyer_037",
+    "kind": "weekly",
+    "subjectId": "ib-g9-english",
+    "score": 82,
+    "maxScore": 99,
+    "gaps": [
+     "G1:ib-g9-english-ch02-st4",
+     "G4:ib-g9-english-ch02-st1",
+     "G4:ib-g9-english-ch02-st2",
+     "G4:ib-g9-english-ch02-st3"
     ],
     "parameterIds": [
      "p8",
@@ -1066,18 +1072,20 @@
   {
    "eventId": "evt_att_meera_iyer_038",
    "learnerId": "lrn_meera_iyer",
-   "timestampUtc": "2026-11-07T05:40:48.000Z",
+   "timestampUtc": "2026-11-10T14:06:00.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_meera_iyer_038",
-    "kind": "retention_probe",
+    "kind": "chapter_check",
     "subjectId": "ib-g9-maths",
-    "score": 7,
-    "maxScore": 7,
+    "score": 68,
+    "maxScore": 82,
     "gaps": [
-     "G6:ib-g9-maths-ch04-st1",
-     "G6:ib-g9-maths-ch04-st4"
+     "G2:ib-g9-maths-ch05-st4",
+     "G4:ib-g9-maths-ch05-st1",
+     "G4:ib-g9-maths-ch05-st3",
+     "G4:ib-g9-maths-ch05-st2"
     ],
     "parameterIds": [
      "p8",
@@ -1089,64 +1097,14 @@
   {
    "eventId": "evt_att_meera_iyer_039",
    "learnerId": "lrn_meera_iyer",
-   "timestampUtc": "2026-11-07T06:01:12.000Z",
-   "sourceMethod": "M14",
-   "type": "assessment_submitted",
-   "payload": {
-    "attemptId": "att_meera_iyer_039",
-    "kind": "weekly",
-    "subjectId": "ib-g9-english",
-    "score": 56,
-    "maxScore": 70,
-    "gaps": [
-     "G2:ib-g9-english-ch02-st1",
-     "G2:ib-g9-english-ch02-st2",
-     "G3:ib-g9-english-ch02-st3",
-     "G4:ib-g9-english-ch02-st4"
-    ],
-    "parameterIds": [
-     "p8",
-     "p20",
-     "p60"
-    ]
-   }
-  },
-  {
-   "eventId": "evt_att_meera_iyer_040",
-   "learnerId": "lrn_meera_iyer",
-   "timestampUtc": "2026-11-10T14:06:00.000Z",
-   "sourceMethod": "M14",
-   "type": "assessment_submitted",
-   "payload": {
-    "attemptId": "att_meera_iyer_040",
-    "kind": "chapter_check",
-    "subjectId": "ib-g9-maths",
-    "score": 68,
-    "maxScore": 82,
-    "gaps": [
-     "G3:ib-g9-maths-ch05-st1",
-     "G4:ib-g9-maths-ch05-st3",
-     "G4:ib-g9-maths-ch05-st2",
-     "G4:ib-g9-maths-ch05-st4"
-    ],
-    "parameterIds": [
-     "p8",
-     "p20",
-     "p60"
-    ]
-   }
-  },
-  {
-   "eventId": "evt_att_meera_iyer_041",
-   "learnerId": "lrn_meera_iyer",
    "timestampUtc": "2026-11-12T13:57:36.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
-    "attemptId": "att_meera_iyer_041",
+    "attemptId": "att_meera_iyer_039",
     "kind": "chapter_check",
     "subjectId": "ib-g9-science",
-    "score": 72,
+    "score": 80,
     "maxScore": 80,
     "gaps": [
      "G4:ib-g9-science-ch05-st1",
@@ -1162,68 +1120,22 @@
    }
   },
   {
-   "eventId": "evt_att_meera_iyer_042",
+   "eventId": "evt_att_meera_iyer_040",
    "learnerId": "lrn_meera_iyer",
-   "timestampUtc": "2026-11-13T11:44:24.000Z",
+   "timestampUtc": "2026-11-13T11:53:24.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
-    "attemptId": "att_meera_iyer_042",
+    "attemptId": "att_meera_iyer_040",
     "kind": "retention_probe",
     "subjectId": "ib-g9-english",
-    "score": 9,
-    "maxScore": 12,
+    "score": 13,
+    "maxScore": 13,
     "gaps": [
-     "G2:ib-g9-english-ch02-st1",
-     "G2:ib-g9-english-ch02-st2",
-     "G3:ib-g9-english-ch02-st3",
-     "G6:ib-g9-english-ch02-st4"
-    ],
-    "parameterIds": [
-     "p8",
-     "p20",
-     "p60"
-    ]
-   }
-  },
-  {
-   "eventId": "evt_att_meera_iyer_046",
-   "learnerId": "lrn_meera_iyer",
-   "timestampUtc": "2026-11-14T05:33:36.000Z",
-   "sourceMethod": "M14",
-   "type": "assessment_submitted",
-   "payload": {
-    "attemptId": "att_meera_iyer_046",
-    "kind": "retention_probe",
-    "subjectId": "ib-g9-english",
-    "score": 3,
-    "maxScore": 3,
-    "gaps": [
-     "G6:ib-g9-english-ch02-st4"
-    ],
-    "parameterIds": [
-     "p8",
-     "p20",
-     "p60"
-    ]
-   }
-  },
-  {
-   "eventId": "evt_att_meera_iyer_045",
-   "learnerId": "lrn_meera_iyer",
-   "timestampUtc": "2026-11-14T05:43:12.000Z",
-   "sourceMethod": "M14",
-   "type": "assessment_submitted",
-   "payload": {
-    "attemptId": "att_meera_iyer_045",
-    "kind": "weekly",
-    "subjectId": "ib-g9-english",
-    "score": 52,
-    "maxScore": 56,
-    "gaps": [
-     "G2:ib-g9-english-ch02-st1",
-     "G2:ib-g9-english-ch02-st2",
-     "G3:ib-g9-english-ch02-st3"
+     "G4:ib-g9-english-ch02-st1",
+     "G4:ib-g9-english-ch02-st2",
+     "G4:ib-g9-english-ch02-st3",
+     "G1:ib-g9-english-ch02-st4"
     ],
     "parameterIds": [
      "p8",
@@ -1235,20 +1147,68 @@
   {
    "eventId": "evt_att_meera_iyer_043",
    "learnerId": "lrn_meera_iyer",
-   "timestampUtc": "2026-11-14T06:27:36.000Z",
+   "timestampUtc": "2026-11-14T05:58:12.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_meera_iyer_043",
     "kind": "weekly",
+    "subjectId": "ib-g9-english",
+    "score": 49,
+    "maxScore": 49,
+    "gaps": [
+     "G4:ib-g9-english-ch02-st2",
+     "G1:ib-g9-english-ch02-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_meera_iyer_041",
+   "learnerId": "lrn_meera_iyer",
+   "timestampUtc": "2026-11-14T06:27:36.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_meera_iyer_041",
+    "kind": "weekly",
     "subjectId": "ib-g9-science",
-    "score": 67,
+    "score": 74,
     "maxScore": 80,
     "gaps": [
-     "G5:ib-g9-science-ch05-st4",
-     "G4:ib-g9-science-ch05-st1",
+     "G2:ib-g9-science-ch05-st1",
+     "G2:ib-g9-science-ch05-st3",
      "G4:ib-g9-science-ch05-st2",
-     "G4:ib-g9-science-ch05-st3"
+     "G4:ib-g9-science-ch05-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_meera_iyer_042",
+   "learnerId": "lrn_meera_iyer",
+   "timestampUtc": "2026-11-14T06:36:00.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_meera_iyer_042",
+    "kind": "weekly",
+    "subjectId": "ib-g9-maths",
+    "score": 63,
+    "maxScore": 82,
+    "gaps": [
+     "G3:ib-g9-maths-ch05-st4",
+     "G5:ib-g9-maths-ch05-st2",
+     "G10:ib-g9-maths-ch05-st1",
+     "G4:ib-g9-maths-ch05-st3"
     ],
     "parameterIds": [
      "p8",
@@ -1260,45 +1220,20 @@
   {
    "eventId": "evt_att_meera_iyer_044",
    "learnerId": "lrn_meera_iyer",
-   "timestampUtc": "2026-11-14T06:36:00.000Z",
-   "sourceMethod": "M14",
-   "type": "assessment_submitted",
-   "payload": {
-    "attemptId": "att_meera_iyer_044",
-    "kind": "weekly",
-    "subjectId": "ib-g9-maths",
-    "score": 58,
-    "maxScore": 82,
-    "gaps": [
-     "G2:ib-g9-maths-ch05-st3",
-     "G2:ib-g9-maths-ch05-st2",
-     "G5:ib-g9-maths-ch05-st4",
-     "G4:ib-g9-maths-ch05-st1"
-    ],
-    "parameterIds": [
-     "p8",
-     "p20",
-     "p60"
-    ]
-   }
-  },
-  {
-   "eventId": "evt_att_meera_iyer_047",
-   "learnerId": "lrn_meera_iyer",
    "timestampUtc": "2026-11-17T11:56:24.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
-    "attemptId": "att_meera_iyer_047",
+    "attemptId": "att_meera_iyer_044",
     "kind": "retention_probe",
     "subjectId": "ib-g9-maths",
-    "score": 13,
+    "score": 15,
     "maxScore": 17,
     "gaps": [
-     "G4:ib-g9-maths-ch05-st1",
-     "G2:ib-g9-maths-ch05-st2",
-     "G2:ib-g9-maths-ch05-st3",
-     "G5:ib-g9-maths-ch05-st4"
+     "G10:ib-g9-maths-ch05-st1",
+     "G5:ib-g9-maths-ch05-st2",
+     "G6:ib-g9-maths-ch05-st3",
+     "G3:ib-g9-maths-ch05-st4"
     ],
     "parameterIds": [
      "p8",
