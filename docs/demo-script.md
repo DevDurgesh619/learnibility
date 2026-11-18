@@ -15,7 +15,7 @@ _Generated from `components/demo/scenarios.ts` by `npx tsx scripts/e2e/build-dem
 
 | # | Scenario | Log in as | Start at | Roles |
 | --- | --- | --- | --- | --- |
-| 1 | Lead to student | Aman Gupta | `/crm` | Sales, Student |
+| 1 | Lead to student | Aman Gupta | `/sales` | Sales, Student |
 | 2 | Kabir: careless and over-confident | Kabir Singh | `/student` | Student |
 | 3 | Rohan: free plan fails, paid tutor suggested | Rohan Das | `/student` | Student, Parent, Tutor |
 | 4 | Ishita books Rahul Verma | Ishita Rao | `/student/tutors` | Student, Tutor |
@@ -33,16 +33,16 @@ _Generated from `components/demo/scenarios.ts` by `npx tsx scripts/e2e/build-dem
 A sales rep closes Zoya's family, converts the lead, and Zoya onboards and gets a personal plan.
 
 **Log in as:** Aman Gupta  
-**Start at:** `/crm`
+**Start at:** `/sales`
 
-1. **Sales dashboard** at `/crm`. Funnel by stage, leads by source, revenue this month and follow-ups due today.
-2. **Open Zoya Fernandes' lead** at `/crm/leads`. Leads, search "Fernandes". The timeline shows every call, WhatsApp and the proposal sent.
-3. **Record the payment**. On the lead, Record payment, mark it paid. An invoice with the GST line is created.
-4. **Convert to platform**. Convert to platform assigns the counsellor and creates the subscription. Then Open in platform.
+1. **Sales dashboard** at `/sales`. Funnel with stage conversion rates, revenue this month, leads by source, leaderboard. Note "Proposals awaiting payment": Maria Fernandes for Zoya.
+2. **Open Zoya Fernandes' lead** at `/sales/leads/lead_0013`. The timeline runs from website form to demo to proposal; the 3-day rule has a call task due at 11:00 today.
+3. **Record the payment**. Record payment (UPI): Closed won, invoice and receipt numbers, and a "payment received" WhatsApp logged.
+4. **Convert to platform**. Activates Zoya on the Full package with Heena as counsellor and files the subscription and invoice. Then "Open Zoya in platform".
 5. **Zoya onboards** (switch to Zoya Fernandes) at `/onboarding/about`. About, needs and profile, then the starting test.
 6. **Take the starting test** at `/onboarding/test`. Answer a few items, then "Answer the rest for me (demo)" on each part.
 7. **Home fills in** at `/student`. Gaps, plan, timetable and the next best action, all from her test.
-8. **Back in sales** (switch to Aman Gupta) at `/crm`. The funnel and revenue now count Zoya as converted.
+8. **Back in sales** (switch to Aman Gupta) at `/sales`. Revenue this month is up ₹22,797 and deals won this month up by one.
 
 **Point out**
 
