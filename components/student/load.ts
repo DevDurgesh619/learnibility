@@ -180,6 +180,8 @@ function metricAt(ctx: StudentCtx, key: MetricKey, asOf: string): number | null 
   // discipline: study blocks done ÷ blocks planned, Monday to asOf of that week
   const tt = getTimetable(id, mondayOf(asOf));
   const past = (tt?.blocks ?? []).filter((b) => b.kind !== 'buffer' && b.kind !== 'session' && b.date <= asOf && b.endUtc <= nowUtc());
+  // a week built live has no recorded outcomes; only weeks with ticks or misses count
+  if (!past.some((b) => b.status !== 'planned')) return null;
   return past.length >= 3 ? past.filter((b) => b.status === 'done').length / past.length : null;
 }
 
@@ -315,8 +317,9 @@ export function applicationCards(ctx: StudentCtx): ApplicationCard[] {
 export function pendingRequests(learnerId: string): TimetableRequest[] {
   return getTimetableRequests({ learnerId, status: 'pending' });
 }
-export function requestTitle(r: TimetableRequest): string {
-  return r.reason.split(' · ')[0] || 'Change';
+export function requestTitle(r: TimetableRequest, blockTitle?: (id: string) => string | undefined): string {
+  const fromBlock = r.blockIds.map((id) => blockTitle?.(id)).find(Boolean);
+  return fromBlock ?? (r.reason.split(' · ')[0] || 'Change');
 }
 /** Dates a pending request would occupy inside the given week. */
 export function requestDates(r: TimetableRequest, weekStart: string): string[] {
@@ -324,10 +327,12 @@ export function requestDates(r: TimetableRequest, weekStart: string): string[] {
   if (!p || typeof p !== 'object') return [];
   return p.date >= weekStart && p.date < addDaysStr(weekStart, 7) ? [p.date] : [];
 }
-export function describeRequest(r: TimetableRequest): string {
+export function describeRequest(r: TimetableRequest, blockTitle?: (id: string) => string | undefined): string {
   const p = r.proposed;
-  if (p && typeof p === 'object') return `${requestTitle(r)} → ${fmtDay(p.date)}, ${fmtTime(p.start)} to ${fmtTime(p.end)}`;
-  return `${requestTitle(r)} → ${typeof p === 'string' ? p : 'a new time'}`;
+  const t = requestTitle(r, blockTitle);
+  const why = r.reason.includes(' · ') || t === r.reason ? '' : ` (${r.reason.replace(/\.$/, '')})`;
+  if (p && typeof p === 'object') return `${t} → ${fmtDay(p.date)}, ${fmtTime(p.start)} to ${fmtTime(p.end)}${why}`;
+  return `${t} → ${typeof p === 'string' ? p : 'a new time'}${why}`;
 }
 
 // ------------------------------------------------------------------ inventory (PDF 4a to 4c)

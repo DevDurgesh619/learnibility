@@ -19,9 +19,6 @@ async function counsellor() {
   return p;
 }
 
-/** Id of a block after a counsellor-approved move. */
-const movedId = (id: string) => `${id}_moved`;
-
 const HHMM = /^\d{2}:\d{2}$/;
 const DATE = /^\d{4}-\d{2}-\d{2}$/;
 const toMin = (t: string) => Number(t.slice(0, 2)) * 60 + Number(t.slice(3, 5));
@@ -43,7 +40,7 @@ async function applyRequestToWeek(week: TimetableWeek, req: TimetableRequest, sl
     let cursor = toMin(slot.start);
     const end = toMin(slot.end);
     const moving = blocks.filter((b) => ids.has(b.id));
-    const resize = req.kind === 'more_time' || req.kind === 'less_time';
+    const resize = req.kind === 'more_time' || req.kind === 'less_time' || moving.length === 1;
     for (const b of moving) {
       const minutes = resize && moving.length === 1 ? Math.max(10, end - cursor) : Math.min(b.minutes, Math.max(10, end - cursor));
       b.date = slot.date;
@@ -57,9 +54,8 @@ async function applyRequestToWeek(week: TimetableWeek, req: TimetableRequest, sl
     // Anything else (not requested) that overlaps the new slot is freed for the re-plan to place elsewhere.
     blocks = blocks.filter((b) => ids.has(b.id) || b.locked || b.date !== slot.date || toMin(b.end) <= toMin(slot.start) || toMin(b.start) >= end);
   }
-  // Requested blocks are locked so the re-plan builds around them, under a new id so a block the re-plan
-  // puts into the freed slot never collides with them.
-  blocks = blocks.map((b) => (ids.has(b.id) ? { ...b, id: movedId(b.id), locked: true } : b)).sort((a, b) => a.startUtc.localeCompare(b.startUtc));
+  // Requested blocks are locked so the re-plan builds around them.
+  blocks = blocks.map((b) => (ids.has(b.id) ? { ...b, locked: true } : b)).sort((a, b) => a.startUtc.localeCompare(b.startUtc));
   return { ...week, blocks, generatedUtc: nowStamp(), reason: 'request_approved' };
 }
 

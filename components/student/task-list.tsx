@@ -25,7 +25,7 @@ export function TaskList({ tasks, columns = 1, readOnly = false }: { tasks: Task
   return (
     <ul className={cn('grid gap-x-6', columns === 2 && 'sm:grid-cols-2')}>
       {optimistic.map((t, i) => (
-        <li key={t.id} className="flex items-center gap-3 border-b border-line py-2.5 last:border-b-0 sm:[&:nth-last-child(2)]:border-b-0">
+        <li key={t.id} className={cn('flex min-w-0 items-center gap-3 border-b border-line py-2.5 last:border-b-0', columns === 2 && 'sm:[&:nth-last-child(2)]:border-b-0')}>
           <button
             type="button"
             disabled={readOnly || t.id.startsWith('starter_')}

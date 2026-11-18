@@ -110,7 +110,7 @@
    "payload": {
     "attemptId": "att_sara_khan_01",
     "kind": "onboarding",
-    "score": 73,
+    "score": 78,
     "maxScore": 85,
     "gaps": [],
     "parameterIds": [
@@ -129,11 +129,11 @@
    "payload": {
     "attemptId": "att_sara_khan_02",
     "kind": "chapter_check",
-    "score": 41,
+    "score": 37,
     "maxScore": 41,
     "gaps": [
-     "G4:cbse-g11-economics-ch01-st2",
-     "G4:cbse-g11-economics-ch01-st3",
+     "G2:cbse-g11-economics-ch01-st2",
+     "G2:cbse-g11-economics-ch01-st3",
      "G4:cbse-g11-economics-ch01-st1"
     ],
     "parameterIds": [
@@ -146,18 +146,17 @@
   {
    "eventId": "evt_att_sara_khan_03",
    "learnerId": "lrn_sara_khan",
-   "timestampUtc": "2026-10-10T05:37:39.000Z",
+   "timestampUtc": "2026-10-10T04:55:30.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_sara_khan_03",
-    "kind": "retention_probe",
-    "score": 8,
-    "maxScore": 9,
+    "kind": "weekly",
+    "score": 25,
+    "maxScore": 28,
     "gaps": [
-     "G4:cbse-g11-economics-ch01-st1",
      "G4:cbse-g11-economics-ch01-st2",
-     "G6:cbse-g11-economics-ch01-st3"
+     "G4:cbse-g11-economics-ch01-st3"
     ],
     "parameterIds": [
      "p8",
@@ -169,16 +168,16 @@
   {
    "eventId": "evt_att_sara_khan_04",
    "learnerId": "lrn_sara_khan",
-   "timestampUtc": "2026-10-15T11:37:39.000Z",
+   "timestampUtc": "2026-10-10T05:32:33.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_sara_khan_04",
     "kind": "retention_probe",
-    "score": 9,
-    "maxScore": 9,
+    "score": 3,
+    "maxScore": 3,
     "gaps": [
-     "G6:cbse-g11-economics-ch01-st3"
+     "G4:cbse-g11-economics-ch01-st1"
     ],
     "parameterIds": [
      "p8",
@@ -190,13 +189,35 @@
   {
    "eventId": "evt_att_sara_khan_05",
    "learnerId": "lrn_sara_khan",
-   "timestampUtc": "2026-10-15T13:04:36.000Z",
+   "timestampUtc": "2026-10-15T11:37:39.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_sara_khan_05",
+    "kind": "retention_probe",
+    "score": 9,
+    "maxScore": 9,
+    "gaps": [
+     "G4:cbse-g11-economics-ch01-st2",
+     "G4:cbse-g11-economics-ch01-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_sara_khan_06",
+   "learnerId": "lrn_sara_khan",
+   "timestampUtc": "2026-10-15T13:04:36.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_sara_khan_06",
     "kind": "chapter_check",
-    "score": 69,
+    "score": 63,
     "maxScore": 70,
     "gaps": [
      "G4:cbse-g11-economics-ch02-st2",
@@ -212,18 +233,18 @@
    }
   },
   {
-   "eventId": "evt_att_sara_khan_06",
+   "eventId": "evt_att_sara_khan_07",
    "learnerId": "lrn_sara_khan",
    "timestampUtc": "2026-10-17T05:40:12.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
-    "attemptId": "att_sara_khan_06",
+    "attemptId": "att_sara_khan_07",
     "kind": "retention_probe",
-    "score": 11,
+    "score": 12,
     "maxScore": 12,
     "gaps": [
-     "G6:cbse-g11-economics-ch02-st1",
+     "G4:cbse-g11-economics-ch02-st1",
      "G4:cbse-g11-economics-ch02-st2",
      "G4:cbse-g11-economics-ch02-st3",
      "G4:cbse-g11-economics-ch02-st4"
@@ -236,42 +257,18 @@
    }
   },
   {
-   "eventId": "evt_att_sara_khan_07",
+   "eventId": "evt_att_sara_khan_08",
    "learnerId": "lrn_sara_khan",
    "timestampUtc": "2026-10-22T11:40:12.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
-    "attemptId": "att_sara_khan_07",
+    "attemptId": "att_sara_khan_08",
     "kind": "retention_probe",
     "score": 12,
     "maxScore": 12,
     "gaps": [
-     "G6:cbse-g11-economics-ch02-st1"
-    ],
-    "parameterIds": [
-     "p8",
-     "p20",
-     "p60"
-    ]
-   }
-  },
-  {
-   "eventId": "evt_att_sara_khan_08",
-   "learnerId": "lrn_sara_khan",
-   "timestampUtc": "2026-10-22T12:56:57.000Z",
-   "sourceMethod": "M14",
-   "type": "assessment_submitted",
-   "payload": {
-    "attemptId": "att_sara_khan_08",
-    "kind": "chapter_check",
-    "score": 54,
-    "maxScore": 62,
-    "gaps": [
-     "G5:cbse-g11-economics-ch03-st1",
-     "G5:cbse-g11-economics-ch03-st4",
-     "G4:cbse-g11-economics-ch03-st3",
-     "G4:cbse-g11-economics-ch03-st2"
+     "G4:cbse-g11-economics-ch02-st3"
     ],
     "parameterIds": [
      "p8",
@@ -283,17 +280,19 @@
   {
    "eventId": "evt_att_sara_khan_09",
    "learnerId": "lrn_sara_khan",
-   "timestampUtc": "2026-10-24T04:54:39.000Z",
+   "timestampUtc": "2026-10-22T12:56:57.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_sara_khan_09",
-    "kind": "weekly",
-    "score": 23,
-    "maxScore": 27,
+    "kind": "chapter_check",
+    "score": 56,
+    "maxScore": 62,
     "gaps": [
-     "G5:cbse-g11-economics-ch03-st4",
-     "G4:cbse-g11-economics-ch03-st1"
+     "G3:cbse-g11-economics-ch03-st1",
+     "G4:cbse-g11-economics-ch03-st3",
+     "G4:cbse-g11-economics-ch03-st2",
+     "G4:cbse-g11-economics-ch03-st4"
     ],
     "parameterIds": [
      "p8",
@@ -305,17 +304,16 @@
   {
    "eventId": "evt_att_sara_khan_10",
    "learnerId": "lrn_sara_khan",
-   "timestampUtc": "2026-10-24T05:35:06.000Z",
+   "timestampUtc": "2026-10-24T04:42:45.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_sara_khan_10",
-    "kind": "retention_probe",
-    "score": 4,
-    "maxScore": 6,
+    "kind": "weekly",
+    "score": 14,
+    "maxScore": 14,
     "gaps": [
-     "G4:cbse-g11-economics-ch03-st2",
-     "G6:cbse-g11-economics-ch03-st3"
+     "G4:cbse-g11-economics-ch03-st1"
     ],
     "parameterIds": [
      "p8",
@@ -327,7 +325,7 @@
   {
    "eventId": "evt_att_sara_khan_11",
    "learnerId": "lrn_sara_khan",
-   "timestampUtc": "2026-10-29T11:40:12.000Z",
+   "timestampUtc": "2026-10-24T05:40:12.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
@@ -336,9 +334,10 @@
     "score": 12,
     "maxScore": 12,
     "gaps": [
-     "G4:cbse-g11-economics-ch03-st1",
-     "G6:cbse-g11-economics-ch03-st3",
-     "G5:cbse-g11-economics-ch03-st4"
+     "G4:cbse-g11-economics-ch02-st3",
+     "G4:cbse-g11-economics-ch03-st2",
+     "G4:cbse-g11-economics-ch03-st3",
+     "G4:cbse-g11-economics-ch03-st4"
     ],
     "parameterIds": [
      "p8",
@@ -350,13 +349,35 @@
   {
    "eventId": "evt_att_sara_khan_12",
    "learnerId": "lrn_sara_khan",
-   "timestampUtc": "2026-10-29T12:56:57.000Z",
+   "timestampUtc": "2026-10-29T11:40:12.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_sara_khan_12",
+    "kind": "retention_probe",
+    "score": 9,
+    "maxScore": 12,
+    "gaps": [
+     "G6:cbse-g11-economics-ch03-st1",
+     "G6:cbse-g11-economics-ch03-st2"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_sara_khan_13",
+   "learnerId": "lrn_sara_khan",
+   "timestampUtc": "2026-10-29T12:56:57.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_sara_khan_13",
     "kind": "chapter_check",
-    "score": 55,
+    "score": 62,
     "maxScore": 62,
     "gaps": [
      "G4:cbse-g11-economics-ch04-st3",
@@ -372,38 +393,20 @@
    }
   },
   {
-   "eventId": "evt_att_sara_khan_13",
-   "learnerId": "lrn_sara_khan",
-   "timestampUtc": "2026-10-31T04:41:54.000Z",
-   "sourceMethod": "M14",
-   "type": "assessment_submitted",
-   "payload": {
-    "attemptId": "att_sara_khan_13",
-    "kind": "weekly",
-    "score": 13,
-    "maxScore": 13,
-    "gaps": [
-     "G5:cbse-g11-economics-ch03-st4"
-    ],
-    "parameterIds": [
-     "p8",
-     "p20",
-     "p60"
-    ]
-   }
-  },
-  {
    "eventId": "evt_att_sara_khan_14",
    "learnerId": "lrn_sara_khan",
-   "timestampUtc": "2026-10-31T05:40:12.000Z",
+   "timestampUtc": "2026-10-31T05:47:51.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_sara_khan_14",
     "kind": "retention_probe",
-    "score": 12,
-    "maxScore": 12,
+    "score": 21,
+    "maxScore": 21,
     "gaps": [
+     "G4:cbse-g11-economics-ch02-st3",
+     "G6:cbse-g11-economics-ch03-st1",
+     "G6:cbse-g11-economics-ch03-st2",
      "G4:cbse-g11-economics-ch04-st1",
      "G4:cbse-g11-economics-ch04-st2",
      "G4:cbse-g11-economics-ch04-st3",
@@ -425,9 +428,12 @@
    "payload": {
     "attemptId": "att_sara_khan_15",
     "kind": "retention_probe",
-    "score": 12,
+    "score": 8,
     "maxScore": 12,
-    "gaps": [],
+    "gaps": [
+     "G6:cbse-g11-economics-ch04-st2",
+     "G6:cbse-g11-economics-ch04-st4"
+    ],
     "parameterIds": [
      "p8",
      "p20",
@@ -444,7 +450,7 @@
    "payload": {
     "attemptId": "att_sara_khan_16",
     "kind": "chapter_check",
-    "score": 39,
+    "score": 45,
     "maxScore": 70,
     "gaps": [
      "G2:cbse-g11-economics-ch05-st2",
@@ -468,7 +474,7 @@
    "payload": {
     "attemptId": "att_sara_khan_17",
     "kind": "weekly",
-    "score": 10,
+    "score": 15,
     "maxScore": 35,
     "gaps": [
      "G2:cbse-g11-economics-ch05-st2",
@@ -484,15 +490,18 @@
   {
    "eventId": "evt_att_sara_khan_18",
    "learnerId": "lrn_sara_khan",
-   "timestampUtc": "2026-11-07T05:35:06.000Z",
+   "timestampUtc": "2026-11-07T05:42:45.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_sara_khan_18",
     "kind": "retention_probe",
-    "score": 6,
-    "maxScore": 6,
+    "score": 15,
+    "maxScore": 15,
     "gaps": [
+     "G4:cbse-g11-economics-ch02-st3",
+     "G6:cbse-g11-economics-ch04-st2",
+     "G6:cbse-g11-economics-ch04-st4",
      "G4:cbse-g11-economics-ch05-st1",
      "G4:cbse-g11-economics-ch05-st4"
     ],
@@ -512,9 +521,10 @@
    "payload": {
     "attemptId": "att_sara_khan_19",
     "kind": "retention_probe",
-    "score": 10,
+    "score": 9,
     "maxScore": 12,
     "gaps": [
+     "G6:cbse-g11-economics-ch05-st1",
      "G2:cbse-g11-economics-ch05-st2",
      "G2:cbse-g11-economics-ch05-st3"
     ],
@@ -534,12 +544,12 @@
    "payload": {
     "attemptId": "att_sara_khan_20",
     "kind": "chapter_check",
-    "score": 33,
+    "score": 39,
     "maxScore": 49,
     "gaps": [
      "G2:cbse-g11-economics-ch06-st1",
-     "G4:cbse-g11-economics-ch06-st2",
-     "G4:cbse-g11-economics-ch06-st3"
+     "G5:cbse-g11-economics-ch06-st3",
+     "G4:cbse-g11-economics-ch06-st2"
     ],
     "parameterIds": [
      "p8",
@@ -551,18 +561,19 @@
   {
    "eventId": "evt_att_sara_khan_21",
    "learnerId": "lrn_sara_khan",
-   "timestampUtc": "2026-11-14T05:15:03.000Z",
+   "timestampUtc": "2026-11-14T05:27:48.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_sara_khan_21",
     "kind": "weekly",
-    "score": 11,
-    "maxScore": 49,
+    "score": 26,
+    "maxScore": 63,
     "gaps": [
      "G2:cbse-g11-economics-ch05-st2",
      "G2:cbse-g11-economics-ch05-st3",
-     "G2:cbse-g11-economics-ch06-st1"
+     "G2:cbse-g11-economics-ch06-st1",
+     "G4:cbse-g11-economics-ch06-st3"
     ],
     "parameterIds": [
      "p8",
@@ -574,17 +585,18 @@
   {
    "eventId": "evt_att_sara_khan_22",
    "learnerId": "lrn_sara_khan",
-   "timestampUtc": "2026-11-14T05:35:06.000Z",
+   "timestampUtc": "2026-11-14T05:37:39.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_sara_khan_22",
     "kind": "retention_probe",
-    "score": 6,
-    "maxScore": 6,
+    "score": 9,
+    "maxScore": 9,
     "gaps": [
-     "G4:cbse-g11-economics-ch06-st2",
-     "G4:cbse-g11-economics-ch06-st3"
+     "G4:cbse-g11-economics-ch02-st3",
+     "G6:cbse-g11-economics-ch05-st1",
+     "G4:cbse-g11-economics-ch06-st2"
     ],
     "parameterIds": [
      "p8",

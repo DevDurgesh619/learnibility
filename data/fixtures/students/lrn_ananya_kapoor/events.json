@@ -108,7 +108,7 @@
    "payload": {
     "attemptId": "att_ananya_kapoor_01",
     "kind": "onboarding",
-    "score": 49,
+    "score": 54,
     "maxScore": 55,
     "gaps": [],
     "parameterIds": [
@@ -127,7 +127,7 @@
    "payload": {
     "attemptId": "att_ananya_kapoor_02",
     "kind": "chapter_check",
-    "score": 59,
+    "score": 62,
     "maxScore": 62,
     "gaps": [
      "G4:cambridge-g10-maths-ch01-st3",
@@ -194,13 +194,13 @@
    "payload": {
     "attemptId": "att_ananya_kapoor_05",
     "kind": "chapter_check",
-    "score": 80,
+    "score": 76,
     "maxScore": 84,
     "gaps": [
+     "G3:cambridge-g10-maths-ch02-st3",
      "G4:cambridge-g10-maths-ch02-st2",
      "G4:cambridge-g10-maths-ch02-st5",
      "G4:cambridge-g10-maths-ch02-st1",
-     "G4:cambridge-g10-maths-ch02-st3",
      "G4:cambridge-g10-maths-ch02-st4"
     ],
     "parameterIds": [
@@ -213,20 +213,16 @@
   {
    "eventId": "evt_att_ananya_kapoor_06",
    "learnerId": "lrn_ananya_kapoor",
-   "timestampUtc": "2026-10-17T05:40:30.000Z",
+   "timestampUtc": "2026-10-17T04:40:30.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_ananya_kapoor_06",
-    "kind": "retention_probe",
-    "score": 15,
-    "maxScore": 15,
+    "kind": "weekly",
+    "score": 14,
+    "maxScore": 14,
     "gaps": [
-     "G4:cambridge-g10-maths-ch02-st1",
-     "G4:cambridge-g10-maths-ch02-st2",
-     "G4:cambridge-g10-maths-ch02-st3",
-     "G4:cambridge-g10-maths-ch02-st4",
-     "G4:cambridge-g10-maths-ch02-st5"
+     "G4:cambridge-g10-maths-ch02-st3"
     ],
     "parameterIds": [
      "p8",
@@ -238,16 +234,19 @@
   {
    "eventId": "evt_att_ananya_kapoor_07",
    "learnerId": "lrn_ananya_kapoor",
-   "timestampUtc": "2026-10-22T11:40:30.000Z",
+   "timestampUtc": "2026-10-17T05:38:24.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_ananya_kapoor_07",
     "kind": "retention_probe",
-    "score": 13,
-    "maxScore": 15,
+    "score": 12,
+    "maxScore": 12,
     "gaps": [
-     "G6:cambridge-g10-maths-ch02-st2"
+     "G4:cambridge-g10-maths-ch02-st1",
+     "G4:cambridge-g10-maths-ch02-st2",
+     "G4:cambridge-g10-maths-ch02-st4",
+     "G4:cambridge-g10-maths-ch02-st5"
     ],
     "parameterIds": [
      "p8",
@@ -259,13 +258,34 @@
   {
    "eventId": "evt_att_ananya_kapoor_08",
    "learnerId": "lrn_ananya_kapoor",
-   "timestampUtc": "2026-10-22T13:03:42.000Z",
+   "timestampUtc": "2026-10-22T11:40:30.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_ananya_kapoor_08",
+    "kind": "retention_probe",
+    "score": 15,
+    "maxScore": 15,
+    "gaps": [
+     "G4:cambridge-g10-maths-ch02-st3"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_ananya_kapoor_09",
+   "learnerId": "lrn_ananya_kapoor",
+   "timestampUtc": "2026-10-22T13:03:42.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_ananya_kapoor_09",
     "kind": "chapter_check",
-    "score": 84,
+    "score": 80,
     "maxScore": 84,
     "gaps": [
      "G4:cambridge-g10-maths-ch03-st2",
@@ -282,23 +302,22 @@
    }
   },
   {
-   "eventId": "evt_att_ananya_kapoor_09",
+   "eventId": "evt_att_ananya_kapoor_10",
    "learnerId": "lrn_ananya_kapoor",
-   "timestampUtc": "2026-10-24T05:42:36.000Z",
+   "timestampUtc": "2026-10-24T05:40:30.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
-    "attemptId": "att_ananya_kapoor_09",
+    "attemptId": "att_ananya_kapoor_10",
     "kind": "retention_probe",
-    "score": 17,
-    "maxScore": 18,
+    "score": 15,
+    "maxScore": 15,
     "gaps": [
-     "G6:cambridge-g10-maths-ch02-st2",
      "G4:cambridge-g10-maths-ch03-st1",
      "G4:cambridge-g10-maths-ch03-st2",
      "G4:cambridge-g10-maths-ch03-st3",
      "G4:cambridge-g10-maths-ch03-st4",
-     "G6:cambridge-g10-maths-ch03-st5"
+     "G4:cambridge-g10-maths-ch03-st5"
     ],
     "parameterIds": [
      "p8",
@@ -308,19 +327,17 @@
    }
   },
   {
-   "eventId": "evt_att_ananya_kapoor_10",
+   "eventId": "evt_att_ananya_kapoor_11",
    "learnerId": "lrn_ananya_kapoor",
    "timestampUtc": "2026-10-29T11:40:30.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
-    "attemptId": "att_ananya_kapoor_10",
+    "attemptId": "att_ananya_kapoor_11",
     "kind": "retention_probe",
     "score": 15,
     "maxScore": 15,
-    "gaps": [
-     "G6:cambridge-g10-maths-ch03-st5"
-    ],
+    "gaps": [],
     "parameterIds": [
      "p8",
      "p20",

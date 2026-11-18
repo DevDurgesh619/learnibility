@@ -107,7 +107,7 @@
    "payload": {
     "attemptId": "att_nikhil_reddy_01",
     "kind": "onboarding",
-    "score": 42,
+    "score": 39,
     "maxScore": 46,
     "gaps": [],
     "parameterIds": [
@@ -126,12 +126,12 @@
    "payload": {
     "attemptId": "att_nikhil_reddy_02",
     "kind": "chapter_check",
-    "score": 50,
+    "score": 55,
     "maxScore": 63,
     "gaps": [
-     "G2:cambridge-g12-business-ch01-st4",
-     "G5:cambridge-g12-business-ch01-st2",
+     "G3:cambridge-g12-business-ch01-st4",
      "G4:cambridge-g12-business-ch01-st1",
+     "G4:cambridge-g12-business-ch01-st2",
      "G4:cambridge-g12-business-ch01-st3"
     ],
     "parameterIds": [
@@ -144,17 +144,16 @@
   {
    "eventId": "evt_att_nikhil_reddy_03",
    "learnerId": "lrn_nikhil_reddy",
-   "timestampUtc": "2026-10-10T04:58:30.000Z",
+   "timestampUtc": "2026-10-10T04:44:15.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_nikhil_reddy_03",
     "kind": "weekly",
-    "score": 27,
-    "maxScore": 28,
+    "score": 9,
+    "maxScore": 14,
     "gaps": [
-     "G4:cambridge-g12-business-ch01-st2",
-     "G4:cambridge-g12-business-ch01-st4"
+     "G5:cambridge-g12-business-ch01-st4"
     ],
     "parameterIds": [
      "p8",
@@ -166,16 +165,17 @@
   {
    "eventId": "evt_att_nikhil_reddy_04",
    "learnerId": "lrn_nikhil_reddy",
-   "timestampUtc": "2026-10-10T05:35:42.000Z",
+   "timestampUtc": "2026-10-10T05:38:33.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_nikhil_reddy_04",
     "kind": "retention_probe",
-    "score": 6,
-    "maxScore": 6,
+    "score": 9,
+    "maxScore": 9,
     "gaps": [
      "G4:cambridge-g12-business-ch01-st1",
+     "G4:cambridge-g12-business-ch01-st2",
      "G4:cambridge-g12-business-ch01-st3"
     ],
     "parameterIds": [
@@ -194,11 +194,10 @@
    "payload": {
     "attemptId": "att_nikhil_reddy_05",
     "kind": "retention_probe",
-    "score": 10,
+    "score": 12,
     "maxScore": 12,
     "gaps": [
-     "G4:cambridge-g12-business-ch01-st2",
-     "G6:cambridge-g12-business-ch01-st4"
+     "G5:cambridge-g12-business-ch01-st4"
     ],
     "parameterIds": [
      "p8",
@@ -216,11 +215,11 @@
    "payload": {
     "attemptId": "att_nikhil_reddy_06",
     "kind": "chapter_check",
-    "score": 46,
+    "score": 48,
     "maxScore": 55,
     "gaps": [
-     "G2:cambridge-g12-business-ch02-st4",
-     "G4:cambridge-g12-business-ch02-st1",
+     "G3:cambridge-g12-business-ch02-st4",
+     "G5:cambridge-g12-business-ch02-st1",
      "G4:cambridge-g12-business-ch02-st2",
      "G4:cambridge-g12-business-ch02-st3"
     ],
@@ -234,16 +233,18 @@
   {
    "eventId": "evt_att_nikhil_reddy_07",
    "learnerId": "lrn_nikhil_reddy",
-   "timestampUtc": "2026-10-17T04:43:18.000Z",
+   "timestampUtc": "2026-10-17T05:11:48.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_nikhil_reddy_07",
     "kind": "weekly",
-    "score": 10,
-    "maxScore": 13,
+    "score": 34,
+    "maxScore": 41,
     "gaps": [
-     "G4:cambridge-g12-business-ch02-st4"
+     "G3:cambridge-g12-business-ch02-st4",
+     "G4:cambridge-g12-business-ch02-st1",
+     "G5:cambridge-g12-business-ch01-st4"
     ],
     "parameterIds": [
      "p8",
@@ -255,18 +256,16 @@
   {
    "eventId": "evt_att_nikhil_reddy_08",
    "learnerId": "lrn_nikhil_reddy",
-   "timestampUtc": "2026-10-17T05:41:24.000Z",
+   "timestampUtc": "2026-10-17T05:35:42.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_nikhil_reddy_08",
     "kind": "retention_probe",
-    "score": 12,
-    "maxScore": 12,
+    "score": 4,
+    "maxScore": 6,
     "gaps": [
-     "G6:cambridge-g12-business-ch01-st4",
-     "G4:cambridge-g12-business-ch02-st1",
-     "G4:cambridge-g12-business-ch02-st2",
+     "G6:cambridge-g12-business-ch02-st2",
      "G4:cambridge-g12-business-ch02-st3"
     ],
     "parameterIds": [
@@ -288,7 +287,9 @@
     "score": 12,
     "maxScore": 12,
     "gaps": [
-     "G4:cambridge-g12-business-ch02-st4"
+     "G4:cambridge-g12-business-ch02-st1",
+     "G6:cambridge-g12-business-ch02-st2",
+     "G3:cambridge-g12-business-ch02-st4"
     ],
     "parameterIds": [
      "p8",
@@ -306,10 +307,10 @@
    "payload": {
     "attemptId": "att_nikhil_reddy_10",
     "kind": "chapter_check",
-    "score": 62,
+    "score": 61,
     "maxScore": 69,
     "gaps": [
-     "G5:cambridge-g12-business-ch03-st4",
+     "G2:cambridge-g12-business-ch03-st4",
      "G4:cambridge-g12-business-ch03-st1",
      "G4:cambridge-g12-business-ch03-st2",
      "G4:cambridge-g12-business-ch03-st3"
@@ -324,16 +325,17 @@
   {
    "eventId": "evt_att_nikhil_reddy_11",
    "learnerId": "lrn_nikhil_reddy",
-   "timestampUtc": "2026-10-24T04:43:18.000Z",
+   "timestampUtc": "2026-10-24T04:56:36.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_nikhil_reddy_11",
     "kind": "weekly",
-    "score": 13,
-    "maxScore": 13,
+    "score": 26,
+    "maxScore": 26,
     "gaps": [
-     "G4:cambridge-g12-business-ch03-st4"
+     "G4:cambridge-g12-business-ch03-st4",
+     "G3:cambridge-g12-business-ch02-st4"
     ],
     "parameterIds": [
      "p8",
@@ -374,10 +376,31 @@
    "payload": {
     "attemptId": "att_nikhil_reddy_13",
     "kind": "retention_probe",
-    "score": 12,
+    "score": 10,
     "maxScore": 12,
     "gaps": [
-     "G4:cambridge-g12-business-ch03-st4"
+     "G6:cambridge-g12-business-ch03-st4"
+    ],
+    "parameterIds": [
+     "p8",
+     "p20",
+     "p60"
+    ]
+   }
+  },
+  {
+   "eventId": "evt_att_nikhil_reddy_14",
+   "learnerId": "lrn_nikhil_reddy",
+   "timestampUtc": "2026-10-31T05:32:51.000Z",
+   "sourceMethod": "M14",
+   "type": "assessment_submitted",
+   "payload": {
+    "attemptId": "att_nikhil_reddy_14",
+    "kind": "retention_probe",
+    "score": 3,
+    "maxScore": 3,
+    "gaps": [
+     "G6:cambridge-g12-business-ch03-st4"
     ],
     "parameterIds": [
      "p8",

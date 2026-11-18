@@ -50,7 +50,7 @@ export default async function StudentHome({ searchParams }: { searchParams: Prom
 
       {ctx.firstVisit ? <AssessmentHero /> : <NextActionCard actions={actions} />}
 
-      <div className="grid gap-4 lg:grid-cols-[1.6fr_1fr]">
+      <div className="grid gap-4 lg:grid-cols-[1.6fr_1fr] [&>*]:min-w-0">
         <Card>
           <CardHeader
             title={ctx.firstVisit ? 'Today' : `Today's tasks · ${done}/${tasks.length}`}

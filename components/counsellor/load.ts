@@ -50,7 +50,7 @@ export function flagsForLearner(student: Student, staffId: string): RiskFlag[] {
   const plan = getCurrentPlan(student.id);
   const lastAttempt = getEventsLastAttempt(student.id);
   const today = demoToday();
-  const missed = getTasks(student.id, undefined, { range: [addDaysLocal(today, -7), addDaysLocal(today, -1)] }).filter((t) => t.status === 'skipped').length;
+  const missed = getTasks(student.id, undefined, { range: [addDaysLocal(today, -7), addDaysLocal(today, -1)] }).filter((t) => t.status !== 'done').length;
   const flags = riskFlags({
     learnerId: student.id, now: n,
     applications: getApplications(student.id).applications
@@ -86,7 +86,7 @@ export async function loadCaseload() {
     const flags = flagsForLearner(e.student, id).filter((f) => f.severity !== 'low' || f.kind === 'deadline');
     const caseFlags: CaseFlag[] = flags.map((f) => ({ kind: SEV_MAP[f.kind], severity: f.severity, text: f.title, refId: f.id }));
     const sessionToday = !!e.nextSession && localDateOf(e.nextSession.startUtc) === today;
-    return { ...e, focus: e.student.story ?? e.student.programme, flags: caseFlags, needsYouToday: caseFlags.some((f) => f.severity === 'high') || e.pendingRequests > 0 || sessionToday };
+    return { ...e, flags: caseFlags, needsYouToday: caseFlags.some((f) => f.severity === 'high') || e.pendingRequests > 0 || sessionToday };
   }).sort((a, b) => Number(b.needsYouToday) - Number(a.needsYouToday) || b.flags.length - a.flags.length || a.student.name.localeCompare(b.student.name));
   const sessionsToday = getSessions(id).filter((s) => s.status === 'scheduled' && localDateOf(s.startUtc) === today);
   return { counsellor: { id, name: counsellorName(id) }, entries, sessionsToday, now: n };
@@ -122,10 +122,9 @@ export async function loadRequests() {
   const students = pickerList(id);
   const items: RequestItem[] = getTimetableRequests({ counsellorId: id }).map((request) => {
     const week = getTimetable(request.learnerId, request.weekStart);
-    // Pending: the blocks as they are now. Decided: where they ended up (moved blocks get the suffix _moved).
-    const wanted = new Set(request.status === 'pending' ? request.blockIds : request.blockIds.map((x) => `${x}_moved`));
-    const blocks = (week?.blocks ?? []).filter((b) => wanted.has(b.id));
-    return { request, studentName: getStudent(request.learnerId)?.name ?? request.learnerId, blocks, after: week, changedBlockIds: request.status === 'pending' ? [] : blocks.map((b) => b.id) };
+    const blocks = (week?.blocks ?? []).filter((b) => request.blockIds.includes(b.id));
+    const changed = request.status === 'pending' ? [] : (week?.blocks ?? []).filter((b) => b.title && request.blockIds.some((x) => x === b.id || b.id.startsWith(`req-${request.id}`))).map((b) => b.id);
+    return { request, studentName: getStudent(request.learnerId)?.name ?? request.learnerId, blocks, after: week, changedBlockIds: changed };
   });
   return { items, now: now(), students };
 }
@@ -149,9 +148,8 @@ export async function loadCareerSession(studentId?: string, a?: string, b?: stri
   if (!student) return undefined;
   const profile = profileForEngines(getProfile(student.id, 'counsellor'));
   const careers = listCareers();
-  const ctx = { grade: student.grade, stream: student.stream, skills: listSkills(), resources: listResources(), exams: listExams() };
+  const ctx = { grade: student.grade, stream: student.stream, weeklyHours: Math.max(2, Math.round(student.weeklyHours * 0.2)), skills: listSkills(), resources: listResources(), exams: listExams() };
   const stored = getCareerMatches(student.id);
-  const skillNames = new Map(ctx.skills.map((x) => [x.id, x.name]));
   const fits = stored?.fits?.length ? stored.fits : mapCareers(profile, careers, { ...ctx, limit: 10 });
   const ids = [a, b].filter((x): x is string => !!x && !!getCareer(x));
   const defaults = [...(stored?.shortlist ?? []), ...fits.map((f) => f.careerId)];
@@ -159,10 +157,9 @@ export async function loadCareerSession(studentId?: string, a?: string, b?: stri
   const due = addDaysLocal(demoToday(), 14);
   const compare: CompareColumn[] = ids.slice(0, 2).map((cid) => {
     const career = getCareer(cid)!;
-    const raw = stored?.gaps?.[cid] ?? careerGap(profile, career, ctx);
-    const gap = { ...raw, skills: raw.skills.map((x) => ({ ...x, name: skillNames.get(x.skillId) ?? x.name })) };
+    const gap = stored?.gaps?.[cid] ?? careerGap(profile, career, ctx);
     const top = [...gap.skills].filter((s) => s.levelsToClimb > 0).sort((x, y) => Number(y.importance === 'core') - Number(x.importance === 'core') || y.hours - x.hours)[0];
-    const suggested = top ? [{ title: `${career.title}: try the first free ${top.name} module`, dueOn: due }] : [];
+    const suggested = top ? [{ title: `${career.title}: start ${top.name} (free route, about ${Math.round(top.hours)} h)`, dueOn: due }] : [];
     return { career, fit: fits.find((f) => f.careerId === cid), gap, suggested };
   });
   const notes: MeetingNote[] = getMeetingNotes(student.id, { kind: 'career' });

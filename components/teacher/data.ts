@@ -23,7 +23,7 @@ export interface TeacherContext {
 export async function teacherContext(sectionParam?: string): Promise<TeacherContext> {
   const p = await currentPersona();
   if (!p || p.role !== 'teacher') redirect('/login');
-  const sections = [...getSections(p.id)].sort((a, b) => a.grade - b.grade || a.name.localeCompare(b.name));
+  const sections = getSections(p.id);
   const section = sections.find((s) => s.id === sectionParam) ?? sections[0];
   return { teacherId: p.id, teacherName: p.name, sections, section };
 }

@@ -55,8 +55,8 @@ export function NextActionCard({ actions }: { actions: NextActionView[] }) {
       </div>
       {rest.length > 0 && (
         <ul className="divide-y divide-line">
-          {rest.map((a) => (
-            <li key={a.title} className="flex items-center gap-3 px-5 py-3 text-sm">
+          {rest.map((a, i) => (
+            <li key={`${a.kind}-${i}`} className="flex items-center gap-3 px-5 py-3 text-sm">
               <Lightbulb className="size-4 shrink-0 text-subtle" />
               <span className="min-w-0 flex-1"><span className="font-medium text-ink">{a.title}</span> <span className="text-muted">· {a.reason}</span></span>
               {a.href && <Link href={a.href} className="shrink-0 text-sm font-medium text-brand-700 hover:text-brand-800">{a.cta}</Link>}

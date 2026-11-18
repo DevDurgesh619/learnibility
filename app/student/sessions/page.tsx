@@ -82,7 +82,7 @@ export default async function SessionsPage({ searchParams }: { searchParams: Pro
                     <Avatar name={p.name} />
                     <div>
                       <p className="text-sm font-semibold text-ink">{p.name}</p>
-                      <p className="text-xs text-muted">{p.focus} · {p.sessionCount} sessions</p>
+                      <p className="text-xs text-muted">{p.focus} · {p.sessionCount} session{p.sessionCount === 1 ? "" : "s"}</p>
                     </div>
                   </div>
                   <p className="mt-3 text-sm font-medium text-brand-700">See more →</p>

@@ -144,7 +144,7 @@ const CAST: Cast[] = [
       availability: avail(['17:30', '19:30'], ['10:00', '12:30'], ['17:00', '18:00']),
     }),
     depthSubject: 'cbse-g9-maths', chapters: 6,
-    traits: { base: 0.85, spread: 0.03, slip: 0.08, blank: 0.01, overconf: 0.4, overconfDrift: -0.05, growth: 0.08, speed: 0.75, doneRate: 0.8, weak: { 'cbse-g9-maths-ch05-st3': 0.4, 'cbse-g9-maths-ch06-st2': 0.45 } },
+    traits: { base: 0.85, spread: 0.03, slip: 0.08, blank: 0.01, overconf: 0.4, overconfDrift: -0.05, growth: 0.08, speed: 0.75, doneRate: 0.8, weak: { 'cbse-g9-maths-ch05-st3': 0.32, 'cbse-g9-maths-ch06-st2': 0.45 } },
     parent: { id: 'par_harpreet_singh', name: 'Harpreet Singh', relation: 'father' },
     persona: { story: 'Quick but careless, and more confident than his marks.', grade: 9, board: 'cbse', stream: 'none', programme: 'CBSE Class 9', order: 1 },
     profile: { p31: 1.5, p178: 'medium', p193: 'Laptop + broadband', p212: 'B2', p230: 2, p163: 3, p150: 4, p8: 71 },
@@ -318,7 +318,7 @@ function simulate(c: Cast): Built {
     for (const g of state.gaps.values()) if (g.status === 'suspected' || g.status === 'confirmed') state.gaps.set(g.subtopicId, { ...g, status: 'in_progress' });
 
     // timetable for this week from the state on Monday
-    const weekNow = ws === weekStartOf(TODAY) ? NOW : istUtc(ws, '00:05');
+    const weekNow = ws === weekStartOf(TODAY) ? NOW : istUtc(addDaysLocal(ws, 7), '00:00'); // past weeks: every block is over
     const tw = buildWeek(s, ws, { gaps: [...state.gaps.values()], mastery: [...state.mastery.values()], sessions: [], now: istUtc(ws, '00:05') }, w === 0 ? 'initial' : 'weekly');
     for (const b of tw.blocks) {
       if (b.kind === 'buffer') continue;
@@ -426,7 +426,7 @@ function backgroundStudents(subjectId: string, chapters: number, cluster: { subt
     const gaps: BackgroundStudent['gaps'] = [];
     for (const s of subs) {
       let lvl = clamp(Math.round(ability * 5 + (R() - 0.5) * 2.2), 0, 5);
-      if (s.id === cluster.subtopicId && i < 5) lvl = 2; // the class cluster
+      if (s.id === cluster.subtopicId && i < 7) lvl = 2; // the class cluster
       const level = lvl as 0 | 1 | 2 | 3 | 4 | 5;
       mastery[s.id] = { level, pMastery: round1(clamp(level / 5 + (R() - 0.5) * 0.1, 0, 1) * 10) / 10, lastTestedUtc: istUtc(addDaysLocal(TODAY, -Math.floor(R() * 40) - 1), '17:30') };
       const code = ({ 0: 'G1', 1: 'G2', 2: 'G3', 3: 'G5' } as Record<number, 'G1' | 'G2' | 'G3' | 'G5'>)[level];

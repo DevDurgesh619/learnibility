@@ -5,7 +5,7 @@ import { NoSection } from '@/components/teacher/no-section';
 import { QuerySelect } from '@/components/teacher/query-select';
 import { SectionTabs } from '@/components/teacher/section-tabs';
 import { chaptersOf, interventionsFor, sectionClusters, sectionHref, teacherContext } from '@/components/teacher/data';
-import { Avatar, Badge, Button, Card, CardBody, CardFooter, CardHeader, EmptyState, GapBadge, GAP_LABEL, PageHeader, Table, TBody, TD, TH, THead, TR } from '@/components/ui';
+import { Avatar, Badge, Button, Card, CardBody, CardFooter, CardHeader, EmptyState, GapBadge, GAP_LABEL, PageHeader } from '@/components/ui';
 import { assignWork } from '@/lib/actions/teacher';
 import { addDaysLocal, demoToday } from '@/lib/data';
 import { GAP_TAXONOMY } from '@/lib/engines';
@@ -22,9 +22,6 @@ export default async function ClassGapsPage({ searchParams }: { searchParams: Pr
   const chapterId = chapters.some((c) => c.id === sp.chapter) ? sp.chapter : undefined;
   const clusters = sectionClusters(section, chapterId);
   const due = addDaysLocal(demoToday(), 3);
-  // Big clusters get a card each; smaller ones go in a compact list so the page stays scannable.
-  const big = clusters.filter((c, i) => c.learners.length >= 3 && i < 6);
-  const small = clusters.filter((c) => !big.includes(c));
 
   return (
     <>
@@ -38,7 +35,7 @@ export default async function ClassGapsPage({ searchParams }: { searchParams: Pr
         <EmptyState icon={<Sparkles />} title="No shared gaps" description={`No gap is shared by two or more students in ${section.name}${chapterId ? ' in this chapter' : ''}. Individual gaps are in the Gap log.`} action={<Link href={sectionHref('/teacher/gap-log', section.id)}><Button variant="secondary">Open the gap log</Button></Link>} />
       ) : (
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
-          {big.map((c) => {
+          {clusters.map((c) => {
             const info = GAP_TAXONOMY[c.code];
             const plan = interventionsFor(c.code);
             return (
@@ -91,25 +88,6 @@ export default async function ClassGapsPage({ searchParams }: { searchParams: Pr
               </Card>
             );
           })}
-          {small.length > 0 && (
-            <Card className="min-w-0 lg:col-span-2">
-              <CardHeader title="Smaller clusters" description="Shared by fewer students. Open one in Assign to adjust the group before sending." />
-              <Table className="mt-3">
-                <THead><TR><TH>Subtopic</TH><TH>Gap</TH><TH>Students</TH><TH className="hidden md:table-cell">Hours each</TH><TH /></TR></THead>
-                <TBody>
-                  {small.map((c) => (
-                    <TR key={`${c.subtopicId}|${c.code}`}>
-                      <TD className="min-w-48"><p className="text-sm text-ink">{c.subtopicName}</p><p className="text-xs text-subtle">{c.chapterName}</p></TD>
-                      <TD><GapBadge code={c.code} /></TD>
-                      <TD className="text-sm">{c.learners.map((l) => l.name.split(' ')[0]).join(', ')}</TD>
-                      <TD className="hidden whitespace-nowrap md:table-cell">{formatHours(c.meanHours)}</TD>
-                      <TD className="text-right"><Link href={sectionHref('/teacher/assign', section.id, { kind: 'reteach', subtopic: c.subtopicId, code: c.code, learners: c.learners.map((l) => l.id).join(',') })} className="whitespace-nowrap text-sm font-medium text-brand-600 hover:underline">Re-teach</Link></TD>
-                    </TR>
-                  ))}
-                </TBody>
-              </Table>
-            </Card>
-          )}
         </div>
       )}
     </>

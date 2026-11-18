@@ -107,7 +107,7 @@
    "payload": {
     "attemptId": "att_rohan_das_01",
     "kind": "onboarding",
-    "score": 76,
+    "score": 70,
     "maxScore": 98,
     "gaps": [],
     "parameterIds": [
@@ -126,13 +126,13 @@
    "payload": {
     "attemptId": "att_rohan_das_02",
     "kind": "chapter_check",
-    "score": 55,
+    "score": 51,
     "maxScore": 70,
     "gaps": [
-     "G5:cbse-g10-maths-ch01-st1",
+     "G2:cbse-g10-maths-ch01-st1",
+     "G5:cbse-g10-maths-ch01-st3",
      "G4:cbse-g10-maths-ch01-st4",
-     "G4:cbse-g10-maths-ch01-st2",
-     "G4:cbse-g10-maths-ch01-st3"
+     "G4:cbse-g10-maths-ch01-st2"
     ],
     "parameterIds": [
      "p8",
@@ -144,16 +144,17 @@
   {
    "eventId": "evt_att_rohan_das_03",
    "learnerId": "lrn_rohan_das",
-   "timestampUtc": "2026-10-10T04:55:18.000Z",
+   "timestampUtc": "2026-10-10T05:11:48.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_rohan_das_03",
     "kind": "weekly",
-    "score": 14,
-    "maxScore": 21,
+    "score": 18,
+    "maxScore": 35,
     "gaps": [
-     "G2:cbse-g10-maths-ch01-st1"
+     "G10:cbse-g10-maths-ch01-st1",
+     "G5:cbse-g10-maths-ch01-st3"
     ],
     "parameterIds": [
      "p8",
@@ -165,17 +166,16 @@
   {
    "eventId": "evt_att_rohan_das_04",
    "learnerId": "lrn_rohan_das",
-   "timestampUtc": "2026-10-10T05:39:54.000Z",
+   "timestampUtc": "2026-10-10T05:36:36.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_rohan_das_04",
     "kind": "retention_probe",
-    "score": 9,
-    "maxScore": 9,
+    "score": 6,
+    "maxScore": 6,
     "gaps": [
      "G4:cbse-g10-maths-ch01-st2",
-     "G4:cbse-g10-maths-ch01-st3",
      "G4:cbse-g10-maths-ch01-st4"
     ],
     "parameterIds": [
@@ -194,11 +194,12 @@
    "payload": {
     "attemptId": "att_rohan_das_05",
     "kind": "retention_probe",
-    "score": 10,
+    "score": 12,
     "maxScore": 12,
     "gaps": [
-     "G2:cbse-g10-maths-ch01-st1",
-     "G6:cbse-g10-maths-ch01-st4"
+     "G10:cbse-g10-maths-ch01-st1",
+     "G5:cbse-g10-maths-ch01-st3",
+     "G4:cbse-g10-maths-ch01-st4"
     ],
     "parameterIds": [
      "p8",
@@ -216,13 +217,13 @@
    "payload": {
     "attemptId": "att_rohan_das_06",
     "kind": "chapter_check",
-    "score": 41,
+    "score": 45,
     "maxScore": 63,
     "gaps": [
-     "G2:cbse-g10-maths-ch02-st1",
      "G3:cbse-g10-maths-ch02-st2",
-     "G5:cbse-g10-maths-ch02-st4",
-     "G4:cbse-g10-maths-ch02-st3"
+     "G5:cbse-g10-maths-ch02-st1",
+     "G4:cbse-g10-maths-ch02-st3",
+     "G4:cbse-g10-maths-ch02-st4"
     ],
     "parameterIds": [
      "p8",
@@ -234,17 +235,18 @@
   {
    "eventId": "evt_att_rohan_das_08",
    "learnerId": "lrn_rohan_das",
-   "timestampUtc": "2026-10-17T05:36:36.000Z",
+   "timestampUtc": "2026-10-17T05:39:54.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_rohan_das_08",
     "kind": "retention_probe",
-    "score": 6,
-    "maxScore": 6,
+    "score": 8,
+    "maxScore": 9,
     "gaps": [
-     "G4:cbse-g10-maths-ch01-st4",
-     "G4:cbse-g10-maths-ch02-st3"
+     "G6:cbse-g10-maths-ch01-st4",
+     "G4:cbse-g10-maths-ch02-st3",
+     "G4:cbse-g10-maths-ch02-st4"
     ],
     "parameterIds": [
      "p8",
@@ -262,13 +264,13 @@
    "payload": {
     "attemptId": "att_rohan_das_07",
     "kind": "weekly",
-    "score": 41,
+    "score": 43,
     "maxScore": 63,
     "gaps": [
-     "G2:cbse-g10-maths-ch02-st2",
-     "G5:cbse-g10-maths-ch02-st4",
-     "G4:cbse-g10-maths-ch01-st1",
-     "G4:cbse-g10-maths-ch02-st1"
+     "G3:cbse-g10-maths-ch01-st1",
+     "G3:cbse-g10-maths-ch02-st2",
+     "G4:cbse-g10-maths-ch02-st1",
+     "G5:cbse-g10-maths-ch01-st3"
     ],
     "parameterIds": [
      "p8",
@@ -286,12 +288,13 @@
    "payload": {
     "attemptId": "att_rohan_das_09",
     "kind": "retention_probe",
-    "score": 11,
+    "score": 7,
     "maxScore": 12,
     "gaps": [
-     "G6:cbse-g10-maths-ch02-st1",
-     "G2:cbse-g10-maths-ch02-st2",
-     "G5:cbse-g10-maths-ch02-st4"
+     "G4:cbse-g10-maths-ch02-st1",
+     "G3:cbse-g10-maths-ch02-st2",
+     "G6:cbse-g10-maths-ch02-st3",
+     "G6:cbse-g10-maths-ch02-st4"
     ],
     "parameterIds": [
      "p8",
@@ -309,14 +312,14 @@
    "payload": {
     "attemptId": "att_rohan_das_10",
     "kind": "chapter_check",
-    "score": 51,
+    "score": 44,
     "maxScore": 76,
     "gaps": [
-     "G1:cbse-g10-maths-ch03-st2",
-     "G5:cbse-g10-maths-ch03-st5",
-     "G5:cbse-g10-maths-ch03-st3",
-     "G4:cbse-g10-maths-ch03-st1",
-     "G4:cbse-g10-maths-ch03-st4"
+     "G2:cbse-g10-maths-ch03-st3",
+     "G3:cbse-g10-maths-ch03-st2",
+     "G5:cbse-g10-maths-ch03-st1",
+     "G5:cbse-g10-maths-ch03-st4",
+     "G4:cbse-g10-maths-ch03-st5"
     ],
     "parameterIds": [
      "p8",
@@ -328,20 +331,19 @@
   {
    "eventId": "evt_att_rohan_das_12",
    "learnerId": "lrn_rohan_das",
-   "timestampUtc": "2026-10-24T05:46:30.000Z",
+   "timestampUtc": "2026-10-24T05:43:12.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_rohan_das_12",
     "kind": "retention_probe",
-    "score": 14,
-    "maxScore": 15,
+    "score": 9,
+    "maxScore": 12,
     "gaps": [
-     "G4:cbse-g10-maths-ch01-st1",
-     "G4:cbse-g10-maths-ch01-st4",
-     "G6:cbse-g10-maths-ch02-st1",
-     "G4:cbse-g10-maths-ch03-st1",
-     "G4:cbse-g10-maths-ch03-st4"
+     "G6:cbse-g10-maths-ch01-st4",
+     "G6:cbse-g10-maths-ch02-st3",
+     "G6:cbse-g10-maths-ch02-st4",
+     "G4:cbse-g10-maths-ch03-st5"
     ],
     "parameterIds": [
      "p8",
@@ -353,20 +355,21 @@
   {
    "eventId": "evt_att_rohan_das_11",
    "learnerId": "lrn_rohan_das",
-   "timestampUtc": "2026-10-24T06:00:12.000Z",
+   "timestampUtc": "2026-10-24T06:16:42.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_rohan_das_11",
     "kind": "weekly",
-    "score": 43,
-    "maxScore": 76,
+    "score": 44,
+    "maxScore": 90,
     "gaps": [
-     "G1:cbse-g10-maths-ch03-st2",
      "G2:cbse-g10-maths-ch02-st2",
-     "G3:cbse-g10-maths-ch03-st3",
-     "G5:cbse-g10-maths-ch02-st4",
-     "G4:cbse-g10-maths-ch03-st5"
+     "G2:cbse-g10-maths-ch03-st3",
+     "G2:cbse-g10-maths-ch03-st4",
+     "G3:cbse-g10-maths-ch03-st2",
+     "G4:cbse-g10-maths-ch01-st1",
+     "G4:cbse-g10-maths-ch03-st1"
     ],
     "parameterIds": [
      "p8",
@@ -384,13 +387,14 @@
    "payload": {
     "attemptId": "att_rohan_das_13",
     "kind": "retention_probe",
-    "score": 11,
+    "score": 9,
     "maxScore": 15,
     "gaps": [
-     "G6:cbse-g10-maths-ch03-st1",
-     "G1:cbse-g10-maths-ch03-st2",
-     "G3:cbse-g10-maths-ch03-st3",
-     "G4:cbse-g10-maths-ch03-st5"
+     "G4:cbse-g10-maths-ch03-st1",
+     "G3:cbse-g10-maths-ch03-st2",
+     "G2:cbse-g10-maths-ch03-st3",
+     "G2:cbse-g10-maths-ch03-st4",
+     "G6:cbse-g10-maths-ch03-st5"
     ],
     "parameterIds": [
      "p8",
@@ -408,13 +412,13 @@
    "payload": {
     "attemptId": "att_rohan_das_14",
     "kind": "chapter_check",
-    "score": 24,
+    "score": 37,
     "maxScore": 70,
     "gaps": [
-     "G1:cbse-g10-maths-ch04-st2",
      "G2:cbse-g10-maths-ch04-st1",
      "G3:cbse-g10-maths-ch04-st3",
-     "G5:cbse-g10-maths-ch04-st4"
+     "G3:cbse-g10-maths-ch04-st4",
+     "G4:cbse-g10-maths-ch04-st2"
     ],
     "parameterIds": [
      "p8",
@@ -426,19 +430,20 @@
   {
    "eventId": "evt_att_rohan_das_16",
    "learnerId": "lrn_rohan_das",
-   "timestampUtc": "2026-10-31T05:43:12.000Z",
+   "timestampUtc": "2026-10-31T05:46:30.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_rohan_das_16",
     "kind": "retention_probe",
-    "score": 12,
-    "maxScore": 12,
+    "score": 14,
+    "maxScore": 15,
     "gaps": [
      "G4:cbse-g10-maths-ch01-st1",
-     "G4:cbse-g10-maths-ch01-st4",
-     "G6:cbse-g10-maths-ch02-st1",
-     "G6:cbse-g10-maths-ch03-st1"
+     "G6:cbse-g10-maths-ch01-st4",
+     "G6:cbse-g10-maths-ch02-st3",
+     "G6:cbse-g10-maths-ch03-st5",
+     "G4:cbse-g10-maths-ch04-st2"
     ],
     "parameterIds": [
      "p8",
@@ -450,21 +455,21 @@
   {
    "eventId": "evt_att_rohan_das_15",
    "learnerId": "lrn_rohan_das",
-   "timestampUtc": "2026-10-31T06:25:30.000Z",
+   "timestampUtc": "2026-10-31T06:16:42.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_rohan_das_15",
     "kind": "weekly",
-    "score": 42,
-    "maxScore": 97,
+    "score": 45,
+    "maxScore": 90,
     "gaps": [
+     "G1:cbse-g10-maths-ch02-st2",
      "G1:cbse-g10-maths-ch03-st2",
-     "G10:cbse-g10-maths-ch04-st3",
-     "G3:cbse-g10-maths-ch02-st2",
-     "G3:cbse-g10-maths-ch04-st1",
-     "G4:cbse-g10-maths-ch04-st2",
-     "G6:cbse-g10-maths-ch03-st3"
+     "G2:cbse-g10-maths-ch04-st1",
+     "G5:cbse-g10-maths-ch04-st3",
+     "G5:cbse-g10-maths-ch03-st3",
+     "G6:cbse-g10-maths-ch03-st4"
     ],
     "parameterIds": [
      "p8",
@@ -485,10 +490,9 @@
     "score": 8,
     "maxScore": 12,
     "gaps": [
-     "G3:cbse-g10-maths-ch04-st1",
-     "G4:cbse-g10-maths-ch04-st2",
-     "G10:cbse-g10-maths-ch04-st3",
-     "G5:cbse-g10-maths-ch04-st4"
+     "G2:cbse-g10-maths-ch04-st1",
+     "G5:cbse-g10-maths-ch04-st3",
+     "G3:cbse-g10-maths-ch04-st4"
     ],
     "parameterIds": [
      "p8",
@@ -506,11 +510,11 @@
    "payload": {
     "attemptId": "att_rohan_das_18",
     "kind": "chapter_check",
-    "score": 48,
+    "score": 51,
     "maxScore": 63,
     "gaps": [
-     "G3:cbse-g10-maths-ch05-st3",
-     "G4:cbse-g10-maths-ch05-st1",
+     "G3:cbse-g10-maths-ch05-st1",
+     "G5:cbse-g10-maths-ch05-st3",
      "G4:cbse-g10-maths-ch05-st2",
      "G4:cbse-g10-maths-ch05-st4"
     ],
@@ -540,20 +544,18 @@
   {
    "eventId": "evt_att_rohan_das_20",
    "learnerId": "lrn_rohan_das",
-   "timestampUtc": "2026-11-07T05:53:06.000Z",
+   "timestampUtc": "2026-11-07T05:46:30.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_rohan_das_20",
     "kind": "retention_probe",
-    "score": 17,
-    "maxScore": 21,
+    "score": 14,
+    "maxScore": 15,
     "gaps": [
      "G4:cbse-g10-maths-ch01-st1",
      "G4:cbse-g10-maths-ch01-st4",
-     "G6:cbse-g10-maths-ch03-st3",
-     "G4:cbse-g10-maths-ch04-st2",
-     "G6:cbse-g10-maths-ch05-st1",
+     "G6:cbse-g10-maths-ch03-st4",
      "G4:cbse-g10-maths-ch05-st2",
      "G6:cbse-g10-maths-ch05-st4"
     ],
@@ -567,21 +569,21 @@
   {
    "eventId": "evt_att_rohan_das_19",
    "learnerId": "lrn_rohan_das",
-   "timestampUtc": "2026-11-07T06:25:30.000Z",
+   "timestampUtc": "2026-11-07T06:07:54.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_rohan_das_19",
     "kind": "weekly",
-    "score": 58,
-    "maxScore": 97,
+    "score": 35,
+    "maxScore": 83,
     "gaps": [
-     "G1:cbse-g10-maths-ch03-st2",
      "G2:cbse-g10-maths-ch02-st2",
-     "G3:cbse-g10-maths-ch04-st3",
-     "G5:cbse-g10-maths-ch04-st1",
-     "G4:cbse-g10-maths-ch05-st3",
-     "G5:cbse-g10-maths-ch02-st4"
+     "G2:cbse-g10-maths-ch03-st3",
+     "G2:cbse-g10-maths-ch04-st1",
+     "G2:cbse-g10-maths-ch04-st4",
+     "G5:cbse-g10-maths-ch03-st2",
+     "G4:cbse-g10-maths-ch05-st1"
     ],
     "parameterIds": [
      "p8",
@@ -599,11 +601,11 @@
    "payload": {
     "attemptId": "att_rohan_das_21",
     "kind": "retention_probe",
-    "score": 12,
+    "score": 8,
     "maxScore": 12,
     "gaps": [
      "G6:cbse-g10-maths-ch05-st1",
-     "G4:cbse-g10-maths-ch05-st3",
+     "G5:cbse-g10-maths-ch05-st3",
      "G6:cbse-g10-maths-ch05-st4"
     ],
     "parameterIds": [
@@ -622,13 +624,13 @@
    "payload": {
     "attemptId": "att_rohan_das_22",
     "kind": "chapter_check",
-    "score": 40,
+    "score": 45,
     "maxScore": 62,
     "gaps": [
-     "G3:cbse-g10-maths-ch06-st4",
-     "G5:cbse-g10-maths-ch06-st2",
+     "G2:cbse-g10-maths-ch06-st3",
      "G5:cbse-g10-maths-ch06-st1",
-     "G4:cbse-g10-maths-ch06-st3"
+     "G4:cbse-g10-maths-ch06-st2",
+     "G4:cbse-g10-maths-ch06-st4"
     ],
     "parameterIds": [
      "p8",
@@ -640,19 +642,21 @@
   {
    "eventId": "evt_att_rohan_das_24",
    "learnerId": "lrn_rohan_das",
-   "timestampUtc": "2026-11-14T05:43:12.000Z",
+   "timestampUtc": "2026-11-14T05:49:48.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_rohan_das_24",
     "kind": "retention_probe",
-    "score": 11,
-    "maxScore": 12,
+    "score": 13,
+    "maxScore": 18,
     "gaps": [
      "G6:cbse-g10-maths-ch01-st1",
-     "G4:cbse-g10-maths-ch01-st4",
-     "G4:cbse-g10-maths-ch04-st2",
-     "G4:cbse-g10-maths-ch06-st3"
+     "G6:cbse-g10-maths-ch01-st4",
+     "G6:cbse-g10-maths-ch05-st1",
+     "G6:cbse-g10-maths-ch05-st4",
+     "G4:cbse-g10-maths-ch06-st2",
+     "G6:cbse-g10-maths-ch06-st4"
     ],
     "parameterIds": [
      "p8",
@@ -664,21 +668,20 @@
   {
    "eventId": "evt_att_rohan_das_23",
    "learnerId": "lrn_rohan_das",
-   "timestampUtc": "2026-11-14T06:16:42.000Z",
+   "timestampUtc": "2026-11-14T06:07:54.000Z",
    "sourceMethod": "M14",
    "type": "assessment_submitted",
    "payload": {
     "attemptId": "att_rohan_das_23",
     "kind": "weekly",
-    "score": 36,
-    "maxScore": 90,
+    "score": 34,
+    "maxScore": 83,
     "gaps": [
-     "G2:cbse-g10-maths-ch03-st2",
-     "G3:cbse-g10-maths-ch02-st2",
-     "G3:cbse-g10-maths-ch04-st1",
-     "G10:cbse-g10-maths-ch04-st3",
-     "G5:cbse-g10-maths-ch04-st4",
-     "G5:cbse-g10-maths-ch06-st4"
+     "G10:cbse-g10-maths-ch02-st2",
+     "G2:cbse-g10-maths-ch04-st1",
+     "G3:cbse-g10-maths-ch03-st3",
+     "G5:cbse-g10-maths-ch06-st3",
+     "G2:cbse-g10-maths-ch04-st4"
     ],
     "parameterIds": [
      "p8",

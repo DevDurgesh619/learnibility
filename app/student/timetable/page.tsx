@@ -58,6 +58,7 @@ export default async function TimetablePage({ searchParams }: { searchParams: Pr
     );
   }
 
+  const blockTitle = (id: string) => tt.blocks.find((b) => b.id === id)?.title.replace(/^Review \d\/\d: /, 'Review: ');
   const byTitle = new Map<string, string[]>();
   for (const b of tt.blocks) {
     if (b.kind === 'buffer' || b.kind === 'session' || b.endUtc <= nowUtc()) continue;
@@ -72,7 +73,7 @@ export default async function TimetablePage({ searchParams }: { searchParams: Pr
       const blocks = t.blocks.filter((b) => b.date === date && b.kind !== 'buffer').sort((a, b) => a.start.localeCompare(b.start))
         .map((b) => ({ ...b, title: shortBlock(b.title) }));
       const ghosts = requests.flatMap((r) => requestDates(r, start).includes(date)
-        ? [{ id: `${r.id}_${date}`, kind: 'chapter' as const, title: shortBlock(requestTitle(r)), start: typeof r.proposed === 'object' ? r.proposed.start : '', minutes: 0, status: 'planned' as const, pending: true }] : []);
+        ? [{ id: `${r.id}_${date}`, kind: 'chapter' as const, title: shortBlock(requestTitle(r, blockTitle)), start: typeof r.proposed === 'object' ? r.proposed.start : '', minutes: 0, status: 'planned' as const, pending: true }] : []);
       return { date, label, dayNum: fmtDay(date), isToday: date === today, blocks: [...blocks, ...ghosts] };
     });
   };
@@ -95,7 +96,7 @@ export default async function TimetablePage({ searchParams }: { searchParams: Pr
           <CardBody className="flex flex-col gap-3 sm:flex-row sm:items-center">
             <div className="min-w-0 flex-1">
               <p className="text-sm font-semibold text-ink">Request sent</p>
-              <p className="text-sm text-muted">{describeRequest(r)}. {counsellor?.name.split(' ')[0]} usually replies within a day; the block updates automatically once approved.</p>
+              <p className="text-sm text-muted">{describeRequest(r, blockTitle)}. {counsellor?.name.split(' ')[0]} usually replies within a day; the block updates automatically once approved.</p>
             </div>
             <UndoRequestButton requestId={r.id} />
           </CardBody>
@@ -137,7 +138,7 @@ export default async function TimetablePage({ searchParams }: { searchParams: Pr
           <CardHeader title="Didn't fit this week" description="These move to next week unless you free up time." />
           <CardBody className="pt-2">
             <ul className="divide-y divide-line text-sm">
-              {tt.unscheduled.map((u) => <li key={`${u.kind}-${u.refId ?? u.title}`} className="flex justify-between py-2"><span className="text-ink">{u.title}</span><span className="text-muted">{u.minutes} min · {u.reason}</span></li>)}
+              {tt.unscheduled.map((u, i) => <li key={`${u.kind}-${i}`} className="flex justify-between py-2"><span className="text-ink">{u.title}</span><span className="text-muted">{u.minutes} min · {u.reason}</span></li>)}
             </ul>
           </CardBody>
         </Card>

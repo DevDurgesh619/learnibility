@@ -17,7 +17,7 @@ const BASE = process.env.BASE_URL ?? 'http://localhost:3000';
 const OUT = path.join(process.cwd(), 'docs', 'screens', 'w2-s2');
 const PERSONAS = (process.env.PERSONAS ?? 'lrn_kabir_singh,lrn_nikhil_reddy,lrn_zoya_fernandes').split(',');
 const ROUTES = [
-  '', '?metric=learning-rate', '/timetable', '/timetable?view=month', '/inventory', '/inventory/class-9', '/inventory/essay-drafts',
+  '', '?metric=learning-rate', '/timetable', '/timetable?view=month', '/inventory', '/inventory/projects', '/inventory/essay-drafts',
   '/sessions', '/sessions?tab=past', '/career', '/career/search?q=data', '/career/career-data-analyst', '/career/career-data-analyst/gap',
   '/career?tab=insights&uni=uni-in-iit-bombay&role=career-data-analyst&city=Bengaluru',
 ];
@@ -59,12 +59,15 @@ async function main() {
   await page.goto(`${BASE}/student/timetable`, { waitUntil: 'networkidle' });
   const btn = page.getByRole('button', { name: 'Request change' });
   if (await btn.count()) {
+    const cards = page.getByText('Request sent', { exact: true });
+    const before = await cards.count();
     await btn.click();
     await page.getByRole('button', { name: 'Send request' }).click();
-    await page.getByText('Request sent').waitFor({ timeout: 10_000 });
+    await page.waitForFunction((n: number) => [...document.querySelectorAll('p')].filter((p) => p.textContent === 'Request sent').length > n, before, { timeout: 10_000 });
     await page.screenshot({ path: path.join(OUT, 'request-pending-desktop.png'), fullPage: true });
     await page.getByRole('button', { name: 'Undo' }).first().click();
-    await page.getByText('Request sent').waitFor({ state: 'detached', timeout: 10_000 });
+    await page.waitForFunction((n: number) => [...document.querySelectorAll('p')].filter((p) => p.textContent === 'Request sent').length === n, before, { timeout: 10_000 });
+    console.log('request flow ok: sent, pending, undone');
   } else {
     console.log(`skip request flow: ${PERSONAS[0]} has no counsellor`);
   }

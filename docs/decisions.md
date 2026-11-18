@@ -81,3 +81,11 @@ Newest first. Each entry: date, decision, who decided, why.
 - **Gap validation writes three things.** The gap's `validation` (with `originalCode` kept when corrected), a `gap_validated` event (M15) and profile value `p430` (T1, M15). "Not a gap" closes the gap. Background learners' light gaps get a full record on first validation (id `gap_{learnerId}_{subtopicId}`). (W2-TE.)
 - **Gap clusters are recomputed from gaps on the teacher side** (subtopic × code, open, rejected left out, 2+ students), so a correction shows at once; clusters of 3+ get a card (top 6), the rest a compact list. (W2-TE.)
 - **Teacher student view is T1 only**, via `getProfile(id, 'teacher')`; background learners show heatmap mastery, gaps and test scores only. (W2-TE.)
+
+## 2026-11-18 (W2-A Application support)
+- Fit rule lives in `components/applications/fit.ts` (documented at the top): grades become a percent-equivalent, the margin over the offer plus SAT, activities and essay set an exponent (capped at 1); chance = admit rate x 2^exponent, clamped 1-95%. Admit rate under 10% or most-selective tier is always Reach; else under 30% Reach, under 65% Target, otherwise Safe. Uses only T1 profile parameters.
+- Demo content is in `data/fixtures/contrib/w2a-applications.json` (applications, meetings, finance, shortlist, documents). Nikhil's Leeds deadline is the school's internal UCAS date (28 Nov 2026), so it shows a high risk flag on the demo clock.
+- Prices are dummy placeholders (user, 2026-11-18): `SHOW_COSTS` and `APPLICATION_SUPPORT_PRICE_INR` in `components/applications/config.ts`; set `SHOW_COSTS = false` to hide every fee and tuition figure.
+- Upgrading to Application Support writes an approvals record (`kind: 'plan_upgrade'`) plus `student.plan` when a student record exists; the plan is read from either.
+- Essay versions and anchored comments live inside `Application.essays`; AI pre-pass comments are canned rule-based output (`components/applications/ai.ts`). Meeting action items become timetable tasks (`kind: 'action_item'`) and call `recomputeLearner`.
+- Parent screens never show essays or T3 meeting notes.

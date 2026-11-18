@@ -279,7 +279,7 @@ export function nbaFor(student: Student, c: NbaContext, limit = 5): NextAction[]
       .filter((a) => a.status !== 'submitted' && a.status !== 'decision')
       .map((a) => ({ id: a.id, title: `Application due: ${a.universityId.replace(/^uni-\w\w-/, '').toUpperCase()}`, dueUtc: `${a.deadline}T12:00:00.000Z`, href: `/student/applications/${a.id}` })),
     ...c.tasks
-      .filter((t) => t.status === 'todo' && (t.kind === 'test' || t.kind === 'homework' || t.kind === 'application') && t.dueDate <= addDaysLocal(today, 3))
+      .filter((t) => t.status === 'todo' && (t.kind === 'test' || t.kind === 'homework' || t.kind === 'application') && t.dueDate <= addDaysLocal(today, 3) && t.dueDate >= addDaysLocal(today, -7))
       .map((t) => ({ id: t.id, title: t.title, dueUtc: `${t.dueDate}T12:00:00.000Z`, href: t.href })),
   ];
   const reviewsDue = c.mastery

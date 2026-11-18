@@ -46,7 +46,7 @@ function Validation({ v }: { v: NonNullable<GapRecord['validation']> }) {
   );
 }
 
-export default async function GapLogPage({ searchParams }: { searchParams: Promise<{ section?: string; student?: string; show?: string; saved?: string; page?: string }> }) {
+export default async function GapLogPage({ searchParams }: { searchParams: Promise<{ section?: string; student?: string; show?: string; saved?: string }> }) {
   const sp = await searchParams;
   const ctx = await teacherContext(sp.section);
   const section = ctx.section;
@@ -56,14 +56,9 @@ export default async function GapLogPage({ searchParams }: { searchParams: Promi
   const all = sectionGaps(section);
   const show = sp.show === 'all' || sp.show === 'validated' ? sp.show : 'to_validate';
   const students = [...new Map(all.map((g) => [g.learnerId, g.studentName])).entries()].sort((a, b) => a[1].localeCompare(b[1]));
-  const filtered = all
+  const rows = all
     .filter((g) => !sp.student || g.learnerId === sp.student)
     .filter((g) => (show === 'all' ? true : show === 'validated' ? !!g.validation : !g.validation && g.status !== 'closed'));
-  const PER_PAGE = 20;
-  const pages = Math.max(1, Math.ceil(filtered.length / PER_PAGE));
-  const page = Math.min(pages, Math.max(1, Number(sp.page) || 1));
-  const rows = filtered.slice((page - 1) * PER_PAGE, page * PER_PAGE);
-  const pageHref = (n: number) => sectionHref('/teacher/gap-log', section.id, { student: sp.student, show: show === 'to_validate' ? undefined : show, page: String(n) });
   const toValidate = all.filter((g) => !g.validation && g.status !== 'closed').length;
   const saved = sp.saved ? all.find((g) => g.id === sp.saved) : undefined;
 
@@ -93,9 +88,9 @@ export default async function GapLogPage({ searchParams }: { searchParams: Promi
             <Table>
               <THead>
                 <TR>
-                  <TH>Date</TH><TH>Student</TH><TH>Chapter · Subtopic</TH><TH>Band</TH><TH>Level</TH><TH>Primary gap</TH><TH>Teacher validation (#430)</TH><TH>Flags</TH>
+                  <TH>Date</TH><TH>Student</TH><TH>Chapter · Subtopic</TH><TH>Band</TH><TH>Level</TH><TH>Primary gap</TH><TH>Flags</TH>
                   <TH>Hours</TH><TH>Weeks</TH><TH>Interventions</TH><TH>Re-test</TH><TH>Re-test level</TH><TH title="Attempts since diagnosis">Attempts</TH><TH>Gained</TH>
-                  <TH title="Recovered? (#290)">Recovered</TH>
+                  <TH title="Recovered? (#290)">Recovered</TH><TH>Teacher validation (#430)</TH>
                 </TR>
               </THead>
               <TBody>
@@ -108,12 +103,7 @@ export default async function GapLogPage({ searchParams }: { searchParams: Promi
                       <TD className="min-w-48"><p className="text-xs text-subtle">{g.chapterName}</p><p className="text-sm">{g.subtopicName}</p></TD>
                       <TD className="whitespace-nowrap text-xs">{BAND_LABEL[g.band]}</TD>
                       <TD>L{g.level}</TD>
-                      <TD className="whitespace-nowrap"><GapBadge code={g.code} /></TD>
-                      <TD className="min-w-64">
-                        {g.validation ? <Validation v={g.validation} /> : (
-                          <ValidateGapForm compact action={validateGap} sectionId={section.id} learnerId={g.learnerId} gapId={g.id} code={g.code} gapJson={g.isPersona ? undefined : JSON.stringify(stripRow(g))} />
-                        )}
-                      </TD>
+                      <TD><GapBadge code={g.code} /></TD>
                       <TD className="text-xs">{g.secondaryFlags.length ? g.secondaryFlags.join(', ') : '–'}</TD>
                       <TD className="whitespace-nowrap tabular-nums">{formatHours(g.hoursToClose)}</TD>
                       <TD className="tabular-nums">{g.weeks ?? '–'}</TD>
@@ -123,6 +113,11 @@ export default async function GapLogPage({ searchParams }: { searchParams: Promi
                       <TD className="tabular-nums">{f.attempts ?? '–'}</TD>
                       <TD className="tabular-nums">{f.gained === undefined ? '–' : f.gained > 0 ? `+${f.gained}` : f.gained}</TD>
                       <TD>{f.recovered === undefined ? '–' : f.recovered ? <Badge tone="success">Yes</Badge> : <Badge tone="warning">Not yet</Badge>}</TD>
+                      <TD className="min-w-64">
+                        {g.validation ? <Validation v={g.validation} /> : (
+                          <ValidateGapForm compact action={validateGap} sectionId={section.id} learnerId={g.learnerId} gapId={g.id} code={g.code} gapJson={g.isPersona ? undefined : JSON.stringify(stripRow(g))} />
+                        )}
+                      </TD>
                     </TR>
                   );
                 })}
@@ -161,15 +156,6 @@ export default async function GapLogPage({ searchParams }: { searchParams: Promi
               );
             })}
           </div>
-          {pages > 1 && (
-            <nav aria-label="Pages" className="mt-4 flex items-center justify-between text-sm text-muted">
-              <span>{(page - 1) * PER_PAGE + 1}–{Math.min(page * PER_PAGE, filtered.length)} of {filtered.length}</span>
-              <span className="flex gap-2">
-                {page > 1 && <Link href={pageHref(page - 1)} className="rounded-lg border border-line bg-surface px-3 py-1.5 hover:bg-surface-muted">Previous</Link>}
-                {page < pages && <Link href={pageHref(page + 1)} className="rounded-lg border border-line bg-surface px-3 py-1.5 hover:bg-surface-muted">Next</Link>}
-              </span>
-            </nav>
-          )}
         </>
       )}
     </>
