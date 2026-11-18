@@ -174,8 +174,6 @@ export function applyAttempt(student: Student, attempt: Attempt, state: LearnerS
       delayed: delayed?.responses,
       minutesAllotted: post.minutesAllotted,
     });
-    // Engine edge case: a 100% pre-test makes dK 0/0 (NaN). Treat it as 99% so dK is defined.
-    if (inputs.preWeightedPct !== undefined && inputs.preWeightedPct >= 100) inputs.preWeightedPct = 99;
     const res = computeAlr(inputs);
     if (!res.snapshot) continue;
     const rec: AlrRecord = { ...res.snapshot, subjectId: subjectIdOf(chapterId), asOfUtc: now, missing: res.missing, action: res.action };
