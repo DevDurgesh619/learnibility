@@ -1,0 +1,1994 @@
+{
+  "schemaVersion": 1,
+  "generatedBy": "scripts/catalogues/generate.ts",
+  "items": [
+    {
+      "id": "skill-algebra",
+      "name": "Algebra",
+      "kind": "academic",
+      "category": "Quantitative",
+      "description": "Manipulating expressions, equations and functions; the backbone of every quantitative career.",
+      "levelDescriptors": [
+        "Solves one-step linear equations",
+        "Factorises and solves quadratics and simultaneous equations",
+        "Works fluently with functions, inequalities and sequences",
+        "Handles complex numbers, matrices and binomial expansions",
+        "Solves olympiad and JEE Advanced level algebra"
+      ],
+      "hoursPerLevel": [
+        20,
+        40,
+        60,
+        80,
+        120
+      ],
+      "subjectSlugs": [
+        "maths",
+        "applied-maths"
+      ],
+      "profileParamIds": [
+        "p62",
+        "p68"
+      ],
+      "resourceIds": [
+        "res-khan-academy-maths"
+      ]
+    },
+    {
+      "id": "skill-calculus",
+      "name": "Calculus",
+      "kind": "academic",
+      "category": "Quantitative",
+      "description": "Limits, differentiation and integration used to model change in engineering, physics, economics and ML.",
+      "levelDescriptors": [
+        "Understands rate of change and slope",
+        "Differentiates standard functions",
+        "Applies derivatives to optimisation and integrates by standard methods",
+        "Solves differential equations and area/volume problems",
+        "Handles multivariable and rigorous analysis problems"
+      ],
+      "hoursPerLevel": [
+        25,
+        45,
+        70,
+        90,
+        140
+      ],
+      "subjectSlugs": [
+        "maths",
+        "applied-maths"
+      ],
+      "profileParamIds": [
+        "p62"
+      ],
+      "resourceIds": [
+        "res-khan-academy-maths",
+        "res-nptel-iit-lectures"
+      ]
+    },
+    {
+      "id": "skill-statistics",
+      "name": "Statistics and Probability",
+      "kind": "academic",
+      "category": "Quantitative",
+      "description": "Describing data, reasoning about uncertainty and drawing conclusions from samples.",
+      "levelDescriptors": [
+        "Reads mean, median, mode and simple charts",
+        "Calculates spread and basic probability",
+        "Uses distributions and conditional probability",
+        "Runs hypothesis tests and regression",
+        "Designs studies and interprets models critically"
+      ],
+      "hoursPerLevel": [
+        15,
+        30,
+        50,
+        70,
+        100
+      ],
+      "subjectSlugs": [
+        "maths",
+        "applied-maths",
+        "economics"
+      ],
+      "profileParamIds": [
+        "p216",
+        "p318"
+      ],
+      "resourceIds": [
+        "res-khan-academy-statistics",
+        "course-python-for-data-science-upgrad",
+        "res-iai-acet-prep"
+      ]
+    },
+    {
+      "id": "skill-geometry",
+      "name": "Geometry and Trigonometry",
+      "kind": "academic",
+      "category": "Quantitative",
+      "description": "Shapes, angles, coordinates and vectors; the language of design and engineering drawings.",
+      "levelDescriptors": [
+        "Knows angle and area facts",
+        "Uses Pythagoras, similarity and basic trigonometry",
+        "Works with coordinate geometry and circle theorems",
+        "Uses vectors and 3D geometry",
+        "Proves and solves non-routine geometry"
+      ],
+      "hoursPerLevel": [
+        15,
+        30,
+        50,
+        70,
+        100
+      ],
+      "subjectSlugs": [
+        "maths"
+      ],
+      "profileParamIds": [
+        "p64"
+      ],
+      "resourceIds": [
+        "res-khan-academy-maths"
+      ]
+    },
+    {
+      "id": "skill-mechanics",
+      "name": "Mechanics",
+      "kind": "academic",
+      "category": "Science",
+      "description": "Forces, motion, energy and rotation: the core of physics and every engineering branch.",
+      "levelDescriptors": [
+        "States Newton's laws and units",
+        "Solves straight-line motion and force-diagram problems",
+        "Handles energy, momentum and circular motion",
+        "Solves rotational dynamics and multi-body problems",
+        "Models real systems with calculus-based mechanics"
+      ],
+      "hoursPerLevel": [
+        20,
+        40,
+        60,
+        90,
+        130
+      ],
+      "subjectSlugs": [
+        "physics",
+        "science"
+      ],
+      "profileParamIds": [
+        "p62",
+        "p73"
+      ],
+      "resourceIds": [
+        "res-khan-academy-science",
+        "res-phet-simulations"
+      ]
+    },
+    {
+      "id": "skill-electromagnetism",
+      "name": "Electricity and Magnetism",
+      "kind": "academic",
+      "category": "Science",
+      "description": "Circuits, fields and electromagnetic induction behind electronics and power systems.",
+      "levelDescriptors": [
+        "Builds and reads simple circuits",
+        "Applies Ohm's law and series/parallel rules",
+        "Works with electric fields, capacitance and magnetism",
+        "Solves induction and AC circuit problems",
+        "Uses Maxwell's equations qualitatively and quantitatively"
+      ],
+      "hoursPerLevel": [
+        15,
+        35,
+        55,
+        80,
+        120
+      ],
+      "subjectSlugs": [
+        "physics",
+        "science"
+      ],
+      "profileParamIds": [],
+      "resourceIds": [
+        "res-phet-simulations"
+      ]
+    },
+    {
+      "id": "skill-organic-chemistry",
+      "name": "Organic Chemistry",
+      "kind": "academic",
+      "category": "Science",
+      "description": "Structure and reactions of carbon compounds; essential for medicine, pharmacy and biotech.",
+      "levelDescriptors": [
+        "Names simple hydrocarbons",
+        "Recognises functional groups and isomers",
+        "Predicts products of standard reactions",
+        "Explains mechanisms and multi-step synthesis",
+        "Designs syntheses and interprets spectra"
+      ],
+      "hoursPerLevel": [
+        15,
+        35,
+        60,
+        90,
+        120
+      ],
+      "subjectSlugs": [
+        "chemistry",
+        "science"
+      ],
+      "profileParamIds": [
+        "p72"
+      ],
+      "resourceIds": [
+        "res-khan-academy-science"
+      ]
+    },
+    {
+      "id": "skill-physical-chemistry",
+      "name": "Physical and Inorganic Chemistry",
+      "kind": "academic",
+      "category": "Science",
+      "description": "Mole concept, equilibrium, thermodynamics, kinetics and periodic trends.",
+      "levelDescriptors": [
+        "Balances equations and uses the mole",
+        "Calculates concentrations and energy changes",
+        "Applies equilibrium, pH and kinetics",
+        "Solves thermodynamics and electrochemistry problems",
+        "Links quantum ideas to bonding and spectra"
+      ],
+      "hoursPerLevel": [
+        15,
+        35,
+        55,
+        80,
+        110
+      ],
+      "subjectSlugs": [
+        "chemistry",
+        "science"
+      ],
+      "profileParamIds": [],
+      "resourceIds": [
+        "res-ncert-textbooks",
+        "res-mit-ocw-chemistry"
+      ]
+    },
+    {
+      "id": "skill-human-physiology",
+      "name": "Human Physiology",
+      "kind": "academic",
+      "category": "Science",
+      "description": "How organ systems work together; the base of medicine, nursing and physiotherapy.",
+      "levelDescriptors": [
+        "Names major organs and systems",
+        "Explains digestion, circulation and respiration",
+        "Links structure to function across systems",
+        "Explains homeostasis, hormones and nervous control",
+        "Applies physiology to clinical cases"
+      ],
+      "hoursPerLevel": [
+        15,
+        30,
+        50,
+        70,
+        100
+      ],
+      "subjectSlugs": [
+        "biology",
+        "science"
+      ],
+      "profileParamIds": [],
+      "resourceIds": [
+        "res-khan-academy-science"
+      ]
+    },
+    {
+      "id": "skill-genetics",
+      "name": "Genetics and Molecular Biology",
+      "kind": "academic",
+      "category": "Science",
+      "description": "Inheritance, DNA, gene expression and biotechnology tools.",
+      "levelDescriptors": [
+        "Knows cells, chromosomes and DNA",
+        "Solves Mendelian crosses",
+        "Explains replication, transcription and translation",
+        "Applies recombinant DNA and population genetics",
+        "Reads research on genomics and CRISPR critically"
+      ],
+      "hoursPerLevel": [
+        15,
+        30,
+        50,
+        75,
+        110
+      ],
+      "subjectSlugs": [
+        "biology",
+        "science"
+      ],
+      "profileParamIds": [],
+      "resourceIds": [
+        "res-khan-academy-science"
+      ]
+    },
+    {
+      "id": "skill-accounting",
+      "name": "Accounting Principles",
+      "kind": "academic",
+      "category": "Business",
+      "description": "Recording transactions and preparing financial statements under Indian and international standards.",
+      "levelDescriptors": [
+        "Understands debit, credit and the accounting equation",
+        "Prepares journals, ledgers and a trial balance",
+        "Prepares final accounts with adjustments",
+        "Handles partnership, company accounts and ratio analysis",
+        "Applies Ind AS / IFRS to complex cases"
+      ],
+      "hoursPerLevel": [
+        15,
+        35,
+        60,
+        90,
+        150
+      ],
+      "subjectSlugs": [
+        "accountancy"
+      ],
+      "profileParamIds": [
+        "p218"
+      ],
+      "resourceIds": [
+        "res-ncert-textbooks",
+        "course-icai-ca-foundation-coaching",
+        "res-icai-bos-tax-material"
+      ]
+    },
+    {
+      "id": "skill-microeconomics",
+      "name": "Microeconomics",
+      "kind": "academic",
+      "category": "Business",
+      "description": "Demand, supply, costs and market structures: how individuals and firms decide.",
+      "levelDescriptors": [
+        "Explains scarcity and opportunity cost",
+        "Draws demand and supply and finds equilibrium",
+        "Uses elasticity, cost curves and market structures",
+        "Analyses market failure and policy with diagrams",
+        "Uses game theory and mathematical models"
+      ],
+      "hoursPerLevel": [
+        12,
+        25,
+        45,
+        70,
+        100
+      ],
+      "subjectSlugs": [
+        "economics"
+      ],
+      "profileParamIds": [
+        "p317"
+      ],
+      "resourceIds": [
+        "res-khan-academy-economics"
+      ]
+    },
+    {
+      "id": "skill-macroeconomics",
+      "name": "Macroeconomics",
+      "kind": "academic",
+      "category": "Business",
+      "description": "National income, inflation, money, trade and government policy.",
+      "levelDescriptors": [
+        "Knows GDP, inflation and unemployment",
+        "Explains the circular flow and money creation",
+        "Uses AD-AS and multiplier models",
+        "Evaluates monetary, fiscal and trade policy",
+        "Builds and critiques macro models with data"
+      ],
+      "hoursPerLevel": [
+        12,
+        25,
+        45,
+        70,
+        100
+      ],
+      "subjectSlugs": [
+        "economics"
+      ],
+      "profileParamIds": [],
+      "resourceIds": [
+        "res-khan-academy-economics"
+      ]
+    },
+    {
+      "id": "skill-business-fundamentals",
+      "name": "Business Fundamentals",
+      "kind": "academic",
+      "category": "Business",
+      "description": "How organisations are structured, financed, marketed and managed.",
+      "levelDescriptors": [
+        "Knows forms of business and functions",
+        "Explains planning, organising and staffing",
+        "Analyses marketing mix and financial decisions",
+        "Evaluates strategy with case evidence",
+        "Writes board-level recommendations"
+      ],
+      "hoursPerLevel": [
+        10,
+        20,
+        40,
+        60,
+        90
+      ],
+      "subjectSlugs": [
+        "business"
+      ],
+      "profileParamIds": [
+        "p360"
+      ],
+      "resourceIds": [
+        "res-ncert-textbooks"
+      ]
+    },
+    {
+      "id": "skill-polity-governance",
+      "name": "Polity and Governance",
+      "kind": "academic",
+      "category": "Law and society",
+      "description": "The Constitution, institutions and how public policy is made in India and abroad.",
+      "levelDescriptors": [
+        "Knows the branches of government",
+        "Explains fundamental rights and federal structure",
+        "Analyses elections, courts and policy processes",
+        "Compares constitutions and evaluates reforms",
+        "Writes UPSC-mains-quality answers on governance"
+      ],
+      "hoursPerLevel": [
+        12,
+        25,
+        45,
+        70,
+        110
+      ],
+      "subjectSlugs": [
+        "political-science",
+        "social-science"
+      ],
+      "profileParamIds": [],
+      "resourceIds": [
+        "res-ncert-textbooks",
+        "res-prs-legislative"
+      ]
+    },
+    {
+      "id": "skill-history-analysis",
+      "name": "Historical Analysis",
+      "kind": "academic",
+      "category": "Law and society",
+      "description": "Reading sources, building arguments about cause and change over time.",
+      "levelDescriptors": [
+        "Places events on a timeline",
+        "Explains causes and consequences",
+        "Uses primary sources with context",
+        "Weighs historians' interpretations",
+        "Writes original source-based arguments"
+      ],
+      "hoursPerLevel": [
+        10,
+        20,
+        40,
+        60,
+        90
+      ],
+      "subjectSlugs": [
+        "history",
+        "social-science"
+      ],
+      "profileParamIds": [],
+      "resourceIds": [
+        "res-crashcourse"
+      ]
+    },
+    {
+      "id": "skill-geography-environment",
+      "name": "Geography and Environment",
+      "kind": "academic",
+      "category": "Science",
+      "description": "Physical systems, resources, climate and human-environment interaction.",
+      "levelDescriptors": [
+        "Reads maps and climate basics",
+        "Explains landforms, resources and population",
+        "Analyses climate change and land use with data",
+        "Uses GIS and fieldwork methods",
+        "Designs environmental assessments"
+      ],
+      "hoursPerLevel": [
+        10,
+        20,
+        40,
+        60,
+        90
+      ],
+      "subjectSlugs": [
+        "geography",
+        "environmental",
+        "social-science"
+      ],
+      "profileParamIds": [],
+      "resourceIds": [
+        "res-ncert-textbooks"
+      ]
+    },
+    {
+      "id": "skill-psychology-foundations",
+      "name": "Psychology Foundations",
+      "kind": "academic",
+      "category": "Health",
+      "description": "Theories of mind, behaviour, development and research methods.",
+      "levelDescriptors": [
+        "Knows major schools of psychology",
+        "Explains learning, memory and motivation",
+        "Applies developmental and social psychology",
+        "Evaluates research designs and ethics",
+        "Applies clinical frameworks to case studies"
+      ],
+      "hoursPerLevel": [
+        10,
+        20,
+        40,
+        60,
+        90
+      ],
+      "subjectSlugs": [
+        "psychology"
+      ],
+      "profileParamIds": [],
+      "resourceIds": [
+        "res-crashcourse",
+        "res-swayam-courses"
+      ]
+    },
+    {
+      "id": "skill-legal-concepts",
+      "name": "Legal Concepts",
+      "kind": "academic",
+      "category": "Law and society",
+      "description": "Contracts, torts, constitutional law and the logic of legal rules.",
+      "levelDescriptors": [
+        "Knows what laws and courts do",
+        "Explains contract and tort basics",
+        "Applies principles to fact patterns (CLAT legal reasoning)",
+        "Analyses case law and statutory interpretation",
+        "Builds full legal arguments with precedent"
+      ],
+      "hoursPerLevel": [
+        12,
+        25,
+        45,
+        70,
+        110
+      ],
+      "subjectSlugs": [
+        "legal-studies"
+      ],
+      "profileParamIds": [
+        "p369"
+      ],
+      "resourceIds": [
+        "res-clat-consortium-papers",
+        "res-swayam-courses",
+        "course-clat-possible-mocks",
+        "res-indian-kanoon-research"
+      ]
+    },
+    {
+      "id": "skill-english-literature",
+      "name": "Literary and Textual Analysis",
+      "kind": "academic",
+      "category": "Communication",
+      "description": "Close reading of texts, tone, argument and rhetoric.",
+      "levelDescriptors": [
+        "Summarises a passage accurately",
+        "Identifies theme, tone and devices",
+        "Analyses how language shapes meaning",
+        "Compares texts and critical views",
+        "Produces original, well-evidenced criticism"
+      ],
+      "hoursPerLevel": [
+        10,
+        20,
+        40,
+        60,
+        90
+      ],
+      "subjectSlugs": [
+        "english"
+      ],
+      "profileParamIds": [
+        "p66",
+        "p67"
+      ],
+      "resourceIds": [
+        "res-ncert-textbooks"
+      ]
+    },
+    {
+      "id": "skill-written-communication",
+      "name": "Written Communication",
+      "kind": "future",
+      "category": "Communication",
+      "description": "Clear, structured writing for essays, reports, emails and briefs.",
+      "levelDescriptors": [
+        "Writes simple, mostly correct paragraphs",
+        "Organises a short essay with a clear point",
+        "Adapts tone and structure to audience",
+        "Writes persuasive, concise professional documents",
+        "Writes publishable, high-stakes documents"
+      ],
+      "hoursPerLevel": [
+        10,
+        25,
+        40,
+        60,
+        90
+      ],
+      "subjectSlugs": [
+        "english"
+      ],
+      "profileParamIds": [
+        "p210",
+        "p356"
+      ],
+      "resourceIds": [
+        "res-the-hindu-editorials",
+        "res-purdue-owl"
+      ]
+    },
+    {
+      "id": "skill-spoken-communication",
+      "name": "Spoken Communication",
+      "kind": "future",
+      "category": "Communication",
+      "description": "Speaking clearly and persuasively in class, interviews and meetings.",
+      "levelDescriptors": [
+        "Answers questions in short sentences",
+        "Explains an idea clearly to peers",
+        "Holds a structured discussion or viva",
+        "Persuades and handles challenge confidently",
+        "Leads high-stakes negotiations and debates"
+      ],
+      "hoursPerLevel": [
+        8,
+        20,
+        35,
+        50,
+        80
+      ],
+      "subjectSlugs": [],
+      "profileParamIds": [
+        "p211",
+        "p357",
+        "p358"
+      ],
+      "resourceIds": [
+        "res-toastmasters-youth",
+        "res-debate-mun-practice"
+      ]
+    },
+    {
+      "id": "skill-english-proficiency",
+      "name": "English Proficiency",
+      "kind": "future",
+      "category": "Communication",
+      "description": "Functional academic English; maps to IELTS bands for study abroad.",
+      "levelDescriptors": [
+        "IELTS 4.5 equivalent",
+        "IELTS 5.5 equivalent",
+        "IELTS 6.5 equivalent",
+        "IELTS 7.5 equivalent",
+        "IELTS 8.5 equivalent"
+      ],
+      "hoursPerLevel": [
+        40,
+        50,
+        60,
+        80,
+        120
+      ],
+      "subjectSlugs": [
+        "english"
+      ],
+      "profileParamIds": [
+        "p212"
+      ],
+      "resourceIds": [
+        "res-ielts-british-council-free",
+        "course-magoosh-ielts"
+      ]
+    },
+    {
+      "id": "skill-presentation",
+      "name": "Presentation",
+      "kind": "future",
+      "category": "Communication",
+      "description": "Designing and delivering a clear, visual, timed presentation.",
+      "levelDescriptors": [
+        "Reads from slides",
+        "Delivers a structured 5-minute talk",
+        "Uses visuals and story to hold attention",
+        "Handles Q&A and adapts live",
+        "Presents to senior or external audiences with impact"
+      ],
+      "hoursPerLevel": [
+        5,
+        12,
+        20,
+        35,
+        50
+      ],
+      "subjectSlugs": [],
+      "profileParamIds": [
+        "p222"
+      ],
+      "resourceIds": [
+        "res-toastmasters-youth"
+      ]
+    },
+    {
+      "id": "skill-critical-thinking",
+      "name": "Critical Thinking",
+      "kind": "future",
+      "category": "Reasoning",
+      "description": "Evaluating evidence and arguments, spotting assumptions and flaws.",
+      "levelDescriptors": [
+        "Spots an obvious opinion vs fact",
+        "Identifies assumptions in an argument",
+        "Evaluates evidence quality and alternatives",
+        "Builds and stress-tests complex arguments",
+        "Synthesises conflicting evidence into sound judgements"
+      ],
+      "hoursPerLevel": [
+        10,
+        20,
+        35,
+        55,
+        80
+      ],
+      "subjectSlugs": [],
+      "profileParamIds": [
+        "p213",
+        "p320",
+        "p316"
+      ],
+      "resourceIds": [
+        "res-the-hindu-editorials",
+        "res-lnat-practice",
+        "res-harvard-justice-ethics"
+      ]
+    },
+    {
+      "id": "skill-logical-reasoning",
+      "name": "Logical Reasoning",
+      "kind": "future",
+      "category": "Reasoning",
+      "description": "Deduction, puzzles and analytical reasoning tested in CLAT, IPMAT, LNAT and aptitude rounds.",
+      "levelDescriptors": [
+        "Solves simple syllogisms",
+        "Handles seating, ordering and coding puzzles",
+        "Solves timed CLAT/IPMAT level sets",
+        "Solves complex multi-constraint sets fast",
+        "Top-percentile performance on aptitude tests"
+      ],
+      "hoursPerLevel": [
+        10,
+        20,
+        35,
+        50,
+        70
+      ],
+      "subjectSlugs": [],
+      "profileParamIds": [
+        "p65",
+        "p63"
+      ],
+      "resourceIds": [
+        "res-clat-consortium-papers",
+        "course-clat-possible-mocks"
+      ]
+    },
+    {
+      "id": "skill-quantitative-reasoning",
+      "name": "Quantitative Reasoning",
+      "kind": "future",
+      "category": "Reasoning",
+      "description": "Number sense, estimation and data interpretation under time pressure.",
+      "levelDescriptors": [
+        "Does mental arithmetic and percentages",
+        "Interprets tables and simple charts",
+        "Solves timed aptitude and DI sets",
+        "Estimates and checks complex calculations fast",
+        "Top-percentile performance on CAT/IPMAT style quant"
+      ],
+      "hoursPerLevel": [
+        10,
+        20,
+        35,
+        50,
+        70
+      ],
+      "subjectSlugs": [
+        "maths"
+      ],
+      "profileParamIds": [
+        "p62",
+        "p319"
+      ],
+      "resourceIds": [
+        "res-sat-bluebook-khan",
+        "course-ipmat-online-course"
+      ]
+    },
+    {
+      "id": "skill-problem-solving",
+      "name": "Structured Problem Solving",
+      "kind": "future",
+      "category": "Reasoning",
+      "description": "Breaking an unfamiliar problem into parts, trying approaches and checking results.",
+      "levelDescriptors": [
+        "Follows a worked example",
+        "Chooses a method for a familiar problem",
+        "Breaks a new problem into steps",
+        "Scopes ambiguous problems and tests hypotheses",
+        "Solves open-ended problems others cannot frame"
+      ],
+      "hoursPerLevel": [
+        10,
+        20,
+        35,
+        55,
+        80
+      ],
+      "subjectSlugs": [],
+      "profileParamIds": [
+        "p78",
+        "p362"
+      ],
+      "resourceIds": [
+        "res-ncert-exemplar"
+      ]
+    },
+    {
+      "id": "skill-research",
+      "name": "Research",
+      "kind": "future",
+      "category": "Reasoning",
+      "description": "Finding, evaluating, synthesising and citing sources.",
+      "levelDescriptors": [
+        "Finds information from one source",
+        "Compares several sources and cites them",
+        "Writes a sourced synthesis on a question",
+        "Designs a small study and analyses results",
+        "Produces original research fit for publication"
+      ],
+      "hoursPerLevel": [
+        10,
+        20,
+        40,
+        60,
+        100
+      ],
+      "subjectSlugs": [],
+      "profileParamIds": [
+        "p221"
+      ],
+      "resourceIds": [
+        "res-nptel-iit-lectures",
+        "res-purdue-owl",
+        "res-school-newsletter-and-journalism"
+      ]
+    },
+    {
+      "id": "skill-data-literacy",
+      "name": "Data Literacy",
+      "kind": "future",
+      "category": "Digital",
+      "description": "Reading charts and spreadsheets and questioning numbers.",
+      "levelDescriptors": [
+        "Reads a bar chart and table",
+        "Spots trends and simple errors in data",
+        "Summarises data with averages and charts",
+        "Cleans data and draws defensible conclusions",
+        "Leads data-driven decisions for a team"
+      ],
+      "hoursPerLevel": [
+        6,
+        12,
+        25,
+        40,
+        60
+      ],
+      "subjectSlugs": [],
+      "profileParamIds": [
+        "p216"
+      ],
+      "resourceIds": [
+        "res-khan-academy-statistics",
+        "course-google-data-analytics"
+      ]
+    },
+    {
+      "id": "skill-ai-tool-fluency",
+      "name": "AI Tool Fluency",
+      "kind": "future",
+      "category": "Digital",
+      "description": "Using AI assistants productively and responsibly: prompting, checking output, citing use.",
+      "levelDescriptors": [
+        "Asks a chatbot simple questions",
+        "Writes clear prompts and checks answers",
+        "Uses AI to draft, code or study with verification",
+        "Builds repeatable AI workflows for real tasks",
+        "Designs AI-enabled products and evaluations"
+      ],
+      "hoursPerLevel": [
+        3,
+        8,
+        15,
+        30,
+        50
+      ],
+      "subjectSlugs": [],
+      "profileParamIds": [
+        "p217"
+      ],
+      "resourceIds": [
+        "res-elements-of-ai",
+        "res-google-ai-essentials-free-audit"
+      ]
+    },
+    {
+      "id": "skill-financial-literacy",
+      "name": "Financial Literacy",
+      "kind": "future",
+      "category": "Business",
+      "description": "Budgeting, interest, investing and reading financial statements.",
+      "levelDescriptors": [
+        "Understands saving and spending",
+        "Calculates simple and compound interest",
+        "Plans a budget and compares loans",
+        "Reads company financial statements",
+        "Values investments and builds financial plans"
+      ],
+      "hoursPerLevel": [
+        5,
+        10,
+        20,
+        35,
+        60
+      ],
+      "subjectSlugs": [
+        "accountancy",
+        "economics"
+      ],
+      "profileParamIds": [
+        "p218"
+      ],
+      "resourceIds": [
+        "res-ncfe-financial-literacy",
+        "res-zerodha-varsity",
+        "course-cfa-level-1-prep"
+      ]
+    },
+    {
+      "id": "skill-creative-design",
+      "name": "Visual and Creative Design",
+      "kind": "future",
+      "category": "Creative",
+      "description": "Composition, colour, typography and visual storytelling.",
+      "levelDescriptors": [
+        "Makes simple sketches and layouts",
+        "Applies basic composition and colour",
+        "Produces a coherent portfolio piece",
+        "Develops a recognisable style across a portfolio",
+        "Professional, award-quality creative work"
+      ],
+      "hoursPerLevel": [
+        15,
+        30,
+        50,
+        80,
+        120
+      ],
+      "subjectSlugs": [],
+      "profileParamIds": [
+        "p219",
+        "p81"
+      ],
+      "resourceIds": [
+        "course-nid-dat-prep-course"
+      ]
+    },
+    {
+      "id": "skill-entrepreneurship",
+      "name": "Entrepreneurial Thinking",
+      "kind": "future",
+      "category": "Business",
+      "description": "Spotting opportunities, testing ideas cheaply and selling them.",
+      "levelDescriptors": [
+        "Has ideas for products or services",
+        "Runs a small school project or stall",
+        "Validates an idea with real users or customers",
+        "Runs a venture with revenue or users",
+        "Builds and scales a team-led venture"
+      ],
+      "hoursPerLevel": [
+        10,
+        25,
+        50,
+        80,
+        120
+      ],
+      "subjectSlugs": [
+        "entrepreneurship",
+        "business"
+      ],
+      "profileParamIds": [
+        "p220",
+        "p367"
+      ],
+      "resourceIds": [
+        "course-young-founders-lab"
+      ]
+    },
+    {
+      "id": "skill-teamwork",
+      "name": "Teamwork and Collaboration",
+      "kind": "future",
+      "category": "People",
+      "description": "Working in groups: sharing load, resolving conflict, delivering together.",
+      "levelDescriptors": [
+        "Joins group tasks when asked",
+        "Takes and completes a role in a team",
+        "Coordinates others and resolves minor conflict",
+        "Leads a team through a project",
+        "Builds high-performing teams"
+      ],
+      "hoursPerLevel": [
+        5,
+        15,
+        30,
+        50,
+        80
+      ],
+      "subjectSlugs": [],
+      "profileParamIds": [
+        "p214",
+        "p167",
+        "p338"
+      ],
+      "resourceIds": [
+        "res-debate-mun-practice",
+        "course-coursera-teamwork"
+      ]
+    },
+    {
+      "id": "skill-leadership",
+      "name": "Leadership and Ownership",
+      "kind": "future",
+      "category": "People",
+      "description": "Taking initiative, setting direction and being accountable for outcomes.",
+      "levelDescriptors": [
+        "Takes charge of own tasks",
+        "Leads a small group activity",
+        "Leads a club, event or team project",
+        "Leads people across functions with results",
+        "Leads organisations through change"
+      ],
+      "hoursPerLevel": [
+        10,
+        20,
+        40,
+        70,
+        110
+      ],
+      "subjectSlugs": [],
+      "profileParamIds": [
+        "p367",
+        "p359"
+      ],
+      "resourceIds": [
+        "course-young-founders-lab",
+        "course-coursera-teamwork"
+      ]
+    },
+    {
+      "id": "skill-empathy",
+      "name": "Empathy and User Understanding",
+      "kind": "future",
+      "category": "People",
+      "description": "Understanding what another person needs and feels; key to care, design and service roles.",
+      "levelDescriptors": [
+        "Notices how others feel",
+        "Listens and reflects back accurately",
+        "Uses interviews to uncover needs",
+        "Designs services or care around user needs",
+        "Leads human-centred practice for teams"
+      ],
+      "hoursPerLevel": [
+        5,
+        15,
+        30,
+        50,
+        80
+      ],
+      "subjectSlugs": [],
+      "profileParamIds": [
+        "p368"
+      ],
+      "resourceIds": [
+        "course-google-ux-design",
+        "course-st-john-ambulance-first-aid"
+      ]
+    },
+    {
+      "id": "skill-ethical-reasoning",
+      "name": "Ethical Reasoning",
+      "kind": "future",
+      "category": "Law and society",
+      "description": "Weighing rights, duties and consequences in professional decisions.",
+      "levelDescriptors": [
+        "Knows basic right and wrong in school rules",
+        "Explains an ethical dilemma from two sides",
+        "Applies professional codes to cases",
+        "Resolves complex dilemmas with justification",
+        "Advises institutions on ethics"
+      ],
+      "hoursPerLevel": [
+        5,
+        10,
+        25,
+        40,
+        60
+      ],
+      "subjectSlugs": [],
+      "profileParamIds": [
+        "p369"
+      ],
+      "resourceIds": [
+        "res-harvard-justice-ethics"
+      ]
+    },
+    {
+      "id": "skill-time-management",
+      "name": "Time Management",
+      "kind": "future",
+      "category": "People",
+      "description": "Planning, prioritising and finishing work on time.",
+      "levelDescriptors": [
+        "Uses a to-do list with reminders",
+        "Plans a week and meets most deadlines",
+        "Prioritises competing deadlines reliably",
+        "Manages long projects with milestones",
+        "Manages others' time and portfolios of work"
+      ],
+      "hoursPerLevel": [
+        4,
+        10,
+        20,
+        35,
+        50
+      ],
+      "subjectSlugs": [],
+      "profileParamIds": [
+        "p223",
+        "p363"
+      ],
+      "resourceIds": [
+        "res-learnibility-study-planner"
+      ]
+    },
+    {
+      "id": "skill-commercial-awareness",
+      "name": "Commercial Awareness",
+      "kind": "future",
+      "category": "Business",
+      "description": "Understanding how businesses make money and what moves markets.",
+      "levelDescriptors": [
+        "Knows big companies and what they sell",
+        "Explains revenue, cost and profit for a business",
+        "Follows business news and explains impacts",
+        "Analyses an industry and its competitors",
+        "Advises on strategy with market insight"
+      ],
+      "hoursPerLevel": [
+        5,
+        15,
+        30,
+        50,
+        80
+      ],
+      "subjectSlugs": [
+        "business",
+        "economics"
+      ],
+      "profileParamIds": [
+        "p360",
+        "p361"
+      ],
+      "resourceIds": [
+        "res-economic-times-business-reading"
+      ]
+    },
+    {
+      "id": "skill-python-programming",
+      "name": "Python Programming",
+      "kind": "technical",
+      "category": "Digital",
+      "description": "Writing working programs in Python, the default language for data, AI and scripting.",
+      "levelDescriptors": [
+        "Writes simple scripts with variables and loops",
+        "Uses functions, lists and dictionaries",
+        "Builds multi-file programs with libraries",
+        "Writes tested, efficient, well-structured code",
+        "Designs large systems and reviews others' code"
+      ],
+      "hoursPerLevel": [
+        20,
+        40,
+        80,
+        150,
+        250
+      ],
+      "subjectSlugs": [
+        "computer-science",
+        "informatics"
+      ],
+      "profileParamIds": [
+        "p215"
+      ],
+      "resourceIds": [
+        "res-cs50x",
+        "res-cs50p",
+        "res-kaggle-learn",
+        "course-python-for-data-science-upgrad"
+      ]
+    },
+    {
+      "id": "skill-data-structures-algorithms",
+      "name": "Data Structures and Algorithms",
+      "kind": "technical",
+      "category": "Digital",
+      "description": "Choosing and implementing efficient data structures; the core of coding interviews.",
+      "levelDescriptors": [
+        "Uses arrays and loops",
+        "Implements searching, sorting and recursion",
+        "Uses trees, graphs, hashing with complexity analysis",
+        "Solves medium-hard competitive problems",
+        "Solves ICPC-level problems"
+      ],
+      "hoursPerLevel": [
+        30,
+        60,
+        100,
+        150,
+        250
+      ],
+      "subjectSlugs": [
+        "computer-science"
+      ],
+      "profileParamIds": [
+        "p215"
+      ],
+      "resourceIds": [
+        "res-cs50x"
+      ]
+    },
+    {
+      "id": "skill-web-development",
+      "name": "Web and App Development",
+      "kind": "technical",
+      "category": "Digital",
+      "description": "Building websites and apps with HTML, CSS, JavaScript and a framework.",
+      "levelDescriptors": [
+        "Builds a static web page",
+        "Builds an interactive site with JavaScript",
+        "Builds a full-stack app with a database",
+        "Ships production apps with auth, tests and deploys",
+        "Architects scalable products"
+      ],
+      "hoursPerLevel": [
+        20,
+        50,
+        100,
+        160,
+        250
+      ],
+      "subjectSlugs": [
+        "computer-science",
+        "informatics"
+      ],
+      "profileParamIds": [
+        "p215",
+        "p228"
+      ],
+      "resourceIds": [
+        "res-cs50x",
+        "res-freecodecamp-web"
+      ]
+    },
+    {
+      "id": "skill-sql-databases",
+      "name": "SQL and Databases",
+      "kind": "technical",
+      "category": "Digital",
+      "description": "Querying and modelling data in relational databases.",
+      "levelDescriptors": [
+        "Runs a simple SELECT",
+        "Filters, sorts and joins two tables",
+        "Writes aggregations, subqueries and window functions",
+        "Designs schemas and optimises queries",
+        "Runs data platforms at scale"
+      ],
+      "hoursPerLevel": [
+        8,
+        20,
+        40,
+        70,
+        120
+      ],
+      "subjectSlugs": [
+        "informatics",
+        "computer-science"
+      ],
+      "profileParamIds": [
+        "p215",
+        "p216"
+      ],
+      "resourceIds": [
+        "res-cs50x",
+        "res-sqlbolt",
+        "res-khan-sql",
+        "course-google-data-analytics"
+      ]
+    },
+    {
+      "id": "skill-spreadsheets",
+      "name": "Excel and Spreadsheets",
+      "kind": "technical",
+      "category": "Digital",
+      "description": "Formulas, pivot tables and models in Excel or Google Sheets.",
+      "levelDescriptors": [
+        "Enters data and uses SUM",
+        "Uses formulas, sorting and charts",
+        "Uses lookups, pivot tables and conditional logic",
+        "Builds dashboards and automated models",
+        "Builds board-grade financial and operational models"
+      ],
+      "hoursPerLevel": [
+        5,
+        12,
+        25,
+        45,
+        70
+      ],
+      "subjectSlugs": [
+        "informatics",
+        "accountancy"
+      ],
+      "profileParamIds": [
+        "p216"
+      ],
+      "resourceIds": [
+        "res-excel-microsoft-learn",
+        "course-google-data-analytics",
+        "course-excel-financial-modelling"
+      ]
+    },
+    {
+      "id": "skill-data-visualisation",
+      "name": "Data Visualisation (Tableau / Power BI)",
+      "kind": "technical",
+      "category": "Digital",
+      "description": "Turning data into clear charts and dashboards that drive decisions.",
+      "levelDescriptors": [
+        "Makes a basic chart",
+        "Chooses the right chart for a question",
+        "Builds an interactive dashboard",
+        "Designs dashboards used by managers weekly",
+        "Leads BI standards for an organisation"
+      ],
+      "hoursPerLevel": [
+        6,
+        15,
+        30,
+        50,
+        80
+      ],
+      "subjectSlugs": [],
+      "profileParamIds": [
+        "p216"
+      ],
+      "resourceIds": [
+        "res-tableau-public-training",
+        "res-kaggle-learn",
+        "course-google-data-analytics",
+        "course-tableau-desktop-specialist"
+      ]
+    },
+    {
+      "id": "skill-machine-learning",
+      "name": "Machine Learning",
+      "kind": "technical",
+      "category": "Digital",
+      "description": "Training and evaluating predictive models, from regression to neural networks.",
+      "levelDescriptors": [
+        "Knows what a model and training data are",
+        "Trains a simple model with scikit-learn",
+        "Evaluates, tunes and explains models",
+        "Builds deep-learning models and deploys them",
+        "Researches or leads ML systems in production"
+      ],
+      "hoursPerLevel": [
+        30,
+        60,
+        120,
+        200,
+        300
+      ],
+      "subjectSlugs": [
+        "computer-science"
+      ],
+      "profileParamIds": [
+        "p215"
+      ],
+      "resourceIds": [
+        "res-kaggle-learn",
+        "course-deep-learning-specialisation"
+      ]
+    },
+    {
+      "id": "skill-cybersecurity",
+      "name": "Cybersecurity Fundamentals",
+      "kind": "technical",
+      "category": "Digital",
+      "description": "Networks, threats, defence and ethical hacking.",
+      "levelDescriptors": [
+        "Uses strong passwords and 2FA",
+        "Explains common attacks and networking basics",
+        "Configures firewalls and finds basic vulnerabilities",
+        "Performs penetration tests and incident response",
+        "Leads security architecture"
+      ],
+      "hoursPerLevel": [
+        10,
+        40,
+        80,
+        150,
+        250
+      ],
+      "subjectSlugs": [
+        "computer-science"
+      ],
+      "profileParamIds": [
+        "p215"
+      ],
+      "resourceIds": [
+        "res-tryhackme-free",
+        "course-google-cybersecurity"
+      ]
+    },
+    {
+      "id": "skill-cad-modelling",
+      "name": "CAD and Engineering Drawing",
+      "kind": "technical",
+      "category": "Engineering",
+      "description": "Drafting and 3D modelling in AutoCAD, SolidWorks or Fusion 360.",
+      "levelDescriptors": [
+        "Reads an engineering drawing",
+        "Draws 2D parts to scale",
+        "Models 3D parts and assemblies",
+        "Runs simulations and produces manufacturing drawings",
+        "Leads design reviews for complex products"
+      ],
+      "hoursPerLevel": [
+        10,
+        30,
+        60,
+        100,
+        160
+      ],
+      "subjectSlugs": [],
+      "profileParamIds": [
+        "p64"
+      ],
+      "resourceIds": [
+        "res-fusion-360-education"
+      ]
+    },
+    {
+      "id": "skill-electronics-prototyping",
+      "name": "Electronics Prototyping",
+      "kind": "technical",
+      "category": "Engineering",
+      "description": "Building circuits with Arduino/Raspberry Pi and reading datasheets.",
+      "levelDescriptors": [
+        "Lights an LED on a breadboard",
+        "Builds Arduino projects with sensors",
+        "Designs and solders custom circuits",
+        "Designs PCBs and embedded firmware",
+        "Ships embedded products"
+      ],
+      "hoursPerLevel": [
+        10,
+        30,
+        60,
+        100,
+        160
+      ],
+      "subjectSlugs": [
+        "physics",
+        "computer-science"
+      ],
+      "profileParamIds": [
+        "p228"
+      ],
+      "resourceIds": [
+        "res-arduino-project-hub"
+      ]
+    },
+    {
+      "id": "skill-lab-techniques",
+      "name": "Laboratory Techniques",
+      "kind": "technical",
+      "category": "Science",
+      "description": "Safe, precise practical work: titration, microscopy, PCR, measurement and error analysis.",
+      "levelDescriptors": [
+        "Follows lab safety and simple procedures",
+        "Records accurate measurements",
+        "Designs a fair test and analyses error",
+        "Runs advanced techniques (PCR, chromatography)",
+        "Designs research-grade protocols"
+      ],
+      "hoursPerLevel": [
+        10,
+        25,
+        50,
+        80,
+        120
+      ],
+      "subjectSlugs": [
+        "chemistry",
+        "biology",
+        "physics",
+        "science"
+      ],
+      "profileParamIds": [],
+      "resourceIds": [
+        "course-labster-virtual-labs",
+        "res-olabs"
+      ]
+    },
+    {
+      "id": "skill-financial-modelling",
+      "name": "Financial Modelling and Valuation",
+      "kind": "technical",
+      "category": "Business",
+      "description": "Building three-statement models and valuing companies.",
+      "levelDescriptors": [
+        "Reads an income statement",
+        "Calculates ratios and growth",
+        "Builds a three-statement model",
+        "Values companies with DCF and comparables",
+        "Builds deal models for M&A and LBOs"
+      ],
+      "hoursPerLevel": [
+        10,
+        30,
+        60,
+        100,
+        160
+      ],
+      "subjectSlugs": [
+        "accountancy"
+      ],
+      "profileParamIds": [
+        "p218"
+      ],
+      "resourceIds": [
+        "res-zerodha-varsity",
+        "course-excel-financial-modelling",
+        "course-cfa-level-1-prep"
+      ]
+    },
+    {
+      "id": "skill-taxation-audit",
+      "name": "Taxation and Audit",
+      "kind": "technical",
+      "category": "Business",
+      "description": "Indian direct and indirect tax (GST) and audit procedures.",
+      "levelDescriptors": [
+        "Knows what income tax and GST are",
+        "Computes simple income tax",
+        "Prepares GST returns and tax computations",
+        "Plans audits and handles assessments",
+        "Advises on complex tax and assurance"
+      ],
+      "hoursPerLevel": [
+        10,
+        40,
+        80,
+        150,
+        250
+      ],
+      "subjectSlugs": [
+        "accountancy"
+      ],
+      "profileParamIds": [],
+      "resourceIds": [
+        "res-icai-bos-tax-material"
+      ]
+    },
+    {
+      "id": "skill-ui-ux-tools",
+      "name": "UX Research and Figma",
+      "kind": "technical",
+      "category": "Creative",
+      "description": "User research, wireframing and prototyping in Figma.",
+      "levelDescriptors": [
+        "Sketches a screen on paper",
+        "Makes wireframes in Figma",
+        "Runs user tests and builds clickable prototypes",
+        "Designs complete flows with a design system",
+        "Leads product design and research practice"
+      ],
+      "hoursPerLevel": [
+        10,
+        30,
+        60,
+        100,
+        150
+      ],
+      "subjectSlugs": [],
+      "profileParamIds": [
+        "p219",
+        "p368"
+      ],
+      "resourceIds": [
+        "res-google-ux-figma-free",
+        "course-google-ux-design"
+      ]
+    },
+    {
+      "id": "skill-drawing-sketching",
+      "name": "Drawing and Sketching",
+      "kind": "technical",
+      "category": "Creative",
+      "description": "Freehand and perspective drawing for design and architecture entrance tests.",
+      "levelDescriptors": [
+        "Draws simple objects",
+        "Draws in perspective with proportion",
+        "Renders light, texture and memory drawing",
+        "Produces NID/NATA-level compositions",
+        "Exhibition-quality drawing"
+      ],
+      "hoursPerLevel": [
+        15,
+        30,
+        60,
+        100,
+        150
+      ],
+      "subjectSlugs": [],
+      "profileParamIds": [
+        "p219",
+        "p64"
+      ],
+      "resourceIds": [
+        "res-drawabox",
+        "course-nid-dat-prep-course"
+      ]
+    },
+    {
+      "id": "skill-game-engines",
+      "name": "Game Engines (Unity / Unreal)",
+      "kind": "technical",
+      "category": "Digital",
+      "description": "Building playable games with a game engine and C#/C++.",
+      "levelDescriptors": [
+        "Plays with a game template",
+        "Builds a simple 2D game",
+        "Builds a polished 3D game with physics",
+        "Ships a game on a store",
+        "Leads a game production"
+      ],
+      "hoursPerLevel": [
+        15,
+        40,
+        80,
+        150,
+        250
+      ],
+      "subjectSlugs": [
+        "computer-science"
+      ],
+      "profileParamIds": [
+        "p228"
+      ],
+      "resourceIds": [
+        "res-unity-learn"
+      ]
+    },
+    {
+      "id": "skill-digital-marketing",
+      "name": "Digital Marketing",
+      "kind": "technical",
+      "category": "Business",
+      "description": "SEO, social media, performance ads and analytics.",
+      "levelDescriptors": [
+        "Uses social media personally",
+        "Plans posts for a brand page",
+        "Runs ad campaigns and reads analytics",
+        "Optimises multi-channel campaigns to ROI",
+        "Leads growth strategy"
+      ],
+      "hoursPerLevel": [
+        5,
+        20,
+        40,
+        70,
+        110
+      ],
+      "subjectSlugs": [
+        "business"
+      ],
+      "profileParamIds": [
+        "p360"
+      ],
+      "resourceIds": [
+        "course-google-digital-marketing"
+      ]
+    },
+    {
+      "id": "skill-legal-drafting",
+      "name": "Legal Research and Drafting",
+      "kind": "domain",
+      "category": "Law and society",
+      "description": "Finding case law and drafting notices, contracts and memos.",
+      "levelDescriptors": [
+        "Knows what a judgment looks like",
+        "Summarises a judgment",
+        "Researches precedents on SCC/Manupatra",
+        "Drafts contracts and legal memos",
+        "Drafts complex transactional documents"
+      ],
+      "hoursPerLevel": [
+        10,
+        40,
+        80,
+        150,
+        250
+      ],
+      "subjectSlugs": [
+        "legal-studies"
+      ],
+      "profileParamIds": [
+        "p221",
+        "p356"
+      ],
+      "resourceIds": [
+        "res-indian-kanoon-research",
+        "course-legal-writing-course"
+      ]
+    },
+    {
+      "id": "skill-debate-advocacy",
+      "name": "Debate and Advocacy",
+      "kind": "domain",
+      "category": "Law and society",
+      "description": "Building and delivering arguments under pressure; moots, MUNs and debates.",
+      "levelDescriptors": [
+        "Speaks in class debates",
+        "Builds a 3-point case with rebuttal",
+        "Competes in inter-school debates or MUN",
+        "Wins at state or national level; moots",
+        "Argues in court or international forums"
+      ],
+      "hoursPerLevel": [
+        8,
+        20,
+        40,
+        70,
+        110
+      ],
+      "subjectSlugs": [],
+      "profileParamIds": [
+        "p211",
+        "p213"
+      ],
+      "resourceIds": [
+        "res-debate-mun-practice"
+      ]
+    },
+    {
+      "id": "skill-clinical-knowledge",
+      "name": "Clinical Knowledge and Patient Care",
+      "kind": "domain",
+      "category": "Health",
+      "description": "Diagnosis, treatment and caring for patients safely.",
+      "levelDescriptors": [
+        "Knows first aid basics",
+        "Takes a history and vital signs (training)",
+        "Applies clinical knowledge under supervision",
+        "Manages patients independently",
+        "Specialist-level clinical expertise"
+      ],
+      "hoursPerLevel": [
+        20,
+        200,
+        800,
+        1500,
+        3000
+      ],
+      "subjectSlugs": [
+        "biology"
+      ],
+      "profileParamIds": [
+        "p368"
+      ],
+      "resourceIds": [
+        "course-st-john-ambulance-first-aid"
+      ]
+    },
+    {
+      "id": "skill-journalism-reporting",
+      "name": "Reporting and Storytelling",
+      "kind": "domain",
+      "category": "Communication",
+      "description": "Finding stories, verifying facts and writing for print, video and digital.",
+      "levelDescriptors": [
+        "Writes a school newsletter piece",
+        "Interviews and writes a news report",
+        "Fact-checks and produces multimedia stories",
+        "Breaks original stories with sourcing",
+        "Leads investigations or an editorial desk"
+      ],
+      "hoursPerLevel": [
+        10,
+        25,
+        50,
+        90,
+        150
+      ],
+      "subjectSlugs": [
+        "english"
+      ],
+      "profileParamIds": [
+        "p210",
+        "p221"
+      ],
+      "resourceIds": [
+        "res-school-newsletter-and-journalism"
+      ]
+    },
+    {
+      "id": "skill-policy-analysis",
+      "name": "Policy Analysis",
+      "kind": "domain",
+      "category": "Law and society",
+      "description": "Analysing public problems, options and evidence to recommend policy.",
+      "levelDescriptors": [
+        "Knows what a government scheme is",
+        "Summarises a policy and who it affects",
+        "Compares options using data",
+        "Writes policy briefs with cost-benefit",
+        "Shapes national policy"
+      ],
+      "hoursPerLevel": [
+        10,
+        25,
+        50,
+        90,
+        150
+      ],
+      "subjectSlugs": [
+        "political-science",
+        "economics"
+      ],
+      "profileParamIds": [
+        "p317",
+        "p320"
+      ],
+      "resourceIds": [
+        "res-prs-legislative"
+      ]
+    },
+    {
+      "id": "skill-hospitality-operations",
+      "name": "Hospitality Operations",
+      "kind": "domain",
+      "category": "Business",
+      "description": "Front office, food and beverage, housekeeping and guest experience.",
+      "levelDescriptors": [
+        "Understands hotel departments",
+        "Handles guest check-in and service basics",
+        "Runs a shift in one department",
+        "Manages a department and its P&L",
+        "Manages a property"
+      ],
+      "hoursPerLevel": [
+        10,
+        40,
+        100,
+        200,
+        400
+      ],
+      "subjectSlugs": [],
+      "profileParamIds": [
+        "p368"
+      ],
+      "resourceIds": [
+        "res-hospitality-internship-exposure"
+      ]
+    },
+    {
+      "id": "skill-garment-construction",
+      "name": "Pattern Making and Garment Construction",
+      "kind": "domain",
+      "category": "Creative",
+      "description": "Turning a fashion sketch into a finished garment.",
+      "levelDescriptors": [
+        "Sews by hand and machine",
+        "Drafts basic patterns",
+        "Constructs full garments with fit",
+        "Develops a collection with tech packs",
+        "Leads design and production"
+      ],
+      "hoursPerLevel": [
+        15,
+        40,
+        80,
+        150,
+        250
+      ],
+      "subjectSlugs": [],
+      "profileParamIds": [
+        "p219"
+      ],
+      "resourceIds": [
+        "course-sewing-and-pattern-making"
+      ]
+    },
+    {
+      "id": "skill-actuarial-maths",
+      "name": "Actuarial and Risk Mathematics",
+      "kind": "domain",
+      "category": "Quantitative",
+      "description": "Probability, financial maths and risk models used in insurance and pensions.",
+      "levelDescriptors": [
+        "Knows what insurance and risk are",
+        "Calculates expected values and simple premiums",
+        "Passes CS1-level statistics",
+        "Builds pricing and reserving models",
+        "Fellow-level risk management"
+      ],
+      "hoursPerLevel": [
+        20,
+        60,
+        150,
+        300,
+        600
+      ],
+      "subjectSlugs": [
+        "maths",
+        "applied-maths"
+      ],
+      "profileParamIds": [
+        "p318"
+      ],
+      "resourceIds": [
+        "res-iai-acet-prep"
+      ]
+    }
+  ]
+}

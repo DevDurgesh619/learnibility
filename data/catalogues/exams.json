@@ -1,0 +1,687 @@
+{
+  "schemaVersion": 1,
+  "generatedBy": "scripts/catalogues/generate.ts",
+  "items": [
+    {
+      "id": "jee-main",
+      "name": "JEE Main",
+      "fullName": "Joint Entrance Examination (Main)",
+      "kind": "india_entrance",
+      "conductedBy": "National Testing Agency",
+      "sittings": [
+        "Jan",
+        "Apr"
+      ],
+      "typicalGrade": 12,
+      "subjects": [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+      ],
+      "feeInr": 1000,
+      "prepHours": 900,
+      "scoreFormat": "NTA percentile; All India Rank",
+      "website": "https://jeemain.nta.nic.in"
+    },
+    {
+      "id": "jee-advanced",
+      "name": "JEE Advanced",
+      "fullName": "Joint Entrance Examination (Advanced)",
+      "kind": "india_entrance",
+      "conductedBy": "IITs (rotating organising IIT)",
+      "sittings": [
+        "May"
+      ],
+      "typicalGrade": 12,
+      "subjects": [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+      ],
+      "feeInr": 3200,
+      "prepHours": 1200,
+      "scoreFormat": "Marks out of 360; Common Rank List",
+      "website": "https://jeeadv.ac.in"
+    },
+    {
+      "id": "bitsat",
+      "name": "BITSAT",
+      "fullName": "BITS Admission Test",
+      "kind": "india_entrance",
+      "conductedBy": "BITS Pilani",
+      "sittings": [
+        "May",
+        "Jun"
+      ],
+      "typicalGrade": 12,
+      "subjects": [
+        "Physics",
+        "Chemistry",
+        "Mathematics",
+        "English",
+        "Logical Reasoning"
+      ],
+      "feeInr": 3400,
+      "prepHours": 600,
+      "scoreFormat": "Score out of 390",
+      "website": "https://www.bitsadmission.com"
+    },
+    {
+      "id": "viteee",
+      "name": "VITEEE",
+      "fullName": "VIT Engineering Entrance Examination",
+      "kind": "india_entrance",
+      "conductedBy": "Vellore Institute of Technology",
+      "sittings": [
+        "Apr"
+      ],
+      "typicalGrade": 12,
+      "subjects": [
+        "Physics",
+        "Chemistry",
+        "Mathematics or Biology",
+        "Aptitude",
+        "English"
+      ],
+      "feeInr": 1350,
+      "prepHours": 250,
+      "scoreFormat": "Rank",
+      "website": "https://viteee.vit.ac.in"
+    },
+    {
+      "id": "met-manipal",
+      "name": "MET",
+      "fullName": "Manipal Entrance Test",
+      "kind": "india_entrance",
+      "conductedBy": "Manipal Academy of Higher Education",
+      "sittings": [
+        "Apr",
+        "May"
+      ],
+      "typicalGrade": 12,
+      "subjects": [
+        "Physics",
+        "Chemistry",
+        "Mathematics",
+        "English"
+      ],
+      "feeInr": 1500,
+      "prepHours": 200,
+      "scoreFormat": "Rank",
+      "website": "https://manipal.edu"
+    },
+    {
+      "id": "neet-ug",
+      "name": "NEET UG",
+      "fullName": "National Eligibility cum Entrance Test (UG)",
+      "kind": "india_entrance",
+      "conductedBy": "National Testing Agency",
+      "sittings": [
+        "May"
+      ],
+      "typicalGrade": 12,
+      "subjects": [
+        "Physics",
+        "Chemistry",
+        "Biology"
+      ],
+      "feeInr": 1700,
+      "prepHours": 1100,
+      "scoreFormat": "Marks out of 720; All India Rank",
+      "website": "https://neet.nta.nic.in"
+    },
+    {
+      "id": "clat",
+      "name": "CLAT",
+      "fullName": "Common Law Admission Test",
+      "kind": "india_entrance",
+      "conductedBy": "Consortium of National Law Universities",
+      "sittings": [
+        "Dec"
+      ],
+      "typicalGrade": 12,
+      "subjects": [
+        "English",
+        "Current Affairs",
+        "Legal Reasoning",
+        "Logical Reasoning",
+        "Quantitative Techniques"
+      ],
+      "feeInr": 4000,
+      "prepHours": 500,
+      "scoreFormat": "Marks out of 120; All India Rank",
+      "website": "https://consortiumofnlus.ac.in"
+    },
+    {
+      "id": "ailet",
+      "name": "AILET",
+      "fullName": "All India Law Entrance Test",
+      "kind": "india_entrance",
+      "conductedBy": "National Law University Delhi",
+      "sittings": [
+        "Dec"
+      ],
+      "typicalGrade": 12,
+      "subjects": [
+        "English",
+        "Current Affairs",
+        "Logical Reasoning"
+      ],
+      "feeInr": 3500,
+      "prepHours": 450,
+      "scoreFormat": "Marks out of 150; Rank",
+      "website": "https://nationallawuniversitydelhi.in"
+    },
+    {
+      "id": "cuet-ug",
+      "name": "CUET UG",
+      "fullName": "Common University Entrance Test (UG)",
+      "kind": "india_entrance",
+      "conductedBy": "National Testing Agency",
+      "sittings": [
+        "May",
+        "Jun"
+      ],
+      "typicalGrade": 12,
+      "subjects": [
+        "Languages",
+        "Domain subjects",
+        "General Test"
+      ],
+      "feeInr": 1000,
+      "prepHours": 250,
+      "scoreFormat": "Normalised score per subject",
+      "website": "https://cuet.nta.nic.in"
+    },
+    {
+      "id": "ipmat-indore",
+      "name": "IPMAT Indore",
+      "fullName": "Integrated Programme in Management Aptitude Test",
+      "kind": "india_entrance",
+      "conductedBy": "IIM Indore",
+      "sittings": [
+        "May"
+      ],
+      "typicalGrade": 12,
+      "subjects": [
+        "Quantitative Ability",
+        "Verbal Ability"
+      ],
+      "feeInr": 4130,
+      "prepHours": 350,
+      "scoreFormat": "Scaled score; interview shortlist",
+      "website": "https://www.iimidr.ac.in"
+    },
+    {
+      "id": "nid-dat",
+      "name": "NID DAT",
+      "fullName": "NID Design Aptitude Test",
+      "kind": "india_entrance",
+      "conductedBy": "National Institute of Design",
+      "sittings": [
+        "Dec",
+        "Apr"
+      ],
+      "typicalGrade": 12,
+      "subjects": [
+        "Design aptitude",
+        "Drawing",
+        "Studio test"
+      ],
+      "feeInr": 3000,
+      "prepHours": 300,
+      "scoreFormat": "Prelims + Mains composite",
+      "website": "https://admissions.nid.edu"
+    },
+    {
+      "id": "uceed",
+      "name": "UCEED",
+      "fullName": "Undergraduate Common Entrance Examination for Design",
+      "kind": "india_entrance",
+      "conductedBy": "IIT Bombay",
+      "sittings": [
+        "Jan"
+      ],
+      "typicalGrade": 12,
+      "subjects": [
+        "Visualisation",
+        "Design thinking",
+        "Drawing"
+      ],
+      "feeInr": 4000,
+      "prepHours": 250,
+      "scoreFormat": "Marks out of 300; Rank",
+      "website": "https://www.uceed.iitb.ac.in"
+    },
+    {
+      "id": "nata",
+      "name": "NATA",
+      "fullName": "National Aptitude Test in Architecture",
+      "kind": "india_entrance",
+      "conductedBy": "Council of Architecture",
+      "sittings": [
+        "Apr",
+        "May",
+        "Jun"
+      ],
+      "typicalGrade": 12,
+      "subjects": [
+        "Drawing",
+        "Mathematics",
+        "General Aptitude"
+      ],
+      "feeInr": 2000,
+      "prepHours": 200,
+      "scoreFormat": "Marks out of 200",
+      "website": "https://www.nata.in"
+    },
+    {
+      "id": "iiser-iat",
+      "name": "IISER IAT",
+      "fullName": "IISER Aptitude Test",
+      "kind": "india_entrance",
+      "conductedBy": "IISER Joint Admission Committee",
+      "sittings": [
+        "Jun"
+      ],
+      "typicalGrade": 12,
+      "subjects": [
+        "Biology",
+        "Chemistry",
+        "Mathematics",
+        "Physics"
+      ],
+      "feeInr": 2000,
+      "prepHours": 400,
+      "scoreFormat": "Marks out of 180",
+      "website": "https://www.iiseradmission.in"
+    },
+    {
+      "id": "ca-foundation",
+      "name": "CA Foundation",
+      "fullName": "Chartered Accountancy Foundation Examination",
+      "kind": "professional",
+      "conductedBy": "Institute of Chartered Accountants of India",
+      "sittings": [
+        "Jan",
+        "May",
+        "Sep"
+      ],
+      "typicalGrade": "after_12",
+      "subjects": [
+        "Accounting",
+        "Business Laws",
+        "Quantitative Aptitude",
+        "Business Economics"
+      ],
+      "feeInr": 9000,
+      "prepHours": 600,
+      "scoreFormat": "Pass: 40% per paper, 50% aggregate",
+      "website": "https://www.icai.org"
+    },
+    {
+      "id": "ashoka-aptitude",
+      "name": "Ashoka Aptitude Assessment",
+      "fullName": "Ashoka University Aptitude Assessment",
+      "kind": "india_entrance",
+      "conductedBy": "Ashoka University",
+      "sittings": [
+        "Nov",
+        "Jan",
+        "Mar"
+      ],
+      "typicalGrade": 12,
+      "subjects": [
+        "Problem solving",
+        "Critical thinking",
+        "Writing"
+      ],
+      "feeInr": 3000,
+      "prepHours": 40,
+      "scoreFormat": "Holistic",
+      "website": "https://www.ashoka.edu.in"
+    },
+    {
+      "id": "flame-fat",
+      "name": "FLAME FAT",
+      "fullName": "FLAME Aptitude Test",
+      "kind": "india_entrance",
+      "conductedBy": "FLAME University",
+      "sittings": [
+        "Dec",
+        "Feb",
+        "Apr"
+      ],
+      "typicalGrade": 12,
+      "subjects": [
+        "Analytical reasoning",
+        "Verbal",
+        "Quantitative"
+      ],
+      "feeInr": 3500,
+      "prepHours": 40,
+      "scoreFormat": "Holistic",
+      "website": "https://www.flame.edu.in"
+    },
+    {
+      "id": "christ-entrance",
+      "name": "Christ Entrance Test",
+      "fullName": "Christ University Entrance Test, Skill Assessment and Interview",
+      "kind": "india_entrance",
+      "conductedBy": "Christ (Deemed to be University)",
+      "sittings": [
+        "Apr",
+        "May"
+      ],
+      "typicalGrade": 12,
+      "subjects": [
+        "English",
+        "Quantitative",
+        "Reasoning",
+        "General awareness"
+      ],
+      "feeInr": 1200,
+      "prepHours": 30,
+      "scoreFormat": "Composite with interview",
+      "website": "https://christuniversity.in"
+    },
+    {
+      "id": "sat",
+      "name": "SAT",
+      "fullName": "SAT (digital)",
+      "kind": "abroad_admission",
+      "conductedBy": "College Board",
+      "sittings": [
+        "Mar",
+        "May",
+        "Jun",
+        "Aug",
+        "Oct",
+        "Nov",
+        "Dec"
+      ],
+      "typicalGrade": 11,
+      "subjects": [
+        "Reading and Writing",
+        "Math"
+      ],
+      "feeInr": 10200,
+      "prepHours": 120,
+      "scoreFormat": "400-1600",
+      "website": "https://satsuite.collegeboard.org/sat"
+    },
+    {
+      "id": "act",
+      "name": "ACT",
+      "fullName": "ACT",
+      "kind": "abroad_admission",
+      "conductedBy": "ACT Inc.",
+      "sittings": [
+        "Feb",
+        "Apr",
+        "Jun",
+        "Jul",
+        "Sep",
+        "Oct",
+        "Dec"
+      ],
+      "typicalGrade": 11,
+      "subjects": [
+        "English",
+        "Math",
+        "Reading",
+        "Science (optional)"
+      ],
+      "feeInr": 15500,
+      "prepHours": 120,
+      "scoreFormat": "1-36 composite",
+      "website": "https://www.act.org"
+    },
+    {
+      "id": "ielts",
+      "name": "IELTS Academic",
+      "fullName": "International English Language Testing System (Academic)",
+      "kind": "english",
+      "conductedBy": "British Council / IDP",
+      "sittings": [
+        "Any month"
+      ],
+      "typicalGrade": 12,
+      "subjects": [
+        "Listening",
+        "Reading",
+        "Writing",
+        "Speaking"
+      ],
+      "feeInr": 18000,
+      "prepHours": 40,
+      "scoreFormat": "Band 0-9",
+      "website": "https://ielts.org"
+    },
+    {
+      "id": "toefl",
+      "name": "TOEFL iBT",
+      "fullName": "Test of English as a Foreign Language (iBT)",
+      "kind": "english",
+      "conductedBy": "ETS",
+      "sittings": [
+        "Any month"
+      ],
+      "typicalGrade": 12,
+      "subjects": [
+        "Reading",
+        "Listening",
+        "Speaking",
+        "Writing"
+      ],
+      "feeInr": 16900,
+      "prepHours": 40,
+      "scoreFormat": "0-120 (and 1-6 band scale from 2026)",
+      "website": "https://www.ets.org/toefl"
+    },
+    {
+      "id": "det",
+      "name": "Duolingo English Test",
+      "fullName": "Duolingo English Test",
+      "kind": "english",
+      "conductedBy": "Duolingo",
+      "sittings": [
+        "On demand"
+      ],
+      "typicalGrade": 12,
+      "subjects": [
+        "Literacy",
+        "Comprehension",
+        "Conversation",
+        "Production"
+      ],
+      "feeInr": 6000,
+      "prepHours": 20,
+      "scoreFormat": "10-160",
+      "website": "https://englishtest.duolingo.com"
+    },
+    {
+      "id": "pte",
+      "name": "PTE Academic",
+      "fullName": "Pearson Test of English Academic",
+      "kind": "english",
+      "conductedBy": "Pearson",
+      "sittings": [
+        "Any month"
+      ],
+      "typicalGrade": 12,
+      "subjects": [
+        "Speaking and Writing",
+        "Reading",
+        "Listening"
+      ],
+      "feeInr": 18000,
+      "prepHours": 30,
+      "scoreFormat": "10-90",
+      "website": "https://www.pearsonpte.com"
+    },
+    {
+      "id": "ucat",
+      "name": "UCAT",
+      "fullName": "University Clinical Aptitude Test (UK)",
+      "kind": "abroad_admission",
+      "conductedBy": "UCAT Consortium",
+      "sittings": [
+        "Jul",
+        "Aug",
+        "Sep"
+      ],
+      "typicalGrade": 12,
+      "subjects": [
+        "Verbal Reasoning",
+        "Decision Making",
+        "Quantitative Reasoning",
+        "Situational Judgement"
+      ],
+      "feeInr": 13000,
+      "prepHours": 80,
+      "scoreFormat": "1,200-2,700 + SJT band",
+      "website": "https://www.ucat.ac.uk"
+    },
+    {
+      "id": "ucat-anz",
+      "name": "UCAT ANZ",
+      "fullName": "University Clinical Aptitude Test (Australia and New Zealand)",
+      "kind": "abroad_admission",
+      "conductedBy": "UCAT ANZ Consortium",
+      "sittings": [
+        "Jul"
+      ],
+      "typicalGrade": 12,
+      "subjects": [
+        "Verbal Reasoning",
+        "Decision Making",
+        "Quantitative Reasoning",
+        "Situational Judgement"
+      ],
+      "feeInr": 19000,
+      "prepHours": 80,
+      "scoreFormat": "900-3,600 + SJT band",
+      "website": "https://www.ucat.edu.au"
+    },
+    {
+      "id": "lnat",
+      "name": "LNAT",
+      "fullName": "National Admissions Test for Law",
+      "kind": "abroad_admission",
+      "conductedBy": "LNAT Consortium (Pearson VUE)",
+      "sittings": [
+        "Sep",
+        "Oct",
+        "Jan"
+      ],
+      "typicalGrade": 12,
+      "subjects": [
+        "Critical reasoning (MCQ)",
+        "Essay"
+      ],
+      "feeInr": 14000,
+      "prepHours": 50,
+      "scoreFormat": "MCQ out of 42 + essay",
+      "website": "https://lnat.ac.uk"
+    },
+    {
+      "id": "tmua",
+      "name": "TMUA",
+      "fullName": "Test of Mathematics for University Admission",
+      "kind": "abroad_admission",
+      "conductedBy": "UAT-UK",
+      "sittings": [
+        "Oct",
+        "Jan"
+      ],
+      "typicalGrade": 12,
+      "subjects": [
+        "Applications of mathematical knowledge",
+        "Mathematical reasoning"
+      ],
+      "feeInr": 10500,
+      "prepHours": 60,
+      "scoreFormat": "1.0-9.0",
+      "website": "https://uat-uk.ac.uk/tmua"
+    },
+    {
+      "id": "esat",
+      "name": "ESAT",
+      "fullName": "Engineering and Science Admissions Test",
+      "kind": "abroad_admission",
+      "conductedBy": "UAT-UK",
+      "sittings": [
+        "Oct",
+        "Jan"
+      ],
+      "typicalGrade": 12,
+      "subjects": [
+        "Mathematics",
+        "Physics",
+        "Chemistry",
+        "Biology"
+      ],
+      "feeInr": 15000,
+      "prepHours": 70,
+      "scoreFormat": "1.0-9.0 per module",
+      "website": "https://uat-uk.ac.uk/esat"
+    },
+    {
+      "id": "mat",
+      "name": "MAT",
+      "fullName": "Mathematics Admissions Test (Oxford)",
+      "kind": "abroad_admission",
+      "conductedBy": "University of Oxford (Pearson VUE)",
+      "sittings": [
+        "Oct"
+      ],
+      "typicalGrade": 12,
+      "subjects": [
+        "Mathematics"
+      ],
+      "feeInr": 9500,
+      "prepHours": 60,
+      "scoreFormat": "Marks out of 100",
+      "website": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+    },
+    {
+      "id": "pat",
+      "name": "PAT",
+      "fullName": "Physics Aptitude Test (Oxford)",
+      "kind": "abroad_admission",
+      "conductedBy": "University of Oxford (Pearson VUE)",
+      "sittings": [
+        "Oct"
+      ],
+      "typicalGrade": 12,
+      "subjects": [
+        "Physics",
+        "Mathematics"
+      ],
+      "feeInr": 9500,
+      "prepHours": 60,
+      "scoreFormat": "Marks out of 100",
+      "website": "https://www.physics.ox.ac.uk/study/undergraduates/applications/physics-aptitude-test-pat"
+    },
+    {
+      "id": "tsa",
+      "name": "TSA",
+      "fullName": "Thinking Skills Assessment (Oxford)",
+      "kind": "abroad_admission",
+      "conductedBy": "University of Oxford (Pearson VUE)",
+      "sittings": [
+        "Oct"
+      ],
+      "typicalGrade": 12,
+      "subjects": [
+        "Problem solving",
+        "Critical thinking"
+      ],
+      "feeInr": 9500,
+      "prepHours": 40,
+      "scoreFormat": "Scaled 0-100",
+      "website": "https://www.ox.ac.uk/admissions/undergraduate/applying-to-oxford/guide/admissions-tests/tsa"
+    }
+  ]
+}

@@ -1,0 +1,3127 @@
+{
+  "schemaVersion": 1,
+  "generatedBy": "scripts/catalogues/generate.ts",
+  "items": [
+    {
+      "id": "res-ncert-textbooks",
+      "kind": "free_resource",
+      "title": "NCERT textbooks (Class 8-12, all subjects)",
+      "provider": "NCERT",
+      "format": "textbook",
+      "url": "https://ncert.nic.in/textbook.php",
+      "description": "The official CBSE textbooks as free PDFs. The base of every CBSE board paper and of NEET and CUET.",
+      "subjectSlugs": [
+        "maths",
+        "science",
+        "physics",
+        "chemistry",
+        "biology",
+        "social-science",
+        "history",
+        "geography",
+        "economics",
+        "political-science",
+        "accountancy",
+        "business",
+        "psychology",
+        "sociology",
+        "english",
+        "hindi"
+      ],
+      "boards": [
+        "cbse"
+      ],
+      "grades": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-physical-chemistry",
+          "toLevel": 3
+        },
+        {
+          "skillId": "skill-business-fundamentals",
+          "toLevel": 3
+        },
+        {
+          "skillId": "skill-geography-environment",
+          "toLevel": 3
+        },
+        {
+          "skillId": "skill-english-literature",
+          "toLevel": 3
+        },
+        {
+          "skillId": "skill-accounting",
+          "toLevel": 3
+        },
+        {
+          "skillId": "skill-polity-governance",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [
+        "neet-ug",
+        "cuet-ug"
+      ],
+      "topicTags": [],
+      "hours": 0,
+      "priceInr": 0,
+      "language": [
+        "English",
+        "Hindi"
+      ],
+      "certificate": false,
+      "rating": 4.7
+    },
+    {
+      "id": "res-ncert-exemplar",
+      "kind": "free_resource",
+      "title": "NCERT Exemplar problems",
+      "provider": "NCERT",
+      "format": "practice",
+      "url": "https://ncert.nic.in/exemplar-problems.php",
+      "description": "Harder application questions per chapter for Maths and Science; good bridge to JEE and NEET.",
+      "subjectSlugs": [
+        "maths",
+        "science",
+        "physics",
+        "chemistry",
+        "biology"
+      ],
+      "boards": [
+        "cbse"
+      ],
+      "grades": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-problem-solving",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [
+        "jee-main",
+        "neet-ug"
+      ],
+      "topicTags": [],
+      "hours": 40,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.5
+    },
+    {
+      "id": "res-diksha",
+      "kind": "free_resource",
+      "title": "DIKSHA: energised textbooks and video lessons",
+      "provider": "Ministry of Education (DIKSHA)",
+      "format": "video",
+      "url": "https://diksha.gov.in",
+      "description": "QR-linked videos, practice and worksheets for every NCERT chapter, in many Indian languages.",
+      "subjectSlugs": [
+        "maths",
+        "science",
+        "social-science",
+        "english",
+        "hindi",
+        "physics",
+        "chemistry",
+        "biology"
+      ],
+      "boards": [
+        "cbse"
+      ],
+      "grades": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "skillOutcomes": [],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 0,
+      "priceInr": 0,
+      "language": [
+        "English",
+        "Hindi",
+        "Tamil",
+        "Telugu",
+        "Marathi",
+        "Bengali"
+      ],
+      "certificate": false,
+      "rating": 4.2
+    },
+    {
+      "id": "res-cbse-sample-papers",
+      "kind": "free_resource",
+      "title": "CBSE sample papers and marking schemes",
+      "provider": "CBSE Academic",
+      "format": "past_papers",
+      "url": "https://cbseacademic.nic.in/SQP_CLASSXII_2025-26.html",
+      "description": "Official sample question papers with marking schemes for Class 10 and 12 boards.",
+      "subjectSlugs": [
+        "maths",
+        "science",
+        "physics",
+        "chemistry",
+        "biology",
+        "accountancy",
+        "economics",
+        "business",
+        "english",
+        "history",
+        "political-science",
+        "geography",
+        "social-science"
+      ],
+      "boards": [
+        "cbse"
+      ],
+      "grades": [
+        10,
+        12
+      ],
+      "skillOutcomes": [],
+      "examIds": [],
+      "topicTags": [
+        "board-exam"
+      ],
+      "hours": 30,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.6
+    },
+    {
+      "id": "res-khan-academy-maths",
+      "kind": "free_resource",
+      "title": "Khan Academy Maths (India and global courses)",
+      "provider": "Khan Academy",
+      "format": "interactive",
+      "url": "https://www.khanacademy.org/math",
+      "description": "Free videos and mastery practice from arithmetic to calculus, mapped to CBSE classes.",
+      "subjectSlugs": [
+        "maths"
+      ],
+      "boards": [
+        "cbse",
+        "cambridge",
+        "ib"
+      ],
+      "grades": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-algebra",
+          "toLevel": 3
+        },
+        {
+          "skillId": "skill-geometry",
+          "toLevel": 3
+        },
+        {
+          "skillId": "skill-calculus",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [],
+      "topicTags": [
+        "fractions",
+        "algebra",
+        "calculus",
+        "trigonometry"
+      ],
+      "hours": 120,
+      "priceInr": 0,
+      "language": [
+        "English",
+        "Hindi"
+      ],
+      "certificate": false,
+      "rating": 4.8
+    },
+    {
+      "id": "res-khan-academy-statistics",
+      "kind": "free_resource",
+      "title": "Khan Academy: Statistics and Probability",
+      "provider": "Khan Academy",
+      "format": "interactive",
+      "url": "https://www.khanacademy.org/math/statistics-probability",
+      "description": "Complete statistics course: data, distributions, inference and regression.",
+      "subjectSlugs": [
+        "maths",
+        "applied-maths"
+      ],
+      "boards": [
+        "cbse",
+        "cambridge",
+        "ib"
+      ],
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-statistics",
+          "toLevel": 3
+        },
+        {
+          "skillId": "skill-data-literacy",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 45,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.8
+    },
+    {
+      "id": "res-khan-academy-science",
+      "kind": "free_resource",
+      "title": "Khan Academy Physics, Chemistry and Biology",
+      "provider": "Khan Academy",
+      "format": "interactive",
+      "url": "https://www.khanacademy.org/science",
+      "description": "Concept videos and practice for high-school and AP-level sciences.",
+      "subjectSlugs": [
+        "physics",
+        "chemistry",
+        "biology",
+        "science"
+      ],
+      "boards": [
+        "cbse",
+        "cambridge",
+        "ib"
+      ],
+      "grades": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-mechanics",
+          "toLevel": 3
+        },
+        {
+          "skillId": "skill-organic-chemistry",
+          "toLevel": 2
+        },
+        {
+          "skillId": "skill-human-physiology",
+          "toLevel": 3
+        },
+        {
+          "skillId": "skill-genetics",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 150,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.7
+    },
+    {
+      "id": "res-khan-academy-economics",
+      "kind": "free_resource",
+      "title": "Khan Academy Macro and Microeconomics",
+      "provider": "Khan Academy",
+      "format": "video",
+      "url": "https://www.khanacademy.org/economics-finance-domain",
+      "description": "Diagram-heavy economics lessons with practice; strong for conceptual understanding.",
+      "subjectSlugs": [
+        "economics"
+      ],
+      "boards": [
+        "cbse",
+        "cambridge",
+        "ib"
+      ],
+      "grades": [
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-microeconomics",
+          "toLevel": 3
+        },
+        {
+          "skillId": "skill-macroeconomics",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 40,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.7
+    },
+    {
+      "id": "res-phet-simulations",
+      "kind": "free_resource",
+      "title": "PhET interactive simulations",
+      "provider": "University of Colorado Boulder",
+      "format": "interactive",
+      "url": "https://phet.colorado.edu",
+      "description": "Free simulations for physics, chemistry and maths concepts: circuits, forces, waves, molecules.",
+      "subjectSlugs": [
+        "physics",
+        "chemistry",
+        "science",
+        "maths"
+      ],
+      "boards": [
+        "cbse",
+        "cambridge",
+        "ib"
+      ],
+      "grades": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-mechanics",
+          "toLevel": 2
+        },
+        {
+          "skillId": "skill-electromagnetism",
+          "toLevel": 2
+        }
+      ],
+      "examIds": [],
+      "topicTags": [
+        "force-diagrams",
+        "electricity",
+        "waves"
+      ],
+      "hours": 15,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.8
+    },
+    {
+      "id": "res-cambridge-past-papers",
+      "kind": "free_resource",
+      "title": "Cambridge IGCSE and A Level past papers",
+      "provider": "Cambridge International (School Support Hub) / PapaCambridge",
+      "format": "past_papers",
+      "url": "https://www.cambridgeinternational.org/programmes-and-qualifications/",
+      "description": "Past papers, mark schemes and examiner reports for every Cambridge subject.",
+      "subjectSlugs": [
+        "maths",
+        "physics",
+        "chemistry",
+        "biology",
+        "economics",
+        "business",
+        "accountancy",
+        "english",
+        "computer-science"
+      ],
+      "boards": [
+        "cambridge"
+      ],
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "skillOutcomes": [],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 60,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.7
+    },
+    {
+      "id": "res-cambridge-lower-secondary-resources",
+      "kind": "free_resource",
+      "title": "Cambridge Lower Secondary learner resources",
+      "provider": "Cambridge University Press",
+      "format": "practice",
+      "url": "https://www.cambridge.org/education",
+      "description": "Workbook-style practice for Stage 7-9 maths, science and English.",
+      "subjectSlugs": [
+        "maths",
+        "science",
+        "english"
+      ],
+      "boards": [
+        "cambridge"
+      ],
+      "grades": [
+        8,
+        9
+      ],
+      "skillOutcomes": [],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 30,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.3
+    },
+    {
+      "id": "res-ib-revision-village",
+      "kind": "free_resource",
+      "title": "Revision Village (IB Maths) free tier",
+      "provider": "Revision Village",
+      "format": "practice",
+      "url": "https://www.revisionvillage.com",
+      "description": "IB Maths AA/AI question bank and video solutions; free tier plus paid full access.",
+      "subjectSlugs": [
+        "maths"
+      ],
+      "boards": [
+        "ib"
+      ],
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "skillOutcomes": [],
+      "examIds": [],
+      "topicTags": [
+        "functions",
+        "calculus",
+        "statistics"
+      ],
+      "hours": 40,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.6
+    },
+    {
+      "id": "res-physics-and-maths-tutor",
+      "kind": "free_resource",
+      "title": "Physics & Maths Tutor revision notes",
+      "provider": "PMT Education",
+      "format": "practice",
+      "url": "https://www.physicsandmathstutor.com",
+      "description": "Topic questions and notes for IGCSE and A Level sciences and maths.",
+      "subjectSlugs": [
+        "physics",
+        "chemistry",
+        "biology",
+        "maths",
+        "economics"
+      ],
+      "boards": [
+        "cambridge"
+      ],
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "skillOutcomes": [],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 50,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.6
+    },
+    {
+      "id": "res-nta-abhyas",
+      "kind": "free_resource",
+      "title": "NTA Abhyas mock tests (JEE and NEET)",
+      "provider": "National Testing Agency",
+      "format": "test_series",
+      "url": "https://nta.ac.in/abhyas",
+      "description": "Free full-length mock tests in the real NTA interface.",
+      "subjectSlugs": [
+        "physics",
+        "chemistry",
+        "maths",
+        "biology"
+      ],
+      "boards": [
+        "cbse"
+      ],
+      "grades": [
+        11,
+        12
+      ],
+      "skillOutcomes": [],
+      "examIds": [
+        "jee-main",
+        "neet-ug"
+      ],
+      "topicTags": [],
+      "hours": 60,
+      "priceInr": 0,
+      "language": [
+        "English",
+        "Hindi"
+      ],
+      "certificate": false,
+      "rating": 4.3
+    },
+    {
+      "id": "res-nptel-iit-lectures",
+      "kind": "free_resource",
+      "title": "NPTEL lectures from IIT faculty",
+      "provider": "NPTEL (IITs and IISc)",
+      "format": "video",
+      "url": "https://nptel.ac.in",
+      "description": "University-level courses for students going beyond the syllabus in maths, physics, CS and economics.",
+      "subjectSlugs": [
+        "maths",
+        "physics",
+        "computer-science",
+        "economics"
+      ],
+      "boards": [
+        "cbse",
+        "cambridge",
+        "ib"
+      ],
+      "grades": [
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-calculus",
+          "toLevel": 4
+        },
+        {
+          "skillId": "skill-research",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 40,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": true,
+      "rating": 4.4
+    },
+    {
+      "id": "res-physics-wallah-youtube",
+      "kind": "free_resource",
+      "title": "Physics Wallah YouTube lectures",
+      "provider": "Physics Wallah",
+      "format": "video",
+      "url": "https://www.youtube.com/@PhysicsWallah",
+      "description": "Free Hindi-English lectures for Class 9-12, JEE and NEET.",
+      "subjectSlugs": [
+        "physics",
+        "chemistry",
+        "maths",
+        "biology",
+        "science"
+      ],
+      "boards": [
+        "cbse"
+      ],
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "skillOutcomes": [],
+      "examIds": [
+        "jee-main",
+        "neet-ug"
+      ],
+      "topicTags": [],
+      "hours": 200,
+      "priceInr": 0,
+      "language": [
+        "Hindi",
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.6
+    },
+    {
+      "id": "res-magnet-brains",
+      "kind": "free_resource",
+      "title": "Magnet Brains (Class 8-12 full syllabus)",
+      "provider": "Magnet Brains",
+      "format": "video",
+      "url": "https://www.youtube.com/@MagnetBrainsEducation",
+      "description": "Free chapter-wise videos for every CBSE subject including commerce and humanities.",
+      "subjectSlugs": [
+        "maths",
+        "science",
+        "accountancy",
+        "economics",
+        "business",
+        "social-science",
+        "history",
+        "political-science"
+      ],
+      "boards": [
+        "cbse"
+      ],
+      "grades": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "skillOutcomes": [],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 300,
+      "priceInr": 0,
+      "language": [
+        "Hindi",
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.4
+    },
+    {
+      "id": "res-crashcourse",
+      "kind": "free_resource",
+      "title": "CrashCourse (History, Psychology, Economics, Biology)",
+      "provider": "CrashCourse",
+      "format": "video",
+      "url": "https://www.youtube.com/@crashcourse",
+      "description": "Short, engaging overview videos; good for IB and Cambridge humanities and for exploring careers.",
+      "subjectSlugs": [
+        "history",
+        "psychology",
+        "economics",
+        "biology",
+        "sociology"
+      ],
+      "boards": [
+        "cbse",
+        "cambridge",
+        "ib"
+      ],
+      "grades": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-psychology-foundations",
+          "toLevel": 2
+        },
+        {
+          "skillId": "skill-history-analysis",
+          "toLevel": 2
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 40,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.7
+    },
+    {
+      "id": "res-bbc-bitesize",
+      "kind": "free_resource",
+      "title": "BBC Bitesize GCSE revision",
+      "provider": "BBC",
+      "format": "interactive",
+      "url": "https://www.bbc.co.uk/bitesize",
+      "description": "GCSE-level revision guides and quizzes, a close match for IGCSE.",
+      "subjectSlugs": [
+        "maths",
+        "physics",
+        "chemistry",
+        "biology",
+        "english",
+        "geography",
+        "history",
+        "computer-science"
+      ],
+      "boards": [
+        "cambridge"
+      ],
+      "grades": [
+        9,
+        10
+      ],
+      "skillOutcomes": [],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 40,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.5
+    },
+    {
+      "id": "res-prs-legislative",
+      "kind": "free_resource",
+      "title": "PRS Legislative Research briefs",
+      "provider": "PRS India",
+      "format": "textbook",
+      "url": "https://prsindia.org",
+      "description": "Plain-language summaries of bills, budgets and policy; ideal practice for CLAT current affairs and policy careers.",
+      "subjectSlugs": [
+        "political-science",
+        "economics",
+        "legal-studies"
+      ],
+      "boards": [
+        "cbse",
+        "cambridge",
+        "ib"
+      ],
+      "grades": [
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-policy-analysis",
+          "toLevel": 2
+        },
+        {
+          "skillId": "skill-polity-governance",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [
+        "clat"
+      ],
+      "topicTags": [],
+      "hours": 20,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.6
+    },
+    {
+      "id": "res-the-hindu-editorials",
+      "kind": "free_resource",
+      "title": "Daily editorial reading (The Hindu / Indian Express)",
+      "provider": "The Hindu, Indian Express",
+      "format": "textbook",
+      "url": "https://www.thehindu.com/opinion/editorial/",
+      "description": "A 20-minute daily editorial habit builds reading speed, vocabulary and current affairs for CLAT and UPSC.",
+      "subjectSlugs": [
+        "english"
+      ],
+      "boards": [
+        "cbse",
+        "cambridge",
+        "ib"
+      ],
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-critical-thinking",
+          "toLevel": 3
+        },
+        {
+          "skillId": "skill-written-communication",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [
+        "clat",
+        "ailet",
+        "cuet-ug"
+      ],
+      "topicTags": [],
+      "hours": 60,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.5
+    },
+    {
+      "id": "res-clat-consortium-papers",
+      "kind": "free_resource",
+      "title": "CLAT previous papers and answer keys",
+      "provider": "Consortium of NLUs",
+      "format": "past_papers",
+      "url": "https://consortiumofnlus.ac.in",
+      "description": "Official past CLAT papers in the current passage-based format.",
+      "subjectSlugs": [
+        "legal-studies",
+        "english"
+      ],
+      "boards": [
+        "cbse",
+        "cambridge",
+        "ib"
+      ],
+      "grades": [
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-logical-reasoning",
+          "toLevel": 3
+        },
+        {
+          "skillId": "skill-legal-concepts",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [
+        "clat"
+      ],
+      "topicTags": [],
+      "hours": 30,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.6
+    },
+    {
+      "id": "res-lnat-practice",
+      "kind": "free_resource",
+      "title": "LNAT practice tests",
+      "provider": "LNAT Consortium",
+      "format": "past_papers",
+      "url": "https://lnat.ac.uk/how-to-prepare/practice-test/",
+      "description": "Official LNAT practice papers with timing.",
+      "subjectSlugs": [
+        "english",
+        "legal-studies"
+      ],
+      "boards": [
+        "cbse",
+        "cambridge",
+        "ib"
+      ],
+      "grades": [
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-critical-thinking",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [
+        "lnat"
+      ],
+      "topicTags": [],
+      "hours": 12,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.4
+    },
+    {
+      "id": "res-sat-bluebook-khan",
+      "kind": "free_resource",
+      "title": "Bluebook practice tests + Khan Academy Digital SAT",
+      "provider": "College Board / Khan Academy",
+      "format": "test_series",
+      "url": "https://satsuite.collegeboard.org/digital/digital-practice-preparation",
+      "description": "Free full-length adaptive SAT practice tests and personalised Khan Academy practice.",
+      "subjectSlugs": [
+        "maths",
+        "english"
+      ],
+      "boards": [
+        "cbse",
+        "cambridge",
+        "ib"
+      ],
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-quantitative-reasoning",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [
+        "sat"
+      ],
+      "topicTags": [],
+      "hours": 60,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.8
+    },
+    {
+      "id": "res-ielts-british-council-free",
+      "kind": "free_resource",
+      "title": "IELTS Ready free practice",
+      "provider": "British Council",
+      "format": "practice",
+      "url": "https://takeielts.britishcouncil.org/take-ielts/prepare",
+      "description": "Free IELTS practice tests, videos and band descriptors.",
+      "subjectSlugs": [
+        "english"
+      ],
+      "boards": [
+        "cbse",
+        "cambridge",
+        "ib"
+      ],
+      "grades": [
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-english-proficiency",
+          "toLevel": 4
+        }
+      ],
+      "examIds": [
+        "ielts"
+      ],
+      "topicTags": [],
+      "hours": 25,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.4
+    },
+    {
+      "id": "res-ucat-official-practice",
+      "kind": "free_resource",
+      "title": "UCAT official practice tests",
+      "provider": "UCAT Consortium",
+      "format": "test_series",
+      "url": "https://www.ucat.ac.uk/prepare/practice-tests/",
+      "description": "Official question banks and timed mocks for UK medicine applicants.",
+      "subjectSlugs": [
+        "biology"
+      ],
+      "boards": [
+        "cbse",
+        "cambridge",
+        "ib"
+      ],
+      "grades": [
+        12
+      ],
+      "skillOutcomes": [],
+      "examIds": [
+        "ucat"
+      ],
+      "topicTags": [],
+      "hours": 30,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.5
+    },
+    {
+      "id": "res-tmua-esat-past-papers",
+      "kind": "free_resource",
+      "title": "TMUA and ESAT past papers",
+      "provider": "UAT-UK",
+      "format": "past_papers",
+      "url": "https://uat-uk.ac.uk",
+      "description": "Official preparation materials for UK maths, engineering and science admissions tests.",
+      "subjectSlugs": [
+        "maths",
+        "physics"
+      ],
+      "boards": [
+        "cbse",
+        "cambridge",
+        "ib"
+      ],
+      "grades": [
+        12
+      ],
+      "skillOutcomes": [],
+      "examIds": [
+        "tmua",
+        "esat"
+      ],
+      "topicTags": [],
+      "hours": 30,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.5
+    },
+    {
+      "id": "res-cs50x",
+      "kind": "free_resource",
+      "title": "CS50x: Harvard's Introduction to Computer Science",
+      "provider": "Harvard University (edX)",
+      "format": "course",
+      "url": "https://cs50.harvard.edu/x/",
+      "description": "The famous free intro to CS: C, Python, SQL and web. Free certificate from CS50.",
+      "subjectSlugs": [
+        "computer-science"
+      ],
+      "boards": [
+        "cbse",
+        "cambridge",
+        "ib"
+      ],
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-python-programming",
+          "toLevel": 3
+        },
+        {
+          "skillId": "skill-data-structures-algorithms",
+          "toLevel": 2
+        },
+        {
+          "skillId": "skill-sql-databases",
+          "toLevel": 2
+        },
+        {
+          "skillId": "skill-web-development",
+          "toLevel": 2
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 100,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": true,
+      "rating": 4.9
+    },
+    {
+      "id": "res-cs50p",
+      "kind": "free_resource",
+      "title": "CS50's Introduction to Programming with Python",
+      "provider": "Harvard University (edX)",
+      "format": "course",
+      "url": "https://cs50.harvard.edu/python/",
+      "description": "Beginner-friendly Python with problem sets and a final project.",
+      "subjectSlugs": [
+        "computer-science",
+        "informatics"
+      ],
+      "boards": [
+        "cbse",
+        "cambridge",
+        "ib"
+      ],
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-python-programming",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 60,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": true,
+      "rating": 4.9
+    },
+    {
+      "id": "res-freecodecamp-web",
+      "kind": "free_resource",
+      "title": "freeCodeCamp Responsive Web Design and JavaScript",
+      "provider": "freeCodeCamp",
+      "format": "interactive",
+      "url": "https://www.freecodecamp.org/learn",
+      "description": "Project-based certifications in HTML, CSS and JavaScript.",
+      "subjectSlugs": [
+        "computer-science"
+      ],
+      "boards": [
+        "cbse",
+        "cambridge",
+        "ib"
+      ],
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-web-development",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 300,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": true,
+      "rating": 4.7
+    },
+    {
+      "id": "res-sqlbolt",
+      "kind": "free_resource",
+      "title": "SQLBolt interactive SQL lessons",
+      "provider": "SQLBolt",
+      "format": "interactive",
+      "url": "https://sqlbolt.com",
+      "description": "Short interactive exercises from SELECT to joins and aggregates.",
+      "subjectSlugs": [
+        "informatics"
+      ],
+      "boards": [],
+      "grades": [],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-sql-databases",
+          "toLevel": 2
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 8,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.7
+    },
+    {
+      "id": "res-khan-sql",
+      "kind": "free_resource",
+      "title": "Khan Academy: Intro to SQL",
+      "provider": "Khan Academy",
+      "format": "interactive",
+      "url": "https://www.khanacademy.org/computing/computer-programming/sql",
+      "description": "Querying and managing data with SQL in the browser.",
+      "subjectSlugs": [
+        "informatics",
+        "computer-science"
+      ],
+      "boards": [],
+      "grades": [],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-sql-databases",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 15,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.6
+    },
+    {
+      "id": "res-excel-microsoft-learn",
+      "kind": "free_resource",
+      "title": "Excel training videos",
+      "provider": "Microsoft Support",
+      "format": "video",
+      "url": "https://support.microsoft.com/en-us/office/excel-video-training-9bc05390-e94c-46af-a5b3-d7c22f6990bb",
+      "description": "Official Excel videos from basics to pivot tables and lookups.",
+      "subjectSlugs": [
+        "informatics",
+        "accountancy"
+      ],
+      "boards": [],
+      "grades": [],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-spreadsheets",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 15,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.4
+    },
+    {
+      "id": "res-tableau-public-training",
+      "kind": "free_resource",
+      "title": "Tableau Public free training videos",
+      "provider": "Tableau (Salesforce)",
+      "format": "video",
+      "url": "https://www.tableau.com/learn/training",
+      "description": "Free videos for building dashboards in Tableau Public.",
+      "subjectSlugs": [],
+      "boards": [],
+      "grades": [],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-data-visualisation",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 12,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.5
+    },
+    {
+      "id": "res-kaggle-learn",
+      "kind": "free_resource",
+      "title": "Kaggle Learn micro-courses (Python, Pandas, ML)",
+      "provider": "Kaggle (Google)",
+      "format": "interactive",
+      "url": "https://www.kaggle.com/learn",
+      "description": "Hands-on notebooks covering Python, Pandas, data visualisation and intro ML.",
+      "subjectSlugs": [
+        "computer-science",
+        "informatics"
+      ],
+      "boards": [],
+      "grades": [],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-python-programming",
+          "toLevel": 3
+        },
+        {
+          "skillId": "skill-machine-learning",
+          "toLevel": 2
+        },
+        {
+          "skillId": "skill-data-visualisation",
+          "toLevel": 2
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 40,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": true,
+      "rating": 4.7
+    },
+    {
+      "id": "res-elements-of-ai",
+      "kind": "free_resource",
+      "title": "Elements of AI",
+      "provider": "University of Helsinki",
+      "format": "course",
+      "url": "https://www.elementsofai.com",
+      "description": "Non-technical introduction to what AI is and how it is used responsibly.",
+      "subjectSlugs": [],
+      "boards": [],
+      "grades": [],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-ai-tool-fluency",
+          "toLevel": 2
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 30,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": true,
+      "rating": 4.6
+    },
+    {
+      "id": "res-google-ai-essentials-free-audit",
+      "kind": "free_resource",
+      "title": "Prompting and AI tools practice guide",
+      "provider": "Google",
+      "format": "course",
+      "url": "https://grow.google/ai-essentials/",
+      "description": "Short lessons on prompting and using AI tools productively and responsibly.",
+      "subjectSlugs": [],
+      "boards": [],
+      "grades": [],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-ai-tool-fluency",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 10,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.4
+    },
+    {
+      "id": "res-ncfe-financial-literacy",
+      "kind": "free_resource",
+      "title": "NCFE financial literacy modules",
+      "provider": "National Centre for Financial Education",
+      "format": "interactive",
+      "url": "https://www.ncfe.org.in",
+      "description": "Free modules on budgeting, saving, banking and investing for school students.",
+      "subjectSlugs": [
+        "economics",
+        "accountancy"
+      ],
+      "boards": [
+        "cbse"
+      ],
+      "grades": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-financial-literacy",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 10,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.2
+    },
+    {
+      "id": "res-zerodha-varsity",
+      "kind": "free_resource",
+      "title": "Zerodha Varsity",
+      "provider": "Zerodha",
+      "format": "textbook",
+      "url": "https://zerodha.com/varsity/",
+      "description": "Free modules on markets, financial statements and valuation, written for Indian readers.",
+      "subjectSlugs": [
+        "accountancy",
+        "economics"
+      ],
+      "boards": [],
+      "grades": [
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-financial-literacy",
+          "toLevel": 4
+        },
+        {
+          "skillId": "skill-financial-modelling",
+          "toLevel": 2
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 40,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.8
+    },
+    {
+      "id": "res-purdue-owl",
+      "kind": "free_resource",
+      "title": "Purdue OWL writing guides",
+      "provider": "Purdue University",
+      "format": "textbook",
+      "url": "https://owl.purdue.edu",
+      "description": "Clear guides to essay structure, argument and citation.",
+      "subjectSlugs": [
+        "english"
+      ],
+      "boards": [
+        "cbse",
+        "cambridge",
+        "ib"
+      ],
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-written-communication",
+          "toLevel": 3
+        },
+        {
+          "skillId": "skill-research",
+          "toLevel": 2
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 10,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.7
+    },
+    {
+      "id": "res-toastmasters-youth",
+      "kind": "free_resource",
+      "title": "Toastmasters Youth Leadership Program",
+      "provider": "Toastmasters International (local clubs)",
+      "format": "mentorship",
+      "url": "https://www.toastmasters.org",
+      "description": "Free or low-cost club sessions for speaking practice with feedback.",
+      "subjectSlugs": [],
+      "boards": [],
+      "grades": [],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-spoken-communication",
+          "toLevel": 3
+        },
+        {
+          "skillId": "skill-presentation",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 16,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.4
+    },
+    {
+      "id": "res-google-ux-figma-free",
+      "kind": "free_resource",
+      "title": "Figma Learn: design basics",
+      "provider": "Figma",
+      "format": "video",
+      "url": "https://help.figma.com/hc/en-us/categories/360002051613",
+      "description": "Official tutorials for wireframes and prototypes in Figma.",
+      "subjectSlugs": [],
+      "boards": [],
+      "grades": [],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-ui-ux-tools",
+          "toLevel": 2
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 10,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.6
+    },
+    {
+      "id": "res-drawabox",
+      "kind": "free_resource",
+      "title": "Drawabox: drawing fundamentals",
+      "provider": "Drawabox",
+      "format": "practice",
+      "url": "https://drawabox.com",
+      "description": "Free structured lessons in line, perspective and form; good preparation for NID and NATA sketching.",
+      "subjectSlugs": [],
+      "boards": [],
+      "grades": [],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-drawing-sketching",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [
+        "nid-dat",
+        "uceed",
+        "nata"
+      ],
+      "topicTags": [],
+      "hours": 60,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.7
+    },
+    {
+      "id": "res-unity-learn",
+      "kind": "free_resource",
+      "title": "Unity Learn pathways",
+      "provider": "Unity",
+      "format": "course",
+      "url": "https://learn.unity.com",
+      "description": "Free pathways from first game to junior programmer.",
+      "subjectSlugs": [
+        "computer-science"
+      ],
+      "boards": [],
+      "grades": [],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-game-engines",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 80,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": true,
+      "rating": 4.6
+    },
+    {
+      "id": "res-swayam-courses",
+      "kind": "free_resource",
+      "title": "SWAYAM courses (psychology, law, commerce)",
+      "provider": "Government of India (SWAYAM)",
+      "format": "course",
+      "url": "https://swayam.gov.in",
+      "description": "Free university courses across psychology, law, commerce and humanities with optional certificates.",
+      "subjectSlugs": [
+        "psychology",
+        "legal-studies",
+        "accountancy",
+        "economics",
+        "sociology"
+      ],
+      "boards": [],
+      "grades": [
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-psychology-foundations",
+          "toLevel": 3
+        },
+        {
+          "skillId": "skill-legal-concepts",
+          "toLevel": 2
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 40,
+      "priceInr": 0,
+      "language": [
+        "English",
+        "Hindi"
+      ],
+      "certificate": true,
+      "rating": 4.2
+    },
+    {
+      "id": "res-tryhackme-free",
+      "kind": "free_resource",
+      "title": "TryHackMe free rooms",
+      "provider": "TryHackMe",
+      "format": "interactive",
+      "url": "https://tryhackme.com",
+      "description": "Guided, gamified cybersecurity labs for beginners.",
+      "subjectSlugs": [
+        "computer-science"
+      ],
+      "boards": [],
+      "grades": [],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-cybersecurity",
+          "toLevel": 2
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 40,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.7
+    },
+    {
+      "id": "res-arduino-project-hub",
+      "kind": "free_resource",
+      "title": "Arduino Project Hub",
+      "provider": "Arduino",
+      "format": "practice",
+      "url": "https://projecthub.arduino.cc",
+      "description": "Step-by-step electronics projects with code and wiring diagrams.",
+      "subjectSlugs": [
+        "physics",
+        "computer-science"
+      ],
+      "boards": [],
+      "grades": [],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-electronics-prototyping",
+          "toLevel": 2
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 30,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.5
+    },
+    {
+      "id": "course-google-data-analytics",
+      "kind": "paid_course",
+      "title": "Google Data Analytics Professional Certificate",
+      "provider": "Coursera (Google)",
+      "format": "course",
+      "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
+      "description": "Eight-course certificate: spreadsheets, SQL, Tableau and R, with a capstone case study.",
+      "subjectSlugs": [
+        "informatics"
+      ],
+      "boards": [],
+      "grades": [],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-spreadsheets",
+          "toLevel": 3
+        },
+        {
+          "skillId": "skill-sql-databases",
+          "toLevel": 3
+        },
+        {
+          "skillId": "skill-data-visualisation",
+          "toLevel": 3
+        },
+        {
+          "skillId": "skill-data-literacy",
+          "toLevel": 4
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 180,
+      "priceInr": 16000,
+      "language": [
+        "English"
+      ],
+      "certificate": true,
+      "rating": 4.8
+    },
+    {
+      "id": "course-excel-financial-modelling",
+      "kind": "paid_course",
+      "title": "Excel and financial modelling bootcamp",
+      "provider": "Udemy",
+      "format": "course",
+      "url": "https://www.udemy.com/topic/financial-modeling/",
+      "description": "Three-statement models, DCF and comparables in Excel.",
+      "subjectSlugs": [
+        "accountancy"
+      ],
+      "boards": [],
+      "grades": [],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-financial-modelling",
+          "toLevel": 3
+        },
+        {
+          "skillId": "skill-spreadsheets",
+          "toLevel": 4
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 25,
+      "priceInr": 3200,
+      "language": [
+        "English"
+      ],
+      "certificate": true,
+      "rating": 4.5
+    },
+    {
+      "id": "course-python-for-data-science-upgrad",
+      "kind": "paid_course",
+      "title": "Python for Data Science (school edition)",
+      "provider": "upGrad",
+      "format": "course",
+      "url": "https://www.upgrad.com",
+      "description": "Live and recorded Python, Pandas and statistics for Class 11-12 students exploring data careers.",
+      "subjectSlugs": [
+        "informatics",
+        "computer-science"
+      ],
+      "boards": [],
+      "grades": [
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-python-programming",
+          "toLevel": 3
+        },
+        {
+          "skillId": "skill-statistics",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 60,
+      "priceInr": 18000,
+      "language": [
+        "English"
+      ],
+      "certificate": true,
+      "rating": 4.3
+    },
+    {
+      "id": "course-deep-learning-specialisation",
+      "kind": "paid_course",
+      "title": "Deep Learning Specialization",
+      "provider": "Coursera (DeepLearning.AI)",
+      "format": "course",
+      "url": "https://www.coursera.org/specializations/deep-learning",
+      "description": "Andrew Ng's five-course sequence on neural networks, CNNs and sequence models.",
+      "subjectSlugs": [
+        "computer-science"
+      ],
+      "boards": [],
+      "grades": [],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-machine-learning",
+          "toLevel": 4
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 120,
+      "priceInr": 14000,
+      "language": [
+        "English"
+      ],
+      "certificate": true,
+      "rating": 4.9
+    },
+    {
+      "id": "course-google-ux-design",
+      "kind": "paid_course",
+      "title": "Google UX Design Professional Certificate",
+      "provider": "Coursera (Google)",
+      "format": "course",
+      "url": "https://www.coursera.org/professional-certificates/google-ux-design",
+      "description": "User research, wireframing and Figma prototyping with three portfolio projects.",
+      "subjectSlugs": [],
+      "boards": [],
+      "grades": [],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-ui-ux-tools",
+          "toLevel": 3
+        },
+        {
+          "skillId": "skill-empathy",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 200,
+      "priceInr": 16000,
+      "language": [
+        "English"
+      ],
+      "certificate": true,
+      "rating": 4.8
+    },
+    {
+      "id": "course-google-cybersecurity",
+      "kind": "paid_course",
+      "title": "Google Cybersecurity Professional Certificate",
+      "provider": "Coursera (Google)",
+      "format": "course",
+      "url": "https://www.coursera.org/professional-certificates/google-cybersecurity",
+      "description": "Networks, Linux, SIEM tools and incident response.",
+      "subjectSlugs": [
+        "computer-science"
+      ],
+      "boards": [],
+      "grades": [],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-cybersecurity",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 170,
+      "priceInr": 16000,
+      "language": [
+        "English"
+      ],
+      "certificate": true,
+      "rating": 4.8
+    },
+    {
+      "id": "course-google-digital-marketing",
+      "kind": "paid_course",
+      "title": "Google Digital Marketing and E-commerce Certificate",
+      "provider": "Coursera (Google)",
+      "format": "course",
+      "url": "https://www.coursera.org/professional-certificates/google-digital-marketing-ecommerce",
+      "description": "SEO, social media, email marketing and analytics.",
+      "subjectSlugs": [],
+      "boards": [],
+      "grades": [],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-digital-marketing",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 180,
+      "priceInr": 16000,
+      "language": [
+        "English"
+      ],
+      "certificate": true,
+      "rating": 4.8
+    },
+    {
+      "id": "course-pw-arjuna-jee",
+      "kind": "paid_course",
+      "title": "Arjuna JEE (Class 11) full-year batch",
+      "provider": "Physics Wallah",
+      "format": "course",
+      "url": "https://www.pw.live",
+      "description": "Live classes, DPPs and tests for JEE Main and Advanced, Class 11.",
+      "subjectSlugs": [
+        "physics",
+        "chemistry",
+        "maths"
+      ],
+      "boards": [
+        "cbse"
+      ],
+      "grades": [
+        11
+      ],
+      "skillOutcomes": [],
+      "examIds": [
+        "jee-main",
+        "jee-advanced"
+      ],
+      "topicTags": [],
+      "hours": 700,
+      "priceInr": 4500,
+      "language": [
+        "Hindi",
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.4
+    },
+    {
+      "id": "course-pw-lakshya-neet",
+      "kind": "paid_course",
+      "title": "Lakshya NEET (Class 12) full-year batch",
+      "provider": "Physics Wallah",
+      "format": "course",
+      "url": "https://www.pw.live",
+      "description": "Live classes, notes and test series for NEET with board coverage.",
+      "subjectSlugs": [
+        "physics",
+        "chemistry",
+        "biology"
+      ],
+      "boards": [
+        "cbse"
+      ],
+      "grades": [
+        12
+      ],
+      "skillOutcomes": [],
+      "examIds": [
+        "neet-ug"
+      ],
+      "topicTags": [],
+      "hours": 700,
+      "priceInr": 4800,
+      "language": [
+        "Hindi",
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.4
+    },
+    {
+      "id": "course-allen-online-jee-test-series",
+      "kind": "paid_course",
+      "title": "JEE Main + Advanced online test series",
+      "provider": "ALLEN Career Institute",
+      "format": "test_series",
+      "url": "https://www.allen.ac.in",
+      "description": "Full-length mocks with All India rank and analysis.",
+      "subjectSlugs": [
+        "physics",
+        "chemistry",
+        "maths"
+      ],
+      "boards": [
+        "cbse"
+      ],
+      "grades": [
+        11,
+        12
+      ],
+      "skillOutcomes": [],
+      "examIds": [
+        "jee-main",
+        "jee-advanced"
+      ],
+      "topicTags": [],
+      "hours": 90,
+      "priceInr": 7500,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.5
+    },
+    {
+      "id": "course-aakash-neet-test-series",
+      "kind": "paid_course",
+      "title": "NEET All India Aakash Test Series",
+      "provider": "Aakash Educational Services",
+      "format": "test_series",
+      "url": "https://www.aakash.ac.in",
+      "description": "Weekly and full-syllabus NEET mocks with national ranking.",
+      "subjectSlugs": [
+        "physics",
+        "chemistry",
+        "biology"
+      ],
+      "boards": [
+        "cbse"
+      ],
+      "grades": [
+        11,
+        12
+      ],
+      "skillOutcomes": [],
+      "examIds": [
+        "neet-ug"
+      ],
+      "topicTags": [],
+      "hours": 100,
+      "priceInr": 9000,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.5
+    },
+    {
+      "id": "course-clat-possible-mocks",
+      "kind": "paid_course",
+      "title": "CLAT mock test series",
+      "provider": "Clat Possible",
+      "format": "test_series",
+      "url": "https://www.clatpossible.com",
+      "description": "Passage-based CLAT mocks with sectional analysis.",
+      "subjectSlugs": [
+        "legal-studies",
+        "english"
+      ],
+      "boards": [],
+      "grades": [
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-logical-reasoning",
+          "toLevel": 4
+        },
+        {
+          "skillId": "skill-legal-concepts",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [
+        "clat",
+        "ailet"
+      ],
+      "topicTags": [],
+      "hours": 80,
+      "priceInr": 8500,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.4
+    },
+    {
+      "id": "course-icai-ca-foundation-coaching",
+      "kind": "paid_course",
+      "title": "CA Foundation online coaching",
+      "provider": "Unacademy CA",
+      "format": "course",
+      "url": "https://unacademy.com",
+      "description": "Complete CA Foundation coverage: accounting, laws, quantitative aptitude and economics.",
+      "subjectSlugs": [
+        "accountancy",
+        "economics"
+      ],
+      "boards": [],
+      "grades": [
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-accounting",
+          "toLevel": 4
+        }
+      ],
+      "examIds": [
+        "ca-foundation"
+      ],
+      "topicTags": [],
+      "hours": 350,
+      "priceInr": 15000,
+      "language": [
+        "English",
+        "Hindi"
+      ],
+      "certificate": false,
+      "rating": 4.3
+    },
+    {
+      "id": "course-magoosh-ielts",
+      "kind": "paid_course",
+      "title": "IELTS online prep with mock tests",
+      "provider": "Magoosh",
+      "format": "course",
+      "url": "https://ielts.magoosh.com",
+      "description": "Video lessons, practice questions and graded writing samples.",
+      "subjectSlugs": [
+        "english"
+      ],
+      "boards": [],
+      "grades": [
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-english-proficiency",
+          "toLevel": 4
+        }
+      ],
+      "examIds": [
+        "ielts"
+      ],
+      "topicTags": [],
+      "hours": 40,
+      "priceInr": 9500,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.4
+    },
+    {
+      "id": "course-princeton-review-sat",
+      "kind": "paid_course",
+      "title": "Digital SAT self-paced course",
+      "provider": "The Princeton Review",
+      "format": "course",
+      "url": "https://www.princetonreview.com/college/sat-test-prep",
+      "description": "Lessons, drills and adaptive practice tests for the digital SAT.",
+      "subjectSlugs": [
+        "maths",
+        "english"
+      ],
+      "boards": [],
+      "grades": [
+        10,
+        11
+      ],
+      "skillOutcomes": [],
+      "examIds": [
+        "sat"
+      ],
+      "topicTags": [],
+      "hours": 50,
+      "priceInr": 25000,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.3
+    },
+    {
+      "id": "course-ib-revision-village-premium",
+      "kind": "paid_course",
+      "title": "Revision Village Premium (IB Maths)",
+      "provider": "Revision Village",
+      "format": "course",
+      "url": "https://www.revisionvillage.com",
+      "description": "Full IB Maths question bank, mock exams and video solutions.",
+      "subjectSlugs": [
+        "maths"
+      ],
+      "boards": [
+        "ib"
+      ],
+      "grades": [
+        11,
+        12
+      ],
+      "skillOutcomes": [],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 80,
+      "priceInr": 12000,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.7
+    },
+    {
+      "id": "course-nid-dat-prep-course",
+      "kind": "paid_course",
+      "title": "NID DAT and UCEED preparation course",
+      "provider": "Brainstorm Design School",
+      "format": "course",
+      "url": "https://www.brainstormdesignschool.com",
+      "description": "Sketching, design thinking and studio-test practice with portfolio reviews.",
+      "subjectSlugs": [],
+      "boards": [],
+      "grades": [
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-drawing-sketching",
+          "toLevel": 4
+        },
+        {
+          "skillId": "skill-creative-design",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [
+        "nid-dat",
+        "uceed"
+      ],
+      "topicTags": [],
+      "hours": 150,
+      "priceInr": 45000,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.3
+    },
+    {
+      "id": "course-ipmat-online-course",
+      "kind": "paid_course",
+      "title": "IPMAT online preparation",
+      "provider": "Career Launcher",
+      "format": "course",
+      "url": "https://www.careerlauncher.com/ipm/",
+      "description": "Quant, verbal and interview preparation for IPMAT Indore and Rohtak.",
+      "subjectSlugs": [
+        "maths",
+        "english"
+      ],
+      "boards": [],
+      "grades": [
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-quantitative-reasoning",
+          "toLevel": 4
+        }
+      ],
+      "examIds": [
+        "ipmat-indore"
+      ],
+      "topicTags": [],
+      "hours": 150,
+      "priceInr": 28000,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.2
+    },
+    {
+      "id": "course-young-founders-lab",
+      "kind": "paid_course",
+      "title": "Young Founders Lab (teen entrepreneurship programme)",
+      "provider": "Learnibility Partner Programme",
+      "format": "mentorship",
+      "url": "https://www.startupindia.gov.in",
+      "description": "10-week venture-building programme with founder mentors; ends with a demo day.",
+      "subjectSlugs": [
+        "entrepreneurship",
+        "business"
+      ],
+      "boards": [],
+      "grades": [
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-entrepreneurship",
+          "toLevel": 3
+        },
+        {
+          "skillId": "skill-leadership",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 40,
+      "priceInr": 18000,
+      "language": [
+        "English"
+      ],
+      "certificate": true,
+      "rating": 4.5
+    },
+    {
+      "id": "course-cfa-level-1-prep",
+      "kind": "paid_course",
+      "title": "CFA Level I prep course",
+      "provider": "Kaplan Schweser",
+      "format": "course",
+      "url": "https://www.schweser.com",
+      "description": "Study notes, videos and question bank for CFA Level I (after class 12, during college).",
+      "subjectSlugs": [
+        "accountancy",
+        "economics"
+      ],
+      "boards": [],
+      "grades": [],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-financial-modelling",
+          "toLevel": 3
+        },
+        {
+          "skillId": "skill-financial-literacy",
+          "toLevel": 4
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 300,
+      "priceInr": 35000,
+      "language": [
+        "English"
+      ],
+      "certificate": true,
+      "rating": 4.4
+    },
+    {
+      "id": "course-tableau-desktop-specialist",
+      "kind": "paid_course",
+      "title": "Tableau Desktop Specialist prep",
+      "provider": "Udemy",
+      "format": "course",
+      "url": "https://www.udemy.com/topic/tableau/",
+      "description": "Dashboards and certification prep.",
+      "subjectSlugs": [],
+      "boards": [],
+      "grades": [],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-data-visualisation",
+          "toLevel": 4
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 20,
+      "priceInr": 3200,
+      "language": [
+        "English"
+      ],
+      "certificate": true,
+      "rating": 4.5
+    },
+    {
+      "id": "res-mit-ocw-chemistry",
+      "kind": "free_resource",
+      "title": "MIT OpenCourseWare: Principles of Chemical Science",
+      "provider": "MIT OpenCourseWare",
+      "format": "video",
+      "url": "https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/",
+      "description": "University lectures on bonding, thermodynamics, kinetics and equilibrium for students going beyond the syllabus.",
+      "subjectSlugs": [
+        "chemistry"
+      ],
+      "boards": [
+        "cbse",
+        "cambridge",
+        "ib"
+      ],
+      "grades": [
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-physical-chemistry",
+          "toLevel": 4
+        }
+      ],
+      "examIds": [
+        "jee-advanced"
+      ],
+      "topicTags": [],
+      "hours": 40,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.7
+    },
+    {
+      "id": "course-labster-virtual-labs",
+      "kind": "paid_course",
+      "title": "Virtual science labs (school licence)",
+      "provider": "Labster",
+      "format": "interactive",
+      "url": "https://www.labster.com",
+      "description": "Simulated lab experiments in biology, chemistry and physics, with safety and technique feedback.",
+      "subjectSlugs": [
+        "biology",
+        "chemistry",
+        "physics"
+      ],
+      "boards": [
+        "cbse",
+        "cambridge",
+        "ib"
+      ],
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-lab-techniques",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 25,
+      "priceInr": 6000,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.4
+    },
+    {
+      "id": "res-olabs",
+      "kind": "free_resource",
+      "title": "OLabs online labs (Amrita / CDAC)",
+      "provider": "Ministry of Electronics and IT",
+      "format": "interactive",
+      "url": "https://www.olabs.edu.in",
+      "description": "Free simulations of CBSE practicals in physics, chemistry and biology.",
+      "subjectSlugs": [
+        "physics",
+        "chemistry",
+        "biology",
+        "science"
+      ],
+      "boards": [
+        "cbse"
+      ],
+      "grades": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-lab-techniques",
+          "toLevel": 2
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 20,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.3
+    },
+    {
+      "id": "res-fusion-360-education",
+      "kind": "free_resource",
+      "title": "Autodesk Fusion for education + learning paths",
+      "provider": "Autodesk",
+      "format": "course",
+      "url": "https://www.autodesk.com/education/edu-software/overview",
+      "description": "Free student licence and tutorials for 3D CAD modelling.",
+      "subjectSlugs": [
+        "physics"
+      ],
+      "boards": [],
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-cad-modelling",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 40,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": true,
+      "rating": 4.5
+    },
+    {
+      "id": "res-icai-bos-tax-material",
+      "kind": "free_resource",
+      "title": "ICAI Board of Studies study material (taxation and audit)",
+      "provider": "ICAI",
+      "format": "textbook",
+      "url": "https://www.icai.org/post/bos-knowledge-portal",
+      "description": "Official free study material for CA Intermediate taxation and auditing.",
+      "subjectSlugs": [
+        "accountancy"
+      ],
+      "boards": [],
+      "grades": [
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-taxation-audit",
+          "toLevel": 3
+        },
+        {
+          "skillId": "skill-accounting",
+          "toLevel": 4
+        }
+      ],
+      "examIds": [
+        "ca-foundation"
+      ],
+      "topicTags": [],
+      "hours": 120,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.4
+    },
+    {
+      "id": "res-indian-kanoon-research",
+      "kind": "free_resource",
+      "title": "Indian Kanoon: reading judgments",
+      "provider": "Indian Kanoon",
+      "format": "textbook",
+      "url": "https://indiankanoon.org",
+      "description": "Free searchable case law; practise summarising landmark judgments.",
+      "subjectSlugs": [
+        "legal-studies"
+      ],
+      "boards": [],
+      "grades": [
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-legal-drafting",
+          "toLevel": 2
+        },
+        {
+          "skillId": "skill-legal-concepts",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 20,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.5
+    },
+    {
+      "id": "course-legal-writing-course",
+      "kind": "paid_course",
+      "title": "Legal research and drafting for law aspirants",
+      "provider": "Lawctopus Law School",
+      "format": "course",
+      "url": "https://www.lawctopus.com/academike/",
+      "description": "Online course on reading cases, drafting notices and contracts, with assignments.",
+      "subjectSlugs": [
+        "legal-studies"
+      ],
+      "boards": [],
+      "grades": [
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-legal-drafting",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 30,
+      "priceInr": 4999,
+      "language": [
+        "English"
+      ],
+      "certificate": true,
+      "rating": 4.3
+    },
+    {
+      "id": "res-debate-mun-practice",
+      "kind": "free_resource",
+      "title": "Inter-school debates and Model UN circuit",
+      "provider": "School debating societies / MUN conferences",
+      "format": "mentorship",
+      "url": "https://www.un.org/en/mun",
+      "description": "Structured debate and MUN participation builds advocacy, research and teamwork.",
+      "subjectSlugs": [],
+      "boards": [],
+      "grades": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-debate-advocacy",
+          "toLevel": 3
+        },
+        {
+          "skillId": "skill-teamwork",
+          "toLevel": 3
+        },
+        {
+          "skillId": "skill-spoken-communication",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 40,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.5
+    },
+    {
+      "id": "course-st-john-ambulance-first-aid",
+      "kind": "paid_course",
+      "title": "First aid and basic life support certificate",
+      "provider": "St John Ambulance (India)",
+      "format": "course",
+      "url": "https://www.stjohnambulanceindia.org",
+      "description": "Two-day certified first-aid course; a useful first step for medicine and nursing aspirants.",
+      "subjectSlugs": [
+        "biology"
+      ],
+      "boards": [],
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-clinical-knowledge",
+          "toLevel": 1
+        },
+        {
+          "skillId": "skill-empathy",
+          "toLevel": 2
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 16,
+      "priceInr": 1500,
+      "language": [
+        "English"
+      ],
+      "certificate": true,
+      "rating": 4.4
+    },
+    {
+      "id": "res-school-newsletter-and-journalism",
+      "kind": "free_resource",
+      "title": "Google News Initiative: journalism training",
+      "provider": "Google News Initiative",
+      "format": "course",
+      "url": "https://newsinitiative.withgoogle.com/en-gb/resources/trainings/",
+      "description": "Free lessons on verification, fact-checking and digital storytelling.",
+      "subjectSlugs": [
+        "english"
+      ],
+      "boards": [],
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-journalism-reporting",
+          "toLevel": 2
+        },
+        {
+          "skillId": "skill-research",
+          "toLevel": 2
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 12,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": true,
+      "rating": 4.4
+    },
+    {
+      "id": "res-hospitality-internship-exposure",
+      "kind": "free_resource",
+      "title": "IHCL / Oberoi summer exposure and career talks",
+      "provider": "Hotel groups (IHCL, Oberoi)",
+      "format": "mentorship",
+      "url": "https://www.ihcltata.com/careers/",
+      "description": "Short shadowing and career sessions offered to school students in hotel cities.",
+      "subjectSlugs": [],
+      "boards": [],
+      "grades": [
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-hospitality-operations",
+          "toLevel": 1
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 20,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.1
+    },
+    {
+      "id": "course-sewing-and-pattern-making",
+      "kind": "paid_course",
+      "title": "Pattern making and garment construction workshop",
+      "provider": "Local design studios / Skillshare",
+      "format": "course",
+      "url": "https://www.skillshare.com/en/browse/sewing",
+      "description": "Hands-on basics of pattern drafting and stitching garments.",
+      "subjectSlugs": [],
+      "boards": [],
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-garment-construction",
+          "toLevel": 2
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 30,
+      "priceInr": 6000,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.3
+    },
+    {
+      "id": "res-iai-acet-prep",
+      "kind": "free_resource",
+      "title": "ACET (actuarial entrance) study material",
+      "provider": "Institute of Actuaries of India",
+      "format": "textbook",
+      "url": "https://www.actuariesindia.org/acet",
+      "description": "Official syllabus and sample papers for the Actuarial Common Entrance Test.",
+      "subjectSlugs": [
+        "maths",
+        "applied-maths"
+      ],
+      "boards": [],
+      "grades": [
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-actuarial-maths",
+          "toLevel": 2
+        },
+        {
+          "skillId": "skill-statistics",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 80,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.2
+    },
+    {
+      "id": "res-harvard-justice-ethics",
+      "kind": "free_resource",
+      "title": "Justice (Michael Sandel) lectures",
+      "provider": "Harvard University (edX)",
+      "format": "video",
+      "url": "https://www.edx.org/learn/ethics/harvard-university-justice",
+      "description": "Accessible lectures on moral reasoning, rights and fairness.",
+      "subjectSlugs": [],
+      "boards": [],
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-ethical-reasoning",
+          "toLevel": 3
+        },
+        {
+          "skillId": "skill-critical-thinking",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 24,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": true,
+      "rating": 4.8
+    },
+    {
+      "id": "res-learnibility-study-planner",
+      "kind": "free_resource",
+      "title": "Learnibility study-planning toolkit",
+      "provider": "Learnibility",
+      "format": "interactive",
+      "url": "https://learnibility.app/planner",
+      "description": "In-app weekly planner, Pomodoro timer and deadline tracker linked to your timetable.",
+      "subjectSlugs": [],
+      "boards": [],
+      "grades": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-time-management",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 6,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.3
+    },
+    {
+      "id": "res-economic-times-business-reading",
+      "kind": "free_resource",
+      "title": "Business news habit (Economic Times / Mint)",
+      "provider": "Economic Times, Mint",
+      "format": "textbook",
+      "url": "https://www.livemint.com",
+      "description": "Daily business news reading builds commercial awareness for commerce careers and interviews.",
+      "subjectSlugs": [
+        "business",
+        "economics"
+      ],
+      "boards": [],
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-commercial-awareness",
+          "toLevel": 3
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 40,
+      "priceInr": 0,
+      "language": [
+        "English"
+      ],
+      "certificate": false,
+      "rating": 4.4
+    },
+    {
+      "id": "course-coursera-teamwork",
+      "kind": "paid_course",
+      "title": "Teamwork skills: communicating effectively in groups",
+      "provider": "Coursera (University of Colorado Boulder)",
+      "format": "course",
+      "url": "https://www.coursera.org/learn/teamwork-skills-effective-communication",
+      "description": "Short course on group roles, conflict and collaboration.",
+      "subjectSlugs": [],
+      "boards": [],
+      "grades": [
+        11,
+        12
+      ],
+      "skillOutcomes": [
+        {
+          "skillId": "skill-teamwork",
+          "toLevel": 3
+        },
+        {
+          "skillId": "skill-leadership",
+          "toLevel": 2
+        }
+      ],
+      "examIds": [],
+      "topicTags": [],
+      "hours": 14,
+      "priceInr": 4000,
+      "language": [
+        "English"
+      ],
+      "certificate": true,
+      "rating": 4.6
+    }
+  ]
+}

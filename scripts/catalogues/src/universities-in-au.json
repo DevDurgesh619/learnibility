@@ -1,0 +1,6269 @@
+[
+  {
+    "id": "uni-in-iit-bombay",
+    "name": "Indian Institute of Technology Bombay",
+    "shortName": "IIT Bombay",
+    "country": "in",
+    "city": "Mumbai",
+    "region": "Maharashtra",
+    "type": "public",
+    "website": "https://www.iitb.ac.in/",
+    "founded": 1958,
+    "qsWorldRank": {
+      "value": 129,
+      "sourceUrl": "https://news.careers360.com/qs-world-university-rankings-2026-iit-delhi-climbs-123rd-spot-iitb-slips-129-iitgn-kiit-lpu-8-new-entrants",
+      "asOf": "2026-11-18",
+      "verified": true,
+      "note": "QS World University Rankings 2026"
+    },
+    "nirfRank": {
+      "value": 3,
+      "sourceUrl": "https://news.careers360.com/nirf-ranking-2025-india-live-engineering-management-medical-law-colleges-universities-iit-nit-jnu-du-nirfindia-org-education-news",
+      "asOf": "2026-11-18",
+      "verified": true,
+      "note": "NIRF 2025 Engineering"
+    },
+    "acceptanceRatePct": {
+      "value": 1.0,
+      "sourceUrl": "https://josaa.nic.in/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Estimate: IIT seats / JEE Main candidates (~14-15 lakh)"
+    },
+    "intlStudentPct": {
+      "value": 1,
+      "sourceUrl": "https://www.iitb.ac.in/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Foreign nationals and OCI students are a very small share of UG"
+    },
+    "selectivity": "most_selective",
+    "tuition": {
+      "sourceUrl": "https://cracku.in/iit-fee-structure-2026",
+      "asOf": "2026-11-18",
+      "verified": true,
+      "note": "Rs 1,00,000 per semester for general/OBC/EWS with income > Rs 5 lakh; excludes one-time and hostel charges",
+      "value": {
+        "amount": 200000,
+        "currency": "INR"
+      }
+    },
+    "tuitionInrPerYear": 200000,
+    "livingInrPerYear": 120000,
+    "totalCostInr": 1280000,
+    "programmes": [
+      {
+        "id": "uni-in-iit-bombay-btech-cse",
+        "name": "B.Tech Computer Science and Engineering",
+        "degree": "B.Tech",
+        "field": "computer-science",
+        "durationYears": 4,
+        "careerIds": [
+          "career-software-engineer",
+          "career-ai-ml-engineer",
+          "career-data-analyst",
+          "career-cybersecurity-analyst",
+          "career-game-developer"
+        ],
+        "entryExamIds": [
+          "jee-main",
+          "jee-advanced"
+        ],
+        "cutoff": {
+          "value": "JEE Advanced CRL 66 (open, gender-neutral)",
+          "sourceUrl": "https://news.careers360.com/josaa-2025-iit-bombay-btech-cse-again-top-choice-of-jee-advanced-toppers-engineering-iit-delhi-madras-kanpur-opening-closing-rank",
+          "asOf": "2026-11-18",
+          "verified": true,
+          "note": "JoSAA 2025 Round 1 closing rank"
+        }
+      },
+      {
+        "id": "uni-in-iit-bombay-btech-ee",
+        "name": "B.Tech Electrical Engineering",
+        "degree": "B.Tech",
+        "field": "electrical-engineering",
+        "durationYears": 4,
+        "careerIds": [
+          "career-electronics-engineer",
+          "career-software-engineer"
+        ],
+        "entryExamIds": [
+          "jee-main",
+          "jee-advanced"
+        ],
+        "cutoff": {
+          "value": "JEE Advanced CRL ~ 500 (open)",
+          "sourceUrl": "https://josaa.nic.in/",
+          "asOf": "2026-11-18",
+          "verified": false,
+          "note": "Approximate JoSAA 2025 final-round closing rank"
+        }
+      },
+      {
+        "id": "uni-in-iit-bombay-btech-me",
+        "name": "B.Tech Mechanical Engineering",
+        "degree": "B.Tech",
+        "field": "mechanical-engineering",
+        "durationYears": 4,
+        "careerIds": [
+          "career-mechanical-engineer",
+          "career-supply-chain-manager"
+        ],
+        "entryExamIds": [
+          "jee-main",
+          "jee-advanced"
+        ],
+        "cutoff": {
+          "value": "JEE Advanced CRL ~ 2,300 (open)",
+          "sourceUrl": "https://josaa.nic.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        }
+      },
+      {
+        "id": "uni-in-iit-bombay-btech-aero",
+        "name": "B.Tech Aerospace Engineering",
+        "degree": "B.Tech",
+        "field": "aerospace-engineering",
+        "durationYears": 4,
+        "careerIds": [
+          "career-aerospace-engineer",
+          "career-mechanical-engineer"
+        ],
+        "entryExamIds": [
+          "jee-main",
+          "jee-advanced"
+        ],
+        "cutoff": {
+          "value": "JEE Advanced CRL ~ 3,000 (open)",
+          "sourceUrl": "https://josaa.nic.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        }
+      },
+      {
+        "id": "uni-in-iit-bombay-bs-economics",
+        "name": "BS Economics",
+        "degree": "BS",
+        "field": "economics",
+        "durationYears": 4,
+        "careerIds": [
+          "career-economist",
+          "career-policy-analyst",
+          "career-financial-analyst",
+          "career-actuary"
+        ],
+        "entryExamIds": [
+          "jee-main",
+          "jee-advanced"
+        ],
+        "cutoff": {
+          "value": "JEE Advanced CRL ~ 3,500 (open)",
+          "sourceUrl": "https://josaa.nic.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        }
+      }
+    ],
+    "applicationRoutes": [
+      {
+        "type": "josaa",
+        "platform": "josaa",
+        "deadline": {
+          "value": "2026-11-22",
+          "sourceUrl": "https://www.careerindia.com/news/jee-main-2027-over-4-lakh-candidates-complete-session-1-registration-068489.html",
+          "asOf": "2026-11-18",
+          "verified": true,
+          "note": "JEE Main 2027 session 1 registration closes 22 Nov 2026 (late window to 26 Nov with Rs 500 extra). Session 2 registration usually Feb; JEE Advanced 2027 registration expected late Apr-early May 2027."
+        },
+        "decisionBy": "2027-07-20",
+        "binding": false,
+        "requirements": {
+          "minBoardPercent": 75,
+          "testPolicy": "required",
+          "examIds": [
+            "jee-main",
+            "jee-advanced"
+          ],
+          "essays": [],
+          "recommendations": 0,
+          "otherItems": [
+            "JEE Main 2027 (Jan/Apr) to qualify for JEE Advanced (top ~2.5 lakh)",
+            "JEE Advanced 2027 (expected May 2027)",
+            "Class 12 with 75% aggregate (65% SC/ST/PwD) or top 20 percentile of board",
+            "JoSAA choice filling and seat acceptance (June-July 2027)"
+          ],
+          "applicationFeeInr": 4200
+        }
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Tuition fee remission (MoE scheme)",
+        "amount": {
+          "value": "Full tuition waiver if family income < Rs 1 lakh; two-thirds waiver for Rs 1-5 lakh; full waiver for SC/ST/PwD",
+          "sourceUrl": "https://cracku.in/iit-fee-structure-2026",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 133333,
+        "eligibility": "General/OBC/EWS students by annual family income; SC/ST/PwD irrespective of income",
+        "needBased": true
+      },
+      {
+        "name": "Merit-cum-Means (MCM) Scholarship",
+        "amount": {
+          "value": "Tuition waiver plus about Rs 1,000 a month pocket allowance",
+          "sourceUrl": "https://josaa.nic.in/",
+          "asOf": "2026-11-18",
+          "verified": false,
+          "note": "Institute-specific; check the allotted IIT's scholarship page"
+        },
+        "valueInrPerYear": 12000,
+        "eligibility": "General/OBC students with family income below about Rs 4.5-5 lakh and satisfactory CPI",
+        "needBased": true
+      }
+    ],
+    "strengths": [
+      "Computer science",
+      "Electrical engineering",
+      "Aerospace engineering",
+      "Entrepreneurship"
+    ],
+    "outcomes": {
+      "employmentRatePct": {
+        "value": 82,
+        "sourceUrl": "https://www.iitb.ac.in/",
+        "asOf": "2026-11-18",
+        "verified": false,
+        "note": "Share of registered UG students placed (placement reports / NIRF data)"
+      },
+      "medianStartingSalaryInr": {
+        "value": 2100000,
+        "sourceUrl": "https://www.nirfindia.org/",
+        "asOf": "2026-11-18",
+        "verified": false,
+        "note": "Median UG (4-year) salary from NIRF data submission, rounded"
+      },
+      "topRecruiters": [
+        "Google",
+        "Microsoft",
+        "Goldman Sachs",
+        "Qualcomm",
+        "Jane Street",
+        "Tata Steel"
+      ]
+    },
+    "admitTrend": [
+      {
+        "year": 2022,
+        "ratePct": 1.1
+      },
+      {
+        "year": 2023,
+        "ratePct": 1.1
+      },
+      {
+        "year": 2024,
+        "ratePct": 1.0
+      },
+      {
+        "year": 2025,
+        "ratePct": 1.0
+      },
+      {
+        "year": 2026,
+        "ratePct": 1.0
+      }
+    ]
+  },
+  {
+    "id": "uni-in-iit-delhi",
+    "name": "Indian Institute of Technology Delhi",
+    "shortName": "IIT Delhi",
+    "country": "in",
+    "city": "New Delhi",
+    "region": "Delhi",
+    "type": "public",
+    "website": "https://home.iitd.ac.in/",
+    "founded": 1961,
+    "qsWorldRank": {
+      "value": 123,
+      "sourceUrl": "https://news.careers360.com/qs-world-university-rankings-2026-iit-delhi-climbs-123rd-spot-iitb-slips-129-iitgn-kiit-lpu-8-new-entrants",
+      "asOf": "2026-11-18",
+      "verified": true,
+      "note": "QS World University Rankings 2026"
+    },
+    "nirfRank": {
+      "value": 2,
+      "sourceUrl": "https://news.careers360.com/nirf-ranking-2025-india-live-engineering-management-medical-law-colleges-universities-iit-nit-jnu-du-nirfindia-org-education-news",
+      "asOf": "2026-11-18",
+      "verified": true,
+      "note": "NIRF 2025 Engineering"
+    },
+    "acceptanceRatePct": {
+      "value": 1.0,
+      "sourceUrl": "https://josaa.nic.in/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Estimate: IIT seats / JEE Main candidates (~14-15 lakh)"
+    },
+    "intlStudentPct": {
+      "value": 1,
+      "sourceUrl": "https://home.iitd.ac.in/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Foreign nationals and OCI students are a very small share of UG"
+    },
+    "selectivity": "most_selective",
+    "tuition": {
+      "sourceUrl": "https://cracku.in/iit-fee-structure-2026",
+      "asOf": "2026-11-18",
+      "verified": true,
+      "note": "Rs 1,00,000 per semester for general/OBC/EWS with income > Rs 5 lakh; excludes one-time and hostel charges",
+      "value": {
+        "amount": 200000,
+        "currency": "INR"
+      }
+    },
+    "tuitionInrPerYear": 200000,
+    "livingInrPerYear": 130000,
+    "totalCostInr": 1320000,
+    "programmes": [
+      {
+        "id": "uni-in-iit-delhi-btech-cse",
+        "name": "B.Tech Computer Science and Engineering",
+        "degree": "B.Tech",
+        "field": "computer-science",
+        "durationYears": 4,
+        "careerIds": [
+          "career-software-engineer",
+          "career-ai-ml-engineer",
+          "career-data-analyst",
+          "career-cybersecurity-analyst",
+          "career-game-developer"
+        ],
+        "entryExamIds": [
+          "jee-main",
+          "jee-advanced"
+        ],
+        "cutoff": {
+          "value": "JEE Advanced CRL 125 (open, gender-neutral)",
+          "sourceUrl": "https://news.careers360.com/josaa-2025-iit-bombay-btech-cse-again-top-choice-of-jee-advanced-toppers-engineering-iit-delhi-madras-kanpur-opening-closing-rank",
+          "asOf": "2026-11-18",
+          "verified": true,
+          "note": "JoSAA 2025 Round 1 closing rank"
+        }
+      },
+      {
+        "id": "uni-in-iit-delhi-btech-mnc",
+        "name": "B.Tech Mathematics and Computing",
+        "degree": "B.Tech",
+        "field": "mathematics-computing",
+        "durationYears": 4,
+        "careerIds": [
+          "career-software-engineer",
+          "career-ai-ml-engineer",
+          "career-data-analyst",
+          "career-actuary"
+        ],
+        "entryExamIds": [
+          "jee-main",
+          "jee-advanced"
+        ],
+        "cutoff": {
+          "value": "JEE Advanced CRL ~ 330 (open)",
+          "sourceUrl": "https://josaa.nic.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        }
+      },
+      {
+        "id": "uni-in-iit-delhi-btech-ee",
+        "name": "B.Tech Electrical Engineering",
+        "degree": "B.Tech",
+        "field": "electrical-engineering",
+        "durationYears": 4,
+        "careerIds": [
+          "career-electronics-engineer",
+          "career-software-engineer"
+        ],
+        "entryExamIds": [
+          "jee-main",
+          "jee-advanced"
+        ],
+        "cutoff": {
+          "value": "JEE Advanced CRL ~ 600 (open)",
+          "sourceUrl": "https://josaa.nic.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        }
+      },
+      {
+        "id": "uni-in-iit-delhi-btech-me",
+        "name": "B.Tech Mechanical Engineering",
+        "degree": "B.Tech",
+        "field": "mechanical-engineering",
+        "durationYears": 4,
+        "careerIds": [
+          "career-mechanical-engineer",
+          "career-supply-chain-manager"
+        ],
+        "entryExamIds": [
+          "jee-main",
+          "jee-advanced"
+        ],
+        "cutoff": {
+          "value": "JEE Advanced CRL ~ 2,500 (open)",
+          "sourceUrl": "https://josaa.nic.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        }
+      },
+      {
+        "id": "uni-in-iit-delhi-btech-civil",
+        "name": "B.Tech Civil Engineering",
+        "degree": "B.Tech",
+        "field": "civil-engineering",
+        "durationYears": 4,
+        "careerIds": [
+          "career-civil-engineer",
+          "career-environmental-scientist"
+        ],
+        "entryExamIds": [
+          "jee-main",
+          "jee-advanced"
+        ],
+        "cutoff": {
+          "value": "JEE Advanced CRL ~ 5,500 (open)",
+          "sourceUrl": "https://josaa.nic.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        }
+      }
+    ],
+    "applicationRoutes": [
+      {
+        "type": "josaa",
+        "platform": "josaa",
+        "deadline": {
+          "value": "2026-11-22",
+          "sourceUrl": "https://www.careerindia.com/news/jee-main-2027-over-4-lakh-candidates-complete-session-1-registration-068489.html",
+          "asOf": "2026-11-18",
+          "verified": true,
+          "note": "JEE Main 2027 session 1 registration closes 22 Nov 2026 (late window to 26 Nov with Rs 500 extra). Session 2 registration usually Feb; JEE Advanced 2027 registration expected late Apr-early May 2027."
+        },
+        "decisionBy": "2027-07-20",
+        "binding": false,
+        "requirements": {
+          "minBoardPercent": 75,
+          "testPolicy": "required",
+          "examIds": [
+            "jee-main",
+            "jee-advanced"
+          ],
+          "essays": [],
+          "recommendations": 0,
+          "otherItems": [
+            "JEE Main 2027 (Jan/Apr) to qualify for JEE Advanced (top ~2.5 lakh)",
+            "JEE Advanced 2027 (expected May 2027)",
+            "Class 12 with 75% aggregate (65% SC/ST/PwD) or top 20 percentile of board",
+            "JoSAA choice filling and seat acceptance (June-July 2027)"
+          ],
+          "applicationFeeInr": 4200
+        }
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Tuition fee remission (MoE scheme)",
+        "amount": {
+          "value": "Full tuition waiver if family income < Rs 1 lakh; two-thirds waiver for Rs 1-5 lakh; full waiver for SC/ST/PwD",
+          "sourceUrl": "https://cracku.in/iit-fee-structure-2026",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 133333,
+        "eligibility": "General/OBC/EWS students by annual family income; SC/ST/PwD irrespective of income",
+        "needBased": true
+      },
+      {
+        "name": "Merit-cum-Means (MCM) Scholarship",
+        "amount": {
+          "value": "Tuition waiver plus about Rs 1,000 a month pocket allowance",
+          "sourceUrl": "https://josaa.nic.in/",
+          "asOf": "2026-11-18",
+          "verified": false,
+          "note": "Institute-specific; check the allotted IIT's scholarship page"
+        },
+        "valueInrPerYear": 12000,
+        "eligibility": "General/OBC students with family income below about Rs 4.5-5 lakh and satisfactory CPI",
+        "needBased": true
+      }
+    ],
+    "strengths": [
+      "Computer science",
+      "Mathematics and computing",
+      "Electrical engineering",
+      "Startups"
+    ],
+    "outcomes": {
+      "employmentRatePct": {
+        "value": 82,
+        "sourceUrl": "https://home.iitd.ac.in/",
+        "asOf": "2026-11-18",
+        "verified": false,
+        "note": "Share of registered UG students placed (placement reports / NIRF data)"
+      },
+      "medianStartingSalaryInr": {
+        "value": 2000000,
+        "sourceUrl": "https://www.nirfindia.org/",
+        "asOf": "2026-11-18",
+        "verified": false,
+        "note": "Median UG (4-year) salary from NIRF data submission, rounded"
+      },
+      "topRecruiters": [
+        "Google",
+        "Microsoft",
+        "Uber",
+        "Goldman Sachs",
+        "McKinsey",
+        "Samsung R&D"
+      ]
+    },
+    "admitTrend": [
+      {
+        "year": 2022,
+        "ratePct": 1.1
+      },
+      {
+        "year": 2023,
+        "ratePct": 1.0
+      },
+      {
+        "year": 2024,
+        "ratePct": 1.0
+      },
+      {
+        "year": 2025,
+        "ratePct": 1.0
+      },
+      {
+        "year": 2026,
+        "ratePct": 1.0
+      }
+    ]
+  },
+  {
+    "id": "uni-in-iit-madras",
+    "name": "Indian Institute of Technology Madras",
+    "shortName": "IIT Madras",
+    "country": "in",
+    "city": "Chennai",
+    "region": "Tamil Nadu",
+    "type": "public",
+    "website": "https://www.iitm.ac.in/",
+    "founded": 1959,
+    "qsWorldRank": {
+      "value": 180,
+      "sourceUrl": "https://news.careers360.com/qs-world-university-rankings-2026-iit-delhi-climbs-123rd-spot-iitb-slips-129-iitgn-kiit-lpu-8-new-entrants",
+      "asOf": "2026-11-18",
+      "verified": true,
+      "note": "QS World University Rankings 2026"
+    },
+    "nirfRank": {
+      "value": 1,
+      "sourceUrl": "https://news.careers360.com/nirf-ranking-2025-india-live-engineering-management-medical-law-colleges-universities-iit-nit-jnu-du-nirfindia-org-education-news",
+      "asOf": "2026-11-18",
+      "verified": true,
+      "note": "NIRF 2025 Engineering"
+    },
+    "acceptanceRatePct": {
+      "value": 1.1,
+      "sourceUrl": "https://josaa.nic.in/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Estimate: IIT seats / JEE Main candidates (~14-15 lakh)"
+    },
+    "intlStudentPct": {
+      "value": 1,
+      "sourceUrl": "https://www.iitm.ac.in/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Foreign nationals and OCI students are a very small share of UG"
+    },
+    "selectivity": "most_selective",
+    "tuition": {
+      "sourceUrl": "https://cracku.in/iit-fee-structure-2026",
+      "asOf": "2026-11-18",
+      "verified": true,
+      "note": "Rs 1,00,000 per semester for general/OBC/EWS with income > Rs 5 lakh; excludes one-time and hostel charges",
+      "value": {
+        "amount": 200000,
+        "currency": "INR"
+      }
+    },
+    "tuitionInrPerYear": 200000,
+    "livingInrPerYear": 100000,
+    "totalCostInr": 1200000,
+    "programmes": [
+      {
+        "id": "uni-in-iit-madras-btech-cse",
+        "name": "B.Tech Computer Science and Engineering",
+        "degree": "B.Tech",
+        "field": "computer-science",
+        "durationYears": 4,
+        "careerIds": [
+          "career-software-engineer",
+          "career-ai-ml-engineer",
+          "career-data-analyst",
+          "career-cybersecurity-analyst",
+          "career-game-developer"
+        ],
+        "entryExamIds": [
+          "jee-main",
+          "jee-advanced"
+        ],
+        "cutoff": {
+          "value": "JEE Advanced CRL 171 (open, gender-neutral)",
+          "sourceUrl": "https://news.careers360.com/josaa-2025-iit-bombay-btech-cse-again-top-choice-of-jee-advanced-toppers-engineering-iit-delhi-madras-kanpur-opening-closing-rank",
+          "asOf": "2026-11-18",
+          "verified": true,
+          "note": "JoSAA 2025 Round 1 closing rank"
+        }
+      },
+      {
+        "id": "uni-in-iit-madras-btech-ee",
+        "name": "B.Tech Electrical Engineering",
+        "degree": "B.Tech",
+        "field": "electrical-engineering",
+        "durationYears": 4,
+        "careerIds": [
+          "career-electronics-engineer",
+          "career-software-engineer"
+        ],
+        "entryExamIds": [
+          "jee-main",
+          "jee-advanced"
+        ],
+        "cutoff": {
+          "value": "JEE Advanced CRL ~ 850 (open)",
+          "sourceUrl": "https://josaa.nic.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        }
+      },
+      {
+        "id": "uni-in-iit-madras-btech-ds-ai",
+        "name": "B.Tech Artificial Intelligence and Data Analytics",
+        "degree": "B.Tech",
+        "field": "data-science",
+        "durationYears": 4,
+        "careerIds": [
+          "career-ai-ml-engineer",
+          "career-data-analyst",
+          "career-software-engineer"
+        ],
+        "entryExamIds": [
+          "jee-main",
+          "jee-advanced"
+        ],
+        "cutoff": {
+          "value": "JEE Advanced CRL ~ 450 (open)",
+          "sourceUrl": "https://josaa.nic.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        }
+      },
+      {
+        "id": "uni-in-iit-madras-btech-aero",
+        "name": "B.Tech Aerospace Engineering",
+        "degree": "B.Tech",
+        "field": "aerospace-engineering",
+        "durationYears": 4,
+        "careerIds": [
+          "career-aerospace-engineer",
+          "career-mechanical-engineer"
+        ],
+        "entryExamIds": [
+          "jee-main",
+          "jee-advanced"
+        ],
+        "cutoff": {
+          "value": "JEE Advanced CRL ~ 3,800 (open)",
+          "sourceUrl": "https://josaa.nic.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        }
+      },
+      {
+        "id": "uni-in-iit-madras-btech-me",
+        "name": "B.Tech Mechanical Engineering",
+        "degree": "B.Tech",
+        "field": "mechanical-engineering",
+        "durationYears": 4,
+        "careerIds": [
+          "career-mechanical-engineer",
+          "career-supply-chain-manager"
+        ],
+        "entryExamIds": [
+          "jee-main",
+          "jee-advanced"
+        ],
+        "cutoff": {
+          "value": "JEE Advanced CRL ~ 2,800 (open)",
+          "sourceUrl": "https://josaa.nic.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        }
+      }
+    ],
+    "applicationRoutes": [
+      {
+        "type": "josaa",
+        "platform": "josaa",
+        "deadline": {
+          "value": "2026-11-22",
+          "sourceUrl": "https://www.careerindia.com/news/jee-main-2027-over-4-lakh-candidates-complete-session-1-registration-068489.html",
+          "asOf": "2026-11-18",
+          "verified": true,
+          "note": "JEE Main 2027 session 1 registration closes 22 Nov 2026 (late window to 26 Nov with Rs 500 extra). Session 2 registration usually Feb; JEE Advanced 2027 registration expected late Apr-early May 2027."
+        },
+        "decisionBy": "2027-07-20",
+        "binding": false,
+        "requirements": {
+          "minBoardPercent": 75,
+          "testPolicy": "required",
+          "examIds": [
+            "jee-main",
+            "jee-advanced"
+          ],
+          "essays": [],
+          "recommendations": 0,
+          "otherItems": [
+            "JEE Main 2027 (Jan/Apr) to qualify for JEE Advanced (top ~2.5 lakh)",
+            "JEE Advanced 2027 (expected May 2027)",
+            "Class 12 with 75% aggregate (65% SC/ST/PwD) or top 20 percentile of board",
+            "JoSAA choice filling and seat acceptance (June-July 2027)"
+          ],
+          "applicationFeeInr": 4200
+        }
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Tuition fee remission (MoE scheme)",
+        "amount": {
+          "value": "Full tuition waiver if family income < Rs 1 lakh; two-thirds waiver for Rs 1-5 lakh; full waiver for SC/ST/PwD",
+          "sourceUrl": "https://cracku.in/iit-fee-structure-2026",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 133333,
+        "eligibility": "General/OBC/EWS students by annual family income; SC/ST/PwD irrespective of income",
+        "needBased": true
+      },
+      {
+        "name": "Merit-cum-Means (MCM) Scholarship",
+        "amount": {
+          "value": "Tuition waiver plus about Rs 1,000 a month pocket allowance",
+          "sourceUrl": "https://josaa.nic.in/",
+          "asOf": "2026-11-18",
+          "verified": false,
+          "note": "Institute-specific; check the allotted IIT's scholarship page"
+        },
+        "valueInrPerYear": 12000,
+        "eligibility": "General/OBC students with family income below about Rs 4.5-5 lakh and satisfactory CPI",
+        "needBased": true
+      }
+    ],
+    "strengths": [
+      "Engineering research",
+      "Electrical engineering",
+      "Data science",
+      "Deep-tech startups (IITM Research Park)"
+    ],
+    "outcomes": {
+      "employmentRatePct": {
+        "value": 82,
+        "sourceUrl": "https://www.iitm.ac.in/",
+        "asOf": "2026-11-18",
+        "verified": false,
+        "note": "Share of registered UG students placed (placement reports / NIRF data)"
+      },
+      "medianStartingSalaryInr": {
+        "value": 1900000,
+        "sourceUrl": "https://www.nirfindia.org/",
+        "asOf": "2026-11-18",
+        "verified": false,
+        "note": "Median UG (4-year) salary from NIRF data submission, rounded"
+      },
+      "topRecruiters": [
+        "Qualcomm",
+        "Microsoft",
+        "Texas Instruments",
+        "Goldman Sachs",
+        "Shell",
+        "Ather Energy"
+      ]
+    },
+    "admitTrend": [
+      {
+        "year": 2022,
+        "ratePct": 1.2
+      },
+      {
+        "year": 2023,
+        "ratePct": 1.1
+      },
+      {
+        "year": 2024,
+        "ratePct": 1.1
+      },
+      {
+        "year": 2025,
+        "ratePct": 1.1
+      },
+      {
+        "year": 2026,
+        "ratePct": 1.1
+      }
+    ]
+  },
+  {
+    "id": "uni-in-iit-kanpur",
+    "name": "Indian Institute of Technology Kanpur",
+    "shortName": "IIT Kanpur",
+    "country": "in",
+    "city": "Kanpur",
+    "region": "Uttar Pradesh",
+    "type": "public",
+    "website": "https://www.iitk.ac.in/",
+    "founded": 1959,
+    "qsWorldRank": {
+      "value": 222,
+      "sourceUrl": "https://news.careers360.com/qs-world-university-rankings-2026-iit-delhi-climbs-123rd-spot-iitb-slips-129-iitgn-kiit-lpu-8-new-entrants",
+      "asOf": "2026-11-18",
+      "verified": true,
+      "note": "QS World University Rankings 2026"
+    },
+    "nirfRank": {
+      "value": 4,
+      "sourceUrl": "https://news.careers360.com/nirf-ranking-2025-india-live-engineering-management-medical-law-colleges-universities-iit-nit-jnu-du-nirfindia-org-education-news",
+      "asOf": "2026-11-18",
+      "verified": true,
+      "note": "NIRF 2025 Engineering"
+    },
+    "acceptanceRatePct": {
+      "value": 1.0,
+      "sourceUrl": "https://josaa.nic.in/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Estimate: IIT seats / JEE Main candidates (~14-15 lakh)"
+    },
+    "intlStudentPct": {
+      "value": 1,
+      "sourceUrl": "https://www.iitk.ac.in/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Foreign nationals and OCI students are a very small share of UG"
+    },
+    "selectivity": "most_selective",
+    "tuition": {
+      "sourceUrl": "https://cracku.in/iit-fee-structure-2026",
+      "asOf": "2026-11-18",
+      "verified": true,
+      "note": "Rs 1,00,000 per semester for general/OBC/EWS with income > Rs 5 lakh; excludes one-time and hostel charges",
+      "value": {
+        "amount": 200000,
+        "currency": "INR"
+      }
+    },
+    "tuitionInrPerYear": 200000,
+    "livingInrPerYear": 100000,
+    "totalCostInr": 1200000,
+    "programmes": [
+      {
+        "id": "uni-in-iit-kanpur-btech-cse",
+        "name": "B.Tech Computer Science and Engineering",
+        "degree": "B.Tech",
+        "field": "computer-science",
+        "durationYears": 4,
+        "careerIds": [
+          "career-software-engineer",
+          "career-ai-ml-engineer",
+          "career-data-analyst",
+          "career-cybersecurity-analyst",
+          "career-game-developer"
+        ],
+        "entryExamIds": [
+          "jee-main",
+          "jee-advanced"
+        ],
+        "cutoff": {
+          "value": "JEE Advanced CRL 270 (open, gender-neutral)",
+          "sourceUrl": "https://news.careers360.com/josaa-2025-iit-bombay-btech-cse-again-top-choice-of-jee-advanced-toppers-engineering-iit-delhi-madras-kanpur-opening-closing-rank",
+          "asOf": "2026-11-18",
+          "verified": true,
+          "note": "JoSAA 2025 Round 1 closing rank"
+        }
+      },
+      {
+        "id": "uni-in-iit-kanpur-btech-ee",
+        "name": "B.Tech Electrical Engineering",
+        "degree": "B.Tech",
+        "field": "electrical-engineering",
+        "durationYears": 4,
+        "careerIds": [
+          "career-electronics-engineer",
+          "career-software-engineer"
+        ],
+        "entryExamIds": [
+          "jee-main",
+          "jee-advanced"
+        ],
+        "cutoff": {
+          "value": "JEE Advanced CRL ~ 1,100 (open)",
+          "sourceUrl": "https://josaa.nic.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        }
+      },
+      {
+        "id": "uni-in-iit-kanpur-btech-aero",
+        "name": "B.Tech Aerospace Engineering",
+        "degree": "B.Tech",
+        "field": "aerospace-engineering",
+        "durationYears": 4,
+        "careerIds": [
+          "career-aerospace-engineer",
+          "career-mechanical-engineer"
+        ],
+        "entryExamIds": [
+          "jee-main",
+          "jee-advanced"
+        ],
+        "cutoff": {
+          "value": "JEE Advanced CRL ~ 3,900 (open)",
+          "sourceUrl": "https://josaa.nic.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        }
+      },
+      {
+        "id": "uni-in-iit-kanpur-bs-economics",
+        "name": "BS Economic Sciences",
+        "degree": "BS",
+        "field": "economics",
+        "durationYears": 4,
+        "careerIds": [
+          "career-economist",
+          "career-policy-analyst",
+          "career-financial-analyst",
+          "career-actuary"
+        ],
+        "entryExamIds": [
+          "jee-main",
+          "jee-advanced"
+        ],
+        "cutoff": {
+          "value": "JEE Advanced CRL ~ 4,000 (open)",
+          "sourceUrl": "https://josaa.nic.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        }
+      },
+      {
+        "id": "uni-in-iit-kanpur-btech-me",
+        "name": "B.Tech Mechanical Engineering",
+        "degree": "B.Tech",
+        "field": "mechanical-engineering",
+        "durationYears": 4,
+        "careerIds": [
+          "career-mechanical-engineer",
+          "career-supply-chain-manager"
+        ],
+        "entryExamIds": [
+          "jee-main",
+          "jee-advanced"
+        ],
+        "cutoff": {
+          "value": "JEE Advanced CRL ~ 3,500 (open)",
+          "sourceUrl": "https://josaa.nic.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        }
+      }
+    ],
+    "applicationRoutes": [
+      {
+        "type": "josaa",
+        "platform": "josaa",
+        "deadline": {
+          "value": "2026-11-22",
+          "sourceUrl": "https://www.careerindia.com/news/jee-main-2027-over-4-lakh-candidates-complete-session-1-registration-068489.html",
+          "asOf": "2026-11-18",
+          "verified": true,
+          "note": "JEE Main 2027 session 1 registration closes 22 Nov 2026 (late window to 26 Nov with Rs 500 extra). Session 2 registration usually Feb; JEE Advanced 2027 registration expected late Apr-early May 2027."
+        },
+        "decisionBy": "2027-07-20",
+        "binding": false,
+        "requirements": {
+          "minBoardPercent": 75,
+          "testPolicy": "required",
+          "examIds": [
+            "jee-main",
+            "jee-advanced"
+          ],
+          "essays": [],
+          "recommendations": 0,
+          "otherItems": [
+            "JEE Main 2027 (Jan/Apr) to qualify for JEE Advanced (top ~2.5 lakh)",
+            "JEE Advanced 2027 (expected May 2027)",
+            "Class 12 with 75% aggregate (65% SC/ST/PwD) or top 20 percentile of board",
+            "JoSAA choice filling and seat acceptance (June-July 2027)"
+          ],
+          "applicationFeeInr": 4200
+        }
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Tuition fee remission (MoE scheme)",
+        "amount": {
+          "value": "Full tuition waiver if family income < Rs 1 lakh; two-thirds waiver for Rs 1-5 lakh; full waiver for SC/ST/PwD",
+          "sourceUrl": "https://cracku.in/iit-fee-structure-2026",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 133333,
+        "eligibility": "General/OBC/EWS students by annual family income; SC/ST/PwD irrespective of income",
+        "needBased": true
+      },
+      {
+        "name": "Merit-cum-Means (MCM) Scholarship",
+        "amount": {
+          "value": "Tuition waiver plus about Rs 1,000 a month pocket allowance",
+          "sourceUrl": "https://josaa.nic.in/",
+          "asOf": "2026-11-18",
+          "verified": false,
+          "note": "Institute-specific; check the allotted IIT's scholarship page"
+        },
+        "valueInrPerYear": 12000,
+        "eligibility": "General/OBC students with family income below about Rs 4.5-5 lakh and satisfactory CPI",
+        "needBased": true
+      }
+    ],
+    "strengths": [
+      "Computer science",
+      "Aerospace engineering",
+      "Materials science",
+      "Economics"
+    ],
+    "outcomes": {
+      "employmentRatePct": {
+        "value": 82,
+        "sourceUrl": "https://www.iitk.ac.in/",
+        "asOf": "2026-11-18",
+        "verified": false,
+        "note": "Share of registered UG students placed (placement reports / NIRF data)"
+      },
+      "medianStartingSalaryInr": {
+        "value": 1950000,
+        "sourceUrl": "https://www.nirfindia.org/",
+        "asOf": "2026-11-18",
+        "verified": false,
+        "note": "Median UG (4-year) salary from NIRF data submission, rounded"
+      },
+      "topRecruiters": [
+        "Google",
+        "Microsoft",
+        "Rubrik",
+        "Goldman Sachs",
+        "Uber",
+        "ISRO"
+      ]
+    },
+    "admitTrend": [
+      {
+        "year": 2022,
+        "ratePct": 1.0
+      },
+      {
+        "year": 2023,
+        "ratePct": 1.0
+      },
+      {
+        "year": 2024,
+        "ratePct": 1.0
+      },
+      {
+        "year": 2025,
+        "ratePct": 1.0
+      },
+      {
+        "year": 2026,
+        "ratePct": 1.0
+      }
+    ]
+  },
+  {
+    "id": "uni-in-bits-pilani",
+    "name": "Birla Institute of Technology and Science, Pilani",
+    "shortName": "BITS Pilani",
+    "country": "in",
+    "city": "Pilani",
+    "region": "Rajasthan",
+    "type": "private",
+    "website": "https://www.bits-pilani.ac.in/",
+    "founded": 1964,
+    "qsWorldRank": {
+      "value": 668,
+      "sourceUrl": "https://www.topuniversities.com/world-university-rankings",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "QS World University Rankings 2026 (approx.)"
+    },
+    "nirfRank": {
+      "value": 20,
+      "sourceUrl": "https://www.nirfindia.org/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "NIRF 2025 Engineering (approx.)"
+    },
+    "acceptanceRatePct": {
+      "value": 2,
+      "sourceUrl": "https://www.bitsadmission.com/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Estimate: ~4,000 seats across campuses / ~3 lakh BITSAT applicants"
+    },
+    "intlStudentPct": {
+      "value": 1,
+      "sourceUrl": "https://www.bits-pilani.ac.in/",
+      "asOf": "2026-11-18",
+      "verified": false
+    },
+    "selectivity": "highly_selective",
+    "tuition": {
+      "sourceUrl": "https://admissions.bits-pilani.ac.in/FD/FD_fee.html",
+      "asOf": "2026-11-18",
+      "verified": true,
+      "note": "Rs 2,91,500 per semester x 2 (Pilani, AY 2026-27); summer term extra",
+      "value": {
+        "amount": 583000,
+        "currency": "INR"
+      }
+    },
+    "tuitionInrPerYear": 583000,
+    "livingInrPerYear": 140000,
+    "totalCostInr": 2892000,
+    "programmes": [
+      {
+        "id": "uni-in-bits-pilani-be-cse",
+        "name": "B.E. Computer Science",
+        "degree": "B.E.",
+        "field": "computer-science",
+        "durationYears": 4,
+        "careerIds": [
+          "career-software-engineer",
+          "career-ai-ml-engineer",
+          "career-data-analyst",
+          "career-cybersecurity-analyst",
+          "career-game-developer"
+        ],
+        "entryExamIds": [
+          "bitsat"
+        ],
+        "cutoff": {
+          "value": "BITSAT score ~ 330/390 (Pilani)",
+          "sourceUrl": "https://www.bitsadmission.com/",
+          "asOf": "2026-11-18",
+          "verified": false,
+          "note": "BITSAT 2025 final iteration, approx."
+        }
+      },
+      {
+        "id": "uni-in-bits-pilani-be-eee",
+        "name": "B.E. Electrical and Electronics",
+        "degree": "B.E.",
+        "field": "electrical-engineering",
+        "durationYears": 4,
+        "careerIds": [
+          "career-electronics-engineer",
+          "career-software-engineer"
+        ],
+        "entryExamIds": [
+          "bitsat"
+        ],
+        "cutoff": {
+          "value": "BITSAT score ~ 290/390 (Pilani)",
+          "sourceUrl": "https://www.bitsadmission.com/",
+          "asOf": "2026-11-18",
+          "verified": false
+        }
+      },
+      {
+        "id": "uni-in-bits-pilani-be-mech",
+        "name": "B.E. Mechanical",
+        "degree": "B.E.",
+        "field": "mechanical-engineering",
+        "durationYears": 4,
+        "careerIds": [
+          "career-mechanical-engineer",
+          "career-supply-chain-manager"
+        ],
+        "entryExamIds": [
+          "bitsat"
+        ],
+        "cutoff": {
+          "value": "BITSAT score ~ 260/390 (Pilani)",
+          "sourceUrl": "https://www.bitsadmission.com/",
+          "asOf": "2026-11-18",
+          "verified": false
+        }
+      },
+      {
+        "id": "uni-in-bits-pilani-bpharm",
+        "name": "B.Pharm",
+        "degree": "B.Pharm",
+        "field": "pharmacy",
+        "durationYears": 4,
+        "careerIds": [
+          "career-pharmacist",
+          "career-research-scientist"
+        ],
+        "entryExamIds": [
+          "bitsat"
+        ],
+        "cutoff": {
+          "value": "BITSAT score ~ 160/390",
+          "sourceUrl": "https://www.bitsadmission.com/",
+          "asOf": "2026-11-18",
+          "verified": false
+        }
+      },
+      {
+        "id": "uni-in-bits-pilani-msc-economics",
+        "name": "M.Sc. (Hons) Economics (integrated, dual-degree option)",
+        "degree": "M.Sc. (Hons)",
+        "field": "economics",
+        "durationYears": 4,
+        "careerIds": [
+          "career-economist",
+          "career-policy-analyst",
+          "career-financial-analyst",
+          "career-actuary"
+        ],
+        "entryExamIds": [
+          "bitsat"
+        ],
+        "cutoff": {
+          "value": "BITSAT score ~ 270/390 (Pilani)",
+          "sourceUrl": "https://www.bitsadmission.com/",
+          "asOf": "2026-11-18",
+          "verified": false
+        }
+      }
+    ],
+    "applicationRoutes": [
+      {
+        "type": "institutional_exam",
+        "platform": "university_portal",
+        "deadline": {
+          "value": "2027-04-15",
+          "sourceUrl": "https://www.bitsadmission.com/",
+          "asOf": "2026-11-18",
+          "verified": false,
+          "note": "Projected BITSAT 2027 application close (Session 1 usually mid-April); exam May-June"
+        },
+        "decisionBy": "2027-07-15",
+        "binding": false,
+        "requirements": {
+          "minBoardPercent": 75,
+          "testPolicy": "required",
+          "examIds": [
+            "bitsat"
+          ],
+          "essays": [],
+          "recommendations": 0,
+          "otherItems": [
+            "75% aggregate in Physics, Chemistry, Maths (60% each)",
+            "BITSAT 2027 (two sessions, May-June)",
+            "Board toppers get direct admission"
+          ],
+          "applicationFeeInr": 3500
+        }
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "BITS merit scholarship (BITSAT score based)",
+        "amount": {
+          "value": "Tuition waiver of 25%-100% by BITSAT score band",
+          "sourceUrl": "https://admissions.bits-pilani.ac.in/FD/scholarship.html",
+          "asOf": "2026-11-18",
+          "verified": false,
+          "note": "Scholarships based on BITSAT score; continuation depends on CGPA"
+        },
+        "valueInrPerYear": 145750,
+        "eligibility": "Top BITSAT scorers in each campus/programme",
+        "needBased": false
+      },
+      {
+        "name": "BITS merit-cum-need scholarship",
+        "amount": {
+          "value": "Up to 100% tuition waiver for low family income",
+          "sourceUrl": "https://admissions.bits-pilani.ac.in/FD/scholarship.html",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 291500,
+        "eligibility": "Students with family income below the notified threshold and good CGPA",
+        "needBased": true
+      }
+    ],
+    "strengths": [
+      "Computer science",
+      "Practice School industry internships",
+      "Entrepreneurship",
+      "No reservation, merit-only admissions"
+    ],
+    "outcomes": {
+      "employmentRatePct": {
+        "value": 88,
+        "sourceUrl": "https://www.bits-pilani.ac.in/",
+        "asOf": "2026-11-18",
+        "verified": false
+      },
+      "medianStartingSalaryInr": {
+        "value": 1700000,
+        "sourceUrl": "https://www.nirfindia.org/",
+        "asOf": "2026-11-18",
+        "verified": false,
+        "note": "Median UG salary from NIRF data, rounded"
+      },
+      "topRecruiters": [
+        "Google",
+        "Microsoft",
+        "Amazon",
+        "Goldman Sachs",
+        "Oracle",
+        "Texas Instruments"
+      ]
+    },
+    "admitTrend": [
+      {
+        "year": 2022,
+        "ratePct": 2.4
+      },
+      {
+        "year": 2023,
+        "ratePct": 2.3
+      },
+      {
+        "year": 2024,
+        "ratePct": 2.2
+      },
+      {
+        "year": 2025,
+        "ratePct": 2.1
+      },
+      {
+        "year": 2026,
+        "ratePct": 2.0
+      }
+    ]
+  },
+  {
+    "id": "uni-in-iiit-hyderabad",
+    "name": "International Institute of Information Technology, Hyderabad",
+    "shortName": "IIIT Hyderabad",
+    "country": "in",
+    "city": "Hyderabad",
+    "region": "Telangana",
+    "type": "private",
+    "website": "https://www.iiit.ac.in/",
+    "founded": 1998,
+    "qsWorldRank": {
+      "value": null,
+      "sourceUrl": "https://www.topuniversities.com/world-university-rankings",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Not ranked in QS World University Rankings 2026"
+    },
+    "nirfRank": {
+      "value": 37,
+      "sourceUrl": "https://www.nirfindia.org/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "NIRF 2025 Engineering (approx.)"
+    },
+    "acceptanceRatePct": {
+      "value": 0.5,
+      "sourceUrl": "https://www.iiit.ac.in/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Estimate: ~250 B.Tech seats across all channels"
+    },
+    "intlStudentPct": {
+      "value": 1,
+      "sourceUrl": "https://www.iiit.ac.in/",
+      "asOf": "2026-11-18",
+      "verified": false
+    },
+    "selectivity": "most_selective",
+    "tuition": {
+      "sourceUrl": "https://www.iiit.ac.in/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Approximate B.Tech tuition per year (Rs 2 lakh per semester)",
+      "value": {
+        "amount": 400000,
+        "currency": "INR"
+      }
+    },
+    "tuitionInrPerYear": 400000,
+    "livingInrPerYear": 120000,
+    "totalCostInr": 2080000,
+    "programmes": [
+      {
+        "id": "uni-in-iiit-hyderabad-btech-cse",
+        "name": "B.Tech Computer Science and Engineering",
+        "degree": "B.Tech",
+        "field": "computer-science",
+        "durationYears": 4,
+        "careerIds": [
+          "career-software-engineer",
+          "career-ai-ml-engineer",
+          "career-data-analyst",
+          "career-cybersecurity-analyst",
+          "career-game-developer"
+        ],
+        "entryExamIds": [
+          "jee-main"
+        ],
+        "cutoff": {
+          "value": "JEE Main CRL ~ 1,500 (JEE Main mode)",
+          "sourceUrl": "https://www.iiit.ac.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        }
+      },
+      {
+        "id": "uni-in-iiit-hyderabad-btech-ece",
+        "name": "B.Tech Electronics and Communication Engineering",
+        "degree": "B.Tech",
+        "field": "electronics-engineering",
+        "durationYears": 4,
+        "careerIds": [
+          "career-electronics-engineer",
+          "career-software-engineer"
+        ],
+        "entryExamIds": [
+          "jee-main"
+        ],
+        "cutoff": {
+          "value": "JEE Main CRL ~ 3,500 (JEE Main mode)",
+          "sourceUrl": "https://www.iiit.ac.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        }
+      },
+      {
+        "id": "uni-in-iiit-hyderabad-btech-cse-ai",
+        "name": "B.Tech CSE with dual-degree (MS by Research) in AI/ML",
+        "degree": "B.Tech + MS",
+        "field": "computer-science",
+        "durationYears": 5,
+        "careerIds": [
+          "career-ai-ml-engineer",
+          "career-research-scientist",
+          "career-software-engineer"
+        ],
+        "entryExamIds": [
+          "jee-main"
+        ]
+      }
+    ],
+    "applicationRoutes": [
+      {
+        "type": "institutional_exam",
+        "platform": "university_portal",
+        "deadline": {
+          "value": "2027-06-05",
+          "sourceUrl": "https://www.iiit.ac.in/",
+          "asOf": "2026-11-18",
+          "verified": false,
+          "note": "Projected deadline for JEE Main mode application (after JEE Main session 2 results); not via JoSAA"
+        },
+        "decisionBy": "2027-07-05",
+        "binding": false,
+        "requirements": {
+          "minBoardPercent": 60,
+          "testPolicy": "required",
+          "examIds": [
+            "jee-main"
+          ],
+          "essays": [],
+          "recommendations": 0,
+          "otherItems": [
+            "JEE Main 2027 CRL",
+            "Separate IIIT-H application (JEE Main mode)",
+            "Alternative channels: UGEE (research), Olympiad, SPEC, DASA"
+          ],
+          "applicationFeeInr": 3000
+        }
+      },
+      {
+        "type": "institutional_exam",
+        "platform": "university_portal",
+        "deadline": {
+          "value": "2027-04-10",
+          "sourceUrl": "https://www.iiit.ac.in/",
+          "asOf": "2026-11-18",
+          "verified": false,
+          "note": "Projected UGEE 2027 application close; exam ~late April"
+        },
+        "decisionBy": "2027-06-10",
+        "binding": false,
+        "requirements": {
+          "minBoardPercent": 60,
+          "testPolicy": "required",
+          "examIds": [],
+          "essays": [],
+          "recommendations": 0,
+          "otherItems": [
+            "UGEE 2027 (SUPR + REAP) for dual-degree research programmes",
+            "Interview"
+          ],
+          "applicationFeeInr": 3000
+        }
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "IIIT-H need-based financial assistance",
+        "amount": {
+          "value": "Partial to full tuition waiver based on family income",
+          "sourceUrl": "https://www.iiit.ac.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 200000,
+        "eligibility": "Admitted students with family income below about Rs 9 lakh",
+        "needBased": true
+      }
+    ],
+    "strengths": [
+      "Computer science",
+      "AI and machine learning research",
+      "Dual-degree research programmes"
+    ],
+    "outcomes": {
+      "employmentRatePct": {
+        "value": 95,
+        "sourceUrl": "https://www.iiit.ac.in/",
+        "asOf": "2026-11-18",
+        "verified": false
+      },
+      "medianStartingSalaryInr": {
+        "value": 3000000,
+        "sourceUrl": "https://www.nirfindia.org/",
+        "asOf": "2026-11-18",
+        "verified": false,
+        "note": "Median UG salary, rounded"
+      },
+      "topRecruiters": [
+        "Google",
+        "Microsoft",
+        "Amazon",
+        "Apple",
+        "DE Shaw",
+        "Nvidia"
+      ]
+    },
+    "admitTrend": [
+      {
+        "year": 2022,
+        "ratePct": 0.6
+      },
+      {
+        "year": 2023,
+        "ratePct": 0.6
+      },
+      {
+        "year": 2024,
+        "ratePct": 0.5
+      },
+      {
+        "year": 2025,
+        "ratePct": 0.5
+      },
+      {
+        "year": 2026,
+        "ratePct": 0.5
+      }
+    ]
+  },
+  {
+    "id": "uni-in-iisc-bengaluru",
+    "name": "Indian Institute of Science",
+    "shortName": "IISc Bengaluru",
+    "country": "in",
+    "city": "Bengaluru",
+    "region": "Karnataka",
+    "type": "public",
+    "website": "https://iisc.ac.in/",
+    "founded": 1909,
+    "qsWorldRank": {
+      "value": 219,
+      "sourceUrl": "https://news.careers360.com/qs-world-university-rankings-2026-iit-delhi-climbs-123rd-spot-iitb-slips-129-iitgn-kiit-lpu-8-new-entrants",
+      "asOf": "2026-11-18",
+      "verified": true,
+      "note": "QS World University Rankings 2026"
+    },
+    "nirfRank": {
+      "value": 1,
+      "sourceUrl": "https://news.careers360.com/nirf-ranking-2025-india-live-engineering-management-medical-law-colleges-universities-iit-nit-jnu-du-nirfindia-org-education-news",
+      "asOf": "2026-11-18",
+      "verified": true,
+      "note": "NIRF 2025 University category (2nd overall)"
+    },
+    "acceptanceRatePct": {
+      "value": 0.7,
+      "sourceUrl": "https://iisc.ac.in/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Estimate: ~150 BS seats; JEE/NEET/IAT channels"
+    },
+    "intlStudentPct": {
+      "value": 1,
+      "sourceUrl": "https://iisc.ac.in/",
+      "asOf": "2026-11-18",
+      "verified": false
+    },
+    "selectivity": "most_selective",
+    "tuition": {
+      "sourceUrl": "https://iisc.ac.in/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Approximate annual tuition and academic fees for the BS (Research) programme",
+      "value": {
+        "amount": 37000,
+        "currency": "INR"
+      }
+    },
+    "tuitionInrPerYear": 37000,
+    "livingInrPerYear": 90000,
+    "totalCostInr": 508000,
+    "programmes": [
+      {
+        "id": "uni-in-iisc-bengaluru-bs-research",
+        "name": "Bachelor of Science (Research)",
+        "degree": "BS (Research)",
+        "field": "science",
+        "durationYears": 4,
+        "careerIds": [
+          "career-biotechnologist",
+          "career-research-scientist",
+          "career-data-analyst",
+          "career-environmental-scientist"
+        ],
+        "entryExamIds": [
+          "jee-main",
+          "jee-advanced",
+          "neet-ug",
+          "iiser-iat"
+        ],
+        "cutoff": {
+          "value": "JEE Advanced CRL ~ 9,000 / IAT rank ~ 300 (general)",
+          "sourceUrl": "https://iisc.ac.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        }
+      },
+      {
+        "id": "uni-in-iisc-bengaluru-btech-math-computing",
+        "name": "B.Tech Mathematics and Computing",
+        "degree": "B.Tech",
+        "field": "mathematics-computing",
+        "durationYears": 4,
+        "careerIds": [
+          "career-software-engineer",
+          "career-ai-ml-engineer",
+          "career-data-analyst",
+          "career-actuary"
+        ],
+        "entryExamIds": [
+          "jee-main",
+          "jee-advanced"
+        ],
+        "cutoff": {
+          "value": "JEE Advanced CRL ~ 1,500 (general)",
+          "sourceUrl": "https://iisc.ac.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        }
+      }
+    ],
+    "applicationRoutes": [
+      {
+        "type": "institutional_exam",
+        "platform": "university_portal",
+        "deadline": {
+          "value": "2027-05-15",
+          "sourceUrl": "https://iisc.ac.in/",
+          "asOf": "2026-11-18",
+          "verified": false,
+          "note": "Projected IISc UG application close; JEE Advanced, NEET-UG or IISER IAT score accepted"
+        },
+        "decisionBy": "2027-07-01",
+        "binding": false,
+        "requirements": {
+          "minBoardPercent": 60,
+          "testPolicy": "required",
+          "examIds": [
+            "jee-main",
+            "jee-advanced",
+            "neet-ug",
+            "iiser-iat"
+          ],
+          "essays": [],
+          "recommendations": 0,
+          "otherItems": [
+            "Science stream with Physics, Chemistry, Maths",
+            "60% in Class 12",
+            "One of: JEE Advanced, NEET-UG, IISER Aptitude Test"
+          ],
+          "applicationFeeInr": 500
+        }
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "INSPIRE-SHE Scholarship (DST)",
+        "amount": {
+          "value": "Rs 80,000 a year",
+          "sourceUrl": "https://online-inspire.gov.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 80000,
+        "eligibility": "Top 1% of board or top JEE/NEET rank holders pursuing natural sciences",
+        "needBased": false
+      },
+      {
+        "name": "IISc institute scholarship",
+        "amount": {
+          "value": "Monthly scholarship for BS students (amount varies)",
+          "sourceUrl": "https://iisc.ac.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 60000,
+        "eligibility": "Students in good academic standing",
+        "needBased": false
+      }
+    ],
+    "strengths": [
+      "Basic sciences research",
+      "Physics",
+      "Biology",
+      "Mathematics"
+    ],
+    "outcomes": {
+      "employmentRatePct": {
+        "value": 60,
+        "sourceUrl": "https://iisc.ac.in/",
+        "asOf": "2026-11-18",
+        "verified": false,
+        "note": "Many BS graduates go on to PhD/MS rather than jobs"
+      },
+      "medianStartingSalaryInr": {
+        "value": 1200000,
+        "sourceUrl": "https://www.nirfindia.org/",
+        "asOf": "2026-11-18",
+        "verified": false
+      },
+      "topRecruiters": [
+        "Goldman Sachs",
+        "Google",
+        "Intel",
+        "Qualcomm",
+        "ISRO"
+      ]
+    },
+    "admitTrend": [
+      {
+        "year": 2022,
+        "ratePct": 0.8
+      },
+      {
+        "year": 2023,
+        "ratePct": 0.7
+      },
+      {
+        "year": 2024,
+        "ratePct": 0.7
+      },
+      {
+        "year": 2025,
+        "ratePct": 0.7
+      },
+      {
+        "year": 2026,
+        "ratePct": 0.7
+      }
+    ]
+  },
+  {
+    "id": "uni-in-nlsiu-bengaluru",
+    "name": "National Law School of India University",
+    "shortName": "NLSIU Bengaluru",
+    "country": "in",
+    "city": "Bengaluru",
+    "region": "Karnataka",
+    "type": "public",
+    "website": "https://www.nls.ac.in/",
+    "founded": 1987,
+    "qsWorldRank": {
+      "value": null,
+      "sourceUrl": "https://www.topuniversities.com/world-university-rankings",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Not in QS World University Rankings"
+    },
+    "nirfRank": {
+      "value": 1,
+      "sourceUrl": "https://news.careers360.com/nirf-ranking-2025-india-live-engineering-management-medical-law-colleges-universities-iit-nit-jnu-du-nirfindia-org-education-news",
+      "asOf": "2026-11-18",
+      "verified": true,
+      "note": "NIRF 2025 Law"
+    },
+    "acceptanceRatePct": {
+      "value": 0.25,
+      "sourceUrl": "https://consortiumofnlus.ac.in/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Estimate: ~180 BA LLB seats / ~75,000 CLAT UG candidates"
+    },
+    "intlStudentPct": {
+      "value": 2,
+      "sourceUrl": "https://www.nls.ac.in/",
+      "asOf": "2026-11-18",
+      "verified": false
+    },
+    "selectivity": "most_selective",
+    "tuition": {
+      "sourceUrl": "https://law.careers360.com/articles/nlu-fee-structure",
+      "asOf": "2026-11-18",
+      "verified": true,
+      "note": "Over Rs 5.3 lakh per annum; total ~Rs 26.9 lakh for 5 years",
+      "value": {
+        "amount": 530000,
+        "currency": "INR"
+      }
+    },
+    "tuitionInrPerYear": 530000,
+    "livingInrPerYear": 120000,
+    "totalCostInr": 3250000,
+    "programmes": [
+      {
+        "id": "uni-in-nlsiu-bengaluru-ba-llb",
+        "name": "BA LLB (Hons)",
+        "degree": "BA LLB (Hons)",
+        "field": "law",
+        "durationYears": 5,
+        "careerIds": [
+          "career-corporate-lawyer",
+          "career-civil-services-officer",
+          "career-policy-analyst"
+        ],
+        "entryExamIds": [
+          "clat"
+        ],
+        "cutoff": {
+          "value": "CLAT AIR ~ 110 (general)",
+          "sourceUrl": "https://consortiumofnlus.ac.in/",
+          "asOf": "2026-11-18",
+          "verified": false,
+          "note": "CLAT 2026 final round, approx."
+        }
+      },
+      {
+        "id": "uni-in-nlsiu-bengaluru-ba-hons",
+        "name": "BA (Hons) (3-year interdisciplinary humanities and social sciences)",
+        "degree": "BA (Hons)",
+        "field": "liberal-arts",
+        "durationYears": 3,
+        "careerIds": [
+          "career-journalist",
+          "career-policy-analyst",
+          "career-public-relations-manager",
+          "career-teacher",
+          "career-civil-services-officer",
+          "career-economist"
+        ],
+        "entryExamIds": []
+      }
+    ],
+    "applicationRoutes": [
+      {
+        "type": "institutional_exam",
+        "platform": "university_portal",
+        "deadline": {
+          "value": "2026-11-07",
+          "sourceUrl": "https://news.careers360.com/clat-2027-registration-last-date-extended-ug-up-application-form-november-7-consortiumofnlus-ac-in-law-nlu-admission",
+          "asOf": "2026-11-18",
+          "verified": true,
+          "note": "CLAT 2027 registration closed 7 Nov 2026 (extended); exam 6 Dec 2026"
+        },
+        "decisionBy": "2027-01-31",
+        "binding": false,
+        "requirements": {
+          "minBoardPercent": 45,
+          "testPolicy": "required",
+          "examIds": [
+            "clat"
+          ],
+          "essays": [],
+          "recommendations": 0,
+          "otherItems": [
+            "Class 12 with 45% (40% SC/ST)",
+            "CLAT 2027 (6 Dec 2026); consortium counselling Dec 2026-Jan 2027"
+          ],
+          "applicationFeeInr": 4000
+        }
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "NLSIU Financial Aid (need-based fee waiver)",
+        "amount": {
+          "value": "Partial to full fee waiver based on family income",
+          "sourceUrl": "https://www.nls.ac.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 265000,
+        "eligibility": "Admitted students with demonstrated financial need",
+        "needBased": true
+      },
+      {
+        "name": "Aditya Birla Scholarship",
+        "amount": {
+          "value": "Merit scholarship for top law entrants (amount set annually)",
+          "sourceUrl": "https://www.adityabirlascholars.net/",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 180000,
+        "eligibility": "Top-ranked first-year students at select law schools",
+        "needBased": false
+      }
+    ],
+    "strengths": [
+      "Corporate law",
+      "Constitutional law",
+      "Moot court",
+      "Public policy"
+    ],
+    "outcomes": {
+      "employmentRatePct": {
+        "value": 90,
+        "sourceUrl": "https://www.nls.ac.in/",
+        "asOf": "2026-11-18",
+        "verified": false
+      },
+      "medianStartingSalaryInr": {
+        "value": 1600000,
+        "sourceUrl": "https://www.nirfindia.org/",
+        "asOf": "2026-11-18",
+        "verified": false,
+        "note": "Tier-1 law firm offers ~Rs 16-20 lakh"
+      },
+      "topRecruiters": [
+        "Cyril Amarchand Mangaldas",
+        "AZB & Partners",
+        "Shardul Amarchand Mangaldas",
+        "Khaitan & Co",
+        "Trilegal"
+      ]
+    },
+    "admitTrend": [
+      {
+        "year": 2022,
+        "ratePct": 0.3
+      },
+      {
+        "year": 2023,
+        "ratePct": 0.3
+      },
+      {
+        "year": 2024,
+        "ratePct": 0.25
+      },
+      {
+        "year": 2025,
+        "ratePct": 0.25
+      },
+      {
+        "year": 2026,
+        "ratePct": 0.25
+      }
+    ]
+  },
+  {
+    "id": "uni-in-nalsar-hyderabad",
+    "name": "NALSAR University of Law",
+    "shortName": "NALSAR Hyderabad",
+    "country": "in",
+    "city": "Hyderabad",
+    "region": "Telangana",
+    "type": "public",
+    "website": "https://www.nalsar.ac.in/",
+    "founded": 1998,
+    "qsWorldRank": {
+      "value": null,
+      "sourceUrl": "https://www.topuniversities.com/world-university-rankings",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Not in QS World University Rankings"
+    },
+    "nirfRank": {
+      "value": 3,
+      "sourceUrl": "https://news.careers360.com/nirf-ranking-2025-india-live-engineering-management-medical-law-colleges-universities-iit-nit-jnu-du-nirfindia-org-education-news",
+      "asOf": "2026-11-18",
+      "verified": true,
+      "note": "NIRF 2025 Law"
+    },
+    "acceptanceRatePct": {
+      "value": 0.2,
+      "sourceUrl": "https://consortiumofnlus.ac.in/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Estimate: ~132 BA LLB seats / ~75,000 CLAT UG candidates"
+    },
+    "intlStudentPct": {
+      "value": 2,
+      "sourceUrl": "https://www.nalsar.ac.in/",
+      "asOf": "2026-11-18",
+      "verified": false
+    },
+    "selectivity": "most_selective",
+    "tuition": {
+      "sourceUrl": "https://law.careers360.com/articles/nlu-fee-structure",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Derived from ~Rs 15.4 lakh 5-year total; excludes hostel and mess",
+      "value": {
+        "amount": 308000,
+        "currency": "INR"
+      }
+    },
+    "tuitionInrPerYear": 308000,
+    "livingInrPerYear": 100000,
+    "totalCostInr": 2040000,
+    "programmes": [
+      {
+        "id": "uni-in-nalsar-hyderabad-ba-llb",
+        "name": "BA LLB (Hons)",
+        "degree": "BA LLB (Hons)",
+        "field": "law",
+        "durationYears": 5,
+        "careerIds": [
+          "career-corporate-lawyer",
+          "career-civil-services-officer",
+          "career-policy-analyst"
+        ],
+        "entryExamIds": [
+          "clat"
+        ],
+        "cutoff": {
+          "value": "CLAT AIR ~ 200 (general)",
+          "sourceUrl": "https://consortiumofnlus.ac.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        }
+      }
+    ],
+    "applicationRoutes": [
+      {
+        "type": "institutional_exam",
+        "platform": "university_portal",
+        "deadline": {
+          "value": "2026-11-07",
+          "sourceUrl": "https://news.careers360.com/clat-2027-registration-last-date-extended-ug-up-application-form-november-7-consortiumofnlus-ac-in-law-nlu-admission",
+          "asOf": "2026-11-18",
+          "verified": true,
+          "note": "CLAT 2027 registration closed 7 Nov 2026 (extended); exam 6 Dec 2026"
+        },
+        "decisionBy": "2027-01-31",
+        "binding": false,
+        "requirements": {
+          "minBoardPercent": 45,
+          "testPolicy": "required",
+          "examIds": [
+            "clat"
+          ],
+          "essays": [],
+          "recommendations": 0,
+          "otherItems": [
+            "Class 12 with 45% (40% SC/ST)",
+            "CLAT 2027 (6 Dec 2026); consortium counselling"
+          ],
+          "applicationFeeInr": 4000
+        }
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "NALSAR need-based fee concession",
+        "amount": {
+          "value": "Partial fee waiver for economically weaker students",
+          "sourceUrl": "https://www.nalsar.ac.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 100000,
+        "eligibility": "Admitted students with family income below the notified limit",
+        "needBased": true
+      }
+    ],
+    "strengths": [
+      "Corporate law",
+      "Technology law",
+      "Moot court",
+      "Litigation"
+    ],
+    "outcomes": {
+      "employmentRatePct": {
+        "value": 85,
+        "sourceUrl": "https://www.nalsar.ac.in/",
+        "asOf": "2026-11-18",
+        "verified": false
+      },
+      "medianStartingSalaryInr": {
+        "value": 1500000,
+        "sourceUrl": "https://www.nirfindia.org/",
+        "asOf": "2026-11-18",
+        "verified": false
+      },
+      "topRecruiters": [
+        "AZB & Partners",
+        "Cyril Amarchand Mangaldas",
+        "Khaitan & Co",
+        "JSA",
+        "Trilegal"
+      ]
+    },
+    "admitTrend": [
+      {
+        "year": 2022,
+        "ratePct": 0.25
+      },
+      {
+        "year": 2023,
+        "ratePct": 0.25
+      },
+      {
+        "year": 2024,
+        "ratePct": 0.2
+      },
+      {
+        "year": 2025,
+        "ratePct": 0.2
+      },
+      {
+        "year": 2026,
+        "ratePct": 0.2
+      }
+    ]
+  },
+  {
+    "id": "uni-in-nlu-delhi",
+    "name": "National Law University Delhi",
+    "shortName": "NLU Delhi",
+    "country": "in",
+    "city": "New Delhi",
+    "region": "Delhi",
+    "type": "public",
+    "website": "https://nationallawuniversitydelhi.in/",
+    "founded": 2008,
+    "qsWorldRank": {
+      "value": null,
+      "sourceUrl": "https://www.topuniversities.com/world-university-rankings",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Not in QS World University Rankings"
+    },
+    "nirfRank": {
+      "value": 2,
+      "sourceUrl": "https://news.careers360.com/nirf-ranking-2025-india-live-engineering-management-medical-law-colleges-universities-iit-nit-jnu-du-nirfindia-org-education-news",
+      "asOf": "2026-11-18",
+      "verified": true,
+      "note": "NIRF 2025 Law"
+    },
+    "acceptanceRatePct": {
+      "value": 0.6,
+      "sourceUrl": "https://nationallawuniversitydelhi.in/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Estimate: ~110 BA LLB seats / ~20,000 AILET candidates"
+    },
+    "intlStudentPct": {
+      "value": 2,
+      "sourceUrl": "https://nationallawuniversitydelhi.in/",
+      "asOf": "2026-11-18",
+      "verified": false
+    },
+    "selectivity": "most_selective",
+    "tuition": {
+      "sourceUrl": "https://law.careers360.com/articles/nlu-fee-structure",
+      "asOf": "2026-11-18",
+      "verified": true,
+      "note": "About Rs 4.10 lakh per year (FAQ); total ~Rs 20.1 lakh for 5 years",
+      "value": {
+        "amount": 410000,
+        "currency": "INR"
+      }
+    },
+    "tuitionInrPerYear": 410000,
+    "livingInrPerYear": 120000,
+    "totalCostInr": 2650000,
+    "programmes": [
+      {
+        "id": "uni-in-nlu-delhi-ba-llb",
+        "name": "BA LLB (Hons)",
+        "degree": "BA LLB (Hons)",
+        "field": "law",
+        "durationYears": 5,
+        "careerIds": [
+          "career-corporate-lawyer",
+          "career-civil-services-officer",
+          "career-policy-analyst"
+        ],
+        "entryExamIds": [
+          "ailet"
+        ],
+        "cutoff": {
+          "value": "AILET AIR ~ 80 (general)",
+          "sourceUrl": "https://nationallawuniversitydelhi.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        }
+      }
+    ],
+    "applicationRoutes": [
+      {
+        "type": "institutional_exam",
+        "platform": "university_portal",
+        "deadline": {
+          "value": "2026-11-24",
+          "sourceUrl": "https://nationallawuniversitydelhi.in/",
+          "asOf": "2026-11-18",
+          "verified": false,
+          "note": "Projected AILET 2027 registration close; exam usually mid-December"
+        },
+        "decisionBy": "2027-01-31",
+        "binding": false,
+        "requirements": {
+          "minBoardPercent": 45,
+          "testPolicy": "required",
+          "examIds": [
+            "ailet"
+          ],
+          "essays": [],
+          "recommendations": 0,
+          "otherItems": [
+            "Class 12 with 45% (40% SC/ST)",
+            "AILET 2027 (expected Dec 2026); NLU Delhi does not use CLAT"
+          ],
+          "applicationFeeInr": 3500
+        }
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "NLU Delhi fee waiver for economically weaker students",
+        "amount": {
+          "value": "Partial to full tuition waiver",
+          "sourceUrl": "https://nationallawuniversitydelhi.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 150000,
+        "eligibility": "Students with family income below about Rs 6 lakh",
+        "needBased": true
+      }
+    ],
+    "strengths": [
+      "Corporate law",
+      "Criminal law (Project 39A)",
+      "Moot court",
+      "Policy research"
+    ],
+    "outcomes": {
+      "employmentRatePct": {
+        "value": 85,
+        "sourceUrl": "https://nationallawuniversitydelhi.in/",
+        "asOf": "2026-11-18",
+        "verified": false
+      },
+      "medianStartingSalaryInr": {
+        "value": 1500000,
+        "sourceUrl": "https://www.nirfindia.org/",
+        "asOf": "2026-11-18",
+        "verified": false
+      },
+      "topRecruiters": [
+        "Cyril Amarchand Mangaldas",
+        "Shardul Amarchand Mangaldas",
+        "Luthra & Luthra",
+        "Trilegal",
+        "AZB & Partners"
+      ]
+    },
+    "admitTrend": [
+      {
+        "year": 2022,
+        "ratePct": 0.7
+      },
+      {
+        "year": 2023,
+        "ratePct": 0.6
+      },
+      {
+        "year": 2024,
+        "ratePct": 0.6
+      },
+      {
+        "year": 2025,
+        "ratePct": 0.6
+      },
+      {
+        "year": 2026,
+        "ratePct": 0.6
+      }
+    ]
+  },
+  {
+    "id": "uni-in-aiims-delhi",
+    "name": "All India Institute of Medical Sciences, New Delhi",
+    "shortName": "AIIMS Delhi",
+    "country": "in",
+    "city": "New Delhi",
+    "region": "Delhi",
+    "type": "public",
+    "website": "https://www.aiims.edu/",
+    "founded": 1956,
+    "qsWorldRank": {
+      "value": null,
+      "sourceUrl": "https://www.topuniversities.com/world-university-rankings",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Not in QS World University Rankings (subject rankings only)"
+    },
+    "nirfRank": {
+      "value": 1,
+      "sourceUrl": "https://news.careers360.com/nirf-ranking-2025-india-live-engineering-management-medical-law-colleges-universities-iit-nit-jnu-du-nirfindia-org-education-news",
+      "asOf": "2026-11-18",
+      "verified": true,
+      "note": "NIRF 2025 Medical"
+    },
+    "acceptanceRatePct": {
+      "value": 0.01,
+      "sourceUrl": "https://mcc.nic.in/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Estimate: ~132 MBBS seats / ~22 lakh NEET candidates"
+    },
+    "intlStudentPct": {
+      "value": 0,
+      "sourceUrl": "https://www.aiims.edu/",
+      "asOf": "2026-11-18",
+      "verified": false
+    },
+    "selectivity": "most_selective",
+    "tuition": {
+      "sourceUrl": "https://www.aiims.edu/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Nominal tuition; total MBBS academic fees under Rs 10,000 for the course",
+      "value": {
+        "amount": 1350,
+        "currency": "INR"
+      }
+    },
+    "tuitionInrPerYear": 1350,
+    "livingInrPerYear": 75000,
+    "totalCostInr": 419925,
+    "programmes": [
+      {
+        "id": "uni-in-aiims-delhi-mbbs",
+        "name": "MBBS",
+        "degree": "MBBS",
+        "field": "medicine",
+        "durationYears": 5.5,
+        "careerIds": [
+          "career-doctor",
+          "career-research-scientist"
+        ],
+        "entryExamIds": [
+          "neet-ug"
+        ],
+        "cutoff": {
+          "value": "NEET-UG AIR ~ 50 (open)",
+          "sourceUrl": "https://mcc.nic.in/",
+          "asOf": "2026-11-18",
+          "verified": false,
+          "note": "MCC AIQ 2025 final round, approx."
+        }
+      },
+      {
+        "id": "uni-in-aiims-delhi-bsc-nursing",
+        "name": "B.Sc. (Hons) Nursing",
+        "degree": "B.Sc. (Hons)",
+        "field": "nursing",
+        "durationYears": 4,
+        "careerIds": [
+          "career-nurse"
+        ],
+        "entryExamIds": [
+          "neet-ug"
+        ]
+      }
+    ],
+    "applicationRoutes": [
+      {
+        "type": "institutional_exam",
+        "platform": "university_portal",
+        "deadline": {
+          "value": "2027-03-07",
+          "sourceUrl": "https://neet.nta.nic.in/",
+          "asOf": "2026-11-18",
+          "verified": false,
+          "note": "Projected NEET-UG 2027 registration close (usually early March); exam first Sunday of May"
+        },
+        "decisionBy": "2027-08-31",
+        "binding": false,
+        "requirements": {
+          "minBoardPercent": 50,
+          "testPolicy": "required",
+          "examIds": [
+            "neet-ug"
+          ],
+          "essays": [],
+          "recommendations": 0,
+          "otherItems": [
+            "NEET-UG 2027",
+            "Physics, Chemistry, Biology, English with 50% (PCB)",
+            "MCC All India counselling (Jul-Sep 2027)"
+          ],
+          "applicationFeeInr": 1700
+        }
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Central Sector Scheme of Scholarship",
+        "amount": {
+          "value": "Rs 12,000 a year (first 3 years), Rs 20,000 a year after",
+          "sourceUrl": "https://scholarships.gov.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 12000,
+        "eligibility": "Above 80th percentile in Class 12, family income below Rs 4.5 lakh",
+        "needBased": true
+      }
+    ],
+    "strengths": [
+      "Clinical medicine",
+      "Medical research",
+      "Super-speciality hospital training"
+    ],
+    "outcomes": {
+      "employmentRatePct": {
+        "value": 95,
+        "sourceUrl": "https://www.aiims.edu/",
+        "asOf": "2026-11-18",
+        "verified": false,
+        "note": "Internship and junior residency"
+      },
+      "medianStartingSalaryInr": {
+        "value": 1200000,
+        "sourceUrl": "https://www.aiims.edu/",
+        "asOf": "2026-11-18",
+        "verified": false,
+        "note": "Junior Resident pay at central government hospitals, approx."
+      },
+      "topRecruiters": [
+        "AIIMS (junior residency)",
+        "Central government hospitals",
+        "Apollo",
+        "Fortis",
+        "Max Healthcare"
+      ]
+    },
+    "admitTrend": [
+      {
+        "year": 2022,
+        "ratePct": 0.01
+      },
+      {
+        "year": 2023,
+        "ratePct": 0.01
+      },
+      {
+        "year": 2024,
+        "ratePct": 0.01
+      },
+      {
+        "year": 2025,
+        "ratePct": 0.01
+      },
+      {
+        "year": 2026,
+        "ratePct": 0.01
+      }
+    ]
+  },
+  {
+    "id": "uni-in-cmc-vellore",
+    "name": "Christian Medical College Vellore",
+    "shortName": "CMC Vellore",
+    "country": "in",
+    "city": "Vellore",
+    "region": "Tamil Nadu",
+    "type": "private",
+    "website": "https://www.cmch-vellore.edu/",
+    "founded": 1900,
+    "qsWorldRank": {
+      "value": null,
+      "sourceUrl": "https://www.topuniversities.com/world-university-rankings",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Not in QS World University Rankings"
+    },
+    "nirfRank": {
+      "value": 3,
+      "sourceUrl": "https://news.careers360.com/nirf-ranking-2025-india-live-engineering-management-medical-law-colleges-universities-iit-nit-jnu-du-nirfindia-org-education-news",
+      "asOf": "2026-11-18",
+      "verified": true,
+      "note": "NIRF 2025 Medical"
+    },
+    "acceptanceRatePct": {
+      "value": 0.01,
+      "sourceUrl": "https://mcc.nic.in/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Estimate: 100 MBBS seats; MCC + CMC admission process"
+    },
+    "intlStudentPct": {
+      "value": 1,
+      "sourceUrl": "https://www.cmch-vellore.edu/",
+      "asOf": "2026-11-18",
+      "verified": false
+    },
+    "selectivity": "most_selective",
+    "tuition": {
+      "sourceUrl": "https://www.cmch-vellore.edu/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Approximate annual MBBS fees; among the lowest for a private college",
+      "value": {
+        "amount": 30000,
+        "currency": "INR"
+      }
+    },
+    "tuitionInrPerYear": 30000,
+    "livingInrPerYear": 80000,
+    "totalCostInr": 605000,
+    "programmes": [
+      {
+        "id": "uni-in-cmc-vellore-mbbs",
+        "name": "MBBS",
+        "degree": "MBBS",
+        "field": "medicine",
+        "durationYears": 5.5,
+        "careerIds": [
+          "career-doctor"
+        ],
+        "entryExamIds": [
+          "neet-ug"
+        ],
+        "cutoff": {
+          "value": "NEET-UG AIR ~ 2,500 (open, general merit)",
+          "sourceUrl": "https://mcc.nic.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        }
+      },
+      {
+        "id": "uni-in-cmc-vellore-bsc-nursing",
+        "name": "B.Sc. Nursing",
+        "degree": "B.Sc.",
+        "field": "nursing",
+        "durationYears": 4,
+        "careerIds": [
+          "career-nurse"
+        ],
+        "entryExamIds": [
+          "neet-ug"
+        ]
+      },
+      {
+        "id": "uni-in-cmc-vellore-bpt",
+        "name": "Bachelor of Physiotherapy",
+        "degree": "BPT",
+        "field": "physiotherapy",
+        "durationYears": 4.5,
+        "careerIds": [
+          "career-physiotherapist"
+        ],
+        "entryExamIds": []
+      }
+    ],
+    "applicationRoutes": [
+      {
+        "type": "institutional_exam",
+        "platform": "university_portal",
+        "deadline": {
+          "value": "2027-03-07",
+          "sourceUrl": "https://neet.nta.nic.in/",
+          "asOf": "2026-11-18",
+          "verified": false,
+          "note": "Projected NEET-UG 2027 registration close (usually early March); exam first Sunday of May"
+        },
+        "decisionBy": "2027-08-31",
+        "binding": false,
+        "requirements": {
+          "minBoardPercent": 50,
+          "testPolicy": "required",
+          "examIds": [
+            "neet-ug"
+          ],
+          "essays": [],
+          "recommendations": 0,
+          "otherItems": [
+            "NEET-UG 2027",
+            "CMC online application and assessment",
+            "MCC counselling for MBBS seats",
+            "Two-year service obligation after graduation"
+          ],
+          "applicationFeeInr": 1700
+        }
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "CMC need-based bursary",
+        "amount": {
+          "value": "Fee support for students with financial need",
+          "sourceUrl": "https://www.cmch-vellore.edu/",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 20000,
+        "eligibility": "Admitted students on application",
+        "needBased": true
+      }
+    ],
+    "strengths": [
+      "Community medicine",
+      "Clinical training",
+      "Nursing",
+      "Rural health service"
+    ],
+    "outcomes": {
+      "employmentRatePct": {
+        "value": 95,
+        "sourceUrl": "https://www.cmch-vellore.edu/",
+        "asOf": "2026-11-18",
+        "verified": false
+      },
+      "medianStartingSalaryInr": {
+        "value": 900000,
+        "sourceUrl": "https://www.cmch-vellore.edu/",
+        "asOf": "2026-11-18",
+        "verified": false
+      },
+      "topRecruiters": [
+        "CMC Vellore",
+        "Mission hospitals",
+        "Government health services"
+      ]
+    },
+    "admitTrend": [
+      {
+        "year": 2022,
+        "ratePct": 0.02
+      },
+      {
+        "year": 2023,
+        "ratePct": 0.02
+      },
+      {
+        "year": 2024,
+        "ratePct": 0.01
+      },
+      {
+        "year": 2025,
+        "ratePct": 0.01
+      },
+      {
+        "year": 2026,
+        "ratePct": 0.01
+      }
+    ]
+  },
+  {
+    "id": "uni-in-srcc-delhi",
+    "name": "Shri Ram College of Commerce, University of Delhi",
+    "shortName": "SRCC",
+    "country": "in",
+    "city": "New Delhi",
+    "region": "Delhi",
+    "type": "public",
+    "website": "https://www.srcc.edu/",
+    "founded": 1926,
+    "qsWorldRank": {
+      "value": null,
+      "sourceUrl": "https://news.careers360.com/qs-world-university-rankings-2026-iit-delhi-climbs-123rd-spot-iitb-slips-129-iitgn-kiit-lpu-8-new-entrants",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "College of the University of Delhi (DU ranked 328 in QS 2026)"
+    },
+    "nirfRank": {
+      "value": 13,
+      "sourceUrl": "https://www.nirfindia.org/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "NIRF 2025 College category (outside top 10)"
+    },
+    "acceptanceRatePct": {
+      "value": 0.7,
+      "sourceUrl": "https://admission.uod.ac.in/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Estimate: ~800 seats / DU CSAS applicants listing SRCC"
+    },
+    "intlStudentPct": {
+      "value": 1,
+      "sourceUrl": "https://www.srcc.edu/",
+      "asOf": "2026-11-18",
+      "verified": false
+    },
+    "selectivity": "most_selective",
+    "tuition": {
+      "sourceUrl": "https://www.srcc.edu/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Approximate annual fee for B.Com (Hons)",
+      "value": {
+        "amount": 31000,
+        "currency": "INR"
+      }
+    },
+    "tuitionInrPerYear": 31000,
+    "livingInrPerYear": 180000,
+    "totalCostInr": 844000,
+    "programmes": [
+      {
+        "id": "uni-in-srcc-delhi-bcom-hons",
+        "name": "B.Com (Hons)",
+        "degree": "B.Com (Hons)",
+        "field": "commerce",
+        "durationYears": 4,
+        "careerIds": [
+          "career-chartered-accountant",
+          "career-financial-analyst",
+          "career-investment-banker",
+          "career-business-analyst"
+        ],
+        "entryExamIds": [
+          "cuet-ug"
+        ],
+        "cutoff": {
+          "value": "CUET CSAS score ~ 780/800 (general)",
+          "sourceUrl": "https://admission.uod.ac.in/",
+          "asOf": "2026-11-18",
+          "verified": false,
+          "note": "CSAS 2025 round cutoff, approx."
+        }
+      },
+      {
+        "id": "uni-in-srcc-delhi-ba-economics",
+        "name": "BA (Hons) Economics",
+        "degree": "BA (Hons)",
+        "field": "economics",
+        "durationYears": 4,
+        "careerIds": [
+          "career-economist",
+          "career-policy-analyst",
+          "career-financial-analyst",
+          "career-actuary"
+        ],
+        "entryExamIds": [
+          "cuet-ug"
+        ],
+        "cutoff": {
+          "value": "CUET CSAS score ~ 770/800 (general)",
+          "sourceUrl": "https://admission.uod.ac.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        }
+      }
+    ],
+    "applicationRoutes": [
+      {
+        "type": "cuet",
+        "platform": "cuet_samarth",
+        "deadline": {
+          "value": "2027-03-24",
+          "sourceUrl": "https://cuet.nta.nic.in/",
+          "asOf": "2026-11-18",
+          "verified": false,
+          "note": "Projected CUET-UG 2027 registration close (2025 window closed late March); then DU CSAS Phase I-II"
+        },
+        "decisionBy": "2027-08-10",
+        "binding": false,
+        "requirements": {
+          "minBoardPercent": 90,
+          "testPolicy": "required",
+          "examIds": [
+            "cuet-ug"
+          ],
+          "essays": [],
+          "recommendations": 0,
+          "otherItems": [
+            "CUET-UG 2027 (May-June)",
+            "DU CSAS (UG) 2027 registration and preference filling",
+            "Maths/Accountancy and English among CUET subjects for B.Com (Hons)"
+          ],
+          "applicationFeeInr": 1250
+        }
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Central Sector Scheme of Scholarship",
+        "amount": {
+          "value": "Rs 12,000 a year (first 3 years)",
+          "sourceUrl": "https://scholarships.gov.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 12000,
+        "eligibility": "Above 80th percentile in Class 12, family income below Rs 4.5 lakh",
+        "needBased": true
+      },
+      {
+        "name": "SRCC student aid fund",
+        "amount": {
+          "value": "Fee and hostel support",
+          "sourceUrl": "https://www.srcc.edu/",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 20000,
+        "eligibility": "Students with financial need",
+        "needBased": true
+      }
+    ],
+    "strengths": [
+      "Commerce",
+      "Economics",
+      "Finance",
+      "Student societies and placements"
+    ],
+    "outcomes": {
+      "employmentRatePct": {
+        "value": 75,
+        "sourceUrl": "https://www.srcc.edu/",
+        "asOf": "2026-11-18",
+        "verified": false
+      },
+      "medianStartingSalaryInr": {
+        "value": 1000000,
+        "sourceUrl": "https://www.srcc.edu/",
+        "asOf": "2026-11-18",
+        "verified": false,
+        "note": "Median CTC in SRCC placements, approx."
+      },
+      "topRecruiters": [
+        "Bain & Company",
+        "Boston Consulting Group",
+        "Goldman Sachs",
+        "EY",
+        "Deloitte",
+        "HUL"
+      ]
+    },
+    "admitTrend": [
+      {
+        "year": 2022,
+        "ratePct": 0.8
+      },
+      {
+        "year": 2023,
+        "ratePct": 0.8
+      },
+      {
+        "year": 2024,
+        "ratePct": 0.7
+      },
+      {
+        "year": 2025,
+        "ratePct": 0.7
+      },
+      {
+        "year": 2026,
+        "ratePct": 0.7
+      }
+    ]
+  },
+  {
+    "id": "uni-in-lsr-delhi",
+    "name": "Lady Shri Ram College for Women, University of Delhi",
+    "shortName": "LSR",
+    "country": "in",
+    "city": "New Delhi",
+    "region": "Delhi",
+    "type": "public",
+    "website": "https://lsr.edu.in/",
+    "founded": 1956,
+    "qsWorldRank": {
+      "value": null,
+      "sourceUrl": "https://news.careers360.com/qs-world-university-rankings-2026-iit-delhi-climbs-123rd-spot-iitb-slips-129-iitgn-kiit-lpu-8-new-entrants",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "College of the University of Delhi (DU ranked 328 in QS 2026)"
+    },
+    "nirfRank": {
+      "value": 11,
+      "sourceUrl": "https://www.nirfindia.org/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "NIRF 2025 College category (outside top 10)"
+    },
+    "acceptanceRatePct": {
+      "value": 1.0,
+      "sourceUrl": "https://admission.uod.ac.in/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Estimate"
+    },
+    "intlStudentPct": {
+      "value": 1,
+      "sourceUrl": "https://lsr.edu.in/",
+      "asOf": "2026-11-18",
+      "verified": false
+    },
+    "selectivity": "most_selective",
+    "tuition": {
+      "sourceUrl": "https://lsr.edu.in/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Approximate annual fee for BA (Hons)",
+      "value": {
+        "amount": 25000,
+        "currency": "INR"
+      }
+    },
+    "tuitionInrPerYear": 25000,
+    "livingInrPerYear": 180000,
+    "totalCostInr": 820000,
+    "programmes": [
+      {
+        "id": "uni-in-lsr-delhi-ba-economics",
+        "name": "BA (Hons) Economics",
+        "degree": "BA (Hons)",
+        "field": "economics",
+        "durationYears": 4,
+        "careerIds": [
+          "career-economist",
+          "career-policy-analyst",
+          "career-financial-analyst",
+          "career-actuary"
+        ],
+        "entryExamIds": [
+          "cuet-ug"
+        ],
+        "cutoff": {
+          "value": "CUET CSAS score ~ 760/800 (general)",
+          "sourceUrl": "https://admission.uod.ac.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        }
+      },
+      {
+        "id": "uni-in-lsr-delhi-ba-psychology",
+        "name": "BA (Hons) Psychology",
+        "degree": "BA (Hons)",
+        "field": "psychology",
+        "durationYears": 4,
+        "careerIds": [
+          "career-psychologist",
+          "career-teacher"
+        ],
+        "entryExamIds": [
+          "cuet-ug"
+        ],
+        "cutoff": {
+          "value": "CUET CSAS score ~ 770/800 (general)",
+          "sourceUrl": "https://admission.uod.ac.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        }
+      },
+      {
+        "id": "uni-in-lsr-delhi-ba-journalism",
+        "name": "BA (Hons) Journalism",
+        "degree": "BA (Hons)",
+        "field": "journalism",
+        "durationYears": 4,
+        "careerIds": [
+          "career-journalist",
+          "career-public-relations-manager"
+        ],
+        "entryExamIds": [
+          "cuet-ug"
+        ]
+      },
+      {
+        "id": "uni-in-lsr-delhi-ba-political-science",
+        "name": "BA (Hons) Political Science",
+        "degree": "BA (Hons)",
+        "field": "political-science",
+        "durationYears": 4,
+        "careerIds": [
+          "career-journalist",
+          "career-policy-analyst",
+          "career-public-relations-manager",
+          "career-teacher",
+          "career-civil-services-officer"
+        ],
+        "entryExamIds": [
+          "cuet-ug"
+        ]
+      },
+      {
+        "id": "uni-in-lsr-delhi-bcom-hons",
+        "name": "B.Com (Hons)",
+        "degree": "B.Com (Hons)",
+        "field": "commerce",
+        "durationYears": 4,
+        "careerIds": [
+          "career-chartered-accountant",
+          "career-financial-analyst",
+          "career-investment-banker",
+          "career-business-analyst"
+        ],
+        "entryExamIds": [
+          "cuet-ug"
+        ]
+      }
+    ],
+    "applicationRoutes": [
+      {
+        "type": "cuet",
+        "platform": "cuet_samarth",
+        "deadline": {
+          "value": "2027-03-24",
+          "sourceUrl": "https://cuet.nta.nic.in/",
+          "asOf": "2026-11-18",
+          "verified": false,
+          "note": "Projected CUET-UG 2027 registration close (2025 window closed late March); then DU CSAS Phase I-II"
+        },
+        "decisionBy": "2027-08-10",
+        "binding": false,
+        "requirements": {
+          "minBoardPercent": 90,
+          "testPolicy": "required",
+          "examIds": [
+            "cuet-ug"
+          ],
+          "essays": [],
+          "recommendations": 0,
+          "otherItems": [
+            "CUET-UG 2027 (May-June)",
+            "DU CSAS (UG) 2027 registration and preference filling",
+            "Women only"
+          ],
+          "applicationFeeInr": 1250
+        }
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Central Sector Scheme of Scholarship",
+        "amount": {
+          "value": "Rs 12,000 a year (first 3 years)",
+          "sourceUrl": "https://scholarships.gov.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 12000,
+        "eligibility": "Above 80th percentile in Class 12, family income below Rs 4.5 lakh",
+        "needBased": true
+      },
+      {
+        "name": "LSR college scholarships and freeships",
+        "amount": {
+          "value": "Fee waiver and need-based support",
+          "sourceUrl": "https://lsr.edu.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 15000,
+        "eligibility": "Students with financial need or merit",
+        "needBased": true
+      }
+    ],
+    "strengths": [
+      "Economics",
+      "Psychology",
+      "Journalism",
+      "Political science"
+    ],
+    "outcomes": {
+      "employmentRatePct": {
+        "value": 60,
+        "sourceUrl": "https://lsr.edu.in/",
+        "asOf": "2026-11-18",
+        "verified": false
+      },
+      "medianStartingSalaryInr": {
+        "value": 700000,
+        "sourceUrl": "https://lsr.edu.in/",
+        "asOf": "2026-11-18",
+        "verified": false
+      },
+      "topRecruiters": [
+        "EY",
+        "KPMG",
+        "Deloitte",
+        "ZS Associates",
+        "Teach For India"
+      ]
+    },
+    "admitTrend": [
+      {
+        "year": 2022,
+        "ratePct": 1.1
+      },
+      {
+        "year": 2023,
+        "ratePct": 1.0
+      },
+      {
+        "year": 2024,
+        "ratePct": 1.0
+      },
+      {
+        "year": 2025,
+        "ratePct": 1.0
+      },
+      {
+        "year": 2026,
+        "ratePct": 1.0
+      }
+    ]
+  },
+  {
+    "id": "uni-in-ashoka",
+    "name": "Ashoka University",
+    "shortName": "Ashoka",
+    "country": "in",
+    "city": "Sonipat",
+    "region": "Haryana",
+    "type": "private",
+    "website": "https://www.ashoka.edu.in/",
+    "founded": 2014,
+    "qsWorldRank": {
+      "value": null,
+      "sourceUrl": "https://www.topuniversities.com/world-university-rankings",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Not in QS World University Rankings 2026"
+    },
+    "nirfRank": {
+      "value": null,
+      "sourceUrl": "https://www.nirfindia.org/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Not ranked in NIRF 2025 categories"
+    },
+    "acceptanceRatePct": {
+      "value": 25,
+      "sourceUrl": "https://www.ashoka.edu.in/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Estimate; Ashoka does not publish an admit rate"
+    },
+    "intlStudentPct": {
+      "value": 2,
+      "sourceUrl": "https://www.ashoka.edu.in/",
+      "asOf": "2026-11-18",
+      "verified": false
+    },
+    "selectivity": "highly_selective",
+    "tuition": {
+      "sourceUrl": "https://matchtocollege.com/news-and-updates/ashoka-university-ug-fee-structure-2027-28-released",
+      "asOf": "2026-11-18",
+      "verified": true,
+      "note": "2027-28 tuition Rs 11,22,000 (residence Rs 2,28,000 extra)",
+      "value": {
+        "amount": 1122000,
+        "currency": "INR"
+      }
+    },
+    "tuitionInrPerYear": 1122000,
+    "livingInrPerYear": 280000,
+    "totalCostInr": 4206000,
+    "programmes": [
+      {
+        "id": "uni-in-ashoka-ba-economics",
+        "name": "BA (Hons) Economics",
+        "degree": "BA (Hons)",
+        "field": "economics",
+        "durationYears": 3,
+        "careerIds": [
+          "career-economist",
+          "career-policy-analyst",
+          "career-financial-analyst",
+          "career-actuary"
+        ],
+        "entryExamIds": [
+          "ashoka-aptitude",
+          "sat"
+        ]
+      },
+      {
+        "id": "uni-in-ashoka-bsc-cs",
+        "name": "BSc (Hons) Computer Science",
+        "degree": "BSc (Hons)",
+        "field": "computer-science",
+        "durationYears": 3,
+        "careerIds": [
+          "career-software-engineer",
+          "career-ai-ml-engineer",
+          "career-data-analyst"
+        ],
+        "entryExamIds": [
+          "ashoka-aptitude",
+          "sat"
+        ]
+      },
+      {
+        "id": "uni-in-ashoka-ba-psychology",
+        "name": "BA (Hons) Psychology",
+        "degree": "BA (Hons)",
+        "field": "psychology",
+        "durationYears": 3,
+        "careerIds": [
+          "career-psychologist",
+          "career-teacher"
+        ],
+        "entryExamIds": [
+          "ashoka-aptitude",
+          "sat"
+        ]
+      },
+      {
+        "id": "uni-in-ashoka-ba-political-science",
+        "name": "BA (Hons) Political Science",
+        "degree": "BA (Hons)",
+        "field": "political-science",
+        "durationYears": 3,
+        "careerIds": [
+          "career-journalist",
+          "career-policy-analyst",
+          "career-public-relations-manager",
+          "career-teacher",
+          "career-civil-services-officer"
+        ],
+        "entryExamIds": [
+          "ashoka-aptitude",
+          "sat"
+        ]
+      },
+      {
+        "id": "uni-in-ashoka-ba-english-media",
+        "name": "BA (Hons) English and Media Studies",
+        "degree": "BA (Hons)",
+        "field": "liberal-arts",
+        "durationYears": 3,
+        "careerIds": [
+          "career-journalist",
+          "career-public-relations-manager",
+          "career-communication-designer"
+        ],
+        "entryExamIds": [
+          "ashoka-aptitude",
+          "sat"
+        ]
+      }
+    ],
+    "applicationRoutes": [
+      {
+        "type": "early_action",
+        "platform": "university_portal",
+        "deadline": {
+          "value": "2026-11-23",
+          "sourceUrl": "https://matchtocollege.com/news-and-updates/ashoka-university-ug-admission-2027-round-1-application-guide",
+          "asOf": "2026-11-18",
+          "verified": true,
+          "note": "Round 1: assessment 6 Dec 2026, decisions 3 Feb 2027"
+        },
+        "decisionBy": "2027-02-03",
+        "binding": false,
+        "requirements": {
+          "minBoardPercent": 85,
+          "typicalOffer": "IB 34+ or A level AAB",
+          "testPolicy": "required",
+          "examIds": [
+            "ashoka-aptitude",
+            "sat"
+          ],
+          "essays": [
+            {
+              "prompt": "Why do you want to pursue a liberal arts education at Ashoka?",
+              "wordLimit": 400
+            },
+            {
+              "prompt": "Describe an experience or idea that changed how you think.",
+              "wordLimit": 400
+            }
+          ],
+          "recommendations": 1,
+          "otherItems": [
+            "Ashoka Aptitude Assessment (or SAT/ACT)",
+            "Interview",
+            "Class 11 and 12 transcripts"
+          ],
+          "applicationFeeInr": 3500
+        }
+      },
+      {
+        "type": "regular",
+        "platform": "university_portal",
+        "deadline": {
+          "value": "2027-01-20",
+          "sourceUrl": "https://matchtocollege.com/news-and-updates/ashoka-university-ug-admission-2027-round-1-application-guide",
+          "asOf": "2026-11-18",
+          "verified": true,
+          "note": "Round 2: assessment 31 Jan 2027, decisions 14 Apr 2027 (Rounds 3-4 close 14 Apr and 23 May)"
+        },
+        "decisionBy": "2027-04-14",
+        "binding": false,
+        "requirements": {
+          "minBoardPercent": 85,
+          "typicalOffer": "IB 34+ or A level AAB",
+          "testPolicy": "required",
+          "examIds": [
+            "ashoka-aptitude",
+            "sat"
+          ],
+          "essays": [
+            {
+              "prompt": "Why do you want to pursue a liberal arts education at Ashoka?",
+              "wordLimit": 400
+            },
+            {
+              "prompt": "Describe an experience or idea that changed how you think.",
+              "wordLimit": 400
+            }
+          ],
+          "recommendations": 1,
+          "otherItems": [
+            "Ashoka Aptitude Assessment (or SAT/ACT)",
+            "Interview",
+            "Class 11 and 12 transcripts"
+          ],
+          "applicationFeeInr": 3500
+        }
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Ashoka need-based financial aid",
+        "amount": {
+          "value": "Up to 100% of tuition and residence, by family income",
+          "sourceUrl": "https://www.ashoka.edu.in/undergraduate-programme-scholarships/",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 560000,
+        "eligibility": "Admitted students who apply for aid; about half of students receive some aid",
+        "needBased": true
+      },
+      {
+        "name": "Ashoka merit scholarship",
+        "amount": {
+          "value": "Partial tuition waiver for exceptional applicants",
+          "sourceUrl": "https://www.ashoka.edu.in/undergraduate-programme-scholarships/",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 200000,
+        "eligibility": "Top applicants in the admissions process",
+        "needBased": false
+      }
+    ],
+    "strengths": [
+      "Liberal arts",
+      "Economics",
+      "Political science",
+      "Psychology",
+      "Interdisciplinary majors"
+    ],
+    "outcomes": {
+      "employmentRatePct": {
+        "value": 70,
+        "sourceUrl": "https://www.ashoka.edu.in/",
+        "asOf": "2026-11-18",
+        "verified": false
+      },
+      "medianStartingSalaryInr": {
+        "value": 1000000,
+        "sourceUrl": "https://www.ashoka.edu.in/",
+        "asOf": "2026-11-18",
+        "verified": false
+      },
+      "topRecruiters": [
+        "Bain & Company",
+        "EY-Parthenon",
+        "Goldman Sachs",
+        "Kearney",
+        "Teach For India"
+      ]
+    },
+    "admitTrend": [
+      {
+        "year": 2022,
+        "ratePct": 30
+      },
+      {
+        "year": 2023,
+        "ratePct": 28
+      },
+      {
+        "year": 2024,
+        "ratePct": 27
+      },
+      {
+        "year": 2025,
+        "ratePct": 26
+      },
+      {
+        "year": 2026,
+        "ratePct": 25
+      }
+    ]
+  },
+  {
+    "id": "uni-in-flame-pune",
+    "name": "FLAME University",
+    "shortName": "FLAME",
+    "country": "in",
+    "city": "Pune",
+    "region": "Maharashtra",
+    "type": "private",
+    "website": "https://www.flame.edu.in/",
+    "founded": 2015,
+    "qsWorldRank": {
+      "value": null,
+      "sourceUrl": "https://www.topuniversities.com/world-university-rankings",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Not in QS World University Rankings"
+    },
+    "nirfRank": {
+      "value": null,
+      "sourceUrl": "https://www.nirfindia.org/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Not ranked in NIRF 2025"
+    },
+    "acceptanceRatePct": {
+      "value": 40,
+      "sourceUrl": "https://www.flame.edu.in/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Estimate"
+    },
+    "intlStudentPct": {
+      "value": 2,
+      "sourceUrl": "https://www.flame.edu.in/",
+      "asOf": "2026-11-18",
+      "verified": false
+    },
+    "selectivity": "selective",
+    "tuition": {
+      "sourceUrl": "https://www.flame.edu.in/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Approximate annual UG tuition",
+      "value": {
+        "amount": 890000,
+        "currency": "INR"
+      }
+    },
+    "tuitionInrPerYear": 890000,
+    "livingInrPerYear": 280000,
+    "totalCostInr": 4680000,
+    "programmes": [
+      {
+        "id": "uni-in-flame-pune-ba-liberal-arts",
+        "name": "BA (Hons) Liberal Education",
+        "degree": "BA (Hons)",
+        "field": "liberal-arts",
+        "durationYears": 4,
+        "careerIds": [
+          "career-journalist",
+          "career-policy-analyst",
+          "career-public-relations-manager",
+          "career-teacher",
+          "career-civil-services-officer",
+          "career-psychologist"
+        ],
+        "entryExamIds": [
+          "flame-fat",
+          "sat"
+        ]
+      },
+      {
+        "id": "uni-in-flame-pune-bba",
+        "name": "BBA (Hons)",
+        "degree": "BBA (Hons)",
+        "field": "business",
+        "durationYears": 4,
+        "careerIds": [
+          "career-management-consultant",
+          "career-marketing-manager",
+          "career-product-manager",
+          "career-entrepreneur",
+          "career-business-analyst"
+        ],
+        "entryExamIds": [
+          "flame-fat",
+          "sat"
+        ]
+      },
+      {
+        "id": "uni-in-flame-pune-bsc-economics",
+        "name": "BSc (Hons) Economics",
+        "degree": "BSc (Hons)",
+        "field": "economics",
+        "durationYears": 4,
+        "careerIds": [
+          "career-economist",
+          "career-policy-analyst",
+          "career-financial-analyst",
+          "career-actuary"
+        ],
+        "entryExamIds": [
+          "flame-fat",
+          "sat"
+        ]
+      },
+      {
+        "id": "uni-in-flame-pune-bdes-communication",
+        "name": "B.Des Communication Design",
+        "degree": "B.Des",
+        "field": "design",
+        "durationYears": 4,
+        "careerIds": [
+          "career-ux-designer",
+          "career-communication-designer",
+          "career-product-manager"
+        ],
+        "entryExamIds": [
+          "flame-fat"
+        ]
+      }
+    ],
+    "applicationRoutes": [
+      {
+        "type": "early_action",
+        "platform": "university_portal",
+        "deadline": {
+          "value": "2026-12-15",
+          "sourceUrl": "https://www.flame.edu.in/",
+          "asOf": "2026-11-18",
+          "verified": false,
+          "note": "Projected Round 1 deadline"
+        },
+        "decisionBy": "2027-01-20",
+        "binding": false,
+        "requirements": {
+          "minBoardPercent": 70,
+          "typicalOffer": "IB 30+",
+          "testPolicy": "required",
+          "examIds": [
+            "flame-fat",
+            "sat"
+          ],
+          "essays": [
+            {
+              "prompt": "Statement of purpose: why FLAME and what you hope to explore",
+              "wordLimit": 500
+            }
+          ],
+          "recommendations": 1,
+          "otherItems": [
+            "FLAME Aptitude Test (FAT) or SAT/ACT",
+            "Personal interview",
+            "Class 10-12 transcripts"
+          ],
+          "applicationFeeInr": 2000
+        }
+      },
+      {
+        "type": "regular",
+        "platform": "university_portal",
+        "deadline": {
+          "value": "2027-03-15",
+          "sourceUrl": "https://www.flame.edu.in/",
+          "asOf": "2026-11-18",
+          "verified": false,
+          "note": "Projected later-round deadline"
+        },
+        "decisionBy": "2027-04-20",
+        "binding": false,
+        "requirements": {
+          "minBoardPercent": 70,
+          "typicalOffer": "IB 30+",
+          "testPolicy": "required",
+          "examIds": [
+            "flame-fat",
+            "sat"
+          ],
+          "essays": [
+            {
+              "prompt": "Statement of purpose: why FLAME and what you hope to explore",
+              "wordLimit": 500
+            }
+          ],
+          "recommendations": 1,
+          "otherItems": [
+            "FLAME Aptitude Test (FAT) or SAT/ACT",
+            "Personal interview",
+            "Class 10-12 transcripts"
+          ],
+          "applicationFeeInr": 2000
+        }
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "FLAME merit scholarship",
+        "amount": {
+          "value": "25%-100% tuition waiver",
+          "sourceUrl": "https://www.flame.edu.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 220000,
+        "eligibility": "Strong academic record and FAT performance",
+        "needBased": false
+      },
+      {
+        "name": "FLAME need-based financial aid",
+        "amount": {
+          "value": "Partial tuition support",
+          "sourceUrl": "https://www.flame.edu.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 200000,
+        "eligibility": "Admitted students with demonstrated need",
+        "needBased": true
+      }
+    ],
+    "strengths": [
+      "Liberal education",
+      "Business",
+      "Economics",
+      "Communication"
+    ],
+    "outcomes": {
+      "employmentRatePct": {
+        "value": 70,
+        "sourceUrl": "https://www.flame.edu.in/",
+        "asOf": "2026-11-18",
+        "verified": false
+      },
+      "medianStartingSalaryInr": {
+        "value": 800000,
+        "sourceUrl": "https://www.flame.edu.in/",
+        "asOf": "2026-11-18",
+        "verified": false
+      },
+      "topRecruiters": [
+        "Deloitte",
+        "EY",
+        "KPMG",
+        "Nykaa",
+        "Ogilvy"
+      ]
+    },
+    "admitTrend": [
+      {
+        "year": 2022,
+        "ratePct": 45
+      },
+      {
+        "year": 2023,
+        "ratePct": 43
+      },
+      {
+        "year": 2024,
+        "ratePct": 42
+      },
+      {
+        "year": 2025,
+        "ratePct": 41
+      },
+      {
+        "year": 2026,
+        "ratePct": 40
+      }
+    ]
+  },
+  {
+    "id": "uni-in-nid-ahmedabad",
+    "name": "National Institute of Design, Ahmedabad",
+    "shortName": "NID Ahmedabad",
+    "country": "in",
+    "city": "Ahmedabad",
+    "region": "Gujarat",
+    "type": "public",
+    "website": "https://www.nid.edu/",
+    "founded": 1961,
+    "qsWorldRank": {
+      "value": null,
+      "sourceUrl": "https://www.topuniversities.com/world-university-rankings",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Not in QS World University Rankings"
+    },
+    "nirfRank": {
+      "value": null,
+      "sourceUrl": "https://www.nirfindia.org/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "NIRF has no design category"
+    },
+    "acceptanceRatePct": {
+      "value": 0.5,
+      "sourceUrl": "https://www.nid.edu/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Estimate: ~100 B.Des seats at Ahmedabad / ~20,000 DAT applicants"
+    },
+    "intlStudentPct": {
+      "value": 2,
+      "sourceUrl": "https://www.nid.edu/",
+      "asOf": "2026-11-18",
+      "verified": false
+    },
+    "selectivity": "most_selective",
+    "tuition": {
+      "sourceUrl": "https://www.nid.edu/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Approximate annual B.Des tuition and academic fees",
+      "value": {
+        "amount": 330000,
+        "currency": "INR"
+      }
+    },
+    "tuitionInrPerYear": 330000,
+    "livingInrPerYear": 130000,
+    "totalCostInr": 1840000,
+    "programmes": [
+      {
+        "id": "uni-in-nid-ahmedabad-bdes-communication",
+        "name": "B.Des Communication Design",
+        "degree": "B.Des",
+        "field": "design",
+        "durationYears": 4,
+        "careerIds": [
+          "career-ux-designer",
+          "career-communication-designer",
+          "career-product-manager"
+        ],
+        "entryExamIds": [
+          "nid-dat"
+        ]
+      },
+      {
+        "id": "uni-in-nid-ahmedabad-bdes-industrial",
+        "name": "B.Des Industrial Design",
+        "degree": "B.Des",
+        "field": "design",
+        "durationYears": 4,
+        "careerIds": [
+          "career-ux-designer",
+          "career-product-manager",
+          "career-mechanical-engineer"
+        ],
+        "entryExamIds": [
+          "nid-dat"
+        ]
+      },
+      {
+        "id": "uni-in-nid-ahmedabad-bdes-textile",
+        "name": "B.Des Textile and Apparel Design",
+        "degree": "B.Des",
+        "field": "design",
+        "durationYears": 4,
+        "careerIds": [
+          "career-fashion-designer",
+          "career-communication-designer"
+        ],
+        "entryExamIds": [
+          "nid-dat"
+        ]
+      }
+    ],
+    "applicationRoutes": [
+      {
+        "type": "institutional_exam",
+        "platform": "university_portal",
+        "deadline": {
+          "value": "2026-12-03",
+          "sourceUrl": "https://www.nid.edu/",
+          "asOf": "2026-11-18",
+          "verified": false,
+          "note": "Projected NID DAT 2027 B.Des registration close; prelims ~Jan 2027, mains ~Apr 2027"
+        },
+        "decisionBy": "2027-06-15",
+        "binding": false,
+        "requirements": {
+          "testPolicy": "required",
+          "examIds": [
+            "nid-dat"
+          ],
+          "essays": [],
+          "recommendations": 0,
+          "otherItems": [
+            "NID DAT Prelims (design aptitude)",
+            "NID DAT Mains (studio test and interview)",
+            "Any stream in Class 12"
+          ],
+          "applicationFeeInr": 3000
+        }
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "NID financial assistance",
+        "amount": {
+          "value": "Fee waiver and scholarships for economically weaker students",
+          "sourceUrl": "https://www.nid.edu/",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 100000,
+        "eligibility": "Students with family income below the notified limit",
+        "needBased": true
+      }
+    ],
+    "strengths": [
+      "Communication design",
+      "Industrial design",
+      "Textile design",
+      "Design research"
+    ],
+    "outcomes": {
+      "employmentRatePct": {
+        "value": 85,
+        "sourceUrl": "https://www.nid.edu/",
+        "asOf": "2026-11-18",
+        "verified": false
+      },
+      "medianStartingSalaryInr": {
+        "value": 800000,
+        "sourceUrl": "https://www.nid.edu/",
+        "asOf": "2026-11-18",
+        "verified": false
+      },
+      "topRecruiters": [
+        "Tata Elxsi",
+        "Titan",
+        "Microsoft",
+        "Flipkart",
+        "Godrej"
+      ]
+    },
+    "admitTrend": [
+      {
+        "year": 2022,
+        "ratePct": 0.5
+      },
+      {
+        "year": 2023,
+        "ratePct": 0.5
+      },
+      {
+        "year": 2024,
+        "ratePct": 0.5
+      },
+      {
+        "year": 2025,
+        "ratePct": 0.5
+      },
+      {
+        "year": 2026,
+        "ratePct": 0.5
+      }
+    ]
+  },
+  {
+    "id": "uni-in-iim-indore",
+    "name": "Indian Institute of Management Indore",
+    "shortName": "IIM Indore",
+    "country": "in",
+    "city": "Indore",
+    "region": "Madhya Pradesh",
+    "type": "public",
+    "website": "https://www.iimidr.ac.in/",
+    "founded": 1996,
+    "qsWorldRank": {
+      "value": null,
+      "sourceUrl": "https://www.topuniversities.com/world-university-rankings",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Not in QS World University Rankings (MBA rankings only)"
+    },
+    "nirfRank": {
+      "value": 8,
+      "sourceUrl": "https://www.nirfindia.org/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "NIRF 2025 Management (approx.)"
+    },
+    "acceptanceRatePct": {
+      "value": 0.5,
+      "sourceUrl": "https://www.iimidr.ac.in/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Estimate: ~150 IPM seats / ~30,000 IPMAT applicants"
+    },
+    "intlStudentPct": {
+      "value": 0,
+      "sourceUrl": "https://www.iimidr.ac.in/",
+      "asOf": "2026-11-18",
+      "verified": false
+    },
+    "selectivity": "most_selective",
+    "tuition": {
+      "sourceUrl": "https://www.iimidr.ac.in/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Averaged over 5 years: years 1-3 ~Rs 4 lakh/yr, years 4-5 at MBA-level fees",
+      "value": {
+        "amount": 550000,
+        "currency": "INR"
+      }
+    },
+    "tuitionInrPerYear": 550000,
+    "livingInrPerYear": 150000,
+    "totalCostInr": 3500000,
+    "programmes": [
+      {
+        "id": "uni-in-iim-indore-ipm",
+        "name": "Integrated Programme in Management (BA Foundations of Management + MBA)",
+        "degree": "BA + MBA",
+        "field": "management",
+        "durationYears": 5,
+        "careerIds": [
+          "career-management-consultant",
+          "career-marketing-manager",
+          "career-product-manager",
+          "career-entrepreneur",
+          "career-business-analyst",
+          "career-financial-analyst"
+        ],
+        "entryExamIds": [
+          "ipmat-indore"
+        ],
+        "cutoff": {
+          "value": "IPMAT shortlist score ~ 270 (general), approx.",
+          "sourceUrl": "https://www.iimidr.ac.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        }
+      }
+    ],
+    "applicationRoutes": [
+      {
+        "type": "institutional_exam",
+        "platform": "university_portal",
+        "deadline": {
+          "value": "2027-03-20",
+          "sourceUrl": "https://www.iimidr.ac.in/",
+          "asOf": "2026-11-18",
+          "verified": false,
+          "note": "Projected IPMAT Indore 2027 registration close; exam ~May 2027"
+        },
+        "decisionBy": "2027-06-30",
+        "binding": false,
+        "requirements": {
+          "minBoardPercent": 60,
+          "testPolicy": "required",
+          "examIds": [
+            "ipmat-indore"
+          ],
+          "essays": [],
+          "recommendations": 0,
+          "otherItems": [
+            "60% in Class 10 and 12 (55% SC/ST/PwD)",
+            "IPMAT (quantitative and verbal ability)",
+            "Personal interview"
+          ],
+          "applicationFeeInr": 4130
+        }
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "IIM Indore need-based financial assistance",
+        "amount": {
+          "value": "Partial to full fee waiver",
+          "sourceUrl": "https://www.iimidr.ac.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 200000,
+        "eligibility": "Students with family income below the notified limit",
+        "needBased": true
+      }
+    ],
+    "strengths": [
+      "Management",
+      "Economics",
+      "Analytics",
+      "Integrated MBA"
+    ],
+    "outcomes": {
+      "employmentRatePct": {
+        "value": 98,
+        "sourceUrl": "https://www.iimidr.ac.in/",
+        "asOf": "2026-11-18",
+        "verified": false
+      },
+      "medianStartingSalaryInr": {
+        "value": 2500000,
+        "sourceUrl": "https://www.iimidr.ac.in/",
+        "asOf": "2026-11-18",
+        "verified": false,
+        "note": "IPM final placement median CTC, approx."
+      },
+      "topRecruiters": [
+        "Accenture Strategy",
+        "Goldman Sachs",
+        "HUL",
+        "Kearney",
+        "ITC"
+      ]
+    },
+    "admitTrend": [
+      {
+        "year": 2022,
+        "ratePct": 0.6
+      },
+      {
+        "year": 2023,
+        "ratePct": 0.6
+      },
+      {
+        "year": 2024,
+        "ratePct": 0.5
+      },
+      {
+        "year": 2025,
+        "ratePct": 0.5
+      },
+      {
+        "year": 2026,
+        "ratePct": 0.5
+      }
+    ]
+  },
+  {
+    "id": "uni-in-christ-bengaluru",
+    "name": "CHRIST (Deemed to be University)",
+    "shortName": "Christ University",
+    "country": "in",
+    "city": "Bengaluru",
+    "region": "Karnataka",
+    "type": "private",
+    "website": "https://christuniversity.in/",
+    "founded": 1969,
+    "qsWorldRank": {
+      "value": null,
+      "sourceUrl": "https://www.topuniversities.com/world-university-rankings",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Not in QS World University Rankings 2026 top list"
+    },
+    "nirfRank": {
+      "value": 60,
+      "sourceUrl": "https://www.nirfindia.org/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "NIRF 2025 University (approx.)"
+    },
+    "acceptanceRatePct": {
+      "value": 30,
+      "sourceUrl": "https://christuniversity.in/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Estimate"
+    },
+    "intlStudentPct": {
+      "value": 3,
+      "sourceUrl": "https://christuniversity.in/",
+      "asOf": "2026-11-18",
+      "verified": false
+    },
+    "selectivity": "selective",
+    "tuition": {
+      "sourceUrl": "https://christuniversity.in/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Approximate annual fee for B.Com / BBA",
+      "value": {
+        "amount": 200000,
+        "currency": "INR"
+      }
+    },
+    "tuitionInrPerYear": 200000,
+    "livingInrPerYear": 150000,
+    "totalCostInr": 1050000,
+    "programmes": [
+      {
+        "id": "uni-in-christ-bengaluru-bcom",
+        "name": "B.Com (Hons)",
+        "degree": "B.Com",
+        "field": "commerce",
+        "durationYears": 3,
+        "careerIds": [
+          "career-chartered-accountant",
+          "career-financial-analyst",
+          "career-investment-banker",
+          "career-business-analyst"
+        ],
+        "entryExamIds": [
+          "christ-entrance"
+        ]
+      },
+      {
+        "id": "uni-in-christ-bengaluru-bba",
+        "name": "BBA",
+        "degree": "BBA",
+        "field": "business",
+        "durationYears": 3,
+        "careerIds": [
+          "career-management-consultant",
+          "career-marketing-manager",
+          "career-product-manager",
+          "career-entrepreneur",
+          "career-business-analyst"
+        ],
+        "entryExamIds": [
+          "christ-entrance"
+        ]
+      },
+      {
+        "id": "uni-in-christ-bengaluru-ba-psychology",
+        "name": "BA Psychology (with English/Economics)",
+        "degree": "BA",
+        "field": "psychology",
+        "durationYears": 3,
+        "careerIds": [
+          "career-psychologist",
+          "career-teacher"
+        ],
+        "entryExamIds": [
+          "christ-entrance"
+        ]
+      },
+      {
+        "id": "uni-in-christ-bengaluru-ba-llb",
+        "name": "BA LLB (Hons)",
+        "degree": "BA LLB (Hons)",
+        "field": "law",
+        "durationYears": 5,
+        "careerIds": [
+          "career-corporate-lawyer",
+          "career-civil-services-officer",
+          "career-policy-analyst"
+        ],
+        "entryExamIds": [
+          "christ-entrance",
+          "clat"
+        ]
+      }
+    ],
+    "applicationRoutes": [
+      {
+        "type": "institutional_exam",
+        "platform": "university_portal",
+        "deadline": {
+          "value": "2027-03-31",
+          "sourceUrl": "https://christuniversity.in/",
+          "asOf": "2026-11-18",
+          "verified": false,
+          "note": "Projected deadline; Christ runs several application rounds Nov-Apr"
+        },
+        "decisionBy": "2027-05-15",
+        "binding": false,
+        "requirements": {
+          "minBoardPercent": 60,
+          "testPolicy": "required",
+          "examIds": [
+            "christ-entrance"
+          ],
+          "essays": [],
+          "recommendations": 0,
+          "otherItems": [
+            "Christ University Entrance Test (CUET is not used)",
+            "Skills assessment / micro-presentation",
+            "Personal interview"
+          ],
+          "applicationFeeInr": 1200
+        }
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Christ University financial assistance and merit scholarship",
+        "amount": {
+          "value": "Partial fee waiver",
+          "sourceUrl": "https://christuniversity.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 30000,
+        "eligibility": "Merit and need-based, on application",
+        "needBased": true
+      }
+    ],
+    "strengths": [
+      "Commerce",
+      "Psychology",
+      "Management",
+      "Student life"
+    ],
+    "outcomes": {
+      "employmentRatePct": {
+        "value": 70,
+        "sourceUrl": "https://christuniversity.in/",
+        "asOf": "2026-11-18",
+        "verified": false
+      },
+      "medianStartingSalaryInr": {
+        "value": 550000,
+        "sourceUrl": "https://christuniversity.in/",
+        "asOf": "2026-11-18",
+        "verified": false
+      },
+      "topRecruiters": [
+        "Deloitte",
+        "EY",
+        "KPMG",
+        "Goldman Sachs",
+        "Amazon"
+      ]
+    },
+    "admitTrend": [
+      {
+        "year": 2022,
+        "ratePct": 32
+      },
+      {
+        "year": 2023,
+        "ratePct": 31
+      },
+      {
+        "year": 2024,
+        "ratePct": 30
+      },
+      {
+        "year": 2025,
+        "ratePct": 30
+      },
+      {
+        "year": 2026,
+        "ratePct": 30
+      }
+    ]
+  },
+  {
+    "id": "uni-in-manipal",
+    "name": "Manipal Academy of Higher Education",
+    "shortName": "MAHE Manipal",
+    "country": "in",
+    "city": "Manipal",
+    "region": "Karnataka",
+    "type": "private",
+    "website": "https://manipal.edu/",
+    "founded": 1953,
+    "qsWorldRank": {
+      "value": 701,
+      "sourceUrl": "https://www.topuniversities.com/world-university-rankings",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "QS World University Rankings 2026 band, approx."
+    },
+    "nirfRank": {
+      "value": 4,
+      "sourceUrl": "https://www.nirfindia.org/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "NIRF 2025 University (approx.)"
+    },
+    "acceptanceRatePct": {
+      "value": 35,
+      "sourceUrl": "https://manipal.edu/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Estimate"
+    },
+    "intlStudentPct": {
+      "value": 5,
+      "sourceUrl": "https://manipal.edu/",
+      "asOf": "2026-11-18",
+      "verified": false
+    },
+    "selectivity": "selective",
+    "tuition": {
+      "sourceUrl": "https://manipal.edu/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Approximate annual B.Tech CSE tuition at Manipal Institute of Technology",
+      "value": {
+        "amount": 490000,
+        "currency": "INR"
+      }
+    },
+    "tuitionInrPerYear": 490000,
+    "livingInrPerYear": 150000,
+    "totalCostInr": 2560000,
+    "programmes": [
+      {
+        "id": "uni-in-manipal-btech-cse",
+        "name": "B.Tech Computer Science and Engineering",
+        "degree": "B.Tech",
+        "field": "computer-science",
+        "durationYears": 4,
+        "careerIds": [
+          "career-software-engineer",
+          "career-ai-ml-engineer",
+          "career-data-analyst",
+          "career-cybersecurity-analyst",
+          "career-game-developer"
+        ],
+        "entryExamIds": [
+          "met-manipal"
+        ],
+        "cutoff": {
+          "value": "MET rank ~ 2,000 (CSE, Manipal campus)",
+          "sourceUrl": "https://manipal.edu/",
+          "asOf": "2026-11-18",
+          "verified": false
+        }
+      },
+      {
+        "id": "uni-in-manipal-mbbs",
+        "name": "MBBS (Kasturba Medical College)",
+        "degree": "MBBS",
+        "field": "medicine",
+        "durationYears": 5.5,
+        "careerIds": [
+          "career-doctor"
+        ],
+        "entryExamIds": [
+          "neet-ug"
+        ]
+      },
+      {
+        "id": "uni-in-manipal-bds",
+        "name": "BDS (Manipal College of Dental Sciences)",
+        "degree": "BDS",
+        "field": "dentistry",
+        "durationYears": 5,
+        "careerIds": [
+          "career-dentist"
+        ],
+        "entryExamIds": [
+          "neet-ug"
+        ]
+      },
+      {
+        "id": "uni-in-manipal-bpharm",
+        "name": "B.Pharm",
+        "degree": "B.Pharm",
+        "field": "pharmacy",
+        "durationYears": 4,
+        "careerIds": [
+          "career-pharmacist",
+          "career-research-scientist"
+        ],
+        "entryExamIds": [
+          "met-manipal"
+        ]
+      },
+      {
+        "id": "uni-in-manipal-bpt",
+        "name": "Bachelor of Physiotherapy",
+        "degree": "BPT",
+        "field": "physiotherapy",
+        "durationYears": 4,
+        "careerIds": [
+          "career-physiotherapist"
+        ],
+        "entryExamIds": [
+          "met-manipal"
+        ]
+      },
+      {
+        "id": "uni-in-manipal-bhm",
+        "name": "BA Hotel Management (WGSHA)",
+        "degree": "BHM",
+        "field": "hospitality",
+        "durationYears": 4,
+        "careerIds": [
+          "career-hotel-manager"
+        ],
+        "entryExamIds": [
+          "met-manipal"
+        ]
+      }
+    ],
+    "applicationRoutes": [
+      {
+        "type": "institutional_exam",
+        "platform": "university_portal",
+        "deadline": {
+          "value": "2027-03-15",
+          "sourceUrl": "https://manipal.edu/",
+          "asOf": "2026-11-18",
+          "verified": false,
+          "note": "Projected MET 2027 Phase 1 application close; later phases to ~May"
+        },
+        "decisionBy": "2027-06-30",
+        "binding": false,
+        "requirements": {
+          "minBoardPercent": 50,
+          "testPolicy": "required",
+          "examIds": [
+            "met-manipal"
+          ],
+          "essays": [],
+          "recommendations": 0,
+          "otherItems": [
+            "MET 2027 (online)",
+            "50% in PCM for B.Tech",
+            "MBBS/BDS via NEET-UG and MCC deemed-university counselling"
+          ],
+          "applicationFeeInr": 1700
+        }
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Dr T M A Pai Merit Scholarship",
+        "amount": {
+          "value": "Tuition fee waiver (25%-100%) for top performers",
+          "sourceUrl": "https://manipal.edu/",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 120000,
+        "eligibility": "Top-ranked students in each programme, renewed on performance",
+        "needBased": false
+      },
+      {
+        "name": "MAHE need-based scholarship",
+        "amount": {
+          "value": "Partial tuition support",
+          "sourceUrl": "https://manipal.edu/",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 60000,
+        "eligibility": "Students with family income below the notified limit",
+        "needBased": true
+      }
+    ],
+    "strengths": [
+      "Health sciences",
+      "Engineering",
+      "Hospitality (WGSHA)",
+      "Pharmacy"
+    ],
+    "outcomes": {
+      "employmentRatePct": {
+        "value": 85,
+        "sourceUrl": "https://manipal.edu/",
+        "asOf": "2026-11-18",
+        "verified": false
+      },
+      "medianStartingSalaryInr": {
+        "value": 1000000,
+        "sourceUrl": "https://www.nirfindia.org/",
+        "asOf": "2026-11-18",
+        "verified": false
+      },
+      "topRecruiters": [
+        "Microsoft",
+        "Amazon",
+        "Deloitte",
+        "Taj Hotels",
+        "Abbott"
+      ]
+    },
+    "admitTrend": [
+      {
+        "year": 2022,
+        "ratePct": 38
+      },
+      {
+        "year": 2023,
+        "ratePct": 37
+      },
+      {
+        "year": 2024,
+        "ratePct": 36
+      },
+      {
+        "year": 2025,
+        "ratePct": 35
+      },
+      {
+        "year": 2026,
+        "ratePct": 35
+      }
+    ]
+  },
+  {
+    "id": "uni-in-vit-vellore",
+    "name": "Vellore Institute of Technology",
+    "shortName": "VIT Vellore",
+    "country": "in",
+    "city": "Vellore",
+    "region": "Tamil Nadu",
+    "type": "private",
+    "website": "https://vit.ac.in/",
+    "founded": 1984,
+    "qsWorldRank": {
+      "value": 691,
+      "sourceUrl": "https://www.topuniversities.com/world-university-rankings",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "QS World University Rankings 2026 (approx.)"
+    },
+    "nirfRank": {
+      "value": 11,
+      "sourceUrl": "https://www.nirfindia.org/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "NIRF 2025 Engineering (approx.)"
+    },
+    "acceptanceRatePct": {
+      "value": 6,
+      "sourceUrl": "https://vit.ac.in/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Estimate: Vellore seats / ~2 lakh VITEEE candidates"
+    },
+    "intlStudentPct": {
+      "value": 2,
+      "sourceUrl": "https://vit.ac.in/",
+      "asOf": "2026-11-18",
+      "verified": false
+    },
+    "selectivity": "moderate",
+    "tuition": {
+      "sourceUrl": "https://vit.ac.in/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Category 1 B.Tech tuition per year; Category 5 is about Rs 4 lakh",
+      "value": {
+        "amount": 198000,
+        "currency": "INR"
+      }
+    },
+    "tuitionInrPerYear": 198000,
+    "livingInrPerYear": 140000,
+    "totalCostInr": 1352000,
+    "programmes": [
+      {
+        "id": "uni-in-vit-vellore-btech-cse",
+        "name": "B.Tech Computer Science and Engineering",
+        "degree": "B.Tech",
+        "field": "computer-science",
+        "durationYears": 4,
+        "careerIds": [
+          "career-software-engineer",
+          "career-ai-ml-engineer",
+          "career-data-analyst",
+          "career-cybersecurity-analyst",
+          "career-game-developer"
+        ],
+        "entryExamIds": [
+          "viteee"
+        ],
+        "cutoff": {
+          "value": "VITEEE rank ~ 5,000 (Category 1)",
+          "sourceUrl": "https://vit.ac.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        }
+      },
+      {
+        "id": "uni-in-vit-vellore-btech-ece",
+        "name": "B.Tech Electronics and Communication Engineering",
+        "degree": "B.Tech",
+        "field": "electronics-engineering",
+        "durationYears": 4,
+        "careerIds": [
+          "career-electronics-engineer",
+          "career-software-engineer"
+        ],
+        "entryExamIds": [
+          "viteee"
+        ],
+        "cutoff": {
+          "value": "VITEEE rank ~ 12,000 (Category 1)",
+          "sourceUrl": "https://vit.ac.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        }
+      },
+      {
+        "id": "uni-in-vit-vellore-btech-mech",
+        "name": "B.Tech Mechanical Engineering",
+        "degree": "B.Tech",
+        "field": "mechanical-engineering",
+        "durationYears": 4,
+        "careerIds": [
+          "career-mechanical-engineer",
+          "career-supply-chain-manager"
+        ],
+        "entryExamIds": [
+          "viteee"
+        ]
+      },
+      {
+        "id": "uni-in-vit-vellore-bcom",
+        "name": "B.Com",
+        "degree": "B.Com",
+        "field": "commerce",
+        "durationYears": 3,
+        "careerIds": [
+          "career-chartered-accountant",
+          "career-financial-analyst",
+          "career-investment-banker",
+          "career-business-analyst"
+        ],
+        "entryExamIds": []
+      }
+    ],
+    "applicationRoutes": [
+      {
+        "type": "institutional_exam",
+        "platform": "university_portal",
+        "deadline": {
+          "value": "2027-03-31",
+          "sourceUrl": "https://vit.ac.in/",
+          "asOf": "2026-11-18",
+          "verified": false,
+          "note": "Projected VITEEE 2027 application close; exam ~April"
+        },
+        "decisionBy": "2027-06-30",
+        "binding": false,
+        "requirements": {
+          "minBoardPercent": 60,
+          "testPolicy": "required",
+          "examIds": [
+            "viteee"
+          ],
+          "essays": [],
+          "recommendations": 0,
+          "otherItems": [
+            "VITEEE 2027",
+            "60% in PCM/PCB (50% SC/ST)",
+            "Counselling by rank and fee category"
+          ],
+          "applicationFeeInr": 1350
+        }
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "G.V. School Development Programme (GVSDP)",
+        "amount": {
+          "value": "100% tuition for VITEEE ranks 1-10, 75% for 11-50, 50% for 51-100, 25% for 101-1000",
+          "sourceUrl": "https://vit.ac.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 99000,
+        "eligibility": "VITEEE rank holders (and board toppers)",
+        "needBased": false
+      },
+      {
+        "name": "STARS scheme",
+        "amount": {
+          "value": "Free tuition and hostel for district toppers of Tamil Nadu government schools",
+          "sourceUrl": "https://vit.ac.in/",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 198000,
+        "eligibility": "Government-school toppers in Tamil Nadu",
+        "needBased": false
+      }
+    ],
+    "strengths": [
+      "Computer science",
+      "Electronics",
+      "Mass recruiting placements"
+    ],
+    "outcomes": {
+      "employmentRatePct": {
+        "value": 85,
+        "sourceUrl": "https://vit.ac.in/",
+        "asOf": "2026-11-18",
+        "verified": false
+      },
+      "medianStartingSalaryInr": {
+        "value": 850000,
+        "sourceUrl": "https://www.nirfindia.org/",
+        "asOf": "2026-11-18",
+        "verified": false
+      },
+      "topRecruiters": [
+        "TCS",
+        "Cognizant",
+        "Accenture",
+        "Microsoft",
+        "Amazon"
+      ]
+    },
+    "admitTrend": [
+      {
+        "year": 2022,
+        "ratePct": 7
+      },
+      {
+        "year": 2023,
+        "ratePct": 7
+      },
+      {
+        "year": 2024,
+        "ratePct": 6
+      },
+      {
+        "year": 2025,
+        "ratePct": 6
+      },
+      {
+        "year": 2026,
+        "ratePct": 6
+      }
+    ]
+  },
+  {
+    "id": "uni-au-melbourne",
+    "name": "The University of Melbourne",
+    "shortName": "Melbourne",
+    "country": "au",
+    "city": "Melbourne",
+    "region": "Victoria",
+    "type": "public",
+    "website": "https://www.unimelb.edu.au/",
+    "founded": 1853,
+    "qsWorldRank": {
+      "value": 19,
+      "sourceUrl": "https://www.studyaustralia.gov.au/en/tools-and-resources/news/qs-world-university-rankings-2026",
+      "asOf": "2026-11-18",
+      "verified": true,
+      "note": "QS World University Rankings 2026"
+    },
+    "acceptanceRatePct": {
+      "value": 70,
+      "sourceUrl": "https://www.unimelb.edu.au/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Estimate; Australian universities do not publish admit rates"
+    },
+    "intlStudentPct": {
+      "value": 43,
+      "sourceUrl": "https://www.unimelb.edu.au/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "International share of all students, approx."
+    },
+    "selectivity": "highly_selective",
+    "tuition": {
+      "sourceUrl": "https://www.unimelb.edu.au/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Indicative 2027 international tuition per year (Commerce/Science ~AUD 52-58k)",
+      "value": {
+        "amount": 54000,
+        "currency": "AUD"
+      }
+    },
+    "tuitionInrPerYear": 3132000,
+    "livingInrPerYear": 1723180,
+    "totalCostInr": 14565540,
+    "programmes": [
+      {
+        "id": "uni-au-melbourne-bcom",
+        "name": "Bachelor of Commerce",
+        "degree": "BCom",
+        "field": "commerce",
+        "durationYears": 3,
+        "careerIds": [
+          "career-chartered-accountant",
+          "career-financial-analyst",
+          "career-investment-banker",
+          "career-business-analyst",
+          "career-actuary"
+        ],
+        "typicalOffer": "IB 34+ / A level AAB",
+        "entryExamIds": [
+          "ielts"
+        ],
+        "cutoff": {
+          "value": "CBSE best-four 90% (2027 entry, indicative)",
+          "sourceUrl": "https://study.unimelb.edu.au/how-to-apply/undergraduate-study/international-applications/entry-requirements/recognised-international-qualifications/qualifications/india-all-india-senior-school-certificate-cbse-and-indian-school-certificate-isc",
+          "asOf": "2026-11-18",
+          "verified": true
+        }
+      },
+      {
+        "id": "uni-au-melbourne-bsc",
+        "name": "Bachelor of Science (Computing and Software / Data Science)",
+        "degree": "BSc",
+        "field": "computer-science",
+        "durationYears": 3,
+        "careerIds": [
+          "career-software-engineer",
+          "career-ai-ml-engineer",
+          "career-data-analyst"
+        ],
+        "typicalOffer": "IB 31+",
+        "entryExamIds": [
+          "ielts"
+        ],
+        "cutoff": {
+          "value": "CBSE best-four 85% (2027 entry, indicative)",
+          "sourceUrl": "https://study.unimelb.edu.au/how-to-apply/undergraduate-study/international-applications/entry-requirements/recognised-international-qualifications/qualifications/india-all-india-senior-school-certificate-cbse-and-indian-school-certificate-isc",
+          "asOf": "2026-11-18",
+          "verified": true
+        }
+      },
+      {
+        "id": "uni-au-melbourne-bbiomed",
+        "name": "Bachelor of Biomedicine (pathway to MD)",
+        "degree": "BBiomed",
+        "field": "biomedical-science",
+        "durationYears": 3,
+        "careerIds": [
+          "career-doctor",
+          "career-research-scientist",
+          "career-biotechnologist"
+        ],
+        "typicalOffer": "IB 37+",
+        "entryExamIds": [
+          "ielts"
+        ],
+        "cutoff": {
+          "value": "CBSE best-four 89% (2027 entry, indicative)",
+          "sourceUrl": "https://study.unimelb.edu.au/how-to-apply/undergraduate-study/international-applications/entry-requirements/recognised-international-qualifications/qualifications/india-all-india-senior-school-certificate-cbse-and-indian-school-certificate-isc",
+          "asOf": "2026-11-18",
+          "verified": true
+        }
+      },
+      {
+        "id": "uni-au-melbourne-bdes",
+        "name": "Bachelor of Design (Architecture major)",
+        "degree": "BDes",
+        "field": "design",
+        "durationYears": 3,
+        "careerIds": [
+          "career-architect",
+          "career-ux-designer",
+          "career-communication-designer"
+        ],
+        "typicalOffer": "IB 30+",
+        "entryExamIds": [
+          "ielts"
+        ],
+        "cutoff": {
+          "value": "CBSE best-four 80% (2027 entry, indicative)",
+          "sourceUrl": "https://study.unimelb.edu.au/how-to-apply/undergraduate-study/international-applications/entry-requirements/recognised-international-qualifications/qualifications/india-all-india-senior-school-certificate-cbse-and-indian-school-certificate-isc",
+          "asOf": "2026-11-18",
+          "verified": true
+        }
+      },
+      {
+        "id": "uni-au-melbourne-ba",
+        "name": "Bachelor of Arts (Psychology / Politics)",
+        "degree": "BA",
+        "field": "liberal-arts",
+        "durationYears": 3,
+        "careerIds": [
+          "career-psychologist",
+          "career-teacher",
+          "career-journalist",
+          "career-policy-analyst"
+        ],
+        "typicalOffer": "IB 28+",
+        "entryExamIds": [
+          "ielts"
+        ],
+        "cutoff": {
+          "value": "CBSE best-four 74% (2027 entry, indicative)",
+          "sourceUrl": "https://study.unimelb.edu.au/how-to-apply/undergraduate-study/international-applications/entry-requirements/recognised-international-qualifications/qualifications/india-all-india-senior-school-certificate-cbse-and-indian-school-certificate-isc",
+          "asOf": "2026-11-18",
+          "verified": true
+        }
+      }
+    ],
+    "applicationRoutes": [
+      {
+        "type": "direct",
+        "platform": "university_portal",
+        "deadline": {
+          "value": "2026-12-15",
+          "sourceUrl": "https://www.unimelb.edu.au/",
+          "asOf": "2026-11-18",
+          "verified": false,
+          "note": "Recommended closing date for Semester 1 2027 (late applications to ~Jan); classes start early March 2027"
+        },
+        "binding": false,
+        "requirements": {
+          "minBoardPercent": 85,
+          "typicalOffer": "CBSE best four 74-90% by course (2027 entry); IB 28-37; A level by course",
+          "testPolicy": "not_applicable",
+          "examIds": [
+            "ielts",
+            "toefl",
+            "pte"
+          ],
+          "ielts": 6.5,
+          "toefl": 79,
+          "essays": [],
+          "recommendations": 0,
+          "otherItems": [
+            "Class 12 predicted/final results",
+            "Passport",
+            "English test (IELTS/TOEFL/PTE)"
+          ],
+          "applicationFeeInr": 5800
+        }
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Melbourne International Undergraduate Scholarship",
+        "amount": {
+          "value": "Fee remission (50% or 100%) or AUD 10,000 first-year award; varies by year",
+          "sourceUrl": "https://scholarships.unimelb.edu.au/",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 580000,
+        "eligibility": "Automatically considered: high-achieving international applicants offered a place",
+        "needBased": false
+      }
+    ],
+    "strengths": [
+      "Commerce",
+      "Biomedicine",
+      "Law (graduate JD)",
+      "Research intensity"
+    ],
+    "outcomes": {
+      "employmentRatePct": {
+        "value": 75,
+        "sourceUrl": "https://www.qilt.edu.au/",
+        "asOf": "2026-11-18",
+        "verified": false,
+        "note": "QILT Graduate Outcomes Survey full-time employment, approx."
+      },
+      "medianStartingSalaryInr": {
+        "value": 4060000,
+        "sourceUrl": "https://www.qilt.edu.au/",
+        "asOf": "2026-11-18",
+        "verified": false,
+        "note": "Median graduate starting salary ~AUD 70,000"
+      },
+      "topRecruiters": [
+        "Deloitte",
+        "PwC",
+        "ANZ",
+        "Commonwealth Bank",
+        "Accenture"
+      ]
+    },
+    "admitTrend": [
+      {
+        "year": 2022,
+        "ratePct": 72
+      },
+      {
+        "year": 2023,
+        "ratePct": 71
+      },
+      {
+        "year": 2024,
+        "ratePct": 70
+      },
+      {
+        "year": 2025,
+        "ratePct": 70
+      },
+      {
+        "year": 2026,
+        "ratePct": 70
+      }
+    ]
+  },
+  {
+    "id": "uni-au-sydney",
+    "name": "The University of Sydney",
+    "shortName": "Sydney",
+    "country": "au",
+    "city": "Sydney",
+    "region": "New South Wales",
+    "type": "public",
+    "website": "https://www.sydney.edu.au/",
+    "founded": 1850,
+    "qsWorldRank": {
+      "value": 25,
+      "sourceUrl": "https://www.studyaustralia.gov.au/en/tools-and-resources/news/qs-world-university-rankings-2026",
+      "asOf": "2026-11-18",
+      "verified": true,
+      "note": "QS World University Rankings 2026"
+    },
+    "acceptanceRatePct": {
+      "value": 30,
+      "sourceUrl": "https://www.sydney.edu.au/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Estimate; Australian universities do not publish admit rates"
+    },
+    "intlStudentPct": {
+      "value": 42,
+      "sourceUrl": "https://www.sydney.edu.au/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "International share of all students, approx."
+    },
+    "selectivity": "highly_selective",
+    "tuition": {
+      "sourceUrl": "https://www.sydney.edu.au/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Indicative 2027 international tuition per year (engineering ~AUD 60k)",
+      "value": {
+        "amount": 56500,
+        "currency": "AUD"
+      }
+    },
+    "tuitionInrPerYear": 3277000,
+    "livingInrPerYear": 1723180,
+    "totalCostInr": 15000540,
+    "programmes": [
+      {
+        "id": "uni-au-sydney-be-software",
+        "name": "Bachelor of Engineering Honours (Software)",
+        "degree": "BE (Hons)",
+        "field": "computer-science",
+        "durationYears": 4,
+        "careerIds": [
+          "career-software-engineer",
+          "career-ai-ml-engineer",
+          "career-data-analyst",
+          "career-cybersecurity-analyst",
+          "career-game-developer"
+        ],
+        "typicalOffer": "CBSE ~85% / IB 32",
+        "entryExamIds": [
+          "ielts"
+        ]
+      },
+      {
+        "id": "uni-au-sydney-bcom",
+        "name": "Bachelor of Commerce",
+        "degree": "BCom",
+        "field": "commerce",
+        "durationYears": 3,
+        "careerIds": [
+          "career-chartered-accountant",
+          "career-financial-analyst",
+          "career-investment-banker",
+          "career-business-analyst"
+        ],
+        "typicalOffer": "CBSE ~85% / IB 33",
+        "entryExamIds": [
+          "ielts"
+        ]
+      },
+      {
+        "id": "uni-au-sydney-bpharm",
+        "name": "Bachelor of Pharmacy",
+        "degree": "BPharm",
+        "field": "pharmacy",
+        "durationYears": 4,
+        "careerIds": [
+          "career-pharmacist"
+        ],
+        "typicalOffer": "CBSE ~80% with Chemistry",
+        "entryExamIds": [
+          "ielts"
+        ]
+      },
+      {
+        "id": "uni-au-sydney-bnursing",
+        "name": "Bachelor of Nursing",
+        "degree": "BN",
+        "field": "nursing",
+        "durationYears": 3,
+        "careerIds": [
+          "career-nurse"
+        ],
+        "typicalOffer": "CBSE ~75%; IELTS 7.0",
+        "entryExamIds": [
+          "ielts"
+        ]
+      },
+      {
+        "id": "uni-au-sydney-bpsych",
+        "name": "Bachelor of Psychology",
+        "degree": "BPsych",
+        "field": "psychology",
+        "durationYears": 4,
+        "careerIds": [
+          "career-psychologist",
+          "career-teacher"
+        ],
+        "typicalOffer": "CBSE ~88% / IB 35",
+        "entryExamIds": [
+          "ielts"
+        ]
+      },
+      {
+        "id": "uni-au-sydney-bdes-arch",
+        "name": "Bachelor of Design in Architecture",
+        "degree": "BDesArch",
+        "field": "architecture",
+        "durationYears": 3,
+        "careerIds": [
+          "career-architect"
+        ],
+        "typicalOffer": "CBSE ~85% / IB 32",
+        "entryExamIds": [
+          "ielts"
+        ]
+      }
+    ],
+    "applicationRoutes": [
+      {
+        "type": "direct",
+        "platform": "university_portal",
+        "deadline": {
+          "value": "2027-01-15",
+          "sourceUrl": "https://www.sydney.edu.au/",
+          "asOf": "2026-11-18",
+          "verified": false,
+          "note": "Projected Semester 1 2027 international closing date; classes start late Feb 2027"
+        },
+        "binding": false,
+        "requirements": {
+          "minBoardPercent": 80,
+          "typicalOffer": "CBSE 75-90% by course; IB 30-38; A level by course",
+          "testPolicy": "not_applicable",
+          "examIds": [
+            "ielts",
+            "toefl",
+            "pte"
+          ],
+          "ielts": 6.5,
+          "toefl": 79,
+          "essays": [],
+          "recommendations": 0,
+          "otherItems": [
+            "Class 12 predicted/final results",
+            "Passport",
+            "English test (IELTS/TOEFL/PTE)"
+          ],
+          "applicationFeeInr": 7250
+        }
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Sydney International Student Award",
+        "amount": {
+          "value": "20% tuition reduction for the full degree",
+          "sourceUrl": "https://www.sydney.edu.au/",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 655400,
+        "eligibility": "High-achieving international applicants offered a place",
+        "needBased": false
+      },
+      {
+        "name": "Sydney Scholars India Scholarship Program",
+        "amount": {
+          "value": "Up to AUD 40,000 a year for Indian students",
+          "sourceUrl": "https://www.sydney.edu.au/",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 1160000,
+        "eligibility": "Indian citizens with excellent Class 12 results",
+        "needBased": false
+      }
+    ],
+    "strengths": [
+      "Engineering",
+      "Pharmacy",
+      "Architecture",
+      "Commerce"
+    ],
+    "outcomes": {
+      "employmentRatePct": {
+        "value": 73,
+        "sourceUrl": "https://www.qilt.edu.au/",
+        "asOf": "2026-11-18",
+        "verified": false,
+        "note": "QILT Graduate Outcomes Survey full-time employment, approx."
+      },
+      "medianStartingSalaryInr": {
+        "value": 4176000,
+        "sourceUrl": "https://www.qilt.edu.au/",
+        "asOf": "2026-11-18",
+        "verified": false,
+        "note": "Median graduate starting salary ~AUD 72,000"
+      },
+      "topRecruiters": [
+        "Commonwealth Bank",
+        "Deloitte",
+        "Westpac",
+        "Atlassian",
+        "NSW Health"
+      ]
+    },
+    "admitTrend": [
+      {
+        "year": 2022,
+        "ratePct": 32
+      },
+      {
+        "year": 2023,
+        "ratePct": 31
+      },
+      {
+        "year": 2024,
+        "ratePct": 30
+      },
+      {
+        "year": 2025,
+        "ratePct": 30
+      },
+      {
+        "year": 2026,
+        "ratePct": 30
+      }
+    ]
+  },
+  {
+    "id": "uni-au-unsw",
+    "name": "UNSW Sydney",
+    "shortName": "UNSW",
+    "country": "au",
+    "city": "Sydney",
+    "region": "New South Wales",
+    "type": "public",
+    "website": "https://www.unsw.edu.au/",
+    "founded": 1949,
+    "qsWorldRank": {
+      "value": 20,
+      "sourceUrl": "https://www.studyaustralia.gov.au/en/tools-and-resources/news/qs-world-university-rankings-2026",
+      "asOf": "2026-11-18",
+      "verified": true,
+      "note": "QS World University Rankings 2026"
+    },
+    "acceptanceRatePct": {
+      "value": 60,
+      "sourceUrl": "https://www.unsw.edu.au/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Estimate; Australian universities do not publish admit rates"
+    },
+    "intlStudentPct": {
+      "value": 39,
+      "sourceUrl": "https://www.unsw.edu.au/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "International share of all students, approx."
+    },
+    "selectivity": "highly_selective",
+    "tuition": {
+      "sourceUrl": "https://www.unsw.edu.au/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Indicative 2027 international tuition per year (engineering/commerce)",
+      "value": {
+        "amount": 57000,
+        "currency": "AUD"
+      }
+    },
+    "tuitionInrPerYear": 3306000,
+    "livingInrPerYear": 1723180,
+    "totalCostInr": 15087540,
+    "programmes": [
+      {
+        "id": "uni-au-unsw-be-computer",
+        "name": "Bachelor of Engineering (Honours) Computer / Software",
+        "degree": "BE (Hons)",
+        "field": "computer-science",
+        "durationYears": 4,
+        "careerIds": [
+          "career-software-engineer",
+          "career-ai-ml-engineer",
+          "career-data-analyst",
+          "career-cybersecurity-analyst",
+          "career-game-developer"
+        ],
+        "typicalOffer": "CBSE ~85% / IB 32",
+        "entryExamIds": [
+          "ielts"
+        ]
+      },
+      {
+        "id": "uni-au-unsw-bsc-cs",
+        "name": "Bachelor of Science (Computer Science)",
+        "degree": "BSc",
+        "field": "computer-science",
+        "durationYears": 3,
+        "careerIds": [
+          "career-software-engineer",
+          "career-ai-ml-engineer",
+          "career-data-analyst"
+        ],
+        "typicalOffer": "CBSE ~85% / IB 32",
+        "entryExamIds": [
+          "ielts"
+        ]
+      },
+      {
+        "id": "uni-au-unsw-bcom",
+        "name": "Bachelor of Commerce",
+        "degree": "BCom",
+        "field": "commerce",
+        "durationYears": 3,
+        "careerIds": [
+          "career-chartered-accountant",
+          "career-financial-analyst",
+          "career-investment-banker",
+          "career-business-analyst",
+          "career-actuary"
+        ],
+        "typicalOffer": "CBSE ~86% / IB 34",
+        "entryExamIds": [
+          "ielts"
+        ]
+      },
+      {
+        "id": "uni-au-unsw-bmed-md",
+        "name": "Bachelor of Medical Studies / Doctor of Medicine",
+        "degree": "BMedSt/MD",
+        "field": "medicine",
+        "durationYears": 6,
+        "careerIds": [
+          "career-doctor"
+        ],
+        "typicalOffer": "Near-top results + UCAT ANZ + interview",
+        "entryExamIds": [
+          "ucat-anz",
+          "ielts"
+        ]
+      },
+      {
+        "id": "uni-au-unsw-bdes",
+        "name": "Bachelor of Design",
+        "degree": "BDes",
+        "field": "design",
+        "durationYears": 3,
+        "careerIds": [
+          "career-ux-designer",
+          "career-communication-designer",
+          "career-product-manager"
+        ],
+        "typicalOffer": "CBSE ~75% / IB 28",
+        "entryExamIds": [
+          "ielts"
+        ]
+      }
+    ],
+    "applicationRoutes": [
+      {
+        "type": "direct",
+        "platform": "university_portal",
+        "deadline": {
+          "value": "2027-01-10",
+          "sourceUrl": "https://www.unsw.edu.au/",
+          "asOf": "2026-11-18",
+          "verified": false,
+          "note": "Projected Term 1 2027 international application deadline; term starts mid-Feb 2027"
+        },
+        "binding": false,
+        "requirements": {
+          "minBoardPercent": 80,
+          "typicalOffer": "CBSE 75-90% by course; IB 28-38; A level by course",
+          "testPolicy": "not_applicable",
+          "examIds": [
+            "ielts",
+            "toefl",
+            "pte"
+          ],
+          "ielts": 6.5,
+          "toefl": 79,
+          "essays": [],
+          "recommendations": 0,
+          "otherItems": [
+            "Class 12 predicted/final results",
+            "Passport",
+            "English test (IELTS/TOEFL/PTE)",
+            "UCAT ANZ and interview for Medicine"
+          ],
+          "applicationFeeInr": 7250
+        }
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "UNSW International Scientia Coursework Scholarship",
+        "amount": {
+          "value": "Full tuition for the degree",
+          "sourceUrl": "https://www.unsw.edu.au/",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 3306000,
+        "eligibility": "Outstanding international applicants (highly competitive)",
+        "needBased": false
+      },
+      {
+        "name": "UNSW International Student Award",
+        "amount": {
+          "value": "15% tuition reduction",
+          "sourceUrl": "https://www.unsw.edu.au/",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 495900,
+        "eligibility": "International students with strong academic results",
+        "needBased": false
+      }
+    ],
+    "strengths": [
+      "Engineering",
+      "Computer science",
+      "Commerce",
+      "Medicine"
+    ],
+    "outcomes": {
+      "employmentRatePct": {
+        "value": 80,
+        "sourceUrl": "https://www.qilt.edu.au/",
+        "asOf": "2026-11-18",
+        "verified": false,
+        "note": "QILT Graduate Outcomes Survey full-time employment, approx."
+      },
+      "medianStartingSalaryInr": {
+        "value": 4350000,
+        "sourceUrl": "https://www.qilt.edu.au/",
+        "asOf": "2026-11-18",
+        "verified": false,
+        "note": "Median graduate starting salary ~AUD 75,000"
+      },
+      "topRecruiters": [
+        "Atlassian",
+        "Commonwealth Bank",
+        "Macquarie",
+        "Google",
+        "EY"
+      ]
+    },
+    "admitTrend": [
+      {
+        "year": 2022,
+        "ratePct": 62
+      },
+      {
+        "year": 2023,
+        "ratePct": 61
+      },
+      {
+        "year": 2024,
+        "ratePct": 60
+      },
+      {
+        "year": 2025,
+        "ratePct": 60
+      },
+      {
+        "year": 2026,
+        "ratePct": 60
+      }
+    ]
+  },
+  {
+    "id": "uni-au-anu",
+    "name": "The Australian National University",
+    "shortName": "ANU",
+    "country": "au",
+    "city": "Canberra",
+    "region": "Australian Capital Territory",
+    "type": "public",
+    "website": "https://www.anu.edu.au/",
+    "founded": 1946,
+    "qsWorldRank": {
+      "value": 32,
+      "sourceUrl": "https://www.studyaustralia.gov.au/en/tools-and-resources/news/qs-world-university-rankings-2026",
+      "asOf": "2026-11-18",
+      "verified": true,
+      "note": "QS World University Rankings 2026"
+    },
+    "acceptanceRatePct": {
+      "value": 35,
+      "sourceUrl": "https://www.anu.edu.au/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Estimate; Australian universities do not publish admit rates"
+    },
+    "intlStudentPct": {
+      "value": 40,
+      "sourceUrl": "https://www.anu.edu.au/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "International share of all students, approx."
+    },
+    "selectivity": "highly_selective",
+    "tuition": {
+      "sourceUrl": "https://www.anu.edu.au/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Indicative 2027 international tuition per year",
+      "value": {
+        "amount": 52000,
+        "currency": "AUD"
+      }
+    },
+    "tuitionInrPerYear": 3016000,
+    "livingInrPerYear": 1723180,
+    "totalCostInr": 14217540,
+    "programmes": [
+      {
+        "id": "uni-au-anu-bac",
+        "name": "Bachelor of Advanced Computing (Honours)",
+        "degree": "BAC (Hons)",
+        "field": "computer-science",
+        "durationYears": 4,
+        "careerIds": [
+          "career-software-engineer",
+          "career-ai-ml-engineer",
+          "career-data-analyst",
+          "career-cybersecurity-analyst",
+          "career-game-developer"
+        ],
+        "typicalOffer": "CBSE ~88% / IB 34",
+        "entryExamIds": [
+          "ielts"
+        ]
+      },
+      {
+        "id": "uni-au-anu-becon",
+        "name": "Bachelor of Economics",
+        "degree": "BEc",
+        "field": "economics",
+        "durationYears": 3,
+        "careerIds": [
+          "career-economist",
+          "career-policy-analyst",
+          "career-financial-analyst",
+          "career-actuary"
+        ],
+        "typicalOffer": "CBSE ~85% / IB 32",
+        "entryExamIds": [
+          "ielts"
+        ]
+      },
+      {
+        "id": "uni-au-anu-bcom",
+        "name": "Bachelor of Commerce",
+        "degree": "BCom",
+        "field": "commerce",
+        "durationYears": 3,
+        "careerIds": [
+          "career-chartered-accountant",
+          "career-financial-analyst",
+          "career-investment-banker",
+          "career-business-analyst"
+        ],
+        "typicalOffer": "CBSE ~85% / IB 32",
+        "entryExamIds": [
+          "ielts"
+        ]
+      },
+      {
+        "id": "uni-au-anu-bir",
+        "name": "Bachelor of International Relations",
+        "degree": "BIR",
+        "field": "international-relations",
+        "durationYears": 3,
+        "careerIds": [
+          "career-journalist",
+          "career-policy-analyst",
+          "career-public-relations-manager",
+          "career-teacher",
+          "career-civil-services-officer",
+          "career-policy-analyst"
+        ],
+        "typicalOffer": "CBSE ~85% / IB 32",
+        "entryExamIds": [
+          "ielts"
+        ]
+      },
+      {
+        "id": "uni-au-anu-llb",
+        "name": "Bachelor of Laws (Honours) (double degree)",
+        "degree": "LLB (Hons)",
+        "field": "law",
+        "durationYears": 5,
+        "careerIds": [
+          "career-corporate-lawyer",
+          "career-civil-services-officer",
+          "career-policy-analyst"
+        ],
+        "typicalOffer": "CBSE ~92% / IB 38; IELTS 7.0",
+        "entryExamIds": [
+          "ielts"
+        ]
+      }
+    ],
+    "applicationRoutes": [
+      {
+        "type": "direct",
+        "platform": "university_portal",
+        "deadline": {
+          "value": "2026-12-15",
+          "sourceUrl": "https://www.anu.edu.au/",
+          "asOf": "2026-11-18",
+          "verified": false,
+          "note": "Projected Semester 1 2027 international closing date; classes start late Feb 2027"
+        },
+        "binding": false,
+        "requirements": {
+          "minBoardPercent": 85,
+          "typicalOffer": "CBSE 80-95% by course; IB 30-40",
+          "testPolicy": "not_applicable",
+          "examIds": [
+            "ielts",
+            "toefl",
+            "pte"
+          ],
+          "ielts": 6.5,
+          "toefl": 79,
+          "essays": [],
+          "recommendations": 0,
+          "otherItems": [
+            "Class 12 predicted/final results",
+            "Passport",
+            "English test (IELTS/TOEFL/PTE)"
+          ],
+          "applicationFeeInr": 0
+        }
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "ANU Chancellor's International Scholarship",
+        "amount": {
+          "value": "25% or 50% tuition reduction for the degree",
+          "sourceUrl": "https://www.anu.edu.au/",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 754000,
+        "eligibility": "High-achieving international applicants (automatic consideration)",
+        "needBased": false
+      }
+    ],
+    "strengths": [
+      "Public policy",
+      "Economics",
+      "International relations",
+      "Computing"
+    ],
+    "outcomes": {
+      "employmentRatePct": {
+        "value": 78,
+        "sourceUrl": "https://www.qilt.edu.au/",
+        "asOf": "2026-11-18",
+        "verified": false,
+        "note": "QILT Graduate Outcomes Survey full-time employment, approx."
+      },
+      "medianStartingSalaryInr": {
+        "value": 4350000,
+        "sourceUrl": "https://www.qilt.edu.au/",
+        "asOf": "2026-11-18",
+        "verified": false,
+        "note": "Median graduate starting salary ~AUD 75,000"
+      },
+      "topRecruiters": [
+        "Australian Public Service",
+        "Deloitte",
+        "KPMG",
+        "Accenture",
+        "Department of Foreign Affairs and Trade"
+      ]
+    },
+    "admitTrend": [
+      {
+        "year": 2022,
+        "ratePct": 36
+      },
+      {
+        "year": 2023,
+        "ratePct": 36
+      },
+      {
+        "year": 2024,
+        "ratePct": 35
+      },
+      {
+        "year": 2025,
+        "ratePct": 35
+      },
+      {
+        "year": 2026,
+        "ratePct": 35
+      }
+    ]
+  },
+  {
+    "id": "uni-au-monash",
+    "name": "Monash University",
+    "shortName": "Monash",
+    "country": "au",
+    "city": "Melbourne",
+    "region": "Victoria",
+    "type": "public",
+    "website": "https://www.monash.edu/",
+    "founded": 1958,
+    "qsWorldRank": {
+      "value": 36,
+      "sourceUrl": "https://www.studyaustralia.gov.au/en/tools-and-resources/news/qs-world-university-rankings-2026",
+      "asOf": "2026-11-18",
+      "verified": true,
+      "note": "QS World University Rankings 2026"
+    },
+    "acceptanceRatePct": {
+      "value": 40,
+      "sourceUrl": "https://www.monash.edu/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Estimate; Australian universities do not publish admit rates"
+    },
+    "intlStudentPct": {
+      "value": 45,
+      "sourceUrl": "https://www.monash.edu/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "International share of all students, approx."
+    },
+    "selectivity": "selective",
+    "tuition": {
+      "sourceUrl": "https://www.monash.edu/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Indicative 2027 international tuition per year",
+      "value": {
+        "amount": 51000,
+        "currency": "AUD"
+      }
+    },
+    "tuitionInrPerYear": 2958000,
+    "livingInrPerYear": 1723180,
+    "totalCostInr": 14043540,
+    "programmes": [
+      {
+        "id": "uni-au-monash-be",
+        "name": "Bachelor of Engineering (Honours)",
+        "degree": "BE (Hons)",
+        "field": "engineering",
+        "durationYears": 4,
+        "careerIds": [
+          "career-software-engineer",
+          "career-mechanical-engineer",
+          "career-supply-chain-manager",
+          "career-civil-engineer"
+        ],
+        "typicalOffer": "CBSE ~80% / IB 30",
+        "entryExamIds": [
+          "ielts"
+        ]
+      },
+      {
+        "id": "uni-au-monash-bit",
+        "name": "Bachelor of Information Technology",
+        "degree": "BIT",
+        "field": "computer-science",
+        "durationYears": 3,
+        "careerIds": [
+          "career-software-engineer",
+          "career-ai-ml-engineer",
+          "career-data-analyst",
+          "career-cybersecurity-analyst"
+        ],
+        "typicalOffer": "CBSE ~75% / IB 28",
+        "entryExamIds": [
+          "ielts"
+        ]
+      },
+      {
+        "id": "uni-au-monash-bcom",
+        "name": "Bachelor of Commerce",
+        "degree": "BCom",
+        "field": "commerce",
+        "durationYears": 3,
+        "careerIds": [
+          "career-chartered-accountant",
+          "career-financial-analyst",
+          "career-investment-banker",
+          "career-business-analyst"
+        ],
+        "typicalOffer": "CBSE ~82% / IB 31",
+        "entryExamIds": [
+          "ielts"
+        ]
+      },
+      {
+        "id": "uni-au-monash-bpharm",
+        "name": "Bachelor of Pharmacy (Honours)",
+        "degree": "BPharm (Hons)",
+        "field": "pharmacy",
+        "durationYears": 4,
+        "careerIds": [
+          "career-pharmacist",
+          "career-research-scientist"
+        ],
+        "typicalOffer": "CBSE ~80% with Chemistry",
+        "entryExamIds": [
+          "ielts"
+        ]
+      },
+      {
+        "id": "uni-au-monash-bnursing",
+        "name": "Bachelor of Nursing",
+        "degree": "BN",
+        "field": "nursing",
+        "durationYears": 3,
+        "careerIds": [
+          "career-nurse"
+        ],
+        "typicalOffer": "CBSE ~70%; IELTS 7.0",
+        "entryExamIds": [
+          "ielts"
+        ]
+      },
+      {
+        "id": "uni-au-monash-mbbs-md",
+        "name": "Bachelor of Medical Science and Doctor of Medicine",
+        "degree": "BMedSc/MD",
+        "field": "medicine",
+        "durationYears": 5,
+        "careerIds": [
+          "career-doctor"
+        ],
+        "typicalOffer": "Top results + UCAT ANZ + interview",
+        "entryExamIds": [
+          "ucat-anz",
+          "ielts"
+        ]
+      }
+    ],
+    "applicationRoutes": [
+      {
+        "type": "direct",
+        "platform": "university_portal",
+        "deadline": {
+          "value": "2027-01-15",
+          "sourceUrl": "https://www.monash.edu/",
+          "asOf": "2026-11-18",
+          "verified": false,
+          "note": "Projected Semester 1 2027 international closing date; classes start early March 2027"
+        },
+        "binding": false,
+        "requirements": {
+          "minBoardPercent": 75,
+          "typicalOffer": "CBSE 70-90% by course; IB 28-38",
+          "testPolicy": "not_applicable",
+          "examIds": [
+            "ielts",
+            "toefl",
+            "pte"
+          ],
+          "ielts": 6.5,
+          "toefl": 79,
+          "essays": [],
+          "recommendations": 0,
+          "otherItems": [
+            "Class 12 predicted/final results",
+            "Passport",
+            "English test (IELTS/TOEFL/PTE)",
+            "UCAT ANZ and interview for Medicine"
+          ],
+          "applicationFeeInr": 5800
+        }
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Monash International Merit Scholarship",
+        "amount": {
+          "value": "AUD 10,000 a year for the degree",
+          "sourceUrl": "https://www.monash.edu/",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 580000,
+        "eligibility": "Outstanding international applicants",
+        "needBased": false
+      },
+      {
+        "name": "Monash International Leadership Scholarship",
+        "amount": {
+          "value": "100% tuition for the degree",
+          "sourceUrl": "https://www.monash.edu/",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 2958000,
+        "eligibility": "Exceptional academic and leadership record",
+        "needBased": false
+      }
+    ],
+    "strengths": [
+      "Pharmacy",
+      "Engineering",
+      "Medicine",
+      "Nursing"
+    ],
+    "outcomes": {
+      "employmentRatePct": {
+        "value": 77,
+        "sourceUrl": "https://www.qilt.edu.au/",
+        "asOf": "2026-11-18",
+        "verified": false,
+        "note": "QILT Graduate Outcomes Survey full-time employment, approx."
+      },
+      "medianStartingSalaryInr": {
+        "value": 4060000,
+        "sourceUrl": "https://www.qilt.edu.au/",
+        "asOf": "2026-11-18",
+        "verified": false,
+        "note": "Median graduate starting salary ~AUD 70,000"
+      },
+      "topRecruiters": [
+        "PwC",
+        "Deloitte",
+        "Telstra",
+        "ANZ",
+        "Alfred Health"
+      ]
+    },
+    "admitTrend": [
+      {
+        "year": 2022,
+        "ratePct": 42
+      },
+      {
+        "year": 2023,
+        "ratePct": 41
+      },
+      {
+        "year": 2024,
+        "ratePct": 40
+      },
+      {
+        "year": 2025,
+        "ratePct": 40
+      },
+      {
+        "year": 2026,
+        "ratePct": 40
+      }
+    ]
+  },
+  {
+    "id": "uni-au-uq",
+    "name": "The University of Queensland",
+    "shortName": "UQ",
+    "country": "au",
+    "city": "Brisbane",
+    "region": "Queensland",
+    "type": "public",
+    "website": "https://www.uq.edu.au/",
+    "founded": 1909,
+    "qsWorldRank": {
+      "value": 42,
+      "sourceUrl": "https://www.studyaustralia.gov.au/en/tools-and-resources/news/qs-world-university-rankings-2026",
+      "asOf": "2026-11-18",
+      "verified": true,
+      "note": "QS World University Rankings 2026"
+    },
+    "acceptanceRatePct": {
+      "value": 40,
+      "sourceUrl": "https://www.uq.edu.au/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Estimate; Australian universities do not publish admit rates"
+    },
+    "intlStudentPct": {
+      "value": 35,
+      "sourceUrl": "https://www.uq.edu.au/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "International share of all students, approx."
+    },
+    "selectivity": "selective",
+    "tuition": {
+      "sourceUrl": "https://www.uq.edu.au/",
+      "asOf": "2026-11-18",
+      "verified": false,
+      "note": "Indicative 2027 international tuition per year",
+      "value": {
+        "amount": 52000,
+        "currency": "AUD"
+      }
+    },
+    "tuitionInrPerYear": 3016000,
+    "livingInrPerYear": 1723180,
+    "totalCostInr": 14217540,
+    "programmes": [
+      {
+        "id": "uni-au-uq-be",
+        "name": "Bachelor of Engineering (Honours)",
+        "degree": "BE (Hons)",
+        "field": "engineering",
+        "durationYears": 4,
+        "careerIds": [
+          "career-software-engineer",
+          "career-mechanical-engineer",
+          "career-supply-chain-manager",
+          "career-civil-engineer"
+        ],
+        "typicalOffer": "CBSE ~80% / IB 30",
+        "entryExamIds": [
+          "ielts"
+        ]
+      },
+      {
+        "id": "uni-au-uq-bcom",
+        "name": "Bachelor of Commerce",
+        "degree": "BCom",
+        "field": "commerce",
+        "durationYears": 3,
+        "careerIds": [
+          "career-chartered-accountant",
+          "career-financial-analyst",
+          "career-investment-banker",
+          "career-business-analyst"
+        ],
+        "typicalOffer": "CBSE ~78% / IB 29",
+        "entryExamIds": [
+          "ielts"
+        ]
+      },
+      {
+        "id": "uni-au-uq-bpharm",
+        "name": "Bachelor of Pharmacy (Honours)",
+        "degree": "BPharm (Hons)",
+        "field": "pharmacy",
+        "durationYears": 4,
+        "careerIds": [
+          "career-pharmacist"
+        ],
+        "typicalOffer": "CBSE ~80% with Chemistry",
+        "entryExamIds": [
+          "ielts"
+        ]
+      },
+      {
+        "id": "uni-au-uq-bphysio",
+        "name": "Bachelor of Physiotherapy (Honours)",
+        "degree": "BPhty (Hons)",
+        "field": "physiotherapy",
+        "durationYears": 4,
+        "careerIds": [
+          "career-physiotherapist"
+        ],
+        "typicalOffer": "CBSE ~90%; IELTS 7.0",
+        "entryExamIds": [
+          "ielts"
+        ]
+      },
+      {
+        "id": "uni-au-uq-bds",
+        "name": "Bachelor of Dental Science (Honours)",
+        "degree": "BDSc (Hons)",
+        "field": "dentistry",
+        "durationYears": 5,
+        "careerIds": [
+          "career-dentist"
+        ],
+        "typicalOffer": "Top results + UCAT ANZ; IELTS 7.0",
+        "entryExamIds": [
+          "ucat-anz",
+          "ielts"
+        ]
+      },
+      {
+        "id": "uni-au-uq-bpsych",
+        "name": "Bachelor of Psychological Science",
+        "degree": "BPsySc",
+        "field": "psychology",
+        "durationYears": 3,
+        "careerIds": [
+          "career-psychologist",
+          "career-teacher"
+        ],
+        "typicalOffer": "CBSE ~80% / IB 30",
+        "entryExamIds": [
+          "ielts"
+        ]
+      }
+    ],
+    "applicationRoutes": [
+      {
+        "type": "direct",
+        "platform": "university_portal",
+        "deadline": {
+          "value": "2027-01-15",
+          "sourceUrl": "https://www.uq.edu.au/",
+          "asOf": "2026-11-18",
+          "verified": false,
+          "note": "Projected Semester 1 2027 international closing date; classes start late Feb 2027"
+        },
+        "binding": false,
+        "requirements": {
+          "minBoardPercent": 75,
+          "typicalOffer": "CBSE 70-90% by course; IB 28-38",
+          "testPolicy": "not_applicable",
+          "examIds": [
+            "ielts",
+            "toefl",
+            "pte"
+          ],
+          "ielts": 6.5,
+          "toefl": 79,
+          "essays": [],
+          "recommendations": 0,
+          "otherItems": [
+            "Class 12 predicted/final results",
+            "Passport",
+            "English test (IELTS/TOEFL/PTE)"
+          ],
+          "applicationFeeInr": 5800
+        }
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "UQ International Excellence Scholarship",
+        "amount": {
+          "value": "25% tuition reduction",
+          "sourceUrl": "https://www.uq.edu.au/",
+          "asOf": "2026-11-18",
+          "verified": false
+        },
+        "valueInrPerYear": 754000,
+        "eligibility": "High-achieving international applicants",
+        "needBased": false
+      }
+    ],
+    "strengths": [
+      "Physiotherapy",
+      "Engineering",
+      "Environmental science",
+      "Dentistry"
+    ],
+    "outcomes": {
+      "employmentRatePct": {
+        "value": 78,
+        "sourceUrl": "https://www.qilt.edu.au/",
+        "asOf": "2026-11-18",
+        "verified": false,
+        "note": "QILT Graduate Outcomes Survey full-time employment, approx."
+      },
+      "medianStartingSalaryInr": {
+        "value": 4060000,
+        "sourceUrl": "https://www.qilt.edu.au/",
+        "asOf": "2026-11-18",
+        "verified": false,
+        "note": "Median graduate starting salary ~AUD 70,000"
+      },
+      "topRecruiters": [
+        "Queensland Health",
+        "Deloitte",
+        "BHP",
+        "Suncorp",
+        "Aurecon"
+      ]
+    },
+    "admitTrend": [
+      {
+        "year": 2022,
+        "ratePct": 42
+      },
+      {
+        "year": 2023,
+        "ratePct": 41
+      },
+      {
+        "year": 2024,
+        "ratePct": 40
+      },
+      {
+        "year": 2025,
+        "ratePct": 40
+      },
+      {
+        "year": 2026,
+        "ratePct": 40
+      }
+    ]
+  }
+]
