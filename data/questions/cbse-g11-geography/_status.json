@@ -1,0 +1,75 @@
+{
+  "subjectId": "cbse-g11-geography",
+  "generatedBy": "scripts/questions/cbse/g11_geography.py",
+  "curriculumSource": "data/curriculum/cbse-g11-geography.json",
+  "generatedAt": "2026-11-18T10:29:34Z",
+  "chaptersDone": [
+    "cbse-g11-geography-ch01",
+    "cbse-g11-geography-ch02",
+    "cbse-g11-geography-ch03",
+    "cbse-g11-geography-ch04",
+    "cbse-g11-geography-ch05",
+    "cbse-g11-geography-ch06",
+    "cbse-g11-geography-ch07",
+    "cbse-g11-geography-ch08",
+    "cbse-g11-geography-ch09",
+    "cbse-g11-geography-ch10",
+    "cbse-g11-geography-ch11",
+    "cbse-g11-geography-ch12",
+    "cbse-g11-geography-ch13",
+    "cbse-g11-geography-ch14",
+    "cbse-g11-geography-ch15",
+    "cbse-g11-geography-ch16",
+    "cbse-g11-geography-ch17",
+    "cbse-g11-geography-ch18",
+    "cbse-g11-geography-ch19",
+    "cbse-g11-geography-ch20",
+    "cbse-g11-geography-ch21",
+    "cbse-g11-geography-ch22",
+    "cbse-g11-geography-ch23"
+  ],
+  "mocksDone": true,
+  "target": 1930,
+  "generated": 1930,
+  "validated": true,
+  "counts": {
+    "mastery_bank": 920,
+    "practice": 920,
+    "mock": 90,
+    "total": 1930
+  },
+  "mix": {
+    "C": {
+      "C1": 16.6,
+      "C2": 29.5,
+      "C3": 34.5,
+      "C4": 19.5
+    },
+    "D": {
+      "D1": 8.4,
+      "D2": 40.3,
+      "D3": 35.4,
+      "D4": 12.4,
+      "D5": 3.5
+    }
+  },
+  "validatedAt": "2026-11-18T10:29:35.957Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": [],
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "5 random generated items per chapter (115 items) plus one full mock (30 items) re-solved by hand against NCERT Fundamentals of Physical Geography, India: Physical Environment and Practical Work in Geography Part I; numeric items (scale conversion, local time, gradient, R sin φ, pixels, lapse rate) recomputed",
+      "checked": 145,
+      "mismatches": 0,
+      "fixes": [
+        "salt-lake salinity figures (Lake Van, Dead Sea) removed; only qualitative statements kept",
+        "thermocline described as the layer below the warm surface layer, about 500-1,000 m thick",
+        "Kangchenjunga described as the third highest peak of the world rather than the highest peak in India",
+        "easterly jet stream described as steering tropical depressions into India, as in NCERT",
+        "non-geographical MCQ distractors (chapters 1, 3, 6, 13, 18, 22) replaced with same-topic alternatives"
+      ]
+    }
+  ]
+}
