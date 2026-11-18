@@ -60,7 +60,7 @@ async function main() {
         const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
         if (overflow > 1) failures.push(`${persona} ${r || '/'} ${size.name}: horizontal overflow ${overflow}px`);
         const name = `${persona.replace(/^tch_/, '')}-${(r0 || '/classes').replace(/^[/?]/, '').replace(/[^a-z0-9]+/gi, '-').toLowerCase()}-${size.name}.png`;
-        await page.screenshot({ path: path.join(OUT, name), fullPage: true });
+        await page.screenshot({ path: path.join(OUT, name), fullPage: true, caret: 'initial' });
       }
       if (errors.length) failures.push(`${persona} ${size.name}: console errors\n  ${errors.join('\n  ')}`);
       await ctx.close();
