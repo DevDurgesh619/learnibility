@@ -124,6 +124,16 @@ class F:
     gens: list = field(default_factory=list)       # extra T templates (parametric)
 
 
+def _lc(s: str) -> str:
+    """Lower-case the first letter only for ordinary sentence starts (keeps acronyms and proper nouns)."""
+    w = s.split(' ', 1)[0]
+    common = {'The', 'A', 'An', 'It', 'This', 'That', 'These', 'Those', 'There', 'All', 'Every', 'Most', 'Some', 'Any',
+              'If', 'When', 'Because', 'Only', 'In', 'Economic', 'Political', 'Social', 'States', 'Countries', 'Governments'}
+    if w in common or (len(w) > 1 and w[0].isupper() and w[1:].islower() and w.lower() in {x.lower() for x in common}):
+        return s[0].lower() + s[1:]
+    return s
+
+
 def _pick(rng, seq, slot, salt=''):
     if not seq:
         raise IndexError('empty')
@@ -210,7 +220,7 @@ def fact_templates(f: F, style: dict | None = None, pool_terms: list | None = No
             claim, fix = _pick(rng, f.misc, slot)
             who = name(rng)
             frame = rng.choice([f'{who} writes: "{claim}" Explain why this is inaccurate.',
-                                f'A student claims that {claim[0].lower() + claim[1:]} Identify the error in this claim and correct it.',
+                                f'A student claims that {_lc(claim)} Identify the error in this claim and correct it.',
                                 f'"{claim}" Explain the flaw in this statement.'])
             return dict(stem=frame, answer=fix, type='explain', marks=3 if slot.d >= 3 else 2,
                         markingKey=f'{fix} 1 mark for identifying the error, 1-2 marks for the correct explanation.', gap='G2')
@@ -236,7 +246,7 @@ def fact_templates(f: F, style: dict | None = None, pool_terms: list | None = No
             ]
             stem, base = rng.choice(frames)
             m = base + (1 if slot.d >= 3 else 0) + (1 if slot.d >= 4 else 0)
-            return dict(stem=stem, answer=f'{what} {how}', type='short', marks=m,
+            return dict(stem=stem, answer=f'{what} {how[:1].upper() + how[1:]}', type='short', marks=m,
                         markingKey=f'Context ({what}) – 1 mark for accurate, specific detail. Link: {how} – remaining marks for explicitly connecting the example to {concept}.')
         out.append(T('C3', (1, 4), case_explain, 'short', name='case'))
 
@@ -256,21 +266,21 @@ def fact_templates(f: F, style: dict | None = None, pool_terms: list | None = No
                 m = st_marks_essay
                 ty = 'long'
             elif slot.d == 4:
-                stem = rng.choice([f'Evaluate the claim that {claim[0].lower() + claim[1:]}',
+                stem = rng.choice([f'Evaluate the claim that {_lc(claim)}',
                                    f'"{claim}" Discuss.',
-                                   f'To what extent is it true that {claim[0].lower() + claim[1:].rstrip(".")}?'])
+                                   f'To what extent is it true that {_lc(claim).rstrip(".")}?'])
                 m = st_marks_eval
                 ty = 'long'
             else:
-                stem = rng.choice([f'Give one argument for and one argument against the view that {claim[0].lower() + claim[1:]}',
+                stem = rng.choice([f'Give one argument for and one argument against the view that {_lc(claim)}',
                                    f'Outline two points that could be used to evaluate the claim: "{claim}"',
-                                   f'Analyse one strength and one limitation of the view that {claim[0].lower() + claim[1:]}'])
+                                   f'Analyse one strength and one limitation of the view that {_lc(claim)}'])
                 m = 4
                 ty = 'case'
             key = ('Arguments for: ' + '; '.join(pro) + '. Arguments against: ' + '; '.join(con) +
                    f'. Supported judgement: {judge}')
             if ty == 'long':
-                key += f' Markbands: {markband}'
+                key += f' Markbands ({m} marks): {markband}'
             return dict(stem=stem, answer=judge, markingKey=key, type=ty, marks=m)
         out.append(T('C4', (2, 5), evaluate, 'long', name='evaluate'))
 
