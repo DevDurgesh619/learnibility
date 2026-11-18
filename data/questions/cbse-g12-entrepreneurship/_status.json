@@ -1,0 +1,61 @@
+{
+  "subjectId": "cbse-g12-entrepreneurship",
+  "generatedBy": "scripts/questions/cbse/g12_entrepreneurship.py",
+  "curriculumSource": "data/curriculum/cbse-g12-entrepreneurship.json",
+  "generatedAt": "2026-11-18T09:49:59Z",
+  "chaptersDone": [
+    "cbse-g12-entrepreneurship-ch01",
+    "cbse-g12-entrepreneurship-ch02",
+    "cbse-g12-entrepreneurship-ch03",
+    "cbse-g12-entrepreneurship-ch04",
+    "cbse-g12-entrepreneurship-ch05",
+    "cbse-g12-entrepreneurship-ch06"
+  ],
+  "mocksDone": true,
+  "target": 684,
+  "generated": 684,
+  "validated": true,
+  "counts": {
+    "mastery_bank": 240,
+    "practice": 240,
+    "mock": 204,
+    "total": 684
+  },
+  "mix": {
+    "C": {
+      "C1": 15.8,
+      "C2": 31.3,
+      "C3": 35.8,
+      "C4": 17.1
+    },
+    "D": {
+      "D1": 8.8,
+      "D2": 39.2,
+      "D3": 34.2,
+      "D4": 15.4,
+      "D5": 2.5
+    }
+  },
+  "validatedAt": "2026-11-18T09:49:59.286Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": [],
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "5 random items per chapter re-answered by hand (30 items), one output of each of the 20 computed generators re-solved independently (unit cost and margin, BEP, margin of safety, target-profit units, EOQ, FIFO closing stock, stock turnover, current and debt-equity ratios, ROE/ROI, income statement, three-month cash projection, project cost and means of finance), then 12 more case, assertion-reason and statement items",
+      "checked": 62,
+      "mismatches": 0,
+      "fixes": [
+        "fact-table cases were written with all sub-questions in one segment; split into question/answer pairs so each part is marked",
+        "franchising-type scenarios had only three options and could not form an MCQ; a fourth plausible option (joint venture) added",
+        "an assertion-reason item on raising unit price had a debatable code; rewritten as a clear (d) item",
+        "SWOT scenario question and the 2-mark \"explain one point\" stem reworded to read as questions",
+        "bakery comparison (5 marks) asked an opinion question; now asks which product earns more per unit and in total, and why",
+        "break-even problem raised fixed costs by odd amounts; the rise is now a round multiple of the contribution",
+        "ratio answers shown as x:1 with decimals (1.25:1), as in CBSE marking schemes",
+        "mock sections split so each written section mixes explain/list items with scenario, case and computed items"
+      ]
+    }
+  ]
+}

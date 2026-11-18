@@ -1,0 +1,63 @@
+{
+  "subjectId": "cbse-g12-business",
+  "generatedBy": "scripts/questions/cbse/g12_business.py",
+  "curriculumSource": "data/curriculum/cbse-g12-business.json",
+  "generatedAt": "2026-11-18T09:36:16Z",
+  "chaptersDone": [
+    "cbse-g12-business-ch01",
+    "cbse-g12-business-ch02",
+    "cbse-g12-business-ch03",
+    "cbse-g12-business-ch04",
+    "cbse-g12-business-ch05",
+    "cbse-g12-business-ch06",
+    "cbse-g12-business-ch07",
+    "cbse-g12-business-ch08",
+    "cbse-g12-business-ch09",
+    "cbse-g12-business-ch10",
+    "cbse-g12-business-ch11",
+    "cbse-g12-business-ch12"
+  ],
+  "mocksDone": true,
+  "target": 1164,
+  "generated": 1164,
+  "validated": true,
+  "counts": {
+    "mastery_bank": 480,
+    "practice": 480,
+    "mock": 204,
+    "total": 1164
+  },
+  "mix": {
+    "C": {
+      "C1": 15.4,
+      "C2": 30.2,
+      "C3": 35.2,
+      "C4": 19.2
+    },
+    "D": {
+      "D1": 8.3,
+      "D2": 38.5,
+      "D3": 34.6,
+      "D4": 15.2,
+      "D5": 3.3
+    }
+  },
+  "validatedAt": "2026-11-18T09:36:16.456Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": [],
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "5 random items per chapter re-answered from NCERT Business Studies XII (60 mixed items), then 4 more per chapter for ch09-12 (16 items: scenario, case, assertion-reason), plus 3 trading-on-equity EPS problems re-computed by hand",
+      "checked": 79,
+      "mismatches": 0,
+      "fixes": [
+        "contrast between factors of fixed and working capital removed: both lists share points (nature of business, scale, growth), which gave repeated MCQ options",
+        "scenario and case stems that put a random product where it did not fit (a \"low-sugar\" or \"cures all diseases\" random product, a pack of bicycles) now name a fitting product",
+        "trading-on-equity MCQ key lower-cased EPS and ROI; fixed",
+        "consumer commission pecuniary limits stated as in the Act as enacted (NCERT), and labelled so"
+      ]
+    }
+  ]
+}

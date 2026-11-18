@@ -1,0 +1,65 @@
+{
+  "subjectId": "cbse-g12-accountancy",
+  "generatedBy": "scripts/questions/cbse/g12_accountancy.py",
+  "curriculumSource": "data/curriculum/cbse-g12-accountancy.json",
+  "generatedAt": "2026-11-18T09:15:53Z",
+  "chaptersDone": [
+    "cbse-g12-accountancy-ch01",
+    "cbse-g12-accountancy-ch02",
+    "cbse-g12-accountancy-ch03",
+    "cbse-g12-accountancy-ch04",
+    "cbse-g12-accountancy-ch05",
+    "cbse-g12-accountancy-ch06",
+    "cbse-g12-accountancy-ch07",
+    "cbse-g12-accountancy-ch08",
+    "cbse-g12-accountancy-ch09",
+    "cbse-g12-accountancy-ch10"
+  ],
+  "mocksDone": true,
+  "target": 1004,
+  "generated": 1004,
+  "validated": true,
+  "counts": {
+    "mastery_bank": 500,
+    "practice": 300,
+    "mock": 204,
+    "total": 1004
+  },
+  "mix": {
+    "C": {
+      "C1": 15,
+      "C2": 30,
+      "C3": 35,
+      "C4": 20
+    },
+    "D": {
+      "D1": 10,
+      "D2": 40,
+      "D3": 35,
+      "D4": 12,
+      "D5": 3
+    }
+  },
+  "validatedAt": "2026-11-18T09:15:53.363Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": [],
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "5 random items per chapter re-solved by hand (50 mixed items), then 2 numerical/journal/long items per chapter (20 items: appropriation with insufficient profit, revaluation, retirement dues, dissolution with realisation and bank, pro-rata allotment, debenture issue and write-off, ratios, full cash flow statement)",
+      "checked": 70,
+      "mismatches": 0,
+      "fixes": [
+        "cash flow statement problem could list profit on sale of investments without the matching investing inflow; the full statement now derives profit or loss on machinery and interest from the investing and financing data only",
+        "share capital note answer reworded into subscribed-and-fully-paid and subscribed-but-not-fully-paid lines (NCERT format)",
+        "reserves-and-surplus key mentioned a debit balance even when the balance was a credit; note now only when it applies",
+        "interest-on-drawings key showed the period as 13/2 months; now 6.5 months",
+        "share counts used western grouping (121,000); now Indian grouping (1,21,000)",
+        "case pronoun did not always agree with the partner named; reworded",
+        "paid-up capital and vendor/debenture MCQs could fail to find three distinct distractors; distractor sets rebuilt",
+        "4- and 6-mark mock slots restricted to computed practical problems; Part A (ch01-06) and Part B (ch07-10) sections kept separate"
+      ]
+    }
+  ]
+}
