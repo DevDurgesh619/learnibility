@@ -1,0 +1,66 @@
+{
+  "subjectId": "cbse-g8-maths",
+  "generatedBy": "scripts/questions/cbse/g8_maths.py",
+  "curriculumSource": "data/curriculum/cbse-g8-maths.json",
+  "generatedAt": "2026-11-18T07:34:24Z",
+  "chaptersDone": [
+    "cbse-g8-maths-ch01",
+    "cbse-g8-maths-ch02",
+    "cbse-g8-maths-ch03",
+    "cbse-g8-maths-ch04",
+    "cbse-g8-maths-ch05",
+    "cbse-g8-maths-ch06",
+    "cbse-g8-maths-ch07",
+    "cbse-g8-maths-ch08",
+    "cbse-g8-maths-ch09",
+    "cbse-g8-maths-ch10",
+    "cbse-g8-maths-ch11",
+    "cbse-g8-maths-ch12",
+    "cbse-g8-maths-ch13",
+    "cbse-g8-maths-ch14"
+  ],
+  "mocksDone": true,
+  "target": 1514,
+  "generated": 1514,
+  "validated": true,
+  "counts": {
+    "mastery_bank": 840,
+    "practice": 560,
+    "mock": 114,
+    "total": 1514
+  },
+  "mix": {
+    "C": {
+      "C1": 15.1,
+      "C2": 29.4,
+      "C3": 35.2,
+      "C4": 20.2
+    },
+    "D": {
+      "D1": 10,
+      "D2": 40,
+      "D3": 35,
+      "D4": 12,
+      "D5": 3
+    }
+  },
+  "validatedAt": "2026-11-18T07:34:25.069Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": [],
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "5 random generated (non-workbook) items per chapter re-solved by hand (70 items)",
+      "checked": 70,
+      "mismatches": 0,
+      "formattingFixes": [
+        "coefficient 1 shown as \"1mb\" in sums of expressions",
+        "6x(1x + 3) factor display",
+        "ASCII minus in coordinates",
+        "ordinal \"21th\""
+      ],
+      "note": "Fixes applied in generators and bank regenerated; workbook items M8-001..M8-294 imported unchanged."
+    }
+  ]
+}
