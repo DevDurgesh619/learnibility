@@ -9,6 +9,7 @@
  */
 import fs from 'node:fs';
 import path from 'node:path';
+import zlib from 'node:zlib';
 
 export function dataRoot(): string {
   return process.env.LEARNIBILITY_DATA_DIR ?? path.join(process.cwd(), 'data');
@@ -16,18 +17,39 @@ export function dataRoot(): string {
 
 const fileCache = new Map<string, { mtimeMs: number; value: unknown }>();
 
+/**
+ * Hosted builds (Vercel) ship data/ packed as minified `*.json.gz` to stay inside serverless size limits
+ * (scripts/vercel/pack-data.mjs). Every read and directory listing here treats `x.json.gz` as `x.json`.
+ */
+function statData(file: string): { st: fs.Stats; real: string; gz: boolean } | undefined {
+  try {
+    return { st: fs.statSync(file), real: file, gz: false };
+  } catch {
+    try {
+      return { st: fs.statSync(`${file}.gz`), real: `${file}.gz`, gz: true };
+    } catch {
+      return undefined;
+    }
+  }
+}
+
+/** Text of a data file, plain or packed. Returns undefined when missing. */
+export function readDataText(file: string): string | undefined {
+  const s = statData(file);
+  if (!s) return undefined;
+  const buf = fs.readFileSync(s.real);
+  return s.gz ? zlib.gunzipSync(buf).toString('utf8') : buf.toString('utf8');
+}
+
 /** Parse a JSON file, cached by mtime. Returns undefined when missing. */
 export function readJson<T = unknown>(file: string): T | undefined {
-  let st: fs.Stats;
-  try {
-    st = fs.statSync(file);
-  } catch {
-    return undefined;
-  }
+  const s = statData(file);
+  if (!s) return undefined;
   const hit = fileCache.get(file);
-  if (hit && hit.mtimeMs === st.mtimeMs) return hit.value as T;
-  const value = JSON.parse(fs.readFileSync(file, 'utf8')) as T;
-  fileCache.set(file, { mtimeMs: st.mtimeMs, value });
+  if (hit && hit.mtimeMs === s.st.mtimeMs) return hit.value as T;
+  const buf = fs.readFileSync(s.real);
+  const value = JSON.parse(s.gz ? zlib.gunzipSync(buf).toString('utf8') : buf.toString('utf8')) as T;
+  fileCache.set(file, { mtimeMs: s.st.mtimeMs, value });
   return value;
 }
 
@@ -42,7 +64,7 @@ export function itemsOf<T>(file: string): T[] {
 
 function listDir(dir: string): string[] {
   try {
-    return fs.readdirSync(dir);
+    return fs.readdirSync(dir).map((f) => (f.endsWith('.json.gz') ? f.slice(0, -3) : f));
   } catch {
     return [];
   }

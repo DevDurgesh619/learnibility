@@ -5,6 +5,11 @@
  * Backend: SQLite file via better-sqlite3 (already installed for Prisma's adapter) at
  * LEARNIBILITY_OVERLAY_DB (default .data/overlay.sqlite). Falls back to memory when SQLite cannot open
  * (read-only hosting) or when LEARNIBILITY_OVERLAY=memory (tests).
+ *
+ * On Vercel (VERCEL=1) the default is memory: the filesystem is read-only apart from /tmp, which is per
+ * instance anyway, so SQLite would add a native module without making writes more durable. Demo writes
+ * last while the server instance stays warm; a cold start begins from the seeded data, same as Reset.
+ * Set LEARNIBILITY_OVERLAY=sqlite with LEARNIBILITY_OVERLAY_DB=/tmp/overlay.sqlite to force SQLite there.
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -102,10 +107,35 @@ class SqliteBackend implements OverlayBackend {
   }
 }
 
-const g = globalThis as unknown as { __learnibilityOverlay?: OverlayBackend };
+const g = globalThis as unknown as { __learnibilityOverlay?: OverlayBackend; __learnibilityResetEpoch?: number };
+
+/**
+ * Reset across server instances. On Vercel, route handlers (/demo/reset, /demo/go, /api/demo-reset) run in a
+ * different function from the pages, each with its own memory, so clearing in the handler alone would not
+ * reach the pages. Each reset therefore also stamps this cookie with its time; currentPersona() hands the
+ * cookie to syncResetEpoch(), and any instance that has not yet seen that reset clears its overlay.
+ */
+export const RESET_COOKIE = 'learnibility_reset';
+
+/** Clear this instance's overlay once for each newer reset stamp. Returns true when it cleared. */
+export function syncResetEpoch(epoch: number | undefined): boolean {
+  if (!epoch || !Number.isFinite(epoch)) return false;
+  if ((g.__learnibilityResetEpoch ?? 0) >= epoch) return false;
+  g.__learnibilityResetEpoch = epoch;
+  overlay().clear();
+  return true;
+}
+
+/** Record a reset done here; returns its stamp for RESET_COOKIE. */
+export function markReset(): number {
+  const epoch = Math.max(Date.now(), (g.__learnibilityResetEpoch ?? 0) + 1);
+  g.__learnibilityResetEpoch = epoch;
+  return epoch;
+}
 
 function open(): OverlayBackend {
-  if (process.env.LEARNIBILITY_OVERLAY === 'memory') return new MemoryBackend();
+  const mode = process.env.LEARNIBILITY_OVERLAY ?? (process.env.VERCEL ? 'memory' : 'sqlite');
+  if (mode === 'memory') return new MemoryBackend();
   try {
     const file = process.env.LEARNIBILITY_OVERLAY_DB ?? path.join(process.cwd(), '.data', 'overlay.sqlite');
     fs.mkdirSync(path.dirname(file), { recursive: true });

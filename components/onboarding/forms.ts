@@ -1,7 +1,7 @@
 import 'server-only';
-import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import type { Board, Grade, Stream } from '@/lib/types';
+import { readDataText } from '@/lib/data/source';
 import type { OnboardingFormFile } from '@/lib/types/onboarding';
 import indexFile from '@/data/questions/onboarding/index.json';
 
@@ -36,7 +36,9 @@ export async function loadOnboardingForm(formId: string): Promise<OnboardingForm
   if (cache.has(formId)) return cache.get(formId)!;
   const row = FORMS.find((f) => f.formId === formId);
   if (!row) return null;
-  const file = JSON.parse(await readFile(path.join(process.cwd(), row.path), 'utf8')) as OnboardingFormFile;
+  const text = readDataText(path.join(process.cwd(), row.path));
+  if (text === undefined) return null;
+  const file = JSON.parse(text) as OnboardingFormFile;
   cache.set(formId, file);
   return file;
 }

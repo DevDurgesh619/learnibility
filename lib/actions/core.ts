@@ -12,7 +12,7 @@ import 'server-only';
 import { replanTimetable } from '@/lib/engines';
 import type { EvidenceEvent } from '@/lib/types';
 import { baseRecords, deleteRecord, learnerRecords, overlayKeys, writeRecord, type CollectionName } from '@/lib/store/collections';
-import { overlay } from '@/lib/store/overlay';
+import { markReset, overlay, RESET_COOKIE } from '@/lib/store/overlay';
 import { DEMO_NOW_ISO } from '@/lib/demo-clock';
 import { applyAttempt, planFor, stateFrom, timetableInput, weekStartOf, localDateOf } from '@/lib/data/derive';
 import { getAttempts, getCurrentPlan, getGaps, getMastery, getProfileValues, getSessions, getStudent, getTimetable } from '@/lib/data';
@@ -127,9 +127,14 @@ export function recomputeLearner(learnerId: string, opts: { reason?: string } = 
 }
 
 /** Clear every demo write ("Reset demo"). */
-export function resetDemo(): { cleared: number } {
+export function resetDemo(): { cleared: number; epoch: number } {
   const ov = overlay();
   const n = ov.count();
   ov.clear();
-  return { cleared: n };
+  return { cleared: n, epoch: markReset() };
+}
+
+/** Cookie that carries a reset to the other server instances (see RESET_COOKIE in lib/store/overlay). */
+export function resetCookie(epoch: number) {
+  return { name: RESET_COOKIE, value: String(epoch), path: '/', sameSite: 'lax' as const, maxAge: 60 * 60 * 24 * 30 };
 }
