@@ -1,522 +1,522 @@
 {
-  "subjectId": "cbse-g11-applied-maths",
-  "chapters": [
+ "subjectId": "cbse-g11-applied-maths",
+ "chapters": [
+  {
+   "sheetName": "Numbers & quantification (binary, indices/logs, clocks, calendar, TSD)",
+   "name": "Numbers, Quantification and Numerical Applications",
+   "subtopics": [
     {
-      "sheetName": "Numbers & quantification (binary, indices/logs, clocks, calendar, TSD)",
-      "name": "Numbers, Quantification and Numerical Applications",
-      "subtopics": [
-        {
-          "name": "Binary number system: conversion between decimal and binary",
-          "weight": "S",
-          "prereq": [
-            "cbse-g8-maths-ch02-st1"
-          ],
-          "note": "Place value and powers of 2 (Cl 8: Power Play)"
-        },
-        {
-          "name": "Indices, logarithms and antilogarithms: laws and properties",
-          "weight": "H",
-          "prereq": [
-            "cbse-g8-maths-ch02-st1"
-          ],
-          "note": "Laws of exponents, zero and negative exponents (Cl 8)"
-        },
-        {
-          "name": "Clock and calendar problems",
-          "weight": "S",
-          "prereq": [
-            "cbse-g8-maths-ch05-st1"
-          ],
-          "note": "Division with remainder and divisibility (Cl 8); angles in degrees"
-        },
-        {
-          "name": "Time, speed and distance: relative speed and trains",
-          "weight": "H",
-          "prereq": [
-            "cbse-g8-maths-ch07-st3"
-          ],
-          "note": "Direct and inverse proportion (Cl 8); unit conversion km/h to m/s"
-        },
-        {
-          "name": "Time and work; seating arrangement and mensuration puzzles",
-          "weight": "S",
-          "prereq": [
-            "cbse-g8-maths-ch07-st3",
-            "cbse-g10-maths-ch12-st2"
-          ],
-          "note": "Inverse proportion (Cl 8); volume of solids (Cl 10)"
-        }
-      ]
+     "name": "Binary number system: conversion between decimal and binary",
+     "weight": "S",
+     "prereq": [
+      "cbse-g8-maths-ch02-st1"
+     ],
+     "note": "Place value and powers of 2 (Cl 8: Power Play)"
     },
     {
-      "sheetName": "Sets & relations",
-      "name": "Sets and Relations",
-      "subtopics": [
-        {
-          "name": "Sets: types, subsets, power set and intervals",
-          "weight": "S",
-          "prereq": [
-            "cbse-g9-maths-ch03-st1"
-          ],
-          "note": "Number systems: rationals and reals (Cl 9)"
-        },
-        {
-          "name": "Venn diagrams, operations on sets and De Morgan's laws",
-          "weight": "H",
-          "prereq": [
-            "cbse-g11-applied-maths-ch02-st1"
-          ],
-          "note": "Types of sets and subsets"
-        },
-        {
-          "name": "Ordered pairs, Cartesian product and relations",
-          "weight": "S",
-          "prereq": [
-            "cbse-g11-applied-maths-ch02-st1",
-            "cbse-g9-maths-ch01-st1"
-          ],
-          "note": "Ordered pairs in the coordinate plane (Cl 9); sets in roster form"
-        },
-        {
-          "name": "Types of relations: reflexive, symmetric, transitive and equivalence",
-          "weight": "S",
-          "prereq": [
-            "cbse-g11-applied-maths-ch02-st3"
-          ],
-          "note": "Relations as sets of ordered pairs"
-        }
-      ]
+     "name": "Indices, logarithms and antilogarithms: laws and properties",
+     "weight": "H",
+     "prereq": [
+      "cbse-g8-maths-ch02-st1"
+     ],
+     "note": "Laws of exponents, zero and negative exponents (Cl 8)"
     },
     {
-      "sheetName": "Sequences & series",
-      "name": "Sequences and Series",
-      "subtopics": [
-        {
-          "name": "Arithmetic progression revisited and arithmetic mean",
-          "weight": "S",
-          "prereq": [
-            "cbse-g10-maths-ch05-st3"
-          ],
-          "note": "nth term and sum of an AP (Cl 10)"
-        },
-        {
-          "name": "Geometric progression: nth term, sum of n terms and infinite GP",
-          "weight": "H",
-          "prereq": [
-            "cbse-g11-applied-maths-ch03-st1",
-            "cbse-g11-applied-maths-ch01-st2"
-          ],
-          "note": "Geometric progressions (Cl 9); laws of indices"
-        },
-        {
-          "name": "Geometric mean and relation between AM and GM",
-          "weight": "S",
-          "prereq": [
-            "cbse-g11-applied-maths-ch03-st2"
-          ],
-          "note": "Geometric progression; arithmetic mean"
-        },
-        {
-          "name": "Special series: sums of n, n² and n³",
-          "weight": "L",
-          "prereq": [
-            "cbse-g11-applied-maths-ch03-st1"
-          ],
-          "note": "Sum of an AP; sigma notation"
-        }
-      ]
+     "name": "Clock and calendar problems",
+     "weight": "S",
+     "prereq": [
+      "cbse-g8-maths-ch05-st1"
+     ],
+     "note": "Division with remainder and divisibility (Cl 8); angles in degrees"
     },
     {
-      "sheetName": "Functions",
-      "name": "Functions",
-      "subtopics": [
-        {
-          "name": "Dependent and independent variables; domain and range of a function",
-          "weight": "S",
-          "prereq": [
-            "cbse-g11-applied-maths-ch02-st3"
-          ],
-          "note": "Relations and Cartesian products; substituting values (Cl 9)"
-        },
-        {
-          "name": "Types of functions: polynomial, rational, exponential, logarithmic, modulus, step",
-          "weight": "H",
-          "prereq": [
-            "cbse-g11-applied-maths-ch04-st1",
-            "cbse-g11-applied-maths-ch01-st2"
-          ],
-          "note": "Domain and range; indices and logarithms"
-        },
-        {
-          "name": "Graphs of functions and their transformations",
-          "weight": "S",
-          "prereq": [
-            "cbse-g11-applied-maths-ch04-st2",
-            "cbse-g10-maths-ch02-st1"
-          ],
-          "note": "Types of functions; graphs of linear and quadratic polynomials (Cl 10)"
-        },
-        {
-          "name": "Composition and inverse of a function",
-          "weight": "S",
-          "prereq": [
-            "cbse-g11-applied-maths-ch04-st1"
-          ],
-          "note": "Domain and range; solving equations for a variable"
-        }
-      ]
+     "name": "Time, speed and distance: relative speed and trains",
+     "weight": "H",
+     "prereq": [
+      "cbse-g8-maths-ch07-st3"
+     ],
+     "note": "Direct and inverse proportion (Cl 8); unit conversion km/h to m/s"
     },
     {
-      "sheetName": "Limits & continuity",
-      "name": "Limits and Continuity",
-      "subtopics": [
-        {
-          "name": "Limit of a function: intuitive idea, left-hand and right-hand limits",
-          "weight": "S",
-          "prereq": [
-            "cbse-g11-applied-maths-ch04-st3"
-          ],
-          "note": "Graphs of functions, including step and modulus functions"
-        },
-        {
-          "name": "Evaluating limits: algebraic methods, rationalisation and standard limits",
-          "weight": "H",
-          "prereq": [
-            "cbse-g11-applied-maths-ch05-st1",
-            "cbse-g9-maths-ch04-st4"
-          ],
-          "note": "Intuitive limits; factorisation using identities (Cl 9)"
-        },
-        {
-          "name": "Continuity of a function at a point and over an interval",
-          "weight": "S",
-          "prereq": [
-            "cbse-g11-applied-maths-ch05-st1"
-          ],
-          "note": "Left-hand and right-hand limits; function values"
-        }
-      ]
-    },
-    {
-      "sheetName": "Differentiation",
-      "name": "Differentiation",
-      "subtopics": [
-        {
-          "name": "Derivative as rate of change; derivative from first principles",
-          "weight": "S",
-          "prereq": [
-            "cbse-g11-applied-maths-ch05-st2"
-          ],
-          "note": "Evaluating limits; slope of a line"
-        },
-        {
-          "name": "Rules of differentiation: sum, product, quotient and chain rule",
-          "weight": "H",
-          "prereq": [
-            "cbse-g11-applied-maths-ch06-st1"
-          ],
-          "note": "Derivative from first principles; composition of functions"
-        },
-        {
-          "name": "Derivatives of exponential, logarithmic, implicit and parametric functions",
-          "weight": "H",
-          "prereq": [
-            "cbse-g11-applied-maths-ch06-st2",
-            "cbse-g11-applied-maths-ch01-st2"
-          ],
-          "note": "Rules of differentiation; laws of logarithms"
-        },
-        {
-          "name": "Second-order derivatives",
-          "weight": "L",
-          "prereq": [
-            "cbse-g11-applied-maths-ch06-st2"
-          ],
-          "note": "Rules of differentiation"
-        }
-      ]
-    },
-    {
-      "sheetName": "Permutations & combinations",
-      "name": "Permutations and Combinations",
-      "subtopics": [
-        {
-          "name": "Fundamental principle of counting and factorial notation",
-          "weight": "S",
-          "prereq": [
-            "cbse-g10-maths-ch14-st3"
-          ],
-          "note": "Listing outcomes of experiments (Cl 9-10)"
-        },
-        {
-          "name": "Permutations: with and without repetition, circular permutations",
-          "weight": "H",
-          "prereq": [
-            "cbse-g11-applied-maths-ch07-st1"
-          ],
-          "note": "Fundamental principle of counting; factorials"
-        },
-        {
-          "name": "Combinations and their applications",
-          "weight": "H",
-          "prereq": [
-            "cbse-g11-applied-maths-ch07-st2"
-          ],
-          "note": "Permutations; whether order matters in a selection"
-        }
-      ]
-    },
-    {
-      "sheetName": "Probability",
-      "name": "Probability",
-      "subtopics": [
-        {
-          "name": "Random experiments, sample space and types of events",
-          "weight": "S",
-          "prereq": [
-            "cbse-g10-maths-ch14-st2"
-          ],
-          "note": "Complementary, impossible and sure events (Cl 10)"
-        },
-        {
-          "name": "Axiomatic probability and the addition theorem",
-          "weight": "H",
-          "prereq": [
-            "cbse-g11-applied-maths-ch08-st1",
-            "cbse-g11-applied-maths-ch07-st3",
-            "cbse-g11-applied-maths-ch02-st2"
-          ],
-          "note": "Sample space; combinations; union and intersection of sets"
-        },
-        {
-          "name": "Conditional probability and independent events",
-          "weight": "H",
-          "prereq": [
-            "cbse-g11-applied-maths-ch08-st2"
-          ],
-          "note": "Axiomatic probability; multiplication of fractions"
-        },
-        {
-          "name": "Total probability and Bayes' theorem",
-          "weight": "S",
-          "prereq": [
-            "cbse-g11-applied-maths-ch08-st3"
-          ],
-          "note": "Conditional probability; tree diagrams (Cl 9)"
-        }
-      ]
-    },
-    {
-      "sheetName": "Descriptive statistics (dispersion, percentiles)",
-      "name": "Descriptive Statistics: Dispersion and Percentiles",
-      "subtopics": [
-        {
-          "name": "Data interpretation: frequency distributions and graphical representation",
-          "weight": "L",
-          "prereq": [
-            "cbse-g10-maths-ch13-st1"
-          ],
-          "note": "Grouped frequency tables and histograms (Cl 9-10)"
-        },
-        {
-          "name": "Measures of dispersion: range, quartile deviation and mean deviation",
-          "weight": "S",
-          "prereq": [
-            "cbse-g11-applied-maths-ch09-st1",
-            "cbse-g10-maths-ch13-st3"
-          ],
-          "note": "Median and cumulative frequency (Cl 10)"
-        },
-        {
-          "name": "Variance, standard deviation and coefficient of variation",
-          "weight": "H",
-          "prereq": [
-            "cbse-g11-applied-maths-ch09-st2"
-          ],
-          "note": "Mean of grouped data (Cl 10); squaring deviations"
-        },
-        {
-          "name": "Percentiles, quartiles and percentile rank",
-          "weight": "S",
-          "prereq": [
-            "cbse-g11-applied-maths-ch09-st1",
-            "cbse-g10-maths-ch13-st3"
-          ],
-          "note": "Median of grouped data using cumulative frequency (Cl 10)"
-        }
-      ]
-    },
-    {
-      "sheetName": "Correlation & regression",
-      "name": "Correlation and Regression",
-      "subtopics": [
-        {
-          "name": "Bivariate data and scatter diagrams",
-          "weight": "S",
-          "prereq": [
-            "cbse-g11-applied-maths-ch09-st1",
-            "cbse-g9-maths-ch01-st1"
-          ],
-          "note": "Plotting points (Cl 9); frequency tables"
-        },
-        {
-          "name": "Karl Pearson's coefficient of correlation",
-          "weight": "H",
-          "prereq": [
-            "cbse-g11-applied-maths-ch10-st1",
-            "cbse-g11-applied-maths-ch09-st3"
-          ],
-          "note": "Scatter diagrams; standard deviation"
-        },
-        {
-          "name": "Spearman's rank correlation coefficient",
-          "weight": "S",
-          "prereq": [
-            "cbse-g11-applied-maths-ch10-st1"
-          ],
-          "note": "Ranking data, including tied ranks"
-        },
-        {
-          "name": "Lines of regression and prediction",
-          "weight": "S",
-          "prereq": [
-            "cbse-g11-applied-maths-ch10-st2",
-            "cbse-g9-maths-ch13-st3"
-          ],
-          "note": "Karl Pearson's correlation; graph of a linear equation in two variables (Cl 9)"
-        }
-      ]
-    },
-    {
-      "sheetName": "Interest & annuities",
-      "name": "Interest and Annuities",
-      "subtopics": [
-        {
-          "name": "Simple and compound interest; nominal and effective rate of interest",
-          "weight": "H",
-          "prereq": [
-            "cbse-g8-maths-ch10-st3",
-            "cbse-g11-applied-maths-ch01-st2"
-          ],
-          "note": "Simple and compound interest (Cl 8); indices and logarithms"
-        },
-        {
-          "name": "Present value and future value of money",
-          "weight": "S",
-          "prereq": [
-            "cbse-g11-applied-maths-ch11-st1"
-          ],
-          "note": "Compound interest; working backwards from an amount"
-        },
-        {
-          "name": "Annuities: annuity immediate and annuity due",
-          "weight": "S",
-          "prereq": [
-            "cbse-g11-applied-maths-ch11-st2",
-            "cbse-g11-applied-maths-ch03-st2"
-          ],
-          "note": "Present and future value; sum of a geometric progression"
-        }
-      ]
-    },
-    {
-      "sheetName": "Taxation",
-      "name": "Taxation",
-      "subtopics": [
-        {
-          "name": "Indirect taxes and the GST structure: CGST, SGST and IGST",
-          "weight": "S",
-          "prereq": [
-            "cbse-g8-maths-ch10-st2"
-          ],
-          "note": "Profit, loss, discount and tax (Cl 8)"
-        },
-        {
-          "name": "Computing GST on goods and services; input tax credit",
-          "weight": "H",
-          "prereq": [
-            "cbse-g11-applied-maths-ch12-st1"
-          ],
-          "note": "GST structure; percentage calculations"
-        },
-        {
-          "name": "Calculation of income tax using slab rates",
-          "weight": "S",
-          "prereq": [
-            "cbse-g8-maths-ch10-st1"
-          ],
-          "note": "Percentages and percentage change (Cl 8)"
-        },
-        {
-          "name": "Utility bills: electricity and water bill calculations",
-          "weight": "L",
-          "prereq": [
-            "cbse-g8-maths-ch10-st1"
-          ],
-          "note": "Percentages; reading tariff tables"
-        }
-      ]
-    },
-    {
-      "sheetName": "Straight lines",
-      "name": "Straight Lines",
-      "subtopics": [
-        {
-          "name": "Slope of a line; parallel and perpendicular lines",
-          "weight": "S",
-          "prereq": [
-            "cbse-g10-maths-ch07-st1"
-          ],
-          "note": "Coordinates and distance formula (Cl 10)"
-        },
-        {
-          "name": "Equation of a line in various forms",
-          "weight": "H",
-          "prereq": [
-            "cbse-g11-applied-maths-ch13-st1"
-          ],
-          "note": "Slope of a line; graph of a linear equation (Cl 9)"
-        },
-        {
-          "name": "Distance of a point from a line and business applications of lines",
-          "weight": "S",
-          "prereq": [
-            "cbse-g11-applied-maths-ch13-st2"
-          ],
-          "note": "Equation of a line; cost-revenue as linear relations"
-        }
-      ]
-    },
-    {
-      "sheetName": "Circles & parabola",
-      "name": "Circles and Parabola",
-      "subtopics": [
-        {
-          "name": "Circle: standard and general equation, centre and radius",
-          "weight": "S",
-          "prereq": [
-            "cbse-g10-maths-ch07-st1"
-          ],
-          "note": "Distance formula (Cl 10); completing the square"
-        },
-        {
-          "name": "Parabola: standard forms, focus, directrix and latus rectum",
-          "weight": "S",
-          "prereq": [
-            "cbse-g11-applied-maths-ch13-st2"
-          ],
-          "note": "Equation of a line; distance formula"
-        },
-        {
-          "name": "Applications of circles and parabolas in real contexts",
-          "weight": "L",
-          "prereq": [
-            "cbse-g11-applied-maths-ch14-st1",
-            "cbse-g11-applied-maths-ch14-st2"
-          ],
-          "note": "Equations of circle and parabola"
-        }
-      ]
+     "name": "Time and work; seating arrangement and mensuration puzzles",
+     "weight": "S",
+     "prereq": [
+      "cbse-g8-maths-ch07-st3",
+      "cbse-g10-maths-ch12-st2"
+     ],
+     "note": "Inverse proportion (Cl 8); volume of solids (Cl 10)"
     }
-  ]
+   ]
+  },
+  {
+   "sheetName": "Sets & relations",
+   "name": "Sets and Relations",
+   "subtopics": [
+    {
+     "name": "Sets: types, subsets, power set and intervals",
+     "weight": "S",
+     "prereq": [
+      "cbse-g9-maths-ch03-st1"
+     ],
+     "note": "Number systems: rationals and reals (Cl 9)"
+    },
+    {
+     "name": "Venn diagrams, operations on sets and De Morgan's laws",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-applied-maths-ch02-st1"
+     ],
+     "note": "Types of sets and subsets"
+    },
+    {
+     "name": "Ordered pairs, Cartesian product and relations",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-applied-maths-ch02-st1",
+      "cbse-g9-maths-ch01-st1"
+     ],
+     "note": "Ordered pairs in the coordinate plane (Cl 9); sets in roster form"
+    },
+    {
+     "name": "Types of relations: reflexive, symmetric, transitive and equivalence",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-applied-maths-ch02-st3"
+     ],
+     "note": "Relations as sets of ordered pairs"
+    }
+   ]
+  },
+  {
+   "sheetName": "Sequences & series",
+   "name": "Sequences and Series",
+   "subtopics": [
+    {
+     "name": "Arithmetic progression revisited and arithmetic mean",
+     "weight": "S",
+     "prereq": [
+      "cbse-g10-maths-ch05-st3"
+     ],
+     "note": "nth term and sum of an AP (Cl 10)"
+    },
+    {
+     "name": "Geometric progression: nth term, sum of n terms and infinite GP",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-applied-maths-ch03-st1",
+      "cbse-g11-applied-maths-ch01-st2"
+     ],
+     "note": "Geometric progressions (Cl 9); laws of indices"
+    },
+    {
+     "name": "Geometric mean and relation between AM and GM",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-applied-maths-ch03-st2"
+     ],
+     "note": "Geometric progression; arithmetic mean"
+    },
+    {
+     "name": "Special series: sums of n, n² and n³",
+     "weight": "L",
+     "prereq": [
+      "cbse-g11-applied-maths-ch03-st1"
+     ],
+     "note": "Sum of an AP; sigma notation"
+    }
+   ]
+  },
+  {
+   "sheetName": "Functions",
+   "name": "Functions",
+   "subtopics": [
+    {
+     "name": "Dependent and independent variables; domain and range of a function",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-applied-maths-ch02-st3"
+     ],
+     "note": "Relations and Cartesian products; substituting values (Cl 9)"
+    },
+    {
+     "name": "Types of functions: polynomial, rational, exponential, logarithmic, modulus, step",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-applied-maths-ch04-st1",
+      "cbse-g11-applied-maths-ch01-st2"
+     ],
+     "note": "Domain and range; indices and logarithms"
+    },
+    {
+     "name": "Graphs of functions and their transformations",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-applied-maths-ch04-st2",
+      "cbse-g10-maths-ch02-st1"
+     ],
+     "note": "Types of functions; graphs of linear and quadratic polynomials (Cl 10)"
+    },
+    {
+     "name": "Composition and inverse of a function",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-applied-maths-ch04-st1"
+     ],
+     "note": "Domain and range; solving equations for a variable"
+    }
+   ]
+  },
+  {
+   "sheetName": "Limits & continuity",
+   "name": "Limits and Continuity",
+   "subtopics": [
+    {
+     "name": "Limit of a function: intuitive idea, left-hand and right-hand limits",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-applied-maths-ch04-st3"
+     ],
+     "note": "Graphs of functions, including step and modulus functions"
+    },
+    {
+     "name": "Evaluating limits: algebraic methods, rationalisation and standard limits",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-applied-maths-ch05-st1",
+      "cbse-g9-maths-ch04-st4"
+     ],
+     "note": "Intuitive limits; factorisation using identities (Cl 9)"
+    },
+    {
+     "name": "Continuity of a function at a point and over an interval",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-applied-maths-ch05-st1"
+     ],
+     "note": "Left-hand and right-hand limits; function values"
+    }
+   ]
+  },
+  {
+   "sheetName": "Differentiation",
+   "name": "Differentiation",
+   "subtopics": [
+    {
+     "name": "Derivative as rate of change; derivative from first principles",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-applied-maths-ch05-st2"
+     ],
+     "note": "Evaluating limits; slope of a line"
+    },
+    {
+     "name": "Rules of differentiation: sum, product, quotient and chain rule",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-applied-maths-ch06-st1"
+     ],
+     "note": "Derivative from first principles; composition of functions"
+    },
+    {
+     "name": "Derivatives of exponential, logarithmic, implicit and parametric functions",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-applied-maths-ch06-st2",
+      "cbse-g11-applied-maths-ch01-st2"
+     ],
+     "note": "Rules of differentiation; laws of logarithms"
+    },
+    {
+     "name": "Second-order derivatives",
+     "weight": "L",
+     "prereq": [
+      "cbse-g11-applied-maths-ch06-st2"
+     ],
+     "note": "Rules of differentiation"
+    }
+   ]
+  },
+  {
+   "sheetName": "Permutations & combinations",
+   "name": "Permutations and Combinations",
+   "subtopics": [
+    {
+     "name": "Fundamental principle of counting and factorial notation",
+     "weight": "S",
+     "prereq": [
+      "cbse-g10-maths-ch14-st3"
+     ],
+     "note": "Listing outcomes of experiments (Cl 9-10)"
+    },
+    {
+     "name": "Permutations: with and without repetition, circular permutations",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-applied-maths-ch07-st1"
+     ],
+     "note": "Fundamental principle of counting; factorials"
+    },
+    {
+     "name": "Combinations and their applications",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-applied-maths-ch07-st2"
+     ],
+     "note": "Permutations; whether order matters in a selection"
+    }
+   ]
+  },
+  {
+   "sheetName": "Probability",
+   "name": "Probability",
+   "subtopics": [
+    {
+     "name": "Random experiments, sample space and types of events",
+     "weight": "S",
+     "prereq": [
+      "cbse-g10-maths-ch14-st2"
+     ],
+     "note": "Complementary, impossible and sure events (Cl 10)"
+    },
+    {
+     "name": "Axiomatic probability and the addition theorem",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-applied-maths-ch08-st1",
+      "cbse-g11-applied-maths-ch07-st3",
+      "cbse-g11-applied-maths-ch02-st2"
+     ],
+     "note": "Sample space; combinations; union and intersection of sets"
+    },
+    {
+     "name": "Conditional probability and independent events",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-applied-maths-ch08-st2"
+     ],
+     "note": "Axiomatic probability; multiplication of fractions"
+    },
+    {
+     "name": "Total probability and Bayes' theorem",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-applied-maths-ch08-st3"
+     ],
+     "note": "Conditional probability; tree diagrams (Cl 9)"
+    }
+   ]
+  },
+  {
+   "sheetName": "Descriptive statistics (dispersion, percentiles)",
+   "name": "Descriptive Statistics: Dispersion and Percentiles",
+   "subtopics": [
+    {
+     "name": "Data interpretation: frequency distributions and graphical representation",
+     "weight": "L",
+     "prereq": [
+      "cbse-g10-maths-ch13-st1"
+     ],
+     "note": "Grouped frequency tables and histograms (Cl 9-10)"
+    },
+    {
+     "name": "Measures of dispersion: range, quartile deviation and mean deviation",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-applied-maths-ch09-st1",
+      "cbse-g10-maths-ch13-st3"
+     ],
+     "note": "Median and cumulative frequency (Cl 10)"
+    },
+    {
+     "name": "Variance, standard deviation and coefficient of variation",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-applied-maths-ch09-st2"
+     ],
+     "note": "Mean of grouped data (Cl 10); squaring deviations"
+    },
+    {
+     "name": "Percentiles, quartiles and percentile rank",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-applied-maths-ch09-st1",
+      "cbse-g10-maths-ch13-st3"
+     ],
+     "note": "Median of grouped data using cumulative frequency (Cl 10)"
+    }
+   ]
+  },
+  {
+   "sheetName": "Correlation & regression",
+   "name": "Correlation and Regression",
+   "subtopics": [
+    {
+     "name": "Bivariate data and scatter diagrams",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-applied-maths-ch09-st1",
+      "cbse-g9-maths-ch01-st1"
+     ],
+     "note": "Plotting points (Cl 9); frequency tables"
+    },
+    {
+     "name": "Karl Pearson's coefficient of correlation",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-applied-maths-ch10-st1",
+      "cbse-g11-applied-maths-ch09-st3"
+     ],
+     "note": "Scatter diagrams; standard deviation"
+    },
+    {
+     "name": "Spearman's rank correlation coefficient",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-applied-maths-ch10-st1"
+     ],
+     "note": "Ranking data, including tied ranks"
+    },
+    {
+     "name": "Lines of regression and prediction",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-applied-maths-ch10-st2",
+      "cbse-g9-maths-ch13-st3"
+     ],
+     "note": "Karl Pearson's correlation; graph of a linear equation in two variables (Cl 9)"
+    }
+   ]
+  },
+  {
+   "sheetName": "Interest & annuities",
+   "name": "Interest and Annuities",
+   "subtopics": [
+    {
+     "name": "Simple and compound interest; nominal and effective rate of interest",
+     "weight": "H",
+     "prereq": [
+      "cbse-g8-maths-ch10-st3",
+      "cbse-g11-applied-maths-ch01-st2"
+     ],
+     "note": "Simple and compound interest (Cl 8); indices and logarithms"
+    },
+    {
+     "name": "Present value and future value of money",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-applied-maths-ch11-st1"
+     ],
+     "note": "Compound interest; working backwards from an amount"
+    },
+    {
+     "name": "Annuities: annuity immediate and annuity due",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-applied-maths-ch11-st2",
+      "cbse-g11-applied-maths-ch03-st2"
+     ],
+     "note": "Present and future value; sum of a geometric progression"
+    }
+   ]
+  },
+  {
+   "sheetName": "Taxation",
+   "name": "Taxation",
+   "subtopics": [
+    {
+     "name": "Indirect taxes and the GST structure: CGST, SGST and IGST",
+     "weight": "S",
+     "prereq": [
+      "cbse-g8-maths-ch10-st2"
+     ],
+     "note": "Profit, loss, discount and tax (Cl 8)"
+    },
+    {
+     "name": "Computing GST on goods and services; input tax credit",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-applied-maths-ch12-st1"
+     ],
+     "note": "GST structure; percentage calculations"
+    },
+    {
+     "name": "Calculation of income tax using slab rates",
+     "weight": "S",
+     "prereq": [
+      "cbse-g8-maths-ch10-st1"
+     ],
+     "note": "Percentages and percentage change (Cl 8)"
+    },
+    {
+     "name": "Utility bills: electricity and water bill calculations",
+     "weight": "L",
+     "prereq": [
+      "cbse-g8-maths-ch10-st1"
+     ],
+     "note": "Percentages; reading tariff tables"
+    }
+   ]
+  },
+  {
+   "sheetName": "Straight lines",
+   "name": "Straight Lines",
+   "subtopics": [
+    {
+     "name": "Slope of a line; parallel and perpendicular lines",
+     "weight": "S",
+     "prereq": [
+      "cbse-g10-maths-ch07-st1"
+     ],
+     "note": "Coordinates and distance formula (Cl 10)"
+    },
+    {
+     "name": "Equation of a line in various forms",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-applied-maths-ch13-st1"
+     ],
+     "note": "Slope of a line; graph of a linear equation (Cl 9)"
+    },
+    {
+     "name": "Distance of a point from a line and business applications of lines",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-applied-maths-ch13-st2"
+     ],
+     "note": "Equation of a line; cost-revenue as linear relations"
+    }
+   ]
+  },
+  {
+   "sheetName": "Circles & parabola",
+   "name": "Circles and Parabola",
+   "subtopics": [
+    {
+     "name": "Circle: standard and general equation, centre and radius",
+     "weight": "S",
+     "prereq": [
+      "cbse-g10-maths-ch07-st1"
+     ],
+     "note": "Distance formula (Cl 10); completing the square"
+    },
+    {
+     "name": "Parabola: standard forms, focus, directrix and latus rectum",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-applied-maths-ch13-st2"
+     ],
+     "note": "Equation of a line; distance formula"
+    },
+    {
+     "name": "Applications of circles and parabolas in real contexts",
+     "weight": "L",
+     "prereq": [
+      "cbse-g11-applied-maths-ch14-st1",
+      "cbse-g11-applied-maths-ch14-st2"
+     ],
+     "note": "Equations of circle and parabola"
+    }
+   ]
+  }
+ ]
 }

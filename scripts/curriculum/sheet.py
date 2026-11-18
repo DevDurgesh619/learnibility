@@ -30,17 +30,17 @@ SLUG = {
     "enterprenuership": "entrepreneurship", "management behavior studeos": "management-behaviour",
     "history": "history", "pol science": "political-science", "geography": "geography", "sociology": "sociology",
 }
-# board-specific slug overrides where the board's real course is a different subject
-SLUG_OVERRIDE = {
-    ("cambridge", "ip and information practice"): "information-technology",
-    ("cambridge", "legal studies"): "law",
-    ("cambridge", "pol science"): "global-perspectives",
-    ("cambridge", "maths - stats"): "statistics",
-    ("ib", "ip and information practice"): "digital-society",
-    ("ib", "maths - stats"): "maths-ai",
-    ("ib", "pol science"): "global-politics",
-    ("ib", "sociology"): "anthropology",
+# Slugs follow the cost-sheet seat on every board (shared with the question-bank targets), so the
+# real course is named in `name` / `programme`: e.g. IB Global Politics = ib-g11-political-science.
+# NAME_OVERRIDE gives each board's real course name for those seats.
+NAME_OVERRIDE = {
+    ("cambridge", "informatics"): "Information Technology", ("cambridge", "legal-studies"): "Law",
+    ("cambridge", "political-science"): "Global Perspectives & Research",
+    ("ib", "informatics"): "Digital Society", ("ib", "political-science"): "Global Politics",
+    ("ib", "sociology"): "Social & Cultural Anthropology",
 }
+CAMBRIDGE_G12_STATS = "Probability & Statistics 2"
+IB_MATHS_AI = "Mathematics: Applications & Interpretation"
 
 NAMES = {  # (board or '*', slug) -> display name
     ("*", "maths"): "Mathematics", ("*", "science"): "Science", ("*", "social-science"): "Social Science",
@@ -52,7 +52,6 @@ NAMES = {  # (board or '*', slug) -> display name
     ("*", "applied-maths"): "Applied Mathematics", ("*", "legal-studies"): "Legal Studies",
     ("*", "entrepreneurship"): "Entrepreneurship", ("*", "political-science"): "Political Science",
     ("*", "sociology"): "Sociology", ("*", "information-technology"): "Information Technology", ("*", "law"): "Law",
-    ("*", "global-perspectives"): "Global Perspectives & Research", ("*", "statistics"): "Probability & Statistics 2",
     ("*", "digital-society"): "Digital Society", ("*", "maths-ai"): "Mathematics: Applications & Interpretation",
     ("*", "global-politics"): "Global Politics", ("*", "anthropology"): "Social & Cultural Anthropology",
     ("*", "hindi-b"): "Hindi (Course B)", ("*", "maths-advanced"): "Mathematics at Advanced Level",
@@ -143,6 +142,13 @@ def _parse_names(s):
             out.append(seg)
     return out
 
+def _name(board, grade, slug):
+    if slug == "applied-maths" and board == "cambridge":
+        return CAMBRIDGE_G12_STATS
+    if slug == "applied-maths" and board == "ib":
+        return IB_MATHS_AI
+    return NAME_OVERRIDE.get((board, slug)) or NAMES.get((board, slug)) or NAMES[("*", slug)]
+
 def subject_id(board, grade, slug):
     return f"{board}-g{grade}-{slug}"
 
@@ -162,13 +168,13 @@ def read_rows(path=COST_SHEET):
                 continue
             grade = int(re.match(r"(\d+)", str(r[1])).group(1))
             label = r[3].strip().lower()
-            slug = SLUG_OVERRIDE.get((board, label), SLUG[label])
+            slug = SLUG[label]
             sid = subject_id(board, grade, slug)
             names = CHAPTER_OVERRIDES.get(sid) or _parse_names(r[6])
             chapters = int(_num(r[5]))
             rows.append(dict(
                 id=sid, board=board, grade=grade, stream=(stream if grade >= 11 else "none"), slug=slug,
-                name=NAMES.get((board, slug)) or NAMES[("*", slug)], label=r[3].strip(), tab=tab.strip(), row=i,
+                name=_name(board, grade, slug), label=r[3].strip(), tab=tab.strip(), row=i,
                 course=(r[4] or "").strip(), chapterCount=chapters,
                 chapterNames=names if len(names) == chapters else None, chapterHint=r[6],
                 perChapter=_num(r[7]), bankQuestions=_num(r[8]), practiceTests=_num(r[9]),

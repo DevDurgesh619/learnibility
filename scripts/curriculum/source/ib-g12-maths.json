@@ -1,507 +1,507 @@
 {
-  "subjectId": "ib-g12-maths",
-  "chapters": [
+ "subjectId": "ib-g12-maths",
+ "chapters": [
+  {
+   "name": "Trigonometric Functions and Identities (SL 3.5-3.6; AHL 3.9-3.11)",
+   "subtopics": [
     {
-      "name": "Trigonometric Functions and Identities (SL 3.5-3.6; AHL 3.9-3.11)",
-      "subtopics": [
-        {
-          "name": "SL 3.5 The unit circle definitions of sin, cos and tan; exact values",
-          "weight": "H",
-          "prereq": [
-            "ib-g11-maths-ch13-st4",
-            "ib-g10-maths-ch08-st1"
-          ],
-          "note": "Radians; trig ratios of any angle (MYP 5)"
-        },
-        {
-          "name": "SL 3.6 Pythagorean identity and double angle identities for sine and cosine",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-maths-ch01-st1"
-          ],
-          "note": "Unit circle definitions"
-        },
-        {
-          "name": "AHL 3.9 Reciprocal trig ratios sec, cosec, cot; inverse trig functions arcsin, arccos, arctan",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-maths-ch01-st1",
-            "ib-g11-maths-ch08-st2"
-          ],
-          "note": "Unit circle; inverse functions (DP1)"
-        },
-        {
-          "name": "AHL 3.10 Compound angle identities and double angle for tangent",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-maths-ch01-st2"
-          ],
-          "note": "Double angle identities"
-        },
-        {
-          "name": "AHL 3.11 Symmetry properties of trigonometric graphs",
-          "weight": "L",
-          "prereq": [
-            "ib-g12-maths-ch01-st1",
-            "ib-g11-maths-ch08-st2"
-          ],
-          "note": "Unit circle; odd and even functions (DP1)"
-        }
-      ]
+     "name": "SL 3.5 The unit circle definitions of sin, cos and tan; exact values",
+     "weight": "H",
+     "prereq": [
+      "ib-g11-maths-ch13-st4",
+      "ib-g10-maths-ch08-st1"
+     ],
+     "note": "Radians; trig ratios of any angle (MYP 5)"
     },
     {
-      "name": "Trigonometric Graphs and Equations (SL 3.7-3.8)",
-      "subtopics": [
-        {
-          "name": "SL 3.7 Circular functions: amplitude, period, horizontal and vertical translations, modelling",
-          "weight": "S",
-          "prereq": [
-            "ib-g10-maths-ch09-st2",
-            "ib-g11-maths-ch08-st1"
-          ],
-          "note": "Trig graphs (MYP 5); transformations (DP1)"
-        },
-        {
-          "name": "SL 3.8 Solving trigonometric equations in a finite interval, including quadratic types",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-maths-ch01-st2",
-            "ib-g11-maths-ch06-st2"
-          ],
-          "note": "Identities; unit circle; solving quadratics"
-        },
-        {
-          "name": "Applications of trigonometric models to periodic contexts",
-          "weight": "L",
-          "prereq": [
-            "ib-g12-maths-ch02-st1"
-          ],
-          "note": "Circular functions"
-        }
-      ]
+     "name": "SL 3.6 Pythagorean identity and double angle identities for sine and cosine",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-maths-ch01-st1"
+     ],
+     "note": "Unit circle definitions"
     },
     {
-      "name": "Vectors (AHL 3.12-3.13)",
-      "subtopics": [
-        {
-          "name": "AHL 3.12 Vector concepts in 2D and 3D: components, magnitude, unit vectors, position vectors",
-          "weight": "S",
-          "prereq": [
-            "ib-g10-maths-ch10-st3",
-            "ib-g11-maths-ch13-st1"
-          ],
-          "note": "Vectors (MYP 5); 3D distance (DP1)"
-        },
-        {
-          "name": "AHL 3.13 The scalar product and the angle between two vectors; perpendicular vectors",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-maths-ch03-st1",
-            "ib-g11-maths-ch13-st2"
-          ],
-          "note": "Vector components; cosine rule"
-        },
-        {
-          "name": "Vector geometry problems in 2D and 3D",
-          "weight": "L",
-          "prereq": [
-            "ib-g12-maths-ch03-st2"
-          ],
-          "note": "Vector operations; scalar product"
-        }
-      ]
+     "name": "AHL 3.9 Reciprocal trig ratios sec, cosec, cot; inverse trig functions arcsin, arccos, arctan",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-maths-ch01-st1",
+      "ib-g11-maths-ch08-st2"
+     ],
+     "note": "Unit circle; inverse functions (DP1)"
     },
     {
-      "name": "Lines and Planes in 3D (AHL 3.14-3.18)",
-      "subtopics": [
-        {
-          "name": "AHL 3.14 Vector equation of a line in 2D and 3D; parametric and Cartesian forms",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-maths-ch03-st1"
-          ],
-          "note": "Position vectors"
-        },
-        {
-          "name": "AHL 3.15 Classification of lines: parallel, intersecting, skew; points of intersection",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-maths-ch04-st1",
-            "ib-g11-maths-ch09-st5"
-          ],
-          "note": "Vector equation of a line; systems of equations (DP1)"
-        },
-        {
-          "name": "AHL 3.16 The vector product and its geometric interpretation; areas",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-maths-ch03-st2"
-          ],
-          "note": "Scalar product; 3x3 components"
-        },
-        {
-          "name": "AHL 3.17 Vector and Cartesian equations of a plane",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-maths-ch04-st3"
-          ],
-          "note": "Vector product; normal vectors"
-        },
-        {
-          "name": "AHL 3.18 Intersections and angles between lines and planes; distances",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-maths-ch04-st4",
-            "ib-g12-maths-ch04-st2"
-          ],
-          "note": "Equations of planes and lines"
-        }
-      ]
+     "name": "AHL 3.10 Compound angle identities and double angle for tangent",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-maths-ch01-st2"
+     ],
+     "note": "Double angle identities"
     },
     {
-      "name": "Limits and Introduction to Differentiation (SL 5.1-5.4; AHL 5.12)",
-      "subtopics": [
-        {
-          "name": "SL 5.1 Concept of a limit and the derivative as gradient function and rate of change",
-          "weight": "S",
-          "prereq": [
-            "ib-g9-maths-ch07-st1",
-            "ib-g11-maths-ch01-st5"
-          ],
-          "note": "Gradient of a line (MYP 4); sequences converging (DP1)"
-        },
-        {
-          "name": "SL 5.2 Increasing and decreasing functions; graphical interpretation of f'(x)",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-maths-ch05-st1"
-          ],
-          "note": "Concept of the derivative"
-        },
-        {
-          "name": "SL 5.3 Derivative of axⁿ for rational n and sums of such terms",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-maths-ch05-st1",
-            "ib-g11-maths-ch02-st2"
-          ],
-          "note": "Exponent laws with rational exponents (DP1)"
-        },
-        {
-          "name": "SL 5.4 Tangents and normals at a given point",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-maths-ch05-st3",
-            "ib-g11-maths-ch05-st1"
-          ],
-          "note": "Derivative of axⁿ; equations of lines (DP1)"
-        },
-        {
-          "name": "AHL 5.12 Continuity, differentiability and differentiation from first principles",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-maths-ch05-st1",
-            "ib-g11-maths-ch03-st2"
-          ],
-          "note": "Limits; binomial expansion (DP1)"
-        }
-      ]
-    },
-    {
-      "name": "Differentiation Rules (SL 5.6; AHL 5.14-5.15)",
-      "subtopics": [
-        {
-          "name": "SL 5.6 Derivatives of sin x, cos x, eˣ and ln x",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-maths-ch05-st3",
-            "ib-g11-maths-ch07-st2"
-          ],
-          "note": "Derivative of axⁿ; exponential and log functions (DP1)"
-        },
-        {
-          "name": "SL 5.6 The chain rule, product rule and quotient rule",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-maths-ch06-st1",
-            "ib-g11-maths-ch05-st4"
-          ],
-          "note": "Standard derivatives; composite functions (DP1)"
-        },
-        {
-          "name": "AHL 5.15 Derivatives of tan x, sec x, cosec x, cot x, aˣ, logₐx and inverse trig functions",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-maths-ch06-st2",
-            "ib-g12-maths-ch01-st3"
-          ],
-          "note": "Chain rule; reciprocal and inverse trig"
-        },
-        {
-          "name": "AHL 5.14 Implicit differentiation",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-maths-ch06-st2"
-          ],
-          "note": "Chain rule"
-        }
-      ]
-    },
-    {
-      "name": "Applications of Differentiation (SL 5.7-5.8; AHL 5.14)",
-      "subtopics": [
-        {
-          "name": "SL 5.7 The second derivative and the graphical behaviour of f, f' and f''",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-maths-ch06-st2"
-          ],
-          "note": "Differentiation rules"
-        },
-        {
-          "name": "SL 5.8 Local maxima and minima, points of inflection, and optimisation problems",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-maths-ch07-st1",
-            "ib-g12-maths-ch05-st4"
-          ],
-          "note": "Second derivative; tangents"
-        },
-        {
-          "name": "AHL 5.14 Related rates of change",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-maths-ch06-st4"
-          ],
-          "note": "Implicit differentiation; chain rule"
-        },
-        {
-          "name": "Curve sketching using calculus and technology",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-maths-ch07-st2",
-            "ib-g11-maths-ch05-st3"
-          ],
-          "note": "Stationary points; asymptotes (DP1)"
-        }
-      ]
-    },
-    {
-      "name": "Integration (SL 5.5, 5.10, 5.11)",
-      "subtopics": [
-        {
-          "name": "SL 5.5 Introduction to integration as anti-differentiation; boundary conditions",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-maths-ch05-st3"
-          ],
-          "note": "Derivative of axⁿ"
-        },
-        {
-          "name": "SL 5.10 Indefinite integrals of xⁿ, sin x, cos x, 1/x, eˣ and composites with ax+b; substitution by inspection",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-maths-ch08-st1",
-            "ib-g12-maths-ch06-st2"
-          ],
-          "note": "Standard derivatives; chain rule"
-        },
-        {
-          "name": "SL 5.11 Definite integrals and the area under a curve and between curves",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-maths-ch08-st2"
-          ],
-          "note": "Indefinite integrals"
-        }
-      ]
-    },
-    {
-      "name": "Kinematics (SL 5.9)",
-      "subtopics": [
-        {
-          "name": "SL 5.9 Displacement, velocity and acceleration using derivatives and integrals",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-maths-ch05-st1",
-            "ib-g12-maths-ch08-st3"
-          ],
-          "note": "Derivatives as rates; definite integrals"
-        },
-        {
-          "name": "Distance travelled versus displacement and the use of ∣v∣",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-maths-ch09-st1"
-          ],
-          "note": "Kinematics; area under curves"
-        },
-        {
-          "name": "Kinematics problems with trigonometric and exponential motion",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-maths-ch09-st1",
-            "ib-g12-maths-ch06-st1"
-          ],
-          "note": "Differentiation of trig and exponential functions"
-        }
-      ]
-    },
-    {
-      "name": "Further Integration (AHL 5.16-5.17)",
-      "subtopics": [
-        {
-          "name": "AHL 5.16 Integration by substitution",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-maths-ch08-st2",
-            "ib-g12-maths-ch06-st2"
-          ],
-          "note": "Chain rule; indefinite integrals"
-        },
-        {
-          "name": "AHL 5.16 Integration by parts, including repeated use",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-maths-ch06-st2",
-            "ib-g12-maths-ch08-st2"
-          ],
-          "note": "Product rule; indefinite integrals"
-        },
-        {
-          "name": "Integration using partial fractions and inverse trig results",
-          "weight": "S",
-          "prereq": [
-            "ib-g11-maths-ch09-st4",
-            "ib-g12-maths-ch06-st3"
-          ],
-          "note": "Partial fractions (DP1); inverse trig derivatives"
-        },
-        {
-          "name": "AHL 5.17 Area between a curve and the y-axis; volumes of revolution about the x- and y-axes",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-maths-ch08-st3"
-          ],
-          "note": "Definite integrals; area of a circle"
-        }
-      ]
-    },
-    {
-      "name": "Differential Equations (AHL 5.18)",
-      "subtopics": [
-        {
-          "name": "AHL 5.18 Setting up first-order differential equations from contexts",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-maths-ch05-st1",
-            "ib-g12-maths-ch08-st1"
-          ],
-          "note": "Rates of change; derivatives"
-        },
-        {
-          "name": "AHL 5.18 Solving by separation of variables",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-maths-ch11-st1",
-            "ib-g12-maths-ch10-st1"
-          ],
-          "note": "Integration techniques"
-        },
-        {
-          "name": "AHL 5.18 Homogeneous equations dy/dx = f(y/x) and the integrating factor method",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-maths-ch11-st2",
-            "ib-g12-maths-ch06-st2"
-          ],
-          "note": "Separation of variables; product rule"
-        },
-        {
-          "name": "AHL 5.18 Euler's method for numerical solutions and slope fields",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-maths-ch11-st1",
-            "ib-g12-maths-ch05-st4"
-          ],
-          "note": "First-order DEs; tangents"
-        }
-      ]
-    },
-    {
-      "name": "Maclaurin Series and Limits (AHL 5.13, 5.19)",
-      "subtopics": [
-        {
-          "name": "AHL 5.13 Limits of functions and L'Hôpital's rule; repeated use",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-maths-ch05-st1",
-            "ib-g12-maths-ch06-st2"
-          ],
-          "note": "Limits; differentiation rules"
-        },
-        {
-          "name": "AHL 5.19 Maclaurin series for eˣ, sin x, cos x, ln(1+x) and (1+x)ᵖ",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-maths-ch07-st1",
-            "ib-g11-maths-ch03-st4"
-          ],
-          "note": "Higher derivatives; extended binomial theorem (DP1)"
-        },
-        {
-          "name": "AHL 5.19 Maclaurin series by substitution, products, integration and differentiation",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-maths-ch12-st2"
-          ],
-          "note": "Standard Maclaurin series"
-        },
-        {
-          "name": "AHL 5.19 Maclaurin series from differential equations",
-          "weight": "L",
-          "prereq": [
-            "ib-g12-maths-ch12-st2",
-            "ib-g12-maths-ch11-st1"
-          ],
-          "note": "Maclaurin series; differential equations"
-        }
-      ]
-    },
-    {
-      "name": "Mathematical Exploration (IA) and Paper 3 Problem-Solving",
-      "subtopics": [
-        {
-          "name": "Choosing an exploration topic and defining an aim",
-          "weight": "S",
-          "note": "Familiarity with the SL/AHL syllabus; personal interest"
-        },
-        {
-          "name": "IA criteria: presentation, mathematical communication, personal engagement, reflection and use of mathematics",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-maths-ch13-st1"
-          ],
-          "note": "Choosing a topic and aim"
-        },
-        {
-          "name": "Paper 3: extended problem-solving and generalising from patterns",
-          "weight": "S",
-          "prereq": [
-            "ib-g11-maths-ch03-st5",
-            "ib-g11-maths-ch01-st2"
-          ],
-          "note": "Proof by induction (DP1); sequences"
-        },
-        {
-          "name": "Using technology (GDC, GeoGebra, spreadsheets) to investigate and verify conjectures",
-          "weight": "L",
-          "prereq": [
-            "ib-g11-maths-ch07-st3"
-          ],
-          "note": "Graphing functions with technology (DP1)"
-        }
-      ]
+     "name": "AHL 3.11 Symmetry properties of trigonometric graphs",
+     "weight": "L",
+     "prereq": [
+      "ib-g12-maths-ch01-st1",
+      "ib-g11-maths-ch08-st2"
+     ],
+     "note": "Unit circle; odd and even functions (DP1)"
     }
-  ]
+   ]
+  },
+  {
+   "name": "Trigonometric Graphs and Equations (SL 3.7-3.8)",
+   "subtopics": [
+    {
+     "name": "SL 3.7 Circular functions: amplitude, period, horizontal and vertical translations, modelling",
+     "weight": "S",
+     "prereq": [
+      "ib-g10-maths-ch09-st2",
+      "ib-g11-maths-ch08-st1"
+     ],
+     "note": "Trig graphs (MYP 5); transformations (DP1)"
+    },
+    {
+     "name": "SL 3.8 Solving trigonometric equations in a finite interval, including quadratic types",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-maths-ch01-st2",
+      "ib-g11-maths-ch06-st2"
+     ],
+     "note": "Identities; unit circle; solving quadratics"
+    },
+    {
+     "name": "Applications of trigonometric models to periodic contexts",
+     "weight": "L",
+     "prereq": [
+      "ib-g12-maths-ch02-st1"
+     ],
+     "note": "Circular functions"
+    }
+   ]
+  },
+  {
+   "name": "Vectors (AHL 3.12-3.13)",
+   "subtopics": [
+    {
+     "name": "AHL 3.12 Vector concepts in 2D and 3D: components, magnitude, unit vectors, position vectors",
+     "weight": "S",
+     "prereq": [
+      "ib-g10-maths-ch10-st3",
+      "ib-g11-maths-ch13-st1"
+     ],
+     "note": "Vectors (MYP 5); 3D distance (DP1)"
+    },
+    {
+     "name": "AHL 3.13 The scalar product and the angle between two vectors; perpendicular vectors",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-maths-ch03-st1",
+      "ib-g11-maths-ch13-st2"
+     ],
+     "note": "Vector components; cosine rule"
+    },
+    {
+     "name": "Vector geometry problems in 2D and 3D",
+     "weight": "L",
+     "prereq": [
+      "ib-g12-maths-ch03-st2"
+     ],
+     "note": "Vector operations; scalar product"
+    }
+   ]
+  },
+  {
+   "name": "Lines and Planes in 3D (AHL 3.14-3.18)",
+   "subtopics": [
+    {
+     "name": "AHL 3.14 Vector equation of a line in 2D and 3D; parametric and Cartesian forms",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-maths-ch03-st1"
+     ],
+     "note": "Position vectors"
+    },
+    {
+     "name": "AHL 3.15 Classification of lines: parallel, intersecting, skew; points of intersection",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-maths-ch04-st1",
+      "ib-g11-maths-ch09-st5"
+     ],
+     "note": "Vector equation of a line; systems of equations (DP1)"
+    },
+    {
+     "name": "AHL 3.16 The vector product and its geometric interpretation; areas",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-maths-ch03-st2"
+     ],
+     "note": "Scalar product; 3x3 components"
+    },
+    {
+     "name": "AHL 3.17 Vector and Cartesian equations of a plane",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-maths-ch04-st3"
+     ],
+     "note": "Vector product; normal vectors"
+    },
+    {
+     "name": "AHL 3.18 Intersections and angles between lines and planes; distances",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-maths-ch04-st4",
+      "ib-g12-maths-ch04-st2"
+     ],
+     "note": "Equations of planes and lines"
+    }
+   ]
+  },
+  {
+   "name": "Limits and Introduction to Differentiation (SL 5.1-5.4; AHL 5.12)",
+   "subtopics": [
+    {
+     "name": "SL 5.1 Concept of a limit and the derivative as gradient function and rate of change",
+     "weight": "S",
+     "prereq": [
+      "ib-g9-maths-ch07-st1",
+      "ib-g11-maths-ch01-st5"
+     ],
+     "note": "Gradient of a line (MYP 4); sequences converging (DP1)"
+    },
+    {
+     "name": "SL 5.2 Increasing and decreasing functions; graphical interpretation of f'(x)",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-maths-ch05-st1"
+     ],
+     "note": "Concept of the derivative"
+    },
+    {
+     "name": "SL 5.3 Derivative of axⁿ for rational n and sums of such terms",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-maths-ch05-st1",
+      "ib-g11-maths-ch02-st2"
+     ],
+     "note": "Exponent laws with rational exponents (DP1)"
+    },
+    {
+     "name": "SL 5.4 Tangents and normals at a given point",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-maths-ch05-st3",
+      "ib-g11-maths-ch05-st1"
+     ],
+     "note": "Derivative of axⁿ; equations of lines (DP1)"
+    },
+    {
+     "name": "AHL 5.12 Continuity, differentiability and differentiation from first principles",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-maths-ch05-st1",
+      "ib-g11-maths-ch03-st2"
+     ],
+     "note": "Limits; binomial expansion (DP1)"
+    }
+   ]
+  },
+  {
+   "name": "Differentiation Rules (SL 5.6; AHL 5.14-5.15)",
+   "subtopics": [
+    {
+     "name": "SL 5.6 Derivatives of sin x, cos x, eˣ and ln x",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-maths-ch05-st3",
+      "ib-g11-maths-ch07-st2"
+     ],
+     "note": "Derivative of axⁿ; exponential and log functions (DP1)"
+    },
+    {
+     "name": "SL 5.6 The chain rule, product rule and quotient rule",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-maths-ch06-st1",
+      "ib-g11-maths-ch05-st4"
+     ],
+     "note": "Standard derivatives; composite functions (DP1)"
+    },
+    {
+     "name": "AHL 5.15 Derivatives of tan x, sec x, cosec x, cot x, aˣ, logₐx and inverse trig functions",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-maths-ch06-st2",
+      "ib-g12-maths-ch01-st3"
+     ],
+     "note": "Chain rule; reciprocal and inverse trig"
+    },
+    {
+     "name": "AHL 5.14 Implicit differentiation",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-maths-ch06-st2"
+     ],
+     "note": "Chain rule"
+    }
+   ]
+  },
+  {
+   "name": "Applications of Differentiation (SL 5.7-5.8; AHL 5.14)",
+   "subtopics": [
+    {
+     "name": "SL 5.7 The second derivative and the graphical behaviour of f, f' and f''",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-maths-ch06-st2"
+     ],
+     "note": "Differentiation rules"
+    },
+    {
+     "name": "SL 5.8 Local maxima and minima, points of inflection, and optimisation problems",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-maths-ch07-st1",
+      "ib-g12-maths-ch05-st4"
+     ],
+     "note": "Second derivative; tangents"
+    },
+    {
+     "name": "AHL 5.14 Related rates of change",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-maths-ch06-st4"
+     ],
+     "note": "Implicit differentiation; chain rule"
+    },
+    {
+     "name": "Curve sketching using calculus and technology",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-maths-ch07-st2",
+      "ib-g11-maths-ch05-st3"
+     ],
+     "note": "Stationary points; asymptotes (DP1)"
+    }
+   ]
+  },
+  {
+   "name": "Integration (SL 5.5, 5.10, 5.11)",
+   "subtopics": [
+    {
+     "name": "SL 5.5 Introduction to integration as anti-differentiation; boundary conditions",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-maths-ch05-st3"
+     ],
+     "note": "Derivative of axⁿ"
+    },
+    {
+     "name": "SL 5.10 Indefinite integrals of xⁿ, sin x, cos x, 1/x, eˣ and composites with ax+b; substitution by inspection",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-maths-ch08-st1",
+      "ib-g12-maths-ch06-st2"
+     ],
+     "note": "Standard derivatives; chain rule"
+    },
+    {
+     "name": "SL 5.11 Definite integrals and the area under a curve and between curves",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-maths-ch08-st2"
+     ],
+     "note": "Indefinite integrals"
+    }
+   ]
+  },
+  {
+   "name": "Kinematics (SL 5.9)",
+   "subtopics": [
+    {
+     "name": "SL 5.9 Displacement, velocity and acceleration using derivatives and integrals",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-maths-ch05-st1",
+      "ib-g12-maths-ch08-st3"
+     ],
+     "note": "Derivatives as rates; definite integrals"
+    },
+    {
+     "name": "Distance travelled versus displacement and the use of ∣v∣",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-maths-ch09-st1"
+     ],
+     "note": "Kinematics; area under curves"
+    },
+    {
+     "name": "Kinematics problems with trigonometric and exponential motion",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-maths-ch09-st1",
+      "ib-g12-maths-ch06-st1"
+     ],
+     "note": "Differentiation of trig and exponential functions"
+    }
+   ]
+  },
+  {
+   "name": "Further Integration (AHL 5.16-5.17)",
+   "subtopics": [
+    {
+     "name": "AHL 5.16 Integration by substitution",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-maths-ch08-st2",
+      "ib-g12-maths-ch06-st2"
+     ],
+     "note": "Chain rule; indefinite integrals"
+    },
+    {
+     "name": "AHL 5.16 Integration by parts, including repeated use",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-maths-ch06-st2",
+      "ib-g12-maths-ch08-st2"
+     ],
+     "note": "Product rule; indefinite integrals"
+    },
+    {
+     "name": "Integration using partial fractions and inverse trig results",
+     "weight": "S",
+     "prereq": [
+      "ib-g11-maths-ch09-st4",
+      "ib-g12-maths-ch06-st3"
+     ],
+     "note": "Partial fractions (DP1); inverse trig derivatives"
+    },
+    {
+     "name": "AHL 5.17 Area between a curve and the y-axis; volumes of revolution about the x- and y-axes",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-maths-ch08-st3"
+     ],
+     "note": "Definite integrals; area of a circle"
+    }
+   ]
+  },
+  {
+   "name": "Differential Equations (AHL 5.18)",
+   "subtopics": [
+    {
+     "name": "AHL 5.18 Setting up first-order differential equations from contexts",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-maths-ch05-st1",
+      "ib-g12-maths-ch08-st1"
+     ],
+     "note": "Rates of change; derivatives"
+    },
+    {
+     "name": "AHL 5.18 Solving by separation of variables",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-maths-ch11-st1",
+      "ib-g12-maths-ch10-st1"
+     ],
+     "note": "Integration techniques"
+    },
+    {
+     "name": "AHL 5.18 Homogeneous equations dy/dx = f(y/x) and the integrating factor method",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-maths-ch11-st2",
+      "ib-g12-maths-ch06-st2"
+     ],
+     "note": "Separation of variables; product rule"
+    },
+    {
+     "name": "AHL 5.18 Euler's method for numerical solutions and slope fields",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-maths-ch11-st1",
+      "ib-g12-maths-ch05-st4"
+     ],
+     "note": "First-order DEs; tangents"
+    }
+   ]
+  },
+  {
+   "name": "Maclaurin Series and Limits (AHL 5.13, 5.19)",
+   "subtopics": [
+    {
+     "name": "AHL 5.13 Limits of functions and L'Hôpital's rule; repeated use",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-maths-ch05-st1",
+      "ib-g12-maths-ch06-st2"
+     ],
+     "note": "Limits; differentiation rules"
+    },
+    {
+     "name": "AHL 5.19 Maclaurin series for eˣ, sin x, cos x, ln(1+x) and (1+x)ᵖ",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-maths-ch07-st1",
+      "ib-g11-maths-ch03-st4"
+     ],
+     "note": "Higher derivatives; extended binomial theorem (DP1)"
+    },
+    {
+     "name": "AHL 5.19 Maclaurin series by substitution, products, integration and differentiation",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-maths-ch12-st2"
+     ],
+     "note": "Standard Maclaurin series"
+    },
+    {
+     "name": "AHL 5.19 Maclaurin series from differential equations",
+     "weight": "L",
+     "prereq": [
+      "ib-g12-maths-ch12-st2",
+      "ib-g12-maths-ch11-st1"
+     ],
+     "note": "Maclaurin series; differential equations"
+    }
+   ]
+  },
+  {
+   "name": "Mathematical Exploration (IA) and Paper 3 Problem-Solving",
+   "subtopics": [
+    {
+     "name": "Choosing an exploration topic and defining an aim",
+     "weight": "S",
+     "note": "Familiarity with the SL/AHL syllabus; personal interest"
+    },
+    {
+     "name": "IA criteria: presentation, mathematical communication, personal engagement, reflection and use of mathematics",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-maths-ch13-st1"
+     ],
+     "note": "Choosing a topic and aim"
+    },
+    {
+     "name": "Paper 3: extended problem-solving and generalising from patterns",
+     "weight": "S",
+     "prereq": [
+      "ib-g11-maths-ch03-st5",
+      "ib-g11-maths-ch01-st2"
+     ],
+     "note": "Proof by induction (DP1); sequences"
+    },
+    {
+     "name": "Using technology (GDC, GeoGebra, spreadsheets) to investigate and verify conjectures",
+     "weight": "L",
+     "prereq": [
+      "ib-g11-maths-ch07-st3"
+     ],
+     "note": "Graphing functions with technology (DP1)"
+    }
+   ]
+  }
+ ]
 }

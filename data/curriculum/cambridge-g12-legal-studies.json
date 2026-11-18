@@ -1,0 +1,842 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/curriculum/build.py",
+ "subject": {
+  "id": "cambridge-g12-legal-studies",
+  "board": "cambridge",
+  "grade": 12,
+  "stream": "commerce",
+  "slug": "legal-studies",
+  "name": "Law",
+  "programme": "Cambridge A Level Law 9084 – law of contract + law of tort",
+  "examPattern": "A2: P3 Law of Contract 1 h 30, 75 marks (1 of 2 problems + 2 of 3 essays, 25%) + P4 Law of Tort 1 h 30, 75 marks (same format, 25%).",
+  "chapterCount": 7,
+  "questionTarget": 585
+ },
+ "items": [
+  {
+   "id": "cambridge-g12-legal-studies-ch01",
+   "subjectId": "cambridge-g12-legal-studies",
+   "order": 1,
+   "name": "Law of Contract: Formation of a Contract",
+   "teachingPeriods": 23,
+   "subtopicIds": [
+    "cambridge-g12-legal-studies-ch01-st1",
+    "cambridge-g12-legal-studies-ch01-st2",
+    "cambridge-g12-legal-studies-ch01-st3",
+    "cambridge-g12-legal-studies-ch01-st4",
+    "cambridge-g12-legal-studies-ch01-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g12-legal-studies-ch02",
+   "subjectId": "cambridge-g12-legal-studies",
+   "order": 2,
+   "name": "Law of Contract: Contract Terms",
+   "teachingPeriods": 18,
+   "subtopicIds": [
+    "cambridge-g12-legal-studies-ch02-st1",
+    "cambridge-g12-legal-studies-ch02-st2",
+    "cambridge-g12-legal-studies-ch02-st3",
+    "cambridge-g12-legal-studies-ch02-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g12-legal-studies-ch03",
+   "subjectId": "cambridge-g12-legal-studies",
+   "order": 3,
+   "name": "Law of Contract: Vitiating Factors",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cambridge-g12-legal-studies-ch03-st1",
+    "cambridge-g12-legal-studies-ch03-st2",
+    "cambridge-g12-legal-studies-ch03-st3",
+    "cambridge-g12-legal-studies-ch03-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g12-legal-studies-ch04",
+   "subjectId": "cambridge-g12-legal-studies",
+   "order": 4,
+   "name": "Law of Contract: Discharge and Remedies",
+   "teachingPeriods": 20,
+   "subtopicIds": [
+    "cambridge-g12-legal-studies-ch04-st1",
+    "cambridge-g12-legal-studies-ch04-st2",
+    "cambridge-g12-legal-studies-ch04-st3",
+    "cambridge-g12-legal-studies-ch04-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g12-legal-studies-ch05",
+   "subjectId": "cambridge-g12-legal-studies",
+   "order": 5,
+   "name": "Law of Tort: Negligence",
+   "teachingPeriods": 24,
+   "subtopicIds": [
+    "cambridge-g12-legal-studies-ch05-st1",
+    "cambridge-g12-legal-studies-ch05-st2",
+    "cambridge-g12-legal-studies-ch05-st3",
+    "cambridge-g12-legal-studies-ch05-st4",
+    "cambridge-g12-legal-studies-ch05-st5"
+   ]
+  },
+  {
+   "id": "cambridge-g12-legal-studies-ch06",
+   "subjectId": "cambridge-g12-legal-studies",
+   "order": 6,
+   "name": "Law of Tort: Occupiers' Liability and Nuisance",
+   "teachingPeriods": 15,
+   "subtopicIds": [
+    "cambridge-g12-legal-studies-ch06-st1",
+    "cambridge-g12-legal-studies-ch06-st2",
+    "cambridge-g12-legal-studies-ch06-st3",
+    "cambridge-g12-legal-studies-ch06-st4"
+   ]
+  },
+  {
+   "id": "cambridge-g12-legal-studies-ch07",
+   "subjectId": "cambridge-g12-legal-studies",
+   "order": 7,
+   "name": "Law of Tort: Vicarious Liability, Defences and Remedies",
+   "teachingPeriods": 17,
+   "subtopicIds": [
+    "cambridge-g12-legal-studies-ch07-st1",
+    "cambridge-g12-legal-studies-ch07-st2",
+    "cambridge-g12-legal-studies-ch07-st3",
+    "cambridge-g12-legal-studies-ch07-st4"
+   ]
+  }
+ ],
+ "subtopics": [
+  {
+   "id": "cambridge-g12-legal-studies-ch01-st1",
+   "chapterId": "cambridge-g12-legal-studies-ch01",
+   "order": 1,
+   "name": "Offer and invitation to treat; termination of offer",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-legal-studies-ch03-st1"
+   ],
+   "prerequisiteNote": "Ratio decidendi and using case precedents (AS Judicial precedent)",
+   "learnHours": {
+    "below_avg": 7,
+    "average": 5.6,
+    "above_avg": 5,
+    "excellent": 4.4
+   },
+   "masterHours": {
+    "below_avg": 9.9,
+    "average": 7.4,
+    "above_avg": 6.2,
+    "excellent": 5.2
+   }
+  },
+  {
+   "id": "cambridge-g12-legal-studies-ch01-st2",
+   "chapterId": "cambridge-g12-legal-studies-ch01",
+   "order": 2,
+   "name": "Acceptance and communication of acceptance, including the postal rule",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-legal-studies-ch01-st1"
+   ],
+   "prerequisiteNote": "Offer and its termination",
+   "learnHours": {
+    "below_avg": 4.7,
+    "average": 3.7,
+    "above_avg": 3.3,
+    "excellent": 2.9
+   },
+   "masterHours": {
+    "below_avg": 6.8,
+    "average": 5.1,
+    "above_avg": 4.2,
+    "excellent": 3.6
+   }
+  },
+  {
+   "id": "cambridge-g12-legal-studies-ch01-st3",
+   "chapterId": "cambridge-g12-legal-studies-ch01",
+   "order": 3,
+   "name": "Consideration: adequacy, sufficiency, past consideration and existing duties",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-legal-studies-ch01-st2"
+   ],
+   "prerequisiteNote": "Offer and acceptance; idea of bargain",
+   "learnHours": {
+    "below_avg": 7,
+    "average": 5.6,
+    "above_avg": 5,
+    "excellent": 4.4
+   },
+   "masterHours": {
+    "below_avg": 9.9,
+    "average": 7.4,
+    "above_avg": 6.2,
+    "excellent": 5.2
+   }
+  },
+  {
+   "id": "cambridge-g12-legal-studies-ch01-st4",
+   "chapterId": "cambridge-g12-legal-studies-ch01",
+   "order": 4,
+   "name": "Intention to create legal relations: domestic and commercial agreements",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-legal-studies-ch01-st2"
+   ],
+   "prerequisiteNote": "Offer and acceptance; rebuttable presumptions",
+   "learnHours": {
+    "below_avg": 4.7,
+    "average": 3.7,
+    "above_avg": 3.3,
+    "excellent": 2.9
+   },
+   "masterHours": {
+    "below_avg": 6.8,
+    "average": 5.1,
+    "above_avg": 4.2,
+    "excellent": 3.6
+   }
+  },
+  {
+   "id": "cambridge-g12-legal-studies-ch01-st5",
+   "chapterId": "cambridge-g12-legal-studies-ch01",
+   "order": 5,
+   "name": "Privity of contract and capacity",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g12-legal-studies-ch01-st3"
+   ],
+   "prerequisiteNote": "Consideration; Contracts (Rights of Third Parties) Act 1999",
+   "learnHours": {
+    "below_avg": 3.5,
+    "average": 2.8,
+    "above_avg": 2.5,
+    "excellent": 2.2
+   },
+   "masterHours": {
+    "below_avg": 5.2,
+    "average": 3.9,
+    "above_avg": 3.2,
+    "excellent": 2.7
+   }
+  },
+  {
+   "id": "cambridge-g12-legal-studies-ch02-st1",
+   "chapterId": "cambridge-g12-legal-studies-ch02",
+   "order": 1,
+   "name": "Express and implied terms; incorporation of terms",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-legal-studies-ch01-st4"
+   ],
+   "prerequisiteNote": "Formation of contract; distinction between terms and representations",
+   "learnHours": {
+    "below_avg": 4.7,
+    "average": 3.7,
+    "above_avg": 3.3,
+    "excellent": 2.9
+   },
+   "masterHours": {
+    "below_avg": 6.8,
+    "average": 5.1,
+    "above_avg": 4.2,
+    "excellent": 3.6
+   }
+  },
+  {
+   "id": "cambridge-g12-legal-studies-ch02-st2",
+   "chapterId": "cambridge-g12-legal-studies-ch02",
+   "order": 2,
+   "name": "Conditions, warranties and innominate terms",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-legal-studies-ch02-st1"
+   ],
+   "prerequisiteNote": "Express and implied terms",
+   "learnHours": {
+    "below_avg": 4.7,
+    "average": 3.7,
+    "above_avg": 3.3,
+    "excellent": 2.9
+   },
+   "masterHours": {
+    "below_avg": 6.8,
+    "average": 5.1,
+    "above_avg": 4.2,
+    "excellent": 3.6
+   }
+  },
+  {
+   "id": "cambridge-g12-legal-studies-ch02-st3",
+   "chapterId": "cambridge-g12-legal-studies-ch02",
+   "order": 3,
+   "name": "Statutory implied terms: Consumer Rights Act 2015",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-legal-studies-ch02-st1",
+    "cambridge-g11-legal-studies-ch01-st1"
+   ],
+   "prerequisiteNote": "Implied terms; parliamentary legislation (AS)",
+   "learnHours": {
+    "below_avg": 4.7,
+    "average": 3.7,
+    "above_avg": 3.3,
+    "excellent": 2.9
+   },
+   "masterHours": {
+    "below_avg": 6.8,
+    "average": 5.1,
+    "above_avg": 4.2,
+    "excellent": 3.6
+   }
+  },
+  {
+   "id": "cambridge-g12-legal-studies-ch02-st4",
+   "chapterId": "cambridge-g12-legal-studies-ch02",
+   "order": 4,
+   "name": "Exclusion and limitation clauses: incorporation, construction and statutory control",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-legal-studies-ch02-st1",
+    "cambridge-g12-legal-studies-ch02-st3",
+    "cambridge-g11-legal-studies-ch02-st4"
+   ],
+   "prerequisiteNote": "Incorporation of terms; Consumer Rights Act; applying statutory interpretation (AS)",
+   "learnHours": {
+    "below_avg": 7,
+    "average": 5.6,
+    "above_avg": 5,
+    "excellent": 4.4
+   },
+   "masterHours": {
+    "below_avg": 9.9,
+    "average": 7.4,
+    "above_avg": 6.2,
+    "excellent": 5.2
+   }
+  },
+  {
+   "id": "cambridge-g12-legal-studies-ch03-st1",
+   "chapterId": "cambridge-g12-legal-studies-ch03",
+   "order": 1,
+   "name": "Misrepresentation: types and remedies",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-legal-studies-ch02-st1"
+   ],
+   "prerequisiteNote": "Terms versus representations",
+   "learnHours": {
+    "below_avg": 7,
+    "average": 5.6,
+    "above_avg": 5,
+    "excellent": 4.4
+   },
+   "masterHours": {
+    "below_avg": 9.9,
+    "average": 7.4,
+    "above_avg": 6.2,
+    "excellent": 5.2
+   }
+  },
+  {
+   "id": "cambridge-g12-legal-studies-ch03-st2",
+   "chapterId": "cambridge-g12-legal-studies-ch03",
+   "order": 2,
+   "name": "Mistake: common, mutual and unilateral mistake",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-legal-studies-ch01-st2"
+   ],
+   "prerequisiteNote": "Offer and acceptance (consensus ad idem)",
+   "learnHours": {
+    "below_avg": 4.7,
+    "average": 3.7,
+    "above_avg": 3.3,
+    "excellent": 2.9
+   },
+   "masterHours": {
+    "below_avg": 6.8,
+    "average": 5.1,
+    "above_avg": 4.2,
+    "excellent": 3.6
+   }
+  },
+  {
+   "id": "cambridge-g12-legal-studies-ch03-st3",
+   "chapterId": "cambridge-g12-legal-studies-ch03",
+   "order": 3,
+   "name": "Economic duress and undue influence",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-legal-studies-ch03-st1"
+   ],
+   "prerequisiteNote": "Misrepresentation; voidable contracts",
+   "learnHours": {
+    "below_avg": 4.7,
+    "average": 3.7,
+    "above_avg": 3.3,
+    "excellent": 2.9
+   },
+   "masterHours": {
+    "below_avg": 6.8,
+    "average": 5.1,
+    "above_avg": 4.2,
+    "excellent": 3.6
+   }
+  },
+  {
+   "id": "cambridge-g12-legal-studies-ch03-st4",
+   "chapterId": "cambridge-g12-legal-studies-ch03",
+   "order": 4,
+   "name": "Illegality and contracts in restraint of trade",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g12-legal-studies-ch03-st3"
+   ],
+   "prerequisiteNote": "Void and voidable contracts",
+   "learnHours": {
+    "below_avg": 3.5,
+    "average": 2.8,
+    "above_avg": 2.5,
+    "excellent": 2.2
+   },
+   "masterHours": {
+    "below_avg": 5.2,
+    "average": 3.9,
+    "above_avg": 3.2,
+    "excellent": 2.7
+   }
+  },
+  {
+   "id": "cambridge-g12-legal-studies-ch04-st1",
+   "chapterId": "cambridge-g12-legal-studies-ch04",
+   "order": 1,
+   "name": "Discharge by performance and the doctrine of substantial performance",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-legal-studies-ch02-st2"
+   ],
+   "prerequisiteNote": "Conditions and warranties",
+   "learnHours": {
+    "below_avg": 4.7,
+    "average": 3.7,
+    "above_avg": 3.3,
+    "excellent": 2.9
+   },
+   "masterHours": {
+    "below_avg": 6.8,
+    "average": 5.1,
+    "above_avg": 4.2,
+    "excellent": 3.6
+   }
+  },
+  {
+   "id": "cambridge-g12-legal-studies-ch04-st2",
+   "chapterId": "cambridge-g12-legal-studies-ch04",
+   "order": 2,
+   "name": "Discharge by agreement, frustration and breach (actual and anticipatory)",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-legal-studies-ch04-st1"
+   ],
+   "prerequisiteNote": "Performance; repudiatory breach of condition",
+   "learnHours": {
+    "below_avg": 7,
+    "average": 5.6,
+    "above_avg": 5,
+    "excellent": 4.4
+   },
+   "masterHours": {
+    "below_avg": 9.9,
+    "average": 7.4,
+    "above_avg": 6.2,
+    "excellent": 5.2
+   }
+  },
+  {
+   "id": "cambridge-g12-legal-studies-ch04-st3",
+   "chapterId": "cambridge-g12-legal-studies-ch04",
+   "order": 3,
+   "name": "Damages: causation, remoteness and mitigation of loss",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-legal-studies-ch04-st2"
+   ],
+   "prerequisiteNote": "Breach; remoteness test (Hadley v Baxendale)",
+   "learnHours": {
+    "below_avg": 7,
+    "average": 5.6,
+    "above_avg": 5,
+    "excellent": 4.4
+   },
+   "masterHours": {
+    "below_avg": 9.9,
+    "average": 7.4,
+    "above_avg": 6.2,
+    "excellent": 5.2
+   }
+  },
+  {
+   "id": "cambridge-g12-legal-studies-ch04-st4",
+   "chapterId": "cambridge-g12-legal-studies-ch04",
+   "order": 4,
+   "name": "Equitable remedies: specific performance, injunction and rescission",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-legal-studies-ch04-st3",
+    "cambridge-g12-legal-studies-ch03-st1"
+   ],
+   "prerequisiteNote": "Damages as the common-law remedy; rescission for misrepresentation",
+   "learnHours": {
+    "below_avg": 4.7,
+    "average": 3.7,
+    "above_avg": 3.3,
+    "excellent": 2.9
+   },
+   "masterHours": {
+    "below_avg": 6.8,
+    "average": 5.1,
+    "above_avg": 4.2,
+    "excellent": 3.6
+   }
+  },
+  {
+   "id": "cambridge-g12-legal-studies-ch05-st1",
+   "chapterId": "cambridge-g12-legal-studies-ch05",
+   "order": 1,
+   "name": "Duty of care: the Caparo test and incremental approach",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g11-legal-studies-ch03-st1"
+   ],
+   "prerequisiteNote": "Ratio decidendi and precedent (AS); Donoghue v Stevenson neighbour principle",
+   "learnHours": {
+    "below_avg": 7,
+    "average": 5.6,
+    "above_avg": 5,
+    "excellent": 4.4
+   },
+   "masterHours": {
+    "below_avg": 9.9,
+    "average": 7.4,
+    "above_avg": 6.2,
+    "excellent": 5.2
+   }
+  },
+  {
+   "id": "cambridge-g12-legal-studies-ch05-st2",
+   "chapterId": "cambridge-g12-legal-studies-ch05",
+   "order": 2,
+   "name": "Breach of duty: the reasonable person standard and risk factors",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-legal-studies-ch05-st1",
+    "cambridge-g11-legal-studies-ch06-st3"
+   ],
+   "prerequisiteNote": "Duty of care; negligence as a standard (AS Criminal law mens rea)",
+   "learnHours": {
+    "below_avg": 4.7,
+    "average": 3.7,
+    "above_avg": 3.3,
+    "excellent": 2.9
+   },
+   "masterHours": {
+    "below_avg": 6.8,
+    "average": 5.1,
+    "above_avg": 4.2,
+    "excellent": 3.6
+   }
+  },
+  {
+   "id": "cambridge-g12-legal-studies-ch05-st3",
+   "chapterId": "cambridge-g12-legal-studies-ch05",
+   "order": 3,
+   "name": "Damage: causation in fact, legal causation and remoteness",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-legal-studies-ch05-st2",
+    "cambridge-g11-legal-studies-ch06-st2"
+   ],
+   "prerequisiteNote": "Breach of duty; causation in criminal law (AS)",
+   "learnHours": {
+    "below_avg": 7,
+    "average": 5.6,
+    "above_avg": 5,
+    "excellent": 4.4
+   },
+   "masterHours": {
+    "below_avg": 9.9,
+    "average": 7.4,
+    "above_avg": 6.2,
+    "excellent": 5.2
+   }
+  },
+  {
+   "id": "cambridge-g12-legal-studies-ch05-st4",
+   "chapterId": "cambridge-g12-legal-studies-ch05",
+   "order": 4,
+   "name": "Pure economic loss and negligent misstatement",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-legal-studies-ch05-st1"
+   ],
+   "prerequisiteNote": "Duty of care; Hedley Byrne v Heller",
+   "learnHours": {
+    "below_avg": 4.7,
+    "average": 3.7,
+    "above_avg": 3.3,
+    "excellent": 2.9
+   },
+   "masterHours": {
+    "below_avg": 6.8,
+    "average": 5.1,
+    "above_avg": 4.2,
+    "excellent": 3.6
+   }
+  },
+  {
+   "id": "cambridge-g12-legal-studies-ch05-st5",
+   "chapterId": "cambridge-g12-legal-studies-ch05",
+   "order": 5,
+   "name": "Psychiatric injury: primary and secondary victims",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-legal-studies-ch05-st1"
+   ],
+   "prerequisiteNote": "Duty of care; Alcock control mechanisms",
+   "learnHours": {
+    "below_avg": 4.7,
+    "average": 3.7,
+    "above_avg": 3.3,
+    "excellent": 2.9
+   },
+   "masterHours": {
+    "below_avg": 6.8,
+    "average": 5.1,
+    "above_avg": 4.2,
+    "excellent": 3.6
+   }
+  },
+  {
+   "id": "cambridge-g12-legal-studies-ch06-st1",
+   "chapterId": "cambridge-g12-legal-studies-ch06",
+   "order": 1,
+   "name": "Occupiers' Liability Act 1957: lawful visitors",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-legal-studies-ch05-st2",
+    "cambridge-g11-legal-studies-ch02-st4"
+   ],
+   "prerequisiteNote": "Breach of duty; applying statutory interpretation (AS)",
+   "learnHours": {
+    "below_avg": 4.7,
+    "average": 3.7,
+    "above_avg": 3.3,
+    "excellent": 2.9
+   },
+   "masterHours": {
+    "below_avg": 6.8,
+    "average": 5.1,
+    "above_avg": 4.2,
+    "excellent": 3.6
+   }
+  },
+  {
+   "id": "cambridge-g12-legal-studies-ch06-st2",
+   "chapterId": "cambridge-g12-legal-studies-ch06",
+   "order": 2,
+   "name": "Occupiers' Liability Act 1984: trespassers",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-legal-studies-ch06-st1"
+   ],
+   "prerequisiteNote": "Occupiers' Liability Act 1957",
+   "learnHours": {
+    "below_avg": 4.7,
+    "average": 3.7,
+    "above_avg": 3.3,
+    "excellent": 2.9
+   },
+   "masterHours": {
+    "below_avg": 6.8,
+    "average": 5.1,
+    "above_avg": 4.2,
+    "excellent": 3.6
+   }
+  },
+  {
+   "id": "cambridge-g12-legal-studies-ch06-st3",
+   "chapterId": "cambridge-g12-legal-studies-ch06",
+   "order": 3,
+   "name": "Private nuisance: unreasonable use of land and relevant factors",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-legal-studies-ch05-st1"
+   ],
+   "prerequisiteNote": "Duty and fault in negligence; interests in land",
+   "learnHours": {
+    "below_avg": 4.7,
+    "average": 3.7,
+    "above_avg": 3.3,
+    "excellent": 2.9
+   },
+   "masterHours": {
+    "below_avg": 6.8,
+    "average": 5.1,
+    "above_avg": 4.2,
+    "excellent": 3.6
+   }
+  },
+  {
+   "id": "cambridge-g12-legal-studies-ch06-st4",
+   "chapterId": "cambridge-g12-legal-studies-ch06",
+   "order": 4,
+   "name": "The rule in Rylands v Fletcher",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g12-legal-studies-ch06-st3"
+   ],
+   "prerequisiteNote": "Private nuisance; strict liability (AS Criminal law)",
+   "learnHours": {
+    "below_avg": 3.5,
+    "average": 2.8,
+    "above_avg": 2.5,
+    "excellent": 2.2
+   },
+   "masterHours": {
+    "below_avg": 5.2,
+    "average": 3.9,
+    "above_avg": 3.2,
+    "excellent": 2.7
+   }
+  },
+  {
+   "id": "cambridge-g12-legal-studies-ch07-st1",
+   "chapterId": "cambridge-g12-legal-studies-ch07",
+   "order": 1,
+   "name": "Vicarious liability: employee status and the close connection test",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-legal-studies-ch05-st3"
+   ],
+   "prerequisiteNote": "Negligence elements; employer-employee relationship",
+   "learnHours": {
+    "below_avg": 4.7,
+    "average": 3.7,
+    "above_avg": 3.3,
+    "excellent": 2.9
+   },
+   "masterHours": {
+    "below_avg": 6.8,
+    "average": 5.1,
+    "above_avg": 4.2,
+    "excellent": 3.6
+   }
+  },
+  {
+   "id": "cambridge-g12-legal-studies-ch07-st2",
+   "chapterId": "cambridge-g12-legal-studies-ch07",
+   "order": 2,
+   "name": "Defences: consent (volenti), contributory negligence and illegality",
+   "weight": "H",
+   "teachingPeriods": 6,
+   "prerequisiteIds": [
+    "cambridge-g12-legal-studies-ch05-st3",
+    "cambridge-g12-legal-studies-ch06-st2"
+   ],
+   "prerequisiteNote": "Negligence and occupiers' liability elements",
+   "learnHours": {
+    "below_avg": 7,
+    "average": 5.6,
+    "above_avg": 5,
+    "excellent": 4.4
+   },
+   "masterHours": {
+    "below_avg": 9.9,
+    "average": 7.4,
+    "above_avg": 6.2,
+    "excellent": 5.2
+   }
+  },
+  {
+   "id": "cambridge-g12-legal-studies-ch07-st3",
+   "chapterId": "cambridge-g12-legal-studies-ch07",
+   "order": 3,
+   "name": "Remedies in tort: compensatory damages and injunctions",
+   "weight": "S",
+   "teachingPeriods": 4,
+   "prerequisiteIds": [
+    "cambridge-g12-legal-studies-ch07-st2",
+    "cambridge-g12-legal-studies-ch04-st3"
+   ],
+   "prerequisiteNote": "Defences; contract damages and injunctions (Law of Contract)",
+   "learnHours": {
+    "below_avg": 4.7,
+    "average": 3.7,
+    "above_avg": 3.3,
+    "excellent": 2.9
+   },
+   "masterHours": {
+    "below_avg": 6.8,
+    "average": 5.1,
+    "above_avg": 4.2,
+    "excellent": 3.6
+   }
+  },
+  {
+   "id": "cambridge-g12-legal-studies-ch07-st4",
+   "chapterId": "cambridge-g12-legal-studies-ch07",
+   "order": 4,
+   "name": "Limitation periods and evaluating the law of tort",
+   "weight": "L",
+   "teachingPeriods": 3,
+   "prerequisiteIds": [
+    "cambridge-g12-legal-studies-ch07-st3"
+   ],
+   "prerequisiteNote": "Remedies in tort; compensation culture debate",
+   "learnHours": {
+    "below_avg": 3.5,
+    "average": 2.8,
+    "above_avg": 2.5,
+    "excellent": 2.2
+   },
+   "masterHours": {
+    "below_avg": 5.2,
+    "average": 3.9,
+    "above_avg": 3.2,
+    "excellent": 2.7
+   }
+  }
+ ]
+}

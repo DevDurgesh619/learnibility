@@ -1,480 +1,480 @@
 {
-  "subjectId": "ib-g12-computer-science",
-  "chapters": [
+ "subjectId": "ib-g12-computer-science",
+ "chapters": [
+  {
+   "name": "A3.1 Database Fundamentals",
+   "subtopics": [
     {
-      "name": "A3.1 Database Fundamentals",
-      "subtopics": [
-        {
-          "name": "Features of relational databases: tables, records, fields and data types",
-          "weight": "S",
-          "prereq": [
-            "ib-g11-computer-science-ch09-st1"
-          ],
-          "note": "Data types and records (DP1 B2.1)"
-        },
-        {
-          "name": "Primary, foreign, composite and candidate keys and relationships",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-computer-science-ch01-st1"
-          ],
-          "note": "Relational tables and fields"
-        },
-        {
-          "name": "Database management systems, data integrity and concurrency",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-computer-science-ch01-st1"
-          ],
-          "note": "Relational database features"
-        },
-        {
-          "name": "Comparing relational and non-relational approaches",
-          "weight": "L",
-          "prereq": [
-            "ib-g12-computer-science-ch01-st3"
-          ],
-          "note": "DBMS functions"
-        }
-      ]
+     "name": "Features of relational databases: tables, records, fields and data types",
+     "weight": "S",
+     "prereq": [
+      "ib-g11-computer-science-ch09-st1"
+     ],
+     "note": "Data types and records (DP1 B2.1)"
     },
     {
-      "name": "A3.2 Database Design",
-      "subtopics": [
-        {
-          "name": "Entity-relationship diagrams and cardinality",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-computer-science-ch01-st2"
-          ],
-          "note": "Keys and relationships"
-        },
-        {
-          "name": "Normalisation to first, second and third normal form",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-computer-science-ch01-st2",
-            "ib-g12-computer-science-ch02-st1"
-          ],
-          "note": "Keys; functional dependency"
-        },
-        {
-          "name": "Choosing data types, constraints and validation rules",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-computer-science-ch02-st2"
-          ],
-          "note": "Normalised table design"
-        },
-        {
-          "name": "Database schemas: conceptual, logical and physical",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-computer-science-ch02-st1"
-          ],
-          "note": "ER diagrams"
-        }
-      ]
+     "name": "Primary, foreign, composite and candidate keys and relationships",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-computer-science-ch01-st1"
+     ],
+     "note": "Relational tables and fields"
     },
     {
-      "name": "A3.3 Database Programming",
-      "subtopics": [
-        {
-          "name": "SQL data definition: CREATE, ALTER and DROP",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-computer-science-ch02-st3",
-            "ib-g12-computer-science-ch02-st4"
-          ],
-          "note": "Database schemas and data types"
-        },
-        {
-          "name": "SQL queries: SELECT, WHERE, ORDER BY, joins and aggregate functions",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-computer-science-ch01-st2",
-            "ib-g11-computer-science-ch02-st4"
-          ],
-          "note": "Primary and foreign keys; Boolean logic (DP1 A1.2)"
-        },
-        {
-          "name": "SQL data manipulation: INSERT, UPDATE and DELETE",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-computer-science-ch03-st1"
-          ],
-          "note": "SQL data definition"
-        },
-        {
-          "name": "Views, transactions and ACID properties",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-computer-science-ch03-st2",
-            "ib-g12-computer-science-ch01-st3"
-          ],
-          "note": "SQL queries; concurrency"
-        }
-      ]
+     "name": "Database management systems, data integrity and concurrency",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-computer-science-ch01-st1"
+     ],
+     "note": "Relational database features"
     },
     {
-      "name": "A3.4 Alternative Databases and Data Warehouses (HL)",
-      "subtopics": [
-        {
-          "name": "NoSQL databases: document, key-value, column and graph models",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-computer-science-ch01-st4"
-          ],
-          "note": "Relational versus non-relational"
-        },
-        {
-          "name": "Data warehouses, ETL and OLAP",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-computer-science-ch03-st2"
-          ],
-          "note": "SQL queries and aggregate functions"
-        },
-        {
-          "name": "Distributed databases, replication and partitioning",
-          "weight": "L",
-          "prereq": [
-            "ib-g12-computer-science-ch03-st4",
-            "ib-g11-computer-science-ch05-st4"
-          ],
-          "note": "Network architecture (DP1 A2.2); ACID"
-        },
-        {
-          "name": "Spatial and temporal databases and data lakes",
-          "weight": "L",
-          "prereq": [
-            "ib-g12-computer-science-ch04-st1"
-          ],
-          "note": "NoSQL models"
-        }
-      ]
-    },
-    {
-      "name": "A4.1 Machine Learning Fundamentals",
-      "subtopics": [
-        {
-          "name": "Types of machine learning: supervised, unsupervised and reinforcement learning",
-          "weight": "S",
-          "prereq": [
-            "ib-g11-computer-science-ch08-st1"
-          ],
-          "note": "Algorithms and data (DP1 B1.1)"
-        },
-        {
-          "name": "Applications of machine learning and hardware requirements",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-computer-science-ch05-st1",
-            "ib-g11-computer-science-ch01-st2"
-          ],
-          "note": "Types of machine learning; CPU versus GPU (DP1 A1.1)"
-        },
-        {
-          "name": "Deep learning and the AI/ML/DL distinction",
-          "weight": "L",
-          "prereq": [
-            "ib-g12-computer-science-ch05-st1"
-          ],
-          "note": "Types of machine learning"
-        }
-      ]
-    },
-    {
-      "name": "A4.2 Data Preprocessing (HL)",
-      "subtopics": [
-        {
-          "name": "Data cleaning: missing values, outliers, duplicates and normalisation",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-computer-science-ch05-st1",
-            "ib-g9-maths-ch11-st4"
-          ],
-          "note": "Data quality; mean and spread (MYP statistics)"
-        },
-        {
-          "name": "Feature selection and feature engineering",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-computer-science-ch06-st1"
-          ],
-          "note": "Data cleaning"
-        },
-        {
-          "name": "Dimensionality reduction and the curse of dimensionality",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-computer-science-ch06-st2"
-          ],
-          "note": "Feature selection"
-        }
-      ]
-    },
-    {
-      "name": "A4.3 Machine Learning Approaches",
-      "subtopics": [
-        {
-          "name": "Linear regression for prediction",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-computer-science-ch05-st1",
-            "ib-g9-maths-ch07-st2"
-          ],
-          "note": "Straight-line graphs and gradient (MYP maths); supervised learning"
-        },
-        {
-          "name": "Classification: k-nearest neighbours and decision trees",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-computer-science-ch05-st1",
-            "ib-g9-maths-ch07-st4"
-          ],
-          "note": "Supervised learning; distance between points (MYP maths)"
-        },
-        {
-          "name": "Model evaluation: training/testing split, overfitting, accuracy, precision and recall",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-computer-science-ch07-st1",
-            "ib-g12-computer-science-ch07-st2"
-          ],
-          "note": "Regression and classification"
-        },
-        {
-          "name": "Clustering with k-means and association rule learning",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-computer-science-ch05-st1"
-          ],
-          "note": "Unsupervised learning"
-        },
-        {
-          "name": "Neural networks, reinforcement learning and genetic algorithms",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-computer-science-ch07-st3"
-          ],
-          "note": "Supervised learning; model evaluation"
-        }
-      ]
-    },
-    {
-      "name": "A4.4 Ethical Considerations",
-      "subtopics": [
-        {
-          "name": "Bias in training data and algorithmic fairness",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-computer-science-ch07-st3"
-          ],
-          "note": "Model training and evaluation"
-        },
-        {
-          "name": "Privacy, consent, transparency and accountability in ML systems",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-computer-science-ch08-st1"
-          ],
-          "note": "Bias and fairness"
-        },
-        {
-          "name": "Environmental and societal impact of AI, including misinformation",
-          "weight": "L",
-          "prereq": [
-            "ib-g12-computer-science-ch08-st2"
-          ],
-          "note": "Ethical considerations"
-        }
-      ]
-    },
-    {
-      "name": "B3.1 Fundamentals of OOP for a Single Class",
-      "subtopics": [
-        {
-          "name": "Classes, objects, attributes and methods",
-          "weight": "H",
-          "prereq": [
-            "ib-g11-computer-science-ch09-st4"
-          ],
-          "note": "Functions and variables (DP1 B2.1)"
-        },
-        {
-          "name": "Constructors and instantiating objects",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-computer-science-ch09-st1"
-          ],
-          "note": "Classes and objects"
-        },
-        {
-          "name": "Encapsulation: access modifiers, getters and setters",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-computer-science-ch09-st2"
-          ],
-          "note": "Classes, attributes and methods"
-        },
-        {
-          "name": "Static versus instance variables and methods",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-computer-science-ch09-st2"
-          ],
-          "note": "Classes and objects"
-        },
-        {
-          "name": "UML class diagrams for a single class",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-computer-science-ch09-st3"
-          ],
-          "note": "Classes and encapsulation"
-        }
-      ]
-    },
-    {
-      "name": "B3.2 Features of OOP for Multiple Classes (HL)",
-      "subtopics": [
-        {
-          "name": "Inheritance and superclass/subclass relationships",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-computer-science-ch09-st2"
-          ],
-          "note": "Classes and constructors"
-        },
-        {
-          "name": "Polymorphism: method overriding and overloading",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-computer-science-ch10-st1"
-          ],
-          "note": "Inheritance"
-        },
-        {
-          "name": "Abstraction, abstract classes and interfaces",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-computer-science-ch10-st2"
-          ],
-          "note": "Inheritance and polymorphism"
-        },
-        {
-          "name": "Composition and aggregation; UML for multiple classes",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-computer-science-ch09-st5",
-            "ib-g12-computer-science-ch10-st1"
-          ],
-          "note": "UML for a single class"
-        },
-        {
-          "name": "Design patterns: singleton, factory and observer",
-          "weight": "L",
-          "prereq": [
-            "ib-g12-computer-science-ch10-st4"
-          ],
-          "note": "Composition, inheritance and interfaces"
-        }
-      ]
-    },
-    {
-      "name": "B4.1 Fundamentals of Abstract Data Types (HL)",
-      "subtopics": [
-        {
-          "name": "Abstract data types and their operations",
-          "weight": "S",
-          "prereq": [
-            "ib-g11-computer-science-ch10-st4"
-          ],
-          "note": "Data structures: arrays, stacks and queues (DP1 B2.2)"
-        },
-        {
-          "name": "Linked lists: singly, doubly and circular",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-computer-science-ch11-st1",
-            "ib-g12-computer-science-ch09-st2"
-          ],
-          "note": "ADTs; object references"
-        },
-        {
-          "name": "Binary search trees: insertion, deletion and traversals",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-computer-science-ch11-st2",
-            "ib-g11-computer-science-ch11-st4"
-          ],
-          "note": "Linked nodes; recursion (DP1 B2.4)"
-        },
-        {
-          "name": "Sets: union, intersection and difference",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-computer-science-ch11-st1",
-            "ib-g9-maths-ch12-st1"
-          ],
-          "note": "ADTs; Venn diagrams (MYP maths)"
-        },
-        {
-          "name": "Hash tables and dictionaries: hashing and collisions",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-computer-science-ch11-st1"
-          ],
-          "note": "ADTs; arrays"
-        }
-      ]
-    },
-    {
-      "name": "Pre-released Case Study and Internal Assessment",
-      "subtopics": [
-        {
-          "name": "Analysing the pre-released case study: scenario, terminology and challenges",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-computer-science-ch07-st5"
-          ],
-          "note": "Theme A concepts across A1-A4"
-        },
-        {
-          "name": "Answering case study challenge questions in Paper 1",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-computer-science-ch12-st1"
-          ],
-          "note": "Analysing the case study"
-        },
-        {
-          "name": "IA computational solution: problem specification and success criteria",
-          "weight": "H",
-          "prereq": [
-            "ib-g11-computer-science-ch08-st4"
-          ],
-          "note": "Computational thinking (DP1 B1.1)"
-        },
-        {
-          "name": "IA planning, design, development and testing of the product",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-computer-science-ch12-st3",
-            "ib-g12-computer-science-ch10-st1"
-          ],
-          "note": "Programming constructs and OOP"
-        },
-        {
-          "name": "IA evaluation, documentation and video demonstration",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-computer-science-ch12-st4"
-          ],
-          "note": "Testing against success criteria"
-        }
-      ]
+     "name": "Comparing relational and non-relational approaches",
+     "weight": "L",
+     "prereq": [
+      "ib-g12-computer-science-ch01-st3"
+     ],
+     "note": "DBMS functions"
     }
-  ]
+   ]
+  },
+  {
+   "name": "A3.2 Database Design",
+   "subtopics": [
+    {
+     "name": "Entity-relationship diagrams and cardinality",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-computer-science-ch01-st2"
+     ],
+     "note": "Keys and relationships"
+    },
+    {
+     "name": "Normalisation to first, second and third normal form",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-computer-science-ch01-st2",
+      "ib-g12-computer-science-ch02-st1"
+     ],
+     "note": "Keys; functional dependency"
+    },
+    {
+     "name": "Choosing data types, constraints and validation rules",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-computer-science-ch02-st2"
+     ],
+     "note": "Normalised table design"
+    },
+    {
+     "name": "Database schemas: conceptual, logical and physical",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-computer-science-ch02-st1"
+     ],
+     "note": "ER diagrams"
+    }
+   ]
+  },
+  {
+   "name": "A3.3 Database Programming",
+   "subtopics": [
+    {
+     "name": "SQL data definition: CREATE, ALTER and DROP",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-computer-science-ch02-st3",
+      "ib-g12-computer-science-ch02-st4"
+     ],
+     "note": "Database schemas and data types"
+    },
+    {
+     "name": "SQL queries: SELECT, WHERE, ORDER BY, joins and aggregate functions",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-computer-science-ch01-st2",
+      "ib-g11-computer-science-ch02-st4"
+     ],
+     "note": "Primary and foreign keys; Boolean logic (DP1 A1.2)"
+    },
+    {
+     "name": "SQL data manipulation: INSERT, UPDATE and DELETE",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-computer-science-ch03-st1"
+     ],
+     "note": "SQL data definition"
+    },
+    {
+     "name": "Views, transactions and ACID properties",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-computer-science-ch03-st2",
+      "ib-g12-computer-science-ch01-st3"
+     ],
+     "note": "SQL queries; concurrency"
+    }
+   ]
+  },
+  {
+   "name": "A3.4 Alternative Databases and Data Warehouses (HL)",
+   "subtopics": [
+    {
+     "name": "NoSQL databases: document, key-value, column and graph models",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-computer-science-ch01-st4"
+     ],
+     "note": "Relational versus non-relational"
+    },
+    {
+     "name": "Data warehouses, ETL and OLAP",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-computer-science-ch03-st2"
+     ],
+     "note": "SQL queries and aggregate functions"
+    },
+    {
+     "name": "Distributed databases, replication and partitioning",
+     "weight": "L",
+     "prereq": [
+      "ib-g12-computer-science-ch03-st4",
+      "ib-g11-computer-science-ch05-st4"
+     ],
+     "note": "Network architecture (DP1 A2.2); ACID"
+    },
+    {
+     "name": "Spatial and temporal databases and data lakes",
+     "weight": "L",
+     "prereq": [
+      "ib-g12-computer-science-ch04-st1"
+     ],
+     "note": "NoSQL models"
+    }
+   ]
+  },
+  {
+   "name": "A4.1 Machine Learning Fundamentals",
+   "subtopics": [
+    {
+     "name": "Types of machine learning: supervised, unsupervised and reinforcement learning",
+     "weight": "S",
+     "prereq": [
+      "ib-g11-computer-science-ch08-st1"
+     ],
+     "note": "Algorithms and data (DP1 B1.1)"
+    },
+    {
+     "name": "Applications of machine learning and hardware requirements",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-computer-science-ch05-st1",
+      "ib-g11-computer-science-ch01-st2"
+     ],
+     "note": "Types of machine learning; CPU versus GPU (DP1 A1.1)"
+    },
+    {
+     "name": "Deep learning and the AI/ML/DL distinction",
+     "weight": "L",
+     "prereq": [
+      "ib-g12-computer-science-ch05-st1"
+     ],
+     "note": "Types of machine learning"
+    }
+   ]
+  },
+  {
+   "name": "A4.2 Data Preprocessing (HL)",
+   "subtopics": [
+    {
+     "name": "Data cleaning: missing values, outliers, duplicates and normalisation",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-computer-science-ch05-st1",
+      "ib-g9-maths-ch11-st4"
+     ],
+     "note": "Data quality; mean and spread (MYP statistics)"
+    },
+    {
+     "name": "Feature selection and feature engineering",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-computer-science-ch06-st1"
+     ],
+     "note": "Data cleaning"
+    },
+    {
+     "name": "Dimensionality reduction and the curse of dimensionality",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-computer-science-ch06-st2"
+     ],
+     "note": "Feature selection"
+    }
+   ]
+  },
+  {
+   "name": "A4.3 Machine Learning Approaches",
+   "subtopics": [
+    {
+     "name": "Linear regression for prediction",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-computer-science-ch05-st1",
+      "ib-g9-maths-ch07-st2"
+     ],
+     "note": "Straight-line graphs and gradient (MYP maths); supervised learning"
+    },
+    {
+     "name": "Classification: k-nearest neighbours and decision trees",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-computer-science-ch05-st1",
+      "ib-g9-maths-ch07-st4"
+     ],
+     "note": "Supervised learning; distance between points (MYP maths)"
+    },
+    {
+     "name": "Model evaluation: training/testing split, overfitting, accuracy, precision and recall",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-computer-science-ch07-st1",
+      "ib-g12-computer-science-ch07-st2"
+     ],
+     "note": "Regression and classification"
+    },
+    {
+     "name": "Clustering with k-means and association rule learning",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-computer-science-ch05-st1"
+     ],
+     "note": "Unsupervised learning"
+    },
+    {
+     "name": "Neural networks, reinforcement learning and genetic algorithms",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-computer-science-ch07-st3"
+     ],
+     "note": "Supervised learning; model evaluation"
+    }
+   ]
+  },
+  {
+   "name": "A4.4 Ethical Considerations",
+   "subtopics": [
+    {
+     "name": "Bias in training data and algorithmic fairness",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-computer-science-ch07-st3"
+     ],
+     "note": "Model training and evaluation"
+    },
+    {
+     "name": "Privacy, consent, transparency and accountability in ML systems",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-computer-science-ch08-st1"
+     ],
+     "note": "Bias and fairness"
+    },
+    {
+     "name": "Environmental and societal impact of AI, including misinformation",
+     "weight": "L",
+     "prereq": [
+      "ib-g12-computer-science-ch08-st2"
+     ],
+     "note": "Ethical considerations"
+    }
+   ]
+  },
+  {
+   "name": "B3.1 Fundamentals of OOP for a Single Class",
+   "subtopics": [
+    {
+     "name": "Classes, objects, attributes and methods",
+     "weight": "H",
+     "prereq": [
+      "ib-g11-computer-science-ch09-st4"
+     ],
+     "note": "Functions and variables (DP1 B2.1)"
+    },
+    {
+     "name": "Constructors and instantiating objects",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-computer-science-ch09-st1"
+     ],
+     "note": "Classes and objects"
+    },
+    {
+     "name": "Encapsulation: access modifiers, getters and setters",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-computer-science-ch09-st2"
+     ],
+     "note": "Classes, attributes and methods"
+    },
+    {
+     "name": "Static versus instance variables and methods",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-computer-science-ch09-st2"
+     ],
+     "note": "Classes and objects"
+    },
+    {
+     "name": "UML class diagrams for a single class",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-computer-science-ch09-st3"
+     ],
+     "note": "Classes and encapsulation"
+    }
+   ]
+  },
+  {
+   "name": "B3.2 Features of OOP for Multiple Classes (HL)",
+   "subtopics": [
+    {
+     "name": "Inheritance and superclass/subclass relationships",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-computer-science-ch09-st2"
+     ],
+     "note": "Classes and constructors"
+    },
+    {
+     "name": "Polymorphism: method overriding and overloading",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-computer-science-ch10-st1"
+     ],
+     "note": "Inheritance"
+    },
+    {
+     "name": "Abstraction, abstract classes and interfaces",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-computer-science-ch10-st2"
+     ],
+     "note": "Inheritance and polymorphism"
+    },
+    {
+     "name": "Composition and aggregation; UML for multiple classes",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-computer-science-ch09-st5",
+      "ib-g12-computer-science-ch10-st1"
+     ],
+     "note": "UML for a single class"
+    },
+    {
+     "name": "Design patterns: singleton, factory and observer",
+     "weight": "L",
+     "prereq": [
+      "ib-g12-computer-science-ch10-st4"
+     ],
+     "note": "Composition, inheritance and interfaces"
+    }
+   ]
+  },
+  {
+   "name": "B4.1 Fundamentals of Abstract Data Types (HL)",
+   "subtopics": [
+    {
+     "name": "Abstract data types and their operations",
+     "weight": "S",
+     "prereq": [
+      "ib-g11-computer-science-ch10-st4"
+     ],
+     "note": "Data structures: arrays, stacks and queues (DP1 B2.2)"
+    },
+    {
+     "name": "Linked lists: singly, doubly and circular",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-computer-science-ch11-st1",
+      "ib-g12-computer-science-ch09-st2"
+     ],
+     "note": "ADTs; object references"
+    },
+    {
+     "name": "Binary search trees: insertion, deletion and traversals",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-computer-science-ch11-st2",
+      "ib-g11-computer-science-ch11-st4"
+     ],
+     "note": "Linked nodes; recursion (DP1 B2.4)"
+    },
+    {
+     "name": "Sets: union, intersection and difference",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-computer-science-ch11-st1",
+      "ib-g9-maths-ch12-st1"
+     ],
+     "note": "ADTs; Venn diagrams (MYP maths)"
+    },
+    {
+     "name": "Hash tables and dictionaries: hashing and collisions",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-computer-science-ch11-st1"
+     ],
+     "note": "ADTs; arrays"
+    }
+   ]
+  },
+  {
+   "name": "Pre-released Case Study and Internal Assessment",
+   "subtopics": [
+    {
+     "name": "Analysing the pre-released case study: scenario, terminology and challenges",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-computer-science-ch07-st5"
+     ],
+     "note": "Theme A concepts across A1-A4"
+    },
+    {
+     "name": "Answering case study challenge questions in Paper 1",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-computer-science-ch12-st1"
+     ],
+     "note": "Analysing the case study"
+    },
+    {
+     "name": "IA computational solution: problem specification and success criteria",
+     "weight": "H",
+     "prereq": [
+      "ib-g11-computer-science-ch08-st4"
+     ],
+     "note": "Computational thinking (DP1 B1.1)"
+    },
+    {
+     "name": "IA planning, design, development and testing of the product",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-computer-science-ch12-st3",
+      "ib-g12-computer-science-ch10-st1"
+     ],
+     "note": "Programming constructs and OOP"
+    },
+    {
+     "name": "IA evaluation, documentation and video demonstration",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-computer-science-ch12-st4"
+     ],
+     "note": "Testing against success criteria"
+    }
+   ]
+  }
+ ]
 }

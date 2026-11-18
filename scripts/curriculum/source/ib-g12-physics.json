@@ -1,446 +1,446 @@
 {
-  "subjectId": "ib-g12-physics",
-  "chapters": [
+ "subjectId": "ib-g12-physics",
+ "chapters": [
+  {
+   "name": "C.3 Wave Phenomena",
+   "subtopics": [
     {
-      "name": "C.3 Wave Phenomena",
-      "subtopics": [
-        {
-          "name": "Wavefronts and rays; reflection and refraction",
-          "weight": "S",
-          "prereq": [
-            "ib-g9-science-ch11-st2",
-            "ib-g11-physics-ch12-st1"
-          ],
-          "note": "Reflection and refraction (MYP 4); wave model"
-        },
-        {
-          "name": "Snell's law, refractive index and critical angle",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-physics-ch01-st1",
-            "ib-g10-maths-ch08-st1"
-          ],
-          "note": "Refraction; sine ratio"
-        },
-        {
-          "name": "Diffraction and the principle of superposition",
-          "weight": "S",
-          "prereq": [
-            "ib-g11-physics-ch12-st3"
-          ],
-          "note": "Wave model; displacement graphs"
-        },
-        {
-          "name": "Double-slit interference and path difference",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-physics-ch01-st3"
-          ],
-          "note": "Superposition"
-        },
-        {
-          "name": "Single-slit diffraction and diffraction gratings (HL)",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-physics-ch01-st4"
-          ],
-          "note": "Double-slit interference"
-        }
-      ]
+     "name": "Wavefronts and rays; reflection and refraction",
+     "weight": "S",
+     "prereq": [
+      "ib-g9-science-ch11-st2",
+      "ib-g11-physics-ch12-st1"
+     ],
+     "note": "Reflection and refraction (MYP 4); wave model"
     },
     {
-      "name": "C.4 Standing Waves and Resonance",
-      "subtopics": [
-        {
-          "name": "Formation of standing waves: nodes and antinodes",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-physics-ch01-st3"
-          ],
-          "note": "Superposition; reflection"
-        },
-        {
-          "name": "Standing waves on strings and in pipes: harmonics",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-physics-ch02-st1",
-            "ib-g11-physics-ch12-st2"
-          ],
-          "note": "Standing waves; v = fλ"
-        },
-        {
-          "name": "Natural frequency, forced oscillations and resonance",
-          "weight": "S",
-          "prereq": [
-            "ib-g11-physics-ch11-st2",
-            "ib-g12-physics-ch02-st1"
-          ],
-          "note": "SHM; standing waves"
-        },
-        {
-          "name": "Damping and its effects on resonance",
-          "weight": "L",
-          "prereq": [
-            "ib-g12-physics-ch02-st3",
-            "ib-g11-physics-ch11-st3"
-          ],
-          "note": "Resonance; energy in SHM"
-        }
-      ]
+     "name": "Snell's law, refractive index and critical angle",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-physics-ch01-st1",
+      "ib-g10-maths-ch08-st1"
+     ],
+     "note": "Refraction; sine ratio"
     },
     {
-      "name": "C.5 Doppler Effect",
-      "subtopics": [
-        {
-          "name": "The Doppler effect for sound waves: moving source and moving observer",
-          "weight": "S",
-          "prereq": [
-            "ib-g11-physics-ch12-st2"
-          ],
-          "note": "Wave speed and frequency"
-        },
-        {
-          "name": "Doppler effect for light: redshift and blueshift",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-physics-ch03-st1",
-            "ib-g10-science-ch12-st3"
-          ],
-          "note": "Doppler effect; red-shift (MYP 5)"
-        },
-        {
-          "name": "Applications: radar speed measurement and astronomical motion",
-          "weight": "L",
-          "prereq": [
-            "ib-g12-physics-ch03-st2"
-          ],
-          "note": "Doppler shift equations"
-        }
-      ]
+     "name": "Diffraction and the principle of superposition",
+     "weight": "S",
+     "prereq": [
+      "ib-g11-physics-ch12-st3"
+     ],
+     "note": "Wave model; displacement graphs"
     },
     {
-      "name": "D.1 Gravitational Fields",
-      "subtopics": [
-        {
-          "name": "Kepler's laws and Newton's universal law of gravitation",
-          "weight": "S",
-          "prereq": [
-            "ib-g11-physics-ch02-st5"
-          ],
-          "note": "Circular motion (DP1 A.2); inverse square relation"
-        },
-        {
-          "name": "Gravitational field strength and field lines",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-physics-ch04-st1"
-          ],
-          "note": "Universal gravitation"
-        },
-        {
-          "name": "Orbital motion: satellites and orbital speed",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-physics-ch04-st1",
-            "ib-g11-physics-ch02-st5"
-          ],
-          "note": "Gravitational force; centripetal force"
-        },
-        {
-          "name": "Gravitational potential, potential energy and escape speed (HL)",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-physics-ch04-st2",
-            "ib-g11-physics-ch03-st1"
-          ],
-          "note": "Field strength; work done"
-        }
-      ]
+     "name": "Double-slit interference and path difference",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-physics-ch01-st3"
+     ],
+     "note": "Superposition"
     },
     {
-      "name": "D.2 Electric and Magnetic Fields",
-      "subtopics": [
-        {
-          "name": "Electric charge, Coulomb's law and conservation of charge",
-          "weight": "S",
-          "prereq": [
-            "ib-g11-physics-ch10-st1",
-            "ib-g12-physics-ch04-st1"
-          ],
-          "note": "Charge (DP1 B.5); inverse square law"
-        },
-        {
-          "name": "Electric field strength and field patterns; uniform fields between plates",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-physics-ch05-st1"
-          ],
-          "note": "Coulomb's law"
-        },
-        {
-          "name": "Magnetic fields of wires, coils and solenoids",
-          "weight": "S",
-          "prereq": [
-            "ib-g9-science-ch12-st2"
-          ],
-          "note": "Magnetic fields and electromagnetism (MYP 4)"
-        },
-        {
-          "name": "Electric potential and potential energy (HL)",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-physics-ch05-st2",
-            "ib-g12-physics-ch04-st4"
-          ],
-          "note": "Electric field; gravitational potential"
-        }
-      ]
-    },
-    {
-      "name": "D.3 Motion in Electromagnetic Fields",
-      "subtopics": [
-        {
-          "name": "Motion of charged particles in uniform electric fields",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-physics-ch05-st2",
-            "ib-g11-physics-ch01-st4"
-          ],
-          "note": "Electric fields; projectile motion (DP1 A.1)"
-        },
-        {
-          "name": "Force on a moving charge and the circular motion of charges in magnetic fields",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-physics-ch05-st3",
-            "ib-g11-physics-ch02-st5"
-          ],
-          "note": "Magnetic fields; centripetal force"
-        },
-        {
-          "name": "Force on a current-carrying conductor and between parallel wires",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-physics-ch06-st2"
-          ],
-          "note": "Force on a moving charge"
-        }
-      ]
-    },
-    {
-      "name": "D.4 Induction (HL)",
-      "subtopics": [
-        {
-          "name": "Magnetic flux and flux linkage",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-physics-ch05-st3"
-          ],
-          "note": "Magnetic fields"
-        },
-        {
-          "name": "Faraday's and Lenz's laws of electromagnetic induction",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-physics-ch07-st1",
-            "ib-g10-science-ch10-st1"
-          ],
-          "note": "Magnetic flux; electromagnetic induction (MYP 5)"
-        },
-        {
-          "name": "Induced emf in moving conductors and rotating coils; AC generators",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-physics-ch07-st2"
-          ],
-          "note": "Faraday's law"
-        }
-      ]
-    },
-    {
-      "name": "E.1 Structure of the Atom",
-      "subtopics": [
-        {
-          "name": "The nuclear model and Geiger-Marsden-Rutherford scattering",
-          "weight": "S",
-          "prereq": [
-            "ib-g9-science-ch04-st1"
-          ],
-          "note": "Atomic structure (MYP 4)"
-        },
-        {
-          "name": "Nuclear notation, isotopes and the size of the nucleus",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-physics-ch08-st1"
-          ],
-          "note": "Nuclear model"
-        },
-        {
-          "name": "Emission and absorption spectra and atomic energy levels",
-          "weight": "H",
-          "prereq": [
-            "ib-g11-physics-ch12-st4"
-          ],
-          "note": "EM spectrum; photon energy"
-        },
-        {
-          "name": "Bohr model for hydrogen (HL)",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-physics-ch08-st3",
-            "ib-g11-physics-ch02-st5"
-          ],
-          "note": "Energy levels; circular motion"
-        }
-      ]
-    },
-    {
-      "name": "E.2 Quantum Physics (HL)",
-      "subtopics": [
-        {
-          "name": "The photoelectric effect and the photon model",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-physics-ch08-st3"
-          ],
-          "note": "Energy levels; work function"
-        },
-        {
-          "name": "Matter waves and the de Broglie wavelength",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-physics-ch09-st1",
-            "ib-g11-physics-ch02-st4"
-          ],
-          "note": "Photon model; momentum"
-        },
-        {
-          "name": "Compton scattering",
-          "weight": "L",
-          "prereq": [
-            "ib-g12-physics-ch09-st2"
-          ],
-          "note": "Photon momentum"
-        }
-      ]
-    },
-    {
-      "name": "E.3 Radioactive Decay",
-      "subtopics": [
-        {
-          "name": "Alpha, beta and gamma decay and nuclear equations",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-physics-ch08-st2"
-          ],
-          "note": "Isotopes; nuclear notation"
-        },
-        {
-          "name": "Half-life and the radioactive decay law",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-physics-ch10-st1",
-            "ib-g10-science-ch11-st3",
-            "ib-g11-maths-ch02-st3"
-          ],
-          "note": "Half-life (MYP 5); exponential decay and logarithms (DP maths)"
-        },
-        {
-          "name": "Mass defect, binding energy and binding energy per nucleon",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-physics-ch10-st1"
-          ],
-          "note": "E = mc²; nuclear notation"
-        },
-        {
-          "name": "Penetration, ionising ability and background radiation",
-          "weight": "L",
-          "prereq": [
-            "ib-g12-physics-ch10-st1"
-          ],
-          "note": "Types of decay"
-        },
-        {
-          "name": "Fundamental forces and the stability of nuclei",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-physics-ch10-st3"
-          ],
-          "note": "Binding energy"
-        }
-      ]
-    },
-    {
-      "name": "E.4 Fission",
-      "subtopics": [
-        {
-          "name": "Spontaneous and neutron-induced fission; chain reactions",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-physics-ch10-st3",
-            "ib-g10-science-ch11-st4"
-          ],
-          "note": "Binding energy per nucleon; fission and fusion (MYP 5)"
-        },
-        {
-          "name": "Nuclear reactor components: moderator, control rods and heat exchanger",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-physics-ch11-st1"
-          ],
-          "note": "Fission chain reaction"
-        },
-        {
-          "name": "Nuclear waste and safety",
-          "weight": "L",
-          "prereq": [
-            "ib-g12-physics-ch11-st2",
-            "ib-g12-physics-ch10-st2"
-          ],
-          "note": "Reactors; half-life"
-        }
-      ]
-    },
-    {
-      "name": "E.5 Fusion and Stars",
-      "subtopics": [
-        {
-          "name": "Nuclear fusion and stellar equilibrium",
-          "weight": "S",
-          "prereq": [
-            "ib-g12-physics-ch10-st3",
-            "ib-g12-physics-ch04-st1"
-          ],
-          "note": "Binding energy; gravity"
-        },
-        {
-          "name": "Hertzsprung-Russell diagram and stellar evolution",
-          "weight": "H",
-          "prereq": [
-            "ib-g12-physics-ch12-st1",
-            "ib-g10-science-ch12-st2"
-          ],
-          "note": "Stellar fusion; life cycle of stars (MYP 5)"
-        },
-        {
-          "name": "Stellar luminosity, apparent brightness and parallax distances",
-          "weight": "S",
-          "prereq": [
-            "ib-g11-physics-ch06-st4"
-          ],
-          "note": "Stefan-Boltzmann law (DP1 B.1); inverse square law"
-        },
-        {
-          "name": "Main sequence lifetime and stellar remnants",
-          "weight": "L",
-          "prereq": [
-            "ib-g12-physics-ch12-st2"
-          ],
-          "note": "HR diagram"
-        }
-      ]
+     "name": "Single-slit diffraction and diffraction gratings (HL)",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-physics-ch01-st4"
+     ],
+     "note": "Double-slit interference"
     }
-  ]
+   ]
+  },
+  {
+   "name": "C.4 Standing Waves and Resonance",
+   "subtopics": [
+    {
+     "name": "Formation of standing waves: nodes and antinodes",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-physics-ch01-st3"
+     ],
+     "note": "Superposition; reflection"
+    },
+    {
+     "name": "Standing waves on strings and in pipes: harmonics",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-physics-ch02-st1",
+      "ib-g11-physics-ch12-st2"
+     ],
+     "note": "Standing waves; v = fλ"
+    },
+    {
+     "name": "Natural frequency, forced oscillations and resonance",
+     "weight": "S",
+     "prereq": [
+      "ib-g11-physics-ch11-st2",
+      "ib-g12-physics-ch02-st1"
+     ],
+     "note": "SHM; standing waves"
+    },
+    {
+     "name": "Damping and its effects on resonance",
+     "weight": "L",
+     "prereq": [
+      "ib-g12-physics-ch02-st3",
+      "ib-g11-physics-ch11-st3"
+     ],
+     "note": "Resonance; energy in SHM"
+    }
+   ]
+  },
+  {
+   "name": "C.5 Doppler Effect",
+   "subtopics": [
+    {
+     "name": "The Doppler effect for sound waves: moving source and moving observer",
+     "weight": "S",
+     "prereq": [
+      "ib-g11-physics-ch12-st2"
+     ],
+     "note": "Wave speed and frequency"
+    },
+    {
+     "name": "Doppler effect for light: redshift and blueshift",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-physics-ch03-st1",
+      "ib-g10-science-ch12-st3"
+     ],
+     "note": "Doppler effect; red-shift (MYP 5)"
+    },
+    {
+     "name": "Applications: radar speed measurement and astronomical motion",
+     "weight": "L",
+     "prereq": [
+      "ib-g12-physics-ch03-st2"
+     ],
+     "note": "Doppler shift equations"
+    }
+   ]
+  },
+  {
+   "name": "D.1 Gravitational Fields",
+   "subtopics": [
+    {
+     "name": "Kepler's laws and Newton's universal law of gravitation",
+     "weight": "S",
+     "prereq": [
+      "ib-g11-physics-ch02-st5"
+     ],
+     "note": "Circular motion (DP1 A.2); inverse square relation"
+    },
+    {
+     "name": "Gravitational field strength and field lines",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-physics-ch04-st1"
+     ],
+     "note": "Universal gravitation"
+    },
+    {
+     "name": "Orbital motion: satellites and orbital speed",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-physics-ch04-st1",
+      "ib-g11-physics-ch02-st5"
+     ],
+     "note": "Gravitational force; centripetal force"
+    },
+    {
+     "name": "Gravitational potential, potential energy and escape speed (HL)",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-physics-ch04-st2",
+      "ib-g11-physics-ch03-st1"
+     ],
+     "note": "Field strength; work done"
+    }
+   ]
+  },
+  {
+   "name": "D.2 Electric and Magnetic Fields",
+   "subtopics": [
+    {
+     "name": "Electric charge, Coulomb's law and conservation of charge",
+     "weight": "S",
+     "prereq": [
+      "ib-g11-physics-ch10-st1",
+      "ib-g12-physics-ch04-st1"
+     ],
+     "note": "Charge (DP1 B.5); inverse square law"
+    },
+    {
+     "name": "Electric field strength and field patterns; uniform fields between plates",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-physics-ch05-st1"
+     ],
+     "note": "Coulomb's law"
+    },
+    {
+     "name": "Magnetic fields of wires, coils and solenoids",
+     "weight": "S",
+     "prereq": [
+      "ib-g9-science-ch12-st2"
+     ],
+     "note": "Magnetic fields and electromagnetism (MYP 4)"
+    },
+    {
+     "name": "Electric potential and potential energy (HL)",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-physics-ch05-st2",
+      "ib-g12-physics-ch04-st4"
+     ],
+     "note": "Electric field; gravitational potential"
+    }
+   ]
+  },
+  {
+   "name": "D.3 Motion in Electromagnetic Fields",
+   "subtopics": [
+    {
+     "name": "Motion of charged particles in uniform electric fields",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-physics-ch05-st2",
+      "ib-g11-physics-ch01-st4"
+     ],
+     "note": "Electric fields; projectile motion (DP1 A.1)"
+    },
+    {
+     "name": "Force on a moving charge and the circular motion of charges in magnetic fields",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-physics-ch05-st3",
+      "ib-g11-physics-ch02-st5"
+     ],
+     "note": "Magnetic fields; centripetal force"
+    },
+    {
+     "name": "Force on a current-carrying conductor and between parallel wires",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-physics-ch06-st2"
+     ],
+     "note": "Force on a moving charge"
+    }
+   ]
+  },
+  {
+   "name": "D.4 Induction (HL)",
+   "subtopics": [
+    {
+     "name": "Magnetic flux and flux linkage",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-physics-ch05-st3"
+     ],
+     "note": "Magnetic fields"
+    },
+    {
+     "name": "Faraday's and Lenz's laws of electromagnetic induction",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-physics-ch07-st1",
+      "ib-g10-science-ch10-st1"
+     ],
+     "note": "Magnetic flux; electromagnetic induction (MYP 5)"
+    },
+    {
+     "name": "Induced emf in moving conductors and rotating coils; AC generators",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-physics-ch07-st2"
+     ],
+     "note": "Faraday's law"
+    }
+   ]
+  },
+  {
+   "name": "E.1 Structure of the Atom",
+   "subtopics": [
+    {
+     "name": "The nuclear model and Geiger-Marsden-Rutherford scattering",
+     "weight": "S",
+     "prereq": [
+      "ib-g9-science-ch04-st1"
+     ],
+     "note": "Atomic structure (MYP 4)"
+    },
+    {
+     "name": "Nuclear notation, isotopes and the size of the nucleus",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-physics-ch08-st1"
+     ],
+     "note": "Nuclear model"
+    },
+    {
+     "name": "Emission and absorption spectra and atomic energy levels",
+     "weight": "H",
+     "prereq": [
+      "ib-g11-physics-ch12-st4"
+     ],
+     "note": "EM spectrum; photon energy"
+    },
+    {
+     "name": "Bohr model for hydrogen (HL)",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-physics-ch08-st3",
+      "ib-g11-physics-ch02-st5"
+     ],
+     "note": "Energy levels; circular motion"
+    }
+   ]
+  },
+  {
+   "name": "E.2 Quantum Physics (HL)",
+   "subtopics": [
+    {
+     "name": "The photoelectric effect and the photon model",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-physics-ch08-st3"
+     ],
+     "note": "Energy levels; work function"
+    },
+    {
+     "name": "Matter waves and the de Broglie wavelength",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-physics-ch09-st1",
+      "ib-g11-physics-ch02-st4"
+     ],
+     "note": "Photon model; momentum"
+    },
+    {
+     "name": "Compton scattering",
+     "weight": "L",
+     "prereq": [
+      "ib-g12-physics-ch09-st2"
+     ],
+     "note": "Photon momentum"
+    }
+   ]
+  },
+  {
+   "name": "E.3 Radioactive Decay",
+   "subtopics": [
+    {
+     "name": "Alpha, beta and gamma decay and nuclear equations",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-physics-ch08-st2"
+     ],
+     "note": "Isotopes; nuclear notation"
+    },
+    {
+     "name": "Half-life and the radioactive decay law",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-physics-ch10-st1",
+      "ib-g10-science-ch11-st3",
+      "ib-g11-maths-ch02-st3"
+     ],
+     "note": "Half-life (MYP 5); exponential decay and logarithms (DP maths)"
+    },
+    {
+     "name": "Mass defect, binding energy and binding energy per nucleon",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-physics-ch10-st1"
+     ],
+     "note": "E = mc²; nuclear notation"
+    },
+    {
+     "name": "Penetration, ionising ability and background radiation",
+     "weight": "L",
+     "prereq": [
+      "ib-g12-physics-ch10-st1"
+     ],
+     "note": "Types of decay"
+    },
+    {
+     "name": "Fundamental forces and the stability of nuclei",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-physics-ch10-st3"
+     ],
+     "note": "Binding energy"
+    }
+   ]
+  },
+  {
+   "name": "E.4 Fission",
+   "subtopics": [
+    {
+     "name": "Spontaneous and neutron-induced fission; chain reactions",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-physics-ch10-st3",
+      "ib-g10-science-ch11-st4"
+     ],
+     "note": "Binding energy per nucleon; fission and fusion (MYP 5)"
+    },
+    {
+     "name": "Nuclear reactor components: moderator, control rods and heat exchanger",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-physics-ch11-st1"
+     ],
+     "note": "Fission chain reaction"
+    },
+    {
+     "name": "Nuclear waste and safety",
+     "weight": "L",
+     "prereq": [
+      "ib-g12-physics-ch11-st2",
+      "ib-g12-physics-ch10-st2"
+     ],
+     "note": "Reactors; half-life"
+    }
+   ]
+  },
+  {
+   "name": "E.5 Fusion and Stars",
+   "subtopics": [
+    {
+     "name": "Nuclear fusion and stellar equilibrium",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-physics-ch10-st3",
+      "ib-g12-physics-ch04-st1"
+     ],
+     "note": "Binding energy; gravity"
+    },
+    {
+     "name": "Hertzsprung-Russell diagram and stellar evolution",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-physics-ch12-st1",
+      "ib-g10-science-ch12-st2"
+     ],
+     "note": "Stellar fusion; life cycle of stars (MYP 5)"
+    },
+    {
+     "name": "Stellar luminosity, apparent brightness and parallax distances",
+     "weight": "S",
+     "prereq": [
+      "ib-g11-physics-ch06-st4"
+     ],
+     "note": "Stefan-Boltzmann law (DP1 B.1); inverse square law"
+    },
+    {
+     "name": "Main sequence lifetime and stellar remnants",
+     "weight": "L",
+     "prereq": [
+      "ib-g12-physics-ch12-st2"
+     ],
+     "note": "HR diagram"
+    }
+   ]
+  }
+ ]
 }

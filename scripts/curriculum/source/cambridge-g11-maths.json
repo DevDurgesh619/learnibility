@@ -1,624 +1,624 @@
 {
-  "subjectId": "cambridge-g11-maths",
-  "chapters": [
+ "subjectId": "cambridge-g11-maths",
+ "chapters": [
+  {
+   "name": "Quadratics",
+   "subtopics": [
     {
-      "name": "Quadratics",
-      "subtopics": [
-        {
-          "name": "Completing the square and the vertex of a quadratic graph",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g10-maths-ch02-st2"
-          ],
-          "note": "Completing the square and the quadratic formula (IGCSE ch Further equations)"
-        },
-        {
-          "name": "The discriminant and the nature of roots",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g11-maths-ch01-st1"
-          ],
-          "note": "Quadratic formula (IGCSE); inequalities"
-        },
-        {
-          "name": "Solving quadratic inequalities",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch01-st1",
-            "cambridge-g10-maths-ch02-st3"
-          ],
-          "note": "Linear inequalities (IGCSE); sketching quadratic graphs"
-        },
-        {
-          "name": "Simultaneous equations with one linear and one quadratic equation",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch01-st2",
-            "cambridge-g10-maths-ch02-st1"
-          ],
-          "note": "Substitution method for simultaneous equations (IGCSE)"
-        },
-        {
-          "name": "Equations reducible to quadratic form, e.g. in x² or √x",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch01-st1"
-          ],
-          "note": "Laws of indices including fractional indices (IGCSE)"
-        }
-      ]
+     "name": "Completing the square and the vertex of a quadratic graph",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g10-maths-ch02-st2"
+     ],
+     "note": "Completing the square and the quadratic formula (IGCSE ch Further equations)"
     },
     {
-      "name": "Functions",
-      "subtopics": [
-        {
-          "name": "Domain and range of a function and mappings",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g10-maths-ch10-st2"
-          ],
-          "note": "Function notation, domain and range (IGCSE)"
-        },
-        {
-          "name": "Composite functions and conditions for existence",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch02-st1",
-            "cambridge-g10-maths-ch10-st3"
-          ],
-          "note": "Composite functions (IGCSE)"
-        },
-        {
-          "name": "Inverse functions and the graphs of f and f⁻¹",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g11-maths-ch02-st1",
-            "cambridge-g10-maths-ch10-st4"
-          ],
-          "note": "Inverse functions (IGCSE); reflection in y = x"
-        },
-        {
-          "name": "Transformations of graphs: translation, reflection and stretch",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch02-st1",
-            "cambridge-g10-maths-ch11-st1"
-          ],
-          "note": "Transformations of shapes (IGCSE); quadratic and curved graphs"
-        }
-      ]
+     "name": "The discriminant and the nature of roots",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-maths-ch01-st1"
+     ],
+     "note": "Quadratic formula (IGCSE); inequalities"
     },
     {
-      "name": "Coordinate geometry",
-      "subtopics": [
-        {
-          "name": "Length, gradient and midpoint of a line segment and equations of straight lines",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g9-maths-ch10-st2"
-          ],
-          "note": "Midpoint and length of a line segment (IGCSE)"
-        },
-        {
-          "name": "Parallel and perpendicular lines and the perpendicular bisector",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch03-st1",
-            "cambridge-g9-maths-ch10-st3"
-          ],
-          "note": "Equations of parallel and perpendicular lines (IGCSE)"
-        },
-        {
-          "name": "Equation of a circle (x − a)² + (y − b)² = r² and tangents to circles",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g11-maths-ch03-st2",
-            "cambridge-g11-maths-ch01-st1"
-          ],
-          "note": "Completing the square; circle theorems (IGCSE)"
-        },
-        {
-          "name": "Intersection of lines and curves",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch03-st3",
-            "cambridge-g11-maths-ch01-st4"
-          ],
-          "note": "Simultaneous equations; the discriminant"
-        }
-      ]
+     "name": "Solving quadratic inequalities",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch01-st1",
+      "cambridge-g10-maths-ch02-st3"
+     ],
+     "note": "Linear inequalities (IGCSE); sketching quadratic graphs"
     },
     {
-      "name": "Circular measure",
-      "subtopics": [
-        {
-          "name": "Radian measure and converting between degrees and radians",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g9-maths-ch07-st2"
-          ],
-          "note": "Arc length and sector area in degrees (IGCSE)"
-        },
-        {
-          "name": "Arc length s = rθ and sector area ½r²θ",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch04-st1"
-          ],
-          "note": "Radian measure"
-        },
-        {
-          "name": "Problems involving arcs, sectors, segments and triangles",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch04-st2",
-            "cambridge-g10-maths-ch03-st4"
-          ],
-          "note": "Area ½ab sin C (IGCSE); Pythagoras"
-        }
-      ]
+     "name": "Simultaneous equations with one linear and one quadratic equation",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch01-st2",
+      "cambridge-g10-maths-ch02-st1"
+     ],
+     "note": "Substitution method for simultaneous equations (IGCSE)"
     },
     {
-      "name": "Trigonometry",
-      "subtopics": [
-        {
-          "name": "Graphs of sine, cosine and tangent and exact values",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch04-st1",
-            "cambridge-g10-maths-ch03-st5"
-          ],
-          "note": "Trigonometric graphs (IGCSE); special triangles"
-        },
-        {
-          "name": "Inverse trigonometric functions and their principal values",
-          "weight": "L",
-          "prereq": [
-            "cambridge-g11-maths-ch05-st1",
-            "cambridge-g11-maths-ch02-st3"
-          ],
-          "note": "Inverse functions; trigonometric graphs"
-        },
-        {
-          "name": "Identities tan θ = sin θ / cos θ and sin²θ + cos²θ = 1",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g11-maths-ch05-st1"
-          ],
-          "note": "Right-angled trigonometry; Pythagoras (IGCSE)"
-        },
-        {
-          "name": "Solving trigonometric equations in a given interval",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g11-maths-ch05-st2",
-            "cambridge-g11-maths-ch05-st3"
-          ],
-          "note": "Trigonometric graphs and symmetries; quadratic equations"
-        }
-      ]
-    },
-    {
-      "name": "Series",
-      "subtopics": [
-        {
-          "name": "Binomial expansion of (a + b)ⁿ for positive integer n",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch01-st1"
-          ],
-          "note": "Expanding brackets; Pascal's triangle; nCr notation"
-        },
-        {
-          "name": "Arithmetic progressions: nth term and sum",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g9-maths-ch09-st1"
-          ],
-          "note": "nth term of linear sequences (IGCSE)"
-        },
-        {
-          "name": "Geometric progressions: nth term and sum",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch06-st2"
-          ],
-          "note": "Arithmetic progressions; exponential sequences (IGCSE)"
-        },
-        {
-          "name": "Sum to infinity of a convergent geometric progression",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch06-st3"
-          ],
-          "note": "Geometric progressions; limits of rⁿ for −1 < r < 1"
-        }
-      ]
-    },
-    {
-      "name": "Differentiation",
-      "subtopics": [
-        {
-          "name": "Gradient of a curve as a limit and derivative notation",
-          "weight": "L",
-          "prereq": [
-            "cambridge-g10-maths-ch06-st4"
-          ],
-          "note": "Gradient of a curve and differentiation of axⁿ (IGCSE)"
-        },
-        {
-          "name": "Differentiating xⁿ for rational n, sums and constant multiples",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g11-maths-ch07-st1"
-          ],
-          "note": "Laws of indices including negative and fractional indices"
-        },
-        {
-          "name": "The chain rule",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g11-maths-ch07-st2",
-            "cambridge-g11-maths-ch02-st2"
-          ],
-          "note": "Composite functions"
-        },
-        {
-          "name": "Tangents and normals to curves",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch07-st2",
-            "cambridge-g11-maths-ch03-st2"
-          ],
-          "note": "Equation of a straight line; perpendicular gradients"
-        }
-      ]
-    },
-    {
-      "name": "Further differentiation",
-      "subtopics": [
-        {
-          "name": "Increasing and decreasing functions and stationary points",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g11-maths-ch07-st2",
-            "cambridge-g10-maths-ch06-st5"
-          ],
-          "note": "Stationary points (IGCSE); solving equations"
-        },
-        {
-          "name": "Second derivative and the nature of stationary points",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch08-st1"
-          ],
-          "note": "Stationary points; differentiation"
-        },
-        {
-          "name": "Practical maximum and minimum problems",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch08-st2"
-          ],
-          "note": "Forming an expression from a context; stationary points"
-        },
-        {
-          "name": "Connected rates of change",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch07-st3"
-          ],
-          "note": "The chain rule"
-        }
-      ]
-    },
-    {
-      "name": "Integration",
-      "subtopics": [
-        {
-          "name": "Integration as the reverse of differentiation and indefinite integrals",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g11-maths-ch07-st2"
-          ],
-          "note": "Differentiating xⁿ"
-        },
-        {
-          "name": "Integrating (ax + b)ⁿ and finding a curve from its gradient",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch09-st1",
-            "cambridge-g11-maths-ch07-st3"
-          ],
-          "note": "The chain rule; constant of integration"
-        },
-        {
-          "name": "Definite integration and area under and between curves",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g11-maths-ch09-st1",
-            "cambridge-g11-maths-ch03-st4"
-          ],
-          "note": "Indefinite integrals; intersection of curves"
-        },
-        {
-          "name": "Improper integrals and volumes of revolution about the x- and y-axes",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch09-st3"
-          ],
-          "note": "Definite integration; area of a circle"
-        }
-      ]
-    },
-    {
-      "name": "Representation of data",
-      "subtopics": [
-        {
-          "name": "Stem-and-leaf diagrams and back-to-back stem-and-leaf diagrams",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g9-maths-ch04-st4"
-          ],
-          "note": "Stem-and-leaf diagrams (IGCSE)"
-        },
-        {
-          "name": "Histograms with unequal class widths",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g10-maths-ch08-st1"
-          ],
-          "note": "Histograms and frequency density (IGCSE)"
-        },
-        {
-          "name": "Cumulative frequency graphs and box-and-whisker plots",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g10-maths-ch08-st3"
-          ],
-          "note": "Cumulative frequency and quartiles (IGCSE)"
-        },
-        {
-          "name": "Choosing and comparing data representations",
-          "weight": "L",
-          "prereq": [
-            "cambridge-g11-maths-ch10-st1",
-            "cambridge-g11-maths-ch10-st2",
-            "cambridge-g11-maths-ch10-st3"
-          ],
-          "note": "Stem-and-leaf, histograms and box plots"
-        }
-      ]
-    },
-    {
-      "name": "Measures of central tendency",
-      "subtopics": [
-        {
-          "name": "Mean, median and mode of ungrouped and grouped data",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g9-maths-ch12-st2"
-          ],
-          "note": "Averages from frequency tables (IGCSE)"
-        },
-        {
-          "name": "Using Σ notation and coded data for the mean",
-          "weight": "L",
-          "prereq": [
-            "cambridge-g11-maths-ch11-st1"
-          ],
-          "note": "Mean of a data set; sigma notation"
-        },
-        {
-          "name": "Choosing an appropriate average for a context",
-          "weight": "L",
-          "prereq": [
-            "cambridge-g11-maths-ch11-st1"
-          ],
-          "note": "Properties of mean, median, mode"
-        }
-      ]
-    },
-    {
-      "name": "Measures of variation",
-      "subtopics": [
-        {
-          "name": "Range, interquartile range and percentiles",
-          "weight": "L",
-          "prereq": [
-            "cambridge-g11-maths-ch10-st3"
-          ],
-          "note": "Quartiles from cumulative frequency (IGCSE)"
-        },
-        {
-          "name": "Variance and standard deviation from raw and grouped data",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g11-maths-ch12-st1",
-            "cambridge-g11-maths-ch11-st2"
-          ],
-          "note": "Mean and Σ notation"
-        },
-        {
-          "name": "Standard deviation from Σx and Σx² and from coded data",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch12-st2"
-          ],
-          "note": "Variance formula; coded mean"
-        }
-      ]
-    },
-    {
-      "name": "Probability",
-      "subtopics": [
-        {
-          "name": "Sample spaces, mutually exclusive and exhaustive events",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g10-maths-ch12-st2"
-          ],
-          "note": "Venn diagrams and probability (IGCSE)"
-        },
-        {
-          "name": "Independent events and the addition and multiplication laws",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g11-maths-ch13-st1",
-            "cambridge-g10-maths-ch12-st1"
-          ],
-          "note": "Tree diagrams (IGCSE)"
-        },
-        {
-          "name": "Conditional probability P(A∣B) = P(A ∩ B)/P(B)",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g11-maths-ch13-st2",
-            "cambridge-g10-maths-ch12-st3"
-          ],
-          "note": "Conditional probability (IGCSE)"
-        }
-      ]
-    },
-    {
-      "name": "Permutations and combinations",
-      "subtopics": [
-        {
-          "name": "Factorial notation and arrangements of objects in a line",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch13-st1"
-          ],
-          "note": "Listing outcomes systematically"
-        },
-        {
-          "name": "Arrangements with repeated items and with restrictions",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch14-st1"
-          ],
-          "note": "Factorials"
-        },
-        {
-          "name": "Combinations nCr and selections with restrictions",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g11-maths-ch14-st1",
-            "cambridge-g11-maths-ch06-st1"
-          ],
-          "note": "Factorials; binomial coefficients"
-        },
-        {
-          "name": "Using permutations and combinations to find probabilities",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch14-st3",
-            "cambridge-g11-maths-ch13-st2"
-          ],
-          "note": "Combinations; basic probability"
-        }
-      ]
-    },
-    {
-      "name": "Discrete random variables",
-      "subtopics": [
-        {
-          "name": "Probability distributions of discrete random variables",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch13-st2"
-          ],
-          "note": "Probability laws; listing outcomes"
-        },
-        {
-          "name": "Expectation E(X) and variance Var(X)",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g11-maths-ch15-st1",
-            "cambridge-g11-maths-ch12-st2"
-          ],
-          "note": "Probability distributions; variance of data"
-        },
-        {
-          "name": "Constructing probability distributions from contexts",
-          "weight": "L",
-          "prereq": [
-            "cambridge-g11-maths-ch15-st1",
-            "cambridge-g11-maths-ch14-st4"
-          ],
-          "note": "Probability distribution tables; combinations"
-        }
-      ]
-    },
-    {
-      "name": "Binomial and geometric distributions",
-      "subtopics": [
-        {
-          "name": "The binomial distribution B(n, p) and its probabilities",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g11-maths-ch15-st1",
-            "cambridge-g11-maths-ch14-st3"
-          ],
-          "note": "Combinations nCr; independent events"
-        },
-        {
-          "name": "Mean and variance of the binomial distribution",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch16-st1",
-            "cambridge-g11-maths-ch15-st2"
-          ],
-          "note": "Expectation and variance"
-        },
-        {
-          "name": "The geometric distribution Geo(p) and its mean",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch16-st1"
-          ],
-          "note": "Independent trials; geometric progressions"
-        }
-      ]
-    },
-    {
-      "name": "The normal distribution",
-      "subtopics": [
-        {
-          "name": "The normal distribution and standardising using Z = (X − μ)/σ",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g11-maths-ch12-st2"
-          ],
-          "note": "Standard deviation; reading tables"
-        },
-        {
-          "name": "Finding μ and σ from given probabilities",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch17-st1",
-            "cambridge-g10-maths-ch02-st1"
-          ],
-          "note": "Standardising; simultaneous linear equations"
-        },
-        {
-          "name": "Modelling with the normal distribution",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch17-st1"
-          ],
-          "note": "Shape of the normal curve; continuous data"
-        },
-        {
-          "name": "Normal approximation to the binomial with continuity correction",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch17-st1",
-            "cambridge-g11-maths-ch16-st2"
-          ],
-          "note": "Mean and variance of the binomial distribution"
-        }
-      ]
+     "name": "Equations reducible to quadratic form, e.g. in x² or √x",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch01-st1"
+     ],
+     "note": "Laws of indices including fractional indices (IGCSE)"
     }
-  ]
+   ]
+  },
+  {
+   "name": "Functions",
+   "subtopics": [
+    {
+     "name": "Domain and range of a function and mappings",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g10-maths-ch10-st2"
+     ],
+     "note": "Function notation, domain and range (IGCSE)"
+    },
+    {
+     "name": "Composite functions and conditions for existence",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch02-st1",
+      "cambridge-g10-maths-ch10-st3"
+     ],
+     "note": "Composite functions (IGCSE)"
+    },
+    {
+     "name": "Inverse functions and the graphs of f and f⁻¹",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-maths-ch02-st1",
+      "cambridge-g10-maths-ch10-st4"
+     ],
+     "note": "Inverse functions (IGCSE); reflection in y = x"
+    },
+    {
+     "name": "Transformations of graphs: translation, reflection and stretch",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch02-st1",
+      "cambridge-g10-maths-ch11-st1"
+     ],
+     "note": "Transformations of shapes (IGCSE); quadratic and curved graphs"
+    }
+   ]
+  },
+  {
+   "name": "Coordinate geometry",
+   "subtopics": [
+    {
+     "name": "Length, gradient and midpoint of a line segment and equations of straight lines",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g9-maths-ch10-st2"
+     ],
+     "note": "Midpoint and length of a line segment (IGCSE)"
+    },
+    {
+     "name": "Parallel and perpendicular lines and the perpendicular bisector",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch03-st1",
+      "cambridge-g9-maths-ch10-st3"
+     ],
+     "note": "Equations of parallel and perpendicular lines (IGCSE)"
+    },
+    {
+     "name": "Equation of a circle (x − a)² + (y − b)² = r² and tangents to circles",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-maths-ch03-st2",
+      "cambridge-g11-maths-ch01-st1"
+     ],
+     "note": "Completing the square; circle theorems (IGCSE)"
+    },
+    {
+     "name": "Intersection of lines and curves",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch03-st3",
+      "cambridge-g11-maths-ch01-st4"
+     ],
+     "note": "Simultaneous equations; the discriminant"
+    }
+   ]
+  },
+  {
+   "name": "Circular measure",
+   "subtopics": [
+    {
+     "name": "Radian measure and converting between degrees and radians",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g9-maths-ch07-st2"
+     ],
+     "note": "Arc length and sector area in degrees (IGCSE)"
+    },
+    {
+     "name": "Arc length s = rθ and sector area ½r²θ",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch04-st1"
+     ],
+     "note": "Radian measure"
+    },
+    {
+     "name": "Problems involving arcs, sectors, segments and triangles",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch04-st2",
+      "cambridge-g10-maths-ch03-st4"
+     ],
+     "note": "Area ½ab sin C (IGCSE); Pythagoras"
+    }
+   ]
+  },
+  {
+   "name": "Trigonometry",
+   "subtopics": [
+    {
+     "name": "Graphs of sine, cosine and tangent and exact values",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch04-st1",
+      "cambridge-g10-maths-ch03-st5"
+     ],
+     "note": "Trigonometric graphs (IGCSE); special triangles"
+    },
+    {
+     "name": "Inverse trigonometric functions and their principal values",
+     "weight": "L",
+     "prereq": [
+      "cambridge-g11-maths-ch05-st1",
+      "cambridge-g11-maths-ch02-st3"
+     ],
+     "note": "Inverse functions; trigonometric graphs"
+    },
+    {
+     "name": "Identities tan θ = sin θ / cos θ and sin²θ + cos²θ = 1",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-maths-ch05-st1"
+     ],
+     "note": "Right-angled trigonometry; Pythagoras (IGCSE)"
+    },
+    {
+     "name": "Solving trigonometric equations in a given interval",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-maths-ch05-st2",
+      "cambridge-g11-maths-ch05-st3"
+     ],
+     "note": "Trigonometric graphs and symmetries; quadratic equations"
+    }
+   ]
+  },
+  {
+   "name": "Series",
+   "subtopics": [
+    {
+     "name": "Binomial expansion of (a + b)ⁿ for positive integer n",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch01-st1"
+     ],
+     "note": "Expanding brackets; Pascal's triangle; nCr notation"
+    },
+    {
+     "name": "Arithmetic progressions: nth term and sum",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g9-maths-ch09-st1"
+     ],
+     "note": "nth term of linear sequences (IGCSE)"
+    },
+    {
+     "name": "Geometric progressions: nth term and sum",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch06-st2"
+     ],
+     "note": "Arithmetic progressions; exponential sequences (IGCSE)"
+    },
+    {
+     "name": "Sum to infinity of a convergent geometric progression",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch06-st3"
+     ],
+     "note": "Geometric progressions; limits of rⁿ for −1 < r < 1"
+    }
+   ]
+  },
+  {
+   "name": "Differentiation",
+   "subtopics": [
+    {
+     "name": "Gradient of a curve as a limit and derivative notation",
+     "weight": "L",
+     "prereq": [
+      "cambridge-g10-maths-ch06-st4"
+     ],
+     "note": "Gradient of a curve and differentiation of axⁿ (IGCSE)"
+    },
+    {
+     "name": "Differentiating xⁿ for rational n, sums and constant multiples",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-maths-ch07-st1"
+     ],
+     "note": "Laws of indices including negative and fractional indices"
+    },
+    {
+     "name": "The chain rule",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-maths-ch07-st2",
+      "cambridge-g11-maths-ch02-st2"
+     ],
+     "note": "Composite functions"
+    },
+    {
+     "name": "Tangents and normals to curves",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch07-st2",
+      "cambridge-g11-maths-ch03-st2"
+     ],
+     "note": "Equation of a straight line; perpendicular gradients"
+    }
+   ]
+  },
+  {
+   "name": "Further differentiation",
+   "subtopics": [
+    {
+     "name": "Increasing and decreasing functions and stationary points",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-maths-ch07-st2",
+      "cambridge-g10-maths-ch06-st5"
+     ],
+     "note": "Stationary points (IGCSE); solving equations"
+    },
+    {
+     "name": "Second derivative and the nature of stationary points",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch08-st1"
+     ],
+     "note": "Stationary points; differentiation"
+    },
+    {
+     "name": "Practical maximum and minimum problems",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch08-st2"
+     ],
+     "note": "Forming an expression from a context; stationary points"
+    },
+    {
+     "name": "Connected rates of change",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch07-st3"
+     ],
+     "note": "The chain rule"
+    }
+   ]
+  },
+  {
+   "name": "Integration",
+   "subtopics": [
+    {
+     "name": "Integration as the reverse of differentiation and indefinite integrals",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-maths-ch07-st2"
+     ],
+     "note": "Differentiating xⁿ"
+    },
+    {
+     "name": "Integrating (ax + b)ⁿ and finding a curve from its gradient",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch09-st1",
+      "cambridge-g11-maths-ch07-st3"
+     ],
+     "note": "The chain rule; constant of integration"
+    },
+    {
+     "name": "Definite integration and area under and between curves",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-maths-ch09-st1",
+      "cambridge-g11-maths-ch03-st4"
+     ],
+     "note": "Indefinite integrals; intersection of curves"
+    },
+    {
+     "name": "Improper integrals and volumes of revolution about the x- and y-axes",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch09-st3"
+     ],
+     "note": "Definite integration; area of a circle"
+    }
+   ]
+  },
+  {
+   "name": "Representation of data",
+   "subtopics": [
+    {
+     "name": "Stem-and-leaf diagrams and back-to-back stem-and-leaf diagrams",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g9-maths-ch04-st4"
+     ],
+     "note": "Stem-and-leaf diagrams (IGCSE)"
+    },
+    {
+     "name": "Histograms with unequal class widths",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g10-maths-ch08-st1"
+     ],
+     "note": "Histograms and frequency density (IGCSE)"
+    },
+    {
+     "name": "Cumulative frequency graphs and box-and-whisker plots",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g10-maths-ch08-st3"
+     ],
+     "note": "Cumulative frequency and quartiles (IGCSE)"
+    },
+    {
+     "name": "Choosing and comparing data representations",
+     "weight": "L",
+     "prereq": [
+      "cambridge-g11-maths-ch10-st1",
+      "cambridge-g11-maths-ch10-st2",
+      "cambridge-g11-maths-ch10-st3"
+     ],
+     "note": "Stem-and-leaf, histograms and box plots"
+    }
+   ]
+  },
+  {
+   "name": "Measures of central tendency",
+   "subtopics": [
+    {
+     "name": "Mean, median and mode of ungrouped and grouped data",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g9-maths-ch12-st2"
+     ],
+     "note": "Averages from frequency tables (IGCSE)"
+    },
+    {
+     "name": "Using Σ notation and coded data for the mean",
+     "weight": "L",
+     "prereq": [
+      "cambridge-g11-maths-ch11-st1"
+     ],
+     "note": "Mean of a data set; sigma notation"
+    },
+    {
+     "name": "Choosing an appropriate average for a context",
+     "weight": "L",
+     "prereq": [
+      "cambridge-g11-maths-ch11-st1"
+     ],
+     "note": "Properties of mean, median, mode"
+    }
+   ]
+  },
+  {
+   "name": "Measures of variation",
+   "subtopics": [
+    {
+     "name": "Range, interquartile range and percentiles",
+     "weight": "L",
+     "prereq": [
+      "cambridge-g11-maths-ch10-st3"
+     ],
+     "note": "Quartiles from cumulative frequency (IGCSE)"
+    },
+    {
+     "name": "Variance and standard deviation from raw and grouped data",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-maths-ch12-st1",
+      "cambridge-g11-maths-ch11-st2"
+     ],
+     "note": "Mean and Σ notation"
+    },
+    {
+     "name": "Standard deviation from Σx and Σx² and from coded data",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch12-st2"
+     ],
+     "note": "Variance formula; coded mean"
+    }
+   ]
+  },
+  {
+   "name": "Probability",
+   "subtopics": [
+    {
+     "name": "Sample spaces, mutually exclusive and exhaustive events",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g10-maths-ch12-st2"
+     ],
+     "note": "Venn diagrams and probability (IGCSE)"
+    },
+    {
+     "name": "Independent events and the addition and multiplication laws",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-maths-ch13-st1",
+      "cambridge-g10-maths-ch12-st1"
+     ],
+     "note": "Tree diagrams (IGCSE)"
+    },
+    {
+     "name": "Conditional probability P(A∣B) = P(A ∩ B)/P(B)",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-maths-ch13-st2",
+      "cambridge-g10-maths-ch12-st3"
+     ],
+     "note": "Conditional probability (IGCSE)"
+    }
+   ]
+  },
+  {
+   "name": "Permutations and combinations",
+   "subtopics": [
+    {
+     "name": "Factorial notation and arrangements of objects in a line",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch13-st1"
+     ],
+     "note": "Listing outcomes systematically"
+    },
+    {
+     "name": "Arrangements with repeated items and with restrictions",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch14-st1"
+     ],
+     "note": "Factorials"
+    },
+    {
+     "name": "Combinations nCr and selections with restrictions",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-maths-ch14-st1",
+      "cambridge-g11-maths-ch06-st1"
+     ],
+     "note": "Factorials; binomial coefficients"
+    },
+    {
+     "name": "Using permutations and combinations to find probabilities",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch14-st3",
+      "cambridge-g11-maths-ch13-st2"
+     ],
+     "note": "Combinations; basic probability"
+    }
+   ]
+  },
+  {
+   "name": "Discrete random variables",
+   "subtopics": [
+    {
+     "name": "Probability distributions of discrete random variables",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch13-st2"
+     ],
+     "note": "Probability laws; listing outcomes"
+    },
+    {
+     "name": "Expectation E(X) and variance Var(X)",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-maths-ch15-st1",
+      "cambridge-g11-maths-ch12-st2"
+     ],
+     "note": "Probability distributions; variance of data"
+    },
+    {
+     "name": "Constructing probability distributions from contexts",
+     "weight": "L",
+     "prereq": [
+      "cambridge-g11-maths-ch15-st1",
+      "cambridge-g11-maths-ch14-st4"
+     ],
+     "note": "Probability distribution tables; combinations"
+    }
+   ]
+  },
+  {
+   "name": "Binomial and geometric distributions",
+   "subtopics": [
+    {
+     "name": "The binomial distribution B(n, p) and its probabilities",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-maths-ch15-st1",
+      "cambridge-g11-maths-ch14-st3"
+     ],
+     "note": "Combinations nCr; independent events"
+    },
+    {
+     "name": "Mean and variance of the binomial distribution",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch16-st1",
+      "cambridge-g11-maths-ch15-st2"
+     ],
+     "note": "Expectation and variance"
+    },
+    {
+     "name": "The geometric distribution Geo(p) and its mean",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch16-st1"
+     ],
+     "note": "Independent trials; geometric progressions"
+    }
+   ]
+  },
+  {
+   "name": "The normal distribution",
+   "subtopics": [
+    {
+     "name": "The normal distribution and standardising using Z = (X − μ)/σ",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-maths-ch12-st2"
+     ],
+     "note": "Standard deviation; reading tables"
+    },
+    {
+     "name": "Finding μ and σ from given probabilities",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch17-st1",
+      "cambridge-g10-maths-ch02-st1"
+     ],
+     "note": "Standardising; simultaneous linear equations"
+    },
+    {
+     "name": "Modelling with the normal distribution",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch17-st1"
+     ],
+     "note": "Shape of the normal curve; continuous data"
+    },
+    {
+     "name": "Normal approximation to the binomial with continuity correction",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch17-st1",
+      "cambridge-g11-maths-ch16-st2"
+     ],
+     "note": "Mean and variance of the binomial distribution"
+    }
+   ]
+  }
+ ]
 }

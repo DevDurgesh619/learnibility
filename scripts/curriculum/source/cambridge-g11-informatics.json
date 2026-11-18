@@ -1,0 +1,376 @@
+{
+ "subjectId": "cambridge-g11-informatics",
+ "chapters": [
+  {
+   "sheetName": "Data processing",
+   "name": "Data Processing and Information",
+   "subtopics": [
+    {
+     "name": "Data, information and knowledge; direct and indirect data sources",
+     "weight": "S",
+     "prereq": [],
+     "note": "Data and information (IGCSE ICT 0417)"
+    },
+    {
+     "name": "Quality of information: accuracy, relevance, age, level of detail and completeness",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-informatics-ch01-st1"
+     ],
+     "note": "Data, information and sources"
+    },
+    {
+     "name": "Validation and verification methods",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-informatics-ch01-st1"
+     ],
+     "note": "Data entry and checking (IGCSE ICT)"
+    },
+    {
+     "name": "Batch, online and real-time processing; master and transaction files",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-informatics-ch01-st3"
+     ],
+     "note": "Validation and verification; file updating"
+    },
+    {
+     "name": "Encryption: symmetric and asymmetric, and protocols such as SSL/TLS and HTTPS",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-informatics-ch01-st4"
+     ],
+     "note": "Batch and online processing; data transmitted over networks"
+    }
+   ]
+  },
+  {
+   "sheetName": "hardware & software",
+   "name": "Hardware and Software",
+   "subtopics": [
+    {
+     "name": "Mainframe computers and supercomputers: characteristics and uses",
+     "weight": "L",
+     "prereq": [],
+     "note": "Types of computer (IGCSE ICT)"
+    },
+    {
+     "name": "System software: compilers, interpreters, linkers, device drivers, operating systems and utilities",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-informatics-ch02-st1"
+     ],
+     "note": "Hardware and software (IGCSE ICT)"
+    },
+    {
+     "name": "Custom-written versus off-the-shelf software; proprietary and open-source software",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-informatics-ch02-st2"
+     ],
+     "note": "System and application software"
+    },
+    {
+     "name": "User interfaces: command line, graphical, dialogue and gesture-based",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-informatics-ch02-st2"
+     ],
+     "note": "Operating system role; human–computer interaction"
+    }
+   ]
+  },
+  {
+   "sheetName": "monitoring & control",
+   "name": "Monitoring and Control",
+   "subtopics": [
+    {
+     "name": "Sensors used in monitoring and control systems",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-informatics-ch02-st1"
+     ],
+     "note": "Input devices (IGCSE ICT); analogue and digital data"
+    },
+    {
+     "name": "Monitoring systems: environmental, weather stations and patient monitoring",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-informatics-ch03-st1"
+     ],
+     "note": "Sensors; analogue-to-digital conversion"
+    },
+    {
+     "name": "Control systems, microprocessors, actuators and feedback (greenhouse, central heating, traffic lights)",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-informatics-ch03-st2"
+     ],
+     "note": "Monitoring systems; sensors and feedback loops"
+    },
+    {
+     "name": "Writing control algorithms for monitoring and control scenarios",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-informatics-ch03-st3"
+     ],
+     "note": "Control systems; flowchart decisions and loops (IGCSE ICT algorithms)"
+    }
+   ]
+  },
+  {
+   "sheetName": "algorithms & flowcharts",
+   "name": "Algorithms and Flowcharts",
+   "subtopics": [
+    {
+     "name": "Flowchart symbols and algorithms as sequences of instructions",
+     "weight": "S",
+     "prereq": [],
+     "note": "Logical sequencing of steps (IGCSE ICT)"
+    },
+    {
+     "name": "Writing algorithms using flowcharts and pseudocode: sequence, selection and iteration",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-informatics-ch04-st1"
+     ],
+     "note": "Flowchart symbols; IF and loop logic"
+    },
+    {
+     "name": "Tracing and correcting algorithms; comparing flowcharts and pseudocode",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-informatics-ch04-st2"
+     ],
+     "note": "Writing algorithms in flowcharts and pseudocode"
+    }
+   ]
+  },
+  {
+   "sheetName": "e-safety & health",
+   "name": "eSafety and Health",
+   "subtopics": [
+    {
+     "name": "Personal data and protecting personal data online; data protection legislation",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-informatics-ch01-st5"
+     ],
+     "note": "Encryption; personal information (IGCSE ICT)"
+    },
+    {
+     "name": "eSafety: using the internet, email, social media and online gaming safely",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-informatics-ch05-st1"
+     ],
+     "note": "Personal data protection"
+    },
+    {
+     "name": "Health issues from using IT: RSI, eyestrain, back problems and their prevention",
+     "weight": "L",
+     "prereq": [],
+     "note": "Health and safety when using computers (IGCSE ICT)"
+    }
+   ]
+  },
+  {
+   "sheetName": "audience",
+   "name": "The Digital Divide and Audience",
+   "subtopics": [
+    {
+     "name": "Identifying the target audience and their needs when designing ICT solutions",
+     "weight": "S",
+     "prereq": [],
+     "note": "Purpose and audience of documents (IGCSE ICT)"
+    },
+    {
+     "name": "The digital divide: causes and effects on individuals, organisations and societies",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-informatics-ch06-st1"
+     ],
+     "note": "Target audience needs; access to technology"
+    },
+    {
+     "name": "Reducing the digital divide: initiatives and accessibility features",
+     "weight": "L",
+     "prereq": [
+      "cambridge-g11-informatics-ch06-st2"
+     ],
+     "note": "Causes of the digital divide"
+    }
+   ]
+  },
+  {
+   "sheetName": "copyright",
+   "name": "Copyright and Legal Issues",
+   "subtopics": [
+    {
+     "name": "Copyright legislation and the protection of intellectual property",
+     "weight": "S",
+     "prereq": [],
+     "note": "Ownership of digital content (IGCSE ICT)"
+    },
+    {
+     "name": "Software licensing: single-user, multi-user, site licence, freeware and shareware; preventing piracy",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-informatics-ch07-st1",
+      "cambridge-g11-informatics-ch02-st3"
+     ],
+     "note": "Copyright legislation; proprietary and open-source software"
+    },
+    {
+     "name": "Ethical and legal implications of using IT: plagiarism, hacking and acceptable use policies",
+     "weight": "L",
+     "prereq": [
+      "cambridge-g11-informatics-ch07-st1"
+     ],
+     "note": "Copyright and intellectual property"
+    }
+   ]
+  },
+  {
+   "sheetName": "communication",
+   "name": "Communication and Networks",
+   "subtopics": [
+    {
+     "name": "Network types and components: LAN, WAN, routers, switches and the internet",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-informatics-ch02-st2"
+     ],
+     "note": "Basic networking (IGCSE ICT)"
+    },
+    {
+     "name": "Email, instant messaging and video conferencing for communication",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-informatics-ch08-st1",
+      "cambridge-g11-informatics-ch05-st2"
+     ],
+     "note": "Networks and the internet; eSafety"
+    },
+    {
+     "name": "Websites, intranets and extranets; search engines and evaluating online information",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-informatics-ch08-st1",
+      "cambridge-g11-informatics-ch01-st2"
+     ],
+     "note": "Networks; quality of information"
+    }
+   ]
+  },
+  {
+   "sheetName": "documents",
+   "name": "Document Production",
+   "subtopics": [
+    {
+     "name": "House style, templates and corporate branding",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-informatics-ch06-st1"
+     ],
+     "note": "Target audience; word processing basics (IGCSE ICT)"
+    },
+    {
+     "name": "Page layout: headers, footers, columns, tables, section and page breaks",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-informatics-ch09-st1"
+     ],
+     "note": "House style; editing text in a word processor"
+    },
+    {
+     "name": "Automating documents: fields, styles, tables of contents, indexes and track changes",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-informatics-ch09-st2"
+     ],
+     "note": "Page layout features"
+    }
+   ]
+  },
+  {
+   "sheetName": "databases",
+   "name": "Database and File Concepts",
+   "subtopics": [
+    {
+     "name": "Flat-file and relational databases; primary, foreign and compound keys; relationships",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-informatics-ch01-st1"
+     ],
+     "note": "Data and information; tables and fields (IGCSE ICT)"
+    },
+    {
+     "name": "Designing data entry forms and validation rules",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-informatics-ch10-st1",
+      "cambridge-g11-informatics-ch01-st3"
+     ],
+     "note": "Relational database structure; Validation and verification"
+    },
+    {
+     "name": "Queries with multiple criteria, calculated fields and reports with grouping and summaries",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-informatics-ch10-st1"
+     ],
+     "note": "Relational databases; Boolean operators AND/OR/NOT"
+    },
+    {
+     "name": "Normalisation to 3NF and data dictionaries",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-informatics-ch10-st1"
+     ],
+     "note": "Keys and relationships in relational databases"
+    }
+   ]
+  },
+  {
+   "sheetName": "spreadsheets / graphics / animation",
+   "name": "Spreadsheets, Modelling and Graphics",
+   "subtopics": [
+    {
+     "name": "Spreadsheet formulae and functions: absolute and relative referencing, named ranges, nested IF, VLOOKUP and HLOOKUP",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-informatics-ch04-st2"
+     ],
+     "note": "Cell referencing and basic formulae (IGCSE ICT); selection logic"
+    },
+    {
+     "name": "Modelling and what-if analysis: goal seek, scenarios and simulations",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-informatics-ch11-st1"
+     ],
+     "note": "Spreadsheet formulae and functions"
+    },
+    {
+     "name": "Charts and graphs: choosing appropriate types and formatting for an audience",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-informatics-ch11-st1",
+      "cambridge-g11-informatics-ch06-st1"
+     ],
+     "note": "Spreadsheet data ranges; Target audience"
+    },
+    {
+     "name": "Sound and video editing: trimming, transitions, compression and file formats",
+     "weight": "L",
+     "prereq": [
+      "cambridge-g11-informatics-ch06-st1"
+     ],
+     "note": "Target audience; file sizes and formats"
+    }
+   ]
+  }
+ ]
+}

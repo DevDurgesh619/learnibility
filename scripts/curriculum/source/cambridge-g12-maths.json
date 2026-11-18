@@ -1,684 +1,684 @@
 {
-  "subjectId": "cambridge-g12-maths",
-  "chapters": [
+ "subjectId": "cambridge-g12-maths",
+ "chapters": [
+  {
+   "name": "Algebra",
+   "subtopics": [
     {
-      "name": "Algebra",
-      "subtopics": [
-        {
-          "name": "The modulus function: graphs of y = ∣ax + b∣ and solving modulus equations and inequalities",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch02-st4"
-          ],
-          "note": "Transformations of graphs (AS Pure 1); linear inequalities"
-        },
-        {
-          "name": "Division of polynomials and the remainder theorem",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch01-st1"
-          ],
-          "note": "Algebraic long division; expanding brackets"
-        },
-        {
-          "name": "The factor theorem and factorising cubic and quartic polynomials",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g12-maths-ch01-st2"
-          ],
-          "note": "Remainder theorem; solving quadratics"
-        },
-        {
-          "name": "Solving polynomial equations and sketching polynomial graphs",
-          "weight": "L",
-          "prereq": [
-            "cambridge-g12-maths-ch01-st3"
-          ],
-          "note": "Factor theorem; roots and intercepts"
-        }
-      ]
+     "name": "The modulus function: graphs of y = ∣ax + b∣ and solving modulus equations and inequalities",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch02-st4"
+     ],
+     "note": "Transformations of graphs (AS Pure 1); linear inequalities"
     },
     {
-      "name": "Logarithmic and exponential functions",
-      "subtopics": [
-        {
-          "name": "Logarithms and the laws of logarithms",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch02-st3"
-          ],
-          "note": "Inverse functions (AS Pure 1); laws of indices"
-        },
-        {
-          "name": "The exponential function eˣ and natural logarithm ln x",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g12-maths-ch02-st1"
-          ],
-          "note": "Laws of logarithms; graphs of exponential functions (IGCSE)"
-        },
-        {
-          "name": "Solving equations and inequalities of the form aˣ = b using logarithms",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-maths-ch02-st1",
-            "cambridge-g12-maths-ch02-st2"
-          ],
-          "note": "Laws of logarithms; inequalities"
-        },
-        {
-          "name": "Using logarithms to reduce relationships to linear form",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-maths-ch02-st1",
-            "cambridge-g11-maths-ch03-st1"
-          ],
-          "note": "Equation of a straight line; laws of logarithms"
-        }
-      ]
+     "name": "Division of polynomials and the remainder theorem",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch01-st1"
+     ],
+     "note": "Algebraic long division; expanding brackets"
     },
     {
-      "name": "Trigonometry",
-      "subtopics": [
-        {
-          "name": "Secant, cosecant and cotangent and their graphs",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch05-st3"
-          ],
-          "note": "sin²θ + cos²θ = 1 (AS Pure 1)"
-        },
-        {
-          "name": "Compound angle formulae for sin(A ± B), cos(A ± B) and tan(A ± B)",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g12-maths-ch03-st1"
-          ],
-          "note": "Trig identities; exact values"
-        },
-        {
-          "name": "Double angle formulae and proving identities",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-maths-ch03-st2"
-          ],
-          "note": "Compound angle formulae"
-        },
-        {
-          "name": "Expressing a sin θ + b cos θ as R sin(θ ± α)",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-maths-ch03-st2",
-            "cambridge-g11-maths-ch05-st4"
-          ],
-          "note": "Compound angle formulae; solving trigonometric equations"
-        }
-      ]
+     "name": "The factor theorem and factorising cubic and quartic polynomials",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g12-maths-ch01-st2"
+     ],
+     "note": "Remainder theorem; solving quadratics"
     },
     {
-      "name": "Differentiation",
-      "subtopics": [
-        {
-          "name": "Product and quotient rules",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g11-maths-ch07-st3"
-          ],
-          "note": "The chain rule (AS Pure 1)"
-        },
-        {
-          "name": "Derivatives of eˣ, ln x, sin x, cos x and tan x",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g12-maths-ch04-st1",
-            "cambridge-g12-maths-ch02-st2"
-          ],
-          "note": "Product rule; exponential and log functions"
-        },
-        {
-          "name": "Implicit differentiation",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-maths-ch04-st2"
-          ],
-          "note": "Chain rule; product rule"
-        },
-        {
-          "name": "Parametric differentiation",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-maths-ch04-st2"
-          ],
-          "note": "Chain rule; dy/dx = (dy/dt)/(dx/dt)"
-        }
-      ]
-    },
-    {
-      "name": "Integration",
-      "subtopics": [
-        {
-          "name": "Integrating eˣ, 1/x, sin x, cos x and sec²x",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g12-maths-ch04-st2",
-            "cambridge-g11-maths-ch09-st2"
-          ],
-          "note": "Derivatives of standard functions; reverse of differentiation"
-        },
-        {
-          "name": "Using trigonometric identities in integration",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-maths-ch05-st1",
-            "cambridge-g12-maths-ch03-st3"
-          ],
-          "note": "Double angle formulae"
-        },
-        {
-          "name": "The trapezium rule and over- or under-estimation",
-          "weight": "L",
-          "prereq": [
-            "cambridge-g11-maths-ch09-st3"
-          ],
-          "note": "Definite integrals as area; trapezium area"
-        },
-        {
-          "name": "Definite integrals of exponential, logarithmic and trigonometric functions",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-maths-ch05-st1"
-          ],
-          "note": "Standard integrals; evaluating limits"
-        }
-      ]
-    },
-    {
-      "name": "Numerical solutions of equations",
-      "subtopics": [
-        {
-          "name": "Locating roots by sign change and graphically",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-maths-ch01-st4"
-          ],
-          "note": "Sketching graphs; continuity of functions"
-        },
-        {
-          "name": "Iterative formulae xₙ₊₁ = F(xₙ) and convergence",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-maths-ch06-st1"
-          ],
-          "note": "Rearranging equations; recursive sequences"
-        },
-        {
-          "name": "Using iteration to solve equations to a given accuracy",
-          "weight": "L",
-          "prereq": [
-            "cambridge-g12-maths-ch06-st2"
-          ],
-          "note": "Iterative formulae; rounding and bounds"
-        }
-      ]
-    },
-    {
-      "name": "Further algebra",
-      "subtopics": [
-        {
-          "name": "Partial fractions with linear and repeated linear denominators",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g12-maths-ch01-st2"
-          ],
-          "note": "Polynomial division; algebraic fractions"
-        },
-        {
-          "name": "Partial fractions with a quadratic factor in the denominator",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-maths-ch07-st1"
-          ],
-          "note": "Partial fractions with linear denominators"
-        },
-        {
-          "name": "Binomial expansion of (1 + x)ⁿ for any rational n and validity",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch06-st1"
-          ],
-          "note": "Binomial expansion for positive integer n (AS Pure 1)"
-        }
-      ]
-    },
-    {
-      "name": "Further calculus",
-      "subtopics": [
-        {
-          "name": "Integration by substitution",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g12-maths-ch05-st4"
-          ],
-          "note": "Chain rule; changing limits"
-        },
-        {
-          "name": "Integration by parts",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g12-maths-ch05-st4",
-            "cambridge-g12-maths-ch04-st1"
-          ],
-          "note": "Product rule"
-        },
-        {
-          "name": "Integrating using partial fractions",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-maths-ch07-st2",
-            "cambridge-g12-maths-ch05-st1"
-          ],
-          "note": "Partial fractions; integral of 1/x"
-        },
-        {
-          "name": "Inverse tangent: derivative and integration of 1/(a² + x²)",
-          "weight": "L",
-          "prereq": [
-            "cambridge-g12-maths-ch08-st1"
-          ],
-          "note": "Integration by substitution; tan identities"
-        }
-      ]
-    },
-    {
-      "name": "Vectors",
-      "subtopics": [
-        {
-          "name": "Vectors in two and three dimensions: magnitude and unit vectors",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g10-maths-ch11-st4"
-          ],
-          "note": "Magnitude of a vector (IGCSE)"
-        },
-        {
-          "name": "Scalar product and the angle between two vectors",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g12-maths-ch09-st1"
-          ],
-          "note": "Magnitude of a vector; cosine rule"
-        },
-        {
-          "name": "Vector equation of a line and intersection of lines",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-maths-ch09-st1"
-          ],
-          "note": "Position vectors; simultaneous equations"
-        },
-        {
-          "name": "Perpendicular distance from a point to a line and skew lines",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-maths-ch09-st2",
-            "cambridge-g12-maths-ch09-st3"
-          ],
-          "note": "Scalar product; vector equation of a line"
-        }
-      ]
-    },
-    {
-      "name": "Differential equations",
-      "subtopics": [
-        {
-          "name": "Forming differential equations from a context",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-maths-ch04-st2",
-            "cambridge-g11-maths-ch08-st4"
-          ],
-          "note": "Connected rates of change (AS Pure 1)"
-        },
-        {
-          "name": "Solving first-order differential equations by separating variables",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g12-maths-ch10-st1",
-            "cambridge-g12-maths-ch08-st1"
-          ],
-          "note": "Integration techniques; logarithms"
-        },
-        {
-          "name": "Interpreting general and particular solutions in context",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-maths-ch10-st2"
-          ],
-          "note": "Separating variables; exponential growth and decay"
-        }
-      ]
-    },
-    {
-      "name": "Complex numbers",
-      "subtopics": [
-        {
-          "name": "Complex numbers: Cartesian form, arithmetic and conjugates",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch01-st2"
-          ],
-          "note": "The discriminant (AS Pure 1)"
-        },
-        {
-          "name": "Argand diagrams, modulus and argument and polar form",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-maths-ch11-st1"
-          ],
-          "note": "Trigonometry; radians"
-        },
-        {
-          "name": "Multiplying and dividing in polar and exponential form",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g12-maths-ch11-st2",
-            "cambridge-g12-maths-ch03-st2"
-          ],
-          "note": "Compound angle formulae; modulus and argument"
-        },
-        {
-          "name": "Loci in the Argand diagram",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-maths-ch11-st2",
-            "cambridge-g11-maths-ch03-st3"
-          ],
-          "note": "Equation of a circle; perpendicular bisector"
-        },
-        {
-          "name": "Complex roots of polynomial equations and square roots of complex numbers",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-maths-ch11-st1",
-            "cambridge-g12-maths-ch01-st3"
-          ],
-          "note": "Factor theorem; conjugate pairs"
-        }
-      ]
-    },
-    {
-      "name": "Kinematics: velocity and acceleration",
-      "subtopics": [
-        {
-          "name": "Displacement, velocity and acceleration and displacement-time and velocity-time graphs",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-physics-ch02-st2"
-          ],
-          "note": "Kinematics graphs (AS Physics); gradient and area under a graph"
-        },
-        {
-          "name": "Constant acceleration equations (suvat)",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g12-maths-ch12-st1",
-            "cambridge-g11-physics-ch03-st1"
-          ],
-          "note": "Rearranging formulae; velocity-time graphs"
-        },
-        {
-          "name": "Vertical motion under gravity",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-maths-ch12-st2"
-          ],
-          "note": "Constant acceleration equations; g = 9.8 or 10 m s⁻²"
-        }
-      ]
-    },
-    {
-      "name": "Forces and Newton's laws in one dimension",
-      "subtopics": [
-        {
-          "name": "Types of force: weight, normal contact, tension, thrust and friction and force diagrams",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-physics-ch04-st1"
-          ],
-          "note": "Newton's laws of motion (AS Physics)"
-        },
-        {
-          "name": "Newton's second law F = ma in one dimension",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g12-maths-ch13-st1",
-            "cambridge-g12-maths-ch12-st2"
-          ],
-          "note": "Constant acceleration equations"
-        },
-        {
-          "name": "Motion in a lift and Newton's third law",
-          "weight": "L",
-          "prereq": [
-            "cambridge-g12-maths-ch13-st2"
-          ],
-          "note": "F = ma; action-reaction pairs"
-        }
-      ]
-    },
-    {
-      "name": "Forces in two dimensions",
-      "subtopics": [
-        {
-          "name": "Resolving forces into components and resultant forces",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-maths-ch13-st1",
-            "cambridge-g11-maths-ch05-st3"
-          ],
-          "note": "Trigonometry in right-angled triangles"
-        },
-        {
-          "name": "Equilibrium of a particle under coplanar forces",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g12-maths-ch14-st1"
-          ],
-          "note": "Resolving forces"
-        },
-        {
-          "name": "Motion on an inclined plane",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-maths-ch14-st1",
-            "cambridge-g12-maths-ch13-st2"
-          ],
-          "note": "Resolving forces; F = ma"
-        }
-      ]
-    },
-    {
-      "name": "Friction",
-      "subtopics": [
-        {
-          "name": "Limiting friction and the coefficient of friction F ≤ μR",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-maths-ch14-st1"
-          ],
-          "note": "Resolving forces; normal reaction"
-        },
-        {
-          "name": "Equilibrium and motion with friction, including on rough slopes",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-maths-ch15-st1",
-            "cambridge-g12-maths-ch14-st3"
-          ],
-          "note": "Inclined plane; coefficient of friction"
-        },
-        {
-          "name": "Smooth and rough contact and modelling assumptions",
-          "weight": "L",
-          "prereq": [
-            "cambridge-g12-maths-ch15-st1"
-          ],
-          "note": "Limiting friction; models in mechanics"
-        }
-      ]
-    },
-    {
-      "name": "Connected particles",
-      "subtopics": [
-        {
-          "name": "Particles connected by strings: tension and towing problems",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-maths-ch13-st2"
-          ],
-          "note": "Newton's second law"
-        },
-        {
-          "name": "Pulley systems over smooth pegs and pulleys",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g12-maths-ch16-st1",
-            "cambridge-g12-maths-ch15-st2"
-          ],
-          "note": "Connected particles; friction"
-        },
-        {
-          "name": "Motion after a string becomes slack or breaks",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-maths-ch16-st2",
-            "cambridge-g12-maths-ch12-st3"
-          ],
-          "note": "Pulley systems; vertical motion under gravity"
-        }
-      ]
-    },
-    {
-      "name": "General motion in a straight line",
-      "subtopics": [
-        {
-          "name": "Variable acceleration: differentiating displacement and velocity with respect to time",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g12-maths-ch12-st1",
-            "cambridge-g11-maths-ch07-st2"
-          ],
-          "note": "Differentiation of polynomials (AS Pure 1)"
-        },
-        {
-          "name": "Integrating acceleration and velocity and using initial conditions",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-maths-ch17-st1",
-            "cambridge-g11-maths-ch09-st2"
-          ],
-          "note": "Integration and constant of integration (AS Pure 1)"
-        },
-        {
-          "name": "Maximum displacement, velocity and total distance travelled",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-maths-ch17-st2",
-            "cambridge-g11-maths-ch08-st1"
-          ],
-          "note": "Stationary points"
-        }
-      ]
-    },
-    {
-      "name": "Momentum",
-      "subtopics": [
-        {
-          "name": "Momentum and impulse in one dimension",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-physics-ch05-st1"
-          ],
-          "note": "Momentum (AS Physics); vectors in one dimension"
-        },
-        {
-          "name": "Conservation of linear momentum in direct collisions",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g12-maths-ch18-st1"
-          ],
-          "note": "Momentum; sign conventions"
-        },
-        {
-          "name": "Coalescence and successive collisions",
-          "weight": "L",
-          "prereq": [
-            "cambridge-g12-maths-ch18-st2"
-          ],
-          "note": "Conservation of momentum"
-        }
-      ]
-    },
-    {
-      "name": "Work and energy",
-      "subtopics": [
-        {
-          "name": "Work done by a constant force including at an angle",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-maths-ch14-st1",
-            "cambridge-g11-physics-ch08-st1"
-          ],
-          "note": "Work, energy and power (AS Physics); resolving forces"
-        },
-        {
-          "name": "Kinetic energy and gravitational potential energy",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-maths-ch19-st1"
-          ],
-          "note": "Work done; ½mv² and mgh"
-        },
-        {
-          "name": "Conservation of mechanical energy",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-maths-ch19-st2"
-          ],
-          "note": "Kinetic and potential energy"
-        }
-      ]
-    },
-    {
-      "name": "Work-energy principle and power",
-      "subtopics": [
-        {
-          "name": "The work-energy principle including work done against resistance",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g12-maths-ch19-st3",
-            "cambridge-g12-maths-ch15-st2"
-          ],
-          "note": "Conservation of energy; friction"
-        },
-        {
-          "name": "Power as rate of doing work and P = Fv",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-maths-ch20-st1"
-          ],
-          "note": "Work done; driving force"
-        },
-        {
-          "name": "Motion with variable resistance and power on slopes",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-maths-ch20-st2",
-            "cambridge-g12-maths-ch14-st3"
-          ],
-          "note": "Power P = Fv; inclined plane"
-        }
-      ]
+     "name": "Solving polynomial equations and sketching polynomial graphs",
+     "weight": "L",
+     "prereq": [
+      "cambridge-g12-maths-ch01-st3"
+     ],
+     "note": "Factor theorem; roots and intercepts"
     }
-  ]
+   ]
+  },
+  {
+   "name": "Logarithmic and exponential functions",
+   "subtopics": [
+    {
+     "name": "Logarithms and the laws of logarithms",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch02-st3"
+     ],
+     "note": "Inverse functions (AS Pure 1); laws of indices"
+    },
+    {
+     "name": "The exponential function eˣ and natural logarithm ln x",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g12-maths-ch02-st1"
+     ],
+     "note": "Laws of logarithms; graphs of exponential functions (IGCSE)"
+    },
+    {
+     "name": "Solving equations and inequalities of the form aˣ = b using logarithms",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-maths-ch02-st1",
+      "cambridge-g12-maths-ch02-st2"
+     ],
+     "note": "Laws of logarithms; inequalities"
+    },
+    {
+     "name": "Using logarithms to reduce relationships to linear form",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-maths-ch02-st1",
+      "cambridge-g11-maths-ch03-st1"
+     ],
+     "note": "Equation of a straight line; laws of logarithms"
+    }
+   ]
+  },
+  {
+   "name": "Trigonometry",
+   "subtopics": [
+    {
+     "name": "Secant, cosecant and cotangent and their graphs",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch05-st3"
+     ],
+     "note": "sin²θ + cos²θ = 1 (AS Pure 1)"
+    },
+    {
+     "name": "Compound angle formulae for sin(A ± B), cos(A ± B) and tan(A ± B)",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g12-maths-ch03-st1"
+     ],
+     "note": "Trig identities; exact values"
+    },
+    {
+     "name": "Double angle formulae and proving identities",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-maths-ch03-st2"
+     ],
+     "note": "Compound angle formulae"
+    },
+    {
+     "name": "Expressing a sin θ + b cos θ as R sin(θ ± α)",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-maths-ch03-st2",
+      "cambridge-g11-maths-ch05-st4"
+     ],
+     "note": "Compound angle formulae; solving trigonometric equations"
+    }
+   ]
+  },
+  {
+   "name": "Differentiation",
+   "subtopics": [
+    {
+     "name": "Product and quotient rules",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-maths-ch07-st3"
+     ],
+     "note": "The chain rule (AS Pure 1)"
+    },
+    {
+     "name": "Derivatives of eˣ, ln x, sin x, cos x and tan x",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g12-maths-ch04-st1",
+      "cambridge-g12-maths-ch02-st2"
+     ],
+     "note": "Product rule; exponential and log functions"
+    },
+    {
+     "name": "Implicit differentiation",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-maths-ch04-st2"
+     ],
+     "note": "Chain rule; product rule"
+    },
+    {
+     "name": "Parametric differentiation",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-maths-ch04-st2"
+     ],
+     "note": "Chain rule; dy/dx = (dy/dt)/(dx/dt)"
+    }
+   ]
+  },
+  {
+   "name": "Integration",
+   "subtopics": [
+    {
+     "name": "Integrating eˣ, 1/x, sin x, cos x and sec²x",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g12-maths-ch04-st2",
+      "cambridge-g11-maths-ch09-st2"
+     ],
+     "note": "Derivatives of standard functions; reverse of differentiation"
+    },
+    {
+     "name": "Using trigonometric identities in integration",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-maths-ch05-st1",
+      "cambridge-g12-maths-ch03-st3"
+     ],
+     "note": "Double angle formulae"
+    },
+    {
+     "name": "The trapezium rule and over- or under-estimation",
+     "weight": "L",
+     "prereq": [
+      "cambridge-g11-maths-ch09-st3"
+     ],
+     "note": "Definite integrals as area; trapezium area"
+    },
+    {
+     "name": "Definite integrals of exponential, logarithmic and trigonometric functions",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-maths-ch05-st1"
+     ],
+     "note": "Standard integrals; evaluating limits"
+    }
+   ]
+  },
+  {
+   "name": "Numerical solutions of equations",
+   "subtopics": [
+    {
+     "name": "Locating roots by sign change and graphically",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-maths-ch01-st4"
+     ],
+     "note": "Sketching graphs; continuity of functions"
+    },
+    {
+     "name": "Iterative formulae xₙ₊₁ = F(xₙ) and convergence",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-maths-ch06-st1"
+     ],
+     "note": "Rearranging equations; recursive sequences"
+    },
+    {
+     "name": "Using iteration to solve equations to a given accuracy",
+     "weight": "L",
+     "prereq": [
+      "cambridge-g12-maths-ch06-st2"
+     ],
+     "note": "Iterative formulae; rounding and bounds"
+    }
+   ]
+  },
+  {
+   "name": "Further algebra",
+   "subtopics": [
+    {
+     "name": "Partial fractions with linear and repeated linear denominators",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g12-maths-ch01-st2"
+     ],
+     "note": "Polynomial division; algebraic fractions"
+    },
+    {
+     "name": "Partial fractions with a quadratic factor in the denominator",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-maths-ch07-st1"
+     ],
+     "note": "Partial fractions with linear denominators"
+    },
+    {
+     "name": "Binomial expansion of (1 + x)ⁿ for any rational n and validity",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch06-st1"
+     ],
+     "note": "Binomial expansion for positive integer n (AS Pure 1)"
+    }
+   ]
+  },
+  {
+   "name": "Further calculus",
+   "subtopics": [
+    {
+     "name": "Integration by substitution",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g12-maths-ch05-st4"
+     ],
+     "note": "Chain rule; changing limits"
+    },
+    {
+     "name": "Integration by parts",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g12-maths-ch05-st4",
+      "cambridge-g12-maths-ch04-st1"
+     ],
+     "note": "Product rule"
+    },
+    {
+     "name": "Integrating using partial fractions",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-maths-ch07-st2",
+      "cambridge-g12-maths-ch05-st1"
+     ],
+     "note": "Partial fractions; integral of 1/x"
+    },
+    {
+     "name": "Inverse tangent: derivative and integration of 1/(a² + x²)",
+     "weight": "L",
+     "prereq": [
+      "cambridge-g12-maths-ch08-st1"
+     ],
+     "note": "Integration by substitution; tan identities"
+    }
+   ]
+  },
+  {
+   "name": "Vectors",
+   "subtopics": [
+    {
+     "name": "Vectors in two and three dimensions: magnitude and unit vectors",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g10-maths-ch11-st4"
+     ],
+     "note": "Magnitude of a vector (IGCSE)"
+    },
+    {
+     "name": "Scalar product and the angle between two vectors",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g12-maths-ch09-st1"
+     ],
+     "note": "Magnitude of a vector; cosine rule"
+    },
+    {
+     "name": "Vector equation of a line and intersection of lines",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-maths-ch09-st1"
+     ],
+     "note": "Position vectors; simultaneous equations"
+    },
+    {
+     "name": "Perpendicular distance from a point to a line and skew lines",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-maths-ch09-st2",
+      "cambridge-g12-maths-ch09-st3"
+     ],
+     "note": "Scalar product; vector equation of a line"
+    }
+   ]
+  },
+  {
+   "name": "Differential equations",
+   "subtopics": [
+    {
+     "name": "Forming differential equations from a context",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-maths-ch04-st2",
+      "cambridge-g11-maths-ch08-st4"
+     ],
+     "note": "Connected rates of change (AS Pure 1)"
+    },
+    {
+     "name": "Solving first-order differential equations by separating variables",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g12-maths-ch10-st1",
+      "cambridge-g12-maths-ch08-st1"
+     ],
+     "note": "Integration techniques; logarithms"
+    },
+    {
+     "name": "Interpreting general and particular solutions in context",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-maths-ch10-st2"
+     ],
+     "note": "Separating variables; exponential growth and decay"
+    }
+   ]
+  },
+  {
+   "name": "Complex numbers",
+   "subtopics": [
+    {
+     "name": "Complex numbers: Cartesian form, arithmetic and conjugates",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch01-st2"
+     ],
+     "note": "The discriminant (AS Pure 1)"
+    },
+    {
+     "name": "Argand diagrams, modulus and argument and polar form",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-maths-ch11-st1"
+     ],
+     "note": "Trigonometry; radians"
+    },
+    {
+     "name": "Multiplying and dividing in polar and exponential form",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g12-maths-ch11-st2",
+      "cambridge-g12-maths-ch03-st2"
+     ],
+     "note": "Compound angle formulae; modulus and argument"
+    },
+    {
+     "name": "Loci in the Argand diagram",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-maths-ch11-st2",
+      "cambridge-g11-maths-ch03-st3"
+     ],
+     "note": "Equation of a circle; perpendicular bisector"
+    },
+    {
+     "name": "Complex roots of polynomial equations and square roots of complex numbers",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-maths-ch11-st1",
+      "cambridge-g12-maths-ch01-st3"
+     ],
+     "note": "Factor theorem; conjugate pairs"
+    }
+   ]
+  },
+  {
+   "name": "Kinematics: velocity and acceleration",
+   "subtopics": [
+    {
+     "name": "Displacement, velocity and acceleration and displacement-time and velocity-time graphs",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-physics-ch02-st2"
+     ],
+     "note": "Kinematics graphs (AS Physics); gradient and area under a graph"
+    },
+    {
+     "name": "Constant acceleration equations (suvat)",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g12-maths-ch12-st1",
+      "cambridge-g11-physics-ch03-st1"
+     ],
+     "note": "Rearranging formulae; velocity-time graphs"
+    },
+    {
+     "name": "Vertical motion under gravity",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-maths-ch12-st2"
+     ],
+     "note": "Constant acceleration equations; g = 9.8 or 10 m s⁻²"
+    }
+   ]
+  },
+  {
+   "name": "Forces and Newton's laws in one dimension",
+   "subtopics": [
+    {
+     "name": "Types of force: weight, normal contact, tension, thrust and friction and force diagrams",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-physics-ch04-st1"
+     ],
+     "note": "Newton's laws of motion (AS Physics)"
+    },
+    {
+     "name": "Newton's second law F = ma in one dimension",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g12-maths-ch13-st1",
+      "cambridge-g12-maths-ch12-st2"
+     ],
+     "note": "Constant acceleration equations"
+    },
+    {
+     "name": "Motion in a lift and Newton's third law",
+     "weight": "L",
+     "prereq": [
+      "cambridge-g12-maths-ch13-st2"
+     ],
+     "note": "F = ma; action-reaction pairs"
+    }
+   ]
+  },
+  {
+   "name": "Forces in two dimensions",
+   "subtopics": [
+    {
+     "name": "Resolving forces into components and resultant forces",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-maths-ch13-st1",
+      "cambridge-g11-maths-ch05-st3"
+     ],
+     "note": "Trigonometry in right-angled triangles"
+    },
+    {
+     "name": "Equilibrium of a particle under coplanar forces",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g12-maths-ch14-st1"
+     ],
+     "note": "Resolving forces"
+    },
+    {
+     "name": "Motion on an inclined plane",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-maths-ch14-st1",
+      "cambridge-g12-maths-ch13-st2"
+     ],
+     "note": "Resolving forces; F = ma"
+    }
+   ]
+  },
+  {
+   "name": "Friction",
+   "subtopics": [
+    {
+     "name": "Limiting friction and the coefficient of friction F ≤ μR",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-maths-ch14-st1"
+     ],
+     "note": "Resolving forces; normal reaction"
+    },
+    {
+     "name": "Equilibrium and motion with friction, including on rough slopes",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-maths-ch15-st1",
+      "cambridge-g12-maths-ch14-st3"
+     ],
+     "note": "Inclined plane; coefficient of friction"
+    },
+    {
+     "name": "Smooth and rough contact and modelling assumptions",
+     "weight": "L",
+     "prereq": [
+      "cambridge-g12-maths-ch15-st1"
+     ],
+     "note": "Limiting friction; models in mechanics"
+    }
+   ]
+  },
+  {
+   "name": "Connected particles",
+   "subtopics": [
+    {
+     "name": "Particles connected by strings: tension and towing problems",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-maths-ch13-st2"
+     ],
+     "note": "Newton's second law"
+    },
+    {
+     "name": "Pulley systems over smooth pegs and pulleys",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g12-maths-ch16-st1",
+      "cambridge-g12-maths-ch15-st2"
+     ],
+     "note": "Connected particles; friction"
+    },
+    {
+     "name": "Motion after a string becomes slack or breaks",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-maths-ch16-st2",
+      "cambridge-g12-maths-ch12-st3"
+     ],
+     "note": "Pulley systems; vertical motion under gravity"
+    }
+   ]
+  },
+  {
+   "name": "General motion in a straight line",
+   "subtopics": [
+    {
+     "name": "Variable acceleration: differentiating displacement and velocity with respect to time",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g12-maths-ch12-st1",
+      "cambridge-g11-maths-ch07-st2"
+     ],
+     "note": "Differentiation of polynomials (AS Pure 1)"
+    },
+    {
+     "name": "Integrating acceleration and velocity and using initial conditions",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-maths-ch17-st1",
+      "cambridge-g11-maths-ch09-st2"
+     ],
+     "note": "Integration and constant of integration (AS Pure 1)"
+    },
+    {
+     "name": "Maximum displacement, velocity and total distance travelled",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-maths-ch17-st2",
+      "cambridge-g11-maths-ch08-st1"
+     ],
+     "note": "Stationary points"
+    }
+   ]
+  },
+  {
+   "name": "Momentum",
+   "subtopics": [
+    {
+     "name": "Momentum and impulse in one dimension",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-physics-ch05-st1"
+     ],
+     "note": "Momentum (AS Physics); vectors in one dimension"
+    },
+    {
+     "name": "Conservation of linear momentum in direct collisions",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g12-maths-ch18-st1"
+     ],
+     "note": "Momentum; sign conventions"
+    },
+    {
+     "name": "Coalescence and successive collisions",
+     "weight": "L",
+     "prereq": [
+      "cambridge-g12-maths-ch18-st2"
+     ],
+     "note": "Conservation of momentum"
+    }
+   ]
+  },
+  {
+   "name": "Work and energy",
+   "subtopics": [
+    {
+     "name": "Work done by a constant force including at an angle",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-maths-ch14-st1",
+      "cambridge-g11-physics-ch08-st1"
+     ],
+     "note": "Work, energy and power (AS Physics); resolving forces"
+    },
+    {
+     "name": "Kinetic energy and gravitational potential energy",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-maths-ch19-st1"
+     ],
+     "note": "Work done; ½mv² and mgh"
+    },
+    {
+     "name": "Conservation of mechanical energy",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-maths-ch19-st2"
+     ],
+     "note": "Kinetic and potential energy"
+    }
+   ]
+  },
+  {
+   "name": "Work-energy principle and power",
+   "subtopics": [
+    {
+     "name": "The work-energy principle including work done against resistance",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g12-maths-ch19-st3",
+      "cambridge-g12-maths-ch15-st2"
+     ],
+     "note": "Conservation of energy; friction"
+    },
+    {
+     "name": "Power as rate of doing work and P = Fv",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-maths-ch20-st1"
+     ],
+     "note": "Work done; driving force"
+    },
+    {
+     "name": "Motion with variable resistance and power on slopes",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-maths-ch20-st2",
+      "cambridge-g12-maths-ch14-st3"
+     ],
+     "note": "Power P = Fv; inclined plane"
+    }
+   ]
+  }
+ ]
 }

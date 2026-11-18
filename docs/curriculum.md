@@ -15,7 +15,7 @@ Owner: W2 Curriculum map. Files: `data/curriculum/` (generated, do not hand-edit
 - 3 to 5 subtopics per chapter, weight L/S/H. Teaching periods are 40-minute periods: weight gives H 4, S 3, L 2 (the class 8 maths workbook ratios), scaled per subject to the programme's annual instruction time (CBSE 150/yr in grades 8-10 and 200 in 11-12; Cambridge Stage 9 150, IGCSE 100, AS/A Level 270; IB MYP 120, DP 180; languages 80% of that), with the scale factor kept between 0.6 and 1.5.
 - `prerequisiteIds` point to earlier subtopics in the same subject or to subtopics in earlier grades (or same-grade subjects) of the same board; the graph is acyclic. `prerequisiteNote` always says, in words, which earlier skill to probe (the workbook's Prerequisite Map column), including skills outside the map.
 - `cbse-g8-maths` reproduces the class 8 maths workbook exactly (14 chapters, 45 subtopics, 145 periods, same weights and prerequisites), via `scripts/curriculum/import_cbse_g8_maths.py`.
-- `learnHours` and `masterHours` are `{}` until W3's mastery-time engine fills them.
+- `learnHours` and `masterHours` come from W3's mastery-time engine (`npx tsx scripts/engines/fill-mastery-hours.ts --write`); `build.py` keeps them when it regenerates. Re-run the fill after changing weights or periods.
 
 ## Subject slugs
 

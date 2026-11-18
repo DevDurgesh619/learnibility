@@ -1,509 +1,509 @@
 {
-  "subjectId": "cambridge-g11-computer-science",
-  "chapters": [
+ "subjectId": "cambridge-g11-computer-science",
+ "chapters": [
+  {
+   "name": "Information Representation",
+   "subtopics": [
     {
-      "name": "Information Representation",
-      "subtopics": [
-        {
-          "name": "Binary, denary and hexadecimal conversion; binary and decimal prefixes (kibi, mebi vs kilo, mega)",
-          "weight": "H",
-          "prereq": [],
-          "note": "Place value and powers of 2 and 10 (maths); IGCSE Computer Science 0478 number systems"
-        },
-        {
-          "name": "Two's complement, binary addition and subtraction, overflow and BCD",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-computer-science-ch01-st1"
-          ],
-          "note": "Binary conversion; negative numbers and place value"
-        },
-        {
-          "name": "Character sets: ASCII, extended ASCII and Unicode",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-computer-science-ch01-st1"
-          ],
-          "note": "Binary representation; number of bits and range of values"
-        },
-        {
-          "name": "Bitmap and vector graphics: resolution, colour depth and file size calculations",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-computer-science-ch01-st1"
-          ],
-          "note": "Binary prefixes; multiplying large numbers and unit conversion"
-        },
-        {
-          "name": "Sound representation, sampling rate and resolution; lossy and lossless compression including run-length encoding",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-computer-science-ch01-st4"
-          ],
-          "note": "Bitmap file size; binary representation of data"
-        }
-      ]
+     "name": "Binary, denary and hexadecimal conversion; binary and decimal prefixes (kibi, mebi vs kilo, mega)",
+     "weight": "H",
+     "prereq": [],
+     "note": "Place value and powers of 2 and 10 (maths); IGCSE Computer Science 0478 number systems"
     },
     {
-      "name": "Communication",
-      "subtopics": [
-        {
-          "name": "Networks: LAN and WAN, client–server and peer-to-peer models, thin and thick clients",
-          "weight": "S",
-          "prereq": [],
-          "note": "Basic network use and the internet (IGCSE ICT/CS)"
-        },
-        {
-          "name": "Network topologies (bus, star, mesh, hybrid) and cloud computing",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-computer-science-ch02-st1"
-          ],
-          "note": "LAN and WAN; client–server model"
-        },
-        {
-          "name": "Wired and wireless transmission media; Ethernet, CSMA/CD and network hardware (switch, router, NIC, WAP)",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-computer-science-ch02-st2"
-          ],
-          "note": "Network topologies; data transmission as bits"
-        },
-        {
-          "name": "IP addressing: IPv4, IPv6, subnetting, public and private addresses, DNS and URLs",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g11-computer-science-ch02-st3",
-            "cambridge-g11-computer-science-ch01-st1"
-          ],
-          "note": "Network hardware and routing; binary and hexadecimal conversion"
-        }
-      ]
+     "name": "Two's complement, binary addition and subtraction, overflow and BCD",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-computer-science-ch01-st1"
+     ],
+     "note": "Binary conversion; negative numbers and place value"
     },
     {
-      "name": "Hardware",
-      "subtopics": [
-        {
-          "name": "Input, output and storage devices: laser printer, 3D printer, microphone, speakers, SSD, magnetic and optical storage",
-          "weight": "S",
-          "prereq": [],
-          "note": "Common input and output devices (IGCSE ICT/CS)"
-        },
-        {
-          "name": "Primary memory: RAM and ROM, SRAM and DRAM, PROM, EPROM and EEPROM",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-computer-science-ch03-st1"
-          ],
-          "note": "Storage devices; role of memory in a computer"
-        },
-        {
-          "name": "Embedded systems and buffers",
-          "weight": "L",
-          "prereq": [
-            "cambridge-g11-computer-science-ch03-st2"
-          ],
-          "note": "Primary memory; devices with dedicated functions"
-        }
-      ]
+     "name": "Character sets: ASCII, extended ASCII and Unicode",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-computer-science-ch01-st1"
+     ],
+     "note": "Binary representation; number of bits and range of values"
     },
     {
-      "name": "Logic Gates and Logic Circuits",
-      "subtopics": [
-        {
-          "name": "Logic gates (NOT, AND, OR, NAND, NOR, XOR) and their truth tables",
-          "weight": "H",
-          "prereq": [],
-          "note": "Boolean values true/false; IGCSE logic gates"
-        },
-        {
-          "name": "Constructing logic circuits and truth tables from problem statements and logic expressions",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g11-computer-science-ch04-st1"
-          ],
-          "note": "Logic gates and truth tables"
-        },
-        {
-          "name": "Simplifying logic circuits and expressions using NAND/NOR equivalence",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-computer-science-ch04-st2"
-          ],
-          "note": "Constructing logic circuits; order of operations in expressions"
-        }
-      ]
+     "name": "Bitmap and vector graphics: resolution, colour depth and file size calculations",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-computer-science-ch01-st1"
+     ],
+     "note": "Binary prefixes; multiplying large numbers and unit conversion"
     },
     {
-      "name": "Processor Fundamentals",
-      "subtopics": [
-        {
-          "name": "Von Neumann architecture: registers (PC, MDR, MAR, ACC, IX, CIR, status), ALU, CU, clock and system buses",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g11-computer-science-ch03-st2"
-          ],
-          "note": "Primary memory; binary data in memory locations"
-        },
-        {
-          "name": "Factors affecting performance: clock speed, cores, bus width and cache memory",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-computer-science-ch05-st1"
-          ],
-          "note": "Von Neumann architecture components"
-        },
-        {
-          "name": "Ports (USB, HDMI, VGA) and the fetch–execute cycle in register transfer notation",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g11-computer-science-ch05-st1"
-          ],
-          "note": "Registers and buses; sequence of operations"
-        },
-        {
-          "name": "Interrupts and interrupt service routines",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-computer-science-ch05-st3"
-          ],
-          "note": "Fetch–execute cycle; priorities and processor state"
-        }
-      ]
-    },
-    {
-      "name": "Assembly Language Programming",
-      "subtopics": [
-        {
-          "name": "Assembly language and machine code; two-pass assemblers",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-computer-science-ch05-st3"
-          ],
-          "note": "Fetch–execute cycle; registers"
-        },
-        {
-          "name": "Instruction groups and addressing modes: immediate, direct, indirect, indexed and relative",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g11-computer-science-ch06-st1",
-            "cambridge-g11-computer-science-ch05-st1"
-          ],
-          "note": "Assembly language; registers including IX and ACC"
-        },
-        {
-          "name": "Tracing simple assembly language programs",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-computer-science-ch06-st2"
-          ],
-          "note": "Addressing modes; trace tables"
-        },
-        {
-          "name": "Bit manipulation: logical and arithmetic shifts and masking to test and set bits",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-computer-science-ch06-st2",
-            "cambridge-g11-computer-science-ch01-st2",
-            "cambridge-g11-computer-science-ch04-st1"
-          ],
-          "note": "Instruction groups; binary arithmetic; AND/OR/XOR operations"
-        }
-      ]
-    },
-    {
-      "name": "Monitoring and Control Systems",
-      "subtopics": [
-        {
-          "name": "Sensors and actuators in monitoring and control systems",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-computer-science-ch03-st1"
-          ],
-          "note": "Input and output devices; embedded systems"
-        },
-        {
-          "name": "Feedback in control systems and the need for analogue-to-digital conversion",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-computer-science-ch07-st1"
-          ],
-          "note": "Sensors and actuators; sampling and digital representation"
-        },
-        {
-          "name": "Using bit manipulation to monitor and control devices",
-          "weight": "L",
-          "prereq": [
-            "cambridge-g11-computer-science-ch07-st2",
-            "cambridge-g11-computer-science-ch06-st4"
-          ],
-          "note": "Feedback control; bit masking and shifting"
-        }
-      ]
-    },
-    {
-      "name": "System Software",
-      "subtopics": [
-        {
-          "name": "Operating system functions: memory, file, security, hardware and process management; user interface",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g11-computer-science-ch05-st1"
-          ],
-          "note": "Processor fundamentals; interrupts"
-        },
-        {
-          "name": "Utility software: disk formatter, virus checker, defragmenter, compression and back-up; program libraries and DLLs",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-computer-science-ch08-st1"
-          ],
-          "note": "Operating system functions"
-        },
-        {
-          "name": "Language translators: assembler, compiler and interpreter; advantages and disadvantages",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g11-computer-science-ch06-st1"
-          ],
-          "note": "Assembly language and machine code"
-        },
-        {
-          "name": "Integrated development environment features: prettyprint, context-sensitive prompts, debugging tools",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-computer-science-ch08-st3"
-          ],
-          "note": "Language translators; writing and running programs"
-        }
-      ]
-    },
-    {
-      "name": "Security, Privacy and Data Integrity",
-      "subtopics": [
-        {
-          "name": "Security of data and systems: threats such as malware, hacking, phishing and pharming",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-computer-science-ch02-st4"
-          ],
-          "note": "Networks and IP addressing; internet use"
-        },
-        {
-          "name": "Security measures: user accounts, passwords, firewalls, encryption, anti-malware, access rights",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-computer-science-ch09-st1"
-          ],
-          "note": "Threats to systems; operating system security management"
-        },
-        {
-          "name": "Data integrity: validation (range, format, length, presence, existence, check digit) and verification (double entry, parity, checksums)",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g11-computer-science-ch09-st2",
-            "cambridge-g11-computer-science-ch01-st1"
-          ],
-          "note": "Security measures; binary and parity bits"
-        }
-      ]
-    },
-    {
-      "name": "Ethics and Ownership",
-      "subtopics": [
-        {
-          "name": "Professional ethics and codes of conduct (BCS, IEEE)",
-          "weight": "L",
-          "prereq": [],
-          "note": "Responsible use of technology (IGCSE ICT)"
-        },
-        {
-          "name": "Copyright legislation and software licensing: free software, open source, shareware and commercial",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-computer-science-ch10-st1"
-          ],
-          "note": "Professional ethics; ownership of intellectual property"
-        },
-        {
-          "name": "Artificial intelligence: social, economic and environmental impacts",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-computer-science-ch10-st1"
-          ],
-          "note": "Professional ethics; examples of AI in everyday life"
-        }
-      ]
-    },
-    {
-      "name": "Databases",
-      "subtopics": [
-        {
-          "name": "Limitations of file-based systems and features of a relational database: entity, table, record, field, keys",
-          "weight": "S",
-          "prereq": [],
-          "note": "Spreadsheets and flat-file data (IGCSE ICT)"
-        },
-        {
-          "name": "Entity-relationship modelling and normalisation to third normal form",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g11-computer-science-ch11-st1"
-          ],
-          "note": "Relational database terminology; primary and foreign keys"
-        },
-        {
-          "name": "Database management systems: data dictionary, logical schema, access rights and developer interface",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-computer-science-ch11-st1"
-          ],
-          "note": "Relational database features"
-        },
-        {
-          "name": "SQL: data definition language and data manipulation language queries",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g11-computer-science-ch11-st2"
-          ],
-          "note": "Normalised tables; Boolean conditions and operators"
-        }
-      ]
-    },
-    {
-      "name": "Algorithm Design and Problem-solving",
-      "subtopics": [
-        {
-          "name": "Computational thinking: abstraction and decomposition",
-          "weight": "S",
-          "prereq": [],
-          "note": "Problem-solving and breaking tasks into steps (IGCSE CS)"
-        },
-        {
-          "name": "Writing algorithms in structured English, flowcharts and pseudocode; identifiers and identifier tables",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g11-computer-science-ch12-st1"
-          ],
-          "note": "Abstraction and decomposition; flowchart symbols (IGCSE CS)"
-        },
-        {
-          "name": "Stepwise refinement of algorithms",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-computer-science-ch12-st2"
-          ],
-          "note": "Writing algorithms in pseudocode"
-        }
-      ]
-    },
-    {
-      "name": "Data Types and Structures",
-      "subtopics": [
-        {
-          "name": "Data types: INTEGER, REAL, CHAR, STRING, BOOLEAN, DATE; records",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-computer-science-ch01-st3",
-            "cambridge-g11-computer-science-ch12-st2"
-          ],
-          "note": "Character sets; pseudocode identifiers"
-        },
-        {
-          "name": "1D and 2D arrays; linear search and bubble sort",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g11-computer-science-ch13-st1",
-            "cambridge-g11-computer-science-ch12-st3"
-          ],
-          "note": "Data types; loops in pseudocode"
-        },
-        {
-          "name": "Text files: reading, writing and appending",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-computer-science-ch13-st1"
-          ],
-          "note": "Data types; sequence of records"
-        },
-        {
-          "name": "Abstract data types: stack, queue and linked list",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g11-computer-science-ch13-st2"
-          ],
-          "note": "Arrays and indexes; pointers"
-        }
-      ]
-    },
-    {
-      "name": "Programming",
-      "subtopics": [
-        {
-          "name": "Programming basics: variables, constants, input, output, assignment and built-in functions (string and numeric)",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-computer-science-ch13-st1"
-          ],
-          "note": "Data types; pseudocode statements"
-        },
-        {
-          "name": "Constructs: selection (IF, CASE) and iteration (count-controlled, pre-condition and post-condition loops)",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g11-computer-science-ch14-st1",
-            "cambridge-g11-computer-science-ch12-st2"
-          ],
-          "note": "Programming basics; flowchart decisions and loops"
-        },
-        {
-          "name": "Structured programming: procedures, functions, parameters by value and by reference",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g11-computer-science-ch14-st2"
-          ],
-          "note": "Selection and iteration constructs; decomposition"
-        }
-      ]
-    },
-    {
-      "name": "Software Development",
-      "subtopics": [
-        {
-          "name": "Program development life cycle: analysis, design, coding, testing and maintenance; waterfall, iterative and RAD",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-computer-science-ch12-st1"
-          ],
-          "note": "Computational thinking; stages of problem-solving"
-        },
-        {
-          "name": "Program design using structure charts and state-transition diagrams",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-computer-science-ch15-st1",
-            "cambridge-g11-computer-science-ch14-st3"
-          ],
-          "note": "Development life cycle; procedures and parameters"
-        },
-        {
-          "name": "Types of errors and testing methods: dry-run, walkthrough, white-box, black-box, alpha, beta, acceptance; test data",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g11-computer-science-ch15-st1",
-            "cambridge-g11-computer-science-ch13-st2"
-          ],
-          "note": "Development life cycle; trace tables for arrays and loops"
-        },
-        {
-          "name": "Maintenance: corrective, adaptive and perfective",
-          "weight": "L",
-          "prereq": [
-            "cambridge-g11-computer-science-ch15-st3"
-          ],
-          "note": "Testing and error types"
-        }
-      ]
+     "name": "Sound representation, sampling rate and resolution; lossy and lossless compression including run-length encoding",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-computer-science-ch01-st4"
+     ],
+     "note": "Bitmap file size; binary representation of data"
     }
-  ]
+   ]
+  },
+  {
+   "name": "Communication",
+   "subtopics": [
+    {
+     "name": "Networks: LAN and WAN, client–server and peer-to-peer models, thin and thick clients",
+     "weight": "S",
+     "prereq": [],
+     "note": "Basic network use and the internet (IGCSE ICT/CS)"
+    },
+    {
+     "name": "Network topologies (bus, star, mesh, hybrid) and cloud computing",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-computer-science-ch02-st1"
+     ],
+     "note": "LAN and WAN; client–server model"
+    },
+    {
+     "name": "Wired and wireless transmission media; Ethernet, CSMA/CD and network hardware (switch, router, NIC, WAP)",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-computer-science-ch02-st2"
+     ],
+     "note": "Network topologies; data transmission as bits"
+    },
+    {
+     "name": "IP addressing: IPv4, IPv6, subnetting, public and private addresses, DNS and URLs",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-computer-science-ch02-st3",
+      "cambridge-g11-computer-science-ch01-st1"
+     ],
+     "note": "Network hardware and routing; binary and hexadecimal conversion"
+    }
+   ]
+  },
+  {
+   "name": "Hardware",
+   "subtopics": [
+    {
+     "name": "Input, output and storage devices: laser printer, 3D printer, microphone, speakers, SSD, magnetic and optical storage",
+     "weight": "S",
+     "prereq": [],
+     "note": "Common input and output devices (IGCSE ICT/CS)"
+    },
+    {
+     "name": "Primary memory: RAM and ROM, SRAM and DRAM, PROM, EPROM and EEPROM",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-computer-science-ch03-st1"
+     ],
+     "note": "Storage devices; role of memory in a computer"
+    },
+    {
+     "name": "Embedded systems and buffers",
+     "weight": "L",
+     "prereq": [
+      "cambridge-g11-computer-science-ch03-st2"
+     ],
+     "note": "Primary memory; devices with dedicated functions"
+    }
+   ]
+  },
+  {
+   "name": "Logic Gates and Logic Circuits",
+   "subtopics": [
+    {
+     "name": "Logic gates (NOT, AND, OR, NAND, NOR, XOR) and their truth tables",
+     "weight": "H",
+     "prereq": [],
+     "note": "Boolean values true/false; IGCSE logic gates"
+    },
+    {
+     "name": "Constructing logic circuits and truth tables from problem statements and logic expressions",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-computer-science-ch04-st1"
+     ],
+     "note": "Logic gates and truth tables"
+    },
+    {
+     "name": "Simplifying logic circuits and expressions using NAND/NOR equivalence",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-computer-science-ch04-st2"
+     ],
+     "note": "Constructing logic circuits; order of operations in expressions"
+    }
+   ]
+  },
+  {
+   "name": "Processor Fundamentals",
+   "subtopics": [
+    {
+     "name": "Von Neumann architecture: registers (PC, MDR, MAR, ACC, IX, CIR, status), ALU, CU, clock and system buses",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-computer-science-ch03-st2"
+     ],
+     "note": "Primary memory; binary data in memory locations"
+    },
+    {
+     "name": "Factors affecting performance: clock speed, cores, bus width and cache memory",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-computer-science-ch05-st1"
+     ],
+     "note": "Von Neumann architecture components"
+    },
+    {
+     "name": "Ports (USB, HDMI, VGA) and the fetch–execute cycle in register transfer notation",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-computer-science-ch05-st1"
+     ],
+     "note": "Registers and buses; sequence of operations"
+    },
+    {
+     "name": "Interrupts and interrupt service routines",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-computer-science-ch05-st3"
+     ],
+     "note": "Fetch–execute cycle; priorities and processor state"
+    }
+   ]
+  },
+  {
+   "name": "Assembly Language Programming",
+   "subtopics": [
+    {
+     "name": "Assembly language and machine code; two-pass assemblers",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-computer-science-ch05-st3"
+     ],
+     "note": "Fetch–execute cycle; registers"
+    },
+    {
+     "name": "Instruction groups and addressing modes: immediate, direct, indirect, indexed and relative",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-computer-science-ch06-st1",
+      "cambridge-g11-computer-science-ch05-st1"
+     ],
+     "note": "Assembly language; registers including IX and ACC"
+    },
+    {
+     "name": "Tracing simple assembly language programs",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-computer-science-ch06-st2"
+     ],
+     "note": "Addressing modes; trace tables"
+    },
+    {
+     "name": "Bit manipulation: logical and arithmetic shifts and masking to test and set bits",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-computer-science-ch06-st2",
+      "cambridge-g11-computer-science-ch01-st2",
+      "cambridge-g11-computer-science-ch04-st1"
+     ],
+     "note": "Instruction groups; binary arithmetic; AND/OR/XOR operations"
+    }
+   ]
+  },
+  {
+   "name": "Monitoring and Control Systems",
+   "subtopics": [
+    {
+     "name": "Sensors and actuators in monitoring and control systems",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-computer-science-ch03-st1"
+     ],
+     "note": "Input and output devices; embedded systems"
+    },
+    {
+     "name": "Feedback in control systems and the need for analogue-to-digital conversion",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-computer-science-ch07-st1"
+     ],
+     "note": "Sensors and actuators; sampling and digital representation"
+    },
+    {
+     "name": "Using bit manipulation to monitor and control devices",
+     "weight": "L",
+     "prereq": [
+      "cambridge-g11-computer-science-ch07-st2",
+      "cambridge-g11-computer-science-ch06-st4"
+     ],
+     "note": "Feedback control; bit masking and shifting"
+    }
+   ]
+  },
+  {
+   "name": "System Software",
+   "subtopics": [
+    {
+     "name": "Operating system functions: memory, file, security, hardware and process management; user interface",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-computer-science-ch05-st1"
+     ],
+     "note": "Processor fundamentals; interrupts"
+    },
+    {
+     "name": "Utility software: disk formatter, virus checker, defragmenter, compression and back-up; program libraries and DLLs",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-computer-science-ch08-st1"
+     ],
+     "note": "Operating system functions"
+    },
+    {
+     "name": "Language translators: assembler, compiler and interpreter; advantages and disadvantages",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-computer-science-ch06-st1"
+     ],
+     "note": "Assembly language and machine code"
+    },
+    {
+     "name": "Integrated development environment features: prettyprint, context-sensitive prompts, debugging tools",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-computer-science-ch08-st3"
+     ],
+     "note": "Language translators; writing and running programs"
+    }
+   ]
+  },
+  {
+   "name": "Security, Privacy and Data Integrity",
+   "subtopics": [
+    {
+     "name": "Security of data and systems: threats such as malware, hacking, phishing and pharming",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-computer-science-ch02-st4"
+     ],
+     "note": "Networks and IP addressing; internet use"
+    },
+    {
+     "name": "Security measures: user accounts, passwords, firewalls, encryption, anti-malware, access rights",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-computer-science-ch09-st1"
+     ],
+     "note": "Threats to systems; operating system security management"
+    },
+    {
+     "name": "Data integrity: validation (range, format, length, presence, existence, check digit) and verification (double entry, parity, checksums)",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-computer-science-ch09-st2",
+      "cambridge-g11-computer-science-ch01-st1"
+     ],
+     "note": "Security measures; binary and parity bits"
+    }
+   ]
+  },
+  {
+   "name": "Ethics and Ownership",
+   "subtopics": [
+    {
+     "name": "Professional ethics and codes of conduct (BCS, IEEE)",
+     "weight": "L",
+     "prereq": [],
+     "note": "Responsible use of technology (IGCSE ICT)"
+    },
+    {
+     "name": "Copyright legislation and software licensing: free software, open source, shareware and commercial",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-computer-science-ch10-st1"
+     ],
+     "note": "Professional ethics; ownership of intellectual property"
+    },
+    {
+     "name": "Artificial intelligence: social, economic and environmental impacts",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-computer-science-ch10-st1"
+     ],
+     "note": "Professional ethics; examples of AI in everyday life"
+    }
+   ]
+  },
+  {
+   "name": "Databases",
+   "subtopics": [
+    {
+     "name": "Limitations of file-based systems and features of a relational database: entity, table, record, field, keys",
+     "weight": "S",
+     "prereq": [],
+     "note": "Spreadsheets and flat-file data (IGCSE ICT)"
+    },
+    {
+     "name": "Entity-relationship modelling and normalisation to third normal form",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-computer-science-ch11-st1"
+     ],
+     "note": "Relational database terminology; primary and foreign keys"
+    },
+    {
+     "name": "Database management systems: data dictionary, logical schema, access rights and developer interface",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-computer-science-ch11-st1"
+     ],
+     "note": "Relational database features"
+    },
+    {
+     "name": "SQL: data definition language and data manipulation language queries",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-computer-science-ch11-st2"
+     ],
+     "note": "Normalised tables; Boolean conditions and operators"
+    }
+   ]
+  },
+  {
+   "name": "Algorithm Design and Problem-solving",
+   "subtopics": [
+    {
+     "name": "Computational thinking: abstraction and decomposition",
+     "weight": "S",
+     "prereq": [],
+     "note": "Problem-solving and breaking tasks into steps (IGCSE CS)"
+    },
+    {
+     "name": "Writing algorithms in structured English, flowcharts and pseudocode; identifiers and identifier tables",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-computer-science-ch12-st1"
+     ],
+     "note": "Abstraction and decomposition; flowchart symbols (IGCSE CS)"
+    },
+    {
+     "name": "Stepwise refinement of algorithms",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-computer-science-ch12-st2"
+     ],
+     "note": "Writing algorithms in pseudocode"
+    }
+   ]
+  },
+  {
+   "name": "Data Types and Structures",
+   "subtopics": [
+    {
+     "name": "Data types: INTEGER, REAL, CHAR, STRING, BOOLEAN, DATE; records",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-computer-science-ch01-st3",
+      "cambridge-g11-computer-science-ch12-st2"
+     ],
+     "note": "Character sets; pseudocode identifiers"
+    },
+    {
+     "name": "1D and 2D arrays; linear search and bubble sort",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-computer-science-ch13-st1",
+      "cambridge-g11-computer-science-ch12-st3"
+     ],
+     "note": "Data types; loops in pseudocode"
+    },
+    {
+     "name": "Text files: reading, writing and appending",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-computer-science-ch13-st1"
+     ],
+     "note": "Data types; sequence of records"
+    },
+    {
+     "name": "Abstract data types: stack, queue and linked list",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-computer-science-ch13-st2"
+     ],
+     "note": "Arrays and indexes; pointers"
+    }
+   ]
+  },
+  {
+   "name": "Programming",
+   "subtopics": [
+    {
+     "name": "Programming basics: variables, constants, input, output, assignment and built-in functions (string and numeric)",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-computer-science-ch13-st1"
+     ],
+     "note": "Data types; pseudocode statements"
+    },
+    {
+     "name": "Constructs: selection (IF, CASE) and iteration (count-controlled, pre-condition and post-condition loops)",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-computer-science-ch14-st1",
+      "cambridge-g11-computer-science-ch12-st2"
+     ],
+     "note": "Programming basics; flowchart decisions and loops"
+    },
+    {
+     "name": "Structured programming: procedures, functions, parameters by value and by reference",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-computer-science-ch14-st2"
+     ],
+     "note": "Selection and iteration constructs; decomposition"
+    }
+   ]
+  },
+  {
+   "name": "Software Development",
+   "subtopics": [
+    {
+     "name": "Program development life cycle: analysis, design, coding, testing and maintenance; waterfall, iterative and RAD",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-computer-science-ch12-st1"
+     ],
+     "note": "Computational thinking; stages of problem-solving"
+    },
+    {
+     "name": "Program design using structure charts and state-transition diagrams",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-computer-science-ch15-st1",
+      "cambridge-g11-computer-science-ch14-st3"
+     ],
+     "note": "Development life cycle; procedures and parameters"
+    },
+    {
+     "name": "Types of errors and testing methods: dry-run, walkthrough, white-box, black-box, alpha, beta, acceptance; test data",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-computer-science-ch15-st1",
+      "cambridge-g11-computer-science-ch13-st2"
+     ],
+     "note": "Development life cycle; trace tables for arrays and loops"
+    },
+    {
+     "name": "Maintenance: corrective, adaptive and perfective",
+     "weight": "L",
+     "prereq": [
+      "cambridge-g11-computer-science-ch15-st3"
+     ],
+     "note": "Testing and error types"
+    }
+   ]
+  }
+ ]
 }

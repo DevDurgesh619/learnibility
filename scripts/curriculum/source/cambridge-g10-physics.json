@@ -1,469 +1,469 @@
 {
-  "subjectId": "cambridge-g10-physics",
-  "chapters": [
+ "subjectId": "cambridge-g10-physics",
+ "chapters": [
+  {
+   "sheetName": "Waves",
+   "name": "General properties of waves",
+   "subtopics": [
     {
-      "sheetName": "Waves",
-      "name": "General properties of waves",
-      "subtopics": [
-        {
-          "name": "Transverse and longitudinal waves: wavefronts, amplitude, frequency and wavelength",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g9-physics-ch12-st1"
-          ],
-          "note": "Sound as a longitudinal wave (IGCSE ch 12); vibrations"
-        },
-        {
-          "name": "The wave equation v = fλ",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g10-physics-ch01-st1"
-          ],
-          "note": "Speed = distance / time; standard form and units (Hz, m)"
-        },
-        {
-          "name": "Reflection, refraction and diffraction of waves in a ripple tank",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g10-physics-ch01-st1",
-            "cambridge-g9-physics-ch13-st2"
-          ],
-          "note": "Refraction of light (IGCSE ch 13); wavefront diagrams"
-        },
-        {
-          "name": "Effect of gap size and wavelength on diffraction",
-          "weight": "L",
-          "prereq": [
-            "cambridge-g10-physics-ch01-st3"
-          ],
-          "note": "Diffraction in a ripple tank; comparing wavelength with gap width"
-        }
-      ]
+     "name": "Transverse and longitudinal waves: wavefronts, amplitude, frequency and wavelength",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g9-physics-ch12-st1"
+     ],
+     "note": "Sound as a longitudinal wave (IGCSE ch 12); vibrations"
     },
     {
-      "sheetName": "EM spectrum",
-      "name": "Electromagnetic spectrum",
-      "subtopics": [
-        {
-          "name": "Order and properties of the electromagnetic spectrum, speed of EM waves in a vacuum",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g10-physics-ch01-st2"
-          ],
-          "note": "The wave equation; light as a transverse wave"
-        },
-        {
-          "name": "Uses of each region of the electromagnetic spectrum",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g10-physics-ch02-st1"
-          ],
-          "note": "Order of the EM spectrum"
-        },
-        {
-          "name": "Harmful effects of EM radiation and safety precautions",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g10-physics-ch02-st1"
-          ],
-          "note": "Ionising and non-ionising radiation; frequency and energy"
-        },
-        {
-          "name": "Communication: microwaves, satellites and analogue and digital signals",
-          "weight": "L",
-          "prereq": [
-            "cambridge-g10-physics-ch02-st2"
-          ],
-          "note": "Uses of the EM spectrum; diffraction of long-wavelength waves"
-        }
-      ]
+     "name": "The wave equation v = fλ",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g10-physics-ch01-st1"
+     ],
+     "note": "Speed = distance / time; standard form and units (Hz, m)"
     },
     {
-      "sheetName": "Magnetism",
-      "name": "Magnetism",
-      "subtopics": [
-        {
-          "name": "Magnetic materials, magnetic poles, attraction and repulsion and induced magnetism",
-          "weight": "S",
-          "prereq": [],
-          "note": "Magnets and magnetic materials (Lower Secondary Stage 7-8)"
-        },
-        {
-          "name": "Magnetic fields and plotting field lines with a compass",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g10-physics-ch03-st1"
-          ],
-          "note": "Magnetic poles; field as region where a force acts"
-        },
-        {
-          "name": "Temporary and permanent magnets: soft iron and steel, and their uses",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g10-physics-ch03-st1"
-          ],
-          "note": "Induced magnetism; magnetic materials"
-        }
-      ]
+     "name": "Reflection, refraction and diffraction of waves in a ripple tank",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g10-physics-ch01-st1",
+      "cambridge-g9-physics-ch13-st2"
+     ],
+     "note": "Refraction of light (IGCSE ch 13); wavefront diagrams"
     },
     {
-      "sheetName": "Static electricity",
-      "name": "Electric charge",
-      "subtopics": [
-        {
-          "name": "Charging by friction: positive and negative charge and transfer of electrons",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g9-physics-ch09-st1"
-          ],
-          "note": "Particle model; atoms contain electrons (Lower Secondary Stage 8)"
-        },
-        {
-          "name": "Conductors and insulators and electron movement",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g10-physics-ch04-st1"
-          ],
-          "note": "Charging by friction; structure of the atom"
-        },
-        {
-          "name": "Electric fields: direction and field patterns around point charges and plates",
-          "weight": "L",
-          "prereq": [
-            "cambridge-g10-physics-ch04-st1",
-            "cambridge-g10-physics-ch03-st2"
-          ],
-          "note": "Magnetic field lines; force at a distance"
-        }
-      ]
-    },
-    {
-      "sheetName": "Electrical quantities",
-      "name": "Electrical quantities",
-      "subtopics": [
-        {
-          "name": "Electric current as rate of flow of charge: I = Q/t",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g10-physics-ch04-st2",
-            "cambridge-g8-science-ch09-st2"
-          ],
-          "note": "Current and voltage in parallel circuits (Lower Secondary Stage 9)"
-        },
-        {
-          "name": "Electromotive force and potential difference",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g10-physics-ch05-st1"
-          ],
-          "note": "Energy transfers (IGCSE ch 6); voltage measurement with voltmeter"
-        },
-        {
-          "name": "Resistance R = V/I, I-V graphs and resistance of a wire depending on length and cross-sectional area",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g10-physics-ch05-st2",
-            "cambridge-g8-science-ch09-st3"
-          ],
-          "note": "Resistance (Lower Secondary Stage 9); proportionality and gradient"
-        },
-        {
-          "name": "Electrical energy and power: P = IV, E = IVt and the kilowatt-hour",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g10-physics-ch05-st2",
-            "cambridge-g9-physics-ch08-st2"
-          ],
-          "note": "Power = work done / time (IGCSE ch 8)"
-        }
-      ]
-    },
-    {
-      "sheetName": "Circuits",
-      "name": "Electric circuits and electrical safety",
-      "subtopics": [
-        {
-          "name": "Circuit symbols and drawing and interpreting circuit diagrams",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g8-science-ch09-st4"
-          ],
-          "note": "Practical circuits (Lower Secondary Stage 9)"
-        },
-        {
-          "name": "Series and parallel circuits: current, p.d. and combined resistance",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g10-physics-ch06-st1",
-            "cambridge-g10-physics-ch05-st3"
-          ],
-          "note": "Resistance R = V/I; parallel circuits (Lower Secondary Stage 9)"
-        },
-        {
-          "name": "Action and use of potential divider circuits including thermistors and LDRs",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g10-physics-ch06-st2"
-          ],
-          "note": "Series circuits; ratio of resistances"
-        },
-        {
-          "name": "Electrical safety: hazards, fuses, circuit breakers, earthing and double insulation",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g10-physics-ch05-st4"
-          ],
-          "note": "Electrical power and current ratings"
-        }
-      ]
-    },
-    {
-      "sheetName": "EM forces",
-      "name": "Electromagnetic effects: forces",
-      "subtopics": [
-        {
-          "name": "Magnetic effect of a current: field patterns of a straight wire and a solenoid",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g10-physics-ch03-st2",
-            "cambridge-g10-physics-ch05-st1"
-          ],
-          "note": "Plotting magnetic fields; electric current"
-        },
-        {
-          "name": "Force on a current-carrying conductor and Fleming's left-hand rule",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g10-physics-ch07-st1"
-          ],
-          "note": "Magnetic field patterns; vector directions"
-        },
-        {
-          "name": "The d.c. motor and factors affecting its turning effect",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g10-physics-ch07-st2",
-            "cambridge-g9-physics-ch04-st1"
-          ],
-          "note": "Moments (IGCSE ch 4); force on a current-carrying conductor"
-        },
-        {
-          "name": "Force on beams of charged particles in a magnetic field",
-          "weight": "L",
-          "prereq": [
-            "cambridge-g10-physics-ch07-st2"
-          ],
-          "note": "Fleming's left-hand rule; conventional current versus electron flow"
-        }
-      ]
-    },
-    {
-      "sheetName": "EM induction",
-      "name": "Electromagnetic induction",
-      "subtopics": [
-        {
-          "name": "Electromagnetic induction: factors affecting induced e.m.f. and its direction",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g10-physics-ch07-st1"
-          ],
-          "note": "Magnetic field of a solenoid; relative motion"
-        },
-        {
-          "name": "The a.c. generator and graphs of output voltage",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g10-physics-ch08-st1"
-          ],
-          "note": "Electromagnetic induction; rotating coil in a field"
-        },
-        {
-          "name": "Transformers: Vp/Vs = Np/Ns and VpIp = VsIs",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g10-physics-ch08-st1"
-          ],
-          "note": "Electromagnetic induction; electrical power P = IV"
-        },
-        {
-          "name": "High-voltage transmission of electricity and power losses P = I²R",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g10-physics-ch08-st3",
-            "cambridge-g10-physics-ch05-st4"
-          ],
-          "note": "Transformers; electrical power"
-        }
-      ]
-    },
-    {
-      "sheetName": "Nuclear atom",
-      "name": "The nuclear model of the atom",
-      "subtopics": [
-        {
-          "name": "Structure of the atom: protons, neutrons and electrons",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g10-physics-ch04-st1",
-            "cambridge-g8-science-ch02-st1"
-          ],
-          "note": "Atomic structure (Lower Secondary Stage 9 chemistry)"
-        },
-        {
-          "name": "Rutherford alpha-particle scattering experiment",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g10-physics-ch09-st1"
-          ],
-          "note": "Structure of the atom; repulsion of like charges"
-        },
-        {
-          "name": "Proton number, nucleon number, nuclide notation and isotopes",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g10-physics-ch09-st1"
-          ],
-          "note": "Structure of the atom"
-        },
-        {
-          "name": "Nuclear fission and nuclear fusion",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g10-physics-ch09-st3",
-            "cambridge-g9-physics-ch07-st2"
-          ],
-          "note": "Energy resources: nuclear power (IGCSE ch 7)"
-        }
-      ]
-    },
-    {
-      "sheetName": "Radioactivity",
-      "name": "Radioactivity",
-      "subtopics": [
-        {
-          "name": "Background radiation and detecting radiation with a count rate",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g10-physics-ch09-st3"
-          ],
-          "note": "Isotopes; random processes"
-        },
-        {
-          "name": "Alpha, beta and gamma emissions: nature, penetration and ionising effect",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g10-physics-ch10-st1",
-            "cambridge-g10-physics-ch02-st3"
-          ],
-          "note": "EM spectrum; charge and mass of particles"
-        },
-        {
-          "name": "Radioactive decay and balanced nuclide decay equations",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g10-physics-ch10-st2",
-            "cambridge-g10-physics-ch09-st3"
-          ],
-          "note": "Nuclide notation; conservation of nucleon and proton numbers"
-        },
-        {
-          "name": "Half-life: calculations and decay graphs",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g10-physics-ch10-st3"
-          ],
-          "note": "Halving repeatedly; reading graphs"
-        },
-        {
-          "name": "Safety precautions and uses of radioactive isotopes",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g10-physics-ch10-st2",
-            "cambridge-g10-physics-ch10-st4"
-          ],
-          "note": "Penetration of alpha, beta, gamma; half-life"
-        }
-      ]
-    },
-    {
-      "sheetName": "Earth & Solar System",
-      "name": "The Earth and the Solar System",
-      "subtopics": [
-        {
-          "name": "Earth's rotation and orbit: day and night, seasons and phases of the Moon",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g8-science-ch06-st3"
-          ],
-          "note": "Formation of the Moon (Lower Secondary Stage 9)"
-        },
-        {
-          "name": "The Solar System: planets, minor planets, comets and the accretion model",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g10-physics-ch11-st1",
-            "cambridge-g8-science-ch06-st4"
-          ],
-          "note": "Nebulae (Lower Secondary Stage 9)"
-        },
-        {
-          "name": "Orbital speed v = 2πr/T and gravitational field strength of planets",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g10-physics-ch11-st2",
-            "cambridge-g9-physics-ch02-st1"
-          ],
-          "note": "Speed = distance / time; circumference of a circle"
-        },
-        {
-          "name": "Planetary data analysis: distance from Sun, orbital period and surface temperature",
-          "weight": "L",
-          "prereq": [
-            "cambridge-g10-physics-ch11-st3"
-          ],
-          "note": "Interpreting data tables and graphs"
-        }
-      ]
-    },
-    {
-      "sheetName": "Stars & Universe",
-      "name": "Stars and the Universe",
-      "subtopics": [
-        {
-          "name": "The Sun as a star and galaxies: the Milky Way and light-years",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g10-physics-ch11-st2"
-          ],
-          "note": "The Solar System; speed of light"
-        },
-        {
-          "name": "Life cycle of stars: protostar, main sequence, red giant, supernova, white dwarf, neutron star and black hole",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g10-physics-ch12-st1",
-            "cambridge-g10-physics-ch09-st4"
-          ],
-          "note": "Nuclear fusion; gravitational attraction"
-        },
-        {
-          "name": "The Big Bang theory: redshift, CMBR and the Hubble constant",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g10-physics-ch12-st1",
-            "cambridge-g10-physics-ch02-st1"
-          ],
-          "note": "EM spectrum; wavelength and speed of light"
-        },
-        {
-          "name": "Estimating the age of the Universe from H0",
-          "weight": "L",
-          "prereq": [
-            "cambridge-g10-physics-ch12-st3"
-          ],
-          "note": "Speed = distance / time; standard form"
-        }
-      ]
+     "name": "Effect of gap size and wavelength on diffraction",
+     "weight": "L",
+     "prereq": [
+      "cambridge-g10-physics-ch01-st3"
+     ],
+     "note": "Diffraction in a ripple tank; comparing wavelength with gap width"
     }
-  ]
+   ]
+  },
+  {
+   "sheetName": "EM spectrum",
+   "name": "Electromagnetic spectrum",
+   "subtopics": [
+    {
+     "name": "Order and properties of the electromagnetic spectrum, speed of EM waves in a vacuum",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g10-physics-ch01-st2"
+     ],
+     "note": "The wave equation; light as a transverse wave"
+    },
+    {
+     "name": "Uses of each region of the electromagnetic spectrum",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g10-physics-ch02-st1"
+     ],
+     "note": "Order of the EM spectrum"
+    },
+    {
+     "name": "Harmful effects of EM radiation and safety precautions",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g10-physics-ch02-st1"
+     ],
+     "note": "Ionising and non-ionising radiation; frequency and energy"
+    },
+    {
+     "name": "Communication: microwaves, satellites and analogue and digital signals",
+     "weight": "L",
+     "prereq": [
+      "cambridge-g10-physics-ch02-st2"
+     ],
+     "note": "Uses of the EM spectrum; diffraction of long-wavelength waves"
+    }
+   ]
+  },
+  {
+   "sheetName": "Magnetism",
+   "name": "Magnetism",
+   "subtopics": [
+    {
+     "name": "Magnetic materials, magnetic poles, attraction and repulsion and induced magnetism",
+     "weight": "S",
+     "prereq": [],
+     "note": "Magnets and magnetic materials (Lower Secondary Stage 7-8)"
+    },
+    {
+     "name": "Magnetic fields and plotting field lines with a compass",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g10-physics-ch03-st1"
+     ],
+     "note": "Magnetic poles; field as region where a force acts"
+    },
+    {
+     "name": "Temporary and permanent magnets: soft iron and steel, and their uses",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g10-physics-ch03-st1"
+     ],
+     "note": "Induced magnetism; magnetic materials"
+    }
+   ]
+  },
+  {
+   "sheetName": "Static electricity",
+   "name": "Electric charge",
+   "subtopics": [
+    {
+     "name": "Charging by friction: positive and negative charge and transfer of electrons",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g9-physics-ch09-st1"
+     ],
+     "note": "Particle model; atoms contain electrons (Lower Secondary Stage 8)"
+    },
+    {
+     "name": "Conductors and insulators and electron movement",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g10-physics-ch04-st1"
+     ],
+     "note": "Charging by friction; structure of the atom"
+    },
+    {
+     "name": "Electric fields: direction and field patterns around point charges and plates",
+     "weight": "L",
+     "prereq": [
+      "cambridge-g10-physics-ch04-st1",
+      "cambridge-g10-physics-ch03-st2"
+     ],
+     "note": "Magnetic field lines; force at a distance"
+    }
+   ]
+  },
+  {
+   "sheetName": "Electrical quantities",
+   "name": "Electrical quantities",
+   "subtopics": [
+    {
+     "name": "Electric current as rate of flow of charge: I = Q/t",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g10-physics-ch04-st2",
+      "cambridge-g8-science-ch09-st2"
+     ],
+     "note": "Current and voltage in parallel circuits (Lower Secondary Stage 9)"
+    },
+    {
+     "name": "Electromotive force and potential difference",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g10-physics-ch05-st1"
+     ],
+     "note": "Energy transfers (IGCSE ch 6); voltage measurement with voltmeter"
+    },
+    {
+     "name": "Resistance R = V/I, I-V graphs and resistance of a wire depending on length and cross-sectional area",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g10-physics-ch05-st2",
+      "cambridge-g8-science-ch09-st3"
+     ],
+     "note": "Resistance (Lower Secondary Stage 9); proportionality and gradient"
+    },
+    {
+     "name": "Electrical energy and power: P = IV, E = IVt and the kilowatt-hour",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g10-physics-ch05-st2",
+      "cambridge-g9-physics-ch08-st2"
+     ],
+     "note": "Power = work done / time (IGCSE ch 8)"
+    }
+   ]
+  },
+  {
+   "sheetName": "Circuits",
+   "name": "Electric circuits and electrical safety",
+   "subtopics": [
+    {
+     "name": "Circuit symbols and drawing and interpreting circuit diagrams",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g8-science-ch09-st4"
+     ],
+     "note": "Practical circuits (Lower Secondary Stage 9)"
+    },
+    {
+     "name": "Series and parallel circuits: current, p.d. and combined resistance",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g10-physics-ch06-st1",
+      "cambridge-g10-physics-ch05-st3"
+     ],
+     "note": "Resistance R = V/I; parallel circuits (Lower Secondary Stage 9)"
+    },
+    {
+     "name": "Action and use of potential divider circuits including thermistors and LDRs",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g10-physics-ch06-st2"
+     ],
+     "note": "Series circuits; ratio of resistances"
+    },
+    {
+     "name": "Electrical safety: hazards, fuses, circuit breakers, earthing and double insulation",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g10-physics-ch05-st4"
+     ],
+     "note": "Electrical power and current ratings"
+    }
+   ]
+  },
+  {
+   "sheetName": "EM forces",
+   "name": "Electromagnetic effects: forces",
+   "subtopics": [
+    {
+     "name": "Magnetic effect of a current: field patterns of a straight wire and a solenoid",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g10-physics-ch03-st2",
+      "cambridge-g10-physics-ch05-st1"
+     ],
+     "note": "Plotting magnetic fields; electric current"
+    },
+    {
+     "name": "Force on a current-carrying conductor and Fleming's left-hand rule",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g10-physics-ch07-st1"
+     ],
+     "note": "Magnetic field patterns; vector directions"
+    },
+    {
+     "name": "The d.c. motor and factors affecting its turning effect",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g10-physics-ch07-st2",
+      "cambridge-g9-physics-ch04-st1"
+     ],
+     "note": "Moments (IGCSE ch 4); force on a current-carrying conductor"
+    },
+    {
+     "name": "Force on beams of charged particles in a magnetic field",
+     "weight": "L",
+     "prereq": [
+      "cambridge-g10-physics-ch07-st2"
+     ],
+     "note": "Fleming's left-hand rule; conventional current versus electron flow"
+    }
+   ]
+  },
+  {
+   "sheetName": "EM induction",
+   "name": "Electromagnetic induction",
+   "subtopics": [
+    {
+     "name": "Electromagnetic induction: factors affecting induced e.m.f. and its direction",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g10-physics-ch07-st1"
+     ],
+     "note": "Magnetic field of a solenoid; relative motion"
+    },
+    {
+     "name": "The a.c. generator and graphs of output voltage",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g10-physics-ch08-st1"
+     ],
+     "note": "Electromagnetic induction; rotating coil in a field"
+    },
+    {
+     "name": "Transformers: Vp/Vs = Np/Ns and VpIp = VsIs",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g10-physics-ch08-st1"
+     ],
+     "note": "Electromagnetic induction; electrical power P = IV"
+    },
+    {
+     "name": "High-voltage transmission of electricity and power losses P = I²R",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g10-physics-ch08-st3",
+      "cambridge-g10-physics-ch05-st4"
+     ],
+     "note": "Transformers; electrical power"
+    }
+   ]
+  },
+  {
+   "sheetName": "Nuclear atom",
+   "name": "The nuclear model of the atom",
+   "subtopics": [
+    {
+     "name": "Structure of the atom: protons, neutrons and electrons",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g10-physics-ch04-st1",
+      "cambridge-g8-science-ch02-st1"
+     ],
+     "note": "Atomic structure (Lower Secondary Stage 9 chemistry)"
+    },
+    {
+     "name": "Rutherford alpha-particle scattering experiment",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g10-physics-ch09-st1"
+     ],
+     "note": "Structure of the atom; repulsion of like charges"
+    },
+    {
+     "name": "Proton number, nucleon number, nuclide notation and isotopes",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g10-physics-ch09-st1"
+     ],
+     "note": "Structure of the atom"
+    },
+    {
+     "name": "Nuclear fission and nuclear fusion",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g10-physics-ch09-st3",
+      "cambridge-g9-physics-ch07-st2"
+     ],
+     "note": "Energy resources: nuclear power (IGCSE ch 7)"
+    }
+   ]
+  },
+  {
+   "sheetName": "Radioactivity",
+   "name": "Radioactivity",
+   "subtopics": [
+    {
+     "name": "Background radiation and detecting radiation with a count rate",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g10-physics-ch09-st3"
+     ],
+     "note": "Isotopes; random processes"
+    },
+    {
+     "name": "Alpha, beta and gamma emissions: nature, penetration and ionising effect",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g10-physics-ch10-st1",
+      "cambridge-g10-physics-ch02-st3"
+     ],
+     "note": "EM spectrum; charge and mass of particles"
+    },
+    {
+     "name": "Radioactive decay and balanced nuclide decay equations",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g10-physics-ch10-st2",
+      "cambridge-g10-physics-ch09-st3"
+     ],
+     "note": "Nuclide notation; conservation of nucleon and proton numbers"
+    },
+    {
+     "name": "Half-life: calculations and decay graphs",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g10-physics-ch10-st3"
+     ],
+     "note": "Halving repeatedly; reading graphs"
+    },
+    {
+     "name": "Safety precautions and uses of radioactive isotopes",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g10-physics-ch10-st2",
+      "cambridge-g10-physics-ch10-st4"
+     ],
+     "note": "Penetration of alpha, beta, gamma; half-life"
+    }
+   ]
+  },
+  {
+   "sheetName": "Earth & Solar System",
+   "name": "The Earth and the Solar System",
+   "subtopics": [
+    {
+     "name": "Earth's rotation and orbit: day and night, seasons and phases of the Moon",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g8-science-ch06-st3"
+     ],
+     "note": "Formation of the Moon (Lower Secondary Stage 9)"
+    },
+    {
+     "name": "The Solar System: planets, minor planets, comets and the accretion model",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g10-physics-ch11-st1",
+      "cambridge-g8-science-ch06-st4"
+     ],
+     "note": "Nebulae (Lower Secondary Stage 9)"
+    },
+    {
+     "name": "Orbital speed v = 2πr/T and gravitational field strength of planets",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g10-physics-ch11-st2",
+      "cambridge-g9-physics-ch02-st1"
+     ],
+     "note": "Speed = distance / time; circumference of a circle"
+    },
+    {
+     "name": "Planetary data analysis: distance from Sun, orbital period and surface temperature",
+     "weight": "L",
+     "prereq": [
+      "cambridge-g10-physics-ch11-st3"
+     ],
+     "note": "Interpreting data tables and graphs"
+    }
+   ]
+  },
+  {
+   "sheetName": "Stars & Universe",
+   "name": "Stars and the Universe",
+   "subtopics": [
+    {
+     "name": "The Sun as a star and galaxies: the Milky Way and light-years",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g10-physics-ch11-st2"
+     ],
+     "note": "The Solar System; speed of light"
+    },
+    {
+     "name": "Life cycle of stars: protostar, main sequence, red giant, supernova, white dwarf, neutron star and black hole",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g10-physics-ch12-st1",
+      "cambridge-g10-physics-ch09-st4"
+     ],
+     "note": "Nuclear fusion; gravitational attraction"
+    },
+    {
+     "name": "The Big Bang theory: redshift, CMBR and the Hubble constant",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g10-physics-ch12-st1",
+      "cambridge-g10-physics-ch02-st1"
+     ],
+     "note": "EM spectrum; wavelength and speed of light"
+    },
+    {
+     "name": "Estimating the age of the Universe from H0",
+     "weight": "L",
+     "prereq": [
+      "cambridge-g10-physics-ch12-st3"
+     ],
+     "note": "Speed = distance / time; standard form"
+    }
+   ]
+  }
+ ]
 }

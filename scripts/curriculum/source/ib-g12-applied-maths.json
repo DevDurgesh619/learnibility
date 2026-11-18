@@ -1,0 +1,495 @@
+{
+ "subjectId": "ib-g12-applied-maths",
+ "chapters": [
+  {
+   "name": "Geometry and Trigonometry in 2D and 3D (SL 3.1-3.4)",
+   "subtopics": [
+    {
+     "name": "SL 3.1 Distance and midpoint in 3D; volume and surface area of 3D solids; angles between lines and planes",
+     "weight": "S",
+     "prereq": [
+      "ib-g9-maths-ch10-st4",
+      "ib-g9-maths-ch07-st4"
+     ],
+     "note": "Mensuration and Pythagoras (MYP 4)"
+    },
+    {
+     "name": "SL 3.2 Right-angled trigonometry, sine rule, cosine rule and area of a triangle",
+     "weight": "H",
+     "prereq": [
+      "ib-g10-maths-ch08-st2",
+      "ib-g10-maths-ch08-st3"
+     ],
+     "note": "Sine and cosine rules (MYP 5)"
+    },
+    {
+     "name": "SL 3.3 Applications: angles of elevation and depression, bearings and construction of labelled diagrams",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-applied-maths-ch01-st2"
+     ],
+     "note": "Triangle trigonometry"
+    },
+    {
+     "name": "SL 3.4 Length of an arc and area of a sector in degrees",
+     "weight": "S",
+     "prereq": [
+      "ib-g9-maths-ch10-st1"
+     ],
+     "note": "Arc length and sector area (MYP 4)"
+    }
+   ]
+  },
+  {
+   "name": "Voronoi Diagrams (SL 3.5-3.6)",
+   "subtopics": [
+    {
+     "name": "SL 3.5 Equations of perpendicular bisectors",
+     "weight": "S",
+     "prereq": [
+      "ib-g11-applied-maths-ch07-st1"
+     ],
+     "note": "Gradient, midpoint and perpendicular lines (DP1 SL 2.1)"
+    },
+    {
+     "name": "SL 3.6 Voronoi diagrams: sites, vertices, edges and cells",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-applied-maths-ch02-st1"
+     ],
+     "note": "Perpendicular bisectors"
+    },
+    {
+     "name": "SL 3.6 Adding a site to a Voronoi diagram; nearest-neighbour interpolation",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-applied-maths-ch02-st2"
+     ],
+     "note": "Voronoi diagrams"
+    },
+    {
+     "name": "SL 3.6 Toxic waste dump problem: largest empty circle",
+     "weight": "L",
+     "prereq": [
+      "ib-g12-applied-maths-ch02-st2"
+     ],
+     "note": "Voronoi diagrams; distance between points"
+    }
+   ]
+  },
+  {
+   "name": "Radians, Trig Identities and Matrix Transformations (AHL 3.7-3.9)",
+   "subtopics": [
+    {
+     "name": "AHL 3.7 Radian measure, arc length and sector area in radians",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-applied-maths-ch01-st4"
+     ],
+     "note": "Arc and sector in degrees"
+    },
+    {
+     "name": "AHL 3.8 Unit circle, Pythagorean identity and solving trigonometric equations graphically and analytically",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-applied-maths-ch03-st1",
+      "ib-g10-maths-ch09-st4"
+     ],
+     "note": "Radians; trig graphs (MYP 5)"
+    },
+    {
+     "name": "AHL 3.9 Geometric transformations with matrices: reflections, rotations, enlargements and stretches",
+     "weight": "H",
+     "prereq": [
+      "ib-g11-applied-maths-ch06-st1"
+     ],
+     "note": "Matrix multiplication (DP1 AHL 1.14)"
+    },
+    {
+     "name": "AHL 3.9 Composition of transformations and area scale factor via the determinant",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-applied-maths-ch03-st3",
+      "ib-g11-applied-maths-ch06-st2"
+     ],
+     "note": "Matrix transformations; determinant"
+    }
+   ]
+  },
+  {
+   "name": "Vectors and Vector Kinematics (AHL 3.10-3.13)",
+   "subtopics": [
+    {
+     "name": "AHL 3.10 Vector concepts: components, magnitude, unit vectors and position vectors",
+     "weight": "S",
+     "prereq": [
+      "ib-g10-maths-ch10-st2"
+     ],
+     "note": "Vectors (MYP 5)"
+    },
+    {
+     "name": "AHL 3.11 Vector equation of a line in 2D and 3D; angle between two lines",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-applied-maths-ch04-st1"
+     ],
+     "note": "Position vectors"
+    },
+    {
+     "name": "AHL 3.12 Vector applications to kinematics: constant velocity and projectile motion",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-applied-maths-ch04-st2"
+     ],
+     "note": "Vector equation of a line"
+    },
+    {
+     "name": "AHL 3.13 Scalar and vector products and their geometric interpretation",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-applied-maths-ch04-st1",
+      "ib-g12-applied-maths-ch01-st2"
+     ],
+     "note": "Vector components; area of a triangle"
+    }
+   ]
+  },
+  {
+   "name": "Graph Theory (AHL 3.14-3.16)",
+   "subtopics": [
+    {
+     "name": "AHL 3.14 Graph theory terminology: vertices, edges, degree, simple, complete, weighted and directed graphs",
+     "weight": "S",
+     "note": "Network diagrams in contexts"
+    },
+    {
+     "name": "AHL 3.15 Adjacency matrices and transition matrices for walks",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-applied-maths-ch05-st1",
+      "ib-g11-applied-maths-ch06-st1"
+     ],
+     "note": "Matrix multiplication (DP1 AHL 1.14)"
+    },
+    {
+     "name": "AHL 3.16 Minimum spanning trees: Kruskal's and Prim's algorithms",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-applied-maths-ch05-st1"
+     ],
+     "note": "Weighted graphs"
+    },
+    {
+     "name": "AHL 3.16 Chinese postman problem and the travelling salesman problem: nearest neighbour and deleted vertex bounds",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-applied-maths-ch05-st3"
+     ],
+     "note": "Weighted graphs; spanning trees"
+    }
+   ]
+  },
+  {
+   "name": "Introduction to Differentiation (SL 5.1-5.4)",
+   "subtopics": [
+    {
+     "name": "SL 5.1 Concept of a limit and the derivative as gradient and rate of change",
+     "weight": "S",
+     "prereq": [
+      "ib-g11-applied-maths-ch07-st1"
+     ],
+     "note": "Gradient of a line (DP1 SL 2.1)"
+    },
+    {
+     "name": "SL 5.2 Increasing and decreasing functions",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-applied-maths-ch06-st1"
+     ],
+     "note": "Derivative concept"
+    },
+    {
+     "name": "SL 5.3 Derivative of axⁿ for integer n and sums of terms",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-applied-maths-ch06-st1",
+      "ib-g11-applied-maths-ch04-st1"
+     ],
+     "note": "Exponent laws (DP1)"
+    },
+    {
+     "name": "SL 5.4 Tangents and normals at a given point",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-applied-maths-ch06-st3",
+      "ib-g11-applied-maths-ch07-st1"
+     ],
+     "note": "Derivative of axⁿ; equations of lines"
+    }
+   ]
+  },
+  {
+   "name": "Further Differentiation (AHL 5.9-5.10)",
+   "subtopics": [
+    {
+     "name": "AHL 5.9 Derivatives of sin x, cos x, tan x, eˣ, ln x and xⁿ (n rational); chain, product and quotient rules",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-applied-maths-ch06-st3",
+      "ib-g11-applied-maths-ch09-st1"
+     ],
+     "note": "Derivative of axⁿ; composite functions"
+    },
+    {
+     "name": "AHL 5.9 Related rates of change",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-applied-maths-ch07-st1"
+     ],
+     "note": "Chain rule"
+    },
+    {
+     "name": "AHL 5.10 The second derivative and its use in determining concavity and points of inflection",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-applied-maths-ch07-st1"
+     ],
+     "note": "Differentiation rules"
+    }
+   ]
+  },
+  {
+   "name": "Optimisation (SL 5.6-5.7)",
+   "subtopics": [
+    {
+     "name": "SL 5.6 Values of x where the gradient is zero; local maxima and minima",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-applied-maths-ch06-st4",
+      "ib-g12-applied-maths-ch07-st3"
+     ],
+     "note": "Derivatives; tangents"
+    },
+    {
+     "name": "SL 5.7 Optimisation problems in context",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-applied-maths-ch08-st1",
+      "ib-g11-applied-maths-ch08-st4"
+     ],
+     "note": "Stationary points; forming functions from contexts"
+    },
+    {
+     "name": "Optimisation of volume, area and cost with technology",
+     "weight": "L",
+     "prereq": [
+      "ib-g12-applied-maths-ch08-st2",
+      "ib-g12-applied-maths-ch01-st1"
+     ],
+     "note": "Optimisation; mensuration"
+    }
+   ]
+  },
+  {
+   "name": "Integration (SL 5.5, 5.8; AHL 5.11-5.12)",
+   "subtopics": [
+    {
+     "name": "SL 5.5 Introduction to integration as anti-differentiation; definite integrals using technology; area under a curve",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-applied-maths-ch06-st3"
+     ],
+     "note": "Derivative of axⁿ"
+    },
+    {
+     "name": "SL 5.8 Approximating areas using the trapezoidal rule",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-applied-maths-ch09-st1"
+     ],
+     "note": "Area under a curve; area of a trapezium"
+    },
+    {
+     "name": "AHL 5.11 Indefinite integrals of standard functions and integration by inspection or substitution",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-applied-maths-ch09-st1",
+      "ib-g12-applied-maths-ch07-st1"
+     ],
+     "note": "Anti-differentiation; chain rule"
+    },
+    {
+     "name": "AHL 5.12 Areas under curves and between curves and the y-axis; volumes of revolution",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-applied-maths-ch09-st3"
+     ],
+     "note": "Definite integrals"
+    }
+   ]
+  },
+  {
+   "name": "Kinematics and Differential Equations (AHL 5.13-5.18)",
+   "subtopics": [
+    {
+     "name": "AHL 5.13 Kinematics: displacement, velocity, acceleration and total distance",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-applied-maths-ch07-st1",
+      "ib-g12-applied-maths-ch09-st3"
+     ],
+     "note": "Derivatives and integrals"
+    },
+    {
+     "name": "AHL 5.14 Setting up differential equations and solving by separation of variables",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-applied-maths-ch09-st3"
+     ],
+     "note": "Integration of standard functions"
+    },
+    {
+     "name": "AHL 5.15 Slope fields and their diagrams",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-applied-maths-ch10-st2"
+     ],
+     "note": "Differential equations; gradients"
+    },
+    {
+     "name": "AHL 5.16 Euler's method for first-order and coupled differential equations",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-applied-maths-ch10-st2"
+     ],
+     "note": "Differential equations; tangent approximation"
+    },
+    {
+     "name": "AHL 5.17-5.18 Phase portraits, eigenvalues and second-order differential equations",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-applied-maths-ch10-st4",
+      "ib-g11-applied-maths-ch06-st3"
+     ],
+     "note": "Eigenvalues (DP1 AHL 1.15); coupled systems"
+    }
+   ]
+  },
+  {
+   "name": "Inferential Statistics: χ² and t-tests (SL 4.11)",
+   "subtopics": [
+    {
+     "name": "SL 4.11 Formulation of null and alternative hypotheses, significance levels and p-values",
+     "weight": "H",
+     "prereq": [
+      "ib-g11-applied-maths-ch13-st3"
+     ],
+     "note": "Probability; normal distribution (DP1)"
+    },
+    {
+     "name": "SL 4.11 χ² test for independence using contingency tables",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-applied-maths-ch11-st1"
+     ],
+     "note": "Hypotheses and p-values; expected frequencies"
+    },
+    {
+     "name": "SL 4.11 χ² goodness of fit test",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-applied-maths-ch11-st2"
+     ],
+     "note": "χ² test for independence"
+    },
+    {
+     "name": "SL 4.11 The t-test for comparing two population means",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-applied-maths-ch11-st1",
+      "ib-g11-applied-maths-ch10-st3"
+     ],
+     "note": "Hypotheses; mean and standard deviation"
+    }
+   ]
+  },
+  {
+   "name": "Further Statistics: Estimation, Hypothesis Testing and Markov Chains (AHL 4.15, 4.16, 4.18, 4.19)",
+   "subtopics": [
+    {
+     "name": "AHL 4.15 The central limit theorem and the distribution of sample means",
+     "weight": "S",
+     "prereq": [
+      "ib-g11-applied-maths-ch13-st3",
+      "ib-g11-applied-maths-ch13-st4"
+     ],
+     "note": "Normal distribution; unbiased estimates (DP1)"
+    },
+    {
+     "name": "AHL 4.16 Confidence intervals for the mean using normal and t-distributions",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-applied-maths-ch12-st1"
+     ],
+     "note": "Central limit theorem"
+    },
+    {
+     "name": "AHL 4.18 Hypothesis testing with binomial, Poisson and Pearson's r; type I and type II errors",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-applied-maths-ch11-st1",
+      "ib-g11-applied-maths-ch13-st2",
+      "ib-g11-applied-maths-ch13-st5"
+     ],
+     "note": "Hypothesis testing; binomial and Poisson (DP1)"
+    },
+    {
+     "name": "AHL 4.19 Transition matrices and Markov chains; steady state",
+     "weight": "S",
+     "prereq": [
+      "ib-g11-applied-maths-ch06-st3"
+     ],
+     "note": "Matrices and eigenvectors (DP1 AHL 1.15)"
+    }
+   ]
+  },
+  {
+   "name": "Mathematical Exploration (IA) and Paper 3",
+   "subtopics": [
+    {
+     "name": "Choosing a topic and aim for the mathematical exploration",
+     "weight": "S",
+     "prereq": [
+      "ib-g11-applied-maths-ch08-st4"
+     ],
+     "note": "Modelling cycle (DP1 SL 2.6)"
+    },
+    {
+     "name": "IA criteria: presentation, communication, personal engagement, reflection and use of mathematics",
+     "weight": "H",
+     "prereq": [
+      "ib-g12-applied-maths-ch13-st1"
+     ],
+     "note": "Exploration topic and aim"
+    },
+    {
+     "name": "Paper 3: extended modelling and investigation problems",
+     "weight": "S",
+     "prereq": [
+      "ib-g12-applied-maths-ch10-st4",
+      "ib-g12-applied-maths-ch12-st3"
+     ],
+     "note": "Modelling; statistics and calculus across the course"
+    },
+    {
+     "name": "Using technology (GDC, spreadsheets, GeoGebra, statistical software) for modelling",
+     "weight": "L",
+     "prereq": [
+      "ib-g11-applied-maths-ch09-st4"
+     ],
+     "note": "Technology use in DP1"
+    }
+   ]
+  }
+ ]
+}

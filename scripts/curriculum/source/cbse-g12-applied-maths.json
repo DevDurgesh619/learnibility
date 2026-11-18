@@ -1,469 +1,469 @@
 {
-  "subjectId": "cbse-g12-applied-maths",
-  "chapters": [
+ "subjectId": "cbse-g12-applied-maths",
+ "chapters": [
+  {
+   "sheetName": "Modulo arithmetic & numerical applications",
+   "name": "Numbers, Quantification and Numerical Applications",
+   "subtopics": [
     {
-      "sheetName": "Modulo arithmetic & numerical applications",
-      "name": "Numbers, Quantification and Numerical Applications",
-      "subtopics": [
-        {
-          "name": "Modulo arithmetic and congruence modulo n",
-          "weight": "H",
-          "prereq": [
-            "cbse-g11-applied-maths-ch01-st3"
-          ],
-          "note": "Division with remainder; clock and calendar problems (Applied Cl 11)"
-        },
-        {
-          "name": "Alligation and mixture",
-          "weight": "S",
-          "prereq": [
-            "cbse-g11-applied-maths-ch01-st5"
-          ],
-          "note": "Ratio and weighted averages (Cl 8); time and work (Applied Cl 11)"
-        },
-        {
-          "name": "Boats and streams; pipes and cisterns",
-          "weight": "S",
-          "prereq": [
-            "cbse-g11-applied-maths-ch01-st4",
-            "cbse-g11-applied-maths-ch01-st5"
-          ],
-          "note": "Time, speed and distance; time and work (Applied Cl 11)"
-        },
-        {
-          "name": "Races, games and partnership problems",
-          "weight": "L",
-          "prereq": [
-            "cbse-g11-applied-maths-ch01-st4"
-          ],
-          "note": "Time, speed and distance (Applied Cl 11); ratio and proportion (Cl 8)"
-        }
-      ]
+     "name": "Modulo arithmetic and congruence modulo n",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-applied-maths-ch01-st3"
+     ],
+     "note": "Division with remainder; clock and calendar problems (Applied Cl 11)"
     },
     {
-      "sheetName": "Numerical inequalities",
-      "name": "Numerical Inequalities",
-      "subtopics": [
-        {
-          "name": "Rules of inequalities and solving linear inequalities in one variable",
-          "weight": "H",
-          "prereq": [
-            "cbse-g8-maths-ch13-st3"
-          ],
-          "note": "Linear equations in one variable (Cl 8); reversing the sign when multiplying by a negative"
-        },
-        {
-          "name": "Representing solutions of inequalities on the number line",
-          "weight": "S",
-          "prereq": [
-            "cbse-g12-applied-maths-ch02-st1",
-            "cbse-g11-applied-maths-ch02-st1"
-          ],
-          "note": "Solving inequalities; intervals as subsets of R (Applied Cl 11)"
-        },
-        {
-          "name": "Word problems leading to linear inequalities",
-          "weight": "S",
-          "prereq": [
-            "cbse-g12-applied-maths-ch02-st1"
-          ],
-          "note": "Solving inequalities; translating constraints such as 'at most' and 'at least'"
-        }
-      ]
+     "name": "Alligation and mixture",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-applied-maths-ch01-st5"
+     ],
+     "note": "Ratio and weighted averages (Cl 8); time and work (Applied Cl 11)"
     },
     {
-      "sheetName": "Matrices & determinants",
-      "name": "Matrices and Determinants",
-      "subtopics": [
-        {
-          "name": "Types of matrices and algebra of matrices",
-          "weight": "S",
-          "prereq": [],
-          "note": "Arranging data in rows and columns; integer arithmetic (Cl 8-10)"
-        },
-        {
-          "name": "Determinants, minors and cofactors",
-          "weight": "S",
-          "prereq": [
-            "cbse-g12-applied-maths-ch03-st1"
-          ],
-          "note": "Order and types of matrices; integer arithmetic"
-        },
-        {
-          "name": "Inverse of a matrix and solving a system of equations by the matrix method",
-          "weight": "H",
-          "prereq": [
-            "cbse-g12-applied-maths-ch03-st2",
-            "cbse-g10-maths-ch03-st4"
-          ],
-          "note": "Determinants and cofactors; pair of linear equations (Cl 10)"
-        },
-        {
-          "name": "Cramer's rule for a system of linear equations",
-          "weight": "S",
-          "prereq": [
-            "cbse-g12-applied-maths-ch03-st2"
-          ],
-          "note": "Evaluating determinants; consistency of linear equations (Cl 10)"
-        }
-      ]
+     "name": "Boats and streams; pipes and cisterns",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-applied-maths-ch01-st4",
+      "cbse-g11-applied-maths-ch01-st5"
+     ],
+     "note": "Time, speed and distance; time and work (Applied Cl 11)"
     },
     {
-      "sheetName": "Higher-order derivatives & marginal analysis",
-      "name": "Higher Order Derivatives and Marginal Analysis",
-      "subtopics": [
-        {
-          "name": "Higher-order derivatives of standard functions",
-          "weight": "S",
-          "prereq": [
-            "cbse-g11-applied-maths-ch06-st4"
-          ],
-          "note": "Second-order derivatives; rules of differentiation (Applied Cl 11)"
-        },
-        {
-          "name": "Marginal cost and marginal revenue",
-          "weight": "H",
-          "prereq": [
-            "cbse-g12-applied-maths-ch04-st1",
-            "cbse-g11-applied-maths-ch06-st2"
-          ],
-          "note": "Rules of differentiation (Applied Cl 11); cost, revenue and profit functions"
-        },
-        {
-          "name": "Increasing and decreasing functions; maxima and minima",
-          "weight": "H",
-          "prereq": [
-            "cbse-g12-applied-maths-ch04-st1",
-            "cbse-g12-applied-maths-ch02-st1"
-          ],
-          "note": "Higher-order derivatives; solving inequalities"
-        },
-        {
-          "name": "Optimisation in business: minimising cost and maximising profit",
-          "weight": "S",
-          "prereq": [
-            "cbse-g12-applied-maths-ch04-st3",
-            "cbse-g12-applied-maths-ch04-st2"
-          ],
-          "note": "Maxima and minima; marginal cost and revenue"
-        }
-      ]
-    },
-    {
-      "sheetName": "Integration & applications",
-      "name": "Integration and its Applications",
-      "subtopics": [
-        {
-          "name": "Indefinite integrals of standard functions",
-          "weight": "S",
-          "prereq": [
-            "cbse-g11-applied-maths-ch06-st2"
-          ],
-          "note": "Rules of differentiation (Applied Cl 11)"
-        },
-        {
-          "name": "Methods of integration: substitution, partial fractions and by parts",
-          "weight": "H",
-          "prereq": [
-            "cbse-g12-applied-maths-ch05-st1"
-          ],
-          "note": "Standard integrals; chain and product rules"
-        },
-        {
-          "name": "Definite integrals and their properties",
-          "weight": "S",
-          "prereq": [
-            "cbse-g12-applied-maths-ch05-st2"
-          ],
-          "note": "Methods of integration; evaluating functions"
-        },
-        {
-          "name": "Consumer surplus and producer surplus",
-          "weight": "H",
-          "prereq": [
-            "cbse-g12-applied-maths-ch05-st3",
-            "cbse-g12-applied-maths-ch04-st2"
-          ],
-          "note": "Definite integrals as area; demand and supply curves"
-        }
-      ]
-    },
-    {
-      "sheetName": "Differential equations",
-      "name": "Differential Equations and Modeling",
-      "subtopics": [
-        {
-          "name": "Order and degree; formation of differential equations",
-          "weight": "S",
-          "prereq": [
-            "cbse-g12-applied-maths-ch05-st1",
-            "cbse-g12-applied-maths-ch04-st1"
-          ],
-          "note": "Higher-order derivatives; indefinite integrals"
-        },
-        {
-          "name": "Solving differential equations by the variable separable method",
-          "weight": "H",
-          "prereq": [
-            "cbse-g12-applied-maths-ch06-st1",
-            "cbse-g12-applied-maths-ch05-st2"
-          ],
-          "note": "Order and degree; methods of integration"
-        },
-        {
-          "name": "Growth and decay models",
-          "weight": "S",
-          "prereq": [
-            "cbse-g12-applied-maths-ch06-st2",
-            "cbse-g11-applied-maths-ch01-st2"
-          ],
-          "note": "Variable separable method; logarithms and exponentials (Applied Cl 11)"
-        }
-      ]
-    },
-    {
-      "sheetName": "Probability distributions (binomial, Poisson, normal)",
-      "name": "Probability Distributions",
-      "subtopics": [
-        {
-          "name": "Random variables: probability distribution, expected value and variance",
-          "weight": "H",
-          "prereq": [
-            "cbse-g11-applied-maths-ch08-st2"
-          ],
-          "note": "Axiomatic probability and addition theorem (Applied Cl 11)"
-        },
-        {
-          "name": "Binomial distribution",
-          "weight": "S",
-          "prereq": [
-            "cbse-g12-applied-maths-ch07-st1",
-            "cbse-g11-applied-maths-ch07-st3"
-          ],
-          "note": "Probability distributions; combinations (Applied Cl 11)"
-        },
-        {
-          "name": "Poisson distribution",
-          "weight": "S",
-          "prereq": [
-            "cbse-g12-applied-maths-ch07-st2"
-          ],
-          "note": "Binomial distribution; the exponential e^x"
-        },
-        {
-          "name": "Normal distribution and standard normal z-scores",
-          "weight": "H",
-          "prereq": [
-            "cbse-g12-applied-maths-ch07-st1",
-            "cbse-g11-applied-maths-ch09-st3"
-          ],
-          "note": "Expected value; standard deviation (Applied Cl 11)"
-        }
-      ]
-    },
-    {
-      "sheetName": "Inferential statistics (t-test)",
-      "name": "Inferential Statistics",
-      "subtopics": [
-        {
-          "name": "Population and sample; parameter and statistic; sampling methods",
-          "weight": "S",
-          "prereq": [
-            "cbse-g11-applied-maths-ch09-st1"
-          ],
-          "note": "Data interpretation and frequency distributions (Applied Cl 11)"
-        },
-        {
-          "name": "Sampling distribution and the idea of the central limit theorem",
-          "weight": "L",
-          "prereq": [
-            "cbse-g12-applied-maths-ch08-st1",
-            "cbse-g12-applied-maths-ch07-st4"
-          ],
-          "note": "Population vs sample; normal distribution"
-        },
-        {
-          "name": "Hypothesis testing: null and alternative hypotheses, level of significance",
-          "weight": "S",
-          "prereq": [
-            "cbse-g12-applied-maths-ch08-st2"
-          ],
-          "note": "Sampling distribution; z-scores and tail areas"
-        },
-        {
-          "name": "t-test: one-sample and two independent samples",
-          "weight": "H",
-          "prereq": [
-            "cbse-g12-applied-maths-ch08-st3",
-            "cbse-g11-applied-maths-ch09-st3"
-          ],
-          "note": "Hypothesis testing; mean and standard deviation (Applied Cl 11)"
-        }
-      ]
-    },
-    {
-      "sheetName": "Time series",
-      "name": "Time Series",
-      "subtopics": [
-        {
-          "name": "Meaning and components of a time series",
-          "weight": "S",
-          "prereq": [
-            "cbse-g11-applied-maths-ch09-st1"
-          ],
-          "note": "Reading line graphs and tables (Cl 8-9)"
-        },
-        {
-          "name": "Trend by the method of moving averages",
-          "weight": "H",
-          "prereq": [
-            "cbse-g12-applied-maths-ch09-st1"
-          ],
-          "note": "Components of a time series; calculating means"
-        },
-        {
-          "name": "Trend by the method of least squares",
-          "weight": "S",
-          "prereq": [
-            "cbse-g12-applied-maths-ch09-st1",
-            "cbse-g11-applied-maths-ch10-st4"
-          ],
-          "note": "Lines of regression (Applied Cl 11); equation of a straight line"
-        }
-      ]
-    },
-    {
-      "sheetName": "Perpetuity & sinking fund",
-      "name": "Perpetuity and Sinking Funds",
-      "subtopics": [
-        {
-          "name": "Perpetuity: present value of a perpetuity and growing perpetuity",
-          "weight": "S",
-          "prereq": [
-            "cbse-g11-applied-maths-ch11-st2",
-            "cbse-g11-applied-maths-ch03-st2"
-          ],
-          "note": "Present value (Applied Cl 11); sum of an infinite GP"
-        },
-        {
-          "name": "Sinking fund: concept and periodic deposit",
-          "weight": "H",
-          "prereq": [
-            "cbse-g11-applied-maths-ch11-st3"
-          ],
-          "note": "Annuities: future value (Applied Cl 11)"
-        },
-        {
-          "name": "Applications: valuing endowments and replacing assets",
-          "weight": "L",
-          "prereq": [
-            "cbse-g12-applied-maths-ch10-st1",
-            "cbse-g12-applied-maths-ch10-st2"
-          ],
-          "note": "Perpetuity; sinking fund"
-        }
-      ]
-    },
-    {
-      "sheetName": "Bonds, EMI, CAGR",
-      "name": "Valuation of Bonds, EMI and Rate of Return",
-      "subtopics": [
-        {
-          "name": "Valuation of bonds: face value, coupon rate and present value",
-          "weight": "H",
-          "prereq": [
-            "cbse-g12-applied-maths-ch10-st1",
-            "cbse-g11-applied-maths-ch11-st2"
-          ],
-          "note": "Present value of money (Applied Cl 11); perpetuity"
-        },
-        {
-          "name": "Calculation of EMI: flat rate and reducing balance methods",
-          "weight": "H",
-          "prereq": [
-            "cbse-g11-applied-maths-ch11-st3"
-          ],
-          "note": "Annuities (Applied Cl 11); compound interest"
-        },
-        {
-          "name": "Rate of return and nominal rate of return",
-          "weight": "S",
-          "prereq": [
-            "cbse-g11-applied-maths-ch11-st1"
-          ],
-          "note": "Simple and compound interest; percentage change (Cl 8)"
-        },
-        {
-          "name": "Compound Annual Growth Rate (CAGR)",
-          "weight": "S",
-          "prereq": [
-            "cbse-g12-applied-maths-ch11-st3",
-            "cbse-g11-applied-maths-ch01-st2"
-          ],
-          "note": "Rate of return; roots and logarithms (Applied Cl 11)"
-        }
-      ]
-    },
-    {
-      "sheetName": "Depreciation",
-      "name": "Linear Method of Depreciation",
-      "subtopics": [
-        {
-          "name": "Depreciation: cost, useful life and scrap value",
-          "weight": "L",
-          "prereq": [
-            "cbse-g11-applied-maths-ch11-st1"
-          ],
-          "note": "Percentages and simple interest (Cl 8; Applied Cl 11)"
-        },
-        {
-          "name": "Linear (straight-line) method of depreciation",
-          "weight": "S",
-          "prereq": [
-            "cbse-g12-applied-maths-ch12-st1"
-          ],
-          "note": "Depreciation concepts; linear functions"
-        },
-        {
-          "name": "Book value schedules and depreciation problems",
-          "weight": "S",
-          "prereq": [
-            "cbse-g12-applied-maths-ch12-st2"
-          ],
-          "note": "Straight-line method; reading and building tables"
-        }
-      ]
-    },
-    {
-      "sheetName": "Linear Programming",
-      "name": "Linear Programming",
-      "subtopics": [
-        {
-          "name": "Formulating linear programming problems from business contexts",
-          "weight": "S",
-          "prereq": [
-            "cbse-g12-applied-maths-ch02-st3"
-          ],
-          "note": "Word problems on linear inequalities"
-        },
-        {
-          "name": "Graphical method of solution and the corner-point theorem",
-          "weight": "H",
-          "prereq": [
-            "cbse-g12-applied-maths-ch13-st1",
-            "cbse-g11-applied-maths-ch13-st2"
-          ],
-          "note": "Equations of lines (Applied Cl 11); graphing inequalities in two variables"
-        },
-        {
-          "name": "Feasible and infeasible regions; bounded, unbounded and multiple optimal solutions",
-          "weight": "S",
-          "prereq": [
-            "cbse-g12-applied-maths-ch13-st2"
-          ],
-          "note": "Graphical method; testing an open half-plane"
-        }
-      ]
+     "name": "Races, games and partnership problems",
+     "weight": "L",
+     "prereq": [
+      "cbse-g11-applied-maths-ch01-st4"
+     ],
+     "note": "Time, speed and distance (Applied Cl 11); ratio and proportion (Cl 8)"
     }
-  ]
+   ]
+  },
+  {
+   "sheetName": "Numerical inequalities",
+   "name": "Numerical Inequalities",
+   "subtopics": [
+    {
+     "name": "Rules of inequalities and solving linear inequalities in one variable",
+     "weight": "H",
+     "prereq": [
+      "cbse-g8-maths-ch13-st3"
+     ],
+     "note": "Linear equations in one variable (Cl 8); reversing the sign when multiplying by a negative"
+    },
+    {
+     "name": "Representing solutions of inequalities on the number line",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-applied-maths-ch02-st1",
+      "cbse-g11-applied-maths-ch02-st1"
+     ],
+     "note": "Solving inequalities; intervals as subsets of R (Applied Cl 11)"
+    },
+    {
+     "name": "Word problems leading to linear inequalities",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-applied-maths-ch02-st1"
+     ],
+     "note": "Solving inequalities; translating constraints such as 'at most' and 'at least'"
+    }
+   ]
+  },
+  {
+   "sheetName": "Matrices & determinants",
+   "name": "Matrices and Determinants",
+   "subtopics": [
+    {
+     "name": "Types of matrices and algebra of matrices",
+     "weight": "S",
+     "prereq": [],
+     "note": "Arranging data in rows and columns; integer arithmetic (Cl 8-10)"
+    },
+    {
+     "name": "Determinants, minors and cofactors",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-applied-maths-ch03-st1"
+     ],
+     "note": "Order and types of matrices; integer arithmetic"
+    },
+    {
+     "name": "Inverse of a matrix and solving a system of equations by the matrix method",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-applied-maths-ch03-st2",
+      "cbse-g10-maths-ch03-st4"
+     ],
+     "note": "Determinants and cofactors; pair of linear equations (Cl 10)"
+    },
+    {
+     "name": "Cramer's rule for a system of linear equations",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-applied-maths-ch03-st2"
+     ],
+     "note": "Evaluating determinants; consistency of linear equations (Cl 10)"
+    }
+   ]
+  },
+  {
+   "sheetName": "Higher-order derivatives & marginal analysis",
+   "name": "Higher Order Derivatives and Marginal Analysis",
+   "subtopics": [
+    {
+     "name": "Higher-order derivatives of standard functions",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-applied-maths-ch06-st4"
+     ],
+     "note": "Second-order derivatives; rules of differentiation (Applied Cl 11)"
+    },
+    {
+     "name": "Marginal cost and marginal revenue",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-applied-maths-ch04-st1",
+      "cbse-g11-applied-maths-ch06-st2"
+     ],
+     "note": "Rules of differentiation (Applied Cl 11); cost, revenue and profit functions"
+    },
+    {
+     "name": "Increasing and decreasing functions; maxima and minima",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-applied-maths-ch04-st1",
+      "cbse-g12-applied-maths-ch02-st1"
+     ],
+     "note": "Higher-order derivatives; solving inequalities"
+    },
+    {
+     "name": "Optimisation in business: minimising cost and maximising profit",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-applied-maths-ch04-st3",
+      "cbse-g12-applied-maths-ch04-st2"
+     ],
+     "note": "Maxima and minima; marginal cost and revenue"
+    }
+   ]
+  },
+  {
+   "sheetName": "Integration & applications",
+   "name": "Integration and its Applications",
+   "subtopics": [
+    {
+     "name": "Indefinite integrals of standard functions",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-applied-maths-ch06-st2"
+     ],
+     "note": "Rules of differentiation (Applied Cl 11)"
+    },
+    {
+     "name": "Methods of integration: substitution, partial fractions and by parts",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-applied-maths-ch05-st1"
+     ],
+     "note": "Standard integrals; chain and product rules"
+    },
+    {
+     "name": "Definite integrals and their properties",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-applied-maths-ch05-st2"
+     ],
+     "note": "Methods of integration; evaluating functions"
+    },
+    {
+     "name": "Consumer surplus and producer surplus",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-applied-maths-ch05-st3",
+      "cbse-g12-applied-maths-ch04-st2"
+     ],
+     "note": "Definite integrals as area; demand and supply curves"
+    }
+   ]
+  },
+  {
+   "sheetName": "Differential equations",
+   "name": "Differential Equations and Modeling",
+   "subtopics": [
+    {
+     "name": "Order and degree; formation of differential equations",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-applied-maths-ch05-st1",
+      "cbse-g12-applied-maths-ch04-st1"
+     ],
+     "note": "Higher-order derivatives; indefinite integrals"
+    },
+    {
+     "name": "Solving differential equations by the variable separable method",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-applied-maths-ch06-st1",
+      "cbse-g12-applied-maths-ch05-st2"
+     ],
+     "note": "Order and degree; methods of integration"
+    },
+    {
+     "name": "Growth and decay models",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-applied-maths-ch06-st2",
+      "cbse-g11-applied-maths-ch01-st2"
+     ],
+     "note": "Variable separable method; logarithms and exponentials (Applied Cl 11)"
+    }
+   ]
+  },
+  {
+   "sheetName": "Probability distributions (binomial, Poisson, normal)",
+   "name": "Probability Distributions",
+   "subtopics": [
+    {
+     "name": "Random variables: probability distribution, expected value and variance",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-applied-maths-ch08-st2"
+     ],
+     "note": "Axiomatic probability and addition theorem (Applied Cl 11)"
+    },
+    {
+     "name": "Binomial distribution",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-applied-maths-ch07-st1",
+      "cbse-g11-applied-maths-ch07-st3"
+     ],
+     "note": "Probability distributions; combinations (Applied Cl 11)"
+    },
+    {
+     "name": "Poisson distribution",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-applied-maths-ch07-st2"
+     ],
+     "note": "Binomial distribution; the exponential e^x"
+    },
+    {
+     "name": "Normal distribution and standard normal z-scores",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-applied-maths-ch07-st1",
+      "cbse-g11-applied-maths-ch09-st3"
+     ],
+     "note": "Expected value; standard deviation (Applied Cl 11)"
+    }
+   ]
+  },
+  {
+   "sheetName": "Inferential statistics (t-test)",
+   "name": "Inferential Statistics",
+   "subtopics": [
+    {
+     "name": "Population and sample; parameter and statistic; sampling methods",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-applied-maths-ch09-st1"
+     ],
+     "note": "Data interpretation and frequency distributions (Applied Cl 11)"
+    },
+    {
+     "name": "Sampling distribution and the idea of the central limit theorem",
+     "weight": "L",
+     "prereq": [
+      "cbse-g12-applied-maths-ch08-st1",
+      "cbse-g12-applied-maths-ch07-st4"
+     ],
+     "note": "Population vs sample; normal distribution"
+    },
+    {
+     "name": "Hypothesis testing: null and alternative hypotheses, level of significance",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-applied-maths-ch08-st2"
+     ],
+     "note": "Sampling distribution; z-scores and tail areas"
+    },
+    {
+     "name": "t-test: one-sample and two independent samples",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-applied-maths-ch08-st3",
+      "cbse-g11-applied-maths-ch09-st3"
+     ],
+     "note": "Hypothesis testing; mean and standard deviation (Applied Cl 11)"
+    }
+   ]
+  },
+  {
+   "sheetName": "Time series",
+   "name": "Time Series",
+   "subtopics": [
+    {
+     "name": "Meaning and components of a time series",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-applied-maths-ch09-st1"
+     ],
+     "note": "Reading line graphs and tables (Cl 8-9)"
+    },
+    {
+     "name": "Trend by the method of moving averages",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-applied-maths-ch09-st1"
+     ],
+     "note": "Components of a time series; calculating means"
+    },
+    {
+     "name": "Trend by the method of least squares",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-applied-maths-ch09-st1",
+      "cbse-g11-applied-maths-ch10-st4"
+     ],
+     "note": "Lines of regression (Applied Cl 11); equation of a straight line"
+    }
+   ]
+  },
+  {
+   "sheetName": "Perpetuity & sinking fund",
+   "name": "Perpetuity and Sinking Funds",
+   "subtopics": [
+    {
+     "name": "Perpetuity: present value of a perpetuity and growing perpetuity",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-applied-maths-ch11-st2",
+      "cbse-g11-applied-maths-ch03-st2"
+     ],
+     "note": "Present value (Applied Cl 11); sum of an infinite GP"
+    },
+    {
+     "name": "Sinking fund: concept and periodic deposit",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-applied-maths-ch11-st3"
+     ],
+     "note": "Annuities: future value (Applied Cl 11)"
+    },
+    {
+     "name": "Applications: valuing endowments and replacing assets",
+     "weight": "L",
+     "prereq": [
+      "cbse-g12-applied-maths-ch10-st1",
+      "cbse-g12-applied-maths-ch10-st2"
+     ],
+     "note": "Perpetuity; sinking fund"
+    }
+   ]
+  },
+  {
+   "sheetName": "Bonds, EMI, CAGR",
+   "name": "Valuation of Bonds, EMI and Rate of Return",
+   "subtopics": [
+    {
+     "name": "Valuation of bonds: face value, coupon rate and present value",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-applied-maths-ch10-st1",
+      "cbse-g11-applied-maths-ch11-st2"
+     ],
+     "note": "Present value of money (Applied Cl 11); perpetuity"
+    },
+    {
+     "name": "Calculation of EMI: flat rate and reducing balance methods",
+     "weight": "H",
+     "prereq": [
+      "cbse-g11-applied-maths-ch11-st3"
+     ],
+     "note": "Annuities (Applied Cl 11); compound interest"
+    },
+    {
+     "name": "Rate of return and nominal rate of return",
+     "weight": "S",
+     "prereq": [
+      "cbse-g11-applied-maths-ch11-st1"
+     ],
+     "note": "Simple and compound interest; percentage change (Cl 8)"
+    },
+    {
+     "name": "Compound Annual Growth Rate (CAGR)",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-applied-maths-ch11-st3",
+      "cbse-g11-applied-maths-ch01-st2"
+     ],
+     "note": "Rate of return; roots and logarithms (Applied Cl 11)"
+    }
+   ]
+  },
+  {
+   "sheetName": "Depreciation",
+   "name": "Linear Method of Depreciation",
+   "subtopics": [
+    {
+     "name": "Depreciation: cost, useful life and scrap value",
+     "weight": "L",
+     "prereq": [
+      "cbse-g11-applied-maths-ch11-st1"
+     ],
+     "note": "Percentages and simple interest (Cl 8; Applied Cl 11)"
+    },
+    {
+     "name": "Linear (straight-line) method of depreciation",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-applied-maths-ch12-st1"
+     ],
+     "note": "Depreciation concepts; linear functions"
+    },
+    {
+     "name": "Book value schedules and depreciation problems",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-applied-maths-ch12-st2"
+     ],
+     "note": "Straight-line method; reading and building tables"
+    }
+   ]
+  },
+  {
+   "sheetName": "Linear Programming",
+   "name": "Linear Programming",
+   "subtopics": [
+    {
+     "name": "Formulating linear programming problems from business contexts",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-applied-maths-ch02-st3"
+     ],
+     "note": "Word problems on linear inequalities"
+    },
+    {
+     "name": "Graphical method of solution and the corner-point theorem",
+     "weight": "H",
+     "prereq": [
+      "cbse-g12-applied-maths-ch13-st1",
+      "cbse-g11-applied-maths-ch13-st2"
+     ],
+     "note": "Equations of lines (Applied Cl 11); graphing inequalities in two variables"
+    },
+    {
+     "name": "Feasible and infeasible regions; bounded, unbounded and multiple optimal solutions",
+     "weight": "S",
+     "prereq": [
+      "cbse-g12-applied-maths-ch13-st2"
+     ],
+     "note": "Graphical method; testing an open half-plane"
+    }
+   ]
+  }
+ ]
 }

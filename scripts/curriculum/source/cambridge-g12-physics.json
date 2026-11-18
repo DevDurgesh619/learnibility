@@ -1,559 +1,559 @@
 {
-  "subjectId": "cambridge-g12-physics",
-  "chapters": [
+ "subjectId": "cambridge-g12-physics",
+ "chapters": [
+  {
+   "name": "Motion in a circle",
+   "subtopics": [
     {
-      "name": "Motion in a circle",
-      "subtopics": [
-        {
-          "name": "Radians, angular displacement and angular speed ω = v/r",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-maths-ch04-st1",
-            "cambridge-g11-physics-ch02-st1"
-          ],
-          "note": "Radian measure (AS Pure 1); speed and velocity (AS)"
-        },
-        {
-          "name": "Centripetal acceleration a = rω² = v²/r and centripetal force",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g12-physics-ch01-st1",
-            "cambridge-g11-physics-ch04-st1"
-          ],
-          "note": "Newton's second law (AS Dynamics)"
-        },
-        {
-          "name": "Applications of circular motion: banked tracks, loops and conical pendulum",
-          "weight": "L",
-          "prereq": [
-            "cambridge-g12-physics-ch01-st2",
-            "cambridge-g11-physics-ch01-st4"
-          ],
-          "note": "Resolving vectors (AS); centripetal force"
-        }
-      ]
+     "name": "Radians, angular displacement and angular speed ω = v/r",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-maths-ch04-st1",
+      "cambridge-g11-physics-ch02-st1"
+     ],
+     "note": "Radian measure (AS Pure 1); speed and velocity (AS)"
     },
     {
-      "name": "Gravitational fields",
-      "subtopics": [
-        {
-          "name": "Gravitational field and field strength g = F/m and field lines",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-physics-ch04-st2"
-          ],
-          "note": "Weight and mass (AS); field as region of force"
-        },
-        {
-          "name": "Newton's law of gravitation F = GMm/r² and g = GM/r²",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g12-physics-ch02-st1"
-          ],
-          "note": "Inverse square relationships; field strength"
-        },
-        {
-          "name": "Gravitational potential φ = −GM/r and gravitational potential energy",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g12-physics-ch02-st2",
-            "cambridge-g11-physics-ch08-st2"
-          ],
-          "note": "Gravitational potential energy (AS); work done"
-        },
-        {
-          "name": "Circular orbits and geostationary satellites",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-physics-ch02-st2",
-            "cambridge-g12-physics-ch01-st2"
-          ],
-          "note": "Centripetal force; Newton's law of gravitation"
-        }
-      ]
+     "name": "Centripetal acceleration a = rω² = v²/r and centripetal force",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g12-physics-ch01-st1",
+      "cambridge-g11-physics-ch04-st1"
+     ],
+     "note": "Newton's second law (AS Dynamics)"
     },
     {
-      "name": "Temperature",
-      "subtopics": [
-        {
-          "name": "Thermal equilibrium and the thermodynamic (Kelvin) scale",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g9-physics-ch09-st4"
-          ],
-          "note": "Temperature and absolute zero (IGCSE ch 9)"
-        },
-        {
-          "name": "Thermometers and physical properties that vary with temperature",
-          "weight": "L",
-          "prereq": [
-            "cambridge-g12-physics-ch03-st1"
-          ],
-          "note": "Thermistors (AS); thermal expansion (IGCSE)"
-        },
-        {
-          "name": "Specific heat capacity and specific latent heat including electrical methods",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g12-physics-ch03-st1",
-            "cambridge-g9-physics-ch10-st4"
-          ],
-          "note": "Specific heat capacity and latent heat (IGCSE ch 10)"
-        }
-      ]
-    },
-    {
-      "name": "Ideal gases",
-      "subtopics": [
-        {
-          "name": "The mole, Avogadro constant and the ideal gas equation pV = nRT",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-physics-ch03-st1",
-            "cambridge-g9-physics-ch09-st3"
-          ],
-          "note": "Gas laws pV = constant (IGCSE)"
-        },
-        {
-          "name": "Kinetic theory of gases: assumptions and pV = ⅓Nm⟨c²⟩",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g12-physics-ch04-st1",
-            "cambridge-g11-physics-ch05-st1"
-          ],
-          "note": "Momentum and force as rate of change of momentum (AS)"
-        },
-        {
-          "name": "Average kinetic energy of a molecule and temperature: ⅔kT relation",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-physics-ch04-st2"
-          ],
-          "note": "Kinetic theory equation; Boltzmann constant"
-        }
-      ]
-    },
-    {
-      "name": "Thermodynamics",
-      "subtopics": [
-        {
-          "name": "Internal energy as the sum of random kinetic and potential energies",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-physics-ch04-st3"
-          ],
-          "note": "Kinetic energy of molecules; particle model"
-        },
-        {
-          "name": "The first law of thermodynamics ΔU = q + W",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g12-physics-ch05-st1",
-            "cambridge-g11-physics-ch08-st3"
-          ],
-          "note": "Work done by a gas W = pΔV (AS)"
-        },
-        {
-          "name": "Applying the first law to changes of state and gas processes",
-          "weight": "L",
-          "prereq": [
-            "cambridge-g12-physics-ch05-st2",
-            "cambridge-g12-physics-ch03-st3"
-          ],
-          "note": "Latent heat; first law of thermodynamics"
-        }
-      ]
-    },
-    {
-      "name": "Oscillations",
-      "subtopics": [
-        {
-          "name": "Describing oscillations: displacement, amplitude, period, frequency, angular frequency and phase difference",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-physics-ch01-st1"
-          ],
-          "note": "Angular speed; sine functions"
-        },
-        {
-          "name": "Simple harmonic motion: a = −ω²x and its solutions x = x₀ sin ωt",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g12-physics-ch06-st1",
-            "cambridge-g12-maths-ch04-st2"
-          ],
-          "note": "Differentiating sin and cos (A Level Pure 3)"
-        },
-        {
-          "name": "Energy changes in simple harmonic motion",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-physics-ch06-st2",
-            "cambridge-g11-physics-ch08-st2"
-          ],
-          "note": "Kinetic and potential energy (AS)"
-        },
-        {
-          "name": "Damping, forced oscillations and resonance",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-physics-ch06-st2"
-          ],
-          "note": "Simple harmonic motion; natural frequency"
-        }
-      ]
-    },
-    {
-      "name": "Electric fields",
-      "subtopics": [
-        {
-          "name": "Electric fields and field strength E = F/q and field lines",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-physics-ch02-st1",
-            "cambridge-g10-physics-ch04-st3"
-          ],
-          "note": "Electric fields (IGCSE); gravitational field analogy"
-        },
-        {
-          "name": "Uniform electric fields E = ΔV/Δd and motion of charges in a field",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-physics-ch07-st1",
-            "cambridge-g11-physics-ch03-st3"
-          ],
-          "note": "Projectile motion (AS); potential difference"
-        },
-        {
-          "name": "Coulomb's law and field strength of a point charge",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-physics-ch07-st1",
-            "cambridge-g12-physics-ch02-st2"
-          ],
-          "note": "Newton's law of gravitation as analogy; inverse square law"
-        },
-        {
-          "name": "Electric potential V = Q/4πε₀r and electric potential energy",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g12-physics-ch07-st3",
-            "cambridge-g12-physics-ch02-st3"
-          ],
-          "note": "Gravitational potential (A Level)"
-        }
-      ]
-    },
-    {
-      "name": "Capacitance",
-      "subtopics": [
-        {
-          "name": "Capacitance C = Q/V and capacitors in series and parallel",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-physics-ch07-st4",
-            "cambridge-g11-physics-ch13-st2"
-          ],
-          "note": "Kirchhoff's laws (AS)"
-        },
-        {
-          "name": "Energy stored in a capacitor W = ½QV",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-physics-ch08-st1"
-          ],
-          "note": "Area under a graph; capacitance"
-        },
-        {
-          "name": "Discharging a capacitor: exponential decay and the time constant RC",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g12-physics-ch08-st1",
-            "cambridge-g12-maths-ch02-st2"
-          ],
-          "note": "Exponential function and ln (A Level Pure 3)"
-        }
-      ]
-    },
-    {
-      "name": "Magnetic fields",
-      "subtopics": [
-        {
-          "name": "Magnetic fields and field patterns of currents and magnets",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g10-physics-ch07-st1"
-          ],
-          "note": "Magnetic effect of a current (IGCSE)"
-        },
-        {
-          "name": "Force on a current-carrying conductor F = BIL sin θ and magnetic flux density",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g12-physics-ch09-st1",
-            "cambridge-g10-physics-ch07-st2"
-          ],
-          "note": "Fleming's left-hand rule (IGCSE)"
-        },
-        {
-          "name": "Force on a moving charge F = BQv and the Hall effect",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-physics-ch09-st2",
-            "cambridge-g12-physics-ch07-st2"
-          ],
-          "note": "Charges in uniform electric fields"
-        },
-        {
-          "name": "Velocity selection and charged particles in combined electric and magnetic fields",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-physics-ch09-st3",
-            "cambridge-g12-physics-ch01-st2"
-          ],
-          "note": "Centripetal force; F = BQv"
-        }
-      ]
-    },
-    {
-      "name": "Electromagnetic induction",
-      "subtopics": [
-        {
-          "name": "Magnetic flux and flux linkage",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-physics-ch09-st2"
-          ],
-          "note": "Magnetic flux density B"
-        },
-        {
-          "name": "Faraday's and Lenz's laws of electromagnetic induction",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g12-physics-ch10-st1",
-            "cambridge-g10-physics-ch08-st1"
-          ],
-          "note": "Electromagnetic induction (IGCSE)"
-        },
-        {
-          "name": "Applications of electromagnetic induction including generators and eddy currents",
-          "weight": "L",
-          "prereq": [
-            "cambridge-g12-physics-ch10-st2"
-          ],
-          "note": "Faraday's and Lenz's laws"
-        }
-      ]
-    },
-    {
-      "name": "Alternating currents",
-      "subtopics": [
-        {
-          "name": "Sinusoidal alternating current: period, frequency and peak values",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-physics-ch10-st2",
-            "cambridge-g12-physics-ch06-st1"
-          ],
-          "note": "Sine functions; a.c. generator"
-        },
-        {
-          "name": "Root-mean-square values and mean power in a resistive load",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g12-physics-ch11-st1",
-            "cambridge-g11-physics-ch12-st2"
-          ],
-          "note": "Electrical power P = I²R (AS)"
-        },
-        {
-          "name": "Rectification and smoothing using diodes and a capacitor",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-physics-ch11-st1",
-            "cambridge-g12-physics-ch08-st3"
-          ],
-          "note": "Discharging a capacitor; diode characteristics (AS)"
-        }
-      ]
-    },
-    {
-      "name": "Quantum physics",
-      "subtopics": [
-        {
-          "name": "Photons: energy E = hf and momentum and the photoelectric effect",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g11-physics-ch10-st4"
-          ],
-          "note": "Electromagnetic spectrum (AS)"
-        },
-        {
-          "name": "Work function, threshold frequency and Einstein's photoelectric equation",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-physics-ch12-st1"
-          ],
-          "note": "Photon energy; electronvolt conversion"
-        },
-        {
-          "name": "Wave-particle duality and electron diffraction: λ = h/p",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-physics-ch12-st1",
-            "cambridge-g11-physics-ch11-st2"
-          ],
-          "note": "Diffraction (AS); momentum"
-        },
-        {
-          "name": "Energy levels, line spectra and emission and absorption",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-physics-ch12-st1"
-          ],
-          "note": "Photon energy; electron arrangement"
-        }
-      ]
-    },
-    {
-      "name": "Nuclear physics",
-      "subtopics": [
-        {
-          "name": "Mass defect, binding energy and E = mc²",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-physics-ch14-st2"
-          ],
-          "note": "Nucleons and isotopes (AS)"
-        },
-        {
-          "name": "Binding energy per nucleon and fission and fusion",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-physics-ch13-st1",
-            "cambridge-g10-physics-ch09-st4"
-          ],
-          "note": "Nuclear fission and fusion (IGCSE)"
-        },
-        {
-          "name": "Radioactive decay: activity, decay constant A = λN and half-life",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g10-physics-ch10-st4",
-            "cambridge-g12-maths-ch02-st2"
-          ],
-          "note": "Half-life (IGCSE); exponential functions (A Level Pure 3)"
-        },
-        {
-          "name": "Exponential decay equation x = x₀e^(−λt)",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-physics-ch13-st3",
-            "cambridge-g12-physics-ch08-st3"
-          ],
-          "note": "Activity and decay constant; natural logarithms"
-        }
-      ]
-    },
-    {
-      "name": "Medical physics",
-      "subtopics": [
-        {
-          "name": "Production and use of ultrasound in diagnosis and acoustic impedance",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g9-physics-ch12-st4"
-          ],
-          "note": "Ultrasound (IGCSE ch 12)"
-        },
-        {
-          "name": "Production of X-rays and X-ray imaging and attenuation, including CT scans",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-physics-ch14-st1",
-            "cambridge-g12-physics-ch12-st1"
-          ],
-          "note": "Photon energy; exponential attenuation"
-        },
-        {
-          "name": "PET scanning: tracers and annihilation",
-          "weight": "L",
-          "prereq": [
-            "cambridge-g12-physics-ch14-st2",
-            "cambridge-g11-physics-ch14-st3"
-          ],
-          "note": "Antiparticles (AS); E = mc²"
-        }
-      ]
-    },
-    {
-      "name": "Astronomy and cosmology",
-      "subtopics": [
-        {
-          "name": "Standard candles, luminosity and radiant flux intensity F = L/4πd²",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g10-physics-ch12-st1"
-          ],
-          "note": "Stars and galaxies (IGCSE)"
-        },
-        {
-          "name": "Stellar radii: Wien's displacement law and Stefan-Boltzmann law",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-physics-ch15-st1"
-          ],
-          "note": "Luminosity; temperature in kelvin"
-        },
-        {
-          "name": "Hubble's law, redshift Δλ/λ = v/c and the Big Bang theory",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g12-physics-ch15-st1",
-            "cambridge-g11-physics-ch10-st3"
-          ],
-          "note": "Doppler effect (AS); redshift (IGCSE)"
-        }
-      ]
-    },
-    {
-      "name": "Planning, analysis and evaluation",
-      "subtopics": [
-        {
-          "name": "Planning an investigation: identifying variables and methods",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g11-physics-ch15-st4"
-          ],
-          "note": "Practical skills and identifying improvements (AS)"
-        },
-        {
-          "name": "Analysis: logarithmic graphs to test relationships and determining constants",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g12-physics-ch16-st1",
-            "cambridge-g12-maths-ch02-st4"
-          ],
-          "note": "Using logarithms to reduce to linear form (A Level Pure 3)"
-        },
-        {
-          "name": "Treatment of uncertainties: error bars, worst acceptable lines and uncertainty in gradient",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g12-physics-ch16-st2",
-            "cambridge-g11-physics-ch15-st3"
-          ],
-          "note": "Analysis and uncertainties (AS)"
-        },
-        {
-          "name": "Evaluation: conclusions and reliability of data and risk assessment",
-          "weight": "L",
-          "prereq": [
-            "cambridge-g12-physics-ch16-st3"
-          ],
-          "note": "Uncertainty in gradient"
-        }
-      ]
+     "name": "Applications of circular motion: banked tracks, loops and conical pendulum",
+     "weight": "L",
+     "prereq": [
+      "cambridge-g12-physics-ch01-st2",
+      "cambridge-g11-physics-ch01-st4"
+     ],
+     "note": "Resolving vectors (AS); centripetal force"
     }
-  ]
+   ]
+  },
+  {
+   "name": "Gravitational fields",
+   "subtopics": [
+    {
+     "name": "Gravitational field and field strength g = F/m and field lines",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-physics-ch04-st2"
+     ],
+     "note": "Weight and mass (AS); field as region of force"
+    },
+    {
+     "name": "Newton's law of gravitation F = GMm/r² and g = GM/r²",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g12-physics-ch02-st1"
+     ],
+     "note": "Inverse square relationships; field strength"
+    },
+    {
+     "name": "Gravitational potential φ = −GM/r and gravitational potential energy",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g12-physics-ch02-st2",
+      "cambridge-g11-physics-ch08-st2"
+     ],
+     "note": "Gravitational potential energy (AS); work done"
+    },
+    {
+     "name": "Circular orbits and geostationary satellites",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-physics-ch02-st2",
+      "cambridge-g12-physics-ch01-st2"
+     ],
+     "note": "Centripetal force; Newton's law of gravitation"
+    }
+   ]
+  },
+  {
+   "name": "Temperature",
+   "subtopics": [
+    {
+     "name": "Thermal equilibrium and the thermodynamic (Kelvin) scale",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g9-physics-ch09-st4"
+     ],
+     "note": "Temperature and absolute zero (IGCSE ch 9)"
+    },
+    {
+     "name": "Thermometers and physical properties that vary with temperature",
+     "weight": "L",
+     "prereq": [
+      "cambridge-g12-physics-ch03-st1"
+     ],
+     "note": "Thermistors (AS); thermal expansion (IGCSE)"
+    },
+    {
+     "name": "Specific heat capacity and specific latent heat including electrical methods",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g12-physics-ch03-st1",
+      "cambridge-g9-physics-ch10-st4"
+     ],
+     "note": "Specific heat capacity and latent heat (IGCSE ch 10)"
+    }
+   ]
+  },
+  {
+   "name": "Ideal gases",
+   "subtopics": [
+    {
+     "name": "The mole, Avogadro constant and the ideal gas equation pV = nRT",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-physics-ch03-st1",
+      "cambridge-g9-physics-ch09-st3"
+     ],
+     "note": "Gas laws pV = constant (IGCSE)"
+    },
+    {
+     "name": "Kinetic theory of gases: assumptions and pV = ⅓Nm⟨c²⟩",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g12-physics-ch04-st1",
+      "cambridge-g11-physics-ch05-st1"
+     ],
+     "note": "Momentum and force as rate of change of momentum (AS)"
+    },
+    {
+     "name": "Average kinetic energy of a molecule and temperature: ⅔kT relation",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-physics-ch04-st2"
+     ],
+     "note": "Kinetic theory equation; Boltzmann constant"
+    }
+   ]
+  },
+  {
+   "name": "Thermodynamics",
+   "subtopics": [
+    {
+     "name": "Internal energy as the sum of random kinetic and potential energies",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-physics-ch04-st3"
+     ],
+     "note": "Kinetic energy of molecules; particle model"
+    },
+    {
+     "name": "The first law of thermodynamics ΔU = q + W",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g12-physics-ch05-st1",
+      "cambridge-g11-physics-ch08-st3"
+     ],
+     "note": "Work done by a gas W = pΔV (AS)"
+    },
+    {
+     "name": "Applying the first law to changes of state and gas processes",
+     "weight": "L",
+     "prereq": [
+      "cambridge-g12-physics-ch05-st2",
+      "cambridge-g12-physics-ch03-st3"
+     ],
+     "note": "Latent heat; first law of thermodynamics"
+    }
+   ]
+  },
+  {
+   "name": "Oscillations",
+   "subtopics": [
+    {
+     "name": "Describing oscillations: displacement, amplitude, period, frequency, angular frequency and phase difference",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-physics-ch01-st1"
+     ],
+     "note": "Angular speed; sine functions"
+    },
+    {
+     "name": "Simple harmonic motion: a = −ω²x and its solutions x = x₀ sin ωt",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g12-physics-ch06-st1",
+      "cambridge-g12-maths-ch04-st2"
+     ],
+     "note": "Differentiating sin and cos (A Level Pure 3)"
+    },
+    {
+     "name": "Energy changes in simple harmonic motion",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-physics-ch06-st2",
+      "cambridge-g11-physics-ch08-st2"
+     ],
+     "note": "Kinetic and potential energy (AS)"
+    },
+    {
+     "name": "Damping, forced oscillations and resonance",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-physics-ch06-st2"
+     ],
+     "note": "Simple harmonic motion; natural frequency"
+    }
+   ]
+  },
+  {
+   "name": "Electric fields",
+   "subtopics": [
+    {
+     "name": "Electric fields and field strength E = F/q and field lines",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-physics-ch02-st1",
+      "cambridge-g10-physics-ch04-st3"
+     ],
+     "note": "Electric fields (IGCSE); gravitational field analogy"
+    },
+    {
+     "name": "Uniform electric fields E = ΔV/Δd and motion of charges in a field",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-physics-ch07-st1",
+      "cambridge-g11-physics-ch03-st3"
+     ],
+     "note": "Projectile motion (AS); potential difference"
+    },
+    {
+     "name": "Coulomb's law and field strength of a point charge",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-physics-ch07-st1",
+      "cambridge-g12-physics-ch02-st2"
+     ],
+     "note": "Newton's law of gravitation as analogy; inverse square law"
+    },
+    {
+     "name": "Electric potential V = Q/4πε₀r and electric potential energy",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g12-physics-ch07-st3",
+      "cambridge-g12-physics-ch02-st3"
+     ],
+     "note": "Gravitational potential (A Level)"
+    }
+   ]
+  },
+  {
+   "name": "Capacitance",
+   "subtopics": [
+    {
+     "name": "Capacitance C = Q/V and capacitors in series and parallel",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-physics-ch07-st4",
+      "cambridge-g11-physics-ch13-st2"
+     ],
+     "note": "Kirchhoff's laws (AS)"
+    },
+    {
+     "name": "Energy stored in a capacitor W = ½QV",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-physics-ch08-st1"
+     ],
+     "note": "Area under a graph; capacitance"
+    },
+    {
+     "name": "Discharging a capacitor: exponential decay and the time constant RC",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g12-physics-ch08-st1",
+      "cambridge-g12-maths-ch02-st2"
+     ],
+     "note": "Exponential function and ln (A Level Pure 3)"
+    }
+   ]
+  },
+  {
+   "name": "Magnetic fields",
+   "subtopics": [
+    {
+     "name": "Magnetic fields and field patterns of currents and magnets",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g10-physics-ch07-st1"
+     ],
+     "note": "Magnetic effect of a current (IGCSE)"
+    },
+    {
+     "name": "Force on a current-carrying conductor F = BIL sin θ and magnetic flux density",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g12-physics-ch09-st1",
+      "cambridge-g10-physics-ch07-st2"
+     ],
+     "note": "Fleming's left-hand rule (IGCSE)"
+    },
+    {
+     "name": "Force on a moving charge F = BQv and the Hall effect",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-physics-ch09-st2",
+      "cambridge-g12-physics-ch07-st2"
+     ],
+     "note": "Charges in uniform electric fields"
+    },
+    {
+     "name": "Velocity selection and charged particles in combined electric and magnetic fields",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-physics-ch09-st3",
+      "cambridge-g12-physics-ch01-st2"
+     ],
+     "note": "Centripetal force; F = BQv"
+    }
+   ]
+  },
+  {
+   "name": "Electromagnetic induction",
+   "subtopics": [
+    {
+     "name": "Magnetic flux and flux linkage",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-physics-ch09-st2"
+     ],
+     "note": "Magnetic flux density B"
+    },
+    {
+     "name": "Faraday's and Lenz's laws of electromagnetic induction",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g12-physics-ch10-st1",
+      "cambridge-g10-physics-ch08-st1"
+     ],
+     "note": "Electromagnetic induction (IGCSE)"
+    },
+    {
+     "name": "Applications of electromagnetic induction including generators and eddy currents",
+     "weight": "L",
+     "prereq": [
+      "cambridge-g12-physics-ch10-st2"
+     ],
+     "note": "Faraday's and Lenz's laws"
+    }
+   ]
+  },
+  {
+   "name": "Alternating currents",
+   "subtopics": [
+    {
+     "name": "Sinusoidal alternating current: period, frequency and peak values",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-physics-ch10-st2",
+      "cambridge-g12-physics-ch06-st1"
+     ],
+     "note": "Sine functions; a.c. generator"
+    },
+    {
+     "name": "Root-mean-square values and mean power in a resistive load",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g12-physics-ch11-st1",
+      "cambridge-g11-physics-ch12-st2"
+     ],
+     "note": "Electrical power P = I²R (AS)"
+    },
+    {
+     "name": "Rectification and smoothing using diodes and a capacitor",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-physics-ch11-st1",
+      "cambridge-g12-physics-ch08-st3"
+     ],
+     "note": "Discharging a capacitor; diode characteristics (AS)"
+    }
+   ]
+  },
+  {
+   "name": "Quantum physics",
+   "subtopics": [
+    {
+     "name": "Photons: energy E = hf and momentum and the photoelectric effect",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g11-physics-ch10-st4"
+     ],
+     "note": "Electromagnetic spectrum (AS)"
+    },
+    {
+     "name": "Work function, threshold frequency and Einstein's photoelectric equation",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-physics-ch12-st1"
+     ],
+     "note": "Photon energy; electronvolt conversion"
+    },
+    {
+     "name": "Wave-particle duality and electron diffraction: λ = h/p",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-physics-ch12-st1",
+      "cambridge-g11-physics-ch11-st2"
+     ],
+     "note": "Diffraction (AS); momentum"
+    },
+    {
+     "name": "Energy levels, line spectra and emission and absorption",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-physics-ch12-st1"
+     ],
+     "note": "Photon energy; electron arrangement"
+    }
+   ]
+  },
+  {
+   "name": "Nuclear physics",
+   "subtopics": [
+    {
+     "name": "Mass defect, binding energy and E = mc²",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-physics-ch14-st2"
+     ],
+     "note": "Nucleons and isotopes (AS)"
+    },
+    {
+     "name": "Binding energy per nucleon and fission and fusion",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-physics-ch13-st1",
+      "cambridge-g10-physics-ch09-st4"
+     ],
+     "note": "Nuclear fission and fusion (IGCSE)"
+    },
+    {
+     "name": "Radioactive decay: activity, decay constant A = λN and half-life",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g10-physics-ch10-st4",
+      "cambridge-g12-maths-ch02-st2"
+     ],
+     "note": "Half-life (IGCSE); exponential functions (A Level Pure 3)"
+    },
+    {
+     "name": "Exponential decay equation x = x₀e^(−λt)",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-physics-ch13-st3",
+      "cambridge-g12-physics-ch08-st3"
+     ],
+     "note": "Activity and decay constant; natural logarithms"
+    }
+   ]
+  },
+  {
+   "name": "Medical physics",
+   "subtopics": [
+    {
+     "name": "Production and use of ultrasound in diagnosis and acoustic impedance",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g9-physics-ch12-st4"
+     ],
+     "note": "Ultrasound (IGCSE ch 12)"
+    },
+    {
+     "name": "Production of X-rays and X-ray imaging and attenuation, including CT scans",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-physics-ch14-st1",
+      "cambridge-g12-physics-ch12-st1"
+     ],
+     "note": "Photon energy; exponential attenuation"
+    },
+    {
+     "name": "PET scanning: tracers and annihilation",
+     "weight": "L",
+     "prereq": [
+      "cambridge-g12-physics-ch14-st2",
+      "cambridge-g11-physics-ch14-st3"
+     ],
+     "note": "Antiparticles (AS); E = mc²"
+    }
+   ]
+  },
+  {
+   "name": "Astronomy and cosmology",
+   "subtopics": [
+    {
+     "name": "Standard candles, luminosity and radiant flux intensity F = L/4πd²",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g10-physics-ch12-st1"
+     ],
+     "note": "Stars and galaxies (IGCSE)"
+    },
+    {
+     "name": "Stellar radii: Wien's displacement law and Stefan-Boltzmann law",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-physics-ch15-st1"
+     ],
+     "note": "Luminosity; temperature in kelvin"
+    },
+    {
+     "name": "Hubble's law, redshift Δλ/λ = v/c and the Big Bang theory",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g12-physics-ch15-st1",
+      "cambridge-g11-physics-ch10-st3"
+     ],
+     "note": "Doppler effect (AS); redshift (IGCSE)"
+    }
+   ]
+  },
+  {
+   "name": "Planning, analysis and evaluation",
+   "subtopics": [
+    {
+     "name": "Planning an investigation: identifying variables and methods",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g11-physics-ch15-st4"
+     ],
+     "note": "Practical skills and identifying improvements (AS)"
+    },
+    {
+     "name": "Analysis: logarithmic graphs to test relationships and determining constants",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g12-physics-ch16-st1",
+      "cambridge-g12-maths-ch02-st4"
+     ],
+     "note": "Using logarithms to reduce to linear form (A Level Pure 3)"
+    },
+    {
+     "name": "Treatment of uncertainties: error bars, worst acceptable lines and uncertainty in gradient",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g12-physics-ch16-st2",
+      "cambridge-g11-physics-ch15-st3"
+     ],
+     "note": "Analysis and uncertainties (AS)"
+    },
+    {
+     "name": "Evaluation: conclusions and reliability of data and risk assessment",
+     "weight": "L",
+     "prereq": [
+      "cambridge-g12-physics-ch16-st3"
+     ],
+     "note": "Uncertainty in gradient"
+    }
+   ]
+  }
+ ]
 }

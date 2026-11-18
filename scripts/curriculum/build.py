@@ -7,6 +7,7 @@ Writes:
   data/curriculum/{subjectId}.json      chapters + subtopics for each subject with a source file
   data/curriculum/streams.json          what each board/grade/stream offers (incl. shared "same as" rows)
   data/curriculum/sheet-reference.json  cost-sheet facts the validator checks against
+learnHours/masterHours already in data/curriculum are kept (filled by scripts/engines/fill-mastery-hours.ts).
 Teaching periods (40 min) come from subtopic weight (H 4, S 3, L 2, the class 8 maths workbook ratios),
 scaled per subject to the programme's annual instruction time; cbse-g8-maths keeps the workbook's own periods.
 """
@@ -21,24 +22,6 @@ SRC = Path(__file__).parent / "source"
 GEN = "scripts/curriculum/build.py"
 BASE = {"H": 4, "S": 3, "L": 2}
 
-# Published slugs follow the cost-sheet seat for every board (agreed with the question-bank threads),
-# so e.g. IB Global Politics is ib-g11-political-science. Source files still use the authoring slugs;
-# this map is applied to every ID on output. TODO(W2): migrate source files and drop this map.
-SLUG_RENAME = {"information-technology": "informatics", "digital-society": "informatics", "law": "legal-studies",
-               "global-perspectives": "political-science", "global-politics": "political-science",
-               "statistics": "applied-maths", "maths-ai": "applied-maths", "anthropology": "sociology"}
-_ID = re.compile(r"^((?:cbse|cambridge|ib)-g\d{1,2}-)([a-z0-9-]+?)((?:-ch\d{2}(?:-st\d)?)?)$")
-
-def rid(i):
-    m = _ID.match(i)
-    return f"{m.group(1)}{SLUG_RENAME.get(m.group(2), m.group(2))}{m.group(3)}" if m else i
-
-def renamed(obj):
-    if isinstance(obj, dict):
-        return {k: (SLUG_RENAME.get(v, v) if k == "slug" else renamed(v)) for k, v in obj.items()}
-    if isinstance(obj, list):
-        return [renamed(v) for v in obj]
-    return rid(obj) if isinstance(obj, str) else obj
 LANG = {"english", "hindi"}
 
 def annual_periods(row):
@@ -117,7 +100,7 @@ def streams(rows):
             sid, note = r["id"], None
         else:
             same = [c for c in counted.values() if c["board"] == r["board"] and c["grade"] == r["grade"]
-                    and (c["slug"] == r["slug"] or (r["slug"] in ("statistics",) and c["slug"] == "maths"))]
+                    and (c["slug"] == r["slug"] or (r["board"] == "cambridge" and r["grade"] == 11 and r["slug"] == "applied-maths" and c["slug"] == "maths"))]
             if same and re.search(r"same as|identical", r["course"], re.I):
                 sid, note = same[0]["id"], "shared with another stream; counted once"
             else:
@@ -129,7 +112,7 @@ def streams(rows):
     return list(groups.values())
 
 def dump(path, obj):
-    path.write_text(json.dumps(renamed(obj), ensure_ascii=False, indent=1) + "\n")
+    path.write_text(json.dumps(obj, ensure_ascii=False, indent=1) + "\n")
 
 def main():
     rows = sheet.read_rows()
@@ -145,7 +128,14 @@ def main():
             continue
         src = json.loads(p.read_text())
         data = build_subject(r, src)
-        dump(OUT / f"{rid(r['id'])}.json", data)
+        old = OUT / f"{r['id']}.json"
+        if old.exists():  # keep hours filled by scripts/engines/fill-mastery-hours.ts
+            prev = {t["id"]: t for t in json.loads(old.read_text()).get("subtopics", [])}
+            for t in data["subtopics"]:
+                p = prev.get(t["id"])
+                if p and p.get("learnHours"):
+                    t["learnHours"], t["masterHours"] = p["learnHours"], p["masterHours"]
+        dump(OUT / f"{r['id']}.json", data)
         if r["chapterNames"]:
             got = [c.get("sheetName") for c in src["chapters"]]
             if got != r["chapterNames"]:

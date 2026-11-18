@@ -1,414 +1,414 @@
 {
-  "subjectId": "cambridge-g9-chemistry",
-  "chapters": [
+ "subjectId": "cambridge-g9-chemistry",
+ "chapters": [
+  {
+   "sheetName": "States of matter",
+   "name": "States of Matter",
+   "subtopics": [
     {
-      "sheetName": "States of matter",
-      "name": "States of Matter",
-      "subtopics": [
-        {
-          "name": "Solids, liquids and gases: properties and the kinetic particle model",
-          "weight": "H",
-          "prereq": [],
-          "note": "Particle model of solids, liquids and gases (Lower Secondary Science Stage 7)"
-        },
-        {
-          "name": "Changes of state: melting, boiling, evaporation, condensation and sublimation; heating and cooling curves",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g9-chemistry-ch01-st1"
-          ],
-          "note": "Kinetic particle model; reading line graphs (Lower Secondary maths)"
-        },
-        {
-          "name": "Effect of temperature and pressure on the volume of a gas",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g9-chemistry-ch01-st1"
-          ],
-          "note": "Kinetic particle model; particle collisions with container walls"
-        },
-        {
-          "name": "Diffusion and the effect of relative molecular mass on rate of diffusion",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g9-chemistry-ch01-st1"
-          ],
-          "note": "Kinetic particle model; random motion of particles (Lower Secondary Stage 8)"
-        }
-      ]
+     "name": "Solids, liquids and gases: properties and the kinetic particle model",
+     "weight": "H",
+     "prereq": [],
+     "note": "Particle model of solids, liquids and gases (Lower Secondary Science Stage 7)"
     },
     {
-      "sheetName": "Atomic structure",
-      "name": "Atomic Structure",
-      "subtopics": [
-        {
-          "name": "Elements, compounds and mixtures",
-          "weight": "L",
-          "prereq": [],
-          "note": "Pure substances and mixtures (Lower Secondary Science Stage 7-8)"
-        },
-        {
-          "name": "Structure of the atom: protons, neutrons, electrons; proton number and mass number",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g9-chemistry-ch02-st1"
-          ],
-          "note": "Atoms and the Rutherford model (Lower Secondary Science Stage 9)"
-        },
-        {
-          "name": "Isotopes and calculating relative atomic mass from abundances",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g9-chemistry-ch02-st2"
-          ],
-          "note": "Proton and mass number; weighted averages and percentages (maths)"
-        },
-        {
-          "name": "Electronic configuration and its link to group and period number",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g9-chemistry-ch02-st2"
-          ],
-          "note": "Structure of the atom; layout of the Periodic Table (Lower Secondary Stage 9)"
-        }
-      ]
+     "name": "Changes of state: melting, boiling, evaporation, condensation and sublimation; heating and cooling curves",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g9-chemistry-ch01-st1"
+     ],
+     "note": "Kinetic particle model; reading line graphs (Lower Secondary maths)"
     },
     {
-      "sheetName": "Bonding",
-      "name": "Chemical Bonding",
-      "subtopics": [
-        {
-          "name": "Ionic bonding: formation of ions by electron transfer and dot-and-cross diagrams",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g9-chemistry-ch02-st4"
-          ],
-          "note": "Electronic configuration and stable outer shells"
-        },
-        {
-          "name": "Giant ionic lattices and properties of ionic compounds",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g9-chemistry-ch03-st1",
-            "cambridge-g9-chemistry-ch01-st1"
-          ],
-          "note": "Ionic bonding; melting point and conductivity linked to particles"
-        },
-        {
-          "name": "Covalent bonding in simple molecules, including double and triple bonds",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g9-chemistry-ch02-st4"
-          ],
-          "note": "Electronic configuration; sharing pairs of electrons"
-        },
-        {
-          "name": "Giant covalent structures: diamond, graphite and silicon(IV) oxide",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g9-chemistry-ch03-st3"
-          ],
-          "note": "Covalent bonding in simple molecules; properties linked to structure"
-        },
-        {
-          "name": "Metallic bonding and properties of metals",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g9-chemistry-ch03-st1"
-          ],
-          "note": "Ionic bonding (positive ions); delocalised electrons"
-        }
-      ]
+     "name": "Effect of temperature and pressure on the volume of a gas",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g9-chemistry-ch01-st1"
+     ],
+     "note": "Kinetic particle model; particle collisions with container walls"
     },
     {
-      "sheetName": "Formulae & equations",
-      "name": "Chemical Formulae and Equations",
-      "subtopics": [
-        {
-          "name": "Writing chemical formulae from ions, valency and models",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g9-chemistry-ch03-st1",
-            "cambridge-g9-chemistry-ch03-st3"
-          ],
-          "note": "Ion charges and covalent bonding; names of common compounds (Lower Secondary Stage 9)"
-        },
-        {
-          "name": "Word equations and balanced symbol equations with state symbols",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g9-chemistry-ch04-st1"
-          ],
-          "note": "Writing chemical formulae; conservation of mass (Lower Secondary Stage 8)"
-        },
-        {
-          "name": "Ionic equations and spectator ions",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g9-chemistry-ch04-st2",
-            "cambridge-g9-chemistry-ch03-st2"
-          ],
-          "note": "Balanced symbol equations; ions in solution"
-        }
-      ]
-    },
-    {
-      "sheetName": "Chemical calculations",
-      "name": "Chemical Calculations",
-      "subtopics": [
-        {
-          "name": "Relative formula mass and the mole; Avogadro constant",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g9-chemistry-ch02-st3",
-            "cambridge-g9-chemistry-ch04-st1"
-          ],
-          "note": "Relative atomic mass; writing formulae; standard form (maths)"
-        },
-        {
-          "name": "Reacting masses, limiting reactants and percentage yield",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g9-chemistry-ch05-st1",
-            "cambridge-g9-chemistry-ch04-st2"
-          ],
-          "note": "The mole; balanced equations; ratio and proportion (maths)"
-        },
-        {
-          "name": "Molar gas volume and concentration of solutions in g/dm³ and mol/dm³",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g9-chemistry-ch05-st1"
-          ],
-          "note": "The mole; unit conversion cm³ to dm³ (maths)"
-        },
-        {
-          "name": "Empirical and molecular formulae; percentage composition and percentage purity",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g9-chemistry-ch05-st1"
-          ],
-          "note": "The mole; Relative formula mass; percentages"
-        },
-        {
-          "name": "Titration calculations",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g9-chemistry-ch05-st3",
-            "cambridge-g9-chemistry-ch05-st2"
-          ],
-          "note": "Concentration of solutions; reacting ratios from equations"
-        }
-      ]
-    },
-    {
-      "sheetName": "Electrochemistry",
-      "name": "Electrochemistry",
-      "subtopics": [
-        {
-          "name": "Electrolysis of molten binary ionic compounds",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g9-chemistry-ch03-st2"
-          ],
-          "note": "Giant ionic lattices: ions free to move when molten; electric circuits (Lower Secondary physics)"
-        },
-        {
-          "name": "Electrolysis of aqueous solutions: predicting products at the electrodes",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g9-chemistry-ch06-st1"
-          ],
-          "note": "Electrolysis of molten compounds; reactivity of metals and halide ions"
-        },
-        {
-          "name": "Ionic half-equations at electrodes; electroplating and purification of copper",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g9-chemistry-ch06-st2",
-            "cambridge-g9-chemistry-ch04-st3"
-          ],
-          "note": "Electrolysis of aqueous solutions; ionic equations"
-        },
-        {
-          "name": "Hydrogen–oxygen fuel cells: advantages and disadvantages compared with petrol engines",
-          "weight": "L",
-          "prereq": [
-            "cambridge-g9-chemistry-ch06-st3"
-          ],
-          "note": "Half-equations; combustion of fuels"
-        }
-      ]
-    },
-    {
-      "sheetName": "Energetics",
-      "name": "Chemical Energetics",
-      "subtopics": [
-        {
-          "name": "Exothermic and endothermic reactions and temperature change",
-          "weight": "S",
-          "prereq": [],
-          "note": "Energy transfers and thermometer readings (Lower Secondary Stage 9)"
-        },
-        {
-          "name": "Reaction pathway diagrams, enthalpy change and activation energy",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g9-chemistry-ch07-st1"
-          ],
-          "note": "Exothermic and endothermic reactions; reading energy-level graphs"
-        },
-        {
-          "name": "Bond breaking, bond making and calculating enthalpy change from bond energies",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g9-chemistry-ch07-st2",
-            "cambridge-g9-chemistry-ch03-st3"
-          ],
-          "note": "Reaction pathway diagrams; covalent bonds in simple molecules"
-        }
-      ]
-    },
-    {
-      "sheetName": "Chemical reactions",
-      "name": "Chemical Reactions",
-      "subtopics": [
-        {
-          "name": "Physical and chemical changes",
-          "weight": "L",
-          "prereq": [
-            "cambridge-g9-chemistry-ch01-st2"
-          ],
-          "note": "Changes of state; signs of a chemical reaction (Lower Secondary Stage 7)"
-        },
-        {
-          "name": "Factors affecting rate of reaction: concentration, pressure, surface area, temperature and catalysts",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g9-chemistry-ch08-st1"
-          ],
-          "note": "Physical and chemical changes; variables in a fair test (Lower Secondary)"
-        },
-        {
-          "name": "Collision theory and activation energy: explaining changes in rate",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g9-chemistry-ch08-st2",
-            "cambridge-g9-chemistry-ch07-st2",
-            "cambridge-g9-chemistry-ch01-st1"
-          ],
-          "note": "Factors affecting rate; reaction pathway diagrams; kinetic particle model"
-        },
-        {
-          "name": "Practical methods for measuring rate and interpreting rate-of-reaction graphs",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g9-chemistry-ch08-st2"
-          ],
-          "note": "Factors affecting rate; gradients of graphs (maths)"
-        }
-      ]
-    },
-    {
-      "sheetName": "Reversible reactions",
-      "name": "Reversible Reactions and Equilibrium",
-      "subtopics": [
-        {
-          "name": "Reversible reactions: hydrated and anhydrous copper(II) sulfate and cobalt(II) chloride",
-          "weight": "L",
-          "prereq": [
-            "cambridge-g9-chemistry-ch08-st1"
-          ],
-          "note": "Physical and chemical changes; the ⇌ symbol in equations"
-        },
-        {
-          "name": "Dynamic equilibrium and predicting the effect of temperature, pressure and concentration",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g9-chemistry-ch09-st1",
-            "cambridge-g9-chemistry-ch08-st3"
-          ],
-          "note": "Reversible reactions; collision theory"
-        },
-        {
-          "name": "Industrial conditions: Haber process and Contact process",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g9-chemistry-ch09-st2"
-          ],
-          "note": "Dynamic equilibrium changes; rate versus yield compromise"
-        }
-      ]
-    },
-    {
-      "sheetName": "Redox",
-      "name": "Redox Reactions",
-      "subtopics": [
-        {
-          "name": "Oxidation and reduction as gain or loss of oxygen and loss or gain of electrons",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g9-chemistry-ch04-st3"
-          ],
-          "note": "Ionic equations; ion formation (IGCSE ch 3)"
-        },
-        {
-          "name": "Oxidation numbers and Roman numerals in names of compounds",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g9-chemistry-ch10-st1",
-            "cambridge-g9-chemistry-ch04-st1"
-          ],
-          "note": "Oxidation and reduction; writing chemical formulae"
-        },
-        {
-          "name": "Oxidising and reducing agents; tests with acidified potassium manganate(VII) and potassium iodide",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g9-chemistry-ch10-st2"
-          ],
-          "note": "Oxidation numbers; colour changes in redox reactions"
-        }
-      ]
-    },
-    {
-      "sheetName": "Acids & bases",
-      "name": "Acids and Bases",
-      "subtopics": [
-        {
-          "name": "Properties of acids and alkalis: indicators, pH scale and universal indicator",
-          "weight": "S",
-          "prereq": [],
-          "note": "Acids, alkalis and indicators (Lower Secondary Science Stage 7)"
-        },
-        {
-          "name": "Acids as proton donors and bases as proton acceptors; strong and weak acids",
-          "weight": "H",
-          "prereq": [
-            "cambridge-g9-chemistry-ch11-st1",
-            "cambridge-g9-chemistry-ch03-st1"
-          ],
-          "note": "pH scale; ions formed in solution"
-        },
-        {
-          "name": "Typical reactions of acids with metals, bases and carbonates; neutralisation",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g9-chemistry-ch11-st2",
-            "cambridge-g9-chemistry-ch04-st2"
-          ],
-          "note": "Acids as proton donors; balancing symbol equations"
-        },
-        {
-          "name": "Acidic, basic and amphoteric oxides",
-          "weight": "S",
-          "prereq": [
-            "cambridge-g9-chemistry-ch11-st3",
-            "cambridge-g9-chemistry-ch02-st4"
-          ],
-          "note": "Reactions of acids and bases; metallic vs non-metallic character"
-        }
-      ]
+     "name": "Diffusion and the effect of relative molecular mass on rate of diffusion",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g9-chemistry-ch01-st1"
+     ],
+     "note": "Kinetic particle model; random motion of particles (Lower Secondary Stage 8)"
     }
-  ]
+   ]
+  },
+  {
+   "sheetName": "Atomic structure",
+   "name": "Atomic Structure",
+   "subtopics": [
+    {
+     "name": "Elements, compounds and mixtures",
+     "weight": "L",
+     "prereq": [],
+     "note": "Pure substances and mixtures (Lower Secondary Science Stage 7-8)"
+    },
+    {
+     "name": "Structure of the atom: protons, neutrons, electrons; proton number and mass number",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g9-chemistry-ch02-st1"
+     ],
+     "note": "Atoms and the Rutherford model (Lower Secondary Science Stage 9)"
+    },
+    {
+     "name": "Isotopes and calculating relative atomic mass from abundances",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g9-chemistry-ch02-st2"
+     ],
+     "note": "Proton and mass number; weighted averages and percentages (maths)"
+    },
+    {
+     "name": "Electronic configuration and its link to group and period number",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g9-chemistry-ch02-st2"
+     ],
+     "note": "Structure of the atom; layout of the Periodic Table (Lower Secondary Stage 9)"
+    }
+   ]
+  },
+  {
+   "sheetName": "Bonding",
+   "name": "Chemical Bonding",
+   "subtopics": [
+    {
+     "name": "Ionic bonding: formation of ions by electron transfer and dot-and-cross diagrams",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g9-chemistry-ch02-st4"
+     ],
+     "note": "Electronic configuration and stable outer shells"
+    },
+    {
+     "name": "Giant ionic lattices and properties of ionic compounds",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g9-chemistry-ch03-st1",
+      "cambridge-g9-chemistry-ch01-st1"
+     ],
+     "note": "Ionic bonding; melting point and conductivity linked to particles"
+    },
+    {
+     "name": "Covalent bonding in simple molecules, including double and triple bonds",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g9-chemistry-ch02-st4"
+     ],
+     "note": "Electronic configuration; sharing pairs of electrons"
+    },
+    {
+     "name": "Giant covalent structures: diamond, graphite and silicon(IV) oxide",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g9-chemistry-ch03-st3"
+     ],
+     "note": "Covalent bonding in simple molecules; properties linked to structure"
+    },
+    {
+     "name": "Metallic bonding and properties of metals",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g9-chemistry-ch03-st1"
+     ],
+     "note": "Ionic bonding (positive ions); delocalised electrons"
+    }
+   ]
+  },
+  {
+   "sheetName": "Formulae & equations",
+   "name": "Chemical Formulae and Equations",
+   "subtopics": [
+    {
+     "name": "Writing chemical formulae from ions, valency and models",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g9-chemistry-ch03-st1",
+      "cambridge-g9-chemistry-ch03-st3"
+     ],
+     "note": "Ion charges and covalent bonding; names of common compounds (Lower Secondary Stage 9)"
+    },
+    {
+     "name": "Word equations and balanced symbol equations with state symbols",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g9-chemistry-ch04-st1"
+     ],
+     "note": "Writing chemical formulae; conservation of mass (Lower Secondary Stage 8)"
+    },
+    {
+     "name": "Ionic equations and spectator ions",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g9-chemistry-ch04-st2",
+      "cambridge-g9-chemistry-ch03-st2"
+     ],
+     "note": "Balanced symbol equations; ions in solution"
+    }
+   ]
+  },
+  {
+   "sheetName": "Chemical calculations",
+   "name": "Chemical Calculations",
+   "subtopics": [
+    {
+     "name": "Relative formula mass and the mole; Avogadro constant",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g9-chemistry-ch02-st3",
+      "cambridge-g9-chemistry-ch04-st1"
+     ],
+     "note": "Relative atomic mass; writing formulae; standard form (maths)"
+    },
+    {
+     "name": "Reacting masses, limiting reactants and percentage yield",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g9-chemistry-ch05-st1",
+      "cambridge-g9-chemistry-ch04-st2"
+     ],
+     "note": "The mole; balanced equations; ratio and proportion (maths)"
+    },
+    {
+     "name": "Molar gas volume and concentration of solutions in g/dm³ and mol/dm³",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g9-chemistry-ch05-st1"
+     ],
+     "note": "The mole; unit conversion cm³ to dm³ (maths)"
+    },
+    {
+     "name": "Empirical and molecular formulae; percentage composition and percentage purity",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g9-chemistry-ch05-st1"
+     ],
+     "note": "The mole; Relative formula mass; percentages"
+    },
+    {
+     "name": "Titration calculations",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g9-chemistry-ch05-st3",
+      "cambridge-g9-chemistry-ch05-st2"
+     ],
+     "note": "Concentration of solutions; reacting ratios from equations"
+    }
+   ]
+  },
+  {
+   "sheetName": "Electrochemistry",
+   "name": "Electrochemistry",
+   "subtopics": [
+    {
+     "name": "Electrolysis of molten binary ionic compounds",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g9-chemistry-ch03-st2"
+     ],
+     "note": "Giant ionic lattices: ions free to move when molten; electric circuits (Lower Secondary physics)"
+    },
+    {
+     "name": "Electrolysis of aqueous solutions: predicting products at the electrodes",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g9-chemistry-ch06-st1"
+     ],
+     "note": "Electrolysis of molten compounds; reactivity of metals and halide ions"
+    },
+    {
+     "name": "Ionic half-equations at electrodes; electroplating and purification of copper",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g9-chemistry-ch06-st2",
+      "cambridge-g9-chemistry-ch04-st3"
+     ],
+     "note": "Electrolysis of aqueous solutions; ionic equations"
+    },
+    {
+     "name": "Hydrogen–oxygen fuel cells: advantages and disadvantages compared with petrol engines",
+     "weight": "L",
+     "prereq": [
+      "cambridge-g9-chemistry-ch06-st3"
+     ],
+     "note": "Half-equations; combustion of fuels"
+    }
+   ]
+  },
+  {
+   "sheetName": "Energetics",
+   "name": "Chemical Energetics",
+   "subtopics": [
+    {
+     "name": "Exothermic and endothermic reactions and temperature change",
+     "weight": "S",
+     "prereq": [],
+     "note": "Energy transfers and thermometer readings (Lower Secondary Stage 9)"
+    },
+    {
+     "name": "Reaction pathway diagrams, enthalpy change and activation energy",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g9-chemistry-ch07-st1"
+     ],
+     "note": "Exothermic and endothermic reactions; reading energy-level graphs"
+    },
+    {
+     "name": "Bond breaking, bond making and calculating enthalpy change from bond energies",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g9-chemistry-ch07-st2",
+      "cambridge-g9-chemistry-ch03-st3"
+     ],
+     "note": "Reaction pathway diagrams; covalent bonds in simple molecules"
+    }
+   ]
+  },
+  {
+   "sheetName": "Chemical reactions",
+   "name": "Chemical Reactions",
+   "subtopics": [
+    {
+     "name": "Physical and chemical changes",
+     "weight": "L",
+     "prereq": [
+      "cambridge-g9-chemistry-ch01-st2"
+     ],
+     "note": "Changes of state; signs of a chemical reaction (Lower Secondary Stage 7)"
+    },
+    {
+     "name": "Factors affecting rate of reaction: concentration, pressure, surface area, temperature and catalysts",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g9-chemistry-ch08-st1"
+     ],
+     "note": "Physical and chemical changes; variables in a fair test (Lower Secondary)"
+    },
+    {
+     "name": "Collision theory and activation energy: explaining changes in rate",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g9-chemistry-ch08-st2",
+      "cambridge-g9-chemistry-ch07-st2",
+      "cambridge-g9-chemistry-ch01-st1"
+     ],
+     "note": "Factors affecting rate; reaction pathway diagrams; kinetic particle model"
+    },
+    {
+     "name": "Practical methods for measuring rate and interpreting rate-of-reaction graphs",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g9-chemistry-ch08-st2"
+     ],
+     "note": "Factors affecting rate; gradients of graphs (maths)"
+    }
+   ]
+  },
+  {
+   "sheetName": "Reversible reactions",
+   "name": "Reversible Reactions and Equilibrium",
+   "subtopics": [
+    {
+     "name": "Reversible reactions: hydrated and anhydrous copper(II) sulfate and cobalt(II) chloride",
+     "weight": "L",
+     "prereq": [
+      "cambridge-g9-chemistry-ch08-st1"
+     ],
+     "note": "Physical and chemical changes; the ⇌ symbol in equations"
+    },
+    {
+     "name": "Dynamic equilibrium and predicting the effect of temperature, pressure and concentration",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g9-chemistry-ch09-st1",
+      "cambridge-g9-chemistry-ch08-st3"
+     ],
+     "note": "Reversible reactions; collision theory"
+    },
+    {
+     "name": "Industrial conditions: Haber process and Contact process",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g9-chemistry-ch09-st2"
+     ],
+     "note": "Dynamic equilibrium changes; rate versus yield compromise"
+    }
+   ]
+  },
+  {
+   "sheetName": "Redox",
+   "name": "Redox Reactions",
+   "subtopics": [
+    {
+     "name": "Oxidation and reduction as gain or loss of oxygen and loss or gain of electrons",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g9-chemistry-ch04-st3"
+     ],
+     "note": "Ionic equations; ion formation (IGCSE ch 3)"
+    },
+    {
+     "name": "Oxidation numbers and Roman numerals in names of compounds",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g9-chemistry-ch10-st1",
+      "cambridge-g9-chemistry-ch04-st1"
+     ],
+     "note": "Oxidation and reduction; writing chemical formulae"
+    },
+    {
+     "name": "Oxidising and reducing agents; tests with acidified potassium manganate(VII) and potassium iodide",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g9-chemistry-ch10-st2"
+     ],
+     "note": "Oxidation numbers; colour changes in redox reactions"
+    }
+   ]
+  },
+  {
+   "sheetName": "Acids & bases",
+   "name": "Acids and Bases",
+   "subtopics": [
+    {
+     "name": "Properties of acids and alkalis: indicators, pH scale and universal indicator",
+     "weight": "S",
+     "prereq": [],
+     "note": "Acids, alkalis and indicators (Lower Secondary Science Stage 7)"
+    },
+    {
+     "name": "Acids as proton donors and bases as proton acceptors; strong and weak acids",
+     "weight": "H",
+     "prereq": [
+      "cambridge-g9-chemistry-ch11-st1",
+      "cambridge-g9-chemistry-ch03-st1"
+     ],
+     "note": "pH scale; ions formed in solution"
+    },
+    {
+     "name": "Typical reactions of acids with metals, bases and carbonates; neutralisation",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g9-chemistry-ch11-st2",
+      "cambridge-g9-chemistry-ch04-st2"
+     ],
+     "note": "Acids as proton donors; balancing symbol equations"
+    },
+    {
+     "name": "Acidic, basic and amphoteric oxides",
+     "weight": "S",
+     "prereq": [
+      "cambridge-g9-chemistry-ch11-st3",
+      "cambridge-g9-chemistry-ch02-st4"
+     ],
+     "note": "Reactions of acids and bases; metallic vs non-metallic character"
+    }
+   ]
+  }
+ ]
 }
