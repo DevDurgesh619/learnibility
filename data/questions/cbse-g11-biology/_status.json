@@ -1,0 +1,71 @@
+{
+  "subjectId": "cbse-g11-biology",
+  "generatedBy": "scripts/questions/cbse/g11_biology.py",
+  "curriculumSource": "data/curriculum/cbse-g11-biology.json",
+  "generatedAt": "2026-11-18T09:54:43Z",
+  "chaptersDone": [
+    "cbse-g11-biology-ch01",
+    "cbse-g11-biology-ch02",
+    "cbse-g11-biology-ch03",
+    "cbse-g11-biology-ch04",
+    "cbse-g11-biology-ch05",
+    "cbse-g11-biology-ch06",
+    "cbse-g11-biology-ch07",
+    "cbse-g11-biology-ch08",
+    "cbse-g11-biology-ch09",
+    "cbse-g11-biology-ch10",
+    "cbse-g11-biology-ch11",
+    "cbse-g11-biology-ch12",
+    "cbse-g11-biology-ch13",
+    "cbse-g11-biology-ch14",
+    "cbse-g11-biology-ch15",
+    "cbse-g11-biology-ch16",
+    "cbse-g11-biology-ch17",
+    "cbse-g11-biology-ch18",
+    "cbse-g11-biology-ch19"
+  ],
+  "mocksDone": true,
+  "target": 1809,
+  "generated": 1809,
+  "validated": true,
+  "counts": {
+    "mastery_bank": 950,
+    "practice": 760,
+    "mock": 99,
+    "total": 1809
+  },
+  "mix": {
+    "C": {
+      "C1": 14.9,
+      "C2": 30,
+      "C3": 34.9,
+      "C4": 20.1
+    },
+    "D": {
+      "D1": 10,
+      "D2": 40.1,
+      "D3": 35.1,
+      "D4": 11.9,
+      "D5": 2.9
+    }
+  },
+  "validatedAt": "2026-11-18T09:54:43.383Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": [],
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "Three rounds of 5 random generated items per chapter (95 items per round, 285 in all, across mastery bank, practice forms and mocks) re-solved independently against NCERT Biology XI; every computed item (ploidy, chromosome number and DNA content through mitosis/meiosis, Chargaff percentages, nucleotide and H-bond counts, Calvin-cycle ATP/NADPH, Krebs-cycle yields, ATP balance, RQ from balanced equations, growth rates, lung volumes and capacities, minute volume, cardiac output, GFR and reabsorption) recomputed by hand; all fact-table groups checked for mutual exclusivity before the rounds",
+      "checked": 285,
+      "mismatches": 1,
+      "fixes": [
+        "blood groups: the draft 'which group must NOT be transfused' item could offer two incompatible groups (e.g. B and AB for a group-A patient); replaced by an antigen item, so every option set has exactly one correct answer",
+        "mixed-category groups removed so MCQ distractors are always of the same kind: neuron types vs ANS divisions, accessory excretory organs vs excreted substances, Whittaker's criteria vs kingdoms, light-reaction vs dark-phase products, ETS components vs Krebs steps, occupational vs other lung disorders, symmetry vs coelom groups in Animal Kingdom",
+        "wording: 'A a dog cell' (article doubled) in chromosome-number items; long answers repeated 'Is it X or Y – X or Y?'; feature-table 'Give differences' turned off for non-contrastive tables (properties of life, floral parts, ECG waves, kidney regulators); 'aestivation' in the frog chapter now says '(in frogs)' to avoid clashing with floral aestivation",
+        "3-mark mock section (7 × 3) uses only families written for 3 marks (hand-written q3 items and a generated 'three differences' item) via a custom 'k3' mock kind; the 2-mark section excludes 3-mark items"
+      ],
+      "note": "No wrong answer key was found in the three sampled rounds after the fixes above; bank regenerated and revalidated."
+    }
+  ]
+}

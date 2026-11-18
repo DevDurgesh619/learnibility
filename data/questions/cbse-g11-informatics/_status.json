@@ -1,0 +1,61 @@
+{
+  "subjectId": "cbse-g11-informatics",
+  "generatedBy": "scripts/questions/cbse/g11_informatics.py",
+  "curriculumSource": "data/curriculum/cbse-g11-informatics.json",
+  "generatedAt": "2026-11-18T10:42:49Z",
+  "chaptersDone": [
+    "cbse-g11-informatics-ch01",
+    "cbse-g11-informatics-ch02",
+    "cbse-g11-informatics-ch03",
+    "cbse-g11-informatics-ch04",
+    "cbse-g11-informatics-ch05",
+    "cbse-g11-informatics-ch06",
+    "cbse-g11-informatics-ch07",
+    "cbse-g11-informatics-ch08"
+  ],
+  "mocksDone": true,
+  "target": 831,
+  "generated": 831,
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "Random generated items re-solved by hand (Python, NumPy and SQL outputs traced and checked against the computed answer; statistics recomputed; facts against NCERT Informatics Practices class 11): 3 per chapter file incl. mocks (seed 17, 27 items; seed 404, 27 items) and 2 per chapter file (seed 2026, 18 items), plus one hand-checked variant of each new computed family (stat_written, sd_written, sd_mcq, median_even, np_std, np_genfromtxt, insert_write, dml_case, ip_loop_case, null_q); every code, NumPy and SQL output in the bank is produced at build time by running it (SQL on sqlite3 with class 11 queries only: no aggregates or division, so the result matches MySQL), every family is smoke-tested over 60 seeds, and the whole bank was scanned for out-of-syllabus code (dictionary pop(), string methods, break/continue, def, tuples)",
+      "checked": 82,
+      "mismatches": 2,
+      "fixes": [
+        "source-extract item asked to explain in part (ii) the term that answers part (i) ('domain'); such variants are now regenerated (guard in g11_computer_science_kit.no_open_pick, used by CS and IP)",
+        "a program-writing answer for a program with no input read 'Sample run: input  → output'; it now reads '# Output: ...'",
+        "whole-bank scan: 4 source-extract items had an open part (i) worded 'Which of the following ...' with no options shown; these variants are now regenerated",
+        "DML case increased marks by 100 (unrealistic); the increment now suits the column (Marks + 5, Salary + 1000, Price + 10)",
+        "SQL output MCQs had too few distinct distractors; added the query without its WHERE clause, the reversed ORDER BY and row-dropped results as distractors",
+        "NumPy MCQ distractors no longer use token-reversed text; they keep the printed array layout with changed numbers"
+      ]
+    }
+  ],
+  "validated": true,
+  "counts": {
+    "mastery_bank": 400,
+    "practice": 320,
+    "mock": 111,
+    "total": 831
+  },
+  "mix": {
+    "C": {
+      "C1": 16.3,
+      "C2": 30,
+      "C3": 34.8,
+      "C4": 19
+    },
+    "D": {
+      "D1": 8.8,
+      "D2": 40,
+      "D3": 34.8,
+      "D4": 12.8,
+      "D5": 3.8
+    }
+  },
+  "validatedAt": "2026-11-18T10:42:50.023Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": []
+}

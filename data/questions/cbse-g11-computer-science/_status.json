@@ -1,0 +1,73 @@
+{
+  "subjectId": "cbse-g11-computer-science",
+  "generatedBy": "scripts/questions/cbse/g11_computer_science.py",
+  "curriculumSource": "data/curriculum/cbse-g11-computer-science.json",
+  "generatedAt": "2026-11-18T10:42:48Z",
+  "chaptersDone": [
+    "cbse-g11-computer-science-ch01",
+    "cbse-g11-computer-science-ch02",
+    "cbse-g11-computer-science-ch03",
+    "cbse-g11-computer-science-ch04",
+    "cbse-g11-computer-science-ch05",
+    "cbse-g11-computer-science-ch06",
+    "cbse-g11-computer-science-ch07",
+    "cbse-g11-computer-science-ch08",
+    "cbse-g11-computer-science-ch09",
+    "cbse-g11-computer-science-ch10",
+    "cbse-g11-computer-science-ch11"
+  ],
+  "mocksDone": true,
+  "target": 1101,
+  "generated": 1101,
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "Random generated items re-solved by hand (code outputs traced line by line and checked against the computed answer; facts against NCERT Computer Science class 11): 3 per chapter file incl. mocks (seed 71, 36 items) and 2 per chapter file (seed 913, 24 items); every code output in the bank is produced by executing the code at build time, program-writing answers are run on their sample input and compared with the stated output, and every family is smoke-tested over 60 seeds; mock 1 checked for 37 questions and 70 marks",
+      "checked": 60,
+      "mismatches": 0,
+      "fixes": [
+        "issues found in review passes while building, before the final sample: pseudocode trace MCQ stem lacked the final question mark sentence; fixed",
+        "reasons and corrections beginning with a lowercase article or keyword ('a ...', 'break ...', 'randint ...', 'and has ...') were being prefixed 'In Python,' or capitalised oddly by the shared fact formatter; reworded or capitalised in the subject modules",
+        "a fact-table recall question whose four options collided case-insensitively was replaced",
+        "an A-R item on positional value that could be read two ways was reworded",
+        "program-writing answers compared after stripping trailing spaces per line so print(..., end=' ') samples match exactly"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "method": "Whole-bank pattern scan of all 1,101 generated items (during the Informatics Practices review) for source-extract items whose open part (i) asks to pick from unseen options or whose part (ii) repeats the part (i) answer, and for program answers with an empty sample input; the matching variants were regenerated and the scan re-run with no hits",
+      "checked": 1101,
+      "mismatches": 4,
+      "fixes": [
+        "2 source-extract items with an open part (i) 'Which of the following ...' (no options shown) are now regenerated via g11_computer_science_kit.no_open_pick",
+        "2 program-writing answers for a program without input read 'Sample run: input  → output'; they now read '# Output: ...'"
+      ]
+    }
+  ],
+  "validated": true,
+  "counts": {
+    "mastery_bank": 550,
+    "practice": 440,
+    "mock": 111,
+    "total": 1101
+  },
+  "mix": {
+    "C": {
+      "C1": 16.4,
+      "C2": 29.5,
+      "C3": 34.5,
+      "C4": 19.6
+    },
+    "D": {
+      "D1": 8.5,
+      "D2": 40.4,
+      "D3": 35.3,
+      "D4": 12.4,
+      "D5": 3.5
+    }
+  },
+  "validatedAt": "2026-11-18T10:42:49.826Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": []
+}

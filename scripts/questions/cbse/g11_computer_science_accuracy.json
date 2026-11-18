@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2026-11-18",
+    "method": "Random generated items re-solved by hand (code outputs traced line by line and checked against the computed answer; facts against NCERT Computer Science class 11): 3 per chapter file incl. mocks (seed 71, 36 items) and 2 per chapter file (seed 913, 24 items); every code output in the bank is produced by executing the code at build time, program-writing answers are run on their sample input and compared with the stated output, and every family is smoke-tested over 60 seeds; mock 1 checked for 37 questions and 70 marks",
+    "checked": 60,
+    "mismatches": 0,
+    "fixes": [
+      "issues found in review passes while building, before the final sample: pseudocode trace MCQ stem lacked the final question mark sentence; fixed",
+      "reasons and corrections beginning with a lowercase article or keyword ('a ...', 'break ...', 'randint ...', 'and has ...') were being prefixed 'In Python,' or capitalised oddly by the shared fact formatter; reworded or capitalised in the subject modules",
+      "a fact-table recall question whose four options collided case-insensitively was replaced",
+      "an A-R item on positional value that could be read two ways was reworded",
+      "program-writing answers compared after stripping trailing spaces per line so print(..., end=' ') samples match exactly"
+    ]
+  },
+  {
+    "date": "2026-11-18",
+    "method": "Whole-bank pattern scan of all 1,101 generated items (during the Informatics Practices review) for source-extract items whose open part (i) asks to pick from unseen options or whose part (ii) repeats the part (i) answer, and for program answers with an empty sample input; the matching variants were regenerated and the scan re-run with no hits",
+    "checked": 1101,
+    "mismatches": 4,
+    "fixes": [
+      "2 source-extract items with an open part (i) 'Which of the following ...' (no options shown) are now regenerated via g11_computer_science_kit.no_open_pick",
+      "2 program-writing answers for a program without input read 'Sample run: input  → output'; they now read '# Output: ...'"
+    ]
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "subjectId": "cbse-g11-psychology",
+  "generatedBy": "scripts/questions/cbse/g11_psychology.py",
+  "curriculumSource": "data/curriculum/cbse-g11-psychology.json",
+  "generatedAt": "2026-11-18T10:09:42Z",
+  "chaptersDone": [
+    "cbse-g11-psychology-ch01",
+    "cbse-g11-psychology-ch02",
+    "cbse-g11-psychology-ch03",
+    "cbse-g11-psychology-ch04",
+    "cbse-g11-psychology-ch05",
+    "cbse-g11-psychology-ch06",
+    "cbse-g11-psychology-ch07",
+    "cbse-g11-psychology-ch08"
+  ],
+  "mocksDone": true,
+  "target": 739,
+  "generated": 739,
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "Random generated items re-solved by hand against NCERT Introduction to Psychology (class 11): 4 per chapter file incl. mocks (seed 7, 38 items), 3 per chapter file (seed 11, 27 items), every A-R item keyed 'R is not the explanation' (4) and 3 source-extract items; mock 1 checked for section structure and 70 marks; every fact line, vignette and distinguish pair re-read against the chapters while writing",
+      "checked": 72,
+      "mismatches": 1,
+      "fixes": [
+        "source-extract items: an open part (i) drawn from a recall line worded 'Which of these ...' had no options to choose from; such variants are now rejected and regenerated",
+        "dropped a 'span of attention = 7 plus or minus 2' recall item (figure not certain in the NCERT framing)",
+        "animism item reworded to an unambiguous example (the sun 'goes to sleep')",
+        "removed a duplicate key term 'concept' from the memory chapter (kept in Thinking) so subject-wide term stems stay distinct",
+        "G. Bose vignette says he worked in psychoanalysis (not 'trained in')",
+        "case-based section uses original one-paragraph vignettes (case1 identify, 1 mark; case2 identify and explain, 2 marks) from one deck per subtopic"
+      ]
+    }
+  ],
+  "validated": true,
+  "counts": {
+    "mastery_bank": 320,
+    "practice": 320,
+    "mock": 99,
+    "total": 739
+  },
+  "mix": {
+    "C": {
+      "C1": 17.8,
+      "C2": 29.1,
+      "C3": 34.1,
+      "C4": 19.1
+    },
+    "D": {
+      "D1": 6.9,
+      "D2": 40.9,
+      "D3": 35.9,
+      "D4": 12.8,
+      "D5": 3.4
+    }
+  },
+  "validatedAt": "2026-11-18T10:09:42.673Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": []
+}
