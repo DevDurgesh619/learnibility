@@ -99,3 +99,4 @@ Untyped fields above are `string`. Timestamps are ISO UTC strings. Money is inte
 - Every data file is a `DataFile<T>` (`/lib/types/data-file.ts`).
 - Catalogue types (`/lib/types/catalogue.ts`) are owned by W4 and consumed by W3; they are re-exported from `/lib/types/index.ts`.
 - Import shared types from `@/lib/types` and ID helpers from `@/lib/ids`.
+- Entrance exams (approved addition, 2026-11-18) live in `/data/catalogues/exams.json` with plain slug IDs such as `jee-main`, `neet-ug`, `clat`, `cuet-ug`, `sat`. The fixed list is in W4's `/mnt/project-files/build/w4-catalogue-ids.md`.
