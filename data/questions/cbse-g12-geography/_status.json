@@ -1,0 +1,72 @@
+{
+  "subjectId": "cbse-g12-geography",
+  "generatedBy": "scripts/questions/cbse/g12_geography.py",
+  "curriculumSource": "data/curriculum/cbse-g12-geography.json",
+  "generatedAt": "2026-11-18T08:38:50Z",
+  "chaptersDone": [
+    "cbse-g12-geography-ch01",
+    "cbse-g12-geography-ch02",
+    "cbse-g12-geography-ch03",
+    "cbse-g12-geography-ch04",
+    "cbse-g12-geography-ch05",
+    "cbse-g12-geography-ch06",
+    "cbse-g12-geography-ch07",
+    "cbse-g12-geography-ch08",
+    "cbse-g12-geography-ch09",
+    "cbse-g12-geography-ch10",
+    "cbse-g12-geography-ch11",
+    "cbse-g12-geography-ch12",
+    "cbse-g12-geography-ch13",
+    "cbse-g12-geography-ch14",
+    "cbse-g12-geography-ch15",
+    "cbse-g12-geography-ch16",
+    "cbse-g12-geography-ch17",
+    "cbse-g12-geography-ch18",
+    "cbse-g12-geography-ch19",
+    "cbse-g12-geography-ch20",
+    "cbse-g12-geography-ch21"
+  ],
+  "mocksDone": true,
+  "target": 1860,
+  "generated": 1860,
+  "validated": true,
+  "counts": {
+    "mastery_bank": 840,
+    "practice": 840,
+    "mock": 180,
+    "total": 1860
+  },
+  "mix": {
+    "C": {
+      "C1": 16.7,
+      "C2": 29.5,
+      "C3": 34.4,
+      "C4": 19.4
+    },
+    "D": {
+      "D1": 8.3,
+      "D2": 40.4,
+      "D3": 35.5,
+      "D4": 12.4,
+      "D5": 3.5
+    }
+  },
+  "validatedAt": "2026-11-18T08:39:20.289Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": [],
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "5 random generated items per chapter (105 items) plus one full mock (30 items) re-solved by hand against NCERT Fundamentals of Human Geography, India: People and Economy and Practical Work in Geography Part II; numeric items (frequency, standard deviation, rank correlation, choropleth classes, growth rate) recomputed",
+      "checked": 135,
+      "mismatches": 0,
+      "fixes": [
+        "match categories whose right-hand items repeated (push/pull, factor types) removed so no Match-List has two equal answers",
+        "correlation match set no longer mixes a diagram name with coefficient values",
+        "two Give-a-reason answers reworded to stand as full sentences (sex ratio, urban noise)",
+        "NCERT sub-field list used for social geography; Kolkhoz item no longer names a leader not given in NCERT"
+      ]
+    }
+  ]
+}

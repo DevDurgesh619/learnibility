@@ -1,0 +1,66 @@
+{
+  "subjectId": "cbse-g12-history",
+  "generatedBy": "scripts/questions/cbse/g12_history.py",
+  "curriculumSource": "data/curriculum/cbse-g12-history.json",
+  "generatedAt": "2026-11-18T08:38:58Z",
+  "chaptersDone": [
+    "cbse-g12-history-ch01",
+    "cbse-g12-history-ch02",
+    "cbse-g12-history-ch03",
+    "cbse-g12-history-ch04",
+    "cbse-g12-history-ch05",
+    "cbse-g12-history-ch06",
+    "cbse-g12-history-ch07",
+    "cbse-g12-history-ch08",
+    "cbse-g12-history-ch09",
+    "cbse-g12-history-ch10",
+    "cbse-g12-history-ch11",
+    "cbse-g12-history-ch12"
+  ],
+  "mocksDone": true,
+  "target": 1104,
+  "generated": 1104,
+  "validated": true,
+  "counts": {
+    "mastery_bank": 420,
+    "practice": 480,
+    "mock": 204,
+    "total": 1104
+  },
+  "mix": {
+    "C": {
+      "C1": 18.3,
+      "C2": 27.9,
+      "C3": 34.3,
+      "C4": 19.5
+    },
+    "D": {
+      "D1": 6.2,
+      "D2": 41.2,
+      "D3": 37.6,
+      "D4": 12.1,
+      "D5": 2.9
+    }
+  },
+  "validatedAt": "2026-11-18T08:39:19.941Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": [],
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "5 random generated items per chapter (60 items) plus one full mock re-solved by hand against NCERT Themes in Indian History I-III; every fact line in the tables re-checked against the NCERT chapters",
+      "checked": 94,
+      "mismatches": 0,
+      "fixes": [
+        "removed unverified claims (drain inspection holes, iron ploughshare in Punjab/Rajasthan, Mahanavami deity, Multan clue)",
+        "corrected Asokan script/language statement and the Piyadassi identification wording",
+        "Ibn Battuta postal-system reason restated (Sind news in five days vs fifty-day journey)",
+        "Match-List header no longer prints '(List I)'; A-R statements capitalised",
+        "source items no longer ask to identify a term that is absent from the extract",
+        "map items use an outline map of the Indian subcontinent (sites in Pakistan and Afghanistan)",
+        "mock 3-mark section only draws 3-4 mark answers; 2-mark reason items excluded"
+      ]
+    }
+  ]
+}
