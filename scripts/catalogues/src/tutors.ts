@@ -139,11 +139,11 @@ export const TUTORS: Tutor[] = [
   // ============================================================ Maths and Physics
   t({
     first: 'Rahul', last: 'Verma', gender: 'male', city: 'Delhi',
-    headline: 'Maths and Physics · Class 9-12 · JEE · concept-first',
+    headline: 'Maths Class 8-12 and Physics · JEE · concept-first',
     bio: 'I have taught mathematics and physics for 6 years, mostly Class 9-12 students preparing for JEE. I start every topic from first principles, then move to exam problems once the idea clicks.',
     quals: ['B.Tech, Delhi Technological University', 'M.Sc Mathematics (IGNOU)'], years: 6,
     subjects: [
-      sub('maths', ['cbse', 'cambridge'], G9_12, ['algebra', 'calculus', 'quadratic-equations', 'trigonometry', 'coordinate-geometry', 'probability']),
+      sub('maths', ['cbse', 'cambridge'], ALL_G, ['algebra', 'calculus', 'quadratic-equations', 'trigonometry', 'coordinate-geometry', 'probability', 'fractions', 'integers', 'number']),
       sub('physics', ['cbse'], G9_12, ['laws-of-motion', 'rotational-motion', 'work-energy-power', 'gravitation', 'force-diagrams', 'kinematics']),
     ],
     exams: ['jee-main', 'jee-advanced'], audiences: ['school', 'competitive_exam'], help: ['concept_learning', 'exam_prep', 'homework'],
