@@ -220,7 +220,7 @@ def fact_templates(f: F, style: dict | None = None, pool_terms: list | None = No
             claim, fix = _pick(rng, f.misc, slot)
             who = name(rng)
             frame = rng.choice([f'{who} writes: "{claim}" Explain why this is inaccurate.',
-                                f'A student claims that {_lc(claim)} Identify the error in this claim and correct it.',
+                                f'A student claims: "{claim}" Identify the error in this claim and correct it.',
                                 f'"{claim}" Explain the flaw in this statement.'])
             return dict(stem=frame, answer=fix, type='explain', marks=3 if slot.d >= 3 else 2,
                         markingKey=f'{fix} 1 mark for identifying the error, 1-2 marks for the correct explanation.', gap='G2')
@@ -266,15 +266,15 @@ def fact_templates(f: F, style: dict | None = None, pool_terms: list | None = No
                 m = st_marks_essay
                 ty = 'long'
             elif slot.d == 4:
-                stem = rng.choice([f'Evaluate the claim that {_lc(claim)}',
+                stem = rng.choice([f'Evaluate the claim: "{claim}"',
                                    f'"{claim}" Discuss.',
-                                   f'To what extent is it true that {_lc(claim).rstrip(".")}?'])
+                                   f'"{claim}" To what extent is this view justified?'])
                 m = st_marks_eval
                 ty = 'long'
             else:
-                stem = rng.choice([f'Give one argument for and one argument against the view that {_lc(claim)}',
+                stem = rng.choice([f'Give one argument for and one argument against this view: "{claim}"',
                                    f'Outline two points that could be used to evaluate the claim: "{claim}"',
-                                   f'Analyse one strength and one limitation of the view that {_lc(claim)}'])
+                                   f'Analyse one strength and one limitation of this view: "{claim}"'])
                 m = 4
                 ty = 'case'
             key = ('Arguments for: ' + '; '.join(pro) + '. Arguments against: ' + '; '.join(con) +
