@@ -1,0 +1,69 @@
+{
+  "subjectId": "cbse-g11-economics",
+  "generatedBy": "scripts/questions/cbse/g11_economics.py",
+  "curriculumSource": "data/curriculum/cbse-g11-economics.json",
+  "generatedAt": "2026-11-18T08:42:41Z",
+  "chaptersDone": [
+    "cbse-g11-economics-ch01",
+    "cbse-g11-economics-ch02",
+    "cbse-g11-economics-ch03",
+    "cbse-g11-economics-ch04",
+    "cbse-g11-economics-ch05",
+    "cbse-g11-economics-ch06",
+    "cbse-g11-economics-ch07",
+    "cbse-g11-economics-ch08",
+    "cbse-g11-economics-ch09",
+    "cbse-g11-economics-ch10",
+    "cbse-g11-economics-ch11",
+    "cbse-g11-economics-ch12",
+    "cbse-g11-economics-ch13"
+  ],
+  "mocksDone": true,
+  "target": 1207,
+  "generated": 1207,
+  "validated": true,
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "Two rounds of 5 random items per chapter (13 chapters; round 2 limited to numerical/case/long items) plus 5 mock items, re-solved by hand (means, medians, modes, r, rs, index numbers, PPF/MOC, utility, budget line, elasticity, costs, profit, equilibrium, ceilings/floors); every generator also run once and its output re-solved before the build",
+      "checked": 135,
+      "mismatches": 0,
+      "fixes": [
+        "missing-frequency generator could produce unsorted/duplicate X values (common step now fixed per item)",
+        "market demand/supply schedules had unsorted prices; now ascending",
+        "profit-maximisation MCQ had a distractor (q-1 units) with equal profit; removed and the key notes the tie",
+        "household budget case could offer two items that were jointly affordable; items now always exceed the remaining income together",
+        "non-sampling-error family could never build (only one sampling-error row); replaced by a NOT-type item; classification table extended so odd-one-out works",
+        "break-even tables now have an interior minimum AC; Pearson data no longer produce negative Y values",
+        "mock 6-mark slots now draw only true 6-mark families (custom kind long6) instead of any C4 written item; added computed 6-mark items (PPF, elasticity, cost table, profit maximisation, equilibrium with price ceiling, mean-median-mode)",
+        "wording: \"1p\"/\"1x\" coefficients tidied, gender-neutral project stems, \"headings ... are called\", table-presentation key made mark-neutral, students/workers named in mean and median stems"
+      ],
+      "note": "Facts follow NCERT Statistics for Economics and Introductory Microeconomics; no textbook passage is reproduced. All numerical answers are computed in code."
+    }
+  ],
+  "counts": {
+    "mastery_bank": 585,
+    "practice": 520,
+    "mock": 102,
+    "total": 1207
+  },
+  "mix": {
+    "C": {
+      "C1": 15,
+      "C2": 29.9,
+      "C3": 35,
+      "C4": 20
+    },
+    "D": {
+      "D1": 10.1,
+      "D2": 40.2,
+      "D3": 35,
+      "D4": 12.1,
+      "D5": 2.6
+    }
+  },
+  "validatedAt": "2026-11-18T08:43:42.562Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": []
+}

@@ -1,0 +1,64 @@
+{
+  "subjectId": "cbse-g8-hindi",
+  "generatedBy": "scripts/questions/cbse/g8_hindi.py",
+  "curriculumSource": "data/curriculum/cbse-g8-hindi.json",
+  "generatedAt": "2026-11-18T08:07:28Z",
+  "chaptersDone": [
+    "cbse-g8-hindi-ch01",
+    "cbse-g8-hindi-ch02",
+    "cbse-g8-hindi-ch03",
+    "cbse-g8-hindi-ch04",
+    "cbse-g8-hindi-ch05",
+    "cbse-g8-hindi-ch06",
+    "cbse-g8-hindi-ch07",
+    "cbse-g8-hindi-ch08",
+    "cbse-g8-hindi-ch09",
+    "cbse-g8-hindi-ch10"
+  ],
+  "mocksDone": true,
+  "target": 645,
+  "generated": 645,
+  "validated": true,
+  "counts": {
+    "mastery_bank": 300,
+    "practice": 300,
+    "mock": 45,
+    "total": 645
+  },
+  "mix": {
+    "C": {
+      "C1": 15.7,
+      "C2": 28.7,
+      "C3": 35,
+      "C4": 20.7
+    },
+    "D": {
+      "D1": 8.7,
+      "D2": 41,
+      "D3": 36.7,
+      "D4": 12,
+      "D5": 1.7
+    }
+  },
+  "validatedAt": "2026-11-18T08:43:42.410Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": [],
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "Three rounds of 5 random generated items per chapter (10 chapters) plus 5 mock items, re-answered independently against the fact/grammar tables, the original passages and well-known facts about each lesson; tables checked for ambiguous options",
+      "checked": 105,
+      "mismatches": 0,
+      "fixes": [
+        "4-part grammar sets could ask a word and its own answer in two parts (संधि/समास) - parts now exclude each other",
+        "tatsam 'कर्म' now accepts both tadbhav forms 'काम / करम'",
+        "gender agreement in dialogue stems ('कर रही हैं' for two girls) and in situation options (करता/करती)",
+        "ambiguous alankar examples removed (lines with both anupras and punarukti or an upama); verb-type MCQ distractors changed to avoid causative verbs",
+        "antonym pairs with two valid answers removed (स्वदेश, मान, उत्थान); Kabir doha themes split so no distractor is also correct",
+        "writing topics, claims and grammar targets now cycle so practice forms do not repeat a topic; paragraph hints kept in order"
+      ],
+      "note": "All passages, poems and writing prompts are original; Kabir's dohe are public domain. Text questions use only safe facts (author, genre, theme, well-known plot points); 'मत बाँधो' questions avoid the poet's name and any line of the poem."
+    }
+  ]
+}
