@@ -97,5 +97,5 @@ Untyped fields above are `string`. Timestamps are ISO UTC strings. Money is inte
 - University country codes are two lowercase letters. Use `in`, `us`, `uk`, `ca`, `au` (note `uk`, not `gb`).
 - Profile parameters live in `/data/profile/parameters.json` (430 items, type `ProfileParameter` in `/lib/types/profile.ts`). `methods` is the ordered list of M-codes parsed from the source column; `methodsText` keeps the original wording. `tier` is `T1`, `T2`, `T3` or `C`. Collection methods M1 to M20 and tier definitions are in `collection-methods.json` and `sensitivity-tiers.json`.
 - Every data file is a `DataFile<T>` (`/lib/types/data-file.ts`).
-- Catalogue types (`/lib/types/catalogue.ts`) are proposed by W4 and consumed by W3; add the re-export to `/lib/types/index.ts` when it lands.
+- Catalogue types (`/lib/types/catalogue.ts`) are owned by W4 and consumed by W3; they are re-exported from `/lib/types/index.ts`.
 - Import shared types from `@/lib/types` and ID helpers from `@/lib/ids`.
