@@ -1,0 +1,4971 @@
+{
+  "schemaVersion": 1,
+  "generatedBy": "scripts/onboarding/build-forms.py",
+  "form": {
+    "formId": "onb-cbse-g11-science",
+    "designId": "g11-science",
+    "board": "cbse",
+    "grade": 11,
+    "stream": "science",
+    "title": "CBSE Class 11 Science onboarding test",
+    "minutes": {
+      "A": 32,
+      "B": 12,
+      "C": 8,
+      "P": 5
+    },
+    "partA": {
+      "pool": 84,
+      "delivered": 32
+    },
+    "scoring": {
+      "ladder": {
+        "start": "D2",
+        "floor": "D1",
+        "ceiling": "D3",
+        "hitsToStepUp": 2,
+        "weights": {
+          "D1": 1,
+          "D2": 2,
+          "D3": 3
+        }
+      },
+      "bandCutoffs": [
+        {
+          "band": "excellent",
+          "minPercent": 80
+        },
+        {
+          "band": "above_avg",
+          "minPercent": 65
+        },
+        {
+          "band": "average",
+          "minPercent": 45
+        },
+        {
+          "band": "below_avg",
+          "minPercent": 0
+        }
+      ],
+      "groups": [
+        {
+          "group": "physics",
+          "label": "Physics",
+          "subjectIds": [
+            "cbse-g10-science",
+            "cbse-g11-physics"
+          ]
+        },
+        {
+          "group": "chemistry",
+          "label": "Chemistry",
+          "subjectIds": [
+            "cbse-g10-science",
+            "cbse-g11-chemistry"
+          ]
+        },
+        {
+          "group": "maths",
+          "label": "Mathematics",
+          "subjectIds": [
+            "cbse-g10-maths",
+            "cbse-g11-maths"
+          ]
+        },
+        {
+          "group": "biology",
+          "label": "Biology",
+          "subjectIds": [
+            "cbse-g10-science",
+            "cbse-g11-biology"
+          ]
+        }
+      ],
+      "writes": [
+        {
+          "paramId": "p1",
+          "rule": "Grade of the form taken",
+          "source": "M1",
+          "confidence": "high"
+        },
+        {
+          "paramId": "p3",
+          "rule": "Board of the form taken",
+          "source": "M1",
+          "confidence": "high"
+        },
+        {
+          "paramId": "p5",
+          "rule": "Stream of the form taken (grades 11-12)",
+          "source": "M1",
+          "confidence": "high"
+        },
+        {
+          "paramId": "p278",
+          "rule": "Per subtopic seen: pMastery 0.7 if right at D2/D3, 0.55 if right at D1, 0.25 if wrong; level L0-L3 from the ladder step reached",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p279",
+          "rule": "Prerequisite-gap index = 100 x weighted misses / weighted items seen in slots 1-4, averaged over groups",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p13",
+          "rule": "Groups with the highest Part A percent (top 1-2, only if >= 65%)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p14",
+          "rule": "Groups with the lowest Part A percent (bottom 1-2, only if < 65%)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p140",
+          "rule": "Mean confidence (1-5) per group",
+          "source": "M1",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p141",
+          "rule": "Calibration = 1 - mean |confidence/5 - correct| over Part A (feeds the first MCI reading)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p284",
+          "rule": "Highest difficulty answered correctly twice in a row: D1 low, D2 medium, D3 high",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p61",
+          "rule": "Verbal reasoning = percent of Part B verbal items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p62",
+          "rule": "Numerical reasoning = percent of Part B numerical items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p63",
+          "rule": "Abstract reasoning = percent of Part B abstract items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p64",
+          "rule": "Spatial reasoning = percent of Part B spatial items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p65",
+          "rule": "Logical deduction = percent right on Part B items tagged p65",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p68",
+          "rule": "Numeracy fluency = numerical percent scaled by speed (right answers under target time count 1.2x, max 100)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p69",
+          "rule": "Processing speed = 100 x share of Part B items answered right within target seconds",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p200",
+          "rule": "RIASEC profile: each career-interest item scored 1-5; letter score = mean of its 2 items; top 3 letters form the code (e.g. IRC)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p31",
+          "rule": "Answer to onb-cbse-g11-science-q101 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p33",
+          "rule": "Answer to onb-cbse-g11-science-q102 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p34",
+          "rule": "Answer to onb-cbse-g11-science-q103 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p39",
+          "rule": "Answer to onb-cbse-g11-science-q104 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p40",
+          "rule": "Answer to onb-cbse-g11-science-q105 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p46",
+          "rule": "Answer to onb-cbse-g11-science-q106 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p105",
+          "rule": "Answer to onb-cbse-g11-science-q107 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p48",
+          "rule": "Answer to onb-cbse-g11-science-q108 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p50",
+          "rule": "Answer to onb-cbse-g11-science-q109 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p49",
+          "rule": "Answer to onb-cbse-g11-science-q110 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p21",
+          "rule": "Answer to onb-cbse-g11-science-q111 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p123",
+          "rule": "Answer to onb-cbse-g11-science-q112 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p125",
+          "rule": "Answer to onb-cbse-g11-science-q113 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p331",
+          "rule": "Answer to onb-cbse-g11-science-q114 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p111",
+          "rule": "Answer to onb-cbse-g11-science-q115 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p83",
+          "rule": "Answer to onb-cbse-g11-science-q116 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p230",
+          "rule": "Answer to onb-cbse-g11-science-q129 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p198",
+          "rule": "Answer to onb-cbse-g11-science-q130 (multi)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p154",
+          "rule": "Answer to onb-cbse-g11-science-q131 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p155",
+          "rule": "Answer to onb-cbse-g11-science-q132 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p156",
+          "rule": "Answer to onb-cbse-g11-science-q133 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p157",
+          "rule": "Answer to onb-cbse-g11-science-q134 (multi)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p159",
+          "rule": "Answer to onb-cbse-g11-science-q135 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p176",
+          "rule": "Answer to onb-cbse-g11-science-q137 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p178",
+          "rule": "Answer to onb-cbse-g11-science-q138 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p180",
+          "rule": "Answer to onb-cbse-g11-science-q139 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p181",
+          "rule": "Answer to onb-cbse-g11-science-q140 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p182",
+          "rule": "Answer to onb-cbse-g11-science-q141 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p202",
+          "rule": "Answer to onb-cbse-g11-science-q142 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p234",
+          "rule": "Answer to onb-cbse-g11-science-q143 (scale)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p193",
+          "rule": "Answer to onb-cbse-g11-science-q144 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p30",
+          "rule": "Answer to onb-cbse-g11-science-q145 (consent)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p277",
+          "rule": "Answer to onb-cbse-g11-science-q146 (consent)",
+          "source": "M2",
+          "confidence": "medium"
+        }
+      ],
+      "reasoning": [
+        {
+          "domain": "numerical",
+          "paramId": "p62",
+          "itemIds": [
+            "onb-cbse-g11-science-q85",
+            "onb-cbse-g11-science-q86",
+            "onb-cbse-g11-science-q87",
+            "onb-cbse-g11-science-q88"
+          ]
+        },
+        {
+          "domain": "verbal",
+          "paramId": "p61",
+          "itemIds": [
+            "onb-cbse-g11-science-q89",
+            "onb-cbse-g11-science-q90",
+            "onb-cbse-g11-science-q91",
+            "onb-cbse-g11-science-q92"
+          ]
+        },
+        {
+          "domain": "abstract",
+          "paramId": "p63",
+          "itemIds": [
+            "onb-cbse-g11-science-q93",
+            "onb-cbse-g11-science-q94",
+            "onb-cbse-g11-science-q95",
+            "onb-cbse-g11-science-q96"
+          ]
+        },
+        {
+          "domain": "spatial",
+          "paramId": "p64",
+          "itemIds": [
+            "onb-cbse-g11-science-q97",
+            "onb-cbse-g11-science-q98",
+            "onb-cbse-g11-science-q99",
+            "onb-cbse-g11-science-q100"
+          ]
+        }
+      ],
+      "riasec": {
+        "R": [
+          "onb-cbse-g11-science-q117",
+          "onb-cbse-g11-science-q118"
+        ],
+        "I": [
+          "onb-cbse-g11-science-q119",
+          "onb-cbse-g11-science-q120"
+        ],
+        "A": [
+          "onb-cbse-g11-science-q121",
+          "onb-cbse-g11-science-q122"
+        ],
+        "S": [
+          "onb-cbse-g11-science-q123",
+          "onb-cbse-g11-science-q124"
+        ],
+        "E": [
+          "onb-cbse-g11-science-q125",
+          "onb-cbse-g11-science-q126"
+        ],
+        "C": [
+          "onb-cbse-g11-science-q127",
+          "onb-cbse-g11-science-q128"
+        ]
+      }
+    }
+  },
+  "items": [
+    {
+      "id": "onb-cbse-g11-science-q01",
+      "subtopicId": "cbse-g10-science-ch11-st4",
+      "chapterId": "cbse-g10-science-ch11",
+      "subjectId": "cbse-g10-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A 2 kW heater runs for 3 hours. How much energy does it use?",
+      "answer": "6 kWh",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 1,
+      "half": "prerequisite",
+      "subtopicHint": "Electrical power and energy",
+      "subtopicLinked": true,
+      "contentKey": "9a3c43005a33",
+      "options": [
+        "0.67 kWh",
+        "6 kWh",
+        "6000 kWh",
+        "5 kWh"
+      ],
+      "markingKey": "B. 6 kWh. E = P x t = 2 kW x 3 h"
+    },
+    {
+      "id": "onb-cbse-g11-science-q02",
+      "subtopicId": "cbse-g10-science-ch11-st2",
+      "chapterId": "cbse-g10-science-ch11",
+      "subjectId": "cbse-g10-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A 6 V battery drives a current of 2 A through a resistor. What is its resistance?",
+      "answer": "3 Ω",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Ohm's law and resistance",
+      "subtopicLinked": true,
+      "contentKey": "5f3d35b4e220",
+      "options": [
+        "8 Ω",
+        "12 Ω",
+        "0.33 Ω",
+        "3 Ω"
+      ],
+      "markingKey": "D. 3 Ω. R = V ÷ I"
+    },
+    {
+      "id": "onb-cbse-g11-science-q03",
+      "subtopicId": "cbse-g10-science-ch11-st2",
+      "chapterId": "cbse-g10-science-ch11",
+      "subjectId": "cbse-g10-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Two 4 Ω resistors are connected in parallel. What is the combined resistance?",
+      "answer": "2 Ω",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Ohm's law and resistance",
+      "subtopicLinked": true,
+      "contentKey": "5dc1d4be86ae",
+      "options": [
+        "2 Ω",
+        "8 Ω",
+        "16 Ω",
+        "4 Ω"
+      ],
+      "markingKey": "A. 2 Ω. 1/R = 1/4 + 1/4"
+    },
+    {
+      "id": "onb-cbse-g11-science-q04",
+      "subtopicId": "cbse-g10-science-ch12-st1",
+      "chapterId": "cbse-g10-science-ch12",
+      "subjectId": "cbse-g10-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A transformer that increases voltage is called a",
+      "answer": "step-up transformer",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Magnetic effects and transformers",
+      "subtopicLinked": true,
+      "contentKey": "86018a5732de",
+      "options": [
+        "rectifier",
+        "step-down transformer",
+        "fuse",
+        "step-up transformer"
+      ],
+      "markingKey": "D. step-up transformer. More turns on the secondary coil"
+    },
+    {
+      "id": "onb-cbse-g11-science-q05",
+      "subtopicId": "cbse-g10-science-ch12-st1",
+      "chapterId": "cbse-g10-science-ch12",
+      "subjectId": "cbse-g10-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A transformer has 100 primary turns and 500 secondary turns. The input is 12 V. What is the output?",
+      "answer": "60 V",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Magnetic effects and transformers",
+      "subtopicLinked": true,
+      "contentKey": "3c2a2366c10e",
+      "options": [
+        "60 V",
+        "600 V",
+        "2.4 V",
+        "12 V"
+      ],
+      "markingKey": "A. 60 V. Vs/Vp = Ns/Np = 5"
+    },
+    {
+      "id": "onb-cbse-g11-science-q06",
+      "subtopicId": "cbse-g10-science-ch12-st1",
+      "chapterId": "cbse-g10-science-ch12",
+      "subjectId": "cbse-g10-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why is electricity transmitted at very high voltage over long distances?",
+      "answer": "A smaller current flows, so less energy is lost as heat",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Magnetic effects and transformers",
+      "subtopicLinked": true,
+      "contentKey": "db1feb525089",
+      "options": [
+        "Cables need less insulation",
+        "A smaller current flows, so less energy is lost as heat",
+        "It increases the current",
+        "High voltage travels faster"
+      ],
+      "markingKey": "B. A smaller current flows, so less energy is lost as heat. Power loss = I²R"
+    },
+    {
+      "id": "onb-cbse-g11-science-q07",
+      "subtopicId": "cbse-g10-science-ch09-st3",
+      "chapterId": "cbse-g10-science-ch09",
+      "subjectId": "cbse-g10-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "When light passes from air into glass, it",
+      "answer": "slows down and bends towards the normal",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Refraction of light and waves",
+      "subtopicLinked": true,
+      "contentKey": "0b8c805bc424",
+      "options": [
+        "stops completely",
+        "speeds up and bends away from the normal",
+        "does not change direction at any angle",
+        "slows down and bends towards the normal"
+      ],
+      "markingKey": "D. slows down and bends towards the normal. Glass is optically denser"
+    },
+    {
+      "id": "onb-cbse-g11-science-q08",
+      "subtopicId": "cbse-g10-science-ch09-st3",
+      "chapterId": "cbse-g10-science-ch09",
+      "subjectId": "cbse-g10-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Why does a straw look bent in a glass of water?",
+      "answer": "Light from the straw refracts as it leaves the water",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Refraction of light and waves",
+      "subtopicLinked": true,
+      "contentKey": "60e2b797b8e9",
+      "options": [
+        "The straw absorbs light",
+        "Light reflects off the glass",
+        "Light from the straw refracts as it leaves the water",
+        "The water bends the straw"
+      ],
+      "markingKey": "C. Light from the straw refracts as it leaves the water. Refraction at the surface"
+    },
+    {
+      "id": "onb-cbse-g11-science-q09",
+      "subtopicId": "cbse-g10-science-ch09-st3",
+      "chapterId": "cbse-g10-science-ch09",
+      "subjectId": "cbse-g10-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Light travels at 3 x 10⁸ m/s in air and 2 x 10⁸ m/s in glass. What is the refractive index of the glass?",
+      "answer": "1.5",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Refraction of light and waves",
+      "subtopicLinked": true,
+      "contentKey": "476b98bce9ba",
+      "options": [
+        "1.5",
+        "0.67",
+        "1.0",
+        "6"
+      ],
+      "markingKey": "A. 1.5. n = speed in air ÷ speed in glass"
+    },
+    {
+      "id": "onb-cbse-g11-science-q10",
+      "subtopicId": "cbse-g11-physics-ch01-st2",
+      "chapterId": "cbse-g11-physics-ch01",
+      "subjectId": "cbse-g11-physics",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Which of these is an SI base unit?",
+      "answer": "kilogram",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "SI units and physical quantities",
+      "subtopicLinked": true,
+      "contentKey": "8f075a196598",
+      "options": [
+        "newton",
+        "watt",
+        "joule",
+        "kilogram"
+      ],
+      "markingKey": "D. kilogram. N, J and W are derived units"
+    },
+    {
+      "id": "onb-cbse-g11-science-q11",
+      "subtopicId": "cbse-g11-physics-ch01-st2",
+      "chapterId": "cbse-g11-physics-ch01",
+      "subjectId": "cbse-g11-physics",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which of these is a vector quantity?",
+      "answer": "velocity",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "SI units and physical quantities",
+      "subtopicLinked": true,
+      "contentKey": "10748769edce",
+      "options": [
+        "velocity",
+        "speed",
+        "energy",
+        "mass"
+      ],
+      "markingKey": "A. velocity. Velocity has a direction"
+    },
+    {
+      "id": "onb-cbse-g11-science-q12",
+      "subtopicId": "cbse-g11-physics-ch01-st2",
+      "chapterId": "cbse-g11-physics-ch01",
+      "subjectId": "cbse-g11-physics",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "What are the base units of force (the newton)?",
+      "answer": "kg m s⁻²",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "SI units and physical quantities",
+      "subtopicLinked": true,
+      "contentKey": "bbc2e99a9852",
+      "options": [
+        "kg m² s⁻²",
+        "kg m s⁻¹",
+        "kg m s⁻²",
+        "kg s⁻²"
+      ],
+      "markingKey": "C. kg m s⁻². F = ma"
+    },
+    {
+      "id": "onb-cbse-g11-science-q13",
+      "subtopicId": "cbse-g11-physics-ch02-st1",
+      "chapterId": "cbse-g11-physics-ch02",
+      "subjectId": "cbse-g11-physics",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "The gradient of a displacement-time graph gives the",
+      "answer": "velocity",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Displacement, velocity and motion graphs",
+      "subtopicLinked": true,
+      "contentKey": "2589345b8fe2",
+      "options": [
+        "velocity",
+        "acceleration",
+        "distance",
+        "force"
+      ],
+      "markingKey": "A. velocity. Change in displacement over time"
+    },
+    {
+      "id": "onb-cbse-g11-science-q14",
+      "subtopicId": "cbse-g11-physics-ch02-st1",
+      "chapterId": "cbse-g11-physics-ch02",
+      "subjectId": "cbse-g11-physics",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A car travels 120 m north in 10 s then 40 m south in 10 s. What is its average velocity?",
+      "answer": "4 m/s north",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Displacement, velocity and motion graphs",
+      "subtopicLinked": true,
+      "contentKey": "18089bf08630",
+      "options": [
+        "8 m/s north",
+        "0 m/s",
+        "6 m/s north",
+        "4 m/s north"
+      ],
+      "markingKey": "D. 4 m/s north. Displacement 80 m north over 20 s"
+    },
+    {
+      "id": "onb-cbse-g11-science-q15",
+      "subtopicId": "cbse-g11-physics-ch02-st1",
+      "chapterId": "cbse-g11-physics-ch02",
+      "subjectId": "cbse-g11-physics",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A velocity-time graph is a horizontal line above the time axis. What does it show?",
+      "answer": "Constant velocity, zero acceleration",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Displacement, velocity and motion graphs",
+      "subtopicLinked": true,
+      "contentKey": "58eebdabeed1",
+      "options": [
+        "The object is at rest",
+        "Constant acceleration",
+        "Constant velocity, zero acceleration",
+        "The object is slowing down"
+      ],
+      "markingKey": "C. Constant velocity, zero acceleration. Gradient is zero"
+    },
+    {
+      "id": "onb-cbse-g11-science-q16",
+      "subtopicId": "cbse-g11-physics-ch02-st2",
+      "chapterId": "cbse-g11-physics-ch02",
+      "subjectId": "cbse-g11-physics",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A ball is dropped from rest. Ignoring air resistance, what is its speed after 2 s? (g = 10 m/s²)",
+      "answer": "20 m/s",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Equations of uniformly accelerated motion",
+      "subtopicLinked": true,
+      "contentKey": "5576c61d0fdf",
+      "options": [
+        "10 m/s",
+        "20 m/s",
+        "40 m/s",
+        "5 m/s"
+      ],
+      "markingKey": "B. 20 m/s. v = u + at"
+    },
+    {
+      "id": "onb-cbse-g11-science-q17",
+      "subtopicId": "cbse-g11-physics-ch02-st2",
+      "chapterId": "cbse-g11-physics-ch02",
+      "subjectId": "cbse-g11-physics",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A car accelerates from 10 m/s to 30 m/s in 4 s. How far does it travel?",
+      "answer": "80 m",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Equations of uniformly accelerated motion",
+      "subtopicLinked": true,
+      "contentKey": "a8c9edf04064",
+      "options": [
+        "40 m",
+        "160 m",
+        "80 m",
+        "120 m"
+      ],
+      "markingKey": "C. 80 m. s = ½(u + v)t = ½ x 40 x 4"
+    },
+    {
+      "id": "onb-cbse-g11-science-q18",
+      "subtopicId": "cbse-g11-physics-ch02-st2",
+      "chapterId": "cbse-g11-physics-ch02",
+      "subjectId": "cbse-g11-physics",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A stone is thrown up at 15 m/s. How high does it rise? (g = 10 m/s²)",
+      "answer": "11.25 m",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Equations of uniformly accelerated motion",
+      "subtopicLinked": true,
+      "contentKey": "249a3e92683a",
+      "options": [
+        "11.25 m",
+        "15 m",
+        "1.5 m",
+        "22.5 m"
+      ],
+      "markingKey": "A. 11.25 m. v² = u² - 2gs with v = 0"
+    },
+    {
+      "id": "onb-cbse-g11-science-q19",
+      "subtopicId": "cbse-g11-physics-ch04-st1",
+      "chapterId": "cbse-g11-physics-ch04",
+      "subjectId": "cbse-g11-physics",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Newton's first law says an object keeps moving at constant velocity unless",
+      "answer": "a resultant force acts on it",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Newton's laws and momentum",
+      "subtopicLinked": true,
+      "contentKey": "fee223c803b6",
+      "options": [
+        "a resultant force acts on it",
+        "gravity is zero",
+        "it is heavy",
+        "it runs out of energy"
+      ],
+      "markingKey": "A. a resultant force acts on it. Inertia"
+    },
+    {
+      "id": "onb-cbse-g11-science-q20",
+      "subtopicId": "cbse-g11-physics-ch04-st1",
+      "chapterId": "cbse-g11-physics-ch04",
+      "subjectId": "cbse-g11-physics",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A 2 kg trolley moving at 3 m/s has momentum of",
+      "answer": "6 kg m/s",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Newton's laws and momentum",
+      "subtopicLinked": true,
+      "contentKey": "f4cc7fa43f42",
+      "options": [
+        "6 kg m/s",
+        "5 kg m/s",
+        "1.5 kg m/s",
+        "9 kg m/s"
+      ],
+      "markingKey": "A. 6 kg m/s. p = mv"
+    },
+    {
+      "id": "onb-cbse-g11-science-q21",
+      "subtopicId": "cbse-g11-physics-ch04-st1",
+      "chapterId": "cbse-g11-physics-ch04",
+      "subjectId": "cbse-g11-physics",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A 0.5 kg ball hits a wall at 4 m/s and bounces back at 4 m/s. What is the change in momentum?",
+      "answer": "4 kg m/s",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Newton's laws and momentum",
+      "subtopicLinked": true,
+      "contentKey": "06d9eb22a7f9",
+      "options": [
+        "2 kg m/s",
+        "8 kg m/s",
+        "0 kg m/s",
+        "4 kg m/s"
+      ],
+      "markingKey": "D. 4 kg m/s. Direction reverses: 0.5 x (4 - (-4))"
+    },
+    {
+      "id": "onb-cbse-g11-science-q22",
+      "subtopicId": "cbse-g10-science-ch01-st2",
+      "chapterId": "cbse-g10-science-ch01",
+      "subjectId": "cbse-g10-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "How many atoms are in one molecule of H₂SO₄?",
+      "answer": "7",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 1,
+      "half": "prerequisite",
+      "subtopicHint": "Chemical equations and quantities",
+      "subtopicLinked": true,
+      "contentKey": "4b0f0d120380",
+      "options": [
+        "7",
+        "6",
+        "4",
+        "3"
+      ],
+      "markingKey": "A. 7. 2 H + 1 S + 4 O"
+    },
+    {
+      "id": "onb-cbse-g11-science-q23",
+      "subtopicId": "cbse-g10-science-ch02-st3",
+      "chapterId": "cbse-g10-science-ch02",
+      "subjectId": "cbse-g10-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Acid + alkali gives",
+      "answer": "a salt and water",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Acids, bases and neutralisation",
+      "subtopicLinked": true,
+      "contentKey": "4e2e7b681e75",
+      "options": [
+        "only hydrogen",
+        "a metal and water",
+        "an oxide and carbon dioxide",
+        "a salt and water"
+      ],
+      "markingKey": "D. a salt and water. Neutralisation"
+    },
+    {
+      "id": "onb-cbse-g11-science-q24",
+      "subtopicId": "cbse-g10-science-ch02-st3",
+      "chapterId": "cbse-g10-science-ch02",
+      "subjectId": "cbse-g10-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which salt forms when hydrochloric acid reacts with sodium hydroxide?",
+      "answer": "sodium chloride",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Acids, bases and neutralisation",
+      "subtopicLinked": true,
+      "contentKey": "26b73e5a169e",
+      "options": [
+        "sodium chloride",
+        "sodium carbonate",
+        "sodium sulfate",
+        "sodium nitrate"
+      ],
+      "markingKey": "A. sodium chloride. Chloride from HCl"
+    },
+    {
+      "id": "onb-cbse-g11-science-q25",
+      "subtopicId": "cbse-g10-science-ch04-st3",
+      "chapterId": "cbse-g10-science-ch04",
+      "subjectId": "cbse-g10-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "The general formula of the alkanes is",
+      "answer": "CₙH₂ₙ₊₂",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Alkanes, alkenes and homologous series",
+      "subtopicLinked": true,
+      "contentKey": "c85219f0d181",
+      "options": [
+        "CₙH₂ₙ₋₂",
+        "CₙH₂ₙ",
+        "CₙHₙ",
+        "CₙH₂ₙ₊₂"
+      ],
+      "markingKey": "D. CₙH₂ₙ₊₂. Saturated hydrocarbons"
+    },
+    {
+      "id": "onb-cbse-g11-science-q26",
+      "subtopicId": "cbse-g10-science-ch04-st3",
+      "chapterId": "cbse-g10-science-ch04",
+      "subjectId": "cbse-g10-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which test distinguishes an alkene from an alkane?",
+      "answer": "Bromine water is decolourised by the alkene",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Alkanes, alkenes and homologous series",
+      "subtopicLinked": true,
+      "contentKey": "3575b459f71f",
+      "options": [
+        "A glowing splint relights with the alkene",
+        "Both turn litmus red",
+        "Bromine water is decolourised by the alkene",
+        "Limewater turns milky with the alkane"
+      ],
+      "markingKey": "C. Bromine water is decolourised by the alkene. Addition across C=C"
+    },
+    {
+      "id": "onb-cbse-g11-science-q27",
+      "subtopicId": "cbse-g10-science-ch04-st3",
+      "chapterId": "cbse-g10-science-ch04",
+      "subjectId": "cbse-g10-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Ethene and propene belong to the same homologous series. What do they share?",
+      "answer": "The same functional group and general formula",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Alkanes, alkenes and homologous series",
+      "subtopicLinked": true,
+      "contentKey": "8a0100bdd602",
+      "options": [
+        "The same functional group and general formula",
+        "The same molecular mass",
+        "The same boiling point",
+        "The same number of carbon atoms"
+      ],
+      "markingKey": "A. The same functional group and general formula. They differ by CH₂"
+    },
+    {
+      "id": "onb-cbse-g11-science-q28",
+      "subtopicId": "cbse-g10-science-ch03-st2",
+      "chapterId": "cbse-g10-science-ch03",
+      "subjectId": "cbse-g10-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A reaction that releases heat to the surroundings is",
+      "answer": "exothermic",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Reactivity and energy changes",
+      "subtopicLinked": true,
+      "contentKey": "97f8ff095550",
+      "options": [
+        "endothermic",
+        "neutral",
+        "exothermic",
+        "reversible only"
+      ],
+      "markingKey": "C. exothermic. Temperature rises"
+    },
+    {
+      "id": "onb-cbse-g11-science-q29",
+      "subtopicId": "cbse-g10-science-ch03-st2",
+      "chapterId": "cbse-g10-science-ch03",
+      "subjectId": "cbse-g10-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which metal can be extracted from its oxide by heating with carbon?",
+      "answer": "iron",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Reactivity and energy changes",
+      "subtopicLinked": true,
+      "contentKey": "09ab06a71b84",
+      "options": [
+        "potassium",
+        "sodium",
+        "magnesium",
+        "iron"
+      ],
+      "markingKey": "D. iron. Metals below carbon in the reactivity series"
+    },
+    {
+      "id": "onb-cbse-g11-science-q30",
+      "subtopicId": "cbse-g10-science-ch03-st2",
+      "chapterId": "cbse-g10-science-ch03",
+      "subjectId": "cbse-g10-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why is aluminium extracted by electrolysis rather than with carbon?",
+      "answer": "Aluminium is more reactive than carbon",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Reactivity and energy changes",
+      "subtopicLinked": true,
+      "contentKey": "723a3f652ffe",
+      "options": [
+        "Aluminium is more reactive than carbon",
+        "Aluminium oxide is a gas",
+        "Aluminium is a non-metal",
+        "Carbon is too expensive"
+      ],
+      "markingKey": "A. Aluminium is more reactive than carbon. Carbon cannot reduce it"
+    },
+    {
+      "id": "onb-cbse-g11-science-q31",
+      "subtopicId": "cbse-g11-chemistry-ch01-st3",
+      "chapterId": "cbse-g11-chemistry-ch01",
+      "subjectId": "cbse-g11-chemistry",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "One mole of any substance contains about",
+      "answer": "6.02 x 10²³ particles",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "The mole and molar mass",
+      "subtopicLinked": true,
+      "contentKey": "b44fbece202e",
+      "options": [
+        "6.02 x 10²³ grams",
+        "22.4 particles",
+        "6.02 x 10²³ particles",
+        "1000 particles"
+      ],
+      "markingKey": "C. 6.02 x 10²³ particles. Avogadro's constant"
+    },
+    {
+      "id": "onb-cbse-g11-science-q32",
+      "subtopicId": "cbse-g11-chemistry-ch01-st3",
+      "chapterId": "cbse-g11-chemistry-ch01",
+      "subjectId": "cbse-g11-chemistry",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "How many moles are in 36 g of water (H₂O, Mr = 18)?",
+      "answer": "2 mol",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "The mole and molar mass",
+      "subtopicLinked": true,
+      "contentKey": "6cbeaf423299",
+      "options": [
+        "2 mol",
+        "0.5 mol",
+        "18 mol",
+        "648 mol"
+      ],
+      "markingKey": "A. 2 mol. n = m ÷ M"
+    },
+    {
+      "id": "onb-cbse-g11-science-q33",
+      "subtopicId": "cbse-g11-chemistry-ch01-st3",
+      "chapterId": "cbse-g11-chemistry-ch01",
+      "subjectId": "cbse-g11-chemistry",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "What mass of CO₂ forms when 12 g of carbon burns completely? (C = 12, O = 16)",
+      "answer": "44 g",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "The mole and molar mass",
+      "subtopicLinked": true,
+      "contentKey": "77a6e9567833",
+      "options": [
+        "12 g",
+        "32 g",
+        "28 g",
+        "44 g"
+      ],
+      "markingKey": "D. 44 g. 1 mol C gives 1 mol CO₂"
+    },
+    {
+      "id": "onb-cbse-g11-science-q34",
+      "subtopicId": "cbse-g11-chemistry-ch02-st5",
+      "chapterId": "cbse-g11-chemistry-ch02",
+      "subjectId": "cbse-g11-chemistry",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "How many electrons can an s orbital hold?",
+      "answer": "2",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Electron configuration and orbitals",
+      "subtopicLinked": true,
+      "contentKey": "b72a242593f6",
+      "options": [
+        "1",
+        "2",
+        "6",
+        "8"
+      ],
+      "markingKey": "B. 2. Two electrons with opposite spins"
+    },
+    {
+      "id": "onb-cbse-g11-science-q35",
+      "subtopicId": "cbse-g11-chemistry-ch02-st5",
+      "chapterId": "cbse-g11-chemistry-ch02",
+      "subjectId": "cbse-g11-chemistry",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "What is the electron configuration of sodium (Z = 11)?",
+      "answer": "1s² 2s² 2p⁶ 3s¹",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Electron configuration and orbitals",
+      "subtopicLinked": true,
+      "contentKey": "326304fae7bb",
+      "options": [
+        "1s² 2s⁸ 3s¹",
+        "1s² 2s² 2p⁷",
+        "1s² 2s² 2p⁶ 3s¹",
+        "1s² 2s² 2p⁶ 3p¹"
+      ],
+      "markingKey": "C. 1s² 2s² 2p⁶ 3s¹. Fill in order of energy"
+    },
+    {
+      "id": "onb-cbse-g11-science-q36",
+      "subtopicId": "cbse-g11-chemistry-ch02-st5",
+      "chapterId": "cbse-g11-chemistry-ch02",
+      "subjectId": "cbse-g11-chemistry",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why is 4s filled before 3d in potassium?",
+      "answer": "The 4s subshell is lower in energy than 3d at that point",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Electron configuration and orbitals",
+      "subtopicLinked": true,
+      "contentKey": "8c711d75b6ac",
+      "options": [
+        "Electrons are filled at random",
+        "The 4s subshell is lower in energy than 3d at that point",
+        "3d does not exist",
+        "4s holds more electrons"
+      ],
+      "markingKey": "B. The 4s subshell is lower in energy than 3d at that point. Aufbau principle"
+    },
+    {
+      "id": "onb-cbse-g11-science-q37",
+      "subtopicId": "cbse-g11-chemistry-ch03-st3",
+      "chapterId": "cbse-g11-chemistry-ch03",
+      "subjectId": "cbse-g11-chemistry",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Across a period from left to right, atomic radius generally",
+      "answer": "decreases",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Periodic trends",
+      "subtopicLinked": true,
+      "contentKey": "fbaab2a3fd6b",
+      "options": [
+        "increases",
+        "doubles",
+        "stays the same",
+        "decreases"
+      ],
+      "markingKey": "D. decreases. Greater nuclear charge pulls electrons closer"
+    },
+    {
+      "id": "onb-cbse-g11-science-q38",
+      "subtopicId": "cbse-g11-chemistry-ch03-st3",
+      "chapterId": "cbse-g11-chemistry-ch03",
+      "subjectId": "cbse-g11-chemistry",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which element has the highest first ionisation energy in Period 3?",
+      "answer": "argon",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Periodic trends",
+      "subtopicLinked": true,
+      "contentKey": "df19cc40bb25",
+      "options": [
+        "magnesium",
+        "sodium",
+        "argon",
+        "chlorine"
+      ],
+      "markingKey": "C. argon. Noble gas, full shell"
+    },
+    {
+      "id": "onb-cbse-g11-science-q39",
+      "subtopicId": "cbse-g11-chemistry-ch03-st3",
+      "chapterId": "cbse-g11-chemistry-ch03",
+      "subjectId": "cbse-g11-chemistry",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why is the first ionisation energy of aluminium lower than that of magnesium?",
+      "answer": "The outer electron of Al is in a 3p orbital, higher in energy and more shielded",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Periodic trends",
+      "subtopicLinked": true,
+      "contentKey": "ba4fd056ffa2",
+      "options": [
+        "Al has fewer protons",
+        "Mg is a noble gas",
+        "Al has a full outer shell",
+        "The outer electron of Al is in a 3p orbital, higher in energy and more shielded"
+      ],
+      "markingKey": "D. The outer electron of Al is in a 3p orbital, higher in energy and more shielded. Subshell effect"
+    },
+    {
+      "id": "onb-cbse-g11-science-q40",
+      "subtopicId": "cbse-g11-chemistry-ch04-st3",
+      "chapterId": "cbse-g11-chemistry-ch04",
+      "subjectId": "cbse-g11-chemistry",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A covalent bond is",
+      "answer": "a shared pair of electrons",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Chemical bonding and molecular shape",
+      "subtopicLinked": true,
+      "contentKey": "f2fb31436ac4",
+      "options": [
+        "a shared pair of electrons",
+        "an attraction between ions only",
+        "a transfer of electrons",
+        "a sea of electrons"
+      ],
+      "markingKey": "A. a shared pair of electrons. Atoms share electrons"
+    },
+    {
+      "id": "onb-cbse-g11-science-q41",
+      "subtopicId": "cbse-g11-chemistry-ch04-st3",
+      "chapterId": "cbse-g11-chemistry-ch04",
+      "subjectId": "cbse-g11-chemistry",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "What is the shape of a methane (CH₄) molecule?",
+      "answer": "tetrahedral",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Chemical bonding and molecular shape",
+      "subtopicLinked": true,
+      "contentKey": "75ba658593d6",
+      "options": [
+        "trigonal planar",
+        "tetrahedral",
+        "bent",
+        "linear"
+      ],
+      "markingKey": "B. tetrahedral. Four bonding pairs, 109.5°"
+    },
+    {
+      "id": "onb-cbse-g11-science-q42",
+      "subtopicId": "cbse-g11-chemistry-ch04-st3",
+      "chapterId": "cbse-g11-chemistry-ch04",
+      "subjectId": "cbse-g11-chemistry",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why is the bond angle in water (about 104.5°) smaller than in methane?",
+      "answer": "Lone pairs repel more than bonding pairs",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Chemical bonding and molecular shape",
+      "subtopicLinked": true,
+      "contentKey": "6c5965f711d3",
+      "options": [
+        "Lone pairs repel more than bonding pairs",
+        "Water has more bonds",
+        "Hydrogen atoms attract each other",
+        "Oxygen is smaller than carbon"
+      ],
+      "markingKey": "A. Lone pairs repel more than bonding pairs. VSEPR theory"
+    },
+    {
+      "id": "onb-cbse-g11-science-q43",
+      "subtopicId": "cbse-g10-maths-ch04-st3",
+      "chapterId": "cbse-g10-maths-ch04",
+      "subjectId": "cbse-g10-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Solve x² - 7x + 12 = 0.",
+      "answer": "x = 3 or x = 4",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 1,
+      "half": "prerequisite",
+      "subtopicHint": "Quadratic equations",
+      "subtopicLinked": true,
+      "contentKey": "4b7ebe98ae28",
+      "options": [
+        "x = 3 or x = 4",
+        "x = 2 or x = 6",
+        "x = 12",
+        "x = -3 or x = -4"
+      ],
+      "markingKey": "A. x = 3 or x = 4. (x - 3)(x - 4) = 0"
+    },
+    {
+      "id": "onb-cbse-g11-science-q44",
+      "subtopicId": "cbse-g10-maths-ch08-st1",
+      "chapterId": "cbse-g10-maths-ch08",
+      "subjectId": "cbse-g10-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "What is sin 30°?",
+      "answer": "1/2",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Trigonometric ratios",
+      "subtopicLinked": true,
+      "contentKey": "452207ec866a",
+      "options": [
+        "√3/2",
+        "1",
+        "√2",
+        "1/2"
+      ],
+      "markingKey": "D. 1/2. Standard value"
+    },
+    {
+      "id": "onb-cbse-g11-science-q45",
+      "subtopicId": "cbse-g10-maths-ch08-st1",
+      "chapterId": "cbse-g10-maths-ch08",
+      "subjectId": "cbse-g10-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "If tan θ = 3/4 and θ is acute, what is sin θ?",
+      "answer": "3/5",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Trigonometric ratios",
+      "subtopicLinked": true,
+      "contentKey": "aa19cd200069",
+      "options": [
+        "4/5",
+        "3/4",
+        "5/3",
+        "3/5"
+      ],
+      "markingKey": "D. 3/5. A 3-4-5 triangle"
+    },
+    {
+      "id": "onb-cbse-g11-science-q46",
+      "subtopicId": "cbse-g10-maths-ch05-st1",
+      "chapterId": "cbse-g10-maths-ch05",
+      "subjectId": "cbse-g10-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "What is the 10th term of 4, 7, 10, ...?",
+      "answer": "31",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Sequences and nth term",
+      "subtopicLinked": true,
+      "contentKey": "8e6bb62ac8a4",
+      "options": [
+        "30",
+        "28",
+        "31",
+        "34"
+      ],
+      "markingKey": "C. 31. 4 + 9 x 3"
+    },
+    {
+      "id": "onb-cbse-g11-science-q47",
+      "subtopicId": "cbse-g10-maths-ch05-st1",
+      "chapterId": "cbse-g10-maths-ch05",
+      "subjectId": "cbse-g10-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which term of 5, 9, 13, ... is 81?",
+      "answer": "20th",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Sequences and nth term",
+      "subtopicLinked": true,
+      "contentKey": "63a31aa5da3e",
+      "options": [
+        "20th",
+        "19th",
+        "16th",
+        "21st"
+      ],
+      "markingKey": "A. 20th. 5 + 4(n - 1) = 81"
+    },
+    {
+      "id": "onb-cbse-g11-science-q48",
+      "subtopicId": "cbse-g10-maths-ch05-st1",
+      "chapterId": "cbse-g10-maths-ch05",
+      "subjectId": "cbse-g10-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "The sum of the first n odd numbers 1 + 3 + 5 + ... is",
+      "answer": "n²",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Sequences and nth term",
+      "subtopicLinked": true,
+      "contentKey": "a45ee89b4034",
+      "options": [
+        "n(n + 1)",
+        "2n",
+        "n²",
+        "2n - 1"
+      ],
+      "markingKey": "C. n². Sum of an AP"
+    },
+    {
+      "id": "onb-cbse-g11-science-q49",
+      "subtopicId": "cbse-g10-maths-ch14-st1",
+      "chapterId": "cbse-g10-maths-ch14",
+      "subjectId": "cbse-g10-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A coin is tossed and a die is rolled. What is P(head and a 6)?",
+      "answer": "1/12",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Probability with combined events",
+      "subtopicLinked": true,
+      "contentKey": "56e2a1d2d66c",
+      "options": [
+        "1/6",
+        "7/12",
+        "1/12",
+        "1/2"
+      ],
+      "markingKey": "C. 1/12. ½ x 1/6"
+    },
+    {
+      "id": "onb-cbse-g11-science-q50",
+      "subtopicId": "cbse-g10-maths-ch14-st1",
+      "chapterId": "cbse-g10-maths-ch14",
+      "subjectId": "cbse-g10-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A bag has 4 red and 6 blue balls. Two are drawn without replacement. What is P(both red)?",
+      "answer": "2/15",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Probability with combined events",
+      "subtopicLinked": true,
+      "contentKey": "447fef62caab",
+      "options": [
+        "4/25",
+        "2/15",
+        "1/5",
+        "4/10"
+      ],
+      "markingKey": "B. 2/15. 4/10 x 3/9"
+    },
+    {
+      "id": "onb-cbse-g11-science-q51",
+      "subtopicId": "cbse-g10-maths-ch14-st1",
+      "chapterId": "cbse-g10-maths-ch14",
+      "subjectId": "cbse-g10-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "P(A) = 0.5, P(B) = 0.4 and P(A and B) = 0.2. What is P(A or B)?",
+      "answer": "0.7",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Probability with combined events",
+      "subtopicLinked": true,
+      "contentKey": "40c8287dec96",
+      "options": [
+        "0.2",
+        "0.1",
+        "0.9",
+        "0.7"
+      ],
+      "markingKey": "D. 0.7. P(A) + P(B) - P(A and B)"
+    },
+    {
+      "id": "onb-cbse-g11-science-q52",
+      "subtopicId": "cbse-g11-maths-ch04-st1",
+      "chapterId": "cbse-g11-maths-ch04",
+      "subjectId": "cbse-g11-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "If x² - 6x + 5 is written as (x - a)² + b, what is a?",
+      "answer": "3",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Quadratics: completing the square",
+      "subtopicLinked": true,
+      "contentKey": "d844c153bcca",
+      "options": [
+        "-3",
+        "6",
+        "5",
+        "3"
+      ],
+      "markingKey": "D. 3. Half of -6"
+    },
+    {
+      "id": "onb-cbse-g11-science-q53",
+      "subtopicId": "cbse-g11-maths-ch04-st1",
+      "chapterId": "cbse-g11-maths-ch04",
+      "subjectId": "cbse-g11-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Complete the square: x² + 4x + 7 = (x + 2)² + c. What is c?",
+      "answer": "3",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Quadratics: completing the square",
+      "subtopicLinked": true,
+      "contentKey": "c36188000277",
+      "options": [
+        "7",
+        "11",
+        "-3",
+        "3"
+      ],
+      "markingKey": "D. 3. (x + 2)² = x² + 4x + 4"
+    },
+    {
+      "id": "onb-cbse-g11-science-q54",
+      "subtopicId": "cbse-g11-maths-ch04-st1",
+      "chapterId": "cbse-g11-maths-ch04",
+      "subjectId": "cbse-g11-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "What is the minimum value of x² - 8x + 20?",
+      "answer": "4",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Quadratics: completing the square",
+      "subtopicLinked": true,
+      "contentKey": "ef84c33ccfb1",
+      "options": [
+        "4",
+        "8",
+        "20",
+        "-4"
+      ],
+      "markingKey": "A. 4. (x - 4)² + 4"
+    },
+    {
+      "id": "onb-cbse-g11-science-q55",
+      "subtopicId": "cbse-g11-maths-ch02-st3",
+      "chapterId": "cbse-g11-maths-ch02",
+      "subjectId": "cbse-g11-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "If f(x) = 2x + 1, what is f(4)?",
+      "answer": "9",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Functions: domain, range and composition",
+      "subtopicLinked": true,
+      "contentKey": "0e5680534b23",
+      "options": [
+        "9",
+        "8",
+        "10",
+        "6"
+      ],
+      "markingKey": "A. 9. 2 x 4 + 1"
+    },
+    {
+      "id": "onb-cbse-g11-science-q56",
+      "subtopicId": "cbse-g11-maths-ch02-st3",
+      "chapterId": "cbse-g11-maths-ch02",
+      "subjectId": "cbse-g11-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "If f(x) = x + 3 and g(x) = 2x, what is f(g(5))?",
+      "answer": "13",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Functions: domain, range and composition",
+      "subtopicLinked": true,
+      "contentKey": "dd07ee96b734",
+      "options": [
+        "11",
+        "13",
+        "10",
+        "16"
+      ],
+      "markingKey": "B. 13. g(5) = 10, then f(10)"
+    },
+    {
+      "id": "onb-cbse-g11-science-q57",
+      "subtopicId": "cbse-g11-maths-ch02-st3",
+      "chapterId": "cbse-g11-maths-ch02",
+      "subjectId": "cbse-g11-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "What is the inverse of f(x) = 3x - 6?",
+      "answer": "f⁻¹(x) = (x + 6)/3",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Functions: domain, range and composition",
+      "subtopicLinked": true,
+      "contentKey": "9bdf6463db38",
+      "options": [
+        "f⁻¹(x) = (x + 6)/3",
+        "f⁻¹(x) = (x - 6)/3",
+        "f⁻¹(x) = 3x + 6",
+        "f⁻¹(x) = x/3 - 6"
+      ],
+      "markingKey": "A. f⁻¹(x) = (x + 6)/3. Swap x and y, then solve"
+    },
+    {
+      "id": "onb-cbse-g11-science-q58",
+      "subtopicId": "cbse-g11-maths-ch03-st2",
+      "chapterId": "cbse-g11-maths-ch03",
+      "subjectId": "cbse-g11-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "How many radians are in 180°?",
+      "answer": "π",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Radian measure and trigonometric functions",
+      "subtopicLinked": true,
+      "contentKey": "e3c916780800",
+      "options": [
+        "2π",
+        "π",
+        "π/2",
+        "360"
+      ],
+      "markingKey": "B. π. Half a turn"
+    },
+    {
+      "id": "onb-cbse-g11-science-q59",
+      "subtopicId": "cbse-g11-maths-ch03-st2",
+      "chapterId": "cbse-g11-maths-ch03",
+      "subjectId": "cbse-g11-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Convert 60° to radians.",
+      "answer": "π/3",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Radian measure and trigonometric functions",
+      "subtopicLinked": true,
+      "contentKey": "9b482c918c79",
+      "options": [
+        "π/3",
+        "2π/3",
+        "60π",
+        "π/6"
+      ],
+      "markingKey": "A. π/3. 60 x π/180"
+    },
+    {
+      "id": "onb-cbse-g11-science-q60",
+      "subtopicId": "cbse-g11-maths-ch03-st2",
+      "chapterId": "cbse-g11-maths-ch03",
+      "subjectId": "cbse-g11-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "What is the length of an arc of radius 6 cm subtending 2 radians at the centre?",
+      "answer": "12 cm",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Radian measure and trigonometric functions",
+      "subtopicLinked": true,
+      "contentKey": "aae178490b74",
+      "options": [
+        "36 cm",
+        "12 cm",
+        "6π cm",
+        "3 cm"
+      ],
+      "markingKey": "B. 12 cm. s = rθ"
+    },
+    {
+      "id": "onb-cbse-g11-science-q61",
+      "subtopicId": "cbse-g11-maths-ch07-st1",
+      "chapterId": "cbse-g11-maths-ch07",
+      "subjectId": "cbse-g11-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "How many ways can 3 different books be arranged on a shelf?",
+      "answer": "6",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Counting and the binomial expansion",
+      "subtopicLinked": true,
+      "contentKey": "f34480407cbf",
+      "options": [
+        "6",
+        "27",
+        "3",
+        "9"
+      ],
+      "markingKey": "A. 6. 3! = 6"
+    },
+    {
+      "id": "onb-cbse-g11-science-q62",
+      "subtopicId": "cbse-g11-maths-ch07-st1",
+      "chapterId": "cbse-g11-maths-ch07",
+      "subjectId": "cbse-g11-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "How many ways can a committee of 2 be chosen from 5 people?",
+      "answer": "10",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Counting and the binomial expansion",
+      "subtopicLinked": true,
+      "contentKey": "01314d4017d2",
+      "options": [
+        "25",
+        "10",
+        "5",
+        "20"
+      ],
+      "markingKey": "B. 10. ⁵C₂ = 10"
+    },
+    {
+      "id": "onb-cbse-g11-science-q63",
+      "subtopicId": "cbse-g11-maths-ch07-st1",
+      "chapterId": "cbse-g11-maths-ch07",
+      "subjectId": "cbse-g11-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "What is the coefficient of x² in (1 + x)⁵?",
+      "answer": "10",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Counting and the binomial expansion",
+      "subtopicLinked": true,
+      "contentKey": "b680dae49ce0",
+      "options": [
+        "25",
+        "20",
+        "10",
+        "5"
+      ],
+      "markingKey": "C. 10. ⁵C₂"
+    },
+    {
+      "id": "onb-cbse-g11-science-q64",
+      "subtopicId": "cbse-g10-science-ch08-st2",
+      "chapterId": "cbse-g10-science-ch08",
+      "subjectId": "cbse-g10-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A cross between two heterozygous tall pea plants (Tt x Tt) gives what ratio of tall to dwarf?",
+      "answer": "3 : 1",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 1,
+      "half": "prerequisite",
+      "subtopicHint": "Inheritance and variation",
+      "subtopicLinked": true,
+      "contentKey": "5aa4c3a849e9",
+      "options": [
+        "3 : 1",
+        "1 : 1",
+        "1 : 2 : 1",
+        "all tall"
+      ],
+      "markingKey": "A. 3 : 1. TT, Tt, Tt are tall; tt is dwarf"
+    },
+    {
+      "id": "onb-cbse-g11-science-q65",
+      "subtopicId": "cbse-g10-science-ch05-st2",
+      "chapterId": "cbse-g10-science-ch05",
+      "subjectId": "cbse-g10-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Aerobic respiration produces",
+      "answer": "carbon dioxide and water",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Respiration",
+      "subtopicLinked": true,
+      "contentKey": "61d6c0977f93",
+      "options": [
+        "ethanol only",
+        "carbon dioxide and water",
+        "lactic acid only",
+        "oxygen and glucose"
+      ],
+      "markingKey": "B. carbon dioxide and water. Glucose + oxygen → CO₂ + water"
+    },
+    {
+      "id": "onb-cbse-g11-science-q66",
+      "subtopicId": "cbse-g10-science-ch05-st2",
+      "chapterId": "cbse-g10-science-ch05",
+      "subjectId": "cbse-g10-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Why does aerobic respiration release more energy than anaerobic respiration?",
+      "answer": "Glucose is fully broken down",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Respiration",
+      "subtopicLinked": true,
+      "contentKey": "1dd8f71e6ce9",
+      "options": [
+        "Glucose is fully broken down",
+        "It happens only in plants",
+        "It uses no glucose",
+        "It is faster"
+      ],
+      "markingKey": "A. Glucose is fully broken down. Anaerobic breakdown is incomplete"
+    },
+    {
+      "id": "onb-cbse-g11-science-q67",
+      "subtopicId": "cbse-g10-science-ch08-st1",
+      "chapterId": "cbse-g10-science-ch08",
+      "subjectId": "cbse-g10-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Differences between individuals of the same species are called",
+      "answer": "variation",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Variation and natural selection",
+      "subtopicLinked": true,
+      "contentKey": "9994930c380a",
+      "options": [
+        "mutation only",
+        "variation",
+        "adaptation",
+        "evolution"
+      ],
+      "markingKey": "B. variation. Genetic and environmental causes"
+    },
+    {
+      "id": "onb-cbse-g11-science-q68",
+      "subtopicId": "cbse-g10-science-ch08-st1",
+      "chapterId": "cbse-g10-science-ch08",
+      "subjectId": "cbse-g10-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which is an example of continuous variation in humans?",
+      "answer": "height",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Variation and natural selection",
+      "subtopicLinked": true,
+      "contentKey": "334adcaf1eb4",
+      "options": [
+        "eye colour type only",
+        "blood group",
+        "height",
+        "tongue rolling"
+      ],
+      "markingKey": "C. height. It has a range of values"
+    },
+    {
+      "id": "onb-cbse-g11-science-q69",
+      "subtopicId": "cbse-g10-science-ch08-st1",
+      "chapterId": "cbse-g10-science-ch08",
+      "subjectId": "cbse-g10-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why does variation within a population matter for natural selection?",
+      "answer": "Some variants survive and reproduce better, passing on their alleles",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Variation and natural selection",
+      "subtopicLinked": true,
+      "contentKey": "b65f429aa163",
+      "options": [
+        "Some variants survive and reproduce better, passing on their alleles",
+        "Variation stops evolution",
+        "Organisms choose their variations",
+        "All individuals die equally"
+      ],
+      "markingKey": "A. Some variants survive and reproduce better, passing on their alleles. Selection acts on variation"
+    },
+    {
+      "id": "onb-cbse-g11-science-q70",
+      "subtopicId": "cbse-g10-science-ch13-st1",
+      "chapterId": "cbse-g10-science-ch13",
+      "subjectId": "cbse-g10-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "An organism that eats only plants is a",
+      "answer": "herbivore",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Ecosystems and energy flow",
+      "subtopicLinked": true,
+      "contentKey": "a008e62ecffe",
+      "options": [
+        "herbivore",
+        "decomposer",
+        "producer",
+        "carnivore"
+      ],
+      "markingKey": "A. herbivore. Primary consumer"
+    },
+    {
+      "id": "onb-cbse-g11-science-q71",
+      "subtopicId": "cbse-g10-science-ch13-st1",
+      "chapterId": "cbse-g10-science-ch13",
+      "subjectId": "cbse-g10-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Why do pyramids of biomass usually narrow towards the top?",
+      "answer": "Energy and biomass are lost at each trophic level",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Ecosystems and energy flow",
+      "subtopicLinked": true,
+      "contentKey": "661a6ec9319c",
+      "options": [
+        "Energy and biomass are lost at each trophic level",
+        "Plants are heavier",
+        "Top predators are small",
+        "Decomposers remove the top"
+      ],
+      "markingKey": "A. Energy and biomass are lost at each trophic level. Respiration and waste"
+    },
+    {
+      "id": "onb-cbse-g11-science-q72",
+      "subtopicId": "cbse-g10-science-ch13-st1",
+      "chapterId": "cbse-g10-science-ch13",
+      "subjectId": "cbse-g10-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A pesticide becomes more concentrated in birds of prey than in insects. This is called",
+      "answer": "biological magnification",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Ecosystems and energy flow",
+      "subtopicLinked": true,
+      "contentKey": "4b7fd9bbb0ce",
+      "options": [
+        "biological magnification",
+        "decomposition",
+        "photosynthesis",
+        "eutrophication"
+      ],
+      "markingKey": "A. biological magnification. It builds up along the food chain"
+    },
+    {
+      "id": "onb-cbse-g11-science-q73",
+      "subtopicId": "cbse-g11-biology-ch08-st1",
+      "chapterId": "cbse-g11-biology-ch08",
+      "subjectId": "cbse-g11-biology",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "The basic unit of life is the",
+      "answer": "cell",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Cell structure",
+      "subtopicLinked": true,
+      "contentKey": "767c1734eea2",
+      "options": [
+        "tissue",
+        "organ",
+        "atom",
+        "cell"
+      ],
+      "markingKey": "D. cell. Cell theory"
+    },
+    {
+      "id": "onb-cbse-g11-science-q74",
+      "subtopicId": "cbse-g11-biology-ch08-st1",
+      "chapterId": "cbse-g11-biology-ch08",
+      "subjectId": "cbse-g11-biology",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which organelle is found in prokaryotic and eukaryotic cells?",
+      "answer": "ribosome",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Cell structure",
+      "subtopicLinked": true,
+      "contentKey": "9dba02e402b9",
+      "options": [
+        "mitochondrion",
+        "ribosome",
+        "nucleus",
+        "chloroplast"
+      ],
+      "markingKey": "B. ribosome. Prokaryotes have 70S ribosomes"
+    },
+    {
+      "id": "onb-cbse-g11-science-q75",
+      "subtopicId": "cbse-g11-biology-ch08-st1",
+      "chapterId": "cbse-g11-biology-ch08",
+      "subjectId": "cbse-g11-biology",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why can electron microscopes show more detail than light microscopes?",
+      "answer": "Electrons have a much shorter wavelength, giving higher resolution",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Cell structure",
+      "subtopicLinked": true,
+      "contentKey": "6b097391c2e5",
+      "options": [
+        "Electrons have a much shorter wavelength, giving higher resolution",
+        "Specimens are alive",
+        "They magnify colours",
+        "They use brighter light"
+      ],
+      "markingKey": "A. Electrons have a much shorter wavelength, giving higher resolution. Resolution depends on wavelength"
+    },
+    {
+      "id": "onb-cbse-g11-science-q76",
+      "subtopicId": "cbse-g11-biology-ch09-st1",
+      "chapterId": "cbse-g11-biology-ch09",
+      "subjectId": "cbse-g11-biology",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Proteins are made of",
+      "answer": "amino acids",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Biological molecules",
+      "subtopicLinked": true,
+      "contentKey": "20eb2be4455f",
+      "options": [
+        "glucose units",
+        "nucleotides",
+        "fatty acids only",
+        "amino acids"
+      ],
+      "markingKey": "D. amino acids. Joined by peptide bonds"
+    },
+    {
+      "id": "onb-cbse-g11-science-q77",
+      "subtopicId": "cbse-g11-biology-ch09-st1",
+      "chapterId": "cbse-g11-biology-ch09",
+      "subjectId": "cbse-g11-biology",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which test identifies a reducing sugar?",
+      "answer": "Benedict's test",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Biological molecules",
+      "subtopicLinked": true,
+      "contentKey": "a38ecc4365da",
+      "options": [
+        "Benedict's test",
+        "Biuret test",
+        "Emulsion test",
+        "Iodine test"
+      ],
+      "markingKey": "A. Benedict's test. Brick-red precipitate"
+    },
+    {
+      "id": "onb-cbse-g11-science-q78",
+      "subtopicId": "cbse-g11-biology-ch09-st1",
+      "chapterId": "cbse-g11-biology-ch09",
+      "subjectId": "cbse-g11-biology",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why does a change in one amino acid sometimes stop a protein working?",
+      "answer": "It can change the folding and so the shape of the active part",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Biological molecules",
+      "subtopicLinked": true,
+      "contentKey": "dcc83c174591",
+      "options": [
+        "Proteins have no shape",
+        "It can change the folding and so the shape of the active part",
+        "Amino acids are all identical",
+        "It adds glucose"
+      ],
+      "markingKey": "B. It can change the folding and so the shape of the active part. Shape determines function"
+    },
+    {
+      "id": "onb-cbse-g11-science-q79",
+      "subtopicId": "cbse-g11-biology-ch09-st3",
+      "chapterId": "cbse-g11-biology-ch09",
+      "subjectId": "cbse-g11-biology",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Enzymes are biological",
+      "answer": "catalysts",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Enzymes",
+      "subtopicLinked": true,
+      "contentKey": "61f0cb6bc26a",
+      "options": [
+        "fuels",
+        "catalysts",
+        "hormones",
+        "vitamins"
+      ],
+      "markingKey": "B. catalysts. They speed up reactions"
+    },
+    {
+      "id": "onb-cbse-g11-science-q80",
+      "subtopicId": "cbse-g11-biology-ch09-st3",
+      "chapterId": "cbse-g11-biology-ch09",
+      "subjectId": "cbse-g11-biology",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Why does an enzyme stop working at high temperature?",
+      "answer": "Its active site changes shape (it is denatured)",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Enzymes",
+      "subtopicLinked": true,
+      "contentKey": "813ad40624df",
+      "options": [
+        "It runs out of energy",
+        "It becomes a substrate",
+        "It dissolves",
+        "Its active site changes shape (it is denatured)"
+      ],
+      "markingKey": "D. Its active site changes shape (it is denatured). Bonds holding its shape break"
+    },
+    {
+      "id": "onb-cbse-g11-science-q81",
+      "subtopicId": "cbse-g11-biology-ch09-st3",
+      "chapterId": "cbse-g11-biology-ch09",
+      "subjectId": "cbse-g11-biology",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A competitive inhibitor slows an enzyme by",
+      "answer": "binding to the active site and blocking the substrate",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Enzymes",
+      "subtopicLinked": true,
+      "contentKey": "5a5b4e15ebe6",
+      "options": [
+        "binding to the active site and blocking the substrate",
+        "raising the temperature",
+        "changing the pH",
+        "destroying the substrate"
+      ],
+      "markingKey": "A. binding to the active site and blocking the substrate. It resembles the substrate"
+    },
+    {
+      "id": "onb-cbse-g11-science-q82",
+      "subtopicId": "cbse-g11-biology-ch10-st2",
+      "chapterId": "cbse-g11-biology-ch10",
+      "subjectId": "cbse-g11-biology",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Movement of molecules against a concentration gradient using energy is",
+      "answer": "active transport",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Membranes, transport and cell division",
+      "subtopicLinked": true,
+      "contentKey": "7364e44dd07b",
+      "options": [
+        "facilitated diffusion",
+        "diffusion",
+        "active transport",
+        "osmosis"
+      ],
+      "markingKey": "C. active transport. ATP is needed"
+    },
+    {
+      "id": "onb-cbse-g11-science-q83",
+      "subtopicId": "cbse-g11-biology-ch10-st2",
+      "chapterId": "cbse-g11-biology-ch10",
+      "subjectId": "cbse-g11-biology",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Mitosis produces",
+      "answer": "two genetically identical daughter cells",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Membranes, transport and cell division",
+      "subtopicLinked": true,
+      "contentKey": "a284dff63a90",
+      "options": [
+        "two genetically identical daughter cells",
+        "gametes only",
+        "four different cells",
+        "one large cell"
+      ],
+      "markingKey": "A. two genetically identical daughter cells. For growth and repair"
+    },
+    {
+      "id": "onb-cbse-g11-science-q84",
+      "subtopicId": "cbse-g11-biology-ch10-st2",
+      "chapterId": "cbse-g11-biology-ch10",
+      "subjectId": "cbse-g11-biology",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why is cancer described as a disease of the cell cycle?",
+      "answer": "Cells divide by mitosis in an uncontrolled way",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Membranes, transport and cell division",
+      "subtopicLinked": true,
+      "contentKey": "c5d3399cd748",
+      "options": [
+        "Cells stop dividing",
+        "Cells divide by mitosis in an uncontrolled way",
+        "Cells lose their membranes",
+        "Cells only undergo meiosis"
+      ],
+      "markingKey": "B. Cells divide by mitosis in an uncontrolled way. Control of the cycle fails"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D2",
+      "stem": "What number comes next? 2, 3, 5, 8, 13, ?",
+      "options": [
+        "20",
+        "18",
+        "26",
+        "21"
+      ],
+      "answer": "21",
+      "explanation": "Each term is the sum of the two before it",
+      "seconds": 30,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-cbse-g11-science-q85",
+      "part": "B",
+      "contentKey": "1ab8b7e1a9d2"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D2",
+      "stem": "Money doubles in 6 years at a fixed compound rate. In how many years does it become 8 times?",
+      "options": [
+        "18",
+        "12",
+        "48",
+        "24"
+      ],
+      "answer": "18",
+      "explanation": "8 = 2³, so three doubling periods",
+      "seconds": 45,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-cbse-g11-science-q86",
+      "part": "B",
+      "contentKey": "5b81fb79f4a2"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D3",
+      "stem": "Boys and girls in a class are in the ratio 3 : 5. After 6 more boys join, the ratio is 1 : 1. How many students were there at first?",
+      "options": [
+        "32",
+        "30",
+        "24",
+        "16"
+      ],
+      "answer": "24",
+      "explanation": "3k + 6 = 5k gives k = 3, so 9 + 15 = 24",
+      "seconds": 75,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-cbse-g11-science-q87",
+      "part": "B",
+      "contentKey": "a243772353aa"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D3",
+      "stem": "One pipe fills a tank in 6 hours; another empties it in 9 hours. If both are open, how long does it take to fill the empty tank?",
+      "options": [
+        "15 hours",
+        "7.5 hours",
+        "18 hours",
+        "3 hours"
+      ],
+      "answer": "18 hours",
+      "explanation": "1/6 - 1/9 = 1/18 of the tank per hour",
+      "seconds": 75,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-cbse-g11-science-q88",
+      "part": "B",
+      "contentKey": "28cbccf73516"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D2",
+      "stem": "Which phrase is closest in meaning to 'ubiquitous'?",
+      "options": [
+        "found everywhere",
+        "very rare",
+        "highly useful",
+        "extremely old"
+      ],
+      "answer": "found everywhere",
+      "explanation": "Ubiquitous means present everywhere",
+      "seconds": 30,
+      "paramIds": [
+        "p61",
+        "p69"
+      ],
+      "id": "onb-cbse-g11-science-q89",
+      "part": "B",
+      "contentKey": "90af104465f9"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D2",
+      "stem": "Author is to novel as composer is to ...",
+      "options": [
+        "audience",
+        "orchestra",
+        "symphony",
+        "piano"
+      ],
+      "answer": "symphony",
+      "explanation": "What each creates",
+      "seconds": 30,
+      "paramIds": [
+        "p61",
+        "p69"
+      ],
+      "id": "onb-cbse-g11-science-q90",
+      "part": "B",
+      "contentKey": "cbb2594f4607"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D3",
+      "stem": "Some economists are writers. All writers are readers. Which statement must be true?",
+      "options": [
+        "All readers are economists",
+        "No reader is an economist",
+        "Some economists are readers",
+        "All economists are writers"
+      ],
+      "answer": "Some economists are readers",
+      "explanation": "The economists who are writers are also readers",
+      "seconds": 60,
+      "paramIds": [
+        "p61",
+        "p65",
+        "p69"
+      ],
+      "id": "onb-cbse-g11-science-q91",
+      "part": "B",
+      "contentKey": "898351f148c8"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D3",
+      "stem": "Claim: 'Since the new study app launched, the school's test scores rose, so the app raised scores.' Which fact, if true, most weakens the claim?",
+      "options": [
+        "The school also hired extra teachers at the same time",
+        "Students said they liked the app",
+        "The app is free",
+        "Scores rose most in maths"
+      ],
+      "answer": "The school also hired extra teachers at the same time",
+      "explanation": "Another change at the same time offers a different explanation",
+      "seconds": 75,
+      "paramIds": [
+        "p61",
+        "p65",
+        "p69"
+      ],
+      "id": "onb-cbse-g11-science-q92",
+      "part": "B",
+      "contentKey": "76a3f6583cee"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D2",
+      "stem": "What comes next? AZ, BY, CX, ?",
+      "options": [
+        "EW",
+        "DX",
+        "DW",
+        "DV"
+      ],
+      "answer": "DW",
+      "explanation": "First letters go forward, second letters go backward",
+      "seconds": 30,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "id": "onb-cbse-g11-science-q93",
+      "part": "B",
+      "contentKey": "7e42fa87e73c"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D2",
+      "stem": "If 2 ⊕ 3 = 13 and 3 ⊕ 4 = 25, what is 4 ⊕ 5?",
+      "options": [
+        "81",
+        "45",
+        "41",
+        "20"
+      ],
+      "answer": "41",
+      "explanation": "a ⊕ b = a² + b²: 16 + 25 = 41",
+      "seconds": 60,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "id": "onb-cbse-g11-science-q94",
+      "part": "B",
+      "contentKey": "ee495a503bcb"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D3",
+      "stem": "What comes next? 1, 2, 6, 24, 120, ?",
+      "options": [
+        "240",
+        "720",
+        "600",
+        "144"
+      ],
+      "answer": "720",
+      "explanation": "Multiply by 2, 3, 4, 5, then 6",
+      "seconds": 60,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "id": "onb-cbse-g11-science-q95",
+      "part": "B",
+      "contentKey": "59584204a824"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D3",
+      "stem": "Figures: shaded triangle, unshaded square, shaded pentagon, ... Each figure gains one side and the shading alternates. What is the next figure?",
+      "options": [
+        "an unshaded pentagon",
+        "an unshaded hexagon",
+        "a shaded heptagon",
+        "a shaded hexagon"
+      ],
+      "answer": "an unshaded hexagon",
+      "explanation": "Six sides, and the shading switches back to unshaded",
+      "seconds": 60,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "id": "onb-cbse-g11-science-q96",
+      "part": "B",
+      "contentKey": "089202f449ff"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D2",
+      "stem": "What is the smaller angle between the hour and minute hands of a clock at 3:15?",
+      "options": [
+        "0°",
+        "15°",
+        "22.5°",
+        "7.5°"
+      ],
+      "answer": "7.5°",
+      "explanation": "The hour hand has moved a quarter of 30° past the 3",
+      "seconds": 60,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "id": "onb-cbse-g11-science-q97",
+      "part": "B",
+      "contentKey": "5fdd3b770309"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D2",
+      "stem": "Opposite faces of a die add up to 7. A die shows 1 on top, 2 at the front and 3 on the right. What number is on the bottom?",
+      "options": [
+        "6",
+        "4",
+        "2",
+        "5"
+      ],
+      "answer": "6",
+      "explanation": "Bottom is opposite top: 7 - 1 = 6",
+      "seconds": 45,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 160 140\" width=\"160\" height=\"140\" stroke=\"currentColor\" fill=\"none\" stroke-width=\"2\"><polygon points=\"20,40 100,40 100,120 20,120\"/><polygon points=\"20,40 50,15 130,15 100,40\"/><polygon points=\"100,40 130,15 130,95 100,120\"/><text x=\"60\" y=\"88\" font-size=\"26\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"75\" y=\"34\" font-size=\"18\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">1</text><text x=\"115\" y=\"75\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">3</text></svg>",
+      "id": "onb-cbse-g11-science-q98",
+      "part": "B",
+      "contentKey": "cb65a76edcea"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D3",
+      "stem": "From home you walk 4 km north and then 3 km east. How far are you from home in a straight line?",
+      "options": [
+        "7 km",
+        "1 km",
+        "5 km",
+        "6 km"
+      ],
+      "answer": "5 km",
+      "explanation": "A 3-4-5 right triangle",
+      "seconds": 45,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "id": "onb-cbse-g11-science-q99",
+      "part": "B",
+      "contentKey": "40f6ae63a66b"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D3",
+      "stem": "A 3 x 3 x 3 cube is painted on all faces and cut into 27 small cubes. How many small cubes have exactly one painted face?",
+      "options": [
+        "6",
+        "1",
+        "12",
+        "8"
+      ],
+      "answer": "6",
+      "explanation": "One at the centre of each face",
+      "seconds": 60,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "id": "onb-cbse-g11-science-q100",
+      "part": "B",
+      "contentKey": "efc87feb69df"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "On a normal school day, how long do you study at home (not counting tuition)?",
+      "responseType": "single",
+      "paramId": "p31",
+      "options": [
+        {
+          "label": "Less than 1 hour",
+          "value": 0.5
+        },
+        {
+          "label": "1 to 2 hours",
+          "value": 1.5
+        },
+        {
+          "label": "2 to 3 hours",
+          "value": 2.5
+        },
+        {
+          "label": "3 to 4 hours",
+          "value": 3.5
+        },
+        {
+          "label": "More than 4 hours",
+          "value": 4.5
+        }
+      ],
+      "unit": "hours",
+      "id": "onb-cbse-g11-science-q101",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "a3188617eeb3"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "When do you usually study best?",
+      "responseType": "single",
+      "paramId": "p33",
+      "options": [
+        {
+          "label": "Early morning",
+          "value": "early_morning"
+        },
+        {
+          "label": "Afternoon",
+          "value": "afternoon"
+        },
+        {
+          "label": "Evening",
+          "value": "evening"
+        },
+        {
+          "label": "Late night",
+          "value": "late_night"
+        }
+      ],
+      "id": "onb-cbse-g11-science-q102",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "4bff65265626"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How long is a typical study session before you take a break?",
+      "responseType": "single",
+      "paramId": "p34",
+      "options": [
+        {
+          "label": "15 to 20 minutes",
+          "value": 20
+        },
+        {
+          "label": "30 to 45 minutes",
+          "value": 40
+        },
+        {
+          "label": "About an hour",
+          "value": 60
+        },
+        {
+          "label": "90 minutes or more",
+          "value": 90
+        }
+      ],
+      "unit": "minutes",
+      "id": "onb-cbse-g11-science-q103",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "09d32e5c0254"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How often do you revise topics you have already finished?",
+      "responseType": "single",
+      "paramId": "p39",
+      "options": [
+        {
+          "label": "Rarely",
+          "value": "rarely"
+        },
+        {
+          "label": "Only before tests",
+          "value": "before_tests"
+        },
+        {
+          "label": "Every week",
+          "value": "weekly"
+        },
+        {
+          "label": "Most days",
+          "value": "daily"
+        }
+      ],
+      "id": "onb-cbse-g11-science-q104",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "0d286009ae6f"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How do you usually revise?",
+      "responseType": "single",
+      "paramId": "p40",
+      "options": [
+        {
+          "label": "Re-reading notes or the textbook",
+          "value": "reread"
+        },
+        {
+          "label": "Highlighting or rewriting notes",
+          "value": "rewrite"
+        },
+        {
+          "label": "Doing practice questions",
+          "value": "practice"
+        },
+        {
+          "label": "Testing myself with flashcards or quizzes",
+          "value": "self_test"
+        },
+        {
+          "label": "Explaining it to someone else",
+          "value": "teach"
+        }
+      ],
+      "id": "onb-cbse-g11-science-q105",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "fec782fd153e"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "I put off starting homework until the last minute.",
+      "responseType": "scale",
+      "paramId": "p46",
+      "options": [
+        {
+          "label": "1 Never",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Always",
+          "value": 5
+        }
+      ],
+      "id": "onb-cbse-g11-science-q106",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "b31ed6ad6c6c"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Where is your phone while you study?",
+      "responseType": "single",
+      "paramId": "p105",
+      "options": [
+        {
+          "label": "In another room",
+          "value": "away"
+        },
+        {
+          "label": "Nearby on silent",
+          "value": "silent_nearby"
+        },
+        {
+          "label": "With me, I check it often",
+          "value": "checking"
+        },
+        {
+          "label": "I study on my phone",
+          "value": "study_device"
+        }
+      ],
+      "id": "onb-cbse-g11-science-q107",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "d194a9f578b8"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Which helps you learn a new topic most?",
+      "responseType": "single",
+      "paramId": "p48",
+      "options": [
+        {
+          "label": "Watching a video",
+          "value": "video"
+        },
+        {
+          "label": "Reading and making notes",
+          "value": "reading"
+        },
+        {
+          "label": "Trying problems straight away",
+          "value": "practice"
+        },
+        {
+          "label": "Discussing it with someone",
+          "value": "discussion"
+        }
+      ],
+      "id": "onb-cbse-g11-science-q108",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "c23e54729bc0"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Do you prefer studying alone or with others?",
+      "responseType": "single",
+      "paramId": "p50",
+      "options": [
+        {
+          "label": "Alone",
+          "value": "solo"
+        },
+        {
+          "label": "With one friend",
+          "value": "pair"
+        },
+        {
+          "label": "In a group",
+          "value": "group"
+        },
+        {
+          "label": "It depends on the subject",
+          "value": "mixed"
+        }
+      ],
+      "id": "onb-cbse-g11-science-q109",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "70f11b4add34"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "When you get stuck on a question, what do you usually do first?",
+      "responseType": "single",
+      "paramId": "p49",
+      "options": [
+        {
+          "label": "Ask my teacher",
+          "value": "teacher"
+        },
+        {
+          "label": "Ask a friend or sibling",
+          "value": "peer"
+        },
+        {
+          "label": "Search online or watch a video",
+          "value": "online"
+        },
+        {
+          "label": "Leave it and move on",
+          "value": "skip"
+        }
+      ],
+      "id": "onb-cbse-g11-science-q110",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "599b22b79bd2"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Do you go to tuition or coaching classes?",
+      "responseType": "single",
+      "paramId": "p21",
+      "options": [
+        {
+          "label": "No",
+          "value": "none"
+        },
+        {
+          "label": "Yes, for one subject",
+          "value": "one_subject"
+        },
+        {
+          "label": "Yes, for two or more subjects",
+          "value": "multi_subject"
+        },
+        {
+          "label": "Yes, at a coaching institute",
+          "value": "institute"
+        }
+      ],
+      "id": "onb-cbse-g11-science-q111",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "3c939f2b1013"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "I mostly study because ...",
+      "responseType": "single",
+      "paramId": "p123",
+      "options": [
+        {
+          "label": "I enjoy learning new things",
+          "value": "intrinsic"
+        },
+        {
+          "label": "I have a goal I want to reach",
+          "value": "goal"
+        },
+        {
+          "label": "I want good marks",
+          "value": "performance"
+        },
+        {
+          "label": "My family expects it",
+          "value": "external"
+        }
+      ],
+      "id": "onb-cbse-g11-science-q112",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "4ab1b901cdd5"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "If I work hard, I can get much better at a subject I find difficult.",
+      "responseType": "scale",
+      "paramId": "p125",
+      "options": [
+        {
+          "label": "1 Strongly disagree",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Strongly agree",
+          "value": 5
+        }
+      ],
+      "id": "onb-cbse-g11-science-q113",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "6efb13e3bd21"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "I like hard problems, even when I might get them wrong.",
+      "responseType": "scale",
+      "paramId": "p331",
+      "options": [
+        {
+          "label": "1 Strongly disagree",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Strongly agree",
+          "value": 5
+        }
+      ],
+      "id": "onb-cbse-g11-science-q114",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "80b24e607fdf"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Before a test, how nervous do you usually feel?",
+      "responseType": "scale",
+      "paramId": "p111",
+      "options": [
+        {
+          "label": "1 Calm",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Very nervous",
+          "value": 5
+        }
+      ],
+      "helpText": "Optional. This only helps us pace your plan and suggest support; it never affects your scores or recommendations.",
+      "alsoInforms": [
+        "p133"
+      ],
+      "id": "onb-cbse-g11-science-q115",
+      "tier": "T3",
+      "screened": true,
+      "optional": true,
+      "contentKey": "58e5770944cf"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "On school nights, how many hours do you usually sleep?",
+      "responseType": "single",
+      "paramId": "p83",
+      "options": [
+        {
+          "label": "Less than 6",
+          "value": 5.5
+        },
+        {
+          "label": "6 to 7",
+          "value": 6.5
+        },
+        {
+          "label": "7 to 8",
+          "value": 7.5
+        },
+        {
+          "label": "8 to 9",
+          "value": 8.5
+        },
+        {
+          "label": "More than 9",
+          "value": 9.5
+        }
+      ],
+      "helpText": "Optional. Used only to fit your timetable around enough rest.",
+      "unit": "hours",
+      "id": "onb-cbse-g11-science-q116",
+      "tier": "T3",
+      "screened": true,
+      "optional": true,
+      "contentKey": "55062a5c52b2"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Fixing or building things, like a bicycle, a model or a small circuit",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "R",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g11-science-q117",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "36e0422d9d06"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Working outdoors with tools, plants or animals",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "R",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g11-science-q118",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "c063e3c69b0f"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Doing experiments to find out why something happens",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "I",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g11-science-q119",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "0c12a884162e"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Solving tricky maths or logic puzzles",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "I",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g11-science-q120",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "058f5f9025f0"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Drawing, designing, writing stories or making music",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "A",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g11-science-q121",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "9234642a58af"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Acting, photography or making videos",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "A",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g11-science-q122",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "e7bfdb738978"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Explaining something to a friend until they understand it",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "S",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g11-science-q123",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "8f4da2390889"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Volunteering to help people in your community",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "S",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g11-science-q124",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "40f8337ef8af"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Leading a team or running a school club",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "E",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g11-science-q125",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "b91eb24feb37"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Pitching an idea or starting a small business",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "E",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g11-science-q126",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "6806cc5fc89c"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Keeping records or organising information neatly",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "C",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g11-science-q127",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "0c466df2c3f1"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Working with numbers, budgets or spreadsheets",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "C",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g11-science-q128",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "c884a471f58e"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How interested are you in studying abroad after school?",
+      "responseType": "scale",
+      "paramId": "p230",
+      "options": [
+        {
+          "label": "1 Not interested",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Very interested",
+          "value": 5
+        }
+      ],
+      "alsoInforms": [
+        "p231"
+      ],
+      "id": "onb-cbse-g11-science-q129",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "587ff74cc454"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Which career areas interest you right now? Pick up to three.",
+      "responseType": "multi",
+      "paramId": "p198",
+      "options": [
+        {
+          "label": "Engineering and technology",
+          "value": "engineering"
+        },
+        {
+          "label": "Medicine and health",
+          "value": "medicine"
+        },
+        {
+          "label": "Business, finance and commerce",
+          "value": "business"
+        },
+        {
+          "label": "Law, government and public policy",
+          "value": "law"
+        },
+        {
+          "label": "Design, media and the arts",
+          "value": "design"
+        },
+        {
+          "label": "Science and research",
+          "value": "research"
+        },
+        {
+          "label": "Teaching, psychology and social work",
+          "value": "social"
+        },
+        {
+          "label": "Not sure yet",
+          "value": "unsure"
+        }
+      ],
+      "max": 3,
+      "alsoInforms": [
+        "p199"
+      ],
+      "id": "onb-cbse-g11-science-q130",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "732c5efa2f1e"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Who does your child live with?",
+      "responseType": "single",
+      "paramId": "p154",
+      "optional": false,
+      "options": [
+        {
+          "label": "Both parents",
+          "value": "nuclear"
+        },
+        {
+          "label": "Parents and grandparents or other relatives",
+          "value": "joint"
+        },
+        {
+          "label": "One parent",
+          "value": "single_parent"
+        },
+        {
+          "label": "Another guardian",
+          "value": "guardian"
+        }
+      ],
+      "id": "onb-cbse-g11-science-q131",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "b4e573af0103"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "What is the highest education level in your child's home?",
+      "responseType": "single",
+      "paramId": "p155",
+      "optional": false,
+      "options": [
+        {
+          "label": "School",
+          "value": "school"
+        },
+        {
+          "label": "Bachelor's degree",
+          "value": "graduate"
+        },
+        {
+          "label": "Master's degree",
+          "value": "postgraduate"
+        },
+        {
+          "label": "Professional or doctoral degree (CA, MBBS, PhD, LLB...)",
+          "value": "professional"
+        }
+      ],
+      "id": "onb-cbse-g11-science-q132",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "9bb6e9dc0272"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Which best describes the main earner's work?",
+      "responseType": "single",
+      "paramId": "p156",
+      "optional": false,
+      "options": [
+        {
+          "label": "Salaried, private sector",
+          "value": "private"
+        },
+        {
+          "label": "Salaried, government or PSU",
+          "value": "government"
+        },
+        {
+          "label": "Own business",
+          "value": "business"
+        },
+        {
+          "label": "Self-employed professional",
+          "value": "professional"
+        },
+        {
+          "label": "Agriculture",
+          "value": "agriculture"
+        },
+        {
+          "label": "Other",
+          "value": "other"
+        }
+      ],
+      "id": "onb-cbse-g11-science-q133",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "53fbc806c89f"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Which languages are spoken at home?",
+      "responseType": "multi",
+      "paramId": "p157",
+      "optional": false,
+      "options": [
+        {
+          "label": "English",
+          "value": "en"
+        },
+        {
+          "label": "Hindi",
+          "value": "hi"
+        },
+        {
+          "label": "Another Indian language",
+          "value": "regional"
+        },
+        {
+          "label": "Another language",
+          "value": "other"
+        }
+      ],
+      "id": "onb-cbse-g11-science-q134",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "9b8c0fd0ab78"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "How involved are you in your child's daily study?",
+      "responseType": "single",
+      "paramId": "p159",
+      "optional": false,
+      "options": [
+        {
+          "label": "I check in every day",
+          "value": "daily"
+        },
+        {
+          "label": "A few times a week",
+          "value": "weekly"
+        },
+        {
+          "label": "Mainly around exams",
+          "value": "exams"
+        },
+        {
+          "label": "Rarely, my child manages it",
+          "value": "rarely"
+        }
+      ],
+      "id": "onb-cbse-g11-science-q135",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "6b01757b27ef"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Does your child attend tuition or coaching?",
+      "responseType": "single",
+      "paramId": "p21",
+      "optional": false,
+      "options": [
+        {
+          "label": "No",
+          "value": "none"
+        },
+        {
+          "label": "One subject",
+          "value": "one_subject"
+        },
+        {
+          "label": "Two or more subjects",
+          "value": "multi_subject"
+        },
+        {
+          "label": "A coaching institute (e.g. for JEE, NEET or boards)",
+          "value": "institute"
+        }
+      ],
+      "id": "onb-cbse-g11-science-q136",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "feb34567435d"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Annual household income (optional, helps us suggest scholarships)",
+      "responseType": "single",
+      "paramId": "p176",
+      "optional": true,
+      "options": [
+        {
+          "label": "Under ₹5 lakh",
+          "value": "lt_5l",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 500000
+          }
+        },
+        {
+          "label": "₹5 to 10 lakh",
+          "value": "5_10l",
+          "sets": {
+            "minInr": 500000,
+            "maxInr": 1000000
+          }
+        },
+        {
+          "label": "₹10 to 25 lakh",
+          "value": "10_25l",
+          "sets": {
+            "minInr": 1000000,
+            "maxInr": 2500000
+          }
+        },
+        {
+          "label": "₹25 to 50 lakh",
+          "value": "25_50l",
+          "sets": {
+            "minInr": 2500000,
+            "maxInr": 5000000
+          }
+        },
+        {
+          "label": "Over ₹50 lakh",
+          "value": "gt_50l",
+          "sets": {
+            "minInr": 5000000,
+            "maxInr": null
+          }
+        }
+      ],
+      "id": "onb-cbse-g11-science-q137",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "43104f173bc2"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "How much can you spend on extra learning each year (tuition, courses, tests)?",
+      "responseType": "single",
+      "paramId": "p178",
+      "optional": false,
+      "options": [
+        {
+          "label": "Under ₹50,000",
+          "value": "lt_50k",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 50000
+          }
+        },
+        {
+          "label": "₹50,000 to 1.5 lakh",
+          "value": "50k_150k",
+          "sets": {
+            "minInr": 50000,
+            "maxInr": 150000
+          }
+        },
+        {
+          "label": "₹1.5 to 3 lakh",
+          "value": "150k_300k",
+          "sets": {
+            "minInr": 150000,
+            "maxInr": 300000
+          }
+        },
+        {
+          "label": "₹3 to 6 lakh",
+          "value": "300k_600k",
+          "sets": {
+            "minInr": 300000,
+            "maxInr": 600000
+          }
+        },
+        {
+          "label": "Over ₹6 lakh",
+          "value": "gt_600k",
+          "sets": {
+            "minInr": 600000,
+            "maxInr": null
+          }
+        }
+      ],
+      "id": "onb-cbse-g11-science-q138",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "67072550cf5b"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "What total budget can you plan for an undergraduate degree in India?",
+      "responseType": "single",
+      "paramId": "p180",
+      "optional": false,
+      "options": [
+        {
+          "label": "Under ₹5 lakh",
+          "value": "lt_5l",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 500000
+          }
+        },
+        {
+          "label": "₹5 to 15 lakh",
+          "value": "5_15l",
+          "sets": {
+            "minInr": 500000,
+            "maxInr": 1500000
+          }
+        },
+        {
+          "label": "₹15 to 30 lakh",
+          "value": "15_30l",
+          "sets": {
+            "minInr": 1500000,
+            "maxInr": 3000000
+          }
+        },
+        {
+          "label": "Over ₹30 lakh",
+          "value": "gt_30l",
+          "sets": {
+            "minInr": 3000000,
+            "maxInr": null
+          }
+        }
+      ],
+      "id": "onb-cbse-g11-science-q139",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "832f80bd4135"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "If your child studies abroad, what total budget could you plan?",
+      "responseType": "single",
+      "paramId": "p181",
+      "optional": false,
+      "options": [
+        {
+          "label": "Not considering study abroad",
+          "value": "none",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 0
+          }
+        },
+        {
+          "label": "Under ₹25 lakh",
+          "value": "lt_25l",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 2500000
+          }
+        },
+        {
+          "label": "₹25 to 50 lakh",
+          "value": "25_50l",
+          "sets": {
+            "minInr": 2500000,
+            "maxInr": 5000000
+          }
+        },
+        {
+          "label": "₹50 lakh to 1 crore",
+          "value": "50l_1cr",
+          "sets": {
+            "minInr": 5000000,
+            "maxInr": 10000000
+          }
+        },
+        {
+          "label": "Over ₹1 crore",
+          "value": "gt_1cr",
+          "sets": {
+            "minInr": 10000000,
+            "maxInr": null
+          }
+        }
+      ],
+      "alsoInforms": [
+        "p192"
+      ],
+      "id": "onb-cbse-g11-science-q140",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "1da408987765"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Would you consider an education loan?",
+      "responseType": "single",
+      "paramId": "p182",
+      "optional": false,
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "label": "Maybe, depending on the course",
+          "value": "maybe"
+        },
+        {
+          "label": "No",
+          "value": "no"
+        }
+      ],
+      "id": "onb-cbse-g11-science-q141",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "29db07c379ba"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Which career direction would you like for your child?",
+      "responseType": "single",
+      "paramId": "p202",
+      "optional": false,
+      "options": [
+        {
+          "label": "Engineering and technology",
+          "value": "engineering"
+        },
+        {
+          "label": "Medicine and health",
+          "value": "medicine"
+        },
+        {
+          "label": "Business, finance and commerce",
+          "value": "business"
+        },
+        {
+          "label": "Law, government and public policy",
+          "value": "law"
+        },
+        {
+          "label": "Design, media and the arts",
+          "value": "design"
+        },
+        {
+          "label": "Science and research",
+          "value": "research"
+        },
+        {
+          "label": "Teaching, psychology and social work",
+          "value": "social"
+        },
+        {
+          "label": "Whatever my child chooses",
+          "value": "child_choice"
+        }
+      ],
+      "alsoInforms": [
+        "p203"
+      ],
+      "id": "onb-cbse-g11-science-q142",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "bc4252eaee6c"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "How supportive is your family of your child studying abroad?",
+      "responseType": "scale",
+      "paramId": "p234",
+      "optional": false,
+      "options": [
+        {
+          "label": "1 Not supportive",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Fully supportive",
+          "value": 5
+        }
+      ],
+      "id": "onb-cbse-g11-science-q143",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "9a84394f1a5b"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "What device and internet does your child use for study?",
+      "responseType": "single",
+      "paramId": "p193",
+      "optional": false,
+      "options": [
+        {
+          "label": "Own laptop or tablet with reliable internet",
+          "value": "own_device"
+        },
+        {
+          "label": "A shared family computer",
+          "value": "shared"
+        },
+        {
+          "label": "Mainly a phone",
+          "value": "phone_only"
+        },
+        {
+          "label": "Internet is often unreliable",
+          "value": "unreliable"
+        }
+      ],
+      "id": "onb-cbse-g11-science-q144",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "516a78042b4f"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "I consent to Learnibility processing my child's data to personalise their learning, as described in the privacy notice.",
+      "responseType": "consent",
+      "paramId": "p30",
+      "optional": false,
+      "options": [
+        {
+          "label": "I agree",
+          "value": "granted"
+        },
+        {
+          "label": "I do not agree",
+          "value": "refused"
+        }
+      ],
+      "helpText": "Required for a child under 18 (DPDP Act 2023, s.9(1)). You can withdraw consent at any time in Settings.",
+      "id": "onb-cbse-g11-science-q145",
+      "tier": "C",
+      "screened": false,
+      "contentKey": "1f4aba2a3948"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "I allow my child's selected work to be shown to teachers, tutors and counsellors on the platform.",
+      "responseType": "consent",
+      "paramId": "p277",
+      "optional": true,
+      "options": [
+        {
+          "label": "Yes",
+          "value": "granted"
+        },
+        {
+          "label": "Not now",
+          "value": "refused"
+        }
+      ],
+      "helpText": "Optional. Nothing is shared outside the platform without asking you again.",
+      "id": "onb-cbse-g11-science-q146",
+      "tier": "C",
+      "screened": false,
+      "contentKey": "f49d9421e2bb"
+    }
+  ]
+}

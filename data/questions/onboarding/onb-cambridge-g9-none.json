@@ -1,0 +1,4974 @@
+{
+  "schemaVersion": 1,
+  "generatedBy": "scripts/onboarding/build-forms.py",
+  "form": {
+    "formId": "onb-cambridge-g9-none",
+    "designId": "g9-cambridge",
+    "board": "cambridge",
+    "grade": 9,
+    "stream": "none",
+    "title": "Cambridge IGCSE year 1 onboarding test",
+    "minutes": {
+      "A": 32,
+      "B": 12,
+      "C": 8,
+      "P": 5
+    },
+    "partA": {
+      "pool": 84,
+      "delivered": 32
+    },
+    "scoring": {
+      "ladder": {
+        "start": "D2",
+        "floor": "D1",
+        "ceiling": "D3",
+        "hitsToStepUp": 2,
+        "weights": {
+          "D1": 1,
+          "D2": 2,
+          "D3": 3
+        }
+      },
+      "bandCutoffs": [
+        {
+          "band": "excellent",
+          "minPercent": 80
+        },
+        {
+          "band": "above_avg",
+          "minPercent": 65
+        },
+        {
+          "band": "average",
+          "minPercent": 45
+        },
+        {
+          "band": "below_avg",
+          "minPercent": 0
+        }
+      ],
+      "groups": [
+        {
+          "group": "maths",
+          "label": "Mathematics",
+          "subjectIds": [
+            "cambridge-g8-maths",
+            "cambridge-g9-maths"
+          ]
+        },
+        {
+          "group": "science",
+          "label": "Sciences (Physics, Chemistry, Biology)",
+          "subjectIds": [
+            "cambridge-g8-science",
+            "cambridge-g9-biology",
+            "cambridge-g9-chemistry",
+            "cambridge-g9-physics"
+          ]
+        },
+        {
+          "group": "english",
+          "label": "English",
+          "subjectIds": [
+            "cambridge-g8-english",
+            "cambridge-g9-english"
+          ]
+        },
+        {
+          "group": "social-science",
+          "label": "Humanities (History, Geography)",
+          "subjectIds": [
+            "cambridge-g8-social-science",
+            "cambridge-g9-geography",
+            "cambridge-g9-history"
+          ]
+        }
+      ],
+      "writes": [
+        {
+          "paramId": "p1",
+          "rule": "Grade of the form taken",
+          "source": "M1",
+          "confidence": "high"
+        },
+        {
+          "paramId": "p3",
+          "rule": "Board of the form taken",
+          "source": "M1",
+          "confidence": "high"
+        },
+        {
+          "paramId": "p5",
+          "rule": "Stream of the form taken (grades 11-12)",
+          "source": "M1",
+          "confidence": "high"
+        },
+        {
+          "paramId": "p278",
+          "rule": "Per subtopic seen: pMastery 0.7 if right at D2/D3, 0.55 if right at D1, 0.25 if wrong; level L0-L3 from the ladder step reached",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p279",
+          "rule": "Prerequisite-gap index = 100 x weighted misses / weighted items seen in slots 1-4, averaged over groups",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p13",
+          "rule": "Groups with the highest Part A percent (top 1-2, only if >= 65%)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p14",
+          "rule": "Groups with the lowest Part A percent (bottom 1-2, only if < 65%)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p140",
+          "rule": "Mean confidence (1-5) per group",
+          "source": "M1",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p141",
+          "rule": "Calibration = 1 - mean |confidence/5 - correct| over Part A (feeds the first MCI reading)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p284",
+          "rule": "Highest difficulty answered correctly twice in a row: D1 low, D2 medium, D3 high",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p61",
+          "rule": "Verbal reasoning = percent of Part B verbal items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p62",
+          "rule": "Numerical reasoning = percent of Part B numerical items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p63",
+          "rule": "Abstract reasoning = percent of Part B abstract items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p64",
+          "rule": "Spatial reasoning = percent of Part B spatial items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p65",
+          "rule": "Logical deduction = percent right on Part B items tagged p65",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p68",
+          "rule": "Numeracy fluency = numerical percent scaled by speed (right answers under target time count 1.2x, max 100)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p69",
+          "rule": "Processing speed = 100 x share of Part B items answered right within target seconds",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p200",
+          "rule": "RIASEC profile: each career-interest item scored 1-5; letter score = mean of its 2 items; top 3 letters form the code (e.g. IRC)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p31",
+          "rule": "Answer to onb-cambridge-g9-none-q101 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p33",
+          "rule": "Answer to onb-cambridge-g9-none-q102 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p34",
+          "rule": "Answer to onb-cambridge-g9-none-q103 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p39",
+          "rule": "Answer to onb-cambridge-g9-none-q104 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p40",
+          "rule": "Answer to onb-cambridge-g9-none-q105 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p46",
+          "rule": "Answer to onb-cambridge-g9-none-q106 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p105",
+          "rule": "Answer to onb-cambridge-g9-none-q107 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p48",
+          "rule": "Answer to onb-cambridge-g9-none-q108 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p50",
+          "rule": "Answer to onb-cambridge-g9-none-q109 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p49",
+          "rule": "Answer to onb-cambridge-g9-none-q110 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p21",
+          "rule": "Answer to onb-cambridge-g9-none-q111 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p123",
+          "rule": "Answer to onb-cambridge-g9-none-q112 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p125",
+          "rule": "Answer to onb-cambridge-g9-none-q113 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p331",
+          "rule": "Answer to onb-cambridge-g9-none-q114 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p111",
+          "rule": "Answer to onb-cambridge-g9-none-q115 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p83",
+          "rule": "Answer to onb-cambridge-g9-none-q116 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p230",
+          "rule": "Answer to onb-cambridge-g9-none-q129 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p198",
+          "rule": "Answer to onb-cambridge-g9-none-q130 (multi)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p154",
+          "rule": "Answer to onb-cambridge-g9-none-q131 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p155",
+          "rule": "Answer to onb-cambridge-g9-none-q132 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p156",
+          "rule": "Answer to onb-cambridge-g9-none-q133 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p157",
+          "rule": "Answer to onb-cambridge-g9-none-q134 (multi)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p159",
+          "rule": "Answer to onb-cambridge-g9-none-q135 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p176",
+          "rule": "Answer to onb-cambridge-g9-none-q137 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p178",
+          "rule": "Answer to onb-cambridge-g9-none-q138 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p180",
+          "rule": "Answer to onb-cambridge-g9-none-q139 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p181",
+          "rule": "Answer to onb-cambridge-g9-none-q140 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p182",
+          "rule": "Answer to onb-cambridge-g9-none-q141 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p202",
+          "rule": "Answer to onb-cambridge-g9-none-q142 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p234",
+          "rule": "Answer to onb-cambridge-g9-none-q143 (scale)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p193",
+          "rule": "Answer to onb-cambridge-g9-none-q144 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p30",
+          "rule": "Answer to onb-cambridge-g9-none-q145 (consent)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p277",
+          "rule": "Answer to onb-cambridge-g9-none-q146 (consent)",
+          "source": "M2",
+          "confidence": "medium"
+        }
+      ],
+      "reasoning": [
+        {
+          "domain": "numerical",
+          "paramId": "p62",
+          "itemIds": [
+            "onb-cambridge-g9-none-q85",
+            "onb-cambridge-g9-none-q86",
+            "onb-cambridge-g9-none-q87",
+            "onb-cambridge-g9-none-q88"
+          ]
+        },
+        {
+          "domain": "verbal",
+          "paramId": "p61",
+          "itemIds": [
+            "onb-cambridge-g9-none-q89",
+            "onb-cambridge-g9-none-q90",
+            "onb-cambridge-g9-none-q91",
+            "onb-cambridge-g9-none-q92"
+          ]
+        },
+        {
+          "domain": "abstract",
+          "paramId": "p63",
+          "itemIds": [
+            "onb-cambridge-g9-none-q93",
+            "onb-cambridge-g9-none-q94",
+            "onb-cambridge-g9-none-q95",
+            "onb-cambridge-g9-none-q96"
+          ]
+        },
+        {
+          "domain": "spatial",
+          "paramId": "p64",
+          "itemIds": [
+            "onb-cambridge-g9-none-q97",
+            "onb-cambridge-g9-none-q98",
+            "onb-cambridge-g9-none-q99",
+            "onb-cambridge-g9-none-q100"
+          ]
+        }
+      ],
+      "riasec": {
+        "R": [
+          "onb-cambridge-g9-none-q117",
+          "onb-cambridge-g9-none-q118"
+        ],
+        "I": [
+          "onb-cambridge-g9-none-q119",
+          "onb-cambridge-g9-none-q120"
+        ],
+        "A": [
+          "onb-cambridge-g9-none-q121",
+          "onb-cambridge-g9-none-q122"
+        ],
+        "S": [
+          "onb-cambridge-g9-none-q123",
+          "onb-cambridge-g9-none-q124"
+        ],
+        "E": [
+          "onb-cambridge-g9-none-q125",
+          "onb-cambridge-g9-none-q126"
+        ],
+        "C": [
+          "onb-cambridge-g9-none-q127",
+          "onb-cambridge-g9-none-q128"
+        ]
+      }
+    }
+  },
+  "items": [
+    {
+      "id": "onb-cambridge-g9-none-q01",
+      "subtopicId": "cambridge-g8-maths-ch04-st1",
+      "chapterId": "cambridge-g8-maths-ch04",
+      "subjectId": "cambridge-g8-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Solve 5x - 7 = 3x + 9.",
+      "answer": "8",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 1,
+      "half": "prerequisite",
+      "subtopicHint": "Linear equations with unknowns on both sides",
+      "subtopicLinked": true,
+      "contentKey": "9adbd7401954",
+      "options": [
+        "1",
+        "-8",
+        "8",
+        "16"
+      ],
+      "markingKey": "C. 8. 2x = 16"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q02",
+      "subtopicId": "cambridge-g8-maths-ch05-st4",
+      "chapterId": "cambridge-g8-maths-ch05",
+      "subjectId": "cambridge-g8-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A right-angled triangle has shorter sides 6 cm and 8 cm. How long is the hypotenuse?",
+      "answer": "10 cm",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Pythagoras' theorem",
+      "subtopicLinked": true,
+      "contentKey": "f6cc418dbcd0",
+      "options": [
+        "14 cm",
+        "48 cm",
+        "10 cm",
+        "100 cm"
+      ],
+      "markingKey": "C. 10 cm. 6² + 8² = 100, and √100 = 10"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q03",
+      "subtopicId": "cambridge-g8-maths-ch05-st4",
+      "chapterId": "cambridge-g8-maths-ch05",
+      "subjectId": "cambridge-g8-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A 13 m ladder leans against a wall with its foot 5 m from the wall. How high up the wall does it reach?",
+      "answer": "12 m",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Pythagoras' theorem",
+      "subtopicLinked": true,
+      "contentKey": "7dbffbb2764f",
+      "options": [
+        "18 m",
+        "12 m",
+        "8 m",
+        "14 m"
+      ],
+      "markingKey": "B. 12 m. 13² - 5² = 144, and √144 = 12"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q04",
+      "subtopicId": "cambridge-g8-maths-ch02-st3",
+      "chapterId": "cambridge-g8-maths-ch02",
+      "subjectId": "cambridge-g8-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Simplify 4a + 3b - a + 2b.",
+      "answer": "3a + 5b",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Simplifying and expanding expressions; identities",
+      "subtopicLinked": true,
+      "contentKey": "2fdb9a5c0218",
+      "options": [
+        "5a + 5b",
+        "3a + b",
+        "8ab",
+        "3a + 5b"
+      ],
+      "markingKey": "D. 3a + 5b. Collect like terms"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q05",
+      "subtopicId": "cambridge-g8-maths-ch02-st3",
+      "chapterId": "cambridge-g8-maths-ch02",
+      "subjectId": "cambridge-g8-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Expand (a + b)².",
+      "answer": "a² + 2ab + b²",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Simplifying and expanding expressions; identities",
+      "subtopicLinked": true,
+      "contentKey": "25c242fc788a",
+      "options": [
+        "a² + ab + b²",
+        "a² + 2ab + b²",
+        "2a + 2b",
+        "a² + b²"
+      ],
+      "markingKey": "B. a² + 2ab + b². (a + b)(a + b) = a² + ab + ab + b²"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q06",
+      "subtopicId": "cambridge-g8-maths-ch02-st3",
+      "chapterId": "cambridge-g8-maths-ch02",
+      "subjectId": "cambridge-g8-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Use an identity to work out 102 x 98.",
+      "answer": "9996",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Simplifying and expanding expressions; identities",
+      "subtopicLinked": true,
+      "contentKey": "c08fcf48f5a8",
+      "options": [
+        "10004",
+        "9604",
+        "9984",
+        "9996"
+      ],
+      "markingKey": "D. 9996. (100 + 2)(100 - 2) = 100² - 2² = 9996"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q07",
+      "subtopicId": "cambridge-g8-maths-ch03-st3",
+      "chapterId": "cambridge-g8-maths-ch03",
+      "subjectId": "cambridge-g8-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Write 3/5 as a percentage.",
+      "answer": "60%",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Percentages and percentage change",
+      "subtopicLinked": true,
+      "contentKey": "89330760168d",
+      "options": [
+        "60%",
+        "35%",
+        "53%",
+        "6%"
+      ],
+      "markingKey": "A. 60%. 3/5 = 0.6 = 60%"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q08",
+      "subtopicId": "cambridge-g8-maths-ch03-st3",
+      "chapterId": "cambridge-g8-maths-ch03",
+      "subjectId": "cambridge-g8-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A price rises from 12 000 to 13 800. What is the percentage increase?",
+      "answer": "15%",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Percentages and percentage change",
+      "subtopicLinked": true,
+      "contentKey": "dd48d5e40f25",
+      "options": [
+        "18%",
+        "13.8%",
+        "1.5%",
+        "15%"
+      ],
+      "markingKey": "D. 15%. Increase 1 800 ÷ 12 000 = 0.15"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q09",
+      "subtopicId": "cambridge-g8-maths-ch03-st3",
+      "chapterId": "cambridge-g8-maths-ch03",
+      "subjectId": "cambridge-g8-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "After a 25% discount a book costs 450. What was the original price?",
+      "answer": "600",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Percentages and percentage change",
+      "subtopicLinked": true,
+      "contentKey": "e6dea67d2cbd",
+      "options": [
+        "337.5",
+        "600",
+        "562.5",
+        "475"
+      ],
+      "markingKey": "B. 600. 450 is 75% of the original, and 450 ÷ 0.75 = 600"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q10",
+      "subtopicId": "cambridge-g9-maths-ch01-st1",
+      "chapterId": "cambridge-g9-maths-ch01",
+      "subjectId": "cambridge-g9-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Which of these numbers is prime?",
+      "answer": "29",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Types of number",
+      "subtopicLinked": true,
+      "contentKey": "f41012b62bb3",
+      "options": [
+        "21",
+        "29",
+        "27",
+        "39"
+      ],
+      "markingKey": "B. 29. 21 = 3 x 7, 27 = 3³, 39 = 3 x 13"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q11",
+      "subtopicId": "cambridge-g9-maths-ch01-st1",
+      "chapterId": "cambridge-g9-maths-ch01",
+      "subjectId": "cambridge-g9-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which of these is both a square number and a cube number?",
+      "answer": "64",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Types of number",
+      "subtopicLinked": true,
+      "contentKey": "846589afaf4e",
+      "options": [
+        "27",
+        "36",
+        "64",
+        "16"
+      ],
+      "markingKey": "C. 64. 64 = 8² = 4³"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q12",
+      "subtopicId": "cambridge-g9-maths-ch01-st1",
+      "chapterId": "cambridge-g9-maths-ch01",
+      "subjectId": "cambridge-g9-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "What is the smallest square number that is a multiple of both 12 and 18?",
+      "answer": "36",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Types of number",
+      "subtopicLinked": true,
+      "contentKey": "e7791e10b424",
+      "options": [
+        "72",
+        "144",
+        "216",
+        "36"
+      ],
+      "markingKey": "D. 36. LCM(12, 18) = 36, which is already 6²"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q13",
+      "subtopicId": "cambridge-g9-maths-ch01-st2",
+      "chapterId": "cambridge-g9-maths-ch01",
+      "subjectId": "cambridge-g9-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "What is the HCF of 12 and 18?",
+      "answer": "6",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Prime factors, HCF and LCM",
+      "subtopicLinked": true,
+      "contentKey": "76986cc4542e",
+      "options": [
+        "3",
+        "36",
+        "6",
+        "2"
+      ],
+      "markingKey": "C. 6. The largest number dividing both"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q14",
+      "subtopicId": "cambridge-g9-maths-ch01-st2",
+      "chapterId": "cambridge-g9-maths-ch01",
+      "subjectId": "cambridge-g9-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Write 360 as a product of prime factors in index form.",
+      "answer": "2³ x 3² x 5",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Prime factors, HCF and LCM",
+      "subtopicLinked": true,
+      "contentKey": "1f54edde8313",
+      "options": [
+        "2 x 3 x 60",
+        "2² x 3² x 10",
+        "2³ x 3² x 5",
+        "2³ x 45"
+      ],
+      "markingKey": "C. 2³ x 3² x 5. 360 = 8 x 9 x 5"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q15",
+      "subtopicId": "cambridge-g9-maths-ch01-st2",
+      "chapterId": "cambridge-g9-maths-ch01",
+      "subjectId": "cambridge-g9-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Buses leave a station every 12 minutes and trains every 20 minutes. Both leave at 09:00. When do they next leave together?",
+      "answer": "10:00",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Prime factors, HCF and LCM",
+      "subtopicLinked": true,
+      "contentKey": "a01dd5e5e9c0",
+      "options": [
+        "10:00",
+        "09:40",
+        "10:20",
+        "09:32"
+      ],
+      "markingKey": "A. 10:00. LCM(12, 20) = 60 minutes"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q16",
+      "subtopicId": "cambridge-g9-maths-ch02-st3",
+      "chapterId": "cambridge-g9-maths-ch02",
+      "subjectId": "cambridge-g9-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Expand 5(2x - 3).",
+      "answer": "10x - 15",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Expanding brackets including products of binomials",
+      "subtopicLinked": true,
+      "contentKey": "74eae84e34c6",
+      "options": [
+        "10x - 3",
+        "7x - 15",
+        "10x - 15",
+        "10x + 15"
+      ],
+      "markingKey": "C. 10x - 15. Multiply each term by 5"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q17",
+      "subtopicId": "cambridge-g9-maths-ch02-st3",
+      "chapterId": "cambridge-g9-maths-ch02",
+      "subjectId": "cambridge-g9-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Expand and simplify (x - 4)(x + 6).",
+      "answer": "x² + 2x - 24",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Expanding brackets including products of binomials",
+      "subtopicLinked": true,
+      "contentKey": "f3ed27f2f1d4",
+      "options": [
+        "x² + 10x - 24",
+        "x² - 2x - 24",
+        "x² + 2x + 24",
+        "x² + 2x - 24"
+      ],
+      "markingKey": "D. x² + 2x - 24. x² + 6x - 4x - 24"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q18",
+      "subtopicId": "cambridge-g9-maths-ch02-st3",
+      "chapterId": "cambridge-g9-maths-ch02",
+      "subjectId": "cambridge-g9-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Expand and simplify (x + 1)(x + 2)(x + 3).",
+      "answer": "x³ + 6x² + 11x + 6",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Expanding brackets including products of binomials",
+      "subtopicLinked": true,
+      "contentKey": "cbe903ca6812",
+      "options": [
+        "x³ + 6x² + 11x + 5",
+        "x³ + 6x² + 11x + 6",
+        "x³ + 5x² + 11x + 6",
+        "x³ + 6x² + 6x + 6"
+      ],
+      "markingKey": "B. x³ + 6x² + 11x + 6. (x² + 3x + 2)(x + 3)"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q19",
+      "subtopicId": "cambridge-g9-maths-ch02-st4",
+      "chapterId": "cambridge-g9-maths-ch02",
+      "subjectId": "cambridge-g9-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Simplify x⁵ ÷ x².",
+      "answer": "x³",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Laws of indices including fractional indices",
+      "subtopicLinked": true,
+      "contentKey": "e2c346662453",
+      "options": [
+        "x^2.5",
+        "x⁷",
+        "x¹⁰",
+        "x³"
+      ],
+      "markingKey": "D. x³. Subtract the indices"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q20",
+      "subtopicId": "cambridge-g9-maths-ch02-st4",
+      "chapterId": "cambridge-g9-maths-ch02",
+      "subjectId": "cambridge-g9-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Evaluate 27^(1/3).",
+      "answer": "3",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Laws of indices including fractional indices",
+      "subtopicLinked": true,
+      "contentKey": "27b9e1416bb5",
+      "options": [
+        "3",
+        "1/3",
+        "81",
+        "9"
+      ],
+      "markingKey": "A. 3. The cube root of 27"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q21",
+      "subtopicId": "cambridge-g9-maths-ch02-st4",
+      "chapterId": "cambridge-g9-maths-ch02",
+      "subjectId": "cambridge-g9-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Evaluate 16^(-3/4).",
+      "answer": "1/8",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Laws of indices including fractional indices",
+      "subtopicLinked": true,
+      "contentKey": "d77e081b9311",
+      "options": [
+        "8",
+        "1/8",
+        "1/12",
+        "-8"
+      ],
+      "markingKey": "B. 1/8. 16^(1/4) = 2, 2³ = 8, and the negative index gives 1/8"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q22",
+      "subtopicId": "cambridge-g8-science-ch03-st2",
+      "chapterId": "cambridge-g8-science-ch03",
+      "subjectId": "cambridge-g8-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Why does the smell of perfume spread across a still room?",
+      "answer": "Its particles diffuse, moving randomly from high to low concentration",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 1,
+      "half": "prerequisite",
+      "subtopicHint": "Particles and diffusion",
+      "subtopicLinked": true,
+      "contentKey": "f38e12708c4b",
+      "options": [
+        "Air pushes the perfume in one direction",
+        "The particles grow larger",
+        "Its particles diffuse, moving randomly from high to low concentration",
+        "Perfume is lighter than air, so it only rises"
+      ],
+      "markingKey": "C. Its particles diffuse, moving randomly from high to low concentration. Random particle motion spreads the perfume out"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q23",
+      "subtopicId": "cambridge-g8-science-ch02-st1",
+      "chapterId": "cambridge-g8-science-ch02",
+      "subjectId": "cambridge-g8-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Which of these is a compound?",
+      "answer": "water",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Elements, compounds and mixtures",
+      "subtopicLinked": true,
+      "contentKey": "634d67cdfe9e",
+      "options": [
+        "water",
+        "air",
+        "iron",
+        "oxygen"
+      ],
+      "markingKey": "A. water. Water is hydrogen and oxygen chemically joined; air is a mixture"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q24",
+      "subtopicId": "cambridge-g8-science-ch02-st1",
+      "chapterId": "cambridge-g8-science-ch02",
+      "subjectId": "cambridge-g8-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which statement about a mixture of iron filings and sulfur powder is true?",
+      "answer": "The iron can be separated with a magnet",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Elements, compounds and mixtures",
+      "subtopicLinked": true,
+      "contentKey": "1aee743732fc",
+      "options": [
+        "It has a fixed formula",
+        "It cannot be separated physically",
+        "The iron can be separated with a magnet",
+        "It is a new substance"
+      ],
+      "markingKey": "C. The iron can be separated with a magnet. In a mixture each substance keeps its own properties"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q25",
+      "subtopicId": "cambridge-g8-science-ch03-st1",
+      "chapterId": "cambridge-g8-science-ch03",
+      "subjectId": "cambridge-g8-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Pressure is",
+      "answer": "force per unit area",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Pressure as force per unit area",
+      "subtopicLinked": true,
+      "contentKey": "b45a881221dc",
+      "options": [
+        "mass per unit volume",
+        "force per unit area",
+        "force x distance",
+        "energy per second"
+      ],
+      "markingKey": "B. force per unit area. p = F / A"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q26",
+      "subtopicId": "cambridge-g8-science-ch03-st1",
+      "chapterId": "cambridge-g8-science-ch03",
+      "subjectId": "cambridge-g8-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Why is it easier to cut with a sharp knife than a blunt one?",
+      "answer": "The sharp edge has a smaller area, so the same force gives more pressure",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Pressure as force per unit area",
+      "subtopicLinked": true,
+      "contentKey": "2c49dc2e3726",
+      "options": [
+        "Blunt knives only have more friction",
+        "Sharp knives push with more force by themselves",
+        "The sharp knife is heavier",
+        "The sharp edge has a smaller area, so the same force gives more pressure"
+      ],
+      "markingKey": "D. The sharp edge has a smaller area, so the same force gives more pressure. Smaller area, larger pressure"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q27",
+      "subtopicId": "cambridge-g8-science-ch03-st1",
+      "chapterId": "cambridge-g8-science-ch03",
+      "subjectId": "cambridge-g8-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A box weighing 600 N rests on a base of area 0.5 m². What pressure does it exert on the floor?",
+      "answer": "1200 Pa",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Pressure as force per unit area",
+      "subtopicLinked": true,
+      "contentKey": "09b09875bd5a",
+      "options": [
+        "1200 Pa",
+        "600 Pa",
+        "0.0008 Pa",
+        "300 Pa"
+      ],
+      "markingKey": "A. 1200 Pa. 600 ÷ 0.5 = 1200 N/m²"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q28",
+      "subtopicId": "cambridge-g8-science-ch07-st1",
+      "chapterId": "cambridge-g8-science-ch07",
+      "subjectId": "cambridge-g8-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Which part of a cell controls its activities?",
+      "answer": "nucleus",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Cell structure: plant and animal cells",
+      "subtopicLinked": true,
+      "contentKey": "7ac5a161d674",
+      "options": [
+        "cell wall",
+        "cytoplasm",
+        "cell membrane",
+        "nucleus"
+      ],
+      "markingKey": "D. nucleus. The nucleus holds the genetic instructions"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q29",
+      "subtopicId": "cambridge-g8-science-ch07-st1",
+      "chapterId": "cambridge-g8-science-ch07",
+      "subjectId": "cambridge-g8-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Onion peel cells and cheek cells are viewed under a microscope. Which difference will you see?",
+      "answer": "Onion cells have a cell wall and a regular shape; cheek cells do not",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Cell structure: plant and animal cells",
+      "subtopicLinked": true,
+      "contentKey": "63bbba331030",
+      "options": [
+        "Cheek cells have a large central vacuole",
+        "Cheek cells have chloroplasts",
+        "Onion cells have no nucleus",
+        "Onion cells have a cell wall and a regular shape; cheek cells do not"
+      ],
+      "markingKey": "D. Onion cells have a cell wall and a regular shape; cheek cells do not. Only plant cells have cell walls"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q30",
+      "subtopicId": "cambridge-g8-science-ch07-st1",
+      "chapterId": "cambridge-g8-science-ch07",
+      "subjectId": "cambridge-g8-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A cell placed in pure water swells but does not burst. Which cell is it most likely to be?",
+      "answer": "A plant cell, because its cell wall resists bursting",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Cell structure: plant and animal cells",
+      "subtopicLinked": true,
+      "contentKey": "ee1d929404de",
+      "options": [
+        "A plant cell, because its cell wall resists bursting",
+        "Any cell, since water never enters cells",
+        "A red blood cell",
+        "An animal cell, because it has a cell membrane"
+      ],
+      "markingKey": "A. A plant cell, because its cell wall resists bursting. Animal cells without a wall can burst in pure water"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q31",
+      "subtopicId": "cambridge-g9-physics-ch02-st2",
+      "chapterId": "cambridge-g9-physics-ch02",
+      "subjectId": "cambridge-g9-physics",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A cyclist covers 150 m in 30 s. What is her average speed?",
+      "answer": "5 m/s",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Physics: speed and distance-time graphs",
+      "subtopicLinked": true,
+      "contentKey": "70e88e2a85e5",
+      "options": [
+        "5 m/s",
+        "120 m/s",
+        "4500 m/s",
+        "0.2 m/s"
+      ],
+      "markingKey": "A. 5 m/s. v = s / t"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q32",
+      "subtopicId": "cambridge-g9-physics-ch02-st2",
+      "chapterId": "cambridge-g9-physics-ch02",
+      "subjectId": "cambridge-g9-physics",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "On a distance-time graph, a horizontal line shows that the object is",
+      "answer": "stationary",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Physics: speed and distance-time graphs",
+      "subtopicLinked": true,
+      "contentKey": "7b75d51f1439",
+      "options": [
+        "accelerating",
+        "decelerating",
+        "moving at constant speed",
+        "stationary"
+      ],
+      "markingKey": "D. stationary. Distance is not changing"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q33",
+      "subtopicId": "cambridge-g9-physics-ch02-st2",
+      "chapterId": "cambridge-g9-physics-ch02",
+      "subjectId": "cambridge-g9-physics",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A car's distance-time graph is a straight line from (0 s, 0 m) to (20 s, 300 m). What is its speed?",
+      "answer": "15 m/s",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Physics: speed and distance-time graphs",
+      "subtopicLinked": true,
+      "contentKey": "374d16b9170f",
+      "options": [
+        "0.067 m/s",
+        "300 m/s",
+        "15 m/s",
+        "6000 m/s"
+      ],
+      "markingKey": "C. 15 m/s. Gradient = 300 ÷ 20"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q34",
+      "subtopicId": "cambridge-g9-physics-ch02-st3",
+      "chapterId": "cambridge-g9-physics-ch02",
+      "subjectId": "cambridge-g9-physics",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Acceleration is",
+      "answer": "change in velocity ÷ time taken",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Physics: acceleration and speed-time graphs",
+      "subtopicLinked": true,
+      "contentKey": "861f021f332b",
+      "options": [
+        "velocity x time",
+        "force x mass",
+        "distance ÷ time",
+        "change in velocity ÷ time taken"
+      ],
+      "markingKey": "D. change in velocity ÷ time taken. a = Δv / t"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q35",
+      "subtopicId": "cambridge-g9-physics-ch02-st3",
+      "chapterId": "cambridge-g9-physics-ch02",
+      "subjectId": "cambridge-g9-physics",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A car speeds up from 10 m/s to 30 m/s in 4 s. What is its acceleration?",
+      "answer": "5 m/s²",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Physics: acceleration and speed-time graphs",
+      "subtopicLinked": true,
+      "contentKey": "b21b2fe60801",
+      "options": [
+        "7.5 m/s²",
+        "10 m/s²",
+        "20 m/s²",
+        "5 m/s²"
+      ],
+      "markingKey": "D. 5 m/s². (30 - 10) ÷ 4"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q36",
+      "subtopicId": "cambridge-g9-physics-ch02-st3",
+      "chapterId": "cambridge-g9-physics-ch02",
+      "subjectId": "cambridge-g9-physics",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A speed-time graph rises steadily from 0 to 12 m/s in 6 s. How far does the object travel in that time?",
+      "answer": "36 m",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Physics: acceleration and speed-time graphs",
+      "subtopicLinked": true,
+      "contentKey": "233e610fa416",
+      "options": [
+        "72 m",
+        "36 m",
+        "2 m",
+        "18 m"
+      ],
+      "markingKey": "B. 36 m. Area of the triangle = ½ x 6 x 12"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q37",
+      "subtopicId": "cambridge-g9-chemistry-ch02-st2",
+      "chapterId": "cambridge-g9-chemistry-ch02",
+      "subjectId": "cambridge-g9-chemistry",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "The proton number of an atom is the number of",
+      "answer": "protons in its nucleus",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Chemistry: proton number, mass number and isotopes",
+      "subtopicLinked": true,
+      "contentKey": "c0ce110330db",
+      "options": [
+        "protons and neutrons together",
+        "protons in its nucleus",
+        "neutrons in its nucleus",
+        "electron shells"
+      ],
+      "markingKey": "B. protons in its nucleus. Also called the atomic number"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q38",
+      "subtopicId": "cambridge-g9-chemistry-ch02-st2",
+      "chapterId": "cambridge-g9-chemistry-ch02",
+      "subjectId": "cambridge-g9-chemistry",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "An atom of sodium has proton number 11 and mass number 23. How many neutrons does it have?",
+      "answer": "12",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Chemistry: proton number, mass number and isotopes",
+      "subtopicLinked": true,
+      "contentKey": "b938ee99b314",
+      "options": [
+        "12",
+        "23",
+        "11",
+        "34"
+      ],
+      "markingKey": "A. 12. 23 - 11 = 12"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q39",
+      "subtopicId": "cambridge-g9-chemistry-ch02-st2",
+      "chapterId": "cambridge-g9-chemistry-ch02",
+      "subjectId": "cambridge-g9-chemistry",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Chlorine-35 and chlorine-37 are",
+      "answer": "isotopes: atoms with the same number of protons but different numbers of neutrons",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Chemistry: proton number, mass number and isotopes",
+      "subtopicLinked": true,
+      "contentKey": "341604f9f095",
+      "options": [
+        "exactly the same atom",
+        "isotopes: atoms with the same number of protons but different numbers of neutrons",
+        "different elements",
+        "ions with different charges"
+      ],
+      "markingKey": "B. isotopes: atoms with the same number of protons but different numbers of neutrons. Same element, different mass number"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q40",
+      "subtopicId": "cambridge-g9-biology-ch02-st1",
+      "chapterId": "cambridge-g9-biology-ch02",
+      "subjectId": "cambridge-g9-biology",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Which structure is found in plant cells and bacterial cells but not in animal cells?",
+      "answer": "cell wall",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Biology: animal, plant and bacterial cells",
+      "subtopicLinked": true,
+      "contentKey": "2f946cb2e8a6",
+      "options": [
+        "cell wall",
+        "cell membrane",
+        "mitochondria",
+        "nucleus"
+      ],
+      "markingKey": "A. cell wall. Bacteria have walls but no nucleus"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q41",
+      "subtopicId": "cambridge-g9-biology-ch02-st1",
+      "chapterId": "cambridge-g9-biology-ch02",
+      "subjectId": "cambridge-g9-biology",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Bacterial cells differ from plant and animal cells because their DNA is",
+      "answer": "not enclosed in a nucleus",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Biology: animal, plant and bacterial cells",
+      "subtopicLinked": true,
+      "contentKey": "3b292e18dadf",
+      "options": [
+        "not enclosed in a nucleus",
+        "absent",
+        "inside chloroplasts",
+        "found only in mitochondria"
+      ],
+      "markingKey": "A. not enclosed in a nucleus. Bacteria have a circular chromosome in the cytoplasm"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q42",
+      "subtopicId": "cambridge-g9-biology-ch02-st1",
+      "chapterId": "cambridge-g9-biology-ch02",
+      "subjectId": "cambridge-g9-biology",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A cell has a cell wall, many chloroplasts and a large permanent vacuole. Where is it most likely from?",
+      "answer": "the palisade layer of a leaf",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Biology: animal, plant and bacterial cells",
+      "subtopicLinked": true,
+      "contentKey": "0a86bbd8b55d",
+      "options": [
+        "a bacterium",
+        "a human cheek",
+        "a root hair",
+        "the palisade layer of a leaf"
+      ],
+      "markingKey": "D. the palisade layer of a leaf. Root hair cells have no chloroplasts"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q43",
+      "subtopicId": "cambridge-g8-english-ch09-st3",
+      "chapterId": "cambridge-g8-english-ch09",
+      "subjectId": "cambridge-g8-english",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "The ground is wet and people are carrying umbrellas. It ___ have rained.",
+      "answer": "must",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 1,
+      "half": "prerequisite",
+      "subtopicHint": "Modals for deduction",
+      "subtopicLinked": true,
+      "contentKey": "a6b8dc097715",
+      "options": [
+        "needn't",
+        "can't",
+        "must",
+        "shouldn't"
+      ],
+      "markingKey": "C. must. 'Must have' expresses a confident deduction"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q44",
+      "subtopicId": "cambridge-g8-english-ch09-st2",
+      "chapterId": "cambridge-g8-english-ch09",
+      "subjectId": "cambridge-g8-english",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Which sentence is punctuated correctly as direct speech?",
+      "answer": "\"Close the window,\" said Mother.",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Direct and indirect speech",
+      "subtopicLinked": true,
+      "contentKey": "8a5051a941b3",
+      "options": [
+        "\"Close the window\" said, Mother.",
+        "\"Close the window,\" said Mother.",
+        "Close the window, said Mother.",
+        "\"Close the window, said Mother.\""
+      ],
+      "markingKey": "B. \"Close the window,\" said Mother.. Only the spoken words go inside the quotation marks, followed by a comma"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q45",
+      "subtopicId": "cambridge-g8-english-ch09-st2",
+      "chapterId": "cambridge-g8-english-ch09",
+      "subjectId": "cambridge-g8-english",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Change to indirect speech: She said, 'I will call you tomorrow.'",
+      "answer": "She said that she would call me the next day.",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Direct and indirect speech",
+      "subtopicLinked": true,
+      "contentKey": "a3e2502b271f",
+      "options": [
+        "She said she will called me tomorrow.",
+        "She said that she would call me the next day.",
+        "She told that she would calls me the next day.",
+        "She said that I will call you tomorrow."
+      ],
+      "markingKey": "B. She said that she would call me the next day.. 'Will' becomes 'would', 'tomorrow' becomes 'the next day'"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q46",
+      "subtopicId": "cambridge-g8-english-ch02-st3",
+      "chapterId": "cambridge-g8-english-ch02",
+      "subjectId": "cambridge-g8-english",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Which is the best title for a paragraph about saving water by fixing leaks, using buckets and reusing water?",
+      "answer": "Simple Ways to Save Water",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Summarising main points",
+      "subtopicLinked": true,
+      "contentKey": "bce0969e639b",
+      "options": [
+        "Simple Ways to Save Water",
+        "Water Is Wet",
+        "The History of Buckets",
+        "Rain in the Monsoon"
+      ],
+      "markingKey": "A. Simple Ways to Save Water. A title should cover the main idea of the whole paragraph"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q47",
+      "subtopicId": "cambridge-g8-english-ch02-st3",
+      "chapterId": "cambridge-g8-english-ch02",
+      "subjectId": "cambridge-g8-english",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Read: \"Mangroves grow along tropical coasts. Their tangled roots hold soil in place, slow down storm waves and shelter young fish. Many mangrove forests are being cleared for farms and buildings.\" Which summary is best?",
+      "answer": "Mangroves protect coasts and wildlife but are being cleared",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Summarising main points",
+      "subtopicLinked": true,
+      "contentKey": "1ab5afe96d31",
+      "options": [
+        "Farms are more important than mangroves",
+        "Mangroves have tangled roots",
+        "Fish live in the sea",
+        "Mangroves protect coasts and wildlife but are being cleared"
+      ],
+      "markingKey": "D. Mangroves protect coasts and wildlife but are being cleared. A summary keeps the main points and leaves out detail"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q48",
+      "subtopicId": "cambridge-g8-english-ch02-st3",
+      "chapterId": "cambridge-g8-english-ch02",
+      "subjectId": "cambridge-g8-english",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Which sentence would NOT belong in a summary of a text explaining how vaccines work?",
+      "answer": "My cousin was scared of injections when he was little.",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Summarising main points",
+      "subtopicLinked": true,
+      "contentKey": "0b7256a85eb3",
+      "options": [
+        "My cousin was scared of injections when he was little.",
+        "Vaccines train the immune system to recognise germs.",
+        "Vaccination has reduced many diseases.",
+        "This prepares the body to fight infection quickly."
+      ],
+      "markingKey": "A. My cousin was scared of injections when he was little.. Personal anecdotes are not main points"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q49",
+      "subtopicId": "cambridge-g8-english-ch03-st2",
+      "chapterId": "cambridge-g8-english-ch03",
+      "subjectId": "cambridge-g8-english",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "'Silent sea, softly sighing' mainly uses",
+      "answer": "alliteration",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Figurative language and sound devices",
+      "subtopicLinked": true,
+      "contentKey": "b32bca17689d",
+      "options": [
+        "onomatopoeia",
+        "metaphor",
+        "alliteration",
+        "simile"
+      ],
+      "markingKey": "C. alliteration. The repeated 's' sound"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q50",
+      "subtopicId": "cambridge-g8-english-ch03-st2",
+      "chapterId": "cambridge-g8-english-ch03",
+      "subjectId": "cambridge-g8-english",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "'I have told you a million times!' is an example of",
+      "answer": "hyperbole",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Figurative language and sound devices",
+      "subtopicLinked": true,
+      "contentKey": "957f89dc21aa",
+      "options": [
+        "understatement",
+        "simile",
+        "personification",
+        "hyperbole"
+      ],
+      "markingKey": "D. hyperbole. Deliberate exaggeration for effect"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q51",
+      "subtopicId": "cambridge-g8-english-ch03-st2",
+      "chapterId": "cambridge-g8-english-ch03",
+      "subjectId": "cambridge-g8-english",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "What is the effect of the simile in 'Her words were as sharp as broken glass'?",
+      "answer": "It shows her words were hurtful",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Figurative language and sound devices",
+      "subtopicLinked": true,
+      "contentKey": "62af5a980b94",
+      "options": [
+        "It shows she made glass",
+        "It shows she spoke clearly",
+        "It shows she spoke softly",
+        "It shows her words were hurtful"
+      ],
+      "markingKey": "D. It shows her words were hurtful. Broken glass cuts, so the words wounded"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q52",
+      "subtopicId": "cambridge-g9-english-ch01-st2",
+      "chapterId": "cambridge-g9-english-ch01",
+      "subjectId": "cambridge-g9-english",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A text with headings, numbered steps and diagrams explaining how to set up a new phone is most likely",
+      "answer": "an instruction manual",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Audience, purpose and text type",
+      "subtopicLinked": true,
+      "contentKey": "45d5746cd862",
+      "options": [
+        "a poem",
+        "a diary entry",
+        "a short story",
+        "an instruction manual"
+      ],
+      "markingKey": "D. an instruction manual. Its purpose is to instruct"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q53",
+      "subtopicId": "cambridge-g9-english-ch01-st2",
+      "chapterId": "cambridge-g9-english-ch01",
+      "subjectId": "cambridge-g9-english",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A blog post uses informal language, jokes and the word 'you' a lot. What are its likely audience and purpose?",
+      "answer": "Teenagers, to entertain and engage them",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Audience, purpose and text type",
+      "subtopicLinked": true,
+      "contentKey": "678ab43fd7ea",
+      "options": [
+        "Teenagers, to entertain and engage them",
+        "The government, to announce a law",
+        "Scientists, to report results",
+        "Lawyers, to set out a contract"
+      ],
+      "markingKey": "A. Teenagers, to entertain and engage them. Tone and register suggest the reader"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q54",
+      "subtopicId": "cambridge-g9-english-ch01-st2",
+      "chapterId": "cambridge-g9-english-ch01",
+      "subjectId": "cambridge-g9-english",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A charity letter begins: 'Imagine walking six miles every day just to fetch water.' Why does it begin this way?",
+      "answer": "To make the reader empathise and feel involved before asking for help",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Audience, purpose and text type",
+      "subtopicLinked": true,
+      "contentKey": "eec88efebefb",
+      "options": [
+        "To instruct the reader how to walk",
+        "To describe the writer's holiday",
+        "To make the reader empathise and feel involved before asking for help",
+        "To give exact statistics"
+      ],
+      "markingKey": "C. To make the reader empathise and feel involved before asking for help. Second-person imagining draws the reader in"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q55",
+      "subtopicId": "cambridge-g9-english-ch01-st3",
+      "chapterId": "cambridge-g9-english-ch01",
+      "subjectId": "cambridge-g9-english",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "'The arid land had not seen rain for months.' 'Arid' means",
+      "answer": "very dry",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Meaning of unfamiliar vocabulary from context",
+      "subtopicLinked": true,
+      "contentKey": "a83f3642d7da",
+      "options": [
+        "flooded",
+        "very dry",
+        "fertile",
+        "very cold"
+      ],
+      "markingKey": "B. very dry. 'Not seen rain' is the clue"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q56",
+      "subtopicId": "cambridge-g9-english-ch01-st3",
+      "chapterId": "cambridge-g9-english-ch01",
+      "subjectId": "cambridge-g9-english",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "'Despite the ominous clouds, the picnic went ahead.' 'Ominous' suggests the clouds",
+      "answer": "threatened bad weather",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Meaning of unfamiliar vocabulary from context",
+      "subtopicLinked": true,
+      "contentKey": "d9ec193f55ef",
+      "options": [
+        "threatened bad weather",
+        "were beautiful",
+        "were very high",
+        "were disappearing"
+      ],
+      "markingKey": "A. threatened bad weather. 'Despite' signals a reason not to go ahead"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q57",
+      "subtopicId": "cambridge-g9-english-ch01-st3",
+      "chapterId": "cambridge-g9-english-ch01",
+      "subjectId": "cambridge-g9-english",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "'His explanation was so convoluted that nobody could follow it.' 'Convoluted' means",
+      "answer": "complicated and hard to follow",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Meaning of unfamiliar vocabulary from context",
+      "subtopicLinked": true,
+      "contentKey": "240031d2848f",
+      "options": [
+        "untrue",
+        "complicated and hard to follow",
+        "loud",
+        "short and clear"
+      ],
+      "markingKey": "B. complicated and hard to follow. 'Nobody could follow it' is the clue"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q58",
+      "subtopicId": "cambridge-g9-english-ch02-st2",
+      "chapterId": "cambridge-g9-english-ch02",
+      "subjectId": "cambridge-g9-english",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "'Mira slammed her books on the desk and refused to look at anyone.' How is Mira most likely feeling?",
+      "answer": "angry or upset",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Implicit meaning: inferring thoughts and feelings",
+      "subtopicLinked": true,
+      "contentKey": "b3b2aedd218d",
+      "options": [
+        "excited",
+        "angry or upset",
+        "calm",
+        "sleepy"
+      ],
+      "markingKey": "B. angry or upset. Actions reveal feelings"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q59",
+      "subtopicId": "cambridge-g9-english-ch02-st2",
+      "chapterId": "cambridge-g9-english-ch02",
+      "subjectId": "cambridge-g9-english",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "'The house was spotless; every cushion stood to attention.' What does this suggest about the owner?",
+      "answer": "They are very tidy, perhaps strict about order",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Implicit meaning: inferring thoughts and feelings",
+      "subtopicLinked": true,
+      "contentKey": "4812f29ba53b",
+      "options": [
+        "They have just moved out",
+        "They are very tidy, perhaps strict about order",
+        "They have soldiers living there",
+        "They are lazy"
+      ],
+      "markingKey": "B. They are very tidy, perhaps strict about order. 'Stood to attention' suggests military neatness"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q60",
+      "subtopicId": "cambridge-g9-english-ch02-st2",
+      "chapterId": "cambridge-g9-english-ch02",
+      "subjectId": "cambridge-g9-english",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "'Grandfather's chair stayed by the window, though no one sat in it any more.' What is implied?",
+      "answer": "Grandfather has died or gone away, and the family keeps the chair in his memory",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Implicit meaning: inferring thoughts and feelings",
+      "subtopicLinked": true,
+      "contentKey": "914ec0cc7be0",
+      "options": [
+        "The chair is broken",
+        "Grandfather has died or gone away, and the family keeps the chair in his memory",
+        "The family dislikes the chair",
+        "Grandfather prefers the window"
+      ],
+      "markingKey": "B. Grandfather has died or gone away, and the family keeps the chair in his memory. 'No one sat in it any more' hints at absence"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q61",
+      "subtopicId": "cambridge-g9-english-ch04-st2",
+      "chapterId": "cambridge-g9-english-ch04",
+      "subjectId": "cambridge-g9-english",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Which word has the most positive connotation?",
+      "answer": "slim",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Connotations and effects of vocabulary",
+      "subtopicLinked": true,
+      "contentKey": "3252815de4ca",
+      "options": [
+        "scrawny",
+        "skinny",
+        "slim",
+        "bony"
+      ],
+      "markingKey": "C. slim. The others suggest unhealthiness"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q62",
+      "subtopicId": "cambridge-g9-english-ch04-st2",
+      "chapterId": "cambridge-g9-english-ch04",
+      "subjectId": "cambridge-g9-english",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A writer describes a crowd as 'a swarm'. What does this suggest?",
+      "answer": "The crowd is large, fast-moving and perhaps threatening, like insects",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Connotations and effects of vocabulary",
+      "subtopicLinked": true,
+      "contentKey": "a5826e42edd8",
+      "options": [
+        "The crowd is singing",
+        "The crowd is calm",
+        "The crowd is large, fast-moving and perhaps threatening, like insects",
+        "The crowd is small"
+      ],
+      "markingKey": "C. The crowd is large, fast-moving and perhaps threatening, like insects. Swarm brings insect associations"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q63",
+      "subtopicId": "cambridge-g9-english-ch04-st2",
+      "chapterId": "cambridge-g9-english-ch04",
+      "subjectId": "cambridge-g9-english",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Compare 'The old man shuffled' with 'The old man walked'. What does 'shuffled' add?",
+      "answer": "It suggests he is frail or tired, moving slowly without lifting his feet",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Connotations and effects of vocabulary",
+      "subtopicLinked": true,
+      "contentKey": "6b6aaca0ea58",
+      "options": [
+        "Nothing; the two mean the same",
+        "It shows he is in a hurry",
+        "It suggests he is frail or tired, moving slowly without lifting his feet",
+        "It means he is dancing"
+      ],
+      "markingKey": "C. It suggests he is frail or tired, moving slowly without lifting his feet. Precise verbs carry connotation"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q64",
+      "subtopicId": "cambridge-g8-social-science-ch04-st1",
+      "chapterId": "cambridge-g8-social-science-ch04",
+      "subjectId": "cambridge-g8-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which was a long-term cause of the First World War?",
+      "answer": "The alliance system that divided Europe into two armed camps",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 1,
+      "half": "prerequisite",
+      "subtopicHint": "Causes of the First World War",
+      "subtopicLinked": true,
+      "contentKey": "82491a588549",
+      "options": [
+        "The Cold War",
+        "The alliance system that divided Europe into two armed camps",
+        "The Wall Street Crash",
+        "The Treaty of Versailles"
+      ],
+      "markingKey": "B. The alliance system that divided Europe into two armed camps. The other three came after 1918"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q65",
+      "subtopicId": "cambridge-g8-social-science-ch05-st1",
+      "chapterId": "cambridge-g8-social-science-ch05",
+      "subjectId": "cambridge-g8-social-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "The Earth's thin, solid outer layer is the",
+      "answer": "crust",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Structure of the Earth and plate boundaries",
+      "subtopicLinked": true,
+      "contentKey": "f5c175ea0aa1",
+      "options": [
+        "mantle",
+        "crust",
+        "inner core",
+        "outer core"
+      ],
+      "markingKey": "B. crust. The crust floats on the mantle"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q66",
+      "subtopicId": "cambridge-g8-social-science-ch05-st1",
+      "chapterId": "cambridge-g8-social-science-ch05",
+      "subjectId": "cambridge-g8-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "At a constructive (divergent) plate boundary, the plates",
+      "answer": "move apart and magma rises",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Structure of the Earth and plate boundaries",
+      "subtopicLinked": true,
+      "contentKey": "3f1dac0408b1",
+      "options": [
+        "move apart and magma rises",
+        "stay still",
+        "collide",
+        "slide past each other"
+      ],
+      "markingKey": "A. move apart and magma rises. New crust forms, as in the mid-Atlantic"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q67",
+      "subtopicId": "cambridge-g8-social-science-ch03-st3",
+      "chapterId": "cambridge-g8-social-science-ch03",
+      "subjectId": "cambridge-g8-social-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "India became independent in",
+      "answer": "1947",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Empire and independence movements",
+      "subtopicLinked": true,
+      "contentKey": "bc1074c2fddb",
+      "options": [
+        "1857",
+        "1919",
+        "1950",
+        "1947"
+      ],
+      "markingKey": "D. 1947. 15 August 1947"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q68",
+      "subtopicId": "cambridge-g8-social-science-ch03-st3",
+      "chapterId": "cambridge-g8-social-science-ch03",
+      "subjectId": "cambridge-g8-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Gandhi's method of non-violent resistance is known as",
+      "answer": "satyagraha",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Empire and independence movements",
+      "subtopicLinked": true,
+      "contentKey": "63f19ef0d8a8",
+      "options": [
+        "apartheid",
+        "perestroika",
+        "satyagraha",
+        "blitzkrieg"
+      ],
+      "markingKey": "C. satyagraha. Satyagraha means 'holding firmly to truth'"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q69",
+      "subtopicId": "cambridge-g8-social-science-ch03-st3",
+      "chapterId": "cambridge-g8-social-science-ch03",
+      "subjectId": "cambridge-g8-social-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why did many colonies gain independence after 1945?",
+      "answer": "European powers were weakened by war and nationalist movements had grown stronger",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Empire and independence movements",
+      "subtopicLinked": true,
+      "contentKey": "1c1645d989df",
+      "options": [
+        "The colonies asked to become part of Europe",
+        "European powers were weakened by war and nationalist movements had grown stronger",
+        "The League of Nations ordered it",
+        "The colonies stopped trading"
+      ],
+      "markingKey": "B. European powers were weakened by war and nationalist movements had grown stronger. Both a weaker centre and stronger demands"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q70",
+      "subtopicId": "cambridge-g8-social-science-ch06-st3",
+      "chapterId": "cambridge-g8-social-science-ch06",
+      "subjectId": "cambridge-g8-social-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "On a climate graph, rainfall is usually shown as",
+      "answer": "bars",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Reading climate graphs and climate zones",
+      "subtopicLinked": true,
+      "contentKey": "cdc97994dd16",
+      "options": [
+        "a line",
+        "bars",
+        "a pie chart",
+        "a map"
+      ],
+      "markingKey": "B. bars. Temperature is the line; rainfall is the bars"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q71",
+      "subtopicId": "cambridge-g8-social-science-ch06-st3",
+      "chapterId": "cambridge-g8-social-science-ch06",
+      "subjectId": "cambridge-g8-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A place is hot all year and gets over 2000 mm of rain a year. Its climate is most likely",
+      "answer": "tropical rainforest",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Reading climate graphs and climate zones",
+      "subtopicLinked": true,
+      "contentKey": "293c9907c371",
+      "options": [
+        "hot desert",
+        "polar",
+        "tropical rainforest",
+        "Mediterranean"
+      ],
+      "markingKey": "C. tropical rainforest. Hot and wet all year"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q72",
+      "subtopicId": "cambridge-g8-social-science-ch06-st3",
+      "chapterId": "cambridge-g8-social-science-ch06",
+      "subjectId": "cambridge-g8-social-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Which pattern on a climate graph suggests a Mediterranean climate?",
+      "answer": "Hot, dry summers and mild, wet winters",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Reading climate graphs and climate zones",
+      "subtopicLinked": true,
+      "contentKey": "cb7239e3a768",
+      "options": [
+        "Hot and wet every month",
+        "Hot, dry summers and mild, wet winters",
+        "No rain at all",
+        "Cold all year"
+      ],
+      "markingKey": "B. Hot, dry summers and mild, wet winters. Seasonal contrast in rainfall is the key"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q73",
+      "subtopicId": "cambridge-g9-history-ch02-st1",
+      "chapterId": "cambridge-g9-history-ch02",
+      "subjectId": "cambridge-g9-history",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "The Triple Entente was made up of",
+      "answer": "Britain, France and Russia",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "History: empires and alliances before 1914",
+      "subtopicLinked": true,
+      "contentKey": "6972d8947183",
+      "options": [
+        "Britain, Germany and Russia",
+        "Germany, Austria-Hungary and Italy",
+        "Britain, France and Russia",
+        "France, Italy and Japan"
+      ],
+      "markingKey": "C. Britain, France and Russia. Germany, Austria-Hungary and Italy formed the Triple Alliance"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q74",
+      "subtopicId": "cambridge-g9-history-ch02-st1",
+      "chapterId": "cambridge-g9-history-ch02",
+      "subjectId": "cambridge-g9-history",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Where was Archduke Franz Ferdinand assassinated in June 1914?",
+      "answer": "Sarajevo",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "History: empires and alliances before 1914",
+      "subtopicLinked": true,
+      "contentKey": "3ed64c17bb2c",
+      "options": [
+        "Vienna",
+        "Sarajevo",
+        "Paris",
+        "Berlin"
+      ],
+      "markingKey": "B. Sarajevo. Sarajevo, in Bosnia"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q75",
+      "subtopicId": "cambridge-g9-history-ch02-st1",
+      "chapterId": "cambridge-g9-history-ch02",
+      "subjectId": "cambridge-g9-history",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Explain why a local crisis in the Balkans in 1914 became a wider war.",
+      "answer": "The alliance system drew the great powers in one after another",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "History: empires and alliances before 1914",
+      "subtopicLinked": true,
+      "contentKey": "ed4f6dd76af9",
+      "options": [
+        "The League of Nations failed",
+        "Every country wanted the Balkans",
+        "The alliance system drew the great powers in one after another",
+        "Britain invaded Serbia"
+      ],
+      "markingKey": "C. The alliance system drew the great powers in one after another. Austria-Hungary, Russia, Germany, France and Britain were bound by alliances; the League did not yet exist"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q76",
+      "subtopicId": "cambridge-g9-history-ch03-st3",
+      "chapterId": "cambridge-g9-history-ch03",
+      "subjectId": "cambridge-g9-history",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "The Treaty of Versailles was signed in",
+      "answer": "1919",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "History: terms of the Treaty of Versailles",
+      "subtopicLinked": true,
+      "contentKey": "f3dba4545478",
+      "options": [
+        "1923",
+        "1919",
+        "1918",
+        "1914"
+      ],
+      "markingKey": "B. 1919. Signed on 28 June 1919"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q77",
+      "subtopicId": "cambridge-g9-history-ch03-st3",
+      "chapterId": "cambridge-g9-history-ch03",
+      "subjectId": "cambridge-g9-history",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which was a term of the Treaty of Versailles?",
+      "answer": "Germany's army was limited to 100 000 men",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "History: terms of the Treaty of Versailles",
+      "subtopicLinked": true,
+      "contentKey": "53691e2aeee4",
+      "options": [
+        "Germany gained Alsace-Lorraine",
+        "Germany joined the League of Nations at once",
+        "Germany's army was limited to 100 000 men",
+        "Germany kept all its colonies"
+      ],
+      "markingKey": "C. Germany's army was limited to 100 000 men. Alsace-Lorraine went to France; Germany lost its colonies"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q78",
+      "subtopicId": "cambridge-g9-history-ch03-st3",
+      "chapterId": "cambridge-g9-history-ch03",
+      "subjectId": "cambridge-g9-history",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why did many Germans call the treaty a 'diktat'?",
+      "answer": "It was imposed on Germany without negotiation",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "History: terms of the Treaty of Versailles",
+      "subtopicLinked": true,
+      "contentKey": "757f536c43fa",
+      "options": [
+        "It was very short",
+        "Germany wrote it",
+        "It was written in German",
+        "It was imposed on Germany without negotiation"
+      ],
+      "markingKey": "D. It was imposed on Germany without negotiation. Diktat means a dictated peace"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q79",
+      "subtopicId": "cambridge-g9-geography-ch01-st1",
+      "chapterId": "cambridge-g9-geography-ch01",
+      "subjectId": "cambridge-g9-geography",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A six-figure grid reference locates a point to the nearest",
+      "answer": "100 metres",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Geography: grid references, scale and direction",
+      "subtopicLinked": true,
+      "contentKey": "0018db3a805c",
+      "options": [
+        "10 kilometres",
+        "100 metres",
+        "1 metre",
+        "1 kilometre"
+      ],
+      "markingKey": "B. 100 metres. On a 1:50 000 map each grid square is 1 km, split into tenths"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q80",
+      "subtopicId": "cambridge-g9-geography-ch01-st1",
+      "chapterId": "cambridge-g9-geography-ch01",
+      "subjectId": "cambridge-g9-geography",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "On a 1 : 25 000 map, 6 cm represents",
+      "answer": "1.5 km",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Geography: grid references, scale and direction",
+      "subtopicLinked": true,
+      "contentKey": "f0ba2bb2d063",
+      "options": [
+        "1.5 km",
+        "15 km",
+        "6 km",
+        "150 m"
+      ],
+      "markingKey": "A. 1.5 km. 6 x 25 000 = 150 000 cm"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q81",
+      "subtopicId": "cambridge-g9-geography-ch01-st1",
+      "chapterId": "cambridge-g9-geography-ch01",
+      "subjectId": "cambridge-g9-geography",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "On a map, contour lines that are very close together show",
+      "answer": "a steep slope",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Geography: grid references, scale and direction",
+      "subtopicLinked": true,
+      "contentKey": "f41034f2be38",
+      "options": [
+        "a river",
+        "flat land",
+        "a steep slope",
+        "a gentle slope"
+      ],
+      "markingKey": "C. a steep slope. Height changes quickly over a short distance"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q82",
+      "subtopicId": "cambridge-g9-geography-ch02-st1",
+      "chapterId": "cambridge-g9-geography-ch02",
+      "subjectId": "cambridge-g9-geography",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "At a conservative plate boundary, the plates",
+      "answer": "slide past each other",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Geography: types of plate boundary",
+      "subtopicLinked": true,
+      "contentKey": "096d63c15e77",
+      "options": [
+        "move apart",
+        "slide past each other",
+        "collide head-on",
+        "sink together"
+      ],
+      "markingKey": "B. slide past each other. As on the San Andreas Fault"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q83",
+      "subtopicId": "cambridge-g9-geography-ch02-st1",
+      "chapterId": "cambridge-g9-geography-ch02",
+      "subjectId": "cambridge-g9-geography",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Why do volcanoes form at destructive plate boundaries?",
+      "answer": "The denser oceanic plate is subducted and melts, and the magma rises",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Geography: types of plate boundary",
+      "subtopicLinked": true,
+      "contentKey": "84a8421cedf7",
+      "options": [
+        "The plates slide past each other",
+        "There is no friction",
+        "The crust is thickest there",
+        "The denser oceanic plate is subducted and melts, and the magma rises"
+      ],
+      "markingKey": "D. The denser oceanic plate is subducted and melts, and the magma rises. Subduction produces magma"
+    },
+    {
+      "id": "onb-cambridge-g9-none-q84",
+      "subtopicId": "cambridge-g9-geography-ch02-st1",
+      "chapterId": "cambridge-g9-geography-ch02",
+      "subjectId": "cambridge-g9-geography",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Iceland has many volcanoes but few deep earthquakes. Why?",
+      "answer": "It sits on a constructive boundary where magma rises as plates separate",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Geography: types of plate boundary",
+      "subtopicLinked": true,
+      "contentKey": "c20180cd74a3",
+      "options": [
+        "It is near the Equator",
+        "It is on a destructive boundary",
+        "It is on a conservative boundary",
+        "It sits on a constructive boundary where magma rises as plates separate"
+      ],
+      "markingKey": "D. It sits on a constructive boundary where magma rises as plates separate. Constructive boundaries give shallow quakes and frequent eruptions"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D1",
+      "stem": "What number comes next? 5, 10, 20, 40, ?",
+      "options": [
+        "60",
+        "45",
+        "80",
+        "100"
+      ],
+      "answer": "80",
+      "explanation": "Double each time",
+      "seconds": 30,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-cambridge-g9-none-q85",
+      "part": "B",
+      "contentKey": "19caa7ed6a76"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D2",
+      "stem": "A train travels 240 km in 3 hours. At the same speed, how far does it go in 5 hours?",
+      "options": [
+        "420 km",
+        "400 km",
+        "360 km",
+        "480 km"
+      ],
+      "answer": "400 km",
+      "explanation": "80 km per hour x 5 = 400 km",
+      "seconds": 45,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-cambridge-g9-none-q86",
+      "part": "B",
+      "contentKey": "df541ebeb449"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D2",
+      "stem": "The average of five numbers is 18. Four of them are 15, 20, 12 and 25. What is the fifth?",
+      "options": [
+        "18",
+        "16",
+        "20",
+        "22"
+      ],
+      "answer": "18",
+      "explanation": "Total 90; 90 - 72 = 18",
+      "seconds": 60,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-cambridge-g9-none-q87",
+      "part": "B",
+      "contentKey": "97a9cfc21e1e"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D3",
+      "stem": "A price rises by 20% and then falls by 20%. What is the overall change?",
+      "options": [
+        "A 4% decrease",
+        "A 2% decrease",
+        "A 4% increase",
+        "No change"
+      ],
+      "answer": "A 4% decrease",
+      "explanation": "1.2 x 0.8 = 0.96",
+      "seconds": 60,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-cambridge-g9-none-q88",
+      "part": "B",
+      "contentKey": "c153700d517c"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D1",
+      "stem": "Which word is most nearly opposite in meaning to 'scarce'?",
+      "options": [
+        "plentiful",
+        "rare",
+        "small",
+        "costly"
+      ],
+      "answer": "plentiful",
+      "explanation": "'Scarce' means in short supply",
+      "seconds": 30,
+      "paramIds": [
+        "p61",
+        "p69"
+      ],
+      "id": "onb-cambridge-g9-none-q89",
+      "part": "B",
+      "contentKey": "15197af9eaca"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D2",
+      "stem": "Doctor is to hospital as teacher is to ...",
+      "options": [
+        "lesson",
+        "school",
+        "student",
+        "book"
+      ],
+      "answer": "school",
+      "explanation": "The place where each works",
+      "seconds": 30,
+      "paramIds": [
+        "p61",
+        "p69"
+      ],
+      "id": "onb-cambridge-g9-none-q90",
+      "part": "B",
+      "contentKey": "2e5d5f4e72e4"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D2",
+      "stem": "No reptiles have fur. All snakes are reptiles. Which conclusion follows?",
+      "options": [
+        "Some snakes have fur",
+        "Some reptiles are not snakes",
+        "All furry animals are snakes",
+        "No snakes have fur"
+      ],
+      "answer": "No snakes have fur",
+      "explanation": "Snakes are inside the reptile group, which has no fur; the last option may be true but does not follow",
+      "seconds": 45,
+      "paramIds": [
+        "p61",
+        "p65",
+        "p69"
+      ],
+      "id": "onb-cambridge-g9-none-q91",
+      "part": "B",
+      "contentKey": "8566a03aaf35"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D3",
+      "stem": "Five friends sit in a row. P is at one end and Q sits next to P. R is in the middle seat. S does not sit next to R. Where does T sit?",
+      "options": [
+        "Between Q and R",
+        "Between R and S",
+        "Next to P",
+        "At the other end"
+      ],
+      "answer": "Between R and S",
+      "explanation": "Seats 1-5: P, Q, R; S cannot be in 4, so S is in 5 and T in 4",
+      "seconds": 75,
+      "paramIds": [
+        "p61",
+        "p65",
+        "p69"
+      ],
+      "id": "onb-cambridge-g9-none-q92",
+      "part": "B",
+      "contentKey": "41e89761419a"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D1",
+      "stem": "Which letter comes next? Z, X, V, T, ?",
+      "options": [
+        "Q",
+        "R",
+        "P",
+        "S"
+      ],
+      "answer": "R",
+      "explanation": "Go back two letters each time",
+      "seconds": 30,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "id": "onb-cambridge-g9-none-q93",
+      "part": "B",
+      "contentKey": "22120821095e"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D2",
+      "stem": "In a code, CAT is written DBU. How is DOG written?",
+      "options": [
+        "EOG",
+        "EPH",
+        "CNF",
+        "FQI"
+      ],
+      "answer": "EPH",
+      "explanation": "Each letter moves one place forward",
+      "seconds": 45,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "id": "onb-cambridge-g9-none-q94",
+      "part": "B",
+      "contentKey": "38037779791e"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D2",
+      "stem": "An arrow turns 90° clockwise at each step. Step 1 points up, step 2 right, step 3 down. Which way does it point at step 6?",
+      "options": [
+        "Right",
+        "Up",
+        "Left",
+        "Down"
+      ],
+      "answer": "Right",
+      "explanation": "The cycle repeats every 4 steps; step 6 = step 2",
+      "seconds": 45,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "id": "onb-cambridge-g9-none-q95",
+      "part": "B",
+      "contentKey": "ffa574377a17"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D3",
+      "stem": "In a 3 x 3 grid every row and column has one circle, one square and one triangle. Row 1: circle, square, triangle. Row 2: triangle, circle, square. What goes in row 3, column 2?",
+      "options": [
+        "circle",
+        "square",
+        "triangle",
+        "any shape"
+      ],
+      "answer": "triangle",
+      "explanation": "Column 2 already has a square and a circle",
+      "seconds": 75,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 180 180\" width=\"180\" height=\"180\" stroke=\"currentColor\" fill=\"none\" stroke-width=\"2\"><rect x=\"0\" y=\"0\" width=\"180\" height=\"180\"/><line x1=\"60\" y1=\"0\" x2=\"60\" y2=\"180\"/><line x1=\"120\" y1=\"0\" x2=\"120\" y2=\"180\"/><line x1=\"0\" y1=\"60\" x2=\"180\" y2=\"60\"/><line x1=\"0\" y1=\"120\" x2=\"180\" y2=\"120\"/><circle cx=\"30\" cy=\"30\" r=\"18\"/><rect x=\"72\" y=\"12\" width=\"36\" height=\"36\"/><polygon points=\"150,12 168,48 132,48\"/><polygon points=\"30,72 48,108 12,108\"/><circle cx=\"90\" cy=\"90\" r=\"18\"/><rect x=\"132\" y=\"72\" width=\"36\" height=\"36\"/><text x=\"90\" y=\"160\" font-size=\"28\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">?</text></svg>",
+      "id": "onb-cambridge-g9-none-q96",
+      "part": "B",
+      "contentKey": "b1c05993931d"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D1",
+      "stem": "Which solid has one flat circular face and one curved surface meeting at a point?",
+      "options": [
+        "a cylinder",
+        "a cone",
+        "a cube",
+        "a sphere"
+      ],
+      "answer": "a cone",
+      "explanation": "A cone has a circular base and an apex",
+      "seconds": 30,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "id": "onb-cambridge-g9-none-q97",
+      "part": "B",
+      "contentKey": "a5eeeb89ae24"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D2",
+      "stem": "Six squares are arranged in a cross: a column of four squares with one extra square on each side of the second square. Folded along the lines, this net makes a",
+      "options": [
+        "cube",
+        "cuboid with an open top",
+        "square pyramid",
+        "triangular prism"
+      ],
+      "answer": "cube",
+      "explanation": "This is one of the 11 nets of a cube",
+      "seconds": 45,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "id": "onb-cambridge-g9-none-q98",
+      "part": "B",
+      "contentKey": "5cff76331911"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D2",
+      "stem": "A wall clock seen in a mirror appears to show 3:00. What is the real time?",
+      "options": [
+        "3:00",
+        "6:00",
+        "9:00",
+        "12:00"
+      ],
+      "answer": "9:00",
+      "explanation": "A mirror swaps left and right: 3 becomes 9",
+      "seconds": 45,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "id": "onb-cambridge-g9-none-q99",
+      "part": "B",
+      "contentKey": "01d06fe2f982"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D3",
+      "stem": "A 4 cm cube is painted on all faces and cut into 1 cm cubes. How many small cubes have no paint at all?",
+      "options": [
+        "16",
+        "27",
+        "24",
+        "8"
+      ],
+      "answer": "8",
+      "explanation": "The unpainted core is 2 x 2 x 2",
+      "seconds": 75,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "id": "onb-cambridge-g9-none-q100",
+      "part": "B",
+      "contentKey": "b7976378b7ff"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "On a normal school day, how long do you study at home (not counting tuition)?",
+      "responseType": "single",
+      "paramId": "p31",
+      "options": [
+        {
+          "label": "Less than 1 hour",
+          "value": 0.5
+        },
+        {
+          "label": "1 to 2 hours",
+          "value": 1.5
+        },
+        {
+          "label": "2 to 3 hours",
+          "value": 2.5
+        },
+        {
+          "label": "3 to 4 hours",
+          "value": 3.5
+        },
+        {
+          "label": "More than 4 hours",
+          "value": 4.5
+        }
+      ],
+      "unit": "hours",
+      "id": "onb-cambridge-g9-none-q101",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "a3188617eeb3"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "When do you usually study best?",
+      "responseType": "single",
+      "paramId": "p33",
+      "options": [
+        {
+          "label": "Early morning",
+          "value": "early_morning"
+        },
+        {
+          "label": "Afternoon",
+          "value": "afternoon"
+        },
+        {
+          "label": "Evening",
+          "value": "evening"
+        },
+        {
+          "label": "Late night",
+          "value": "late_night"
+        }
+      ],
+      "id": "onb-cambridge-g9-none-q102",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "4bff65265626"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How long is a typical study session before you take a break?",
+      "responseType": "single",
+      "paramId": "p34",
+      "options": [
+        {
+          "label": "15 to 20 minutes",
+          "value": 20
+        },
+        {
+          "label": "30 to 45 minutes",
+          "value": 40
+        },
+        {
+          "label": "About an hour",
+          "value": 60
+        },
+        {
+          "label": "90 minutes or more",
+          "value": 90
+        }
+      ],
+      "unit": "minutes",
+      "id": "onb-cambridge-g9-none-q103",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "09d32e5c0254"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How often do you revise topics you have already finished?",
+      "responseType": "single",
+      "paramId": "p39",
+      "options": [
+        {
+          "label": "Rarely",
+          "value": "rarely"
+        },
+        {
+          "label": "Only before tests",
+          "value": "before_tests"
+        },
+        {
+          "label": "Every week",
+          "value": "weekly"
+        },
+        {
+          "label": "Most days",
+          "value": "daily"
+        }
+      ],
+      "id": "onb-cambridge-g9-none-q104",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "0d286009ae6f"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How do you usually revise?",
+      "responseType": "single",
+      "paramId": "p40",
+      "options": [
+        {
+          "label": "Re-reading notes or the textbook",
+          "value": "reread"
+        },
+        {
+          "label": "Highlighting or rewriting notes",
+          "value": "rewrite"
+        },
+        {
+          "label": "Doing practice questions",
+          "value": "practice"
+        },
+        {
+          "label": "Testing myself with flashcards or quizzes",
+          "value": "self_test"
+        },
+        {
+          "label": "Explaining it to someone else",
+          "value": "teach"
+        }
+      ],
+      "id": "onb-cambridge-g9-none-q105",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "fec782fd153e"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "I put off starting homework until the last minute.",
+      "responseType": "scale",
+      "paramId": "p46",
+      "options": [
+        {
+          "label": "1 Never",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Always",
+          "value": 5
+        }
+      ],
+      "id": "onb-cambridge-g9-none-q106",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "b31ed6ad6c6c"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Where is your phone while you study?",
+      "responseType": "single",
+      "paramId": "p105",
+      "options": [
+        {
+          "label": "In another room",
+          "value": "away"
+        },
+        {
+          "label": "Nearby on silent",
+          "value": "silent_nearby"
+        },
+        {
+          "label": "With me, I check it often",
+          "value": "checking"
+        },
+        {
+          "label": "I study on my phone",
+          "value": "study_device"
+        }
+      ],
+      "id": "onb-cambridge-g9-none-q107",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "d194a9f578b8"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Which helps you learn a new topic most?",
+      "responseType": "single",
+      "paramId": "p48",
+      "options": [
+        {
+          "label": "Watching a video",
+          "value": "video"
+        },
+        {
+          "label": "Reading and making notes",
+          "value": "reading"
+        },
+        {
+          "label": "Trying problems straight away",
+          "value": "practice"
+        },
+        {
+          "label": "Discussing it with someone",
+          "value": "discussion"
+        }
+      ],
+      "id": "onb-cambridge-g9-none-q108",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "c23e54729bc0"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Do you prefer studying alone or with others?",
+      "responseType": "single",
+      "paramId": "p50",
+      "options": [
+        {
+          "label": "Alone",
+          "value": "solo"
+        },
+        {
+          "label": "With one friend",
+          "value": "pair"
+        },
+        {
+          "label": "In a group",
+          "value": "group"
+        },
+        {
+          "label": "It depends on the subject",
+          "value": "mixed"
+        }
+      ],
+      "id": "onb-cambridge-g9-none-q109",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "70f11b4add34"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "When you get stuck on a question, what do you usually do first?",
+      "responseType": "single",
+      "paramId": "p49",
+      "options": [
+        {
+          "label": "Ask my teacher",
+          "value": "teacher"
+        },
+        {
+          "label": "Ask a friend or sibling",
+          "value": "peer"
+        },
+        {
+          "label": "Search online or watch a video",
+          "value": "online"
+        },
+        {
+          "label": "Leave it and move on",
+          "value": "skip"
+        }
+      ],
+      "id": "onb-cambridge-g9-none-q110",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "599b22b79bd2"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Do you go to tuition or coaching classes?",
+      "responseType": "single",
+      "paramId": "p21",
+      "options": [
+        {
+          "label": "No",
+          "value": "none"
+        },
+        {
+          "label": "Yes, for one subject",
+          "value": "one_subject"
+        },
+        {
+          "label": "Yes, for two or more subjects",
+          "value": "multi_subject"
+        },
+        {
+          "label": "Yes, at a coaching institute",
+          "value": "institute"
+        }
+      ],
+      "id": "onb-cambridge-g9-none-q111",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "3c939f2b1013"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "I mostly study because ...",
+      "responseType": "single",
+      "paramId": "p123",
+      "options": [
+        {
+          "label": "I enjoy learning new things",
+          "value": "intrinsic"
+        },
+        {
+          "label": "I have a goal I want to reach",
+          "value": "goal"
+        },
+        {
+          "label": "I want good marks",
+          "value": "performance"
+        },
+        {
+          "label": "My family expects it",
+          "value": "external"
+        }
+      ],
+      "id": "onb-cambridge-g9-none-q112",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "4ab1b901cdd5"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "If I work hard, I can get much better at a subject I find difficult.",
+      "responseType": "scale",
+      "paramId": "p125",
+      "options": [
+        {
+          "label": "1 Strongly disagree",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Strongly agree",
+          "value": 5
+        }
+      ],
+      "id": "onb-cambridge-g9-none-q113",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "6efb13e3bd21"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "I like hard problems, even when I might get them wrong.",
+      "responseType": "scale",
+      "paramId": "p331",
+      "options": [
+        {
+          "label": "1 Strongly disagree",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Strongly agree",
+          "value": 5
+        }
+      ],
+      "id": "onb-cambridge-g9-none-q114",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "80b24e607fdf"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Before a test, how nervous do you usually feel?",
+      "responseType": "scale",
+      "paramId": "p111",
+      "options": [
+        {
+          "label": "1 Calm",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Very nervous",
+          "value": 5
+        }
+      ],
+      "helpText": "Optional. This only helps us pace your plan and suggest support; it never affects your scores or recommendations.",
+      "alsoInforms": [
+        "p133"
+      ],
+      "id": "onb-cambridge-g9-none-q115",
+      "tier": "T3",
+      "screened": true,
+      "optional": true,
+      "contentKey": "58e5770944cf"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "On school nights, how many hours do you usually sleep?",
+      "responseType": "single",
+      "paramId": "p83",
+      "options": [
+        {
+          "label": "Less than 6",
+          "value": 5.5
+        },
+        {
+          "label": "6 to 7",
+          "value": 6.5
+        },
+        {
+          "label": "7 to 8",
+          "value": 7.5
+        },
+        {
+          "label": "8 to 9",
+          "value": 8.5
+        },
+        {
+          "label": "More than 9",
+          "value": 9.5
+        }
+      ],
+      "helpText": "Optional. Used only to fit your timetable around enough rest.",
+      "unit": "hours",
+      "id": "onb-cambridge-g9-none-q116",
+      "tier": "T3",
+      "screened": true,
+      "optional": true,
+      "contentKey": "55062a5c52b2"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Fixing or building things, like a bicycle, a model or a small circuit",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "R",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cambridge-g9-none-q117",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "36e0422d9d06"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Working outdoors with tools, plants or animals",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "R",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cambridge-g9-none-q118",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "c063e3c69b0f"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Doing experiments to find out why something happens",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "I",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cambridge-g9-none-q119",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "0c12a884162e"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Solving tricky maths or logic puzzles",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "I",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cambridge-g9-none-q120",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "058f5f9025f0"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Drawing, designing, writing stories or making music",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "A",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cambridge-g9-none-q121",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "9234642a58af"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Acting, photography or making videos",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "A",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cambridge-g9-none-q122",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "e7bfdb738978"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Explaining something to a friend until they understand it",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "S",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cambridge-g9-none-q123",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "8f4da2390889"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Volunteering to help people in your community",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "S",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cambridge-g9-none-q124",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "40f8337ef8af"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Leading a team or running a school club",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "E",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cambridge-g9-none-q125",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "b91eb24feb37"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Pitching an idea or starting a small business",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "E",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cambridge-g9-none-q126",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "6806cc5fc89c"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Keeping records or organising information neatly",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "C",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cambridge-g9-none-q127",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "0c466df2c3f1"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Working with numbers, budgets or spreadsheets",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "C",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cambridge-g9-none-q128",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "c884a471f58e"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How interested are you in studying abroad after school?",
+      "responseType": "scale",
+      "paramId": "p230",
+      "options": [
+        {
+          "label": "1 Not interested",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Very interested",
+          "value": 5
+        }
+      ],
+      "alsoInforms": [
+        "p231"
+      ],
+      "id": "onb-cambridge-g9-none-q129",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "587ff74cc454"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Which career areas interest you right now? Pick up to three.",
+      "responseType": "multi",
+      "paramId": "p198",
+      "options": [
+        {
+          "label": "Engineering and technology",
+          "value": "engineering"
+        },
+        {
+          "label": "Medicine and health",
+          "value": "medicine"
+        },
+        {
+          "label": "Business, finance and commerce",
+          "value": "business"
+        },
+        {
+          "label": "Law, government and public policy",
+          "value": "law"
+        },
+        {
+          "label": "Design, media and the arts",
+          "value": "design"
+        },
+        {
+          "label": "Science and research",
+          "value": "research"
+        },
+        {
+          "label": "Teaching, psychology and social work",
+          "value": "social"
+        },
+        {
+          "label": "Not sure yet",
+          "value": "unsure"
+        }
+      ],
+      "max": 3,
+      "alsoInforms": [
+        "p199"
+      ],
+      "id": "onb-cambridge-g9-none-q130",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "732c5efa2f1e"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Who does your child live with?",
+      "responseType": "single",
+      "paramId": "p154",
+      "optional": false,
+      "options": [
+        {
+          "label": "Both parents",
+          "value": "nuclear"
+        },
+        {
+          "label": "Parents and grandparents or other relatives",
+          "value": "joint"
+        },
+        {
+          "label": "One parent",
+          "value": "single_parent"
+        },
+        {
+          "label": "Another guardian",
+          "value": "guardian"
+        }
+      ],
+      "id": "onb-cambridge-g9-none-q131",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "b4e573af0103"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "What is the highest education level in your child's home?",
+      "responseType": "single",
+      "paramId": "p155",
+      "optional": false,
+      "options": [
+        {
+          "label": "School",
+          "value": "school"
+        },
+        {
+          "label": "Bachelor's degree",
+          "value": "graduate"
+        },
+        {
+          "label": "Master's degree",
+          "value": "postgraduate"
+        },
+        {
+          "label": "Professional or doctoral degree (CA, MBBS, PhD, LLB...)",
+          "value": "professional"
+        }
+      ],
+      "id": "onb-cambridge-g9-none-q132",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "9bb6e9dc0272"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Which best describes the main earner's work?",
+      "responseType": "single",
+      "paramId": "p156",
+      "optional": false,
+      "options": [
+        {
+          "label": "Salaried, private sector",
+          "value": "private"
+        },
+        {
+          "label": "Salaried, government or PSU",
+          "value": "government"
+        },
+        {
+          "label": "Own business",
+          "value": "business"
+        },
+        {
+          "label": "Self-employed professional",
+          "value": "professional"
+        },
+        {
+          "label": "Agriculture",
+          "value": "agriculture"
+        },
+        {
+          "label": "Other",
+          "value": "other"
+        }
+      ],
+      "id": "onb-cambridge-g9-none-q133",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "53fbc806c89f"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Which languages are spoken at home?",
+      "responseType": "multi",
+      "paramId": "p157",
+      "optional": false,
+      "options": [
+        {
+          "label": "English",
+          "value": "en"
+        },
+        {
+          "label": "Hindi",
+          "value": "hi"
+        },
+        {
+          "label": "Another Indian language",
+          "value": "regional"
+        },
+        {
+          "label": "Another language",
+          "value": "other"
+        }
+      ],
+      "id": "onb-cambridge-g9-none-q134",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "9b8c0fd0ab78"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "How involved are you in your child's daily study?",
+      "responseType": "single",
+      "paramId": "p159",
+      "optional": false,
+      "options": [
+        {
+          "label": "I check in every day",
+          "value": "daily"
+        },
+        {
+          "label": "A few times a week",
+          "value": "weekly"
+        },
+        {
+          "label": "Mainly around exams",
+          "value": "exams"
+        },
+        {
+          "label": "Rarely, my child manages it",
+          "value": "rarely"
+        }
+      ],
+      "id": "onb-cambridge-g9-none-q135",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "6b01757b27ef"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Does your child attend tuition or coaching?",
+      "responseType": "single",
+      "paramId": "p21",
+      "optional": false,
+      "options": [
+        {
+          "label": "No",
+          "value": "none"
+        },
+        {
+          "label": "One subject",
+          "value": "one_subject"
+        },
+        {
+          "label": "Two or more subjects",
+          "value": "multi_subject"
+        },
+        {
+          "label": "A coaching institute (e.g. for JEE, NEET or boards)",
+          "value": "institute"
+        }
+      ],
+      "id": "onb-cambridge-g9-none-q136",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "feb34567435d"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Annual household income (optional, helps us suggest scholarships)",
+      "responseType": "single",
+      "paramId": "p176",
+      "optional": true,
+      "options": [
+        {
+          "label": "Under ₹5 lakh",
+          "value": "lt_5l",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 500000
+          }
+        },
+        {
+          "label": "₹5 to 10 lakh",
+          "value": "5_10l",
+          "sets": {
+            "minInr": 500000,
+            "maxInr": 1000000
+          }
+        },
+        {
+          "label": "₹10 to 25 lakh",
+          "value": "10_25l",
+          "sets": {
+            "minInr": 1000000,
+            "maxInr": 2500000
+          }
+        },
+        {
+          "label": "₹25 to 50 lakh",
+          "value": "25_50l",
+          "sets": {
+            "minInr": 2500000,
+            "maxInr": 5000000
+          }
+        },
+        {
+          "label": "Over ₹50 lakh",
+          "value": "gt_50l",
+          "sets": {
+            "minInr": 5000000,
+            "maxInr": null
+          }
+        }
+      ],
+      "id": "onb-cambridge-g9-none-q137",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "43104f173bc2"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "How much can you spend on extra learning each year (tuition, courses, tests)?",
+      "responseType": "single",
+      "paramId": "p178",
+      "optional": false,
+      "options": [
+        {
+          "label": "Under ₹50,000",
+          "value": "lt_50k",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 50000
+          }
+        },
+        {
+          "label": "₹50,000 to 1.5 lakh",
+          "value": "50k_150k",
+          "sets": {
+            "minInr": 50000,
+            "maxInr": 150000
+          }
+        },
+        {
+          "label": "₹1.5 to 3 lakh",
+          "value": "150k_300k",
+          "sets": {
+            "minInr": 150000,
+            "maxInr": 300000
+          }
+        },
+        {
+          "label": "₹3 to 6 lakh",
+          "value": "300k_600k",
+          "sets": {
+            "minInr": 300000,
+            "maxInr": 600000
+          }
+        },
+        {
+          "label": "Over ₹6 lakh",
+          "value": "gt_600k",
+          "sets": {
+            "minInr": 600000,
+            "maxInr": null
+          }
+        }
+      ],
+      "id": "onb-cambridge-g9-none-q138",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "67072550cf5b"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "What total budget can you plan for an undergraduate degree in India?",
+      "responseType": "single",
+      "paramId": "p180",
+      "optional": false,
+      "options": [
+        {
+          "label": "Under ₹5 lakh",
+          "value": "lt_5l",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 500000
+          }
+        },
+        {
+          "label": "₹5 to 15 lakh",
+          "value": "5_15l",
+          "sets": {
+            "minInr": 500000,
+            "maxInr": 1500000
+          }
+        },
+        {
+          "label": "₹15 to 30 lakh",
+          "value": "15_30l",
+          "sets": {
+            "minInr": 1500000,
+            "maxInr": 3000000
+          }
+        },
+        {
+          "label": "Over ₹30 lakh",
+          "value": "gt_30l",
+          "sets": {
+            "minInr": 3000000,
+            "maxInr": null
+          }
+        }
+      ],
+      "id": "onb-cambridge-g9-none-q139",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "832f80bd4135"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "If your child studies abroad, what total budget could you plan?",
+      "responseType": "single",
+      "paramId": "p181",
+      "optional": false,
+      "options": [
+        {
+          "label": "Not considering study abroad",
+          "value": "none",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 0
+          }
+        },
+        {
+          "label": "Under ₹25 lakh",
+          "value": "lt_25l",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 2500000
+          }
+        },
+        {
+          "label": "₹25 to 50 lakh",
+          "value": "25_50l",
+          "sets": {
+            "minInr": 2500000,
+            "maxInr": 5000000
+          }
+        },
+        {
+          "label": "₹50 lakh to 1 crore",
+          "value": "50l_1cr",
+          "sets": {
+            "minInr": 5000000,
+            "maxInr": 10000000
+          }
+        },
+        {
+          "label": "Over ₹1 crore",
+          "value": "gt_1cr",
+          "sets": {
+            "minInr": 10000000,
+            "maxInr": null
+          }
+        }
+      ],
+      "alsoInforms": [
+        "p192"
+      ],
+      "id": "onb-cambridge-g9-none-q140",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "1da408987765"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Would you consider an education loan?",
+      "responseType": "single",
+      "paramId": "p182",
+      "optional": false,
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "label": "Maybe, depending on the course",
+          "value": "maybe"
+        },
+        {
+          "label": "No",
+          "value": "no"
+        }
+      ],
+      "id": "onb-cambridge-g9-none-q141",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "29db07c379ba"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Which career direction would you like for your child?",
+      "responseType": "single",
+      "paramId": "p202",
+      "optional": false,
+      "options": [
+        {
+          "label": "Engineering and technology",
+          "value": "engineering"
+        },
+        {
+          "label": "Medicine and health",
+          "value": "medicine"
+        },
+        {
+          "label": "Business, finance and commerce",
+          "value": "business"
+        },
+        {
+          "label": "Law, government and public policy",
+          "value": "law"
+        },
+        {
+          "label": "Design, media and the arts",
+          "value": "design"
+        },
+        {
+          "label": "Science and research",
+          "value": "research"
+        },
+        {
+          "label": "Teaching, psychology and social work",
+          "value": "social"
+        },
+        {
+          "label": "Whatever my child chooses",
+          "value": "child_choice"
+        }
+      ],
+      "alsoInforms": [
+        "p203"
+      ],
+      "id": "onb-cambridge-g9-none-q142",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "bc4252eaee6c"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "How supportive is your family of your child studying abroad?",
+      "responseType": "scale",
+      "paramId": "p234",
+      "optional": false,
+      "options": [
+        {
+          "label": "1 Not supportive",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Fully supportive",
+          "value": 5
+        }
+      ],
+      "id": "onb-cambridge-g9-none-q143",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "9a84394f1a5b"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "What device and internet does your child use for study?",
+      "responseType": "single",
+      "paramId": "p193",
+      "optional": false,
+      "options": [
+        {
+          "label": "Own laptop or tablet with reliable internet",
+          "value": "own_device"
+        },
+        {
+          "label": "A shared family computer",
+          "value": "shared"
+        },
+        {
+          "label": "Mainly a phone",
+          "value": "phone_only"
+        },
+        {
+          "label": "Internet is often unreliable",
+          "value": "unreliable"
+        }
+      ],
+      "id": "onb-cambridge-g9-none-q144",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "516a78042b4f"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "I consent to Learnibility processing my child's data to personalise their learning, as described in the privacy notice.",
+      "responseType": "consent",
+      "paramId": "p30",
+      "optional": false,
+      "options": [
+        {
+          "label": "I agree",
+          "value": "granted"
+        },
+        {
+          "label": "I do not agree",
+          "value": "refused"
+        }
+      ],
+      "helpText": "Required for a child under 18 (DPDP Act 2023, s.9(1)). You can withdraw consent at any time in Settings.",
+      "id": "onb-cambridge-g9-none-q145",
+      "tier": "C",
+      "screened": false,
+      "contentKey": "1f4aba2a3948"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "I allow my child's selected work to be shown to teachers, tutors and counsellors on the platform.",
+      "responseType": "consent",
+      "paramId": "p277",
+      "optional": true,
+      "options": [
+        {
+          "label": "Yes",
+          "value": "granted"
+        },
+        {
+          "label": "Not now",
+          "value": "refused"
+        }
+      ],
+      "helpText": "Optional. Nothing is shared outside the platform without asking you again.",
+      "id": "onb-cambridge-g9-none-q146",
+      "tier": "C",
+      "screened": false,
+      "contentKey": "f49d9421e2bb"
+    }
+  ]
+}

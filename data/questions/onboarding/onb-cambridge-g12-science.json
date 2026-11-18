@@ -1,0 +1,4971 @@
+{
+  "schemaVersion": 1,
+  "generatedBy": "scripts/onboarding/build-forms.py",
+  "form": {
+    "formId": "onb-cambridge-g12-science",
+    "designId": "g12-science",
+    "board": "cambridge",
+    "grade": 12,
+    "stream": "science",
+    "title": "Cambridge A Level Science onboarding test",
+    "minutes": {
+      "A": 32,
+      "B": 12,
+      "C": 8,
+      "P": 5
+    },
+    "partA": {
+      "pool": 84,
+      "delivered": 32
+    },
+    "scoring": {
+      "ladder": {
+        "start": "D2",
+        "floor": "D1",
+        "ceiling": "D3",
+        "hitsToStepUp": 2,
+        "weights": {
+          "D1": 1,
+          "D2": 2,
+          "D3": 3
+        }
+      },
+      "bandCutoffs": [
+        {
+          "band": "excellent",
+          "minPercent": 80
+        },
+        {
+          "band": "above_avg",
+          "minPercent": 65
+        },
+        {
+          "band": "average",
+          "minPercent": 45
+        },
+        {
+          "band": "below_avg",
+          "minPercent": 0
+        }
+      ],
+      "groups": [
+        {
+          "group": "physics",
+          "label": "Physics",
+          "subjectIds": [
+            "cambridge-g11-physics",
+            "cambridge-g12-physics"
+          ]
+        },
+        {
+          "group": "chemistry",
+          "label": "Chemistry",
+          "subjectIds": [
+            "cambridge-g11-chemistry",
+            "cambridge-g12-chemistry"
+          ]
+        },
+        {
+          "group": "maths",
+          "label": "Mathematics",
+          "subjectIds": [
+            "cambridge-g11-maths",
+            "cambridge-g12-maths"
+          ]
+        },
+        {
+          "group": "biology",
+          "label": "Biology",
+          "subjectIds": [
+            "cambridge-g11-biology",
+            "cambridge-g12-biology"
+          ]
+        }
+      ],
+      "writes": [
+        {
+          "paramId": "p1",
+          "rule": "Grade of the form taken",
+          "source": "M1",
+          "confidence": "high"
+        },
+        {
+          "paramId": "p3",
+          "rule": "Board of the form taken",
+          "source": "M1",
+          "confidence": "high"
+        },
+        {
+          "paramId": "p5",
+          "rule": "Stream of the form taken (grades 11-12)",
+          "source": "M1",
+          "confidence": "high"
+        },
+        {
+          "paramId": "p278",
+          "rule": "Per subtopic seen: pMastery 0.7 if right at D2/D3, 0.55 if right at D1, 0.25 if wrong; level L0-L3 from the ladder step reached",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p279",
+          "rule": "Prerequisite-gap index = 100 x weighted misses / weighted items seen in slots 1-4, averaged over groups",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p13",
+          "rule": "Groups with the highest Part A percent (top 1-2, only if >= 65%)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p14",
+          "rule": "Groups with the lowest Part A percent (bottom 1-2, only if < 65%)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p140",
+          "rule": "Mean confidence (1-5) per group",
+          "source": "M1",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p141",
+          "rule": "Calibration = 1 - mean |confidence/5 - correct| over Part A (feeds the first MCI reading)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p284",
+          "rule": "Highest difficulty answered correctly twice in a row: D1 low, D2 medium, D3 high",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p61",
+          "rule": "Verbal reasoning = percent of Part B verbal items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p62",
+          "rule": "Numerical reasoning = percent of Part B numerical items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p63",
+          "rule": "Abstract reasoning = percent of Part B abstract items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p64",
+          "rule": "Spatial reasoning = percent of Part B spatial items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p65",
+          "rule": "Logical deduction = percent right on Part B items tagged p65",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p68",
+          "rule": "Numeracy fluency = numerical percent scaled by speed (right answers under target time count 1.2x, max 100)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p69",
+          "rule": "Processing speed = 100 x share of Part B items answered right within target seconds",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p200",
+          "rule": "RIASEC profile: each career-interest item scored 1-5; letter score = mean of its 2 items; top 3 letters form the code (e.g. IRC)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p31",
+          "rule": "Answer to onb-cambridge-g12-science-q101 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p33",
+          "rule": "Answer to onb-cambridge-g12-science-q102 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p34",
+          "rule": "Answer to onb-cambridge-g12-science-q103 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p39",
+          "rule": "Answer to onb-cambridge-g12-science-q104 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p40",
+          "rule": "Answer to onb-cambridge-g12-science-q105 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p46",
+          "rule": "Answer to onb-cambridge-g12-science-q106 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p105",
+          "rule": "Answer to onb-cambridge-g12-science-q107 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p48",
+          "rule": "Answer to onb-cambridge-g12-science-q108 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p50",
+          "rule": "Answer to onb-cambridge-g12-science-q109 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p49",
+          "rule": "Answer to onb-cambridge-g12-science-q110 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p21",
+          "rule": "Answer to onb-cambridge-g12-science-q111 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p123",
+          "rule": "Answer to onb-cambridge-g12-science-q112 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p125",
+          "rule": "Answer to onb-cambridge-g12-science-q113 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p331",
+          "rule": "Answer to onb-cambridge-g12-science-q114 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p111",
+          "rule": "Answer to onb-cambridge-g12-science-q115 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p83",
+          "rule": "Answer to onb-cambridge-g12-science-q116 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p230",
+          "rule": "Answer to onb-cambridge-g12-science-q129 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p198",
+          "rule": "Answer to onb-cambridge-g12-science-q130 (multi)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p154",
+          "rule": "Answer to onb-cambridge-g12-science-q131 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p155",
+          "rule": "Answer to onb-cambridge-g12-science-q132 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p156",
+          "rule": "Answer to onb-cambridge-g12-science-q133 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p157",
+          "rule": "Answer to onb-cambridge-g12-science-q134 (multi)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p159",
+          "rule": "Answer to onb-cambridge-g12-science-q135 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p176",
+          "rule": "Answer to onb-cambridge-g12-science-q137 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p178",
+          "rule": "Answer to onb-cambridge-g12-science-q138 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p180",
+          "rule": "Answer to onb-cambridge-g12-science-q139 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p181",
+          "rule": "Answer to onb-cambridge-g12-science-q140 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p182",
+          "rule": "Answer to onb-cambridge-g12-science-q141 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p202",
+          "rule": "Answer to onb-cambridge-g12-science-q142 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p234",
+          "rule": "Answer to onb-cambridge-g12-science-q143 (scale)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p193",
+          "rule": "Answer to onb-cambridge-g12-science-q144 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p30",
+          "rule": "Answer to onb-cambridge-g12-science-q145 (consent)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p277",
+          "rule": "Answer to onb-cambridge-g12-science-q146 (consent)",
+          "source": "M2",
+          "confidence": "medium"
+        }
+      ],
+      "reasoning": [
+        {
+          "domain": "numerical",
+          "paramId": "p62",
+          "itemIds": [
+            "onb-cambridge-g12-science-q85",
+            "onb-cambridge-g12-science-q86",
+            "onb-cambridge-g12-science-q87",
+            "onb-cambridge-g12-science-q88"
+          ]
+        },
+        {
+          "domain": "verbal",
+          "paramId": "p61",
+          "itemIds": [
+            "onb-cambridge-g12-science-q89",
+            "onb-cambridge-g12-science-q90",
+            "onb-cambridge-g12-science-q91",
+            "onb-cambridge-g12-science-q92"
+          ]
+        },
+        {
+          "domain": "abstract",
+          "paramId": "p63",
+          "itemIds": [
+            "onb-cambridge-g12-science-q93",
+            "onb-cambridge-g12-science-q94",
+            "onb-cambridge-g12-science-q95",
+            "onb-cambridge-g12-science-q96"
+          ]
+        },
+        {
+          "domain": "spatial",
+          "paramId": "p64",
+          "itemIds": [
+            "onb-cambridge-g12-science-q97",
+            "onb-cambridge-g12-science-q98",
+            "onb-cambridge-g12-science-q99",
+            "onb-cambridge-g12-science-q100"
+          ]
+        }
+      ],
+      "riasec": {
+        "R": [
+          "onb-cambridge-g12-science-q117",
+          "onb-cambridge-g12-science-q118"
+        ],
+        "I": [
+          "onb-cambridge-g12-science-q119",
+          "onb-cambridge-g12-science-q120"
+        ],
+        "A": [
+          "onb-cambridge-g12-science-q121",
+          "onb-cambridge-g12-science-q122"
+        ],
+        "S": [
+          "onb-cambridge-g12-science-q123",
+          "onb-cambridge-g12-science-q124"
+        ],
+        "E": [
+          "onb-cambridge-g12-science-q125",
+          "onb-cambridge-g12-science-q126"
+        ],
+        "C": [
+          "onb-cambridge-g12-science-q127",
+          "onb-cambridge-g12-science-q128"
+        ]
+      }
+    }
+  },
+  "items": [
+    {
+      "id": "onb-cambridge-g12-science-q01",
+      "subtopicId": "cambridge-g11-physics-ch05-st1",
+      "chapterId": "cambridge-g11-physics-ch05",
+      "subjectId": "cambridge-g11-physics",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A 1 kg ball at 6 m/s hits a stationary 2 kg ball and they move off together. What is their speed?",
+      "answer": "2 m/s",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 1,
+      "half": "prerequisite",
+      "subtopicHint": "Conservation of momentum",
+      "subtopicLinked": true,
+      "contentKey": "a2441375683e",
+      "options": [
+        "3 m/s",
+        "1 m/s",
+        "6 m/s",
+        "2 m/s"
+      ],
+      "markingKey": "D. 2 m/s. Momentum 6 = 3v"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q02",
+      "subtopicId": "cambridge-g11-physics-ch08-st1",
+      "chapterId": "cambridge-g11-physics-ch08",
+      "subjectId": "cambridge-g11-physics",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Work done by a force equals",
+      "answer": "force x distance moved in the direction of the force",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Work, energy and power",
+      "subtopicLinked": true,
+      "contentKey": "282fb4f1b47f",
+      "options": [
+        "force x distance moved in the direction of the force",
+        "force ÷ time",
+        "mass x velocity",
+        "power x distance"
+      ],
+      "markingKey": "A. force x distance moved in the direction of the force. W = Fs"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q03",
+      "subtopicId": "cambridge-g11-physics-ch08-st1",
+      "chapterId": "cambridge-g11-physics-ch08",
+      "subjectId": "cambridge-g11-physics",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A 50 kg student climbs 4 m of stairs in 5 s. What is the useful power? (g = 10 N/kg)",
+      "answer": "400 W",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Work, energy and power",
+      "subtopicLinked": true,
+      "contentKey": "18187dbfe0af",
+      "options": [
+        "2000 W",
+        "400 W",
+        "1000 W",
+        "40 W"
+      ],
+      "markingKey": "B. 400 W. mgh ÷ t = 2000 J ÷ 5 s"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q04",
+      "subtopicId": "cambridge-g11-physics-ch03-st3",
+      "chapterId": "cambridge-g11-physics-ch03",
+      "subjectId": "cambridge-g11-physics",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "For a projectile, ignoring air resistance, the horizontal velocity",
+      "answer": "stays constant",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Projectiles and circular motion",
+      "subtopicLinked": true,
+      "contentKey": "f66a4cc3ee05",
+      "options": [
+        "reverses",
+        "decreases to zero",
+        "increases",
+        "stays constant"
+      ],
+      "markingKey": "D. stays constant. No horizontal force"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q05",
+      "subtopicId": "cambridge-g11-physics-ch03-st3",
+      "chapterId": "cambridge-g11-physics-ch03",
+      "subjectId": "cambridge-g11-physics",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "An object moves in a circle at constant speed. Its acceleration is",
+      "answer": "towards the centre of the circle",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Projectiles and circular motion",
+      "subtopicLinked": true,
+      "contentKey": "f4947dc2de30",
+      "options": [
+        "zero",
+        "along the direction of motion",
+        "towards the centre of the circle",
+        "away from the centre"
+      ],
+      "markingKey": "C. towards the centre of the circle. Centripetal acceleration"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q06",
+      "subtopicId": "cambridge-g11-physics-ch03-st3",
+      "chapterId": "cambridge-g11-physics-ch03",
+      "subjectId": "cambridge-g11-physics",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A ball is thrown horizontally at 10 m/s from a 20 m high cliff. How far from the base does it land? (g = 10 m/s²)",
+      "answer": "20 m",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Projectiles and circular motion",
+      "subtopicLinked": true,
+      "contentKey": "9f614fad563d",
+      "options": [
+        "200 m",
+        "20 m",
+        "10 m",
+        "40 m"
+      ],
+      "markingKey": "B. 20 m. Fall time √(2 x 20 ÷ 10) = 2 s, then 10 x 2"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q07",
+      "subtopicId": "cambridge-g11-physics-ch10-st1",
+      "chapterId": "cambridge-g11-physics-ch10",
+      "subjectId": "cambridge-g11-physics",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "The time for one complete oscillation is the",
+      "answer": "period",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Waves and oscillations",
+      "subtopicLinked": true,
+      "contentKey": "43aa09ecba67",
+      "options": [
+        "frequency",
+        "wavelength",
+        "amplitude",
+        "period"
+      ],
+      "markingKey": "D. period. T = 1/f"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q08",
+      "subtopicId": "cambridge-g11-physics-ch10-st1",
+      "chapterId": "cambridge-g11-physics-ch10",
+      "subjectId": "cambridge-g11-physics",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A pendulum makes 20 oscillations in 10 s. What is its frequency?",
+      "answer": "2 Hz",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Waves and oscillations",
+      "subtopicLinked": true,
+      "contentKey": "dc94ecc1dcb2",
+      "options": [
+        "10 Hz",
+        "200 Hz",
+        "0.5 Hz",
+        "2 Hz"
+      ],
+      "markingKey": "D. 2 Hz. 20 ÷ 10"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q09",
+      "subtopicId": "cambridge-g11-physics-ch10-st1",
+      "chapterId": "cambridge-g11-physics-ch10",
+      "subjectId": "cambridge-g11-physics",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "In simple harmonic motion, where is the speed of the oscillator greatest?",
+      "answer": "At the equilibrium position",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Waves and oscillations",
+      "subtopicLinked": true,
+      "contentKey": "817e35468078",
+      "options": [
+        "At maximum displacement",
+        "It is the same everywhere",
+        "Halfway to maximum displacement only",
+        "At the equilibrium position"
+      ],
+      "markingKey": "D. At the equilibrium position. All energy is kinetic at the centre"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q10",
+      "subtopicId": "cambridge-g12-physics-ch07-st3",
+      "chapterId": "cambridge-g12-physics-ch07",
+      "subjectId": "cambridge-g12-physics",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Like charges",
+      "answer": "repel each other",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Electric fields and Coulomb's law",
+      "subtopicLinked": true,
+      "contentKey": "1bc6eb95b94b",
+      "options": [
+        "repel each other",
+        "have no effect on each other",
+        "cancel out",
+        "attract each other"
+      ],
+      "markingKey": "A. repel each other. Basic electrostatics"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q11",
+      "subtopicId": "cambridge-g12-physics-ch07-st3",
+      "chapterId": "cambridge-g12-physics-ch07",
+      "subjectId": "cambridge-g12-physics",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "If the distance between two point charges is doubled, the force between them becomes",
+      "answer": "one quarter as large",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Electric fields and Coulomb's law",
+      "subtopicLinked": true,
+      "contentKey": "3e0bdc69a1b6",
+      "options": [
+        "one quarter as large",
+        "half as large",
+        "twice as large",
+        "four times as large"
+      ],
+      "markingKey": "A. one quarter as large. Inverse square law"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q12",
+      "subtopicId": "cambridge-g12-physics-ch07-st3",
+      "chapterId": "cambridge-g12-physics-ch07",
+      "subjectId": "cambridge-g12-physics",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "What is the field strength between parallel plates 0.02 m apart with a p.d. of 400 V?",
+      "answer": "20 000 V/m",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Electric fields and Coulomb's law",
+      "subtopicLinked": true,
+      "contentKey": "c25b73d375c5",
+      "options": [
+        "400 V/m",
+        "20 000 V/m",
+        "8 V/m",
+        "0.00005 V/m"
+      ],
+      "markingKey": "B. 20 000 V/m. E = V ÷ d"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q13",
+      "subtopicId": "cambridge-g12-physics-ch09-st2",
+      "chapterId": "cambridge-g12-physics-ch09",
+      "subjectId": "cambridge-g12-physics",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "The direction of the force on a current-carrying wire in a magnetic field is given by",
+      "answer": "Fleming's left-hand rule",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Magnetic force on currents and moving charges",
+      "subtopicLinked": true,
+      "contentKey": "3cd465abb9d7",
+      "options": [
+        "Lenz's law",
+        "Fleming's right-hand rule",
+        "Ohm's law",
+        "Fleming's left-hand rule"
+      ],
+      "markingKey": "D. Fleming's left-hand rule. Motor effect"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q14",
+      "subtopicId": "cambridge-g12-physics-ch09-st2",
+      "chapterId": "cambridge-g12-physics-ch09",
+      "subjectId": "cambridge-g12-physics",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A 0.5 m wire carrying 4 A lies at right angles to a 0.2 T field. What is the force on it?",
+      "answer": "0.4 N",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Magnetic force on currents and moving charges",
+      "subtopicLinked": true,
+      "contentKey": "5248b5407bc6",
+      "options": [
+        "2.5 N",
+        "1.6 N",
+        "0.4 N",
+        "10 N"
+      ],
+      "markingKey": "C. 0.4 N. F = BIL"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q15",
+      "subtopicId": "cambridge-g12-physics-ch09-st2",
+      "chapterId": "cambridge-g12-physics-ch09",
+      "subjectId": "cambridge-g12-physics",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why does a charged particle moving at right angles to a uniform magnetic field travel in a circle?",
+      "answer": "The force is always perpendicular to its velocity",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Magnetic force on currents and moving charges",
+      "subtopicLinked": true,
+      "contentKey": "4df4976dc077",
+      "options": [
+        "The field speeds it up",
+        "The force is along its velocity",
+        "The force is always perpendicular to its velocity",
+        "The particle loses charge"
+      ],
+      "markingKey": "C. The force is always perpendicular to its velocity. It provides centripetal force"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q16",
+      "subtopicId": "cambridge-g12-physics-ch10-st2",
+      "chapterId": "cambridge-g12-physics-ch10",
+      "subjectId": "cambridge-g12-physics",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "An e.m.f. is induced in a coil when",
+      "answer": "the magnetic flux through it changes",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Electromagnetic induction: Faraday and Lenz",
+      "subtopicLinked": true,
+      "contentKey": "8d889e6dcc83",
+      "options": [
+        "it is stationary in a steady field",
+        "the magnetic flux through it changes",
+        "no magnet is nearby",
+        "it is made of plastic"
+      ],
+      "markingKey": "B. the magnetic flux through it changes. Faraday's law"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q17",
+      "subtopicId": "cambridge-g12-physics-ch10-st2",
+      "chapterId": "cambridge-g12-physics-ch10",
+      "subjectId": "cambridge-g12-physics",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Lenz's law states that the induced current",
+      "answer": "opposes the change that produces it",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Electromagnetic induction: Faraday and Lenz",
+      "subtopicLinked": true,
+      "contentKey": "808eb61d17a1",
+      "options": [
+        "opposes the change that produces it",
+        "flows only in straight wires",
+        "adds to the change",
+        "is always zero"
+      ],
+      "markingKey": "A. opposes the change that produces it. A consequence of energy conservation"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q18",
+      "subtopicId": "cambridge-g12-physics-ch10-st2",
+      "chapterId": "cambridge-g12-physics-ch10",
+      "subjectId": "cambridge-g12-physics",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "The flux through a 100-turn coil falls from 0.03 Wb to 0 in 0.1 s. What is the average induced e.m.f.?",
+      "answer": "30 V",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Electromagnetic induction: Faraday and Lenz",
+      "subtopicLinked": true,
+      "contentKey": "3aa231749dca",
+      "options": [
+        "3 V",
+        "0.3 V",
+        "300 V",
+        "30 V"
+      ],
+      "markingKey": "D. 30 V. ε = NΔΦ/Δt = 100 x 0.03 ÷ 0.1"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q19",
+      "subtopicId": "cambridge-g12-physics-ch12-st1",
+      "chapterId": "cambridge-g12-physics-ch12",
+      "subjectId": "cambridge-g12-physics",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Light behaves as a stream of particles called",
+      "answer": "photons",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Photons and the photoelectric effect",
+      "subtopicLinked": true,
+      "contentKey": "6a62c70780b5",
+      "options": [
+        "photons",
+        "phonons",
+        "electrons",
+        "neutrons"
+      ],
+      "markingKey": "A. photons. Quanta of light"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q20",
+      "subtopicId": "cambridge-g12-physics-ch12-st1",
+      "chapterId": "cambridge-g12-physics-ch12",
+      "subjectId": "cambridge-g12-physics",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "In the photoelectric effect, increasing the intensity of light above the threshold frequency increases",
+      "answer": "the number of electrons emitted",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Photons and the photoelectric effect",
+      "subtopicLinked": true,
+      "contentKey": "70d99d4ece77",
+      "options": [
+        "the number of electrons emitted",
+        "the work function",
+        "the threshold frequency",
+        "the maximum kinetic energy of each electron"
+      ],
+      "markingKey": "A. the number of electrons emitted. More photons per second, same energy each"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q21",
+      "subtopicId": "cambridge-g12-physics-ch12-st1",
+      "chapterId": "cambridge-g12-physics-ch12",
+      "subjectId": "cambridge-g12-physics",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why does red light fail to eject electrons from zinc even when very bright?",
+      "answer": "Each red photon has less energy than the work function of zinc",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "physics",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Photons and the photoelectric effect",
+      "subtopicLinked": true,
+      "contentKey": "973131416901",
+      "options": [
+        "Each red photon has less energy than the work function of zinc",
+        "Red light has too many photons",
+        "Zinc reflects all light",
+        "Bright light cools the metal"
+      ],
+      "markingKey": "A. Each red photon has less energy than the work function of zinc. E = hf is too small"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q22",
+      "subtopicId": "cambridge-g11-chemistry-ch01-st4",
+      "chapterId": "cambridge-g11-chemistry-ch01",
+      "subjectId": "cambridge-g11-chemistry",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "What is the concentration of 0.5 mol of NaCl dissolved to make 250 cm³ of solution?",
+      "answer": "2 mol/dm³",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 1,
+      "half": "prerequisite",
+      "subtopicHint": "Moles and concentration",
+      "subtopicLinked": true,
+      "contentKey": "8787d9664bfd",
+      "options": [
+        "0.125 mol/dm³",
+        "125 mol/dm³",
+        "0.5 mol/dm³",
+        "2 mol/dm³"
+      ],
+      "markingKey": "D. 2 mol/dm³. 0.5 ÷ 0.25 dm³"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q23",
+      "subtopicId": "cambridge-g11-chemistry-ch05-st1",
+      "chapterId": "cambridge-g11-chemistry-ch05",
+      "subjectId": "cambridge-g11-chemistry",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A negative ΔH means the reaction is",
+      "answer": "exothermic",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Enthalpy changes",
+      "subtopicLinked": true,
+      "contentKey": "8182cc394bbe",
+      "options": [
+        "exothermic",
+        "at equilibrium",
+        "endothermic",
+        "very slow"
+      ],
+      "markingKey": "A. exothermic. Heat is released"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q24",
+      "subtopicId": "cambridge-g11-chemistry-ch05-st1",
+      "chapterId": "cambridge-g11-chemistry-ch05",
+      "subjectId": "cambridge-g11-chemistry",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Breaking bonds is",
+      "answer": "endothermic",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Enthalpy changes",
+      "subtopicLinked": true,
+      "contentKey": "c6fbe89d9290",
+      "options": [
+        "neither",
+        "endothermic",
+        "exothermic",
+        "always spontaneous"
+      ],
+      "markingKey": "B. endothermic. Energy is needed to separate atoms"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q25",
+      "subtopicId": "cambridge-g11-chemistry-ch07-st1",
+      "chapterId": "cambridge-g11-chemistry-ch07",
+      "subjectId": "cambridge-g11-chemistry",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "At dynamic equilibrium, the rates of the forward and reverse reactions are",
+      "answer": "equal",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Equilibrium and Le Chatelier's principle",
+      "subtopicLinked": true,
+      "contentKey": "df50c8116fcf",
+      "options": [
+        "increasing",
+        "very different",
+        "both zero",
+        "equal"
+      ],
+      "markingKey": "D. equal. Concentrations stay constant"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q26",
+      "subtopicId": "cambridge-g11-chemistry-ch07-st1",
+      "chapterId": "cambridge-g11-chemistry-ch07",
+      "subjectId": "cambridge-g11-chemistry",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "For N₂ + 3H₂ ⇌ 2NH₃, increasing the pressure shifts the equilibrium",
+      "answer": "to the right, towards fewer gas molecules",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Equilibrium and Le Chatelier's principle",
+      "subtopicLinked": true,
+      "contentKey": "078a53129a81",
+      "options": [
+        "to the right, towards fewer gas molecules",
+        "to the left",
+        "nowhere",
+        "to the side with more molecules"
+      ],
+      "markingKey": "A. to the right, towards fewer gas molecules. 4 moles of gas become 2"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q27",
+      "subtopicId": "cambridge-g11-chemistry-ch07-st1",
+      "chapterId": "cambridge-g11-chemistry-ch07",
+      "subjectId": "cambridge-g11-chemistry",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "The forward reaction is exothermic. What happens to the yield if the temperature is raised?",
+      "answer": "It decreases",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Equilibrium and Le Chatelier's principle",
+      "subtopicLinked": true,
+      "contentKey": "f2cecdae28eb",
+      "options": [
+        "It is unchanged",
+        "It decreases",
+        "It increases",
+        "It doubles"
+      ],
+      "markingKey": "B. It decreases. Equilibrium shifts in the endothermic direction"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q28",
+      "subtopicId": "cambridge-g11-chemistry-ch06-st2",
+      "chapterId": "cambridge-g11-chemistry-ch06",
+      "subjectId": "cambridge-g11-chemistry",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Oxidation is",
+      "answer": "loss of electrons",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Redox and oxidation numbers",
+      "subtopicLinked": true,
+      "contentKey": "2f730dc9a3ae",
+      "options": [
+        "gain of electrons",
+        "loss of oxygen",
+        "gain of hydrogen",
+        "loss of electrons"
+      ],
+      "markingKey": "D. loss of electrons. OIL RIG"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q29",
+      "subtopicId": "cambridge-g11-chemistry-ch06-st2",
+      "chapterId": "cambridge-g11-chemistry-ch06",
+      "subjectId": "cambridge-g11-chemistry",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "What is the oxidation number of manganese in KMnO₄?",
+      "answer": "+7",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Redox and oxidation numbers",
+      "subtopicLinked": true,
+      "contentKey": "50ae2702b670",
+      "options": [
+        "+2",
+        "-1",
+        "+4",
+        "+7"
+      ],
+      "markingKey": "D. +7. +1 + x + 4(-2) = 0"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q30",
+      "subtopicId": "cambridge-g11-chemistry-ch06-st2",
+      "chapterId": "cambridge-g11-chemistry-ch06",
+      "subjectId": "cambridge-g11-chemistry",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "In Zn + Cu²⁺ → Zn²⁺ + Cu, which species is the oxidising agent?",
+      "answer": "Cu²⁺",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Redox and oxidation numbers",
+      "subtopicLinked": true,
+      "contentKey": "4f56b88c68ab",
+      "options": [
+        "Zn",
+        "Zn²⁺",
+        "Cu",
+        "Cu²⁺"
+      ],
+      "markingKey": "D. Cu²⁺. Cu²⁺ gains electrons, oxidising zinc"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q31",
+      "subtopicId": "cambridge-g12-chemistry-ch02-st2",
+      "chapterId": "cambridge-g12-chemistry-ch02",
+      "subjectId": "cambridge-g12-chemistry",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "In a galvanic cell, oxidation takes place at the",
+      "answer": "anode",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Electrochemical cells",
+      "subtopicLinked": true,
+      "contentKey": "fbe863847cc1",
+      "options": [
+        "anode",
+        "salt bridge",
+        "voltmeter",
+        "cathode"
+      ],
+      "markingKey": "A. anode. An Ox, Red Cat"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q32",
+      "subtopicId": "cambridge-g12-chemistry-ch02-st2",
+      "chapterId": "cambridge-g12-chemistry-ch02",
+      "subjectId": "cambridge-g12-chemistry",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "What is the role of a salt bridge?",
+      "answer": "It completes the circuit and keeps the solutions electrically neutral",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Electrochemical cells",
+      "subtopicLinked": true,
+      "contentKey": "5534cd07999c",
+      "options": [
+        "It stops all ions moving",
+        "It increases the voltage to infinity",
+        "It supplies electrons",
+        "It completes the circuit and keeps the solutions electrically neutral"
+      ],
+      "markingKey": "D. It completes the circuit and keeps the solutions electrically neutral. Ions flow through it"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q33",
+      "subtopicId": "cambridge-g12-chemistry-ch02-st2",
+      "chapterId": "cambridge-g12-chemistry-ch02",
+      "subjectId": "cambridge-g12-chemistry",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "E° for Zn²⁺/Zn is -0.76 V and for Cu²⁺/Cu is +0.34 V. What is the cell e.m.f.?",
+      "answer": "1.10 V",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Electrochemical cells",
+      "subtopicLinked": true,
+      "contentKey": "03de3f5c9a38",
+      "options": [
+        "0.42 V",
+        "-1.10 V",
+        "1.10 V",
+        "-0.42 V"
+      ],
+      "markingKey": "C. 1.10 V. E°cell = E°cathode - E°anode"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q34",
+      "subtopicId": "cambridge-g12-chemistry-ch04-st1",
+      "chapterId": "cambridge-g12-chemistry-ch04",
+      "subjectId": "cambridge-g12-chemistry",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Which change usually increases the rate of a reaction?",
+      "answer": "raising the temperature",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Reaction kinetics and rate",
+      "subtopicLinked": true,
+      "contentKey": "569ed15d8583",
+      "options": [
+        "using larger lumps",
+        "diluting the solution",
+        "raising the temperature",
+        "removing the catalyst"
+      ],
+      "markingKey": "C. raising the temperature. More successful collisions"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q35",
+      "subtopicId": "cambridge-g12-chemistry-ch04-st1",
+      "chapterId": "cambridge-g12-chemistry-ch04",
+      "subjectId": "cambridge-g12-chemistry",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A catalyst speeds up a reaction by",
+      "answer": "providing a route with lower activation energy",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Reaction kinetics and rate",
+      "subtopicLinked": true,
+      "contentKey": "cc52e5956638",
+      "options": [
+        "changing ΔH",
+        "providing a route with lower activation energy",
+        "raising the temperature",
+        "being used up"
+      ],
+      "markingKey": "B. providing a route with lower activation energy. Alternative pathway"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q36",
+      "subtopicId": "cambridge-g12-chemistry-ch04-st1",
+      "chapterId": "cambridge-g12-chemistry-ch04",
+      "subjectId": "cambridge-g12-chemistry",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "For a first-order reaction, doubling the reactant concentration",
+      "answer": "doubles the rate",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Reaction kinetics and rate",
+      "subtopicLinked": true,
+      "contentKey": "9c45149197bc",
+      "options": [
+        "has no effect",
+        "doubles the rate",
+        "quadruples the rate",
+        "halves the rate"
+      ],
+      "markingKey": "B. doubles the rate. Rate = k[A]"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q37",
+      "subtopicId": "cambridge-g12-chemistry-ch06-st1",
+      "chapterId": "cambridge-g12-chemistry-ch06",
+      "subjectId": "cambridge-g12-chemistry",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Transition metals often form",
+      "answer": "coloured compounds",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Transition elements",
+      "subtopicLinked": true,
+      "contentKey": "b784ffbe4521",
+      "options": [
+        "only white compounds",
+        "no ions",
+        "only gases",
+        "coloured compounds"
+      ],
+      "markingKey": "D. coloured compounds. Partly filled d subshells"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q38",
+      "subtopicId": "cambridge-g12-chemistry-ch06-st1",
+      "chapterId": "cambridge-g12-chemistry-ch06",
+      "subjectId": "cambridge-g12-chemistry",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Why do transition metals show variable oxidation states?",
+      "answer": "4s and 3d electrons are close in energy and can both be lost",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Transition elements",
+      "subtopicLinked": true,
+      "contentKey": "a27693207522",
+      "options": [
+        "4s and 3d electrons are close in energy and can both be lost",
+        "They have no d electrons",
+        "They are all noble gases",
+        "They have only one valence electron"
+      ],
+      "markingKey": "A. 4s and 3d electrons are close in energy and can both be lost. Similar energies"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q39",
+      "subtopicId": "cambridge-g12-chemistry-ch06-st1",
+      "chapterId": "cambridge-g12-chemistry-ch06",
+      "subjectId": "cambridge-g12-chemistry",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why are transition metals and their compounds good catalysts?",
+      "answer": "They can change oxidation state and adsorb reactants on their surface",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Transition elements",
+      "subtopicLinked": true,
+      "contentKey": "5e42121aa664",
+      "options": [
+        "They are very unreactive",
+        "They always dissolve",
+        "They can change oxidation state and adsorb reactants on their surface",
+        "They have low density"
+      ],
+      "markingKey": "C. They can change oxidation state and adsorb reactants on their surface. Variable oxidation states"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q40",
+      "subtopicId": "cambridge-g12-chemistry-ch03-st1",
+      "chapterId": "cambridge-g12-chemistry-ch03",
+      "subjectId": "cambridge-g12-chemistry",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A Brønsted-Lowry acid is a",
+      "answer": "proton donor",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Acids, bases and solutions",
+      "subtopicLinked": true,
+      "contentKey": "8c2fa1ef30da",
+      "options": [
+        "hydroxide donor",
+        "proton acceptor",
+        "electron donor",
+        "proton donor"
+      ],
+      "markingKey": "D. proton donor. It gives H⁺"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q41",
+      "subtopicId": "cambridge-g12-chemistry-ch03-st1",
+      "chapterId": "cambridge-g12-chemistry-ch03",
+      "subjectId": "cambridge-g12-chemistry",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "What is the pH of 0.01 mol/dm³ HCl?",
+      "answer": "2",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Acids, bases and solutions",
+      "subtopicLinked": true,
+      "contentKey": "0aa4df4c1471",
+      "options": [
+        "0.01",
+        "12",
+        "2",
+        "1"
+      ],
+      "markingKey": "C. 2. pH = -log[H⁺] = -log(10⁻²)"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q42",
+      "subtopicId": "cambridge-g12-chemistry-ch03-st1",
+      "chapterId": "cambridge-g12-chemistry-ch03",
+      "subjectId": "cambridge-g12-chemistry",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A buffer solution",
+      "answer": "resists changes in pH when small amounts of acid or base are added",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "chemistry",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Acids, bases and solutions",
+      "subtopicLinked": true,
+      "contentKey": "37a29c89db08",
+      "options": [
+        "resists changes in pH when small amounts of acid or base are added",
+        "changes pH quickly",
+        "always has pH 7",
+        "is a strong acid"
+      ],
+      "markingKey": "A. resists changes in pH when small amounts of acid or base are added. Weak acid and its conjugate base"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q43",
+      "subtopicId": "cambridge-g11-maths-ch02-st1",
+      "chapterId": "cambridge-g11-maths-ch02",
+      "subjectId": "cambridge-g11-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "If f(x) = x² and g(x) = x - 1, what is g(f(3))?",
+      "answer": "8",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 1,
+      "half": "prerequisite",
+      "subtopicHint": "Functions and their inverses",
+      "subtopicLinked": true,
+      "contentKey": "97bdcc83c2cd",
+      "options": [
+        "8",
+        "2",
+        "9",
+        "4"
+      ],
+      "markingKey": "A. 8. f(3) = 9, then g(9)"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q44",
+      "subtopicId": "cambridge-g11-maths-ch06-st3",
+      "chapterId": "cambridge-g11-maths-ch06",
+      "subjectId": "cambridge-g11-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "What is the common ratio of 3, 6, 12, 24, ...?",
+      "answer": "2",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Geometric sequences and series",
+      "subtopicLinked": true,
+      "contentKey": "7bec471fe318",
+      "options": [
+        "2",
+        "3",
+        "6",
+        "1/2"
+      ],
+      "markingKey": "A. 2. 6 ÷ 3"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q45",
+      "subtopicId": "cambridge-g11-maths-ch06-st3",
+      "chapterId": "cambridge-g11-maths-ch06",
+      "subjectId": "cambridge-g11-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "What is the sum to infinity of 8 + 4 + 2 + 1 + ...?",
+      "answer": "16",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Geometric sequences and series",
+      "subtopicLinked": true,
+      "contentKey": "6b8e0655499e",
+      "options": [
+        "15",
+        "infinite",
+        "8",
+        "16"
+      ],
+      "markingKey": "D. 16. a ÷ (1 - r) = 8 ÷ 0.5"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q46",
+      "subtopicId": "cambridge-g11-maths-ch05-st2",
+      "chapterId": "cambridge-g11-maths-ch05",
+      "subjectId": "cambridge-g11-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "sin²θ + cos²θ =",
+      "answer": "1",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Trigonometric identities and equations",
+      "subtopicLinked": true,
+      "contentKey": "d0f1f8d8a232",
+      "options": [
+        "2",
+        "0",
+        "tan θ",
+        "1"
+      ],
+      "markingKey": "D. 1. Pythagorean identity"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q47",
+      "subtopicId": "cambridge-g11-maths-ch05-st2",
+      "chapterId": "cambridge-g11-maths-ch05",
+      "subjectId": "cambridge-g11-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Solve sin x = 0.5 for 0° ≤ x ≤ 360°.",
+      "answer": "x = 30° or 150°",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Trigonometric identities and equations",
+      "subtopicLinked": true,
+      "contentKey": "42aa164f5802",
+      "options": [
+        "x = 30° or 150°",
+        "x = 30° or 330°",
+        "x = 30° only",
+        "x = 60° or 120°"
+      ],
+      "markingKey": "A. x = 30° or 150°. Sine is positive in the first two quadrants"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q48",
+      "subtopicId": "cambridge-g11-maths-ch05-st2",
+      "chapterId": "cambridge-g11-maths-ch05",
+      "subjectId": "cambridge-g11-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Simplify (1 - cos²θ) / sin θ.",
+      "answer": "sin θ",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Trigonometric identities and equations",
+      "subtopicLinked": true,
+      "contentKey": "64883195836a",
+      "options": [
+        "sin θ",
+        "1",
+        "tan θ",
+        "cos θ"
+      ],
+      "markingKey": "A. sin θ. 1 - cos²θ = sin²θ"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q49",
+      "subtopicId": "cambridge-g11-maths-ch06-st1",
+      "chapterId": "cambridge-g11-maths-ch06",
+      "subjectId": "cambridge-g11-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "How many different 3-letter arrangements can be made from the letters of MATHS (no repeats)?",
+      "answer": "60",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Permutations, combinations and binomial terms",
+      "subtopicLinked": true,
+      "contentKey": "cb4744b0f9e0",
+      "options": [
+        "60",
+        "15",
+        "125",
+        "10"
+      ],
+      "markingKey": "A. 60. 5 x 4 x 3"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q50",
+      "subtopicId": "cambridge-g11-maths-ch06-st1",
+      "chapterId": "cambridge-g11-maths-ch06",
+      "subjectId": "cambridge-g11-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "How many ways can a team of 3 be chosen from 7 players?",
+      "answer": "35",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Permutations, combinations and binomial terms",
+      "subtopicLinked": true,
+      "contentKey": "6cb115e8cf96",
+      "options": [
+        "210",
+        "343",
+        "35",
+        "21"
+      ],
+      "markingKey": "C. 35. ⁷C₃ = 35"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q51",
+      "subtopicId": "cambridge-g11-maths-ch06-st1",
+      "chapterId": "cambridge-g11-maths-ch06",
+      "subjectId": "cambridge-g11-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "What is the term independent of x in (x + 1/x)⁴?",
+      "answer": "6",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Permutations, combinations and binomial terms",
+      "subtopicLinked": true,
+      "contentKey": "aab864a29853",
+      "options": [
+        "4",
+        "1",
+        "6",
+        "12"
+      ],
+      "markingKey": "C. 6. ⁴C₂ x² (1/x)²"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q52",
+      "subtopicId": "cambridge-g12-maths-ch05-st2",
+      "chapterId": "cambridge-g12-maths-ch05",
+      "subjectId": "cambridge-g12-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "What is sin⁻¹(1/2) in radians?",
+      "answer": "π/6",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Trigonometric identities and inverse functions",
+      "subtopicLinked": true,
+      "contentKey": "b3ddb5eda771",
+      "options": [
+        "1/2",
+        "π/6",
+        "π/3",
+        "π/2"
+      ],
+      "markingKey": "B. π/6. sin(π/6) = 1/2"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q53",
+      "subtopicId": "cambridge-g12-maths-ch05-st2",
+      "chapterId": "cambridge-g12-maths-ch05",
+      "subjectId": "cambridge-g12-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "cos²θ - sin²θ is equal to",
+      "answer": "cos 2θ",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Trigonometric identities and inverse functions",
+      "subtopicLinked": true,
+      "contentKey": "81ea1c28c205",
+      "options": [
+        "tan 2θ",
+        "1",
+        "sin 2θ",
+        "cos 2θ"
+      ],
+      "markingKey": "D. cos 2θ. Double-angle identity"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q54",
+      "subtopicId": "cambridge-g12-maths-ch05-st2",
+      "chapterId": "cambridge-g12-maths-ch05",
+      "subjectId": "cambridge-g12-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "What is tan⁻¹(1) + tan⁻¹(√3)?",
+      "answer": "7π/12",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Trigonometric identities and inverse functions",
+      "subtopicLinked": true,
+      "contentKey": "5735e7806304",
+      "options": [
+        "π/3",
+        "π/2",
+        "7π/12",
+        "5π/12"
+      ],
+      "markingKey": "C. 7π/12. π/4 + π/3"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q55",
+      "subtopicId": "cambridge-g12-maths-ch04-st1",
+      "chapterId": "cambridge-g12-maths-ch04",
+      "subjectId": "cambridge-g12-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "What is d/dx of (2x + 1)³?",
+      "answer": "6(2x + 1)²",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Chain, product and quotient rules",
+      "subtopicLinked": true,
+      "contentKey": "5e562d8bffe4",
+      "options": [
+        "6x(2x + 1)²",
+        "(2x + 1)²",
+        "3(2x + 1)²",
+        "6(2x + 1)²"
+      ],
+      "markingKey": "D. 6(2x + 1)². Chain rule: 3(2x + 1)² x 2"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q56",
+      "subtopicId": "cambridge-g12-maths-ch04-st1",
+      "chapterId": "cambridge-g12-maths-ch04",
+      "subjectId": "cambridge-g12-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "What is d/dx of x²·sin x?",
+      "answer": "2x sin x + x² cos x",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Chain, product and quotient rules",
+      "subtopicLinked": true,
+      "contentKey": "de30bb21aa08",
+      "options": [
+        "2x sin x + x² cos x",
+        "2x cos x",
+        "2x sin x - x² cos x",
+        "x² cos x"
+      ],
+      "markingKey": "A. 2x sin x + x² cos x. Product rule"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q57",
+      "subtopicId": "cambridge-g12-maths-ch04-st1",
+      "chapterId": "cambridge-g12-maths-ch04",
+      "subjectId": "cambridge-g12-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "What is d/dx of eˣ / x?",
+      "answer": "eˣ(x - 1)/x²",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Chain, product and quotient rules",
+      "subtopicLinked": true,
+      "contentKey": "73a63f27b6e2",
+      "options": [
+        "eˣ(x + 1)/x²",
+        "eˣ/x²",
+        "eˣ(x - 1)/x²",
+        "eˣ"
+      ],
+      "markingKey": "C. eˣ(x - 1)/x². Quotient rule"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q58",
+      "subtopicId": "cambridge-g12-maths-ch05-st1",
+      "chapterId": "cambridge-g12-maths-ch05",
+      "subjectId": "cambridge-g12-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "∫ 2x dx =",
+      "answer": "x² + c",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Integration",
+      "subtopicLinked": true,
+      "contentKey": "8adbf60294f5",
+      "options": [
+        "x² + c",
+        "2x² + c",
+        "2 + c",
+        "x + c"
+      ],
+      "markingKey": "A. x² + c. Reverse of differentiation"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q59",
+      "subtopicId": "cambridge-g12-maths-ch05-st1",
+      "chapterId": "cambridge-g12-maths-ch05",
+      "subjectId": "cambridge-g12-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Evaluate ∫₀² 3x² dx.",
+      "answer": "8",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Integration",
+      "subtopicLinked": true,
+      "contentKey": "043aa4785094",
+      "options": [
+        "12",
+        "8",
+        "24",
+        "6"
+      ],
+      "markingKey": "B. 8. [x³] from 0 to 2"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q60",
+      "subtopicId": "cambridge-g12-maths-ch05-st1",
+      "chapterId": "cambridge-g12-maths-ch05",
+      "subjectId": "cambridge-g12-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "What is the area between y = x² and the x-axis from x = 0 to x = 3?",
+      "answer": "9",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Integration",
+      "subtopicLinked": true,
+      "contentKey": "aa98ea296868",
+      "options": [
+        "27",
+        "3",
+        "9",
+        "6"
+      ],
+      "markingKey": "C. 9. [x³/3] from 0 to 3"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q61",
+      "subtopicId": "cambridge-g12-maths-ch09-st1",
+      "chapterId": "cambridge-g12-maths-ch09",
+      "subjectId": "cambridge-g12-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "What is the magnitude of the vector (3, 4)?",
+      "answer": "5",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Vectors and the scalar product",
+      "subtopicLinked": true,
+      "contentKey": "7c09f196dba0",
+      "options": [
+        "25",
+        "7",
+        "12",
+        "5"
+      ],
+      "markingKey": "D. 5. √(9 + 16)"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q62",
+      "subtopicId": "cambridge-g12-maths-ch09-st1",
+      "chapterId": "cambridge-g12-maths-ch09",
+      "subjectId": "cambridge-g12-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "What is the scalar (dot) product of (1, 2, 3) and (4, 0, -1)?",
+      "answer": "1",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Vectors and the scalar product",
+      "subtopicLinked": true,
+      "contentKey": "e1ce5a72fc9d",
+      "options": [
+        "1",
+        "0",
+        "7",
+        "-1"
+      ],
+      "markingKey": "A. 1. 4 + 0 - 3"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q63",
+      "subtopicId": "cambridge-g12-maths-ch09-st1",
+      "chapterId": "cambridge-g12-maths-ch09",
+      "subjectId": "cambridge-g12-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Two non-zero vectors have a dot product of 0. What does this mean?",
+      "answer": "They are perpendicular",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Vectors and the scalar product",
+      "subtopicLinked": true,
+      "contentKey": "cadcd0caeb56",
+      "options": [
+        "One is zero",
+        "They are parallel",
+        "They are perpendicular",
+        "They are equal"
+      ],
+      "markingKey": "C. They are perpendicular. cos 90° = 0"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q64",
+      "subtopicId": "cambridge-g11-biology-ch03-st1",
+      "chapterId": "cambridge-g11-biology-ch03",
+      "subjectId": "cambridge-g11-biology",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "In the lock-and-key model, the substrate fits the enzyme's",
+      "answer": "active site",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 1,
+      "half": "prerequisite",
+      "subtopicHint": "Enzyme action",
+      "subtopicLinked": true,
+      "contentKey": "ce3d70fb921c",
+      "options": [
+        "active site",
+        "nucleus",
+        "cell wall",
+        "ribosome"
+      ],
+      "markingKey": "A. active site. Complementary shape"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q65",
+      "subtopicId": "cambridge-g11-biology-ch04-st1",
+      "chapterId": "cambridge-g11-biology-ch04",
+      "subjectId": "cambridge-g11-biology",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "The cell membrane is mainly made of",
+      "answer": "a phospholipid bilayer with proteins",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Cell membranes and transport",
+      "subtopicLinked": true,
+      "contentKey": "1b70826f4cd7",
+      "options": [
+        "cellulose",
+        "chitin",
+        "a phospholipid bilayer with proteins",
+        "starch"
+      ],
+      "markingKey": "C. a phospholipid bilayer with proteins. Fluid mosaic model"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q66",
+      "subtopicId": "cambridge-g11-biology-ch04-st1",
+      "chapterId": "cambridge-g11-biology-ch04",
+      "subjectId": "cambridge-g11-biology",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Why do small cells exchange materials more efficiently than large cells?",
+      "answer": "They have a larger surface area to volume ratio",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Cell membranes and transport",
+      "subtopicLinked": true,
+      "contentKey": "a6ed45ebf13d",
+      "options": [
+        "They have more DNA",
+        "They have thicker membranes",
+        "They have a larger surface area to volume ratio",
+        "They are always warmer"
+      ],
+      "markingKey": "C. They have a larger surface area to volume ratio. More surface per unit volume"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q67",
+      "subtopicId": "cambridge-g11-biology-ch06-st1",
+      "chapterId": "cambridge-g11-biology-ch06",
+      "subjectId": "cambridge-g11-biology",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "In DNA, adenine pairs with",
+      "answer": "thymine",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "DNA and protein synthesis",
+      "subtopicLinked": true,
+      "contentKey": "689b0229926a",
+      "options": [
+        "guanine",
+        "thymine",
+        "cytosine",
+        "uracil"
+      ],
+      "markingKey": "B. thymine. Complementary base pairing"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q68",
+      "subtopicId": "cambridge-g11-biology-ch06-st1",
+      "chapterId": "cambridge-g11-biology-ch06",
+      "subjectId": "cambridge-g11-biology",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which molecule carries the genetic code from the nucleus to the ribosome?",
+      "answer": "mRNA",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "DNA and protein synthesis",
+      "subtopicLinked": true,
+      "contentKey": "7c4957e713d5",
+      "options": [
+        "DNA",
+        "ATP",
+        "tRNA",
+        "mRNA"
+      ],
+      "markingKey": "D. mRNA. Transcription"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q69",
+      "subtopicId": "cambridge-g11-biology-ch06-st1",
+      "chapterId": "cambridge-g11-biology-ch06",
+      "subjectId": "cambridge-g11-biology",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A DNA strand reads ATG CCA. What is the complementary mRNA?",
+      "answer": "UAC GGU",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "DNA and protein synthesis",
+      "subtopicLinked": true,
+      "contentKey": "eb4d0080a04d",
+      "options": [
+        "TAC GGT",
+        "UAG CCU",
+        "ATG CCA",
+        "UAC GGU"
+      ],
+      "markingKey": "D. UAC GGU. U replaces T in RNA"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q70",
+      "subtopicId": "cambridge-g11-biology-ch09-st1",
+      "chapterId": "cambridge-g11-biology-ch09",
+      "subjectId": "cambridge-g11-biology",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Gas exchange in the lungs happens in the",
+      "answer": "alveoli",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Gas exchange and transport",
+      "subtopicLinked": true,
+      "contentKey": "978193a4cfc1",
+      "options": [
+        "diaphragm",
+        "alveoli",
+        "bronchi",
+        "trachea"
+      ],
+      "markingKey": "B. alveoli. Thin walls, large surface"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q71",
+      "subtopicId": "cambridge-g11-biology-ch09-st1",
+      "chapterId": "cambridge-g11-biology-ch09",
+      "subjectId": "cambridge-g11-biology",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Haemoglobin carries",
+      "answer": "oxygen",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Gas exchange and transport",
+      "subtopicLinked": true,
+      "contentKey": "9934549c8450",
+      "options": [
+        "oxygen",
+        "hormones",
+        "glucose",
+        "urea"
+      ],
+      "markingKey": "A. oxygen. In red blood cells"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q72",
+      "subtopicId": "cambridge-g11-biology-ch09-st1",
+      "chapterId": "cambridge-g11-biology-ch09",
+      "subjectId": "cambridge-g11-biology",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why does carbon monoxide poisoning cause tissues to lack oxygen?",
+      "answer": "CO binds to haemoglobin more strongly than oxygen",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Gas exchange and transport",
+      "subtopicLinked": true,
+      "contentKey": "df732a35c7d3",
+      "options": [
+        "CO blocks the trachea",
+        "CO destroys alveoli instantly",
+        "CO binds to haemoglobin more strongly than oxygen",
+        "CO raises blood pressure"
+      ],
+      "markingKey": "C. CO binds to haemoglobin more strongly than oxygen. Less haemoglobin is free for O₂"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q73",
+      "subtopicId": "cambridge-g12-biology-ch01-st4",
+      "chapterId": "cambridge-g12-biology-ch01",
+      "subjectId": "cambridge-g12-biology",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "ATP is",
+      "answer": "the energy currency of the cell",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Energy and cell respiration",
+      "subtopicLinked": true,
+      "contentKey": "669e81ebfd41",
+      "options": [
+        "the energy currency of the cell",
+        "a type of DNA",
+        "a hormone",
+        "a structural protein"
+      ],
+      "markingKey": "A. the energy currency of the cell. Adenosine triphosphate"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q74",
+      "subtopicId": "cambridge-g12-biology-ch01-st4",
+      "chapterId": "cambridge-g12-biology-ch01",
+      "subjectId": "cambridge-g12-biology",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Where does the Krebs cycle take place?",
+      "answer": "mitochondrial matrix",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Energy and cell respiration",
+      "subtopicLinked": true,
+      "contentKey": "aa83d728c81b",
+      "options": [
+        "nucleus",
+        "cell membrane",
+        "cytoplasm",
+        "mitochondrial matrix"
+      ],
+      "markingKey": "D. mitochondrial matrix. Glycolysis is in the cytoplasm"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q75",
+      "subtopicId": "cambridge-g12-biology-ch01-st4",
+      "chapterId": "cambridge-g12-biology-ch01",
+      "subjectId": "cambridge-g12-biology",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why is oxygen called the final electron acceptor?",
+      "answer": "It accepts electrons at the end of the electron transport chain, forming water",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Energy and cell respiration",
+      "subtopicLinked": true,
+      "contentKey": "584962ab2b6b",
+      "options": [
+        "It starts glycolysis",
+        "It is made in respiration",
+        "It carries glucose",
+        "It accepts electrons at the end of the electron transport chain, forming water"
+      ],
+      "markingKey": "D. It accepts electrons at the end of the electron transport chain, forming water. Without it the chain stops"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q76",
+      "subtopicId": "cambridge-g12-biology-ch02-st1",
+      "chapterId": "cambridge-g12-biology-ch02",
+      "subjectId": "cambridge-g12-biology",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "The light-dependent reactions of photosynthesis take place in the",
+      "answer": "thylakoid membranes",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Photosynthesis",
+      "subtopicLinked": true,
+      "contentKey": "4c1393c9e609",
+      "options": [
+        "mitochondria",
+        "stroma",
+        "thylakoid membranes",
+        "nucleus"
+      ],
+      "markingKey": "C. thylakoid membranes. Where chlorophyll is"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q77",
+      "subtopicId": "cambridge-g12-biology-ch02-st1",
+      "chapterId": "cambridge-g12-biology-ch02",
+      "subjectId": "cambridge-g12-biology",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which gas is released by the splitting of water (photolysis)?",
+      "answer": "oxygen",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Photosynthesis",
+      "subtopicLinked": true,
+      "contentKey": "018d18fbb211",
+      "options": [
+        "carbon dioxide",
+        "nitrogen",
+        "oxygen",
+        "hydrogen"
+      ],
+      "markingKey": "C. oxygen. Water → H⁺ + e⁻ + O₂"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q78",
+      "subtopicId": "cambridge-g12-biology-ch02-st1",
+      "chapterId": "cambridge-g12-biology-ch02",
+      "subjectId": "cambridge-g12-biology",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why does the rate of photosynthesis stop increasing at high light intensity?",
+      "answer": "Another factor, such as CO₂ or temperature, becomes limiting",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Photosynthesis",
+      "subtopicLinked": true,
+      "contentKey": "bd2574dd4cc1",
+      "options": [
+        "Chlorophyll is destroyed",
+        "Another factor, such as CO₂ or temperature, becomes limiting",
+        "Light stops being absorbed",
+        "Plants close all stomata at once"
+      ],
+      "markingKey": "B. Another factor, such as CO₂ or temperature, becomes limiting. Limiting factors"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q79",
+      "subtopicId": "cambridge-g12-biology-ch03-st1",
+      "chapterId": "cambridge-g12-biology-ch03",
+      "subjectId": "cambridge-g12-biology",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Maintaining a constant internal environment is called",
+      "answer": "homeostasis",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Homeostasis and chemical signalling",
+      "subtopicLinked": true,
+      "contentKey": "196390f1d12a",
+      "options": [
+        "homeostasis",
+        "excretion",
+        "metabolism",
+        "respiration"
+      ],
+      "markingKey": "A. homeostasis. Steady state"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q80",
+      "subtopicId": "cambridge-g12-biology-ch03-st1",
+      "chapterId": "cambridge-g12-biology-ch03",
+      "subjectId": "cambridge-g12-biology",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which hormone lowers blood glucose?",
+      "answer": "insulin",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Homeostasis and chemical signalling",
+      "subtopicLinked": true,
+      "contentKey": "983d29fb1f52",
+      "options": [
+        "glucagon",
+        "thyroxine",
+        "adrenaline",
+        "insulin"
+      ],
+      "markingKey": "D. insulin. From beta cells of the pancreas"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q81",
+      "subtopicId": "cambridge-g12-biology-ch03-st1",
+      "chapterId": "cambridge-g12-biology-ch03",
+      "subjectId": "cambridge-g12-biology",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Negative feedback works by",
+      "answer": "reversing a change to bring a variable back to its set point",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Homeostasis and chemical signalling",
+      "subtopicLinked": true,
+      "contentKey": "1939603e350d",
+      "options": [
+        "reversing a change to bring a variable back to its set point",
+        "raising the set point",
+        "amplifying the change",
+        "stopping all hormones"
+      ],
+      "markingKey": "A. reversing a change to bring a variable back to its set point. Corrective response"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q82",
+      "subtopicId": "cambridge-g12-biology-ch06-st4",
+      "chapterId": "cambridge-g12-biology-ch06",
+      "subjectId": "cambridge-g12-biology",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Charles Darwin proposed the theory of",
+      "answer": "evolution by natural selection",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Selection and evolution",
+      "subtopicLinked": true,
+      "contentKey": "25b4b6d3722f",
+      "options": [
+        "use and disuse only",
+        "evolution by natural selection",
+        "spontaneous generation",
+        "blending inheritance"
+      ],
+      "markingKey": "B. evolution by natural selection. On the Origin of Species"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q83",
+      "subtopicId": "cambridge-g12-biology-ch06-st4",
+      "chapterId": "cambridge-g12-biology-ch06",
+      "subjectId": "cambridge-g12-biology",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Selection that favours one extreme of a range of phenotypes is",
+      "answer": "directional selection",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Selection and evolution",
+      "subtopicLinked": true,
+      "contentKey": "8caa5b38bb30",
+      "options": [
+        "disruptive selection",
+        "directional selection",
+        "stabilising selection",
+        "artificial isolation"
+      ],
+      "markingKey": "B. directional selection. The mean shifts"
+    },
+    {
+      "id": "onb-cambridge-g12-science-q84",
+      "subtopicId": "cambridge-g12-biology-ch06-st4",
+      "chapterId": "cambridge-g12-biology-ch06",
+      "subjectId": "cambridge-g12-biology",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Two populations of a species are separated by a mountain range for thousands of years. What may happen?",
+      "answer": "They may become separate species through allopatric speciation",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "biology",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Selection and evolution",
+      "subtopicLinked": true,
+      "contentKey": "da3f689fe404",
+      "options": [
+        "They will merge",
+        "They will stop reproducing",
+        "They may become separate species through allopatric speciation",
+        "They will stay identical"
+      ],
+      "markingKey": "C. They may become separate species through allopatric speciation. Geographical isolation"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D2",
+      "stem": "What number comes next? 2, 3, 5, 8, 13, ?",
+      "options": [
+        "20",
+        "18",
+        "26",
+        "21"
+      ],
+      "answer": "21",
+      "explanation": "Each term is the sum of the two before it",
+      "seconds": 30,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-cambridge-g12-science-q85",
+      "part": "B",
+      "contentKey": "1ab8b7e1a9d2"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D2",
+      "stem": "Money doubles in 6 years at a fixed compound rate. In how many years does it become 8 times?",
+      "options": [
+        "18",
+        "12",
+        "48",
+        "24"
+      ],
+      "answer": "18",
+      "explanation": "8 = 2³, so three doubling periods",
+      "seconds": 45,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-cambridge-g12-science-q86",
+      "part": "B",
+      "contentKey": "5b81fb79f4a2"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D3",
+      "stem": "Boys and girls in a class are in the ratio 3 : 5. After 6 more boys join, the ratio is 1 : 1. How many students were there at first?",
+      "options": [
+        "32",
+        "30",
+        "24",
+        "16"
+      ],
+      "answer": "24",
+      "explanation": "3k + 6 = 5k gives k = 3, so 9 + 15 = 24",
+      "seconds": 75,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-cambridge-g12-science-q87",
+      "part": "B",
+      "contentKey": "a243772353aa"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D3",
+      "stem": "One pipe fills a tank in 6 hours; another empties it in 9 hours. If both are open, how long does it take to fill the empty tank?",
+      "options": [
+        "15 hours",
+        "7.5 hours",
+        "18 hours",
+        "3 hours"
+      ],
+      "answer": "18 hours",
+      "explanation": "1/6 - 1/9 = 1/18 of the tank per hour",
+      "seconds": 75,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-cambridge-g12-science-q88",
+      "part": "B",
+      "contentKey": "28cbccf73516"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D2",
+      "stem": "Which phrase is closest in meaning to 'ubiquitous'?",
+      "options": [
+        "found everywhere",
+        "very rare",
+        "highly useful",
+        "extremely old"
+      ],
+      "answer": "found everywhere",
+      "explanation": "Ubiquitous means present everywhere",
+      "seconds": 30,
+      "paramIds": [
+        "p61",
+        "p69"
+      ],
+      "id": "onb-cambridge-g12-science-q89",
+      "part": "B",
+      "contentKey": "90af104465f9"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D2",
+      "stem": "Author is to novel as composer is to ...",
+      "options": [
+        "audience",
+        "orchestra",
+        "symphony",
+        "piano"
+      ],
+      "answer": "symphony",
+      "explanation": "What each creates",
+      "seconds": 30,
+      "paramIds": [
+        "p61",
+        "p69"
+      ],
+      "id": "onb-cambridge-g12-science-q90",
+      "part": "B",
+      "contentKey": "cbb2594f4607"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D3",
+      "stem": "Some economists are writers. All writers are readers. Which statement must be true?",
+      "options": [
+        "All readers are economists",
+        "No reader is an economist",
+        "Some economists are readers",
+        "All economists are writers"
+      ],
+      "answer": "Some economists are readers",
+      "explanation": "The economists who are writers are also readers",
+      "seconds": 60,
+      "paramIds": [
+        "p61",
+        "p65",
+        "p69"
+      ],
+      "id": "onb-cambridge-g12-science-q91",
+      "part": "B",
+      "contentKey": "898351f148c8"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D3",
+      "stem": "Claim: 'Since the new study app launched, the school's test scores rose, so the app raised scores.' Which fact, if true, most weakens the claim?",
+      "options": [
+        "The school also hired extra teachers at the same time",
+        "Students said they liked the app",
+        "The app is free",
+        "Scores rose most in maths"
+      ],
+      "answer": "The school also hired extra teachers at the same time",
+      "explanation": "Another change at the same time offers a different explanation",
+      "seconds": 75,
+      "paramIds": [
+        "p61",
+        "p65",
+        "p69"
+      ],
+      "id": "onb-cambridge-g12-science-q92",
+      "part": "B",
+      "contentKey": "76a3f6583cee"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D2",
+      "stem": "What comes next? AZ, BY, CX, ?",
+      "options": [
+        "EW",
+        "DX",
+        "DW",
+        "DV"
+      ],
+      "answer": "DW",
+      "explanation": "First letters go forward, second letters go backward",
+      "seconds": 30,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "id": "onb-cambridge-g12-science-q93",
+      "part": "B",
+      "contentKey": "7e42fa87e73c"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D2",
+      "stem": "If 2 ⊕ 3 = 13 and 3 ⊕ 4 = 25, what is 4 ⊕ 5?",
+      "options": [
+        "81",
+        "45",
+        "41",
+        "20"
+      ],
+      "answer": "41",
+      "explanation": "a ⊕ b = a² + b²: 16 + 25 = 41",
+      "seconds": 60,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "id": "onb-cambridge-g12-science-q94",
+      "part": "B",
+      "contentKey": "ee495a503bcb"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D3",
+      "stem": "What comes next? 1, 2, 6, 24, 120, ?",
+      "options": [
+        "240",
+        "720",
+        "600",
+        "144"
+      ],
+      "answer": "720",
+      "explanation": "Multiply by 2, 3, 4, 5, then 6",
+      "seconds": 60,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "id": "onb-cambridge-g12-science-q95",
+      "part": "B",
+      "contentKey": "59584204a824"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D3",
+      "stem": "Figures: shaded triangle, unshaded square, shaded pentagon, ... Each figure gains one side and the shading alternates. What is the next figure?",
+      "options": [
+        "an unshaded pentagon",
+        "an unshaded hexagon",
+        "a shaded heptagon",
+        "a shaded hexagon"
+      ],
+      "answer": "an unshaded hexagon",
+      "explanation": "Six sides, and the shading switches back to unshaded",
+      "seconds": 60,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "id": "onb-cambridge-g12-science-q96",
+      "part": "B",
+      "contentKey": "089202f449ff"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D2",
+      "stem": "What is the smaller angle between the hour and minute hands of a clock at 3:15?",
+      "options": [
+        "0°",
+        "15°",
+        "22.5°",
+        "7.5°"
+      ],
+      "answer": "7.5°",
+      "explanation": "The hour hand has moved a quarter of 30° past the 3",
+      "seconds": 60,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "id": "onb-cambridge-g12-science-q97",
+      "part": "B",
+      "contentKey": "5fdd3b770309"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D2",
+      "stem": "Opposite faces of a die add up to 7. A die shows 1 on top, 2 at the front and 3 on the right. What number is on the bottom?",
+      "options": [
+        "6",
+        "4",
+        "2",
+        "5"
+      ],
+      "answer": "6",
+      "explanation": "Bottom is opposite top: 7 - 1 = 6",
+      "seconds": 45,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 160 140\" width=\"160\" height=\"140\" stroke=\"currentColor\" fill=\"none\" stroke-width=\"2\"><polygon points=\"20,40 100,40 100,120 20,120\"/><polygon points=\"20,40 50,15 130,15 100,40\"/><polygon points=\"100,40 130,15 130,95 100,120\"/><text x=\"60\" y=\"88\" font-size=\"26\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"75\" y=\"34\" font-size=\"18\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">1</text><text x=\"115\" y=\"75\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">3</text></svg>",
+      "id": "onb-cambridge-g12-science-q98",
+      "part": "B",
+      "contentKey": "cb65a76edcea"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D3",
+      "stem": "From home you walk 4 km north and then 3 km east. How far are you from home in a straight line?",
+      "options": [
+        "7 km",
+        "1 km",
+        "5 km",
+        "6 km"
+      ],
+      "answer": "5 km",
+      "explanation": "A 3-4-5 right triangle",
+      "seconds": 45,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "id": "onb-cambridge-g12-science-q99",
+      "part": "B",
+      "contentKey": "40f6ae63a66b"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D3",
+      "stem": "A 3 x 3 x 3 cube is painted on all faces and cut into 27 small cubes. How many small cubes have exactly one painted face?",
+      "options": [
+        "6",
+        "1",
+        "12",
+        "8"
+      ],
+      "answer": "6",
+      "explanation": "One at the centre of each face",
+      "seconds": 60,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "id": "onb-cambridge-g12-science-q100",
+      "part": "B",
+      "contentKey": "efc87feb69df"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "On a normal school day, how long do you study at home (not counting tuition)?",
+      "responseType": "single",
+      "paramId": "p31",
+      "options": [
+        {
+          "label": "Less than 1 hour",
+          "value": 0.5
+        },
+        {
+          "label": "1 to 2 hours",
+          "value": 1.5
+        },
+        {
+          "label": "2 to 3 hours",
+          "value": 2.5
+        },
+        {
+          "label": "3 to 4 hours",
+          "value": 3.5
+        },
+        {
+          "label": "More than 4 hours",
+          "value": 4.5
+        }
+      ],
+      "unit": "hours",
+      "id": "onb-cambridge-g12-science-q101",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "a3188617eeb3"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "When do you usually study best?",
+      "responseType": "single",
+      "paramId": "p33",
+      "options": [
+        {
+          "label": "Early morning",
+          "value": "early_morning"
+        },
+        {
+          "label": "Afternoon",
+          "value": "afternoon"
+        },
+        {
+          "label": "Evening",
+          "value": "evening"
+        },
+        {
+          "label": "Late night",
+          "value": "late_night"
+        }
+      ],
+      "id": "onb-cambridge-g12-science-q102",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "4bff65265626"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How long is a typical study session before you take a break?",
+      "responseType": "single",
+      "paramId": "p34",
+      "options": [
+        {
+          "label": "15 to 20 minutes",
+          "value": 20
+        },
+        {
+          "label": "30 to 45 minutes",
+          "value": 40
+        },
+        {
+          "label": "About an hour",
+          "value": 60
+        },
+        {
+          "label": "90 minutes or more",
+          "value": 90
+        }
+      ],
+      "unit": "minutes",
+      "id": "onb-cambridge-g12-science-q103",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "09d32e5c0254"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How often do you revise topics you have already finished?",
+      "responseType": "single",
+      "paramId": "p39",
+      "options": [
+        {
+          "label": "Rarely",
+          "value": "rarely"
+        },
+        {
+          "label": "Only before tests",
+          "value": "before_tests"
+        },
+        {
+          "label": "Every week",
+          "value": "weekly"
+        },
+        {
+          "label": "Most days",
+          "value": "daily"
+        }
+      ],
+      "id": "onb-cambridge-g12-science-q104",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "0d286009ae6f"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How do you usually revise?",
+      "responseType": "single",
+      "paramId": "p40",
+      "options": [
+        {
+          "label": "Re-reading notes or the textbook",
+          "value": "reread"
+        },
+        {
+          "label": "Highlighting or rewriting notes",
+          "value": "rewrite"
+        },
+        {
+          "label": "Doing practice questions",
+          "value": "practice"
+        },
+        {
+          "label": "Testing myself with flashcards or quizzes",
+          "value": "self_test"
+        },
+        {
+          "label": "Explaining it to someone else",
+          "value": "teach"
+        }
+      ],
+      "id": "onb-cambridge-g12-science-q105",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "fec782fd153e"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "I put off starting homework until the last minute.",
+      "responseType": "scale",
+      "paramId": "p46",
+      "options": [
+        {
+          "label": "1 Never",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Always",
+          "value": 5
+        }
+      ],
+      "id": "onb-cambridge-g12-science-q106",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "b31ed6ad6c6c"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Where is your phone while you study?",
+      "responseType": "single",
+      "paramId": "p105",
+      "options": [
+        {
+          "label": "In another room",
+          "value": "away"
+        },
+        {
+          "label": "Nearby on silent",
+          "value": "silent_nearby"
+        },
+        {
+          "label": "With me, I check it often",
+          "value": "checking"
+        },
+        {
+          "label": "I study on my phone",
+          "value": "study_device"
+        }
+      ],
+      "id": "onb-cambridge-g12-science-q107",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "d194a9f578b8"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Which helps you learn a new topic most?",
+      "responseType": "single",
+      "paramId": "p48",
+      "options": [
+        {
+          "label": "Watching a video",
+          "value": "video"
+        },
+        {
+          "label": "Reading and making notes",
+          "value": "reading"
+        },
+        {
+          "label": "Trying problems straight away",
+          "value": "practice"
+        },
+        {
+          "label": "Discussing it with someone",
+          "value": "discussion"
+        }
+      ],
+      "id": "onb-cambridge-g12-science-q108",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "c23e54729bc0"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Do you prefer studying alone or with others?",
+      "responseType": "single",
+      "paramId": "p50",
+      "options": [
+        {
+          "label": "Alone",
+          "value": "solo"
+        },
+        {
+          "label": "With one friend",
+          "value": "pair"
+        },
+        {
+          "label": "In a group",
+          "value": "group"
+        },
+        {
+          "label": "It depends on the subject",
+          "value": "mixed"
+        }
+      ],
+      "id": "onb-cambridge-g12-science-q109",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "70f11b4add34"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "When you get stuck on a question, what do you usually do first?",
+      "responseType": "single",
+      "paramId": "p49",
+      "options": [
+        {
+          "label": "Ask my teacher",
+          "value": "teacher"
+        },
+        {
+          "label": "Ask a friend or sibling",
+          "value": "peer"
+        },
+        {
+          "label": "Search online or watch a video",
+          "value": "online"
+        },
+        {
+          "label": "Leave it and move on",
+          "value": "skip"
+        }
+      ],
+      "id": "onb-cambridge-g12-science-q110",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "599b22b79bd2"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Do you go to tuition or coaching classes?",
+      "responseType": "single",
+      "paramId": "p21",
+      "options": [
+        {
+          "label": "No",
+          "value": "none"
+        },
+        {
+          "label": "Yes, for one subject",
+          "value": "one_subject"
+        },
+        {
+          "label": "Yes, for two or more subjects",
+          "value": "multi_subject"
+        },
+        {
+          "label": "Yes, at a coaching institute",
+          "value": "institute"
+        }
+      ],
+      "id": "onb-cambridge-g12-science-q111",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "3c939f2b1013"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "I mostly study because ...",
+      "responseType": "single",
+      "paramId": "p123",
+      "options": [
+        {
+          "label": "I enjoy learning new things",
+          "value": "intrinsic"
+        },
+        {
+          "label": "I have a goal I want to reach",
+          "value": "goal"
+        },
+        {
+          "label": "I want good marks",
+          "value": "performance"
+        },
+        {
+          "label": "My family expects it",
+          "value": "external"
+        }
+      ],
+      "id": "onb-cambridge-g12-science-q112",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "4ab1b901cdd5"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "If I work hard, I can get much better at a subject I find difficult.",
+      "responseType": "scale",
+      "paramId": "p125",
+      "options": [
+        {
+          "label": "1 Strongly disagree",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Strongly agree",
+          "value": 5
+        }
+      ],
+      "id": "onb-cambridge-g12-science-q113",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "6efb13e3bd21"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "I like hard problems, even when I might get them wrong.",
+      "responseType": "scale",
+      "paramId": "p331",
+      "options": [
+        {
+          "label": "1 Strongly disagree",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Strongly agree",
+          "value": 5
+        }
+      ],
+      "id": "onb-cambridge-g12-science-q114",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "80b24e607fdf"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Before a test, how nervous do you usually feel?",
+      "responseType": "scale",
+      "paramId": "p111",
+      "options": [
+        {
+          "label": "1 Calm",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Very nervous",
+          "value": 5
+        }
+      ],
+      "helpText": "Optional. This only helps us pace your plan and suggest support; it never affects your scores or recommendations.",
+      "alsoInforms": [
+        "p133"
+      ],
+      "id": "onb-cambridge-g12-science-q115",
+      "tier": "T3",
+      "screened": true,
+      "optional": true,
+      "contentKey": "58e5770944cf"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "On school nights, how many hours do you usually sleep?",
+      "responseType": "single",
+      "paramId": "p83",
+      "options": [
+        {
+          "label": "Less than 6",
+          "value": 5.5
+        },
+        {
+          "label": "6 to 7",
+          "value": 6.5
+        },
+        {
+          "label": "7 to 8",
+          "value": 7.5
+        },
+        {
+          "label": "8 to 9",
+          "value": 8.5
+        },
+        {
+          "label": "More than 9",
+          "value": 9.5
+        }
+      ],
+      "helpText": "Optional. Used only to fit your timetable around enough rest.",
+      "unit": "hours",
+      "id": "onb-cambridge-g12-science-q116",
+      "tier": "T3",
+      "screened": true,
+      "optional": true,
+      "contentKey": "55062a5c52b2"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Fixing or building things, like a bicycle, a model or a small circuit",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "R",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cambridge-g12-science-q117",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "36e0422d9d06"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Working outdoors with tools, plants or animals",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "R",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cambridge-g12-science-q118",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "c063e3c69b0f"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Doing experiments to find out why something happens",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "I",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cambridge-g12-science-q119",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "0c12a884162e"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Solving tricky maths or logic puzzles",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "I",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cambridge-g12-science-q120",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "058f5f9025f0"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Drawing, designing, writing stories or making music",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "A",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cambridge-g12-science-q121",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "9234642a58af"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Acting, photography or making videos",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "A",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cambridge-g12-science-q122",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "e7bfdb738978"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Explaining something to a friend until they understand it",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "S",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cambridge-g12-science-q123",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "8f4da2390889"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Volunteering to help people in your community",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "S",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cambridge-g12-science-q124",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "40f8337ef8af"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Leading a team or running a school club",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "E",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cambridge-g12-science-q125",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "b91eb24feb37"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Pitching an idea or starting a small business",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "E",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cambridge-g12-science-q126",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "6806cc5fc89c"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Keeping records or organising information neatly",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "C",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cambridge-g12-science-q127",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "0c466df2c3f1"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Working with numbers, budgets or spreadsheets",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "C",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cambridge-g12-science-q128",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "c884a471f58e"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How interested are you in studying abroad after school?",
+      "responseType": "scale",
+      "paramId": "p230",
+      "options": [
+        {
+          "label": "1 Not interested",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Very interested",
+          "value": 5
+        }
+      ],
+      "alsoInforms": [
+        "p231"
+      ],
+      "id": "onb-cambridge-g12-science-q129",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "587ff74cc454"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Which career areas interest you right now? Pick up to three.",
+      "responseType": "multi",
+      "paramId": "p198",
+      "options": [
+        {
+          "label": "Engineering and technology",
+          "value": "engineering"
+        },
+        {
+          "label": "Medicine and health",
+          "value": "medicine"
+        },
+        {
+          "label": "Business, finance and commerce",
+          "value": "business"
+        },
+        {
+          "label": "Law, government and public policy",
+          "value": "law"
+        },
+        {
+          "label": "Design, media and the arts",
+          "value": "design"
+        },
+        {
+          "label": "Science and research",
+          "value": "research"
+        },
+        {
+          "label": "Teaching, psychology and social work",
+          "value": "social"
+        },
+        {
+          "label": "Not sure yet",
+          "value": "unsure"
+        }
+      ],
+      "max": 3,
+      "alsoInforms": [
+        "p199"
+      ],
+      "id": "onb-cambridge-g12-science-q130",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "732c5efa2f1e"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Who does your child live with?",
+      "responseType": "single",
+      "paramId": "p154",
+      "optional": false,
+      "options": [
+        {
+          "label": "Both parents",
+          "value": "nuclear"
+        },
+        {
+          "label": "Parents and grandparents or other relatives",
+          "value": "joint"
+        },
+        {
+          "label": "One parent",
+          "value": "single_parent"
+        },
+        {
+          "label": "Another guardian",
+          "value": "guardian"
+        }
+      ],
+      "id": "onb-cambridge-g12-science-q131",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "b4e573af0103"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "What is the highest education level in your child's home?",
+      "responseType": "single",
+      "paramId": "p155",
+      "optional": false,
+      "options": [
+        {
+          "label": "School",
+          "value": "school"
+        },
+        {
+          "label": "Bachelor's degree",
+          "value": "graduate"
+        },
+        {
+          "label": "Master's degree",
+          "value": "postgraduate"
+        },
+        {
+          "label": "Professional or doctoral degree (CA, MBBS, PhD, LLB...)",
+          "value": "professional"
+        }
+      ],
+      "id": "onb-cambridge-g12-science-q132",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "9bb6e9dc0272"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Which best describes the main earner's work?",
+      "responseType": "single",
+      "paramId": "p156",
+      "optional": false,
+      "options": [
+        {
+          "label": "Salaried, private sector",
+          "value": "private"
+        },
+        {
+          "label": "Salaried, government or PSU",
+          "value": "government"
+        },
+        {
+          "label": "Own business",
+          "value": "business"
+        },
+        {
+          "label": "Self-employed professional",
+          "value": "professional"
+        },
+        {
+          "label": "Agriculture",
+          "value": "agriculture"
+        },
+        {
+          "label": "Other",
+          "value": "other"
+        }
+      ],
+      "id": "onb-cambridge-g12-science-q133",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "53fbc806c89f"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Which languages are spoken at home?",
+      "responseType": "multi",
+      "paramId": "p157",
+      "optional": false,
+      "options": [
+        {
+          "label": "English",
+          "value": "en"
+        },
+        {
+          "label": "Hindi",
+          "value": "hi"
+        },
+        {
+          "label": "Another Indian language",
+          "value": "regional"
+        },
+        {
+          "label": "Another language",
+          "value": "other"
+        }
+      ],
+      "id": "onb-cambridge-g12-science-q134",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "9b8c0fd0ab78"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "How involved are you in your child's daily study?",
+      "responseType": "single",
+      "paramId": "p159",
+      "optional": false,
+      "options": [
+        {
+          "label": "I check in every day",
+          "value": "daily"
+        },
+        {
+          "label": "A few times a week",
+          "value": "weekly"
+        },
+        {
+          "label": "Mainly around exams",
+          "value": "exams"
+        },
+        {
+          "label": "Rarely, my child manages it",
+          "value": "rarely"
+        }
+      ],
+      "id": "onb-cambridge-g12-science-q135",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "6b01757b27ef"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Does your child attend tuition or coaching?",
+      "responseType": "single",
+      "paramId": "p21",
+      "optional": false,
+      "options": [
+        {
+          "label": "No",
+          "value": "none"
+        },
+        {
+          "label": "One subject",
+          "value": "one_subject"
+        },
+        {
+          "label": "Two or more subjects",
+          "value": "multi_subject"
+        },
+        {
+          "label": "A coaching institute (e.g. for JEE, NEET or boards)",
+          "value": "institute"
+        }
+      ],
+      "id": "onb-cambridge-g12-science-q136",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "feb34567435d"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Annual household income (optional, helps us suggest scholarships)",
+      "responseType": "single",
+      "paramId": "p176",
+      "optional": true,
+      "options": [
+        {
+          "label": "Under ₹5 lakh",
+          "value": "lt_5l",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 500000
+          }
+        },
+        {
+          "label": "₹5 to 10 lakh",
+          "value": "5_10l",
+          "sets": {
+            "minInr": 500000,
+            "maxInr": 1000000
+          }
+        },
+        {
+          "label": "₹10 to 25 lakh",
+          "value": "10_25l",
+          "sets": {
+            "minInr": 1000000,
+            "maxInr": 2500000
+          }
+        },
+        {
+          "label": "₹25 to 50 lakh",
+          "value": "25_50l",
+          "sets": {
+            "minInr": 2500000,
+            "maxInr": 5000000
+          }
+        },
+        {
+          "label": "Over ₹50 lakh",
+          "value": "gt_50l",
+          "sets": {
+            "minInr": 5000000,
+            "maxInr": null
+          }
+        }
+      ],
+      "id": "onb-cambridge-g12-science-q137",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "43104f173bc2"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "How much can you spend on extra learning each year (tuition, courses, tests)?",
+      "responseType": "single",
+      "paramId": "p178",
+      "optional": false,
+      "options": [
+        {
+          "label": "Under ₹50,000",
+          "value": "lt_50k",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 50000
+          }
+        },
+        {
+          "label": "₹50,000 to 1.5 lakh",
+          "value": "50k_150k",
+          "sets": {
+            "minInr": 50000,
+            "maxInr": 150000
+          }
+        },
+        {
+          "label": "₹1.5 to 3 lakh",
+          "value": "150k_300k",
+          "sets": {
+            "minInr": 150000,
+            "maxInr": 300000
+          }
+        },
+        {
+          "label": "₹3 to 6 lakh",
+          "value": "300k_600k",
+          "sets": {
+            "minInr": 300000,
+            "maxInr": 600000
+          }
+        },
+        {
+          "label": "Over ₹6 lakh",
+          "value": "gt_600k",
+          "sets": {
+            "minInr": 600000,
+            "maxInr": null
+          }
+        }
+      ],
+      "id": "onb-cambridge-g12-science-q138",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "67072550cf5b"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "What total budget can you plan for an undergraduate degree in India?",
+      "responseType": "single",
+      "paramId": "p180",
+      "optional": false,
+      "options": [
+        {
+          "label": "Under ₹5 lakh",
+          "value": "lt_5l",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 500000
+          }
+        },
+        {
+          "label": "₹5 to 15 lakh",
+          "value": "5_15l",
+          "sets": {
+            "minInr": 500000,
+            "maxInr": 1500000
+          }
+        },
+        {
+          "label": "₹15 to 30 lakh",
+          "value": "15_30l",
+          "sets": {
+            "minInr": 1500000,
+            "maxInr": 3000000
+          }
+        },
+        {
+          "label": "Over ₹30 lakh",
+          "value": "gt_30l",
+          "sets": {
+            "minInr": 3000000,
+            "maxInr": null
+          }
+        }
+      ],
+      "id": "onb-cambridge-g12-science-q139",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "832f80bd4135"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "If your child studies abroad, what total budget could you plan?",
+      "responseType": "single",
+      "paramId": "p181",
+      "optional": false,
+      "options": [
+        {
+          "label": "Not considering study abroad",
+          "value": "none",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 0
+          }
+        },
+        {
+          "label": "Under ₹25 lakh",
+          "value": "lt_25l",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 2500000
+          }
+        },
+        {
+          "label": "₹25 to 50 lakh",
+          "value": "25_50l",
+          "sets": {
+            "minInr": 2500000,
+            "maxInr": 5000000
+          }
+        },
+        {
+          "label": "₹50 lakh to 1 crore",
+          "value": "50l_1cr",
+          "sets": {
+            "minInr": 5000000,
+            "maxInr": 10000000
+          }
+        },
+        {
+          "label": "Over ₹1 crore",
+          "value": "gt_1cr",
+          "sets": {
+            "minInr": 10000000,
+            "maxInr": null
+          }
+        }
+      ],
+      "alsoInforms": [
+        "p192"
+      ],
+      "id": "onb-cambridge-g12-science-q140",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "1da408987765"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Would you consider an education loan?",
+      "responseType": "single",
+      "paramId": "p182",
+      "optional": false,
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "label": "Maybe, depending on the course",
+          "value": "maybe"
+        },
+        {
+          "label": "No",
+          "value": "no"
+        }
+      ],
+      "id": "onb-cambridge-g12-science-q141",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "29db07c379ba"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Which career direction would you like for your child?",
+      "responseType": "single",
+      "paramId": "p202",
+      "optional": false,
+      "options": [
+        {
+          "label": "Engineering and technology",
+          "value": "engineering"
+        },
+        {
+          "label": "Medicine and health",
+          "value": "medicine"
+        },
+        {
+          "label": "Business, finance and commerce",
+          "value": "business"
+        },
+        {
+          "label": "Law, government and public policy",
+          "value": "law"
+        },
+        {
+          "label": "Design, media and the arts",
+          "value": "design"
+        },
+        {
+          "label": "Science and research",
+          "value": "research"
+        },
+        {
+          "label": "Teaching, psychology and social work",
+          "value": "social"
+        },
+        {
+          "label": "Whatever my child chooses",
+          "value": "child_choice"
+        }
+      ],
+      "alsoInforms": [
+        "p203"
+      ],
+      "id": "onb-cambridge-g12-science-q142",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "bc4252eaee6c"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "How supportive is your family of your child studying abroad?",
+      "responseType": "scale",
+      "paramId": "p234",
+      "optional": false,
+      "options": [
+        {
+          "label": "1 Not supportive",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Fully supportive",
+          "value": 5
+        }
+      ],
+      "id": "onb-cambridge-g12-science-q143",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "9a84394f1a5b"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "What device and internet does your child use for study?",
+      "responseType": "single",
+      "paramId": "p193",
+      "optional": false,
+      "options": [
+        {
+          "label": "Own laptop or tablet with reliable internet",
+          "value": "own_device"
+        },
+        {
+          "label": "A shared family computer",
+          "value": "shared"
+        },
+        {
+          "label": "Mainly a phone",
+          "value": "phone_only"
+        },
+        {
+          "label": "Internet is often unreliable",
+          "value": "unreliable"
+        }
+      ],
+      "id": "onb-cambridge-g12-science-q144",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "516a78042b4f"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "I consent to Learnibility processing my child's data to personalise their learning, as described in the privacy notice.",
+      "responseType": "consent",
+      "paramId": "p30",
+      "optional": false,
+      "options": [
+        {
+          "label": "I agree",
+          "value": "granted"
+        },
+        {
+          "label": "I do not agree",
+          "value": "refused"
+        }
+      ],
+      "helpText": "Required for a child under 18 (DPDP Act 2023, s.9(1)). You can withdraw consent at any time in Settings.",
+      "id": "onb-cambridge-g12-science-q145",
+      "tier": "C",
+      "screened": false,
+      "contentKey": "1f4aba2a3948"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "I allow my child's selected work to be shown to teachers, tutors and counsellors on the platform.",
+      "responseType": "consent",
+      "paramId": "p277",
+      "optional": true,
+      "options": [
+        {
+          "label": "Yes",
+          "value": "granted"
+        },
+        {
+          "label": "Not now",
+          "value": "refused"
+        }
+      ],
+      "helpText": "Optional. Nothing is shared outside the platform without asking you again.",
+      "id": "onb-cambridge-g12-science-q146",
+      "tier": "C",
+      "screened": false,
+      "contentKey": "f49d9421e2bb"
+    }
+  ]
+}

@@ -1,0 +1,5003 @@
+{
+  "schemaVersion": 1,
+  "generatedBy": "scripts/onboarding/build-forms.py",
+  "form": {
+    "formId": "onb-ib-g8-none",
+    "designId": "g8-ib",
+    "board": "ib",
+    "grade": 8,
+    "stream": "none",
+    "title": "IB MYP Year 3 onboarding test",
+    "minutes": {
+      "A": 32,
+      "B": 12,
+      "C": 8,
+      "P": 5
+    },
+    "partA": {
+      "pool": 84,
+      "delivered": 32
+    },
+    "scoring": {
+      "ladder": {
+        "start": "D2",
+        "floor": "D1",
+        "ceiling": "D3",
+        "hitsToStepUp": 2,
+        "weights": {
+          "D1": 1,
+          "D2": 2,
+          "D3": 3
+        }
+      },
+      "bandCutoffs": [
+        {
+          "band": "excellent",
+          "minPercent": 80
+        },
+        {
+          "band": "above_avg",
+          "minPercent": 65
+        },
+        {
+          "band": "average",
+          "minPercent": 45
+        },
+        {
+          "band": "below_avg",
+          "minPercent": 0
+        }
+      ],
+      "groups": [
+        {
+          "group": "maths",
+          "label": "Mathematics",
+          "subjectIds": [
+            "ib-g8-maths"
+          ]
+        },
+        {
+          "group": "science",
+          "label": "Sciences",
+          "subjectIds": [
+            "ib-g8-science"
+          ]
+        },
+        {
+          "group": "english",
+          "label": "Language and Literature",
+          "subjectIds": [
+            "ib-g8-english"
+          ]
+        },
+        {
+          "group": "social-science",
+          "label": "Individuals and Societies",
+          "subjectIds": [
+            "ib-g8-social-science"
+          ]
+        }
+      ],
+      "writes": [
+        {
+          "paramId": "p1",
+          "rule": "Grade of the form taken",
+          "source": "M1",
+          "confidence": "high"
+        },
+        {
+          "paramId": "p3",
+          "rule": "Board of the form taken",
+          "source": "M1",
+          "confidence": "high"
+        },
+        {
+          "paramId": "p5",
+          "rule": "Stream of the form taken (grades 11-12)",
+          "source": "M1",
+          "confidence": "high"
+        },
+        {
+          "paramId": "p278",
+          "rule": "Per subtopic seen: pMastery 0.7 if right at D2/D3, 0.55 if right at D1, 0.25 if wrong; level L0-L3 from the ladder step reached",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p279",
+          "rule": "Prerequisite-gap index = 100 x weighted misses / weighted items seen in slots 1-4, averaged over groups",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p13",
+          "rule": "Groups with the highest Part A percent (top 1-2, only if >= 65%)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p14",
+          "rule": "Groups with the lowest Part A percent (bottom 1-2, only if < 65%)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p140",
+          "rule": "Mean confidence (1-5) per group",
+          "source": "M1",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p141",
+          "rule": "Calibration = 1 - mean |confidence/5 - correct| over Part A (feeds the first MCI reading)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p284",
+          "rule": "Highest difficulty answered correctly twice in a row: D1 low, D2 medium, D3 high",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p61",
+          "rule": "Verbal reasoning = percent of Part B verbal items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p62",
+          "rule": "Numerical reasoning = percent of Part B numerical items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p63",
+          "rule": "Abstract reasoning = percent of Part B abstract items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p64",
+          "rule": "Spatial reasoning = percent of Part B spatial items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p65",
+          "rule": "Logical deduction = percent right on Part B items tagged p65",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p68",
+          "rule": "Numeracy fluency = numerical percent scaled by speed (right answers under target time count 1.2x, max 100)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p69",
+          "rule": "Processing speed = 100 x share of Part B items answered right within target seconds",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p200",
+          "rule": "RIASEC profile: each career-interest item scored 1-5; letter score = mean of its 2 items; top 3 letters form the code (e.g. IRC)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p31",
+          "rule": "Answer to onb-ib-g8-none-q101 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p33",
+          "rule": "Answer to onb-ib-g8-none-q102 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p34",
+          "rule": "Answer to onb-ib-g8-none-q103 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p39",
+          "rule": "Answer to onb-ib-g8-none-q104 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p40",
+          "rule": "Answer to onb-ib-g8-none-q105 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p46",
+          "rule": "Answer to onb-ib-g8-none-q106 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p105",
+          "rule": "Answer to onb-ib-g8-none-q107 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p48",
+          "rule": "Answer to onb-ib-g8-none-q108 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p50",
+          "rule": "Answer to onb-ib-g8-none-q109 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p49",
+          "rule": "Answer to onb-ib-g8-none-q110 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p21",
+          "rule": "Answer to onb-ib-g8-none-q111 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p123",
+          "rule": "Answer to onb-ib-g8-none-q112 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p125",
+          "rule": "Answer to onb-ib-g8-none-q113 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p331",
+          "rule": "Answer to onb-ib-g8-none-q114 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p111",
+          "rule": "Answer to onb-ib-g8-none-q115 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p83",
+          "rule": "Answer to onb-ib-g8-none-q116 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p230",
+          "rule": "Answer to onb-ib-g8-none-q129 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p198",
+          "rule": "Answer to onb-ib-g8-none-q130 (multi)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p154",
+          "rule": "Answer to onb-ib-g8-none-q131 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p155",
+          "rule": "Answer to onb-ib-g8-none-q132 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p156",
+          "rule": "Answer to onb-ib-g8-none-q133 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p157",
+          "rule": "Answer to onb-ib-g8-none-q134 (multi)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p159",
+          "rule": "Answer to onb-ib-g8-none-q135 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p176",
+          "rule": "Answer to onb-ib-g8-none-q137 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p178",
+          "rule": "Answer to onb-ib-g8-none-q138 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p180",
+          "rule": "Answer to onb-ib-g8-none-q139 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p181",
+          "rule": "Answer to onb-ib-g8-none-q140 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p182",
+          "rule": "Answer to onb-ib-g8-none-q141 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p202",
+          "rule": "Answer to onb-ib-g8-none-q142 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p234",
+          "rule": "Answer to onb-ib-g8-none-q143 (scale)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p193",
+          "rule": "Answer to onb-ib-g8-none-q144 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p30",
+          "rule": "Answer to onb-ib-g8-none-q145 (consent)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p277",
+          "rule": "Answer to onb-ib-g8-none-q146 (consent)",
+          "source": "M2",
+          "confidence": "medium"
+        }
+      ],
+      "reasoning": [
+        {
+          "domain": "numerical",
+          "paramId": "p62",
+          "itemIds": [
+            "onb-ib-g8-none-q85",
+            "onb-ib-g8-none-q86",
+            "onb-ib-g8-none-q87",
+            "onb-ib-g8-none-q88"
+          ]
+        },
+        {
+          "domain": "verbal",
+          "paramId": "p61",
+          "itemIds": [
+            "onb-ib-g8-none-q89",
+            "onb-ib-g8-none-q90",
+            "onb-ib-g8-none-q91",
+            "onb-ib-g8-none-q92"
+          ]
+        },
+        {
+          "domain": "abstract",
+          "paramId": "p63",
+          "itemIds": [
+            "onb-ib-g8-none-q93",
+            "onb-ib-g8-none-q94",
+            "onb-ib-g8-none-q95",
+            "onb-ib-g8-none-q96"
+          ]
+        },
+        {
+          "domain": "spatial",
+          "paramId": "p64",
+          "itemIds": [
+            "onb-ib-g8-none-q97",
+            "onb-ib-g8-none-q98",
+            "onb-ib-g8-none-q99",
+            "onb-ib-g8-none-q100"
+          ]
+        }
+      ],
+      "riasec": {
+        "R": [
+          "onb-ib-g8-none-q117",
+          "onb-ib-g8-none-q118"
+        ],
+        "I": [
+          "onb-ib-g8-none-q119",
+          "onb-ib-g8-none-q120"
+        ],
+        "A": [
+          "onb-ib-g8-none-q121",
+          "onb-ib-g8-none-q122"
+        ],
+        "S": [
+          "onb-ib-g8-none-q123",
+          "onb-ib-g8-none-q124"
+        ],
+        "E": [
+          "onb-ib-g8-none-q125",
+          "onb-ib-g8-none-q126"
+        ],
+        "C": [
+          "onb-ib-g8-none-q127",
+          "onb-ib-g8-none-q128"
+        ]
+      }
+    }
+  },
+  "items": [
+    {
+      "id": "onb-ib-g8-none-q01",
+      "subtopicId": "ib-g8-maths-ch02-st2",
+      "chapterId": "ib-g8-maths-ch02",
+      "subjectId": "ib-g8-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which of these numbers is a perfect square?",
+      "answer": "196",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 1,
+      "half": "prerequisite",
+      "subtopicHint": "Squares of whole numbers",
+      "subtopicLinked": true,
+      "contentKey": "c68bd7e9f59b",
+      "options": [
+        "300",
+        "250",
+        "196",
+        "420"
+      ],
+      "markingKey": "C. 196. 14 x 14 = 196; the others are not the square of any whole number",
+      "prerequisiteNote": "Grade 7: multiplication facts and squares of numbers"
+    },
+    {
+      "id": "onb-ib-g8-none-q02",
+      "subtopicId": "ib-g8-maths-ch02-st2",
+      "chapterId": "ib-g8-maths-ch02",
+      "subjectId": "ib-g8-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Which shows 36 written as a product of prime factors?",
+      "answer": "2 x 2 x 3 x 3",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Prime factorisation",
+      "subtopicLinked": true,
+      "contentKey": "3158a1c9c6e6",
+      "options": [
+        "2 x 2 x 3 x 3",
+        "4 x 9",
+        "2 x 3 x 6",
+        "6 x 6"
+      ],
+      "markingKey": "A. 2 x 2 x 3 x 3. 4, 6 and 9 are not prime; 36 = 2 x 2 x 3 x 3",
+      "prerequisiteNote": "Grade 6-7: factors, primes and prime factorisation"
+    },
+    {
+      "id": "onb-ib-g8-none-q03",
+      "subtopicId": "ib-g8-maths-ch02-st2",
+      "chapterId": "ib-g8-maths-ch02",
+      "subjectId": "ib-g8-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "The prime factorisation of 180 is",
+      "answer": "2² x 3² x 5",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Prime factorisation",
+      "subtopicLinked": true,
+      "contentKey": "db27bfe4380b",
+      "options": [
+        "2³ x 3 x 5",
+        "2² x 45",
+        "2 x 3² x 10",
+        "2² x 3² x 5"
+      ],
+      "markingKey": "D. 2² x 3² x 5. 180 = 4 x 45 = 2 x 2 x 3 x 3 x 5",
+      "prerequisiteNote": "Grade 6-7: factors, primes and prime factorisation"
+    },
+    {
+      "id": "onb-ib-g8-none-q04",
+      "subtopicId": "ib-g8-maths-ch02-st1",
+      "chapterId": "ib-g8-maths-ch02",
+      "subjectId": "ib-g8-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "5⁴ means",
+      "answer": "5 x 5 x 5 x 5",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Exponents as repeated multiplication",
+      "subtopicLinked": true,
+      "contentKey": "f65b800eb6fe",
+      "options": [
+        "4 x 4 x 4 x 4 x 4",
+        "5 x 4",
+        "5 x 5 x 5 x 5",
+        "5 + 5 + 5 + 5"
+      ],
+      "markingKey": "C. 5 x 5 x 5 x 5. The exponent 4 says how many 5s are multiplied",
+      "prerequisiteNote": "Grade 7: exponents and powers"
+    },
+    {
+      "id": "onb-ib-g8-none-q05",
+      "subtopicId": "ib-g8-maths-ch02-st1",
+      "chapterId": "ib-g8-maths-ch02",
+      "subjectId": "ib-g8-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "What is the value of 2⁵?",
+      "answer": "32",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Exponents as repeated multiplication",
+      "subtopicLinked": true,
+      "contentKey": "be39248086e9",
+      "options": [
+        "25",
+        "10",
+        "64",
+        "32"
+      ],
+      "markingKey": "D. 32. 2 x 2 x 2 x 2 x 2 = 32",
+      "prerequisiteNote": "Grade 7: exponents and powers"
+    },
+    {
+      "id": "onb-ib-g8-none-q06",
+      "subtopicId": "ib-g8-maths-ch02-st1",
+      "chapterId": "ib-g8-maths-ch02",
+      "subjectId": "ib-g8-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Which is greater, 3⁴ or 4³, and by how much?",
+      "answer": "3⁴, by 17",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Exponents as repeated multiplication",
+      "subtopicLinked": true,
+      "contentKey": "3c39f3925924",
+      "options": [
+        "4³, by 17",
+        "3⁴, by 1",
+        "3⁴, by 17",
+        "They are equal"
+      ],
+      "markingKey": "C. 3⁴, by 17. 3⁴ = 81 and 4³ = 64; 81 - 64 = 17",
+      "prerequisiteNote": "Grade 7: exponents and powers"
+    },
+    {
+      "id": "onb-ib-g8-none-q07",
+      "subtopicId": "ib-g8-maths-ch01-st2",
+      "chapterId": "ib-g8-maths-ch01",
+      "subjectId": "ib-g8-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "(-8) + 5 = ?",
+      "answer": "-3",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Operations on integers and fractions",
+      "subtopicLinked": true,
+      "contentKey": "d6c309a0f235",
+      "options": [
+        "13",
+        "-13",
+        "-3",
+        "3"
+      ],
+      "markingKey": "C. -3. Start at -8 and move 5 to the right on the number line",
+      "prerequisiteNote": "Grade 7: integers and fractions, four operations"
+    },
+    {
+      "id": "onb-ib-g8-none-q08",
+      "subtopicId": "ib-g8-maths-ch01-st2",
+      "chapterId": "ib-g8-maths-ch01",
+      "subjectId": "ib-g8-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "3/4 - 2/3 = ?",
+      "answer": "1/12",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Operations on integers and fractions",
+      "subtopicLinked": true,
+      "contentKey": "4ff1855ad8d9",
+      "options": [
+        "5/12",
+        "1/7",
+        "1/12",
+        "1/4"
+      ],
+      "markingKey": "C. 1/12. Common denominator 12: 9/12 - 8/12 = 1/12",
+      "prerequisiteNote": "Grade 7: integers and fractions, four operations"
+    },
+    {
+      "id": "onb-ib-g8-none-q09",
+      "subtopicId": "ib-g8-maths-ch01-st2",
+      "chapterId": "ib-g8-maths-ch01",
+      "subjectId": "ib-g8-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A jug holds 2 1/2 litres of milk. 3/4 litre is used for tea and 1 1/3 litres for a pudding. How much milk is left?",
+      "answer": "5/12 litre",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Operations on integers and fractions",
+      "subtopicLinked": true,
+      "contentKey": "9a5c221a9e86",
+      "options": [
+        "1/2 litre",
+        "7/12 litre",
+        "1 5/12 litres",
+        "5/12 litre"
+      ],
+      "markingKey": "D. 5/12 litre. 30/12 - 9/12 - 16/12 = 5/12 litre",
+      "prerequisiteNote": "Grade 7: integers and fractions, four operations"
+    },
+    {
+      "id": "onb-ib-g8-none-q10",
+      "subtopicId": "ib-g8-maths-ch01-st1",
+      "chapterId": "ib-g8-maths-ch01",
+      "subjectId": "ib-g8-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Identify the rational number.",
+      "answer": "-3/5",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Rational numbers: ordering and comparing",
+      "subtopicLinked": true,
+      "contentKey": "ef2978b6d6ee",
+      "options": [
+        "-3/5",
+        "π",
+        "√7",
+        "√3"
+      ],
+      "markingKey": "A. -3/5. A rational number can be written as a fraction of integers"
+    },
+    {
+      "id": "onb-ib-g8-none-q11",
+      "subtopicId": "ib-g8-maths-ch01-st1",
+      "chapterId": "ib-g8-maths-ch01",
+      "subjectId": "ib-g8-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Order from smallest to largest: -0.5, 1/3, -2/3, 0.3",
+      "answer": "-2/3, -0.5, 0.3, 1/3",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Rational numbers: ordering and comparing",
+      "subtopicLinked": true,
+      "contentKey": "397c5f3d258d",
+      "options": [
+        "-2/3, -0.5, 1/3, 0.3",
+        "-0.5, -2/3, 0.3, 1/3",
+        "-2/3, -0.5, 0.3, 1/3",
+        "0.3, 1/3, -0.5, -2/3"
+      ],
+      "markingKey": "C. -2/3, -0.5, 0.3, 1/3. -2/3 ≈ -0.67 and 1/3 ≈ 0.33"
+    },
+    {
+      "id": "onb-ib-g8-none-q12",
+      "subtopicId": "ib-g8-maths-ch01-st1",
+      "chapterId": "ib-g8-maths-ch01",
+      "subjectId": "ib-g8-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Which is larger, 5/8 or 0.6, and by how much?",
+      "answer": "5/8, by 0.025",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Rational numbers: ordering and comparing",
+      "subtopicLinked": true,
+      "contentKey": "bda1545f9a89",
+      "options": [
+        "5/8, by 0.25",
+        "0.6, by 0.025",
+        "They are equal",
+        "5/8, by 0.025"
+      ],
+      "markingKey": "D. 5/8, by 0.025. 5/8 = 0.625; 0.625 - 0.6 = 0.025"
+    },
+    {
+      "id": "onb-ib-g8-none-q13",
+      "subtopicId": "ib-g8-maths-ch02-st4",
+      "chapterId": "ib-g8-maths-ch02",
+      "subjectId": "ib-g8-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Simplify 10³ x 10².",
+      "answer": "10⁵",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Laws of exponents and scientific notation",
+      "subtopicLinked": true,
+      "contentKey": "8d92c61d9f85",
+      "options": [
+        "10⁵",
+        "20⁵",
+        "100⁵",
+        "10⁶"
+      ],
+      "markingKey": "A. 10⁵. Same base: add the exponents"
+    },
+    {
+      "id": "onb-ib-g8-none-q14",
+      "subtopicId": "ib-g8-maths-ch02-st4",
+      "chapterId": "ib-g8-maths-ch02",
+      "subjectId": "ib-g8-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "The distance from Earth to the Sun is about 150 000 000 km. Write this in scientific notation.",
+      "answer": "1.5 x 10⁸ km",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Laws of exponents and scientific notation",
+      "subtopicLinked": true,
+      "contentKey": "636bd3663efc",
+      "options": [
+        "1.5 x 10⁷ km",
+        "1.5 x 10⁸ km",
+        "15 x 10⁷ km",
+        "1.5 x 10⁹ km"
+      ],
+      "markingKey": "B. 1.5 x 10⁸ km. Move the decimal point 8 places"
+    },
+    {
+      "id": "onb-ib-g8-none-q15",
+      "subtopicId": "ib-g8-maths-ch02-st4",
+      "chapterId": "ib-g8-maths-ch02",
+      "subjectId": "ib-g8-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Light travels about 3 x 10⁵ km every second. About how long does sunlight take to travel 1.5 x 10⁸ km to Earth?",
+      "answer": "500 seconds",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Laws of exponents and scientific notation",
+      "subtopicLinked": true,
+      "contentKey": "976e262a6469",
+      "options": [
+        "5000 seconds",
+        "4.5 x 10¹³ seconds",
+        "50 seconds",
+        "500 seconds"
+      ],
+      "markingKey": "D. 500 seconds. 1.5 x 10⁸ ÷ 3 x 10⁵ = 0.5 x 10³ = 500"
+    },
+    {
+      "id": "onb-ib-g8-none-q16",
+      "subtopicId": "ib-g8-maths-ch03-st1",
+      "chapterId": "ib-g8-maths-ch03",
+      "subjectId": "ib-g8-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "What is 15% of 200?",
+      "answer": "30",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Percentages and percentage change",
+      "subtopicLinked": true,
+      "contentKey": "fcaf825ea196",
+      "options": [
+        "15",
+        "30",
+        "20",
+        "300"
+      ],
+      "markingKey": "B. 30. 0.15 x 200 = 30"
+    },
+    {
+      "id": "onb-ib-g8-none-q17",
+      "subtopicId": "ib-g8-maths-ch03-st1",
+      "chapterId": "ib-g8-maths-ch03",
+      "subjectId": "ib-g8-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A jacket costs 80 euros and is reduced by 25%. What is the new price?",
+      "answer": "60 euros",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Percentages and percentage change",
+      "subtopicLinked": true,
+      "contentKey": "f0fa10c473f3",
+      "options": [
+        "75 euros",
+        "60 euros",
+        "55 euros",
+        "20 euros"
+      ],
+      "markingKey": "B. 60 euros. 25% of 80 is 20; 80 - 20 = 60"
+    },
+    {
+      "id": "onb-ib-g8-none-q18",
+      "subtopicId": "ib-g8-maths-ch03-st1",
+      "chapterId": "ib-g8-maths-ch03",
+      "subjectId": "ib-g8-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A town's population grew from 40 000 to 46 000. What is the percentage increase?",
+      "answer": "15%",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Percentages and percentage change",
+      "subtopicLinked": true,
+      "contentKey": "21efba95c322",
+      "options": [
+        "13%",
+        "15%",
+        "6%",
+        "46%"
+      ],
+      "markingKey": "B. 15%. Increase 6 000 ÷ original 40 000 = 0.15"
+    },
+    {
+      "id": "onb-ib-g8-none-q19",
+      "subtopicId": "ib-g8-maths-ch05-st2",
+      "chapterId": "ib-g8-maths-ch05",
+      "subjectId": "ib-g8-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Solve x + 7 = 12.",
+      "answer": "5",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Solving linear equations",
+      "subtopicLinked": true,
+      "contentKey": "ccb7a77359c7",
+      "options": [
+        "5",
+        "-5",
+        "19",
+        "7"
+      ],
+      "markingKey": "A. 5. Subtract 7 from both sides"
+    },
+    {
+      "id": "onb-ib-g8-none-q20",
+      "subtopicId": "ib-g8-maths-ch05-st2",
+      "chapterId": "ib-g8-maths-ch05",
+      "subjectId": "ib-g8-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Solve 3x - 4 = 11.",
+      "answer": "5",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Solving linear equations",
+      "subtopicLinked": true,
+      "contentKey": "9bba93036416",
+      "options": [
+        "3",
+        "15",
+        "5",
+        "7/3"
+      ],
+      "markingKey": "C. 5. Add 4: 3x = 15, so x = 5"
+    },
+    {
+      "id": "onb-ib-g8-none-q21",
+      "subtopicId": "ib-g8-maths-ch05-st2",
+      "chapterId": "ib-g8-maths-ch05",
+      "subjectId": "ib-g8-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Solve 2(x + 3) = 4x - 8.",
+      "answer": "7",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Solving linear equations",
+      "subtopicLinked": true,
+      "contentKey": "517eee4de030",
+      "options": [
+        "1",
+        "-7",
+        "3.5",
+        "7"
+      ],
+      "markingKey": "D. 7. 2x + 6 = 4x - 8, so 14 = 2x"
+    },
+    {
+      "id": "onb-ib-g8-none-q22",
+      "subtopicId": "ib-g8-science-ch05-st3",
+      "chapterId": "ib-g8-science-ch05",
+      "subjectId": "ib-g8-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A potted plant is kept in a dark cupboard for 3 days. One leaf is then tested with iodine. What do you expect, and why?",
+      "answer": "No blue-black colour, because no starch was made without light",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 1,
+      "half": "prerequisite",
+      "subtopicHint": "Photosynthesis needs light",
+      "subtopicLinked": true,
+      "contentKey": "745cbb0979c6",
+      "options": [
+        "No blue-black colour, because iodine reacts only with sugar",
+        "No blue-black colour, because no starch was made without light",
+        "Blue-black colour, because the plant made starch from soil water",
+        "Blue-black colour, because leaves always store starch"
+      ],
+      "markingKey": "B. No blue-black colour, because no starch was made without light. Iodine turns blue-black with starch; without light the plant uses up its starch and cannot make more",
+      "prerequisiteNote": "Grade 7: nutrition in plants (photosynthesis)"
+    },
+    {
+      "id": "onb-ib-g8-none-q23",
+      "subtopicId": "ib-g8-science-ch12-st1",
+      "chapterId": "ib-g8-science-ch12",
+      "subjectId": "ib-g8-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "In a circuit diagram, a long line drawn next to a short line stands for",
+      "answer": "A cell",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Electric circuits, conductors and insulators",
+      "subtopicLinked": true,
+      "contentKey": "4b8542537e55",
+      "options": [
+        "A switch",
+        "A bulb",
+        "A wire joint",
+        "A cell"
+      ],
+      "markingKey": "D. A cell. The long line is the positive terminal of a cell",
+      "prerequisiteNote": "Grade 7: electric circuits and their components"
+    },
+    {
+      "id": "onb-ib-g8-none-q24",
+      "subtopicId": "ib-g8-science-ch12-st1",
+      "chapterId": "ib-g8-science-ch12",
+      "subjectId": "ib-g8-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A bulb does not glow when a rubber eraser closes the gap in a circuit, but glows with a steel key. This shows that",
+      "answer": "steel is a conductor and rubber is an insulator",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Electric circuits, conductors and insulators",
+      "subtopicLinked": true,
+      "contentKey": "3309674cb179",
+      "options": [
+        "steel is a conductor and rubber is an insulator",
+        "both are conductors but rubber is weaker",
+        "rubber is a conductor and steel is an insulator",
+        "the bulb is fused"
+      ],
+      "markingKey": "A. steel is a conductor and rubber is an insulator. Current flows through conductors such as metals, not through insulators such as rubber",
+      "prerequisiteNote": "Grade 7: electric circuits and their components"
+    },
+    {
+      "id": "onb-ib-g8-none-q25",
+      "subtopicId": "ib-g8-science-ch01-st2",
+      "chapterId": "ib-g8-science-ch01",
+      "subjectId": "ib-g8-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "In an experiment, the factor you deliberately change is called the",
+      "answer": "independent variable",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Fair tests and variables",
+      "subtopicLinked": true,
+      "contentKey": "b9cdc874affe",
+      "options": [
+        "controlled variable",
+        "dependent variable",
+        "conclusion",
+        "independent variable"
+      ],
+      "markingKey": "D. independent variable. You change the independent variable and measure the dependent one",
+      "prerequisiteNote": "Grade 7: planning a fair investigation"
+    },
+    {
+      "id": "onb-ib-g8-none-q26",
+      "subtopicId": "ib-g8-science-ch01-st2",
+      "chapterId": "ib-g8-science-ch01",
+      "subjectId": "ib-g8-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A student wants to test whether salt makes ice melt faster. What must stay the same in both cups?",
+      "answer": "The size of the ice cubes and the room temperature",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Fair tests and variables",
+      "subtopicLinked": true,
+      "contentKey": "c119fa3de9eb",
+      "options": [
+        "Nothing; any differences are fine",
+        "Only the time she checks the result",
+        "The size of the ice cubes and the room temperature",
+        "The amount of salt"
+      ],
+      "markingKey": "C. The size of the ice cubes and the room temperature. Only one factor (salt) should change; everything else is controlled",
+      "prerequisiteNote": "Grade 7: planning a fair investigation"
+    },
+    {
+      "id": "onb-ib-g8-none-q27",
+      "subtopicId": "ib-g8-science-ch01-st2",
+      "chapterId": "ib-g8-science-ch01",
+      "subjectId": "ib-g8-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A student says plants grow taller with music. He plays music to one plant on a sunny window and keeps another plant, without music, in a dark corner. What is wrong with his test?",
+      "answer": "Two factors (music and light) changed, so he cannot tell which caused the difference",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Fair tests and variables",
+      "subtopicLinked": true,
+      "contentKey": "17f705d09b32",
+      "options": [
+        "He should have used three plants with music",
+        "Two factors (music and light) changed, so he cannot tell which caused the difference",
+        "Plants cannot hear, so no test is needed",
+        "He should measure the leaves, not the height"
+      ],
+      "markingKey": "B. Two factors (music and light) changed, so he cannot tell which caused the difference. A fair test changes one variable at a time",
+      "prerequisiteNote": "Grade 7: planning a fair investigation"
+    },
+    {
+      "id": "onb-ib-g8-none-q28",
+      "subtopicId": "ib-g8-science-ch03-st2",
+      "chapterId": "ib-g8-science-ch03",
+      "subjectId": "ib-g8-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Digestion of starch begins in the",
+      "answer": "mouth",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Human digestion",
+      "subtopicLinked": true,
+      "contentKey": "85fa837d75d5",
+      "options": [
+        "stomach",
+        "liver",
+        "mouth",
+        "large intestine"
+      ],
+      "markingKey": "C. mouth. Saliva contains an enzyme that starts breaking starch down",
+      "prerequisiteNote": "Grade 7: nutrition in animals (human digestive system)"
+    },
+    {
+      "id": "onb-ib-g8-none-q29",
+      "subtopicId": "ib-g8-science-ch03-st2",
+      "chapterId": "ib-g8-science-ch03",
+      "subjectId": "ib-g8-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Why is the inner wall of the small intestine covered with finger-like villi?",
+      "answer": "They increase the surface area for absorbing digested food",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Human digestion",
+      "subtopicLinked": true,
+      "contentKey": "07d103b590e3",
+      "options": [
+        "They increase the surface area for absorbing digested food",
+        "They produce bile",
+        "They push food back to the stomach",
+        "They store undigested food"
+      ],
+      "markingKey": "A. They increase the surface area for absorbing digested food. More surface means faster absorption into the blood",
+      "prerequisiteNote": "Grade 7: nutrition in animals (human digestive system)"
+    },
+    {
+      "id": "onb-ib-g8-none-q30",
+      "subtopicId": "ib-g8-science-ch03-st2",
+      "chapterId": "ib-g8-science-ch03",
+      "subjectId": "ib-g8-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A person whose gall bladder was removed is advised to eat less oily food. Which reason fits best?",
+      "answer": "Bile, which breaks fat into small droplets, is no longer stored and released in large amounts",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Human digestion",
+      "subtopicLinked": true,
+      "contentKey": "5bc6ea1580f8",
+      "options": [
+        "The stomach can no longer make acid",
+        "Fat is digested only in the gall bladder",
+        "Bile, which breaks fat into small droplets, is no longer stored and released in large amounts",
+        "Villi stop absorbing water"
+      ],
+      "markingKey": "C. Bile, which breaks fat into small droplets, is no longer stored and released in large amounts. The gall bladder stores bile; without it less bile is available at mealtimes to emulsify fat",
+      "prerequisiteNote": "Grade 7: nutrition in animals (human digestive system)"
+    },
+    {
+      "id": "onb-ib-g8-none-q31",
+      "subtopicId": "ib-g8-science-ch02-st2",
+      "chapterId": "ib-g8-science-ch02",
+      "subjectId": "ib-g8-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Identify the structure found in plant cells but not in animal cells.",
+      "answer": "Cell wall",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Cells: structures and functions",
+      "subtopicLinked": true,
+      "contentKey": "202491cdec18",
+      "options": [
+        "Cell wall",
+        "Cell membrane",
+        "Cytoplasm",
+        "Nucleus"
+      ],
+      "markingKey": "A. Cell wall. Plant cells have a cellulose cell wall (and chloroplasts and a large vacuole)"
+    },
+    {
+      "id": "onb-ib-g8-none-q32",
+      "subtopicId": "ib-g8-science-ch02-st2",
+      "chapterId": "ib-g8-science-ch02",
+      "subjectId": "ib-g8-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Outline the function of mitochondria.",
+      "answer": "They release energy from glucose in respiration",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Cells: structures and functions",
+      "subtopicLinked": true,
+      "contentKey": "d0078056e7bc",
+      "options": [
+        "They make proteins",
+        "They control what enters the cell",
+        "They release energy from glucose in respiration",
+        "They store water"
+      ],
+      "markingKey": "C. They release energy from glucose in respiration. Mitochondria are the site of aerobic respiration"
+    },
+    {
+      "id": "onb-ib-g8-none-q33",
+      "subtopicId": "ib-g8-science-ch02-st2",
+      "chapterId": "ib-g8-science-ch02",
+      "subjectId": "ib-g8-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Root cells of a plant have no chloroplasts. Explain why.",
+      "answer": "Roots are underground without light, so they cannot photosynthesise",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Cells: structures and functions",
+      "subtopicLinked": true,
+      "contentKey": "7368187bb2bf",
+      "options": [
+        "Roots need to stay white to be strong",
+        "Chloroplasts are only made in flowers",
+        "Roots are underground without light, so they cannot photosynthesise",
+        "Chloroplasts would block water uptake"
+      ],
+      "markingKey": "C. Roots are underground without light, so they cannot photosynthesise. Chloroplasts are only useful where light reaches"
+    },
+    {
+      "id": "onb-ib-g8-none-q34",
+      "subtopicId": "ib-g8-science-ch04-st1",
+      "chapterId": "ib-g8-science-ch04",
+      "subjectId": "ib-g8-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Which blood vessels carry blood away from the heart?",
+      "answer": "arteries",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Body systems: the circulatory system",
+      "subtopicLinked": true,
+      "contentKey": "d3334bee52b5",
+      "options": [
+        "veins",
+        "arteries",
+        "capillaries",
+        "valves"
+      ],
+      "markingKey": "B. arteries. Arteries carry blood away; veins return it"
+    },
+    {
+      "id": "onb-ib-g8-none-q35",
+      "subtopicId": "ib-g8-science-ch04-st1",
+      "chapterId": "ib-g8-science-ch04",
+      "subjectId": "ib-g8-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Explain why the wall of the left ventricle is thicker than the wall of the right ventricle.",
+      "answer": "It pumps blood around the whole body, which needs more force",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Body systems: the circulatory system",
+      "subtopicLinked": true,
+      "contentKey": "32ea9cd5aeb4",
+      "options": [
+        "It pumps blood only to the lungs",
+        "It receives blood from the body",
+        "It pumps blood around the whole body, which needs more force",
+        "It holds more blood"
+      ],
+      "markingKey": "C. It pumps blood around the whole body, which needs more force. The right ventricle only pumps to the nearby lungs"
+    },
+    {
+      "id": "onb-ib-g8-none-q36",
+      "subtopicId": "ib-g8-science-ch04-st1",
+      "chapterId": "ib-g8-science-ch04",
+      "subjectId": "ib-g8-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "During exercise your heart rate increases. Which explanation is best?",
+      "answer": "Muscles need oxygen and glucose delivered faster for respiration",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Body systems: the circulatory system",
+      "subtopicLinked": true,
+      "contentKey": "798db2ffda7f",
+      "options": [
+        "Muscles need oxygen and glucose delivered faster for respiration",
+        "The lungs stop working during exercise",
+        "The heart needs to cool down",
+        "Blood becomes thicker"
+      ],
+      "markingKey": "A. Muscles need oxygen and glucose delivered faster for respiration. Working muscles respire faster"
+    },
+    {
+      "id": "onb-ib-g8-none-q37",
+      "subtopicId": "ib-g8-science-ch06-st1",
+      "chapterId": "ib-g8-science-ch06",
+      "subjectId": "ib-g8-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "In which state are particles closest together and only vibrating in fixed positions?",
+      "answer": "solid",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "The particle model of matter",
+      "subtopicLinked": true,
+      "contentKey": "ed9d0d771c42",
+      "options": [
+        "plasma",
+        "liquid",
+        "gas",
+        "solid"
+      ],
+      "markingKey": "D. solid. Solids have a fixed shape because particles cannot move past each other"
+    },
+    {
+      "id": "onb-ib-g8-none-q38",
+      "subtopicId": "ib-g8-science-ch06-st1",
+      "chapterId": "ib-g8-science-ch06",
+      "subjectId": "ib-g8-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Explain why a gas can be compressed but a solid cannot easily be compressed.",
+      "answer": "Gas particles have large spaces between them",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "The particle model of matter",
+      "subtopicLinked": true,
+      "contentKey": "66c8e9f95c38",
+      "options": [
+        "Gas particles are smaller",
+        "Gas particles have large spaces between them",
+        "Gases have no mass",
+        "Solid particles move faster"
+      ],
+      "markingKey": "B. Gas particles have large spaces between them. Compression pushes particles into the gaps"
+    },
+    {
+      "id": "onb-ib-g8-none-q39",
+      "subtopicId": "ib-g8-science-ch06-st1",
+      "chapterId": "ib-g8-science-ch06",
+      "subjectId": "ib-g8-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A balloon left in a hot car expands. Explain this using the particle model.",
+      "answer": "The particles gain kinetic energy, move faster and hit the balloon wall harder and more often",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "The particle model of matter",
+      "subtopicLinked": true,
+      "contentKey": "0d516496b735",
+      "options": [
+        "Heat adds new particles to the balloon",
+        "The rubber shrinks in the heat",
+        "The particles grow larger when heated",
+        "The particles gain kinetic energy, move faster and hit the balloon wall harder and more often"
+      ],
+      "markingKey": "D. The particles gain kinetic energy, move faster and hit the balloon wall harder and more often. Particles do not change size; their motion changes"
+    },
+    {
+      "id": "onb-ib-g8-none-q40",
+      "subtopicId": "ib-g8-science-ch10-st2",
+      "chapterId": "ib-g8-science-ch10",
+      "subjectId": "ib-g8-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Speed is calculated as",
+      "answer": "distance ÷ time",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Forces and motion: speed and balanced forces",
+      "subtopicLinked": true,
+      "contentKey": "5315a83318af",
+      "options": [
+        "distance ÷ time",
+        "time ÷ distance",
+        "distance x time",
+        "mass x distance"
+      ],
+      "markingKey": "A. distance ÷ time. v = d / t"
+    },
+    {
+      "id": "onb-ib-g8-none-q41",
+      "subtopicId": "ib-g8-science-ch10-st2",
+      "chapterId": "ib-g8-science-ch10",
+      "subjectId": "ib-g8-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A cyclist travels 18 km in 45 minutes. What is the average speed?",
+      "answer": "24 km/h",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Forces and motion: speed and balanced forces",
+      "subtopicLinked": true,
+      "contentKey": "a6054dc4ba1c",
+      "options": [
+        "13.5 km/h",
+        "24 km/h",
+        "40 km/h",
+        "0.4 km/h"
+      ],
+      "markingKey": "B. 24 km/h. 45 minutes = 0.75 h; 18 ÷ 0.75 = 24"
+    },
+    {
+      "id": "onb-ib-g8-none-q42",
+      "subtopicId": "ib-g8-science-ch10-st2",
+      "chapterId": "ib-g8-science-ch10",
+      "subjectId": "ib-g8-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A moving box is pushed to the right with 50 N while friction acts to the left with 50 N. Describe its motion.",
+      "answer": "It keeps moving at a constant speed",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Forces and motion: speed and balanced forces",
+      "subtopicLinked": true,
+      "contentKey": "db9d7835cd6a",
+      "options": [
+        "It keeps moving at a constant speed",
+        "It speeds up",
+        "It stops immediately",
+        "It moves to the left"
+      ],
+      "markingKey": "A. It keeps moving at a constant speed. Balanced forces mean no change in motion"
+    },
+    {
+      "id": "onb-ib-g8-none-q43",
+      "subtopicId": "ib-g8-english-ch02-st1",
+      "chapterId": "ib-g8-english-ch02",
+      "subjectId": "ib-g8-english",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Read: 'The old fort looked desolate; no one had visited it in years.' What does 'desolate' most likely mean?",
+      "answer": "empty and lonely",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 1,
+      "half": "prerequisite",
+      "subtopicHint": "Vocabulary in context",
+      "subtopicLinked": true,
+      "contentKey": "e4cac6e389dc",
+      "options": [
+        "empty and lonely",
+        "very tall",
+        "crowded and noisy",
+        "newly painted"
+      ],
+      "markingKey": "A. empty and lonely. 'No one had visited it in years' signals emptiness",
+      "prerequisiteNote": "Grade 7: working out word meaning from context"
+    },
+    {
+      "id": "onb-ib-g8-none-q44",
+      "subtopicId": "ib-g8-english-ch02-st2",
+      "chapterId": "ib-g8-english-ch02",
+      "subjectId": "ib-g8-english",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Choose the correct word: Yesterday, Kabir ___ his bicycle to school.",
+      "answer": "rode",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Past tenses",
+      "subtopicLinked": true,
+      "contentKey": "078fe90f9c84",
+      "options": [
+        "rode",
+        "rides",
+        "riding",
+        "ride"
+      ],
+      "markingKey": "A. rode. 'Yesterday' needs the simple past",
+      "prerequisiteNote": "Grade 7: simple past and past continuous"
+    },
+    {
+      "id": "onb-ib-g8-none-q45",
+      "subtopicId": "ib-g8-english-ch02-st2",
+      "chapterId": "ib-g8-english-ch02",
+      "subjectId": "ib-g8-english",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Choose the correct words: When the lights went out, we ___ dinner.",
+      "answer": "were having",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Past tenses",
+      "subtopicLinked": true,
+      "contentKey": "76d8f93ef24e",
+      "options": [
+        "were having",
+        "have had",
+        "will have",
+        "are having"
+      ],
+      "markingKey": "A. were having. An action in progress in the past uses the past continuous",
+      "prerequisiteNote": "Grade 7: simple past and past continuous"
+    },
+    {
+      "id": "onb-ib-g8-none-q46",
+      "subtopicId": "ib-g8-english-ch02-st4",
+      "chapterId": "ib-g8-english-ch02",
+      "subjectId": "ib-g8-english",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Choose the correct word: Each of the students ___ a library card.",
+      "answer": "has",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Subject-verb agreement",
+      "subtopicLinked": true,
+      "contentKey": "1cfb8d08cbed",
+      "options": [
+        "are having",
+        "having",
+        "has",
+        "have"
+      ],
+      "markingKey": "C. has. 'Each' is singular",
+      "prerequisiteNote": "Grade 7: subject-verb agreement"
+    },
+    {
+      "id": "onb-ib-g8-none-q47",
+      "subtopicId": "ib-g8-english-ch02-st4",
+      "chapterId": "ib-g8-english-ch02",
+      "subjectId": "ib-g8-english",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Choose the correct word: Neither the teacher nor the students ___ aware of the change.",
+      "answer": "were",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Subject-verb agreement",
+      "subtopicLinked": true,
+      "contentKey": "65dc82917aae",
+      "options": [
+        "is",
+        "has been",
+        "were",
+        "was"
+      ],
+      "markingKey": "C. were. With 'neither ... nor', the verb agrees with the nearer subject, 'students'",
+      "prerequisiteNote": "Grade 7: subject-verb agreement"
+    },
+    {
+      "id": "onb-ib-g8-none-q48",
+      "subtopicId": "ib-g8-english-ch02-st4",
+      "chapterId": "ib-g8-english-ch02",
+      "subjectId": "ib-g8-english",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Which sentence is correct?",
+      "answer": "The bunch of keys was found under the sofa.",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Subject-verb agreement",
+      "subtopicLinked": true,
+      "contentKey": "e1ba01237da0",
+      "options": [
+        "The bunch of keys was found under the sofa.",
+        "The bunch of keys were found under the sofa.",
+        "The bunch of keys are find under the sofa.",
+        "The bunch of keys have found under the sofa."
+      ],
+      "markingKey": "A. The bunch of keys was found under the sofa.. The subject is 'bunch' (singular), not 'keys'",
+      "prerequisiteNote": "Grade 7: subject-verb agreement"
+    },
+    {
+      "id": "onb-ib-g8-none-q49",
+      "subtopicId": "ib-g8-english-ch02-st3",
+      "chapterId": "ib-g8-english-ch02",
+      "subjectId": "ib-g8-english",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Read: \"Bees visit flowers to collect nectar. As they move, pollen sticks to their bodies and is carried to other flowers. This helps plants make seeds.\" What is the passage mainly about?",
+      "answer": "How bees help plants make seeds",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Main idea of a paragraph",
+      "subtopicLinked": true,
+      "contentKey": "964e95330726",
+      "options": [
+        "How bees help plants make seeds",
+        "How honey is sold",
+        "Why nectar is sweet",
+        "Why flowers are colourful"
+      ],
+      "markingKey": "A. How bees help plants make seeds. Every sentence builds towards pollination and seeds",
+      "prerequisiteNote": "Grade 7: reading for the main idea"
+    },
+    {
+      "id": "onb-ib-g8-none-q50",
+      "subtopicId": "ib-g8-english-ch02-st3",
+      "chapterId": "ib-g8-english-ch02",
+      "subjectId": "ib-g8-english",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Read: \"Arun practised the flute every evening, even when his friends called him out to play. At the school concert, the audience stood up and clapped for a long time.\" What is the main message?",
+      "answer": "Steady practice leads to success",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Main idea of a paragraph",
+      "subtopicLinked": true,
+      "contentKey": "293acc3b61de",
+      "options": [
+        "Playing outside is a waste of time",
+        "Concerts are long",
+        "Steady practice leads to success",
+        "Friends are not important"
+      ],
+      "markingKey": "C. Steady practice leads to success. The practice in the first sentence explains the applause in the second",
+      "prerequisiteNote": "Grade 7: reading for the main idea"
+    },
+    {
+      "id": "onb-ib-g8-none-q51",
+      "subtopicId": "ib-g8-english-ch02-st3",
+      "chapterId": "ib-g8-english-ch02",
+      "subjectId": "ib-g8-english",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Read: \"Many cities now have car-free Sundays. Streets fill with cyclists, skaters and families. Shopkeepers first complained, but many now report more customers on foot.\" Which statement best sums up the passage?",
+      "answer": "Car-free days, though doubted at first, benefit people and some businesses",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Main idea of a paragraph",
+      "subtopicLinked": true,
+      "contentKey": "3d8c1e4f207f",
+      "options": [
+        "Cars should be banned forever",
+        "Shopkeepers dislike car-free Sundays",
+        "Car-free days, though doubted at first, benefit people and some businesses",
+        "Cycling is the best exercise"
+      ],
+      "markingKey": "C. Car-free days, though doubted at first, benefit people and some businesses. The summary must include both the early doubt and the later benefit",
+      "prerequisiteNote": "Grade 7: reading for the main idea"
+    },
+    {
+      "id": "onb-ib-g8-none-q52",
+      "subtopicId": "ib-g8-english-ch02-st2",
+      "chapterId": "ib-g8-english-ch02",
+      "subjectId": "ib-g8-english",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A story narrated by a character who uses 'I' is written in",
+      "answer": "the first-person point of view",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Narrative point of view",
+      "subtopicLinked": true,
+      "contentKey": "afb994219685",
+      "options": [
+        "an objective point of view",
+        "the third-person omniscient point of view",
+        "the second-person point of view",
+        "the first-person point of view"
+      ],
+      "markingKey": "D. the first-person point of view. 'I' marks a first-person narrator"
+    },
+    {
+      "id": "onb-ib-g8-none-q53",
+      "subtopicId": "ib-g8-english-ch02-st2",
+      "chapterId": "ib-g8-english-ch02",
+      "subjectId": "ib-g8-english",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "What is the main difference between a third-person limited narrator and a third-person omniscient narrator?",
+      "answer": "A limited narrator follows one character's thoughts; an omniscient narrator can reveal any character's thoughts",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Narrative point of view",
+      "subtopicLinked": true,
+      "contentKey": "175208858ecf",
+      "options": [
+        "There is no difference",
+        "A limited narrator uses 'I'; an omniscient narrator uses 'you'",
+        "Omniscient narrators are always unreliable",
+        "A limited narrator follows one character's thoughts; an omniscient narrator can reveal any character's thoughts"
+      ],
+      "markingKey": "D. A limited narrator follows one character's thoughts; an omniscient narrator can reveal any character's thoughts. Omniscient means all-knowing"
+    },
+    {
+      "id": "onb-ib-g8-none-q54",
+      "subtopicId": "ib-g8-english-ch02-st2",
+      "chapterId": "ib-g8-english-ch02",
+      "subjectId": "ib-g8-english",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Read: 'Of course I wasn't jealous, I told myself, slamming the door a little harder than I meant to.' Analyse what this reveals about the narrator.",
+      "answer": "The narrator is unreliable: their action contradicts what they claim",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Narrative point of view",
+      "subtopicLinked": true,
+      "contentKey": "7383d11cded9",
+      "options": [
+        "The narrator is calm and honest",
+        "The door was broken",
+        "The narrator is talking to a friend",
+        "The narrator is unreliable: their action contradicts what they claim"
+      ],
+      "markingKey": "D. The narrator is unreliable: their action contradicts what they claim. 'I told myself' and the slammed door show self-deception"
+    },
+    {
+      "id": "onb-ib-g8-none-q55",
+      "subtopicId": "ib-g8-english-ch06-st2",
+      "chapterId": "ib-g8-english-ch06",
+      "subjectId": "ib-g8-english",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "In a text, tone means",
+      "answer": "the writer's attitude towards the subject",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Tone and mood",
+      "subtopicLinked": true,
+      "contentKey": "a44729424d97",
+      "options": [
+        "the writer's attitude towards the subject",
+        "the length of the text",
+        "the number of characters",
+        "the setting"
+      ],
+      "markingKey": "A. the writer's attitude towards the subject. Tone is shown through word choice"
+    },
+    {
+      "id": "onb-ib-g8-none-q56",
+      "subtopicId": "ib-g8-english-ch06-st2",
+      "chapterId": "ib-g8-english-ch06",
+      "subjectId": "ib-g8-english",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which word best describes the tone of: 'Oh wonderful, another rainy holiday. Just what I wanted.'?",
+      "answer": "sarcastic",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Tone and mood",
+      "subtopicLinked": true,
+      "contentKey": "6ad2a4aad1d5",
+      "options": [
+        "sarcastic",
+        "fearful",
+        "joyful",
+        "neutral"
+      ],
+      "markingKey": "A. sarcastic. The speaker says the opposite of what they mean"
+    },
+    {
+      "id": "onb-ib-g8-none-q57",
+      "subtopicId": "ib-g8-english-ch06-st2",
+      "chapterId": "ib-g8-english-ch06",
+      "subjectId": "ib-g8-english",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A writer describes a market as 'a riot of colour, voices tumbling over each other'. Which mood is created?",
+      "answer": "Lively, busy excitement",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Tone and mood",
+      "subtopicLinked": true,
+      "contentKey": "9f2134fccecd",
+      "options": [
+        "Danger and fear",
+        "Lively, busy excitement",
+        "Boredom",
+        "Quiet sadness"
+      ],
+      "markingKey": "B. Lively, busy excitement. 'Riot of colour' and 'tumbling' voices suggest energy"
+    },
+    {
+      "id": "onb-ib-g8-none-q58",
+      "subtopicId": "ib-g8-english-ch04-st1",
+      "chapterId": "ib-g8-english-ch04",
+      "subjectId": "ib-g8-english",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "The main purpose of most advertisements is to",
+      "answer": "persuade",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Non-literary texts: purpose and audience",
+      "subtopicLinked": true,
+      "contentKey": "a7891ef94221",
+      "options": [
+        "inform only",
+        "entertain only",
+        "persuade",
+        "record history"
+      ],
+      "markingKey": "C. persuade. Adverts aim to make you buy, join or act"
+    },
+    {
+      "id": "onb-ib-g8-none-q59",
+      "subtopicId": "ib-g8-english-ch04-st1",
+      "chapterId": "ib-g8-english-ch04",
+      "subjectId": "ib-g8-english",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A poster uses bright cartoons, simple words and a chance to win a toy. Who is the most likely target audience?",
+      "answer": "Young children",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Non-literary texts: purpose and audience",
+      "subtopicLinked": true,
+      "contentKey": "a1906d1f0a6c",
+      "options": [
+        "Business executives",
+        "University lecturers",
+        "Young children",
+        "Retired scientists"
+      ],
+      "markingKey": "C. Young children. Every feature suits young readers"
+    },
+    {
+      "id": "onb-ib-g8-none-q60",
+      "subtopicId": "ib-g8-english-ch04-st1",
+      "chapterId": "ib-g8-english-ch04",
+      "subjectId": "ib-g8-english",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A charity website tells one child's story instead of showing national statistics. Evaluate why the creators chose this.",
+      "answer": "A personal story creates an emotional connection that can make readers more likely to donate",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Non-literary texts: purpose and audience",
+      "subtopicLinked": true,
+      "contentKey": "2605fd06a74d",
+      "options": [
+        "Websites cannot show numbers",
+        "A personal story creates an emotional connection that can make readers more likely to donate",
+        "One story is more accurate than data",
+        "Statistics are always false"
+      ],
+      "markingKey": "B. A personal story creates an emotional connection that can make readers more likely to donate. Pathos often persuades more strongly than numbers"
+    },
+    {
+      "id": "onb-ib-g8-none-q61",
+      "subtopicId": "ib-g8-english-ch03-st3",
+      "chapterId": "ib-g8-english-ch03",
+      "subjectId": "ib-g8-english",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A group of lines forming a section of a poem is called a",
+      "answer": "stanza",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Poetry: form and structure",
+      "subtopicLinked": true,
+      "contentKey": "e616750c8c79",
+      "options": [
+        "caption",
+        "chapter",
+        "paragraph",
+        "stanza"
+      ],
+      "markingKey": "D. stanza. Stanzas are the paragraphs of poetry"
+    },
+    {
+      "id": "onb-ib-g8-none-q62",
+      "subtopicId": "ib-g8-english-ch03-st3",
+      "chapterId": "ib-g8-english-ch03",
+      "subjectId": "ib-g8-english",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Why might a poet repeat the same line at the end of every stanza?",
+      "answer": "To emphasise a key idea and create rhythm",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Poetry: form and structure",
+      "subtopicLinked": true,
+      "contentKey": "ec21496af054",
+      "options": [
+        "To emphasise a key idea and create rhythm",
+        "Because poems must repeat lines",
+        "To fill space",
+        "To confuse the reader"
+      ],
+      "markingKey": "A. To emphasise a key idea and create rhythm. A refrain reinforces meaning"
+    },
+    {
+      "id": "onb-ib-g8-none-q63",
+      "subtopicId": "ib-g8-english-ch03-st3",
+      "chapterId": "ib-g8-english-ch03",
+      "subjectId": "ib-g8-english",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "In a poem, the lines get shorter and shorter as a character falls asleep. Analyse the effect of this structure.",
+      "answer": "The shrinking lines mirror the character slowing down and drifting off",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Poetry: form and structure",
+      "subtopicLinked": true,
+      "contentKey": "fb06be4ea2a9",
+      "options": [
+        "It makes the poem louder",
+        "It shows the poet ran out of ideas",
+        "It has no effect on meaning",
+        "The shrinking lines mirror the character slowing down and drifting off"
+      ],
+      "markingKey": "D. The shrinking lines mirror the character slowing down and drifting off. Form can enact meaning"
+    },
+    {
+      "id": "onb-ib-g8-none-q64",
+      "subtopicId": "ib-g8-social-science-ch01-st1",
+      "chapterId": "ib-g8-social-science-ch01",
+      "subjectId": "ib-g8-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "On a map with a scale of 1 : 50 000, two towns are 4 cm apart. What is the real distance between them?",
+      "answer": "2 km",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 1,
+      "half": "prerequisite",
+      "subtopicHint": "Map skills: scale and distance",
+      "subtopicLinked": true,
+      "contentKey": "e3a14e88e8da",
+      "options": [
+        "4 km",
+        "20 km",
+        "200 m",
+        "2 km"
+      ],
+      "markingKey": "D. 2 km. 4 x 50 000 = 200 000 cm = 2 km",
+      "prerequisiteNote": "Grade 7: map scale, grid references and distance"
+    },
+    {
+      "id": "onb-ib-g8-none-q65",
+      "subtopicId": "ib-g8-social-science-ch04-st1",
+      "chapterId": "ib-g8-social-science-ch04",
+      "subjectId": "ib-g8-social-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A century is a period of",
+      "answer": "100 years",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Chronology and timelines",
+      "subtopicLinked": true,
+      "contentKey": "ff492a3586f2",
+      "options": [
+        "50 years",
+        "10 years",
+        "100 years",
+        "1000 years"
+      ],
+      "markingKey": "C. 100 years. Centuries are 100-year periods",
+      "prerequisiteNote": "Grade 7: chronology, centuries and timelines"
+    },
+    {
+      "id": "onb-ib-g8-none-q66",
+      "subtopicId": "ib-g8-social-science-ch04-st1",
+      "chapterId": "ib-g8-social-science-ch04",
+      "subjectId": "ib-g8-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which order is correct, earliest first?",
+      "answer": "Building of the Egyptian pyramids, the Roman Empire, the Industrial Revolution, the First World War",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Chronology and timelines",
+      "subtopicLinked": true,
+      "contentKey": "801bda054891",
+      "options": [
+        "The Roman Empire, the Egyptian pyramids, the First World War, the Industrial Revolution",
+        "The Industrial Revolution, the Roman Empire, the Egyptian pyramids, the First World War",
+        "Building of the Egyptian pyramids, the Roman Empire, the Industrial Revolution, the First World War",
+        "The Egyptian pyramids, the Industrial Revolution, the Roman Empire, the First World War"
+      ],
+      "markingKey": "C. Building of the Egyptian pyramids, the Roman Empire, the Industrial Revolution, the First World War. About 2500 BCE, about 27 BCE to 476 CE, about 1760 to 1840, 1914 to 1918",
+      "prerequisiteNote": "Grade 7: chronology, centuries and timelines"
+    },
+    {
+      "id": "onb-ib-g8-none-q67",
+      "subtopicId": "ib-g8-social-science-ch05-st3",
+      "chapterId": "ib-g8-social-science-ch05",
+      "subjectId": "ib-g8-social-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Which is a primary source about the First World War?",
+      "answer": "A soldier's letter written in 1916",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Primary and secondary sources",
+      "subtopicLinked": true,
+      "contentKey": "4cdd408c063c",
+      "options": [
+        "A textbook written in 2020",
+        "A film made in 2019",
+        "A website summary of the war",
+        "A soldier's letter written in 1916"
+      ],
+      "markingKey": "D. A soldier's letter written in 1916. A primary source was made at the time by someone involved",
+      "prerequisiteNote": "Grade 7: using sources as evidence"
+    },
+    {
+      "id": "onb-ib-g8-none-q68",
+      "subtopicId": "ib-g8-social-science-ch05-st3",
+      "chapterId": "ib-g8-social-science-ch05",
+      "subjectId": "ib-g8-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Why might a wartime newspaper be an unreliable source about the enemy country?",
+      "answer": "It may be biased to support its own side",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Primary and secondary sources",
+      "subtopicLinked": true,
+      "contentKey": "9b9d37885cfe",
+      "options": [
+        "It may be biased to support its own side",
+        "It is too detailed",
+        "Newspapers never report wars",
+        "It was printed on old paper"
+      ],
+      "markingKey": "A. It may be biased to support its own side. Wartime papers were often censored or used for propaganda",
+      "prerequisiteNote": "Grade 7: using sources as evidence"
+    },
+    {
+      "id": "onb-ib-g8-none-q69",
+      "subtopicId": "ib-g8-social-science-ch05-st3",
+      "chapterId": "ib-g8-social-science-ch05",
+      "subjectId": "ib-g8-social-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Two historians disagree about why an empire collapsed. What is the best explanation?",
+      "answer": "They use different evidence and give different weight to each cause",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Primary and secondary sources",
+      "subtopicLinked": true,
+      "contentKey": "e2e03fb15057",
+      "options": [
+        "They use different evidence and give different weight to each cause",
+        "Empires collapse for only one reason",
+        "One of them must be lying",
+        "History cannot be studied"
+      ],
+      "markingKey": "A. They use different evidence and give different weight to each cause. Interpretations differ because evidence is selected and weighed differently",
+      "prerequisiteNote": "Grade 7: using sources as evidence"
+    },
+    {
+      "id": "onb-ib-g8-none-q70",
+      "subtopicId": "ib-g8-social-science-ch08-st1",
+      "chapterId": "ib-g8-social-science-ch08",
+      "subjectId": "ib-g8-social-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Which of these is a basic human need?",
+      "answer": "Clean water",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "People, settlement and needs",
+      "subtopicLinked": true,
+      "contentKey": "d4dd468adc92",
+      "options": [
+        "A car",
+        "Designer clothes",
+        "A smartphone",
+        "Clean water"
+      ],
+      "markingKey": "D. Clean water. Needs are essential for survival; the others are wants",
+      "prerequisiteNote": "Grade 7: human needs and why settlements grow where they do"
+    },
+    {
+      "id": "onb-ib-g8-none-q71",
+      "subtopicId": "ib-g8-social-science-ch08-st1",
+      "chapterId": "ib-g8-social-science-ch08",
+      "subjectId": "ib-g8-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Why have many large cities grown up next to rivers or coasts?",
+      "answer": "For water supply, transport and trade",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "People, settlement and needs",
+      "subtopicLinked": true,
+      "contentKey": "2a5c92519406",
+      "options": [
+        "It is cheaper to build on water",
+        "Rivers make the weather colder",
+        "For water supply, transport and trade",
+        "Coasts have no natural hazards"
+      ],
+      "markingKey": "C. For water supply, transport and trade. Water routes carried goods and people",
+      "prerequisiteNote": "Grade 7: human needs and why settlements grow where they do"
+    },
+    {
+      "id": "onb-ib-g8-none-q72",
+      "subtopicId": "ib-g8-social-science-ch08-st1",
+      "chapterId": "ib-g8-social-science-ch08",
+      "subjectId": "ib-g8-social-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A country has an ageing population. Which challenge is it most likely to face?",
+      "answer": "More spending on pensions and healthcare, with fewer people of working age",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "People, settlement and needs",
+      "subtopicLinked": true,
+      "contentKey": "b59161a61a2b",
+      "options": [
+        "Less need for doctors",
+        "Too many schools",
+        "A shortage of retired people",
+        "More spending on pensions and healthcare, with fewer people of working age"
+      ],
+      "markingKey": "D. More spending on pensions and healthcare, with fewer people of working age. Older people need more care while the workforce shrinks",
+      "prerequisiteNote": "Grade 7: human needs and why settlements grow where they do"
+    },
+    {
+      "id": "onb-ib-g8-none-q73",
+      "subtopicId": "ib-g8-social-science-ch10-st1",
+      "chapterId": "ib-g8-social-science-ch10",
+      "subjectId": "ib-g8-social-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Migration means",
+      "answer": "people moving from one place to live in another",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Migration: causes and effects",
+      "subtopicLinked": true,
+      "contentKey": "95e574638214",
+      "options": [
+        "people moving from one place to live in another",
+        "seasonal changes in weather",
+        "trade between countries",
+        "the birth rate of a country"
+      ],
+      "markingKey": "A. people moving from one place to live in another. Migration is a change of home"
+    },
+    {
+      "id": "onb-ib-g8-none-q74",
+      "subtopicId": "ib-g8-social-science-ch10-st1",
+      "chapterId": "ib-g8-social-science-ch10",
+      "subjectId": "ib-g8-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which of these is a pull factor for migrants?",
+      "answer": "Better job opportunities",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Migration: causes and effects",
+      "subtopicLinked": true,
+      "contentKey": "8cc7478ebfd9",
+      "options": [
+        "Better job opportunities",
+        "Drought",
+        "War in the home country",
+        "Unemployment at home"
+      ],
+      "markingKey": "A. Better job opportunities. Pull factors attract people to a new place"
+    },
+    {
+      "id": "onb-ib-g8-none-q75",
+      "subtopicId": "ib-g8-social-science-ch10-st1",
+      "chapterId": "ib-g8-social-science-ch10",
+      "subjectId": "ib-g8-social-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Explain one way migration can benefit the country that migrants leave.",
+      "answer": "Migrants send money home (remittances) that supports families and the economy",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Migration: causes and effects",
+      "subtopicLinked": true,
+      "contentKey": "12e9e12eaf99",
+      "options": [
+        "It has no effects",
+        "Migrants send money home (remittances) that supports families and the economy",
+        "It increases unemployment at home",
+        "It always reduces skills at home"
+      ],
+      "markingKey": "B. Migrants send money home (remittances) that supports families and the economy. Remittances are a major income source for many countries"
+    },
+    {
+      "id": "onb-ib-g8-none-q76",
+      "subtopicId": "ib-g8-social-science-ch12-st3",
+      "chapterId": "ib-g8-social-science-ch12",
+      "subjectId": "ib-g8-social-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "The 'origin' of a source refers to",
+      "answer": "who made it, when and where",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Evaluating sources: origin, purpose, value, limitation",
+      "subtopicLinked": true,
+      "contentKey": "dae0d31a09bd",
+      "options": [
+        "its colour",
+        "its price",
+        "how long it is",
+        "who made it, when and where"
+      ],
+      "markingKey": "D. who made it, when and where. Origin helps judge reliability"
+    },
+    {
+      "id": "onb-ib-g8-none-q77",
+      "subtopicId": "ib-g8-social-science-ch12-st3",
+      "chapterId": "ib-g8-social-science-ch12",
+      "subjectId": "ib-g8-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A government poster from 1940 asks citizens to save food for the war effort. What is one limitation of using it to find out how people actually felt?",
+      "answer": "It shows what the government wanted people to think, not necessarily what they thought",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Evaluating sources: origin, purpose, value, limitation",
+      "subtopicLinked": true,
+      "contentKey": "91498f1ec02f",
+      "options": [
+        "It shows what the government wanted people to think, not necessarily what they thought",
+        "It was not made in 1940",
+        "Posters never contain information",
+        "It is too old to be useful"
+      ],
+      "markingKey": "A. It shows what the government wanted people to think, not necessarily what they thought. Propaganda reveals intentions more than opinions"
+    },
+    {
+      "id": "onb-ib-g8-none-q78",
+      "subtopicId": "ib-g8-social-science-ch12-st3",
+      "chapterId": "ib-g8-social-science-ch12",
+      "subjectId": "ib-g8-social-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Which set of sources gives the most balanced view of a protest?",
+      "answer": "A police report, a protester's diary and a neutral newspaper",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Evaluating sources: origin, purpose, value, limitation",
+      "subtopicLinked": true,
+      "contentKey": "8339b430b8ee",
+      "options": [
+        "Only the protester's diary",
+        "Three police reports",
+        "A police report, a protester's diary and a neutral newspaper",
+        "A film made 50 years later"
+      ],
+      "markingKey": "C. A police report, a protester's diary and a neutral newspaper. Different perspectives can be cross-checked"
+    },
+    {
+      "id": "onb-ib-g8-none-q79",
+      "subtopicId": "ib-g8-social-science-ch11-st3",
+      "chapterId": "ib-g8-social-science-ch11",
+      "subjectId": "ib-g8-social-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Sustainability means",
+      "answer": "meeting present needs without harming future generations' ability to meet theirs",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Resources and sustainability",
+      "subtopicLinked": true,
+      "contentKey": "57f487ba13c1",
+      "options": [
+        "only using fossil fuels",
+        "stopping all economic growth",
+        "meeting present needs without harming future generations' ability to meet theirs",
+        "using resources as fast as possible"
+      ],
+      "markingKey": "C. meeting present needs without harming future generations' ability to meet theirs. This is the Brundtland definition"
+    },
+    {
+      "id": "onb-ib-g8-none-q80",
+      "subtopicId": "ib-g8-social-science-ch11-st3",
+      "chapterId": "ib-g8-social-science-ch11",
+      "subjectId": "ib-g8-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which is an example of a sustainable practice?",
+      "answer": "Replanting trees after logging",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Resources and sustainability",
+      "subtopicLinked": true,
+      "contentKey": "0e3f443a2b71",
+      "options": [
+        "Draining wetlands for building",
+        "Burning crop waste",
+        "Replanting trees after logging",
+        "Overfishing"
+      ],
+      "markingKey": "C. Replanting trees after logging. Replanting replaces what was used"
+    },
+    {
+      "id": "onb-ib-g8-none-q81",
+      "subtopicId": "ib-g8-social-science-ch11-st3",
+      "chapterId": "ib-g8-social-science-ch11",
+      "subjectId": "ib-g8-social-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A fishing community limits how many fish can be caught each year. Evaluate this policy.",
+      "answer": "It protects fish stocks for the future, though it may lower income in the short term",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Resources and sustainability",
+      "subtopicLinked": true,
+      "contentKey": "db8e210953c8",
+      "options": [
+        "It increases catches immediately",
+        "It will make the fish extinct",
+        "It protects fish stocks for the future, though it may lower income in the short term",
+        "It has only benefits"
+      ],
+      "markingKey": "C. It protects fish stocks for the future, though it may lower income in the short term. Evaluation weighs benefits against costs"
+    },
+    {
+      "id": "onb-ib-g8-none-q82",
+      "subtopicId": "ib-g8-social-science-ch10-st2",
+      "chapterId": "ib-g8-social-science-ch10",
+      "subjectId": "ib-g8-social-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Urbanisation is",
+      "answer": "the increasing share of people living in towns and cities",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Urbanisation",
+      "subtopicLinked": true,
+      "contentKey": "1566091274c7",
+      "options": [
+        "a fall in city populations",
+        "the increasing share of people living in towns and cities",
+        "people moving to the countryside",
+        "the building of new farms"
+      ],
+      "markingKey": "B. the increasing share of people living in towns and cities. Urban means towns and cities"
+    },
+    {
+      "id": "onb-ib-g8-none-q83",
+      "subtopicId": "ib-g8-social-science-ch10-st2",
+      "chapterId": "ib-g8-social-science-ch10",
+      "subjectId": "ib-g8-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which is a common problem in fast-growing cities?",
+      "answer": "Traffic congestion and housing shortages",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Urbanisation",
+      "subtopicLinked": true,
+      "contentKey": "d9d5cb38cbec",
+      "options": [
+        "Too many forests",
+        "A lack of people",
+        "Traffic congestion and housing shortages",
+        "Too much farmland"
+      ],
+      "markingKey": "C. Traffic congestion and housing shortages. Infrastructure struggles to keep up"
+    },
+    {
+      "id": "onb-ib-g8-none-q84",
+      "subtopicId": "ib-g8-social-science-ch10-st2",
+      "chapterId": "ib-g8-social-science-ch10",
+      "subjectId": "ib-g8-social-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Suggest the most effective long-term way for a city to reduce traffic congestion.",
+      "answer": "Invest in reliable public transport and cycle lanes",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Urbanisation",
+      "subtopicLinked": true,
+      "contentKey": "8b8c242ebf80",
+      "options": [
+        "Ban buses",
+        "Build more car parks in the centre",
+        "Invest in reliable public transport and cycle lanes",
+        "Lower fuel prices"
+      ],
+      "markingKey": "C. Invest in reliable public transport and cycle lanes. Giving people alternatives reduces car trips"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D1",
+      "stem": "What number comes next? 3, 7, 11, 15, ?",
+      "options": [
+        "20",
+        "21",
+        "19",
+        "18"
+      ],
+      "answer": "19",
+      "explanation": "Add 4 each time",
+      "seconds": 30,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-ib-g8-none-q85",
+      "part": "B",
+      "contentKey": "1d9284a91ed1"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D2",
+      "stem": "If 4 identical notebooks cost 96, what do 7 notebooks cost at the same rate?",
+      "options": [
+        "172",
+        "160",
+        "168",
+        "184"
+      ],
+      "answer": "168",
+      "explanation": "One costs 24; 7 x 24 = 168",
+      "seconds": 45,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-ib-g8-none-q86",
+      "part": "B",
+      "contentKey": "c86262e9b8b9"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D2",
+      "stem": "25% of 80 is the same as 50% of which number?",
+      "options": [
+        "160",
+        "20",
+        "40",
+        "10"
+      ],
+      "answer": "40",
+      "explanation": "25% of 80 = 20, and 20 is 50% of 40",
+      "seconds": 45,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-ib-g8-none-q87",
+      "part": "B",
+      "contentKey": "acdc97e88f8d"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D3",
+      "stem": "What number comes next? 2, 6, 12, 20, 30, ?",
+      "options": [
+        "42",
+        "40",
+        "44",
+        "36"
+      ],
+      "answer": "42",
+      "explanation": "Differences are 4, 6, 8, 10, so add 12",
+      "seconds": 60,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-ib-g8-none-q88",
+      "part": "B",
+      "contentKey": "e886cc8a04fc"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D1",
+      "stem": "Book is to reading as fork is to ...",
+      "options": [
+        "cooking",
+        "spoon",
+        "eating",
+        "kitchen"
+      ],
+      "answer": "eating",
+      "explanation": "A book is used for reading; a fork is used for eating",
+      "seconds": 30,
+      "paramIds": [
+        "p61",
+        "p69"
+      ],
+      "id": "onb-ib-g8-none-q89",
+      "part": "B",
+      "contentKey": "0ac4d69fdee5"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D2",
+      "stem": "Which word does not belong with the others? apple, mango, carrot, banana",
+      "options": [
+        "carrot",
+        "banana",
+        "mango",
+        "apple"
+      ],
+      "answer": "carrot",
+      "explanation": "Carrot is a vegetable; the others are fruits",
+      "seconds": 30,
+      "paramIds": [
+        "p61",
+        "p69"
+      ],
+      "id": "onb-ib-g8-none-q90",
+      "part": "B",
+      "contentKey": "2c504558ed1e"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D2",
+      "stem": "All squares are rectangles. All rectangles have four sides. Which statement must be true?",
+      "options": [
+        "All rectangles are squares",
+        "All four-sided shapes are squares",
+        "Some rectangles do not have four sides",
+        "All squares have four sides"
+      ],
+      "answer": "All squares have four sides",
+      "explanation": "If every square is a rectangle and every rectangle has four sides, every square has four sides",
+      "seconds": 45,
+      "paramIds": [
+        "p61",
+        "p65",
+        "p69"
+      ],
+      "id": "onb-ib-g8-none-q91",
+      "part": "B",
+      "contentKey": "96988e317266"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D3",
+      "stem": "Asha is taller than Ben. Ben is taller than Chitra. Dev is shorter than Chitra. Who is the shortest?",
+      "options": [
+        "Ben",
+        "Asha",
+        "Chitra",
+        "Dev"
+      ],
+      "answer": "Dev",
+      "explanation": "Order: Asha > Ben > Chitra > Dev",
+      "seconds": 60,
+      "paramIds": [
+        "p61",
+        "p65",
+        "p69"
+      ],
+      "id": "onb-ib-g8-none-q92",
+      "part": "B",
+      "contentKey": "7b7b1ddeaf92"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D1",
+      "stem": "The shapes repeat in a pattern: circle, square, triangle, circle, square, ? Which shape comes next?",
+      "options": [
+        "circle",
+        "pentagon",
+        "square",
+        "triangle"
+      ],
+      "answer": "triangle",
+      "explanation": "The three shapes repeat in the same order",
+      "seconds": 30,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 60\" width=\"300\" height=\"60\"><circle cx=\"30\" cy=\"30\" r=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><rect x=\"70\" y=\"10\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><polygon points=\"150,10 172,50 128,50\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><circle cx=\"210\" cy=\"30\" r=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><text x=\"270\" y=\"40\" font-size=\"28\" text-anchor=\"middle\" fill=\"currentColor\">?</text></svg>",
+      "id": "onb-ib-g8-none-q93",
+      "part": "B",
+      "contentKey": "4ec9f208fd3e"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D2",
+      "stem": "Figure 1 has 1 black dot, figure 2 has 2 white dots, figure 3 has 3 black dots, figure 4 has 4 white dots. What is figure 5?",
+      "options": [
+        "4 black dots",
+        "6 black dots",
+        "5 white dots",
+        "5 black dots"
+      ],
+      "answer": "5 black dots",
+      "explanation": "One more dot each time; colours alternate",
+      "seconds": 45,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "id": "onb-ib-g8-none-q94",
+      "part": "B",
+      "contentKey": "dae66e9fd14e"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D2",
+      "stem": "Which letter comes next? A, C, F, J, O, ?",
+      "options": [
+        "U",
+        "S",
+        "T",
+        "V"
+      ],
+      "answer": "U",
+      "explanation": "The gaps grow by one: +2, +3, +4, +5, then +6",
+      "seconds": 60,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "id": "onb-ib-g8-none-q95",
+      "part": "B",
+      "contentKey": "eabd2525e467"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D3",
+      "stem": "Rule: the third figure keeps the lines that appear in only one of the first two figures and drops lines they share. A vertical line '|' and a horizontal line '-' give a cross '+'. If figure 1 is a cross '+' and figure 2 is a vertical line '|', what is figure 3?",
+      "options": [
+        "a blank square",
+        "a horizontal line '-'",
+        "a cross '+'",
+        "a vertical line '|'"
+      ],
+      "answer": "a horizontal line '-'",
+      "explanation": "The vertical line is shared, so it is dropped; the horizontal line stays",
+      "seconds": 75,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "id": "onb-ib-g8-none-q96",
+      "part": "B",
+      "contentKey": "e8eb0d7052fe"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D1",
+      "stem": "A square sheet of paper is folded in half once along a diagonal. What shape do you get?",
+      "options": [
+        "a smaller square",
+        "a triangle",
+        "a pentagon",
+        "a rectangle"
+      ],
+      "answer": "a triangle",
+      "explanation": "The diagonal fold puts one corner on the opposite corner",
+      "seconds": 30,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "id": "onb-ib-g8-none-q97",
+      "part": "B",
+      "contentKey": "8818e97d8517"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D2",
+      "stem": "A mirror is held upright beside each capital letter. Which letter looks the same in the mirror?",
+      "options": [
+        "R",
+        "C",
+        "B",
+        "A"
+      ],
+      "answer": "A",
+      "explanation": "A has a vertical line of symmetry",
+      "seconds": 45,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "id": "onb-ib-g8-none-q98",
+      "part": "B",
+      "contentKey": "88d0cb7f4b30"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D2",
+      "stem": "A cube is painted on all faces and cut into 27 equal small cubes. How many small cubes have exactly two painted faces?",
+      "options": [
+        "6",
+        "12",
+        "1",
+        "8"
+      ],
+      "answer": "12",
+      "explanation": "Those are the middle cubes of the 12 edges",
+      "seconds": 60,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "id": "onb-ib-g8-none-q99",
+      "part": "B",
+      "contentKey": "5992488be3a3"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D3",
+      "stem": "You face north. You turn 90° clockwise, then 180°, then 90° anticlockwise. Which way do you face now?",
+      "options": [
+        "South",
+        "North",
+        "East",
+        "West"
+      ],
+      "answer": "South",
+      "explanation": "North -> East -> West -> South",
+      "seconds": 60,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "id": "onb-ib-g8-none-q100",
+      "part": "B",
+      "contentKey": "afb88d3871bc"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "On a normal school day, how long do you study at home (not counting tuition)?",
+      "responseType": "single",
+      "paramId": "p31",
+      "options": [
+        {
+          "label": "Less than 1 hour",
+          "value": 0.5
+        },
+        {
+          "label": "1 to 2 hours",
+          "value": 1.5
+        },
+        {
+          "label": "2 to 3 hours",
+          "value": 2.5
+        },
+        {
+          "label": "3 to 4 hours",
+          "value": 3.5
+        },
+        {
+          "label": "More than 4 hours",
+          "value": 4.5
+        }
+      ],
+      "unit": "hours",
+      "id": "onb-ib-g8-none-q101",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "a3188617eeb3"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "When do you usually study best?",
+      "responseType": "single",
+      "paramId": "p33",
+      "options": [
+        {
+          "label": "Early morning",
+          "value": "early_morning"
+        },
+        {
+          "label": "Afternoon",
+          "value": "afternoon"
+        },
+        {
+          "label": "Evening",
+          "value": "evening"
+        },
+        {
+          "label": "Late night",
+          "value": "late_night"
+        }
+      ],
+      "id": "onb-ib-g8-none-q102",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "4bff65265626"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How long is a typical study session before you take a break?",
+      "responseType": "single",
+      "paramId": "p34",
+      "options": [
+        {
+          "label": "15 to 20 minutes",
+          "value": 20
+        },
+        {
+          "label": "30 to 45 minutes",
+          "value": 40
+        },
+        {
+          "label": "About an hour",
+          "value": 60
+        },
+        {
+          "label": "90 minutes or more",
+          "value": 90
+        }
+      ],
+      "unit": "minutes",
+      "id": "onb-ib-g8-none-q103",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "09d32e5c0254"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How often do you revise topics you have already finished?",
+      "responseType": "single",
+      "paramId": "p39",
+      "options": [
+        {
+          "label": "Rarely",
+          "value": "rarely"
+        },
+        {
+          "label": "Only before tests",
+          "value": "before_tests"
+        },
+        {
+          "label": "Every week",
+          "value": "weekly"
+        },
+        {
+          "label": "Most days",
+          "value": "daily"
+        }
+      ],
+      "id": "onb-ib-g8-none-q104",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "0d286009ae6f"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How do you usually revise?",
+      "responseType": "single",
+      "paramId": "p40",
+      "options": [
+        {
+          "label": "Re-reading notes or the textbook",
+          "value": "reread"
+        },
+        {
+          "label": "Highlighting or rewriting notes",
+          "value": "rewrite"
+        },
+        {
+          "label": "Doing practice questions",
+          "value": "practice"
+        },
+        {
+          "label": "Testing myself with flashcards or quizzes",
+          "value": "self_test"
+        },
+        {
+          "label": "Explaining it to someone else",
+          "value": "teach"
+        }
+      ],
+      "id": "onb-ib-g8-none-q105",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "fec782fd153e"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "I put off starting homework until the last minute.",
+      "responseType": "scale",
+      "paramId": "p46",
+      "options": [
+        {
+          "label": "1 Never",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Always",
+          "value": 5
+        }
+      ],
+      "id": "onb-ib-g8-none-q106",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "b31ed6ad6c6c"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Where is your phone while you study?",
+      "responseType": "single",
+      "paramId": "p105",
+      "options": [
+        {
+          "label": "In another room",
+          "value": "away"
+        },
+        {
+          "label": "Nearby on silent",
+          "value": "silent_nearby"
+        },
+        {
+          "label": "With me, I check it often",
+          "value": "checking"
+        },
+        {
+          "label": "I study on my phone",
+          "value": "study_device"
+        }
+      ],
+      "id": "onb-ib-g8-none-q107",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "d194a9f578b8"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Which helps you learn a new topic most?",
+      "responseType": "single",
+      "paramId": "p48",
+      "options": [
+        {
+          "label": "Watching a video",
+          "value": "video"
+        },
+        {
+          "label": "Reading and making notes",
+          "value": "reading"
+        },
+        {
+          "label": "Trying problems straight away",
+          "value": "practice"
+        },
+        {
+          "label": "Discussing it with someone",
+          "value": "discussion"
+        }
+      ],
+      "id": "onb-ib-g8-none-q108",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "c23e54729bc0"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Do you prefer studying alone or with others?",
+      "responseType": "single",
+      "paramId": "p50",
+      "options": [
+        {
+          "label": "Alone",
+          "value": "solo"
+        },
+        {
+          "label": "With one friend",
+          "value": "pair"
+        },
+        {
+          "label": "In a group",
+          "value": "group"
+        },
+        {
+          "label": "It depends on the subject",
+          "value": "mixed"
+        }
+      ],
+      "id": "onb-ib-g8-none-q109",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "70f11b4add34"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "When you get stuck on a question, what do you usually do first?",
+      "responseType": "single",
+      "paramId": "p49",
+      "options": [
+        {
+          "label": "Ask my teacher",
+          "value": "teacher"
+        },
+        {
+          "label": "Ask a friend or sibling",
+          "value": "peer"
+        },
+        {
+          "label": "Search online or watch a video",
+          "value": "online"
+        },
+        {
+          "label": "Leave it and move on",
+          "value": "skip"
+        }
+      ],
+      "id": "onb-ib-g8-none-q110",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "599b22b79bd2"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Do you go to tuition or coaching classes?",
+      "responseType": "single",
+      "paramId": "p21",
+      "options": [
+        {
+          "label": "No",
+          "value": "none"
+        },
+        {
+          "label": "Yes, for one subject",
+          "value": "one_subject"
+        },
+        {
+          "label": "Yes, for two or more subjects",
+          "value": "multi_subject"
+        },
+        {
+          "label": "Yes, at a coaching institute",
+          "value": "institute"
+        }
+      ],
+      "id": "onb-ib-g8-none-q111",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "3c939f2b1013"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "I mostly study because ...",
+      "responseType": "single",
+      "paramId": "p123",
+      "options": [
+        {
+          "label": "I enjoy learning new things",
+          "value": "intrinsic"
+        },
+        {
+          "label": "I have a goal I want to reach",
+          "value": "goal"
+        },
+        {
+          "label": "I want good marks",
+          "value": "performance"
+        },
+        {
+          "label": "My family expects it",
+          "value": "external"
+        }
+      ],
+      "id": "onb-ib-g8-none-q112",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "4ab1b901cdd5"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "If I work hard, I can get much better at a subject I find difficult.",
+      "responseType": "scale",
+      "paramId": "p125",
+      "options": [
+        {
+          "label": "1 Strongly disagree",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Strongly agree",
+          "value": 5
+        }
+      ],
+      "id": "onb-ib-g8-none-q113",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "6efb13e3bd21"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "I like hard problems, even when I might get them wrong.",
+      "responseType": "scale",
+      "paramId": "p331",
+      "options": [
+        {
+          "label": "1 Strongly disagree",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Strongly agree",
+          "value": 5
+        }
+      ],
+      "id": "onb-ib-g8-none-q114",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "80b24e607fdf"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Before a test, how nervous do you usually feel?",
+      "responseType": "scale",
+      "paramId": "p111",
+      "options": [
+        {
+          "label": "1 Calm",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Very nervous",
+          "value": 5
+        }
+      ],
+      "helpText": "Optional. This only helps us pace your plan and suggest support; it never affects your scores or recommendations.",
+      "alsoInforms": [
+        "p133"
+      ],
+      "id": "onb-ib-g8-none-q115",
+      "tier": "T3",
+      "screened": true,
+      "optional": true,
+      "contentKey": "58e5770944cf"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "On school nights, how many hours do you usually sleep?",
+      "responseType": "single",
+      "paramId": "p83",
+      "options": [
+        {
+          "label": "Less than 6",
+          "value": 5.5
+        },
+        {
+          "label": "6 to 7",
+          "value": 6.5
+        },
+        {
+          "label": "7 to 8",
+          "value": 7.5
+        },
+        {
+          "label": "8 to 9",
+          "value": 8.5
+        },
+        {
+          "label": "More than 9",
+          "value": 9.5
+        }
+      ],
+      "helpText": "Optional. Used only to fit your timetable around enough rest.",
+      "unit": "hours",
+      "id": "onb-ib-g8-none-q116",
+      "tier": "T3",
+      "screened": true,
+      "optional": true,
+      "contentKey": "55062a5c52b2"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Fixing or building things, like a bicycle, a model or a small circuit",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "R",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g8-none-q117",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "36e0422d9d06"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Working outdoors with tools, plants or animals",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "R",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g8-none-q118",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "c063e3c69b0f"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Doing experiments to find out why something happens",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "I",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g8-none-q119",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "0c12a884162e"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Solving tricky maths or logic puzzles",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "I",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g8-none-q120",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "058f5f9025f0"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Drawing, designing, writing stories or making music",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "A",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g8-none-q121",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "9234642a58af"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Acting, photography or making videos",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "A",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g8-none-q122",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "e7bfdb738978"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Explaining something to a friend until they understand it",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "S",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g8-none-q123",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "8f4da2390889"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Volunteering to help people in your community",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "S",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g8-none-q124",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "40f8337ef8af"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Leading a team or running a school club",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "E",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g8-none-q125",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "b91eb24feb37"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Pitching an idea or starting a small business",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "E",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g8-none-q126",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "6806cc5fc89c"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Keeping records or organising information neatly",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "C",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g8-none-q127",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "0c466df2c3f1"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Working with numbers, budgets or spreadsheets",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "C",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g8-none-q128",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "c884a471f58e"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How interested are you in studying abroad after school?",
+      "responseType": "scale",
+      "paramId": "p230",
+      "options": [
+        {
+          "label": "1 Not interested",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Very interested",
+          "value": 5
+        }
+      ],
+      "alsoInforms": [
+        "p231"
+      ],
+      "id": "onb-ib-g8-none-q129",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "587ff74cc454"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Which career areas interest you right now? Pick up to three.",
+      "responseType": "multi",
+      "paramId": "p198",
+      "options": [
+        {
+          "label": "Engineering and technology",
+          "value": "engineering"
+        },
+        {
+          "label": "Medicine and health",
+          "value": "medicine"
+        },
+        {
+          "label": "Business, finance and commerce",
+          "value": "business"
+        },
+        {
+          "label": "Law, government and public policy",
+          "value": "law"
+        },
+        {
+          "label": "Design, media and the arts",
+          "value": "design"
+        },
+        {
+          "label": "Science and research",
+          "value": "research"
+        },
+        {
+          "label": "Teaching, psychology and social work",
+          "value": "social"
+        },
+        {
+          "label": "Not sure yet",
+          "value": "unsure"
+        }
+      ],
+      "max": 3,
+      "alsoInforms": [
+        "p199"
+      ],
+      "id": "onb-ib-g8-none-q130",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "732c5efa2f1e"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Who does your child live with?",
+      "responseType": "single",
+      "paramId": "p154",
+      "optional": false,
+      "options": [
+        {
+          "label": "Both parents",
+          "value": "nuclear"
+        },
+        {
+          "label": "Parents and grandparents or other relatives",
+          "value": "joint"
+        },
+        {
+          "label": "One parent",
+          "value": "single_parent"
+        },
+        {
+          "label": "Another guardian",
+          "value": "guardian"
+        }
+      ],
+      "id": "onb-ib-g8-none-q131",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "b4e573af0103"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "What is the highest education level in your child's home?",
+      "responseType": "single",
+      "paramId": "p155",
+      "optional": false,
+      "options": [
+        {
+          "label": "School",
+          "value": "school"
+        },
+        {
+          "label": "Bachelor's degree",
+          "value": "graduate"
+        },
+        {
+          "label": "Master's degree",
+          "value": "postgraduate"
+        },
+        {
+          "label": "Professional or doctoral degree (CA, MBBS, PhD, LLB...)",
+          "value": "professional"
+        }
+      ],
+      "id": "onb-ib-g8-none-q132",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "9bb6e9dc0272"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Which best describes the main earner's work?",
+      "responseType": "single",
+      "paramId": "p156",
+      "optional": false,
+      "options": [
+        {
+          "label": "Salaried, private sector",
+          "value": "private"
+        },
+        {
+          "label": "Salaried, government or PSU",
+          "value": "government"
+        },
+        {
+          "label": "Own business",
+          "value": "business"
+        },
+        {
+          "label": "Self-employed professional",
+          "value": "professional"
+        },
+        {
+          "label": "Agriculture",
+          "value": "agriculture"
+        },
+        {
+          "label": "Other",
+          "value": "other"
+        }
+      ],
+      "id": "onb-ib-g8-none-q133",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "53fbc806c89f"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Which languages are spoken at home?",
+      "responseType": "multi",
+      "paramId": "p157",
+      "optional": false,
+      "options": [
+        {
+          "label": "English",
+          "value": "en"
+        },
+        {
+          "label": "Hindi",
+          "value": "hi"
+        },
+        {
+          "label": "Another Indian language",
+          "value": "regional"
+        },
+        {
+          "label": "Another language",
+          "value": "other"
+        }
+      ],
+      "id": "onb-ib-g8-none-q134",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "9b8c0fd0ab78"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "How involved are you in your child's daily study?",
+      "responseType": "single",
+      "paramId": "p159",
+      "optional": false,
+      "options": [
+        {
+          "label": "I check in every day",
+          "value": "daily"
+        },
+        {
+          "label": "A few times a week",
+          "value": "weekly"
+        },
+        {
+          "label": "Mainly around exams",
+          "value": "exams"
+        },
+        {
+          "label": "Rarely, my child manages it",
+          "value": "rarely"
+        }
+      ],
+      "id": "onb-ib-g8-none-q135",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "6b01757b27ef"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Does your child attend tuition or coaching?",
+      "responseType": "single",
+      "paramId": "p21",
+      "optional": false,
+      "options": [
+        {
+          "label": "No",
+          "value": "none"
+        },
+        {
+          "label": "One subject",
+          "value": "one_subject"
+        },
+        {
+          "label": "Two or more subjects",
+          "value": "multi_subject"
+        },
+        {
+          "label": "A coaching institute (e.g. for JEE, NEET or boards)",
+          "value": "institute"
+        }
+      ],
+      "id": "onb-ib-g8-none-q136",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "feb34567435d"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Annual household income (optional, helps us suggest scholarships)",
+      "responseType": "single",
+      "paramId": "p176",
+      "optional": true,
+      "options": [
+        {
+          "label": "Under ₹5 lakh",
+          "value": "lt_5l",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 500000
+          }
+        },
+        {
+          "label": "₹5 to 10 lakh",
+          "value": "5_10l",
+          "sets": {
+            "minInr": 500000,
+            "maxInr": 1000000
+          }
+        },
+        {
+          "label": "₹10 to 25 lakh",
+          "value": "10_25l",
+          "sets": {
+            "minInr": 1000000,
+            "maxInr": 2500000
+          }
+        },
+        {
+          "label": "₹25 to 50 lakh",
+          "value": "25_50l",
+          "sets": {
+            "minInr": 2500000,
+            "maxInr": 5000000
+          }
+        },
+        {
+          "label": "Over ₹50 lakh",
+          "value": "gt_50l",
+          "sets": {
+            "minInr": 5000000,
+            "maxInr": null
+          }
+        }
+      ],
+      "id": "onb-ib-g8-none-q137",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "43104f173bc2"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "How much can you spend on extra learning each year (tuition, courses, tests)?",
+      "responseType": "single",
+      "paramId": "p178",
+      "optional": false,
+      "options": [
+        {
+          "label": "Under ₹50,000",
+          "value": "lt_50k",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 50000
+          }
+        },
+        {
+          "label": "₹50,000 to 1.5 lakh",
+          "value": "50k_150k",
+          "sets": {
+            "minInr": 50000,
+            "maxInr": 150000
+          }
+        },
+        {
+          "label": "₹1.5 to 3 lakh",
+          "value": "150k_300k",
+          "sets": {
+            "minInr": 150000,
+            "maxInr": 300000
+          }
+        },
+        {
+          "label": "₹3 to 6 lakh",
+          "value": "300k_600k",
+          "sets": {
+            "minInr": 300000,
+            "maxInr": 600000
+          }
+        },
+        {
+          "label": "Over ₹6 lakh",
+          "value": "gt_600k",
+          "sets": {
+            "minInr": 600000,
+            "maxInr": null
+          }
+        }
+      ],
+      "id": "onb-ib-g8-none-q138",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "67072550cf5b"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "What total budget can you plan for an undergraduate degree in India?",
+      "responseType": "single",
+      "paramId": "p180",
+      "optional": false,
+      "options": [
+        {
+          "label": "Under ₹5 lakh",
+          "value": "lt_5l",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 500000
+          }
+        },
+        {
+          "label": "₹5 to 15 lakh",
+          "value": "5_15l",
+          "sets": {
+            "minInr": 500000,
+            "maxInr": 1500000
+          }
+        },
+        {
+          "label": "₹15 to 30 lakh",
+          "value": "15_30l",
+          "sets": {
+            "minInr": 1500000,
+            "maxInr": 3000000
+          }
+        },
+        {
+          "label": "Over ₹30 lakh",
+          "value": "gt_30l",
+          "sets": {
+            "minInr": 3000000,
+            "maxInr": null
+          }
+        }
+      ],
+      "id": "onb-ib-g8-none-q139",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "832f80bd4135"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "If your child studies abroad, what total budget could you plan?",
+      "responseType": "single",
+      "paramId": "p181",
+      "optional": false,
+      "options": [
+        {
+          "label": "Not considering study abroad",
+          "value": "none",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 0
+          }
+        },
+        {
+          "label": "Under ₹25 lakh",
+          "value": "lt_25l",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 2500000
+          }
+        },
+        {
+          "label": "₹25 to 50 lakh",
+          "value": "25_50l",
+          "sets": {
+            "minInr": 2500000,
+            "maxInr": 5000000
+          }
+        },
+        {
+          "label": "₹50 lakh to 1 crore",
+          "value": "50l_1cr",
+          "sets": {
+            "minInr": 5000000,
+            "maxInr": 10000000
+          }
+        },
+        {
+          "label": "Over ₹1 crore",
+          "value": "gt_1cr",
+          "sets": {
+            "minInr": 10000000,
+            "maxInr": null
+          }
+        }
+      ],
+      "alsoInforms": [
+        "p192"
+      ],
+      "id": "onb-ib-g8-none-q140",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "1da408987765"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Would you consider an education loan?",
+      "responseType": "single",
+      "paramId": "p182",
+      "optional": false,
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "label": "Maybe, depending on the course",
+          "value": "maybe"
+        },
+        {
+          "label": "No",
+          "value": "no"
+        }
+      ],
+      "id": "onb-ib-g8-none-q141",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "29db07c379ba"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Which career direction would you like for your child?",
+      "responseType": "single",
+      "paramId": "p202",
+      "optional": false,
+      "options": [
+        {
+          "label": "Engineering and technology",
+          "value": "engineering"
+        },
+        {
+          "label": "Medicine and health",
+          "value": "medicine"
+        },
+        {
+          "label": "Business, finance and commerce",
+          "value": "business"
+        },
+        {
+          "label": "Law, government and public policy",
+          "value": "law"
+        },
+        {
+          "label": "Design, media and the arts",
+          "value": "design"
+        },
+        {
+          "label": "Science and research",
+          "value": "research"
+        },
+        {
+          "label": "Teaching, psychology and social work",
+          "value": "social"
+        },
+        {
+          "label": "Whatever my child chooses",
+          "value": "child_choice"
+        }
+      ],
+      "alsoInforms": [
+        "p203"
+      ],
+      "id": "onb-ib-g8-none-q142",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "bc4252eaee6c"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "How supportive is your family of your child studying abroad?",
+      "responseType": "scale",
+      "paramId": "p234",
+      "optional": false,
+      "options": [
+        {
+          "label": "1 Not supportive",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Fully supportive",
+          "value": 5
+        }
+      ],
+      "id": "onb-ib-g8-none-q143",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "9a84394f1a5b"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "What device and internet does your child use for study?",
+      "responseType": "single",
+      "paramId": "p193",
+      "optional": false,
+      "options": [
+        {
+          "label": "Own laptop or tablet with reliable internet",
+          "value": "own_device"
+        },
+        {
+          "label": "A shared family computer",
+          "value": "shared"
+        },
+        {
+          "label": "Mainly a phone",
+          "value": "phone_only"
+        },
+        {
+          "label": "Internet is often unreliable",
+          "value": "unreliable"
+        }
+      ],
+      "id": "onb-ib-g8-none-q144",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "516a78042b4f"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "I consent to Learnibility processing my child's data to personalise their learning, as described in the privacy notice.",
+      "responseType": "consent",
+      "paramId": "p30",
+      "optional": false,
+      "options": [
+        {
+          "label": "I agree",
+          "value": "granted"
+        },
+        {
+          "label": "I do not agree",
+          "value": "refused"
+        }
+      ],
+      "helpText": "Required for a child under 18 (DPDP Act 2023, s.9(1)). You can withdraw consent at any time in Settings.",
+      "id": "onb-ib-g8-none-q145",
+      "tier": "C",
+      "screened": false,
+      "contentKey": "1f4aba2a3948"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "I allow my child's selected work to be shown to teachers, tutors and counsellors on the platform.",
+      "responseType": "consent",
+      "paramId": "p277",
+      "optional": true,
+      "options": [
+        {
+          "label": "Yes",
+          "value": "granted"
+        },
+        {
+          "label": "Not now",
+          "value": "refused"
+        }
+      ],
+      "helpText": "Optional. Nothing is shared outside the platform without asking you again.",
+      "id": "onb-ib-g8-none-q146",
+      "tier": "C",
+      "screened": false,
+      "contentKey": "f49d9421e2bb"
+    }
+  ]
+}

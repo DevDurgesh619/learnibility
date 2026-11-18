@@ -1,0 +1,5003 @@
+{
+  "schemaVersion": 1,
+  "generatedBy": "scripts/onboarding/build-forms.py",
+  "form": {
+    "formId": "onb-cbse-g8-none",
+    "designId": "g8-cbse",
+    "board": "cbse",
+    "grade": 8,
+    "stream": "none",
+    "title": "CBSE Class 8 onboarding test",
+    "minutes": {
+      "A": 32,
+      "B": 12,
+      "C": 8,
+      "P": 5
+    },
+    "partA": {
+      "pool": 84,
+      "delivered": 32
+    },
+    "scoring": {
+      "ladder": {
+        "start": "D2",
+        "floor": "D1",
+        "ceiling": "D3",
+        "hitsToStepUp": 2,
+        "weights": {
+          "D1": 1,
+          "D2": 2,
+          "D3": 3
+        }
+      },
+      "bandCutoffs": [
+        {
+          "band": "excellent",
+          "minPercent": 80
+        },
+        {
+          "band": "above_avg",
+          "minPercent": 65
+        },
+        {
+          "band": "average",
+          "minPercent": 45
+        },
+        {
+          "band": "below_avg",
+          "minPercent": 0
+        }
+      ],
+      "groups": [
+        {
+          "group": "maths",
+          "label": "Mathematics",
+          "subjectIds": [
+            "cbse-g8-maths"
+          ]
+        },
+        {
+          "group": "science",
+          "label": "Science",
+          "subjectIds": [
+            "cbse-g8-science"
+          ]
+        },
+        {
+          "group": "english",
+          "label": "English",
+          "subjectIds": [
+            "cbse-g8-english"
+          ]
+        },
+        {
+          "group": "social-science",
+          "label": "Social Science",
+          "subjectIds": [
+            "cbse-g8-social-science"
+          ]
+        }
+      ],
+      "writes": [
+        {
+          "paramId": "p1",
+          "rule": "Grade of the form taken",
+          "source": "M1",
+          "confidence": "high"
+        },
+        {
+          "paramId": "p3",
+          "rule": "Board of the form taken",
+          "source": "M1",
+          "confidence": "high"
+        },
+        {
+          "paramId": "p5",
+          "rule": "Stream of the form taken (grades 11-12)",
+          "source": "M1",
+          "confidence": "high"
+        },
+        {
+          "paramId": "p278",
+          "rule": "Per subtopic seen: pMastery 0.7 if right at D2/D3, 0.55 if right at D1, 0.25 if wrong; level L0-L3 from the ladder step reached",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p279",
+          "rule": "Prerequisite-gap index = 100 x weighted misses / weighted items seen in slots 1-4, averaged over groups",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p13",
+          "rule": "Groups with the highest Part A percent (top 1-2, only if >= 65%)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p14",
+          "rule": "Groups with the lowest Part A percent (bottom 1-2, only if < 65%)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p140",
+          "rule": "Mean confidence (1-5) per group",
+          "source": "M1",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p141",
+          "rule": "Calibration = 1 - mean |confidence/5 - correct| over Part A (feeds the first MCI reading)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p284",
+          "rule": "Highest difficulty answered correctly twice in a row: D1 low, D2 medium, D3 high",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p61",
+          "rule": "Verbal reasoning = percent of Part B verbal items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p62",
+          "rule": "Numerical reasoning = percent of Part B numerical items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p63",
+          "rule": "Abstract reasoning = percent of Part B abstract items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p64",
+          "rule": "Spatial reasoning = percent of Part B spatial items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p65",
+          "rule": "Logical deduction = percent right on Part B items tagged p65",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p68",
+          "rule": "Numeracy fluency = numerical percent scaled by speed (right answers under target time count 1.2x, max 100)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p69",
+          "rule": "Processing speed = 100 x share of Part B items answered right within target seconds",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p200",
+          "rule": "RIASEC profile: each career-interest item scored 1-5; letter score = mean of its 2 items; top 3 letters form the code (e.g. IRC)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p31",
+          "rule": "Answer to onb-cbse-g8-none-q101 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p33",
+          "rule": "Answer to onb-cbse-g8-none-q102 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p34",
+          "rule": "Answer to onb-cbse-g8-none-q103 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p39",
+          "rule": "Answer to onb-cbse-g8-none-q104 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p40",
+          "rule": "Answer to onb-cbse-g8-none-q105 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p46",
+          "rule": "Answer to onb-cbse-g8-none-q106 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p105",
+          "rule": "Answer to onb-cbse-g8-none-q107 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p48",
+          "rule": "Answer to onb-cbse-g8-none-q108 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p50",
+          "rule": "Answer to onb-cbse-g8-none-q109 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p49",
+          "rule": "Answer to onb-cbse-g8-none-q110 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p21",
+          "rule": "Answer to onb-cbse-g8-none-q111 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p123",
+          "rule": "Answer to onb-cbse-g8-none-q112 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p125",
+          "rule": "Answer to onb-cbse-g8-none-q113 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p331",
+          "rule": "Answer to onb-cbse-g8-none-q114 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p111",
+          "rule": "Answer to onb-cbse-g8-none-q115 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p83",
+          "rule": "Answer to onb-cbse-g8-none-q116 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p230",
+          "rule": "Answer to onb-cbse-g8-none-q129 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p198",
+          "rule": "Answer to onb-cbse-g8-none-q130 (multi)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p154",
+          "rule": "Answer to onb-cbse-g8-none-q131 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p155",
+          "rule": "Answer to onb-cbse-g8-none-q132 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p156",
+          "rule": "Answer to onb-cbse-g8-none-q133 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p157",
+          "rule": "Answer to onb-cbse-g8-none-q134 (multi)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p159",
+          "rule": "Answer to onb-cbse-g8-none-q135 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p176",
+          "rule": "Answer to onb-cbse-g8-none-q137 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p178",
+          "rule": "Answer to onb-cbse-g8-none-q138 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p180",
+          "rule": "Answer to onb-cbse-g8-none-q139 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p181",
+          "rule": "Answer to onb-cbse-g8-none-q140 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p182",
+          "rule": "Answer to onb-cbse-g8-none-q141 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p202",
+          "rule": "Answer to onb-cbse-g8-none-q142 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p234",
+          "rule": "Answer to onb-cbse-g8-none-q143 (scale)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p193",
+          "rule": "Answer to onb-cbse-g8-none-q144 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p30",
+          "rule": "Answer to onb-cbse-g8-none-q145 (consent)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p277",
+          "rule": "Answer to onb-cbse-g8-none-q146 (consent)",
+          "source": "M2",
+          "confidence": "medium"
+        }
+      ],
+      "reasoning": [
+        {
+          "domain": "numerical",
+          "paramId": "p62",
+          "itemIds": [
+            "onb-cbse-g8-none-q85",
+            "onb-cbse-g8-none-q86",
+            "onb-cbse-g8-none-q87",
+            "onb-cbse-g8-none-q88"
+          ]
+        },
+        {
+          "domain": "verbal",
+          "paramId": "p61",
+          "itemIds": [
+            "onb-cbse-g8-none-q89",
+            "onb-cbse-g8-none-q90",
+            "onb-cbse-g8-none-q91",
+            "onb-cbse-g8-none-q92"
+          ]
+        },
+        {
+          "domain": "abstract",
+          "paramId": "p63",
+          "itemIds": [
+            "onb-cbse-g8-none-q93",
+            "onb-cbse-g8-none-q94",
+            "onb-cbse-g8-none-q95",
+            "onb-cbse-g8-none-q96"
+          ]
+        },
+        {
+          "domain": "spatial",
+          "paramId": "p64",
+          "itemIds": [
+            "onb-cbse-g8-none-q97",
+            "onb-cbse-g8-none-q98",
+            "onb-cbse-g8-none-q99",
+            "onb-cbse-g8-none-q100"
+          ]
+        }
+      ],
+      "riasec": {
+        "R": [
+          "onb-cbse-g8-none-q117",
+          "onb-cbse-g8-none-q118"
+        ],
+        "I": [
+          "onb-cbse-g8-none-q119",
+          "onb-cbse-g8-none-q120"
+        ],
+        "A": [
+          "onb-cbse-g8-none-q121",
+          "onb-cbse-g8-none-q122"
+        ],
+        "S": [
+          "onb-cbse-g8-none-q123",
+          "onb-cbse-g8-none-q124"
+        ],
+        "E": [
+          "onb-cbse-g8-none-q125",
+          "onb-cbse-g8-none-q126"
+        ],
+        "C": [
+          "onb-cbse-g8-none-q127",
+          "onb-cbse-g8-none-q128"
+        ]
+      }
+    }
+  },
+  "items": [
+    {
+      "id": "onb-cbse-g8-none-q01",
+      "subtopicId": "cbse-g8-maths-ch01-st1",
+      "chapterId": "cbse-g8-maths-ch01",
+      "subjectId": "cbse-g8-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which of these numbers is a perfect square?",
+      "answer": "196",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 1,
+      "half": "prerequisite",
+      "subtopicHint": "Squares of whole numbers",
+      "subtopicLinked": true,
+      "contentKey": "c68bd7e9f59b",
+      "options": [
+        "300",
+        "250",
+        "196",
+        "420"
+      ],
+      "markingKey": "C. 196. 14 x 14 = 196; the others are not the square of any whole number",
+      "prerequisiteNote": "Grade 7: multiplication facts and squares of numbers"
+    },
+    {
+      "id": "onb-cbse-g8-none-q02",
+      "subtopicId": "cbse-g8-maths-ch01-st2",
+      "chapterId": "cbse-g8-maths-ch01",
+      "subjectId": "cbse-g8-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Which shows 36 written as a product of prime factors?",
+      "answer": "2 x 2 x 3 x 3",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Prime factorisation",
+      "subtopicLinked": true,
+      "contentKey": "3158a1c9c6e6",
+      "options": [
+        "2 x 2 x 3 x 3",
+        "4 x 9",
+        "2 x 3 x 6",
+        "6 x 6"
+      ],
+      "markingKey": "A. 2 x 2 x 3 x 3. 4, 6 and 9 are not prime; 36 = 2 x 2 x 3 x 3",
+      "prerequisiteNote": "Grade 6-7: factors, primes and prime factorisation"
+    },
+    {
+      "id": "onb-cbse-g8-none-q03",
+      "subtopicId": "cbse-g8-maths-ch01-st2",
+      "chapterId": "cbse-g8-maths-ch01",
+      "subjectId": "cbse-g8-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "The prime factorisation of 180 is",
+      "answer": "2² x 3² x 5",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Prime factorisation",
+      "subtopicLinked": true,
+      "contentKey": "db27bfe4380b",
+      "options": [
+        "2³ x 3 x 5",
+        "2² x 45",
+        "2 x 3² x 10",
+        "2² x 3² x 5"
+      ],
+      "markingKey": "D. 2² x 3² x 5. 180 = 4 x 45 = 2 x 2 x 3 x 3 x 5",
+      "prerequisiteNote": "Grade 6-7: factors, primes and prime factorisation"
+    },
+    {
+      "id": "onb-cbse-g8-none-q04",
+      "subtopicId": "cbse-g8-maths-ch02-st1",
+      "chapterId": "cbse-g8-maths-ch02",
+      "subjectId": "cbse-g8-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "5⁴ means",
+      "answer": "5 x 5 x 5 x 5",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Exponents as repeated multiplication",
+      "subtopicLinked": true,
+      "contentKey": "f65b800eb6fe",
+      "options": [
+        "4 x 4 x 4 x 4 x 4",
+        "5 x 4",
+        "5 x 5 x 5 x 5",
+        "5 + 5 + 5 + 5"
+      ],
+      "markingKey": "C. 5 x 5 x 5 x 5. The exponent 4 says how many 5s are multiplied",
+      "prerequisiteNote": "Grade 7: exponents and powers"
+    },
+    {
+      "id": "onb-cbse-g8-none-q05",
+      "subtopicId": "cbse-g8-maths-ch02-st1",
+      "chapterId": "cbse-g8-maths-ch02",
+      "subjectId": "cbse-g8-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "What is the value of 2⁵?",
+      "answer": "32",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Exponents as repeated multiplication",
+      "subtopicLinked": true,
+      "contentKey": "be39248086e9",
+      "options": [
+        "25",
+        "10",
+        "64",
+        "32"
+      ],
+      "markingKey": "D. 32. 2 x 2 x 2 x 2 x 2 = 32",
+      "prerequisiteNote": "Grade 7: exponents and powers"
+    },
+    {
+      "id": "onb-cbse-g8-none-q06",
+      "subtopicId": "cbse-g8-maths-ch02-st1",
+      "chapterId": "cbse-g8-maths-ch02",
+      "subjectId": "cbse-g8-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Which is greater, 3⁴ or 4³, and by how much?",
+      "answer": "3⁴, by 17",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Exponents as repeated multiplication",
+      "subtopicLinked": true,
+      "contentKey": "3c39f3925924",
+      "options": [
+        "4³, by 17",
+        "3⁴, by 1",
+        "3⁴, by 17",
+        "They are equal"
+      ],
+      "markingKey": "C. 3⁴, by 17. 3⁴ = 81 and 4³ = 64; 81 - 64 = 17",
+      "prerequisiteNote": "Grade 7: exponents and powers"
+    },
+    {
+      "id": "onb-cbse-g8-none-q07",
+      "subtopicId": "cbse-g8-maths-ch03-st2",
+      "chapterId": "cbse-g8-maths-ch03",
+      "subjectId": "cbse-g8-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "(-8) + 5 = ?",
+      "answer": "-3",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Operations on integers and fractions",
+      "subtopicLinked": true,
+      "contentKey": "d6c309a0f235",
+      "options": [
+        "13",
+        "-13",
+        "-3",
+        "3"
+      ],
+      "markingKey": "C. -3. Start at -8 and move 5 to the right on the number line",
+      "prerequisiteNote": "Grade 7: integers and fractions, four operations"
+    },
+    {
+      "id": "onb-cbse-g8-none-q08",
+      "subtopicId": "cbse-g8-maths-ch03-st2",
+      "chapterId": "cbse-g8-maths-ch03",
+      "subjectId": "cbse-g8-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "3/4 - 2/3 = ?",
+      "answer": "1/12",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Operations on integers and fractions",
+      "subtopicLinked": true,
+      "contentKey": "4ff1855ad8d9",
+      "options": [
+        "5/12",
+        "1/7",
+        "1/12",
+        "1/4"
+      ],
+      "markingKey": "C. 1/12. Common denominator 12: 9/12 - 8/12 = 1/12",
+      "prerequisiteNote": "Grade 7: integers and fractions, four operations"
+    },
+    {
+      "id": "onb-cbse-g8-none-q09",
+      "subtopicId": "cbse-g8-maths-ch03-st2",
+      "chapterId": "cbse-g8-maths-ch03",
+      "subjectId": "cbse-g8-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A jug holds 2 1/2 litres of milk. 3/4 litre is used for tea and 1 1/3 litres for a pudding. How much milk is left?",
+      "answer": "5/12 litre",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Operations on integers and fractions",
+      "subtopicLinked": true,
+      "contentKey": "9a5c221a9e86",
+      "options": [
+        "1/2 litre",
+        "7/12 litre",
+        "1 5/12 litres",
+        "5/12 litre"
+      ],
+      "markingKey": "D. 5/12 litre. 30/12 - 9/12 - 16/12 = 5/12 litre",
+      "prerequisiteNote": "Grade 7: integers and fractions, four operations"
+    },
+    {
+      "id": "onb-cbse-g8-none-q10",
+      "subtopicId": "cbse-g8-maths-ch01-st1",
+      "chapterId": "cbse-g8-maths-ch01",
+      "subjectId": "cbse-g8-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Which digit can never be the units digit of a perfect square?",
+      "answer": "7",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Perfect squares and their patterns",
+      "subtopicLinked": true,
+      "contentKey": "8b70f09c3fc9",
+      "options": [
+        "9",
+        "6",
+        "1",
+        "7"
+      ],
+      "markingKey": "D. 7. Squares end only in 0, 1, 4, 5, 6 or 9"
+    },
+    {
+      "id": "onb-cbse-g8-none-q11",
+      "subtopicId": "cbse-g8-maths-ch01-st1",
+      "chapterId": "cbse-g8-maths-ch01",
+      "subjectId": "cbse-g8-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "How many non-square numbers lie between 15² and 16²?",
+      "answer": "30",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Perfect squares and their patterns",
+      "subtopicLinked": true,
+      "contentKey": "4ce324c03c19",
+      "options": [
+        "30",
+        "16",
+        "31",
+        "15"
+      ],
+      "markingKey": "A. 30. Between n² and (n+1)² there are 2n non-squares; 2 x 15 = 30"
+    },
+    {
+      "id": "onb-cbse-g8-none-q12",
+      "subtopicId": "cbse-g8-maths-ch01-st1",
+      "chapterId": "cbse-g8-maths-ch01",
+      "subjectId": "cbse-g8-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "The sum of the first n odd numbers is n². What is 1 + 3 + 5 + ... + 39?",
+      "answer": "400",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Perfect squares and their patterns",
+      "subtopicLinked": true,
+      "contentKey": "a665426b847f",
+      "options": [
+        "380",
+        "441",
+        "400",
+        "361"
+      ],
+      "markingKey": "C. 400. 39 is the 20th odd number, so the sum is 20² = 400"
+    },
+    {
+      "id": "onb-cbse-g8-none-q13",
+      "subtopicId": "cbse-g8-maths-ch01-st2",
+      "chapterId": "cbse-g8-maths-ch01",
+      "subjectId": "cbse-g8-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "√144 = ?",
+      "answer": "12",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Square roots: prime factorisation and estimation",
+      "subtopicLinked": true,
+      "contentKey": "7317eb8f81ef",
+      "options": [
+        "72",
+        "14",
+        "12",
+        "11"
+      ],
+      "markingKey": "C. 12. 12 x 12 = 144"
+    },
+    {
+      "id": "onb-cbse-g8-none-q14",
+      "subtopicId": "cbse-g8-maths-ch01-st2",
+      "chapterId": "cbse-g8-maths-ch01",
+      "subjectId": "cbse-g8-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Using prime factorisation, find √1764.",
+      "answer": "42",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Square roots: prime factorisation and estimation",
+      "subtopicLinked": true,
+      "contentKey": "3e103844286b",
+      "options": [
+        "44",
+        "38",
+        "46",
+        "42"
+      ],
+      "markingKey": "D. 42. 1764 = 2² x 3² x 7², so √1764 = 2 x 3 x 7 = 42"
+    },
+    {
+      "id": "onb-cbse-g8-none-q15",
+      "subtopicId": "cbse-g8-maths-ch01-st2",
+      "chapterId": "cbse-g8-maths-ch01",
+      "subjectId": "cbse-g8-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "What is the smallest whole number by which 2352 must be multiplied to make it a perfect square?",
+      "answer": "3",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Square roots: prime factorisation and estimation",
+      "subtopicLinked": true,
+      "contentKey": "a250b1881140",
+      "options": [
+        "7",
+        "6",
+        "3",
+        "2"
+      ],
+      "markingKey": "C. 3. 2352 = 2⁴ x 3 x 7²; only the 3 is unpaired"
+    },
+    {
+      "id": "onb-cbse-g8-none-q16",
+      "subtopicId": "cbse-g8-maths-ch01-st3",
+      "chapterId": "cbse-g8-maths-ch01",
+      "subjectId": "cbse-g8-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Which of these is a perfect cube?",
+      "answer": "216",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Perfect cubes and cube roots",
+      "subtopicLinked": true,
+      "contentKey": "464ab6d284ae",
+      "options": [
+        "216",
+        "100",
+        "144",
+        "250"
+      ],
+      "markingKey": "A. 216. 6 x 6 x 6 = 216"
+    },
+    {
+      "id": "onb-cbse-g8-none-q17",
+      "subtopicId": "cbse-g8-maths-ch01-st3",
+      "chapterId": "cbse-g8-maths-ch01",
+      "subjectId": "cbse-g8-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "∛3375 = ?",
+      "answer": "15",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Perfect cubes and cube roots",
+      "subtopicLinked": true,
+      "contentKey": "cc220127439a",
+      "options": [
+        "35",
+        "25",
+        "15",
+        "13"
+      ],
+      "markingKey": "C. 15. 15 x 15 x 15 = 3375"
+    },
+    {
+      "id": "onb-cbse-g8-none-q18",
+      "subtopicId": "cbse-g8-maths-ch01-st3",
+      "chapterId": "cbse-g8-maths-ch01",
+      "subjectId": "cbse-g8-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "What is the smallest number by which 1323 must be divided so that the quotient is a perfect cube?",
+      "answer": "49",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Perfect cubes and cube roots",
+      "subtopicLinked": true,
+      "contentKey": "588a015b1856",
+      "options": [
+        "3",
+        "7",
+        "49",
+        "21"
+      ],
+      "markingKey": "C. 49. 1323 = 3³ x 7²; dividing by 7² = 49 leaves 27 = 3³"
+    },
+    {
+      "id": "onb-cbse-g8-none-q19",
+      "subtopicId": "cbse-g8-maths-ch02-st1",
+      "chapterId": "cbse-g8-maths-ch02",
+      "subjectId": "cbse-g8-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "a³ x a⁴ = ?",
+      "answer": "a⁷",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Exponent notation and laws of exponents",
+      "subtopicLinked": true,
+      "contentKey": "6dcf52831c50",
+      "options": [
+        "a¹²",
+        "a⁷",
+        "a",
+        "2a⁷"
+      ],
+      "markingKey": "B. a⁷. Same base: add the exponents, 3 + 4 = 7"
+    },
+    {
+      "id": "onb-cbse-g8-none-q20",
+      "subtopicId": "cbse-g8-maths-ch02-st1",
+      "chapterId": "cbse-g8-maths-ch02",
+      "subjectId": "cbse-g8-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "(2³)² ÷ 2⁴ = ?",
+      "answer": "4",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Exponent notation and laws of exponents",
+      "subtopicLinked": true,
+      "contentKey": "141b48655e65",
+      "options": [
+        "4",
+        "16",
+        "8",
+        "2"
+      ],
+      "markingKey": "A. 4. (2³)² = 2⁶; 2⁶ ÷ 2⁴ = 2² = 4"
+    },
+    {
+      "id": "onb-cbse-g8-none-q21",
+      "subtopicId": "cbse-g8-maths-ch02-st1",
+      "chapterId": "cbse-g8-maths-ch02",
+      "subjectId": "cbse-g8-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "If (5²)ˣ ÷ 5³ = 5⁵, what is x?",
+      "answer": "4",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Exponent notation and laws of exponents",
+      "subtopicLinked": true,
+      "contentKey": "0f40d29beb76",
+      "options": [
+        "8",
+        "3",
+        "1",
+        "4"
+      ],
+      "markingKey": "D. 4. 2x - 3 = 5, so x = 4"
+    },
+    {
+      "id": "onb-cbse-g8-none-q22",
+      "subtopicId": "cbse-g8-science-ch12-st1",
+      "chapterId": "cbse-g8-science-ch12",
+      "subjectId": "cbse-g8-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A potted plant is kept in a dark cupboard for 3 days. One leaf is then tested with iodine. What do you expect, and why?",
+      "answer": "No blue-black colour, because no starch was made without light",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 1,
+      "half": "prerequisite",
+      "subtopicHint": "Photosynthesis needs light",
+      "subtopicLinked": true,
+      "contentKey": "745cbb0979c6",
+      "options": [
+        "No blue-black colour, because iodine reacts only with sugar",
+        "No blue-black colour, because no starch was made without light",
+        "Blue-black colour, because the plant made starch from soil water",
+        "Blue-black colour, because leaves always store starch"
+      ],
+      "markingKey": "B. No blue-black colour, because no starch was made without light. Iodine turns blue-black with starch; without light the plant uses up its starch and cannot make more",
+      "prerequisiteNote": "Grade 7: nutrition in plants (photosynthesis)"
+    },
+    {
+      "id": "onb-cbse-g8-none-q23",
+      "subtopicId": "cbse-g8-science-ch04-st1",
+      "chapterId": "cbse-g8-science-ch04",
+      "subjectId": "cbse-g8-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "In a circuit diagram, a long line drawn next to a short line stands for",
+      "answer": "A cell",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Electric circuits, conductors and insulators",
+      "subtopicLinked": true,
+      "contentKey": "4b8542537e55",
+      "options": [
+        "A switch",
+        "A bulb",
+        "A wire joint",
+        "A cell"
+      ],
+      "markingKey": "D. A cell. The long line is the positive terminal of a cell",
+      "prerequisiteNote": "Grade 7: electric circuits and their components"
+    },
+    {
+      "id": "onb-cbse-g8-none-q24",
+      "subtopicId": "cbse-g8-science-ch04-st1",
+      "chapterId": "cbse-g8-science-ch04",
+      "subjectId": "cbse-g8-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A bulb does not glow when a rubber eraser closes the gap in a circuit, but glows with a steel key. This shows that",
+      "answer": "steel is a conductor and rubber is an insulator",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Electric circuits, conductors and insulators",
+      "subtopicLinked": true,
+      "contentKey": "3309674cb179",
+      "options": [
+        "steel is a conductor and rubber is an insulator",
+        "both are conductors but rubber is weaker",
+        "rubber is a conductor and steel is an insulator",
+        "the bulb is fused"
+      ],
+      "markingKey": "A. steel is a conductor and rubber is an insulator. Current flows through conductors such as metals, not through insulators such as rubber",
+      "prerequisiteNote": "Grade 7: electric circuits and their components"
+    },
+    {
+      "id": "onb-cbse-g8-none-q25",
+      "subtopicId": "cbse-g8-science-ch01-st3",
+      "chapterId": "cbse-g8-science-ch01",
+      "subjectId": "cbse-g8-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "In an experiment, the factor you deliberately change is called the",
+      "answer": "independent variable",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Fair tests and variables",
+      "subtopicLinked": true,
+      "contentKey": "b9cdc874affe",
+      "options": [
+        "controlled variable",
+        "dependent variable",
+        "conclusion",
+        "independent variable"
+      ],
+      "markingKey": "D. independent variable. You change the independent variable and measure the dependent one",
+      "prerequisiteNote": "Grade 7: planning a fair investigation"
+    },
+    {
+      "id": "onb-cbse-g8-none-q26",
+      "subtopicId": "cbse-g8-science-ch01-st3",
+      "chapterId": "cbse-g8-science-ch01",
+      "subjectId": "cbse-g8-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A student wants to test whether salt makes ice melt faster. What must stay the same in both cups?",
+      "answer": "The size of the ice cubes and the room temperature",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Fair tests and variables",
+      "subtopicLinked": true,
+      "contentKey": "c119fa3de9eb",
+      "options": [
+        "Nothing; any differences are fine",
+        "Only the time she checks the result",
+        "The size of the ice cubes and the room temperature",
+        "The amount of salt"
+      ],
+      "markingKey": "C. The size of the ice cubes and the room temperature. Only one factor (salt) should change; everything else is controlled",
+      "prerequisiteNote": "Grade 7: planning a fair investigation"
+    },
+    {
+      "id": "onb-cbse-g8-none-q27",
+      "subtopicId": "cbse-g8-science-ch01-st3",
+      "chapterId": "cbse-g8-science-ch01",
+      "subjectId": "cbse-g8-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A student says plants grow taller with music. He plays music to one plant on a sunny window and keeps another plant, without music, in a dark corner. What is wrong with his test?",
+      "answer": "Two factors (music and light) changed, so he cannot tell which caused the difference",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Fair tests and variables",
+      "subtopicLinked": true,
+      "contentKey": "17f705d09b32",
+      "options": [
+        "He should have used three plants with music",
+        "Two factors (music and light) changed, so he cannot tell which caused the difference",
+        "Plants cannot hear, so no test is needed",
+        "He should measure the leaves, not the height"
+      ],
+      "markingKey": "B. Two factors (music and light) changed, so he cannot tell which caused the difference. A fair test changes one variable at a time",
+      "prerequisiteNote": "Grade 7: planning a fair investigation"
+    },
+    {
+      "id": "onb-cbse-g8-none-q28",
+      "subtopicId": "cbse-g8-science-ch03-st1",
+      "chapterId": "cbse-g8-science-ch03",
+      "subjectId": "cbse-g8-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Digestion of starch begins in the",
+      "answer": "mouth",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Human digestion",
+      "subtopicLinked": true,
+      "contentKey": "85fa837d75d5",
+      "options": [
+        "stomach",
+        "liver",
+        "mouth",
+        "large intestine"
+      ],
+      "markingKey": "C. mouth. Saliva contains an enzyme that starts breaking starch down",
+      "prerequisiteNote": "Grade 7: nutrition in animals (human digestive system)"
+    },
+    {
+      "id": "onb-cbse-g8-none-q29",
+      "subtopicId": "cbse-g8-science-ch03-st1",
+      "chapterId": "cbse-g8-science-ch03",
+      "subjectId": "cbse-g8-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Why is the inner wall of the small intestine covered with finger-like villi?",
+      "answer": "They increase the surface area for absorbing digested food",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Human digestion",
+      "subtopicLinked": true,
+      "contentKey": "07d103b590e3",
+      "options": [
+        "They increase the surface area for absorbing digested food",
+        "They produce bile",
+        "They push food back to the stomach",
+        "They store undigested food"
+      ],
+      "markingKey": "A. They increase the surface area for absorbing digested food. More surface means faster absorption into the blood",
+      "prerequisiteNote": "Grade 7: nutrition in animals (human digestive system)"
+    },
+    {
+      "id": "onb-cbse-g8-none-q30",
+      "subtopicId": "cbse-g8-science-ch03-st1",
+      "chapterId": "cbse-g8-science-ch03",
+      "subjectId": "cbse-g8-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A person whose gall bladder was removed is advised to eat less oily food. Which reason fits best?",
+      "answer": "Bile, which breaks fat into small droplets, is no longer stored and released in large amounts",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Human digestion",
+      "subtopicLinked": true,
+      "contentKey": "5bc6ea1580f8",
+      "options": [
+        "The stomach can no longer make acid",
+        "Fat is digested only in the gall bladder",
+        "Bile, which breaks fat into small droplets, is no longer stored and released in large amounts",
+        "Villi stop absorbing water"
+      ],
+      "markingKey": "C. Bile, which breaks fat into small droplets, is no longer stored and released in large amounts. The gall bladder stores bile; without it less bile is available at mealtimes to emulsify fat",
+      "prerequisiteNote": "Grade 7: nutrition in animals (human digestive system)"
+    },
+    {
+      "id": "onb-cbse-g8-none-q31",
+      "subtopicId": "cbse-g8-science-ch01-st2",
+      "chapterId": "cbse-g8-science-ch01",
+      "subjectId": "cbse-g8-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A testable 'if ... then ...' statement made before an experiment is called a",
+      "answer": "hypothesis",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Scientific method: questions, hypotheses, observations",
+      "subtopicLinked": true,
+      "contentKey": "d953e724e68a",
+      "options": [
+        "theory",
+        "observation",
+        "conclusion",
+        "hypothesis"
+      ],
+      "markingKey": "D. hypothesis. A hypothesis is a prediction that an experiment can test"
+    },
+    {
+      "id": "onb-cbse-g8-none-q32",
+      "subtopicId": "cbse-g8-science-ch01-st2",
+      "chapterId": "cbse-g8-science-ch01",
+      "subjectId": "cbse-g8-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which of these is an observation, not an inference?",
+      "answer": "The leaf has brown spots on it",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Scientific method: questions, hypotheses, observations",
+      "subtopicLinked": true,
+      "contentKey": "df338c90d006",
+      "options": [
+        "The leaf has brown spots on it",
+        "The plant is sick because it got too much water",
+        "The spots were caused by a fungus",
+        "The plant will die soon"
+      ],
+      "markingKey": "A. The leaf has brown spots on it. An observation is what you can see or measure; the others are explanations or predictions"
+    },
+    {
+      "id": "onb-cbse-g8-none-q33",
+      "subtopicId": "cbse-g8-science-ch01-st2",
+      "chapterId": "cbse-g8-science-ch01",
+      "subjectId": "cbse-g8-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Students found that seeds watered with tap water and with filtered water sprouted in the same number of days. Which conclusion is best supported?",
+      "answer": "In this test, the type of water made no difference to sprouting time",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Scientific method: questions, hypotheses, observations",
+      "subtopicLinked": true,
+      "contentKey": "235d0e3452e7",
+      "options": [
+        "Tap water contains harmful chemicals",
+        "Water is not needed for sprouting",
+        "In this test, the type of water made no difference to sprouting time",
+        "Filtered water is better for plants"
+      ],
+      "markingKey": "C. In this test, the type of water made no difference to sprouting time. A conclusion should not go beyond the data collected"
+    },
+    {
+      "id": "onb-cbse-g8-none-q34",
+      "subtopicId": "cbse-g8-science-ch02-st4",
+      "chapterId": "cbse-g8-science-ch02",
+      "subjectId": "cbse-g8-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Curd is formed from milk by",
+      "answer": "bacteria (Lactobacillus)",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Microorganisms in food and industry",
+      "subtopicLinked": true,
+      "contentKey": "51ab9ef0512a",
+      "options": [
+        "yeast",
+        "algae",
+        "bacteria (Lactobacillus)",
+        "a virus"
+      ],
+      "markingKey": "C. bacteria (Lactobacillus). Lactobacillus bacteria turn milk into curd"
+    },
+    {
+      "id": "onb-cbse-g8-none-q35",
+      "subtopicId": "cbse-g8-science-ch02-st4",
+      "chapterId": "cbse-g8-science-ch02",
+      "subjectId": "cbse-g8-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Dough rises when yeast is added because",
+      "answer": "yeast respires and releases carbon dioxide gas",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Microorganisms in food and industry",
+      "subtopicLinked": true,
+      "contentKey": "10e01148f2aa",
+      "options": [
+        "yeast turns starch into salt",
+        "yeast releases oxygen",
+        "yeast absorbs water and swells",
+        "yeast respires and releases carbon dioxide gas"
+      ],
+      "markingKey": "D. yeast respires and releases carbon dioxide gas. The carbon dioxide bubbles make the dough rise"
+    },
+    {
+      "id": "onb-cbse-g8-none-q36",
+      "subtopicId": "cbse-g8-science-ch02-st4",
+      "chapterId": "cbse-g8-science-ch02",
+      "subjectId": "cbse-g8-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why does food kept in a refrigerator spoil more slowly than food kept outside?",
+      "answer": "Low temperature slows the growth of microorganisms",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Microorganisms in food and industry",
+      "subtopicLinked": true,
+      "contentKey": "ee9533875920",
+      "options": [
+        "Microbes need light, which a fridge lacks",
+        "Cold kills all microorganisms immediately",
+        "Low temperature slows the growth of microorganisms",
+        "Refrigerators remove oxygen"
+      ],
+      "markingKey": "C. Low temperature slows the growth of microorganisms. Cold slows microbes; it does not kill all of them"
+    },
+    {
+      "id": "onb-cbse-g8-none-q37",
+      "subtopicId": "cbse-g8-science-ch03-st3",
+      "chapterId": "cbse-g8-science-ch03",
+      "subjectId": "cbse-g8-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Which disease is caused by a virus?",
+      "answer": "Chickenpox",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Communicable diseases and vaccination",
+      "subtopicLinked": true,
+      "contentKey": "8ba92458f6cd",
+      "options": [
+        "Cholera",
+        "Chickenpox",
+        "Typhoid",
+        "Tuberculosis"
+      ],
+      "markingKey": "B. Chickenpox. Typhoid, tuberculosis and cholera are caused by bacteria"
+    },
+    {
+      "id": "onb-cbse-g8-none-q38",
+      "subtopicId": "cbse-g8-science-ch03-st3",
+      "chapterId": "cbse-g8-science-ch03",
+      "subjectId": "cbse-g8-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "How does a vaccine protect us?",
+      "answer": "It trains the body to make antibodies so it can fight the real germ quickly later",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Communicable diseases and vaccination",
+      "subtopicLinked": true,
+      "contentKey": "0d4fcd552342",
+      "options": [
+        "It is a vitamin",
+        "It cures a disease after it starts",
+        "It trains the body to make antibodies so it can fight the real germ quickly later",
+        "It kills all germs in the body"
+      ],
+      "markingKey": "C. It trains the body to make antibodies so it can fight the real germ quickly later. Vaccines prepare the immune system in advance"
+    },
+    {
+      "id": "onb-cbse-g8-none-q39",
+      "subtopicId": "cbse-g8-science-ch03-st3",
+      "chapterId": "cbse-g8-science-ch03",
+      "subjectId": "cbse-g8-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Malaria cases rise in a village after the monsoon. Which action targets the cause most directly?",
+      "answer": "Remove stagnant water where mosquitoes breed",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Communicable diseases and vaccination",
+      "subtopicLinked": true,
+      "contentKey": "904d731b6e53",
+      "options": [
+        "Wash hands before meals",
+        "Boil drinking water",
+        "Avoid shaking hands",
+        "Remove stagnant water where mosquitoes breed"
+      ],
+      "markingKey": "D. Remove stagnant water where mosquitoes breed. Malaria spreads through mosquito bites; mosquitoes breed in stagnant water"
+    },
+    {
+      "id": "onb-cbse-g8-none-q40",
+      "subtopicId": "cbse-g8-science-ch04-st2",
+      "chapterId": "cbse-g8-science-ch04",
+      "subjectId": "cbse-g8-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "An electric iron works on the",
+      "answer": "heating effect of current",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Heating and magnetic effects of current",
+      "subtopicLinked": true,
+      "contentKey": "ee6b9c216031",
+      "options": [
+        "magnetic effect of current",
+        "lighting effect of current",
+        "chemical effect of current",
+        "heating effect of current"
+      ],
+      "markingKey": "D. heating effect of current. Current through the heating coil produces heat"
+    },
+    {
+      "id": "onb-cbse-g8-none-q41",
+      "subtopicId": "cbse-g8-science-ch04-st2",
+      "chapterId": "cbse-g8-science-ch04",
+      "subjectId": "cbse-g8-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Why is a fuse wire made of a material with a low melting point?",
+      "answer": "It melts and breaks the circuit when too much current flows",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Heating and magnetic effects of current",
+      "subtopicLinked": true,
+      "contentKey": "07e469ee9091",
+      "options": [
+        "It lets more current pass",
+        "It melts and breaks the circuit when too much current flows",
+        "It stops the wire getting magnetised",
+        "It makes bulbs brighter"
+      ],
+      "markingKey": "B. It melts and breaks the circuit when too much current flows. The fuse melts first and protects the appliances"
+    },
+    {
+      "id": "onb-cbse-g8-none-q42",
+      "subtopicId": "cbse-g8-science-ch04-st2",
+      "chapterId": "cbse-g8-science-ch04",
+      "subjectId": "cbse-g8-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A student winds insulated wire around an iron nail and connects it to a cell. The nail picks up 4 pins. How can she make it pick up more pins?",
+      "answer": "Increase the number of turns of wire",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Heating and magnetic effects of current",
+      "subtopicLinked": true,
+      "contentKey": "3deab4e6de95",
+      "options": [
+        "Use a plastic rod instead of the nail",
+        "Use fewer turns",
+        "Increase the number of turns of wire",
+        "Remove the cell after winding"
+      ],
+      "markingKey": "C. Increase the number of turns of wire. More turns (or more current) make a stronger electromagnet"
+    },
+    {
+      "id": "onb-cbse-g8-none-q43",
+      "subtopicId": "cbse-g8-english-ch01-st3",
+      "chapterId": "cbse-g8-english-ch01",
+      "subjectId": "cbse-g8-english",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Read: 'The old fort looked desolate; no one had visited it in years.' What does 'desolate' most likely mean?",
+      "answer": "empty and lonely",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 1,
+      "half": "prerequisite",
+      "subtopicHint": "Vocabulary in context",
+      "subtopicLinked": true,
+      "contentKey": "e4cac6e389dc",
+      "options": [
+        "empty and lonely",
+        "very tall",
+        "crowded and noisy",
+        "newly painted"
+      ],
+      "markingKey": "A. empty and lonely. 'No one had visited it in years' signals emptiness",
+      "prerequisiteNote": "Grade 7: working out word meaning from context"
+    },
+    {
+      "id": "onb-cbse-g8-none-q44",
+      "subtopicId": "cbse-g8-english-ch01-st4",
+      "chapterId": "cbse-g8-english-ch01",
+      "subjectId": "cbse-g8-english",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Choose the correct word: Yesterday, Kabir ___ his bicycle to school.",
+      "answer": "rode",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Past tenses",
+      "subtopicLinked": true,
+      "contentKey": "078fe90f9c84",
+      "options": [
+        "rode",
+        "rides",
+        "riding",
+        "ride"
+      ],
+      "markingKey": "A. rode. 'Yesterday' needs the simple past",
+      "prerequisiteNote": "Grade 7: simple past and past continuous"
+    },
+    {
+      "id": "onb-cbse-g8-none-q45",
+      "subtopicId": "cbse-g8-english-ch01-st4",
+      "chapterId": "cbse-g8-english-ch01",
+      "subjectId": "cbse-g8-english",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Choose the correct words: When the lights went out, we ___ dinner.",
+      "answer": "were having",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Past tenses",
+      "subtopicLinked": true,
+      "contentKey": "76d8f93ef24e",
+      "options": [
+        "were having",
+        "have had",
+        "will have",
+        "are having"
+      ],
+      "markingKey": "A. were having. An action in progress in the past uses the past continuous",
+      "prerequisiteNote": "Grade 7: simple past and past continuous"
+    },
+    {
+      "id": "onb-cbse-g8-none-q46",
+      "subtopicId": "cbse-g8-english-ch01-st4",
+      "chapterId": "cbse-g8-english-ch01",
+      "subjectId": "cbse-g8-english",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Choose the correct word: Each of the students ___ a library card.",
+      "answer": "has",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Subject-verb agreement",
+      "subtopicLinked": true,
+      "contentKey": "1cfb8d08cbed",
+      "options": [
+        "are having",
+        "having",
+        "has",
+        "have"
+      ],
+      "markingKey": "C. has. 'Each' is singular",
+      "prerequisiteNote": "Grade 7: subject-verb agreement"
+    },
+    {
+      "id": "onb-cbse-g8-none-q47",
+      "subtopicId": "cbse-g8-english-ch01-st4",
+      "chapterId": "cbse-g8-english-ch01",
+      "subjectId": "cbse-g8-english",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Choose the correct word: Neither the teacher nor the students ___ aware of the change.",
+      "answer": "were",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Subject-verb agreement",
+      "subtopicLinked": true,
+      "contentKey": "65dc82917aae",
+      "options": [
+        "is",
+        "has been",
+        "were",
+        "was"
+      ],
+      "markingKey": "C. were. With 'neither ... nor', the verb agrees with the nearer subject, 'students'",
+      "prerequisiteNote": "Grade 7: subject-verb agreement"
+    },
+    {
+      "id": "onb-cbse-g8-none-q48",
+      "subtopicId": "cbse-g8-english-ch01-st4",
+      "chapterId": "cbse-g8-english-ch01",
+      "subjectId": "cbse-g8-english",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Which sentence is correct?",
+      "answer": "The bunch of keys was found under the sofa.",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Subject-verb agreement",
+      "subtopicLinked": true,
+      "contentKey": "e1ba01237da0",
+      "options": [
+        "The bunch of keys was found under the sofa.",
+        "The bunch of keys were found under the sofa.",
+        "The bunch of keys are find under the sofa.",
+        "The bunch of keys have found under the sofa."
+      ],
+      "markingKey": "A. The bunch of keys was found under the sofa.. The subject is 'bunch' (singular), not 'keys'",
+      "prerequisiteNote": "Grade 7: subject-verb agreement"
+    },
+    {
+      "id": "onb-cbse-g8-none-q49",
+      "subtopicId": "cbse-g8-english-ch09-st2",
+      "chapterId": "cbse-g8-english-ch09",
+      "subjectId": "cbse-g8-english",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Read: \"Bees visit flowers to collect nectar. As they move, pollen sticks to their bodies and is carried to other flowers. This helps plants make seeds.\" What is the passage mainly about?",
+      "answer": "How bees help plants make seeds",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Main idea of a paragraph",
+      "subtopicLinked": true,
+      "contentKey": "964e95330726",
+      "options": [
+        "How bees help plants make seeds",
+        "How honey is sold",
+        "Why nectar is sweet",
+        "Why flowers are colourful"
+      ],
+      "markingKey": "A. How bees help plants make seeds. Every sentence builds towards pollination and seeds",
+      "prerequisiteNote": "Grade 7: reading for the main idea"
+    },
+    {
+      "id": "onb-cbse-g8-none-q50",
+      "subtopicId": "cbse-g8-english-ch09-st2",
+      "chapterId": "cbse-g8-english-ch09",
+      "subjectId": "cbse-g8-english",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Read: \"Arun practised the flute every evening, even when his friends called him out to play. At the school concert, the audience stood up and clapped for a long time.\" What is the main message?",
+      "answer": "Steady practice leads to success",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Main idea of a paragraph",
+      "subtopicLinked": true,
+      "contentKey": "293acc3b61de",
+      "options": [
+        "Playing outside is a waste of time",
+        "Concerts are long",
+        "Steady practice leads to success",
+        "Friends are not important"
+      ],
+      "markingKey": "C. Steady practice leads to success. The practice in the first sentence explains the applause in the second",
+      "prerequisiteNote": "Grade 7: reading for the main idea"
+    },
+    {
+      "id": "onb-cbse-g8-none-q51",
+      "subtopicId": "cbse-g8-english-ch09-st2",
+      "chapterId": "cbse-g8-english-ch09",
+      "subjectId": "cbse-g8-english",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Read: \"Many cities now have car-free Sundays. Streets fill with cyclists, skaters and families. Shopkeepers first complained, but many now report more customers on foot.\" Which statement best sums up the passage?",
+      "answer": "Car-free days, though doubted at first, benefit people and some businesses",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Main idea of a paragraph",
+      "subtopicLinked": true,
+      "contentKey": "3d8c1e4f207f",
+      "options": [
+        "Cars should be banned forever",
+        "Shopkeepers dislike car-free Sundays",
+        "Car-free days, though doubted at first, benefit people and some businesses",
+        "Cycling is the best exercise"
+      ],
+      "markingKey": "C. Car-free days, though doubted at first, benefit people and some businesses. The summary must include both the early doubt and the later benefit",
+      "prerequisiteNote": "Grade 7: reading for the main idea"
+    },
+    {
+      "id": "onb-cbse-g8-none-q52",
+      "subtopicId": "cbse-g8-english-ch01-st2",
+      "chapterId": "cbse-g8-english-ch01",
+      "subjectId": "cbse-g8-english",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Read: \"The king gave his minister one coin and said, 'Fill this hall completely.' The minister bought a candle and lit it; its light filled every corner.\" What did the minister use to fill the hall?",
+      "answer": "Light from a candle",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "The Wit that Won Hearts: inference in a story",
+      "subtopicLinked": true,
+      "contentKey": "176fa641d6d3",
+      "options": [
+        "Smoke",
+        "Sacks of grain",
+        "Light from a candle",
+        "Flowers"
+      ],
+      "markingKey": "C. Light from a candle. The last sentence says the light filled every corner"
+    },
+    {
+      "id": "onb-cbse-g8-none-q53",
+      "subtopicId": "cbse-g8-english-ch01-st2",
+      "chapterId": "cbse-g8-english-ch01",
+      "subjectId": "cbse-g8-english",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Read: \"The king gave his minister one coin and said, 'Fill this hall completely.' The minister bought a candle and lit it; its light filled every corner.\" What quality of the minister does this show?",
+      "answer": "Cleverness in solving a problem",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "The Wit that Won Hearts: inference in a story",
+      "subtopicLinked": true,
+      "contentKey": "ef1a78c8a4ba",
+      "options": [
+        "Laziness",
+        "Cleverness in solving a problem",
+        "Fear of the king",
+        "Greed"
+      ],
+      "markingKey": "B. Cleverness in solving a problem. He found an unexpected way to meet an impossible-sounding demand"
+    },
+    {
+      "id": "onb-cbse-g8-none-q54",
+      "subtopicId": "cbse-g8-english-ch01-st2",
+      "chapterId": "cbse-g8-english-ch01",
+      "subjectId": "cbse-g8-english",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Read: \"The king gave his minister one coin and said, 'Fill this hall completely.' The minister bought a candle and lit it; its light filled every corner.\" Why might the king have set this challenge?",
+      "answer": "To test whether the minister could think beyond the obvious",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "The Wit that Won Hearts: inference in a story",
+      "subtopicLinked": true,
+      "contentKey": "80d1680fab14",
+      "options": [
+        "Because he wanted to save money",
+        "To punish the minister",
+        "To test whether the minister could think beyond the obvious",
+        "Because the hall was dark"
+      ],
+      "markingKey": "C. To test whether the minister could think beyond the obvious. Such challenges in stories test wit, not wealth"
+    },
+    {
+      "id": "onb-cbse-g8-none-q55",
+      "subtopicId": "cbse-g8-english-ch01-st3",
+      "chapterId": "cbse-g8-english-ch01",
+      "subjectId": "cbse-g8-english",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "'To break the ice' means",
+      "answer": "to start a conversation in an awkward situation",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Word meaning and idioms",
+      "subtopicLinked": true,
+      "contentKey": "17c2f0b9e469",
+      "options": [
+        "to break something cold",
+        "to start a conversation in an awkward situation",
+        "to end a friendship",
+        "to feel very cold"
+      ],
+      "markingKey": "B. to start a conversation in an awkward situation. An idiom has a meaning beyond its words"
+    },
+    {
+      "id": "onb-cbse-g8-none-q56",
+      "subtopicId": "cbse-g8-english-ch01-st3",
+      "chapterId": "cbse-g8-english-ch01",
+      "subjectId": "cbse-g8-english",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which word is closest in meaning to 'witty'?",
+      "answer": "clever and amusing",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Word meaning and idioms",
+      "subtopicLinked": true,
+      "contentKey": "7904a71da394",
+      "options": [
+        "nervous",
+        "rude",
+        "clever and amusing",
+        "boring"
+      ],
+      "markingKey": "C. clever and amusing. A witty remark is quick, clever and funny"
+    },
+    {
+      "id": "onb-cbse-g8-none-q57",
+      "subtopicId": "cbse-g8-english-ch01-st3",
+      "chapterId": "cbse-g8-english-ch01",
+      "subjectId": "cbse-g8-english",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Which sentence uses 'humble' correctly?",
+      "answer": "Despite winning the prize, she stayed humble and thanked her team.",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Word meaning and idioms",
+      "subtopicLinked": true,
+      "contentKey": "969d5b0e3ce9",
+      "options": [
+        "The road was humble with traffic.",
+        "Despite winning the prize, she stayed humble and thanked her team.",
+        "He humbled the cake in the oven.",
+        "The humble storm destroyed the bridge."
+      ],
+      "markingKey": "B. Despite winning the prize, she stayed humble and thanked her team.. 'Humble' describes a modest person"
+    },
+    {
+      "id": "onb-cbse-g8-none-q58",
+      "subtopicId": "cbse-g8-english-ch02-st2",
+      "chapterId": "cbse-g8-english-ch02",
+      "subjectId": "cbse-g8-english",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "'The moon is a silver coin' is an example of",
+      "answer": "a metaphor",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "A Concrete Example: figures of speech in poetry",
+      "subtopicLinked": true,
+      "contentKey": "af819a4a48a2",
+      "options": [
+        "alliteration",
+        "rhyme",
+        "a metaphor",
+        "a simile"
+      ],
+      "markingKey": "C. a metaphor. It says the moon IS a coin, without 'like' or 'as'"
+    },
+    {
+      "id": "onb-cbse-g8-none-q59",
+      "subtopicId": "cbse-g8-english-ch02-st2",
+      "chapterId": "cbse-g8-english-ch02",
+      "subjectId": "cbse-g8-english",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which line contains personification?",
+      "answer": "The wind whispered secrets to the trees.",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "A Concrete Example: figures of speech in poetry",
+      "subtopicLinked": true,
+      "contentKey": "eb80133a6b5c",
+      "options": [
+        "The wind whispered secrets to the trees.",
+        "The wind was very strong.",
+        "Big brown bears bounce.",
+        "The trees were as tall as towers."
+      ],
+      "markingKey": "A. The wind whispered secrets to the trees.. Whispering secrets is a human action given to the wind"
+    },
+    {
+      "id": "onb-cbse-g8-none-q60",
+      "subtopicId": "cbse-g8-english-ch02-st2",
+      "chapterId": "cbse-g8-english-ch02",
+      "subjectId": "cbse-g8-english",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "In the line 'Hope is a lamp in a dark room', what does the poet suggest?",
+      "answer": "Hope helps us see a way forward in difficult times",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "A Concrete Example: figures of speech in poetry",
+      "subtopicLinked": true,
+      "contentKey": "8bdea9bb4ddc",
+      "options": [
+        "Lamps are useful at night",
+        "Rooms should be well lit",
+        "Hope is dangerous like fire",
+        "Hope helps us see a way forward in difficult times"
+      ],
+      "markingKey": "D. Hope helps us see a way forward in difficult times. The dark room stands for hard times; the lamp lights the way"
+    },
+    {
+      "id": "onb-cbse-g8-none-q61",
+      "subtopicId": "cbse-g8-english-ch03-st4",
+      "chapterId": "cbse-g8-english-ch03",
+      "subjectId": "cbse-g8-english",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Change to reported speech: Riya said, 'I am tired.'",
+      "answer": "Riya said that she was tired.",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Wisdom Paves the Way: reported speech",
+      "subtopicLinked": true,
+      "contentKey": "63a6d533c947",
+      "options": [
+        "Riya said that she was tired.",
+        "Riya told that I was tired.",
+        "Riya said that I am tired.",
+        "Riya said that she is being tired."
+      ],
+      "markingKey": "A. Riya said that she was tired.. Change the pronoun and move the tense back"
+    },
+    {
+      "id": "onb-cbse-g8-none-q62",
+      "subtopicId": "cbse-g8-english-ch03-st4",
+      "chapterId": "cbse-g8-english-ch03",
+      "subjectId": "cbse-g8-english",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Change to reported speech: The teacher said to us, 'Submit your projects tomorrow.'",
+      "answer": "The teacher told us to submit our projects the next day.",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Wisdom Paves the Way: reported speech",
+      "subtopicLinked": true,
+      "contentKey": "3b605165b7d1",
+      "options": [
+        "The teacher told us to submit our projects the next day.",
+        "The teacher said submit your projects tomorrow.",
+        "The teacher asked that we submitted projects yesterday.",
+        "The teacher told us that submit projects tomorrow."
+      ],
+      "markingKey": "A. The teacher told us to submit our projects the next day.. Commands become 'told ... to + verb'; 'tomorrow' becomes 'the next day'"
+    },
+    {
+      "id": "onb-cbse-g8-none-q63",
+      "subtopicId": "cbse-g8-english-ch03-st4",
+      "chapterId": "cbse-g8-english-ch03",
+      "subjectId": "cbse-g8-english",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Change to reported speech: Aman asked me, 'Have you finished the book?'",
+      "answer": "Aman asked me if I had finished the book.",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Wisdom Paves the Way: reported speech",
+      "subtopicLinked": true,
+      "contentKey": "5903228da7f5",
+      "options": [
+        "Aman told me whether I finish the book.",
+        "Aman asked me if I had finished the book.",
+        "Aman asked me have I finished the book.",
+        "Aman asked me that had I finished the book."
+      ],
+      "markingKey": "B. Aman asked me if I had finished the book.. Yes/no questions use 'if' or 'whether', normal word order and a backshifted tense"
+    },
+    {
+      "id": "onb-cbse-g8-none-q64",
+      "subtopicId": "cbse-g8-social-science-ch08-st1",
+      "chapterId": "cbse-g8-social-science-ch08",
+      "subjectId": "cbse-g8-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "India lies entirely in which two hemispheres?",
+      "answer": "Northern and Eastern",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 1,
+      "half": "prerequisite",
+      "subtopicHint": "Locating India: latitude, longitude, hemispheres",
+      "subtopicLinked": true,
+      "contentKey": "e34f651b6dc8",
+      "options": [
+        "Northern and Western",
+        "Northern and Eastern",
+        "Southern and Western",
+        "Southern and Eastern"
+      ],
+      "markingKey": "B. Northern and Eastern. India lies north of the Equator and east of the Prime Meridian",
+      "prerequisiteNote": "Class 7: maps, latitudes and longitudes"
+    },
+    {
+      "id": "onb-cbse-g8-none-q65",
+      "subtopicId": "cbse-g8-social-science-ch02-st1",
+      "chapterId": "cbse-g8-social-science-ch02",
+      "subjectId": "cbse-g8-social-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Who founded the Mughal Empire in India in 1526?",
+      "answer": "Babur",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Delhi Sultanate and the coming of the Mughals",
+      "subtopicLinked": true,
+      "contentKey": "d79ab4e53b42",
+      "options": [
+        "Babur",
+        "Aurangzeb",
+        "Humayun",
+        "Akbar"
+      ],
+      "markingKey": "A. Babur. Babur defeated Ibrahim Lodi at Panipat in 1526",
+      "prerequisiteNote": "Class 7: Delhi Sultanate and Mughal Empire"
+    },
+    {
+      "id": "onb-cbse-g8-none-q66",
+      "subtopicId": "cbse-g8-social-science-ch02-st1",
+      "chapterId": "cbse-g8-social-science-ch02",
+      "subjectId": "cbse-g8-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "The First Battle of Panipat (1526) was fought between",
+      "answer": "Babur and Ibrahim Lodi",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Delhi Sultanate and the coming of the Mughals",
+      "subtopicLinked": true,
+      "contentKey": "5ec0aef35b33",
+      "options": [
+        "Babur and Rana Sanga",
+        "Aurangzeb and Shivaji",
+        "Babur and Ibrahim Lodi",
+        "Akbar and Hemu"
+      ],
+      "markingKey": "C. Babur and Ibrahim Lodi. Akbar fought Hemu at the Second Battle of Panipat (1556)",
+      "prerequisiteNote": "Class 7: Delhi Sultanate and Mughal Empire"
+    },
+    {
+      "id": "onb-cbse-g8-none-q67",
+      "subtopicId": "cbse-g8-social-science-ch05-st1",
+      "chapterId": "cbse-g8-social-science-ch05",
+      "subjectId": "cbse-g8-social-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "In a democracy, the government is chosen by",
+      "answer": "the people through elections",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Democracy and elections",
+      "subtopicLinked": true,
+      "contentKey": "ed1b93c26dcd",
+      "options": [
+        "the king",
+        "the army",
+        "the richest families",
+        "the people through elections"
+      ],
+      "markingKey": "D. the people through elections. Democracy means rule by the people",
+      "prerequisiteNote": "Class 7: democracy and government"
+    },
+    {
+      "id": "onb-cbse-g8-none-q68",
+      "subtopicId": "cbse-g8-social-science-ch05-st1",
+      "chapterId": "cbse-g8-social-science-ch05",
+      "subjectId": "cbse-g8-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which is an example of universal adult franchise?",
+      "answer": "Every citizen aged 18 or above can vote, whatever their income or gender",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Democracy and elections",
+      "subtopicLinked": true,
+      "contentKey": "48e7f14b5368",
+      "options": [
+        "Only taxpayers can vote",
+        "Every citizen aged 18 or above can vote, whatever their income or gender",
+        "Only educated citizens can vote",
+        "Only men over 21 can vote"
+      ],
+      "markingKey": "B. Every citizen aged 18 or above can vote, whatever their income or gender. 'Universal' means no citizen adult is left out",
+      "prerequisiteNote": "Class 7: democracy and government"
+    },
+    {
+      "id": "onb-cbse-g8-none-q69",
+      "subtopicId": "cbse-g8-social-science-ch05-st1",
+      "chapterId": "cbse-g8-social-science-ch05",
+      "subjectId": "cbse-g8-social-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why does India hold general elections every five years instead of electing a government for life?",
+      "answer": "So people can judge the government's work and change it if they wish",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Democracy and elections",
+      "subtopicLinked": true,
+      "contentKey": "2c97e08ecd7d",
+      "options": [
+        "So people can judge the government's work and change it if they wish",
+        "Because the Constitution was written in five years",
+        "To give everyone a holiday",
+        "Because leaders must retire after five years"
+      ],
+      "markingKey": "A. So people can judge the government's work and change it if they wish. Regular elections keep the government accountable to the people",
+      "prerequisiteNote": "Class 7: democracy and government"
+    },
+    {
+      "id": "onb-cbse-g8-none-q70",
+      "subtopicId": "cbse-g8-social-science-ch01-st2",
+      "chapterId": "cbse-g8-social-science-ch01",
+      "subjectId": "cbse-g8-social-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Which of these is a renewable resource?",
+      "answer": "Solar energy",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Soils and resources of India",
+      "subtopicLinked": true,
+      "contentKey": "25aedec3b8d6",
+      "options": [
+        "Coal",
+        "Natural gas",
+        "Petroleum",
+        "Solar energy"
+      ],
+      "markingKey": "D. Solar energy. Sunlight is replenished naturally; fossil fuels are not",
+      "prerequisiteNote": "Class 7: our environment and resources"
+    },
+    {
+      "id": "onb-cbse-g8-none-q71",
+      "subtopicId": "cbse-g8-social-science-ch01-st2",
+      "chapterId": "cbse-g8-social-science-ch01",
+      "subjectId": "cbse-g8-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Black soil is best suited for growing",
+      "answer": "cotton",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Soils and resources of India",
+      "subtopicLinked": true,
+      "contentKey": "732c52c33328",
+      "options": [
+        "coffee",
+        "tea",
+        "apples",
+        "cotton"
+      ],
+      "markingKey": "D. cotton. Black (regur) soil holds moisture and suits cotton",
+      "prerequisiteNote": "Class 7: our environment and resources"
+    },
+    {
+      "id": "onb-cbse-g8-none-q72",
+      "subtopicId": "cbse-g8-social-science-ch01-st2",
+      "chapterId": "cbse-g8-social-science-ch01",
+      "subjectId": "cbse-g8-social-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A village depends on one well whose water level drops every summer. Which step uses the resource most sustainably?",
+      "answer": "Harvest rainwater to recharge the groundwater",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Soils and resources of India",
+      "subtopicLinked": true,
+      "contentKey": "744de2bfcbb1",
+      "options": [
+        "Grow more water-hungry crops",
+        "Dig the well deeper every year",
+        "Harvest rainwater to recharge the groundwater",
+        "Pump more water in winter to store"
+      ],
+      "markingKey": "C. Harvest rainwater to recharge the groundwater. Recharging puts water back; the others only take more out",
+      "prerequisiteNote": "Class 7: our environment and resources"
+    },
+    {
+      "id": "onb-cbse-g8-none-q73",
+      "subtopicId": "cbse-g8-social-science-ch01-st1",
+      "chapterId": "cbse-g8-social-science-ch01",
+      "subjectId": "cbse-g8-social-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Resources that are replenished naturally and can be used again and again are called",
+      "answer": "renewable resources",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Natural resources: types and conservation",
+      "subtopicLinked": true,
+      "contentKey": "99880f61167a",
+      "options": [
+        "potential resources",
+        "human-made resources",
+        "non-renewable resources",
+        "renewable resources"
+      ],
+      "markingKey": "D. renewable resources. Renewable resources renew themselves over a short time"
+    },
+    {
+      "id": "onb-cbse-g8-none-q74",
+      "subtopicId": "cbse-g8-social-science-ch01-st1",
+      "chapterId": "cbse-g8-social-science-ch01",
+      "subjectId": "cbse-g8-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which pair shows a natural resource and something made from it?",
+      "answer": "Iron ore and a steel bridge",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Natural resources: types and conservation",
+      "subtopicLinked": true,
+      "contentKey": "95b56b86ae73",
+      "options": [
+        "Iron ore and a steel bridge",
+        "Sunlight and air",
+        "Cotton cloth and soil",
+        "A steel bridge and iron ore"
+      ],
+      "markingKey": "A. Iron ore and a steel bridge. Iron ore is natural; steel is made from it"
+    },
+    {
+      "id": "onb-cbse-g8-none-q75",
+      "subtopicId": "cbse-g8-social-science-ch01-st1",
+      "chapterId": "cbse-g8-social-science-ch01",
+      "subjectId": "cbse-g8-social-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why is conserving fossil fuels important for the future?",
+      "answer": "They take millions of years to form, so they can run out",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Natural resources: types and conservation",
+      "subtopicLinked": true,
+      "contentKey": "c22dd997d0c0",
+      "options": [
+        "They cause no pollution",
+        "They take millions of years to form, so they can run out",
+        "They are renewable but costly",
+        "They are found only in India"
+      ],
+      "markingKey": "B. They take millions of years to form, so they can run out. Fossil fuels are non-renewable on a human time scale"
+    },
+    {
+      "id": "onb-cbse-g8-none-q76",
+      "subtopicId": "cbse-g8-social-science-ch02-st3",
+      "chapterId": "cbse-g8-social-science-ch02",
+      "subjectId": "cbse-g8-social-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Which Mughal emperor built the Taj Mahal?",
+      "answer": "Shah Jahan",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Kingdoms of the 13th to 17th centuries",
+      "subtopicLinked": true,
+      "contentKey": "32e833dad258",
+      "options": [
+        "Humayun",
+        "Babur",
+        "Akbar",
+        "Shah Jahan"
+      ],
+      "markingKey": "D. Shah Jahan. Shah Jahan built it in Agra in memory of Mumtaz Mahal"
+    },
+    {
+      "id": "onb-cbse-g8-none-q77",
+      "subtopicId": "cbse-g8-social-science-ch02-st3",
+      "chapterId": "cbse-g8-social-science-ch02",
+      "subjectId": "cbse-g8-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which Mughal emperor is known for the policy of sulh-i-kul, or peace with all?",
+      "answer": "Akbar",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Kingdoms of the 13th to 17th centuries",
+      "subtopicLinked": true,
+      "contentKey": "d0523e8be34a",
+      "options": [
+        "Aurangzeb",
+        "Babur",
+        "Shah Jahan",
+        "Akbar"
+      ],
+      "markingKey": "D. Akbar. Akbar promoted tolerance among different faiths"
+    },
+    {
+      "id": "onb-cbse-g8-none-q78",
+      "subtopicId": "cbse-g8-social-science-ch02-st3",
+      "chapterId": "cbse-g8-social-science-ch02",
+      "subjectId": "cbse-g8-social-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why did many regional kingdoms grow powerful in the 18th century?",
+      "answer": "The Mughal Empire weakened after Aurangzeb, so governors and local rulers became independent",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Kingdoms of the 13th to 17th centuries",
+      "subtopicLinked": true,
+      "contentKey": "abab904c45ff",
+      "options": [
+        "The Mughal Empire weakened after Aurangzeb, so governors and local rulers became independent",
+        "Trade with Europe stopped completely",
+        "The Delhi Sultanate had just been founded",
+        "The British handed power to them"
+      ],
+      "markingKey": "A. The Mughal Empire weakened after Aurangzeb, so governors and local rulers became independent. A weaker centre allowed regional powers to rise"
+    },
+    {
+      "id": "onb-cbse-g8-none-q79",
+      "subtopicId": "cbse-g8-social-science-ch03-st2",
+      "chapterId": "cbse-g8-social-science-ch03",
+      "subjectId": "cbse-g8-social-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "The council of eight ministers that helped Chhatrapati Shivaji Maharaj govern was called the",
+      "answer": "Ashta Pradhan",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Maratha administration: Ashta Pradhan, forts and navy",
+      "subtopicLinked": true,
+      "contentKey": "382e55581ad6",
+      "options": [
+        "Ashta Pradhan",
+        "Diwan-i-Am",
+        "Panchayat",
+        "Majlis"
+      ],
+      "markingKey": "A. Ashta Pradhan. Ashta Pradhan means council of eight ministers"
+    },
+    {
+      "id": "onb-cbse-g8-none-q80",
+      "subtopicId": "cbse-g8-social-science-ch03-st2",
+      "chapterId": "cbse-g8-social-science-ch03",
+      "subjectId": "cbse-g8-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "The Marathas built a navy and many forts along the western coast mainly to",
+      "answer": "defend the coast and control sea trade",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Maratha administration: Ashta Pradhan, forts and navy",
+      "subtopicLinked": true,
+      "contentKey": "4b9ed8900ab4",
+      "options": [
+        "fight the Vijayanagara Empire",
+        "start trade with China",
+        "store grain",
+        "defend the coast and control sea trade"
+      ],
+      "markingKey": "D. defend the coast and control sea trade. Sea forts such as Sindhudurg guarded the Konkan coast"
+    },
+    {
+      "id": "onb-cbse-g8-none-q81",
+      "subtopicId": "cbse-g8-social-science-ch03-st2",
+      "chapterId": "cbse-g8-social-science-ch03",
+      "subjectId": "cbse-g8-social-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "The Peshwas of the Maratha state were originally",
+      "answer": "chief ministers who later became the real power in the state",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Maratha administration: Ashta Pradhan, forts and navy",
+      "subtopicLinked": true,
+      "contentKey": "b932a898a3b8",
+      "options": [
+        "chief ministers who later became the real power in the state",
+        "temple priests",
+        "Mughal governors of Bengal",
+        "foreign traders"
+      ],
+      "markingKey": "A. chief ministers who later became the real power in the state. Peshwa means chief minister; by the 18th century they led the state"
+    },
+    {
+      "id": "onb-cbse-g8-none-q82",
+      "subtopicId": "cbse-g8-social-science-ch04-st2",
+      "chapterId": "cbse-g8-social-science-ch04",
+      "subjectId": "cbse-g8-social-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "In which year did the English East India Company win the Battle of Plassey?",
+      "answer": "1757",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Expansion of East India Company rule",
+      "subtopicLinked": true,
+      "contentKey": "66808e8d0cc5",
+      "options": [
+        "1947",
+        "1757",
+        "1857",
+        "1526"
+      ],
+      "markingKey": "B. 1757. Plassey (1757) gave the Company control of Bengal"
+    },
+    {
+      "id": "onb-cbse-g8-none-q83",
+      "subtopicId": "cbse-g8-social-science-ch04-st2",
+      "chapterId": "cbse-g8-social-science-ch04",
+      "subjectId": "cbse-g8-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Under the 'Doctrine of Lapse', a kingdom",
+      "answer": "was taken over by the Company if the ruler died without a natural heir",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Expansion of East India Company rule",
+      "subtopicLinked": true,
+      "contentKey": "2f6a166cd751",
+      "options": [
+        "paid no tax",
+        "became independent",
+        "was taken over by the Company if the ruler died without a natural heir",
+        "joined the Mughal army"
+      ],
+      "markingKey": "C. was taken over by the Company if the ruler died without a natural heir. Lord Dalhousie used it to annex Satara and Jhansi"
+    },
+    {
+      "id": "onb-cbse-g8-none-q84",
+      "subtopicId": "cbse-g8-social-science-ch04-st2",
+      "chapterId": "cbse-g8-social-science-ch04",
+      "subjectId": "cbse-g8-social-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Under the subsidiary alliance, an Indian ruler who accepted it had to",
+      "answer": "keep British troops in his state and pay for them",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Expansion of East India Company rule",
+      "subtopicLinked": true,
+      "contentKey": "874739ad2615",
+      "options": [
+        "stop collecting taxes",
+        "send his army to Britain",
+        "give up his religion",
+        "keep British troops in his state and pay for them"
+      ],
+      "markingKey": "D. keep British troops in his state and pay for them. Lord Wellesley used it to bring states under Company control without war"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D1",
+      "stem": "What number comes next? 3, 7, 11, 15, ?",
+      "options": [
+        "20",
+        "21",
+        "19",
+        "18"
+      ],
+      "answer": "19",
+      "explanation": "Add 4 each time",
+      "seconds": 30,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-cbse-g8-none-q85",
+      "part": "B",
+      "contentKey": "1d9284a91ed1"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D2",
+      "stem": "If 4 identical notebooks cost 96, what do 7 notebooks cost at the same rate?",
+      "options": [
+        "172",
+        "160",
+        "168",
+        "184"
+      ],
+      "answer": "168",
+      "explanation": "One costs 24; 7 x 24 = 168",
+      "seconds": 45,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-cbse-g8-none-q86",
+      "part": "B",
+      "contentKey": "c86262e9b8b9"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D2",
+      "stem": "25% of 80 is the same as 50% of which number?",
+      "options": [
+        "160",
+        "20",
+        "40",
+        "10"
+      ],
+      "answer": "40",
+      "explanation": "25% of 80 = 20, and 20 is 50% of 40",
+      "seconds": 45,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-cbse-g8-none-q87",
+      "part": "B",
+      "contentKey": "acdc97e88f8d"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D3",
+      "stem": "What number comes next? 2, 6, 12, 20, 30, ?",
+      "options": [
+        "42",
+        "40",
+        "44",
+        "36"
+      ],
+      "answer": "42",
+      "explanation": "Differences are 4, 6, 8, 10, so add 12",
+      "seconds": 60,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-cbse-g8-none-q88",
+      "part": "B",
+      "contentKey": "e886cc8a04fc"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D1",
+      "stem": "Book is to reading as fork is to ...",
+      "options": [
+        "cooking",
+        "spoon",
+        "eating",
+        "kitchen"
+      ],
+      "answer": "eating",
+      "explanation": "A book is used for reading; a fork is used for eating",
+      "seconds": 30,
+      "paramIds": [
+        "p61",
+        "p69"
+      ],
+      "id": "onb-cbse-g8-none-q89",
+      "part": "B",
+      "contentKey": "0ac4d69fdee5"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D2",
+      "stem": "Which word does not belong with the others? apple, mango, carrot, banana",
+      "options": [
+        "carrot",
+        "banana",
+        "mango",
+        "apple"
+      ],
+      "answer": "carrot",
+      "explanation": "Carrot is a vegetable; the others are fruits",
+      "seconds": 30,
+      "paramIds": [
+        "p61",
+        "p69"
+      ],
+      "id": "onb-cbse-g8-none-q90",
+      "part": "B",
+      "contentKey": "2c504558ed1e"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D2",
+      "stem": "All squares are rectangles. All rectangles have four sides. Which statement must be true?",
+      "options": [
+        "All rectangles are squares",
+        "All four-sided shapes are squares",
+        "Some rectangles do not have four sides",
+        "All squares have four sides"
+      ],
+      "answer": "All squares have four sides",
+      "explanation": "If every square is a rectangle and every rectangle has four sides, every square has four sides",
+      "seconds": 45,
+      "paramIds": [
+        "p61",
+        "p65",
+        "p69"
+      ],
+      "id": "onb-cbse-g8-none-q91",
+      "part": "B",
+      "contentKey": "96988e317266"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D3",
+      "stem": "Asha is taller than Ben. Ben is taller than Chitra. Dev is shorter than Chitra. Who is the shortest?",
+      "options": [
+        "Ben",
+        "Asha",
+        "Chitra",
+        "Dev"
+      ],
+      "answer": "Dev",
+      "explanation": "Order: Asha > Ben > Chitra > Dev",
+      "seconds": 60,
+      "paramIds": [
+        "p61",
+        "p65",
+        "p69"
+      ],
+      "id": "onb-cbse-g8-none-q92",
+      "part": "B",
+      "contentKey": "7b7b1ddeaf92"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D1",
+      "stem": "The shapes repeat in a pattern: circle, square, triangle, circle, square, ? Which shape comes next?",
+      "options": [
+        "circle",
+        "pentagon",
+        "square",
+        "triangle"
+      ],
+      "answer": "triangle",
+      "explanation": "The three shapes repeat in the same order",
+      "seconds": 30,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 60\" width=\"300\" height=\"60\"><circle cx=\"30\" cy=\"30\" r=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><rect x=\"70\" y=\"10\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><polygon points=\"150,10 172,50 128,50\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><circle cx=\"210\" cy=\"30\" r=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><text x=\"270\" y=\"40\" font-size=\"28\" text-anchor=\"middle\" fill=\"currentColor\">?</text></svg>",
+      "id": "onb-cbse-g8-none-q93",
+      "part": "B",
+      "contentKey": "4ec9f208fd3e"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D2",
+      "stem": "Figure 1 has 1 black dot, figure 2 has 2 white dots, figure 3 has 3 black dots, figure 4 has 4 white dots. What is figure 5?",
+      "options": [
+        "4 black dots",
+        "6 black dots",
+        "5 white dots",
+        "5 black dots"
+      ],
+      "answer": "5 black dots",
+      "explanation": "One more dot each time; colours alternate",
+      "seconds": 45,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "id": "onb-cbse-g8-none-q94",
+      "part": "B",
+      "contentKey": "dae66e9fd14e"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D2",
+      "stem": "Which letter comes next? A, C, F, J, O, ?",
+      "options": [
+        "U",
+        "S",
+        "T",
+        "V"
+      ],
+      "answer": "U",
+      "explanation": "The gaps grow by one: +2, +3, +4, +5, then +6",
+      "seconds": 60,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "id": "onb-cbse-g8-none-q95",
+      "part": "B",
+      "contentKey": "eabd2525e467"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D3",
+      "stem": "Rule: the third figure keeps the lines that appear in only one of the first two figures and drops lines they share. A vertical line '|' and a horizontal line '-' give a cross '+'. If figure 1 is a cross '+' and figure 2 is a vertical line '|', what is figure 3?",
+      "options": [
+        "a blank square",
+        "a horizontal line '-'",
+        "a cross '+'",
+        "a vertical line '|'"
+      ],
+      "answer": "a horizontal line '-'",
+      "explanation": "The vertical line is shared, so it is dropped; the horizontal line stays",
+      "seconds": 75,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "id": "onb-cbse-g8-none-q96",
+      "part": "B",
+      "contentKey": "e8eb0d7052fe"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D1",
+      "stem": "A square sheet of paper is folded in half once along a diagonal. What shape do you get?",
+      "options": [
+        "a smaller square",
+        "a triangle",
+        "a pentagon",
+        "a rectangle"
+      ],
+      "answer": "a triangle",
+      "explanation": "The diagonal fold puts one corner on the opposite corner",
+      "seconds": 30,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "id": "onb-cbse-g8-none-q97",
+      "part": "B",
+      "contentKey": "8818e97d8517"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D2",
+      "stem": "A mirror is held upright beside each capital letter. Which letter looks the same in the mirror?",
+      "options": [
+        "R",
+        "C",
+        "B",
+        "A"
+      ],
+      "answer": "A",
+      "explanation": "A has a vertical line of symmetry",
+      "seconds": 45,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "id": "onb-cbse-g8-none-q98",
+      "part": "B",
+      "contentKey": "88d0cb7f4b30"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D2",
+      "stem": "A cube is painted on all faces and cut into 27 equal small cubes. How many small cubes have exactly two painted faces?",
+      "options": [
+        "6",
+        "12",
+        "1",
+        "8"
+      ],
+      "answer": "12",
+      "explanation": "Those are the middle cubes of the 12 edges",
+      "seconds": 60,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "id": "onb-cbse-g8-none-q99",
+      "part": "B",
+      "contentKey": "5992488be3a3"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D3",
+      "stem": "You face north. You turn 90° clockwise, then 180°, then 90° anticlockwise. Which way do you face now?",
+      "options": [
+        "South",
+        "North",
+        "East",
+        "West"
+      ],
+      "answer": "South",
+      "explanation": "North -> East -> West -> South",
+      "seconds": 60,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "id": "onb-cbse-g8-none-q100",
+      "part": "B",
+      "contentKey": "afb88d3871bc"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "On a normal school day, how long do you study at home (not counting tuition)?",
+      "responseType": "single",
+      "paramId": "p31",
+      "options": [
+        {
+          "label": "Less than 1 hour",
+          "value": 0.5
+        },
+        {
+          "label": "1 to 2 hours",
+          "value": 1.5
+        },
+        {
+          "label": "2 to 3 hours",
+          "value": 2.5
+        },
+        {
+          "label": "3 to 4 hours",
+          "value": 3.5
+        },
+        {
+          "label": "More than 4 hours",
+          "value": 4.5
+        }
+      ],
+      "unit": "hours",
+      "id": "onb-cbse-g8-none-q101",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "a3188617eeb3"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "When do you usually study best?",
+      "responseType": "single",
+      "paramId": "p33",
+      "options": [
+        {
+          "label": "Early morning",
+          "value": "early_morning"
+        },
+        {
+          "label": "Afternoon",
+          "value": "afternoon"
+        },
+        {
+          "label": "Evening",
+          "value": "evening"
+        },
+        {
+          "label": "Late night",
+          "value": "late_night"
+        }
+      ],
+      "id": "onb-cbse-g8-none-q102",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "4bff65265626"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How long is a typical study session before you take a break?",
+      "responseType": "single",
+      "paramId": "p34",
+      "options": [
+        {
+          "label": "15 to 20 minutes",
+          "value": 20
+        },
+        {
+          "label": "30 to 45 minutes",
+          "value": 40
+        },
+        {
+          "label": "About an hour",
+          "value": 60
+        },
+        {
+          "label": "90 minutes or more",
+          "value": 90
+        }
+      ],
+      "unit": "minutes",
+      "id": "onb-cbse-g8-none-q103",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "09d32e5c0254"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How often do you revise topics you have already finished?",
+      "responseType": "single",
+      "paramId": "p39",
+      "options": [
+        {
+          "label": "Rarely",
+          "value": "rarely"
+        },
+        {
+          "label": "Only before tests",
+          "value": "before_tests"
+        },
+        {
+          "label": "Every week",
+          "value": "weekly"
+        },
+        {
+          "label": "Most days",
+          "value": "daily"
+        }
+      ],
+      "id": "onb-cbse-g8-none-q104",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "0d286009ae6f"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How do you usually revise?",
+      "responseType": "single",
+      "paramId": "p40",
+      "options": [
+        {
+          "label": "Re-reading notes or the textbook",
+          "value": "reread"
+        },
+        {
+          "label": "Highlighting or rewriting notes",
+          "value": "rewrite"
+        },
+        {
+          "label": "Doing practice questions",
+          "value": "practice"
+        },
+        {
+          "label": "Testing myself with flashcards or quizzes",
+          "value": "self_test"
+        },
+        {
+          "label": "Explaining it to someone else",
+          "value": "teach"
+        }
+      ],
+      "id": "onb-cbse-g8-none-q105",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "fec782fd153e"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "I put off starting homework until the last minute.",
+      "responseType": "scale",
+      "paramId": "p46",
+      "options": [
+        {
+          "label": "1 Never",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Always",
+          "value": 5
+        }
+      ],
+      "id": "onb-cbse-g8-none-q106",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "b31ed6ad6c6c"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Where is your phone while you study?",
+      "responseType": "single",
+      "paramId": "p105",
+      "options": [
+        {
+          "label": "In another room",
+          "value": "away"
+        },
+        {
+          "label": "Nearby on silent",
+          "value": "silent_nearby"
+        },
+        {
+          "label": "With me, I check it often",
+          "value": "checking"
+        },
+        {
+          "label": "I study on my phone",
+          "value": "study_device"
+        }
+      ],
+      "id": "onb-cbse-g8-none-q107",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "d194a9f578b8"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Which helps you learn a new topic most?",
+      "responseType": "single",
+      "paramId": "p48",
+      "options": [
+        {
+          "label": "Watching a video",
+          "value": "video"
+        },
+        {
+          "label": "Reading and making notes",
+          "value": "reading"
+        },
+        {
+          "label": "Trying problems straight away",
+          "value": "practice"
+        },
+        {
+          "label": "Discussing it with someone",
+          "value": "discussion"
+        }
+      ],
+      "id": "onb-cbse-g8-none-q108",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "c23e54729bc0"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Do you prefer studying alone or with others?",
+      "responseType": "single",
+      "paramId": "p50",
+      "options": [
+        {
+          "label": "Alone",
+          "value": "solo"
+        },
+        {
+          "label": "With one friend",
+          "value": "pair"
+        },
+        {
+          "label": "In a group",
+          "value": "group"
+        },
+        {
+          "label": "It depends on the subject",
+          "value": "mixed"
+        }
+      ],
+      "id": "onb-cbse-g8-none-q109",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "70f11b4add34"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "When you get stuck on a question, what do you usually do first?",
+      "responseType": "single",
+      "paramId": "p49",
+      "options": [
+        {
+          "label": "Ask my teacher",
+          "value": "teacher"
+        },
+        {
+          "label": "Ask a friend or sibling",
+          "value": "peer"
+        },
+        {
+          "label": "Search online or watch a video",
+          "value": "online"
+        },
+        {
+          "label": "Leave it and move on",
+          "value": "skip"
+        }
+      ],
+      "id": "onb-cbse-g8-none-q110",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "599b22b79bd2"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Do you go to tuition or coaching classes?",
+      "responseType": "single",
+      "paramId": "p21",
+      "options": [
+        {
+          "label": "No",
+          "value": "none"
+        },
+        {
+          "label": "Yes, for one subject",
+          "value": "one_subject"
+        },
+        {
+          "label": "Yes, for two or more subjects",
+          "value": "multi_subject"
+        },
+        {
+          "label": "Yes, at a coaching institute",
+          "value": "institute"
+        }
+      ],
+      "id": "onb-cbse-g8-none-q111",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "3c939f2b1013"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "I mostly study because ...",
+      "responseType": "single",
+      "paramId": "p123",
+      "options": [
+        {
+          "label": "I enjoy learning new things",
+          "value": "intrinsic"
+        },
+        {
+          "label": "I have a goal I want to reach",
+          "value": "goal"
+        },
+        {
+          "label": "I want good marks",
+          "value": "performance"
+        },
+        {
+          "label": "My family expects it",
+          "value": "external"
+        }
+      ],
+      "id": "onb-cbse-g8-none-q112",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "4ab1b901cdd5"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "If I work hard, I can get much better at a subject I find difficult.",
+      "responseType": "scale",
+      "paramId": "p125",
+      "options": [
+        {
+          "label": "1 Strongly disagree",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Strongly agree",
+          "value": 5
+        }
+      ],
+      "id": "onb-cbse-g8-none-q113",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "6efb13e3bd21"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "I like hard problems, even when I might get them wrong.",
+      "responseType": "scale",
+      "paramId": "p331",
+      "options": [
+        {
+          "label": "1 Strongly disagree",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Strongly agree",
+          "value": 5
+        }
+      ],
+      "id": "onb-cbse-g8-none-q114",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "80b24e607fdf"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Before a test, how nervous do you usually feel?",
+      "responseType": "scale",
+      "paramId": "p111",
+      "options": [
+        {
+          "label": "1 Calm",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Very nervous",
+          "value": 5
+        }
+      ],
+      "helpText": "Optional. This only helps us pace your plan and suggest support; it never affects your scores or recommendations.",
+      "alsoInforms": [
+        "p133"
+      ],
+      "id": "onb-cbse-g8-none-q115",
+      "tier": "T3",
+      "screened": true,
+      "optional": true,
+      "contentKey": "58e5770944cf"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "On school nights, how many hours do you usually sleep?",
+      "responseType": "single",
+      "paramId": "p83",
+      "options": [
+        {
+          "label": "Less than 6",
+          "value": 5.5
+        },
+        {
+          "label": "6 to 7",
+          "value": 6.5
+        },
+        {
+          "label": "7 to 8",
+          "value": 7.5
+        },
+        {
+          "label": "8 to 9",
+          "value": 8.5
+        },
+        {
+          "label": "More than 9",
+          "value": 9.5
+        }
+      ],
+      "helpText": "Optional. Used only to fit your timetable around enough rest.",
+      "unit": "hours",
+      "id": "onb-cbse-g8-none-q116",
+      "tier": "T3",
+      "screened": true,
+      "optional": true,
+      "contentKey": "55062a5c52b2"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Fixing or building things, like a bicycle, a model or a small circuit",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "R",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g8-none-q117",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "36e0422d9d06"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Working outdoors with tools, plants or animals",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "R",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g8-none-q118",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "c063e3c69b0f"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Doing experiments to find out why something happens",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "I",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g8-none-q119",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "0c12a884162e"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Solving tricky maths or logic puzzles",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "I",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g8-none-q120",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "058f5f9025f0"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Drawing, designing, writing stories or making music",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "A",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g8-none-q121",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "9234642a58af"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Acting, photography or making videos",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "A",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g8-none-q122",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "e7bfdb738978"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Explaining something to a friend until they understand it",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "S",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g8-none-q123",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "8f4da2390889"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Volunteering to help people in your community",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "S",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g8-none-q124",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "40f8337ef8af"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Leading a team or running a school club",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "E",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g8-none-q125",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "b91eb24feb37"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Pitching an idea or starting a small business",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "E",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g8-none-q126",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "6806cc5fc89c"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Keeping records or organising information neatly",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "C",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g8-none-q127",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "0c466df2c3f1"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Working with numbers, budgets or spreadsheets",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "C",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g8-none-q128",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "c884a471f58e"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How interested are you in studying abroad after school?",
+      "responseType": "scale",
+      "paramId": "p230",
+      "options": [
+        {
+          "label": "1 Not interested",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Very interested",
+          "value": 5
+        }
+      ],
+      "alsoInforms": [
+        "p231"
+      ],
+      "id": "onb-cbse-g8-none-q129",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "587ff74cc454"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Which career areas interest you right now? Pick up to three.",
+      "responseType": "multi",
+      "paramId": "p198",
+      "options": [
+        {
+          "label": "Engineering and technology",
+          "value": "engineering"
+        },
+        {
+          "label": "Medicine and health",
+          "value": "medicine"
+        },
+        {
+          "label": "Business, finance and commerce",
+          "value": "business"
+        },
+        {
+          "label": "Law, government and public policy",
+          "value": "law"
+        },
+        {
+          "label": "Design, media and the arts",
+          "value": "design"
+        },
+        {
+          "label": "Science and research",
+          "value": "research"
+        },
+        {
+          "label": "Teaching, psychology and social work",
+          "value": "social"
+        },
+        {
+          "label": "Not sure yet",
+          "value": "unsure"
+        }
+      ],
+      "max": 3,
+      "alsoInforms": [
+        "p199"
+      ],
+      "id": "onb-cbse-g8-none-q130",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "732c5efa2f1e"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Who does your child live with?",
+      "responseType": "single",
+      "paramId": "p154",
+      "optional": false,
+      "options": [
+        {
+          "label": "Both parents",
+          "value": "nuclear"
+        },
+        {
+          "label": "Parents and grandparents or other relatives",
+          "value": "joint"
+        },
+        {
+          "label": "One parent",
+          "value": "single_parent"
+        },
+        {
+          "label": "Another guardian",
+          "value": "guardian"
+        }
+      ],
+      "id": "onb-cbse-g8-none-q131",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "b4e573af0103"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "What is the highest education level in your child's home?",
+      "responseType": "single",
+      "paramId": "p155",
+      "optional": false,
+      "options": [
+        {
+          "label": "School",
+          "value": "school"
+        },
+        {
+          "label": "Bachelor's degree",
+          "value": "graduate"
+        },
+        {
+          "label": "Master's degree",
+          "value": "postgraduate"
+        },
+        {
+          "label": "Professional or doctoral degree (CA, MBBS, PhD, LLB...)",
+          "value": "professional"
+        }
+      ],
+      "id": "onb-cbse-g8-none-q132",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "9bb6e9dc0272"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Which best describes the main earner's work?",
+      "responseType": "single",
+      "paramId": "p156",
+      "optional": false,
+      "options": [
+        {
+          "label": "Salaried, private sector",
+          "value": "private"
+        },
+        {
+          "label": "Salaried, government or PSU",
+          "value": "government"
+        },
+        {
+          "label": "Own business",
+          "value": "business"
+        },
+        {
+          "label": "Self-employed professional",
+          "value": "professional"
+        },
+        {
+          "label": "Agriculture",
+          "value": "agriculture"
+        },
+        {
+          "label": "Other",
+          "value": "other"
+        }
+      ],
+      "id": "onb-cbse-g8-none-q133",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "53fbc806c89f"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Which languages are spoken at home?",
+      "responseType": "multi",
+      "paramId": "p157",
+      "optional": false,
+      "options": [
+        {
+          "label": "English",
+          "value": "en"
+        },
+        {
+          "label": "Hindi",
+          "value": "hi"
+        },
+        {
+          "label": "Another Indian language",
+          "value": "regional"
+        },
+        {
+          "label": "Another language",
+          "value": "other"
+        }
+      ],
+      "id": "onb-cbse-g8-none-q134",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "9b8c0fd0ab78"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "How involved are you in your child's daily study?",
+      "responseType": "single",
+      "paramId": "p159",
+      "optional": false,
+      "options": [
+        {
+          "label": "I check in every day",
+          "value": "daily"
+        },
+        {
+          "label": "A few times a week",
+          "value": "weekly"
+        },
+        {
+          "label": "Mainly around exams",
+          "value": "exams"
+        },
+        {
+          "label": "Rarely, my child manages it",
+          "value": "rarely"
+        }
+      ],
+      "id": "onb-cbse-g8-none-q135",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "6b01757b27ef"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Does your child attend tuition or coaching?",
+      "responseType": "single",
+      "paramId": "p21",
+      "optional": false,
+      "options": [
+        {
+          "label": "No",
+          "value": "none"
+        },
+        {
+          "label": "One subject",
+          "value": "one_subject"
+        },
+        {
+          "label": "Two or more subjects",
+          "value": "multi_subject"
+        },
+        {
+          "label": "A coaching institute (e.g. for JEE, NEET or boards)",
+          "value": "institute"
+        }
+      ],
+      "id": "onb-cbse-g8-none-q136",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "feb34567435d"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Annual household income (optional, helps us suggest scholarships)",
+      "responseType": "single",
+      "paramId": "p176",
+      "optional": true,
+      "options": [
+        {
+          "label": "Under ₹5 lakh",
+          "value": "lt_5l",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 500000
+          }
+        },
+        {
+          "label": "₹5 to 10 lakh",
+          "value": "5_10l",
+          "sets": {
+            "minInr": 500000,
+            "maxInr": 1000000
+          }
+        },
+        {
+          "label": "₹10 to 25 lakh",
+          "value": "10_25l",
+          "sets": {
+            "minInr": 1000000,
+            "maxInr": 2500000
+          }
+        },
+        {
+          "label": "₹25 to 50 lakh",
+          "value": "25_50l",
+          "sets": {
+            "minInr": 2500000,
+            "maxInr": 5000000
+          }
+        },
+        {
+          "label": "Over ₹50 lakh",
+          "value": "gt_50l",
+          "sets": {
+            "minInr": 5000000,
+            "maxInr": null
+          }
+        }
+      ],
+      "id": "onb-cbse-g8-none-q137",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "43104f173bc2"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "How much can you spend on extra learning each year (tuition, courses, tests)?",
+      "responseType": "single",
+      "paramId": "p178",
+      "optional": false,
+      "options": [
+        {
+          "label": "Under ₹50,000",
+          "value": "lt_50k",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 50000
+          }
+        },
+        {
+          "label": "₹50,000 to 1.5 lakh",
+          "value": "50k_150k",
+          "sets": {
+            "minInr": 50000,
+            "maxInr": 150000
+          }
+        },
+        {
+          "label": "₹1.5 to 3 lakh",
+          "value": "150k_300k",
+          "sets": {
+            "minInr": 150000,
+            "maxInr": 300000
+          }
+        },
+        {
+          "label": "₹3 to 6 lakh",
+          "value": "300k_600k",
+          "sets": {
+            "minInr": 300000,
+            "maxInr": 600000
+          }
+        },
+        {
+          "label": "Over ₹6 lakh",
+          "value": "gt_600k",
+          "sets": {
+            "minInr": 600000,
+            "maxInr": null
+          }
+        }
+      ],
+      "id": "onb-cbse-g8-none-q138",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "67072550cf5b"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "What total budget can you plan for an undergraduate degree in India?",
+      "responseType": "single",
+      "paramId": "p180",
+      "optional": false,
+      "options": [
+        {
+          "label": "Under ₹5 lakh",
+          "value": "lt_5l",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 500000
+          }
+        },
+        {
+          "label": "₹5 to 15 lakh",
+          "value": "5_15l",
+          "sets": {
+            "minInr": 500000,
+            "maxInr": 1500000
+          }
+        },
+        {
+          "label": "₹15 to 30 lakh",
+          "value": "15_30l",
+          "sets": {
+            "minInr": 1500000,
+            "maxInr": 3000000
+          }
+        },
+        {
+          "label": "Over ₹30 lakh",
+          "value": "gt_30l",
+          "sets": {
+            "minInr": 3000000,
+            "maxInr": null
+          }
+        }
+      ],
+      "id": "onb-cbse-g8-none-q139",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "832f80bd4135"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "If your child studies abroad, what total budget could you plan?",
+      "responseType": "single",
+      "paramId": "p181",
+      "optional": false,
+      "options": [
+        {
+          "label": "Not considering study abroad",
+          "value": "none",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 0
+          }
+        },
+        {
+          "label": "Under ₹25 lakh",
+          "value": "lt_25l",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 2500000
+          }
+        },
+        {
+          "label": "₹25 to 50 lakh",
+          "value": "25_50l",
+          "sets": {
+            "minInr": 2500000,
+            "maxInr": 5000000
+          }
+        },
+        {
+          "label": "₹50 lakh to 1 crore",
+          "value": "50l_1cr",
+          "sets": {
+            "minInr": 5000000,
+            "maxInr": 10000000
+          }
+        },
+        {
+          "label": "Over ₹1 crore",
+          "value": "gt_1cr",
+          "sets": {
+            "minInr": 10000000,
+            "maxInr": null
+          }
+        }
+      ],
+      "alsoInforms": [
+        "p192"
+      ],
+      "id": "onb-cbse-g8-none-q140",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "1da408987765"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Would you consider an education loan?",
+      "responseType": "single",
+      "paramId": "p182",
+      "optional": false,
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "label": "Maybe, depending on the course",
+          "value": "maybe"
+        },
+        {
+          "label": "No",
+          "value": "no"
+        }
+      ],
+      "id": "onb-cbse-g8-none-q141",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "29db07c379ba"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Which career direction would you like for your child?",
+      "responseType": "single",
+      "paramId": "p202",
+      "optional": false,
+      "options": [
+        {
+          "label": "Engineering and technology",
+          "value": "engineering"
+        },
+        {
+          "label": "Medicine and health",
+          "value": "medicine"
+        },
+        {
+          "label": "Business, finance and commerce",
+          "value": "business"
+        },
+        {
+          "label": "Law, government and public policy",
+          "value": "law"
+        },
+        {
+          "label": "Design, media and the arts",
+          "value": "design"
+        },
+        {
+          "label": "Science and research",
+          "value": "research"
+        },
+        {
+          "label": "Teaching, psychology and social work",
+          "value": "social"
+        },
+        {
+          "label": "Whatever my child chooses",
+          "value": "child_choice"
+        }
+      ],
+      "alsoInforms": [
+        "p203"
+      ],
+      "id": "onb-cbse-g8-none-q142",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "bc4252eaee6c"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "How supportive is your family of your child studying abroad?",
+      "responseType": "scale",
+      "paramId": "p234",
+      "optional": false,
+      "options": [
+        {
+          "label": "1 Not supportive",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Fully supportive",
+          "value": 5
+        }
+      ],
+      "id": "onb-cbse-g8-none-q143",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "9a84394f1a5b"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "What device and internet does your child use for study?",
+      "responseType": "single",
+      "paramId": "p193",
+      "optional": false,
+      "options": [
+        {
+          "label": "Own laptop or tablet with reliable internet",
+          "value": "own_device"
+        },
+        {
+          "label": "A shared family computer",
+          "value": "shared"
+        },
+        {
+          "label": "Mainly a phone",
+          "value": "phone_only"
+        },
+        {
+          "label": "Internet is often unreliable",
+          "value": "unreliable"
+        }
+      ],
+      "id": "onb-cbse-g8-none-q144",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "516a78042b4f"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "I consent to Learnibility processing my child's data to personalise their learning, as described in the privacy notice.",
+      "responseType": "consent",
+      "paramId": "p30",
+      "optional": false,
+      "options": [
+        {
+          "label": "I agree",
+          "value": "granted"
+        },
+        {
+          "label": "I do not agree",
+          "value": "refused"
+        }
+      ],
+      "helpText": "Required for a child under 18 (DPDP Act 2023, s.9(1)). You can withdraw consent at any time in Settings.",
+      "id": "onb-cbse-g8-none-q145",
+      "tier": "C",
+      "screened": false,
+      "contentKey": "1f4aba2a3948"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "I allow my child's selected work to be shown to teachers, tutors and counsellors on the platform.",
+      "responseType": "consent",
+      "paramId": "p277",
+      "optional": true,
+      "options": [
+        {
+          "label": "Yes",
+          "value": "granted"
+        },
+        {
+          "label": "Not now",
+          "value": "refused"
+        }
+      ],
+      "helpText": "Optional. Nothing is shared outside the platform without asking you again.",
+      "id": "onb-cbse-g8-none-q146",
+      "tier": "C",
+      "screened": false,
+      "contentKey": "f49d9421e2bb"
+    }
+  ]
+}

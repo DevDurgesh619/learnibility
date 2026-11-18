@@ -1,0 +1,4333 @@
+{
+  "schemaVersion": 1,
+  "generatedBy": "scripts/onboarding/build-forms.py",
+  "form": {
+    "formId": "onb-ib-g12-commerce",
+    "designId": "g12-commerce",
+    "board": "ib",
+    "grade": 12,
+    "stream": "commerce",
+    "title": "IB Diploma Year 2 Commerce onboarding test",
+    "minutes": {
+      "A": 24,
+      "B": 12,
+      "C": 8,
+      "P": 5
+    },
+    "partA": {
+      "pool": 63,
+      "delivered": 24
+    },
+    "scoring": {
+      "ladder": {
+        "start": "D2",
+        "floor": "D1",
+        "ceiling": "D3",
+        "hitsToStepUp": 2,
+        "weights": {
+          "D1": 1,
+          "D2": 2,
+          "D3": 3
+        }
+      },
+      "bandCutoffs": [
+        {
+          "band": "excellent",
+          "minPercent": 80
+        },
+        {
+          "band": "above_avg",
+          "minPercent": 65
+        },
+        {
+          "band": "average",
+          "minPercent": 45
+        },
+        {
+          "band": "below_avg",
+          "minPercent": 0
+        }
+      ],
+      "groups": [
+        {
+          "group": "business",
+          "label": "Business Studies",
+          "subjectIds": [
+            "ib-g11-business",
+            "ib-g12-business"
+          ]
+        },
+        {
+          "group": "economics",
+          "label": "Economics",
+          "subjectIds": [
+            "ib-g11-economics",
+            "ib-g12-economics"
+          ]
+        },
+        {
+          "group": "applied-maths",
+          "label": "Applied Mathematics",
+          "subjectIds": [
+            "ib-g11-applied-maths",
+            "ib-g12-applied-maths"
+          ]
+        }
+      ],
+      "writes": [
+        {
+          "paramId": "p1",
+          "rule": "Grade of the form taken",
+          "source": "M1",
+          "confidence": "high"
+        },
+        {
+          "paramId": "p3",
+          "rule": "Board of the form taken",
+          "source": "M1",
+          "confidence": "high"
+        },
+        {
+          "paramId": "p5",
+          "rule": "Stream of the form taken (grades 11-12)",
+          "source": "M1",
+          "confidence": "high"
+        },
+        {
+          "paramId": "p278",
+          "rule": "Per subtopic seen: pMastery 0.7 if right at D2/D3, 0.55 if right at D1, 0.25 if wrong; level L0-L3 from the ladder step reached",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p279",
+          "rule": "Prerequisite-gap index = 100 x weighted misses / weighted items seen in slots 1-4, averaged over groups",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p13",
+          "rule": "Groups with the highest Part A percent (top 1-2, only if >= 65%)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p14",
+          "rule": "Groups with the lowest Part A percent (bottom 1-2, only if < 65%)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p140",
+          "rule": "Mean confidence (1-5) per group",
+          "source": "M1",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p141",
+          "rule": "Calibration = 1 - mean |confidence/5 - correct| over Part A (feeds the first MCI reading)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p284",
+          "rule": "Highest difficulty answered correctly twice in a row: D1 low, D2 medium, D3 high",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p61",
+          "rule": "Verbal reasoning = percent of Part B verbal items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p62",
+          "rule": "Numerical reasoning = percent of Part B numerical items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p63",
+          "rule": "Abstract reasoning = percent of Part B abstract items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p64",
+          "rule": "Spatial reasoning = percent of Part B spatial items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p65",
+          "rule": "Logical deduction = percent right on Part B items tagged p65",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p68",
+          "rule": "Numeracy fluency = numerical percent scaled by speed (right answers under target time count 1.2x, max 100)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p69",
+          "rule": "Processing speed = 100 x share of Part B items answered right within target seconds",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p200",
+          "rule": "RIASEC profile: each career-interest item scored 1-5; letter score = mean of its 2 items; top 3 letters form the code (e.g. IRC)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p31",
+          "rule": "Answer to onb-ib-g12-commerce-q80 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p33",
+          "rule": "Answer to onb-ib-g12-commerce-q81 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p34",
+          "rule": "Answer to onb-ib-g12-commerce-q82 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p39",
+          "rule": "Answer to onb-ib-g12-commerce-q83 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p40",
+          "rule": "Answer to onb-ib-g12-commerce-q84 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p46",
+          "rule": "Answer to onb-ib-g12-commerce-q85 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p105",
+          "rule": "Answer to onb-ib-g12-commerce-q86 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p48",
+          "rule": "Answer to onb-ib-g12-commerce-q87 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p50",
+          "rule": "Answer to onb-ib-g12-commerce-q88 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p49",
+          "rule": "Answer to onb-ib-g12-commerce-q89 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p21",
+          "rule": "Answer to onb-ib-g12-commerce-q90 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p123",
+          "rule": "Answer to onb-ib-g12-commerce-q91 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p125",
+          "rule": "Answer to onb-ib-g12-commerce-q92 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p331",
+          "rule": "Answer to onb-ib-g12-commerce-q93 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p111",
+          "rule": "Answer to onb-ib-g12-commerce-q94 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p83",
+          "rule": "Answer to onb-ib-g12-commerce-q95 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p230",
+          "rule": "Answer to onb-ib-g12-commerce-q108 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p198",
+          "rule": "Answer to onb-ib-g12-commerce-q109 (multi)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p154",
+          "rule": "Answer to onb-ib-g12-commerce-q110 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p155",
+          "rule": "Answer to onb-ib-g12-commerce-q111 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p156",
+          "rule": "Answer to onb-ib-g12-commerce-q112 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p157",
+          "rule": "Answer to onb-ib-g12-commerce-q113 (multi)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p159",
+          "rule": "Answer to onb-ib-g12-commerce-q114 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p176",
+          "rule": "Answer to onb-ib-g12-commerce-q116 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p178",
+          "rule": "Answer to onb-ib-g12-commerce-q117 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p180",
+          "rule": "Answer to onb-ib-g12-commerce-q118 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p181",
+          "rule": "Answer to onb-ib-g12-commerce-q119 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p182",
+          "rule": "Answer to onb-ib-g12-commerce-q120 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p202",
+          "rule": "Answer to onb-ib-g12-commerce-q121 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p234",
+          "rule": "Answer to onb-ib-g12-commerce-q122 (scale)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p193",
+          "rule": "Answer to onb-ib-g12-commerce-q123 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p30",
+          "rule": "Answer to onb-ib-g12-commerce-q124 (consent)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p277",
+          "rule": "Answer to onb-ib-g12-commerce-q125 (consent)",
+          "source": "M2",
+          "confidence": "medium"
+        }
+      ],
+      "reasoning": [
+        {
+          "domain": "numerical",
+          "paramId": "p62",
+          "itemIds": [
+            "onb-ib-g12-commerce-q64",
+            "onb-ib-g12-commerce-q65",
+            "onb-ib-g12-commerce-q66",
+            "onb-ib-g12-commerce-q67"
+          ]
+        },
+        {
+          "domain": "verbal",
+          "paramId": "p61",
+          "itemIds": [
+            "onb-ib-g12-commerce-q68",
+            "onb-ib-g12-commerce-q69",
+            "onb-ib-g12-commerce-q70",
+            "onb-ib-g12-commerce-q71"
+          ]
+        },
+        {
+          "domain": "abstract",
+          "paramId": "p63",
+          "itemIds": [
+            "onb-ib-g12-commerce-q72",
+            "onb-ib-g12-commerce-q73",
+            "onb-ib-g12-commerce-q74",
+            "onb-ib-g12-commerce-q75"
+          ]
+        },
+        {
+          "domain": "spatial",
+          "paramId": "p64",
+          "itemIds": [
+            "onb-ib-g12-commerce-q76",
+            "onb-ib-g12-commerce-q77",
+            "onb-ib-g12-commerce-q78",
+            "onb-ib-g12-commerce-q79"
+          ]
+        }
+      ],
+      "riasec": {
+        "R": [
+          "onb-ib-g12-commerce-q96",
+          "onb-ib-g12-commerce-q97"
+        ],
+        "I": [
+          "onb-ib-g12-commerce-q98",
+          "onb-ib-g12-commerce-q99"
+        ],
+        "A": [
+          "onb-ib-g12-commerce-q100",
+          "onb-ib-g12-commerce-q101"
+        ],
+        "S": [
+          "onb-ib-g12-commerce-q102",
+          "onb-ib-g12-commerce-q103"
+        ],
+        "E": [
+          "onb-ib-g12-commerce-q104",
+          "onb-ib-g12-commerce-q105"
+        ],
+        "C": [
+          "onb-ib-g12-commerce-q106",
+          "onb-ib-g12-commerce-q107"
+        ]
+      }
+    }
+  },
+  "items": [
+    {
+      "id": "onb-ib-g12-commerce-q01",
+      "subtopicId": "ib-g11-business-ch04-st1",
+      "chapterId": "ib-g11-business-ch04",
+      "subjectId": "ib-g11-business",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which stakeholder is mainly interested in prompt payment for goods supplied?",
+      "answer": "suppliers",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 1,
+      "half": "prerequisite",
+      "subtopicHint": "Stakeholders and conflict",
+      "subtopicLinked": true,
+      "contentKey": "fc529c309a6f",
+      "options": [
+        "suppliers",
+        "employees",
+        "customers",
+        "shareholders"
+      ],
+      "markingKey": "A. suppliers. They want to be paid on time"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q02",
+      "subtopicId": "ib-g11-business-ch03-st1",
+      "chapterId": "ib-g11-business-ch03",
+      "subjectId": "ib-g11-business",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A merger is",
+      "answer": "two businesses joining to form one",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Business objectives and growth",
+      "subtopicLinked": true,
+      "contentKey": "185bba49cb90",
+      "options": [
+        "a new product launch",
+        "a business closing",
+        "two businesses joining to form one",
+        "a price cut"
+      ],
+      "markingKey": "C. two businesses joining to form one. Combining firms"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q03",
+      "subtopicId": "ib-g11-business-ch03-st1",
+      "chapterId": "ib-g11-business-ch03",
+      "subjectId": "ib-g11-business",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A cement firm buys a limestone quarry. This is",
+      "answer": "backward vertical integration",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Business objectives and growth",
+      "subtopicLinked": true,
+      "contentKey": "1aca44deb92f",
+      "options": [
+        "backward vertical integration",
+        "horizontal integration",
+        "forward vertical integration",
+        "conglomerate integration"
+      ],
+      "markingKey": "A. backward vertical integration. Buying a supplier"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q04",
+      "subtopicId": "ib-g11-business-ch06-st1",
+      "chapterId": "ib-g11-business-ch06",
+      "subjectId": "ib-g11-business",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Recruiting from within the business is called",
+      "answer": "internal recruitment",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Human resource management and motivation",
+      "subtopicLinked": true,
+      "contentKey": "5a337d85e95c",
+      "options": [
+        "external recruitment",
+        "internal recruitment",
+        "redundancy",
+        "outsourcing"
+      ],
+      "markingKey": "B. internal recruitment. Existing staff apply"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q05",
+      "subtopicId": "ib-g11-business-ch06-st1",
+      "chapterId": "ib-g11-business-ch06",
+      "subjectId": "ib-g11-business",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "In Maslow's hierarchy, which need comes first?",
+      "answer": "physiological needs",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Human resource management and motivation",
+      "subtopicLinked": true,
+      "contentKey": "2154a930234d",
+      "options": [
+        "self-actualisation",
+        "physiological needs",
+        "esteem",
+        "social needs"
+      ],
+      "markingKey": "B. physiological needs. Food, water and shelter"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q06",
+      "subtopicId": "ib-g11-business-ch06-st1",
+      "chapterId": "ib-g11-business-ch06",
+      "subjectId": "ib-g11-business",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "According to Herzberg, why may a pay rise alone not motivate workers for long?",
+      "answer": "Pay is a hygiene factor; motivation needs recognition and responsibility",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Human resource management and motivation",
+      "subtopicLinked": true,
+      "contentKey": "159d8de102e8",
+      "options": [
+        "Workers dislike money",
+        "Pay is not part of his theory",
+        "Pay is a hygiene factor; motivation needs recognition and responsibility",
+        "Pay is a motivator that never fades"
+      ],
+      "markingKey": "C. Pay is a hygiene factor; motivation needs recognition and responsibility. Hygiene factors prevent dissatisfaction"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q07",
+      "subtopicId": "ib-g11-business-ch01-st2",
+      "chapterId": "ib-g11-business-ch01",
+      "subjectId": "ib-g11-business",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A short-term source of finance is",
+      "answer": "a bank overdraft",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Business finance and services",
+      "subtopicLinked": true,
+      "contentKey": "3daa87f338f2",
+      "options": [
+        "a bank overdraft",
+        "a 20-year mortgage",
+        "retained profits over decades",
+        "issuing shares"
+      ],
+      "markingKey": "A. a bank overdraft. Flexible borrowing"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q08",
+      "subtopicId": "ib-g11-business-ch01-st2",
+      "chapterId": "ib-g11-business-ch01",
+      "subjectId": "ib-g11-business",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Insurance helps a business by",
+      "answer": "spreading the risk of loss for a premium",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Business finance and services",
+      "subtopicLinked": true,
+      "contentKey": "6e8efb3de993",
+      "options": [
+        "removing all risks",
+        "paying wages",
+        "increasing sales",
+        "spreading the risk of loss for a premium"
+      ],
+      "markingKey": "D. spreading the risk of loss for a premium. Pooling of risk"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q09",
+      "subtopicId": "ib-g11-business-ch01-st2",
+      "chapterId": "ib-g11-business-ch01",
+      "subjectId": "ib-g11-business",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why might a start-up prefer venture capital to a bank loan?",
+      "answer": "No fixed repayments, and investors bring expertise, in return for a share",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Business finance and services",
+      "subtopicLinked": true,
+      "contentKey": "d93a88e96474",
+      "options": [
+        "Banks never lend",
+        "It avoids sharing ownership",
+        "Venture capital is free money",
+        "No fixed repayments, and investors bring expertise, in return for a share"
+      ],
+      "markingKey": "D. No fixed repayments, and investors bring expertise, in return for a share. Equity versus debt"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q10",
+      "subtopicId": "ib-g12-business-ch05-st4",
+      "chapterId": "ib-g12-business-ch05",
+      "subjectId": "ib-g12-business",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "The 4 Ps of the marketing mix are product, price, place and",
+      "answer": "promotion",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "The marketing mix",
+      "subtopicLinked": true,
+      "contentKey": "ba8055c61cc4",
+      "options": [
+        "production",
+        "profit",
+        "people only",
+        "promotion"
+      ],
+      "markingKey": "D. promotion. Classic 4 Ps"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q11",
+      "subtopicId": "ib-g12-business-ch05-st4",
+      "chapterId": "ib-g12-business-ch05",
+      "subjectId": "ib-g12-business",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Selling a new product at a low price to win market share quickly is",
+      "answer": "penetration pricing",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "The marketing mix",
+      "subtopicLinked": true,
+      "contentKey": "16b21662eab1",
+      "options": [
+        "penetration pricing",
+        "price skimming",
+        "cost-plus pricing",
+        "premium pricing"
+      ],
+      "markingKey": "A. penetration pricing. Low entry price"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q12",
+      "subtopicId": "ib-g12-business-ch05-st4",
+      "chapterId": "ib-g12-business-ch05",
+      "subjectId": "ib-g12-business",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why might a luxury brand avoid discount retailers?",
+      "answer": "It could damage the premium image of the brand",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "The marketing mix",
+      "subtopicLinked": true,
+      "contentKey": "77a7c532f331",
+      "options": [
+        "It is illegal",
+        "It lowers costs",
+        "Discount shops sell too much",
+        "It could damage the premium image of the brand"
+      ],
+      "markingKey": "D. It could damage the premium image of the brand. Place must fit the brand"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q13",
+      "subtopicId": "ib-g12-business-ch02-st2",
+      "chapterId": "ib-g12-business-ch02",
+      "subjectId": "ib-g12-business",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Information collected first-hand by the business is",
+      "answer": "primary research",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Market research and segmentation",
+      "subtopicLinked": true,
+      "contentKey": "2fa550377d44",
+      "options": [
+        "primary research",
+        "published data",
+        "desk research",
+        "secondary research"
+      ],
+      "markingKey": "A. primary research. Surveys, interviews, observation"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q14",
+      "subtopicId": "ib-g12-business-ch02-st2",
+      "chapterId": "ib-g12-business-ch02",
+      "subjectId": "ib-g12-business",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Dividing a market into groups with similar needs is",
+      "answer": "market segmentation",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Market research and segmentation",
+      "subtopicLinked": true,
+      "contentKey": "35c5662c9b09",
+      "options": [
+        "market saturation",
+        "outsourcing",
+        "market segmentation",
+        "diversification"
+      ],
+      "markingKey": "C. market segmentation. Target marketing"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q15",
+      "subtopicId": "ib-g12-business-ch02-st2",
+      "chapterId": "ib-g12-business-ch02",
+      "subjectId": "ib-g12-business",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A firm surveys only its existing loyal customers about a new product. What is the main problem?",
+      "answer": "The sample is biased",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Market research and segmentation",
+      "subtopicLinked": true,
+      "contentKey": "f19a7a032fc2",
+      "options": [
+        "It is too expensive",
+        "The sample is biased",
+        "It is secondary data",
+        "It is too random"
+      ],
+      "markingKey": "B. The sample is biased. Non-customers are left out"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q16",
+      "subtopicId": "ib-g12-business-ch07-st1",
+      "chapterId": "ib-g12-business-ch07",
+      "subjectId": "ib-g12-business",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Deciding in advance what to do and how to do it is",
+      "answer": "planning",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Management and planning",
+      "subtopicLinked": true,
+      "contentKey": "33a7a0ca1c5a",
+      "options": [
+        "controlling",
+        "planning",
+        "directing",
+        "staffing"
+      ],
+      "markingKey": "B. planning. First function of management"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q17",
+      "subtopicId": "ib-g12-business-ch07-st1",
+      "chapterId": "ib-g12-business-ch07",
+      "subjectId": "ib-g12-business",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Fayol's principle of 'unity of command' means",
+      "answer": "each employee should receive orders from only one boss",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Management and planning",
+      "subtopicLinked": true,
+      "contentKey": "acef648a24d0",
+      "options": [
+        "all decisions are made by workers",
+        "everyone gives orders",
+        "there is one company goal",
+        "each employee should receive orders from only one boss"
+      ],
+      "markingKey": "D. each employee should receive orders from only one boss. Avoids confusion"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q18",
+      "subtopicId": "ib-g12-business-ch07-st1",
+      "chapterId": "ib-g12-business-ch07",
+      "subjectId": "ib-g12-business",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why might a manager choose a democratic leadership style for a creative team?",
+      "answer": "Involving staff in decisions can improve ideas and motivation",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Management and planning",
+      "subtopicLinked": true,
+      "contentKey": "fd3c9668d650",
+      "options": [
+        "It removes responsibility",
+        "Involving staff in decisions can improve ideas and motivation",
+        "It needs no communication",
+        "It is always fastest"
+      ],
+      "markingKey": "B. Involving staff in decisions can improve ideas and motivation. Participation"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q19",
+      "subtopicId": "ib-g12-business-ch06-st1",
+      "chapterId": "ib-g12-business-ch06",
+      "subjectId": "ib-g12-business",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A rise in interest rates is an example of which external factor?",
+      "answer": "economic",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "The external business environment",
+      "subtopicLinked": true,
+      "contentKey": "3357f72255d4",
+      "options": [
+        "economic",
+        "legal",
+        "social",
+        "technological"
+      ],
+      "markingKey": "A. economic. PEST"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q20",
+      "subtopicId": "ib-g12-business-ch06-st1",
+      "chapterId": "ib-g12-business-ch06",
+      "subjectId": "ib-g12-business",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A weaker rupee usually helps",
+      "answer": "exporters",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "The external business environment",
+      "subtopicLinked": true,
+      "contentKey": "8b678488885f",
+      "options": [
+        "importers",
+        "no businesses",
+        "exporters",
+        "all businesses equally"
+      ],
+      "markingKey": "C. exporters. Exports become cheaper abroad"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q21",
+      "subtopicId": "ib-g12-business-ch06-st1",
+      "chapterId": "ib-g12-business-ch06",
+      "subjectId": "ib-g12-business",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why might new data-protection laws increase costs for online retailers?",
+      "answer": "They must change systems and train staff to comply",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "The external business environment",
+      "subtopicLinked": true,
+      "contentKey": "ffcc257ea4db",
+      "options": [
+        "They must stop selling",
+        "They must change systems and train staff to comply",
+        "They lose all customers",
+        "Laws lower costs"
+      ],
+      "markingKey": "B. They must change systems and train staff to comply. Compliance costs"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q22",
+      "subtopicId": "ib-g11-economics-ch04-st1",
+      "chapterId": "ib-g11-economics-ch04",
+      "subjectId": "ib-g11-economics",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A bad harvest reduces the supply of wheat. What happens to price and quantity?",
+      "answer": "Price rises, quantity falls",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 1,
+      "half": "prerequisite",
+      "subtopicHint": "Shifts in demand and supply",
+      "subtopicLinked": true,
+      "contentKey": "760047e94b93",
+      "options": [
+        "Price falls, quantity rises",
+        "Price rises, quantity falls",
+        "Both fall",
+        "Both rise"
+      ],
+      "markingKey": "B. Price rises, quantity falls. Supply shifts left"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q23",
+      "subtopicId": "ib-g11-economics-ch08-st1",
+      "chapterId": "ib-g11-economics-ch08",
+      "subjectId": "ib-g11-economics",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A good with PED of -0.2 is",
+      "answer": "price inelastic",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Elasticity",
+      "subtopicLinked": true,
+      "contentKey": "b75d76bb9e52",
+      "options": [
+        "perfectly elastic",
+        "unit elastic",
+        "price elastic",
+        "price inelastic"
+      ],
+      "markingKey": "D. price inelastic. |PED| < 1"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q24",
+      "subtopicId": "ib-g11-economics-ch08-st1",
+      "chapterId": "ib-g11-economics-ch08",
+      "subjectId": "ib-g11-economics",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A firm faces inelastic demand. What happens to total revenue if it raises price?",
+      "answer": "It rises",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Elasticity",
+      "subtopicLinked": true,
+      "contentKey": "da17a99cce4e",
+      "options": [
+        "It rises",
+        "It stays the same",
+        "It becomes zero",
+        "It falls"
+      ],
+      "markingKey": "A. It rises. Quantity falls proportionately less"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q25",
+      "subtopicId": "ib-g11-economics-ch13-st1",
+      "chapterId": "ib-g11-economics-ch13",
+      "subjectId": "ib-g11-economics",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Rent for a factory that does not change with output is a",
+      "answer": "fixed cost",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Costs and production",
+      "subtopicLinked": true,
+      "contentKey": "856641afe266",
+      "options": [
+        "variable cost",
+        "fixed cost",
+        "marginal cost",
+        "revenue"
+      ],
+      "markingKey": "B. fixed cost. Independent of output"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q26",
+      "subtopicId": "ib-g11-economics-ch13-st1",
+      "chapterId": "ib-g11-economics-ch13",
+      "subjectId": "ib-g11-economics",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Total cost is 500 at 10 units and 560 at 11 units. What is the marginal cost of the 11th unit?",
+      "answer": "60",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Costs and production",
+      "subtopicLinked": true,
+      "contentKey": "50a9b045d14b",
+      "options": [
+        "60",
+        "50",
+        "1060",
+        "56"
+      ],
+      "markingKey": "A. 60. 560 - 500"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q27",
+      "subtopicId": "ib-g11-economics-ch13-st1",
+      "chapterId": "ib-g11-economics-ch13",
+      "subjectId": "ib-g11-economics",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why does marginal product eventually fall as more workers are added to a fixed machine?",
+      "answer": "The law of diminishing returns",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Costs and production",
+      "subtopicLinked": true,
+      "contentKey": "ed97d638d3cb",
+      "options": [
+        "The law of diminishing returns",
+        "Prices fall",
+        "Workers become lazy",
+        "Machines get faster"
+      ],
+      "markingKey": "A. The law of diminishing returns. Fixed factor constrains output"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q28",
+      "subtopicId": "ib-g11-economics-ch13-st2",
+      "chapterId": "ib-g11-economics-ch13",
+      "subjectId": "ib-g11-economics",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "In perfect competition, firms are",
+      "answer": "price takers",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Market structures and allocation",
+      "subtopicLinked": true,
+      "contentKey": "0517eadc9fe5",
+      "options": [
+        "price takers",
+        "price makers",
+        "state owned",
+        "monopolies"
+      ],
+      "markingKey": "A. price takers. Many small firms, identical goods"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q29",
+      "subtopicId": "ib-g11-economics-ch13-st2",
+      "chapterId": "ib-g11-economics-ch13",
+      "subjectId": "ib-g11-economics",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A market with only one seller is a",
+      "answer": "monopoly",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Market structures and allocation",
+      "subtopicLinked": true,
+      "contentKey": "0a07e3caef3e",
+      "options": [
+        "perfect competition",
+        "monopoly",
+        "duopoly",
+        "oligopoly"
+      ],
+      "markingKey": "B. monopoly. Single supplier"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q30",
+      "subtopicId": "ib-g11-economics-ch13-st2",
+      "chapterId": "ib-g11-economics-ch13",
+      "subjectId": "ib-g11-economics",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why can a monopoly charge a higher price than a competitive firm?",
+      "answer": "It faces no close competitors, so buyers cannot switch easily",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Market structures and allocation",
+      "subtopicLinked": true,
+      "contentKey": "1b13ff717920",
+      "options": [
+        "It faces no close competitors, so buyers cannot switch easily",
+        "Consumers prefer high prices",
+        "It has higher costs by law",
+        "It must by regulation"
+      ],
+      "markingKey": "A. It faces no close competitors, so buyers cannot switch easily. Market power"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q31",
+      "subtopicId": "ib-g12-economics-ch01-st1",
+      "chapterId": "ib-g12-economics-ch01",
+      "subjectId": "ib-g12-economics",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "GDP measures",
+      "answer": "the value of all final goods and services produced in a country in a year",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "National income and GDP",
+      "subtopicLinked": true,
+      "contentKey": "91241b6ef6b1",
+      "options": [
+        "the value of all final goods and services produced in a country in a year",
+        "only exports",
+        "government spending only",
+        "money in banks"
+      ],
+      "markingKey": "A. the value of all final goods and services produced in a country in a year. Domestic output"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q32",
+      "subtopicId": "ib-g12-economics-ch01-st1",
+      "chapterId": "ib-g12-economics-ch01",
+      "subjectId": "ib-g12-economics",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Why is real GDP better than nominal GDP for comparing output over time?",
+      "answer": "It removes the effect of price changes",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "National income and GDP",
+      "subtopicLinked": true,
+      "contentKey": "b0aa8c2b3208",
+      "options": [
+        "It includes inflation",
+        "It removes the effect of price changes",
+        "It counts only services",
+        "It is always larger"
+      ],
+      "markingKey": "B. It removes the effect of price changes. Adjusted for inflation"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q33",
+      "subtopicId": "ib-g12-economics-ch01-st1",
+      "chapterId": "ib-g12-economics-ch01",
+      "subjectId": "ib-g12-economics",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Nominal GDP grows 8% while prices rise 5%. Roughly what is real growth?",
+      "answer": "3%",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "National income and GDP",
+      "subtopicLinked": true,
+      "contentKey": "514314482086",
+      "options": [
+        "1.6%",
+        "3%",
+        "13%",
+        "8%"
+      ],
+      "markingKey": "B. 3%. 8% - 5%"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q34",
+      "subtopicId": "ib-g12-economics-ch02-st4",
+      "chapterId": "ib-g12-economics-ch02",
+      "subjectId": "ib-g12-economics",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Inflation is",
+      "answer": "a sustained rise in the general price level",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Inflation",
+      "subtopicLinked": true,
+      "contentKey": "48b9cc7a76ce",
+      "options": [
+        "a rise in one price",
+        "an increase in output",
+        "a sustained rise in the general price level",
+        "a fall in prices"
+      ],
+      "markingKey": "C. a sustained rise in the general price level. Measured by a price index"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q35",
+      "subtopicId": "ib-g12-economics-ch02-st4",
+      "chapterId": "ib-g12-economics-ch02",
+      "subjectId": "ib-g12-economics",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Inflation caused by rising costs of production is",
+      "answer": "cost-push inflation",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Inflation",
+      "subtopicLinked": true,
+      "contentKey": "fb70ef39e0d4",
+      "options": [
+        "demand-pull inflation",
+        "stagflation only",
+        "deflation",
+        "cost-push inflation"
+      ],
+      "markingKey": "D. cost-push inflation. Higher input costs"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q36",
+      "subtopicId": "ib-g12-economics-ch02-st4",
+      "chapterId": "ib-g12-economics-ch02",
+      "subjectId": "ib-g12-economics",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why does unexpected inflation hurt savers with fixed interest?",
+      "answer": "The real value of their savings falls",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Inflation",
+      "subtopicLinked": true,
+      "contentKey": "caf182530ddc",
+      "options": [
+        "The real value of their savings falls",
+        "Banks pay more",
+        "Their savings grow faster",
+        "Prices stay the same"
+      ],
+      "markingKey": "A. The real value of their savings falls. Money buys less"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q37",
+      "subtopicId": "ib-g12-economics-ch07-st1",
+      "chapterId": "ib-g12-economics-ch07",
+      "subjectId": "ib-g12-economics",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "India's central bank is the",
+      "answer": "Reserve Bank of India",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Money, banking and monetary policy",
+      "subtopicLinked": true,
+      "contentKey": "44ef970dc833",
+      "options": [
+        "State Bank of India",
+        "Finance Ministry",
+        "Reserve Bank of India",
+        "SEBI"
+      ],
+      "markingKey": "C. Reserve Bank of India. Bank of issue"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q38",
+      "subtopicId": "ib-g12-economics-ch07-st1",
+      "chapterId": "ib-g12-economics-ch07",
+      "subjectId": "ib-g12-economics",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "To reduce inflation, a central bank is likely to",
+      "answer": "raise interest rates",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Money, banking and monetary policy",
+      "subtopicLinked": true,
+      "contentKey": "12dfa499c746",
+      "options": [
+        "raise interest rates",
+        "lower reserve ratios",
+        "cut interest rates",
+        "print more money"
+      ],
+      "markingKey": "A. raise interest rates. Contractionary monetary policy"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q39",
+      "subtopicId": "ib-g12-economics-ch07-st1",
+      "chapterId": "ib-g12-economics-ch07",
+      "subjectId": "ib-g12-economics",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "How does a higher cash reserve ratio reduce lending?",
+      "answer": "Banks must hold more deposits as reserves, leaving less to lend",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Money, banking and monetary policy",
+      "subtopicLinked": true,
+      "contentKey": "bc1e81ea3d0e",
+      "options": [
+        "It forces banks to lend more",
+        "It cuts interest rates",
+        "It raises the money multiplier",
+        "Banks must hold more deposits as reserves, leaving less to lend"
+      ],
+      "markingKey": "D. Banks must hold more deposits as reserves, leaving less to lend. Lower credit creation"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q40",
+      "subtopicId": "ib-g12-economics-ch08-st2",
+      "chapterId": "ib-g12-economics-ch08",
+      "subjectId": "ib-g12-economics",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A budget deficit occurs when",
+      "answer": "government spending exceeds revenue",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Fiscal policy and the budget",
+      "subtopicLinked": true,
+      "contentKey": "3bc6c5b8ac0b",
+      "options": [
+        "government spending exceeds revenue",
+        "prices fall",
+        "exports exceed imports",
+        "revenue exceeds spending"
+      ],
+      "markingKey": "A. government spending exceeds revenue. Government borrows"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q41",
+      "subtopicId": "ib-g12-economics-ch08-st2",
+      "chapterId": "ib-g12-economics-ch08",
+      "subjectId": "ib-g12-economics",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Income tax is an example of a",
+      "answer": "direct tax",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Fiscal policy and the budget",
+      "subtopicLinked": true,
+      "contentKey": "99ca9c29a923",
+      "options": [
+        "direct tax",
+        "subsidy",
+        "tariff",
+        "indirect tax"
+      ],
+      "markingKey": "A. direct tax. Paid directly on income"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q42",
+      "subtopicId": "ib-g12-economics-ch08-st2",
+      "chapterId": "ib-g12-economics-ch08",
+      "subjectId": "ib-g12-economics",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "In a recession, why might a government increase spending?",
+      "answer": "To boost aggregate demand and employment",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Fiscal policy and the budget",
+      "subtopicLinked": true,
+      "contentKey": "b20c9918a22c",
+      "options": [
+        "To reduce output",
+        "To raise interest rates",
+        "To cause inflation on purpose",
+        "To boost aggregate demand and employment"
+      ],
+      "markingKey": "D. To boost aggregate demand and employment. Expansionary fiscal policy"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q43",
+      "subtopicId": "ib-g11-applied-maths-ch02-st2",
+      "chapterId": "ib-g11-applied-maths-ch02",
+      "subjectId": "ib-g11-applied-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "An investment doubles every 6 years. Starting at 5 000, what is it worth after 18 years?",
+      "answer": "40 000",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 1,
+      "half": "prerequisite",
+      "subtopicHint": "Geometric growth",
+      "subtopicLinked": true,
+      "contentKey": "4417a2ff26a5",
+      "options": [
+        "20 000",
+        "30 000",
+        "15 000",
+        "40 000"
+      ],
+      "markingKey": "D. 40 000. 5 000 x 2³"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q44",
+      "subtopicId": "ib-g11-applied-maths-ch12-st3",
+      "chapterId": "ib-g11-applied-maths-ch12",
+      "subjectId": "ib-g11-applied-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Two events A and B are independent, P(A) = 0.3 and P(B) = 0.5. What is P(A and B)?",
+      "answer": "0.15",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Probability rules",
+      "subtopicLinked": true,
+      "contentKey": "c2f90df3c3ab",
+      "options": [
+        "0.65",
+        "0.2",
+        "0.8",
+        "0.15"
+      ],
+      "markingKey": "D. 0.15. Multiply"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q45",
+      "subtopicId": "ib-g11-applied-maths-ch12-st3",
+      "chapterId": "ib-g11-applied-maths-ch12",
+      "subjectId": "ib-g11-applied-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "P(rain) = 0.3 and P(late | rain) = 0.4. What is P(rain and late)?",
+      "answer": "0.12",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Probability rules",
+      "subtopicLinked": true,
+      "contentKey": "1cda811a0283",
+      "options": [
+        "0.1",
+        "0.12",
+        "0.7",
+        "0.34"
+      ],
+      "markingKey": "B. 0.12. P(A and B) = P(A) x P(B | A)"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q46",
+      "subtopicId": "ib-g11-applied-maths-ch13-st4",
+      "chapterId": "ib-g11-applied-maths-ch13",
+      "subjectId": "ib-g11-applied-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "What is the range of 4, 9, 2, 15, 7?",
+      "answer": "13",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Measures of spread",
+      "subtopicLinked": true,
+      "contentKey": "bfb7418877fd",
+      "options": [
+        "15",
+        "13",
+        "7.4",
+        "11"
+      ],
+      "markingKey": "B. 13. 15 - 2"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q47",
+      "subtopicId": "ib-g11-applied-maths-ch13-st4",
+      "chapterId": "ib-g11-applied-maths-ch13",
+      "subjectId": "ib-g11-applied-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "What is the variance of 2, 4, 6?",
+      "answer": "8/3",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Measures of spread",
+      "subtopicLinked": true,
+      "contentKey": "d507d4bb8297",
+      "options": [
+        "16/3",
+        "2",
+        "8/3",
+        "4"
+      ],
+      "markingKey": "C. 8/3. Mean 4; (4 + 0 + 4) ÷ 3"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q48",
+      "subtopicId": "ib-g11-applied-maths-ch13-st4",
+      "chapterId": "ib-g11-applied-maths-ch13",
+      "subjectId": "ib-g11-applied-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Every value in a data set is increased by 10. What happens to the standard deviation?",
+      "answer": "It stays the same",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Measures of spread",
+      "subtopicLinked": true,
+      "contentKey": "b6db2d1c1d85",
+      "options": [
+        "It doubles",
+        "It stays the same",
+        "It falls by 10",
+        "It increases by 10"
+      ],
+      "markingKey": "B. It stays the same. Spread does not change"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q49",
+      "subtopicId": "ib-g11-applied-maths-ch13-st2",
+      "chapterId": "ib-g11-applied-maths-ch13",
+      "subjectId": "ib-g11-applied-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A fair coin is tossed 4 times. What is the expected number of heads?",
+      "answer": "2",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Discrete distributions and regression",
+      "subtopicLinked": true,
+      "contentKey": "74af73b82e5c",
+      "options": [
+        "4",
+        "2",
+        "0.5",
+        "1"
+      ],
+      "markingKey": "B. 2. np = 4 x 0.5"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q50",
+      "subtopicId": "ib-g11-applied-maths-ch13-st2",
+      "chapterId": "ib-g11-applied-maths-ch13",
+      "subjectId": "ib-g11-applied-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "For X ~ B(10, 0.2), what is the variance?",
+      "answer": "1.6",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Discrete distributions and regression",
+      "subtopicLinked": true,
+      "contentKey": "17597651cc2e",
+      "options": [
+        "0.16",
+        "2",
+        "1.6",
+        "8"
+      ],
+      "markingKey": "C. 1.6. np(1 - p)"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q51",
+      "subtopicId": "ib-g11-applied-maths-ch13-st2",
+      "chapterId": "ib-g11-applied-maths-ch13",
+      "subjectId": "ib-g11-applied-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A regression line is y = 2x + 5 for x between 1 and 10. Why is predicting y at x = 50 unreliable?",
+      "answer": "It is extrapolation beyond the data",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Discrete distributions and regression",
+      "subtopicLinked": true,
+      "contentKey": "8f7ff3a4aa43",
+      "options": [
+        "The line passes through zero",
+        "The gradient is too small",
+        "It is extrapolation beyond the data",
+        "Regression only works for x = 50"
+      ],
+      "markingKey": "C. It is extrapolation beyond the data. Outside the observed range"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q52",
+      "subtopicId": "ib-g12-applied-maths-ch12-st3",
+      "chapterId": "ib-g12-applied-maths-ch12",
+      "subjectId": "ib-g12-applied-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A random variable that can take only whole-number values is",
+      "answer": "discrete",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Probability distributions",
+      "subtopicLinked": true,
+      "contentKey": "93865afb2240",
+      "options": [
+        "normal",
+        "continuous",
+        "discrete",
+        "constant"
+      ],
+      "markingKey": "C. discrete. Countable outcomes"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q53",
+      "subtopicId": "ib-g12-applied-maths-ch12-st3",
+      "chapterId": "ib-g12-applied-maths-ch12",
+      "subjectId": "ib-g12-applied-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Calls arrive at a mean rate of 3 per hour. Which distribution models the number of calls in an hour?",
+      "answer": "Poisson",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Probability distributions",
+      "subtopicLinked": true,
+      "contentKey": "a349be957e61",
+      "options": [
+        "Binomial with n = 3",
+        "Normal with mean 0",
+        "Poisson",
+        "Uniform"
+      ],
+      "markingKey": "C. Poisson. Random events at a constant average rate"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q54",
+      "subtopicId": "ib-g12-applied-maths-ch12-st3",
+      "chapterId": "ib-g12-applied-maths-ch12",
+      "subjectId": "ib-g12-applied-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "For a normal distribution with mean 50 and standard deviation 5, about what percentage of values lie between 45 and 55?",
+      "answer": "68%",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Probability distributions",
+      "subtopicLinked": true,
+      "contentKey": "da2fb0a544b8",
+      "options": [
+        "95%",
+        "68%",
+        "99.7%",
+        "50%"
+      ],
+      "markingKey": "B. 68%. Within one standard deviation"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q55",
+      "subtopicId": "ib-g12-applied-maths-ch12-st1",
+      "chapterId": "ib-g12-applied-maths-ch12",
+      "subjectId": "ib-g12-applied-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A sample in which every member of the population has an equal chance of selection is",
+      "answer": "a simple random sample",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Sampling and estimation",
+      "subtopicLinked": true,
+      "contentKey": "24f68ceb81d7",
+      "options": [
+        "a convenience sample",
+        "a simple random sample",
+        "a quota sample",
+        "a census"
+      ],
+      "markingKey": "B. a simple random sample. Equal chance"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q56",
+      "subtopicId": "ib-g12-applied-maths-ch12-st1",
+      "chapterId": "ib-g12-applied-maths-ch12",
+      "subjectId": "ib-g12-applied-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Why do larger samples give more reliable estimates of the mean?",
+      "answer": "The standard error falls as sample size increases",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Sampling and estimation",
+      "subtopicLinked": true,
+      "contentKey": "f65cb2ebefca",
+      "options": [
+        "Variance increases",
+        "Larger samples are always biased",
+        "The mean changes",
+        "The standard error falls as sample size increases"
+      ],
+      "markingKey": "D. The standard error falls as sample size increases. σ/√n"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q57",
+      "subtopicId": "ib-g12-applied-maths-ch12-st1",
+      "chapterId": "ib-g12-applied-maths-ch12",
+      "subjectId": "ib-g12-applied-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A 95% confidence interval for a mean is (48, 52). What is the best estimate of the population mean?",
+      "answer": "50",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Sampling and estimation",
+      "subtopicLinked": true,
+      "contentKey": "7cbb86d22636",
+      "options": [
+        "48",
+        "95",
+        "50",
+        "52"
+      ],
+      "markingKey": "C. 50. The midpoint"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q58",
+      "subtopicId": "ib-g12-applied-maths-ch12-st3",
+      "chapterId": "ib-g12-applied-maths-ch12",
+      "subjectId": "ib-g12-applied-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "The statement assumed true at the start of a hypothesis test is the",
+      "answer": "null hypothesis",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Hypothesis testing",
+      "subtopicLinked": true,
+      "contentKey": "070a989b16e1",
+      "options": [
+        "test statistic",
+        "critical value",
+        "null hypothesis",
+        "alternative hypothesis"
+      ],
+      "markingKey": "C. null hypothesis. H₀"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q59",
+      "subtopicId": "ib-g12-applied-maths-ch12-st3",
+      "chapterId": "ib-g12-applied-maths-ch12",
+      "subjectId": "ib-g12-applied-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A test at the 5% level gives a p-value of 0.02. What should you conclude?",
+      "answer": "Reject the null hypothesis",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Hypothesis testing",
+      "subtopicLinked": true,
+      "contentKey": "2f5473388c54",
+      "options": [
+        "Reject the null hypothesis",
+        "Increase the p-value",
+        "Accept the null hypothesis",
+        "The test is invalid"
+      ],
+      "markingKey": "A. Reject the null hypothesis. 0.02 < 0.05"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q60",
+      "subtopicId": "ib-g12-applied-maths-ch12-st3",
+      "chapterId": "ib-g12-applied-maths-ch12",
+      "subjectId": "ib-g12-applied-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Rejecting a null hypothesis that is actually true is a",
+      "answer": "Type I error",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Hypothesis testing",
+      "subtopicLinked": true,
+      "contentKey": "37409825e2d7",
+      "options": [
+        "sampling frame",
+        "Type I error",
+        "Type II error",
+        "correct decision"
+      ],
+      "markingKey": "B. Type I error. A false positive"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q61",
+      "subtopicId": "ib-g12-applied-maths-ch08-st2",
+      "chapterId": "ib-g12-applied-maths-ch08",
+      "subjectId": "ib-g12-applied-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "What is the derivative of 5x²?",
+      "answer": "10x",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Differentiation and optimisation",
+      "subtopicLinked": true,
+      "contentKey": "692051f68eb4",
+      "options": [
+        "5x",
+        "2x",
+        "10x",
+        "10x²"
+      ],
+      "markingKey": "C. 10x. Multiply by the power, reduce it by one"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q62",
+      "subtopicId": "ib-g12-applied-maths-ch08-st2",
+      "chapterId": "ib-g12-applied-maths-ch08",
+      "subjectId": "ib-g12-applied-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Profit is P(x) = -2x² + 40x. At what output x is profit greatest?",
+      "answer": "10",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Differentiation and optimisation",
+      "subtopicLinked": true,
+      "contentKey": "6b3418742388",
+      "options": [
+        "5",
+        "10",
+        "40",
+        "20"
+      ],
+      "markingKey": "B. 10. P'(x) = -4x + 40 = 0"
+    },
+    {
+      "id": "onb-ib-g12-commerce-q63",
+      "subtopicId": "ib-g12-applied-maths-ch08-st2",
+      "chapterId": "ib-g12-applied-maths-ch08",
+      "subjectId": "ib-g12-applied-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why do we check the sign of the second derivative at a stationary point?",
+      "answer": "To tell whether it is a maximum or a minimum",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Differentiation and optimisation",
+      "subtopicLinked": true,
+      "contentKey": "fa951d76e2bf",
+      "options": [
+        "To tell whether it is a maximum or a minimum",
+        "To find the y-intercept",
+        "Because the first derivative is always positive",
+        "To make the gradient zero"
+      ],
+      "markingKey": "A. To tell whether it is a maximum or a minimum. Negative means a maximum"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D2",
+      "stem": "What number comes next? 2, 3, 5, 8, 13, ?",
+      "options": [
+        "20",
+        "18",
+        "26",
+        "21"
+      ],
+      "answer": "21",
+      "explanation": "Each term is the sum of the two before it",
+      "seconds": 30,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-ib-g12-commerce-q64",
+      "part": "B",
+      "contentKey": "1ab8b7e1a9d2"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D2",
+      "stem": "Money doubles in 6 years at a fixed compound rate. In how many years does it become 8 times?",
+      "options": [
+        "18",
+        "12",
+        "48",
+        "24"
+      ],
+      "answer": "18",
+      "explanation": "8 = 2³, so three doubling periods",
+      "seconds": 45,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-ib-g12-commerce-q65",
+      "part": "B",
+      "contentKey": "5b81fb79f4a2"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D3",
+      "stem": "Boys and girls in a class are in the ratio 3 : 5. After 6 more boys join, the ratio is 1 : 1. How many students were there at first?",
+      "options": [
+        "32",
+        "30",
+        "24",
+        "16"
+      ],
+      "answer": "24",
+      "explanation": "3k + 6 = 5k gives k = 3, so 9 + 15 = 24",
+      "seconds": 75,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-ib-g12-commerce-q66",
+      "part": "B",
+      "contentKey": "a243772353aa"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D3",
+      "stem": "One pipe fills a tank in 6 hours; another empties it in 9 hours. If both are open, how long does it take to fill the empty tank?",
+      "options": [
+        "15 hours",
+        "7.5 hours",
+        "18 hours",
+        "3 hours"
+      ],
+      "answer": "18 hours",
+      "explanation": "1/6 - 1/9 = 1/18 of the tank per hour",
+      "seconds": 75,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-ib-g12-commerce-q67",
+      "part": "B",
+      "contentKey": "28cbccf73516"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D2",
+      "stem": "Which phrase is closest in meaning to 'ubiquitous'?",
+      "options": [
+        "found everywhere",
+        "very rare",
+        "highly useful",
+        "extremely old"
+      ],
+      "answer": "found everywhere",
+      "explanation": "Ubiquitous means present everywhere",
+      "seconds": 30,
+      "paramIds": [
+        "p61",
+        "p69"
+      ],
+      "id": "onb-ib-g12-commerce-q68",
+      "part": "B",
+      "contentKey": "90af104465f9"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D2",
+      "stem": "Author is to novel as composer is to ...",
+      "options": [
+        "audience",
+        "orchestra",
+        "symphony",
+        "piano"
+      ],
+      "answer": "symphony",
+      "explanation": "What each creates",
+      "seconds": 30,
+      "paramIds": [
+        "p61",
+        "p69"
+      ],
+      "id": "onb-ib-g12-commerce-q69",
+      "part": "B",
+      "contentKey": "cbb2594f4607"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D3",
+      "stem": "Some economists are writers. All writers are readers. Which statement must be true?",
+      "options": [
+        "All readers are economists",
+        "No reader is an economist",
+        "Some economists are readers",
+        "All economists are writers"
+      ],
+      "answer": "Some economists are readers",
+      "explanation": "The economists who are writers are also readers",
+      "seconds": 60,
+      "paramIds": [
+        "p61",
+        "p65",
+        "p69"
+      ],
+      "id": "onb-ib-g12-commerce-q70",
+      "part": "B",
+      "contentKey": "898351f148c8"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D3",
+      "stem": "Claim: 'Since the new study app launched, the school's test scores rose, so the app raised scores.' Which fact, if true, most weakens the claim?",
+      "options": [
+        "The school also hired extra teachers at the same time",
+        "Students said they liked the app",
+        "The app is free",
+        "Scores rose most in maths"
+      ],
+      "answer": "The school also hired extra teachers at the same time",
+      "explanation": "Another change at the same time offers a different explanation",
+      "seconds": 75,
+      "paramIds": [
+        "p61",
+        "p65",
+        "p69"
+      ],
+      "id": "onb-ib-g12-commerce-q71",
+      "part": "B",
+      "contentKey": "76a3f6583cee"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D2",
+      "stem": "What comes next? AZ, BY, CX, ?",
+      "options": [
+        "EW",
+        "DX",
+        "DW",
+        "DV"
+      ],
+      "answer": "DW",
+      "explanation": "First letters go forward, second letters go backward",
+      "seconds": 30,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "id": "onb-ib-g12-commerce-q72",
+      "part": "B",
+      "contentKey": "7e42fa87e73c"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D2",
+      "stem": "If 2 ⊕ 3 = 13 and 3 ⊕ 4 = 25, what is 4 ⊕ 5?",
+      "options": [
+        "81",
+        "45",
+        "41",
+        "20"
+      ],
+      "answer": "41",
+      "explanation": "a ⊕ b = a² + b²: 16 + 25 = 41",
+      "seconds": 60,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "id": "onb-ib-g12-commerce-q73",
+      "part": "B",
+      "contentKey": "ee495a503bcb"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D3",
+      "stem": "What comes next? 1, 2, 6, 24, 120, ?",
+      "options": [
+        "240",
+        "720",
+        "600",
+        "144"
+      ],
+      "answer": "720",
+      "explanation": "Multiply by 2, 3, 4, 5, then 6",
+      "seconds": 60,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "id": "onb-ib-g12-commerce-q74",
+      "part": "B",
+      "contentKey": "59584204a824"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D3",
+      "stem": "Figures: shaded triangle, unshaded square, shaded pentagon, ... Each figure gains one side and the shading alternates. What is the next figure?",
+      "options": [
+        "an unshaded pentagon",
+        "an unshaded hexagon",
+        "a shaded heptagon",
+        "a shaded hexagon"
+      ],
+      "answer": "an unshaded hexagon",
+      "explanation": "Six sides, and the shading switches back to unshaded",
+      "seconds": 60,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "id": "onb-ib-g12-commerce-q75",
+      "part": "B",
+      "contentKey": "089202f449ff"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D2",
+      "stem": "What is the smaller angle between the hour and minute hands of a clock at 3:15?",
+      "options": [
+        "0°",
+        "15°",
+        "22.5°",
+        "7.5°"
+      ],
+      "answer": "7.5°",
+      "explanation": "The hour hand has moved a quarter of 30° past the 3",
+      "seconds": 60,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "id": "onb-ib-g12-commerce-q76",
+      "part": "B",
+      "contentKey": "5fdd3b770309"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D2",
+      "stem": "Opposite faces of a die add up to 7. A die shows 1 on top, 2 at the front and 3 on the right. What number is on the bottom?",
+      "options": [
+        "6",
+        "4",
+        "2",
+        "5"
+      ],
+      "answer": "6",
+      "explanation": "Bottom is opposite top: 7 - 1 = 6",
+      "seconds": 45,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 160 140\" width=\"160\" height=\"140\" stroke=\"currentColor\" fill=\"none\" stroke-width=\"2\"><polygon points=\"20,40 100,40 100,120 20,120\"/><polygon points=\"20,40 50,15 130,15 100,40\"/><polygon points=\"100,40 130,15 130,95 100,120\"/><text x=\"60\" y=\"88\" font-size=\"26\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"75\" y=\"34\" font-size=\"18\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">1</text><text x=\"115\" y=\"75\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">3</text></svg>",
+      "id": "onb-ib-g12-commerce-q77",
+      "part": "B",
+      "contentKey": "cb65a76edcea"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D3",
+      "stem": "From home you walk 4 km north and then 3 km east. How far are you from home in a straight line?",
+      "options": [
+        "7 km",
+        "1 km",
+        "5 km",
+        "6 km"
+      ],
+      "answer": "5 km",
+      "explanation": "A 3-4-5 right triangle",
+      "seconds": 45,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "id": "onb-ib-g12-commerce-q78",
+      "part": "B",
+      "contentKey": "40f6ae63a66b"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D3",
+      "stem": "A 3 x 3 x 3 cube is painted on all faces and cut into 27 small cubes. How many small cubes have exactly one painted face?",
+      "options": [
+        "6",
+        "1",
+        "12",
+        "8"
+      ],
+      "answer": "6",
+      "explanation": "One at the centre of each face",
+      "seconds": 60,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "id": "onb-ib-g12-commerce-q79",
+      "part": "B",
+      "contentKey": "efc87feb69df"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "On a normal school day, how long do you study at home (not counting tuition)?",
+      "responseType": "single",
+      "paramId": "p31",
+      "options": [
+        {
+          "label": "Less than 1 hour",
+          "value": 0.5
+        },
+        {
+          "label": "1 to 2 hours",
+          "value": 1.5
+        },
+        {
+          "label": "2 to 3 hours",
+          "value": 2.5
+        },
+        {
+          "label": "3 to 4 hours",
+          "value": 3.5
+        },
+        {
+          "label": "More than 4 hours",
+          "value": 4.5
+        }
+      ],
+      "unit": "hours",
+      "id": "onb-ib-g12-commerce-q80",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "a3188617eeb3"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "When do you usually study best?",
+      "responseType": "single",
+      "paramId": "p33",
+      "options": [
+        {
+          "label": "Early morning",
+          "value": "early_morning"
+        },
+        {
+          "label": "Afternoon",
+          "value": "afternoon"
+        },
+        {
+          "label": "Evening",
+          "value": "evening"
+        },
+        {
+          "label": "Late night",
+          "value": "late_night"
+        }
+      ],
+      "id": "onb-ib-g12-commerce-q81",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "4bff65265626"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How long is a typical study session before you take a break?",
+      "responseType": "single",
+      "paramId": "p34",
+      "options": [
+        {
+          "label": "15 to 20 minutes",
+          "value": 20
+        },
+        {
+          "label": "30 to 45 minutes",
+          "value": 40
+        },
+        {
+          "label": "About an hour",
+          "value": 60
+        },
+        {
+          "label": "90 minutes or more",
+          "value": 90
+        }
+      ],
+      "unit": "minutes",
+      "id": "onb-ib-g12-commerce-q82",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "09d32e5c0254"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How often do you revise topics you have already finished?",
+      "responseType": "single",
+      "paramId": "p39",
+      "options": [
+        {
+          "label": "Rarely",
+          "value": "rarely"
+        },
+        {
+          "label": "Only before tests",
+          "value": "before_tests"
+        },
+        {
+          "label": "Every week",
+          "value": "weekly"
+        },
+        {
+          "label": "Most days",
+          "value": "daily"
+        }
+      ],
+      "id": "onb-ib-g12-commerce-q83",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "0d286009ae6f"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How do you usually revise?",
+      "responseType": "single",
+      "paramId": "p40",
+      "options": [
+        {
+          "label": "Re-reading notes or the textbook",
+          "value": "reread"
+        },
+        {
+          "label": "Highlighting or rewriting notes",
+          "value": "rewrite"
+        },
+        {
+          "label": "Doing practice questions",
+          "value": "practice"
+        },
+        {
+          "label": "Testing myself with flashcards or quizzes",
+          "value": "self_test"
+        },
+        {
+          "label": "Explaining it to someone else",
+          "value": "teach"
+        }
+      ],
+      "id": "onb-ib-g12-commerce-q84",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "fec782fd153e"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "I put off starting homework until the last minute.",
+      "responseType": "scale",
+      "paramId": "p46",
+      "options": [
+        {
+          "label": "1 Never",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Always",
+          "value": 5
+        }
+      ],
+      "id": "onb-ib-g12-commerce-q85",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "b31ed6ad6c6c"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Where is your phone while you study?",
+      "responseType": "single",
+      "paramId": "p105",
+      "options": [
+        {
+          "label": "In another room",
+          "value": "away"
+        },
+        {
+          "label": "Nearby on silent",
+          "value": "silent_nearby"
+        },
+        {
+          "label": "With me, I check it often",
+          "value": "checking"
+        },
+        {
+          "label": "I study on my phone",
+          "value": "study_device"
+        }
+      ],
+      "id": "onb-ib-g12-commerce-q86",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "d194a9f578b8"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Which helps you learn a new topic most?",
+      "responseType": "single",
+      "paramId": "p48",
+      "options": [
+        {
+          "label": "Watching a video",
+          "value": "video"
+        },
+        {
+          "label": "Reading and making notes",
+          "value": "reading"
+        },
+        {
+          "label": "Trying problems straight away",
+          "value": "practice"
+        },
+        {
+          "label": "Discussing it with someone",
+          "value": "discussion"
+        }
+      ],
+      "id": "onb-ib-g12-commerce-q87",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "c23e54729bc0"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Do you prefer studying alone or with others?",
+      "responseType": "single",
+      "paramId": "p50",
+      "options": [
+        {
+          "label": "Alone",
+          "value": "solo"
+        },
+        {
+          "label": "With one friend",
+          "value": "pair"
+        },
+        {
+          "label": "In a group",
+          "value": "group"
+        },
+        {
+          "label": "It depends on the subject",
+          "value": "mixed"
+        }
+      ],
+      "id": "onb-ib-g12-commerce-q88",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "70f11b4add34"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "When you get stuck on a question, what do you usually do first?",
+      "responseType": "single",
+      "paramId": "p49",
+      "options": [
+        {
+          "label": "Ask my teacher",
+          "value": "teacher"
+        },
+        {
+          "label": "Ask a friend or sibling",
+          "value": "peer"
+        },
+        {
+          "label": "Search online or watch a video",
+          "value": "online"
+        },
+        {
+          "label": "Leave it and move on",
+          "value": "skip"
+        }
+      ],
+      "id": "onb-ib-g12-commerce-q89",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "599b22b79bd2"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Do you go to tuition or coaching classes?",
+      "responseType": "single",
+      "paramId": "p21",
+      "options": [
+        {
+          "label": "No",
+          "value": "none"
+        },
+        {
+          "label": "Yes, for one subject",
+          "value": "one_subject"
+        },
+        {
+          "label": "Yes, for two or more subjects",
+          "value": "multi_subject"
+        },
+        {
+          "label": "Yes, at a coaching institute",
+          "value": "institute"
+        }
+      ],
+      "id": "onb-ib-g12-commerce-q90",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "3c939f2b1013"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "I mostly study because ...",
+      "responseType": "single",
+      "paramId": "p123",
+      "options": [
+        {
+          "label": "I enjoy learning new things",
+          "value": "intrinsic"
+        },
+        {
+          "label": "I have a goal I want to reach",
+          "value": "goal"
+        },
+        {
+          "label": "I want good marks",
+          "value": "performance"
+        },
+        {
+          "label": "My family expects it",
+          "value": "external"
+        }
+      ],
+      "id": "onb-ib-g12-commerce-q91",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "4ab1b901cdd5"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "If I work hard, I can get much better at a subject I find difficult.",
+      "responseType": "scale",
+      "paramId": "p125",
+      "options": [
+        {
+          "label": "1 Strongly disagree",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Strongly agree",
+          "value": 5
+        }
+      ],
+      "id": "onb-ib-g12-commerce-q92",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "6efb13e3bd21"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "I like hard problems, even when I might get them wrong.",
+      "responseType": "scale",
+      "paramId": "p331",
+      "options": [
+        {
+          "label": "1 Strongly disagree",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Strongly agree",
+          "value": 5
+        }
+      ],
+      "id": "onb-ib-g12-commerce-q93",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "80b24e607fdf"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Before a test, how nervous do you usually feel?",
+      "responseType": "scale",
+      "paramId": "p111",
+      "options": [
+        {
+          "label": "1 Calm",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Very nervous",
+          "value": 5
+        }
+      ],
+      "helpText": "Optional. This only helps us pace your plan and suggest support; it never affects your scores or recommendations.",
+      "alsoInforms": [
+        "p133"
+      ],
+      "id": "onb-ib-g12-commerce-q94",
+      "tier": "T3",
+      "screened": true,
+      "optional": true,
+      "contentKey": "58e5770944cf"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "On school nights, how many hours do you usually sleep?",
+      "responseType": "single",
+      "paramId": "p83",
+      "options": [
+        {
+          "label": "Less than 6",
+          "value": 5.5
+        },
+        {
+          "label": "6 to 7",
+          "value": 6.5
+        },
+        {
+          "label": "7 to 8",
+          "value": 7.5
+        },
+        {
+          "label": "8 to 9",
+          "value": 8.5
+        },
+        {
+          "label": "More than 9",
+          "value": 9.5
+        }
+      ],
+      "helpText": "Optional. Used only to fit your timetable around enough rest.",
+      "unit": "hours",
+      "id": "onb-ib-g12-commerce-q95",
+      "tier": "T3",
+      "screened": true,
+      "optional": true,
+      "contentKey": "55062a5c52b2"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Fixing or building things, like a bicycle, a model or a small circuit",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "R",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g12-commerce-q96",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "36e0422d9d06"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Working outdoors with tools, plants or animals",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "R",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g12-commerce-q97",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "c063e3c69b0f"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Doing experiments to find out why something happens",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "I",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g12-commerce-q98",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "0c12a884162e"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Solving tricky maths or logic puzzles",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "I",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g12-commerce-q99",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "058f5f9025f0"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Drawing, designing, writing stories or making music",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "A",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g12-commerce-q100",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "9234642a58af"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Acting, photography or making videos",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "A",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g12-commerce-q101",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "e7bfdb738978"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Explaining something to a friend until they understand it",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "S",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g12-commerce-q102",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "8f4da2390889"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Volunteering to help people in your community",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "S",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g12-commerce-q103",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "40f8337ef8af"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Leading a team or running a school club",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "E",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g12-commerce-q104",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "b91eb24feb37"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Pitching an idea or starting a small business",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "E",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g12-commerce-q105",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "6806cc5fc89c"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Keeping records or organising information neatly",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "C",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g12-commerce-q106",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "0c466df2c3f1"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Working with numbers, budgets or spreadsheets",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "C",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g12-commerce-q107",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "c884a471f58e"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How interested are you in studying abroad after school?",
+      "responseType": "scale",
+      "paramId": "p230",
+      "options": [
+        {
+          "label": "1 Not interested",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Very interested",
+          "value": 5
+        }
+      ],
+      "alsoInforms": [
+        "p231"
+      ],
+      "id": "onb-ib-g12-commerce-q108",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "587ff74cc454"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Which career areas interest you right now? Pick up to three.",
+      "responseType": "multi",
+      "paramId": "p198",
+      "options": [
+        {
+          "label": "Engineering and technology",
+          "value": "engineering"
+        },
+        {
+          "label": "Medicine and health",
+          "value": "medicine"
+        },
+        {
+          "label": "Business, finance and commerce",
+          "value": "business"
+        },
+        {
+          "label": "Law, government and public policy",
+          "value": "law"
+        },
+        {
+          "label": "Design, media and the arts",
+          "value": "design"
+        },
+        {
+          "label": "Science and research",
+          "value": "research"
+        },
+        {
+          "label": "Teaching, psychology and social work",
+          "value": "social"
+        },
+        {
+          "label": "Not sure yet",
+          "value": "unsure"
+        }
+      ],
+      "max": 3,
+      "alsoInforms": [
+        "p199"
+      ],
+      "id": "onb-ib-g12-commerce-q109",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "732c5efa2f1e"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Who does your child live with?",
+      "responseType": "single",
+      "paramId": "p154",
+      "optional": false,
+      "options": [
+        {
+          "label": "Both parents",
+          "value": "nuclear"
+        },
+        {
+          "label": "Parents and grandparents or other relatives",
+          "value": "joint"
+        },
+        {
+          "label": "One parent",
+          "value": "single_parent"
+        },
+        {
+          "label": "Another guardian",
+          "value": "guardian"
+        }
+      ],
+      "id": "onb-ib-g12-commerce-q110",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "b4e573af0103"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "What is the highest education level in your child's home?",
+      "responseType": "single",
+      "paramId": "p155",
+      "optional": false,
+      "options": [
+        {
+          "label": "School",
+          "value": "school"
+        },
+        {
+          "label": "Bachelor's degree",
+          "value": "graduate"
+        },
+        {
+          "label": "Master's degree",
+          "value": "postgraduate"
+        },
+        {
+          "label": "Professional or doctoral degree (CA, MBBS, PhD, LLB...)",
+          "value": "professional"
+        }
+      ],
+      "id": "onb-ib-g12-commerce-q111",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "9bb6e9dc0272"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Which best describes the main earner's work?",
+      "responseType": "single",
+      "paramId": "p156",
+      "optional": false,
+      "options": [
+        {
+          "label": "Salaried, private sector",
+          "value": "private"
+        },
+        {
+          "label": "Salaried, government or PSU",
+          "value": "government"
+        },
+        {
+          "label": "Own business",
+          "value": "business"
+        },
+        {
+          "label": "Self-employed professional",
+          "value": "professional"
+        },
+        {
+          "label": "Agriculture",
+          "value": "agriculture"
+        },
+        {
+          "label": "Other",
+          "value": "other"
+        }
+      ],
+      "id": "onb-ib-g12-commerce-q112",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "53fbc806c89f"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Which languages are spoken at home?",
+      "responseType": "multi",
+      "paramId": "p157",
+      "optional": false,
+      "options": [
+        {
+          "label": "English",
+          "value": "en"
+        },
+        {
+          "label": "Hindi",
+          "value": "hi"
+        },
+        {
+          "label": "Another Indian language",
+          "value": "regional"
+        },
+        {
+          "label": "Another language",
+          "value": "other"
+        }
+      ],
+      "id": "onb-ib-g12-commerce-q113",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "9b8c0fd0ab78"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "How involved are you in your child's daily study?",
+      "responseType": "single",
+      "paramId": "p159",
+      "optional": false,
+      "options": [
+        {
+          "label": "I check in every day",
+          "value": "daily"
+        },
+        {
+          "label": "A few times a week",
+          "value": "weekly"
+        },
+        {
+          "label": "Mainly around exams",
+          "value": "exams"
+        },
+        {
+          "label": "Rarely, my child manages it",
+          "value": "rarely"
+        }
+      ],
+      "id": "onb-ib-g12-commerce-q114",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "6b01757b27ef"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Does your child attend tuition or coaching?",
+      "responseType": "single",
+      "paramId": "p21",
+      "optional": false,
+      "options": [
+        {
+          "label": "No",
+          "value": "none"
+        },
+        {
+          "label": "One subject",
+          "value": "one_subject"
+        },
+        {
+          "label": "Two or more subjects",
+          "value": "multi_subject"
+        },
+        {
+          "label": "A coaching institute (e.g. for JEE, NEET or boards)",
+          "value": "institute"
+        }
+      ],
+      "id": "onb-ib-g12-commerce-q115",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "feb34567435d"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Annual household income (optional, helps us suggest scholarships)",
+      "responseType": "single",
+      "paramId": "p176",
+      "optional": true,
+      "options": [
+        {
+          "label": "Under ₹5 lakh",
+          "value": "lt_5l",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 500000
+          }
+        },
+        {
+          "label": "₹5 to 10 lakh",
+          "value": "5_10l",
+          "sets": {
+            "minInr": 500000,
+            "maxInr": 1000000
+          }
+        },
+        {
+          "label": "₹10 to 25 lakh",
+          "value": "10_25l",
+          "sets": {
+            "minInr": 1000000,
+            "maxInr": 2500000
+          }
+        },
+        {
+          "label": "₹25 to 50 lakh",
+          "value": "25_50l",
+          "sets": {
+            "minInr": 2500000,
+            "maxInr": 5000000
+          }
+        },
+        {
+          "label": "Over ₹50 lakh",
+          "value": "gt_50l",
+          "sets": {
+            "minInr": 5000000,
+            "maxInr": null
+          }
+        }
+      ],
+      "id": "onb-ib-g12-commerce-q116",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "43104f173bc2"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "How much can you spend on extra learning each year (tuition, courses, tests)?",
+      "responseType": "single",
+      "paramId": "p178",
+      "optional": false,
+      "options": [
+        {
+          "label": "Under ₹50,000",
+          "value": "lt_50k",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 50000
+          }
+        },
+        {
+          "label": "₹50,000 to 1.5 lakh",
+          "value": "50k_150k",
+          "sets": {
+            "minInr": 50000,
+            "maxInr": 150000
+          }
+        },
+        {
+          "label": "₹1.5 to 3 lakh",
+          "value": "150k_300k",
+          "sets": {
+            "minInr": 150000,
+            "maxInr": 300000
+          }
+        },
+        {
+          "label": "₹3 to 6 lakh",
+          "value": "300k_600k",
+          "sets": {
+            "minInr": 300000,
+            "maxInr": 600000
+          }
+        },
+        {
+          "label": "Over ₹6 lakh",
+          "value": "gt_600k",
+          "sets": {
+            "minInr": 600000,
+            "maxInr": null
+          }
+        }
+      ],
+      "id": "onb-ib-g12-commerce-q117",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "67072550cf5b"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "What total budget can you plan for an undergraduate degree in India?",
+      "responseType": "single",
+      "paramId": "p180",
+      "optional": false,
+      "options": [
+        {
+          "label": "Under ₹5 lakh",
+          "value": "lt_5l",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 500000
+          }
+        },
+        {
+          "label": "₹5 to 15 lakh",
+          "value": "5_15l",
+          "sets": {
+            "minInr": 500000,
+            "maxInr": 1500000
+          }
+        },
+        {
+          "label": "₹15 to 30 lakh",
+          "value": "15_30l",
+          "sets": {
+            "minInr": 1500000,
+            "maxInr": 3000000
+          }
+        },
+        {
+          "label": "Over ₹30 lakh",
+          "value": "gt_30l",
+          "sets": {
+            "minInr": 3000000,
+            "maxInr": null
+          }
+        }
+      ],
+      "id": "onb-ib-g12-commerce-q118",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "832f80bd4135"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "If your child studies abroad, what total budget could you plan?",
+      "responseType": "single",
+      "paramId": "p181",
+      "optional": false,
+      "options": [
+        {
+          "label": "Not considering study abroad",
+          "value": "none",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 0
+          }
+        },
+        {
+          "label": "Under ₹25 lakh",
+          "value": "lt_25l",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 2500000
+          }
+        },
+        {
+          "label": "₹25 to 50 lakh",
+          "value": "25_50l",
+          "sets": {
+            "minInr": 2500000,
+            "maxInr": 5000000
+          }
+        },
+        {
+          "label": "₹50 lakh to 1 crore",
+          "value": "50l_1cr",
+          "sets": {
+            "minInr": 5000000,
+            "maxInr": 10000000
+          }
+        },
+        {
+          "label": "Over ₹1 crore",
+          "value": "gt_1cr",
+          "sets": {
+            "minInr": 10000000,
+            "maxInr": null
+          }
+        }
+      ],
+      "alsoInforms": [
+        "p192"
+      ],
+      "id": "onb-ib-g12-commerce-q119",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "1da408987765"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Would you consider an education loan?",
+      "responseType": "single",
+      "paramId": "p182",
+      "optional": false,
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "label": "Maybe, depending on the course",
+          "value": "maybe"
+        },
+        {
+          "label": "No",
+          "value": "no"
+        }
+      ],
+      "id": "onb-ib-g12-commerce-q120",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "29db07c379ba"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Which career direction would you like for your child?",
+      "responseType": "single",
+      "paramId": "p202",
+      "optional": false,
+      "options": [
+        {
+          "label": "Engineering and technology",
+          "value": "engineering"
+        },
+        {
+          "label": "Medicine and health",
+          "value": "medicine"
+        },
+        {
+          "label": "Business, finance and commerce",
+          "value": "business"
+        },
+        {
+          "label": "Law, government and public policy",
+          "value": "law"
+        },
+        {
+          "label": "Design, media and the arts",
+          "value": "design"
+        },
+        {
+          "label": "Science and research",
+          "value": "research"
+        },
+        {
+          "label": "Teaching, psychology and social work",
+          "value": "social"
+        },
+        {
+          "label": "Whatever my child chooses",
+          "value": "child_choice"
+        }
+      ],
+      "alsoInforms": [
+        "p203"
+      ],
+      "id": "onb-ib-g12-commerce-q121",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "bc4252eaee6c"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "How supportive is your family of your child studying abroad?",
+      "responseType": "scale",
+      "paramId": "p234",
+      "optional": false,
+      "options": [
+        {
+          "label": "1 Not supportive",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Fully supportive",
+          "value": 5
+        }
+      ],
+      "id": "onb-ib-g12-commerce-q122",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "9a84394f1a5b"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "What device and internet does your child use for study?",
+      "responseType": "single",
+      "paramId": "p193",
+      "optional": false,
+      "options": [
+        {
+          "label": "Own laptop or tablet with reliable internet",
+          "value": "own_device"
+        },
+        {
+          "label": "A shared family computer",
+          "value": "shared"
+        },
+        {
+          "label": "Mainly a phone",
+          "value": "phone_only"
+        },
+        {
+          "label": "Internet is often unreliable",
+          "value": "unreliable"
+        }
+      ],
+      "id": "onb-ib-g12-commerce-q123",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "516a78042b4f"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "I consent to Learnibility processing my child's data to personalise their learning, as described in the privacy notice.",
+      "responseType": "consent",
+      "paramId": "p30",
+      "optional": false,
+      "options": [
+        {
+          "label": "I agree",
+          "value": "granted"
+        },
+        {
+          "label": "I do not agree",
+          "value": "refused"
+        }
+      ],
+      "helpText": "Required for a child under 18 (DPDP Act 2023, s.9(1)). You can withdraw consent at any time in Settings.",
+      "id": "onb-ib-g12-commerce-q124",
+      "tier": "C",
+      "screened": false,
+      "contentKey": "1f4aba2a3948"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "I allow my child's selected work to be shown to teachers, tutors and counsellors on the platform.",
+      "responseType": "consent",
+      "paramId": "p277",
+      "optional": true,
+      "options": [
+        {
+          "label": "Yes",
+          "value": "granted"
+        },
+        {
+          "label": "Not now",
+          "value": "refused"
+        }
+      ],
+      "helpText": "Optional. Nothing is shared outside the platform without asking you again.",
+      "id": "onb-ib-g12-commerce-q125",
+      "tier": "C",
+      "screened": false,
+      "contentKey": "f49d9421e2bb"
+    }
+  ]
+}

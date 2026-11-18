@@ -1,0 +1,4972 @@
+{
+  "schemaVersion": 1,
+  "generatedBy": "scripts/onboarding/build-forms.py",
+  "form": {
+    "formId": "onb-cbse-g11-commerce",
+    "designId": "g11-commerce",
+    "board": "cbse",
+    "grade": 11,
+    "stream": "commerce",
+    "title": "CBSE Class 11 Commerce onboarding test",
+    "minutes": {
+      "A": 32,
+      "B": 12,
+      "C": 8,
+      "P": 5
+    },
+    "partA": {
+      "pool": 84,
+      "delivered": 32
+    },
+    "scoring": {
+      "ladder": {
+        "start": "D2",
+        "floor": "D1",
+        "ceiling": "D3",
+        "hitsToStepUp": 2,
+        "weights": {
+          "D1": 1,
+          "D2": 2,
+          "D3": 3
+        }
+      },
+      "bandCutoffs": [
+        {
+          "band": "excellent",
+          "minPercent": 80
+        },
+        {
+          "band": "above_avg",
+          "minPercent": 65
+        },
+        {
+          "band": "average",
+          "minPercent": 45
+        },
+        {
+          "band": "below_avg",
+          "minPercent": 0
+        }
+      ],
+      "groups": [
+        {
+          "group": "accountancy",
+          "label": "Accountancy",
+          "subjectIds": [
+            "cbse-g10-maths",
+            "cbse-g10-social-science",
+            "cbse-g11-accountancy"
+          ]
+        },
+        {
+          "group": "business",
+          "label": "Business Studies",
+          "subjectIds": [
+            "cbse-g10-social-science",
+            "cbse-g11-business"
+          ]
+        },
+        {
+          "group": "economics",
+          "label": "Economics",
+          "subjectIds": [
+            "cbse-g10-social-science",
+            "cbse-g11-economics"
+          ]
+        },
+        {
+          "group": "applied-maths",
+          "label": "Applied Mathematics",
+          "subjectIds": [
+            "cbse-g10-maths",
+            "cbse-g11-applied-maths"
+          ]
+        }
+      ],
+      "writes": [
+        {
+          "paramId": "p1",
+          "rule": "Grade of the form taken",
+          "source": "M1",
+          "confidence": "high"
+        },
+        {
+          "paramId": "p3",
+          "rule": "Board of the form taken",
+          "source": "M1",
+          "confidence": "high"
+        },
+        {
+          "paramId": "p5",
+          "rule": "Stream of the form taken (grades 11-12)",
+          "source": "M1",
+          "confidence": "high"
+        },
+        {
+          "paramId": "p278",
+          "rule": "Per subtopic seen: pMastery 0.7 if right at D2/D3, 0.55 if right at D1, 0.25 if wrong; level L0-L3 from the ladder step reached",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p279",
+          "rule": "Prerequisite-gap index = 100 x weighted misses / weighted items seen in slots 1-4, averaged over groups",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p13",
+          "rule": "Groups with the highest Part A percent (top 1-2, only if >= 65%)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p14",
+          "rule": "Groups with the lowest Part A percent (bottom 1-2, only if < 65%)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p140",
+          "rule": "Mean confidence (1-5) per group",
+          "source": "M1",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p141",
+          "rule": "Calibration = 1 - mean |confidence/5 - correct| over Part A (feeds the first MCI reading)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p284",
+          "rule": "Highest difficulty answered correctly twice in a row: D1 low, D2 medium, D3 high",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p61",
+          "rule": "Verbal reasoning = percent of Part B verbal items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p62",
+          "rule": "Numerical reasoning = percent of Part B numerical items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p63",
+          "rule": "Abstract reasoning = percent of Part B abstract items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p64",
+          "rule": "Spatial reasoning = percent of Part B spatial items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p65",
+          "rule": "Logical deduction = percent right on Part B items tagged p65",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p68",
+          "rule": "Numeracy fluency = numerical percent scaled by speed (right answers under target time count 1.2x, max 100)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p69",
+          "rule": "Processing speed = 100 x share of Part B items answered right within target seconds",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p200",
+          "rule": "RIASEC profile: each career-interest item scored 1-5; letter score = mean of its 2 items; top 3 letters form the code (e.g. IRC)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p31",
+          "rule": "Answer to onb-cbse-g11-commerce-q101 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p33",
+          "rule": "Answer to onb-cbse-g11-commerce-q102 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p34",
+          "rule": "Answer to onb-cbse-g11-commerce-q103 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p39",
+          "rule": "Answer to onb-cbse-g11-commerce-q104 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p40",
+          "rule": "Answer to onb-cbse-g11-commerce-q105 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p46",
+          "rule": "Answer to onb-cbse-g11-commerce-q106 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p105",
+          "rule": "Answer to onb-cbse-g11-commerce-q107 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p48",
+          "rule": "Answer to onb-cbse-g11-commerce-q108 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p50",
+          "rule": "Answer to onb-cbse-g11-commerce-q109 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p49",
+          "rule": "Answer to onb-cbse-g11-commerce-q110 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p21",
+          "rule": "Answer to onb-cbse-g11-commerce-q111 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p123",
+          "rule": "Answer to onb-cbse-g11-commerce-q112 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p125",
+          "rule": "Answer to onb-cbse-g11-commerce-q113 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p331",
+          "rule": "Answer to onb-cbse-g11-commerce-q114 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p111",
+          "rule": "Answer to onb-cbse-g11-commerce-q115 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p83",
+          "rule": "Answer to onb-cbse-g11-commerce-q116 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p230",
+          "rule": "Answer to onb-cbse-g11-commerce-q129 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p198",
+          "rule": "Answer to onb-cbse-g11-commerce-q130 (multi)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p154",
+          "rule": "Answer to onb-cbse-g11-commerce-q131 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p155",
+          "rule": "Answer to onb-cbse-g11-commerce-q132 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p156",
+          "rule": "Answer to onb-cbse-g11-commerce-q133 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p157",
+          "rule": "Answer to onb-cbse-g11-commerce-q134 (multi)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p159",
+          "rule": "Answer to onb-cbse-g11-commerce-q135 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p176",
+          "rule": "Answer to onb-cbse-g11-commerce-q137 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p178",
+          "rule": "Answer to onb-cbse-g11-commerce-q138 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p180",
+          "rule": "Answer to onb-cbse-g11-commerce-q139 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p181",
+          "rule": "Answer to onb-cbse-g11-commerce-q140 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p182",
+          "rule": "Answer to onb-cbse-g11-commerce-q141 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p202",
+          "rule": "Answer to onb-cbse-g11-commerce-q142 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p234",
+          "rule": "Answer to onb-cbse-g11-commerce-q143 (scale)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p193",
+          "rule": "Answer to onb-cbse-g11-commerce-q144 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p30",
+          "rule": "Answer to onb-cbse-g11-commerce-q145 (consent)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p277",
+          "rule": "Answer to onb-cbse-g11-commerce-q146 (consent)",
+          "source": "M2",
+          "confidence": "medium"
+        }
+      ],
+      "reasoning": [
+        {
+          "domain": "numerical",
+          "paramId": "p62",
+          "itemIds": [
+            "onb-cbse-g11-commerce-q85",
+            "onb-cbse-g11-commerce-q86",
+            "onb-cbse-g11-commerce-q87",
+            "onb-cbse-g11-commerce-q88"
+          ]
+        },
+        {
+          "domain": "verbal",
+          "paramId": "p61",
+          "itemIds": [
+            "onb-cbse-g11-commerce-q89",
+            "onb-cbse-g11-commerce-q90",
+            "onb-cbse-g11-commerce-q91",
+            "onb-cbse-g11-commerce-q92"
+          ]
+        },
+        {
+          "domain": "abstract",
+          "paramId": "p63",
+          "itemIds": [
+            "onb-cbse-g11-commerce-q93",
+            "onb-cbse-g11-commerce-q94",
+            "onb-cbse-g11-commerce-q95",
+            "onb-cbse-g11-commerce-q96"
+          ]
+        },
+        {
+          "domain": "spatial",
+          "paramId": "p64",
+          "itemIds": [
+            "onb-cbse-g11-commerce-q97",
+            "onb-cbse-g11-commerce-q98",
+            "onb-cbse-g11-commerce-q99",
+            "onb-cbse-g11-commerce-q100"
+          ]
+        }
+      ],
+      "riasec": {
+        "R": [
+          "onb-cbse-g11-commerce-q117",
+          "onb-cbse-g11-commerce-q118"
+        ],
+        "I": [
+          "onb-cbse-g11-commerce-q119",
+          "onb-cbse-g11-commerce-q120"
+        ],
+        "A": [
+          "onb-cbse-g11-commerce-q121",
+          "onb-cbse-g11-commerce-q122"
+        ],
+        "S": [
+          "onb-cbse-g11-commerce-q123",
+          "onb-cbse-g11-commerce-q124"
+        ],
+        "E": [
+          "onb-cbse-g11-commerce-q125",
+          "onb-cbse-g11-commerce-q126"
+        ],
+        "C": [
+          "onb-cbse-g11-commerce-q127",
+          "onb-cbse-g11-commerce-q128"
+        ]
+      }
+    }
+  },
+  "items": [
+    {
+      "id": "onb-cbse-g11-commerce-q01",
+      "subtopicId": "cbse-g10-social-science-ch20-st2",
+      "chapterId": "cbse-g10-social-science-ch20",
+      "subjectId": "cbse-g10-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A loan of 20 000 is taken at 10% simple interest per year. How much interest is due after 2 years?",
+      "answer": "4 000",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "accountancy",
+      "slot": 1,
+      "half": "prerequisite",
+      "subtopicHint": "Interest on loans and savings",
+      "subtopicLinked": true,
+      "contentKey": "f227e7e432ac",
+      "options": [
+        "2 000",
+        "4 200",
+        "24 000",
+        "4 000"
+      ],
+      "markingKey": "D. 4 000. 20 000 x 0.10 x 2"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q02",
+      "subtopicId": "cbse-g10-social-science-ch20-st2",
+      "chapterId": "cbse-g10-social-science-ch20",
+      "subjectId": "cbse-g10-social-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A trader buys goods for 800 and sells them for 1 000. What is the profit?",
+      "answer": "200",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "accountancy",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Profit, loss and percentages",
+      "subtopicLinked": true,
+      "contentKey": "34ca2e215637",
+      "options": [
+        "200",
+        "20%",
+        "80",
+        "1 800"
+      ],
+      "markingKey": "A. 200. Selling price - cost price"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q03",
+      "subtopicId": "cbse-g10-social-science-ch20-st2",
+      "chapterId": "cbse-g10-social-science-ch20",
+      "subjectId": "cbse-g10-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Goods costing 1 200 are sold at a 25% profit. What is the selling price?",
+      "answer": "1 500",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "accountancy",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Profit, loss and percentages",
+      "subtopicLinked": true,
+      "contentKey": "e365bfb4acab",
+      "options": [
+        "1 500",
+        "1 250",
+        "1 225",
+        "900"
+      ],
+      "markingKey": "A. 1 500. 1 200 x 1.25"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q04",
+      "subtopicId": "cbse-g10-social-science-ch20-st3",
+      "chapterId": "cbse-g10-social-science-ch20",
+      "subjectId": "cbse-g10-social-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Something a borrower pledges to a lender as security for a loan is called",
+      "answer": "collateral",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "accountancy",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Banks, credit and collateral",
+      "subtopicLinked": true,
+      "contentKey": "34bb4617615d",
+      "options": [
+        "a cheque",
+        "interest",
+        "collateral",
+        "a deposit"
+      ],
+      "markingKey": "C. collateral. The lender can sell it if the loan is not repaid"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q05",
+      "subtopicId": "cbse-g10-social-science-ch20-st3",
+      "chapterId": "cbse-g10-social-science-ch20",
+      "subjectId": "cbse-g10-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Why do formal lenders such as banks usually charge less interest than informal moneylenders?",
+      "answer": "They are regulated and can spread risk across many borrowers",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "accountancy",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Banks, credit and collateral",
+      "subtopicLinked": true,
+      "contentKey": "0739127381c3",
+      "options": [
+        "They are regulated and can spread risk across many borrowers",
+        "They never need repayment",
+        "They lend only to friends",
+        "They print their own money"
+      ],
+      "markingKey": "A. They are regulated and can spread risk across many borrowers. Regulation limits interest rates"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q06",
+      "subtopicId": "cbse-g10-social-science-ch20-st3",
+      "chapterId": "cbse-g10-social-science-ch20",
+      "subjectId": "cbse-g10-social-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A family borrows from a moneylender at 5% per month. Roughly what annual rate is this?",
+      "answer": "about 60% a year",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "accountancy",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Banks, credit and collateral",
+      "subtopicLinked": true,
+      "contentKey": "d343c8abc6ac",
+      "options": [
+        "12% a year",
+        "0.4% a year",
+        "about 60% a year",
+        "5% a year"
+      ],
+      "markingKey": "C. about 60% a year. 5 x 12 months"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q07",
+      "subtopicId": "cbse-g10-maths-ch13-st1",
+      "chapterId": "cbse-g10-maths-ch13",
+      "subjectId": "cbse-g10-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A shop sold 12, 15, 9 and 14 items over four days. What is the mean daily sale?",
+      "answer": "12.5",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "accountancy",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Reading data and averages",
+      "subtopicLinked": true,
+      "contentKey": "dbb2793aa43a",
+      "options": [
+        "12",
+        "50",
+        "14",
+        "12.5"
+      ],
+      "markingKey": "D. 12.5. 50 ÷ 4"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q08",
+      "subtopicId": "cbse-g10-maths-ch13-st1",
+      "chapterId": "cbse-g10-maths-ch13",
+      "subjectId": "cbse-g10-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Sales rose from 40 000 to 50 000. What is the percentage increase?",
+      "answer": "25%",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "accountancy",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Reading data and averages",
+      "subtopicLinked": true,
+      "contentKey": "fc770913acae",
+      "options": [
+        "20%",
+        "80%",
+        "25%",
+        "10%"
+      ],
+      "markingKey": "C. 25%. 10 000 ÷ 40 000"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q09",
+      "subtopicId": "cbse-g10-maths-ch13-st1",
+      "chapterId": "cbse-g10-maths-ch13",
+      "subjectId": "cbse-g10-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Monthly costs were 30, 30, 30 and 90 (thousands). Why is the median a better summary than the mean here?",
+      "answer": "The single large value pulls the mean up",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "accountancy",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Reading data and averages",
+      "subtopicLinked": true,
+      "contentKey": "4dcda54e34cb",
+      "options": [
+        "There are too few values for a mean",
+        "The median is always larger",
+        "The mean cannot be calculated",
+        "The single large value pulls the mean up"
+      ],
+      "markingKey": "D. The single large value pulls the mean up. Medians resist outliers"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q10",
+      "subtopicId": "cbse-g11-accountancy-ch03-st2",
+      "chapterId": "cbse-g11-accountancy-ch03",
+      "subjectId": "cbse-g11-accountancy",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "The accounting equation is",
+      "answer": "Assets = Liabilities + Capital",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "accountancy",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "The accounting equation",
+      "subtopicLinked": true,
+      "contentKey": "a4ac9a3816ab",
+      "options": [
+        "Liabilities = Assets + Capital",
+        "Assets = Capital - Liabilities",
+        "Assets = Liabilities + Capital",
+        "Capital = Assets + Liabilities"
+      ],
+      "markingKey": "C. Assets = Liabilities + Capital. What the business owns is financed by others or the owner"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q11",
+      "subtopicId": "cbse-g11-accountancy-ch03-st2",
+      "chapterId": "cbse-g11-accountancy-ch03",
+      "subjectId": "cbse-g11-accountancy",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A business has assets of 90 000 and liabilities of 25 000. What is the capital?",
+      "answer": "65 000",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "accountancy",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "The accounting equation",
+      "subtopicLinked": true,
+      "contentKey": "fb4407c243c9",
+      "options": [
+        "115 000",
+        "25 000",
+        "65 000",
+        "90 000"
+      ],
+      "markingKey": "C. 65 000. 90 000 - 25 000"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q12",
+      "subtopicId": "cbse-g11-accountancy-ch03-st2",
+      "chapterId": "cbse-g11-accountancy-ch03",
+      "subjectId": "cbse-g11-accountancy",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "The owner introduces 10 000 cash into the business. What happens to the equation?",
+      "answer": "Assets and capital both rise by 10 000",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "accountancy",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "The accounting equation",
+      "subtopicLinked": true,
+      "contentKey": "3dde5a679ecd",
+      "options": [
+        "Only capital rises",
+        "Assets rise, liabilities fall",
+        "Assets and capital both rise by 10 000",
+        "Assets fall by 10 000"
+      ],
+      "markingKey": "C. Assets and capital both rise by 10 000. Both sides change equally"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q13",
+      "subtopicId": "cbse-g11-accountancy-ch03-st3",
+      "chapterId": "cbse-g11-accountancy-ch03",
+      "subjectId": "cbse-g11-accountancy",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "An increase in an asset is recorded as a",
+      "answer": "debit",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "accountancy",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Rules of debit and credit",
+      "subtopicLinked": true,
+      "contentKey": "3d38fc069b3d",
+      "options": [
+        "debit",
+        "liability",
+        "credit",
+        "neither"
+      ],
+      "markingKey": "A. debit. Assets increase on the debit side"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q14",
+      "subtopicId": "cbse-g11-accountancy-ch03-st3",
+      "chapterId": "cbse-g11-accountancy-ch03",
+      "subjectId": "cbse-g11-accountancy",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Goods are bought on credit from Ravi. Which account is credited?",
+      "answer": "Ravi's account",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "accountancy",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Rules of debit and credit",
+      "subtopicLinked": true,
+      "contentKey": "708d84863d67",
+      "options": [
+        "Ravi's account",
+        "Purchases account",
+        "Sales account",
+        "Cash account"
+      ],
+      "markingKey": "A. Ravi's account. Ravi becomes a creditor"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q15",
+      "subtopicId": "cbse-g11-accountancy-ch03-st3",
+      "chapterId": "cbse-g11-accountancy-ch03",
+      "subjectId": "cbse-g11-accountancy",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Rent of 5 000 is paid by cheque. What is the double entry?",
+      "answer": "Debit Rent, credit Bank",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "accountancy",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Rules of debit and credit",
+      "subtopicLinked": true,
+      "contentKey": "79691d1f6b50",
+      "options": [
+        "Debit Rent, credit Bank",
+        "Debit Rent, credit Cash",
+        "Debit Bank, credit Rent",
+        "Debit Capital, credit Rent"
+      ],
+      "markingKey": "A. Debit Rent, credit Bank. Expense increases, bank decreases"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q16",
+      "subtopicId": "cbse-g11-accountancy-ch03-st4",
+      "chapterId": "cbse-g11-accountancy-ch03",
+      "subjectId": "cbse-g11-accountancy",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Credit sales of goods are first recorded in the",
+      "answer": "sales journal (sales day book)",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "accountancy",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Books of original entry",
+      "subtopicLinked": true,
+      "contentKey": "08afd8de5333",
+      "options": [
+        "purchases journal",
+        "trial balance",
+        "cash book",
+        "sales journal (sales day book)"
+      ],
+      "markingKey": "D. sales journal (sales day book). A book of prime entry"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q17",
+      "subtopicId": "cbse-g11-accountancy-ch03-st4",
+      "chapterId": "cbse-g11-accountancy-ch03",
+      "subjectId": "cbse-g11-accountancy",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which book records both cash and bank receipts and payments?",
+      "answer": "a two-column cash book",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "accountancy",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Books of original entry",
+      "subtopicLinked": true,
+      "contentKey": "966336be5387",
+      "options": [
+        "the general journal only",
+        "the sales journal",
+        "the balance sheet",
+        "a two-column cash book"
+      ],
+      "markingKey": "D. a two-column cash book. It acts as both a journal and a ledger"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q18",
+      "subtopicId": "cbse-g11-accountancy-ch03-st4",
+      "chapterId": "cbse-g11-accountancy-ch03",
+      "subjectId": "cbse-g11-accountancy",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A contra entry in a two-column cash book occurs when",
+      "answer": "cash is deposited into or withdrawn from the bank",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "accountancy",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Books of original entry",
+      "subtopicLinked": true,
+      "contentKey": "f9ef9f2f8d43",
+      "options": [
+        "goods are sold on credit",
+        "depreciation is charged",
+        "a debtor pays by cheque",
+        "cash is deposited into or withdrawn from the bank"
+      ],
+      "markingKey": "D. cash is deposited into or withdrawn from the bank. Both sides are within the cash book"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q19",
+      "subtopicId": "cbse-g11-accountancy-ch06-st1",
+      "chapterId": "cbse-g11-accountancy-ch06",
+      "subjectId": "cbse-g11-accountancy",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A trial balance is prepared to",
+      "answer": "check that total debits equal total credits",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "accountancy",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "The trial balance and errors",
+      "subtopicLinked": true,
+      "contentKey": "c88cc78bad5e",
+      "options": [
+        "calculate profit",
+        "pay taxes",
+        "check that total debits equal total credits",
+        "record sales"
+      ],
+      "markingKey": "C. check that total debits equal total credits. An arithmetical check of the ledger"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q20",
+      "subtopicId": "cbse-g11-accountancy-ch06-st1",
+      "chapterId": "cbse-g11-accountancy-ch06",
+      "subjectId": "cbse-g11-accountancy",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which error will NOT be revealed by a trial balance?",
+      "answer": "An entry completely omitted from the books",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "accountancy",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "The trial balance and errors",
+      "subtopicLinked": true,
+      "contentKey": "3f13f65067c5",
+      "options": [
+        "An entry completely omitted from the books",
+        "A ledger total added wrongly",
+        "A debit entered as 500 and credit as 50",
+        "A balance left out of the trial balance"
+      ],
+      "markingKey": "A. An entry completely omitted from the books. Errors of omission keep the totals equal"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q21",
+      "subtopicId": "cbse-g11-accountancy-ch06-st1",
+      "chapterId": "cbse-g11-accountancy-ch06",
+      "subjectId": "cbse-g11-accountancy",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Repairs to machinery of 3 000 were debited to the Machinery account. What type of error is this?",
+      "answer": "error of principle",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "accountancy",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "The trial balance and errors",
+      "subtopicLinked": true,
+      "contentKey": "7b23bd177225",
+      "options": [
+        "compensating error",
+        "error of omission",
+        "error of principle",
+        "error of original entry"
+      ],
+      "markingKey": "C. error of principle. Revenue expenditure was treated as capital"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q22",
+      "subtopicId": "cbse-g10-social-science-ch19-st1",
+      "chapterId": "cbse-g10-social-science-ch19",
+      "subjectId": "cbse-g10-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A bank and a hospital belong to which sector?",
+      "answer": "tertiary (services)",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 1,
+      "half": "prerequisite",
+      "subtopicHint": "Sectors of economic activity",
+      "subtopicLinked": true,
+      "contentKey": "6a3f73e82074",
+      "options": [
+        "tertiary (services)",
+        "secondary",
+        "quaternary only",
+        "primary"
+      ],
+      "markingKey": "A. tertiary (services). They provide services"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q23",
+      "subtopicId": "cbse-g10-social-science-ch03-st4",
+      "chapterId": "cbse-g10-social-science-ch03",
+      "subjectId": "cbse-g10-social-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A company that owns or controls production in more than one country is a",
+      "answer": "multinational corporation (MNC)",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Globalisation and multinational companies",
+      "subtopicLinked": true,
+      "contentKey": "9999d377be7e",
+      "options": [
+        "cooperative society",
+        "multinational corporation (MNC)",
+        "public sector unit only",
+        "sole trader"
+      ],
+      "markingKey": "B. multinational corporation (MNC). Also called a TNC"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q24",
+      "subtopicId": "cbse-g10-social-science-ch03-st4",
+      "chapterId": "cbse-g10-social-science-ch03",
+      "subjectId": "cbse-g10-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Why do MNCs often set up factories in countries with lower wages?",
+      "answer": "To reduce production costs and stay competitive",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Globalisation and multinational companies",
+      "subtopicLinked": true,
+      "contentKey": "ddbb737b1de4",
+      "options": [
+        "Because they must by law",
+        "To avoid selling there",
+        "To reduce production costs and stay competitive",
+        "To pay more tax"
+      ],
+      "markingKey": "C. To reduce production costs and stay competitive. Cost advantage"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q25",
+      "subtopicId": "cbse-g10-social-science-ch22-st1",
+      "chapterId": "cbse-g10-social-science-ch22",
+      "subjectId": "cbse-g10-social-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A product label must show its MRP in India. MRP stands for",
+      "answer": "maximum retail price",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Consumers and fair trade",
+      "subtopicLinked": true,
+      "contentKey": "083d701e950e",
+      "options": [
+        "minimum resale price",
+        "maximum retail price",
+        "market rate price",
+        "monthly retail payment"
+      ],
+      "markingKey": "B. maximum retail price. Consumers cannot be charged more"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q26",
+      "subtopicId": "cbse-g10-social-science-ch22-st1",
+      "chapterId": "cbse-g10-social-science-ch22",
+      "subjectId": "cbse-g10-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Why do consumers need protection laws?",
+      "answer": "Sellers may know more than buyers and could mislead them",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Consumers and fair trade",
+      "subtopicLinked": true,
+      "contentKey": "abaa7b9af1e5",
+      "options": [
+        "Consumers always have full information",
+        "Prices are fixed by nature",
+        "Sellers may know more than buyers and could mislead them",
+        "Shops are owned by the state"
+      ],
+      "markingKey": "C. Sellers may know more than buyers and could mislead them. Information gaps"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q27",
+      "subtopicId": "cbse-g10-social-science-ch22-st1",
+      "chapterId": "cbse-g10-social-science-ch22",
+      "subjectId": "cbse-g10-social-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Fair-trade labelling mainly aims to",
+      "answer": "guarantee producers in poorer countries a fair price",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Consumers and fair trade",
+      "subtopicLinked": true,
+      "contentKey": "71fbb9028ff0",
+      "options": [
+        "ban imports",
+        "guarantee producers in poorer countries a fair price",
+        "increase advertising",
+        "make goods cheaper for buyers"
+      ],
+      "markingKey": "B. guarantee producers in poorer countries a fair price. Ethical trade"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q28",
+      "subtopicId": "cbse-g10-social-science-ch20-st2",
+      "chapterId": "cbse-g10-social-science-ch20",
+      "subjectId": "cbse-g10-social-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Which indicator best measures average income in a country?",
+      "answer": "GNI (or GDP) per capita",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Development and living standards",
+      "subtopicLinked": true,
+      "contentKey": "7308112b0d27",
+      "options": [
+        "GNI (or GDP) per capita",
+        "land area",
+        "number of cities",
+        "total population"
+      ],
+      "markingKey": "A. GNI (or GDP) per capita. Income per person"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q29",
+      "subtopicId": "cbse-g10-social-science-ch20-st2",
+      "chapterId": "cbse-g10-social-science-ch20",
+      "subjectId": "cbse-g10-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Why is HDI considered a broader measure of development than income alone?",
+      "answer": "It also includes health and education",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Development and living standards",
+      "subtopicLinked": true,
+      "contentKey": "791af26ccd2c",
+      "options": [
+        "It measures only exports",
+        "It counts only rich people",
+        "It also includes health and education",
+        "It ignores income"
+      ],
+      "markingKey": "C. It also includes health and education. Life expectancy, schooling and income"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q30",
+      "subtopicId": "cbse-g10-social-science-ch20-st2",
+      "chapterId": "cbse-g10-social-science-ch20",
+      "subjectId": "cbse-g10-social-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Country A has higher income per head than B, but lower life expectancy and literacy. What does this suggest?",
+      "answer": "Income alone does not show overall well-being",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Development and living standards",
+      "subtopicLinked": true,
+      "contentKey": "a5398f2fb73f",
+      "options": [
+        "A is more developed in every way",
+        "B must be poorer in all respects",
+        "Data must be wrong",
+        "Income alone does not show overall well-being"
+      ],
+      "markingKey": "D. Income alone does not show overall well-being. Development is multi-dimensional"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q31",
+      "subtopicId": "cbse-g11-business-ch01-st3",
+      "chapterId": "cbse-g11-business-ch01",
+      "subjectId": "cbse-g11-business",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A person who takes the risk of starting a business is an",
+      "answer": "entrepreneur",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Business activity and enterprise",
+      "subtopicLinked": true,
+      "contentKey": "3383767126be",
+      "options": [
+        "entrepreneur",
+        "auditor",
+        "employee",
+        "consumer"
+      ],
+      "markingKey": "A. entrepreneur. They combine resources"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q32",
+      "subtopicId": "cbse-g11-business-ch01-st3",
+      "chapterId": "cbse-g11-business-ch01",
+      "subjectId": "cbse-g11-business",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which is an example of a secondary-sector business?",
+      "answer": "a car factory",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Business activity and enterprise",
+      "subtopicLinked": true,
+      "contentKey": "1e6b1b59ffe3",
+      "options": [
+        "a car factory",
+        "a fish farm",
+        "a bank",
+        "a school"
+      ],
+      "markingKey": "A. a car factory. Manufacturing"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q33",
+      "subtopicId": "cbse-g11-business-ch01-st3",
+      "chapterId": "cbse-g11-business-ch01",
+      "subjectId": "cbse-g11-business",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why do many new businesses fail in their first years?",
+      "answer": "Poor cash flow and a lack of experience or market research",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Business activity and enterprise",
+      "subtopicLinked": true,
+      "contentKey": "1c72d259f38b",
+      "options": [
+        "They have too many customers",
+        "Poor cash flow and a lack of experience or market research",
+        "They make too much profit",
+        "Governments ban them"
+      ],
+      "markingKey": "B. Poor cash flow and a lack of experience or market research. Cash and planning problems"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q34",
+      "subtopicId": "cbse-g11-business-ch02-st1",
+      "chapterId": "cbse-g11-business-ch02",
+      "subjectId": "cbse-g11-business",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A business owned and run by one person is a",
+      "answer": "sole proprietorship (sole trader)",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Forms of business organisation",
+      "subtopicLinked": true,
+      "contentKey": "dacfb7f8bb26",
+      "options": [
+        "public company",
+        "cooperative",
+        "sole proprietorship (sole trader)",
+        "partnership"
+      ],
+      "markingKey": "C. sole proprietorship (sole trader). One owner"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q35",
+      "subtopicId": "cbse-g11-business-ch02-st1",
+      "chapterId": "cbse-g11-business-ch02",
+      "subjectId": "cbse-g11-business",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "What does limited liability mean?",
+      "answer": "Owners can lose only what they invested",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Forms of business organisation",
+      "subtopicLinked": true,
+      "contentKey": "03ccb174bf62",
+      "options": [
+        "Owners pay unlimited debts",
+        "Profits are limited by law",
+        "Owners can lose only what they invested",
+        "The business cannot borrow"
+      ],
+      "markingKey": "C. Owners can lose only what they invested. Personal assets are protected"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q36",
+      "subtopicId": "cbse-g11-business-ch02-st1",
+      "chapterId": "cbse-g11-business-ch02",
+      "subjectId": "cbse-g11-business",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why might a growing partnership convert into a private limited company?",
+      "answer": "To raise more capital and protect owners with limited liability",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Forms of business organisation",
+      "subtopicLinked": true,
+      "contentKey": "f3fd948678ef",
+      "options": [
+        "To avoid keeping accounts",
+        "To raise more capital and protect owners with limited liability",
+        "To have only one owner",
+        "To pay more tax"
+      ],
+      "markingKey": "B. To raise more capital and protect owners with limited liability. Growth and risk"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q37",
+      "subtopicId": "cbse-g11-business-ch01-st2",
+      "chapterId": "cbse-g11-business-ch01",
+      "subjectId": "cbse-g11-business",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "The most common objective of a new small business is",
+      "answer": "survival",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Business objectives",
+      "subtopicLinked": true,
+      "contentKey": "735cd87d4b54",
+      "options": [
+        "survival",
+        "social responsibility only",
+        "market leadership",
+        "global expansion"
+      ],
+      "markingKey": "A. survival. It must first stay open"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q38",
+      "subtopicId": "cbse-g11-business-ch01-st2",
+      "chapterId": "cbse-g11-business-ch01",
+      "subjectId": "cbse-g11-business",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A SMART objective must be",
+      "answer": "specific, measurable, achievable, realistic and time-bound",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Business objectives",
+      "subtopicLinked": true,
+      "contentKey": "53132349106a",
+      "options": [
+        "set only by employees",
+        "simple and short",
+        "secret",
+        "specific, measurable, achievable, realistic and time-bound"
+      ],
+      "markingKey": "D. specific, measurable, achievable, realistic and time-bound. Clear targets"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q39",
+      "subtopicId": "cbse-g11-business-ch01-st2",
+      "chapterId": "cbse-g11-business-ch01",
+      "subjectId": "cbse-g11-business",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why might a social enterprise not aim to maximise profit?",
+      "answer": "Its main aim is a social or environmental goal",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Business objectives",
+      "subtopicLinked": true,
+      "contentKey": "495998074087",
+      "options": [
+        "It is owned by the government",
+        "It is not allowed to make any profit",
+        "It has no customers",
+        "Its main aim is a social or environmental goal"
+      ],
+      "markingKey": "D. Its main aim is a social or environmental goal. Profit supports the mission"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q40",
+      "subtopicId": "cbse-g11-business-ch06-st1",
+      "chapterId": "cbse-g11-business-ch06",
+      "subjectId": "cbse-g11-business",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Which group is an internal stakeholder?",
+      "answer": "employees",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Stakeholders",
+      "subtopicLinked": true,
+      "contentKey": "08e12dc5312a",
+      "options": [
+        "the government",
+        "employees",
+        "customers",
+        "suppliers"
+      ],
+      "markingKey": "B. employees. They are inside the business"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q41",
+      "subtopicId": "cbse-g11-business-ch06-st1",
+      "chapterId": "cbse-g11-business-ch06",
+      "subjectId": "cbse-g11-business",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Why might local residents object to a new factory?",
+      "answer": "Noise, traffic and pollution could affect them",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Stakeholders",
+      "subtopicLinked": true,
+      "contentKey": "d672fff86da7",
+      "options": [
+        "Prices will fall",
+        "They own shares",
+        "They will get jobs",
+        "Noise, traffic and pollution could affect them"
+      ],
+      "markingKey": "D. Noise, traffic and pollution could affect them. External costs"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q42",
+      "subtopicId": "cbse-g11-business-ch06-st1",
+      "chapterId": "cbse-g11-business-ch06",
+      "subjectId": "cbse-g11-business",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Shareholders want higher dividends and workers want higher pay. This is an example of",
+      "answer": "stakeholder conflict",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "business",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Stakeholders",
+      "subtopicLinked": true,
+      "contentKey": "266d2dc3a963",
+      "options": [
+        "stakeholder conflict",
+        "vertical integration",
+        "diversification",
+        "stakeholder agreement"
+      ],
+      "markingKey": "A. stakeholder conflict. Objectives clash"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q43",
+      "subtopicId": "cbse-g10-social-science-ch17-st2",
+      "chapterId": "cbse-g10-social-science-ch17",
+      "subjectId": "cbse-g10-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Per capita income is",
+      "answer": "total national income divided by population",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 1,
+      "half": "prerequisite",
+      "subtopicHint": "Measuring development",
+      "subtopicLinked": true,
+      "contentKey": "f849e575723d",
+      "options": [
+        "total national income divided by population",
+        "income of the richest person",
+        "average price of goods",
+        "total exports"
+      ],
+      "markingKey": "A. total national income divided by population. Average income"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q44",
+      "subtopicId": "cbse-g10-social-science-ch19-st1",
+      "chapterId": "cbse-g10-social-science-ch19",
+      "subjectId": "cbse-g10-social-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Farming and mining are part of the",
+      "answer": "primary sector",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Sectors and employment",
+      "subtopicLinked": true,
+      "contentKey": "672ed6592f53",
+      "options": [
+        "primary sector",
+        "service sector",
+        "tertiary sector",
+        "secondary sector"
+      ],
+      "markingKey": "A. primary sector. Natural resources"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q45",
+      "subtopicId": "cbse-g10-social-science-ch19-st1",
+      "chapterId": "cbse-g10-social-science-ch19",
+      "subjectId": "cbse-g10-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "As countries develop, the share of workers in the tertiary sector usually",
+      "answer": "rises",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Sectors and employment",
+      "subtopicLinked": true,
+      "contentKey": "918f0cef8786",
+      "options": [
+        "disappears",
+        "stays exactly the same",
+        "rises",
+        "falls to zero"
+      ],
+      "markingKey": "C. rises. Services grow"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q46",
+      "subtopicId": "cbse-g10-social-science-ch03-st4",
+      "chapterId": "cbse-g10-social-science-ch03",
+      "subjectId": "cbse-g10-social-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Goods bought from other countries are",
+      "answer": "imports",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Trade and globalisation",
+      "subtopicLinked": true,
+      "contentKey": "11be0d3109ab",
+      "options": [
+        "exports",
+        "imports",
+        "tariffs",
+        "subsidies"
+      ],
+      "markingKey": "B. imports. Coming in"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q47",
+      "subtopicId": "cbse-g10-social-science-ch03-st4",
+      "chapterId": "cbse-g10-social-science-ch03",
+      "subjectId": "cbse-g10-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A tax on imported goods is a",
+      "answer": "tariff",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Trade and globalisation",
+      "subtopicLinked": true,
+      "contentKey": "98779a48d3e0",
+      "options": [
+        "quota",
+        "subsidy",
+        "tariff",
+        "dividend"
+      ],
+      "markingKey": "C. tariff. It makes imports dearer"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q48",
+      "subtopicId": "cbse-g10-social-science-ch03-st4",
+      "chapterId": "cbse-g10-social-science-ch03",
+      "subjectId": "cbse-g10-social-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why might cheaper imported toys harm small domestic toy makers?",
+      "answer": "Consumers may switch to the cheaper imports",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Trade and globalisation",
+      "subtopicLinked": true,
+      "contentKey": "02a13f39e759",
+      "options": [
+        "Toys cannot be traded",
+        "Imports raise domestic prices",
+        "Domestic makers get subsidies automatically",
+        "Consumers may switch to the cheaper imports"
+      ],
+      "markingKey": "D. Consumers may switch to the cheaper imports. Competition"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q49",
+      "subtopicId": "cbse-g10-social-science-ch20-st1",
+      "chapterId": "cbse-g10-social-science-ch20",
+      "subjectId": "cbse-g10-social-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Money solves the problem of the double coincidence of wants because it",
+      "answer": "is a medium of exchange",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Money, credit and inequality",
+      "subtopicLinked": true,
+      "contentKey": "583f12578e01",
+      "options": [
+        "is a medium of exchange",
+        "is only used by banks",
+        "is made of paper",
+        "has no value"
+      ],
+      "markingKey": "A. is a medium of exchange. Barter needs matching wants"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q50",
+      "subtopicId": "cbse-g10-social-science-ch20-st1",
+      "chapterId": "cbse-g10-social-science-ch20",
+      "subjectId": "cbse-g10-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which is a likely effect of rising inequality?",
+      "answer": "A larger gap between rich and poor households",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Money, credit and inequality",
+      "subtopicLinked": true,
+      "contentKey": "549b0d1e4b8a",
+      "options": [
+        "Unemployment disappears",
+        "Prices fall for everyone",
+        "A larger gap between rich and poor households",
+        "Everyone earns the same"
+      ],
+      "markingKey": "C. A larger gap between rich and poor households. Distribution widens"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q51",
+      "subtopicId": "cbse-g10-social-science-ch20-st1",
+      "chapterId": "cbse-g10-social-science-ch20",
+      "subjectId": "cbse-g10-social-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why can easy access to cheap credit help poor rural families?",
+      "answer": "They can invest in seeds or tools without falling into debt traps",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Money, credit and inequality",
+      "subtopicLinked": true,
+      "contentKey": "5cf8270cd975",
+      "options": [
+        "They never need to repay",
+        "It raises moneylender rates",
+        "It removes all risk",
+        "They can invest in seeds or tools without falling into debt traps"
+      ],
+      "markingKey": "D. They can invest in seeds or tools without falling into debt traps. Formal credit is cheaper"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q52",
+      "subtopicId": "cbse-g11-economics-ch09-st2",
+      "chapterId": "cbse-g11-economics-ch09",
+      "subjectId": "cbse-g11-economics",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "The basic economic problem arises because",
+      "answer": "wants are unlimited but resources are scarce",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Scarcity, choice and the PPF",
+      "subtopicLinked": true,
+      "contentKey": "e2b5bd8900b3",
+      "options": [
+        "wants are unlimited but resources are scarce",
+        "money is scarce only",
+        "people want nothing",
+        "resources are unlimited"
+      ],
+      "markingKey": "A. wants are unlimited but resources are scarce. Scarcity forces choice"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q53",
+      "subtopicId": "cbse-g11-economics-ch09-st2",
+      "chapterId": "cbse-g11-economics-ch09",
+      "subjectId": "cbse-g11-economics",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "The next best alternative given up when making a choice is the",
+      "answer": "opportunity cost",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Scarcity, choice and the PPF",
+      "subtopicLinked": true,
+      "contentKey": "cad531d76628",
+      "options": [
+        "opportunity cost",
+        "sunk cost",
+        "fixed cost",
+        "marginal cost"
+      ],
+      "markingKey": "A. opportunity cost. Cost of the forgone option"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q54",
+      "subtopicId": "cbse-g11-economics-ch09-st2",
+      "chapterId": "cbse-g11-economics-ch09",
+      "subjectId": "cbse-g11-economics",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A point inside a production possibility frontier shows",
+      "answer": "unemployed or inefficiently used resources",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Scarcity, choice and the PPF",
+      "subtopicLinked": true,
+      "contentKey": "63d79c55cd88",
+      "options": [
+        "unemployed or inefficiently used resources",
+        "economic growth",
+        "maximum efficiency",
+        "an unattainable output"
+      ],
+      "markingKey": "A. unemployed or inefficiently used resources. More could be produced"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q55",
+      "subtopicId": "cbse-g11-economics-ch10-st4",
+      "chapterId": "cbse-g11-economics-ch10",
+      "subjectId": "cbse-g11-economics",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "The law of demand says that as price falls, quantity demanded",
+      "answer": "rises",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Demand and its determinants",
+      "subtopicLinked": true,
+      "contentKey": "c97b95c007b0",
+      "options": [
+        "rises",
+        "stays the same",
+        "becomes zero",
+        "falls"
+      ],
+      "markingKey": "A. rises. Other things equal"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q56",
+      "subtopicId": "cbse-g11-economics-ch10-st4",
+      "chapterId": "cbse-g11-economics-ch10",
+      "subjectId": "cbse-g11-economics",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A rise in income increases demand for a normal good. On a graph, this",
+      "answer": "shifts the demand curve to the right",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Demand and its determinants",
+      "subtopicLinked": true,
+      "contentKey": "c63ccf33969f",
+      "options": [
+        "moves along the curve",
+        "shifts the demand curve to the right",
+        "shifts the supply curve",
+        "has no effect"
+      ],
+      "markingKey": "B. shifts the demand curve to the right. A change in a non-price factor"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q57",
+      "subtopicId": "cbse-g11-economics-ch10-st4",
+      "chapterId": "cbse-g11-economics-ch10",
+      "subjectId": "cbse-g11-economics",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "The price of tea rises. What happens to demand for coffee and for sugar?",
+      "answer": "Coffee demand rises; sugar demand falls",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Demand and its determinants",
+      "subtopicLinked": true,
+      "contentKey": "cf649611e7da",
+      "options": [
+        "Both rise",
+        "Coffee falls; sugar rises",
+        "Coffee demand rises; sugar demand falls",
+        "Both fall"
+      ],
+      "markingKey": "C. Coffee demand rises; sugar demand falls. Coffee is a substitute, sugar a complement"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q58",
+      "subtopicId": "cbse-g11-economics-ch13-st1",
+      "chapterId": "cbse-g11-economics-ch13",
+      "subjectId": "cbse-g11-economics",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "At equilibrium, quantity demanded",
+      "answer": "equals quantity supplied",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Market equilibrium",
+      "subtopicLinked": true,
+      "contentKey": "998a2a4c6cbb",
+      "options": [
+        "is zero",
+        "is less than supply",
+        "equals quantity supplied",
+        "exceeds supply"
+      ],
+      "markingKey": "C. equals quantity supplied. Market clears"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q59",
+      "subtopicId": "cbse-g11-economics-ch13-st1",
+      "chapterId": "cbse-g11-economics-ch13",
+      "subjectId": "cbse-g11-economics",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "If price is below equilibrium there is",
+      "answer": "excess demand (a shortage)",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Market equilibrium",
+      "subtopicLinked": true,
+      "contentKey": "2c8d7469ae72",
+      "options": [
+        "equilibrium",
+        "excess supply",
+        "excess demand (a shortage)",
+        "a surplus"
+      ],
+      "markingKey": "C. excess demand (a shortage). Buyers want more than is offered"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q60",
+      "subtopicId": "cbse-g11-economics-ch13-st1",
+      "chapterId": "cbse-g11-economics-ch13",
+      "subjectId": "cbse-g11-economics",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A government sets a maximum rent below the equilibrium. What is the likely result?",
+      "answer": "A shortage of rental housing",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Market equilibrium",
+      "subtopicLinked": true,
+      "contentKey": "0de943597b5b",
+      "options": [
+        "A shortage of rental housing",
+        "No effect",
+        "A surplus of housing",
+        "Rents rise above equilibrium"
+      ],
+      "markingKey": "A. A shortage of rental housing. Price ceiling"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q61",
+      "subtopicId": "cbse-g11-economics-ch10-st4",
+      "chapterId": "cbse-g11-economics-ch10",
+      "subjectId": "cbse-g11-economics",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "If demand is price elastic, a price rise causes",
+      "answer": "a proportionately larger fall in quantity demanded",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Price elasticity",
+      "subtopicLinked": true,
+      "contentKey": "f181037f7749",
+      "options": [
+        "a rise in quantity demanded",
+        "no change",
+        "a proportionately larger fall in quantity demanded",
+        "a smaller fall"
+      ],
+      "markingKey": "C. a proportionately larger fall in quantity demanded. PED > 1"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q62",
+      "subtopicId": "cbse-g11-economics-ch10-st4",
+      "chapterId": "cbse-g11-economics-ch10",
+      "subjectId": "cbse-g11-economics",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Price rises by 10% and quantity demanded falls by 5%. What is PED?",
+      "answer": "-0.5",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Price elasticity",
+      "subtopicLinked": true,
+      "contentKey": "90b68666ff83",
+      "options": [
+        "-5",
+        "-0.05",
+        "-0.5",
+        "-2"
+      ],
+      "markingKey": "C. -0.5. -5% ÷ 10%"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q63",
+      "subtopicId": "cbse-g11-economics-ch10-st4",
+      "chapterId": "cbse-g11-economics-ch10",
+      "subjectId": "cbse-g11-economics",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why is demand for salt usually price inelastic?",
+      "answer": "It is a necessity with few substitutes and a small share of income",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Price elasticity",
+      "subtopicLinked": true,
+      "contentKey": "ffbf1ddd8ef2",
+      "options": [
+        "It is a necessity with few substitutes and a small share of income",
+        "It has many substitutes",
+        "It is a luxury",
+        "It is very expensive"
+      ],
+      "markingKey": "A. It is a necessity with few substitutes and a small share of income. Determinants of PED"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q64",
+      "subtopicId": "cbse-g10-maths-ch04-st3",
+      "chapterId": "cbse-g10-maths-ch04",
+      "subjectId": "cbse-g10-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Solve x² - 7x + 12 = 0.",
+      "answer": "x = 3 or x = 4",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 1,
+      "half": "prerequisite",
+      "subtopicHint": "Quadratic equations",
+      "subtopicLinked": true,
+      "contentKey": "026f291acb29",
+      "options": [
+        "x = -3 or x = -4",
+        "x = 12",
+        "x = 2 or x = 6",
+        "x = 3 or x = 4"
+      ],
+      "markingKey": "D. x = 3 or x = 4. (x - 3)(x - 4) = 0"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q65",
+      "subtopicId": "cbse-g10-maths-ch08-st1",
+      "chapterId": "cbse-g10-maths-ch08",
+      "subjectId": "cbse-g10-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "What is sin 30°?",
+      "answer": "1/2",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Trigonometric ratios",
+      "subtopicLinked": true,
+      "contentKey": "3478dc62b5f9",
+      "options": [
+        "√3/2",
+        "1/2",
+        "1",
+        "√2"
+      ],
+      "markingKey": "B. 1/2. Standard value"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q66",
+      "subtopicId": "cbse-g10-maths-ch08-st1",
+      "chapterId": "cbse-g10-maths-ch08",
+      "subjectId": "cbse-g10-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "If tan θ = 3/4 and θ is acute, what is sin θ?",
+      "answer": "3/5",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Trigonometric ratios",
+      "subtopicLinked": true,
+      "contentKey": "38eb1d7275f3",
+      "options": [
+        "5/3",
+        "3/5",
+        "4/5",
+        "3/4"
+      ],
+      "markingKey": "B. 3/5. A 3-4-5 triangle"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q67",
+      "subtopicId": "cbse-g10-maths-ch05-st1",
+      "chapterId": "cbse-g10-maths-ch05",
+      "subjectId": "cbse-g10-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "What is the 10th term of 4, 7, 10, ...?",
+      "answer": "31",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Sequences and nth term",
+      "subtopicLinked": true,
+      "contentKey": "92d8b885a3d0",
+      "options": [
+        "34",
+        "31",
+        "30",
+        "28"
+      ],
+      "markingKey": "B. 31. 4 + 9 x 3"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q68",
+      "subtopicId": "cbse-g10-maths-ch05-st1",
+      "chapterId": "cbse-g10-maths-ch05",
+      "subjectId": "cbse-g10-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which term of 5, 9, 13, ... is 81?",
+      "answer": "20th",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Sequences and nth term",
+      "subtopicLinked": true,
+      "contentKey": "327f55cb668c",
+      "options": [
+        "16th",
+        "20th",
+        "19th",
+        "21st"
+      ],
+      "markingKey": "B. 20th. 5 + 4(n - 1) = 81"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q69",
+      "subtopicId": "cbse-g10-maths-ch05-st1",
+      "chapterId": "cbse-g10-maths-ch05",
+      "subjectId": "cbse-g10-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "The sum of the first n odd numbers 1 + 3 + 5 + ... is",
+      "answer": "n²",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Sequences and nth term",
+      "subtopicLinked": true,
+      "contentKey": "453e4d7d4c61",
+      "options": [
+        "2n",
+        "n²",
+        "n(n + 1)",
+        "2n - 1"
+      ],
+      "markingKey": "B. n². Sum of an AP"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q70",
+      "subtopicId": "cbse-g10-maths-ch14-st1",
+      "chapterId": "cbse-g10-maths-ch14",
+      "subjectId": "cbse-g10-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A coin is tossed and a die is rolled. What is P(head and a 6)?",
+      "answer": "1/12",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Probability with combined events",
+      "subtopicLinked": true,
+      "contentKey": "5de8b54a45ab",
+      "options": [
+        "7/12",
+        "1/2",
+        "1/6",
+        "1/12"
+      ],
+      "markingKey": "D. 1/12. ½ x 1/6"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q71",
+      "subtopicId": "cbse-g10-maths-ch14-st1",
+      "chapterId": "cbse-g10-maths-ch14",
+      "subjectId": "cbse-g10-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A bag has 4 red and 6 blue balls. Two are drawn without replacement. What is P(both red)?",
+      "answer": "2/15",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Probability with combined events",
+      "subtopicLinked": true,
+      "contentKey": "532a3355f1b7",
+      "options": [
+        "2/15",
+        "4/10",
+        "1/5",
+        "4/25"
+      ],
+      "markingKey": "A. 2/15. 4/10 x 3/9"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q72",
+      "subtopicId": "cbse-g10-maths-ch14-st1",
+      "chapterId": "cbse-g10-maths-ch14",
+      "subjectId": "cbse-g10-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "P(A) = 0.5, P(B) = 0.4 and P(A and B) = 0.2. What is P(A or B)?",
+      "answer": "0.7",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Probability with combined events",
+      "subtopicLinked": true,
+      "contentKey": "315ccae990cf",
+      "options": [
+        "0.7",
+        "0.1",
+        "0.2",
+        "0.9"
+      ],
+      "markingKey": "A. 0.7. P(A) + P(B) - P(A and B)"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q73",
+      "subtopicId": "cbse-g11-applied-maths-ch01-st2",
+      "chapterId": "cbse-g11-applied-maths-ch01",
+      "subjectId": "cbse-g11-applied-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Write 45 000 in standard form.",
+      "answer": "4.5 x 10⁴",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Numbers: indices, logarithms and approximation",
+      "subtopicLinked": true,
+      "contentKey": "6778cf59287f",
+      "options": [
+        "0.45 x 10⁵",
+        "45 x 10³",
+        "4.5 x 10⁴",
+        "4.5 x 10³"
+      ],
+      "markingKey": "C. 4.5 x 10⁴. One digit before the decimal point"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q74",
+      "subtopicId": "cbse-g11-applied-maths-ch01-st2",
+      "chapterId": "cbse-g11-applied-maths-ch01",
+      "subjectId": "cbse-g11-applied-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "What is log₁₀ 100 + log₁₀ 10?",
+      "answer": "3",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Numbers: indices, logarithms and approximation",
+      "subtopicLinked": true,
+      "contentKey": "e2cee0241fe2",
+      "options": [
+        "110",
+        "1000",
+        "20",
+        "3"
+      ],
+      "markingKey": "D. 3. 2 + 1"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q75",
+      "subtopicId": "cbse-g11-applied-maths-ch01-st2",
+      "chapterId": "cbse-g11-applied-maths-ch01",
+      "subjectId": "cbse-g11-applied-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A measurement of 5.0 m has an error of 0.2 m. What is the percentage error?",
+      "answer": "4%",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Numbers: indices, logarithms and approximation",
+      "subtopicLinked": true,
+      "contentKey": "75d82ceecb13",
+      "options": [
+        "0.04%",
+        "4%",
+        "2.5%",
+        "20%"
+      ],
+      "markingKey": "B. 4%. 0.2 ÷ 5.0 x 100"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q76",
+      "subtopicId": "cbse-g11-applied-maths-ch03-st2",
+      "chapterId": "cbse-g11-applied-maths-ch03",
+      "subjectId": "cbse-g11-applied-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "What is the 6th term of 2, 6, 18, ...?",
+      "answer": "486",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Arithmetic and geometric sequences",
+      "subtopicLinked": true,
+      "contentKey": "756f254381b8",
+      "options": [
+        "36",
+        "1458",
+        "162",
+        "486"
+      ],
+      "markingKey": "D. 486. 2 x 3⁵"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q77",
+      "subtopicId": "cbse-g11-applied-maths-ch03-st2",
+      "chapterId": "cbse-g11-applied-maths-ch03",
+      "subjectId": "cbse-g11-applied-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A salary of 30 000 rises by 2 000 each year. What is it in year 5?",
+      "answer": "38 000",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Arithmetic and geometric sequences",
+      "subtopicLinked": true,
+      "contentKey": "94228bb8c1c3",
+      "options": [
+        "32 000",
+        "38 000",
+        "10 000",
+        "40 000"
+      ],
+      "markingKey": "B. 38 000. 30 000 + 4 x 2 000"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q78",
+      "subtopicId": "cbse-g11-applied-maths-ch03-st2",
+      "chapterId": "cbse-g11-applied-maths-ch03",
+      "subjectId": "cbse-g11-applied-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A town of 50 000 grows by 4% a year. Roughly what is its population after 3 years?",
+      "answer": "56 243",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Arithmetic and geometric sequences",
+      "subtopicLinked": true,
+      "contentKey": "0b0d33601c5c",
+      "options": [
+        "56 000",
+        "56 243",
+        "52 000",
+        "50 120"
+      ],
+      "markingKey": "B. 56 243. 50 000 x 1.04³"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q79",
+      "subtopicId": "cbse-g11-applied-maths-ch11-st1",
+      "chapterId": "cbse-g11-applied-maths-ch11",
+      "subjectId": "cbse-g11-applied-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "10 000 is invested at 6% compound interest a year. What is it worth after 2 years?",
+      "answer": "11 236",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Compound interest and depreciation",
+      "subtopicLinked": true,
+      "contentKey": "37c53570dbae",
+      "options": [
+        "11 236",
+        "11 200",
+        "12 000",
+        "10 600"
+      ],
+      "markingKey": "A. 11 236. 10 000 x 1.06²"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q80",
+      "subtopicId": "cbse-g11-applied-maths-ch11-st1",
+      "chapterId": "cbse-g11-applied-maths-ch11",
+      "subjectId": "cbse-g11-applied-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A car bought for 8 lakh depreciates 15% a year. Roughly what is it worth after 2 years?",
+      "answer": "5.78 lakh",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Compound interest and depreciation",
+      "subtopicLinked": true,
+      "contentKey": "772b77acbc0c",
+      "options": [
+        "5.6 lakh",
+        "5.78 lakh",
+        "6.8 lakh",
+        "7.7 lakh"
+      ],
+      "markingKey": "B. 5.78 lakh. 8 x 0.85²"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q81",
+      "subtopicId": "cbse-g11-applied-maths-ch11-st1",
+      "chapterId": "cbse-g11-applied-maths-ch11",
+      "subjectId": "cbse-g11-applied-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Which is better for a saver: 8% compounded yearly or 8% compounded quarterly?",
+      "answer": "Quarterly, because interest is added more often",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Compound interest and depreciation",
+      "subtopicLinked": true,
+      "contentKey": "f76410368998",
+      "options": [
+        "Yearly, because there are fewer payments",
+        "They always give the same amount",
+        "Yearly, because the rate is the same",
+        "Quarterly, because interest is added more often"
+      ],
+      "markingKey": "D. Quarterly, because interest is added more often. Effective rate is higher"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q82",
+      "subtopicId": "cbse-g11-applied-maths-ch10-st2",
+      "chapterId": "cbse-g11-applied-maths-ch10",
+      "subjectId": "cbse-g11-applied-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A correlation coefficient of -0.9 shows",
+      "answer": "a strong negative relationship",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Correlation and spread",
+      "subtopicLinked": true,
+      "contentKey": "708f078226a5",
+      "options": [
+        "no relationship",
+        "a perfect positive relationship",
+        "a strong negative relationship",
+        "a weak positive relationship"
+      ],
+      "markingKey": "C. a strong negative relationship. Close to -1"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q83",
+      "subtopicId": "cbse-g11-applied-maths-ch10-st2",
+      "chapterId": "cbse-g11-applied-maths-ch10",
+      "subjectId": "cbse-g11-applied-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Two data sets have the same mean, but A has a larger standard deviation. What does this mean?",
+      "answer": "A is more spread out",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Correlation and spread",
+      "subtopicLinked": true,
+      "contentKey": "15b87751c86f",
+      "options": [
+        "A has a higher mean",
+        "A is more consistent",
+        "B has more values",
+        "A is more spread out"
+      ],
+      "markingKey": "D. A is more spread out. Spread about the mean"
+    },
+    {
+      "id": "onb-cbse-g11-commerce-q84",
+      "subtopicId": "cbse-g11-applied-maths-ch10-st2",
+      "chapterId": "cbse-g11-applied-maths-ch10",
+      "subjectId": "cbse-g11-applied-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Ice-cream sales and drownings are strongly correlated. Why does this not prove one causes the other?",
+      "answer": "Both may be caused by hot weather",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "applied-maths",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Correlation and spread",
+      "subtopicLinked": true,
+      "contentKey": "a8cde4cbff09",
+      "options": [
+        "Ice cream causes drowning",
+        "Both may be caused by hot weather",
+        "Correlation always proves causation",
+        "The data must be wrong"
+      ],
+      "markingKey": "B. Both may be caused by hot weather. A third (lurking) variable"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D2",
+      "stem": "What number comes next? 2, 3, 5, 8, 13, ?",
+      "options": [
+        "20",
+        "18",
+        "26",
+        "21"
+      ],
+      "answer": "21",
+      "explanation": "Each term is the sum of the two before it",
+      "seconds": 30,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-cbse-g11-commerce-q85",
+      "part": "B",
+      "contentKey": "1ab8b7e1a9d2"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D2",
+      "stem": "Money doubles in 6 years at a fixed compound rate. In how many years does it become 8 times?",
+      "options": [
+        "18",
+        "12",
+        "48",
+        "24"
+      ],
+      "answer": "18",
+      "explanation": "8 = 2³, so three doubling periods",
+      "seconds": 45,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-cbse-g11-commerce-q86",
+      "part": "B",
+      "contentKey": "5b81fb79f4a2"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D3",
+      "stem": "Boys and girls in a class are in the ratio 3 : 5. After 6 more boys join, the ratio is 1 : 1. How many students were there at first?",
+      "options": [
+        "32",
+        "30",
+        "24",
+        "16"
+      ],
+      "answer": "24",
+      "explanation": "3k + 6 = 5k gives k = 3, so 9 + 15 = 24",
+      "seconds": 75,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-cbse-g11-commerce-q87",
+      "part": "B",
+      "contentKey": "a243772353aa"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D3",
+      "stem": "One pipe fills a tank in 6 hours; another empties it in 9 hours. If both are open, how long does it take to fill the empty tank?",
+      "options": [
+        "15 hours",
+        "7.5 hours",
+        "18 hours",
+        "3 hours"
+      ],
+      "answer": "18 hours",
+      "explanation": "1/6 - 1/9 = 1/18 of the tank per hour",
+      "seconds": 75,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-cbse-g11-commerce-q88",
+      "part": "B",
+      "contentKey": "28cbccf73516"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D2",
+      "stem": "Which phrase is closest in meaning to 'ubiquitous'?",
+      "options": [
+        "found everywhere",
+        "very rare",
+        "highly useful",
+        "extremely old"
+      ],
+      "answer": "found everywhere",
+      "explanation": "Ubiquitous means present everywhere",
+      "seconds": 30,
+      "paramIds": [
+        "p61",
+        "p69"
+      ],
+      "id": "onb-cbse-g11-commerce-q89",
+      "part": "B",
+      "contentKey": "90af104465f9"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D2",
+      "stem": "Author is to novel as composer is to ...",
+      "options": [
+        "audience",
+        "orchestra",
+        "symphony",
+        "piano"
+      ],
+      "answer": "symphony",
+      "explanation": "What each creates",
+      "seconds": 30,
+      "paramIds": [
+        "p61",
+        "p69"
+      ],
+      "id": "onb-cbse-g11-commerce-q90",
+      "part": "B",
+      "contentKey": "cbb2594f4607"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D3",
+      "stem": "Some economists are writers. All writers are readers. Which statement must be true?",
+      "options": [
+        "All readers are economists",
+        "No reader is an economist",
+        "Some economists are readers",
+        "All economists are writers"
+      ],
+      "answer": "Some economists are readers",
+      "explanation": "The economists who are writers are also readers",
+      "seconds": 60,
+      "paramIds": [
+        "p61",
+        "p65",
+        "p69"
+      ],
+      "id": "onb-cbse-g11-commerce-q91",
+      "part": "B",
+      "contentKey": "898351f148c8"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D3",
+      "stem": "Claim: 'Since the new study app launched, the school's test scores rose, so the app raised scores.' Which fact, if true, most weakens the claim?",
+      "options": [
+        "The school also hired extra teachers at the same time",
+        "Students said they liked the app",
+        "The app is free",
+        "Scores rose most in maths"
+      ],
+      "answer": "The school also hired extra teachers at the same time",
+      "explanation": "Another change at the same time offers a different explanation",
+      "seconds": 75,
+      "paramIds": [
+        "p61",
+        "p65",
+        "p69"
+      ],
+      "id": "onb-cbse-g11-commerce-q92",
+      "part": "B",
+      "contentKey": "76a3f6583cee"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D2",
+      "stem": "What comes next? AZ, BY, CX, ?",
+      "options": [
+        "EW",
+        "DX",
+        "DW",
+        "DV"
+      ],
+      "answer": "DW",
+      "explanation": "First letters go forward, second letters go backward",
+      "seconds": 30,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "id": "onb-cbse-g11-commerce-q93",
+      "part": "B",
+      "contentKey": "7e42fa87e73c"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D2",
+      "stem": "If 2 ⊕ 3 = 13 and 3 ⊕ 4 = 25, what is 4 ⊕ 5?",
+      "options": [
+        "81",
+        "45",
+        "41",
+        "20"
+      ],
+      "answer": "41",
+      "explanation": "a ⊕ b = a² + b²: 16 + 25 = 41",
+      "seconds": 60,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "id": "onb-cbse-g11-commerce-q94",
+      "part": "B",
+      "contentKey": "ee495a503bcb"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D3",
+      "stem": "What comes next? 1, 2, 6, 24, 120, ?",
+      "options": [
+        "240",
+        "720",
+        "600",
+        "144"
+      ],
+      "answer": "720",
+      "explanation": "Multiply by 2, 3, 4, 5, then 6",
+      "seconds": 60,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "id": "onb-cbse-g11-commerce-q95",
+      "part": "B",
+      "contentKey": "59584204a824"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D3",
+      "stem": "Figures: shaded triangle, unshaded square, shaded pentagon, ... Each figure gains one side and the shading alternates. What is the next figure?",
+      "options": [
+        "an unshaded pentagon",
+        "an unshaded hexagon",
+        "a shaded heptagon",
+        "a shaded hexagon"
+      ],
+      "answer": "an unshaded hexagon",
+      "explanation": "Six sides, and the shading switches back to unshaded",
+      "seconds": 60,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "id": "onb-cbse-g11-commerce-q96",
+      "part": "B",
+      "contentKey": "089202f449ff"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D2",
+      "stem": "What is the smaller angle between the hour and minute hands of a clock at 3:15?",
+      "options": [
+        "0°",
+        "15°",
+        "22.5°",
+        "7.5°"
+      ],
+      "answer": "7.5°",
+      "explanation": "The hour hand has moved a quarter of 30° past the 3",
+      "seconds": 60,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "id": "onb-cbse-g11-commerce-q97",
+      "part": "B",
+      "contentKey": "5fdd3b770309"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D2",
+      "stem": "Opposite faces of a die add up to 7. A die shows 1 on top, 2 at the front and 3 on the right. What number is on the bottom?",
+      "options": [
+        "6",
+        "4",
+        "2",
+        "5"
+      ],
+      "answer": "6",
+      "explanation": "Bottom is opposite top: 7 - 1 = 6",
+      "seconds": 45,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 160 140\" width=\"160\" height=\"140\" stroke=\"currentColor\" fill=\"none\" stroke-width=\"2\"><polygon points=\"20,40 100,40 100,120 20,120\"/><polygon points=\"20,40 50,15 130,15 100,40\"/><polygon points=\"100,40 130,15 130,95 100,120\"/><text x=\"60\" y=\"88\" font-size=\"26\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"75\" y=\"34\" font-size=\"18\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">1</text><text x=\"115\" y=\"75\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">3</text></svg>",
+      "id": "onb-cbse-g11-commerce-q98",
+      "part": "B",
+      "contentKey": "cb65a76edcea"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D3",
+      "stem": "From home you walk 4 km north and then 3 km east. How far are you from home in a straight line?",
+      "options": [
+        "7 km",
+        "1 km",
+        "5 km",
+        "6 km"
+      ],
+      "answer": "5 km",
+      "explanation": "A 3-4-5 right triangle",
+      "seconds": 45,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "id": "onb-cbse-g11-commerce-q99",
+      "part": "B",
+      "contentKey": "40f6ae63a66b"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D3",
+      "stem": "A 3 x 3 x 3 cube is painted on all faces and cut into 27 small cubes. How many small cubes have exactly one painted face?",
+      "options": [
+        "6",
+        "1",
+        "12",
+        "8"
+      ],
+      "answer": "6",
+      "explanation": "One at the centre of each face",
+      "seconds": 60,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "id": "onb-cbse-g11-commerce-q100",
+      "part": "B",
+      "contentKey": "efc87feb69df"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "On a normal school day, how long do you study at home (not counting tuition)?",
+      "responseType": "single",
+      "paramId": "p31",
+      "options": [
+        {
+          "label": "Less than 1 hour",
+          "value": 0.5
+        },
+        {
+          "label": "1 to 2 hours",
+          "value": 1.5
+        },
+        {
+          "label": "2 to 3 hours",
+          "value": 2.5
+        },
+        {
+          "label": "3 to 4 hours",
+          "value": 3.5
+        },
+        {
+          "label": "More than 4 hours",
+          "value": 4.5
+        }
+      ],
+      "unit": "hours",
+      "id": "onb-cbse-g11-commerce-q101",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "a3188617eeb3"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "When do you usually study best?",
+      "responseType": "single",
+      "paramId": "p33",
+      "options": [
+        {
+          "label": "Early morning",
+          "value": "early_morning"
+        },
+        {
+          "label": "Afternoon",
+          "value": "afternoon"
+        },
+        {
+          "label": "Evening",
+          "value": "evening"
+        },
+        {
+          "label": "Late night",
+          "value": "late_night"
+        }
+      ],
+      "id": "onb-cbse-g11-commerce-q102",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "4bff65265626"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How long is a typical study session before you take a break?",
+      "responseType": "single",
+      "paramId": "p34",
+      "options": [
+        {
+          "label": "15 to 20 minutes",
+          "value": 20
+        },
+        {
+          "label": "30 to 45 minutes",
+          "value": 40
+        },
+        {
+          "label": "About an hour",
+          "value": 60
+        },
+        {
+          "label": "90 minutes or more",
+          "value": 90
+        }
+      ],
+      "unit": "minutes",
+      "id": "onb-cbse-g11-commerce-q103",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "09d32e5c0254"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How often do you revise topics you have already finished?",
+      "responseType": "single",
+      "paramId": "p39",
+      "options": [
+        {
+          "label": "Rarely",
+          "value": "rarely"
+        },
+        {
+          "label": "Only before tests",
+          "value": "before_tests"
+        },
+        {
+          "label": "Every week",
+          "value": "weekly"
+        },
+        {
+          "label": "Most days",
+          "value": "daily"
+        }
+      ],
+      "id": "onb-cbse-g11-commerce-q104",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "0d286009ae6f"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How do you usually revise?",
+      "responseType": "single",
+      "paramId": "p40",
+      "options": [
+        {
+          "label": "Re-reading notes or the textbook",
+          "value": "reread"
+        },
+        {
+          "label": "Highlighting or rewriting notes",
+          "value": "rewrite"
+        },
+        {
+          "label": "Doing practice questions",
+          "value": "practice"
+        },
+        {
+          "label": "Testing myself with flashcards or quizzes",
+          "value": "self_test"
+        },
+        {
+          "label": "Explaining it to someone else",
+          "value": "teach"
+        }
+      ],
+      "id": "onb-cbse-g11-commerce-q105",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "fec782fd153e"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "I put off starting homework until the last minute.",
+      "responseType": "scale",
+      "paramId": "p46",
+      "options": [
+        {
+          "label": "1 Never",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Always",
+          "value": 5
+        }
+      ],
+      "id": "onb-cbse-g11-commerce-q106",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "b31ed6ad6c6c"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Where is your phone while you study?",
+      "responseType": "single",
+      "paramId": "p105",
+      "options": [
+        {
+          "label": "In another room",
+          "value": "away"
+        },
+        {
+          "label": "Nearby on silent",
+          "value": "silent_nearby"
+        },
+        {
+          "label": "With me, I check it often",
+          "value": "checking"
+        },
+        {
+          "label": "I study on my phone",
+          "value": "study_device"
+        }
+      ],
+      "id": "onb-cbse-g11-commerce-q107",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "d194a9f578b8"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Which helps you learn a new topic most?",
+      "responseType": "single",
+      "paramId": "p48",
+      "options": [
+        {
+          "label": "Watching a video",
+          "value": "video"
+        },
+        {
+          "label": "Reading and making notes",
+          "value": "reading"
+        },
+        {
+          "label": "Trying problems straight away",
+          "value": "practice"
+        },
+        {
+          "label": "Discussing it with someone",
+          "value": "discussion"
+        }
+      ],
+      "id": "onb-cbse-g11-commerce-q108",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "c23e54729bc0"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Do you prefer studying alone or with others?",
+      "responseType": "single",
+      "paramId": "p50",
+      "options": [
+        {
+          "label": "Alone",
+          "value": "solo"
+        },
+        {
+          "label": "With one friend",
+          "value": "pair"
+        },
+        {
+          "label": "In a group",
+          "value": "group"
+        },
+        {
+          "label": "It depends on the subject",
+          "value": "mixed"
+        }
+      ],
+      "id": "onb-cbse-g11-commerce-q109",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "70f11b4add34"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "When you get stuck on a question, what do you usually do first?",
+      "responseType": "single",
+      "paramId": "p49",
+      "options": [
+        {
+          "label": "Ask my teacher",
+          "value": "teacher"
+        },
+        {
+          "label": "Ask a friend or sibling",
+          "value": "peer"
+        },
+        {
+          "label": "Search online or watch a video",
+          "value": "online"
+        },
+        {
+          "label": "Leave it and move on",
+          "value": "skip"
+        }
+      ],
+      "id": "onb-cbse-g11-commerce-q110",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "599b22b79bd2"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Do you go to tuition or coaching classes?",
+      "responseType": "single",
+      "paramId": "p21",
+      "options": [
+        {
+          "label": "No",
+          "value": "none"
+        },
+        {
+          "label": "Yes, for one subject",
+          "value": "one_subject"
+        },
+        {
+          "label": "Yes, for two or more subjects",
+          "value": "multi_subject"
+        },
+        {
+          "label": "Yes, at a coaching institute",
+          "value": "institute"
+        }
+      ],
+      "id": "onb-cbse-g11-commerce-q111",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "3c939f2b1013"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "I mostly study because ...",
+      "responseType": "single",
+      "paramId": "p123",
+      "options": [
+        {
+          "label": "I enjoy learning new things",
+          "value": "intrinsic"
+        },
+        {
+          "label": "I have a goal I want to reach",
+          "value": "goal"
+        },
+        {
+          "label": "I want good marks",
+          "value": "performance"
+        },
+        {
+          "label": "My family expects it",
+          "value": "external"
+        }
+      ],
+      "id": "onb-cbse-g11-commerce-q112",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "4ab1b901cdd5"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "If I work hard, I can get much better at a subject I find difficult.",
+      "responseType": "scale",
+      "paramId": "p125",
+      "options": [
+        {
+          "label": "1 Strongly disagree",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Strongly agree",
+          "value": 5
+        }
+      ],
+      "id": "onb-cbse-g11-commerce-q113",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "6efb13e3bd21"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "I like hard problems, even when I might get them wrong.",
+      "responseType": "scale",
+      "paramId": "p331",
+      "options": [
+        {
+          "label": "1 Strongly disagree",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Strongly agree",
+          "value": 5
+        }
+      ],
+      "id": "onb-cbse-g11-commerce-q114",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "80b24e607fdf"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Before a test, how nervous do you usually feel?",
+      "responseType": "scale",
+      "paramId": "p111",
+      "options": [
+        {
+          "label": "1 Calm",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Very nervous",
+          "value": 5
+        }
+      ],
+      "helpText": "Optional. This only helps us pace your plan and suggest support; it never affects your scores or recommendations.",
+      "alsoInforms": [
+        "p133"
+      ],
+      "id": "onb-cbse-g11-commerce-q115",
+      "tier": "T3",
+      "screened": true,
+      "optional": true,
+      "contentKey": "58e5770944cf"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "On school nights, how many hours do you usually sleep?",
+      "responseType": "single",
+      "paramId": "p83",
+      "options": [
+        {
+          "label": "Less than 6",
+          "value": 5.5
+        },
+        {
+          "label": "6 to 7",
+          "value": 6.5
+        },
+        {
+          "label": "7 to 8",
+          "value": 7.5
+        },
+        {
+          "label": "8 to 9",
+          "value": 8.5
+        },
+        {
+          "label": "More than 9",
+          "value": 9.5
+        }
+      ],
+      "helpText": "Optional. Used only to fit your timetable around enough rest.",
+      "unit": "hours",
+      "id": "onb-cbse-g11-commerce-q116",
+      "tier": "T3",
+      "screened": true,
+      "optional": true,
+      "contentKey": "55062a5c52b2"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Fixing or building things, like a bicycle, a model or a small circuit",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "R",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g11-commerce-q117",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "36e0422d9d06"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Working outdoors with tools, plants or animals",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "R",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g11-commerce-q118",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "c063e3c69b0f"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Doing experiments to find out why something happens",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "I",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g11-commerce-q119",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "0c12a884162e"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Solving tricky maths or logic puzzles",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "I",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g11-commerce-q120",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "058f5f9025f0"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Drawing, designing, writing stories or making music",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "A",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g11-commerce-q121",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "9234642a58af"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Acting, photography or making videos",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "A",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g11-commerce-q122",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "e7bfdb738978"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Explaining something to a friend until they understand it",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "S",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g11-commerce-q123",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "8f4da2390889"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Volunteering to help people in your community",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "S",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g11-commerce-q124",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "40f8337ef8af"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Leading a team or running a school club",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "E",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g11-commerce-q125",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "b91eb24feb37"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Pitching an idea or starting a small business",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "E",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g11-commerce-q126",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "6806cc5fc89c"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Keeping records or organising information neatly",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "C",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g11-commerce-q127",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "0c466df2c3f1"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Working with numbers, budgets or spreadsheets",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "C",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-cbse-g11-commerce-q128",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "c884a471f58e"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How interested are you in studying abroad after school?",
+      "responseType": "scale",
+      "paramId": "p230",
+      "options": [
+        {
+          "label": "1 Not interested",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Very interested",
+          "value": 5
+        }
+      ],
+      "alsoInforms": [
+        "p231"
+      ],
+      "id": "onb-cbse-g11-commerce-q129",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "587ff74cc454"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Which career areas interest you right now? Pick up to three.",
+      "responseType": "multi",
+      "paramId": "p198",
+      "options": [
+        {
+          "label": "Engineering and technology",
+          "value": "engineering"
+        },
+        {
+          "label": "Medicine and health",
+          "value": "medicine"
+        },
+        {
+          "label": "Business, finance and commerce",
+          "value": "business"
+        },
+        {
+          "label": "Law, government and public policy",
+          "value": "law"
+        },
+        {
+          "label": "Design, media and the arts",
+          "value": "design"
+        },
+        {
+          "label": "Science and research",
+          "value": "research"
+        },
+        {
+          "label": "Teaching, psychology and social work",
+          "value": "social"
+        },
+        {
+          "label": "Not sure yet",
+          "value": "unsure"
+        }
+      ],
+      "max": 3,
+      "alsoInforms": [
+        "p199"
+      ],
+      "id": "onb-cbse-g11-commerce-q130",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "732c5efa2f1e"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Who does your child live with?",
+      "responseType": "single",
+      "paramId": "p154",
+      "optional": false,
+      "options": [
+        {
+          "label": "Both parents",
+          "value": "nuclear"
+        },
+        {
+          "label": "Parents and grandparents or other relatives",
+          "value": "joint"
+        },
+        {
+          "label": "One parent",
+          "value": "single_parent"
+        },
+        {
+          "label": "Another guardian",
+          "value": "guardian"
+        }
+      ],
+      "id": "onb-cbse-g11-commerce-q131",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "b4e573af0103"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "What is the highest education level in your child's home?",
+      "responseType": "single",
+      "paramId": "p155",
+      "optional": false,
+      "options": [
+        {
+          "label": "School",
+          "value": "school"
+        },
+        {
+          "label": "Bachelor's degree",
+          "value": "graduate"
+        },
+        {
+          "label": "Master's degree",
+          "value": "postgraduate"
+        },
+        {
+          "label": "Professional or doctoral degree (CA, MBBS, PhD, LLB...)",
+          "value": "professional"
+        }
+      ],
+      "id": "onb-cbse-g11-commerce-q132",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "9bb6e9dc0272"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Which best describes the main earner's work?",
+      "responseType": "single",
+      "paramId": "p156",
+      "optional": false,
+      "options": [
+        {
+          "label": "Salaried, private sector",
+          "value": "private"
+        },
+        {
+          "label": "Salaried, government or PSU",
+          "value": "government"
+        },
+        {
+          "label": "Own business",
+          "value": "business"
+        },
+        {
+          "label": "Self-employed professional",
+          "value": "professional"
+        },
+        {
+          "label": "Agriculture",
+          "value": "agriculture"
+        },
+        {
+          "label": "Other",
+          "value": "other"
+        }
+      ],
+      "id": "onb-cbse-g11-commerce-q133",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "53fbc806c89f"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Which languages are spoken at home?",
+      "responseType": "multi",
+      "paramId": "p157",
+      "optional": false,
+      "options": [
+        {
+          "label": "English",
+          "value": "en"
+        },
+        {
+          "label": "Hindi",
+          "value": "hi"
+        },
+        {
+          "label": "Another Indian language",
+          "value": "regional"
+        },
+        {
+          "label": "Another language",
+          "value": "other"
+        }
+      ],
+      "id": "onb-cbse-g11-commerce-q134",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "9b8c0fd0ab78"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "How involved are you in your child's daily study?",
+      "responseType": "single",
+      "paramId": "p159",
+      "optional": false,
+      "options": [
+        {
+          "label": "I check in every day",
+          "value": "daily"
+        },
+        {
+          "label": "A few times a week",
+          "value": "weekly"
+        },
+        {
+          "label": "Mainly around exams",
+          "value": "exams"
+        },
+        {
+          "label": "Rarely, my child manages it",
+          "value": "rarely"
+        }
+      ],
+      "id": "onb-cbse-g11-commerce-q135",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "6b01757b27ef"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Does your child attend tuition or coaching?",
+      "responseType": "single",
+      "paramId": "p21",
+      "optional": false,
+      "options": [
+        {
+          "label": "No",
+          "value": "none"
+        },
+        {
+          "label": "One subject",
+          "value": "one_subject"
+        },
+        {
+          "label": "Two or more subjects",
+          "value": "multi_subject"
+        },
+        {
+          "label": "A coaching institute (e.g. for JEE, NEET or boards)",
+          "value": "institute"
+        }
+      ],
+      "id": "onb-cbse-g11-commerce-q136",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "feb34567435d"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Annual household income (optional, helps us suggest scholarships)",
+      "responseType": "single",
+      "paramId": "p176",
+      "optional": true,
+      "options": [
+        {
+          "label": "Under ₹5 lakh",
+          "value": "lt_5l",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 500000
+          }
+        },
+        {
+          "label": "₹5 to 10 lakh",
+          "value": "5_10l",
+          "sets": {
+            "minInr": 500000,
+            "maxInr": 1000000
+          }
+        },
+        {
+          "label": "₹10 to 25 lakh",
+          "value": "10_25l",
+          "sets": {
+            "minInr": 1000000,
+            "maxInr": 2500000
+          }
+        },
+        {
+          "label": "₹25 to 50 lakh",
+          "value": "25_50l",
+          "sets": {
+            "minInr": 2500000,
+            "maxInr": 5000000
+          }
+        },
+        {
+          "label": "Over ₹50 lakh",
+          "value": "gt_50l",
+          "sets": {
+            "minInr": 5000000,
+            "maxInr": null
+          }
+        }
+      ],
+      "id": "onb-cbse-g11-commerce-q137",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "43104f173bc2"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "How much can you spend on extra learning each year (tuition, courses, tests)?",
+      "responseType": "single",
+      "paramId": "p178",
+      "optional": false,
+      "options": [
+        {
+          "label": "Under ₹50,000",
+          "value": "lt_50k",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 50000
+          }
+        },
+        {
+          "label": "₹50,000 to 1.5 lakh",
+          "value": "50k_150k",
+          "sets": {
+            "minInr": 50000,
+            "maxInr": 150000
+          }
+        },
+        {
+          "label": "₹1.5 to 3 lakh",
+          "value": "150k_300k",
+          "sets": {
+            "minInr": 150000,
+            "maxInr": 300000
+          }
+        },
+        {
+          "label": "₹3 to 6 lakh",
+          "value": "300k_600k",
+          "sets": {
+            "minInr": 300000,
+            "maxInr": 600000
+          }
+        },
+        {
+          "label": "Over ₹6 lakh",
+          "value": "gt_600k",
+          "sets": {
+            "minInr": 600000,
+            "maxInr": null
+          }
+        }
+      ],
+      "id": "onb-cbse-g11-commerce-q138",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "67072550cf5b"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "What total budget can you plan for an undergraduate degree in India?",
+      "responseType": "single",
+      "paramId": "p180",
+      "optional": false,
+      "options": [
+        {
+          "label": "Under ₹5 lakh",
+          "value": "lt_5l",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 500000
+          }
+        },
+        {
+          "label": "₹5 to 15 lakh",
+          "value": "5_15l",
+          "sets": {
+            "minInr": 500000,
+            "maxInr": 1500000
+          }
+        },
+        {
+          "label": "₹15 to 30 lakh",
+          "value": "15_30l",
+          "sets": {
+            "minInr": 1500000,
+            "maxInr": 3000000
+          }
+        },
+        {
+          "label": "Over ₹30 lakh",
+          "value": "gt_30l",
+          "sets": {
+            "minInr": 3000000,
+            "maxInr": null
+          }
+        }
+      ],
+      "id": "onb-cbse-g11-commerce-q139",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "832f80bd4135"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "If your child studies abroad, what total budget could you plan?",
+      "responseType": "single",
+      "paramId": "p181",
+      "optional": false,
+      "options": [
+        {
+          "label": "Not considering study abroad",
+          "value": "none",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 0
+          }
+        },
+        {
+          "label": "Under ₹25 lakh",
+          "value": "lt_25l",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 2500000
+          }
+        },
+        {
+          "label": "₹25 to 50 lakh",
+          "value": "25_50l",
+          "sets": {
+            "minInr": 2500000,
+            "maxInr": 5000000
+          }
+        },
+        {
+          "label": "₹50 lakh to 1 crore",
+          "value": "50l_1cr",
+          "sets": {
+            "minInr": 5000000,
+            "maxInr": 10000000
+          }
+        },
+        {
+          "label": "Over ₹1 crore",
+          "value": "gt_1cr",
+          "sets": {
+            "minInr": 10000000,
+            "maxInr": null
+          }
+        }
+      ],
+      "alsoInforms": [
+        "p192"
+      ],
+      "id": "onb-cbse-g11-commerce-q140",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "1da408987765"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Would you consider an education loan?",
+      "responseType": "single",
+      "paramId": "p182",
+      "optional": false,
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "label": "Maybe, depending on the course",
+          "value": "maybe"
+        },
+        {
+          "label": "No",
+          "value": "no"
+        }
+      ],
+      "id": "onb-cbse-g11-commerce-q141",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "29db07c379ba"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Which career direction would you like for your child?",
+      "responseType": "single",
+      "paramId": "p202",
+      "optional": false,
+      "options": [
+        {
+          "label": "Engineering and technology",
+          "value": "engineering"
+        },
+        {
+          "label": "Medicine and health",
+          "value": "medicine"
+        },
+        {
+          "label": "Business, finance and commerce",
+          "value": "business"
+        },
+        {
+          "label": "Law, government and public policy",
+          "value": "law"
+        },
+        {
+          "label": "Design, media and the arts",
+          "value": "design"
+        },
+        {
+          "label": "Science and research",
+          "value": "research"
+        },
+        {
+          "label": "Teaching, psychology and social work",
+          "value": "social"
+        },
+        {
+          "label": "Whatever my child chooses",
+          "value": "child_choice"
+        }
+      ],
+      "alsoInforms": [
+        "p203"
+      ],
+      "id": "onb-cbse-g11-commerce-q142",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "bc4252eaee6c"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "How supportive is your family of your child studying abroad?",
+      "responseType": "scale",
+      "paramId": "p234",
+      "optional": false,
+      "options": [
+        {
+          "label": "1 Not supportive",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Fully supportive",
+          "value": 5
+        }
+      ],
+      "id": "onb-cbse-g11-commerce-q143",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "9a84394f1a5b"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "What device and internet does your child use for study?",
+      "responseType": "single",
+      "paramId": "p193",
+      "optional": false,
+      "options": [
+        {
+          "label": "Own laptop or tablet with reliable internet",
+          "value": "own_device"
+        },
+        {
+          "label": "A shared family computer",
+          "value": "shared"
+        },
+        {
+          "label": "Mainly a phone",
+          "value": "phone_only"
+        },
+        {
+          "label": "Internet is often unreliable",
+          "value": "unreliable"
+        }
+      ],
+      "id": "onb-cbse-g11-commerce-q144",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "516a78042b4f"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "I consent to Learnibility processing my child's data to personalise their learning, as described in the privacy notice.",
+      "responseType": "consent",
+      "paramId": "p30",
+      "optional": false,
+      "options": [
+        {
+          "label": "I agree",
+          "value": "granted"
+        },
+        {
+          "label": "I do not agree",
+          "value": "refused"
+        }
+      ],
+      "helpText": "Required for a child under 18 (DPDP Act 2023, s.9(1)). You can withdraw consent at any time in Settings.",
+      "id": "onb-cbse-g11-commerce-q145",
+      "tier": "C",
+      "screened": false,
+      "contentKey": "1f4aba2a3948"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "I allow my child's selected work to be shown to teachers, tutors and counsellors on the platform.",
+      "responseType": "consent",
+      "paramId": "p277",
+      "optional": true,
+      "options": [
+        {
+          "label": "Yes",
+          "value": "granted"
+        },
+        {
+          "label": "Not now",
+          "value": "refused"
+        }
+      ],
+      "helpText": "Optional. Nothing is shared outside the platform without asking you again.",
+      "id": "onb-cbse-g11-commerce-q146",
+      "tier": "C",
+      "screened": false,
+      "contentKey": "f49d9421e2bb"
+    }
+  ]
+}

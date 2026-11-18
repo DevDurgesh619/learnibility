@@ -1,0 +1,4971 @@
+{
+  "schemaVersion": 1,
+  "generatedBy": "scripts/onboarding/build-forms.py",
+  "form": {
+    "formId": "onb-ib-g10-none",
+    "designId": "g10-ib",
+    "board": "ib",
+    "grade": 10,
+    "stream": "none",
+    "title": "IB MYP Year 5 onboarding test",
+    "minutes": {
+      "A": 32,
+      "B": 12,
+      "C": 8,
+      "P": 5
+    },
+    "partA": {
+      "pool": 84,
+      "delivered": 32
+    },
+    "scoring": {
+      "ladder": {
+        "start": "D2",
+        "floor": "D1",
+        "ceiling": "D3",
+        "hitsToStepUp": 2,
+        "weights": {
+          "D1": 1,
+          "D2": 2,
+          "D3": 3
+        }
+      },
+      "bandCutoffs": [
+        {
+          "band": "excellent",
+          "minPercent": 80
+        },
+        {
+          "band": "above_avg",
+          "minPercent": 65
+        },
+        {
+          "band": "average",
+          "minPercent": 45
+        },
+        {
+          "band": "below_avg",
+          "minPercent": 0
+        }
+      ],
+      "groups": [
+        {
+          "group": "maths",
+          "label": "Mathematics",
+          "subjectIds": [
+            "ib-g10-maths",
+            "ib-g9-maths"
+          ]
+        },
+        {
+          "group": "science",
+          "label": "Sciences",
+          "subjectIds": [
+            "ib-g10-science",
+            "ib-g9-science"
+          ]
+        },
+        {
+          "group": "english",
+          "label": "Language and Literature",
+          "subjectIds": [
+            "ib-g10-english",
+            "ib-g9-english"
+          ]
+        },
+        {
+          "group": "social-science",
+          "label": "Individuals and Societies",
+          "subjectIds": [
+            "ib-g10-social-science",
+            "ib-g9-social-science"
+          ]
+        }
+      ],
+      "writes": [
+        {
+          "paramId": "p1",
+          "rule": "Grade of the form taken",
+          "source": "M1",
+          "confidence": "high"
+        },
+        {
+          "paramId": "p3",
+          "rule": "Board of the form taken",
+          "source": "M1",
+          "confidence": "high"
+        },
+        {
+          "paramId": "p5",
+          "rule": "Stream of the form taken (grades 11-12)",
+          "source": "M1",
+          "confidence": "high"
+        },
+        {
+          "paramId": "p278",
+          "rule": "Per subtopic seen: pMastery 0.7 if right at D2/D3, 0.55 if right at D1, 0.25 if wrong; level L0-L3 from the ladder step reached",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p279",
+          "rule": "Prerequisite-gap index = 100 x weighted misses / weighted items seen in slots 1-4, averaged over groups",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p13",
+          "rule": "Groups with the highest Part A percent (top 1-2, only if >= 65%)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p14",
+          "rule": "Groups with the lowest Part A percent (bottom 1-2, only if < 65%)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p140",
+          "rule": "Mean confidence (1-5) per group",
+          "source": "M1",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p141",
+          "rule": "Calibration = 1 - mean |confidence/5 - correct| over Part A (feeds the first MCI reading)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p284",
+          "rule": "Highest difficulty answered correctly twice in a row: D1 low, D2 medium, D3 high",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p61",
+          "rule": "Verbal reasoning = percent of Part B verbal items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p62",
+          "rule": "Numerical reasoning = percent of Part B numerical items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p63",
+          "rule": "Abstract reasoning = percent of Part B abstract items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p64",
+          "rule": "Spatial reasoning = percent of Part B spatial items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p65",
+          "rule": "Logical deduction = percent right on Part B items tagged p65",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p68",
+          "rule": "Numeracy fluency = numerical percent scaled by speed (right answers under target time count 1.2x, max 100)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p69",
+          "rule": "Processing speed = 100 x share of Part B items answered right within target seconds",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p200",
+          "rule": "RIASEC profile: each career-interest item scored 1-5; letter score = mean of its 2 items; top 3 letters form the code (e.g. IRC)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p31",
+          "rule": "Answer to onb-ib-g10-none-q101 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p33",
+          "rule": "Answer to onb-ib-g10-none-q102 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p34",
+          "rule": "Answer to onb-ib-g10-none-q103 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p39",
+          "rule": "Answer to onb-ib-g10-none-q104 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p40",
+          "rule": "Answer to onb-ib-g10-none-q105 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p46",
+          "rule": "Answer to onb-ib-g10-none-q106 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p105",
+          "rule": "Answer to onb-ib-g10-none-q107 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p48",
+          "rule": "Answer to onb-ib-g10-none-q108 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p50",
+          "rule": "Answer to onb-ib-g10-none-q109 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p49",
+          "rule": "Answer to onb-ib-g10-none-q110 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p21",
+          "rule": "Answer to onb-ib-g10-none-q111 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p123",
+          "rule": "Answer to onb-ib-g10-none-q112 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p125",
+          "rule": "Answer to onb-ib-g10-none-q113 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p331",
+          "rule": "Answer to onb-ib-g10-none-q114 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p111",
+          "rule": "Answer to onb-ib-g10-none-q115 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p83",
+          "rule": "Answer to onb-ib-g10-none-q116 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p230",
+          "rule": "Answer to onb-ib-g10-none-q129 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p198",
+          "rule": "Answer to onb-ib-g10-none-q130 (multi)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p154",
+          "rule": "Answer to onb-ib-g10-none-q131 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p155",
+          "rule": "Answer to onb-ib-g10-none-q132 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p156",
+          "rule": "Answer to onb-ib-g10-none-q133 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p157",
+          "rule": "Answer to onb-ib-g10-none-q134 (multi)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p159",
+          "rule": "Answer to onb-ib-g10-none-q135 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p176",
+          "rule": "Answer to onb-ib-g10-none-q137 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p178",
+          "rule": "Answer to onb-ib-g10-none-q138 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p180",
+          "rule": "Answer to onb-ib-g10-none-q139 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p181",
+          "rule": "Answer to onb-ib-g10-none-q140 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p182",
+          "rule": "Answer to onb-ib-g10-none-q141 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p202",
+          "rule": "Answer to onb-ib-g10-none-q142 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p234",
+          "rule": "Answer to onb-ib-g10-none-q143 (scale)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p193",
+          "rule": "Answer to onb-ib-g10-none-q144 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p30",
+          "rule": "Answer to onb-ib-g10-none-q145 (consent)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p277",
+          "rule": "Answer to onb-ib-g10-none-q146 (consent)",
+          "source": "M2",
+          "confidence": "medium"
+        }
+      ],
+      "reasoning": [
+        {
+          "domain": "numerical",
+          "paramId": "p62",
+          "itemIds": [
+            "onb-ib-g10-none-q85",
+            "onb-ib-g10-none-q86",
+            "onb-ib-g10-none-q87",
+            "onb-ib-g10-none-q88"
+          ]
+        },
+        {
+          "domain": "verbal",
+          "paramId": "p61",
+          "itemIds": [
+            "onb-ib-g10-none-q89",
+            "onb-ib-g10-none-q90",
+            "onb-ib-g10-none-q91",
+            "onb-ib-g10-none-q92"
+          ]
+        },
+        {
+          "domain": "abstract",
+          "paramId": "p63",
+          "itemIds": [
+            "onb-ib-g10-none-q93",
+            "onb-ib-g10-none-q94",
+            "onb-ib-g10-none-q95",
+            "onb-ib-g10-none-q96"
+          ]
+        },
+        {
+          "domain": "spatial",
+          "paramId": "p64",
+          "itemIds": [
+            "onb-ib-g10-none-q97",
+            "onb-ib-g10-none-q98",
+            "onb-ib-g10-none-q99",
+            "onb-ib-g10-none-q100"
+          ]
+        }
+      ],
+      "riasec": {
+        "R": [
+          "onb-ib-g10-none-q117",
+          "onb-ib-g10-none-q118"
+        ],
+        "I": [
+          "onb-ib-g10-none-q119",
+          "onb-ib-g10-none-q120"
+        ],
+        "A": [
+          "onb-ib-g10-none-q121",
+          "onb-ib-g10-none-q122"
+        ],
+        "S": [
+          "onb-ib-g10-none-q123",
+          "onb-ib-g10-none-q124"
+        ],
+        "E": [
+          "onb-ib-g10-none-q125",
+          "onb-ib-g10-none-q126"
+        ],
+        "C": [
+          "onb-ib-g10-none-q127",
+          "onb-ib-g10-none-q128"
+        ]
+      }
+    }
+  },
+  "items": [
+    {
+      "id": "onb-ib-g10-none-q01",
+      "subtopicId": "ib-g9-maths-ch03-st3",
+      "chapterId": "ib-g9-maths-ch03",
+      "subjectId": "ib-g9-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Factorise x² + 5x + 6.",
+      "answer": "(x + 2)(x + 3)",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 1,
+      "half": "prerequisite",
+      "subtopicHint": "Factorising quadratic expressions",
+      "subtopicLinked": true,
+      "contentKey": "c41e246d2ef0",
+      "options": [
+        "(x - 2)(x - 3)",
+        "(x + 5)(x + 1)",
+        "(x + 2)(x + 3)",
+        "(x + 1)(x + 6)"
+      ],
+      "markingKey": "C. (x + 2)(x + 3). Find two numbers that multiply to 6 and add to 5"
+    },
+    {
+      "id": "onb-ib-g10-none-q02",
+      "subtopicId": "ib-g9-maths-ch07-st1",
+      "chapterId": "ib-g9-maths-ch07",
+      "subjectId": "ib-g9-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "What is the gradient of the line y = 3x - 2?",
+      "answer": "3",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Gradient and intercept of a straight line",
+      "subtopicLinked": true,
+      "contentKey": "15e79e32f851",
+      "options": [
+        "1/3",
+        "-2",
+        "3",
+        "2"
+      ],
+      "markingKey": "C. 3. In y = mx + c, m is the gradient"
+    },
+    {
+      "id": "onb-ib-g10-none-q03",
+      "subtopicId": "ib-g9-maths-ch07-st1",
+      "chapterId": "ib-g9-maths-ch07",
+      "subjectId": "ib-g9-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "What is the gradient of the line through (1, 2) and (4, 11)?",
+      "answer": "3",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Gradient and intercept of a straight line",
+      "subtopicLinked": true,
+      "contentKey": "b70a4460bbc9",
+      "options": [
+        "3",
+        "1/3",
+        "13/5",
+        "9"
+      ],
+      "markingKey": "A. 3. (11 - 2) ÷ (4 - 1) = 3"
+    },
+    {
+      "id": "onb-ib-g10-none-q04",
+      "subtopicId": "ib-g9-maths-ch12-st2",
+      "chapterId": "ib-g9-maths-ch12",
+      "subjectId": "ib-g9-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A bag holds 3 red and 5 blue counters. One is picked at random. What is the probability it is red?",
+      "answer": "3/8",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Probability of equally likely and combined outcomes",
+      "subtopicLinked": true,
+      "contentKey": "52d9382f14b5",
+      "options": [
+        "1/3",
+        "3/8",
+        "5/8",
+        "3/5"
+      ],
+      "markingKey": "B. 3/8. 3 red out of 8 counters"
+    },
+    {
+      "id": "onb-ib-g10-none-q05",
+      "subtopicId": "ib-g9-maths-ch12-st2",
+      "chapterId": "ib-g9-maths-ch12",
+      "subjectId": "ib-g9-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A fair die is rolled. What is the probability of getting a number greater than 4?",
+      "answer": "1/3",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Probability of equally likely and combined outcomes",
+      "subtopicLinked": true,
+      "contentKey": "1c7c73b91120",
+      "options": [
+        "1/3",
+        "1/6",
+        "1/2",
+        "2/3"
+      ],
+      "markingKey": "A. 1/3. Only 5 and 6 work: 2 out of 6"
+    },
+    {
+      "id": "onb-ib-g10-none-q06",
+      "subtopicId": "ib-g9-maths-ch12-st2",
+      "chapterId": "ib-g9-maths-ch12",
+      "subjectId": "ib-g9-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Two fair coins are tossed. What is the probability of getting at least one head?",
+      "answer": "3/4",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Probability of equally likely and combined outcomes",
+      "subtopicLinked": true,
+      "contentKey": "774a2b1079a1",
+      "options": [
+        "1/2",
+        "3/4",
+        "2/3",
+        "1/4"
+      ],
+      "markingKey": "B. 3/4. HH, HT, TH out of HH, HT, TH, TT"
+    },
+    {
+      "id": "onb-ib-g10-none-q07",
+      "subtopicId": "ib-g9-maths-ch11-st2",
+      "chapterId": "ib-g9-maths-ch11",
+      "subjectId": "ib-g9-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "What is the mean of 4, 7, 9, 12 and 8?",
+      "answer": "8",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Mean and median",
+      "subtopicLinked": true,
+      "contentKey": "7df27a88b98a",
+      "options": [
+        "7",
+        "8",
+        "40",
+        "9"
+      ],
+      "markingKey": "B. 8. 40 ÷ 5 = 8"
+    },
+    {
+      "id": "onb-ib-g10-none-q08",
+      "subtopicId": "ib-g9-maths-ch11-st2",
+      "chapterId": "ib-g9-maths-ch11",
+      "subjectId": "ib-g9-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "What is the median of 3, 9, 4, 7, 12 and 5?",
+      "answer": "6",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Mean and median",
+      "subtopicLinked": true,
+      "contentKey": "807bd31e423f",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "6.7"
+      ],
+      "markingKey": "B. 6. Order: 3, 4, 5, 7, 9, 12; middle pair (5 + 7) ÷ 2"
+    },
+    {
+      "id": "onb-ib-g10-none-q09",
+      "subtopicId": "ib-g9-maths-ch11-st2",
+      "chapterId": "ib-g9-maths-ch11",
+      "subjectId": "ib-g9-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "The mean of five numbers is 12. One number, 20, is removed. What is the mean of the other four?",
+      "answer": "10",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Mean and median",
+      "subtopicLinked": true,
+      "contentKey": "5dff189b875a",
+      "options": [
+        "11",
+        "10",
+        "8",
+        "12"
+      ],
+      "markingKey": "B. 10. Total 60 - 20 = 40, and 40 ÷ 4 = 10"
+    },
+    {
+      "id": "onb-ib-g10-none-q10",
+      "subtopicId": "ib-g10-maths-ch01-st2",
+      "chapterId": "ib-g10-maths-ch01",
+      "subjectId": "ib-g10-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "What is 9^(1/2)?",
+      "answer": "3",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Rational exponents and surds",
+      "subtopicLinked": true,
+      "contentKey": "6916ce3866ce",
+      "options": [
+        "4.5",
+        "1/3",
+        "81",
+        "3"
+      ],
+      "markingKey": "D. 3. A power of ½ is a square root"
+    },
+    {
+      "id": "onb-ib-g10-none-q11",
+      "subtopicId": "ib-g10-maths-ch01-st2",
+      "chapterId": "ib-g10-maths-ch01",
+      "subjectId": "ib-g10-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Simplify √50.",
+      "answer": "5√2",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Rational exponents and surds",
+      "subtopicLinked": true,
+      "contentKey": "3a11e75d2a9f",
+      "options": [
+        "10√5",
+        "25√2",
+        "2√5",
+        "5√2"
+      ],
+      "markingKey": "D. 5√2. √50 = √25 x √2"
+    },
+    {
+      "id": "onb-ib-g10-none-q12",
+      "subtopicId": "ib-g10-maths-ch01-st2",
+      "chapterId": "ib-g10-maths-ch01",
+      "subjectId": "ib-g10-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "What is 8^(2/3)?",
+      "answer": "4",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Rational exponents and surds",
+      "subtopicLinked": true,
+      "contentKey": "888aed35c1fd",
+      "options": [
+        "2",
+        "64",
+        "16/3",
+        "4"
+      ],
+      "markingKey": "D. 4. Cube root of 8 is 2, then square it"
+    },
+    {
+      "id": "onb-ib-g10-none-q13",
+      "subtopicId": "ib-g10-maths-ch02-st1",
+      "chapterId": "ib-g10-maths-ch02",
+      "subjectId": "ib-g10-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "What is the next term of 5, 9, 13, 17, ...?",
+      "answer": "21",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Arithmetic sequences",
+      "subtopicLinked": true,
+      "contentKey": "725f1a5eff9d",
+      "options": [
+        "22",
+        "25",
+        "21",
+        "20"
+      ],
+      "markingKey": "C. 21. The common difference is 4"
+    },
+    {
+      "id": "onb-ib-g10-none-q14",
+      "subtopicId": "ib-g10-maths-ch02-st1",
+      "chapterId": "ib-g10-maths-ch02",
+      "subjectId": "ib-g10-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "An arithmetic sequence starts 3, 8, 13, ... What is the 20th term?",
+      "answer": "98",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Arithmetic sequences",
+      "subtopicLinked": true,
+      "contentKey": "431167c12bc5",
+      "options": [
+        "100",
+        "98",
+        "63",
+        "103"
+      ],
+      "markingKey": "B. 98. u₂₀ = 3 + 19 x 5"
+    },
+    {
+      "id": "onb-ib-g10-none-q15",
+      "subtopicId": "ib-g10-maths-ch02-st1",
+      "chapterId": "ib-g10-maths-ch02",
+      "subjectId": "ib-g10-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "What is the sum of the first 10 terms of 2, 5, 8, ...?",
+      "answer": "155",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Arithmetic sequences",
+      "subtopicLinked": true,
+      "contentKey": "22d1b9339eaf",
+      "options": [
+        "155",
+        "145",
+        "29",
+        "290"
+      ],
+      "markingKey": "A. 155. S = 10/2 x (2 x 2 + 9 x 3) = 5 x 31"
+    },
+    {
+      "id": "onb-ib-g10-none-q16",
+      "subtopicId": "ib-g10-maths-ch02-st3",
+      "chapterId": "ib-g10-maths-ch02",
+      "subjectId": "ib-g10-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "1000 is invested at 10% compound interest per year. What is it worth after 2 years?",
+      "answer": "1210",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Compound interest and depreciation",
+      "subtopicLinked": true,
+      "contentKey": "7da2eaaed166",
+      "options": [
+        "1200",
+        "1100",
+        "1221",
+        "1210"
+      ],
+      "markingKey": "D. 1210. 1000 x 1.1²"
+    },
+    {
+      "id": "onb-ib-g10-none-q17",
+      "subtopicId": "ib-g10-maths-ch02-st3",
+      "chapterId": "ib-g10-maths-ch02",
+      "subjectId": "ib-g10-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A phone worth 20 000 loses 20% of its value each year. What is it worth after 2 years?",
+      "answer": "12 800",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Compound interest and depreciation",
+      "subtopicLinked": true,
+      "contentKey": "555076699a8a",
+      "options": [
+        "12 800",
+        "12 000",
+        "16 000",
+        "8 000"
+      ],
+      "markingKey": "A. 12 800. 20 000 x 0.8²"
+    },
+    {
+      "id": "onb-ib-g10-none-q18",
+      "subtopicId": "ib-g10-maths-ch02-st3",
+      "chapterId": "ib-g10-maths-ch02",
+      "subjectId": "ib-g10-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Which grows faster over 10 years: 5% simple interest or 5% compound interest on the same amount?",
+      "answer": "Compound, because interest is earned on earlier interest",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Compound interest and depreciation",
+      "subtopicLinked": true,
+      "contentKey": "670fac26ad4d",
+      "options": [
+        "They are always equal",
+        "Simple, because the rate is fixed",
+        "Simple, because it is added every year",
+        "Compound, because interest is earned on earlier interest"
+      ],
+      "markingKey": "D. Compound, because interest is earned on earlier interest. Compound growth multiplies"
+    },
+    {
+      "id": "onb-ib-g10-none-q19",
+      "subtopicId": "ib-g10-maths-ch03-st2",
+      "chapterId": "ib-g10-maths-ch03",
+      "subjectId": "ib-g10-maths",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Solve (x - 4)(x + 1) = 0.",
+      "answer": "x = 4 or x = -1",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Solving quadratic equations and the discriminant",
+      "subtopicLinked": true,
+      "contentKey": "444317bf44a1",
+      "options": [
+        "x = 4 or x = -1",
+        "x = 4 only",
+        "x = 3",
+        "x = -4 or x = 1"
+      ],
+      "markingKey": "A. x = 4 or x = -1. Set each bracket to zero"
+    },
+    {
+      "id": "onb-ib-g10-none-q20",
+      "subtopicId": "ib-g10-maths-ch03-st2",
+      "chapterId": "ib-g10-maths-ch03",
+      "subjectId": "ib-g10-maths",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "How many real solutions does x² + 2x + 5 = 0 have?",
+      "answer": "none",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Solving quadratic equations and the discriminant",
+      "subtopicLinked": true,
+      "contentKey": "52c1f0f9ef6d",
+      "options": [
+        "none",
+        "one",
+        "two",
+        "infinitely many"
+      ],
+      "markingKey": "A. none. Discriminant 4 - 20 = -16 < 0"
+    },
+    {
+      "id": "onb-ib-g10-none-q21",
+      "subtopicId": "ib-g10-maths-ch03-st2",
+      "chapterId": "ib-g10-maths-ch03",
+      "subjectId": "ib-g10-maths",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "For what value of k does x² - 6x + k = 0 have exactly one solution?",
+      "answer": "9",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "maths",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Solving quadratic equations and the discriminant",
+      "subtopicLinked": true,
+      "contentKey": "255d6ab1f601",
+      "options": [
+        "9",
+        "6",
+        "3",
+        "36"
+      ],
+      "markingKey": "A. 9. Discriminant 36 - 4k = 0"
+    },
+    {
+      "id": "onb-ib-g10-none-q22",
+      "subtopicId": "ib-g9-science-ch09-st2",
+      "chapterId": "ib-g9-science-ch09",
+      "subjectId": "ib-g9-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A 1200 kg car accelerates at 2 m/s². What resultant force acts on it?",
+      "answer": "2400 N",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 1,
+      "half": "prerequisite",
+      "subtopicHint": "Newton's second law, F = ma",
+      "subtopicLinked": true,
+      "contentKey": "42e2e262c7b0",
+      "options": [
+        "2400 N",
+        "1202 N",
+        "0.0017 N",
+        "600 N"
+      ],
+      "markingKey": "A. 2400 N. F = ma = 1200 x 2"
+    },
+    {
+      "id": "onb-ib-g10-none-q23",
+      "subtopicId": "ib-g9-science-ch04-st3",
+      "chapterId": "ib-g9-science-ch04",
+      "subjectId": "ib-g9-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Sodium has the electron arrangement 2,8,1. How many electrons are in its outer shell?",
+      "answer": "1",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Electron arrangement in shells",
+      "subtopicLinked": true,
+      "contentKey": "6f05dfd6bb5f",
+      "options": [
+        "8",
+        "1",
+        "2",
+        "11"
+      ],
+      "markingKey": "B. 1. The last number is the outer shell"
+    },
+    {
+      "id": "onb-ib-g10-none-q24",
+      "subtopicId": "ib-g9-science-ch04-st3",
+      "chapterId": "ib-g9-science-ch04",
+      "subjectId": "ib-g9-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "An element has the electron arrangement 2,8,7. What happens when it forms an ion?",
+      "answer": "It gains one electron to form a 1- ion",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Electron arrangement in shells",
+      "subtopicLinked": true,
+      "contentKey": "f8cd8142b126",
+      "options": [
+        "It loses seven electrons to form a 7+ ion",
+        "It loses one electron to form a 1+ ion",
+        "It gains one electron to form a 1- ion",
+        "It does not form ions"
+      ],
+      "markingKey": "C. It gains one electron to form a 1- ion. Gaining one electron completes the outer shell (chlorine)"
+    },
+    {
+      "id": "onb-ib-g10-none-q25",
+      "subtopicId": "ib-g9-science-ch06-st1",
+      "chapterId": "ib-g9-science-ch06",
+      "subjectId": "ib-g9-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Magnesium forms Mg²⁺ ions and oxygen forms O²⁻ ions. What is the formula of magnesium oxide?",
+      "answer": "MgO",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Writing formulae and balancing equations",
+      "subtopicLinked": true,
+      "contentKey": "41b5dc51bfd5",
+      "options": [
+        "MgO",
+        "Mg₂O₂",
+        "Mg₂O",
+        "MgO₂"
+      ],
+      "markingKey": "A. MgO. The charges balance one to one"
+    },
+    {
+      "id": "onb-ib-g10-none-q26",
+      "subtopicId": "ib-g9-science-ch06-st1",
+      "chapterId": "ib-g9-science-ch06",
+      "subjectId": "ib-g9-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Aluminium forms Al³⁺ ions and oxygen forms O²⁻ ions. What is the formula of aluminium oxide?",
+      "answer": "Al₂O₃",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Writing formulae and balancing equations",
+      "subtopicLinked": true,
+      "contentKey": "49a7e2911fd1",
+      "options": [
+        "AlO",
+        "AlO₃",
+        "Al₂O₃",
+        "Al₃O₂"
+      ],
+      "markingKey": "C. Al₂O₃. 2 x (+3) balances 3 x (-2)"
+    },
+    {
+      "id": "onb-ib-g10-none-q27",
+      "subtopicId": "ib-g9-science-ch06-st1",
+      "chapterId": "ib-g9-science-ch06",
+      "subjectId": "ib-g9-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Which equation is correctly balanced?",
+      "answer": "4Fe + 3O₂ → 2Fe₂O₃",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Writing formulae and balancing equations",
+      "subtopicLinked": true,
+      "contentKey": "4fc8bb0e00d0",
+      "options": [
+        "4Fe + 3O₂ → 2Fe₂O₃",
+        "2Fe + O₂ → Fe₂O₃",
+        "Fe + 3O₂ → 2Fe₂O₃",
+        "4Fe + O₂ → 2Fe₂O₃"
+      ],
+      "markingKey": "A. 4Fe + 3O₂ → 2Fe₂O₃. Count atoms: 4 Fe and 6 O on each side"
+    },
+    {
+      "id": "onb-ib-g10-none-q28",
+      "subtopicId": "ib-g9-science-ch08-st2",
+      "chapterId": "ib-g9-science-ch08",
+      "subjectId": "ib-g9-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A cyclist speeds up from 0 to 20 m/s in 5 s. What is the acceleration?",
+      "answer": "4 m/s²",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Acceleration and velocity-time graphs",
+      "subtopicLinked": true,
+      "contentKey": "8618d541c988",
+      "options": [
+        "25 m/s²",
+        "0.25 m/s²",
+        "100 m/s²",
+        "4 m/s²"
+      ],
+      "markingKey": "D. 4 m/s². a = change in velocity ÷ time"
+    },
+    {
+      "id": "onb-ib-g10-none-q29",
+      "subtopicId": "ib-g9-science-ch08-st2",
+      "chapterId": "ib-g9-science-ch08",
+      "subjectId": "ib-g9-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "On a velocity-time graph, what does the area under the line show?",
+      "answer": "The distance travelled",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Acceleration and velocity-time graphs",
+      "subtopicLinked": true,
+      "contentKey": "0d0708cce921",
+      "options": [
+        "The force",
+        "The distance travelled",
+        "The acceleration",
+        "The time taken"
+      ],
+      "markingKey": "B. The distance travelled. Area = velocity x time"
+    },
+    {
+      "id": "onb-ib-g10-none-q30",
+      "subtopicId": "ib-g9-science-ch08-st2",
+      "chapterId": "ib-g9-science-ch08",
+      "subjectId": "ib-g9-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A car moving at 20 m/s brakes steadily to rest in 4 s. How far does it travel while braking?",
+      "answer": "40 m",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Acceleration and velocity-time graphs",
+      "subtopicLinked": true,
+      "contentKey": "d074b37f2990",
+      "options": [
+        "80 m",
+        "40 m",
+        "5 m",
+        "20 m"
+      ],
+      "markingKey": "B. 40 m. Area of the triangle: ½ x 4 x 20"
+    },
+    {
+      "id": "onb-ib-g10-none-q31",
+      "subtopicId": "ib-g10-science-ch01-st2",
+      "chapterId": "ib-g10-science-ch01",
+      "subjectId": "ib-g10-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Natural selection depends on",
+      "answer": "variation within a population",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Natural selection",
+      "subtopicLinked": true,
+      "contentKey": "fdd941255ca6",
+      "options": [
+        "all individuals being identical",
+        "variation within a population",
+        "animals choosing to change",
+        "parents passing on scars"
+      ],
+      "markingKey": "B. variation within a population. Without variation there is nothing to select"
+    },
+    {
+      "id": "onb-ib-g10-none-q32",
+      "subtopicId": "ib-g10-science-ch01-st2",
+      "chapterId": "ib-g10-science-ch01",
+      "subjectId": "ib-g10-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Why are individuals with useful variations more likely to pass them on?",
+      "answer": "They are more likely to survive and reproduce",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Natural selection",
+      "subtopicLinked": true,
+      "contentKey": "0fecd9c57a7b",
+      "options": [
+        "They live in larger groups",
+        "They decide to have more offspring",
+        "They are more likely to survive and reproduce",
+        "They mutate on purpose"
+      ],
+      "markingKey": "C. They are more likely to survive and reproduce. Survival of the fittest"
+    },
+    {
+      "id": "onb-ib-g10-none-q33",
+      "subtopicId": "ib-g10-science-ch01-st2",
+      "chapterId": "ib-g10-science-ch01",
+      "subjectId": "ib-g10-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Peppered moths became mostly dark in industrial areas of 19th-century England. What best explains this?",
+      "answer": "Dark moths were better camouflaged on sooty trees, so fewer were eaten by birds",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Natural selection",
+      "subtopicLinked": true,
+      "contentKey": "2d1ec926220f",
+      "options": [
+        "Dark moths were better camouflaged on sooty trees, so fewer were eaten by birds",
+        "Soot dyed the moths",
+        "Light moths migrated to cities",
+        "The moths chose to turn dark"
+      ],
+      "markingKey": "A. Dark moths were better camouflaged on sooty trees, so fewer were eaten by birds. Selection by predation"
+    },
+    {
+      "id": "onb-ib-g10-none-q34",
+      "subtopicId": "ib-g10-science-ch01-st5",
+      "chapterId": "ib-g10-science-ch01",
+      "subjectId": "ib-g10-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Antibiotics are used to treat infections caused by",
+      "answer": "bacteria",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Antibiotic resistance",
+      "subtopicLinked": true,
+      "contentKey": "10148d2f5f28",
+      "options": [
+        "allergies",
+        "viruses",
+        "all diseases",
+        "bacteria"
+      ],
+      "markingKey": "D. bacteria. They do not work on viruses"
+    },
+    {
+      "id": "onb-ib-g10-none-q35",
+      "subtopicId": "ib-g10-science-ch01-st5",
+      "chapterId": "ib-g10-science-ch01",
+      "subjectId": "ib-g10-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Why should a patient finish a full course of antibiotics?",
+      "answer": "To kill all the bacteria so resistant ones do not survive and spread",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Antibiotic resistance",
+      "subtopicLinked": true,
+      "contentKey": "e0cf895aae8e",
+      "options": [
+        "To make the medicine taste better",
+        "Because it cures viruses",
+        "To build immunity to antibiotics",
+        "To kill all the bacteria so resistant ones do not survive and spread"
+      ],
+      "markingKey": "D. To kill all the bacteria so resistant ones do not survive and spread. Stopping early leaves the toughest bacteria"
+    },
+    {
+      "id": "onb-ib-g10-none-q36",
+      "subtopicId": "ib-g10-science-ch01-st5",
+      "chapterId": "ib-g10-science-ch01",
+      "subjectId": "ib-g10-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "MRSA is a strain of bacteria resistant to many antibiotics. How did it most likely arise?",
+      "answer": "Random mutations gave some bacteria resistance, and antibiotic use selected them",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Antibiotic resistance",
+      "subtopicLinked": true,
+      "contentKey": "f7cbfaeac8b8",
+      "options": [
+        "Antibiotics made bacteria grow larger",
+        "Bacteria learned to resist on purpose",
+        "Patients became resistant",
+        "Random mutations gave some bacteria resistance, and antibiotic use selected them"
+      ],
+      "markingKey": "D. Random mutations gave some bacteria resistance, and antibiotic use selected them. Natural selection in action"
+    },
+    {
+      "id": "onb-ib-g10-none-q37",
+      "subtopicId": "ib-g10-science-ch02-st2",
+      "chapterId": "ib-g10-science-ch02",
+      "subjectId": "ib-g10-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "In a food chain, plants are",
+      "answer": "producers",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Energy flow and ecological pyramids",
+      "subtopicLinked": true,
+      "contentKey": "379a54da9396",
+      "options": [
+        "primary consumers",
+        "producers",
+        "decomposers",
+        "predators"
+      ],
+      "markingKey": "B. producers. They make food by photosynthesis"
+    },
+    {
+      "id": "onb-ib-g10-none-q38",
+      "subtopicId": "ib-g10-science-ch02-st2",
+      "chapterId": "ib-g10-science-ch02",
+      "subjectId": "ib-g10-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Why are food chains rarely longer than five links?",
+      "answer": "Energy is lost at each trophic level, mostly as heat",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Energy flow and ecological pyramids",
+      "subtopicLinked": true,
+      "contentKey": "91fedeb63ce1",
+      "options": [
+        "Predators are too small",
+        "Energy is lost at each trophic level, mostly as heat",
+        "Animals stop eating",
+        "Plants run out of sunlight"
+      ],
+      "markingKey": "B. Energy is lost at each trophic level, mostly as heat. Only about 10% passes on"
+    },
+    {
+      "id": "onb-ib-g10-none-q39",
+      "subtopicId": "ib-g10-science-ch02-st2",
+      "chapterId": "ib-g10-science-ch02",
+      "subjectId": "ib-g10-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A field has 10 000 kJ of energy in its grass. About how much reaches the secondary consumers?",
+      "answer": "100 kJ",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Energy flow and ecological pyramids",
+      "subtopicLinked": true,
+      "contentKey": "56338e7ad4e6",
+      "options": [
+        "1 000 kJ",
+        "100 kJ",
+        "10 kJ",
+        "5 000 kJ"
+      ],
+      "markingKey": "B. 100 kJ. About 10% per step, twice"
+    },
+    {
+      "id": "onb-ib-g10-none-q40",
+      "subtopicId": "ib-g10-science-ch02-st3",
+      "chapterId": "ib-g10-science-ch02",
+      "subjectId": "ib-g10-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Which process removes carbon dioxide from the air?",
+      "answer": "photosynthesis",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "The carbon cycle",
+      "subtopicLinked": true,
+      "contentKey": "e9bad4c15969",
+      "options": [
+        "decay",
+        "photosynthesis",
+        "combustion",
+        "respiration"
+      ],
+      "markingKey": "B. photosynthesis. Plants take in CO₂"
+    },
+    {
+      "id": "onb-ib-g10-none-q41",
+      "subtopicId": "ib-g10-science-ch02-st3",
+      "chapterId": "ib-g10-science-ch02",
+      "subjectId": "ib-g10-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "How do decomposers return carbon to the atmosphere?",
+      "answer": "They respire as they break down dead matter, releasing CO₂",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "The carbon cycle",
+      "subtopicLinked": true,
+      "contentKey": "4f3e231edc57",
+      "options": [
+        "They photosynthesise",
+        "They absorb it from the soil",
+        "They store it as fossil fuels instantly",
+        "They respire as they break down dead matter, releasing CO₂"
+      ],
+      "markingKey": "D. They respire as they break down dead matter, releasing CO₂. Decay is respiration by microbes"
+    },
+    {
+      "id": "onb-ib-g10-none-q42",
+      "subtopicId": "ib-g10-science-ch02-st3",
+      "chapterId": "ib-g10-science-ch02",
+      "subjectId": "ib-g10-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why does large-scale deforestation increase atmospheric CO₂?",
+      "answer": "Fewer trees remove CO₂, and burning or decay of the trees releases it",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "science",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "The carbon cycle",
+      "subtopicLinked": true,
+      "contentKey": "5cb47b75d709",
+      "options": [
+        "Soil absorbs more CO₂",
+        "Fewer trees remove CO₂, and burning or decay of the trees releases it",
+        "Animals breathe less",
+        "Trees produce CO₂ in daylight"
+      ],
+      "markingKey": "B. Fewer trees remove CO₂, and burning or decay of the trees releases it. Two effects add up"
+    },
+    {
+      "id": "onb-ib-g10-none-q43",
+      "subtopicId": "ib-g9-english-ch02-st2",
+      "chapterId": "ib-g9-english-ch02",
+      "subjectId": "ib-g9-english",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Read: \"Meera glanced at the clock again, tapped her pen and read the same line for the fifth time.\" How is Meera most likely feeling?",
+      "answer": "Restless and unable to concentrate",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 1,
+      "half": "prerequisite",
+      "subtopicHint": "Inferring feelings and attitudes",
+      "subtopicLinked": true,
+      "contentKey": "959a6bdd6fd0",
+      "options": [
+        "Proud of her reading",
+        "Angry with the clock",
+        "Calm and relaxed",
+        "Restless and unable to concentrate"
+      ],
+      "markingKey": "D. Restless and unable to concentrate. Repeated glancing and rereading suggest restlessness"
+    },
+    {
+      "id": "onb-ib-g10-none-q44",
+      "subtopicId": "ib-g9-english-ch04-st1",
+      "chapterId": "ib-g9-english-ch04",
+      "subjectId": "ib-g9-english",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "In 'The wind howled through the empty streets', the wind is given a human or animal quality. This is",
+      "answer": "personification",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Imagery and its effect",
+      "subtopicLinked": true,
+      "contentKey": "149e6d1f9a47",
+      "options": [
+        "personification",
+        "onomatopoeia only",
+        "alliteration",
+        "simile"
+      ],
+      "markingKey": "A. personification. An object is given living qualities"
+    },
+    {
+      "id": "onb-ib-g10-none-q45",
+      "subtopicId": "ib-g9-english-ch04-st1",
+      "chapterId": "ib-g9-english-ch04",
+      "subjectId": "ib-g9-english",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "What is the effect of 'the classroom was a pressure cooker before the exam'?",
+      "answer": "It shows the tension was building and about to burst",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Imagery and its effect",
+      "subtopicLinked": true,
+      "contentKey": "5137483fd5fe",
+      "options": [
+        "It shows the students were hungry",
+        "It shows the tension was building and about to burst",
+        "It shows the classroom was hot from cooking",
+        "It shows the exam was easy"
+      ],
+      "markingKey": "B. It shows the tension was building and about to burst. A pressure cooker builds pressure until it releases"
+    },
+    {
+      "id": "onb-ib-g10-none-q46",
+      "subtopicId": "ib-g9-english-ch06-st1",
+      "chapterId": "ib-g9-english-ch06",
+      "subjectId": "ib-g9-english",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "In an argument, the main point the writer wants you to accept is the",
+      "answer": "claim",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Claim, evidence and counterargument",
+      "subtopicLinked": true,
+      "contentKey": "749da864d159",
+      "options": [
+        "rebuttal",
+        "anecdote",
+        "claim",
+        "evidence"
+      ],
+      "markingKey": "C. claim. Evidence supports the claim"
+    },
+    {
+      "id": "onb-ib-g10-none-q47",
+      "subtopicId": "ib-g9-english-ch06-st1",
+      "chapterId": "ib-g9-english-ch06",
+      "subjectId": "ib-g9-english",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which sentence is a counterargument in an essay arguing for school uniforms?",
+      "answer": "Some say uniforms limit students' self-expression.",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Claim, evidence and counterargument",
+      "subtopicLinked": true,
+      "contentKey": "38670ec27c1f",
+      "options": [
+        "Therefore uniforms should stay.",
+        "Uniforms reduce peer pressure about clothes.",
+        "A 2023 survey found most parents support uniforms.",
+        "Some say uniforms limit students' self-expression."
+      ],
+      "markingKey": "D. Some say uniforms limit students' self-expression.. A counterargument presents the opposing view"
+    },
+    {
+      "id": "onb-ib-g10-none-q48",
+      "subtopicId": "ib-g9-english-ch06-st1",
+      "chapterId": "ib-g9-english-ch06",
+      "subjectId": "ib-g9-english",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A writer says: 'Everyone I know hates homework, so homework should be banned.' What is the main weakness?",
+      "answer": "The evidence is a small, personal sample",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Claim, evidence and counterargument",
+      "subtopicLinked": true,
+      "contentKey": "f0630a147e40",
+      "options": [
+        "The claim is too short",
+        "It uses no adjectives",
+        "It is written in the first person",
+        "The evidence is a small, personal sample"
+      ],
+      "markingKey": "D. The evidence is a small, personal sample. A few friends do not represent everyone"
+    },
+    {
+      "id": "onb-ib-g10-none-q49",
+      "subtopicId": "ib-g9-english-ch01-st2",
+      "chapterId": "ib-g9-english-ch01",
+      "subjectId": "ib-g9-english",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Which of these is a complex sentence?",
+      "answer": "When the bell rang, the students rushed out.",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Sentence structure for effect",
+      "subtopicLinked": true,
+      "contentKey": "4b1501abf850",
+      "options": [
+        "Rushing out!",
+        "When the bell rang, the students rushed out.",
+        "The bell rang and the students rushed out.",
+        "The bell rang."
+      ],
+      "markingKey": "B. When the bell rang, the students rushed out.. It has a main clause and a subordinate clause"
+    },
+    {
+      "id": "onb-ib-g10-none-q50",
+      "subtopicId": "ib-g9-english-ch01-st2",
+      "chapterId": "ib-g9-english-ch01",
+      "subjectId": "ib-g9-english",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A story reads: 'The door creaked. Silence. Then footsteps.' What is the effect of the short sentences?",
+      "answer": "They build tension and suspense",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Sentence structure for effect",
+      "subtopicLinked": true,
+      "contentKey": "9ff040cd9a33",
+      "options": [
+        "They make the story feel relaxed",
+        "They show the writer ran out of ideas",
+        "They explain the setting in detail",
+        "They build tension and suspense"
+      ],
+      "markingKey": "D. They build tension and suspense. Short, broken sentences slow the reader and create suspense"
+    },
+    {
+      "id": "onb-ib-g10-none-q51",
+      "subtopicId": "ib-g9-english-ch01-st2",
+      "chapterId": "ib-g9-english-ch01",
+      "subjectId": "ib-g9-english",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Rearrange into a correct sentence: \"the / finally / after / rain / match / the / began / the / stopped\"",
+      "answer": "The match finally began after the rain stopped.",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Sentence structure for effect",
+      "subtopicLinked": true,
+      "contentKey": "c1a613fbdde6",
+      "options": [
+        "The match stopped after the rain finally began.",
+        "The rain finally began after the match stopped.",
+        "The match finally began after the rain stopped.",
+        "After the match finally began the rain stopped."
+      ],
+      "markingKey": "C. The match finally began after the rain stopped.. The match could only start once the rain had stopped"
+    },
+    {
+      "id": "onb-ib-g10-none-q52",
+      "subtopicId": "ib-g10-english-ch01-st1",
+      "chapterId": "ib-g10-english-ch01",
+      "subjectId": "ib-g10-english",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "An appeal to the audience's emotions is called",
+      "answer": "pathos",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Ethos, pathos and logos",
+      "subtopicLinked": true,
+      "contentKey": "c566487f0d70",
+      "options": [
+        "pathos",
+        "logos",
+        "ethos",
+        "kairos"
+      ],
+      "markingKey": "A. pathos. Pathos is emotion"
+    },
+    {
+      "id": "onb-ib-g10-none-q53",
+      "subtopicId": "ib-g10-english-ch01-st1",
+      "chapterId": "ib-g10-english-ch01",
+      "subjectId": "ib-g10-english",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "'As a doctor for twenty years, I have seen the harm smoking does.' Which appeal is this?",
+      "answer": "ethos",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Ethos, pathos and logos",
+      "subtopicLinked": true,
+      "contentKey": "bdf90a3fdeab",
+      "options": [
+        "hyperbole",
+        "logos",
+        "ethos",
+        "pathos"
+      ],
+      "markingKey": "C. ethos. It builds the speaker's credibility"
+    },
+    {
+      "id": "onb-ib-g10-none-q54",
+      "subtopicId": "ib-g10-english-ch01-st1",
+      "chapterId": "ib-g10-english-ch01",
+      "subjectId": "ib-g10-english",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A speaker says: 'Ninety per cent of plastic is never recycled. Picture a sea turtle tangled in it.' Which appeals are combined?",
+      "answer": "logos then pathos",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Ethos, pathos and logos",
+      "subtopicLinked": true,
+      "contentKey": "20bc5900d617",
+      "options": [
+        "logos then pathos",
+        "logos only",
+        "ethos then logos",
+        "pathos then ethos"
+      ],
+      "markingKey": "A. logos then pathos. A statistic, then an emotional image"
+    },
+    {
+      "id": "onb-ib-g10-none-q55",
+      "subtopicId": "ib-g10-english-ch01-st2",
+      "chapterId": "ib-g10-english-ch01",
+      "subjectId": "ib-g10-english",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "'We will fight, we will endure, we will win' uses",
+      "answer": "tricolon (a rule of three)",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Rhetorical devices and their effects",
+      "subtopicLinked": true,
+      "contentKey": "62a3f51f4d48",
+      "options": [
+        "tricolon (a rule of three)",
+        "antithesis",
+        "onomatopoeia",
+        "simile"
+      ],
+      "markingKey": "A. tricolon (a rule of three). Three parallel parts"
+    },
+    {
+      "id": "onb-ib-g10-none-q56",
+      "subtopicId": "ib-g10-english-ch01-st2",
+      "chapterId": "ib-g10-english-ch01",
+      "subjectId": "ib-g10-english",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Repeating 'I have a dream' at the start of several sentences is called",
+      "answer": "anaphora",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Rhetorical devices and their effects",
+      "subtopicLinked": true,
+      "contentKey": "4f4b366a1104",
+      "options": [
+        "anaphora",
+        "oxymoron",
+        "alliteration",
+        "litotes"
+      ],
+      "markingKey": "A. anaphora. Repetition at the start of clauses"
+    },
+    {
+      "id": "onb-ib-g10-none-q57",
+      "subtopicId": "ib-g10-english-ch01-st2",
+      "chapterId": "ib-g10-english-ch01",
+      "subjectId": "ib-g10-english",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "What is the effect of the antithesis in 'Ask not what your country can do for you; ask what you can do for your country'?",
+      "answer": "The reversal makes the call to duty memorable and challenges the audience",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Rhetorical devices and their effects",
+      "subtopicLinked": true,
+      "contentKey": "c1a03551918a",
+      "options": [
+        "It confuses the audience on purpose",
+        "The reversal makes the call to duty memorable and challenges the audience",
+        "It lists facts about the country",
+        "It adds humour to a serious speech"
+      ],
+      "markingKey": "B. The reversal makes the call to duty memorable and challenges the audience. Contrasting halves create emphasis"
+    },
+    {
+      "id": "onb-ib-g10-none-q58",
+      "subtopicId": "ib-g10-english-ch01-st3",
+      "chapterId": "ib-g10-english-ch01",
+      "subjectId": "ib-g10-english",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "The purpose of a persuasive speech is mainly to",
+      "answer": "convince the audience to think or act in a certain way",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Audience, purpose and context of a speech",
+      "subtopicLinked": true,
+      "contentKey": "dc7cbfa10c7f",
+      "options": [
+        "convince the audience to think or act in a certain way",
+        "tell a fictional story",
+        "describe a place neutrally",
+        "list instructions"
+      ],
+      "markingKey": "A. convince the audience to think or act in a certain way. Persuade"
+    },
+    {
+      "id": "onb-ib-g10-none-q59",
+      "subtopicId": "ib-g10-english-ch01-st3",
+      "chapterId": "ib-g10-english-ch01",
+      "subjectId": "ib-g10-english",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A speech to a youth climate rally would most likely use",
+      "answer": "direct address, urgency and inclusive \"we\"",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Audience, purpose and context of a speech",
+      "subtopicLinked": true,
+      "contentKey": "423600b6283d",
+      "options": [
+        "a calm, neutral report style",
+        "very long technical tables",
+        "direct address, urgency and inclusive \"we\"",
+        "complex legal terms"
+      ],
+      "markingKey": "C. direct address, urgency and inclusive \"we\". Fit language to audience"
+    },
+    {
+      "id": "onb-ib-g10-none-q60",
+      "subtopicId": "ib-g10-english-ch01-st3",
+      "chapterId": "ib-g10-english-ch01",
+      "subjectId": "ib-g10-english",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why might the same speech be received differently 50 years after it was given?",
+      "answer": "The historical context and audience values have changed",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Audience, purpose and context of a speech",
+      "subtopicLinked": true,
+      "contentKey": "3d12e8a448ea",
+      "options": [
+        "Audiences cannot read old speeches",
+        "Speeches lose all meaning over time",
+        "The words physically change",
+        "The historical context and audience values have changed"
+      ],
+      "markingKey": "D. The historical context and audience values have changed. Meaning depends on context"
+    },
+    {
+      "id": "onb-ib-g10-none-q61",
+      "subtopicId": "ib-g10-english-ch02-st2",
+      "chapterId": "ib-g10-english-ch02",
+      "subjectId": "ib-g10-english",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A story told using 'I' by a character in it has a",
+      "answer": "first-person narrator",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Narrative voice and point of view",
+      "subtopicLinked": true,
+      "contentKey": "05ba4f0b262f",
+      "options": [
+        "first-person narrator",
+        "second-person narrator",
+        "omniscient chorus",
+        "third-person narrator"
+      ],
+      "markingKey": "A. first-person narrator. The narrator is 'I'"
+    },
+    {
+      "id": "onb-ib-g10-none-q62",
+      "subtopicId": "ib-g10-english-ch02-st2",
+      "chapterId": "ib-g10-english-ch02",
+      "subjectId": "ib-g10-english",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A narrator looking back on childhood as an adult is called a",
+      "answer": "retrospective narrator",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Narrative voice and point of view",
+      "subtopicLinked": true,
+      "contentKey": "03f8a55e00cb",
+      "options": [
+        "second-person narrator",
+        "retrospective narrator",
+        "unreliable narrator by default",
+        "chorus"
+      ],
+      "markingKey": "B. retrospective narrator. They narrate with hindsight"
+    },
+    {
+      "id": "onb-ib-g10-none-q63",
+      "subtopicId": "ib-g10-english-ch02-st2",
+      "chapterId": "ib-g10-english-ch02",
+      "subjectId": "ib-g10-english",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "What is a key effect of a limited first-person narrator in a coming-of-age novel?",
+      "answer": "Readers share the narrator's growing understanding and may see more than the narrator does",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "english",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Narrative voice and point of view",
+      "subtopicLinked": true,
+      "contentKey": "fa12b51ec250",
+      "options": [
+        "The story has no viewpoint",
+        "Readers share the narrator's growing understanding and may see more than the narrator does",
+        "Readers know every character's thoughts",
+        "The narrator is always objective"
+      ],
+      "markingKey": "B. Readers share the narrator's growing understanding and may see more than the narrator does. Limited view creates dramatic irony"
+    },
+    {
+      "id": "onb-ib-g10-none-q64",
+      "subtopicId": "ib-g9-social-science-ch02-st2",
+      "chapterId": "ib-g9-social-science-ch02",
+      "subjectId": "ib-g9-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which leader is most associated with the unification of Germany in 1871?",
+      "answer": "Bismarck",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 1,
+      "half": "prerequisite",
+      "subtopicHint": "Unification of Italy and Germany",
+      "subtopicLinked": true,
+      "contentKey": "96c5dbc73715",
+      "options": [
+        "Garibaldi",
+        "Mazzini",
+        "Bismarck",
+        "Cavour"
+      ],
+      "markingKey": "C. Bismarck. Prussian chief minister"
+    },
+    {
+      "id": "onb-ib-g10-none-q65",
+      "subtopicId": "ib-g9-social-science-ch03-st2",
+      "chapterId": "ib-g9-social-science-ch03",
+      "subjectId": "ib-g9-social-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "The Berlin Conference of 1884-85 was held to",
+      "answer": "set rules for European powers claiming African territory",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "The Scramble for Africa",
+      "subtopicLinked": true,
+      "contentKey": "96c723806e0c",
+      "options": [
+        "set rules for European powers claiming African territory",
+        "create the League of Nations",
+        "unify Germany",
+        "end slavery in America"
+      ],
+      "markingKey": "A. set rules for European powers claiming African territory. It divided Africa among Europeans"
+    },
+    {
+      "id": "onb-ib-g10-none-q66",
+      "subtopicId": "ib-g9-social-science-ch03-st2",
+      "chapterId": "ib-g9-social-science-ch03",
+      "subjectId": "ib-g9-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Why were African borders drawn at the Berlin Conference later a source of conflict?",
+      "answer": "They ignored ethnic and cultural groups living in those areas",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "The Scramble for Africa",
+      "subtopicLinked": true,
+      "contentKey": "df1e31a05518",
+      "options": [
+        "They gave every group its own country",
+        "Africans drew them themselves",
+        "They followed rivers exactly",
+        "They ignored ethnic and cultural groups living in those areas"
+      ],
+      "markingKey": "D. They ignored ethnic and cultural groups living in those areas. Arbitrary borders split and combined peoples"
+    },
+    {
+      "id": "onb-ib-g10-none-q67",
+      "subtopicId": "ib-g9-social-science-ch07-st2",
+      "chapterId": "ib-g9-social-science-ch07",
+      "subjectId": "ib-g9-social-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "When demand is greater than supply at the current price, there is a",
+      "answer": "shortage",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Price determination: equilibrium, shortages and surpluses",
+      "subtopicLinked": true,
+      "contentKey": "19eb6a00e021",
+      "options": [
+        "balance",
+        "subsidy",
+        "surplus",
+        "shortage"
+      ],
+      "markingKey": "D. shortage. Buyers want more than is available"
+    },
+    {
+      "id": "onb-ib-g10-none-q68",
+      "subtopicId": "ib-g9-social-science-ch07-st2",
+      "chapterId": "ib-g9-social-science-ch07",
+      "subjectId": "ib-g9-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "If there is a surplus of mangoes, what usually happens to the price?",
+      "answer": "It falls",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Price determination: equilibrium, shortages and surpluses",
+      "subtopicLinked": true,
+      "contentKey": "461b34f1ecef",
+      "options": [
+        "It rises",
+        "It stays fixed",
+        "It doubles",
+        "It falls"
+      ],
+      "markingKey": "D. It falls. Sellers cut prices to clear stock"
+    },
+    {
+      "id": "onb-ib-g10-none-q69",
+      "subtopicId": "ib-g9-social-science-ch07-st2",
+      "chapterId": "ib-g9-social-science-ch07",
+      "subjectId": "ib-g9-social-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Concert tickets sell out within minutes and resell online for triple the price. What does this suggest?",
+      "answer": "The original price was set below equilibrium",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Price determination: equilibrium, shortages and surpluses",
+      "subtopicLinked": true,
+      "contentKey": "1fed18d3fa26",
+      "options": [
+        "Demand was very low",
+        "The original price was set below equilibrium",
+        "The price was too high",
+        "There was a surplus of tickets"
+      ],
+      "markingKey": "B. The original price was set below equilibrium. A shortage shows price below equilibrium"
+    },
+    {
+      "id": "onb-ib-g10-none-q70",
+      "subtopicId": "ib-g9-social-science-ch08-st2",
+      "chapterId": "ib-g9-social-science-ch08",
+      "subjectId": "ib-g9-social-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "In first past the post, a candidate wins a seat by",
+      "answer": "getting more votes than any other candidate",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Electoral systems and representation",
+      "subtopicLinked": true,
+      "contentKey": "d26af2edc1cb",
+      "options": [
+        "getting over 50% of all votes nationally",
+        "getting more votes than any other candidate",
+        "being chosen by the party",
+        "drawing lots"
+      ],
+      "markingKey": "B. getting more votes than any other candidate. A simple plurality"
+    },
+    {
+      "id": "onb-ib-g10-none-q71",
+      "subtopicId": "ib-g9-social-science-ch08-st2",
+      "chapterId": "ib-g9-social-science-ch08",
+      "subjectId": "ib-g9-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Proportional representation aims to",
+      "answer": "give parties seats in proportion to their share of the vote",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Electoral systems and representation",
+      "subtopicLinked": true,
+      "contentKey": "a0cc29b15333",
+      "options": [
+        "give parties seats in proportion to their share of the vote",
+        "give all seats to the largest party",
+        "let only one party stand",
+        "remove elections"
+      ],
+      "markingKey": "A. give parties seats in proportion to their share of the vote. Seats match votes"
+    },
+    {
+      "id": "onb-ib-g10-none-q72",
+      "subtopicId": "ib-g9-social-science-ch08-st2",
+      "chapterId": "ib-g9-social-science-ch08",
+      "subjectId": "ib-g9-social-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Party A wins 40% of votes nationally but 60% of seats under first past the post. Why can this happen?",
+      "answer": "It narrowly wins many constituencies, and votes for losing candidates win nothing",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Electoral systems and representation",
+      "subtopicLinked": true,
+      "contentKey": "5204a8326684",
+      "options": [
+        "Votes are counted twice",
+        "Proportional representation is used",
+        "It narrowly wins many constituencies, and votes for losing candidates win nothing",
+        "Smaller parties get bonus seats"
+      ],
+      "markingKey": "C. It narrowly wins many constituencies, and votes for losing candidates win nothing. Winner-takes-all in each seat"
+    },
+    {
+      "id": "onb-ib-g10-none-q73",
+      "subtopicId": "ib-g10-social-science-ch01-st1",
+      "chapterId": "ib-g10-social-science-ch01",
+      "subjectId": "ib-g10-social-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Which of these is a long-term cause of the First World War?",
+      "answer": "the alliance system",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Long-term causes of the First World War",
+      "subtopicLinked": true,
+      "contentKey": "0deb6afd12d4",
+      "options": [
+        "the Great Depression",
+        "the alliance system",
+        "the Treaty of Versailles",
+        "the Cold War"
+      ],
+      "markingKey": "B. the alliance system. MAIN: militarism, alliances, imperialism, nationalism"
+    },
+    {
+      "id": "onb-ib-g10-none-q74",
+      "subtopicId": "ib-g10-social-science-ch01-st1",
+      "chapterId": "ib-g10-social-science-ch01",
+      "subjectId": "ib-g10-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "The naval race before 1914 was mainly between",
+      "answer": "Britain and Germany",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Long-term causes of the First World War",
+      "subtopicLinked": true,
+      "contentKey": "fba3b3454dd6",
+      "options": [
+        "France and Russia",
+        "Japan and the USA",
+        "Britain and Germany",
+        "Italy and Austria"
+      ],
+      "markingKey": "C. Britain and Germany. Both built Dreadnought battleships"
+    },
+    {
+      "id": "onb-ib-g10-none-q75",
+      "subtopicId": "ib-g10-social-science-ch01-st1",
+      "chapterId": "ib-g10-social-science-ch01",
+      "subjectId": "ib-g10-social-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "How did the alliance system turn a local Balkan crisis into a world war?",
+      "answer": "Countries were bound to defend allies, so one war pulled in others",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Long-term causes of the First World War",
+      "subtopicLinked": true,
+      "contentKey": "7115a7719b13",
+      "options": [
+        "Countries were bound to defend allies, so one war pulled in others",
+        "It prevented any country from joining",
+        "It made all countries neutral",
+        "It only involved Serbia"
+      ],
+      "markingKey": "A. Countries were bound to defend allies, so one war pulled in others. Commitments spread the conflict"
+    },
+    {
+      "id": "onb-ib-g10-none-q76",
+      "subtopicId": "ib-g10-social-science-ch01-st4",
+      "chapterId": "ib-g10-social-science-ch01",
+      "subjectId": "ib-g10-social-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "The Treaty of Versailles was signed in",
+      "answer": "1919",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "The Treaty of Versailles: terms and reactions",
+      "subtopicLinked": true,
+      "contentKey": "f3dba4545478",
+      "options": [
+        "1945",
+        "1919",
+        "1939",
+        "1914"
+      ],
+      "markingKey": "B. 1919. After the armistice of 1918"
+    },
+    {
+      "id": "onb-ib-g10-none-q77",
+      "subtopicId": "ib-g10-social-science-ch01-st4",
+      "chapterId": "ib-g10-social-science-ch01",
+      "subjectId": "ib-g10-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which of these was a term of the treaty?",
+      "answer": "Germany had to pay reparations",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "The Treaty of Versailles: terms and reactions",
+      "subtopicLinked": true,
+      "contentKey": "8cf99ac0e81c",
+      "options": [
+        "Germany kept a large navy",
+        "Germany had to pay reparations",
+        "Germany united with Austria",
+        "Germany gained colonies"
+      ],
+      "markingKey": "B. Germany had to pay reparations. Payments for war damage"
+    },
+    {
+      "id": "onb-ib-g10-none-q78",
+      "subtopicId": "ib-g10-social-science-ch01-st4",
+      "chapterId": "ib-g10-social-science-ch01",
+      "subjectId": "ib-g10-social-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why did many Germans call the treaty a \"Diktat\"?",
+      "answer": "Germany was not allowed to negotiate the terms",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "The Treaty of Versailles: terms and reactions",
+      "subtopicLinked": true,
+      "contentKey": "a587a945ed00",
+      "options": [
+        "It was very generous",
+        "It was signed in Berlin",
+        "Germany was not allowed to negotiate the terms",
+        "They wrote it themselves"
+      ],
+      "markingKey": "C. Germany was not allowed to negotiate the terms. A dictated peace"
+    },
+    {
+      "id": "onb-ib-g10-none-q79",
+      "subtopicId": "ib-g10-social-science-ch02-st2",
+      "chapterId": "ib-g10-social-science-ch02",
+      "subjectId": "ib-g10-social-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "In a democracy, governments are chosen through",
+      "answer": "free elections",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Democracy, communism, fascism and Nazism",
+      "subtopicLinked": true,
+      "contentKey": "e0397dfc1f74",
+      "options": [
+        "military force",
+        "a single party",
+        "inheritance",
+        "free elections"
+      ],
+      "markingKey": "D. free elections. Power comes from the people"
+    },
+    {
+      "id": "onb-ib-g10-none-q80",
+      "subtopicId": "ib-g10-social-science-ch02-st2",
+      "chapterId": "ib-g10-social-science-ch02",
+      "subjectId": "ib-g10-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which ideology called for the state to own the means of production?",
+      "answer": "communism",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Democracy, communism, fascism and Nazism",
+      "subtopicLinked": true,
+      "contentKey": "f52466e85755",
+      "options": [
+        "liberal democracy",
+        "fascism",
+        "monarchy",
+        "communism"
+      ],
+      "markingKey": "D. communism. Based on Marx"
+    },
+    {
+      "id": "onb-ib-g10-none-q81",
+      "subtopicId": "ib-g10-social-science-ch02-st2",
+      "chapterId": "ib-g10-social-science-ch02",
+      "subjectId": "ib-g10-social-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "What did fascism and communism have in common in the 1930s?",
+      "answer": "Both used one-party states and suppressed opposition",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Democracy, communism, fascism and Nazism",
+      "subtopicLinked": true,
+      "contentKey": "2840e9907bb7",
+      "options": [
+        "Both protected private enterprise equally",
+        "Both used one-party states and suppressed opposition",
+        "Both supported free elections",
+        "Both rejected propaganda"
+      ],
+      "markingKey": "B. Both used one-party states and suppressed opposition. Both were authoritarian"
+    },
+    {
+      "id": "onb-ib-g10-none-q82",
+      "subtopicId": "ib-g10-social-science-ch02-st4",
+      "chapterId": "ib-g10-social-science-ch02",
+      "subjectId": "ib-g10-social-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Stalin's plans to rapidly build industry were called",
+      "answer": "Five-Year Plans",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Stalin's USSR",
+      "subtopicLinked": true,
+      "contentKey": "149f86d8babc",
+      "options": [
+        "the Marshall Plan",
+        "the New Deal",
+        "Perestroika",
+        "Five-Year Plans"
+      ],
+      "markingKey": "D. Five-Year Plans. Targets set by the state"
+    },
+    {
+      "id": "onb-ib-g10-none-q83",
+      "subtopicId": "ib-g10-social-science-ch02-st4",
+      "chapterId": "ib-g10-social-science-ch02",
+      "subjectId": "ib-g10-social-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Collectivisation meant",
+      "answer": "small farms were merged into large state-controlled farms",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Stalin's USSR",
+      "subtopicLinked": true,
+      "contentKey": "d1ca24c4180f",
+      "options": [
+        "only kulaks could farm",
+        "farms were sold to private owners",
+        "farming was banned",
+        "small farms were merged into large state-controlled farms"
+      ],
+      "markingKey": "D. small farms were merged into large state-controlled farms. Land was taken into collective farms"
+    },
+    {
+      "id": "onb-ib-g10-none-q84",
+      "subtopicId": "ib-g10-social-science-ch02-st4",
+      "chapterId": "ib-g10-social-science-ch02",
+      "subjectId": "ib-g10-social-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why did collectivisation cause a famine in Ukraine in 1932-33?",
+      "answer": "Grain was seized for the state and resisting peasants were punished",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "social-science",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Stalin's USSR",
+      "subtopicLinked": true,
+      "contentKey": "8a9af13501ac",
+      "options": [
+        "Farmers chose to stop eating",
+        "Grain was seized for the state and resisting peasants were punished",
+        "There was too much grain",
+        "Industry used all the water"
+      ],
+      "markingKey": "B. Grain was seized for the state and resisting peasants were punished. Forced requisitioning"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D1",
+      "stem": "What number comes next? 5, 10, 20, 40, ?",
+      "options": [
+        "60",
+        "45",
+        "80",
+        "100"
+      ],
+      "answer": "80",
+      "explanation": "Double each time",
+      "seconds": 30,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-ib-g10-none-q85",
+      "part": "B",
+      "contentKey": "19caa7ed6a76"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D2",
+      "stem": "A train travels 240 km in 3 hours. At the same speed, how far does it go in 5 hours?",
+      "options": [
+        "420 km",
+        "400 km",
+        "360 km",
+        "480 km"
+      ],
+      "answer": "400 km",
+      "explanation": "80 km per hour x 5 = 400 km",
+      "seconds": 45,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-ib-g10-none-q86",
+      "part": "B",
+      "contentKey": "df541ebeb449"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D2",
+      "stem": "The average of five numbers is 18. Four of them are 15, 20, 12 and 25. What is the fifth?",
+      "options": [
+        "18",
+        "16",
+        "20",
+        "22"
+      ],
+      "answer": "18",
+      "explanation": "Total 90; 90 - 72 = 18",
+      "seconds": 60,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-ib-g10-none-q87",
+      "part": "B",
+      "contentKey": "97a9cfc21e1e"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D3",
+      "stem": "A price rises by 20% and then falls by 20%. What is the overall change?",
+      "options": [
+        "A 4% decrease",
+        "A 2% decrease",
+        "A 4% increase",
+        "No change"
+      ],
+      "answer": "A 4% decrease",
+      "explanation": "1.2 x 0.8 = 0.96",
+      "seconds": 60,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-ib-g10-none-q88",
+      "part": "B",
+      "contentKey": "c153700d517c"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D1",
+      "stem": "Which word is most nearly opposite in meaning to 'scarce'?",
+      "options": [
+        "plentiful",
+        "rare",
+        "small",
+        "costly"
+      ],
+      "answer": "plentiful",
+      "explanation": "'Scarce' means in short supply",
+      "seconds": 30,
+      "paramIds": [
+        "p61",
+        "p69"
+      ],
+      "id": "onb-ib-g10-none-q89",
+      "part": "B",
+      "contentKey": "15197af9eaca"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D2",
+      "stem": "Doctor is to hospital as teacher is to ...",
+      "options": [
+        "lesson",
+        "school",
+        "student",
+        "book"
+      ],
+      "answer": "school",
+      "explanation": "The place where each works",
+      "seconds": 30,
+      "paramIds": [
+        "p61",
+        "p69"
+      ],
+      "id": "onb-ib-g10-none-q90",
+      "part": "B",
+      "contentKey": "2e5d5f4e72e4"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D2",
+      "stem": "No reptiles have fur. All snakes are reptiles. Which conclusion follows?",
+      "options": [
+        "Some snakes have fur",
+        "Some reptiles are not snakes",
+        "All furry animals are snakes",
+        "No snakes have fur"
+      ],
+      "answer": "No snakes have fur",
+      "explanation": "Snakes are inside the reptile group, which has no fur; the last option may be true but does not follow",
+      "seconds": 45,
+      "paramIds": [
+        "p61",
+        "p65",
+        "p69"
+      ],
+      "id": "onb-ib-g10-none-q91",
+      "part": "B",
+      "contentKey": "8566a03aaf35"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D3",
+      "stem": "Five friends sit in a row. P is at one end and Q sits next to P. R is in the middle seat. S does not sit next to R. Where does T sit?",
+      "options": [
+        "Between Q and R",
+        "Between R and S",
+        "Next to P",
+        "At the other end"
+      ],
+      "answer": "Between R and S",
+      "explanation": "Seats 1-5: P, Q, R; S cannot be in 4, so S is in 5 and T in 4",
+      "seconds": 75,
+      "paramIds": [
+        "p61",
+        "p65",
+        "p69"
+      ],
+      "id": "onb-ib-g10-none-q92",
+      "part": "B",
+      "contentKey": "41e89761419a"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D1",
+      "stem": "Which letter comes next? Z, X, V, T, ?",
+      "options": [
+        "Q",
+        "R",
+        "P",
+        "S"
+      ],
+      "answer": "R",
+      "explanation": "Go back two letters each time",
+      "seconds": 30,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "id": "onb-ib-g10-none-q93",
+      "part": "B",
+      "contentKey": "22120821095e"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D2",
+      "stem": "In a code, CAT is written DBU. How is DOG written?",
+      "options": [
+        "EOG",
+        "EPH",
+        "CNF",
+        "FQI"
+      ],
+      "answer": "EPH",
+      "explanation": "Each letter moves one place forward",
+      "seconds": 45,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "id": "onb-ib-g10-none-q94",
+      "part": "B",
+      "contentKey": "38037779791e"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D2",
+      "stem": "An arrow turns 90° clockwise at each step. Step 1 points up, step 2 right, step 3 down. Which way does it point at step 6?",
+      "options": [
+        "Right",
+        "Up",
+        "Left",
+        "Down"
+      ],
+      "answer": "Right",
+      "explanation": "The cycle repeats every 4 steps; step 6 = step 2",
+      "seconds": 45,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "id": "onb-ib-g10-none-q95",
+      "part": "B",
+      "contentKey": "ffa574377a17"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D3",
+      "stem": "In a 3 x 3 grid every row and column has one circle, one square and one triangle. Row 1: circle, square, triangle. Row 2: triangle, circle, square. What goes in row 3, column 2?",
+      "options": [
+        "circle",
+        "square",
+        "triangle",
+        "any shape"
+      ],
+      "answer": "triangle",
+      "explanation": "Column 2 already has a square and a circle",
+      "seconds": 75,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 180 180\" width=\"180\" height=\"180\" stroke=\"currentColor\" fill=\"none\" stroke-width=\"2\"><rect x=\"0\" y=\"0\" width=\"180\" height=\"180\"/><line x1=\"60\" y1=\"0\" x2=\"60\" y2=\"180\"/><line x1=\"120\" y1=\"0\" x2=\"120\" y2=\"180\"/><line x1=\"0\" y1=\"60\" x2=\"180\" y2=\"60\"/><line x1=\"0\" y1=\"120\" x2=\"180\" y2=\"120\"/><circle cx=\"30\" cy=\"30\" r=\"18\"/><rect x=\"72\" y=\"12\" width=\"36\" height=\"36\"/><polygon points=\"150,12 168,48 132,48\"/><polygon points=\"30,72 48,108 12,108\"/><circle cx=\"90\" cy=\"90\" r=\"18\"/><rect x=\"132\" y=\"72\" width=\"36\" height=\"36\"/><text x=\"90\" y=\"160\" font-size=\"28\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">?</text></svg>",
+      "id": "onb-ib-g10-none-q96",
+      "part": "B",
+      "contentKey": "b1c05993931d"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D1",
+      "stem": "Which solid has one flat circular face and one curved surface meeting at a point?",
+      "options": [
+        "a cylinder",
+        "a cone",
+        "a cube",
+        "a sphere"
+      ],
+      "answer": "a cone",
+      "explanation": "A cone has a circular base and an apex",
+      "seconds": 30,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "id": "onb-ib-g10-none-q97",
+      "part": "B",
+      "contentKey": "a5eeeb89ae24"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D2",
+      "stem": "Six squares are arranged in a cross: a column of four squares with one extra square on each side of the second square. Folded along the lines, this net makes a",
+      "options": [
+        "cube",
+        "cuboid with an open top",
+        "square pyramid",
+        "triangular prism"
+      ],
+      "answer": "cube",
+      "explanation": "This is one of the 11 nets of a cube",
+      "seconds": 45,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "id": "onb-ib-g10-none-q98",
+      "part": "B",
+      "contentKey": "5cff76331911"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D2",
+      "stem": "A wall clock seen in a mirror appears to show 3:00. What is the real time?",
+      "options": [
+        "3:00",
+        "6:00",
+        "9:00",
+        "12:00"
+      ],
+      "answer": "9:00",
+      "explanation": "A mirror swaps left and right: 3 becomes 9",
+      "seconds": 45,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "id": "onb-ib-g10-none-q99",
+      "part": "B",
+      "contentKey": "01d06fe2f982"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D3",
+      "stem": "A 4 cm cube is painted on all faces and cut into 1 cm cubes. How many small cubes have no paint at all?",
+      "options": [
+        "16",
+        "27",
+        "24",
+        "8"
+      ],
+      "answer": "8",
+      "explanation": "The unpainted core is 2 x 2 x 2",
+      "seconds": 75,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "id": "onb-ib-g10-none-q100",
+      "part": "B",
+      "contentKey": "b7976378b7ff"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "On a normal school day, how long do you study at home (not counting tuition)?",
+      "responseType": "single",
+      "paramId": "p31",
+      "options": [
+        {
+          "label": "Less than 1 hour",
+          "value": 0.5
+        },
+        {
+          "label": "1 to 2 hours",
+          "value": 1.5
+        },
+        {
+          "label": "2 to 3 hours",
+          "value": 2.5
+        },
+        {
+          "label": "3 to 4 hours",
+          "value": 3.5
+        },
+        {
+          "label": "More than 4 hours",
+          "value": 4.5
+        }
+      ],
+      "unit": "hours",
+      "id": "onb-ib-g10-none-q101",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "a3188617eeb3"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "When do you usually study best?",
+      "responseType": "single",
+      "paramId": "p33",
+      "options": [
+        {
+          "label": "Early morning",
+          "value": "early_morning"
+        },
+        {
+          "label": "Afternoon",
+          "value": "afternoon"
+        },
+        {
+          "label": "Evening",
+          "value": "evening"
+        },
+        {
+          "label": "Late night",
+          "value": "late_night"
+        }
+      ],
+      "id": "onb-ib-g10-none-q102",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "4bff65265626"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How long is a typical study session before you take a break?",
+      "responseType": "single",
+      "paramId": "p34",
+      "options": [
+        {
+          "label": "15 to 20 minutes",
+          "value": 20
+        },
+        {
+          "label": "30 to 45 minutes",
+          "value": 40
+        },
+        {
+          "label": "About an hour",
+          "value": 60
+        },
+        {
+          "label": "90 minutes or more",
+          "value": 90
+        }
+      ],
+      "unit": "minutes",
+      "id": "onb-ib-g10-none-q103",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "09d32e5c0254"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How often do you revise topics you have already finished?",
+      "responseType": "single",
+      "paramId": "p39",
+      "options": [
+        {
+          "label": "Rarely",
+          "value": "rarely"
+        },
+        {
+          "label": "Only before tests",
+          "value": "before_tests"
+        },
+        {
+          "label": "Every week",
+          "value": "weekly"
+        },
+        {
+          "label": "Most days",
+          "value": "daily"
+        }
+      ],
+      "id": "onb-ib-g10-none-q104",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "0d286009ae6f"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How do you usually revise?",
+      "responseType": "single",
+      "paramId": "p40",
+      "options": [
+        {
+          "label": "Re-reading notes or the textbook",
+          "value": "reread"
+        },
+        {
+          "label": "Highlighting or rewriting notes",
+          "value": "rewrite"
+        },
+        {
+          "label": "Doing practice questions",
+          "value": "practice"
+        },
+        {
+          "label": "Testing myself with flashcards or quizzes",
+          "value": "self_test"
+        },
+        {
+          "label": "Explaining it to someone else",
+          "value": "teach"
+        }
+      ],
+      "id": "onb-ib-g10-none-q105",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "fec782fd153e"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "I put off starting homework until the last minute.",
+      "responseType": "scale",
+      "paramId": "p46",
+      "options": [
+        {
+          "label": "1 Never",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Always",
+          "value": 5
+        }
+      ],
+      "id": "onb-ib-g10-none-q106",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "b31ed6ad6c6c"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Where is your phone while you study?",
+      "responseType": "single",
+      "paramId": "p105",
+      "options": [
+        {
+          "label": "In another room",
+          "value": "away"
+        },
+        {
+          "label": "Nearby on silent",
+          "value": "silent_nearby"
+        },
+        {
+          "label": "With me, I check it often",
+          "value": "checking"
+        },
+        {
+          "label": "I study on my phone",
+          "value": "study_device"
+        }
+      ],
+      "id": "onb-ib-g10-none-q107",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "d194a9f578b8"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Which helps you learn a new topic most?",
+      "responseType": "single",
+      "paramId": "p48",
+      "options": [
+        {
+          "label": "Watching a video",
+          "value": "video"
+        },
+        {
+          "label": "Reading and making notes",
+          "value": "reading"
+        },
+        {
+          "label": "Trying problems straight away",
+          "value": "practice"
+        },
+        {
+          "label": "Discussing it with someone",
+          "value": "discussion"
+        }
+      ],
+      "id": "onb-ib-g10-none-q108",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "c23e54729bc0"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Do you prefer studying alone or with others?",
+      "responseType": "single",
+      "paramId": "p50",
+      "options": [
+        {
+          "label": "Alone",
+          "value": "solo"
+        },
+        {
+          "label": "With one friend",
+          "value": "pair"
+        },
+        {
+          "label": "In a group",
+          "value": "group"
+        },
+        {
+          "label": "It depends on the subject",
+          "value": "mixed"
+        }
+      ],
+      "id": "onb-ib-g10-none-q109",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "70f11b4add34"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "When you get stuck on a question, what do you usually do first?",
+      "responseType": "single",
+      "paramId": "p49",
+      "options": [
+        {
+          "label": "Ask my teacher",
+          "value": "teacher"
+        },
+        {
+          "label": "Ask a friend or sibling",
+          "value": "peer"
+        },
+        {
+          "label": "Search online or watch a video",
+          "value": "online"
+        },
+        {
+          "label": "Leave it and move on",
+          "value": "skip"
+        }
+      ],
+      "id": "onb-ib-g10-none-q110",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "599b22b79bd2"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Do you go to tuition or coaching classes?",
+      "responseType": "single",
+      "paramId": "p21",
+      "options": [
+        {
+          "label": "No",
+          "value": "none"
+        },
+        {
+          "label": "Yes, for one subject",
+          "value": "one_subject"
+        },
+        {
+          "label": "Yes, for two or more subjects",
+          "value": "multi_subject"
+        },
+        {
+          "label": "Yes, at a coaching institute",
+          "value": "institute"
+        }
+      ],
+      "id": "onb-ib-g10-none-q111",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "3c939f2b1013"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "I mostly study because ...",
+      "responseType": "single",
+      "paramId": "p123",
+      "options": [
+        {
+          "label": "I enjoy learning new things",
+          "value": "intrinsic"
+        },
+        {
+          "label": "I have a goal I want to reach",
+          "value": "goal"
+        },
+        {
+          "label": "I want good marks",
+          "value": "performance"
+        },
+        {
+          "label": "My family expects it",
+          "value": "external"
+        }
+      ],
+      "id": "onb-ib-g10-none-q112",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "4ab1b901cdd5"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "If I work hard, I can get much better at a subject I find difficult.",
+      "responseType": "scale",
+      "paramId": "p125",
+      "options": [
+        {
+          "label": "1 Strongly disagree",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Strongly agree",
+          "value": 5
+        }
+      ],
+      "id": "onb-ib-g10-none-q113",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "6efb13e3bd21"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "I like hard problems, even when I might get them wrong.",
+      "responseType": "scale",
+      "paramId": "p331",
+      "options": [
+        {
+          "label": "1 Strongly disagree",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Strongly agree",
+          "value": 5
+        }
+      ],
+      "id": "onb-ib-g10-none-q114",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "80b24e607fdf"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Before a test, how nervous do you usually feel?",
+      "responseType": "scale",
+      "paramId": "p111",
+      "options": [
+        {
+          "label": "1 Calm",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Very nervous",
+          "value": 5
+        }
+      ],
+      "helpText": "Optional. This only helps us pace your plan and suggest support; it never affects your scores or recommendations.",
+      "alsoInforms": [
+        "p133"
+      ],
+      "id": "onb-ib-g10-none-q115",
+      "tier": "T3",
+      "screened": true,
+      "optional": true,
+      "contentKey": "58e5770944cf"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "On school nights, how many hours do you usually sleep?",
+      "responseType": "single",
+      "paramId": "p83",
+      "options": [
+        {
+          "label": "Less than 6",
+          "value": 5.5
+        },
+        {
+          "label": "6 to 7",
+          "value": 6.5
+        },
+        {
+          "label": "7 to 8",
+          "value": 7.5
+        },
+        {
+          "label": "8 to 9",
+          "value": 8.5
+        },
+        {
+          "label": "More than 9",
+          "value": 9.5
+        }
+      ],
+      "helpText": "Optional. Used only to fit your timetable around enough rest.",
+      "unit": "hours",
+      "id": "onb-ib-g10-none-q116",
+      "tier": "T3",
+      "screened": true,
+      "optional": true,
+      "contentKey": "55062a5c52b2"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Fixing or building things, like a bicycle, a model or a small circuit",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "R",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g10-none-q117",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "36e0422d9d06"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Working outdoors with tools, plants or animals",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "R",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g10-none-q118",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "c063e3c69b0f"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Doing experiments to find out why something happens",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "I",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g10-none-q119",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "0c12a884162e"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Solving tricky maths or logic puzzles",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "I",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g10-none-q120",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "058f5f9025f0"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Drawing, designing, writing stories or making music",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "A",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g10-none-q121",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "9234642a58af"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Acting, photography or making videos",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "A",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g10-none-q122",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "e7bfdb738978"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Explaining something to a friend until they understand it",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "S",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g10-none-q123",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "8f4da2390889"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Volunteering to help people in your community",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "S",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g10-none-q124",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "40f8337ef8af"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Leading a team or running a school club",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "E",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g10-none-q125",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "b91eb24feb37"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Pitching an idea or starting a small business",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "E",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g10-none-q126",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "6806cc5fc89c"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Keeping records or organising information neatly",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "C",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g10-none-q127",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "0c466df2c3f1"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Working with numbers, budgets or spreadsheets",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "C",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g10-none-q128",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "c884a471f58e"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How interested are you in studying abroad after school?",
+      "responseType": "scale",
+      "paramId": "p230",
+      "options": [
+        {
+          "label": "1 Not interested",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Very interested",
+          "value": 5
+        }
+      ],
+      "alsoInforms": [
+        "p231"
+      ],
+      "id": "onb-ib-g10-none-q129",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "587ff74cc454"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Which career areas interest you right now? Pick up to three.",
+      "responseType": "multi",
+      "paramId": "p198",
+      "options": [
+        {
+          "label": "Engineering and technology",
+          "value": "engineering"
+        },
+        {
+          "label": "Medicine and health",
+          "value": "medicine"
+        },
+        {
+          "label": "Business, finance and commerce",
+          "value": "business"
+        },
+        {
+          "label": "Law, government and public policy",
+          "value": "law"
+        },
+        {
+          "label": "Design, media and the arts",
+          "value": "design"
+        },
+        {
+          "label": "Science and research",
+          "value": "research"
+        },
+        {
+          "label": "Teaching, psychology and social work",
+          "value": "social"
+        },
+        {
+          "label": "Not sure yet",
+          "value": "unsure"
+        }
+      ],
+      "max": 3,
+      "alsoInforms": [
+        "p199"
+      ],
+      "id": "onb-ib-g10-none-q130",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "732c5efa2f1e"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Who does your child live with?",
+      "responseType": "single",
+      "paramId": "p154",
+      "optional": false,
+      "options": [
+        {
+          "label": "Both parents",
+          "value": "nuclear"
+        },
+        {
+          "label": "Parents and grandparents or other relatives",
+          "value": "joint"
+        },
+        {
+          "label": "One parent",
+          "value": "single_parent"
+        },
+        {
+          "label": "Another guardian",
+          "value": "guardian"
+        }
+      ],
+      "id": "onb-ib-g10-none-q131",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "b4e573af0103"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "What is the highest education level in your child's home?",
+      "responseType": "single",
+      "paramId": "p155",
+      "optional": false,
+      "options": [
+        {
+          "label": "School",
+          "value": "school"
+        },
+        {
+          "label": "Bachelor's degree",
+          "value": "graduate"
+        },
+        {
+          "label": "Master's degree",
+          "value": "postgraduate"
+        },
+        {
+          "label": "Professional or doctoral degree (CA, MBBS, PhD, LLB...)",
+          "value": "professional"
+        }
+      ],
+      "id": "onb-ib-g10-none-q132",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "9bb6e9dc0272"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Which best describes the main earner's work?",
+      "responseType": "single",
+      "paramId": "p156",
+      "optional": false,
+      "options": [
+        {
+          "label": "Salaried, private sector",
+          "value": "private"
+        },
+        {
+          "label": "Salaried, government or PSU",
+          "value": "government"
+        },
+        {
+          "label": "Own business",
+          "value": "business"
+        },
+        {
+          "label": "Self-employed professional",
+          "value": "professional"
+        },
+        {
+          "label": "Agriculture",
+          "value": "agriculture"
+        },
+        {
+          "label": "Other",
+          "value": "other"
+        }
+      ],
+      "id": "onb-ib-g10-none-q133",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "53fbc806c89f"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Which languages are spoken at home?",
+      "responseType": "multi",
+      "paramId": "p157",
+      "optional": false,
+      "options": [
+        {
+          "label": "English",
+          "value": "en"
+        },
+        {
+          "label": "Hindi",
+          "value": "hi"
+        },
+        {
+          "label": "Another Indian language",
+          "value": "regional"
+        },
+        {
+          "label": "Another language",
+          "value": "other"
+        }
+      ],
+      "id": "onb-ib-g10-none-q134",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "9b8c0fd0ab78"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "How involved are you in your child's daily study?",
+      "responseType": "single",
+      "paramId": "p159",
+      "optional": false,
+      "options": [
+        {
+          "label": "I check in every day",
+          "value": "daily"
+        },
+        {
+          "label": "A few times a week",
+          "value": "weekly"
+        },
+        {
+          "label": "Mainly around exams",
+          "value": "exams"
+        },
+        {
+          "label": "Rarely, my child manages it",
+          "value": "rarely"
+        }
+      ],
+      "id": "onb-ib-g10-none-q135",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "6b01757b27ef"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Does your child attend tuition or coaching?",
+      "responseType": "single",
+      "paramId": "p21",
+      "optional": false,
+      "options": [
+        {
+          "label": "No",
+          "value": "none"
+        },
+        {
+          "label": "One subject",
+          "value": "one_subject"
+        },
+        {
+          "label": "Two or more subjects",
+          "value": "multi_subject"
+        },
+        {
+          "label": "A coaching institute (e.g. for JEE, NEET or boards)",
+          "value": "institute"
+        }
+      ],
+      "id": "onb-ib-g10-none-q136",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "feb34567435d"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Annual household income (optional, helps us suggest scholarships)",
+      "responseType": "single",
+      "paramId": "p176",
+      "optional": true,
+      "options": [
+        {
+          "label": "Under ₹5 lakh",
+          "value": "lt_5l",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 500000
+          }
+        },
+        {
+          "label": "₹5 to 10 lakh",
+          "value": "5_10l",
+          "sets": {
+            "minInr": 500000,
+            "maxInr": 1000000
+          }
+        },
+        {
+          "label": "₹10 to 25 lakh",
+          "value": "10_25l",
+          "sets": {
+            "minInr": 1000000,
+            "maxInr": 2500000
+          }
+        },
+        {
+          "label": "₹25 to 50 lakh",
+          "value": "25_50l",
+          "sets": {
+            "minInr": 2500000,
+            "maxInr": 5000000
+          }
+        },
+        {
+          "label": "Over ₹50 lakh",
+          "value": "gt_50l",
+          "sets": {
+            "minInr": 5000000,
+            "maxInr": null
+          }
+        }
+      ],
+      "id": "onb-ib-g10-none-q137",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "43104f173bc2"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "How much can you spend on extra learning each year (tuition, courses, tests)?",
+      "responseType": "single",
+      "paramId": "p178",
+      "optional": false,
+      "options": [
+        {
+          "label": "Under ₹50,000",
+          "value": "lt_50k",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 50000
+          }
+        },
+        {
+          "label": "₹50,000 to 1.5 lakh",
+          "value": "50k_150k",
+          "sets": {
+            "minInr": 50000,
+            "maxInr": 150000
+          }
+        },
+        {
+          "label": "₹1.5 to 3 lakh",
+          "value": "150k_300k",
+          "sets": {
+            "minInr": 150000,
+            "maxInr": 300000
+          }
+        },
+        {
+          "label": "₹3 to 6 lakh",
+          "value": "300k_600k",
+          "sets": {
+            "minInr": 300000,
+            "maxInr": 600000
+          }
+        },
+        {
+          "label": "Over ₹6 lakh",
+          "value": "gt_600k",
+          "sets": {
+            "minInr": 600000,
+            "maxInr": null
+          }
+        }
+      ],
+      "id": "onb-ib-g10-none-q138",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "67072550cf5b"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "What total budget can you plan for an undergraduate degree in India?",
+      "responseType": "single",
+      "paramId": "p180",
+      "optional": false,
+      "options": [
+        {
+          "label": "Under ₹5 lakh",
+          "value": "lt_5l",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 500000
+          }
+        },
+        {
+          "label": "₹5 to 15 lakh",
+          "value": "5_15l",
+          "sets": {
+            "minInr": 500000,
+            "maxInr": 1500000
+          }
+        },
+        {
+          "label": "₹15 to 30 lakh",
+          "value": "15_30l",
+          "sets": {
+            "minInr": 1500000,
+            "maxInr": 3000000
+          }
+        },
+        {
+          "label": "Over ₹30 lakh",
+          "value": "gt_30l",
+          "sets": {
+            "minInr": 3000000,
+            "maxInr": null
+          }
+        }
+      ],
+      "id": "onb-ib-g10-none-q139",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "832f80bd4135"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "If your child studies abroad, what total budget could you plan?",
+      "responseType": "single",
+      "paramId": "p181",
+      "optional": false,
+      "options": [
+        {
+          "label": "Not considering study abroad",
+          "value": "none",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 0
+          }
+        },
+        {
+          "label": "Under ₹25 lakh",
+          "value": "lt_25l",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 2500000
+          }
+        },
+        {
+          "label": "₹25 to 50 lakh",
+          "value": "25_50l",
+          "sets": {
+            "minInr": 2500000,
+            "maxInr": 5000000
+          }
+        },
+        {
+          "label": "₹50 lakh to 1 crore",
+          "value": "50l_1cr",
+          "sets": {
+            "minInr": 5000000,
+            "maxInr": 10000000
+          }
+        },
+        {
+          "label": "Over ₹1 crore",
+          "value": "gt_1cr",
+          "sets": {
+            "minInr": 10000000,
+            "maxInr": null
+          }
+        }
+      ],
+      "alsoInforms": [
+        "p192"
+      ],
+      "id": "onb-ib-g10-none-q140",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "1da408987765"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Would you consider an education loan?",
+      "responseType": "single",
+      "paramId": "p182",
+      "optional": false,
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "label": "Maybe, depending on the course",
+          "value": "maybe"
+        },
+        {
+          "label": "No",
+          "value": "no"
+        }
+      ],
+      "id": "onb-ib-g10-none-q141",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "29db07c379ba"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Which career direction would you like for your child?",
+      "responseType": "single",
+      "paramId": "p202",
+      "optional": false,
+      "options": [
+        {
+          "label": "Engineering and technology",
+          "value": "engineering"
+        },
+        {
+          "label": "Medicine and health",
+          "value": "medicine"
+        },
+        {
+          "label": "Business, finance and commerce",
+          "value": "business"
+        },
+        {
+          "label": "Law, government and public policy",
+          "value": "law"
+        },
+        {
+          "label": "Design, media and the arts",
+          "value": "design"
+        },
+        {
+          "label": "Science and research",
+          "value": "research"
+        },
+        {
+          "label": "Teaching, psychology and social work",
+          "value": "social"
+        },
+        {
+          "label": "Whatever my child chooses",
+          "value": "child_choice"
+        }
+      ],
+      "alsoInforms": [
+        "p203"
+      ],
+      "id": "onb-ib-g10-none-q142",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "bc4252eaee6c"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "How supportive is your family of your child studying abroad?",
+      "responseType": "scale",
+      "paramId": "p234",
+      "optional": false,
+      "options": [
+        {
+          "label": "1 Not supportive",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Fully supportive",
+          "value": 5
+        }
+      ],
+      "id": "onb-ib-g10-none-q143",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "9a84394f1a5b"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "What device and internet does your child use for study?",
+      "responseType": "single",
+      "paramId": "p193",
+      "optional": false,
+      "options": [
+        {
+          "label": "Own laptop or tablet with reliable internet",
+          "value": "own_device"
+        },
+        {
+          "label": "A shared family computer",
+          "value": "shared"
+        },
+        {
+          "label": "Mainly a phone",
+          "value": "phone_only"
+        },
+        {
+          "label": "Internet is often unreliable",
+          "value": "unreliable"
+        }
+      ],
+      "id": "onb-ib-g10-none-q144",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "516a78042b4f"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "I consent to Learnibility processing my child's data to personalise their learning, as described in the privacy notice.",
+      "responseType": "consent",
+      "paramId": "p30",
+      "optional": false,
+      "options": [
+        {
+          "label": "I agree",
+          "value": "granted"
+        },
+        {
+          "label": "I do not agree",
+          "value": "refused"
+        }
+      ],
+      "helpText": "Required for a child under 18 (DPDP Act 2023, s.9(1)). You can withdraw consent at any time in Settings.",
+      "id": "onb-ib-g10-none-q145",
+      "tier": "C",
+      "screened": false,
+      "contentKey": "1f4aba2a3948"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "I allow my child's selected work to be shown to teachers, tutors and counsellors on the platform.",
+      "responseType": "consent",
+      "paramId": "p277",
+      "optional": true,
+      "options": [
+        {
+          "label": "Yes",
+          "value": "granted"
+        },
+        {
+          "label": "Not now",
+          "value": "refused"
+        }
+      ],
+      "helpText": "Optional. Nothing is shared outside the platform without asking you again.",
+      "id": "onb-ib-g10-none-q146",
+      "tier": "C",
+      "screened": false,
+      "contentKey": "f49d9421e2bb"
+    }
+  ]
+}

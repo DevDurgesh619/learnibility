@@ -1,0 +1,4971 @@
+{
+  "schemaVersion": 1,
+  "generatedBy": "scripts/onboarding/build-forms.py",
+  "form": {
+    "formId": "onb-ib-g12-humanities",
+    "designId": "g12-humanities",
+    "board": "ib",
+    "grade": 12,
+    "stream": "humanities",
+    "title": "IB Diploma Year 2 Humanities onboarding test",
+    "minutes": {
+      "A": 32,
+      "B": 12,
+      "C": 8,
+      "P": 5
+    },
+    "partA": {
+      "pool": 84,
+      "delivered": 32
+    },
+    "scoring": {
+      "ladder": {
+        "start": "D2",
+        "floor": "D1",
+        "ceiling": "D3",
+        "hitsToStepUp": 2,
+        "weights": {
+          "D1": 1,
+          "D2": 2,
+          "D3": 3
+        }
+      },
+      "bandCutoffs": [
+        {
+          "band": "excellent",
+          "minPercent": 80
+        },
+        {
+          "band": "above_avg",
+          "minPercent": 65
+        },
+        {
+          "band": "average",
+          "minPercent": 45
+        },
+        {
+          "band": "below_avg",
+          "minPercent": 0
+        }
+      ],
+      "groups": [
+        {
+          "group": "history",
+          "label": "History",
+          "subjectIds": [
+            "ib-g11-history",
+            "ib-g12-history"
+          ]
+        },
+        {
+          "group": "political-science",
+          "label": "Global Politics",
+          "subjectIds": [
+            "ib-g11-political-science",
+            "ib-g12-political-science"
+          ]
+        },
+        {
+          "group": "geography",
+          "label": "Geography",
+          "subjectIds": [
+            "ib-g11-geography",
+            "ib-g12-geography"
+          ]
+        },
+        {
+          "group": "economics",
+          "label": "Economics",
+          "subjectIds": [
+            "ib-g11-economics",
+            "ib-g12-economics"
+          ]
+        }
+      ],
+      "writes": [
+        {
+          "paramId": "p1",
+          "rule": "Grade of the form taken",
+          "source": "M1",
+          "confidence": "high"
+        },
+        {
+          "paramId": "p3",
+          "rule": "Board of the form taken",
+          "source": "M1",
+          "confidence": "high"
+        },
+        {
+          "paramId": "p5",
+          "rule": "Stream of the form taken (grades 11-12)",
+          "source": "M1",
+          "confidence": "high"
+        },
+        {
+          "paramId": "p278",
+          "rule": "Per subtopic seen: pMastery 0.7 if right at D2/D3, 0.55 if right at D1, 0.25 if wrong; level L0-L3 from the ladder step reached",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p279",
+          "rule": "Prerequisite-gap index = 100 x weighted misses / weighted items seen in slots 1-4, averaged over groups",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p13",
+          "rule": "Groups with the highest Part A percent (top 1-2, only if >= 65%)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p14",
+          "rule": "Groups with the lowest Part A percent (bottom 1-2, only if < 65%)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p140",
+          "rule": "Mean confidence (1-5) per group",
+          "source": "M1",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p141",
+          "rule": "Calibration = 1 - mean |confidence/5 - correct| over Part A (feeds the first MCI reading)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p284",
+          "rule": "Highest difficulty answered correctly twice in a row: D1 low, D2 medium, D3 high",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p61",
+          "rule": "Verbal reasoning = percent of Part B verbal items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p62",
+          "rule": "Numerical reasoning = percent of Part B numerical items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p63",
+          "rule": "Abstract reasoning = percent of Part B abstract items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p64",
+          "rule": "Spatial reasoning = percent of Part B spatial items right",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p65",
+          "rule": "Logical deduction = percent right on Part B items tagged p65",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p68",
+          "rule": "Numeracy fluency = numerical percent scaled by speed (right answers under target time count 1.2x, max 100)",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p69",
+          "rule": "Processing speed = 100 x share of Part B items answered right within target seconds",
+          "source": "M9",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p200",
+          "rule": "RIASEC profile: each career-interest item scored 1-5; letter score = mean of its 2 items; top 3 letters form the code (e.g. IRC)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p31",
+          "rule": "Answer to onb-ib-g12-humanities-q101 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p33",
+          "rule": "Answer to onb-ib-g12-humanities-q102 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p34",
+          "rule": "Answer to onb-ib-g12-humanities-q103 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p39",
+          "rule": "Answer to onb-ib-g12-humanities-q104 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p40",
+          "rule": "Answer to onb-ib-g12-humanities-q105 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p46",
+          "rule": "Answer to onb-ib-g12-humanities-q106 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p105",
+          "rule": "Answer to onb-ib-g12-humanities-q107 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p48",
+          "rule": "Answer to onb-ib-g12-humanities-q108 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p50",
+          "rule": "Answer to onb-ib-g12-humanities-q109 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p49",
+          "rule": "Answer to onb-ib-g12-humanities-q110 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p21",
+          "rule": "Answer to onb-ib-g12-humanities-q111 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p123",
+          "rule": "Answer to onb-ib-g12-humanities-q112 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p125",
+          "rule": "Answer to onb-ib-g12-humanities-q113 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p331",
+          "rule": "Answer to onb-ib-g12-humanities-q114 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p111",
+          "rule": "Answer to onb-ib-g12-humanities-q115 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p83",
+          "rule": "Answer to onb-ib-g12-humanities-q116 (single)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p230",
+          "rule": "Answer to onb-ib-g12-humanities-q129 (scale)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p198",
+          "rule": "Answer to onb-ib-g12-humanities-q130 (multi)",
+          "source": "M1",
+          "confidence": "low"
+        },
+        {
+          "paramId": "p154",
+          "rule": "Answer to onb-ib-g12-humanities-q131 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p155",
+          "rule": "Answer to onb-ib-g12-humanities-q132 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p156",
+          "rule": "Answer to onb-ib-g12-humanities-q133 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p157",
+          "rule": "Answer to onb-ib-g12-humanities-q134 (multi)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p159",
+          "rule": "Answer to onb-ib-g12-humanities-q135 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p176",
+          "rule": "Answer to onb-ib-g12-humanities-q137 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p178",
+          "rule": "Answer to onb-ib-g12-humanities-q138 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p180",
+          "rule": "Answer to onb-ib-g12-humanities-q139 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p181",
+          "rule": "Answer to onb-ib-g12-humanities-q140 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p182",
+          "rule": "Answer to onb-ib-g12-humanities-q141 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p202",
+          "rule": "Answer to onb-ib-g12-humanities-q142 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p234",
+          "rule": "Answer to onb-ib-g12-humanities-q143 (scale)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p193",
+          "rule": "Answer to onb-ib-g12-humanities-q144 (single)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p30",
+          "rule": "Answer to onb-ib-g12-humanities-q145 (consent)",
+          "source": "M2",
+          "confidence": "medium"
+        },
+        {
+          "paramId": "p277",
+          "rule": "Answer to onb-ib-g12-humanities-q146 (consent)",
+          "source": "M2",
+          "confidence": "medium"
+        }
+      ],
+      "reasoning": [
+        {
+          "domain": "numerical",
+          "paramId": "p62",
+          "itemIds": [
+            "onb-ib-g12-humanities-q85",
+            "onb-ib-g12-humanities-q86",
+            "onb-ib-g12-humanities-q87",
+            "onb-ib-g12-humanities-q88"
+          ]
+        },
+        {
+          "domain": "verbal",
+          "paramId": "p61",
+          "itemIds": [
+            "onb-ib-g12-humanities-q89",
+            "onb-ib-g12-humanities-q90",
+            "onb-ib-g12-humanities-q91",
+            "onb-ib-g12-humanities-q92"
+          ]
+        },
+        {
+          "domain": "abstract",
+          "paramId": "p63",
+          "itemIds": [
+            "onb-ib-g12-humanities-q93",
+            "onb-ib-g12-humanities-q94",
+            "onb-ib-g12-humanities-q95",
+            "onb-ib-g12-humanities-q96"
+          ]
+        },
+        {
+          "domain": "spatial",
+          "paramId": "p64",
+          "itemIds": [
+            "onb-ib-g12-humanities-q97",
+            "onb-ib-g12-humanities-q98",
+            "onb-ib-g12-humanities-q99",
+            "onb-ib-g12-humanities-q100"
+          ]
+        }
+      ],
+      "riasec": {
+        "R": [
+          "onb-ib-g12-humanities-q117",
+          "onb-ib-g12-humanities-q118"
+        ],
+        "I": [
+          "onb-ib-g12-humanities-q119",
+          "onb-ib-g12-humanities-q120"
+        ],
+        "A": [
+          "onb-ib-g12-humanities-q121",
+          "onb-ib-g12-humanities-q122"
+        ],
+        "S": [
+          "onb-ib-g12-humanities-q123",
+          "onb-ib-g12-humanities-q124"
+        ],
+        "E": [
+          "onb-ib-g12-humanities-q125",
+          "onb-ib-g12-humanities-q126"
+        ],
+        "C": [
+          "onb-ib-g12-humanities-q127",
+          "onb-ib-g12-humanities-q128"
+        ]
+      }
+    }
+  },
+  "items": [
+    {
+      "id": "onb-ib-g12-humanities-q01",
+      "subtopicId": "ib-g11-history-ch01-st1",
+      "chapterId": "ib-g11-history-ch01",
+      "subjectId": "ib-g11-history",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which best describes a \"short-term cause\"?",
+      "answer": "A factor that develops just before an event and brings it closer",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "history",
+      "slot": 1,
+      "half": "prerequisite",
+      "subtopicHint": "Causation in history",
+      "subtopicLinked": true,
+      "contentKey": "99ad7d555c0b",
+      "options": [
+        "An unrelated event",
+        "A factor that develops just before an event and brings it closer",
+        "A result of the event",
+        "A factor from centuries earlier"
+      ],
+      "markingKey": "B. A factor that develops just before an event and brings it closer. Close in time"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q02",
+      "subtopicId": "ib-g11-history-ch01-st3",
+      "chapterId": "ib-g11-history-ch01",
+      "subjectId": "ib-g11-history",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A turning point in history is",
+      "answer": "an event after which things change significantly",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "history",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Change, continuity and turning points",
+      "subtopicLinked": true,
+      "contentKey": "7136c0d87400",
+      "options": [
+        "an event with no effects",
+        "an event after which things change significantly",
+        "a date of birth",
+        "a period with no change"
+      ],
+      "markingKey": "B. an event after which things change significantly. Marks a shift"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q03",
+      "subtopicId": "ib-g11-history-ch01-st3",
+      "chapterId": "ib-g11-history-ch01",
+      "subjectId": "ib-g11-history",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which is an example of continuity?",
+      "answer": "Most people continued to work on the land after a new king took power",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "history",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Change, continuity and turning points",
+      "subtopicLinked": true,
+      "contentKey": "8cd249653d44",
+      "options": [
+        "Most people continued to work on the land after a new king took power",
+        "Factories replaced workshops",
+        "A new religion spread rapidly",
+        "A revolution overthrew the king"
+      ],
+      "markingKey": "A. Most people continued to work on the land after a new king took power. Things staying the same"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q04",
+      "subtopicId": "ib-g11-history-ch02-st1",
+      "chapterId": "ib-g11-history-ch02",
+      "subjectId": "ib-g11-history",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A source that agrees with other independent evidence is said to be",
+      "answer": "corroborated",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "history",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Reliability of sources",
+      "subtopicLinked": true,
+      "contentKey": "1caa674f7c33",
+      "options": [
+        "biased",
+        "anachronistic",
+        "corroborated",
+        "secondary"
+      ],
+      "markingKey": "C. corroborated. Cross-checked"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q05",
+      "subtopicId": "ib-g11-history-ch02-st1",
+      "chapterId": "ib-g11-history-ch02",
+      "subjectId": "ib-g11-history",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Why might a court chronicle praising a king be unreliable?",
+      "answer": "It was written to please the ruler",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "history",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Reliability of sources",
+      "subtopicLinked": true,
+      "contentKey": "d568b55ce652",
+      "options": [
+        "Chronicles are always false",
+        "It was written to please the ruler",
+        "It is a primary source",
+        "It is too old to read"
+      ],
+      "markingKey": "B. It was written to please the ruler. Patronage"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q06",
+      "subtopicId": "ib-g11-history-ch02-st1",
+      "chapterId": "ib-g11-history-ch02",
+      "subjectId": "ib-g11-history",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "A source is biased. Can it still be useful to a historian?",
+      "answer": "Yes, it reveals the attitudes and purposes of its author",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "history",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Reliability of sources",
+      "subtopicLinked": true,
+      "contentKey": "bc127498d75f",
+      "options": [
+        "Only if it is a photograph",
+        "No, it must be discarded",
+        "Yes, it reveals the attitudes and purposes of its author",
+        "Only if it is short"
+      ],
+      "markingKey": "C. Yes, it reveals the attitudes and purposes of its author. Bias is itself evidence"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q07",
+      "subtopicId": "ib-g11-history-ch01-st4",
+      "chapterId": "ib-g11-history-ch01",
+      "subjectId": "ib-g11-history",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "An interpretation in history is",
+      "answer": "a historian's explanation or judgement about the past",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "history",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Historical interpretation",
+      "subtopicLinked": true,
+      "contentKey": "b77460e8d3a1",
+      "options": [
+        "a primary source",
+        "a historian's explanation or judgement about the past",
+        "a list of dates",
+        "a map"
+      ],
+      "markingKey": "B. a historian's explanation or judgement about the past. Arguments built on evidence"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q08",
+      "subtopicId": "ib-g11-history-ch01-st4",
+      "chapterId": "ib-g11-history-ch01",
+      "subjectId": "ib-g11-history",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Why do historians writing in different periods often interpret the same event differently?",
+      "answer": "They ask new questions and use new evidence shaped by their own times",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "history",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Historical interpretation",
+      "subtopicLinked": true,
+      "contentKey": "fe86efa2fe59",
+      "options": [
+        "Older historians lied",
+        "Evidence never changes",
+        "They ask new questions and use new evidence shaped by their own times",
+        "The event changes"
+      ],
+      "markingKey": "C. They ask new questions and use new evidence shaped by their own times. Context of the historian"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q09",
+      "subtopicId": "ib-g11-history-ch01-st4",
+      "chapterId": "ib-g11-history-ch01",
+      "subjectId": "ib-g11-history",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Historian A blames one leader for a war; Historian B blames long-term rivalries. Which approaches are these?",
+      "answer": "Intentionalist (individual) versus structural",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "history",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Historical interpretation",
+      "subtopicLinked": true,
+      "contentKey": "07e3c26c2044",
+      "options": [
+        "Primary versus secondary",
+        "Both structural",
+        "Intentionalist (individual) versus structural",
+        "Both economic"
+      ],
+      "markingKey": "C. Intentionalist (individual) versus structural. Agency versus structure"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q10",
+      "subtopicId": "ib-g12-history-ch02-st1",
+      "chapterId": "ib-g12-history-ch02",
+      "subjectId": "ib-g12-history",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Mussolini came to power in Italy in",
+      "answer": "1922",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "history",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Mussolini and Fascist Italy",
+      "subtopicLinked": true,
+      "contentKey": "47557d06539e",
+      "options": [
+        "1940",
+        "1922",
+        "1933",
+        "1918"
+      ],
+      "markingKey": "B. 1922. After the March on Rome"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q11",
+      "subtopicId": "ib-g12-history-ch02-st1",
+      "chapterId": "ib-g12-history-ch02",
+      "subjectId": "ib-g12-history",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Why did many Italians support Fascism after the First World War?",
+      "answer": "Anger over the \"mutilated victory\", economic crisis and fear of communism",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "history",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Mussolini and Fascist Italy",
+      "subtopicLinked": true,
+      "contentKey": "5ef5a69a6dfd",
+      "options": [
+        "The economy was booming",
+        "Italy had gained many colonies",
+        "Anger over the \"mutilated victory\", economic crisis and fear of communism",
+        "There was no unrest"
+      ],
+      "markingKey": "C. Anger over the \"mutilated victory\", economic crisis and fear of communism. Post-war grievances"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q12",
+      "subtopicId": "ib-g12-history-ch02-st1",
+      "chapterId": "ib-g12-history-ch02",
+      "subjectId": "ib-g12-history",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why did Mussolini invade Abyssinia in 1935?",
+      "answer": "To build an empire, gain prestige and avenge the defeat at Adwa",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "history",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Mussolini and Fascist Italy",
+      "subtopicLinked": true,
+      "contentKey": "d9ddd73ae473",
+      "options": [
+        "To defend Italy from attack",
+        "To help the League of Nations",
+        "To build an empire, gain prestige and avenge the defeat at Adwa",
+        "To end slavery"
+      ],
+      "markingKey": "C. To build an empire, gain prestige and avenge the defeat at Adwa. Imperial ambitions"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q13",
+      "subtopicId": "ib-g12-history-ch07-st4",
+      "chapterId": "ib-g12-history-ch07",
+      "subjectId": "ib-g12-history",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Stalin's rapid industrialisation programme was organised through",
+      "answer": "Five-Year Plans",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "history",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Stalin's USSR",
+      "subtopicLinked": true,
+      "contentKey": "1c4e24d68a43",
+      "options": [
+        "Five-Year Plans",
+        "the New Economic Policy",
+        "the Marshall Plan",
+        "perestroika"
+      ],
+      "markingKey": "A. Five-Year Plans. State targets"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q14",
+      "subtopicId": "ib-g12-history-ch07-st4",
+      "chapterId": "ib-g12-history-ch07",
+      "subjectId": "ib-g12-history",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "The Great Terror of the 1930s involved",
+      "answer": "show trials and mass purges of suspected opponents",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "history",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Stalin's USSR",
+      "subtopicLinked": true,
+      "contentKey": "8ccc71bab8b1",
+      "options": [
+        "free elections",
+        "the end of the secret police",
+        "release of political prisoners",
+        "show trials and mass purges of suspected opponents"
+      ],
+      "markingKey": "D. show trials and mass purges of suspected opponents. NKVD repression"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q15",
+      "subtopicId": "ib-g12-history-ch07-st4",
+      "chapterId": "ib-g12-history-ch07",
+      "subjectId": "ib-g12-history",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why is collectivisation often judged a failure even though it supplied grain to cities?",
+      "answer": "It caused famine and millions of deaths, and farm output fell",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "history",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Stalin's USSR",
+      "subtopicLinked": true,
+      "contentKey": "a67a9ebf6ac5",
+      "options": [
+        "It increased private farming",
+        "It was voluntary",
+        "It made peasants rich",
+        "It caused famine and millions of deaths, and farm output fell"
+      ],
+      "markingKey": "D. It caused famine and millions of deaths, and farm output fell. Human cost and low productivity"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q16",
+      "subtopicId": "ib-g12-history-ch02-st3",
+      "chapterId": "ib-g12-history-ch02",
+      "subjectId": "ib-g12-history",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "The Munich Agreement of 1938 allowed Germany to take",
+      "answer": "the Sudetenland",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "history",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Appeasement and the road to war",
+      "subtopicLinked": true,
+      "contentKey": "22fdaca6d7f2",
+      "options": [
+        "the Rhineland",
+        "Austria",
+        "Poland",
+        "the Sudetenland"
+      ],
+      "markingKey": "D. the Sudetenland. From Czechoslovakia"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q17",
+      "subtopicId": "ib-g12-history-ch02-st3",
+      "chapterId": "ib-g12-history-ch02",
+      "subjectId": "ib-g12-history",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Why did Britain follow a policy of appeasement?",
+      "answer": "Fear of another war, military unreadiness and some sympathy for German grievances",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "history",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Appeasement and the road to war",
+      "subtopicLinked": true,
+      "contentKey": "2c72ecaa7c82",
+      "options": [
+        "Fear of another war, military unreadiness and some sympathy for German grievances",
+        "Britain wanted Germany to rule Europe",
+        "Britain had no army",
+        "The USA ordered it"
+      ],
+      "markingKey": "A. Fear of another war, military unreadiness and some sympathy for German grievances. Several motives"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q18",
+      "subtopicId": "ib-g12-history-ch02-st3",
+      "chapterId": "ib-g12-history-ch02",
+      "subjectId": "ib-g12-history",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why did the Nazi-Soviet Pact of 1939 make war more likely?",
+      "answer": "It freed Hitler to invade Poland without fearing a war on two fronts",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "history",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Appeasement and the road to war",
+      "subtopicLinked": true,
+      "contentKey": "a9650b59e89d",
+      "options": [
+        "It ended German rearmament",
+        "It freed Hitler to invade Poland without fearing a war on two fronts",
+        "It united Britain and the USSR",
+        "It returned land to Poland"
+      ],
+      "markingKey": "B. It freed Hitler to invade Poland without fearing a war on two fronts. Removed a deterrent"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q19",
+      "subtopicId": "ib-g12-history-ch03-st3",
+      "chapterId": "ib-g12-history-ch03",
+      "subjectId": "ib-g12-history",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "When comparing two sources, you should look for",
+      "answer": "points of agreement and disagreement",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "history",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Comparing sources and interpretations",
+      "subtopicLinked": true,
+      "contentKey": "647163de1559",
+      "options": [
+        "points of agreement and disagreement",
+        "the date only",
+        "only the longer source",
+        "spelling errors"
+      ],
+      "markingKey": "A. points of agreement and disagreement. Compare and contrast"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q20",
+      "subtopicId": "ib-g12-history-ch03-st3",
+      "chapterId": "ib-g12-history-ch03",
+      "subjectId": "ib-g12-history",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A cartoon from a British newspaper in 1938 mocks Hitler. What should you consider first about its purpose?",
+      "answer": "Whether it aims to criticise appeasement or Hitler for a British audience",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "history",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Comparing sources and interpretations",
+      "subtopicLinked": true,
+      "contentKey": "46db0ab798a7",
+      "options": [
+        "Whether Hitler saw it",
+        "The colour of the ink",
+        "Whether it aims to criticise appeasement or Hitler for a British audience",
+        "How long it took to draw"
+      ],
+      "markingKey": "C. Whether it aims to criticise appeasement or Hitler for a British audience. Audience and message"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q21",
+      "subtopicId": "ib-g12-history-ch03-st3",
+      "chapterId": "ib-g12-history-ch03",
+      "subjectId": "ib-g12-history",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "What does 'synthesis' mean in a source-based essay?",
+      "answer": "Combining evidence from sources with your own knowledge into an argument",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "history",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Comparing sources and interpretations",
+      "subtopicLinked": true,
+      "contentKey": "3e962d1967f6",
+      "options": [
+        "Combining evidence from sources with your own knowledge into an argument",
+        "Summarising one source",
+        "Copying the sources",
+        "Listing dates"
+      ],
+      "markingKey": "A. Combining evidence from sources with your own knowledge into an argument. Integration"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q22",
+      "subtopicId": "ib-g11-political-science-ch03-st1",
+      "chapterId": "ib-g11-political-science-ch03",
+      "subjectId": "ib-g11-political-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A state is usually defined by territory, population, government and",
+      "answer": "sovereignty",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "political-science",
+      "slot": 1,
+      "half": "prerequisite",
+      "subtopicHint": "Authority and the state",
+      "subtopicLinked": true,
+      "contentKey": "3bf73c2de437",
+      "options": [
+        "a football team",
+        "a flag only",
+        "sovereignty",
+        "a stock market"
+      ],
+      "markingKey": "C. sovereignty. Four elements"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q23",
+      "subtopicId": "ib-g11-political-science-ch04-st1",
+      "chapterId": "ib-g11-political-science-ch04",
+      "subjectId": "ib-g11-political-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Human rights are",
+      "answer": "rights everyone has simply because they are human",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "political-science",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Rights and perspectives",
+      "subtopicLinked": true,
+      "contentKey": "7b934c48365b",
+      "options": [
+        "rights only citizens earn",
+        "rights everyone has simply because they are human",
+        "privileges given by kings",
+        "rules of a club"
+      ],
+      "markingKey": "B. rights everyone has simply because they are human. Universal"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q24",
+      "subtopicId": "ib-g11-political-science-ch04-st1",
+      "chapterId": "ib-g11-political-science-ch04",
+      "subjectId": "ib-g11-political-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Why might people from different cultures prioritise different rights?",
+      "answer": "Values such as community and individual freedom are weighted differently",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "political-science",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Rights and perspectives",
+      "subtopicLinked": true,
+      "contentKey": "96e0e62e07be",
+      "options": [
+        "Rights are identical everywhere",
+        "Rights cannot be discussed",
+        "Values such as community and individual freedom are weighted differently",
+        "Some people have no rights"
+      ],
+      "markingKey": "C. Values such as community and individual freedom are weighted differently. Universalism versus relativism"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q25",
+      "subtopicId": "ib-g11-political-science-ch01-st1",
+      "chapterId": "ib-g11-political-science-ch01",
+      "subjectId": "ib-g11-political-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Which piece of evidence is strongest?",
+      "answer": "data from a large, representative survey",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "political-science",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Evaluating claims",
+      "subtopicLinked": true,
+      "contentKey": "69437d5f1371",
+      "options": [
+        "one person's opinion",
+        "an advert",
+        "a rumour",
+        "data from a large, representative survey"
+      ],
+      "markingKey": "D. data from a large, representative survey. Representative data"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q26",
+      "subtopicId": "ib-g11-political-science-ch01-st1",
+      "chapterId": "ib-g11-political-science-ch01",
+      "subjectId": "ib-g11-political-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "'Turnout fell after the new voting law, so the law caused it.' What is the flaw?",
+      "answer": "It assumes correlation proves causation",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "political-science",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Evaluating claims",
+      "subtopicLinked": true,
+      "contentKey": "39dfcf547e2e",
+      "options": [
+        "It is too short",
+        "It mentions a law",
+        "It uses data",
+        "It assumes correlation proves causation"
+      ],
+      "markingKey": "D. It assumes correlation proves causation. Other factors may explain it"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q27",
+      "subtopicId": "ib-g11-political-science-ch01-st1",
+      "chapterId": "ib-g11-political-science-ch01",
+      "subjectId": "ib-g11-political-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why is a counter-argument useful in an essay?",
+      "answer": "Answering it strengthens your conclusion",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "political-science",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Evaluating claims",
+      "subtopicLinked": true,
+      "contentKey": "4fd90da89ded",
+      "options": [
+        "It is not allowed",
+        "Answering it strengthens your conclusion",
+        "It weakens your position",
+        "It replaces evidence"
+      ],
+      "markingKey": "B. Answering it strengthens your conclusion. Rebuttal"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q28",
+      "subtopicId": "ib-g11-political-science-ch02-st1",
+      "chapterId": "ib-g11-political-science-ch02",
+      "subjectId": "ib-g11-political-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Holding leaders answerable for their actions is",
+      "answer": "accountability",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "political-science",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Power and accountability",
+      "subtopicLinked": true,
+      "contentKey": "e885fadc971d",
+      "options": [
+        "propaganda",
+        "sovereignty",
+        "anarchy",
+        "accountability"
+      ],
+      "markingKey": "D. accountability. Answerability"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q29",
+      "subtopicId": "ib-g11-political-science-ch02-st1",
+      "chapterId": "ib-g11-political-science-ch02",
+      "subjectId": "ib-g11-political-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which institution most directly checks the executive in a parliamentary democracy?",
+      "answer": "the legislature",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "political-science",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Power and accountability",
+      "subtopicLinked": true,
+      "contentKey": "a585cfb5ab1e",
+      "options": [
+        "the media alone",
+        "the army",
+        "the stock exchange",
+        "the legislature"
+      ],
+      "markingKey": "D. the legislature. Questions, votes, committees"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q30",
+      "subtopicId": "ib-g11-political-science-ch02-st1",
+      "chapterId": "ib-g11-political-science-ch02",
+      "subjectId": "ib-g11-political-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why can concentrated power be dangerous even under a popular leader?",
+      "answer": "Without checks, it can be abused and is hard to remove",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "political-science",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Power and accountability",
+      "subtopicLinked": true,
+      "contentKey": "9d28c7f1c974",
+      "options": [
+        "Without checks, it can be abused and is hard to remove",
+        "Concentration always improves policy",
+        "Popular leaders never err",
+        "Checks slow nothing"
+      ],
+      "markingKey": "A. Without checks, it can be abused and is hard to remove. Lord Acton"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q31",
+      "subtopicId": "ib-g12-political-science-ch03-st2",
+      "chapterId": "ib-g12-political-science-ch03",
+      "subjectId": "ib-g12-political-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "The UN body with permanent members holding a veto is the",
+      "answer": "Security Council",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "political-science",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "The UN and peacekeeping",
+      "subtopicLinked": true,
+      "contentKey": "3ae8c2dd1dbd",
+      "options": [
+        "International Court only",
+        "WHO",
+        "Security Council",
+        "General Assembly"
+      ],
+      "markingKey": "C. Security Council. P5"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q32",
+      "subtopicId": "ib-g12-political-science-ch03-st2",
+      "chapterId": "ib-g12-political-science-ch03",
+      "subjectId": "ib-g12-political-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "UN peacekeepers are usually deployed",
+      "answer": "with the consent of the parties to monitor a ceasefire",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "political-science",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "The UN and peacekeeping",
+      "subtopicLinked": true,
+      "contentKey": "7042877e5ff6",
+      "options": [
+        "with the consent of the parties to monitor a ceasefire",
+        "only in Europe",
+        "to conquer territory",
+        "to collect taxes"
+      ],
+      "markingKey": "A. with the consent of the parties to monitor a ceasefire. Consent and impartiality"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q33",
+      "subtopicId": "ib-g12-political-science-ch03-st2",
+      "chapterId": "ib-g12-political-science-ch03",
+      "subjectId": "ib-g12-political-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why is the veto criticised by many states?",
+      "answer": "Five states can block action even when most members support it",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "political-science",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "The UN and peacekeeping",
+      "subtopicLinked": true,
+      "contentKey": "e346f6855f0f",
+      "options": [
+        "Five states can block action even when most members support it",
+        "It applies to the General Assembly",
+        "It is rarely used",
+        "It gives every state equal power"
+      ],
+      "markingKey": "A. Five states can block action even when most members support it. Unequal power"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q34",
+      "subtopicId": "ib-g12-political-science-ch02-st1",
+      "chapterId": "ib-g12-political-science-ch02",
+      "subjectId": "ib-g12-political-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A war between two states is an",
+      "answer": "interstate conflict",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "political-science",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Security and conflict",
+      "subtopicLinked": true,
+      "contentKey": "ae075b43766b",
+      "options": [
+        "civil disobedience",
+        "election",
+        "intrastate conflict",
+        "interstate conflict"
+      ],
+      "markingKey": "D. interstate conflict. Between states"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q35",
+      "subtopicId": "ib-g12-political-science-ch02-st1",
+      "chapterId": "ib-g12-political-science-ch02",
+      "subjectId": "ib-g12-political-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Non-traditional security threats include",
+      "answer": "pandemics and climate change",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "political-science",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Security and conflict",
+      "subtopicLinked": true,
+      "contentKey": "ae6882d4f94a",
+      "options": [
+        "pandemics and climate change",
+        "only foreign armies",
+        "military parades",
+        "border posts"
+      ],
+      "markingKey": "A. pandemics and climate change. Human security"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q36",
+      "subtopicId": "ib-g12-political-science-ch02-st1",
+      "chapterId": "ib-g12-political-science-ch02",
+      "subjectId": "ib-g12-political-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "What is the security dilemma?",
+      "answer": "One state's defensive build-up makes others feel less secure, leading to arms races",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "political-science",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Security and conflict",
+      "subtopicLinked": true,
+      "contentKey": "3a17033adcf5",
+      "options": [
+        "Security has no costs",
+        "One state's defensive build-up makes others feel less secure, leading to arms races",
+        "Only small states arm",
+        "States always trust each other"
+      ],
+      "markingKey": "B. One state's defensive build-up makes others feel less secure, leading to arms races. Spiral of insecurity"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q37",
+      "subtopicId": "ib-g12-political-science-ch01-st1",
+      "chapterId": "ib-g12-political-science-ch01",
+      "subjectId": "ib-g12-political-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Positive peace means",
+      "answer": "the presence of justice and conditions that prevent violence",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "political-science",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Peace and human security",
+      "subtopicLinked": true,
+      "contentKey": "b3566d42297c",
+      "options": [
+        "military victory",
+        "simply no war",
+        "a ceasefire only",
+        "the presence of justice and conditions that prevent violence"
+      ],
+      "markingKey": "D. the presence of justice and conditions that prevent violence. Galtung"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q38",
+      "subtopicId": "ib-g12-political-science-ch01-st1",
+      "chapterId": "ib-g12-political-science-ch01",
+      "subjectId": "ib-g12-political-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Structural violence refers to",
+      "answer": "harm caused by unjust social systems such as poverty",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "political-science",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Peace and human security",
+      "subtopicLinked": true,
+      "contentKey": "8425481befb4",
+      "options": [
+        "a bombing",
+        "a street fight",
+        "a duel",
+        "harm caused by unjust social systems such as poverty"
+      ],
+      "markingKey": "D. harm caused by unjust social systems such as poverty. Indirect harm"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q39",
+      "subtopicId": "ib-g12-political-science-ch01-st1",
+      "chapterId": "ib-g12-political-science-ch01",
+      "subjectId": "ib-g12-political-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why did Gandhi's non-violent methods put pressure on the British?",
+      "answer": "They exposed the injustice of colonial rule and made it costly to maintain",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "political-science",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Peace and human security",
+      "subtopicLinked": true,
+      "contentKey": "5a35a799c221",
+      "options": [
+        "They used force",
+        "They avoided public attention",
+        "They exposed the injustice of colonial rule and made it costly to maintain",
+        "They relied on foreign armies"
+      ],
+      "markingKey": "C. They exposed the injustice of colonial rule and made it costly to maintain. Moral and economic pressure"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q40",
+      "subtopicId": "ib-g12-political-science-ch05-st1",
+      "chapterId": "ib-g12-political-science-ch05",
+      "subjectId": "ib-g12-political-science",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A border that exists mainly in trade rules and visas rather than on the ground is",
+      "answer": "a virtual or economic border",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "political-science",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Borders",
+      "subtopicLinked": true,
+      "contentKey": "44fadc3b03df",
+      "options": [
+        "a natural border",
+        "a mountain range",
+        "a river",
+        "a virtual or economic border"
+      ],
+      "markingKey": "D. a virtual or economic border. Not physical"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q41",
+      "subtopicId": "ib-g12-political-science-ch05-st1",
+      "chapterId": "ib-g12-political-science-ch05",
+      "subjectId": "ib-g12-political-science",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Why are many border disputes linked to colonial history?",
+      "answer": "Colonial powers drew borders without regard for local communities",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "political-science",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Borders",
+      "subtopicLinked": true,
+      "contentKey": "cd5befac1236",
+      "options": [
+        "Borders were chosen by referendum",
+        "Colonies had no borders",
+        "Colonial maps were exact",
+        "Colonial powers drew borders without regard for local communities"
+      ],
+      "markingKey": "D. Colonial powers drew borders without regard for local communities. Arbitrary lines"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q42",
+      "subtopicId": "ib-g12-political-science-ch05-st1",
+      "chapterId": "ib-g12-political-science-ch05",
+      "subjectId": "ib-g12-political-science",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "How can tighter border controls create a humanitarian challenge?",
+      "answer": "Refugees fleeing danger may be left stranded or pushed back",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "political-science",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Borders",
+      "subtopicLinked": true,
+      "contentKey": "880365294930",
+      "options": [
+        "Refugees fleeing danger may be left stranded or pushed back",
+        "They have no effect",
+        "They make travel easier",
+        "They end all migration"
+      ],
+      "markingKey": "A. Refugees fleeing danger may be left stranded or pushed back. Rights of asylum seekers"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q43",
+      "subtopicId": "ib-g11-geography-ch04-st1",
+      "chapterId": "ib-g11-geography-ch04",
+      "subjectId": "ib-g11-geography",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which gas contributes most to the enhanced greenhouse effect from human activity?",
+      "answer": "carbon dioxide",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "geography",
+      "slot": 1,
+      "half": "prerequisite",
+      "subtopicHint": "The greenhouse effect",
+      "subtopicLinked": true,
+      "contentKey": "3f0c334eb64d",
+      "options": [
+        "argon",
+        "oxygen",
+        "nitrogen",
+        "carbon dioxide"
+      ],
+      "markingKey": "D. carbon dioxide. From burning fossil fuels"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q44",
+      "subtopicId": "ib-g11-geography-ch05-st3",
+      "chapterId": "ib-g11-geography-ch05",
+      "subjectId": "ib-g11-geography",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Rising sea levels are caused mainly by",
+      "answer": "melting land ice and thermal expansion of seawater",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "geography",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Consequences of climate change",
+      "subtopicLinked": true,
+      "contentKey": "a6f6a5304c13",
+      "options": [
+        "melting land ice and thermal expansion of seawater",
+        "deforestation alone",
+        "more rivers",
+        "earthquakes"
+      ],
+      "markingKey": "A. melting land ice and thermal expansion of seawater. Warming oceans"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q45",
+      "subtopicId": "ib-g11-geography-ch05-st3",
+      "chapterId": "ib-g11-geography-ch05",
+      "subjectId": "ib-g11-geography",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Why are low-income coastal communities often most vulnerable to climate change?",
+      "answer": "They have fewer resources to adapt or recover",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "geography",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Consequences of climate change",
+      "subtopicLinked": true,
+      "contentKey": "f72743d8bf44",
+      "options": [
+        "They live on high ground",
+        "They are always insured",
+        "They emit the most carbon",
+        "They have fewer resources to adapt or recover"
+      ],
+      "markingKey": "D. They have fewer resources to adapt or recover. Vulnerability"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q46",
+      "subtopicId": "ib-g11-geography-ch02-st1",
+      "chapterId": "ib-g11-geography-ch02",
+      "subjectId": "ib-g11-geography",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Natural increase is",
+      "answer": "birth rate minus death rate",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "geography",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Population change and policies",
+      "subtopicLinked": true,
+      "contentKey": "36ee018868a5",
+      "options": [
+        "death rate minus birth rate",
+        "birth rate minus death rate",
+        "immigration minus emigration",
+        "total population"
+      ],
+      "markingKey": "B. birth rate minus death rate. Excludes migration"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q47",
+      "subtopicId": "ib-g11-geography-ch02-st1",
+      "chapterId": "ib-g11-geography-ch02",
+      "subjectId": "ib-g11-geography",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A pro-natalist policy aims to",
+      "answer": "encourage people to have more children",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "geography",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Population change and policies",
+      "subtopicLinked": true,
+      "contentKey": "3d7c5ff13b5d",
+      "options": [
+        "encourage people to have more children",
+        "raise death rates",
+        "reduce births",
+        "expel migrants"
+      ],
+      "markingKey": "A. encourage people to have more children. Boost fertility"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q48",
+      "subtopicId": "ib-g11-geography-ch02-st1",
+      "chapterId": "ib-g11-geography-ch02",
+      "subjectId": "ib-g11-geography",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why might a country with an ageing population encourage immigration?",
+      "answer": "Young migrants add workers and taxpayers",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "geography",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Population change and policies",
+      "subtopicLinked": true,
+      "contentKey": "f05cde663dcc",
+      "options": [
+        "To reduce the workforce",
+        "To raise the median age",
+        "Young migrants add workers and taxpayers",
+        "To lower tax revenue"
+      ],
+      "markingKey": "C. Young migrants add workers and taxpayers. Labour supply"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q49",
+      "subtopicId": "ib-g11-geography-ch02-st4",
+      "chapterId": "ib-g11-geography-ch02",
+      "subjectId": "ib-g11-geography",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Which is a push factor?",
+      "answer": "civil war",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "geography",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Migration",
+      "subtopicLinked": true,
+      "contentKey": "4686f83cc2e2",
+      "options": [
+        "a safe environment",
+        "higher wages",
+        "better schools",
+        "civil war"
+      ],
+      "markingKey": "D. civil war. Drives people away"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q50",
+      "subtopicId": "ib-g11-geography-ch02-st4",
+      "chapterId": "ib-g11-geography-ch02",
+      "subjectId": "ib-g11-geography",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Remittances are",
+      "answer": "money sent home by migrants",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "geography",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Migration",
+      "subtopicLinked": true,
+      "contentKey": "13933408ff28",
+      "options": [
+        "visas",
+        "taxes paid by migrants",
+        "money sent home by migrants",
+        "airline tickets"
+      ],
+      "markingKey": "C. money sent home by migrants. Financial flows"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q51",
+      "subtopicId": "ib-g11-geography-ch02-st4",
+      "chapterId": "ib-g11-geography-ch02",
+      "subjectId": "ib-g11-geography",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why can brain drain slow development in a source country?",
+      "answer": "It loses skilled doctors, engineers and teachers",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "geography",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Migration",
+      "subtopicLinked": true,
+      "contentKey": "b04d5f9622d9",
+      "options": [
+        "It loses skilled doctors, engineers and teachers",
+        "It increases taxes",
+        "It improves hospitals",
+        "It gains workers"
+      ],
+      "markingKey": "A. It loses skilled doctors, engineers and teachers. Human capital loss"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q52",
+      "subtopicId": "ib-g12-geography-ch01-st2",
+      "chapterId": "ib-g12-geography-ch01",
+      "subjectId": "ib-g12-geography",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A volcano formed by layers of ash and lava is a",
+      "answer": "composite (strato) volcano",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "geography",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Volcanic hazards",
+      "subtopicLinked": true,
+      "contentKey": "bac27cc654a5",
+      "options": [
+        "composite (strato) volcano",
+        "fold mountain",
+        "shield volcano",
+        "rift valley"
+      ],
+      "markingKey": "A. composite (strato) volcano. Steep sides"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q53",
+      "subtopicId": "ib-g12-geography-ch01-st2",
+      "chapterId": "ib-g12-geography-ch01",
+      "subjectId": "ib-g12-geography",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Pyroclastic flows are dangerous because they",
+      "answer": "are fast-moving clouds of very hot gas and ash",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "geography",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Volcanic hazards",
+      "subtopicLinked": true,
+      "contentKey": "0a11cff5db9b",
+      "options": [
+        "move very slowly",
+        "are only water",
+        "are fast-moving clouds of very hot gas and ash",
+        "are cold"
+      ],
+      "markingKey": "C. are fast-moving clouds of very hot gas and ash. Lethal"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q54",
+      "subtopicId": "ib-g12-geography-ch01-st2",
+      "chapterId": "ib-g12-geography-ch01",
+      "subjectId": "ib-g12-geography",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why do explosive eruptions occur at destructive boundaries?",
+      "answer": "Viscous, gas-rich magma traps pressure until it bursts",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "geography",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "Volcanic hazards",
+      "subtopicLinked": true,
+      "contentKey": "fa823c3cc148",
+      "options": [
+        "Magma is very runny",
+        "Plates move apart",
+        "There is no gas",
+        "Viscous, gas-rich magma traps pressure until it bursts"
+      ],
+      "markingKey": "D. Viscous, gas-rich magma traps pressure until it bursts. Silica-rich magma"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q55",
+      "subtopicId": "ib-g12-geography-ch01-st3",
+      "chapterId": "ib-g12-geography-ch01",
+      "subjectId": "ib-g12-geography",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "The magnitude of an earthquake measures",
+      "answer": "the energy released",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "geography",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Earthquake hazards",
+      "subtopicLinked": true,
+      "contentKey": "509d09f8f637",
+      "options": [
+        "the number of deaths",
+        "the energy released",
+        "the damage caused",
+        "the depth of the sea"
+      ],
+      "markingKey": "B. the energy released. Moment magnitude scale"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q56",
+      "subtopicId": "ib-g12-geography-ch01-st3",
+      "chapterId": "ib-g12-geography-ch01",
+      "subjectId": "ib-g12-geography",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Liquefaction happens when",
+      "answer": "shaking makes saturated soil behave like a liquid",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "geography",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Earthquake hazards",
+      "subtopicLinked": true,
+      "contentKey": "b16f0c302258",
+      "options": [
+        "lava cools",
+        "rain stops",
+        "shaking makes saturated soil behave like a liquid",
+        "rocks melt"
+      ],
+      "markingKey": "C. shaking makes saturated soil behave like a liquid. Secondary hazard"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q57",
+      "subtopicId": "ib-g12-geography-ch01-st3",
+      "chapterId": "ib-g12-geography-ch01",
+      "subjectId": "ib-g12-geography",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why can a smaller earthquake cause more deaths than a larger one?",
+      "answer": "Building quality, population density and preparedness differ",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "geography",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Earthquake hazards",
+      "subtopicLinked": true,
+      "contentKey": "a9680ae0bd6e",
+      "options": [
+        "Smaller quakes release more energy",
+        "Building quality, population density and preparedness differ",
+        "Larger quakes are always deeper",
+        "Deaths depend only on magnitude"
+      ],
+      "markingKey": "B. Building quality, population density and preparedness differ. Vulnerability"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q58",
+      "subtopicId": "ib-g12-geography-ch03-st1",
+      "chapterId": "ib-g12-geography-ch03",
+      "subjectId": "ib-g12-geography",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Risk is often expressed as",
+      "answer": "hazard x vulnerability",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "geography",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Hazard risk and vulnerability",
+      "subtopicLinked": true,
+      "contentKey": "8ca9eb8f539b",
+      "options": [
+        "hazard x vulnerability",
+        "wealth x area",
+        "hazard ÷ population",
+        "magnitude + depth"
+      ],
+      "markingKey": "A. hazard x vulnerability. Risk equation"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q59",
+      "subtopicId": "ib-g12-geography-ch03-st1",
+      "chapterId": "ib-g12-geography-ch03",
+      "subjectId": "ib-g12-geography",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which group is often most vulnerable in a disaster?",
+      "answer": "the elderly and poor",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "geography",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Hazard risk and vulnerability",
+      "subtopicLinked": true,
+      "contentKey": "b8a26db5d851",
+      "options": [
+        "wealthy adults",
+        "tourists in hotels",
+        "government officials",
+        "the elderly and poor"
+      ],
+      "markingKey": "D. the elderly and poor. Fewer resources"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q60",
+      "subtopicId": "ib-g12-geography-ch03-st1",
+      "chapterId": "ib-g12-geography-ch03",
+      "subjectId": "ib-g12-geography",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why might people continue living near an active volcano?",
+      "answer": "Fertile soils, jobs and attachment to home outweigh perceived risk",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "geography",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Hazard risk and vulnerability",
+      "subtopicLinked": true,
+      "contentKey": "a71400d2dde3",
+      "options": [
+        "They cannot see it",
+        "Law forbids moving",
+        "Volcanoes are always safe",
+        "Fertile soils, jobs and attachment to home outweigh perceived risk"
+      ],
+      "markingKey": "D. Fertile soils, jobs and attachment to home outweigh perceived risk. Hazard perception"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q61",
+      "subtopicId": "ib-g12-geography-ch04-st1",
+      "chapterId": "ib-g12-geography-ch04",
+      "subjectId": "ib-g12-geography",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A hazard map shows",
+      "answer": "areas at risk from a hazard",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "geography",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Building resilience to hazards",
+      "subtopicLinked": true,
+      "contentKey": "f146763431ea",
+      "options": [
+        "rainfall totals",
+        "areas at risk from a hazard",
+        "road traffic only",
+        "school locations only"
+      ],
+      "markingKey": "B. areas at risk from a hazard. Planning tool"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q62",
+      "subtopicId": "ib-g12-geography-ch04-st1",
+      "chapterId": "ib-g12-geography-ch04",
+      "subjectId": "ib-g12-geography",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Which is a pre-event strategy?",
+      "answer": "earthquake-resistant building codes",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "geography",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Building resilience to hazards",
+      "subtopicLinked": true,
+      "contentKey": "748628992cae",
+      "options": [
+        "earthquake-resistant building codes",
+        "emergency rescue",
+        "insurance payouts",
+        "rebuilding homes"
+      ],
+      "markingKey": "A. earthquake-resistant building codes. Before the event"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q63",
+      "subtopicId": "ib-g12-geography-ch04-st1",
+      "chapterId": "ib-g12-geography-ch04",
+      "subjectId": "ib-g12-geography",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why is community preparedness often as important as technology?",
+      "answer": "People who know what to do act faster and save lives",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "geography",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Building resilience to hazards",
+      "subtopicLinked": true,
+      "contentKey": "eff3744258c3",
+      "options": [
+        "People who know what to do act faster and save lives",
+        "Communities cause hazards",
+        "Technology always fails",
+        "Preparedness is costly"
+      ],
+      "markingKey": "A. People who know what to do act faster and save lives. Human response"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q64",
+      "subtopicId": "ib-g11-economics-ch04-st1",
+      "chapterId": "ib-g11-economics-ch04",
+      "subjectId": "ib-g11-economics",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A bad harvest reduces the supply of wheat. What happens to price and quantity?",
+      "answer": "Price rises, quantity falls",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 1,
+      "half": "prerequisite",
+      "subtopicHint": "Shifts in demand and supply",
+      "subtopicLinked": true,
+      "contentKey": "760047e94b93",
+      "options": [
+        "Price falls, quantity rises",
+        "Price rises, quantity falls",
+        "Both fall",
+        "Both rise"
+      ],
+      "markingKey": "B. Price rises, quantity falls. Supply shifts left"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q65",
+      "subtopicId": "ib-g11-economics-ch08-st1",
+      "chapterId": "ib-g11-economics-ch08",
+      "subjectId": "ib-g11-economics",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A good with PED of -0.2 is",
+      "answer": "price inelastic",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Elasticity",
+      "subtopicLinked": true,
+      "contentKey": "b75d76bb9e52",
+      "options": [
+        "perfectly elastic",
+        "unit elastic",
+        "price elastic",
+        "price inelastic"
+      ],
+      "markingKey": "D. price inelastic. |PED| < 1"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q66",
+      "subtopicId": "ib-g11-economics-ch08-st1",
+      "chapterId": "ib-g11-economics-ch08",
+      "subjectId": "ib-g11-economics",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A firm faces inelastic demand. What happens to total revenue if it raises price?",
+      "answer": "It rises",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 2,
+      "half": "prerequisite",
+      "subtopicHint": "Elasticity",
+      "subtopicLinked": true,
+      "contentKey": "da17a99cce4e",
+      "options": [
+        "It rises",
+        "It stays the same",
+        "It becomes zero",
+        "It falls"
+      ],
+      "markingKey": "A. It rises. Quantity falls proportionately less"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q67",
+      "subtopicId": "ib-g11-economics-ch13-st1",
+      "chapterId": "ib-g11-economics-ch13",
+      "subjectId": "ib-g11-economics",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Rent for a factory that does not change with output is a",
+      "answer": "fixed cost",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Costs and production",
+      "subtopicLinked": true,
+      "contentKey": "856641afe266",
+      "options": [
+        "variable cost",
+        "fixed cost",
+        "marginal cost",
+        "revenue"
+      ],
+      "markingKey": "B. fixed cost. Independent of output"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q68",
+      "subtopicId": "ib-g11-economics-ch13-st1",
+      "chapterId": "ib-g11-economics-ch13",
+      "subjectId": "ib-g11-economics",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Total cost is 500 at 10 units and 560 at 11 units. What is the marginal cost of the 11th unit?",
+      "answer": "60",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Costs and production",
+      "subtopicLinked": true,
+      "contentKey": "50a9b045d14b",
+      "options": [
+        "60",
+        "50",
+        "1060",
+        "56"
+      ],
+      "markingKey": "A. 60. 560 - 500"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q69",
+      "subtopicId": "ib-g11-economics-ch13-st1",
+      "chapterId": "ib-g11-economics-ch13",
+      "subjectId": "ib-g11-economics",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why does marginal product eventually fall as more workers are added to a fixed machine?",
+      "answer": "The law of diminishing returns",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 3,
+      "half": "prerequisite",
+      "subtopicHint": "Costs and production",
+      "subtopicLinked": true,
+      "contentKey": "ed97d638d3cb",
+      "options": [
+        "The law of diminishing returns",
+        "Prices fall",
+        "Workers become lazy",
+        "Machines get faster"
+      ],
+      "markingKey": "A. The law of diminishing returns. Fixed factor constrains output"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q70",
+      "subtopicId": "ib-g11-economics-ch13-st2",
+      "chapterId": "ib-g11-economics-ch13",
+      "subjectId": "ib-g11-economics",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "In perfect competition, firms are",
+      "answer": "price takers",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Market structures and allocation",
+      "subtopicLinked": true,
+      "contentKey": "0517eadc9fe5",
+      "options": [
+        "price takers",
+        "price makers",
+        "state owned",
+        "monopolies"
+      ],
+      "markingKey": "A. price takers. Many small firms, identical goods"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q71",
+      "subtopicId": "ib-g11-economics-ch13-st2",
+      "chapterId": "ib-g11-economics-ch13",
+      "subjectId": "ib-g11-economics",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "A market with only one seller is a",
+      "answer": "monopoly",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Market structures and allocation",
+      "subtopicLinked": true,
+      "contentKey": "0a07e3caef3e",
+      "options": [
+        "perfect competition",
+        "monopoly",
+        "duopoly",
+        "oligopoly"
+      ],
+      "markingKey": "B. monopoly. Single supplier"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q72",
+      "subtopicId": "ib-g11-economics-ch13-st2",
+      "chapterId": "ib-g11-economics-ch13",
+      "subjectId": "ib-g11-economics",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why can a monopoly charge a higher price than a competitive firm?",
+      "answer": "It faces no close competitors, so buyers cannot switch easily",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 4,
+      "half": "prerequisite",
+      "subtopicHint": "Market structures and allocation",
+      "subtopicLinked": true,
+      "contentKey": "1b13ff717920",
+      "options": [
+        "It faces no close competitors, so buyers cannot switch easily",
+        "Consumers prefer high prices",
+        "It has higher costs by law",
+        "It must by regulation"
+      ],
+      "markingKey": "A. It faces no close competitors, so buyers cannot switch easily. Market power"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q73",
+      "subtopicId": "ib-g12-economics-ch01-st1",
+      "chapterId": "ib-g12-economics-ch01",
+      "subjectId": "ib-g12-economics",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "GDP measures",
+      "answer": "the value of all final goods and services produced in a country in a year",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "National income and GDP",
+      "subtopicLinked": true,
+      "contentKey": "91241b6ef6b1",
+      "options": [
+        "the value of all final goods and services produced in a country in a year",
+        "only exports",
+        "government spending only",
+        "money in banks"
+      ],
+      "markingKey": "A. the value of all final goods and services produced in a country in a year. Domestic output"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q74",
+      "subtopicId": "ib-g12-economics-ch01-st1",
+      "chapterId": "ib-g12-economics-ch01",
+      "subjectId": "ib-g12-economics",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Why is real GDP better than nominal GDP for comparing output over time?",
+      "answer": "It removes the effect of price changes",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "National income and GDP",
+      "subtopicLinked": true,
+      "contentKey": "b0aa8c2b3208",
+      "options": [
+        "It includes inflation",
+        "It removes the effect of price changes",
+        "It counts only services",
+        "It is always larger"
+      ],
+      "markingKey": "B. It removes the effect of price changes. Adjusted for inflation"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q75",
+      "subtopicId": "ib-g12-economics-ch01-st1",
+      "chapterId": "ib-g12-economics-ch01",
+      "subjectId": "ib-g12-economics",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Nominal GDP grows 8% while prices rise 5%. Roughly what is real growth?",
+      "answer": "3%",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 5,
+      "half": "current",
+      "subtopicHint": "National income and GDP",
+      "subtopicLinked": true,
+      "contentKey": "514314482086",
+      "options": [
+        "1.6%",
+        "3%",
+        "13%",
+        "8%"
+      ],
+      "markingKey": "B. 3%. 8% - 5%"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q76",
+      "subtopicId": "ib-g12-economics-ch02-st4",
+      "chapterId": "ib-g12-economics-ch02",
+      "subjectId": "ib-g12-economics",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "Inflation is",
+      "answer": "a sustained rise in the general price level",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Inflation",
+      "subtopicLinked": true,
+      "contentKey": "48b9cc7a76ce",
+      "options": [
+        "a rise in one price",
+        "an increase in output",
+        "a sustained rise in the general price level",
+        "a fall in prices"
+      ],
+      "markingKey": "C. a sustained rise in the general price level. Measured by a price index"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q77",
+      "subtopicId": "ib-g12-economics-ch02-st4",
+      "chapterId": "ib-g12-economics-ch02",
+      "subjectId": "ib-g12-economics",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Inflation caused by rising costs of production is",
+      "answer": "cost-push inflation",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Inflation",
+      "subtopicLinked": true,
+      "contentKey": "fb70ef39e0d4",
+      "options": [
+        "demand-pull inflation",
+        "stagflation only",
+        "deflation",
+        "cost-push inflation"
+      ],
+      "markingKey": "D. cost-push inflation. Higher input costs"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q78",
+      "subtopicId": "ib-g12-economics-ch02-st4",
+      "chapterId": "ib-g12-economics-ch02",
+      "subjectId": "ib-g12-economics",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "Why does unexpected inflation hurt savers with fixed interest?",
+      "answer": "The real value of their savings falls",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 6,
+      "half": "current",
+      "subtopicHint": "Inflation",
+      "subtopicLinked": true,
+      "contentKey": "caf182530ddc",
+      "options": [
+        "The real value of their savings falls",
+        "Banks pay more",
+        "Their savings grow faster",
+        "Prices stay the same"
+      ],
+      "markingKey": "A. The real value of their savings falls. Money buys less"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q79",
+      "subtopicId": "ib-g12-economics-ch07-st1",
+      "chapterId": "ib-g12-economics-ch07",
+      "subjectId": "ib-g12-economics",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "India's central bank is the",
+      "answer": "Reserve Bank of India",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Money, banking and monetary policy",
+      "subtopicLinked": true,
+      "contentKey": "44ef970dc833",
+      "options": [
+        "State Bank of India",
+        "Finance Ministry",
+        "Reserve Bank of India",
+        "SEBI"
+      ],
+      "markingKey": "C. Reserve Bank of India. Bank of issue"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q80",
+      "subtopicId": "ib-g12-economics-ch07-st1",
+      "chapterId": "ib-g12-economics-ch07",
+      "subjectId": "ib-g12-economics",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "To reduce inflation, a central bank is likely to",
+      "answer": "raise interest rates",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Money, banking and monetary policy",
+      "subtopicLinked": true,
+      "contentKey": "12dfa499c746",
+      "options": [
+        "raise interest rates",
+        "lower reserve ratios",
+        "cut interest rates",
+        "print more money"
+      ],
+      "markingKey": "A. raise interest rates. Contractionary monetary policy"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q81",
+      "subtopicId": "ib-g12-economics-ch07-st1",
+      "chapterId": "ib-g12-economics-ch07",
+      "subjectId": "ib-g12-economics",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "How does a higher cash reserve ratio reduce lending?",
+      "answer": "Banks must hold more deposits as reserves, leaving less to lend",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 7,
+      "half": "current",
+      "subtopicHint": "Money, banking and monetary policy",
+      "subtopicLinked": true,
+      "contentKey": "bc1e81ea3d0e",
+      "options": [
+        "It forces banks to lend more",
+        "It cuts interest rates",
+        "It raises the money multiplier",
+        "Banks must hold more deposits as reserves, leaving less to lend"
+      ],
+      "markingKey": "D. Banks must hold more deposits as reserves, leaving less to lend. Lower credit creation"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q82",
+      "subtopicId": "ib-g12-economics-ch08-st2",
+      "chapterId": "ib-g12-economics-ch08",
+      "subjectId": "ib-g12-economics",
+      "conceptGroup": "C1",
+      "difficulty": "D1",
+      "type": "mcq",
+      "stem": "A budget deficit occurs when",
+      "answer": "government spending exceeds revenue",
+      "marks": 1,
+      "minutes": 0.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G1",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Fiscal policy and the budget",
+      "subtopicLinked": true,
+      "contentKey": "3bc6c5b8ac0b",
+      "options": [
+        "government spending exceeds revenue",
+        "prices fall",
+        "exports exceed imports",
+        "revenue exceeds spending"
+      ],
+      "markingKey": "A. government spending exceeds revenue. Government borrows"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q83",
+      "subtopicId": "ib-g12-economics-ch08-st2",
+      "chapterId": "ib-g12-economics-ch08",
+      "subjectId": "ib-g12-economics",
+      "conceptGroup": "C2",
+      "difficulty": "D2",
+      "type": "mcq",
+      "stem": "Income tax is an example of a",
+      "answer": "direct tax",
+      "marks": 2,
+      "minutes": 1.0,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G2",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Fiscal policy and the budget",
+      "subtopicLinked": true,
+      "contentKey": "99ca9c29a923",
+      "options": [
+        "direct tax",
+        "subsidy",
+        "tariff",
+        "indirect tax"
+      ],
+      "markingKey": "A. direct tax. Paid directly on income"
+    },
+    {
+      "id": "onb-ib-g12-humanities-q84",
+      "subtopicId": "ib-g12-economics-ch08-st2",
+      "chapterId": "ib-g12-economics-ch08",
+      "subjectId": "ib-g12-economics",
+      "conceptGroup": "C3",
+      "difficulty": "D3",
+      "type": "mcq",
+      "stem": "In a recession, why might a government increase spending?",
+      "answer": "To boost aggregate demand and employment",
+      "marks": 3,
+      "minutes": 1.5,
+      "alrRole": "practised",
+      "likelyGapOnWrong": "G3",
+      "set": "onboarding",
+      "part": "A",
+      "group": "economics",
+      "slot": 8,
+      "half": "current",
+      "subtopicHint": "Fiscal policy and the budget",
+      "subtopicLinked": true,
+      "contentKey": "b20c9918a22c",
+      "options": [
+        "To reduce output",
+        "To raise interest rates",
+        "To cause inflation on purpose",
+        "To boost aggregate demand and employment"
+      ],
+      "markingKey": "D. To boost aggregate demand and employment. Expansionary fiscal policy"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D2",
+      "stem": "What number comes next? 2, 3, 5, 8, 13, ?",
+      "options": [
+        "20",
+        "18",
+        "26",
+        "21"
+      ],
+      "answer": "21",
+      "explanation": "Each term is the sum of the two before it",
+      "seconds": 30,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-ib-g12-humanities-q85",
+      "part": "B",
+      "contentKey": "1ab8b7e1a9d2"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D2",
+      "stem": "Money doubles in 6 years at a fixed compound rate. In how many years does it become 8 times?",
+      "options": [
+        "18",
+        "12",
+        "48",
+        "24"
+      ],
+      "answer": "18",
+      "explanation": "8 = 2³, so three doubling periods",
+      "seconds": 45,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-ib-g12-humanities-q86",
+      "part": "B",
+      "contentKey": "5b81fb79f4a2"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D3",
+      "stem": "Boys and girls in a class are in the ratio 3 : 5. After 6 more boys join, the ratio is 1 : 1. How many students were there at first?",
+      "options": [
+        "32",
+        "30",
+        "24",
+        "16"
+      ],
+      "answer": "24",
+      "explanation": "3k + 6 = 5k gives k = 3, so 9 + 15 = 24",
+      "seconds": 75,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-ib-g12-humanities-q87",
+      "part": "B",
+      "contentKey": "a243772353aa"
+    },
+    {
+      "domain": "numerical",
+      "difficulty": "D3",
+      "stem": "One pipe fills a tank in 6 hours; another empties it in 9 hours. If both are open, how long does it take to fill the empty tank?",
+      "options": [
+        "15 hours",
+        "7.5 hours",
+        "18 hours",
+        "3 hours"
+      ],
+      "answer": "18 hours",
+      "explanation": "1/6 - 1/9 = 1/18 of the tank per hour",
+      "seconds": 75,
+      "paramIds": [
+        "p62",
+        "p68",
+        "p69"
+      ],
+      "id": "onb-ib-g12-humanities-q88",
+      "part": "B",
+      "contentKey": "28cbccf73516"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D2",
+      "stem": "Which phrase is closest in meaning to 'ubiquitous'?",
+      "options": [
+        "found everywhere",
+        "very rare",
+        "highly useful",
+        "extremely old"
+      ],
+      "answer": "found everywhere",
+      "explanation": "Ubiquitous means present everywhere",
+      "seconds": 30,
+      "paramIds": [
+        "p61",
+        "p69"
+      ],
+      "id": "onb-ib-g12-humanities-q89",
+      "part": "B",
+      "contentKey": "90af104465f9"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D2",
+      "stem": "Author is to novel as composer is to ...",
+      "options": [
+        "audience",
+        "orchestra",
+        "symphony",
+        "piano"
+      ],
+      "answer": "symphony",
+      "explanation": "What each creates",
+      "seconds": 30,
+      "paramIds": [
+        "p61",
+        "p69"
+      ],
+      "id": "onb-ib-g12-humanities-q90",
+      "part": "B",
+      "contentKey": "cbb2594f4607"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D3",
+      "stem": "Some economists are writers. All writers are readers. Which statement must be true?",
+      "options": [
+        "All readers are economists",
+        "No reader is an economist",
+        "Some economists are readers",
+        "All economists are writers"
+      ],
+      "answer": "Some economists are readers",
+      "explanation": "The economists who are writers are also readers",
+      "seconds": 60,
+      "paramIds": [
+        "p61",
+        "p65",
+        "p69"
+      ],
+      "id": "onb-ib-g12-humanities-q91",
+      "part": "B",
+      "contentKey": "898351f148c8"
+    },
+    {
+      "domain": "verbal",
+      "difficulty": "D3",
+      "stem": "Claim: 'Since the new study app launched, the school's test scores rose, so the app raised scores.' Which fact, if true, most weakens the claim?",
+      "options": [
+        "The school also hired extra teachers at the same time",
+        "Students said they liked the app",
+        "The app is free",
+        "Scores rose most in maths"
+      ],
+      "answer": "The school also hired extra teachers at the same time",
+      "explanation": "Another change at the same time offers a different explanation",
+      "seconds": 75,
+      "paramIds": [
+        "p61",
+        "p65",
+        "p69"
+      ],
+      "id": "onb-ib-g12-humanities-q92",
+      "part": "B",
+      "contentKey": "76a3f6583cee"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D2",
+      "stem": "What comes next? AZ, BY, CX, ?",
+      "options": [
+        "EW",
+        "DX",
+        "DW",
+        "DV"
+      ],
+      "answer": "DW",
+      "explanation": "First letters go forward, second letters go backward",
+      "seconds": 30,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "id": "onb-ib-g12-humanities-q93",
+      "part": "B",
+      "contentKey": "7e42fa87e73c"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D2",
+      "stem": "If 2 ⊕ 3 = 13 and 3 ⊕ 4 = 25, what is 4 ⊕ 5?",
+      "options": [
+        "81",
+        "45",
+        "41",
+        "20"
+      ],
+      "answer": "41",
+      "explanation": "a ⊕ b = a² + b²: 16 + 25 = 41",
+      "seconds": 60,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "id": "onb-ib-g12-humanities-q94",
+      "part": "B",
+      "contentKey": "ee495a503bcb"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D3",
+      "stem": "What comes next? 1, 2, 6, 24, 120, ?",
+      "options": [
+        "240",
+        "720",
+        "600",
+        "144"
+      ],
+      "answer": "720",
+      "explanation": "Multiply by 2, 3, 4, 5, then 6",
+      "seconds": 60,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "id": "onb-ib-g12-humanities-q95",
+      "part": "B",
+      "contentKey": "59584204a824"
+    },
+    {
+      "domain": "abstract",
+      "difficulty": "D3",
+      "stem": "Figures: shaded triangle, unshaded square, shaded pentagon, ... Each figure gains one side and the shading alternates. What is the next figure?",
+      "options": [
+        "an unshaded pentagon",
+        "an unshaded hexagon",
+        "a shaded heptagon",
+        "a shaded hexagon"
+      ],
+      "answer": "an unshaded hexagon",
+      "explanation": "Six sides, and the shading switches back to unshaded",
+      "seconds": 60,
+      "paramIds": [
+        "p63",
+        "p69"
+      ],
+      "id": "onb-ib-g12-humanities-q96",
+      "part": "B",
+      "contentKey": "089202f449ff"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D2",
+      "stem": "What is the smaller angle between the hour and minute hands of a clock at 3:15?",
+      "options": [
+        "0°",
+        "15°",
+        "22.5°",
+        "7.5°"
+      ],
+      "answer": "7.5°",
+      "explanation": "The hour hand has moved a quarter of 30° past the 3",
+      "seconds": 60,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "id": "onb-ib-g12-humanities-q97",
+      "part": "B",
+      "contentKey": "5fdd3b770309"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D2",
+      "stem": "Opposite faces of a die add up to 7. A die shows 1 on top, 2 at the front and 3 on the right. What number is on the bottom?",
+      "options": [
+        "6",
+        "4",
+        "2",
+        "5"
+      ],
+      "answer": "6",
+      "explanation": "Bottom is opposite top: 7 - 1 = 6",
+      "seconds": 45,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 160 140\" width=\"160\" height=\"140\" stroke=\"currentColor\" fill=\"none\" stroke-width=\"2\"><polygon points=\"20,40 100,40 100,120 20,120\"/><polygon points=\"20,40 50,15 130,15 100,40\"/><polygon points=\"100,40 130,15 130,95 100,120\"/><text x=\"60\" y=\"88\" font-size=\"26\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"75\" y=\"34\" font-size=\"18\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">1</text><text x=\"115\" y=\"75\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">3</text></svg>",
+      "id": "onb-ib-g12-humanities-q98",
+      "part": "B",
+      "contentKey": "cb65a76edcea"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D3",
+      "stem": "From home you walk 4 km north and then 3 km east. How far are you from home in a straight line?",
+      "options": [
+        "7 km",
+        "1 km",
+        "5 km",
+        "6 km"
+      ],
+      "answer": "5 km",
+      "explanation": "A 3-4-5 right triangle",
+      "seconds": 45,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "id": "onb-ib-g12-humanities-q99",
+      "part": "B",
+      "contentKey": "40f6ae63a66b"
+    },
+    {
+      "domain": "spatial",
+      "difficulty": "D3",
+      "stem": "A 3 x 3 x 3 cube is painted on all faces and cut into 27 small cubes. How many small cubes have exactly one painted face?",
+      "options": [
+        "6",
+        "1",
+        "12",
+        "8"
+      ],
+      "answer": "6",
+      "explanation": "One at the centre of each face",
+      "seconds": 60,
+      "paramIds": [
+        "p64",
+        "p69"
+      ],
+      "id": "onb-ib-g12-humanities-q100",
+      "part": "B",
+      "contentKey": "efc87feb69df"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "On a normal school day, how long do you study at home (not counting tuition)?",
+      "responseType": "single",
+      "paramId": "p31",
+      "options": [
+        {
+          "label": "Less than 1 hour",
+          "value": 0.5
+        },
+        {
+          "label": "1 to 2 hours",
+          "value": 1.5
+        },
+        {
+          "label": "2 to 3 hours",
+          "value": 2.5
+        },
+        {
+          "label": "3 to 4 hours",
+          "value": 3.5
+        },
+        {
+          "label": "More than 4 hours",
+          "value": 4.5
+        }
+      ],
+      "unit": "hours",
+      "id": "onb-ib-g12-humanities-q101",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "a3188617eeb3"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "When do you usually study best?",
+      "responseType": "single",
+      "paramId": "p33",
+      "options": [
+        {
+          "label": "Early morning",
+          "value": "early_morning"
+        },
+        {
+          "label": "Afternoon",
+          "value": "afternoon"
+        },
+        {
+          "label": "Evening",
+          "value": "evening"
+        },
+        {
+          "label": "Late night",
+          "value": "late_night"
+        }
+      ],
+      "id": "onb-ib-g12-humanities-q102",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "4bff65265626"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How long is a typical study session before you take a break?",
+      "responseType": "single",
+      "paramId": "p34",
+      "options": [
+        {
+          "label": "15 to 20 minutes",
+          "value": 20
+        },
+        {
+          "label": "30 to 45 minutes",
+          "value": 40
+        },
+        {
+          "label": "About an hour",
+          "value": 60
+        },
+        {
+          "label": "90 minutes or more",
+          "value": 90
+        }
+      ],
+      "unit": "minutes",
+      "id": "onb-ib-g12-humanities-q103",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "09d32e5c0254"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How often do you revise topics you have already finished?",
+      "responseType": "single",
+      "paramId": "p39",
+      "options": [
+        {
+          "label": "Rarely",
+          "value": "rarely"
+        },
+        {
+          "label": "Only before tests",
+          "value": "before_tests"
+        },
+        {
+          "label": "Every week",
+          "value": "weekly"
+        },
+        {
+          "label": "Most days",
+          "value": "daily"
+        }
+      ],
+      "id": "onb-ib-g12-humanities-q104",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "0d286009ae6f"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How do you usually revise?",
+      "responseType": "single",
+      "paramId": "p40",
+      "options": [
+        {
+          "label": "Re-reading notes or the textbook",
+          "value": "reread"
+        },
+        {
+          "label": "Highlighting or rewriting notes",
+          "value": "rewrite"
+        },
+        {
+          "label": "Doing practice questions",
+          "value": "practice"
+        },
+        {
+          "label": "Testing myself with flashcards or quizzes",
+          "value": "self_test"
+        },
+        {
+          "label": "Explaining it to someone else",
+          "value": "teach"
+        }
+      ],
+      "id": "onb-ib-g12-humanities-q105",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "fec782fd153e"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "I put off starting homework until the last minute.",
+      "responseType": "scale",
+      "paramId": "p46",
+      "options": [
+        {
+          "label": "1 Never",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Always",
+          "value": 5
+        }
+      ],
+      "id": "onb-ib-g12-humanities-q106",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "b31ed6ad6c6c"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Where is your phone while you study?",
+      "responseType": "single",
+      "paramId": "p105",
+      "options": [
+        {
+          "label": "In another room",
+          "value": "away"
+        },
+        {
+          "label": "Nearby on silent",
+          "value": "silent_nearby"
+        },
+        {
+          "label": "With me, I check it often",
+          "value": "checking"
+        },
+        {
+          "label": "I study on my phone",
+          "value": "study_device"
+        }
+      ],
+      "id": "onb-ib-g12-humanities-q107",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "d194a9f578b8"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Which helps you learn a new topic most?",
+      "responseType": "single",
+      "paramId": "p48",
+      "options": [
+        {
+          "label": "Watching a video",
+          "value": "video"
+        },
+        {
+          "label": "Reading and making notes",
+          "value": "reading"
+        },
+        {
+          "label": "Trying problems straight away",
+          "value": "practice"
+        },
+        {
+          "label": "Discussing it with someone",
+          "value": "discussion"
+        }
+      ],
+      "id": "onb-ib-g12-humanities-q108",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "c23e54729bc0"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Do you prefer studying alone or with others?",
+      "responseType": "single",
+      "paramId": "p50",
+      "options": [
+        {
+          "label": "Alone",
+          "value": "solo"
+        },
+        {
+          "label": "With one friend",
+          "value": "pair"
+        },
+        {
+          "label": "In a group",
+          "value": "group"
+        },
+        {
+          "label": "It depends on the subject",
+          "value": "mixed"
+        }
+      ],
+      "id": "onb-ib-g12-humanities-q109",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "70f11b4add34"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "When you get stuck on a question, what do you usually do first?",
+      "responseType": "single",
+      "paramId": "p49",
+      "options": [
+        {
+          "label": "Ask my teacher",
+          "value": "teacher"
+        },
+        {
+          "label": "Ask a friend or sibling",
+          "value": "peer"
+        },
+        {
+          "label": "Search online or watch a video",
+          "value": "online"
+        },
+        {
+          "label": "Leave it and move on",
+          "value": "skip"
+        }
+      ],
+      "id": "onb-ib-g12-humanities-q110",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "599b22b79bd2"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Do you go to tuition or coaching classes?",
+      "responseType": "single",
+      "paramId": "p21",
+      "options": [
+        {
+          "label": "No",
+          "value": "none"
+        },
+        {
+          "label": "Yes, for one subject",
+          "value": "one_subject"
+        },
+        {
+          "label": "Yes, for two or more subjects",
+          "value": "multi_subject"
+        },
+        {
+          "label": "Yes, at a coaching institute",
+          "value": "institute"
+        }
+      ],
+      "id": "onb-ib-g12-humanities-q111",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "3c939f2b1013"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "I mostly study because ...",
+      "responseType": "single",
+      "paramId": "p123",
+      "options": [
+        {
+          "label": "I enjoy learning new things",
+          "value": "intrinsic"
+        },
+        {
+          "label": "I have a goal I want to reach",
+          "value": "goal"
+        },
+        {
+          "label": "I want good marks",
+          "value": "performance"
+        },
+        {
+          "label": "My family expects it",
+          "value": "external"
+        }
+      ],
+      "id": "onb-ib-g12-humanities-q112",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "4ab1b901cdd5"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "If I work hard, I can get much better at a subject I find difficult.",
+      "responseType": "scale",
+      "paramId": "p125",
+      "options": [
+        {
+          "label": "1 Strongly disagree",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Strongly agree",
+          "value": 5
+        }
+      ],
+      "id": "onb-ib-g12-humanities-q113",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "6efb13e3bd21"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "I like hard problems, even when I might get them wrong.",
+      "responseType": "scale",
+      "paramId": "p331",
+      "options": [
+        {
+          "label": "1 Strongly disagree",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Strongly agree",
+          "value": 5
+        }
+      ],
+      "id": "onb-ib-g12-humanities-q114",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "80b24e607fdf"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Before a test, how nervous do you usually feel?",
+      "responseType": "scale",
+      "paramId": "p111",
+      "options": [
+        {
+          "label": "1 Calm",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Very nervous",
+          "value": 5
+        }
+      ],
+      "helpText": "Optional. This only helps us pace your plan and suggest support; it never affects your scores or recommendations.",
+      "alsoInforms": [
+        "p133"
+      ],
+      "id": "onb-ib-g12-humanities-q115",
+      "tier": "T3",
+      "screened": true,
+      "optional": true,
+      "contentKey": "58e5770944cf"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "On school nights, how many hours do you usually sleep?",
+      "responseType": "single",
+      "paramId": "p83",
+      "options": [
+        {
+          "label": "Less than 6",
+          "value": 5.5
+        },
+        {
+          "label": "6 to 7",
+          "value": 6.5
+        },
+        {
+          "label": "7 to 8",
+          "value": 7.5
+        },
+        {
+          "label": "8 to 9",
+          "value": 8.5
+        },
+        {
+          "label": "More than 9",
+          "value": 9.5
+        }
+      ],
+      "helpText": "Optional. Used only to fit your timetable around enough rest.",
+      "unit": "hours",
+      "id": "onb-ib-g12-humanities-q116",
+      "tier": "T3",
+      "screened": true,
+      "optional": true,
+      "contentKey": "55062a5c52b2"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Fixing or building things, like a bicycle, a model or a small circuit",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "R",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g12-humanities-q117",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "36e0422d9d06"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Working outdoors with tools, plants or animals",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "R",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g12-humanities-q118",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "c063e3c69b0f"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Doing experiments to find out why something happens",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "I",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g12-humanities-q119",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "0c12a884162e"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Solving tricky maths or logic puzzles",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "I",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g12-humanities-q120",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "058f5f9025f0"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Drawing, designing, writing stories or making music",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "A",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g12-humanities-q121",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "9234642a58af"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Acting, photography or making videos",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "A",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g12-humanities-q122",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "e7bfdb738978"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Explaining something to a friend until they understand it",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "S",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g12-humanities-q123",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "8f4da2390889"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Volunteering to help people in your community",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "S",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g12-humanities-q124",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "40f8337ef8af"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Leading a team or running a school club",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "E",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g12-humanities-q125",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "b91eb24feb37"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Pitching an idea or starting a small business",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "E",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g12-humanities-q126",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "6806cc5fc89c"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Keeping records or organising information neatly",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "C",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g12-humanities-q127",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "0c466df2c3f1"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How much would you enjoy this? Working with numbers, budgets or spreadsheets",
+      "responseType": "scale",
+      "paramId": "p200",
+      "options": [
+        {
+          "label": "1 Not at all",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Love it",
+          "value": 5
+        }
+      ],
+      "riasec": "C",
+      "alsoInforms": [
+        "p201"
+      ],
+      "id": "onb-ib-g12-humanities-q128",
+      "tier": "T2",
+      "screened": false,
+      "optional": true,
+      "contentKey": "c884a471f58e"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "How interested are you in studying abroad after school?",
+      "responseType": "scale",
+      "paramId": "p230",
+      "options": [
+        {
+          "label": "1 Not interested",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Very interested",
+          "value": 5
+        }
+      ],
+      "alsoInforms": [
+        "p231"
+      ],
+      "id": "onb-ib-g12-humanities-q129",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "587ff74cc454"
+    },
+    {
+      "part": "C",
+      "respondent": "student",
+      "prompt": "Which career areas interest you right now? Pick up to three.",
+      "responseType": "multi",
+      "paramId": "p198",
+      "options": [
+        {
+          "label": "Engineering and technology",
+          "value": "engineering"
+        },
+        {
+          "label": "Medicine and health",
+          "value": "medicine"
+        },
+        {
+          "label": "Business, finance and commerce",
+          "value": "business"
+        },
+        {
+          "label": "Law, government and public policy",
+          "value": "law"
+        },
+        {
+          "label": "Design, media and the arts",
+          "value": "design"
+        },
+        {
+          "label": "Science and research",
+          "value": "research"
+        },
+        {
+          "label": "Teaching, psychology and social work",
+          "value": "social"
+        },
+        {
+          "label": "Not sure yet",
+          "value": "unsure"
+        }
+      ],
+      "max": 3,
+      "alsoInforms": [
+        "p199"
+      ],
+      "id": "onb-ib-g12-humanities-q130",
+      "tier": "T1",
+      "screened": false,
+      "optional": false,
+      "contentKey": "732c5efa2f1e"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Who does your child live with?",
+      "responseType": "single",
+      "paramId": "p154",
+      "optional": false,
+      "options": [
+        {
+          "label": "Both parents",
+          "value": "nuclear"
+        },
+        {
+          "label": "Parents and grandparents or other relatives",
+          "value": "joint"
+        },
+        {
+          "label": "One parent",
+          "value": "single_parent"
+        },
+        {
+          "label": "Another guardian",
+          "value": "guardian"
+        }
+      ],
+      "id": "onb-ib-g12-humanities-q131",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "b4e573af0103"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "What is the highest education level in your child's home?",
+      "responseType": "single",
+      "paramId": "p155",
+      "optional": false,
+      "options": [
+        {
+          "label": "School",
+          "value": "school"
+        },
+        {
+          "label": "Bachelor's degree",
+          "value": "graduate"
+        },
+        {
+          "label": "Master's degree",
+          "value": "postgraduate"
+        },
+        {
+          "label": "Professional or doctoral degree (CA, MBBS, PhD, LLB...)",
+          "value": "professional"
+        }
+      ],
+      "id": "onb-ib-g12-humanities-q132",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "9bb6e9dc0272"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Which best describes the main earner's work?",
+      "responseType": "single",
+      "paramId": "p156",
+      "optional": false,
+      "options": [
+        {
+          "label": "Salaried, private sector",
+          "value": "private"
+        },
+        {
+          "label": "Salaried, government or PSU",
+          "value": "government"
+        },
+        {
+          "label": "Own business",
+          "value": "business"
+        },
+        {
+          "label": "Self-employed professional",
+          "value": "professional"
+        },
+        {
+          "label": "Agriculture",
+          "value": "agriculture"
+        },
+        {
+          "label": "Other",
+          "value": "other"
+        }
+      ],
+      "id": "onb-ib-g12-humanities-q133",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "53fbc806c89f"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Which languages are spoken at home?",
+      "responseType": "multi",
+      "paramId": "p157",
+      "optional": false,
+      "options": [
+        {
+          "label": "English",
+          "value": "en"
+        },
+        {
+          "label": "Hindi",
+          "value": "hi"
+        },
+        {
+          "label": "Another Indian language",
+          "value": "regional"
+        },
+        {
+          "label": "Another language",
+          "value": "other"
+        }
+      ],
+      "id": "onb-ib-g12-humanities-q134",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "9b8c0fd0ab78"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "How involved are you in your child's daily study?",
+      "responseType": "single",
+      "paramId": "p159",
+      "optional": false,
+      "options": [
+        {
+          "label": "I check in every day",
+          "value": "daily"
+        },
+        {
+          "label": "A few times a week",
+          "value": "weekly"
+        },
+        {
+          "label": "Mainly around exams",
+          "value": "exams"
+        },
+        {
+          "label": "Rarely, my child manages it",
+          "value": "rarely"
+        }
+      ],
+      "id": "onb-ib-g12-humanities-q135",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "6b01757b27ef"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Does your child attend tuition or coaching?",
+      "responseType": "single",
+      "paramId": "p21",
+      "optional": false,
+      "options": [
+        {
+          "label": "No",
+          "value": "none"
+        },
+        {
+          "label": "One subject",
+          "value": "one_subject"
+        },
+        {
+          "label": "Two or more subjects",
+          "value": "multi_subject"
+        },
+        {
+          "label": "A coaching institute (e.g. for JEE, NEET or boards)",
+          "value": "institute"
+        }
+      ],
+      "id": "onb-ib-g12-humanities-q136",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "feb34567435d"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Annual household income (optional, helps us suggest scholarships)",
+      "responseType": "single",
+      "paramId": "p176",
+      "optional": true,
+      "options": [
+        {
+          "label": "Under ₹5 lakh",
+          "value": "lt_5l",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 500000
+          }
+        },
+        {
+          "label": "₹5 to 10 lakh",
+          "value": "5_10l",
+          "sets": {
+            "minInr": 500000,
+            "maxInr": 1000000
+          }
+        },
+        {
+          "label": "₹10 to 25 lakh",
+          "value": "10_25l",
+          "sets": {
+            "minInr": 1000000,
+            "maxInr": 2500000
+          }
+        },
+        {
+          "label": "₹25 to 50 lakh",
+          "value": "25_50l",
+          "sets": {
+            "minInr": 2500000,
+            "maxInr": 5000000
+          }
+        },
+        {
+          "label": "Over ₹50 lakh",
+          "value": "gt_50l",
+          "sets": {
+            "minInr": 5000000,
+            "maxInr": null
+          }
+        }
+      ],
+      "id": "onb-ib-g12-humanities-q137",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "43104f173bc2"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "How much can you spend on extra learning each year (tuition, courses, tests)?",
+      "responseType": "single",
+      "paramId": "p178",
+      "optional": false,
+      "options": [
+        {
+          "label": "Under ₹50,000",
+          "value": "lt_50k",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 50000
+          }
+        },
+        {
+          "label": "₹50,000 to 1.5 lakh",
+          "value": "50k_150k",
+          "sets": {
+            "minInr": 50000,
+            "maxInr": 150000
+          }
+        },
+        {
+          "label": "₹1.5 to 3 lakh",
+          "value": "150k_300k",
+          "sets": {
+            "minInr": 150000,
+            "maxInr": 300000
+          }
+        },
+        {
+          "label": "₹3 to 6 lakh",
+          "value": "300k_600k",
+          "sets": {
+            "minInr": 300000,
+            "maxInr": 600000
+          }
+        },
+        {
+          "label": "Over ₹6 lakh",
+          "value": "gt_600k",
+          "sets": {
+            "minInr": 600000,
+            "maxInr": null
+          }
+        }
+      ],
+      "id": "onb-ib-g12-humanities-q138",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "67072550cf5b"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "What total budget can you plan for an undergraduate degree in India?",
+      "responseType": "single",
+      "paramId": "p180",
+      "optional": false,
+      "options": [
+        {
+          "label": "Under ₹5 lakh",
+          "value": "lt_5l",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 500000
+          }
+        },
+        {
+          "label": "₹5 to 15 lakh",
+          "value": "5_15l",
+          "sets": {
+            "minInr": 500000,
+            "maxInr": 1500000
+          }
+        },
+        {
+          "label": "₹15 to 30 lakh",
+          "value": "15_30l",
+          "sets": {
+            "minInr": 1500000,
+            "maxInr": 3000000
+          }
+        },
+        {
+          "label": "Over ₹30 lakh",
+          "value": "gt_30l",
+          "sets": {
+            "minInr": 3000000,
+            "maxInr": null
+          }
+        }
+      ],
+      "id": "onb-ib-g12-humanities-q139",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "832f80bd4135"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "If your child studies abroad, what total budget could you plan?",
+      "responseType": "single",
+      "paramId": "p181",
+      "optional": false,
+      "options": [
+        {
+          "label": "Not considering study abroad",
+          "value": "none",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 0
+          }
+        },
+        {
+          "label": "Under ₹25 lakh",
+          "value": "lt_25l",
+          "sets": {
+            "minInr": 0,
+            "maxInr": 2500000
+          }
+        },
+        {
+          "label": "₹25 to 50 lakh",
+          "value": "25_50l",
+          "sets": {
+            "minInr": 2500000,
+            "maxInr": 5000000
+          }
+        },
+        {
+          "label": "₹50 lakh to 1 crore",
+          "value": "50l_1cr",
+          "sets": {
+            "minInr": 5000000,
+            "maxInr": 10000000
+          }
+        },
+        {
+          "label": "Over ₹1 crore",
+          "value": "gt_1cr",
+          "sets": {
+            "minInr": 10000000,
+            "maxInr": null
+          }
+        }
+      ],
+      "alsoInforms": [
+        "p192"
+      ],
+      "id": "onb-ib-g12-humanities-q140",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "1da408987765"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Would you consider an education loan?",
+      "responseType": "single",
+      "paramId": "p182",
+      "optional": false,
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "label": "Maybe, depending on the course",
+          "value": "maybe"
+        },
+        {
+          "label": "No",
+          "value": "no"
+        }
+      ],
+      "id": "onb-ib-g12-humanities-q141",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "29db07c379ba"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "Which career direction would you like for your child?",
+      "responseType": "single",
+      "paramId": "p202",
+      "optional": false,
+      "options": [
+        {
+          "label": "Engineering and technology",
+          "value": "engineering"
+        },
+        {
+          "label": "Medicine and health",
+          "value": "medicine"
+        },
+        {
+          "label": "Business, finance and commerce",
+          "value": "business"
+        },
+        {
+          "label": "Law, government and public policy",
+          "value": "law"
+        },
+        {
+          "label": "Design, media and the arts",
+          "value": "design"
+        },
+        {
+          "label": "Science and research",
+          "value": "research"
+        },
+        {
+          "label": "Teaching, psychology and social work",
+          "value": "social"
+        },
+        {
+          "label": "Whatever my child chooses",
+          "value": "child_choice"
+        }
+      ],
+      "alsoInforms": [
+        "p203"
+      ],
+      "id": "onb-ib-g12-humanities-q142",
+      "tier": "T2",
+      "screened": false,
+      "contentKey": "bc4252eaee6c"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "How supportive is your family of your child studying abroad?",
+      "responseType": "scale",
+      "paramId": "p234",
+      "optional": false,
+      "options": [
+        {
+          "label": "1 Not supportive",
+          "value": 1
+        },
+        {
+          "label": "2",
+          "value": 2
+        },
+        {
+          "label": "3",
+          "value": 3
+        },
+        {
+          "label": "4",
+          "value": 4
+        },
+        {
+          "label": "5 Fully supportive",
+          "value": 5
+        }
+      ],
+      "id": "onb-ib-g12-humanities-q143",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "9a84394f1a5b"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "What device and internet does your child use for study?",
+      "responseType": "single",
+      "paramId": "p193",
+      "optional": false,
+      "options": [
+        {
+          "label": "Own laptop or tablet with reliable internet",
+          "value": "own_device"
+        },
+        {
+          "label": "A shared family computer",
+          "value": "shared"
+        },
+        {
+          "label": "Mainly a phone",
+          "value": "phone_only"
+        },
+        {
+          "label": "Internet is often unreliable",
+          "value": "unreliable"
+        }
+      ],
+      "id": "onb-ib-g12-humanities-q144",
+      "tier": "T1",
+      "screened": false,
+      "contentKey": "516a78042b4f"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "I consent to Learnibility processing my child's data to personalise their learning, as described in the privacy notice.",
+      "responseType": "consent",
+      "paramId": "p30",
+      "optional": false,
+      "options": [
+        {
+          "label": "I agree",
+          "value": "granted"
+        },
+        {
+          "label": "I do not agree",
+          "value": "refused"
+        }
+      ],
+      "helpText": "Required for a child under 18 (DPDP Act 2023, s.9(1)). You can withdraw consent at any time in Settings.",
+      "id": "onb-ib-g12-humanities-q145",
+      "tier": "C",
+      "screened": false,
+      "contentKey": "1f4aba2a3948"
+    },
+    {
+      "part": "P",
+      "respondent": "parent",
+      "prompt": "I allow my child's selected work to be shown to teachers, tutors and counsellors on the platform.",
+      "responseType": "consent",
+      "paramId": "p277",
+      "optional": true,
+      "options": [
+        {
+          "label": "Yes",
+          "value": "granted"
+        },
+        {
+          "label": "Not now",
+          "value": "refused"
+        }
+      ],
+      "helpText": "Optional. Nothing is shared outside the platform without asking you again.",
+      "id": "onb-ib-g12-humanities-q146",
+      "tier": "C",
+      "screened": false,
+      "contentKey": "f49d9421e2bb"
+    }
+  ]
+}
