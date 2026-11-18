@@ -34,7 +34,7 @@ Screens read persona data only through `@/lib/data` and write only through `@/li
 
 ## Writes (`import { ... } from '@/lib/actions/core'`)
 
-- `putRecord(collection, record)`: upsert. Collections: `student profile events attempts mastery alr gaps plans timetable tasks requests bookings sessions meetings careers applications shortlist finance documents invoices consents messages comments approvals assignments tutorNotes payouts adults sections`. Keys: `id` for most; `learnerId:paramId` (profile), `learnerId:subtopicId` (mastery), `learnerId:weekStart` (timetable), `learnerId` (careers).
+- `putRecord(collection, record)`: upsert. Collections: `student profile events attempts mastery alr gaps plans timetable tasks requests bookings sessions meetings careers applications shortlist finance documents invoices consents messages comments approvals assignments tutorNotes payouts adults sections tutorSettings`. Keys: `id` for most; `learnerId:paramId` (profile), `learnerId:subtopicId` (mastery), `learnerId:weekStart` (timetable), `learnerId` (careers).
 - `appendEvent(learnerId, { sourceMethod, type, payload })`.
 - `recomputeLearner(learnerId, { reason? })`: diagnoses new attempts (gaps, mastery, ALR), writes a new plan when gaps changed, re-plans this week's timetable. Call it after an attempt, an approved timetable request (`reason: 'request_approved'`), a booking (`'session_booked'`) or assigned tasks (`'task_assigned'`).
 - `nowStamp()`, `newId(prefix)`: timestamps on the demo clock and ids for new records.

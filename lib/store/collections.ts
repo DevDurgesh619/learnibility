@@ -51,6 +51,8 @@ export const COLLECTIONS = {
   payouts: { scope: 'shared', key: byId, learners: () => [] },
   adults: { scope: 'shared', key: byId, learners: () => [] },
   sections: { scope: 'shared', key: byId, learners: () => [] },
+  /** Per-tutor app settings (W2-T): { id: tutorId, homeLayout: 'a' | 'b', prefs? }. Demo-only, no seed file; cleared by reset. */
+  tutorSettings: { scope: 'shared', key: byId, learners: () => [] },
 } satisfies Record<string, CollectionDef>;
 
 export type CollectionName = keyof typeof COLLECTIONS;

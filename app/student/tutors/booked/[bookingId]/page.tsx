@@ -7,6 +7,8 @@ import { getTutor, loadMarketplaceLearner } from '@/components/marketplace/queri
 import { buttonVariants } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { currentPersona } from '@/lib/session';
+import { getPersona } from '@/lib/data/personas';
+import { loginAs } from '@/app/login/actions';
 
 export const metadata: Metadata = { title: 'Booking · Explore Tutors' };
 
@@ -46,6 +48,13 @@ export default async function BookedPage({ params }: { params: Promise<{ booking
         )}
         <Link href="/student/tutors" className={buttonVariants({ variant: 'secondary' })}>Back to Explore</Link>
       </div>
+      {!declined && getPersona(b.tutorId) && (
+        <form action={loginAs} className="mt-6 border-t border-line pt-4">
+          <input type="hidden" name="personaId" value={b.tutorId} />
+          <p className="text-xs text-subtle">Demo mode</p>
+          <button type="submit" className="text-sm font-medium text-brand-700 hover:underline">Continue as {tutor?.displayName ?? 'the tutor'} to see this request</button>
+        </form>
+      )}
     </Card>
   );
 }

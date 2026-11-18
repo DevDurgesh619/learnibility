@@ -5,6 +5,7 @@ import type { Booking, GapRecord, GapSnapshot, Student } from '@/lib/data/types'
 import { DEMO_NOW } from '@/lib/demo-clock';
 import type { Tutor } from '@/lib/types/catalogue';
 import { parseSubtopicId } from '@/lib/ids';
+import { listPersonas } from '@/lib/data/personas';
 import { demoSlots, type BusyInterval, type DemoDay } from './slots';
 
 /** Everything Explore Tutors needs about the signed-in student, in one read. */
@@ -23,8 +24,26 @@ export async function loadMarketplaceLearner(learnerId: string): Promise<Marketp
   const names = namesFor([...new Set([...student.subjects.map((s) => s.subjectId), ...gaps.map((g) => g.subjectId)])]);
   const bookings = getBookings(learnerId);
   // Engine 5 via the data layer: budget and languages from the profile, never T3.
-  const matches = gaps.length ? getTutorMatches(learnerId, { limit: 12 }) : [];
+  const matches = gaps.length ? withLoginTutors(getTutorMatches(learnerId, { limit: 40 })).slice(0, 12) : [];
   return { student, openGaps: gaps, names, bookings, matches };
+}
+
+const SHOWN = 6;
+
+/**
+ * Demo rule: a tutor who has a login on the persona picker and genuinely fits (the engine matched at least one of
+ * the learner's gaps, score at least 70% of the best) is moved into the 6 recommendations shown, so a booking can
+ * be followed to the tutor side. Order otherwise stays the engine's.
+ */
+function withLoginTutors(matches: TutorMatch[]): TutorMatch[] {
+  const logins = new Set(listPersonas().filter((p) => p.role === 'tutor').map((p) => p.id));
+  const top = matches[0]?.score ?? 0;
+  const lift = matches.slice(SHOWN).filter((m) => logins.has(m.tutorId) && m.matchedGaps.length > 0 && m.score >= top * 0.7);
+  if (!lift.length) return matches;
+  const shown = matches.slice(0, SHOWN);
+  const keep = shown.slice(0, Math.max(0, SHOWN - lift.length));
+  const out = [...keep, ...lift];
+  return [...out, ...matches.filter((m) => !out.includes(m))];
 }
 
 /** Subject of the learner's biggest open gaps, used to default the demo topic and the shared snapshot. */
