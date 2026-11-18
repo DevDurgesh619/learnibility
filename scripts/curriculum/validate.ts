@@ -15,6 +15,7 @@
  *  6. Every prerequisite ID resolves, is the same board, not a later grade, earlier within the same
  *     subject, and the whole graph is acyclic; every subtopic has a prerequisiteNote.
  *  7. cbse-g8-maths reproduces the workbook: 14 chapters, 45 subtopics, 145 periods, same weights.
+ *  9. Each chapter's student-check paths (L 5, S 6, H 8 bank items) fit the sheet's bank per chapter.
  *  8. streams.json offerings resolve to subjects; every subject is offered somewhere.
  */
 import { readFileSync, existsSync } from 'node:fs';
@@ -111,6 +112,8 @@ for (const s of subjects) {
       allSt.set(t.id, t);
       stSubject.set(t.id, s);
     });
+    const path = c.subtopicIds.reduce((a, tid) => a + ({ L: 5, S: 6, H: 8 } as Record<string, number>)[stById.get(tid)?.weight ?? 'S'], 0);
+    if (r && path > r.questionPlan.perChapter) err(`${cid}: check paths need ${path} bank items, sheet allows ${r.questionPlan.perChapter}`);
     if (sum !== c.teachingPeriods) err(`${cid}: teachingPeriods ${c.teachingPeriods} != subtopic sum ${sum}`);
   });
   if (sts.length !== chapters.reduce((a, c) => a + c.subtopicIds.length, 0)) err(`${s.id}: stray subtopics`);

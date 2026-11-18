@@ -41,6 +41,9 @@ def check(sid, src, rows, known, errors):
         if not ch.get("name"):
             e(f"{tag} missing name")
         sts = ch.get("subtopics", [])
+        path = sum({"L": 5, "S": 6, "H": 8}.get(st.get("weight"), 0) for st in sts)
+        if path > row["perChapter"]:
+            e(f"{tag} student-check paths need {path} bank questions (L5 S6 H8), sheet allows {row['perChapter']}")
         if not 3 <= len(sts) <= 5:
             e(f"{tag} has {len(sts)} subtopics (need 3-5)")
         for si, st in enumerate(sts, 1):
