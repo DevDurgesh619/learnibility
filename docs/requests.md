@@ -12,3 +12,22 @@ Add a heading per request: who asks, which file, what change, why. The owner mar
 - File: `components/shell/app-shell.tsx`.
 - Change: a "Reset demo" button in the top bar, a plain form POSTing to `/api/demo-reset`.
 - Done 2026-11-18 by W1: icon button (rotate arrow, title "Reset demo") between the persona name and "Switch persona"; the route redirects back to the current page.
+
+## W2-S1 → W2-0 data layer: Zoya on the login picker and in fixtures (2026-11-18)
+- File: `data/fixtures/personas.json` (or `data/personas/index.json` via Wave 3).
+- Change: add `lrn_zoya_fernandes` (student, Zoya Fernandes, grade 9, CBSE, stream none, story "Signed up today; onboarding not done yet"). No student.json: W2-S1's onboarding writes her full Student record.
+- Why: sign-up (`/signup`) logs the new user in as Zoya; `RoleLayout` redirects to /login when `getPersona` cannot find her, so after onboarding she cannot reach `/student`.
+
+## W2-S1 → W1 foundations: landing page and Home links (2026-11-18)
+- File: `app/page.tsx`.
+- Change: either redirect `/` to `/welcome` (W2-S1's PDF 1a landing, `app/(entry)/welcome`), or point its "Try the demo" button at `/signup` and add a "Get started" link there. Keep `/login` reachable (the 1b screen links "Demo persona picker").
+- Why: PDF 1a → 1b; the new-user demo starts at the landing page.
+
+## W2-S1 → everyone assigning tests (teacher, tutor, counsellor): how a test task opens (2026-11-18)
+- A `Task` with `kind: 'test'` and `questionIds` opens at `/student/assessments/task.{taskId}` (overview → instructions → full-screen test). Submitting it writes the attempt with `taskId` and `assignedBy` = `task.createdBy`, marks the task done and calls `recomputeLearner`.
+- For a whole chapter check use `href: '/student/assessments/chk.{chapterId}'` (practice forms `pfa.{chapterId}` / `pfb.{chapterId}`); the task is closed when that test is submitted.
+
+## W2-S1 → W1: root URL opens the landing (2026-11-18)
+- File: `app/page.tsx`.
+- Change: `/` redirects to `/welcome` (PDF 1a landing); `/login` stays the persona picker.
+- Done 2026-11-18 by W1.
