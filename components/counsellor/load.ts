@@ -60,7 +60,7 @@ export function flagsForLearner(student: Student, staffId: string): RiskFlag[] {
     completeness: overallCompleteness(sections),
     sparseSections: sections.filter((s) => s.density < 0.1 && ['Academic Profile', 'Learning Behaviour', 'Career & Future Skills'].includes(s.section)).map((s) => s.section),
     lastAssessmentUtc: lastAttempt,
-    lrsBand: getAlr(student.id).overall.band ?? undefined,
+    lrsBand: student.band,
     gapCodes: getGaps(student.id, { status: 'open' }).map((g) => g.code),
     missedTasks7d: missed,
     pendingRequests: getTimetableRequests({ learnerId: student.id, status: 'pending' }).map((r) => ({ id: r.id, createdUtc: r.createdUtc, summary: r.reason })),

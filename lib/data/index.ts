@@ -383,7 +383,7 @@ export function getChildren(parentId: string): ChildSummary[] {
       const alr = getAlr(student.id);
       return {
         student,
-        band: alr.overall.band ?? student.band,
+        band: student.band,
         lrs: alr.overall.LRS,
         openGaps: gaps.length,
         hoursToClose: Math.round(gaps.reduce((a, g) => a + g.hoursToClose, 0) * 10) / 10,

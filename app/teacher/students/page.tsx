@@ -119,7 +119,7 @@ async function StudentView({ sectionId, learnerId }: { sectionId: string; learne
       <div className="mb-6 grid grid-cols-2 gap-4 lg:grid-cols-4">
         <StatTile label="Average mastery" value={avg === undefined ? '–' : formatPercent(avg)} hint={`${d.mastery.length} subtopics tested`} />
         <StatTile label="Open gaps" value={openGaps.length} hint={openGaps.length ? `${formatHours(openGaps.reduce((a, g) => a + g.hoursToClose, 0))} to close` : 'None open'} />
-        <StatTile label="Learning rate (LRS)" value={lrs === undefined ? '–' : lrs.toFixed(2)} hint={latestBand ? <BandBadge band={latestBand} /> : 'Not enough tests yet'} />
+        <StatTile label="Learning rate (LRS)" value={lrs === undefined ? '–' : lrs.toFixed(2)} hint={d.student ? <BandBadge band={d.student.band} /> : latestBand ? <span className="inline-flex items-center gap-1">Latest chapter <BandBadge band={latestBand} /></span> : 'Not enough tests yet'} />
         <StatTile label="Tests in this subject" value={d.isPersona ? d.attempts.length : d.testScores.length} />
       </div>
 

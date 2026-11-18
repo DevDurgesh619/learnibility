@@ -14,7 +14,7 @@ export function GET(req: Request) {
   const gaps = getGaps(id, { status: 'open' });
   const alr = getAlr(id);
   const hours = Math.round(gaps.reduce((a, g) => a + g.hoursToClose, 0) * 10) / 10;
-  const band = alr.overall.band ?? student.band;
+  const band = student.band; // the planning band; every screen shows this one
   const week = getTimetable(id);
   const sessions = getSessions(id, { from: demoNow(), status: 'scheduled' });
   const invoices = getInvoices(id);

@@ -27,7 +27,7 @@ export default async function CaseloadPage({ searchParams }: { searchParams: Pro
 
       <div className="mb-6 grid grid-cols-2 gap-4 lg:grid-cols-4">
         <StatTile label="Caseload" value={entries.length} hint="students" icon={<Users />} />
-        <StatTile label="Risk flags" value={flagCount} hint={`${entries.filter((e) => e.flags.some((f) => f.severity === 'high')).length} students with a high flag`} icon={<AlertTriangle />} />
+        <StatTile label="Risk flags" value={flagCount} hint={(() => { const n = entries.filter((e) => e.flags.some((f) => f.severity === 'high')).length; return `${n} ${n === 1 ? 'student' : 'students'} with a high flag`; })()} icon={<AlertTriangle />} />
         <StatTile label="Requests to approve" value={requests} hint="timetable changes" icon={<CalendarClock />} />
         <StatTile label="Sessions today" value={sessionsToday.length} hint={sessionsToday[0] ? `Next at ${formatTime(sessionsToday[0].startUtc)}` : 'Nothing booked'} icon={<ClipboardCheck />} />
       </div>

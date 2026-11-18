@@ -56,7 +56,7 @@ export default async function ParentProgress({ searchParams }: { searchParams: S
     }
     return [...byWeek.entries()].map(([wk, rows]) => ({ x: fmtDate(wk), lrs: meanOf(rows, 'LRS'), mci: meanOf(rows, 'MCI') }));
   })();
-  const o = { LRS: meanOf(alr.history, 'LRS'), R: meanOf(alr.history, 'R'), MCI: meanOf(alr.history, 'MCI'), band: alr.overall.band };
+  const o = { LRS: meanOf(alr.history, 'LRS'), R: meanOf(alr.history, 'R'), MCI: meanOf(alr.history, 'MCI'), band: alr.history.length ? s.band : null };
 
   return (
     <>

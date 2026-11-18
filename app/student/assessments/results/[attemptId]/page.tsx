@@ -36,7 +36,7 @@ export default async function ResultPage({ params }: { params: Promise<{ attempt
           </Card>
           <Card className="flex flex-col items-center justify-center p-4">
             <BandBadge band={r.band} />
-            <p className="mt-2 text-xs text-muted">overall band</p>
+            <p className="mt-2 text-xs text-muted">band on this test</p>
           </Card>
           <Card className="p-4">
             <p className="text-2xl font-semibold tabular-nums text-ink sm:text-3xl">{r.minutesUsed}<span className="text-base text-muted"> min</span></p>
