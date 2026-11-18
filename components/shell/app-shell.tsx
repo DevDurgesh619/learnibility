@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react';
 import Link from 'next/link';
-import { LogOut, Repeat } from 'lucide-react';
+import { LogOut, Repeat, RotateCcw } from 'lucide-react';
 import { logout } from '@/app/login/actions';
 import { Avatar } from '@/components/ui/avatar';
 import { Badge } from '@/components/ui/badge';
@@ -35,6 +35,12 @@ export function AppShell({ role, persona, children }: { role: Role; persona: Per
               <Avatar name={persona.name} src={persona.avatar} size="sm" />
               <span className="hidden text-sm font-medium text-ink sm:inline">{persona.name}</span>
             </div>
+            {/* Clears every demo write (tests taken, bookings, approvals) so the next demo starts clean. */}
+            <form action="/api/demo-reset" method="post">
+              <button className="rounded-lg p-2 text-muted hover:bg-surface-muted hover:text-ink" title="Reset demo" aria-label="Reset demo">
+                <RotateCcw className="size-4" />
+              </button>
+            </form>
             <Link href="/login" className="rounded-lg p-2 text-muted hover:bg-surface-muted hover:text-ink" title="Switch persona" aria-label="Switch persona">
               <Repeat className="size-4" />
             </Link>
