@@ -1,0 +1,171 @@
+{
+  "subjectId": "ib-g11-maths",
+  "board": "ib",
+  "grade": 11,
+  "target": {
+    "total": 1508,
+    "bankPerChapter": 70,
+    "questionsPerForm": 20,
+    "mocks": 3,
+    "questionsPerMock": 26
+  },
+  "chapters": {
+    "ib-g11-maths-ch01": {
+      "mastery": 70,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:46:06Z"
+    },
+    "ib-g11-maths-ch02": {
+      "mastery": 70,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:46:06Z"
+    },
+    "ib-g11-maths-ch03": {
+      "mastery": 70,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:46:06Z"
+    },
+    "ib-g11-maths-ch04": {
+      "mastery": 70,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:46:09Z"
+    },
+    "ib-g11-maths-ch05": {
+      "mastery": 70,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:46:09Z"
+    },
+    "ib-g11-maths-ch06": {
+      "mastery": 70,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:46:09Z"
+    },
+    "ib-g11-maths-ch07": {
+      "mastery": 70,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:46:09Z"
+    },
+    "ib-g11-maths-ch08": {
+      "mastery": 70,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:46:13Z"
+    },
+    "ib-g11-maths-ch09": {
+      "mastery": 70,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:46:13Z"
+    },
+    "ib-g11-maths-ch10": {
+      "mastery": 70,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:46:13Z"
+    },
+    "ib-g11-maths-ch11": {
+      "mastery": 70,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:46:13Z"
+    },
+    "ib-g11-maths-ch12": {
+      "mastery": 70,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:46:14Z"
+    },
+    "ib-g11-maths-ch13": {
+      "mastery": 70,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:46:14Z"
+    }
+  },
+  "counts": {
+    "mastery_bank": 910,
+    "practice": 520,
+    "mock": 78,
+    "total": 1508
+  },
+  "validated": true,
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "5 random items per chapter (ch01-ch13) re-solved independently by hand or with a Python/sympy/numpy check",
+      "checked": 65,
+      "mismatches": 2,
+      "mismatchDetail": [
+        "ch07-st2 explog_parts (b): x-intercept of a − b·e^(−kx) had the wrong sign (−ln(b/a)/k); correct is ln(b/a)/k",
+        "ch02-st2 rational_exp: degenerate draw with an integer exponent of 1, e.g. (64)^(1)"
+      ],
+      "fixes": [
+        "explog_parts: x-intercept is now ln(b/a)/k",
+        "rational_exp: draws where m/root is an integer are rejected",
+        "demoivre_p3 (c): n is chosen so that nθ is a nice angle (no nested radicals)",
+        "recip_graph: prints 'no y-intercept' instead of '(0, none)'",
+        "ch02 logarithm term definitions reworded so _common capitalisation does not give 'Logₐ'"
+      ]
+    }
+  ],
+  "updatedUtc": "2026-11-18T09:46:15Z",
+  "generatedBy": "scripts/questions/ib/engine.py",
+  "mocks": {
+    "papers": 3,
+    "questions": 78
+  },
+  "mastery": {
+    "conceptGroup": {
+      "C1": 15.7,
+      "C2": 30,
+      "C3": 34.3,
+      "C4": 20
+    },
+    "difficulty": {
+      "D1": 10,
+      "D2": 40,
+      "D3": 35.7,
+      "D4": 11.4,
+      "D5": 2.9
+    }
+  },
+  "mix": {
+    "C": {
+      "C1": 15.7,
+      "C2": 30,
+      "C3": 34.3,
+      "C4": 20
+    },
+    "D": {
+      "D1": 10,
+      "D2": 40,
+      "D3": 35.7,
+      "D4": 11.4,
+      "D5": 2.9
+    }
+  },
+  "validatedAt": "2026-11-18T09:46:16.120Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": []
+}
