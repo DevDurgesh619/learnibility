@@ -1,0 +1,200 @@
+{
+  "subjectId": "cambridge-g12-computer-science",
+  "board": "cambridge",
+  "generatedBy": "scripts/questions/cambridge/generate.py",
+  "target": 1350,
+  "chapters": {
+    "cambridge-g12-computer-science-ch01": {
+      "name": "User-defined Data Types and File Organisation",
+      "mastery": 50,
+      "formA": 20,
+      "formB": 20,
+      "done": true
+    },
+    "cambridge-g12-computer-science-ch02": {
+      "name": "Floating-point Numbers, Representation and Manipulation",
+      "mastery": 50,
+      "formA": 20,
+      "formB": 20,
+      "done": true
+    },
+    "cambridge-g12-computer-science-ch03": {
+      "name": "Communication and Internet Technologies",
+      "mastery": 50,
+      "formA": 20,
+      "formB": 20,
+      "done": true
+    },
+    "cambridge-g12-computer-science-ch04": {
+      "name": "Hardware and Virtual Machines",
+      "mastery": 50,
+      "formA": 20,
+      "formB": 20,
+      "done": true
+    },
+    "cambridge-g12-computer-science-ch05": {
+      "name": "Boolean Algebra and Logic Circuits",
+      "mastery": 50,
+      "formA": 20,
+      "formB": 20,
+      "done": true
+    },
+    "cambridge-g12-computer-science-ch06": {
+      "name": "System Software",
+      "mastery": 50,
+      "formA": 20,
+      "formB": 20,
+      "done": true
+    },
+    "cambridge-g12-computer-science-ch07": {
+      "name": "Security",
+      "mastery": 50,
+      "formA": 20,
+      "formB": 20,
+      "done": true
+    },
+    "cambridge-g12-computer-science-ch08": {
+      "name": "Artificial Intelligence",
+      "mastery": 50,
+      "formA": 20,
+      "formB": 20,
+      "done": true
+    },
+    "cambridge-g12-computer-science-ch09": {
+      "name": "Abstract Data Types",
+      "mastery": 50,
+      "formA": 20,
+      "formB": 20,
+      "done": true
+    },
+    "cambridge-g12-computer-science-ch10": {
+      "name": "Algorithms",
+      "mastery": 50,
+      "formA": 20,
+      "formB": 20,
+      "done": true
+    },
+    "cambridge-g12-computer-science-ch11": {
+      "name": "Recursion",
+      "mastery": 50,
+      "formA": 20,
+      "formB": 20,
+      "done": true
+    },
+    "cambridge-g12-computer-science-ch12": {
+      "name": "Programming Paradigms",
+      "mastery": 50,
+      "formA": 20,
+      "formB": 20,
+      "done": true
+    },
+    "cambridge-g12-computer-science-ch13": {
+      "name": "Object-oriented Programming",
+      "mastery": 50,
+      "formA": 20,
+      "formB": 20,
+      "done": true
+    },
+    "cambridge-g12-computer-science-ch14": {
+      "name": "File Processing and Exception Handling",
+      "mastery": 50,
+      "formA": 20,
+      "formB": 20,
+      "done": true
+    }
+  },
+  "mocks": {
+    "count": 6,
+    "perMock": 15,
+    "questions": 90
+  },
+  "validated": true,
+  "accuracyLog": [],
+  "total": 1350,
+  "masteryMix": {
+    "C": {
+      "C1": 16,
+      "C2": 30,
+      "C3": 34,
+      "C4": 20
+    },
+    "D": {
+      "D1": 10,
+      "D2": 40,
+      "D3": 34,
+      "D4": 12,
+      "D5": 4
+    }
+  },
+  "topicMap": {
+    "cambridge-g12-computer-science-ch01-st1": "User-defined data types: non-composite (enumerated, pointer) and composite (record, set, class)",
+    "cambridge-g12-computer-science-ch01-st2": "File organisation: serial, sequential and random files",
+    "cambridge-g12-computer-science-ch01-st3": "File access methods: sequential and direct access; hashing algorithms",
+    "cambridge-g12-computer-science-ch02-st1": "Floating-point representation: mantissa and exponent in two's complement",
+    "cambridge-g12-computer-science-ch02-st2": "Normalisation of floating-point numbers and converting between denary and floating-point",
+    "cambridge-g12-computer-science-ch02-st3": "Trade-off between range and precision; rounding errors, overflow and underflow",
+    "cambridge-g12-computer-science-ch03-st1": "Protocols and the TCP/IP four-layer stack; HTTP, FTP, POP3, IMAP and SMTP",
+    "cambridge-g12-computer-science-ch03-st2": "Circuit switching and packet switching; role of routers",
+    "cambridge-g12-computer-science-ch03-st3": "Peer-to-peer file sharing with BitTorrent: swarms, seeds, leeches and trackers",
+    "cambridge-g12-computer-science-ch04-st1": "RISC and CISC processors; pipelining and registers",
+    "cambridge-g12-computer-science-ch04-st2": "Parallel processing: SISD, SIMD, MISD and MIMD; massively parallel computers",
+    "cambridge-g12-computer-science-ch04-st3": "Virtual machines: concept, examples and benefits and limitations",
+    "cambridge-g12-computer-science-ch05-st1": "Boolean algebra: De Morgan's laws and simplifying expressions",
+    "cambridge-g12-computer-science-ch05-st2": "Karnaugh maps: sum-of-products form and simplification",
+    "cambridge-g12-computer-science-ch05-st3": "Half adder, full adder and SR and JK flip-flops",
+    "cambridge-g12-computer-science-ch06-st1": "Operating system: maximising resource use, user interface; process states and scheduling algorithms",
+    "cambridge-g12-computer-science-ch06-st2": "Memory management: paging, segmentation, virtual memory and disk thrashing",
+    "cambridge-g12-computer-science-ch06-st3": "Translation software: stages of compilation (lexical, syntax analysis, code generation, optimisation)",
+    "cambridge-g12-computer-science-ch06-st4": "Backus–Naur form, syntax diagrams and Reverse Polish Notation",
+    "cambridge-g12-computer-science-ch07-st1": "Symmetric and asymmetric encryption; public and private keys",
+    "cambridge-g12-computer-science-ch07-st2": "Secure Socket Layer (SSL) and Transport Layer Security (TLS)",
+    "cambridge-g12-computer-science-ch07-st3": "Digital certificates and digital signatures; quantum cryptography",
+    "cambridge-g12-computer-science-ch08-st1": "Graphs as a data structure for AI; Dijkstra's and A* search algorithms",
+    "cambridge-g12-computer-science-ch08-st2": "Machine learning: supervised, unsupervised and reinforcement learning",
+    "cambridge-g12-computer-science-ch08-st3": "Deep learning and artificial neural networks; back propagation and regression",
+    "cambridge-g12-computer-science-ch09-st1": "Implementing stacks and queues (including circular queues) using arrays",
+    "cambridge-g12-computer-science-ch09-st2": "Linked lists: insertion, deletion and searching using pointers",
+    "cambridge-g12-computer-science-ch09-st3": "Binary trees: insertion and traversal (in-order, pre-order, post-order)",
+    "cambridge-g12-computer-science-ch09-st4": "Graphs and dictionaries as ADTs",
+    "cambridge-g12-computer-science-ch10-st1": "Linear and binary search algorithms and their conditions",
+    "cambridge-g12-computer-science-ch10-st2": "Insertion sort and bubble sort; comparing performance",
+    "cambridge-g12-computer-science-ch10-st3": "Big O notation for time and space complexity",
+    "cambridge-g12-computer-science-ch11-st1": "Essential features of recursion: base case, general case and stack frames",
+    "cambridge-g12-computer-science-ch11-st2": "Tracing recursive algorithms and comparing with iterative solutions",
+    "cambridge-g12-computer-science-ch11-st3": "How compilers implement recursion using a call stack",
+    "cambridge-g12-computer-science-ch12-st1": "Low-level programming: addressing modes revisited",
+    "cambridge-g12-computer-science-ch12-st2": "Imperative (procedural) programming",
+    "cambridge-g12-computer-science-ch12-st3": "Declarative programming: facts, rules and goals (Prolog-style)",
+    "cambridge-g12-computer-science-ch13-st1": "Classes, objects, attributes, methods and encapsulation",
+    "cambridge-g12-computer-science-ch13-st2": "Constructors, getters and setters; instance and private attributes",
+    "cambridge-g12-computer-science-ch13-st3": "Inheritance, polymorphism, overloading and containment (aggregation)",
+    "cambridge-g12-computer-science-ch14-st1": "Writing, reading and appending records to serial, sequential and random files",
+    "cambridge-g12-computer-science-ch14-st2": "Exception handling: try, except and finally; robust programs",
+    "cambridge-g12-computer-science-ch14-st3": "Implementing file-based programs in Python, Java or VB.NET"
+  },
+  "counts": {
+    "mastery_bank": 700,
+    "practice": 560,
+    "mock": 90,
+    "total": 1350
+  },
+  "mix": {
+    "C": {
+      "C1": 16,
+      "C2": 30,
+      "C3": 34,
+      "C4": 20
+    },
+    "D": {
+      "D1": 10,
+      "D2": 40,
+      "D3": 34,
+      "D4": 12,
+      "D5": 4
+    }
+  },
+  "validatedAt": "2026-11-18T10:57:37.137Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": []
+}

@@ -1,0 +1,217 @@
+{
+  "subjectId": "cambridge-g11-computer-science",
+  "board": "cambridge",
+  "generatedBy": "scripts/questions/cambridge/generate.py",
+  "target": 1452,
+  "chapters": {
+    "cambridge-g11-computer-science-ch01": {
+      "name": "Information Representation",
+      "mastery": 50,
+      "formA": 20,
+      "formB": 20,
+      "done": true
+    },
+    "cambridge-g11-computer-science-ch02": {
+      "name": "Communication",
+      "mastery": 50,
+      "formA": 20,
+      "formB": 20,
+      "done": true
+    },
+    "cambridge-g11-computer-science-ch03": {
+      "name": "Hardware",
+      "mastery": 50,
+      "formA": 20,
+      "formB": 20,
+      "done": true
+    },
+    "cambridge-g11-computer-science-ch04": {
+      "name": "Logic Gates and Logic Circuits",
+      "mastery": 50,
+      "formA": 20,
+      "formB": 20,
+      "done": true
+    },
+    "cambridge-g11-computer-science-ch05": {
+      "name": "Processor Fundamentals",
+      "mastery": 50,
+      "formA": 20,
+      "formB": 20,
+      "done": true
+    },
+    "cambridge-g11-computer-science-ch06": {
+      "name": "Assembly Language Programming",
+      "mastery": 50,
+      "formA": 20,
+      "formB": 20,
+      "done": true
+    },
+    "cambridge-g11-computer-science-ch07": {
+      "name": "Monitoring and Control Systems",
+      "mastery": 50,
+      "formA": 20,
+      "formB": 20,
+      "done": true
+    },
+    "cambridge-g11-computer-science-ch08": {
+      "name": "System Software",
+      "mastery": 50,
+      "formA": 20,
+      "formB": 20,
+      "done": true
+    },
+    "cambridge-g11-computer-science-ch09": {
+      "name": "Security, Privacy and Data Integrity",
+      "mastery": 50,
+      "formA": 20,
+      "formB": 20,
+      "done": true
+    },
+    "cambridge-g11-computer-science-ch10": {
+      "name": "Ethics and Ownership",
+      "mastery": 50,
+      "formA": 20,
+      "formB": 20,
+      "done": true
+    },
+    "cambridge-g11-computer-science-ch11": {
+      "name": "Databases",
+      "mastery": 50,
+      "formA": 20,
+      "formB": 20,
+      "done": true
+    },
+    "cambridge-g11-computer-science-ch12": {
+      "name": "Algorithm Design and Problem-solving",
+      "mastery": 50,
+      "formA": 20,
+      "formB": 20,
+      "done": true
+    },
+    "cambridge-g11-computer-science-ch13": {
+      "name": "Data Types and Structures",
+      "mastery": 50,
+      "formA": 20,
+      "formB": 20,
+      "done": true
+    },
+    "cambridge-g11-computer-science-ch14": {
+      "name": "Programming",
+      "mastery": 50,
+      "formA": 20,
+      "formB": 20,
+      "done": true
+    },
+    "cambridge-g11-computer-science-ch15": {
+      "name": "Software Development",
+      "mastery": 50,
+      "formA": 20,
+      "formB": 20,
+      "done": true
+    }
+  },
+  "mocks": {
+    "count": 6,
+    "perMock": 17,
+    "questions": 102
+  },
+  "validated": true,
+  "accuracyLog": [],
+  "total": 1452,
+  "masteryMix": {
+    "C": {
+      "C1": 16,
+      "C2": 30,
+      "C3": 34,
+      "C4": 20
+    },
+    "D": {
+      "D1": 10,
+      "D2": 40,
+      "D3": 34,
+      "D4": 12,
+      "D5": 4
+    }
+  },
+  "topicMap": {
+    "cambridge-g11-computer-science-ch01-st1": "Binary, denary and hexadecimal conversion; binary and decimal prefixes (kibi, mebi vs kilo, mega)",
+    "cambridge-g11-computer-science-ch01-st2": "Two's complement, binary addition and subtraction, overflow and BCD",
+    "cambridge-g11-computer-science-ch01-st3": "Character sets: ASCII, extended ASCII and Unicode",
+    "cambridge-g11-computer-science-ch01-st4": "Bitmap and vector graphics: resolution, colour depth and file size calculations",
+    "cambridge-g11-computer-science-ch01-st5": "Sound representation, sampling rate and resolution; lossy and lossless compression including run-length encoding",
+    "cambridge-g11-computer-science-ch02-st1": "Networks: LAN and WAN, client–server and peer-to-peer models, thin and thick clients",
+    "cambridge-g11-computer-science-ch02-st2": "Network topologies (bus, star, mesh, hybrid) and cloud computing",
+    "cambridge-g11-computer-science-ch02-st3": "Wired and wireless transmission media; Ethernet, CSMA/CD and network hardware (switch, router, NIC, WAP)",
+    "cambridge-g11-computer-science-ch02-st4": "IP addressing: IPv4, IPv6, subnetting, public and private addresses, DNS and URLs",
+    "cambridge-g11-computer-science-ch03-st1": "Input, output and storage devices: laser printer, 3D printer, microphone, speakers, SSD, magnetic and optical storage",
+    "cambridge-g11-computer-science-ch03-st2": "Primary memory: RAM and ROM, SRAM and DRAM, PROM, EPROM and EEPROM",
+    "cambridge-g11-computer-science-ch03-st3": "Embedded systems and buffers",
+    "cambridge-g11-computer-science-ch04-st1": "Logic gates (NOT, AND, OR, NAND, NOR, XOR) and their truth tables",
+    "cambridge-g11-computer-science-ch04-st2": "Constructing logic circuits and truth tables from problem statements and logic expressions",
+    "cambridge-g11-computer-science-ch04-st3": "Simplifying logic circuits and expressions using NAND/NOR equivalence",
+    "cambridge-g11-computer-science-ch05-st1": "Von Neumann architecture: registers (PC, MDR, MAR, ACC, IX, CIR, status), ALU, CU, clock and system buses",
+    "cambridge-g11-computer-science-ch05-st2": "Factors affecting performance: clock speed, cores, bus width and cache memory",
+    "cambridge-g11-computer-science-ch05-st3": "Ports (USB, HDMI, VGA) and the fetch–execute cycle in register transfer notation",
+    "cambridge-g11-computer-science-ch05-st4": "Interrupts and interrupt service routines",
+    "cambridge-g11-computer-science-ch06-st1": "Assembly language and machine code; two-pass assemblers",
+    "cambridge-g11-computer-science-ch06-st2": "Instruction groups and addressing modes: immediate, direct, indirect, indexed and relative",
+    "cambridge-g11-computer-science-ch06-st3": "Tracing simple assembly language programs",
+    "cambridge-g11-computer-science-ch06-st4": "Bit manipulation: logical and arithmetic shifts and masking to test and set bits",
+    "cambridge-g11-computer-science-ch07-st1": "Sensors and actuators in monitoring and control systems",
+    "cambridge-g11-computer-science-ch07-st2": "Feedback in control systems and the need for analogue-to-digital conversion",
+    "cambridge-g11-computer-science-ch07-st3": "Using bit manipulation to monitor and control devices",
+    "cambridge-g11-computer-science-ch08-st1": "Operating system functions: memory, file, security, hardware and process management; user interface",
+    "cambridge-g11-computer-science-ch08-st2": "Utility software: disk formatter, virus checker, defragmenter, compression and back-up; program libraries and DLLs",
+    "cambridge-g11-computer-science-ch08-st3": "Language translators: assembler, compiler and interpreter; advantages and disadvantages",
+    "cambridge-g11-computer-science-ch08-st4": "Integrated development environment features: prettyprint, context-sensitive prompts, debugging tools",
+    "cambridge-g11-computer-science-ch09-st1": "Security of data and systems: threats such as malware, hacking, phishing and pharming",
+    "cambridge-g11-computer-science-ch09-st2": "Security measures: user accounts, passwords, firewalls, encryption, anti-malware, access rights",
+    "cambridge-g11-computer-science-ch09-st3": "Data integrity: validation (range, format, length, presence, existence, check digit) and verification (double entry, parity, checksums)",
+    "cambridge-g11-computer-science-ch10-st1": "Professional ethics and codes of conduct (BCS, IEEE)",
+    "cambridge-g11-computer-science-ch10-st2": "Copyright legislation and software licensing: free software, open source, shareware and commercial",
+    "cambridge-g11-computer-science-ch10-st3": "Artificial intelligence: social, economic and environmental impacts",
+    "cambridge-g11-computer-science-ch11-st1": "Limitations of file-based systems and features of a relational database: entity, table, record, field, keys",
+    "cambridge-g11-computer-science-ch11-st2": "Entity-relationship modelling and normalisation to third normal form",
+    "cambridge-g11-computer-science-ch11-st3": "Database management systems: data dictionary, logical schema, access rights and developer interface",
+    "cambridge-g11-computer-science-ch11-st4": "SQL: data definition language and data manipulation language queries",
+    "cambridge-g11-computer-science-ch12-st1": "Computational thinking: abstraction and decomposition",
+    "cambridge-g11-computer-science-ch12-st2": "Writing algorithms in structured English, flowcharts and pseudocode; identifiers and identifier tables",
+    "cambridge-g11-computer-science-ch12-st3": "Stepwise refinement of algorithms",
+    "cambridge-g11-computer-science-ch13-st1": "Data types: INTEGER, REAL, CHAR, STRING, BOOLEAN, DATE; records",
+    "cambridge-g11-computer-science-ch13-st2": "1D and 2D arrays; linear search and bubble sort",
+    "cambridge-g11-computer-science-ch13-st3": "Text files: reading, writing and appending",
+    "cambridge-g11-computer-science-ch13-st4": "Abstract data types: stack, queue and linked list",
+    "cambridge-g11-computer-science-ch14-st1": "Programming basics: variables, constants, input, output, assignment and built-in functions (string and numeric)",
+    "cambridge-g11-computer-science-ch14-st2": "Constructs: selection (IF, CASE) and iteration (count-controlled, pre-condition and post-condition loops)",
+    "cambridge-g11-computer-science-ch14-st3": "Structured programming: procedures, functions, parameters by value and by reference",
+    "cambridge-g11-computer-science-ch15-st1": "Program development life cycle: analysis, design, coding, testing and maintenance; waterfall, iterative and RAD",
+    "cambridge-g11-computer-science-ch15-st2": "Program design using structure charts and state-transition diagrams",
+    "cambridge-g11-computer-science-ch15-st3": "Types of errors and testing methods: dry-run, walkthrough, white-box, black-box, alpha, beta, acceptance; test data",
+    "cambridge-g11-computer-science-ch15-st4": "Maintenance: corrective, adaptive and perfective"
+  },
+  "counts": {
+    "mastery_bank": 750,
+    "practice": 600,
+    "mock": 102,
+    "total": 1452
+  },
+  "mix": {
+    "C": {
+      "C1": 16,
+      "C2": 30,
+      "C3": 34,
+      "C4": 20
+    },
+    "D": {
+      "D1": 10,
+      "D2": 40,
+      "D3": 34,
+      "D4": 12,
+      "D5": 4
+    }
+  },
+  "validatedAt": "2026-11-18T10:57:36.809Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": []
+}
