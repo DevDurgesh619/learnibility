@@ -107,7 +107,8 @@ export function reviewQueue(ws: TutorWorkspace) {
 }
 
 export function requests(ws: TutorWorkspace) {
-  return ws.bookings.filter((b) => b.status === 'requested').sort((a, b) => a.requestedAt.localeCompare(b.requestedAt));
+  // Newest first, so a request made during the demo is the first thing the tutor sees.
+  return ws.bookings.filter((b) => b.status === 'requested').sort((a, b) => b.requestedAt.localeCompare(a.requestedAt));
 }
 
 export function sessionsOn(ws: TutorWorkspace, date: LocalDate) {

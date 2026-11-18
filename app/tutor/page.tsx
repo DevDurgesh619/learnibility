@@ -1,10 +1,9 @@
 import type { Metadata } from 'next';
-import { cookies } from 'next/headers';
 import Link from 'next/link';
 import { CheckCircle2, Eye, Inbox, Share2, Star } from 'lucide-react';
-import { TUTOR_HOME_COOKIE } from '@/components/tutor/constants';
+import { homeLayout } from '@/components/tutor/settings';
 import { NeedsAttention, NextSessionCard, QuickActions, RequestRow, RestOfToday, ReviewQueue } from '@/components/tutor/home/parts';
-import { earningRows, money, needsAttention, isUpcoming, loadWorkspace, requests, reviewQueue, sessionsOn, studentRows, todayItems } from '@/components/tutor/model';
+import { earningRows, firstName, money, nameOf, needsAttention, isUpcoming, loadWorkspace, requests, reviewQueue, sessionsOn, studentRows, todayItems } from '@/components/tutor/model';
 import { formatDay } from '@/components/marketplace/dates';
 import { buttonVariants } from '@/components/ui/button';
 import { Card, CardBody, CardHeader } from '@/components/ui/card';
@@ -19,7 +18,7 @@ export default async function TutorHome({ searchParams }: { searchParams: Promis
   const persona = (await currentPersona())!;
   const ws = loadWorkspace(persona.id);
   const sp = await searchParams;
-  const layout = sp.home === 'a' || sp.home === 'b' ? sp.home : (await cookies()).get(TUTOR_HOME_COOKIE)?.value === 'b' ? 'b' : 'a';
+  const layout = sp.home === 'a' || sp.home === 'b' ? sp.home : await homeLayout(persona.id);
   const now = new Date(demoNow());
   const first = persona.name.split(' ')[0];
   const hour = Number(new Intl.DateTimeFormat('en-IN', { hour: 'numeric', hour12: false, timeZone: 'Asia/Kolkata' }).format(now));
@@ -54,11 +53,15 @@ export default async function TutorHome({ searchParams }: { searchParams: Promis
       {layout === 'a' ? (
         <div className="space-y-6">
           {reqs.length > 0 && (
-            <Link href={`/tutor/requests/${reqs[0]!.id}`} className="flex items-center gap-3 rounded-[var(--radius-card)] border border-warning-600/30 bg-warning-50 px-4 py-3 text-sm text-warning-700 hover:border-warning-600/60">
-              <Inbox className="size-4 shrink-0" />
-              <span className="flex-1"><span className="font-medium">{reqs.length} new student {reqs.length === 1 ? 'request' : 'requests'}.</span> Respond within 24 h to keep your response badge.</span>
-              <span className="font-medium">Open</span>
-            </Link>
+            <div className="flex flex-col gap-2 rounded-[var(--radius-card)] border border-warning-600/30 bg-warning-50 px-4 py-3 text-sm text-warning-700 sm:flex-row sm:items-center sm:gap-3">
+              <Inbox className="hidden size-4 shrink-0 sm:block" />
+              <span className="flex-1">
+                <span className="font-medium">{reqs.length} new student {reqs.length === 1 ? 'request' : 'requests'}:</span>{' '}
+                {reqs.slice(0, 4).map((b, i) => <span key={b.id}>{i > 0 && ', '}<Link href={`/tutor/requests/${b.id}`} className="font-medium underline-offset-2 hover:underline">{firstName(nameOf(ws, b.learnerId))}</Link></span>)}
+                {reqs.length > 4 && ` +${reqs.length - 4}`}. Respond within 24 h to keep your response badge.
+              </span>
+              <Link href={`/tutor/requests/${reqs[0]!.id}`} className="font-medium hover:underline">Open newest</Link>
+            </div>
           )}
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-[1.2fr_1fr]">
             <NextSessionCard ws={ws} s={next} now={now} />

@@ -19,6 +19,9 @@ export interface TutorPrefs {
 export const prefsCookie = (tutorId: string) => `lb_tutor_prefs_${tutorId}`;
 
 export async function readPrefs(tutorId: string): Promise<TutorPrefs> {
+  const { storedSettings } = await import('./settings');
+  const stored = storedSettings(tutorId)?.prefs;
+  if (stored) return stored;
   const raw = (await cookies()).get(prefsCookie(tutorId))?.value;
   if (!raw) return {};
   try { return JSON.parse(raw) as TutorPrefs; } catch { return {}; }

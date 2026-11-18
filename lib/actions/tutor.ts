@@ -17,12 +17,21 @@ import type { TutorAssignment, TutorQuestion } from '@/components/tutor/model';
 /** Tutor Home ships both wireframe options (2a teaching-first, 2b marketplace-first) until one is picked. */
 export async function setHomeLayout(data: FormData) {
   const v = data.get('layout') === 'b' ? 'b' : 'a';
+  const persona = await currentPersona();
+  if (persona?.role === 'tutor') await saveSettings(persona.id, { homeLayout: v });
   (await cookies()).set(TUTOR_HOME_COOKIE, v, { path: '/', maxAge: 60 * 60 * 24 * 365, sameSite: 'lax' });
   revalidatePath('/tutor');
   redirect('/tutor');
 }
 
 // ------------------------------------------------------------------ helpers
+
+/** Writes the tutor's settings record to the demo store when the `tutorSettings` collection exists (else cookie only). */
+async function saveSettings(tutorId: string, patch: { homeLayout?: 'a' | 'b'; prefs?: object }) {
+  const { hasSettingsStore, storedSettings, SETTINGS } = await import('@/components/tutor/settings');
+  if (!hasSettingsStore()) return;
+  putRecord(SETTINGS as Parameters<typeof putRecord>[0], { ...(storedSettings(tutorId) ?? { id: tutorId }), ...patch });
+}
 
 
 async function tutorFor(learnerId?: string) {
@@ -256,8 +265,8 @@ export async function saveTutorPrefs(data: FormData) {
   const { tutorId } = await tutorFor();
   const { prefsCookie } = await import('@/components/tutor/prefs');
   const jar = await cookies();
-  let current: Record<string, unknown> = {};
-  try { current = JSON.parse(jar.get(prefsCookie(tutorId))?.value ?? '{}'); } catch { current = {}; }
+  const { readPrefs } = await import('@/components/tutor/prefs');
+  const current = (await readPrefs(tutorId)) as Record<string, unknown>;
   let patch: Record<string, unknown> = {};
   try { patch = JSON.parse(s(data, 'patch') || '{}'); } catch { patch = {}; }
   for (const [k, v] of data.entries()) if (k.startsWith('f.')) patch[k.slice(2)] = String(v);
@@ -289,6 +298,7 @@ export async function saveTutorPrefs(data: FormData) {
     patch.payout = { schedule: s(data, 'schedule') === 'monthly' ? 'monthly' : 'weekly', minimumInr: Number(s(data, 'minimumInr')) || 0, upi: s(data, 'upi') || undefined, gstin: s(data, 'gstin') || undefined };
   }
   if (patch.pricing && current.pricing) patch.pricing = { ...(current.pricing as object), ...(patch.pricing as object) };
+  await saveSettings(tutorId, { prefs: { ...current, ...patch } });
   jar.set(prefsCookie(tutorId), JSON.stringify({ ...current, ...patch }), { path: '/', maxAge: 60 * 60 * 24 * 365, sameSite: 'lax' });
   touch();
   const back = s(data, 'back') || '/tutor/profile';
