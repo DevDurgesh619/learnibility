@@ -58,7 +58,7 @@ async function Home({ learner, matchById }: { learner: Awaited<ReturnType<typeof
               return (
                 <Link key={b.id} href={`${BASE}/booked/${b.id}`}>
                   <Card className="flex items-center gap-3 p-4 hover:border-brand-300">
-                    <Avatar name={t?.displayName ?? b.tutorId} size="sm" />
+                    <Avatar name={t?.displayName ?? b.tutorId} personId={b.tutorId} size="sm" photo />
                     <div className="min-w-0 flex-1">
                       <p className="truncate text-sm font-medium text-ink">{t?.displayName} · demo</p>
                       <p className="text-xs text-muted">{b.slotStartUtc ? formatDateTime(b.slotStartUtc) : 'Time to be agreed'}</p>
@@ -81,7 +81,7 @@ async function Home({ learner, matchById }: { learner: Awaited<ReturnType<typeof
             {currentTutors.map((t) => (
               <Link key={t.id} href={`${BASE}/${t.id}`}>
                 <Card className="flex items-center gap-3 p-4 hover:border-brand-300">
-                  <Avatar name={t.displayName} />
+                  <Avatar name={t.displayName} personId={t.id} photo />
                   <div className="min-w-0">
                     <p className="truncate font-medium text-ink">{t.displayName}</p>
                     <p className="truncate text-xs text-muted">{t.subjects.map((s) => subjectLabel(s.subjectSlug)).join(', ')} tutor</p>

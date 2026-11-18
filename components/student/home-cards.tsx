@@ -82,7 +82,7 @@ export function SessionsCard({ sessions, joinStates, whenLabels }: { sessions: S
           <ul className="divide-y divide-line">
             {sessions.map((s) => (
               <li key={s.id} className="flex items-center gap-3 py-2.5">
-                <Avatar name={s.personName} size="sm" />
+                <Avatar name={s.personName} size="sm" photo />
                 <div className="min-w-0 flex-1">
                   <p className="truncate text-sm font-medium text-ink">{s.personName.split(' ')[0]} · {s.roleLabel}</p>
                   <p className="text-xs text-muted">{whenLabels[s.id]}</p>
@@ -102,7 +102,25 @@ export function SessionsCard({ sessions, joinStates, whenLabels }: { sessions: S
 const pct = (v: number) => `${Math.round(v * 100)}%`;
 
 /** PDF 2b: four metric cards that click through to 2d. 2a shows dashed cards with a reason instead of zeros. */
-export function MetricCards({ metrics }: { metrics: MetricSummary[] }) {
+/** Tiny trend line for a metric card (plain SVG, so it renders on the server). */
+function Sparkline({ values, up }: { values: (number | null)[]; up: boolean }) {
+  const pts = values.map((v, i) => [i, v] as const).filter((p): p is readonly [number, number] => p[1] !== null);
+  if (pts.length < 2) return null;
+  const w = 96, h = 28, n = values.length - 1;
+  const lo = Math.min(...pts.map((p) => p[1])), hi = Math.max(...pts.map((p) => p[1]));
+  const y = (v: number) => (hi === lo ? h / 2 : h - 3 - ((v - lo) / (hi - lo)) * (h - 6));
+  const d = pts.map(([i, v], k) => `${k ? 'L' : 'M'}${((i / n) * w).toFixed(1)},${y(v).toFixed(1)}`).join(' ');
+  const [li, lv] = pts[pts.length - 1]!;
+  const color = up ? 'var(--color-success-600)' : 'var(--color-brand-500)';
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} className="h-7 w-24 overflow-visible" aria-hidden>
+      <path d={d} fill="none" stroke={color} strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" />
+      <circle cx={(li / n) * w} cy={y(lv)} r="2.5" fill={color} />
+    </svg>
+  );
+}
+
+export function MetricCards({ metrics, sparks = {} }: { metrics: MetricSummary[]; sparks?: Record<string, (number | null)[]> }) {
   return (
     <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
       {metrics.map((m) => m.value === null ? (
@@ -115,7 +133,8 @@ export function MetricCards({ metrics }: { metrics: MetricSummary[] }) {
         <Link key={m.key} href={`/student?metric=${m.key}`} className="group">
           <Card className="h-full p-4 transition-colors group-hover:border-brand-300">
             <p className="text-sm text-muted">{m.label}</p>
-            <div className="mt-1 flex items-baseline gap-2">
+            <div className="mt-1 flex items-end justify-between gap-2">
+            <div className="flex items-baseline gap-2">
               <span className="text-2xl font-semibold tracking-tight text-ink">{pct(m.value)}</span>
               {m.delta !== null && m.delta !== 0 && (
                 <span className={cn('inline-flex items-center text-xs font-medium', m.delta > 0 ? 'text-success-700' : 'text-danger-700')}>
@@ -123,6 +142,8 @@ export function MetricCards({ metrics }: { metrics: MetricSummary[] }) {
                   {Math.abs(Math.round(m.delta * 100))}
                 </span>
               )}
+            </div>
+            {sparks[m.key] && <Sparkline values={sparks[m.key]!} up={(m.delta ?? 0) >= 0} />}
             </div>
             <p className="mt-1 text-xs text-subtle">vs last week · tap for the graph</p>
           </Card>

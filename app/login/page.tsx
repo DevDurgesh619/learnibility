@@ -58,7 +58,7 @@ export default function LoginPage() {
                       className="group flex h-full w-full flex-col gap-3 rounded-[var(--radius-card)] border border-line bg-surface p-4 text-left shadow-[var(--shadow-card)] transition hover:border-brand-300 hover:shadow-md focus-visible:border-brand-500"
                     >
                       <div className="flex items-center gap-3">
-                        <Avatar name={p.name} src={p.avatar} />
+                        <Avatar name={p.name} src={p.avatar} personId={p.id} photo />
                         <div className="min-w-0">
                           <p className="truncate font-medium text-ink">{p.name}</p>
                           {meta(p) && <p className="truncate text-xs text-muted">{meta(p)}</p>}

@@ -24,6 +24,7 @@ export function AppShell({ role, persona, nav, children }: { role: Role; persona
         <div className="mt-auto rounded-lg bg-surface-muted p-3 text-xs text-muted">
           <p className="font-medium text-ink">Demo mode</p>
           <p>All people and data are fictional. Today is {demoDate}.</p>
+          <Link href="/credits" className="mt-1 inline-block underline-offset-2 hover:text-ink hover:underline">Photo credits</Link>
         </div>
       </aside>
       <div className="flex min-w-0 flex-col">
@@ -33,7 +34,7 @@ export function AppShell({ role, persona, nav, children }: { role: Role; persona
           <div className="ml-auto flex items-center gap-3">
             <Badge tone="brand" className="hidden sm:inline-flex">{ROLE_LABEL[role]}</Badge>
             <div className="flex items-center gap-2">
-              <Avatar name={persona.name} src={persona.avatar} size="sm" />
+              <Avatar name={persona.name} src={persona.avatar} personId={persona.id} photo={role === 'student'} size="sm" />
               <span className="hidden text-sm font-medium text-ink sm:inline">{persona.name}</span>
             </div>
             {/* Clears every demo write (tests taken, bookings, approvals) so the next demo starts clean. */}
