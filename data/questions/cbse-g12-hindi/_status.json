@@ -1,0 +1,70 @@
+{
+  "subjectId": "cbse-g12-hindi",
+  "generatedBy": "scripts/questions/cbse/g12_hindi.py",
+  "curriculumSource": "data/curriculum/cbse-g12-hindi.json",
+  "generatedAt": "2026-11-18T10:42:15Z",
+  "chaptersDone": [
+    "cbse-g12-hindi-ch01",
+    "cbse-g12-hindi-ch02",
+    "cbse-g12-hindi-ch03",
+    "cbse-g12-hindi-ch04",
+    "cbse-g12-hindi-ch05",
+    "cbse-g12-hindi-ch06",
+    "cbse-g12-hindi-ch07",
+    "cbse-g12-hindi-ch08",
+    "cbse-g12-hindi-ch09",
+    "cbse-g12-hindi-ch10",
+    "cbse-g12-hindi-ch11",
+    "cbse-g12-hindi-ch12",
+    "cbse-g12-hindi-ch13",
+    "cbse-g12-hindi-ch14",
+    "cbse-g12-hindi-ch15",
+    "cbse-g12-hindi-ch16",
+    "cbse-g12-hindi-ch17",
+    "cbse-g12-hindi-ch18"
+  ],
+  "mocksDone": true,
+  "target": 1152,
+  "generated": 1152,
+  "validated": true,
+  "counts": {
+    "mastery_bank": 540,
+    "practice": 540,
+    "mock": 72,
+    "total": 1152
+  },
+  "mix": {
+    "C": {
+      "C1": 15,
+      "C2": 30,
+      "C3": 35.2,
+      "C4": 19.8
+    },
+    "D": {
+      "D1": 10,
+      "D2": 40,
+      "D3": 35,
+      "D4": 12,
+      "D5": 3
+    }
+  },
+  "validatedAt": "2026-11-18T10:42:16.286Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": [],
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "5 random items per chapter (90) plus 6 mock items (अपठित गद्यांश/काव्यांश, रचनात्मक लेखन choice, अभिव्यक्ति theory set, वितान set), re-solved by hand against the lesson facts; facts not certain (exact ages, collection names, numeric details) were removed before generation",
+      "checked": 96,
+      "mismatches": 0,
+      "fixes": [
+        "removed giveaway extract MCQs ('गद्यांश/काव्यांश का भाव किस पाठ से जुड़ा है?') whose answer was printed in the extract heading (18 rows)",
+        "poem-writing task asked for '120 शब्दों में' a poem; changed to 'लगभग 8-12 पंक्तियों की एक छोटी कविता'",
+        "word limit for 2-mark questions in अभिव्यक्ति और माध्यम subtopics raised from 25-30 to 30-40 words (class 12 norm)",
+        "board-style internal choice (three topics, write on one) used for the 6-mark रचनात्मक लेखन / संस्मरण mock slot so mock stems never repeat bank stems",
+        "pre-generation removals: Bhaktin's age at widowhood and an अनुप्रास claim on 'जीर्ण बाहु, है शीर्ण शरीर' (not certain)"
+      ]
+    }
+  ]
+}

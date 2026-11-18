@@ -1,0 +1,70 @@
+{
+  "subjectId": "cbse-g10-hindi",
+  "generatedBy": "scripts/questions/cbse/g10_hindi.py",
+  "curriculumSource": "data/curriculum/cbse-g10-hindi.json",
+  "generatedAt": "2026-11-18T10:42:16Z",
+  "chaptersDone": [
+    "cbse-g10-hindi-ch01",
+    "cbse-g10-hindi-ch02",
+    "cbse-g10-hindi-ch03",
+    "cbse-g10-hindi-ch04",
+    "cbse-g10-hindi-ch05",
+    "cbse-g10-hindi-ch06",
+    "cbse-g10-hindi-ch07",
+    "cbse-g10-hindi-ch08",
+    "cbse-g10-hindi-ch09",
+    "cbse-g10-hindi-ch10",
+    "cbse-g10-hindi-ch11",
+    "cbse-g10-hindi-ch12",
+    "cbse-g10-hindi-ch13",
+    "cbse-g10-hindi-ch14",
+    "cbse-g10-hindi-ch15"
+  ],
+  "mocksDone": true,
+  "target": 990,
+  "generated": 990,
+  "validated": true,
+  "counts": {
+    "mastery_bank": 450,
+    "practice": 450,
+    "mock": 90,
+    "total": 990
+  },
+  "mix": {
+    "C": {
+      "C1": 14.7,
+      "C2": 30.2,
+      "C3": 35.1,
+      "C4": 20
+    },
+    "D": {
+      "D1": 10,
+      "D2": 40.2,
+      "D3": 34.9,
+      "D4": 12.2,
+      "D5": 2.7
+    }
+  },
+  "validatedAt": "2026-11-18T10:42:16.969Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": [],
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "5 random items per chapter (75), one complete mock paper (15 items: अपठित, all four grammar sets, extracts, short-answer sets, कृतिका, all writing tasks) and a further 22 random grammar items (वाक्य भेद, वाच्य, पद परिचय, अलंकार), re-solved by hand against the lesson facts and standard Hindi grammar rules",
+      "checked": 112,
+      "mismatches": 1,
+      "fixes": [
+        "Hiroshima answer said 'लाखों लोग मरे' (overstated); changed to 'हज़ारों लोग मारे गए'",
+        "feminine perfect forms in the वाच्य engine fixed before generation (बनाया -> बनाई, not 'बनायई')",
+        "Bismillah Khan maternal-uncle MCQ: distractor सादिक हुसैन removed (he was also a maternal uncle); stem now names the uncle he went to Balaji temple with",
+        "uncertain items removed before generation: the alankar label for 'ज्यौं जल माहँ तेल की गागरि' and 'मुरझाकर गिर रहीं पत्तियाँ' as a मानवीकरण example",
+        "pad-parichay correction stem no longer nests quotation marks",
+        "grammar 4-part sets no longer end the key with a doubled danda (own copy of table_set)",
+        "3-mark 'think' questions kept out of the 3 x 2 mock short-answer sets; awkward distractor 'मिठाई का लालच देकर नहीं' corrected"
+      ],
+      "note": "No wrong answer key in the final sample. All गद्यांश, the अपठित passages and most काव्यांश are original; real verse is quoted only from public-domain poets (सूरदास, तुलसीदास, जयशंकर प्रसाद, निराला). Lines of in-copyright poets (नागार्जुन, मंगलेश डबराल) are not reproduced."
+    }
+  ]
+}
