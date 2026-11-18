@@ -1,0 +1,62 @@
+{
+  "subjectId": "cbse-g11-business",
+  "generatedBy": "scripts/questions/cbse/g11_business.py",
+  "curriculumSource": "data/curriculum/cbse-g11-business.json",
+  "generatedAt": "2026-11-18T08:29:33Z",
+  "chaptersDone": [
+    "cbse-g11-business-ch01",
+    "cbse-g11-business-ch02",
+    "cbse-g11-business-ch03",
+    "cbse-g11-business-ch04",
+    "cbse-g11-business-ch05",
+    "cbse-g11-business-ch06",
+    "cbse-g11-business-ch07",
+    "cbse-g11-business-ch08",
+    "cbse-g11-business-ch09",
+    "cbse-g11-business-ch10"
+  ],
+  "mocksDone": true,
+  "target": 902,
+  "generated": 902,
+  "validated": true,
+  "counts": {
+    "mastery_bank": 400,
+    "practice": 400,
+    "mock": 102,
+    "total": 902
+  },
+  "mix": {
+    "C": {
+      "C1": 15,
+      "C2": 30,
+      "C3": 35,
+      "C4": 20
+    },
+    "D": {
+      "D1": 9.3,
+      "D2": 39.3,
+      "D3": 34.5,
+      "D4": 14,
+      "D5": 3
+    }
+  },
+  "validatedAt": "2026-11-18T08:30:01.436Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": [],
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "5 random items per chapter re-answered from NCERT Business Studies XI (two rounds: 50 mixed items, then 50 explain/case/assertion-reason items), plus a read-through of every assertion-reason item in the fact tables",
+      "checked": 100,
+      "mismatches": 0,
+      "fixes": [
+        "three assertion-reason items whose intended code could be argued (risk/profit, insurance disclosure, resources of business) rewritten so the code is unambiguous",
+        "justification for the policy on sick public enterprises was circular; now names referral to the BIFR",
+        "four case stems put a random product where it did not fit (a \"textbooks plant\", a patented-technology handicrafts maker, etc.); products fixed in those cases",
+        "two scenario families had fewer than four options and could not generate; pools widened",
+        "\"Which statement is correct?\" recall items retagged D1"
+      ]
+    }
+  ]
+}

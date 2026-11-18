@@ -1,0 +1,65 @@
+{
+  "subjectId": "cbse-g11-accountancy",
+  "generatedBy": "scripts/questions/cbse/g11_accountancy.py",
+  "curriculumSource": "data/curriculum/cbse-g11-accountancy.json",
+  "generatedAt": "2026-11-18T08:29:39Z",
+  "chaptersDone": [
+    "cbse-g11-accountancy-ch01",
+    "cbse-g11-accountancy-ch02",
+    "cbse-g11-accountancy-ch03",
+    "cbse-g11-accountancy-ch04",
+    "cbse-g11-accountancy-ch05",
+    "cbse-g11-accountancy-ch06",
+    "cbse-g11-accountancy-ch07",
+    "cbse-g11-accountancy-ch08",
+    "cbse-g11-accountancy-ch09"
+  ],
+  "mocksDone": true,
+  "target": 822,
+  "generated": 822,
+  "validated": true,
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "5 random items per chapter re-solved by hand (two rounds: 45 mixed items, then 45 numerical items incl. BRS with overdraft, rectification with suspense, WDV disposal, full final accounts with six adjustments)",
+      "checked": 90,
+      "mismatches": 0,
+      "fixes": [
+        "accounting-equation sequences could pay a creditor or debtor that did not exist (negative liabilities); now start with capital and a goods purchase and exclude settlements",
+        "equation item could sell more goods than were bought; cost of goods sold now capped by purchases",
+        "\"true of X but not of Y\" MCQs gave bare fragments as options; each option now names its basis",
+        "rectification items used one amount for every error in a question; each error now has its own amount",
+        "cash book and book-identification items could repeat the same transaction type; transaction types are now sampled without repeats",
+        "BRS marking key wording for overdraft starts (add/less reversed relative to a favourable balance) corrected",
+        "pronouns in scenarios now agree with the randomly chosen name",
+        "amend-cash-book MCQ showed a truncated correct option; options rewritten as parallel short phrases",
+        "6-mark mock slots restricted to practical problems (theory lists remain in bank and forms)"
+      ]
+    }
+  ],
+  "counts": {
+    "mastery_bank": 450,
+    "practice": 270,
+    "mock": 102,
+    "total": 822
+  },
+  "mix": {
+    "C": {
+      "C1": 15.1,
+      "C2": 30,
+      "C3": 34.9,
+      "C4": 20
+    },
+    "D": {
+      "D1": 10,
+      "D2": 40,
+      "D3": 34.9,
+      "D4": 12,
+      "D5": 3.1
+    }
+  },
+  "validatedAt": "2026-11-18T08:30:01.328Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": []
+}
