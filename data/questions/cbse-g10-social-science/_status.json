@@ -1,0 +1,75 @@
+{
+  "subjectId": "cbse-g10-social-science",
+  "generatedBy": "scripts/questions/cbse/g10_social_science.py",
+  "curriculumSource": "data/curriculum/cbse-g10-social-science.json",
+  "generatedAt": "2026-11-18T08:33:28Z",
+  "chaptersDone": [
+    "cbse-g10-social-science-ch01",
+    "cbse-g10-social-science-ch02",
+    "cbse-g10-social-science-ch03",
+    "cbse-g10-social-science-ch04",
+    "cbse-g10-social-science-ch05",
+    "cbse-g10-social-science-ch06",
+    "cbse-g10-social-science-ch07",
+    "cbse-g10-social-science-ch08",
+    "cbse-g10-social-science-ch09",
+    "cbse-g10-social-science-ch10",
+    "cbse-g10-social-science-ch11",
+    "cbse-g10-social-science-ch12",
+    "cbse-g10-social-science-ch13",
+    "cbse-g10-social-science-ch14",
+    "cbse-g10-social-science-ch15",
+    "cbse-g10-social-science-ch16",
+    "cbse-g10-social-science-ch17",
+    "cbse-g10-social-science-ch18",
+    "cbse-g10-social-science-ch19",
+    "cbse-g10-social-science-ch20",
+    "cbse-g10-social-science-ch21",
+    "cbse-g10-social-science-ch22"
+  ],
+  "mocksDone": true,
+  "target": 1988,
+  "generated": 1988,
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "random generated items re-solved independently (5 per chapter plus 5 mock items, then 3 per chapter plus 3 mock items with a second seed); computed economics items (per capita income, average income, literacy rate, BMI, GDP and value added, sector share, bank lending, cost of credit, consumer commission jurisdiction) and map items recomputed or checked by hand; fact tables reviewed line by line before generation",
+      "checked": 197,
+      "mismatches": 0,
+      "fixes": [
+        "review: silly distractor \"1876 BCE\" for Amar Jiban replaced with 1890",
+        "review: chronology rows with equal years (Ford Motors in India and WTO, both 1995) removed",
+        "review: assertion on the RTI Act and consumer right to information rewritten (the two are different rights)",
+        "build: subtopic ch10-st1 had no C4 item; added an evaluate question on the uneven distribution of minerals",
+        "build: computed MCQs (GDP, sector share, literacy rate) could repeat an option; generators now reject repeats"
+      ],
+      "note": "Generators fixed, bank regenerated and revalidated."
+    }
+  ],
+  "validated": true,
+  "counts": {
+    "mastery_bank": 880,
+    "practice": 880,
+    "mock": 228,
+    "total": 1988
+  },
+  "mix": {
+    "C": {
+      "C1": 16.3,
+      "C2": 31,
+      "C3": 35.8,
+      "C4": 16.9
+    },
+    "D": {
+      "D1": 9.5,
+      "D2": 39.5,
+      "D3": 35,
+      "D4": 15.8,
+      "D5": 0.1
+    }
+  },
+  "validatedAt": "2026-11-18T08:33:53.496Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": []
+}

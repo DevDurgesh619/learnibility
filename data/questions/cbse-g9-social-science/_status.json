@@ -1,0 +1,70 @@
+{
+  "subjectId": "cbse-g9-social-science",
+  "generatedBy": "scripts/questions/cbse/g9_social_science.py",
+  "curriculumSource": "data/curriculum/cbse-g9-social-science.json",
+  "generatedAt": "2026-11-18T08:11:44Z",
+  "chaptersDone": [
+    "cbse-g9-social-science-ch01",
+    "cbse-g9-social-science-ch02",
+    "cbse-g9-social-science-ch03",
+    "cbse-g9-social-science-ch04",
+    "cbse-g9-social-science-ch05",
+    "cbse-g9-social-science-ch06",
+    "cbse-g9-social-science-ch07",
+    "cbse-g9-social-science-ch08",
+    "cbse-g9-social-science-ch09",
+    "cbse-g9-social-science-ch10",
+    "cbse-g9-social-science-ch11",
+    "cbse-g9-social-science-ch12",
+    "cbse-g9-social-science-ch13",
+    "cbse-g9-social-science-ch14",
+    "cbse-g9-social-science-ch15"
+  ],
+  "mocksDone": true,
+  "target": 1314,
+  "generated": 1314,
+  "validated": true,
+  "counts": {
+    "mastery_bank": 600,
+    "practice": 600,
+    "mock": 114,
+    "total": 1314
+  },
+  "mix": {
+    "C": {
+      "C1": 15.3,
+      "C2": 30.2,
+      "C3": 35,
+      "C4": 19.5
+    },
+    "D": {
+      "D1": 10.5,
+      "D2": 40.3,
+      "D3": 35.5,
+      "D4": 13,
+      "D5": 0.7
+    }
+  },
+  "validatedAt": "2026-11-18T08:33:53.331Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": [],
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "random generated items re-solved independently (7 per chapter plus 7 mock items, then 3 per chapter plus 3 mock items after fixes); computed economics and finance items (opportunity cost, PPF, equilibrium, excess demand, CPI inflation, simple and compound interest, loan cost) recomputed by hand; fact tables reviewed line by line before generation",
+      "checked": 160,
+      "mismatches": 0,
+      "fixes": [
+        "review: \"Kanchenjunga is the highest peak in India\" reworded (claim depends on how K2 is treated); now \"third highest peak in the world\"",
+        "review: distractors \"Cherrapunji town of Assam\", \"Pangaea only\", \"cracy-tax\" and \"100 − inflation\" replaced with plausible ones",
+        "review: chronology rows with equal years (MUDRA and Digital India, both 2015) changed",
+        "sample: \"1 tractors\" grammar in the PPF table",
+        "sample: term \"cVIGIL\" was capitalised to \"CVIGIL\" in options; term renamed \"the cVIGIL app\"",
+        "sample: revision-note case could ask two blanks with the same answer; now rejected",
+        "sample: adjective definitions (sovereign, secular) rewritten as noun phrases so \"Which term is used for ...\" reads well"
+      ],
+      "note": "Generators fixed, bank regenerated and revalidated."
+    }
+  ]
+}

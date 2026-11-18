@@ -1,0 +1,70 @@
+{
+  "subjectId": "cbse-g8-social-science",
+  "generatedBy": "scripts/questions/cbse/g8_social_science.py",
+  "curriculumSource": "data/curriculum/cbse-g8-social-science.json",
+  "generatedAt": "2026-11-18T08:11:45Z",
+  "chaptersDone": [
+    "cbse-g8-social-science-ch01",
+    "cbse-g8-social-science-ch02",
+    "cbse-g8-social-science-ch03",
+    "cbse-g8-social-science-ch04",
+    "cbse-g8-social-science-ch05",
+    "cbse-g8-social-science-ch06",
+    "cbse-g8-social-science-ch07",
+    "cbse-g8-social-science-ch08",
+    "cbse-g8-social-science-ch09",
+    "cbse-g8-social-science-ch10",
+    "cbse-g8-social-science-ch11",
+    "cbse-g8-social-science-ch12",
+    "cbse-g8-social-science-ch13",
+    "cbse-g8-social-science-ch14",
+    "cbse-g8-social-science-ch15"
+  ],
+  "mocksDone": true,
+  "target": 1314,
+  "generated": 1314,
+  "validated": true,
+  "counts": {
+    "mastery_bank": 600,
+    "practice": 600,
+    "mock": 114,
+    "total": 1314
+  },
+  "mix": {
+    "C": {
+      "C1": 15,
+      "C2": 29.8,
+      "C3": 34.8,
+      "C4": 20.3
+    },
+    "D": {
+      "D1": 10.7,
+      "D2": 40.5,
+      "D3": 36.2,
+      "D4": 12.2,
+      "D5": 0.5
+    }
+  },
+  "validatedAt": "2026-11-18T08:33:53.184Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": [],
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "5 random generated items per chapter (75 items, seed 7) re-solved independently against NCERT facts; fact tables reviewed line by line before generation",
+      "checked": 75,
+      "mismatches": 0,
+      "fixes": [
+        "review: distractor \"Vitthala\" removed from Mirabai/Surdas items (Vitthala is a form of Krishna, so it was not clearly wrong)",
+        "review: distractor \"gold\" for Chota Nagpur minerals replaced (region has minor gold deposits)",
+        "review: Assertion-Reason on Babur's artillery vs Lodi's elephants replaced (code b was arguable)",
+        "review: \"criminal case ... sessions court\" reworded to \"serious criminal case is tried in the sessions court\"",
+        "review: chronology rows with equal years (Constitution and Election Commission, both 1950) removed",
+        "sample: nested (a)/(b) labels inside a long-answer part changed to (i)-(iii)",
+        "sample: category options capitalised consistently"
+      ],
+      "note": "Generators fixed, bank regenerated and revalidated."
+    }
+  ]
+}
