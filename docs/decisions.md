@@ -62,3 +62,22 @@ Newest first. Each entry: date, decision, who decided, why.
 - **Approving a timetable request** moves (or drops) the requested blocks, locks them in the new slot under the id `{blockId}_moved`, then calls `recomputeLearner(id, { reason: 'request_approved' })` so the rest of the week re-plans around them. Block length only changes for `more_time` / `less_time`. The student gets a message with the decision. (W2-C.)
 - **Career session save** writes a `MeetingNote` (kind career, T1), a completed counsellor `Session`, one `Task` per action item (kind `action_item`, source `counsellor`, link `/student/career`) and an M3 `career_session` event. (W2-C.)
 - **Student 360 staleness** uses the parameter cadence: Weekly/Continuous 10 days, Monthly 45, Term 140, Annual 400; Once and As needed never go stale. (W2-C.)
+
+## 2026-11-18 (W2-P Parent and mentor)
+
+- **Child switcher by query string.** Every parent page takes `?child=lrn_...` (default: first child); the switcher shows only for families with 2+ children (the Kapoors). Helpers in `components/parent/context.ts`. (W2-P.)
+- **Progress compares a child only with their own past.** The radar is now vs 4 weeks ago, the trend is LRS and MCI year to date; no class averages or ranks anywhere on parent screens. ALR indices the engine marked `missing` are left out of the means, as the LRS does. (W2-P.)
+- **Paid tutor approval.** `lib/actions/parent.ts#approvePaidTutor` either approves a student-requested booking (`parentApproval.status` pending → approved) or, when the 3-week rule fired and nothing is booked, creates a regular booking for a matched tutor (`getTutorMatches`, subject with the most open hours) already parent-approved. Both write an `Approval` (kind `paid_tutor`), an `M2` event and `recomputeLearner(id, {reason:'session_booked'})`. The tutor still accepts. The gap snapshot goes to the tutor only when the family has an active `share_with_tutor` consent. (W2-P.)
+- **Parent writes**: approve/decline tutor, pay invoice (demo success state, no gateway), give/withdraw consent (dated, versioned), send message. All check the learner is the signed-in parent's child. (W2-P.)
+- **Privacy screen** uses `getProfile(id, 'parent')`, so T2 and T3 arrive as counts and dates only; it shows the `VISIBILITY` matrix from `lib/visibility.ts` as the "who sees what" table. (W2-P.)
+- **Sample prices shown** (tutor rates, plan cost ranges, invoices, skill-plan paid routes) per the user's "use dummy pricing, we will change it later". (W2-P.)
+- **Mentor writes live in `lib/actions/mentor.ts`** (new file, mentor-only): a career session saves a T1 `MeetingNote` (kind `career`) and turns each action item into a `Task` (source `mentor`, kind `action_item`); a skill-plan line can be sent as a task. Events use M18 (mentor rating) and M15 (planner). (W2-P.)
+- **Skill plans are computed live** with `careerGap` plus the skills, resources and exams catalogues on the mentee's T1 profile, so routes name real resources; the stored `careers.json` gap is the fallback. (W2-P.)
+
+
+## 2026-11-18 (W2-TE Teacher)
+
+- **Assignments are one task per learner.** Assign and "Push re-teach set" write a `Task` (`kind: 'test'`, `source: 'teacher'`, id `{groupId}__{learnerId}`, `href: /student/assessments/task.{taskId}`) for every chosen learner, then `recomputeLearner(id, { reason: 'task_assigned' })` for persona learners. The "Assigned so far" list groups tasks by the id prefix. Chapter checks take the easiest item per subtopic and concept group (max 20); re-teach sets take C1 to C3 items at D1 to D3 (plus 2 C4 items for G5). (W2-TE.)
+- **Gap validation writes three things.** The gap's `validation` (with `originalCode` kept when corrected), a `gap_validated` event (M15) and profile value `p430` (T1, M15). "Not a gap" closes the gap. Background learners' light gaps get a full record on first validation (id `gap_{learnerId}_{subtopicId}`). (W2-TE.)
+- **Gap clusters are recomputed from gaps on the teacher side** (subtopic × code, open, rejected left out, 2+ students), so a correction shows at once; clusters of 3+ get a card (top 6), the rest a compact list. (W2-TE.)
+- **Teacher student view is T1 only**, via `getProfile(id, 'teacher')`; background learners show heatmap mastery, gaps and test scores only. (W2-TE.)

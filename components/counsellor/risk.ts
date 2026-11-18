@@ -5,8 +5,8 @@
  *  - deadline   an application deadline within 14 days with open checklist items (high under 7 days)
  *  - wellbeing  monthly check-in (p149) 2 or below, burnout flag (p114), screened stress or anxiety (p109, p110)
  *               in the high band, or no check-in for 35+ days. T3: counsellor eyes only, never ranking.
- *  - data       profile under 40% complete, a section under 25% that the plan relies on, or no assessment for 21+ days
- *  - learning   learning-rate band below average, an engagement gap (G10), or 3+ missed tasks in the last 7 days
+ *  - data       profile under 25% complete (medium under 10%), a section under 25% that the plan relies on, or no assessment for 21+ days
+ *  - learning   learning-rate band below average, an engagement gap (G10), or  3+ skipped tasks in the last 7 days
  *  - request    a timetable request waiting more than 48 hours
  */
 import type { Band, GapCode } from '@/lib/types';
@@ -83,8 +83,8 @@ export function riskFlags(input: RiskInput): RiskFlag[] {
     add({ id: `${learnerId}-wb-due`, kind: 'wellbeing', severity: 'low', title: 'Monthly wellbeing check-in due', detail: checkIn ? `Last check-in ${Math.floor(-days(now, checkIn.asOfUtc))} days ago.` : 'No check-in on record yet.' });
   }
 
-  if (input.completeness != null && input.completeness < 0.4) {
-    add({ id: `${learnerId}-data-profile`, kind: 'data', severity: 'medium', title: `Profile ${Math.round(input.completeness * 100)}% complete`, detail: 'Recommendations rest on thin evidence. Fill the gaps in Student 360.', href: `/counsellor/student-360?student=${learnerId}` });
+  if (input.completeness != null && input.completeness < 0.25) {
+    add({ id: `${learnerId}-data-profile`, kind: 'data', severity: input.completeness < 0.1 ? 'medium' : 'low', title: `Profile ${Math.round(input.completeness * 100)}% complete`, detail: 'Recommendations rest on thin evidence. Fill the gaps in Student 360.', href: `/counsellor/student-360?student=${learnerId}` });
   }
   if (input.sparseSections?.length) {
     add({ id: `${learnerId}-data-sections`, kind: 'data', severity: 'low', title: `${input.sparseSections.length} sparse profile section${input.sparseSections.length === 1 ? '' : 's'}`, detail: input.sparseSections.join(', '), href: `/counsellor/student-360?student=${learnerId}` });
@@ -96,7 +96,7 @@ export function riskFlags(input: RiskInput): RiskFlag[] {
 
   if (input.lrsBand === 'below_avg') add({ id: `${learnerId}-learn-lrs`, kind: 'learning', severity: 'medium', title: 'Learning rate below average', detail: 'Check method fit before adding hours.' });
   if (input.gapCodes?.includes('G10')) add({ id: `${learnerId}-learn-g10`, kind: 'learning', severity: 'medium', title: 'Engagement gap (G10)', detail: 'Blank answers on recent tests. Talk about motivation before content.' });
-  if ((input.missedTasks7d ?? 0) >= 3) add({ id: `${learnerId}-learn-missed`, kind: 'learning', severity: 'medium', title: `${input.missedTasks7d} tasks missed this week`, detail: 'The plan may be too heavy. Consider a timetable change.', href: '/counsellor/timetable-requests' });
+  if ((input.missedTasks7d ?? 0) >= 3) add({ id: `${learnerId}-learn-missed`, kind: 'learning', severity: 'medium', title: `${input.missedTasks7d} tasks skipped this week`, detail: 'The plan may be too heavy. Consider a timetable change.', href: '/counsellor/timetable-requests' });
 
   for (const r of input.pendingRequests ?? []) {
     const age = -days(now, r.createdUtc);

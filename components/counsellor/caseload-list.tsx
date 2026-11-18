@@ -8,7 +8,7 @@ const SEV_TONE = { high: 'danger', medium: 'warning', low: 'neutral' } as const;
 const PLAN_LABEL = { free: 'Free', application_support: 'Application Support', full_package: 'Full package' } as const;
 
 export function FlagChip({ flag }: { flag: RiskFlag }) {
-  return <Badge tone={SEV_TONE[flag.severity]} title={flag.text}>{flag.severity === 'high' && <AlertTriangle className="size-3" />}{flag.text}</Badge>;
+  return <Badge tone={SEV_TONE[flag.severity]} title={flag.text} className="max-w-full">{flag.severity === 'high' && <AlertTriangle className="size-3" />}{flag.text}</Badge>;
 }
 
 /** One row per student: desktop table, stacked cards on mobile. */
@@ -27,13 +27,13 @@ export function CaseloadList({ entries }: { entries: CaseloadEntry[] }) {
                   <Link href={`/counsellor/student-360?student=${e.student.id}`} className="flex items-center gap-3">
                     <Avatar name={e.student.name} src={e.student.avatar} size="sm" />
                     <div className="min-w-0">
-                      <div className="flex items-center gap-2 font-medium text-ink">{e.student.name}{e.needsYouToday && <Badge tone="danger">Today</Badge>}</div>
+                      <div className="flex items-center gap-2 font-medium whitespace-nowrap text-ink">{e.student.name}{e.needsYouToday && <Badge tone="danger">Today</Badge>}</div>
                       <div className="truncate text-xs text-muted">{e.focus}</div>
                     </div>
                   </Link>
                 </td>
                 <td className="px-4 py-3 text-muted"><div>{e.student.programme}</div><div className="text-xs text-subtle">{PLAN_LABEL[e.student.plan]}</div></td>
-                <td className="px-4 py-3"><BandBadge band={e.student.band} /></td>
+                <td className="px-4 py-3 whitespace-nowrap"><BandBadge band={e.student.band} /></td>
                 <td className="px-4 py-3 text-ink">{e.openGaps}</td>
                 <td className="max-w-xs px-4 py-3">
                   <div className="flex flex-wrap gap-1">

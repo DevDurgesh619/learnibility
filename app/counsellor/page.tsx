@@ -38,14 +38,14 @@ export default async function CaseloadPage({ searchParams }: { searchParams: Pro
           {today.length === 0 ? (
             <EmptyState title="Nothing urgent today" description="No high flags, waiting requests or sessions. A good day for check-ins." className="border-0 py-6" />
           ) : (
-            <ul className="grid gap-3 md:grid-cols-2">
+            <ul className="grid grid-cols-1 gap-3 md:grid-cols-2">
               {today.map((e) => (
-                <li key={e.student.id} className="rounded-lg border border-line p-4">
+                <li key={e.student.id} className="min-w-0 rounded-lg border border-line p-4">
                   <div className="flex items-center gap-3">
                     <Avatar name={e.student.name} src={e.student.avatar} size="sm" />
                     <div className="min-w-0 flex-1">
                       <div className="font-medium text-ink">{e.student.name}</div>
-                      <div className="truncate text-xs text-muted">{e.student.programme} · {e.focus}</div>
+                      <div className="truncate text-xs text-muted">{e.focus}</div>
                     </div>
                   </div>
                   <div className="mt-3 flex flex-wrap gap-1">{e.flags.filter((f) => f.severity !== 'low').slice(0, 3).map((f, i) => <FlagChip key={i} flag={f} />)}</div>
