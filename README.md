@@ -1,39 +1,127 @@
 # Learnibility
 
-Hyper-personalised learning for grades 8 to 12 across CBSE, Cambridge and IB. Every student has one verified master record (430 profile parameters plus mastery, gaps and ALR) that drives a daily loop of assessment, gap diagnosis, interventions, timetable and career mapping. Students, parents, teachers, counsellors, tutors and mentors each see their own view of it.
+Hyper-personalised learning for grades 8 to 12 across CBSE, Cambridge and IB. Every student has one verified master record (430 profile parameters plus mastery, gaps and learning rate) that drives a daily loop: assessment, gap diagnosis, interventions, timetable, tutors, careers and university applications. Students, parents, school teachers, counsellors, tutors, mentors and the sales team each see their own view of that one record, with privacy tiers deciding who sees what.
 
-This is a working prototype with realistic dummy personas, built to be demoed end to end.
+This is a working prototype with realistic, fictional personas and data, built to be demoed end to end. Prices are sample values.
 
-## Run
+## Run it
+
+Needs Node 22 or later.
 
 ```bash
 npm install
+npm run db:setup   # optional: creates prisma/dev.db (SQLite) and loads /data into it; the app itself reads JSON
 npm run dev        # http://localhost:3000
-npm test           # Vitest
-npm run lint       # type check
-npm run import:430 # regenerate data/profile/*.json from reference/ (needs python3 + openpyxl)
-npm run db:setup   # optional: create prisma/dev.db (SQLite) and load /data into it
 ```
 
-Open http://localhost:3000/login and pick a persona. `/design` shows the component gallery.
+Then open:
+
+- **http://localhost:3000/demo**: the guided demo. Twelve scenarios; each "Reset and start" clears earlier demo writes, logs you in as the right person and opens a Demo guide panel that follows you around the app.
+- **http://localhost:3000/login**: log in as any persona directly (no passwords).
+- **http://localhost:3000/welcome**: the public sign-up flow (demo OTP `246810`; mobile `98765 43210` signs up as the new student Zoya).
+- **http://localhost:3000/design**: the component gallery.
+
+Demo writes (tests taken, bookings, approvals, CRM conversions) go to an overlay at `.data/overlay.sqlite` and never change the JSON data. Reset them with **Reset demo** on `/demo`, the circular-arrow icon in any app header, or `curl -X POST http://localhost:3000/api/demo-reset`.
+
+The demo clock is fixed at **Wednesday 18 November 2026, 9:00 AM IST** (`lib/demo-clock.ts`), so every screen tells the same story on any day.
+
+## Demo script
+
+[`docs/demo-script.md`](docs/demo-script.md) is the printable version of `/demo`: for each scenario, who to log in as, where to start, the numbered steps and what to point out. Both are generated from `components/demo/scenarios.ts`; after editing it run `npx tsx scripts/e2e/build-demo-script.ts`.
+
+| # | Scenario | Starts as |
+| --- | --- | --- |
+| 1 | Lead to student: a sales rep converts Zoya's lead, she onboards | Aman Gupta (sales) |
+| 2 | Kabir: chapter check, G4/G9 gaps, estimate-first plan, timetable re-plan | Kabir Singh |
+| 3 | Rohan: free plan fails 3 weeks, paid tutor suggested, parent approves | Rohan Das |
+| 4 | Ishita books Rahul Verma; report and homework flow back | Ishita Rao |
+| 5 | Vihaan: Chemistry retention and spaced reviews | Vihaan Joshi |
+| 6 | Teacher finds a G3 cluster and assigns a re-teach set | Suresh Pillai |
+| 7 | Counsellor approves a timetable change; Sara's career session | Heena Qureshi |
+| 8 | Nikhil's application: QA check, essay comments, submit | Nikhil Reddy |
+| 9 | Ananya: University Fit to Application Support | Ananya Kapoor |
+| 10 | Meera: wellbeing visible to the counsellor, summary for the parent | Heena Qureshi |
+| 11 | Aarav: topper with advanced readiness and enrichment | Aarav Kapoor |
+| 12 | Tara and Kunal: careers from strengths | Tara Menon |
+
+## Personas
+
+All fictional. The picker on `/login` reads `data/personas/index.json`.
+
+- **Students (14):** Aarav Kapoor (8 CBSE), Ishita Rao (8 Cambridge), Zoya Fernandes (9 CBSE, signs up live), Kabir Singh (9 CBSE), Meera Iyer (9 IB MYP), Ananya Kapoor (10 IGCSE), Rohan Das (10 CBSE), Vihaan Joshi (11 CBSE Science), Sara Khan (11 CBSE Commerce), Arjun Nair (11 IB DP Humanities), Diya Sharma (12 CBSE Science), Nikhil Reddy (12 Cambridge A Level), Tara Menon (12 IB DP Science), Kunal Verma (12 CBSE Humanities).
+- **Parents:** one account per family (the Kapoors share one for Aarav and Ananya).
+- **School teachers:** Suresh Pillai (CBSE Maths), Anjali Bose (CBSE Science), Grace D'Souza (Cambridge English), Tom Hayes (IB Economics), each with full class sections.
+- **Counsellors:** Heena Qureshi (academic and wellbeing, all students), Farah Siddiqui (applications).
+- **Mentor:** Kelvin Thomas. **Tutors:** Rahul Verma and others from the tutor catalogue.
+- **Sales:** Priya Malhotra (manager), Aman Gupta and Neha Joseph (reps).
+
+The story behind each student is in `docs/personas.md`.
+
+## How the data is made
+
+Everything is generated by scripts with a fixed seed, so a rerun gives identical files.
+
+| Data | Where | Generate | Check |
+| --- | --- | --- | --- |
+| 430 profile parameters | `data/profile/` | `npm run import:430` (python3 + openpyxl) | `npm test` |
+| Curriculum map (157 subjects) | `data/curriculum/` | `scripts/curriculum/build.py` | `npx tsx scripts/curriculum/validate.ts` |
+| Question bank | `data/questions/{subjectId}/` | `scripts/questions/{cbse,cambridge,ib}/` | `node scripts/questions/validate.ts --all` |
+| Onboarding test forms | `data/questions/onboarding/` | `scripts/onboarding/build-forms.py` | `node scripts/onboarding/validate.ts` |
+| Catalogues (tutors, careers, skills, resources, universities, exams) | `data/catalogues/` | `npx tsx scripts/catalogues/generate.ts` | `npx tsx scripts/catalogues/validate.ts` |
+| Personas and their history | `data/personas/` | `npx tsx scripts/personas/simulate.ts` | `npx tsx scripts/personas/check-stories.ts` |
+| CRM leads, activities and payments | `data/crm/` | `npx tsx scripts/crm/build.ts` | part of `npm test` |
+
+Persona history is not hand-written: the simulator answers real questions from latent traits and runs the real engines (`lib/engines/`: mastery time, gap diagnosis, interventions, ALR, timetable, tutor matching, career mapping, next best action) after every test, so gaps, bands, hours and spend agree on every screen. See `docs/data-layer.md` for how screens read data and how demo writes work.
+
+## Tests
+
+```bash
+npm run lint       # TypeScript check
+npm test           # Vitest: engines, data layer, scoring, visibility
+npm run build      # production build
+```
+
+End-to-end specs use the pre-installed Playwright, against a running app (`npm run dev` or `npm run build && npm start`):
+
+```bash
+BASE_URL=http://localhost:3000 node scripts/smoke/w2-s1.spec.ts       # one per area: w2-s1, w2-s2, w2-a, w2-c, w2-p, w2-te, w3-crm
+BASE_URL=http://localhost:3000 npx tsx scripts/e2e/demo.spec.ts       # walks every /demo scenario at 1440 and 390 px
+BASE_URL=http://localhost:3000 npx tsx scripts/e2e/journey.spec.ts    # lead → student → tutor → parent → counsellor → sales
+BASE_URL=http://localhost:3000 npx tsx scripts/e2e/consistency.spec.ts  # same numbers on every role's screens
+```
+
+The QA results are in [`docs/qa-report.md`](docs/qa-report.md).
 
 ## Layout
 
 ```
-/app                 Next.js App Router routes
-/components          UI components and design system
+/app                 Next.js App Router routes, one folder per role (student, parent, teacher, counsellor, tutor, mentor, crm) plus /demo
+/components          UI by area, design system in components/ui, charts, shell; guided demo in components/demo
 /lib/types/          Shared TypeScript types (the contract)
-/lib/ids.ts          ID builders and parsers
-/lib/engines/        Pure engine functions + tests
-/data/curriculum/    Curriculum map JSON
-/data/catalogues/    Tutors, courses, careers, skills, universities
-/data/questions/     Question bank
-/data/personas/      Personas and history
-/data/profile/       430-parameter profile definition
-/scripts/            Generators and validators, one folder per workstream
-/prisma/             Database schema and seed
+/lib/engines/        Pure engine functions with tests (README lists every rule and its source sheet)
+/lib/data/           Read API for screens; lib/actions/ holds the writes
+/data/               Curriculum, questions, catalogues, personas, CRM, profile definition
+/scripts/            Generators, validators, smoke and E2E specs, one folder per workstream
+/prisma/             Database schema and seed (optional)
 /reference/          Copies of the uploaded source files
-/docs/               Contracts and decisions
+/docs/               Contracts, decisions, demo script, QA report
 ```
 
-Read `docs/contracts.md` before adding data or types.
+Read `docs/contracts.md` before adding data or types, and `docs/decisions.md` for why things are the way they are.
+
+## Move to GitHub
+
+The project was built in a local git repository. To publish it:
+
+1. Create an empty repository on GitHub (no README, licence or .gitignore, so the first push does not conflict).
+2. From this folder:
+
+   ```bash
+   git remote add origin https://github.com/<owner>/<repo>.git
+   git branch -M main
+   git push -u origin main
+   ```
+
+3. Check that `node_modules/`, `.next/`, `.data/` and `prisma/dev.db` were not pushed (they are in `.gitignore`).
+4. Optional: add a GitHub Actions workflow that runs `npm ci`, `npm run lint`, `npm test` and `npm run build` on every pull request.
+5. To host the demo, any Node host that runs `npm run build && npm start` works. Demo writes use SQLite in `.data/`; on a read-only or serverless host set `LEARNIBILITY_OVERLAY=memory` so they live in memory instead.

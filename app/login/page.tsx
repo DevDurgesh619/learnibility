@@ -33,7 +33,10 @@ export default function LoginPage() {
             through the eyes of each person around the student.
           </p>
         </div>
-        <p className="text-sm text-brand-200">Demo: pick anyone to log in as them. No passwords; all people and data are fictional.</p>
+        <div className="text-sm text-brand-200">
+          <p>Demo: pick anyone to log in as them. No passwords; all people and data are fictional.</p>
+          <a href="/demo" className="mt-2 inline-block font-medium text-white underline underline-offset-4">Open the guided demo</a>
+        </div>
       </aside>
 
       <main className="mx-auto w-full max-w-5xl p-6 sm:p-10">

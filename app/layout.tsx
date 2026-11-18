@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
+import { DemoGuide } from '@/components/demo/demo-guide';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -10,7 +11,11 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {children}
+        {/* Guided demo panel (W3-QA): renders only while a /demo scenario is running. */}
+        <DemoGuide />
+      </body>
     </html>
   );
 }
