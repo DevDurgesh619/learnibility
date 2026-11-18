@@ -100,3 +100,12 @@ Untyped fields above are `string`. Timestamps are ISO UTC strings. Money is inte
 - Catalogue types (`/lib/types/catalogue.ts`) are owned by W4 and consumed by W3; they are re-exported from `/lib/types/index.ts`.
 - Import shared types from `@/lib/types` and ID helpers from `@/lib/ids`.
 - Entrance exams (approved addition, 2026-11-18) live in `/data/catalogues/exams.json` with plain slug IDs such as `jee-main`, `neet-ug`, `clat`, `cuet-ug`, `sat`. The fixed list is in W4's `/mnt/project-files/build/w4-catalogue-ids.md`.
+
+## App foundations (W1 milestone 2)
+
+- **Design system.** `@/components/ui` (Button, Card/CardHeader/CardBody/CardFooter, Badge, BandBadge, GapBadge, TierBadge, Table/THead/TBody/TR/TH/TD, Progress, Avatar, StatTile, EmptyState, PageHeader), `@/components/charts` (RadarChart, TrendChart, BarChart; pass `format="percent"|"decimal"|"hours"|"inr"|"number"`, never a function), `@/components/shell`. Live gallery at `/design`. Colours are semantic tokens in `app/globals.css` (`bg-surface`, `text-muted`, `border-line`, `brand-*`, `band-*`, `chart-1..5`).
+- **Role areas.** `app/{student,parent,teacher,counsellor,tutor,mentor}/`. Sidebars live in `lib/nav.ts`. To build a section, add `app/<role>/<slug>/page.tsx`; it replaces the placeholder served by `app/<role>/[section]/page.tsx`. Pages get the signed-in persona with `currentPersona()` from `@/lib/session`.
+- **Personas.** `/data/personas/index.json` is a `DataFile<PersonaSummary>` (`/lib/types/persona.ts`). W1 ships a 6-person stub, one per role; Wave 3 replaces it.
+- **Visibility.** Any screen that shows profile values filters them with `visibleProfile(values, role, opts)` from `@/lib/visibility`; any engine that scores people filters inputs with `valuesForPurpose(values, purpose)`.
+- **Formatting.** `@/lib/format` (`formatInr`, `formatHours`, `formatPercent`, `formatValue`). Money shows as ₹1,25,000 (Indian grouping).
+- **Database.** `npm run db:setup` (push schema + seed from `/data`). The seed reads profile, curriculum, questions, catalogues, plans and personas; Wave 3 extends `seedPersonaHistory` in `scripts/foundations/seed.ts`.

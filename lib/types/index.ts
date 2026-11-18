@@ -5,3 +5,4 @@ export * from './assessment';
 export * from './learner';
 export * from './profile';
 export * from './catalogue';
+export * from './persona';

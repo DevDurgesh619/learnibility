@@ -1,0 +1,746 @@
+// Learnibility database schema (W1 Foundations).
+// SQLite locally, Postgres-compatible: no SQLite-only types, JSON stored in Json columns,
+// money as Int rupees, hours as Float, timestamps as DateTime (UTC).
+// Catalogue and persona records keep their full source object in `data` so the JSON files in /data
+// stay the source of truth; indexed columns are the ones screens filter and join on.
+// IDs follow docs/contracts.md (e.g. lrn_kabir_singh, cbse-g8-maths-ch01-st2).
+
+generator client {
+  provider = "prisma-client"
+  output   = "../lib/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+// ============================================================ People
+
+model Person {
+  id          String   @id // lrn_ par_ tch_ csl_ tut_ mnt_
+  role        String // student | parent | teacher | counsellor | tutor | mentor
+  firstName   String
+  lastName    String
+  displayName String
+  email       String?
+  phone       String?
+  city        String?
+  avatar      String? // initials colour token or image path
+  headline    String? // one-line story shown on the persona picker
+  data        Json?
+  createdAt   DateTime @default(now())
+
+  learner              Learner?
+  childrenLinks        ParentLink[]           @relation("ParentLinkParent")
+  taughtSections       ClassSection[]
+  counsellorCases      CaseAssignment[]       @relation("CaseStaff")
+  meetingNotes         MeetingNote[]
+  comments             Comment[]
+  consentsGiven        ConsentRecord[]        @relation("ConsentGrantedBy")
+}
+
+model Learner {
+  id         String   @id // lrn_{first}_{last}; same as Person.id
+  person     Person   @relation(fields: [id], references: [id], onDelete: Cascade)
+  board      String // cbse | cambridge | ib
+  grade      Int // 8..12
+  stream     String // none | science | commerce | humanities
+  programme  String? // "IGCSE", "IB DP 1", "CBSE Science PCM"
+  school     String?
+  medium     String?
+  band       String? // below_avg | average | above_avg | excellent
+  plan       String   @default("free") // free | application_support | full_package
+  onboardedAt DateTime?
+  createdAt  DateTime @default(now())
+
+  parentLinks      ParentLink[]
+  enrollments      SectionEnrollment[]
+  caseAssignments  CaseAssignment[]   @relation("CaseLearner")
+  subjects         LearnerSubject[]
+  events           EvidenceEvent[]
+  profileValues    ProfileValue[]
+  attempts         Attempt[]
+  masteryStates    MasteryState[]
+  alrSnapshots     AlrSnapshot[]
+  gaps             Gap[]
+  interventionPlans InterventionPlan[]
+  timetableBlocks  TimetableBlock[]
+  tasks            Task[]
+  retentionReviews RetentionReview[]
+  bookings         Booking[]
+  careerMatches    CareerMatch[]
+  skillGaps        SkillGap[]
+  applications     Application[]
+  essayDrafts      EssayDraft[]
+  documents        Document[]
+  consents         ConsentRecord[]
+  subscriptions    Subscription[]
+  invoices         Invoice[]
+}
+
+model ParentLink {
+  parentId  String
+  learnerId String
+  relation  String // mother | father | guardian
+  isPayer   Boolean @default(true)
+  parent    Person  @relation("ParentLinkParent", fields: [parentId], references: [id], onDelete: Cascade)
+  learner   Learner @relation(fields: [learnerId], references: [id], onDelete: Cascade)
+
+  @@id([parentId, learnerId])
+}
+
+model ClassSection {
+  id        String @id // e.g. sec-cbse-g9-maths-a
+  teacherId String
+  name      String // "9A Maths"
+  board     String
+  grade     Int
+  subjectId String
+  school    String?
+  teacher   Person @relation(fields: [teacherId], references: [id])
+  subject   Subject @relation(fields: [subjectId], references: [id])
+  enrollments SectionEnrollment[]
+  assessments Assessment[]
+}
+
+model SectionEnrollment {
+  sectionId String
+  learnerId String
+  section   ClassSection @relation(fields: [sectionId], references: [id], onDelete: Cascade)
+  learner   Learner      @relation(fields: [learnerId], references: [id], onDelete: Cascade)
+
+  @@id([sectionId, learnerId])
+}
+
+/// Counsellor and mentor caseloads.
+model CaseAssignment {
+  staffId   String
+  learnerId String
+  focus     String // academic_wellbeing | applications | careers
+  since     DateTime?
+  staff     Person  @relation("CaseStaff", fields: [staffId], references: [id], onDelete: Cascade)
+  learner   Learner @relation("CaseLearner", fields: [learnerId], references: [id], onDelete: Cascade)
+
+  @@id([staffId, learnerId, focus])
+}
+
+model LearnerSubject {
+  learnerId String
+  subjectId String
+  depth     String @default("full") // full | light
+  learner   Learner @relation(fields: [learnerId], references: [id], onDelete: Cascade)
+  subject   Subject @relation(fields: [subjectId], references: [id])
+
+  @@id([learnerId, subjectId])
+}
+
+// ============================================================ Curriculum
+
+model Subject {
+  id             String  @id // {board}-g{grade}-{slug}
+  board          String
+  grade          Int
+  stream         String
+  slug           String
+  name           String
+  programme      String
+  textbook       String?
+  examPattern    String?
+  chapterCount   Int
+  questionTarget Int
+
+  chapters     Chapter[]
+  questions    Question[]
+  sections     ClassSection[]
+  learners     LearnerSubject[]
+  assessments  Assessment[]
+
+  @@index([board, grade, stream])
+}
+
+model Chapter {
+  id              String  @id // {subjectId}-chNN
+  subjectId       String
+  order           Int
+  name            String
+  teachingPeriods Int
+  subject         Subject    @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+  subtopics       Subtopic[]
+  questions       Question[]
+  alrSnapshots    AlrSnapshot[]
+
+  @@index([subjectId, order])
+}
+
+model Subtopic {
+  id               String  @id // {chapterId}-stN
+  chapterId        String
+  order            Int
+  name             String
+  weight           String // L | S | H
+  teachingPeriods  Int
+  prerequisiteNote String?
+  learnHours       Json // Record<Band, number>
+  masterHours      Json
+  chapter          Chapter @relation(fields: [chapterId], references: [id], onDelete: Cascade)
+
+  prerequisites PrerequisiteLink[] @relation("PrereqOf")
+  unlocks       PrerequisiteLink[] @relation("PrereqFor")
+  questions     Question[]
+  masteryStates MasteryState[]
+  gaps          Gap[]
+
+  @@index([chapterId, order])
+}
+
+model PrerequisiteLink {
+  subtopicId     String
+  prerequisiteId String
+  subtopic       Subtopic @relation("PrereqOf", fields: [subtopicId], references: [id], onDelete: Cascade)
+  prerequisite   Subtopic @relation("PrereqFor", fields: [prerequisiteId], references: [id], onDelete: Cascade)
+
+  @@id([subtopicId, prerequisiteId])
+}
+
+// ============================================================ Assessment
+
+model Question {
+  id               String  @id
+  legacyId         String?
+  subjectId        String
+  chapterId        String?
+  subtopicId       String?
+  conceptGroup     String // C1..C4
+  difficulty       String // D1..D5
+  type             String
+  stem             String
+  options          Json?
+  answer           String
+  markingKey       String
+  marks            Float
+  minutes          Float
+  alrRole          String
+  likelyGapOnWrong String?
+  set              String // mastery_bank | practice_form_a | practice_form_b | mock | onboarding
+  subject          Subject   @relation(fields: [subjectId], references: [id])
+  chapter          Chapter?  @relation(fields: [chapterId], references: [id])
+  subtopic         Subtopic? @relation(fields: [subtopicId], references: [id])
+  responses        ItemResponse[]
+
+  @@index([subtopicId])
+  @@index([chapterId, set])
+  @@index([subjectId, set])
+}
+
+/// A test definition: onboarding, chapter check, weekly, mock, retention probe, practice form.
+model Assessment {
+  id          String   @id
+  kind        String // onboarding | chapter_check | weekly | mock | retention_probe | practice_form
+  title       String
+  subjectId   String?
+  chapterId   String?
+  sectionId   String? // assigned by a teacher to a class
+  questionIds Json // string[]
+  minutes     Int?
+  assignedBy  String?
+  dueAt       DateTime?
+  createdAt   DateTime @default(now())
+  subject     Subject?      @relation(fields: [subjectId], references: [id])
+  section     ClassSection? @relation(fields: [sectionId], references: [id])
+  attempts    Attempt[]
+}
+
+model Attempt {
+  id           String    @id
+  assessmentId String
+  learnerId    String
+  startedAt    DateTime
+  submittedAt  DateTime?
+  score        Float?
+  maxScore     Float?
+  status       String    @default("in_progress") // in_progress | submitted | abandoned
+  assessment   Assessment @relation(fields: [assessmentId], references: [id], onDelete: Cascade)
+  learner      Learner    @relation(fields: [learnerId], references: [id], onDelete: Cascade)
+  responses    ItemResponse[]
+
+  @@index([learnerId, submittedAt])
+}
+
+model ItemResponse {
+  attemptId    String
+  questionId   String
+  correct      Boolean
+  secondsTaken Int
+  confidence   Int? // 1..5
+  answer       String?
+  attempt      Attempt  @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  question     Question @relation(fields: [questionId], references: [id])
+
+  @@id([attemptId, questionId])
+}
+
+// ============================================================ Learner record
+
+/// Append-only evidence store (430 file, AI Event Schema).
+model EvidenceEvent {
+  eventId        String   @id
+  learnerId      String
+  timestampUtc   DateTime
+  sourceMethod   String // M1..M20
+  type           String
+  payload        Json
+  parameterIds   Json? // string[] of p{ID} this event may inform
+  sensitivityTier String? // T1 | T2 | T3 | C
+  learner        Learner  @relation(fields: [learnerId], references: [id], onDelete: Cascade)
+
+  @@index([learnerId, timestampUtc])
+}
+
+model ProfileParameter {
+  id                String  @id // p{ID}
+  number            Int     @unique
+  origin            String
+  section           String
+  category          String
+  name              String
+  description       String
+  dataType          String
+  methods           Json // SourceMethod[]
+  methodsText       String
+  phase1Default     String?
+  tier              String // T1 | T2 | T3 | C
+  handlingNote      String?
+  cadence           String
+  refreshesPerYear  Int?
+  aiUse             String?
+  evidenceDensity   String?
+  humanValidation   String?
+  externalShareRule String?
+  values            ProfileValue[]
+
+  @@index([section])
+  @@index([tier])
+}
+
+model ProfileValue {
+  learnerId  String
+  paramId    String
+  value      Json
+  source     String // M1..M20
+  asOfUtc    DateTime
+  confidence String // low | medium | high
+  tier       String
+  learner    Learner          @relation(fields: [learnerId], references: [id], onDelete: Cascade)
+  parameter  ProfileParameter @relation(fields: [paramId], references: [id])
+
+  @@id([learnerId, paramId])
+}
+
+model MasteryState {
+  learnerId     String
+  subtopicId    String
+  level         Int // 0..5
+  pMastery      Float
+  lastTestedUtc DateTime
+  retention     Float?
+  learner       Learner  @relation(fields: [learnerId], references: [id], onDelete: Cascade)
+  subtopic      Subtopic @relation(fields: [subtopicId], references: [id])
+
+  @@id([learnerId, subtopicId])
+}
+
+model AlrSnapshot {
+  id         String   @id @default(cuid())
+  learnerId  String
+  chapterId  String
+  asOfUtc    DateTime
+  dK         Float
+  R          Float
+  TQ         Float
+  CE         Float
+  ECV        Float
+  MCI        Float
+  LRS        Float
+  band       String
+  learner    Learner @relation(fields: [learnerId], references: [id], onDelete: Cascade)
+  chapter    Chapter @relation(fields: [chapterId], references: [id])
+
+  @@index([learnerId, chapterId, asOfUtc])
+}
+
+model Gap {
+  id             String  @id
+  learnerId      String
+  subtopicId     String
+  code           String // G1..G10
+  secondaryFlags Json // GapCode[]
+  level          Int
+  size           Float
+  hoursToClose   Float
+  status         String // suspected | confirmed | in_progress | closed
+  detectedAt     DateTime?
+  closedAt       DateTime?
+  validatedBy    String? // teacher who validated the diagnosis (#430)
+  learner        Learner  @relation(fields: [learnerId], references: [id], onDelete: Cascade)
+  subtopic       Subtopic @relation(fields: [subtopicId], references: [id])
+
+  @@index([learnerId, status])
+  @@index([subtopicId, code])
+}
+
+model InterventionPlan {
+  id         String   @id
+  learnerId  String
+  createdAt  DateTime
+  status     String // proposed | active | succeeded | failed | replaced
+  gapIds     Json // string[]
+  steps      Json // ranked steps with time, effort, rupees
+  totalHours Float
+  totalInr   Int
+  retestOn   DateTime?
+  paidTrigger String? // any1_rule | parent_request
+  learner    Learner  @relation(fields: [learnerId], references: [id], onDelete: Cascade)
+}
+
+// ============================================================ Daily loop
+
+model TimetableBlock {
+  id         String   @id
+  learnerId  String
+  start      DateTime
+  end        DateTime
+  type       String // learn | practise | retrieve | test | session | buffer
+  title      String
+  subjectId  String?
+  subtopicId String?
+  gapId      String?
+  locked     Boolean  @default(false)
+  status     String   @default("planned") // planned | done | missed | moved
+  learner    Learner  @relation(fields: [learnerId], references: [id], onDelete: Cascade)
+
+  @@index([learnerId, start])
+}
+
+model Task {
+  id              String    @id
+  learnerId       String
+  title           String
+  type            String // learn | practise | retrieve | test | homework | application | profile
+  dueOn           DateTime?
+  status          String    @default("todo") // todo | done | skipped
+  sourceGapId     String?
+  sourceSessionId String?
+  createdBy       String?
+  completedAt     DateTime?
+  learner         Learner   @relation(fields: [learnerId], references: [id], onDelete: Cascade)
+
+  @@index([learnerId, dueOn])
+}
+
+model RetentionReview {
+  id           String   @id
+  learnerId    String
+  subtopicId   String
+  dueOn        DateTime
+  intervalDays Int // 1 | 3 | 7 | 14 | 30
+  status       String   @default("due") // due | done | missed
+  learner      Learner  @relation(fields: [learnerId], references: [id], onDelete: Cascade)
+
+  @@index([learnerId, dueOn])
+}
+
+// ============================================================ Marketplace
+
+model Tutor {
+  id         String  @id // tut_{first}_{last}
+  name       String
+  city       String?
+  hourly1to1 Int? // rupees
+  hourlyGroup Int?
+  rating     Float?
+  verified   Boolean @default(false)
+  data       Json // full catalogue record
+  bookings   Booking[]
+  reviews    Review[]
+}
+
+model Resource {
+  id    String @id
+  kind  String // free_resource | paid_course
+  title String
+  priceInr Int?
+  hours Float?
+  data  Json
+}
+
+model Booking {
+  id                String   @id
+  learnerId         String
+  tutorId           String
+  status            String // requested | accepted | declined | active | completed | cancelled
+  format            String // one_to_one | group
+  priceInr          Int
+  sharedGapSnapshot Json? // only what the student chose to share
+  requestedAt       DateTime
+  learner           Learner  @relation(fields: [learnerId], references: [id], onDelete: Cascade)
+  tutor             Tutor    @relation(fields: [tutorId], references: [id])
+  sessions          TutorSession[]
+}
+
+model TutorSession {
+  id         String   @id
+  bookingId  String
+  start      DateTime
+  end        DateTime
+  status     String // scheduled | completed | missed | cancelled
+  prepNotes  String?
+  report     Json? // post-session report; homework becomes Tasks
+  booking    Booking  @relation(fields: [bookingId], references: [id], onDelete: Cascade)
+  reviews    Review[]
+}
+
+model Review {
+  id        String   @id
+  sessionId String?
+  tutorId   String
+  learnerId String
+  rating    Int
+  text      String?
+  createdAt DateTime
+  tutor     Tutor         @relation(fields: [tutorId], references: [id])
+  session   TutorSession? @relation(fields: [sessionId], references: [id])
+}
+
+// ============================================================ Career
+
+model EntranceExam {
+  id   String @id // plain slug, e.g. jee-main
+  name String
+  kind String
+  data Json
+}
+
+model Skill {
+  id     String @id // skill-{slug}
+  name   String
+  kind   String
+  data   Json
+  requirements CareerSkillRequirement[]
+  gaps   SkillGap[]
+}
+
+model Career {
+  id     String @id // career-{slug}
+  title  String
+  data   Json
+  requirements CareerSkillRequirement[]
+  matches CareerMatch[]
+  skillGaps SkillGap[]
+}
+
+model CareerSkillRequirement {
+  careerId    String
+  skillId     String
+  targetLevel Int
+  career      Career @relation(fields: [careerId], references: [id], onDelete: Cascade)
+  skill       Skill  @relation(fields: [skillId], references: [id])
+
+  @@id([careerId, skillId])
+}
+
+model CareerMatch {
+  learnerId  String
+  careerId   String
+  fitScore   Float
+  breakdown  Json
+  reason     String?
+  computedAt DateTime
+  learner    Learner @relation(fields: [learnerId], references: [id], onDelete: Cascade)
+  career     Career  @relation(fields: [careerId], references: [id])
+
+  @@id([learnerId, careerId])
+}
+
+model SkillGap {
+  learnerId    String
+  careerId     String
+  skillId      String
+  currentLevel Int
+  targetLevel  Int
+  hours        Float
+  freeRouteInr Int
+  paidRouteInr Int
+  learner      Learner @relation(fields: [learnerId], references: [id], onDelete: Cascade)
+  career       Career  @relation(fields: [careerId], references: [id])
+  skill        Skill   @relation(fields: [skillId], references: [id])
+
+  @@id([learnerId, careerId, skillId])
+}
+
+// ============================================================ Applications
+
+model University {
+  id      String @id // uni-{country}-{slug}
+  name    String
+  country String
+  city    String?
+  data    Json // programmes, requirements by application type, deadlines, scholarships (each Sourced)
+  applications Application[]
+}
+
+model Application {
+  id              String    @id
+  learnerId       String
+  universityId    String
+  programme       String
+  applicationType String // early | regular | rolling | ucas | ouac | cuet ...
+  status          String // shortlisted | collecting_documents | in_review | submitted | decision
+  fitGroup        String? // reach | target | safe
+  deadline        DateTime?
+  decision        String?
+  riskFlags       Json?
+  learner         Learner     @relation(fields: [learnerId], references: [id], onDelete: Cascade)
+  university      University  @relation(fields: [universityId], references: [id])
+  checklist       ChecklistItem[]
+  essays          EssayDraft[]
+}
+
+model ChecklistItem {
+  id            String    @id
+  applicationId String
+  title         String
+  kind          String // document | test_score | recommendation | essay | form | fee
+  done          Boolean   @default(false)
+  dueOn         DateTime?
+  application   Application @relation(fields: [applicationId], references: [id], onDelete: Cascade)
+}
+
+model EssayDraft {
+  id            String   @id
+  learnerId     String
+  applicationId String?
+  prompt        String
+  wordLimit     Int?
+  status        String   @default("drafting") // drafting | in_review | final
+  learner       Learner      @relation(fields: [learnerId], references: [id], onDelete: Cascade)
+  application   Application? @relation(fields: [applicationId], references: [id])
+  versions      EssayVersion[]
+}
+
+model EssayVersion {
+  id        String   @id
+  draftId   String
+  version   Int
+  text      String
+  createdAt DateTime
+  draft     EssayDraft @relation(fields: [draftId], references: [id], onDelete: Cascade)
+
+  @@unique([draftId, version])
+}
+
+/// Comments on essays, applications or gaps. kind=ai for pre-written AI pre-pass comments.
+model Comment {
+  id         String   @id
+  targetType String // essay_version | application | gap | task
+  targetId   String
+  authorId   String?
+  kind       String   @default("human") // human | ai
+  anchor     Json? // { start, end, quote } for text-anchored comments
+  text       String
+  resolved   Boolean  @default(false)
+  createdAt  DateTime
+  author     Person?  @relation(fields: [authorId], references: [id])
+
+  @@index([targetType, targetId])
+}
+
+model MeetingNote {
+  id           String   @id
+  learnerId    String
+  staffId      String
+  date         DateTime
+  kind         String // academic | wellbeing | career | applications
+  summary      String
+  decisions    Json
+  actionItems  Json // become Tasks
+  staff        Person   @relation(fields: [staffId], references: [id])
+}
+
+model Document {
+  id         String   @id
+  learnerId  String
+  folder     String // academics | activities | application_documents | job_ready
+  title      String
+  fileName   String
+  kind       String // report_card | certificate | test_result | essay | transcript | portfolio | other
+  uploadedAt DateTime
+  source     String // M5 | M6 | M7 | M8 | auto
+  learner    Learner  @relation(fields: [learnerId], references: [id], onDelete: Cascade)
+}
+
+// ============================================================ Commercial
+
+model Plan {
+  id          String @id // free | application_support | full_package
+  name        String
+  priceInr    Int
+  period      String // month | year | one_time
+  features    Json
+  subscriptions Subscription[]
+}
+
+model Subscription {
+  id        String   @id
+  learnerId String
+  planId    String
+  status    String // active | cancelled | trial
+  startedAt DateTime
+  endsAt    DateTime?
+  learner   Learner  @relation(fields: [learnerId], references: [id], onDelete: Cascade)
+  plan      Plan     @relation(fields: [planId], references: [id])
+}
+
+model Invoice {
+  id        String   @id
+  learnerId String
+  payerId   String? // parent
+  amountInr Int
+  status    String // due | paid | overdue
+  issuedAt  DateTime
+  paidAt    DateTime?
+  lines     Json
+  learner   Learner  @relation(fields: [learnerId], references: [id], onDelete: Cascade)
+}
+
+/// CRM lead (dummy flow, after the core app).
+model Lead {
+  id        String   @id
+  name      String
+  source    String // website | ads | social | referral
+  status    String // new | contacted | demo | proposal | closed_won | closed_lost
+  data      Json?
+  createdAt DateTime
+}
+
+// ============================================================ Governance
+
+model ConsentRecord {
+  id          String    @id
+  learnerId   String
+  grantedById String
+  scope       String // e.g. edu_personalisation | share_with_tutor | wellbeing_screening
+  version     String
+  grantedAt   DateTime
+  revokedAt   DateTime?
+  learner     Learner   @relation(fields: [learnerId], references: [id], onDelete: Cascade)
+  grantedBy   Person    @relation("ConsentGrantedBy", fields: [grantedById], references: [id])
+}
+
+/// What each role sees per sensitivity tier (mirrors lib/visibility.ts).
+model RoleVisibilityRule {
+  role String
+  tier String
+  mode String // full | summary | shared_only | hidden
+
+  @@id([role, tier])
+}

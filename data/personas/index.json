@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "generatedBy": "hand-written stub (W1 Foundations); replaced by scripts/personas in Wave 3",
+  "items": [
+    {
+      "id": "lrn_kabir_singh",
+      "role": "student",
+      "name": "Kabir Singh",
+      "story": "Quick but careless, and more confident than his marks.",
+      "grade": 9,
+      "board": "cbse",
+      "stream": "none",
+      "programme": "CBSE Class 9",
+      "order": 1
+    },
+    {
+      "id": "par_neha_kapoor",
+      "role": "parent",
+      "name": "Neha Kapoor",
+      "story": "Parent of Aarav (8, CBSE) and Ananya (10, IGCSE). One account, two children.",
+      "linkedLearnerIds": [
+        "lrn_aarav_kapoor",
+        "lrn_ananya_kapoor"
+      ],
+      "order": 1
+    },
+    {
+      "id": "tut_rahul_verma",
+      "role": "tutor",
+      "name": "Rahul Verma",
+      "story": "Maths and Physics tutor in Delhi. 6 years, ₹800 an hour one to one.",
+      "linkedLearnerIds": [
+        "lrn_ishita_rao",
+        "lrn_rohan_das"
+      ],
+      "order": 1
+    },
+    {
+      "id": "tch_suresh_pillai",
+      "role": "teacher",
+      "name": "Suresh Pillai",
+      "story": "CBSE Maths teacher, grades 9 and 10. Two sections, about 60 students.",
+      "linkedLearnerIds": [
+        "lrn_kabir_singh",
+        "lrn_rohan_das"
+      ],
+      "order": 1
+    },
+    {
+      "id": "csl_heena_qureshi",
+      "role": "counsellor",
+      "name": "Heena Qureshi",
+      "story": "Academic and wellbeing counsellor for all 14 students.",
+      "order": 1
+    },
+    {
+      "id": "mnt_kelvin_thomas",
+      "role": "mentor",
+      "name": "Kelvin Thomas",
+      "story": "Career mentor for Sara, Arjun and Kunal.",
+      "linkedLearnerIds": [
+        "lrn_sara_khan",
+        "lrn_arjun_nair",
+        "lrn_kunal_verma"
+      ],
+      "order": 1
+    }
+  ]
+}

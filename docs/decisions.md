@@ -12,3 +12,18 @@ Newest first. Each entry: date, decision, who decided, why.
 - **Repository.** No GitHub repo yet. The shared codebase is a local git repo at `/mnt/project-files/learnibility/`; commits to `main` stand in for merged PRs until the user attaches GitHub. (Coordinator.)
 - **Lowercase practice-form IDs.** `pfa` / `pfb`, because all IDs are lowercase. (W1.)
 - **430-parameter provenance.** Parameters 1 to 277 are imported unchanged from the user's 277-parameter workbook; 278 to 430 are v2 design proposals. Kept as `origin` on every parameter. (Source workbook READ ME.)
+
+## 2026-11-18 (question bank, QB-CBSE)
+
+- **Question-bank targets file.** `data/questions/targets.json` holds, per counted subject, bank questions per chapter, questions per practice form, mocks and questions per mock, from the cost sheet (rows marked Y; 157 subjects, 180,015 questions). The shared validator reads it. Built by `scripts/questions/build-targets.py`. (QB-CBSE.)
+- **MCQ answer field.** For `type: 'mcq'`, `answer` is the exact text of the correct option; the option letter and reasoning go in `markingKey`. Options live in `options`, not in the stem. (QB-CBSE.)
+- **Transfer probes.** Only C3-D4/D5 and C4-D3+ items carry `alrRole: 'transfer_probe'`, as in the class 8 maths workbook. (QB-CBSE, from the workbook.)
+
+## 2026-11-18 (W1 Foundations, milestone 2)
+
+- **Prisma 7 with the better-sqlite3 adapter.** Schema in `prisma/schema.prisma`, config in `prisma.config.ts`, client generated to `lib/generated/prisma` (git-ignored; `npm install` runs `prisma generate`). Swap the adapter for `@prisma/adapter-pg` when hosting on Postgres. (W1.)
+- **JSON stays the source of truth.** The app reads `/data/**` JSON directly so the demo works without a database; `npm run db:setup` loads the same files into SQLite for screens that need live writes. Catalogue and persona rows keep their full record in a `data` Json column. (W1.)
+- **Demo login.** Persona picker at `/login` sets a `learnibility_persona` cookie; each role area redirects to `/login` without one and to the persona's own role otherwise. Six role areas: student, parent, teacher, counsellor, tutor, mentor. (W1.)
+- **Role visibility per tier** (`lib/visibility.ts`): student and counsellor see all tiers; parent sees T1 and C in full and T2/T3 as summaries only; teacher and mentor T1 only; tutor only parameters the student shared. T3 and consent records never feed ranking, admissions fit, career fit, tutor matching or work allocation. (W1, from the 430 file's Sensitivity Tiers sheet and the blueprint tier rule.)
+- **Plan prices are placeholders** (Free ₹0, Application Support ₹4,999/month, Full package ₹7,999/month) until the user sets pricing. (W1.)
+- **Demo clock.** `DEMO_NOW` = 2026-11-18 09:00 IST in `lib/demo-clock.ts`. (Personas brief.)

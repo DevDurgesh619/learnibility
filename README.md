@@ -12,7 +12,10 @@ npm run dev        # http://localhost:3000
 npm test           # Vitest
 npm run lint       # type check
 npm run import:430 # regenerate data/profile/*.json from reference/ (needs python3 + openpyxl)
+npm run db:setup   # optional: create prisma/dev.db (SQLite) and load /data into it
 ```
+
+Open http://localhost:3000/login and pick a persona. `/design` shows the component gallery.
 
 ## Layout
 
