@@ -306,7 +306,12 @@ class Generator:
         self.cfg = pack.CONFIG
 
     def templates_for(self, st: dict) -> list[T]:
-        return self.pack.templates(st)
+        # cache per subtopic so template use counts persist across calls (balances variety)
+        if not hasattr(self, '_tcache'):
+            self._tcache = {}
+        if st['id'] not in self._tcache:
+            self._tcache[st['id']] = self.pack.templates(st)
+        return self._tcache[st['id']]
 
     def make(self, slot: Slot, qid: str) -> dict:
         tpls = self.templates_for(slot.subtopic)
