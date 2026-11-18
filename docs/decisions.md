@@ -89,3 +89,12 @@ Newest first. Each entry: date, decision, who decided, why.
 - Upgrading to Application Support writes an approvals record (`kind: 'plan_upgrade'`) plus `student.plan` when a student record exists; the plan is read from either.
 - Essay versions and anchored comments live inside `Application.essays`; AI pre-pass comments are canned rule-based output (`components/applications/ai.ts`). Meeting action items become timetable tasks (`kind: 'action_item'`) and call `recomputeLearner`.
 - Parent screens never show essays or T3 meeting notes.
+
+## 2026-11-18 (QB-ONB Onboarding test forms)
+- **15 designs, 27 files.** Grades 8-10 are one design per board (`onb-{board}-g{grade}-none`); each grade 11-12 stream design is emitted once per board (`onb-{board}-g{grade}-{stream}`) with board refs and board swaps, so every student has exactly one form. `_status.json` is `validated: true` only when all 27 pass. (QB-ONB.)
+- **21-item pool per subject group** (slot 1 D2, slot 2 D1+D2, slots 3-8 D1-D3) so the D2-start ladder (down after a miss, up after two hits) never runs out; a student sees 8 per group. (QB-ONB.)
+- **Gap mapping:** prerequisite miss G1; this-year D1 G1, D2 G2, D3 G3 (workbook Gap Diagnosis rule). G4, G8 and G9 are secondary flags computed in `lib/onboarding/score.ts`. All gaps start `status: 'suspected'`. (QB-ONB.)
+- **New type file `lib/types/onboarding.ts`**, not re-exported from `lib/types/index.ts` (W1 owns it); import it by path. (QB-ONB.)
+- **Grade 11 prerequisites point at grade 10 subjects** (CBSE and IB teach one Science and one Social Science in grade 10), so a Physics prerequisite links to e.g. `cbse-g10-science`. Where IB grade 10 lacks the topic (Ohm's law, refraction) the slot links to the closest IB grade 10 subtopic. (QB-ONB.)
+- **IB Commerce has 3 groups** (no IB Accountancy); Cambridge grade 11 Commerce uses AS Mathematics, grade 12 uses Probability & Statistics 2. Humanities Economics reuses the Commerce economics bank. Cambridge's Political Science slot is Global Perspectives & Research (skills items), IB's is Global Politics. (QB-ONB.)
+- **The onboarding validator loads `scripts/questions/validate.ts` with a runtime `import()`**, so tsc/next build never see a `.ts` specifier. (QB-ONB.)
