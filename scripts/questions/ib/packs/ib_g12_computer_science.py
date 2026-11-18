@@ -29,11 +29,11 @@ CONFIG = {'minutesPerMark': 1.5, 'mcqMinutes': 1.5}
 # questions); Paper 2 (Theme B, Java or Python) 2 h, 80 marks. One mock = both papers, 22 questions, 160 marks.
 MOCK = [
     dict(section='Paper 1 Section A – Theme A structured questions (databases, machine learning)', count=8,
-         c=['C3', 'C4', 'C3', 'C4'], d=[3, 4, 3, 5], type='multi_step', marks=7, style='structured'),
+         c=['C3', 'C4', 'C3', 'C4'], d=[3, 4, 3, 5], type='multi_step', marks=7, style='structured', chapters=[1, 2, 3, 4, 5, 6, 7, 8]),
     dict(section='Paper 1 Section B – Case study challenge questions', count=4,
-         c=['C4'], d=[4, 5, 4], type='long', marks=6, style='case_study'),
+         c=['C4'], d=[4, 5, 4], type='long', marks=6, style='case_study', chapters=[1, 2, 3, 4, 5, 6, 7, 8, 12]),
     dict(section='Paper 2 – Theme B structured programming questions (OOP and ADTs, Java/Python)', count=10,
-         c=['C3', 'C4', 'C3'], d=[3, 4, 5, 3], type='multi_step', marks=8, style='structured'),
+         c=['C3', 'C4', 'C3'], d=[3, 4, 5, 3], type='multi_step', marks=8, style='structured', chapters=[9, 10, 11]),
 ]
 
 STYLE = {'eval_marks': 6, 'essay_marks': 8,
