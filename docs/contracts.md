@@ -59,7 +59,7 @@ Gap code meanings, level ladder and band parameters are exactly as in the class 
 | Catalogue items | `career-{slug}`, `skill-{slug}`, `uni-{country}-{slug}`, `course-{slug}`, `res-{slug}` | `uni-us-yale`, `career-data-analyst` |
 | Profile parameter | `p{ID}` from the 430 file | `p279` |
 
-Subject slugs are a fixed list owned by W2 (`maths`, `science`, `physics`, `chemistry`, `biology`, `english`, `hindi`, `social-science`, `history`, `geography`, `economics`, `computer-science`, `psychology`, `environmental`, `accountancy`, `business`, `informatics`, `applied-maths`, `legal-studies`, `entrepreneurship`, `political-science`, `sociology`, `humanities` ...). The class 8 maths workbook keeps its own question IDs (M8-001...) as `legacyId`.
+Subject slugs are a fixed list owned by W2 Curriculum map, published in `/docs/curriculum.md`. Slugs follow the cost-sheet seat, so for example IB Global Politics is `ib-g11-political-science`. The class 8 maths workbook keeps its own question IDs (M8-001...) as `legacyId`.
 
 ### Core types (Foundations commits these to /lib/types)
 
