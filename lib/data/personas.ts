@@ -1,6 +1,8 @@
 import personasFile from '@/data/personas/index.json';
 import fixturePersonasFile from '@/data/fixtures/personas.json';
 import type { DataFile, PersonaSummary, Role } from '@/lib/types';
+import { records } from '@/lib/store/collections';
+import type { Adult, Student } from './types';
 
 const file = personasFile as DataFile<PersonaSummary>;
 const fixtures = fixturePersonasFile as DataFile<PersonaSummary>;
@@ -24,7 +26,26 @@ export function listPersonas(): PersonaSummary[] {
 }
 
 export function getPersona(id: string | undefined | null): PersonaSummary | undefined {
-  return id ? all().find((p) => p.id === id) : undefined;
+  if (!id) return undefined;
+  return all().find((p) => p.id === id) ?? fromStore(id);
+}
+
+/**
+ * Fallback for people created at runtime (e.g. a learner converted from a CRM lead) who are in the
+ * store but not in any persona list, so they can still sign in. They do not appear on the picker.
+ */
+function fromStore(id: string): PersonaSummary | undefined {
+  if (id.startsWith('lrn_')) {
+    const s = records<Student>('student').find((r) => r.id === id);
+    if (!s) return undefined;
+    return {
+      id: s.id, role: 'student', name: s.name, story: s.goal ?? 'New family from sales',
+      grade: s.grade, board: s.board, stream: s.stream, programme: s.programme, linkedLearnerIds: [],
+    };
+  }
+  const a = records<Adult>('adults').find((r) => r.id === id);
+  if (!a) return undefined;
+  return { id: a.id, role: a.role, name: a.name, story: a.headline ?? '', linkedLearnerIds: a.learnerIds };
 }
 
 export function personasByRole(): Map<Role, PersonaSummary[]> {

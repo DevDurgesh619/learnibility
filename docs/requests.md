@@ -43,3 +43,4 @@ Add a heading per request: who asks, which file, what change, why. The owner mar
 - File: `lib/data/personas.ts` (`getPersona`).
 - Change: when the id is not in the JSON persona lists, fall back to a `student` (or `adults`) record from the store, e.g. `{ id, role: 'student', name, story: 'New family from sales', grade, board, stream }`.
 - Why: "Convert to platform" on a generic won lead creates a new learner through `putRecord('student', …)`; without a persona entry `RoleLayout` sends them to /login, so the CRM's "Open in platform" works only for persona families (Zoya). Not needed for the demo script.
+- Done 2026-11-18 by W1: `getPersona` falls back to `student` and `adults` store records (incl. overlay writes) when the id is in no persona list; such people can sign in but are not shown on the picker. Test: `lib/data/__tests__/personas-fallback.test.ts`.
