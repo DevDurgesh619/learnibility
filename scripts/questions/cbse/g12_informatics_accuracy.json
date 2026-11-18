@@ -1,0 +1,17 @@
+[
+ {
+  "date": "2026-11-18",
+  "method": "(1) Automated re-run, independent of the generators: SQL tables were parsed back from the stem text into sqlite3 (with MySQL-style functions) and every query shown was re-run; scalar SELECTs were re-run on an empty database; pandas code in stems was executed; chapter 4 items were run with real Matplotlib 3.11 (Agg backend), reading the figure back: format strings, default x values, histogram heights including cumulative ones, bar counts, widths and lengths, df.plot bar and line counts, and the file type written by savefig. Every chart program given as an answer was executed and had to save the file it names. Error-correction and fill-in-the-blank items were rebuilt from the answer and run, and the faulty code had to fail. (2) Manual review of random samples of about 5 items per chapter plus mock items, read against NCERT IP XII. MySQL scalar functions (ROUND half away from zero, MOD, POWER, MID, DAYNAME) and table outputs were traced by hand, as were pandas, histogram, network-case and SQL-writing answers; 33 of the reviewed items were not covered by the re-run.",
+  "automatedRerun": 246,
+  "checked": 279,
+  "mismatches": 0,
+  "fixes": [
+   "text-function distractors that differed from the answer only in letter case (and so collapsed) were replaced with other wrong answers",
+   "POWER distractors that came out as complex numbers were dropped",
+   "the 5-mark pandas statistics program kept the '(ii) ' label in its tested code, which was fixed",
+   "missing-value and date items got extra distractors so that an MCQ always has three distinct wrong options",
+   "the corrected statements of chapters 4-6 now start with a capital letter, except where they start with code; plot titles in error-correction items keep normal casing",
+   "the barh MCQ no longer repeats an option when the chosen bar is the longest one"
+  ]
+ }
+]

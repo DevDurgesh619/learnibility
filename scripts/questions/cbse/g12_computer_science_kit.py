@@ -197,7 +197,7 @@ def fmt_val(v, avg=False):
     if avg:
         return f'{Decimal(repr(float(v))).quantize(Decimal("0.0001"), rounding=ROUND_HALF_UP)}'
     if isinstance(v, float):
-        return f'{v:g}' if abs(v) < 1e15 else repr(v)
+        return str(int(v)) if v.is_integer() and abs(v) < 1e15 else f'{v:.10g}'
     return str(v)
 
 
@@ -243,16 +243,51 @@ def show_table(tname, cols, rows):
 
 # ---------------------------------------------------------------- fact tables (g12_hum_engine)
 
+import re as _re
+
+_CODEY = _re.compile(r'^(?:[a-z_][\w.]*\s*[\(\[.=]|[a-z]\b|(?:raise|assert|pickle|def|import)\b)')
+
+
+def _py(x: str) -> str:
+    """Statements that start with lower-case code (len(), s[0], pickle ...) get "In Python, " so that the engine's
+    capitalisation never turns them into Len(), S[0] or Pickle."""
+    return 'In Python, ' + x if _CODEY.match(x) else x
+
+
 def ST(sid, topic, text):
-    return HE.ST(sid, topic, text)
+    out = []
+    for line in text.strip().splitlines():
+        tag, sep, rest = line.partition(': ')
+        if tag in ('S+', 'S-', 'C') and sep:
+            parts = rest.split(' | ')
+            parts[0] = _py(parts[0])
+            if tag == 'C' and len(parts) > 1:
+                parts[1] = _py(parts[1])
+            line = f'{tag}: ' + ' | '.join(parts)
+        out.append(line)
+    return HE.ST(sid, topic, '\n'.join(out))
 
 
-def fact_families(chapters, extra=None, drop_case=(), long_marks=5):
-    """chapters: list of lists of Sub. Returns {sid: [Family]} (engine families + extra)."""
+CODE_KEEP = {'recall', 'what_is', 'three', 'not_correct', 'ar_item', 'fix', 'gen'}
+
+
+def fact_families(chapters, extra=None, drop_case=(), long_marks=5, code=(), code_weight=2):
+    """chapters: list of lists of Sub. Returns {sid: [Family]} (engine families + extra).
+
+    For code subtopics (`code`) only a few engine fact families are kept (recall, statements, A-R, correction,
+    hand-written items) and every code family is entered `code_weight` times, so that output-prediction,
+    error-finding and coding tasks make up most of those subtopics' items."""
+    import dataclasses
     cfgs = [{'long_marks': long_marks, 'case_marks': (1, 1, 2), 'chapter_topic': ''} for _ in chapters]
-    fams = HE.families(chapters, cfgs, extra)
-    for sid in drop_case:
-        fams[sid] = [f for f in fams[sid] if f.type != 'case']
+    fams = HE.families(chapters, cfgs, None)
+    for sid in fams:
+        if sid in drop_case or drop_case == 'all':
+            fams[sid] = [f for f in fams[sid] if f.type != 'case']
+        ex = list((extra or {}).get(sid, []))
+        if sid in code:
+            fams[sid] = [f for f in fams[sid] if f.gen.__name__ in CODE_KEEP]
+            ex = [dataclasses.replace(f) for f in ex for _ in range(code_weight)]
+        fams[sid] += ex
     return fams
 
 
@@ -300,3 +335,30 @@ def rows_written(C, D, typ, rows, marks, **kw):
 
 def names_pick(r, n):
     return r.sample(NAMES, n)
+
+
+# ---------------------------------------------------------------- running code that uses files
+
+def run_files(code: str, files: dict | None = None, setup: str = '') -> str:
+    """Run code inside a fresh temporary folder holding the given text files (name -> content); setup code runs first, silently."""
+    import os
+    import tempfile
+    old = os.getcwd()
+    with tempfile.TemporaryDirectory() as d:
+        os.chdir(d)
+        try:
+            for n, c in (files or {}).items():
+                with open(n, 'w', newline='\n') as fh:
+                    fh.write(c)
+            if setup:
+                run(setup)
+            return run(code)
+        finally:
+            os.chdir(old)
+
+
+def run_files_or_err(code, files=None, setup=''):
+    try:
+        return run_files(code, files, setup)
+    except Exception as e:  # noqa: BLE001
+        return f'Error ({type(e).__name__})'

@@ -1,0 +1,17 @@
+[
+ {
+  "date": "2026-11-18",
+  "method": "(1) Automated re-run: for every stored item whose stem shows runnable Python or an SQL query on a shown table, the code/query was re-executed from the stem text alone (text files rebuilt from the stem; tables parsed from the stem into sqlite3 with MySQL-style functions) and compared with the stored answer. (2) Manual review: random samples of generated items (5 per chapter, plus mock items) read against NCERT CS XII; code outputs, try/except traces, stack and postfix traces, network-case answers, SQL outputs and degree/cardinality items in the samples traced by hand.",
+  "automatedRerun": 113,
+  "checked": 120,
+  "mismatches": 0,
+  "fixes": [
+   "statements that begin with code (len(), s[0], csv.reader() ...) are prefixed with 'In Python,' so Assertion-Reason options no longer show 'Len()' or 'Csv.reader()'",
+   "error-finding items always contain exactly 4 errors so the key (1/2 mark each) adds up to 2 marks",
+   "5-mark function items ask for two functions (2 + 3 marks)",
+   "function names in 'write a function' items match the task",
+   "fact-only engine families trimmed in code subtopics so output-prediction and coding items dominate chapters 1-4, 8-9",
+   "plural grammar in table items; stack pop functions print 'Stack Empty'"
+  ]
+ }
+]
