@@ -1,0 +1,1712 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/questions/cambridge/generate.py",
+ "items": [
+  {
+   "id": "cambridge-g12-physics-mock1-q01",
+   "subtopicId": "cambridge-g12-physics-ch16-st2",
+   "chapterId": "cambridge-g12-physics-ch16",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C1",
+   "difficulty": "D1",
+   "type": "mcq",
+   "stem": "To test the relationship I = I₀e^(−μx), a student should plot …",
+   "options": [
+    "lg I against lg x",
+    "1/I against x",
+    "I against x²",
+    "ln I against x"
+   ],
+   "answer": "ln I against x",
+   "markingKey": "ln I = ln I₀ − μx.",
+   "marks": 1,
+   "minutes": 1.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G1",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock1-q02",
+   "subtopicId": "cambridge-g12-physics-ch13-st3",
+   "chapterId": "cambridge-g12-physics-ch13",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C1",
+   "difficulty": "D2",
+   "type": "mcq",
+   "stem": "What is the unit of activity?",
+   "options": [
+    "becquerel (Bq)",
+    "sievert (Sv)",
+    "s⁻²",
+    "gray (Gy)"
+   ],
+   "answer": "becquerel (Bq)",
+   "markingKey": "1 Bq = 1 decay per second.",
+   "marks": 1,
+   "minutes": 1.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G1",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock1-q03",
+   "subtopicId": "cambridge-g12-physics-ch14-st2",
+   "chapterId": "cambridge-g12-physics-ch14",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C2",
+   "difficulty": "D2",
+   "type": "explain",
+   "stem": "Give a reason for each answer. (a) Explain how the contrast of an X-ray image of soft tissue can be improved. (b) Explain the advantages and disadvantages of a CT scan compared with a single X-ray image.",
+   "answer": "(a) Use a contrast medium with a high attenuation coefficient (e.g. barium or iodine) in the organ, or use lower-energy (softer) X-rays where absorption differences are greater. (b) Advantages: 3D image, distinguishes overlapping structures and soft tissues with small attenuation differences. Disadvantage: much larger radiation dose (and cost, time).",
+   "markingKey": "(a) contrast medium (barium/iodine) [1]; reason: high μ / greater difference [1] [2] (b) advantage [1]; disadvantage (dose) [1] [2]",
+   "marks": 4,
+   "minutes": 5.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G2",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock1-q04",
+   "subtopicId": "cambridge-g12-physics-ch15-st2",
+   "chapterId": "cambridge-g12-physics-ch15",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C3",
+   "difficulty": "D1",
+   "type": "mcq",
+   "stem": "The star Arcturus has a surface temperature of 4290 K. What is the wavelength at which its emission is a maximum?",
+   "options": [
+    "2.33 × 10⁻⁴ m",
+    "6.76 × 10⁻⁴ m",
+    "6.76 × 10⁻⁷ m",
+    "1.35 × 10⁻⁶ m"
+   ],
+   "answer": "6.76 × 10⁻⁷ m",
+   "markingKey": "λmax = 2.9 × 10⁻³/T = 2.9 × 10⁻³/4290 = 6.76 × 10⁻⁷ m.",
+   "marks": 1,
+   "minutes": 1.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G4",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock1-q05",
+   "subtopicId": "cambridge-g12-physics-ch08-st3",
+   "chapterId": "cambridge-g12-physics-ch08",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "A 1000 μF capacitor is charged to 9.0 V and then discharged through a 4.7 kΩ resistor. A data-logger records the current. (a) Calculate the time constant. (b) Calculate the initial current. (c) Calculate the time for the energy stored to fall to half its initial value. (d) State one change that would make the capacitor discharge more slowly.",
+   "answer": "(a) 4.7 s (b) 0.00191 A (c) 1.63 s (d) Increase R or C.",
+   "markingKey": "(a) τ = RC: 4.7 s [1] (b) I = V/R: 0.00191 A [1] (c) W ∝ V², V = V₀/√2, t = ½RC ln 2 (equation) [1]; substitution [1]; answer 1.63 s with unit [1] [3] (d) Increase R or C [1]",
+   "marks": 6,
+   "minutes": 7.5,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock1-q06",
+   "subtopicId": "cambridge-g12-physics-ch10-st3",
+   "chapterId": "cambridge-g12-physics-ch10",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C3",
+   "difficulty": "D4",
+   "type": "multi_step",
+   "stem": "A generator coil of 50 turns, each of area 2.0 × 10⁻² m², rotates at 25 revolutions per second in a uniform magnetic field of 0.30 T. The e.m.f. is zero at t = 0. (a) Calculate the peak e.m.f. (b) Write down an equation for the e.m.f. as a function of time. (c) Calculate the e.m.f. at t = 0.0025 s.",
+   "answer": "(a) 47.1 V (b) E = 47.1 sin(157t) (c) 18.0 V",
+   "markingKey": "(a) E₀ = BANω = 47.1 V [1] (b) E = E₀ sin ωt with values [1] (c) substitute in radians [1]; 18.0 V [1] [4]",
+   "marks": 4,
+   "minutes": 5.0,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock1-q07",
+   "subtopicId": "cambridge-g12-physics-ch03-st3",
+   "chapterId": "cambridge-g12-physics-ch03",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C4",
+   "difficulty": "D4",
+   "type": "multi_step",
+   "stem": "A 2.0 kg block of brass is heated by a 60 W heater inserted in a hole in the block. A thermometer is placed in a second hole. (a) Define specific heat capacity. (b) The specific heat capacity of brass is 380 J kg⁻¹ K⁻¹. Calculate the rate of rise of temperature in K per minute, assuming no losses. (c) Describe how the heater power would be measured. (d) Explain why the measured rate of temperature rise is less than the calculated value. (e) Explain why the temperature continues to rise briefly after the heater is switched off.",
+   "answer": "(a) Energy per unit mass needed to raise the temperature by 1 K. (b) 4.74 K min⁻¹ (c) Ammeter in series and voltmeter in parallel with the heater; P = VI. (d) Energy is lost to the surroundings and used to heat the heater and thermometer. (e) The heater is hotter than the block and continues to transfer energy to it.",
+   "markingKey": "(a) Energy per unit mass needed to raise the temperature by 1 K [1] (b) Δθ/t = P/(mc) × 60 (method/substitution) [1]; answer 4.74 K min⁻¹ with unit [1] [2] (c) ammeter and voltmeter [1]; P = VI [1] [2] (d) Energy is lost to the surroundings and used to heat the heater and thermometer [1] (e) The heater is hotter than the block and continues to transfer energy to it [1]",
+   "marks": 7,
+   "minutes": 9.0,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock1-q08",
+   "subtopicId": "cambridge-g12-physics-ch02-st2",
+   "chapterId": "cambridge-g12-physics-ch02",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "Jupiter may be treated as a uniform sphere of radius 6.99 × 10⁷ m. The gravitational field strength at its surface is 25.9 N kg⁻¹. (a) State Newton's law of gravitation. (b) Show that the mass of Jupiter is about 1.9 × 10²⁷ kg. (c) Calculate the field strength at a distance of 3R from the centre.",
+   "answer": "(a) Force between point masses ∝ product of masses and ∝ 1/separation². (b) M = gR²/G = 1.90 × 10²⁷ kg (c) 2.88 N kg⁻¹",
+   "markingKey": "(a) product of masses [1]; inverse square of separation [1] [2] (b) g = GM/R² [1]; substitution and answer [1] [2] (c) g ∝ 1/r², ÷ 9 (method/substitution) [1]; answer 2.88 N kg⁻¹ with unit [1] [2]",
+   "marks": 6,
+   "minutes": 7.5,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock1-q09",
+   "subtopicId": "cambridge-g12-physics-ch09-st1",
+   "chapterId": "cambridge-g12-physics-ch09",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "An electromagnet used in a scrapyard in Manila consists of a solenoid carrying 3.0 A wound on an iron core. (a) Describe the magnetic field pattern inside and outside the solenoid. (b) State two ways to increase the field strength. (c) Explain how to identify which end is the north pole. (d) Describe the force between two adjacent turns of the coil.",
+   "answer": "(a) Inside: uniform, parallel to the axis. Outside: like a bar magnet, lines from N end round to S end. (b) Increase the current; increase turns per unit length; insert an iron core. (c) Right-hand grip rule: fingers in the direction of the current, thumb points to the N pole (or view from the end: anticlockwise = N). (d) Adjacent turns carry current in the same direction, so they attract.",
+   "markingKey": "(a) inside uniform [1]; outside bar-magnet pattern [1] [2] (b) first way [1]; second way [1] [2] (c) Right-hand grip rule: fingers in the direction of the current, thumb points to the N pole (or view from the end: anticlockwise = N) [1] (d) Adjacent turns carry current in the same direction, so they attract [1]",
+   "marks": 6,
+   "minutes": 7.5,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock1-q10",
+   "subtopicId": "cambridge-g12-physics-ch06-st2",
+   "chapterId": "cambridge-g12-physics-ch06",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C3",
+   "difficulty": "D4",
+   "type": "multi_step",
+   "stem": "An object performs SHM with frequency 2.0 Hz and amplitude 0.12 m. At time t = 0 it passes through the equilibrium position moving in the positive direction, so that x = x₀ sin ωt. (a) Calculate the displacement at t = 0.050 s. (b) Calculate the velocity at this time. (c) Calculate the first time after t = 0 at which the displacement is half the amplitude.",
+   "answer": "(a) 0.0705 m (b) 1.22 m s⁻¹ (c) 0.0417 s",
+   "markingKey": "(a) x = x₀ sin ωt = 0.0705 m [1] (b) v = x₀ω cos ωt [1]; = 1.22 m s⁻¹ [1] (c) sin ωt = 0.5, ωt = π/6 [1]; t = 0.0417 s [1] [5]",
+   "marks": 5,
+   "minutes": 6.0,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock1-q11",
+   "subtopicId": "cambridge-g12-physics-ch04-st1",
+   "chapterId": "cambridge-g12-physics-ch04",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C3",
+   "difficulty": "D3",
+   "type": "numerical",
+   "stem": "A weather balloon contains 0.020 m³ of helium at 20 °C and 1.0 × 10⁵ Pa. It rises to where the pressure is 8.0 × 10⁴ Pa and the temperature is −20 °C. Calculate the new volume.",
+   "answer": "0.0216 m³",
+   "markingKey": "V₂ = V₁(p₁/p₂)(T₂/T₁) = 0.020 × (1.0 × 10⁵/8.0 × 10⁴) × (253/293) = 0.0216 m³. (equation/substitution, then answer with unit) [3]",
+   "marks": 3,
+   "minutes": 4.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G3",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock1-q12",
+   "subtopicId": "cambridge-g12-physics-ch05-st1",
+   "chapterId": "cambridge-g12-physics-ch05",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "0.50 kg of water at 100 °C in a kettle is boiled until it has all turned to steam at 100 °C. (a) Define internal energy. (b) State and explain what happens to the mean kinetic energy of the molecules during boiling. (c) The specific latent heat of vaporisation of water is 2.26 × 10⁶ J kg⁻¹. Calculate the energy supplied. (d) Explain why the increase in internal energy is less than the energy supplied.",
+   "answer": "(a) Sum of the random kinetic and potential energies of the molecules. (b) Unchanged: the temperature is constant. (c) 1.13 × 10⁶ J (d) Some energy is used to do work pushing back the atmosphere as the steam expands (W = pΔV).",
+   "markingKey": "(a) Sum of the random kinetic and potential energies of the molecules [1] (b) Unchanged: the temperature is constant [1] (c) Q = mL (method/substitution) [1]; answer 1.13 × 10⁶ J [1] [2] (d) Some energy is used to do work pushing back the atmosphere as the steam expands (W = pΔV) [1]",
+   "marks": 5,
+   "minutes": 6.0,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock1-q13",
+   "subtopicId": "cambridge-g12-physics-ch07-st2",
+   "chapterId": "cambridge-g12-physics-ch07",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C3",
+   "difficulty": "D3",
+   "type": "numerical",
+   "stem": "An electron moving horizontally at 3.0 × 10⁷ m s⁻¹ enters the uniform field between two horizontal plates 6.0 cm long and 2.0 cm apart, midway between them. The p.d. between the plates is 300 V. Calculate the time spent between the plates and the vertical acceleration.",
+   "answer": "t = 2.00 × 10⁻⁹ s; a = 2.63 × 10¹⁵ m s⁻²",
+   "markingKey": "t = L/v = 2.00 × 10⁻⁹ s [1]; a = eV/(md) [1]; = 2.63 × 10¹⁵ m s⁻² [1] [3]",
+   "marks": 3,
+   "minutes": 4.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G3",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock2-q01",
+   "subtopicId": "cambridge-g12-physics-ch15-st2",
+   "chapterId": "cambridge-g12-physics-ch15",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C1",
+   "difficulty": "D1",
+   "type": "mcq",
+   "stem": "A red star and a blue star are compared. The blue star has …",
+   "options": [
+    "a lower luminosity",
+    "a lower surface temperature",
+    "a higher surface temperature",
+    "a larger radius"
+   ],
+   "answer": "a higher surface temperature",
+   "markingKey": "Shorter λmax ⇒ higher T.",
+   "marks": 1,
+   "minutes": 1.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G1",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock2-q02",
+   "subtopicId": "cambridge-g12-physics-ch03-st1",
+   "chapterId": "cambridge-g12-physics-ch03",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C1",
+   "difficulty": "D2",
+   "type": "mcq",
+   "stem": "Thermal energy is transferred between two objects in contact. Which property determines the direction of the net transfer?",
+   "options": [
+    "internal energy",
+    "mass",
+    "specific heat capacity",
+    "temperature"
+   ],
+   "answer": "temperature",
+   "markingKey": "Net energy flows from higher to lower temperature.",
+   "marks": 1,
+   "minutes": 1.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G1",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock2-q03",
+   "subtopicId": "cambridge-g12-physics-ch09-st3",
+   "chapterId": "cambridge-g12-physics-ch09",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C2",
+   "difficulty": "D2",
+   "type": "explain",
+   "stem": "Answer both parts. (a) Derive the expression V_H = BI/(ntq) for the Hall voltage across a slice of width d and thickness t. (b) Explain how a Hall probe must be oriented to measure the flux density of a field.",
+   "answer": "(a) At equilibrium qV_H/d = Bqv, so V_H = Bvd. With I = nAvq and A = dt, v = I/(ndtq). So V_H = BId/(ndtq) = BI/(ntq). (b) The probe face must be perpendicular to the field lines (field perpendicular to the current in the slice), so that the full BQv acts; rotate until the Hall voltage is maximum.",
+   "markingKey": "(a) qV_H/d = Bqv [1]; substitute v = I/(nAq) with A = dt [1] [2] (b) field perpendicular to slice / current [1]; maximum reading [1] [2]",
+   "marks": 4,
+   "minutes": 5.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G2",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock2-q04",
+   "subtopicId": "cambridge-g12-physics-ch04-st1",
+   "chapterId": "cambridge-g12-physics-ch04",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C3",
+   "difficulty": "D1",
+   "type": "mcq",
+   "stem": "A cylinder of volume 5.00 × 10⁻² m³ contains carbon dioxide at a pressure of 1.50 × 10⁵ Pa and a temperature of −10 °C. What is the amount of gas in moles?",
+   "options": [
+    "3430 mol",
+    "1.72 mol",
+    "3.43 mol",
+    "2.07 × 10²⁴ mol"
+   ],
+   "answer": "3.43 mol",
+   "markingKey": "n = pV/(RT) = 1.50 × 10⁵ × 5.00 × 10⁻²/(8.31 × 263) = 3.43 mol.",
+   "marks": 1,
+   "minutes": 1.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G4",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock2-q05",
+   "subtopicId": "cambridge-g12-physics-ch11-st2",
+   "chapterId": "cambridge-g12-physics-ch11",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "A sinusoidal supply of peak voltage 50 V is connected to a 20 Ω resistor. (a) Define the root-mean-square value of an alternating voltage. (b) Calculate the mean power. (c) Calculate the peak power. (d) Explain why the mean power is half the peak power. (e) Calculate the d.c. voltage that would give the same mean power.",
+   "answer": "(a) The steady d.c. voltage that would give the same mean power in a resistor. (b) 62.5 W (c) 125 W (d) P ∝ sin²ωt and the mean value of sin² over a cycle is ½. (e) 35.4 V",
+   "markingKey": "(a) The steady d.c. voltage that would give the same mean power in a resistor [1] (b) V_rms²/R (method/substitution) [1]; answer 62.5 W with unit [1] [2] (c) V₀²/R: 125 W [1] (d) P ∝ sin²ωt and the mean value of sin² over a cycle is ½ [1] (e) equals V_rms: 35.4 V [1]",
+   "marks": 6,
+   "minutes": 7.5,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock2-q06",
+   "subtopicId": "cambridge-g12-physics-ch07-st4",
+   "chapterId": "cambridge-g12-physics-ch07",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C3",
+   "difficulty": "D4",
+   "type": "multi_step",
+   "stem": "An α-particle with kinetic energy 7.7 MeV is fired directly at a silver nucleus (proton number 47). (a) Calculate the kinetic energy in joules. (b) Calculate the distance of closest approach. (c) Explain why this distance is an upper limit for the radius of the nucleus.",
+   "answer": "(a) 1.23 × 10⁻¹² J (b) 1.76 × 10⁻¹⁴ m (c) the α-particle does not touch the nucleus (it is repelled before reaching it), so the nuclear radius must be smaller than this distance",
+   "markingKey": "(a) × 1.60 × 10⁻¹³ = 1.23 × 10⁻¹² J [1] (b) KE = electric PE [1]; r = 1.76 × 10⁻¹⁴ m [1] (c) does not reach nucleus [1]; radius < r [1] [5]",
+   "marks": 5,
+   "minutes": 6.0,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock2-q07",
+   "subtopicId": "cambridge-g12-physics-ch12-st4",
+   "chapterId": "cambridge-g12-physics-ch12",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C4",
+   "difficulty": "D4",
+   "type": "multi_step",
+   "stem": "An atom has three energy levels at −10.4 eV, −5.5 eV and −0.90 eV. (a) State the number of different photon energies that can be emitted. (b) Calculate the largest photon energy emitted, in joules. (c) Calculate the longest wavelength emitted. (d) Explain why the energy levels are negative. (e) Explain the difference between an emission and an absorption spectrum.",
+   "answer": "(a) 3 (b) 1.52 × 10⁻¹⁸ J (c) 2.70 × 10⁻⁷ m (d) Zero is the energy of an electron just free of the atom; bound electrons have less energy. (e) Emission: bright lines from excited atoms; absorption: dark lines in a continuous spectrum where cool atoms absorb photons of the same energies.",
+   "markingKey": "(a) three transitions: 3 [1] (b) ΔE × e (method/substitution) [1]; answer 1.52 × 10⁻¹⁸ J [1] [2] (c) smallest ΔE, λ = hc/ΔE (method/substitution) [1]; answer 2.70 × 10⁻⁷ m [1] [2] (d) Zero is the energy of an electron just free of the atom; bound electrons have less energy [1] (e) emission bright lines [1]; absorption dark lines in continuum [1] [2]",
+   "marks": 8,
+   "minutes": 10.0,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock2-q08",
+   "subtopicId": "cambridge-g12-physics-ch16-st2",
+   "chapterId": "cambridge-g12-physics-ch16",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "A student investigates how the terminal speed v of a sphere falling in a liquid depends on its radius r. It is suggested that v = kr^n. (a) Explain why a graph of lg v against lg r should be plotted. (b) For r = 1.0 mm, v = 1.6 cm s⁻¹. Use this and the previous point to find n. (c) Determine k, with its unit.",
+   "answer": "(a) lg v = n lg r + lg k: straight line with gradient n and intercept lg k. (b) n = 2.0 (c) k = 1.6 cm s⁻¹ mm^(−2.0)",
+   "markingKey": "(a) log form [1]; gradient n, intercept lg k [1] [2] (b) gradient = Δlg v/Δlg r [1]; value of n [1] [2] (c) k = v/rⁿ at a point [1]; value with unit [1] [2]",
+   "marks": 6,
+   "minutes": 7.5,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock2-q09",
+   "subtopicId": "cambridge-g12-physics-ch01-st1",
+   "chapterId": "cambridge-g12-physics-ch01",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "A car wheel of radius 0.30 m rotates at 900 revolutions per minute. (a) Calculate the linear speed of a point on the rim. (b) Calculate the linear speed of a point halfway between the axis and the rim. (c) Explain why a point on the rim is accelerating even though its speed is constant. (d) Calculate the time for the rim to turn through 3π/2 rad.",
+   "answer": "(a) 28.3 m s⁻¹ (b) 14.1 m s⁻¹ (c) Its direction changes continuously so its velocity changes. (d) 0.050 s",
+   "markingKey": "(a) v = ωr (method/substitution) [1]; answer 28.3 m s⁻¹ with unit [1] [2] (b) same ω, half radius: 14.1 m s⁻¹ [1] (c) Its direction changes continuously so its velocity changes [1] (d) t = θ/ω (method/substitution) [1]; answer 0.050 s with unit [1] [2]",
+   "marks": 6,
+   "minutes": 7.5,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock2-q10",
+   "subtopicId": "cambridge-g12-physics-ch08-st2",
+   "chapterId": "cambridge-g12-physics-ch08",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C3",
+   "difficulty": "D4",
+   "type": "multi_step",
+   "stem": "A camera flash capacitor has a capacitance of 150 μF and is charged to 350 V. (a) Calculate the energy stored. (b) The capacitor discharges until the p.d. is 175 V. Calculate the energy released. (c) The energy is released in 0.0050 s. Calculate the mean power output.",
+   "answer": "(a) 9.19 J (b) 6.89 J (c) 1380 W",
+   "markingKey": "(a) W = ½CV² = 9.19 J [1] (b) energy left = ¼ of original [1]; released = 6.89 J [1] (c) P = W/t [1]; = 1380 W [1] [5]",
+   "marks": 5,
+   "minutes": 6.0,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock2-q11",
+   "subtopicId": "cambridge-g12-physics-ch13-st3",
+   "chapterId": "cambridge-g12-physics-ch13",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C3",
+   "difficulty": "D3",
+   "type": "numerical",
+   "stem": "A sample contains 2.0 × 10⁻⁶ kg of radon-222, half-life 3.82 days (3.30 × 10⁵ s). Calculate the decay constant and the activity of the sample. (mass of one nucleus ≈ 222 u)",
+   "answer": "λ = 2.10 × 10⁻⁶ s⁻¹; A = 1.14 × 10¹³ Bq",
+   "markingKey": "λ = ln 2/t½ = 2.10 × 10⁻⁶ s⁻¹ [1]; N = m/(222 × 1.66 × 10⁻²⁷) = 5.43 × 10¹⁸ [1]; A = λN = 1.14 × 10¹³ Bq [1] [3]",
+   "marks": 2,
+   "minutes": 3.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G3",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock2-q12",
+   "subtopicId": "cambridge-g12-physics-ch06-st1",
+   "chapterId": "cambridge-g12-physics-ch06",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "A building swaying in the wind oscillates with a period of 4.0 s and an amplitude of 0.25 m. (a) Define frequency. (b) Calculate the angular frequency. (c) State the total distance moved in one complete oscillation. (d) Explain why the displacement is zero twice in each cycle.",
+   "answer": "(a) Number of oscillations per unit time. (b) 1.57 rad s⁻¹ (c) 1.0 m (d) The object passes through the equilibrium position twice per cycle, once in each direction.",
+   "markingKey": "(a) Number of oscillations per unit time [1] (b) ω = 2π/T (method/substitution) [1]; answer 1.57 rad s⁻¹ with unit [1] [2] (c) 4x₀: 1.0 m [1] (d) The object passes through the equilibrium position twice per cycle, once in each direction [1]",
+   "marks": 5,
+   "minutes": 6.0,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock2-q13",
+   "subtopicId": "cambridge-g12-physics-ch05-st3",
+   "chapterId": "cambridge-g12-physics-ch05",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C3",
+   "difficulty": "D3",
+   "type": "case",
+   "stem": "A gas is taken round a rectangular cycle on a p–V diagram: A (2.00 × 10⁵ Pa, 4.00 × 10⁻³ m³) → B (6.00 × 10⁵ Pa, 4.00 × 10⁻³ m³) → C (6.00 × 10⁵ Pa, 8.00 × 10⁻³ m³) → D (2.00 × 10⁵ Pa, 8.00 × 10⁻³ m³) → A. Calculate the work done by the gas from B to C, the work done on the gas from D to A, and the net work done by the gas in one cycle.",
+   "answer": "W_BC = 2400 J; W_DA (on gas) = 800 J; net = 1600 J",
+   "markingKey": "W_BC = pΔV = 2400 J [1]; W_DA = 800 J [1]; net = area of loop = 1600 J [1] [3]",
+   "marks": 2,
+   "minutes": 3.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G3",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock3-q01",
+   "subtopicId": "cambridge-g12-physics-ch16-st2",
+   "chapterId": "cambridge-g12-physics-ch16",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C1",
+   "difficulty": "D1",
+   "type": "mcq",
+   "stem": "A graph of ln N against t is a straight line with gradient −0.023 s⁻¹. What is the half-life?",
+   "options": [
+    "30 s",
+    "23 s",
+    "0.016 s",
+    "43 s"
+   ],
+   "answer": "30 s",
+   "markingKey": "t½ = ln 2/0.023.",
+   "marks": 1,
+   "minutes": 1.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G1",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock3-q02",
+   "subtopicId": "cambridge-g12-physics-ch12-st4",
+   "chapterId": "cambridge-g12-physics-ch12",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C1",
+   "difficulty": "D2",
+   "type": "mcq",
+   "stem": "An electron falls from a level at −3.40 eV to one at −13.6 eV. What is the energy of the photon emitted?",
+   "options": [
+    "13.6 eV",
+    "17.0 eV",
+    "10.2 eV",
+    "3.40 eV"
+   ],
+   "answer": "10.2 eV",
+   "markingKey": "ΔE = 13.6 − 3.40.",
+   "marks": 1,
+   "minutes": 1.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G1",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock3-q03",
+   "subtopicId": "cambridge-g12-physics-ch08-st2",
+   "chapterId": "cambridge-g12-physics-ch08",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C2",
+   "difficulty": "D2",
+   "type": "explain",
+   "stem": "A capacitor in a laboratory circuit is charged from a variable supply. The p.d. across the capacitor is multiplied by 5 while the capacitance stays the same. State and explain how the energy stored changes.",
+   "answer": "The energy stored becomes 25 times bigger.",
+   "markingKey": "Using W = ½CV²: energy stored ∝ p.d. across the capacitor^2.00; factor = 5.00^2.00 = 25.0. 1 mark relationship, 1 mark conclusion.",
+   "marks": 4,
+   "minutes": 4.5,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G2",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock3-q04",
+   "subtopicId": "cambridge-g12-physics-ch04-st2",
+   "chapterId": "cambridge-g12-physics-ch04",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C3",
+   "difficulty": "D1",
+   "type": "mcq",
+   "stem": "A sample of carbon dioxide has density 1.76 kg m⁻³ at a pressure of 1.00 × 10⁵ Pa. What is the root-mean-square speed of the molecules?",
+   "options": [
+    "413 m s⁻¹",
+    "4130 m s⁻¹",
+    "826 m s⁻¹",
+    "206 m s⁻¹"
+   ],
+   "answer": "413 m s⁻¹",
+   "markingKey": "p = ⅓ρ⟨c²⟩ ⇒ c_rms = √(3p/ρ) = √(3 × 1.00 × 10⁵/1.76) = 413 m s⁻¹.",
+   "marks": 1,
+   "minutes": 1.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G4",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock3-q05",
+   "subtopicId": "cambridge-g12-physics-ch15-st1",
+   "chapterId": "cambridge-g12-physics-ch15",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "A Cepheid variable star in a distant galaxy has a luminosity, deduced from its period, of 5.0 × 10³⁰ W. Its measured radiant flux intensity at the Earth is 6.0 × 10⁻¹⁸ W m⁻². (a) State what is meant by a standard candle. (b) Calculate the distance to the galaxy. (c) Express this distance in megaparsecs (1 pc = 3.09 × 10¹⁶ m). (d) Explain why the luminosity of a Cepheid can be found from its period. (e) Suggest one source of uncertainty in this distance.",
+   "answer": "(a) An astronomical object of known luminosity. (b) 2.58 × 10²³ m (c) 8.33 Mpc (d) Cepheids obey a period–luminosity relationship calibrated with nearby Cepheids of known distance. (e) Absorption by dust reduces F; uncertainty in the period–luminosity calibration.",
+   "markingKey": "(a) An astronomical object of known luminosity [1] (b) d = √(L/4πF) (method/substitution) [1]; answer 2.58 × 10²³ m [1] [2] (c) ÷ 3.09 × 10²²: 8.33 Mpc [1] (d) Cepheids obey a period–luminosity relationship calibrated with nearby Cepheids of known distance [1] (e) Absorption by dust reduces F; uncertainty in the period–luminosity calibration [1]",
+   "marks": 6,
+   "minutes": 7.5,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock3-q06",
+   "subtopicId": "cambridge-g12-physics-ch01-st2",
+   "chapterId": "cambridge-g12-physics-ch01",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C3",
+   "difficulty": "D4",
+   "type": "multi_step",
+   "stem": "A runner of mass 78 kg moves round a bend of radius 45 m at a constant speed of 6.5 m s⁻¹. (a) Calculate the centripetal force. (b) The maximum force that friction between the shoes and the track can provide is 110 N. Calculate the maximum speed for this radius. (c) Explain what happens if this speed is exceeded.",
+   "answer": "(a) 73.2 N (b) 7.96 m s⁻¹ (c) the force available is less than mv²/r, so the path curves less sharply: it moves outwards to a larger radius (skids)",
+   "markingKey": "(a) F = mv²/r = 73.2 N [1] (b) v = √(Fr/m) [1]; = 7.96 m s⁻¹ [1] (c) insufficient centripetal force [1]; moves to larger radius / skids outwards [1] [5]",
+   "marks": 5,
+   "minutes": 6.0,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock3-q07",
+   "subtopicId": "cambridge-g12-physics-ch11-st2",
+   "chapterId": "cambridge-g12-physics-ch11",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C4",
+   "difficulty": "D4",
+   "type": "multi_step",
+   "stem": "A sinusoidal supply of peak voltage 34 V is connected to a 20 Ω resistor. (a) Define the root-mean-square value of an alternating voltage. (b) Calculate the r.m.s. voltage. (c) Calculate the mean power. (d) Explain why the mean power is half the peak power. (e) Calculate the d.c. voltage that would give the same mean power.",
+   "answer": "(a) The steady d.c. voltage that would give the same mean power in a resistor. (b) 24.0 V (c) 28.9 W (d) P ∝ sin²ωt and the mean value of sin² over a cycle is ½. (e) 24.0 V",
+   "markingKey": "(a) The steady d.c. voltage that would give the same mean power in a resistor [1] (b) V₀/√2: 24.0 V [1] (c) V_rms²/R (method/substitution) [1]; answer 28.9 W with unit [1] [2] (d) P ∝ sin²ωt and the mean value of sin² over a cycle is ½ [1] (e) equals V_rms: 24.0 V [1]",
+   "marks": 6,
+   "minutes": 7.5,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock3-q08",
+   "subtopicId": "cambridge-g12-physics-ch13-st2",
+   "chapterId": "cambridge-g12-physics-ch13",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "Noah is revising the graph of binding energy per nucleon against nucleon number, which rises steeply to a peak of about 8.8 MeV near A = 56 and falls to about 7.59 MeV for uranium-235. (a) Define binding energy per nucleon. (b) Estimate the energy released when a uranium-235 nucleus splits into two nuclei each with BE per nucleon 8.4 MeV (ignore free neutrons). (c) Explain why iron-56 cannot release energy by fission or fusion. (d) The binding energies per nucleon are 1.12 MeV for ²₁H and 7.07 MeV for ⁴₂He. Estimate the energy released when two ²₁H nuclei fuse to form one ⁴₂He nucleus.",
+   "answer": "(a) Total binding energy of a nucleus divided by the number of nucleons. (b) 190 MeV (c) It is at the peak; any change gives nuclei with lower BE per nucleon, which would require energy input. (d) 23.8 MeV",
+   "markingKey": "(a) Total binding energy of a nucleus divided by the number of nucleons [1] (b) 235 × (8.4 − 7.59) (method/substitution) [1]; answer 190 MeV with unit [1] [2] (c) It is at the peak; any change gives nuclei with lower BE per nucleon, which would require energy input [1] (d) 4 × 7.07 − 4 × BE per nucleon of ²₁H (method/substitution) [1]; answer 23.8 MeV with unit [1] [2]",
+   "marks": 6,
+   "minutes": 7.5,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock3-q09",
+   "subtopicId": "cambridge-g12-physics-ch05-st2",
+   "chapterId": "cambridge-g12-physics-ch05",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "An ideal gas in a cylinder fitted with a frictionless piston is heated. It expands at a constant pressure of 2.00 × 10⁵ Pa from 1.00 × 10⁻³ m³ to 3.00 × 10⁻³ m³ while absorbing 1500 J of thermal energy. (a) State the first law of thermodynamics. (b) Calculate the work done on the gas. (c) The initial temperature is 300 K. Calculate the final temperature. (d) Explain why the temperature rises even though the gas does work.",
+   "answer": "(a) Increase in internal energy = thermal energy supplied to the system + work done on the system. (b) −400 J (c) 900 K (d) The thermal energy supplied is greater than the work done by the gas, so internal energy (∝ T) increases.",
+   "markingKey": "(a) Increase in internal energy = thermal energy supplied to the system + work done on the system [1] (b) W = −pΔV (method/substitution) [1]; answer −400 J with unit [1] [2] (c) V ∝ T at constant p (method/substitution) [1]; answer 900 K with unit [1] [2] (d) The thermal energy supplied is greater than the work done by the gas, so internal energy (∝ T) increases [1]",
+   "marks": 6,
+   "minutes": 7.5,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock3-q10",
+   "subtopicId": "cambridge-g12-physics-ch02-st2",
+   "chapterId": "cambridge-g12-physics-ch02",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C3",
+   "difficulty": "D4",
+   "type": "multi_step",
+   "stem": "The gravitational field strength at the surface of Mars is 3.73 N kg⁻¹ and its radius is 3.39 × 10⁶ m. (a) Calculate the mass of Mars. (b) Calculate the field strength at a height of 1.02 × 10⁷ m above the surface. (c) Calculate the mean density of Mars.",
+   "answer": "(a) 6.42 × 10²³ kg (b) 0.233 N kg⁻¹ (c) 3930 kg m⁻³",
+   "markingKey": "(a) M = gR²/G = 6.42 × 10²³ kg [1] (b) g ∝ 1/r², r = 1.36 × 10⁷ m [1]; 0.233 N kg⁻¹ [1] (c) ρ = M/(4/3 πR³) [1]; 3930 kg m⁻³ [1] [5]",
+   "marks": 5,
+   "minutes": 6.0,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock3-q11",
+   "subtopicId": "cambridge-g12-physics-ch06-st2",
+   "chapterId": "cambridge-g12-physics-ch06",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C3",
+   "difficulty": "D3",
+   "type": "numerical",
+   "stem": "An object performs SHM with frequency 4.0 Hz and amplitude 0.040 m. At time t = 0 it passes through the equilibrium position moving in the positive direction, so that x = x₀ sin ωt. Calculate its displacement at t = 0.10 s.",
+   "answer": "0.0235 m",
+   "markingKey": "ω = 2πf = 25.1 rad s⁻¹ [1]; x = x₀ sin ωt with calculator in radians [1]; = 0.0235 m [1] [3]",
+   "marks": 3,
+   "minutes": 4.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G3",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock3-q12",
+   "subtopicId": "cambridge-g12-physics-ch10-st3",
+   "chapterId": "cambridge-g12-physics-ch10",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "A model generator has a coil of 200 turns, each of area 1.0 × 10⁻² m², rotating at 50 revolutions per second in a field of 0.10 T. (a) Calculate the maximum flux linkage. (b) Calculate the peak e.m.f. (c) State the effect on the peak e.m.f. and on the frequency of halving the speed of rotation.",
+   "answer": "(a) 0.20 Wb (b) 62.8 V (c) Both halve.",
+   "markingKey": "(a) NBA: 0.20 Wb [1] (b) E₀ = BANω (method/substitution) [1]; answer 62.8 V with unit [1] [2] (c) peak e.m.f. halves [1]; frequency halves [1] [2]",
+   "marks": 5,
+   "minutes": 6.0,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock3-q13",
+   "subtopicId": "cambridge-g12-physics-ch03-st1",
+   "chapterId": "cambridge-g12-physics-ch03",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C3",
+   "difficulty": "D3",
+   "type": "numerical",
+   "stem": "A sample is warmed from 450 °C to 475 °C. Calculate the initial and final thermodynamic temperatures and the temperature rise in kelvin.",
+   "answer": "723.2 K, 748.2 K; rise 25 K",
+   "markingKey": "add 273.15 [1]; 723.2 K and 748.2 K [1]; rise 25 K [1] [3]",
+   "marks": 3,
+   "minutes": 4.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G3",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock4-q01",
+   "subtopicId": "cambridge-g12-physics-ch05-st3",
+   "chapterId": "cambridge-g12-physics-ch05",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C1",
+   "difficulty": "D1",
+   "type": "mcq",
+   "stem": "After a complete cycle, the change in internal energy of a gas is …",
+   "options": [
+    "equal to the heat supplied",
+    "zero",
+    "negative",
+    "equal to the work done"
+   ],
+   "answer": "zero",
+   "markingKey": "The gas returns to its initial state.",
+   "marks": 1,
+   "minutes": 1.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G1",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock4-q02",
+   "subtopicId": "cambridge-g12-physics-ch04-st1",
+   "chapterId": "cambridge-g12-physics-ch04",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C1",
+   "difficulty": "D2",
+   "type": "mcq",
+   "stem": "What is the unit of the molar gas constant R?",
+   "options": [
+    "J K⁻¹ mol⁻¹",
+    "J mol⁻¹",
+    "J K⁻¹",
+    "K mol J⁻¹"
+   ],
+   "answer": "J K⁻¹ mol⁻¹",
+   "markingKey": "R = pV/(nT).",
+   "marks": 1,
+   "minutes": 1.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G1",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock4-q03",
+   "subtopicId": "cambridge-g12-physics-ch15-st3",
+   "chapterId": "cambridge-g12-physics-ch15",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C2",
+   "difficulty": "D2",
+   "type": "explain",
+   "stem": "Answer both parts. (a) Explain how Hubble's law supports the Big Bang theory. (b) Explain why it does not mean that the Earth is at the centre of the Universe when all distant galaxies are seen to be moving away from us.",
+   "answer": "(a) All distant galaxies are receding with speeds proportional to their distances, so the Universe is expanding; tracing the expansion back in time implies that everything was once concentrated at a single point and has been expanding since. (b) Space itself is expanding uniformly; an observer in any galaxy would see all other galaxies receding with v ∝ d, so there is no special centre.",
+   "markingKey": "(a) universe expanding [1]; extrapolate back to a single point/origin [1] [2] (b) uniform expansion of space [1]; same view from any galaxy [1] [2]",
+   "marks": 4,
+   "minutes": 5.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G2",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock4-q04",
+   "subtopicId": "cambridge-g12-physics-ch12-st3",
+   "chapterId": "cambridge-g12-physics-ch12",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C3",
+   "difficulty": "D1",
+   "type": "mcq",
+   "stem": "Electrons are accelerated from rest through a potential difference of 2000 V. What is the de Broglie wavelength?",
+   "options": [
+    "1.60 × 10⁻⁵⁶ m",
+    "5.49 × 10⁻¹¹ m",
+    "2.75 × 10⁻¹¹ m",
+    "3.64 × 10¹⁰ m"
+   ],
+   "answer": "2.75 × 10⁻¹¹ m",
+   "markingKey": "p = √(2meV) = 2.41 × 10⁻²³ kg m s⁻¹; λ = h/p = 2.75 × 10⁻¹¹ m.",
+   "marks": 1,
+   "minutes": 1.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G4",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock4-q05",
+   "subtopicId": "cambridge-g12-physics-ch01-st1",
+   "chapterId": "cambridge-g12-physics-ch01",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "A London-Eye style observation wheel of radius 46.1 m completes one revolution every 1800 s. (a) Define the radian. (b) Calculate the linear speed of a point halfway between the axis and the rim. (c) Explain why a point on the rim is accelerating even though its speed is constant. (d) Calculate the time for the rim to turn through 3π/2 rad.",
+   "answer": "(a) The angle subtended at the centre of a circle by an arc equal in length to the radius. (b) 0.0805 m s⁻¹ (c) Its direction changes continuously so its velocity changes. (d) 1350 s",
+   "markingKey": "(a) arc length = radius [1]; angle at centre [1] [2] (b) same ω, half radius: 0.0805 m s⁻¹ [1] (c) Its direction changes continuously so its velocity changes [1] (d) t = θ/ω (method/substitution) [1]; answer 1350 s with unit [1] [2]",
+   "marks": 6,
+   "minutes": 7.5,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock4-q06",
+   "subtopicId": "cambridge-g12-physics-ch16-st2",
+   "chapterId": "cambridge-g12-physics-ch16",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C3",
+   "difficulty": "D4",
+   "type": "case",
+   "stem": "A student obtains these results: x = 1.5, y = 1.47; x = 2.5, y = 1.90; x = 3.5, y = 2.24; x = 4.5, y = 2.55; x = 5.5, y = 2.81. It is suggested that y = axⁿ. (a) Calculate lg x and lg y for the first and last results. (b) Determine the gradient of a graph of lg y against lg x. (c) Hence find n and a.",
+   "answer": "(a) lg x = 0.176, 0.740; lg y = 0.167, 0.449 (b) 0.500 (c) n = 0.50, a = 1.2",
+   "markingKey": "(a) logs to 3 d.p. or s.f. [1] (b) gradient from large triangle = 0.500 [1] (c) n = gradient [1]; lg a = lg y − n lg x, a = 1.2 [1] [4]",
+   "marks": 4,
+   "minutes": 5.0,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock4-q07",
+   "subtopicId": "cambridge-g12-physics-ch06-st1",
+   "chapterId": "cambridge-g12-physics-ch06",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C4",
+   "difficulty": "D4",
+   "type": "multi_step",
+   "stem": "A simple pendulum oscillates with a period of 3.0 s and an amplitude of 0.080 m. (a) Calculate the frequency. (b) Calculate the angular frequency. (c) State the total distance moved in one complete oscillation. (d) A second identical oscillator lags by 0.75 s. State the phase difference. (e) Explain why the displacement is zero twice in each cycle.",
+   "answer": "(a) 0.333 Hz (b) 2.09 rad s⁻¹ (c) 0.32 m (d) π/2 rad (90°) (e) The object passes through the equilibrium position twice per cycle, once in each direction.",
+   "markingKey": "(a) f = 1/T: 0.333 Hz [1] (b) ω = 2π/T (method/substitution) [1]; answer 2.09 rad s⁻¹ with unit [1] [2] (c) 4x₀: 0.32 m [1] (d) π/2 rad (90°) [1] (e) The object passes through the equilibrium position twice per cycle, once in each direction [1]",
+   "marks": 6,
+   "minutes": 7.5,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock4-q08",
+   "subtopicId": "cambridge-g12-physics-ch14-st3",
+   "chapterId": "cambridge-g12-physics-ch14",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "A PET centre in Riyadh injects a patient with a tracer labelled with fluorine-18, which decays by β⁺ emission with a half-life of 110 minutes. (a) Write the decay equation for fluorine-18. (b) Calculate the fraction of the tracer remaining after 440 minutes. (c) The two photons from one annihilation arrive at opposite detectors 0.50 ns apart. Calculate the distance of the annihilation from the midpoint between the detectors. (d) Explain why the tracer must be produced close to the hospital.",
+   "answer": "(a) ¹⁸₉F → ¹⁸₈O + ⁰₊₁e + ν (b) 0.0625 (c) 7.50 cm (d) Its short half-life means it would decay significantly during transport.",
+   "markingKey": "(a) products correct [1]; neutrino [1] [2] (b) 4 half-lives: 0.0625 [1] (c) cΔt/2 (method/substitution) [1]; answer 7.50 cm with unit [1] [2] (d) Its short half-life means it would decay significantly during transport [1]",
+   "marks": 6,
+   "minutes": 7.5,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock4-q09",
+   "subtopicId": "cambridge-g12-physics-ch08-st2",
+   "chapterId": "cambridge-g12-physics-ch08",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "A 10 000 μF capacitor is charged to 12 V and then used to lift a small mass with an electric motor. (a) Calculate the charge stored. (b) Calculate the energy stored. (c) The motor is 20% efficient. Calculate the maximum height to which it can lift a 50 g mass. (d) Explain why the energy stored is ½QV, not QV.",
+   "answer": "(a) 0.12 C (b) 0.72 J (c) 0.294 m (d) The p.d. rises from zero during charging, so the average p.d. against which charge is moved is ½V.",
+   "markingKey": "(a) Q = CV: 0.12 C [1] (b) W = ½CV² (method/substitution) [1]; answer 0.72 J with unit [1] [2] (c) mgh = 0.2W (method/substitution) [1]; answer 0.294 m with unit [1] [2] (d) The p.d. rises from zero during charging, so the average p.d. against which charge is moved is ½V [1]",
+   "marks": 6,
+   "minutes": 7.5,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock4-q10",
+   "subtopicId": "cambridge-g12-physics-ch09-st3",
+   "chapterId": "cambridge-g12-physics-ch09",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C3",
+   "difficulty": "D4",
+   "type": "multi_step",
+   "stem": "An electron moves at 1.5 × 10⁶ m s⁻¹ at 30° to a uniform magnetic field of flux density 1.2 T. (a) Calculate the magnetic force on it. (b) Explain why its kinetic energy does not change. (c) State the effect on the force of doubling the speed.",
+   "answer": "(a) 1.44 × 10⁻¹³ N (b) the force is perpendicular to the velocity, so no work is done (c) the force doubles",
+   "markingKey": "(a) F = BQv sin θ [1]; = 1.44 × 10⁻¹³ N [1] (b) force ⊥ velocity, no work [1] (c) doubles (F ∝ v) [1] [4]",
+   "marks": 4,
+   "minutes": 5.0,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock4-q11",
+   "subtopicId": "cambridge-g12-physics-ch13-st2",
+   "chapterId": "cambridge-g12-physics-ch13",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C3",
+   "difficulty": "D3",
+   "type": "numerical",
+   "stem": "A fusion reaction is ²₁H + ²₁H → ³₂He + ¹₀n. Data: nuclear masses: ²₁H 2.013553 u, ³₁H 3.015501 u, ³₂He 3.014932 u, ⁴₂He 4.001506 u, ¹₀n 1.008665 u, ¹₁p 1.007276 u. Calculate the energy released in the reaction in MeV.",
+   "answer": "3.28 MeV",
+   "markingKey": "Δm = 0.003509 u [1]; E = Δmc² with Δm in kg [1]; = 3.28 MeV [1] [3]",
+   "marks": 4,
+   "minutes": 5.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G3",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock4-q12",
+   "subtopicId": "cambridge-g12-physics-ch03-st1",
+   "chapterId": "cambridge-g12-physics-ch03",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "A technician in Hanoi calibrates a freezer thermometer. (a) State what is meant by thermal equilibrium. (b) Explain why the thermodynamic scale is called an absolute scale. (c) Explain why a temperature change of 10 °C equals a change of 10 K.",
+   "answer": "(a) No net transfer of thermal energy between two bodies (they are at the same temperature). (b) It does not depend on the property of any substance and its zero is absolute zero. (c) The kelvin and the degree Celsius are the same size; the scales only differ in their zero.",
+   "markingKey": "(a) No net transfer of thermal energy between two bodies (they are at the same temperature) [1] (b) independent of substance [1]; zero at absolute zero [1] [2] (c) same size of degree [1]; offset of 273.15 [1] [2]",
+   "marks": 5,
+   "minutes": 6.0,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock4-q13",
+   "subtopicId": "cambridge-g12-physics-ch11-st1",
+   "chapterId": "cambridge-g12-physics-ch11",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C3",
+   "difficulty": "D3",
+   "type": "case",
+   "stem": "An oscilloscope displays a sinusoidal trace. The time-base is 5.0 ms div⁻¹ and the Y-gain is 5.0 V div⁻¹. One complete cycle occupies 2.5 divisions horizontally, and the trace extends 1.5 divisions above and below the centre line. Determine the period, the frequency and the peak voltage.",
+   "answer": "T = 12.5 ms; f = 80 Hz; V₀ = 7.5 V",
+   "markingKey": "T = divisions × time-base = 12.5 ms [1]; f = 1/T = 80 Hz [1]; V₀ = 1.5 × 5.0 = 7.5 V [1] [3]",
+   "marks": 4,
+   "minutes": 5.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G3",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock5-q01",
+   "subtopicId": "cambridge-g12-physics-ch08-st2",
+   "chapterId": "cambridge-g12-physics-ch08",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C1",
+   "difficulty": "D1",
+   "type": "mcq",
+   "stem": "Why is the energy stored in a capacitor ½QV rather than QV?",
+   "options": [
+    "only one plate stores energy",
+    "the p.d. increases from zero as the charge is added, so the average p.d. is ½V",
+    "half the energy is always lost as heat in the capacitor",
+    "the charge on each plate is ½Q"
+   ],
+   "answer": "the p.d. increases from zero as the charge is added, so the average p.d. is ½V",
+   "markingKey": "Each increment of charge is moved against the p.d. at that moment.",
+   "marks": 1,
+   "minutes": 1.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G1",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock5-q02",
+   "subtopicId": "cambridge-g12-physics-ch03-st1",
+   "chapterId": "cambridge-g12-physics-ch03",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C1",
+   "difficulty": "D2",
+   "type": "mcq",
+   "stem": "Why is the thermodynamic scale described as an absolute scale?",
+   "options": [
+    "It is the scale used by all thermometers",
+    "It uses the melting point of ice as its zero",
+    "It can never have negative values for any substance",
+    "It does not depend on the property of any particular substance"
+   ],
+   "answer": "It does not depend on the property of any particular substance",
+   "markingKey": "It is defined theoretically, with zero at absolute zero.",
+   "marks": 1,
+   "minutes": 1.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G1",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock5-q03",
+   "subtopicId": "cambridge-g12-physics-ch06-st4",
+   "chapterId": "cambridge-g12-physics-ch06",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C2",
+   "difficulty": "D2",
+   "type": "explain",
+   "stem": "Explain why a wine glass can be shattered by a loud note of one particular pitch.",
+   "answer": "The note's frequency equals the natural frequency of the glass; resonance gives a large-amplitude vibration that strains the glass beyond breaking.",
+   "markingKey": "identifies resonance or damping correctly [1]; links frequency/energy transfer to the effect [1] [2]",
+   "marks": 2,
+   "minutes": 2.5,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G2",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock5-q04",
+   "subtopicId": "cambridge-g12-physics-ch05-st3",
+   "chapterId": "cambridge-g12-physics-ch05",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C3",
+   "difficulty": "D1",
+   "type": "mcq",
+   "stem": "25 g of water at 100 °C is boiled in an open pan in a kitchen in Accra at atmospheric pressure (1.01 × 10⁵ Pa) to form steam at 100 °C. The density of the water is 1000 kg m⁻³ and of the steam 0.60 kg m⁻³. (specific latent heat of vaporisation 2.26 × 10⁶ J kg⁻¹) What is the thermal energy supplied?",
+   "options": [
+    "2.26 × 10⁶ J",
+    "1.13 × 10⁵ J",
+    "28 300 J",
+    "56 500 J"
+   ],
+   "answer": "56 500 J",
+   "markingKey": "q = mL = 0.025 × 2.26 × 10⁶ = 56 500 J.",
+   "marks": 1,
+   "minutes": 1.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G4",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock5-q05",
+   "subtopicId": "cambridge-g12-physics-ch11-st3",
+   "chapterId": "cambridge-g12-physics-ch11",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "A bridge rectifier is connected to a 50 Hz supply of peak voltage 12 V (ignore p.d.s across the diodes). The output is connected to a 5.0 kΩ load with a 220 μF capacitor in parallel. (a) State the purpose of the four diodes. (b) Describe the output without the capacitor. (c) Calculate the ripple voltage, assuming discharge for 10 ms between peaks.",
+   "answer": "(a) Full-wave rectification: current through the load in one direction in both half-cycles. (b) Half-sine pulses, all positive, 100 per second, peak 12 V. (c) 0.109 V",
+   "markingKey": "(a) Full-wave rectification: current through the load in one direction in both half-cycles [1] (b) all positive pulses [1]; 100 Hz [1] [2] (c) V₀(1 − e^(−t/RC)) (equation) [1]; substitution [1]; answer 0.109 V with unit [1] [3]",
+   "marks": 6,
+   "minutes": 7.5,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock5-q06",
+   "subtopicId": "cambridge-g12-physics-ch09-st2",
+   "chapterId": "cambridge-g12-physics-ch09",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C3",
+   "difficulty": "D4",
+   "type": "multi_step",
+   "stem": "A horizontal copper rod of mass 3.0 g and length 5.0 cm lies at right angles to a horizontal uniform magnetic field of flux density 0.60 T. (a) Calculate the current needed for the magnetic force to support the weight of the rod. (b) State how the direction of the current must be chosen. (c) Calculate the force on the rod if the current is 4.5 A and the rod is turned to 30° to the field.",
+   "answer": "(a) 0.981 A (b) so that Fleming's left-hand rule gives an upward force (c) 0.0675 N",
+   "markingKey": "(a) BIL = mg [1]; I = 0.981 A [1] (b) FLHR, force upwards [1] (c) F = BIL sin θ [1]; = 0.0675 N [1] [5]",
+   "marks": 5,
+   "minutes": 6.0,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock5-q07",
+   "subtopicId": "cambridge-g12-physics-ch14-st3",
+   "chapterId": "cambridge-g12-physics-ch14",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C4",
+   "difficulty": "D4",
+   "type": "multi_step",
+   "stem": "A research hospital in Manila injects a patient with a tracer labelled with carbon-11, which decays by β⁺ emission with a half-life of 20.4 minutes. (a) Write the decay equation for carbon-11. (b) Describe what happens to the positron emitted. (c) Calculate the energy of each annihilation photon in MeV. (d) Calculate the fraction of the tracer remaining after 40.8 minutes. (e) Explain why the tracer must be produced close to the hospital.",
+   "answer": "(a) ¹¹₆C → ¹¹₅B + ⁰₊₁e + ν (b) It travels a very short distance in tissue and annihilates with an electron, producing two γ-photons in opposite directions. (c) 0.512 MeV (d) 0.25 (e) Its short half-life means it would decay significantly during transport.",
+   "markingKey": "(a) products correct [1]; neutrino [1] [2] (b) annihilates with electron [1]; two photons opposite [1] [2] (c) E = mₑc² (method/substitution) [1]; answer 0.512 MeV with unit [1] [2] (d) 2 half-lives: 0.25 [1] (e) Its short half-life means it would decay significantly during transport [1]",
+   "marks": 8,
+   "minutes": 10.0,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock5-q08",
+   "subtopicId": "cambridge-g12-physics-ch12-st2",
+   "chapterId": "cambridge-g12-physics-ch12",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "Ultraviolet light of wavelength 300 nm is shone onto a sodium plate (work function 2.3 eV) connected to a sensitive ammeter circuit. (a) Calculate the threshold wavelength. (b) Calculate the maximum kinetic energy of the photoelectrons. (c) State and explain the effect on Ek(max) of doubling the intensity. (d) Explain why the electrons are emitted with a range of kinetic energies.",
+   "answer": "(a) 540 nm (b) 2.95 × 10⁻¹⁹ J (c) No change: photon energy unchanged. (d) Electrons from below the surface lose energy in escaping; only surface electrons have Ek(max).",
+   "markingKey": "(a) λ₀ = hc/Φ (method/substitution) [1]; answer 540 nm with unit [1] [2] (b) hf − Φ (method/substitution) [1]; answer 2.95 × 10⁻¹⁹ J [1] [2] (c) No change: photon energy unchanged [1] (d) Electrons from below the surface lose energy in escaping; only surface electrons have Ek(max) [1]",
+   "marks": 6,
+   "minutes": 7.5,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock5-q09",
+   "subtopicId": "cambridge-g12-physics-ch07-st3",
+   "chapterId": "cambridge-g12-physics-ch07",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "In a simple model of the hydrogen atom, an electron orbits a proton in a circle of radius 5.3 × 10⁻¹¹ m. (a) Calculate the electric force between the electron and the proton. (b) Calculate the electric field strength due to the proton at the electron. (c) Calculate the speed of the electron, assuming the electric force provides the centripetal force.",
+   "answer": "(a) 8.19 × 10⁻⁸ N (b) 5.12 × 10¹¹ N C⁻¹ (c) 2.18 × 10⁶ m s⁻¹",
+   "markingKey": "(a) F = e²/(4πε₀r²) (method/substitution) [1]; answer 8.19 × 10⁻⁸ N [1] [2] (b) E = e/(4πε₀r²) (method/substitution) [1]; answer 5.12 × 10¹¹ N C⁻¹ [1] [2] (c) F = mv²/r (method/substitution) [1]; answer 2.18 × 10⁶ m s⁻¹ [1] [2]",
+   "marks": 6,
+   "minutes": 7.5,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock5-q10",
+   "subtopicId": "cambridge-g12-physics-ch13-st1",
+   "chapterId": "cambridge-g12-physics-ch13",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C3",
+   "difficulty": "D4",
+   "type": "multi_step",
+   "stem": "The mass of a ¹²₆C nucleus is 11.996709 u. The mass of a proton is 1.007276 u and the mass of a neutron is 1.008665 u (1 u = 1.66 × 10⁻²⁷ kg). (a) Calculate the mass defect in u. (b) Calculate the binding energy in MeV. (c) Calculate the binding energy per nucleon.",
+   "answer": "(a) 0.09894 u (b) 92.4 MeV (c) 7.70 MeV",
+   "markingKey": "(a) Δm = 0.09894 u [1] (b) Δm in kg, E = Δmc² [1]; ÷ 1.60 × 10⁻¹³ = 92.4 MeV [1] (c) ÷ 12 [1]; 7.70 MeV [1] [5]",
+   "marks": 5,
+   "minutes": 6.0,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock5-q11",
+   "subtopicId": "cambridge-g12-physics-ch16-st3",
+   "chapterId": "cambridge-g12-physics-ch16",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C3",
+   "difficulty": "D3",
+   "type": "numerical",
+   "stem": "A measured value is 25 ± 1.0. Calculate lg of the value and its absolute uncertainty, giving both to an appropriate number of decimal places.",
+   "answer": "lg x = 1.398 ± 0.02",
+   "markingKey": "lg x = 1.398 [1]; uncertainty = 0.017 [1]; consistent decimal places [1] [3]",
+   "marks": 3,
+   "minutes": 4.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G3",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock5-q12",
+   "subtopicId": "cambridge-g12-physics-ch01-st3",
+   "chapterId": "cambridge-g12-physics-ch01",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "A roller-coaster car of mass 600 kg is released from rest at a height of 40 m above the bottom of a vertical circular loop of radius 8.0 m. Friction is negligible. (a) Calculate the speed of the car at the top of the loop. (b) Calculate the normal contact force at the bottom of the loop.",
+   "answer": "(a) 21.7 m s⁻¹ (b) 64 700 N",
+   "markingKey": "(a) mg(h − 2r) = ½mv² (method/substitution) [1]; answer 21.7 m s⁻¹ with unit [1] [2] (b) N − mg = mv²/r with v² = 2gh (equation) [1]; substitution [1]; answer 64 700 N with unit [1] [3]",
+   "marks": 5,
+   "minutes": 6.0,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock5-q13",
+   "subtopicId": "cambridge-g12-physics-ch10-st1",
+   "chapterId": "cambridge-g12-physics-ch10",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C3",
+   "difficulty": "D3",
+   "type": "numerical",
+   "stem": "A circular coil of diameter 8.0 cm has 500 turns and is placed with its plane perpendicular to a uniform magnetic field of flux density 0.30 T. Calculate the area of the coil, the flux through one turn and the flux linkage.",
+   "answer": "A = 5.03 × 10⁻³ m²; Φ = 1.51 × 10⁻³ Wb; NΦ = 0.754 Wb",
+   "markingKey": "A = 5.03 × 10⁻³ m² [1]; Φ = BA cos θ = 1.51 × 10⁻³ Wb [1]; NΦ = 0.754 Wb [1] [3]",
+   "marks": 3,
+   "minutes": 4.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G3",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock6-q01",
+   "subtopicId": "cambridge-g12-physics-ch01-st2",
+   "chapterId": "cambridge-g12-physics-ch01",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C1",
+   "difficulty": "D1",
+   "type": "mcq",
+   "stem": "What provides the centripetal force on the Moon as it orbits the Earth?",
+   "options": [
+    "a centrifugal force",
+    "the Moon's inertia",
+    "the Moon's weight towards the Sun",
+    "the gravitational pull of the Earth"
+   ],
+   "answer": "the gravitational pull of the Earth",
+   "markingKey": "Gravity acts towards the Earth's centre.",
+   "marks": 1,
+   "minutes": 1.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G1",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock6-q02",
+   "subtopicId": "cambridge-g12-physics-ch06-st4",
+   "chapterId": "cambridge-g12-physics-ch06",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C1",
+   "difficulty": "D2",
+   "type": "mcq",
+   "stem": "Which describes critical damping?",
+   "options": [
+    "the system returns to equilibrium in the shortest time without oscillating",
+    "the system returns very slowly without oscillating",
+    "the amplitude decreases slowly over many oscillations",
+    "the system oscillates with increasing amplitude"
+   ],
+   "answer": "the system returns to equilibrium in the shortest time without oscillating",
+   "markingKey": "Critical damping: fastest return, no overshoot.",
+   "marks": 1,
+   "minutes": 1.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G1",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock6-q03",
+   "subtopicId": "cambridge-g12-physics-ch03-st1",
+   "chapterId": "cambridge-g12-physics-ch03",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C2",
+   "difficulty": "D2",
+   "type": "explain",
+   "stem": "A cup of tea at 70 °C is placed in contact with a swimming pool at 26 °C. A student says thermal energy will flow into the hotter object because the other has more internal energy. Explain why the student is wrong and describe what happens until thermal equilibrium is reached.",
+   "answer": "Net thermal energy flows from higher to lower temperature, i.e. from a cup of tea at 70 °C to a swimming pool at 26 °C, regardless of internal energy, until both reach the same temperature, after which there is no net transfer.",
+   "markingKey": "direction set by temperature not internal energy [1]; flow from hotter to colder [1] [2]",
+   "marks": 2,
+   "minutes": 2.5,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G2",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock6-q04",
+   "subtopicId": "cambridge-g12-physics-ch02-st3",
+   "chapterId": "cambridge-g12-physics-ch02",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C3",
+   "difficulty": "D1",
+   "type": "mcq",
+   "stem": "Venus has mass 4.87 × 10²⁴ kg and radius 6.05 × 10⁶ m. What is the gravitational potential at the surface of Venus?",
+   "options": [
+    "−5.37 × 10⁷ J kg⁻¹",
+    "−1.07 × 10⁸ J kg⁻¹",
+    "5.37 × 10⁷ J kg⁻¹",
+    "−5.37 × 10⁸ J kg⁻¹"
+   ],
+   "answer": "−5.37 × 10⁷ J kg⁻¹",
+   "markingKey": "φ = −GM/R = −6.67 × 10⁻¹¹ × 4.87 × 10²⁴/6.05 × 10⁶ = −5.37 × 10⁷ J kg⁻¹.",
+   "marks": 1,
+   "minutes": 1.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G4",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock6-q05",
+   "subtopicId": "cambridge-g12-physics-ch12-st3",
+   "chapterId": "cambridge-g12-physics-ch12",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "In an electron diffraction tube, electrons are accelerated through 3000 V and pass through a thin layer of graphite. Concentric rings are seen on a fluorescent screen. (a) Explain how the rings show that electrons behave as waves. (b) Calculate the kinetic energy of an electron. (c) Calculate the momentum of an electron. (d) State and explain the effect on the rings of increasing the accelerating voltage.",
+   "answer": "(a) Rings are a diffraction pattern, which is a wave property. (b) 4.80 × 10⁻¹⁶ J (c) 2.96 × 10⁻²³ kg m s⁻¹ (d) Rings get smaller: higher p gives smaller λ, so less diffraction.",
+   "markingKey": "(a) Rings are a diffraction pattern, which is a wave property [1] (b) Ek = eV: 4.80 × 10⁻¹⁶ J [1] (c) p = √(2mEk) (method/substitution) [1]; answer 2.96 × 10⁻²³ kg m s⁻¹ [1] [2] (d) rings smaller [1]; larger p, smaller λ, less diffraction [1] [2]",
+   "marks": 6,
+   "minutes": 7.5,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock6-q06",
+   "subtopicId": "cambridge-g12-physics-ch16-st2",
+   "chapterId": "cambridge-g12-physics-ch16",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C3",
+   "difficulty": "D4",
+   "type": "case",
+   "stem": "Data from an experiment (t / s, V / V): t = 0, V = 12; t = 10, V = 7.28; t = 20, V = 4.41; t = 30, V = 2.68; t = 40, V = 1.62; t = 50, V = 0.985. (a) Explain why a graph of the natural logarithm of the second quantity against the first should be a straight line. (b) Determine the gradient of this graph. (c) The resistance is 47 kΩ. Calculate the capacitance.",
+   "answer": "(a) exponential decay y = y₀e^(−kx) gives ln y = ln y₀ − kx (b) −5.00 × 10⁻² (in units of s⁻¹) C = RC/R = 4.26 × 10⁻⁴ F",
+   "markingKey": "(a) ln y = ln y₀ − kx linear [1] (b) ln values [1]; gradient = −5.00 × 10⁻² [1] (c) RC = −1/gradient = 20 s [1]; C = 4.26 × 10⁻⁴ F [1] [5]",
+   "marks": 5,
+   "minutes": 6.0,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock6-q07",
+   "subtopicId": "cambridge-g12-physics-ch14-st3",
+   "chapterId": "cambridge-g12-physics-ch14",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C4",
+   "difficulty": "D4",
+   "type": "multi_step",
+   "stem": "A PET centre in Nairobi injects a patient with a tracer labelled with nitrogen-13, which decays by β⁺ emission with a half-life of 9.97 minutes. (a) Write the decay equation for nitrogen-13. (b) Describe what happens to the positron emitted. (c) Calculate the energy of each annihilation photon in MeV. (d) The two photons from one annihilation arrive at opposite detectors 0.30 ns apart. Calculate the distance of the annihilation from the midpoint between the detectors.",
+   "answer": "(a) ¹³₇N → ¹³₆C + ⁰₊₁e + ν (b) It travels a very short distance in tissue and annihilates with an electron, producing two γ-photons in opposite directions. (c) 0.512 MeV (d) 4.5 cm",
+   "markingKey": "(a) products correct [1]; neutrino [1] [2] (b) annihilates with electron [1]; two photons opposite [1] [2] (c) E = mₑc² (method/substitution) [1]; answer 0.512 MeV with unit [1] [2] (d) cΔt/2 (method/substitution) [1]; answer 4.5 cm with unit [1] [2]",
+   "marks": 8,
+   "minutes": 10.0,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock6-q08",
+   "subtopicId": "cambridge-g12-physics-ch13-st2",
+   "chapterId": "cambridge-g12-physics-ch13",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "An energy researcher in Lisbon compares the graph of binding energy per nucleon against nucleon number, which rises steeply to a peak of about 8.8 MeV near A = 56 and falls to about 7.56 MeV for plutonium-239. (a) Define binding energy per nucleon. (b) Explain, using the graph, why fission of plutonium-239 releases energy. (c) Estimate the energy released when a plutonium-239 nucleus splits into two nuclei each with BE per nucleon 8.5 MeV (ignore free neutrons). (d) Explain why iron-56 cannot release energy by fission or fusion.",
+   "answer": "(a) Total binding energy of a nucleus divided by the number of nucleons. (b) The products (A ≈ 90–140) have higher BE per nucleon (≈ 8.5 MeV) than plutonium-239 (7.56 MeV), so total BE increases. (c) 225 MeV (d) It is at the peak; any change gives nuclei with lower BE per nucleon, which would require energy input.",
+   "markingKey": "(a) Total binding energy of a nucleus divided by the number of nucleons [1] (b) products higher BE per nucleon [1]; total BE increases, energy released [1] [2] (c) 239 × (8.5 − 7.56) (method/substitution) [1]; answer 225 MeV with unit [1] [2] (d) It is at the peak; any change gives nuclei with lower BE per nucleon, which would require energy input [1]",
+   "marks": 6,
+   "minutes": 7.5,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock6-q09",
+   "subtopicId": "cambridge-g12-physics-ch07-st4",
+   "chapterId": "cambridge-g12-physics-ch07",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "The dome of a Van de Graaff generator in a Hanoi science museum is a sphere of radius 10 cm at a potential of 2.0 × 10⁵ V. (a) Define electric potential at a point. (b) Calculate the charge on the dome. (c) Calculate the field strength at the surface of the dome.",
+   "answer": "(a) Work done per unit positive charge bringing a small test charge from infinity to the point. (b) 2.22 × 10⁻⁶ C (c) 2.00 × 10⁶ V m⁻¹",
+   "markingKey": "(a) work per unit charge [1]; from infinity [1] [2] (b) Q = 4πε₀RV (method/substitution) [1]; answer 2.22 × 10⁻⁶ C [1] [2] (c) E = V/R for a sphere (method/substitution) [1]; answer 2.00 × 10⁶ V m⁻¹ [1] [2]",
+   "marks": 6,
+   "minutes": 7.5,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock6-q10",
+   "subtopicId": "cambridge-g12-physics-ch11-st3",
+   "chapterId": "cambridge-g12-physics-ch11",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C3",
+   "difficulty": "D4",
+   "type": "multi_step",
+   "stem": "The output of a full-wave rectifier connected to a 60 Hz supply has a peak value of 15 V. A 220 μF smoothing capacitor is connected across a 1.0 kΩ load. Assume the capacitor discharges through the load for the whole interval between peaks. (a) Calculate the time between peaks. (b) Calculate the minimum p.d. across the load. (c) Calculate the peak-to-peak ripple voltage and suggest one way to reduce it.",
+   "answer": "(a) 8.33 ms (b) 14.4 V (c) 0.558 V; use a larger capacitance (or full-wave rectification / larger load resistance)",
+   "markingKey": "(a) 8.33 ms [1] (b) V = V₀e^(−t/RC) [1]; 14.4 V [1] (c) ripple = 0.558 V [1]; valid improvement [1] [5]",
+   "marks": 5,
+   "minutes": 6.0,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock6-q11",
+   "subtopicId": "cambridge-g12-physics-ch05-st1",
+   "chapterId": "cambridge-g12-physics-ch05",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C3",
+   "difficulty": "D3",
+   "type": "numerical",
+   "stem": "A container holds 1.0 mol of an ideal monatomic gas at 300 K. The gas is heated to 320 K. Calculate the increase in internal energy and explain why the gas has no intermolecular potential energy.",
+   "answer": "ΔU = 249 J; ideal gas has no intermolecular forces",
+   "markingKey": "U = (3/2)nRT [1]; ΔU = 1.5nRΔT = 249 J [1]; no forces between molecules [1] [3]",
+   "marks": 3,
+   "minutes": 4.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G3",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock6-q12",
+   "subtopicId": "cambridge-g12-physics-ch15-st2",
+   "chapterId": "cambridge-g12-physics-ch15",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "Observations of Spica show that its spectrum peaks at 1.29 × 10⁻⁷ m and that its luminosity is 7.85 × 10³⁰ W. (a) Calculate the surface temperature. (b) State one assumption made in these calculations. (c) Calculate the power emitted per unit area of its surface.",
+   "answer": "(a) 22 400 K (b) The star is a black body (or a uniform sphere). (c) 1.43 × 10¹⁰ W m⁻²",
+   "markingKey": "(a) T = 2.9 × 10⁻³/λmax (method/substitution) [1]; answer 22 400 K with unit [1] [2] (b) The star is a black body (or a uniform sphere) [1] (c) σT⁴ (method/substitution) [1]; answer 1.43 × 10¹⁰ W m⁻² [1] [2]",
+   "marks": 5,
+   "minutes": 6.0,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-physics-mock6-q13",
+   "subtopicId": "cambridge-g12-physics-ch04-st2",
+   "chapterId": "cambridge-g12-physics-ch04",
+   "subjectId": "cambridge-g12-physics",
+   "conceptGroup": "C3",
+   "difficulty": "D3",
+   "type": "numerical",
+   "stem": "In a model, the molecules of a gas have speeds of 400, 600, 700, 800, 900 m s⁻¹. Calculate the mean speed, the mean-square speed and the root-mean-square speed.",
+   "answer": "mean = 680 m s⁻¹; ⟨c²⟩ = 4.92 × 10⁵ m² s⁻²; c_rms = 701 m s⁻¹",
+   "markingKey": "mean = 680 m s⁻¹ [1]; ⟨c²⟩ = 4.92 × 10⁵ m² s⁻² [1]; c_rms = 701 m s⁻¹ [1] [3]",
+   "marks": 3,
+   "minutes": 4.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G3",
+   "set": "mock"
+  }
+ ],
+ "papers": [
+  {
+   "mock": 1,
+   "sections": [
+    {
+     "name": "MCQ (Paper 1 style)",
+     "questionIds": [
+      "cambridge-g12-physics-mock1-q01",
+      "cambridge-g12-physics-mock1-q02",
+      "cambridge-g12-physics-mock1-q03",
+      "cambridge-g12-physics-mock1-q04"
+     ]
+    },
+    {
+     "name": "structured AS/A Level questions (Paper 2/4 style)",
+     "questionIds": [
+      "cambridge-g12-physics-mock1-q05",
+      "cambridge-g12-physics-mock1-q06",
+      "cambridge-g12-physics-mock1-q07",
+      "cambridge-g12-physics-mock1-q08"
+     ]
+    },
+    {
+     "name": "extended multi-step / derivation questions",
+     "questionIds": [
+      "cambridge-g12-physics-mock1-q09",
+      "cambridge-g12-physics-mock1-q10"
+     ]
+    },
+    {
+     "name": "practical & planning / data-analysis (Paper 3/5 style)",
+     "questionIds": [
+      "cambridge-g12-physics-mock1-q11",
+      "cambridge-g12-physics-mock1-q12"
+     ]
+    },
+    {
+     "name": "past-paper / synoptic questions",
+     "questionIds": [
+      "cambridge-g12-physics-mock1-q13"
+     ]
+    }
+   ],
+   "totalMarks": 52,
+   "minutes": 64.5
+  },
+  {
+   "mock": 2,
+   "sections": [
+    {
+     "name": "MCQ (Paper 1 style)",
+     "questionIds": [
+      "cambridge-g12-physics-mock2-q01",
+      "cambridge-g12-physics-mock2-q02",
+      "cambridge-g12-physics-mock2-q03",
+      "cambridge-g12-physics-mock2-q04"
+     ]
+    },
+    {
+     "name": "structured AS/A Level questions (Paper 2/4 style)",
+     "questionIds": [
+      "cambridge-g12-physics-mock2-q05",
+      "cambridge-g12-physics-mock2-q06",
+      "cambridge-g12-physics-mock2-q07",
+      "cambridge-g12-physics-mock2-q08"
+     ]
+    },
+    {
+     "name": "extended multi-step / derivation questions",
+     "questionIds": [
+      "cambridge-g12-physics-mock2-q09",
+      "cambridge-g12-physics-mock2-q10"
+     ]
+    },
+    {
+     "name": "practical & planning / data-analysis (Paper 3/5 style)",
+     "questionIds": [
+      "cambridge-g12-physics-mock2-q11",
+      "cambridge-g12-physics-mock2-q12"
+     ]
+    },
+    {
+     "name": "past-paper / synoptic questions",
+     "questionIds": [
+      "cambridge-g12-physics-mock2-q13"
+     ]
+    }
+   ],
+   "totalMarks": 52,
+   "minutes": 64.5
+  },
+  {
+   "mock": 3,
+   "sections": [
+    {
+     "name": "MCQ (Paper 1 style)",
+     "questionIds": [
+      "cambridge-g12-physics-mock3-q01",
+      "cambridge-g12-physics-mock3-q02",
+      "cambridge-g12-physics-mock3-q03",
+      "cambridge-g12-physics-mock3-q04"
+     ]
+    },
+    {
+     "name": "structured AS/A Level questions (Paper 2/4 style)",
+     "questionIds": [
+      "cambridge-g12-physics-mock3-q05",
+      "cambridge-g12-physics-mock3-q06",
+      "cambridge-g12-physics-mock3-q07",
+      "cambridge-g12-physics-mock3-q08"
+     ]
+    },
+    {
+     "name": "extended multi-step / derivation questions",
+     "questionIds": [
+      "cambridge-g12-physics-mock3-q09",
+      "cambridge-g12-physics-mock3-q10"
+     ]
+    },
+    {
+     "name": "practical & planning / data-analysis (Paper 3/5 style)",
+     "questionIds": [
+      "cambridge-g12-physics-mock3-q11",
+      "cambridge-g12-physics-mock3-q12"
+     ]
+    },
+    {
+     "name": "past-paper / synoptic questions",
+     "questionIds": [
+      "cambridge-g12-physics-mock3-q13"
+     ]
+    }
+   ],
+   "totalMarks": 52,
+   "minutes": 63.5
+  },
+  {
+   "mock": 4,
+   "sections": [
+    {
+     "name": "MCQ (Paper 1 style)",
+     "questionIds": [
+      "cambridge-g12-physics-mock4-q01",
+      "cambridge-g12-physics-mock4-q02",
+      "cambridge-g12-physics-mock4-q03",
+      "cambridge-g12-physics-mock4-q04"
+     ]
+    },
+    {
+     "name": "structured AS/A Level questions (Paper 2/4 style)",
+     "questionIds": [
+      "cambridge-g12-physics-mock4-q05",
+      "cambridge-g12-physics-mock4-q06",
+      "cambridge-g12-physics-mock4-q07",
+      "cambridge-g12-physics-mock4-q08"
+     ]
+    },
+    {
+     "name": "extended multi-step / derivation questions",
+     "questionIds": [
+      "cambridge-g12-physics-mock4-q09",
+      "cambridge-g12-physics-mock4-q10"
+     ]
+    },
+    {
+     "name": "practical & planning / data-analysis (Paper 3/5 style)",
+     "questionIds": [
+      "cambridge-g12-physics-mock4-q11",
+      "cambridge-g12-physics-mock4-q12"
+     ]
+    },
+    {
+     "name": "past-paper / synoptic questions",
+     "questionIds": [
+      "cambridge-g12-physics-mock4-q13"
+     ]
+    }
+   ],
+   "totalMarks": 52,
+   "minutes": 64.0
+  },
+  {
+   "mock": 5,
+   "sections": [
+    {
+     "name": "MCQ (Paper 1 style)",
+     "questionIds": [
+      "cambridge-g12-physics-mock5-q01",
+      "cambridge-g12-physics-mock5-q02",
+      "cambridge-g12-physics-mock5-q03",
+      "cambridge-g12-physics-mock5-q04"
+     ]
+    },
+    {
+     "name": "structured AS/A Level questions (Paper 2/4 style)",
+     "questionIds": [
+      "cambridge-g12-physics-mock5-q05",
+      "cambridge-g12-physics-mock5-q06",
+      "cambridge-g12-physics-mock5-q07",
+      "cambridge-g12-physics-mock5-q08"
+     ]
+    },
+    {
+     "name": "extended multi-step / derivation questions",
+     "questionIds": [
+      "cambridge-g12-physics-mock5-q09",
+      "cambridge-g12-physics-mock5-q10"
+     ]
+    },
+    {
+     "name": "practical & planning / data-analysis (Paper 3/5 style)",
+     "questionIds": [
+      "cambridge-g12-physics-mock5-q11",
+      "cambridge-g12-physics-mock5-q12"
+     ]
+    },
+    {
+     "name": "past-paper / synoptic questions",
+     "questionIds": [
+      "cambridge-g12-physics-mock5-q13"
+     ]
+    }
+   ],
+   "totalMarks": 52,
+   "minutes": 64.0
+  },
+  {
+   "mock": 6,
+   "sections": [
+    {
+     "name": "MCQ (Paper 1 style)",
+     "questionIds": [
+      "cambridge-g12-physics-mock6-q01",
+      "cambridge-g12-physics-mock6-q02",
+      "cambridge-g12-physics-mock6-q03",
+      "cambridge-g12-physics-mock6-q04"
+     ]
+    },
+    {
+     "name": "structured AS/A Level questions (Paper 2/4 style)",
+     "questionIds": [
+      "cambridge-g12-physics-mock6-q05",
+      "cambridge-g12-physics-mock6-q06",
+      "cambridge-g12-physics-mock6-q07",
+      "cambridge-g12-physics-mock6-q08"
+     ]
+    },
+    {
+     "name": "extended multi-step / derivation questions",
+     "questionIds": [
+      "cambridge-g12-physics-mock6-q09",
+      "cambridge-g12-physics-mock6-q10"
+     ]
+    },
+    {
+     "name": "practical & planning / data-analysis (Paper 3/5 style)",
+     "questionIds": [
+      "cambridge-g12-physics-mock6-q11",
+      "cambridge-g12-physics-mock6-q12"
+     ]
+    },
+    {
+     "name": "past-paper / synoptic questions",
+     "questionIds": [
+      "cambridge-g12-physics-mock6-q13"
+     ]
+    }
+   ],
+   "totalMarks": 52,
+   "minutes": 64.0
+  }
+ ]
+}
