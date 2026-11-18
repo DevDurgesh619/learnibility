@@ -1,0 +1,150 @@
+{
+ "subjectId": "ib-g8-social-science",
+ "board": "ib",
+ "grade": 8,
+ "target": {
+  "total": 1005,
+  "bankPerChapter": 40,
+  "questionsPerForm": 20,
+  "mocks": 3,
+  "questionsPerMock": 15
+ },
+ "chapters": {
+  "ib-g8-social-science-ch01": {
+   "mastery": 40,
+   "practiceFormA": 20,
+   "practiceFormB": 20,
+   "done": true,
+   "updatedUtc": "2026-11-18T09:55:20Z"
+  },
+  "ib-g8-social-science-ch02": {
+   "mastery": 40,
+   "practiceFormA": 20,
+   "practiceFormB": 20,
+   "done": true,
+   "updatedUtc": "2026-11-18T09:55:20Z"
+  },
+  "ib-g8-social-science-ch03": {
+   "mastery": 40,
+   "practiceFormA": 20,
+   "practiceFormB": 20,
+   "done": true,
+   "updatedUtc": "2026-11-18T09:55:20Z"
+  },
+  "ib-g8-social-science-ch04": {
+   "mastery": 40,
+   "practiceFormA": 20,
+   "practiceFormB": 20,
+   "done": true,
+   "updatedUtc": "2026-11-18T09:55:20Z"
+  },
+  "ib-g8-social-science-ch05": {
+   "mastery": 40,
+   "practiceFormA": 20,
+   "practiceFormB": 20,
+   "done": true,
+   "updatedUtc": "2026-11-18T09:55:20Z"
+  },
+  "ib-g8-social-science-ch06": {
+   "mastery": 40,
+   "practiceFormA": 20,
+   "practiceFormB": 20,
+   "done": true,
+   "updatedUtc": "2026-11-18T09:55:20Z"
+  },
+  "ib-g8-social-science-ch07": {
+   "mastery": 40,
+   "practiceFormA": 20,
+   "practiceFormB": 20,
+   "done": true,
+   "updatedUtc": "2026-11-18T09:55:20Z"
+  },
+  "ib-g8-social-science-ch08": {
+   "mastery": 40,
+   "practiceFormA": 20,
+   "practiceFormB": 20,
+   "done": true,
+   "updatedUtc": "2026-11-18T09:55:20Z"
+  },
+  "ib-g8-social-science-ch09": {
+   "mastery": 40,
+   "practiceFormA": 20,
+   "practiceFormB": 20,
+   "done": true,
+   "updatedUtc": "2026-11-18T09:55:20Z"
+  },
+  "ib-g8-social-science-ch10": {
+   "mastery": 40,
+   "practiceFormA": 20,
+   "practiceFormB": 20,
+   "done": true,
+   "updatedUtc": "2026-11-18T09:55:20Z"
+  },
+  "ib-g8-social-science-ch11": {
+   "mastery": 40,
+   "practiceFormA": 20,
+   "practiceFormB": 20,
+   "done": true,
+   "updatedUtc": "2026-11-18T09:55:20Z"
+  },
+  "ib-g8-social-science-ch12": {
+   "mastery": 40,
+   "practiceFormA": 20,
+   "practiceFormB": 20,
+   "done": true,
+   "updatedUtc": "2026-11-18T09:55:20Z"
+  }
+ },
+ "counts": {
+  "mastery_bank": 480,
+  "practice": 480,
+  "mock": 45,
+  "total": 1005
+ },
+ "validated": true,
+ "accuracyChecks": {
+  "checked": 60,
+  "fixed": 1,
+  "notes": "Sampled 5 items per chapter (seed 8), favouring numerical/MCQ. Re-solved: % change (smartphones), river discharge, hydrograph lag time, simple vs compound interest, D'Hondt and FPTP/largest-remainder allocations, BCE/CE centuries, ecological footprint – all matched. Fixed: ecological-footprint generator paired random gha values with unrealistic people (e.g. a Malawi farmer at 10.2 gha) and showed 6.37 for 6.375; now uses realistic national averages and rounds half-up. Earlier content review: replaced %-of-% series with absolute units, corrected Punch \"Father Thames\" case, APA co-author issue (Factfulness swapped for Sapiens)."
+ },
+ "updatedUtc": "2026-11-18T09:55:20Z",
+ "generatedBy": "scripts/questions/ib/engine.py",
+ "mastery": {
+  "conceptGroup": {
+   "C1": 15,
+   "C2": 30,
+   "C3": 35,
+   "C4": 20
+  },
+  "difficulty": {
+   "D1": 10,
+   "D2": 40,
+   "D3": 35,
+   "D4": 12.5,
+   "D5": 2.5
+  }
+ },
+ "mocks": {
+  "papers": 3,
+  "questions": 45
+ },
+ "mix": {
+  "C": {
+   "C1": 15,
+   "C2": 30,
+   "C3": 35,
+   "C4": 20
+  },
+  "D": {
+   "D1": 10,
+   "D2": 40,
+   "D3": 35,
+   "D4": 12.5,
+   "D5": 2.5
+  }
+ },
+ "validatedAt": "2026-11-18T09:55:20.519Z",
+ "validationErrors": [],
+ "validationErrorCount": 0,
+ "validationWarnings": []
+}

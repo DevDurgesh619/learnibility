@@ -1,0 +1,150 @@
+{
+ "subjectId": "ib-g10-social-science",
+ "board": "ib",
+ "grade": 10,
+ "target": {
+  "total": 1050,
+  "bankPerChapter": 40,
+  "questionsPerForm": 20,
+  "mocks": 6,
+  "questionsPerMock": 15
+ },
+ "chapters": {
+  "ib-g10-social-science-ch01": {
+   "mastery": 40,
+   "practiceFormA": 20,
+   "practiceFormB": 20,
+   "done": true,
+   "updatedUtc": "2026-11-18T09:55:20Z"
+  },
+  "ib-g10-social-science-ch02": {
+   "mastery": 40,
+   "practiceFormA": 20,
+   "practiceFormB": 20,
+   "done": true,
+   "updatedUtc": "2026-11-18T09:55:20Z"
+  },
+  "ib-g10-social-science-ch03": {
+   "mastery": 40,
+   "practiceFormA": 20,
+   "practiceFormB": 20,
+   "done": true,
+   "updatedUtc": "2026-11-18T09:55:20Z"
+  },
+  "ib-g10-social-science-ch04": {
+   "mastery": 40,
+   "practiceFormA": 20,
+   "practiceFormB": 20,
+   "done": true,
+   "updatedUtc": "2026-11-18T09:55:20Z"
+  },
+  "ib-g10-social-science-ch05": {
+   "mastery": 40,
+   "practiceFormA": 20,
+   "practiceFormB": 20,
+   "done": true,
+   "updatedUtc": "2026-11-18T09:55:20Z"
+  },
+  "ib-g10-social-science-ch06": {
+   "mastery": 40,
+   "practiceFormA": 20,
+   "practiceFormB": 20,
+   "done": true,
+   "updatedUtc": "2026-11-18T09:55:20Z"
+  },
+  "ib-g10-social-science-ch07": {
+   "mastery": 40,
+   "practiceFormA": 20,
+   "practiceFormB": 20,
+   "done": true,
+   "updatedUtc": "2026-11-18T09:55:20Z"
+  },
+  "ib-g10-social-science-ch08": {
+   "mastery": 40,
+   "practiceFormA": 20,
+   "practiceFormB": 20,
+   "done": true,
+   "updatedUtc": "2026-11-18T09:55:20Z"
+  },
+  "ib-g10-social-science-ch09": {
+   "mastery": 40,
+   "practiceFormA": 20,
+   "practiceFormB": 20,
+   "done": true,
+   "updatedUtc": "2026-11-18T09:55:20Z"
+  },
+  "ib-g10-social-science-ch10": {
+   "mastery": 40,
+   "practiceFormA": 20,
+   "practiceFormB": 20,
+   "done": true,
+   "updatedUtc": "2026-11-18T09:55:20Z"
+  },
+  "ib-g10-social-science-ch11": {
+   "mastery": 40,
+   "practiceFormA": 20,
+   "practiceFormB": 20,
+   "done": true,
+   "updatedUtc": "2026-11-18T09:55:20Z"
+  },
+  "ib-g10-social-science-ch12": {
+   "mastery": 40,
+   "practiceFormA": 20,
+   "practiceFormB": 20,
+   "done": true,
+   "updatedUtc": "2026-11-18T09:55:20Z"
+  }
+ },
+ "counts": {
+  "mastery_bank": 480,
+  "practice": 480,
+  "mock": 90,
+  "total": 1050
+ },
+ "validated": true,
+ "accuracyChecks": {
+  "checked": 60,
+  "fixed": 2,
+  "notes": "Sampled 5 items per chapter (seed 10). Re-solved: WWI casualty %, UN membership growth, copper/Vietnam/Ghana % change, carbon tax on diesel, natural increase, APA citation – all matched. Fixed: chronology generator produced \"0 years\" between two 1944 events and could produce ambiguous ordering ties – same-year draws now skipped; footprint pairing/rounding fix (shared helper). Earlier content review: WWI mobilisation/death figures aligned with standard estimates, Indian troop numbers, Norway renewables share, farmers' protest MCQ wording, removed an unverified NGO-count series."
+ },
+ "updatedUtc": "2026-11-18T09:55:20Z",
+ "generatedBy": "scripts/questions/ib/engine.py",
+ "mocks": {
+  "papers": 6,
+  "questions": 90
+ },
+ "mastery": {
+  "conceptGroup": {
+   "C1": 15,
+   "C2": 30,
+   "C3": 35,
+   "C4": 20
+  },
+  "difficulty": {
+   "D1": 10,
+   "D2": 40,
+   "D3": 35,
+   "D4": 12.5,
+   "D5": 2.5
+  }
+ },
+ "mix": {
+  "C": {
+   "C1": 15,
+   "C2": 30,
+   "C3": 35,
+   "C4": 20
+  },
+  "D": {
+   "D1": 10,
+   "D2": 40,
+   "D3": 35,
+   "D4": 12.5,
+   "D5": 2.5
+  }
+ },
+ "validatedAt": "2026-11-18T09:55:20.563Z",
+ "validationErrors": [],
+ "validationErrorCount": 0,
+ "validationWarnings": []
+}
