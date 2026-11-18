@@ -1,5 +1,5 @@
 import 'server-only';
-import { getChapter, getGaps, getQuestion, getStudent, getSubtopic, type Attempt, type GapRecord } from '@/lib/data';
+import { getChapter, getGaps, getQuestion, getStudent, getSubject, getSubtopic, type Attempt, type GapRecord } from '@/lib/data';
 import { GAP_TAXONOMY, diagnoseGaps, type Diagnosis } from '@/lib/engines';
 import { bandFor } from '@/lib/onboarding/score';
 import type { Band, GapCode, Question } from '@/lib/types';
@@ -53,6 +53,12 @@ export interface AttemptReport {
 }
 
 export const STRENGTH_CLASS: Record<Strength, string> = { Strong: 'text-success-700', Medium: 'text-warning-700', Weak: 'text-danger-700' };
+
+/** Engine cause text cites 430-file parameter numbers ("#279, #20"); students see the words only. */
+export function plainCause(s: string | null | undefined): string | null {
+  if (!s) return null;
+  return s.replace(/\s*\((?:#\d+[,\s]*)+\)/g, '').replace(/:\s*(?:#\d+[,\s]*)+$/g, '').replace(/\s*#\d+(?:,\s*#\d+)*/g, '').trim() || null;
+}
 
 export const strengthOf = (percent: number): Strength => (percent >= 75 ? 'Strong' : percent >= 50 ? 'Medium' : 'Weak');
 
@@ -142,7 +148,7 @@ export function buildReport(attempt: Attempt): AttemptReport {
   const percent = attempt.maxScore ? Math.round((100 * attempt.score) / attempt.maxScore) : 0;
   const weak = [...topics].sort((a, b) => a.percent - b.percent || b.questions - a.questions);
   const firstSeen = attempt.responses.length ? attempt.responses.reduce((s, r) => s + r.secondsTaken, 0) : 0;
-  const subjectName = getChapter(attempt.chapterId ?? '')?.subject.name ?? questions[0]?.subjectId ?? attempt.subjectId;
+  const subjectName = getChapter(attempt.chapterId ?? '')?.subject.name ?? getSubject(attempt.subjectId)?.subject.name ?? attempt.title.split(' · ')[0];
 
   return {
     attempt,

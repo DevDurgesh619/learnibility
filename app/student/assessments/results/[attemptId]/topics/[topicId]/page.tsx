@@ -10,7 +10,7 @@ import { getAttempt, getCurrentPlan, getStudent, getTutor, getTutorMatches } fro
 import { currentPersona } from '@/lib/session';
 import { formatHours, formatInr } from '@/lib/format';
 import { cn } from '@/lib/utils';
-import { STRENGTH_CLASS, buildReport } from '@/components/assessment/results';
+import { STRENGTH_CLASS, buildReport, plainCause } from '@/components/assessment/results';
 import { resultHref, testHref } from '@/components/assessment/catalog';
 
 export const metadata: Metadata = { title: 'Topic detail · Learnibility' };
@@ -69,7 +69,7 @@ export default async function TopicDetailPage({ params }: { params: Promise<{ at
                 {!it.correct && (
                   <span className="rounded-full bg-success-50 px-2.5 py-1 text-success-700 ring-1 ring-success-600/20">Correct: {optionLabel(it.question.options, it.question.answer)}</span>
                 )}
-                <span className="rounded-full bg-surface-muted px-2.5 py-1 text-muted">{it.secondsTaken} s{it.confidence ? ` · sure ${it.confidence}/5` : ''}</span>
+                <span className="rounded-full bg-surface-muted px-2.5 py-1 text-muted">{it.blank ? 'Not answered' : `${it.secondsTaken} s${it.confidence ? ` · sure ${it.confidence}/5` : ''}`}</span>
               </div>
               {!it.correct && (
                 <div className="mt-3 pl-6 text-sm">
@@ -92,7 +92,7 @@ export default async function TopicDetailPage({ params }: { params: Promise<{ at
                 </div>
                 <p className="text-muted">Level: {LEVEL_LABEL[gap?.level ?? topic.diagnosis?.level ?? 0]}</p>
                 {gap && <p className="text-muted">About {formatHours(gap.hoursToClose)} to close{gap.weeks ? `, over ${gap.weeks} weeks` : ''}. Status: {gap.status === 'suspected' ? 'suspected, a chapter check confirms it' : gap.status}.</p>}
-                {(gap?.likelyCauses ?? topic.diagnosis?.likelyCauses) && <p className="text-muted">Likely cause: {gap?.likelyCauses ?? topic.diagnosis?.likelyCauses}</p>}
+                {plainCause(gap?.likelyCauses ?? topic.diagnosis?.likelyCauses) && <p className="text-muted">Likely cause: {plainCause(gap?.likelyCauses ?? topic.diagnosis?.likelyCauses)}</p>}
               </CardBody>
             </Card>
           )}

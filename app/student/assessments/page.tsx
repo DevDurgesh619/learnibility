@@ -8,7 +8,7 @@ import { Card } from '@/components/ui/card';
 import { EmptyState } from '@/components/ui/empty-state';
 import { PageHeader } from '@/components/ui/page-header';
 import { Table, TBody, TD, TH, THead, TR } from '@/components/ui/table';
-import { getAttempts, getStudent, getTasks, demoToday } from '@/lib/data';
+import { getAttempts, getEvents, getStudent, getTasks, demoToday } from '@/lib/data';
 import { currentPersona } from '@/lib/session';
 import { cn } from '@/lib/utils';
 import { initialTests, resultHref, subjectTests, testHref } from '@/components/assessment/catalog';
@@ -35,7 +35,12 @@ export default async function AssessmentsPage({ searchParams }: { searchParams: 
   const today = demoToday();
   const due = getTasks(student.id, undefined, { status: 'todo' }).filter((t) => t.kind === 'test' && t.dueDate >= today).slice(0, 4);
   const lastFor = (ids: string[], kind?: string) => attempts.find((a) => (!kind || a.kind === kind) && ids.every((id) => a.questionIds.includes(id)) && a.questionIds.length === ids.length);
-  const onbAttempt = (section: string) => attempts.find((a) => a.kind === 'onboarding' && a.id.endsWith(`_onb_${section}`));
+  const onbEvents = getEvents(student.id, { type: 'onboarding_completed' });
+  const sectionDone = (section: string) =>
+    onbEvents.some((e) => (section === 'reasoning' ? !!e.payload.reasoning : section === 'about' ? !!(e.payload.riasec as { code?: string } | null)?.code : false));
+  const onbAttempt = (section: string, subjectId: string) =>
+    attempts.find((a) => a.kind === 'onboarding' && a.id.endsWith(`_onb_${section}`)) ?? attempts.find((a) => a.kind === 'onboarding' && a.subjectId === subjectId);
+  const anyOnboarding = attempts.some((a) => a.kind === 'onboarding');
 
   return (
     <>
@@ -66,7 +71,7 @@ export default async function AssessmentsPage({ searchParams }: { searchParams: 
         {initial.length ? (
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
             {initial.map((t, i) => (
-              <TestCard key={t.id} test={t} last={onbAttempt(t.section!)} highlight={!student.onboardedUtc && i === 0} />
+              <TestCard key={t.id} test={t} last={onbAttempt(t.section!, t.subjectId)} done={sectionDone(t.section!)} highlight={!anyOnboarding && i === 0} />
             ))}
           </div>
         ) : (

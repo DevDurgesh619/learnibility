@@ -7,7 +7,7 @@ import type { Attempt } from '@/lib/data';
 import { resultHref, testHref, type AssessmentDef } from './catalog';
 
 /** One test card on 8a: start, locked (paid) or completed with "See gap analysis" (PDF f.5 folded in). */
-export function TestCard({ test, last, locked = false, highlight = false }: { test: AssessmentDef; last?: Attempt; locked?: boolean; highlight?: boolean }) {
+export function TestCard({ test, last, done = false, locked = false, highlight = false }: { test: AssessmentDef; last?: Attempt; done?: boolean; locked?: boolean; highlight?: boolean }) {
   const pct = last && last.maxScore ? Math.round((100 * last.score) / last.maxScore) : null;
   return (
     <div className={cn('flex h-full flex-col gap-3 rounded-xl border bg-surface p-4 shadow-[var(--shadow-card)]', highlight ? 'border-brand-300 ring-1 ring-brand-200' : 'border-line', locked && 'opacity-80')}>
@@ -26,6 +26,11 @@ export function TestCard({ test, last, locked = false, highlight = false }: { te
             <Badge tone="success"><CheckCircle2 className="size-3" /> Completed{pct !== null ? ` · ${pct}%` : ''}</Badge>
             <Link href={`${resultHref(last.id)}/gaps`} className="text-xs font-medium text-brand-700 hover:underline">See gap analysis</Link>
             {!locked && <Link href={testHref(test.id)} className="ml-auto text-xs text-muted hover:text-ink">Retake</Link>}
+          </>
+        ) : done ? (
+          <>
+            <Badge tone="success"><CheckCircle2 className="size-3" /> Completed</Badge>
+            <Link href={testHref(test.id)} className="ml-auto text-xs text-muted hover:text-ink">Retake</Link>
           </>
         ) : locked ? (
           <span className="text-xs text-subtle">In-depth set</span>

@@ -10,7 +10,7 @@ import { getAttempt } from '@/lib/data';
 import { currentPersona } from '@/lib/session';
 import { formatHours } from '@/lib/format';
 import { cn } from '@/lib/utils';
-import { STRENGTH_CLASS, buildReport } from '@/components/assessment/results';
+import { STRENGTH_CLASS, buildReport, plainCause } from '@/components/assessment/results';
 import { resultHref } from '@/components/assessment/catalog';
 
 export const metadata: Metadata = { title: 'Gap analysis · Learnibility' };
@@ -38,12 +38,12 @@ export default async function GapAnalysisPage({ params }: { params: Promise<{ at
         <p className="text-sm text-muted">{r.score}/{r.maxScore} · {r.strength}</p>
       </div>
 
-      <Card className="overflow-hidden">
+      <Card className="overflow-x-auto">
         <Table>
           <THead>
             <TR>
               <TH>Topic</TH>
-              <TH className="text-right">Questions</TH>
+              <TH className="hidden text-right sm:table-cell">Questions</TH>
               <TH className="text-right">Correct</TH>
               <TH className="hidden text-right sm:table-cell">Incorrect</TH>
               <TH>Band</TH>
@@ -57,8 +57,8 @@ export default async function GapAnalysisPage({ params }: { params: Promise<{ at
                 <TD className="max-w-[220px]">
                   <Link href={`${base}/topics/${encodeURIComponent(t.id)}`} className="font-medium text-ink hover:text-brand-700">{t.name}</Link>
                 </TD>
-                <TD className="text-right tabular-nums">{t.questions}</TD>
-                <TD className="text-right tabular-nums">{t.correct}</TD>
+                <TD className="hidden text-right tabular-nums sm:table-cell">{t.questions}</TD>
+                <TD className="text-right tabular-nums">{t.correct}<span className="text-subtle sm:hidden">/{t.questions}</span></TD>
                 <TD className="hidden text-right tabular-nums sm:table-cell">{t.incorrect + t.blank}</TD>
                 <TD className={cn('font-semibold', STRENGTH_CLASS[t.strength])}>{t.strength}</TD>
                 <TD className="hidden md:table-cell">
@@ -78,11 +78,11 @@ export default async function GapAnalysisPage({ params }: { params: Promise<{ at
           <p className="flex items-center gap-2 font-semibold text-ink"><Target className="size-4 text-success-700" /> Focus first: {focus.name}</p>
           <p className="mt-1 text-sm text-muted">
             {focusWrong} of {focus.questions} wrong
-            {focus.gap ? `, a ${focus.gap.code} gap (${focus.gap.likelyCauses ?? 'see the topic detail'}). About ${formatHours(focus.gap.hoursToClose)} to close, already planned into your timetable.` : '.'}
+            {focus.gap ? `, a ${focus.gap.code} gap (${plainCause(focus.gap.likelyCauses) ?? 'see the topic detail'}). About ${formatHours(focus.gap.hoursToClose)} to close, already planned into your timetable.` : '.'}
             {' '}Tap the row to see each question, or get help from a tutor who is strong in it.
           </p>
           <div className="mt-4 flex flex-wrap gap-2">
-            <Link href={`${base}/topics/${encodeURIComponent(focus.id)}`} className={buttonVariants({ size: 'sm' })}>See {focus.name} questions</Link>
+            <Link href={`${base}/topics/${encodeURIComponent(focus.id)}`} className={buttonVariants({ size: 'sm' })}>See these questions</Link>
             <Link href={`/student/tutors?subject=${subjectSlug}&topic=${encodeURIComponent(focus.name)}`} className={buttonVariants({ size: 'sm', variant: 'secondary' })}>Find a tutor for this</Link>
           </div>
         </Card>
