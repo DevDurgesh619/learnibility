@@ -1,0 +1,986 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/questions/cambridge/generate.py",
+ "items": [
+  {
+   "id": "cambridge-g12-applied-maths-mock1-q01",
+   "subtopicId": "cambridge-g12-applied-maths-ch04-st3",
+   "chapterId": "cambridge-g12-applied-maths-ch04",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C1",
+   "difficulty": "D1",
+   "type": "mcq",
+   "stem": "If the population is normal, the sample mean is normally distributed",
+   "options": [
+    "only if n ≥ 30",
+    "only if σ is known",
+    "for any sample size",
+    "only if n is even"
+   ],
+   "answer": "for any sample size",
+   "markingKey": "The CLT is only needed when the population is not normal. [1]",
+   "marks": 1,
+   "minutes": 1,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G1",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock1-q02",
+   "subtopicId": "cambridge-g12-applied-maths-ch03-st1",
+   "chapterId": "cambridge-g12-applied-maths-ch03",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C1",
+   "difficulty": "D2",
+   "type": "mcq",
+   "stem": "The continuous random variable X has probability density function given by f(x) = kx for 0 ≤ x ≤ 3, and f(x) = 0 otherwise, where k is a constant. Find the value of k.",
+   "options": [
+    "1/3",
+    "4/9",
+    "2/9",
+    "9/2"
+   ],
+   "answer": "2/9",
+   "markingKey": "∫ from 0 to 3 of f(x) dx = 1 gives k = 2/9. [1]",
+   "marks": 1,
+   "minutes": 1.5,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G1",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock1-q03",
+   "subtopicId": "cambridge-g12-applied-maths-ch01-st1",
+   "chapterId": "cambridge-g12-applied-maths-ch01",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "The number of customers arriving at a bank counter in a 5-minute period has the distribution Po(2). (a) Find the probability that exactly 1 occur in a 5-minute period. (b) Find the probability that at least 2 occur in a 20-minute period. (c) State one assumption needed for the Poisson model to be valid in this context.",
+   "answer": "(a) 0.271 (b) 0.997 (c) The events occur independently and at random, at a constant average rate.",
+   "markingKey": "(a) M1 e^(−2) × 2; A1 0.271 [2] (b) B1 λ = 8; M1 1 − (e^(−8) + e^(−8) × 8); A1 0.997 [3] (c) B1 in context [1]",
+   "marks": 6,
+   "minutes": 7.5,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock1-q04",
+   "subtopicId": "cambridge-g12-applied-maths-ch02-st2",
+   "chapterId": "cambridge-g12-applied-maths-ch02",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C3",
+   "difficulty": "D4",
+   "type": "numerical",
+   "stem": "X is the time, in minutes, taken to cook a meal and Y is the time, in minutes, taken to serve it. X and Y are independent, with E(X) = 52, standard deviation 7, E(Y) = 34 and standard deviation 8. Let T = X₁ + X₂ + … + X3 + Y, where the Xᵢ are independent observations of X. Find E(T) and Var(T), and compare Var(T) with Var(3X + Y).",
+   "answer": "E(T) = 190; Var(T) = 211; Var(3X + Y) = 505, which is larger.",
+   "markingKey": "B1 E(T) = 190; M1 3 × 49 + 64; A1 211; M1 3² × 49 + 64; A1 505 [5]",
+   "marks": 5,
+   "minutes": 6.0,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock1-q05",
+   "subtopicId": "cambridge-g12-applied-maths-ch06-st4",
+   "chapterId": "cambridge-g12-applied-maths-ch06",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "Mei suspects that a coin is biased against heads. The test is based on 24 tosses and uses a 10% significance level. (a) State suitable hypotheses and find the critical region. (b) Find the probability of a Type II error if in fact p = 0.35.",
+   "answer": "(a) H₀: p = 0.5, H₁: p < 0.5; X ≤ 8 (b) 0.474",
+   "markingKey": "(a) B1 H₀: p = 0.5, H₁: p < 0.5; M1 P(X ≤ 8) = 0.0758 ≤ 0.1; M1 P(X ≤ 9) = 0.1537 > 0.1; A1 X ≤ 8 [4] (b) M1 P(X ≥ 9) with B(24, 0.35); A1 0.474 [2]",
+   "marks": 6,
+   "minutes": 7.5,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock1-q06",
+   "subtopicId": "cambridge-g12-applied-maths-ch05-st4",
+   "chapterId": "cambridge-g12-applied-maths-ch05",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C3",
+   "difficulty": "D4",
+   "type": "numerical",
+   "stem": "For the reaction times, x milliseconds, of 36 randomly chosen drivers, the sample mean is 213.5 ms; the population standard deviation is 48 ms. Calculate a 99% confidence interval for the population mean and use it to comment on a claim that the mean is 187.6 ms.",
+   "answer": "(193, 234); the claimed value lies outside, so there is evidence against the claim.",
+   "markingKey": "M1 213.5 ± 2.576 × 48/√36; A1 (193, 234); B1 conclusion in context [3]",
+   "marks": 3,
+   "minutes": 4.0,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock1-q07",
+   "subtopicId": "cambridge-g12-applied-maths-ch04-st2",
+   "chapterId": "cambridge-g12-applied-maths-ch04",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C3",
+   "difficulty": "D3",
+   "type": "numerical",
+   "stem": "The 250 trees in an orchard are numbered 1 to 250 by tag number. Starting at the beginning of the row of random digits below and reading groups of 3 digits, choose a random sample of 4 without replacement. Random digits: 17201 63361 45023 14871 90066 72716 82610 90273 01",
+   "answer": "172, 16, 145, 23 (rejected: 336)",
+   "markingKey": "B1 reads groups of 3; B1 ignores values above 250 (and 0) and repeats; B1 172, 16, 145, 23 [3]",
+   "marks": 3,
+   "minutes": 4.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G3",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock2-q01",
+   "subtopicId": "cambridge-g12-applied-maths-ch05-st1",
+   "chapterId": "cambridge-g12-applied-maths-ch05",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C1",
+   "difficulty": "D1",
+   "type": "mcq",
+   "stem": "For a random sample of 15 values, Σx = 4356.6 and Σx² = 1285130.24. Find an unbiased estimate of the population variance.",
+   "options": [
+    "1410",
+    "37.6",
+    "85,400",
+    "1320"
+   ],
+   "answer": "1410",
+   "markingKey": "(1285130.24 − 4356.6²/15) ÷ 14 = 1410. [1]",
+   "marks": 1,
+   "minutes": 1.5,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G1",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock2-q02",
+   "subtopicId": "cambridge-g12-applied-maths-ch02-st2",
+   "chapterId": "cambridge-g12-applied-maths-ch02",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C1",
+   "difficulty": "D2",
+   "type": "mcq",
+   "stem": "X and Y are independent with Var(X) = 7 and Var(Y) = 4. Find Var(2X + 3Y).",
+   "options": [
+    "26",
+    "128",
+    "64",
+    "−8"
+   ],
+   "answer": "64",
+   "markingKey": "2² × 7 + (3)² × 4 = 64. [1]",
+   "marks": 1,
+   "minutes": 1.5,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G1",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock2-q03",
+   "subtopicId": "cambridge-g12-applied-maths-ch06-st2",
+   "chapterId": "cambridge-g12-applied-maths-ch06",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "The number of typing errors made by a typist in a page has a Poisson distribution with mean 0.8. After a training course, the typist wishes to test whether the mean number of errors has increased. The test uses the number in a randomly chosen 5-page report and a 1% significance level. (a) State the null and alternative hypotheses. (b) Find the critical region. (c) The observed value is 7. State the conclusion of the test.",
+   "answer": "(a) H₀: λ = 0.8, H₁: λ > 0.8 (b) X ≥ 10 (c) Do not reject H₀. There is insufficient evidence at the 1% significance level that the mean number of errors has increased.",
+   "markingKey": "(a) B1 [1] (b) M1 P(X ≥ 10) = 0.0081 ≤ 0.01; M1 P(X ≥ 9) = 0.0214 > 0.01; A1 X ≥ 10 [3] (c) M1 7 not in critical region; A1 conclusion in context [2]",
+   "marks": 6,
+   "minutes": 7.5,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock2-q04",
+   "subtopicId": "cambridge-g12-applied-maths-ch01-st3",
+   "chapterId": "cambridge-g12-applied-maths-ch01",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C3",
+   "difficulty": "D4",
+   "type": "numerical",
+   "stem": "In a large population, 0.6% of people have a rare blood type. A random sample of 300 people is chosen. Find P(X ≤ 3), where X is the number of people with the rare blood type, using (i) the binomial distribution, (ii) a Poisson approximation. Calculate the percentage error in the approximation.",
+   "answer": "(i) 0.892 (ii) 0.891; percentage error 0.0652%",
+   "markingKey": "M1 binomial terms; A1 0.892; M1 Po(1.8); A1 0.891; B1 0.0652% [4]",
+   "marks": 4,
+   "minutes": 5.0,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock2-q05",
+   "subtopicId": "cambridge-g12-applied-maths-ch04-st2",
+   "chapterId": "cambridge-g12-applied-maths-ch04",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "The volumes of juice in cartons have mean 1004 ml and standard deviation 9 ml. Random samples of size 40 are taken. (a) State the approximate distribution of the sample mean, giving a reason. (b) Find the probability that the sample mean exceeds 1005.3 ml. (c) State the effect on the variance of the sample mean of multiplying the sample size by 4.",
+   "answer": "(a) N(1004, 81/40), by the central limit theorem since n = 40 is large (b) 0.180 (c) It is divided by 4 (the standard error is halved).",
+   "markingKey": "(a) B1 normal with mean; B1 variance; B1 CLT reason [3] (b) M1 z = 0.914; A1 0.180 [2] (c) B1 [1]",
+   "marks": 6,
+   "minutes": 7.5,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock2-q06",
+   "subtopicId": "cambridge-g12-applied-maths-ch03-st1",
+   "chapterId": "cambridge-g12-applied-maths-ch03",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C3",
+   "difficulty": "D4",
+   "type": "numerical",
+   "stem": "The continuous random variable X has probability density function given by f(x) = kx³ for 0 ≤ x ≤ 1, and f(x) = 0 otherwise, where k is a constant. Find k. 4 independent values of X are taken. Find the probability that at least one of them is greater than 1/2.",
+   "answer": "k = 4; 1.000",
+   "markingKey": "M1 total area 1; A1 k = 4; M1 P(X > 1/2) = 15/16; M1 1 − (1 − 15/16)⁴; A1 1.000 [4]",
+   "marks": 4,
+   "minutes": 5.0,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock2-q07",
+   "subtopicId": "cambridge-g12-applied-maths-ch05-st3",
+   "chapterId": "cambridge-g12-applied-maths-ch05",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C3",
+   "difficulty": "D3",
+   "type": "numerical",
+   "stem": "139 people in a random sample of 250 adults in Singapore said they cycle to work. Calculate an approximate 90% confidence interval for the proportion of adults in Singapore who cycle to work.",
+   "answer": "(0.504, 0.608)",
+   "markingKey": "B1 p̂ = 0.556; M1 0.556 ± 1.645√(0.556 × 0.444/250); A1 (0.504, 0.608) [3]",
+   "marks": 3,
+   "minutes": 4.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G3",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock3-q01",
+   "subtopicId": "cambridge-g12-applied-maths-ch02-st4",
+   "chapterId": "cambridge-g12-applied-maths-ch02",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C1",
+   "difficulty": "D1",
+   "type": "mcq",
+   "stem": "The number of red cars passing in a minute is Po(1.5) and of blue cars Po(0.8), independently. The number of red or blue cars in a minute is",
+   "options": [
+    "Po(1.2)",
+    "Po(2.3)",
+    "Po(1.15)",
+    "Po(0.7)"
+   ],
+   "answer": "Po(2.3)",
+   "markingKey": "[1]",
+   "marks": 1,
+   "minutes": 1,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G1",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock3-q02",
+   "subtopicId": "cambridge-g12-applied-maths-ch06-st1",
+   "chapterId": "cambridge-g12-applied-maths-ch06",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C1",
+   "difficulty": "D2",
+   "type": "mcq",
+   "stem": "For a two-tailed test at the 5% significance level using a discrete distribution, the probability in each tail is compared with",
+   "options": [
+    "0.1",
+    "0.01",
+    "0.025",
+    "0.05"
+   ],
+   "answer": "0.025",
+   "markingKey": "Half of 5% in each tail. [1]",
+   "marks": 1,
+   "minutes": 1,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G1",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock3-q03",
+   "subtopicId": "cambridge-g12-applied-maths-ch04-st2",
+   "chapterId": "cambridge-g12-applied-maths-ch04",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "Priya wants to estimate the mean height for the trees in a forest. Priya measures the 30 trees nearest the car park. (a) Explain why this method may give a biased estimate. (b) With an improved method, the variable is found to have mean 26 and standard deviation 11. Find the probability that the mean of a random sample of 50 differs from 26 by more than 2. (c) Explain why the central limit theorem is relevant to the previous part.",
+   "answer": "(a) Trees near the car park may differ (e.g. more light, more disturbance) from those in the rest of the forest. (b) 0.199 (c) The distribution of the variable is unknown, but n = 50 is large, so the sample mean is approximately normally distributed.",
+   "markingKey": "(a) B1 reason in context [1] (b) B1 X̄ ~ N(26, 11²/50) approximately; M1 z = 2 ÷ (11/√50) = 1.286; A1 0.199 [3] (c) B1 n large; B1 X̄ approximately normal [2]",
+   "marks": 6,
+   "minutes": 7.5,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock3-q04",
+   "subtopicId": "cambridge-g12-applied-maths-ch05-st4",
+   "chapterId": "cambridge-g12-applied-maths-ch05",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C3",
+   "difficulty": "D4",
+   "type": "numerical",
+   "stem": "For the lengths, x cm, of 64 randomly chosen fish caught in a lake, the sample mean is 25 cm; the population standard deviation is 7 cm. Calculate a 98% confidence interval for the population mean and use it to comment on a claim that the mean is 22 cm.",
+   "answer": "(23.0, 27.0); the claimed value lies outside, so there is evidence against the claim.",
+   "markingKey": "M1 25 ± 2.326 × 7/√64; A1 (23.0, 27.0); B1 conclusion in context [3]",
+   "marks": 3,
+   "minutes": 4.0,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock3-q05",
+   "subtopicId": "cambridge-g12-applied-maths-ch03-st2",
+   "chapterId": "cambridge-g12-applied-maths-ch03",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "The continuous random variable X has probability density function given by f(x) = kx³ for 1 ≤ x ≤ 2, and f(x) = 0 otherwise, where k is a constant. (a) Find the value of k. (b) Find E(X). (c) Find Var(X).",
+   "answer": "(a) 4/15 (b) 124/75 (c) 0.0665",
+   "markingKey": "(a) M1 total area 1; A1 4/15 [2] (b) M1 ∫ x f(x) dx; A1 124/75 [2] (c) M1 ∫ x² f(x) dx − [E(X)]²; A1 0.0665 [2]",
+   "marks": 6,
+   "minutes": 7.5,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock3-q06",
+   "subtopicId": "cambridge-g12-applied-maths-ch01-st3",
+   "chapterId": "cambridge-g12-applied-maths-ch01",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C3",
+   "difficulty": "D4",
+   "type": "numerical",
+   "stem": "On average 0.2% of flights from an airport are cancelled. A random sample of 800 flights is chosen. Find P(X ≤ 3), where X is the number of cancelled flights, using (i) the binomial distribution, (ii) a Poisson approximation. Calculate the percentage error in the approximation.",
+   "answer": "(i) 0.921 (ii) 0.921; percentage error 0.0210%",
+   "markingKey": "M1 binomial terms; A1 0.921; M1 Po(1.6); A1 0.921; B1 0.0210% [5]",
+   "marks": 5,
+   "minutes": 6.0,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock3-q07",
+   "subtopicId": "cambridge-g12-applied-maths-ch02-st2",
+   "chapterId": "cambridge-g12-applied-maths-ch02",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C3",
+   "difficulty": "D3",
+   "type": "numerical",
+   "stem": "X is the time, in minutes, taken to cook a meal and Y is the time, in minutes, taken to serve it. X and Y are independent, with E(X) = 50, standard deviation 3, E(Y) = 56 and standard deviation 3. Find the mean and standard deviation of 3X − 3Y.",
+   "answer": "−18, 12.7",
+   "markingKey": "B1 mean −18; M1 3² × 9 + 3² × 9; A1 12.7 [3]",
+   "marks": 3,
+   "minutes": 4.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G3",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock4-q01",
+   "subtopicId": "cambridge-g12-applied-maths-ch04-st3",
+   "chapterId": "cambridge-g12-applied-maths-ch04",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C1",
+   "difficulty": "D1",
+   "type": "mcq",
+   "stem": "The lengths of bolts made by a machine have mean 113 mm and standard deviation 3 mm. State the variance of the mean of a random sample of 25.",
+   "options": [
+    "9/25",
+    "9/5",
+    "3/5",
+    "9"
+   ],
+   "answer": "9/25",
+   "markingKey": "σ²/n = 3²/25 = 9/25. [1]",
+   "marks": 1,
+   "minutes": 1.5,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G1",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock4-q02",
+   "subtopicId": "cambridge-g12-applied-maths-ch01-st1",
+   "chapterId": "cambridge-g12-applied-maths-ch01",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C1",
+   "difficulty": "D2",
+   "type": "mcq",
+   "stem": "The number of customers arriving at a bank counter in a 5-minute period has the distribution Po(3). Find the probability that at least one occurs in a 5-minute period.",
+   "options": [
+    "0.950",
+    "0.851",
+    "0.0498",
+    "0.801"
+   ],
+   "answer": "0.950",
+   "markingKey": "1 − e^(−3) = 0.950. [1]",
+   "marks": 1,
+   "minutes": 1.5,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G1",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock4-q03",
+   "subtopicId": "cambridge-g12-applied-maths-ch02-st4",
+   "chapterId": "cambridge-g12-applied-maths-ch02",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "The numbers of adult visitors and child visitors at a museum shop in 10 minutes have independent distributions Po(1.2) and Po(0.8). (a) Given that the total is 4, find the probability that all 4 are adult visitors. (b) Use a suitable approximation to find the probability that the total in 10 such periods is at least 25.",
+   "answer": "(a) 0.130 (b) 0.157",
+   "markingKey": "(a) M1 P(X = 4)P(Y = 0) ÷ P(T = 4); A1 0.130 [2] (b) B1 Po(20) ≈ N(20, 20); M1 continuity correction 24.5; M1 z = 1.006; A1 0.157 [4]",
+   "marks": 6,
+   "minutes": 7.5,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock4-q04",
+   "subtopicId": "cambridge-g12-applied-maths-ch06-st1",
+   "chapterId": "cambridge-g12-applied-maths-ch06",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C3",
+   "difficulty": "D4",
+   "type": "numerical",
+   "stem": "A factory in Seoul has found that 12% of the components it makes are faulty. After new machinery is installed, the manager tests whether the proportion of faulty components has decreased. In a random sample of 25 components made by the new machinery, the number of faulty components is 1. State suitable hypotheses and find the set of significance levels, α%, for which H₀ would be rejected.",
+   "answer": "H₀: p = 0.12, H₁: p < 0.12; P(X ≤ 1) = 0.180, so reject H₀ if α > 18.0.",
+   "markingKey": "B1 H₀: p = 0.12, H₁: p < 0.12; M1 P(X ≤ 1) with X ~ B(25, 0.12); A1 0.180; A1 α > 18.0 [4]",
+   "marks": 4,
+   "minutes": 5.0,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock4-q05",
+   "subtopicId": "cambridge-g12-applied-maths-ch03-st1",
+   "chapterId": "cambridge-g12-applied-maths-ch03",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "The continuous random variable X has probability density function given by f(x) = kx³ for 1 ≤ x ≤ 2, and f(x) = 0 otherwise, where k is a constant. (a) Show that k = 4/15. (b) Find P(X > 4/3). (c) Find P(X < 4/3 | X < 5/3).",
+   "answer": "(a) k = 4/15 (b) 208/243 (c) 175/544",
+   "markingKey": "(a) M1 ∫ f(x) dx = 1; A1 k shown [2] (b) M1 ∫ from 4/3 to 2; A1 208/243 [2] (c) M1 P(X < 4/3) ÷ P(X < 5/3); A1 175/544 [2]",
+   "marks": 6,
+   "minutes": 7.5,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock4-q06",
+   "subtopicId": "cambridge-g12-applied-maths-ch05-st2",
+   "chapterId": "cambridge-g12-applied-maths-ch05",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C3",
+   "difficulty": "D4",
+   "type": "numerical",
+   "stem": "The lengths, x cm, of n randomly chosen fish caught in a lake: the population standard deviation is 4 cm. Find the smallest sample size for which the width of a 99% confidence interval for the population mean is at most 0.9 cm.",
+   "answer": "525",
+   "markingKey": "M1 2 × 2.576 × 4/√n ≤ 0.9; M1 √n ≥ 22.9; A1 n = 525 [3]",
+   "marks": 3,
+   "minutes": 4.0,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock4-q07",
+   "subtopicId": "cambridge-g12-applied-maths-ch01-st4",
+   "chapterId": "cambridge-g12-applied-maths-ch01",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C3",
+   "difficulty": "D3",
+   "type": "numerical",
+   "stem": "The number of customers entering a supermarket in a 15-minute period has the distribution Po(44). Use a suitable approximation to find the probability that the number in a 15-minute period is between 38 and 49 inclusive.",
+   "answer": "0.633",
+   "markingKey": "B1 N(44, 44); M1 37.5 and 49.5; M1 standardise both: −0.980, 0.829; A1 0.633 [4]",
+   "marks": 4,
+   "minutes": 5.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G3",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock5-q01",
+   "subtopicId": "cambridge-g12-applied-maths-ch03-st1",
+   "chapterId": "cambridge-g12-applied-maths-ch03",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C1",
+   "difficulty": "D1",
+   "type": "mcq",
+   "stem": "The continuous random variable X has probability density function given by f(x) = k(x + 1) for 0 ≤ x ≤ 2, and f(x) = 0 otherwise, where k is a constant. Find the value of k.",
+   "options": [
+    "1/4",
+    "4",
+    "1/2",
+    "1/8"
+   ],
+   "answer": "1/4",
+   "markingKey": "∫ from 0 to 2 of f(x) dx = 1 gives k = 1/4. [1]",
+   "marks": 1,
+   "minutes": 1.5,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G1",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock5-q02",
+   "subtopicId": "cambridge-g12-applied-maths-ch04-st2",
+   "chapterId": "cambridge-g12-applied-maths-ch04",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C1",
+   "difficulty": "D2",
+   "type": "short",
+   "stem": "Answer both parts. (a) Members of a population of 650 are numbered 001 to 650. Using random digits in groups of three, the group 734 should be (b) Population members are numbered 00 to 89. How many digits should be read at a time from a random number table?",
+   "answer": "(a) ignored, because it is greater than 650 (b) 2",
+   "markingKey": "(a) [1] (b) [1]",
+   "marks": 2,
+   "minutes": 2.5,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G1",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock5-q03",
+   "subtopicId": "cambridge-g12-applied-maths-ch01-st3",
+   "chapterId": "cambridge-g12-applied-maths-ch01",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "0.5% of the light bulbs made in a factory are faulty. A box of 120 bulbs is chosen at random. X is the number of faulty bulbs. (a) State the exact distribution of X. (b) Use the approximation to find P(X ≤ 1). (c) A larger sample of 240 is taken. Use a Poisson approximation to find the probability that it contains more than 2 faulty bulbs.",
+   "answer": "(a) B(120, 0.005) (b) 0.878 (c) 0.121",
+   "markingKey": "(a) B1 [1] (b) M1 e^(−0.6) + e^(−0.6) × 0.6; A1 0.878 [2] (c) B1 Po(1.2); M1 1 − P(Y ≤ 2); A1 0.121 [3]",
+   "marks": 6,
+   "minutes": 7.5,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock5-q04",
+   "subtopicId": "cambridge-g12-applied-maths-ch05-st1",
+   "chapterId": "cambridge-g12-applied-maths-ch05",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C3",
+   "difficulty": "D4",
+   "type": "numerical",
+   "stem": "For the lengths, x cm, of 60 randomly chosen fish caught in a lake, Σ(x − 41) = 18.1 and Σ(x − 41)² = 2086.6. Find unbiased estimates of the population mean and variance.",
+   "answer": "41.3, 35.3",
+   "markingKey": "M1 x̄ = 41 + 18.1/60; A1 41.3; M1 (2086.6 − 18.1²/60) ÷ 59; A1 35.3 [3]",
+   "marks": 3,
+   "minutes": 4.0,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock5-q05",
+   "subtopicId": "cambridge-g12-applied-maths-ch06-st4",
+   "chapterId": "cambridge-g12-applied-maths-ch06",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "The heights of sunflowers of a certain variety grown in Dhaka are normally distributed with mean 165 cm and standard deviation 18 cm. A farmer uses a new fertiliser and wishes to test whether the mean height has decreased. A random sample of 100 sunflowers is to be used to test H₀: μ = 165, H₁: μ < 165 at the 5% significance level. (a) Find the set of values of the sample mean for which H₀ is rejected. (b) State the probability of a Type I error. (c) Find the probability of a Type II error if in fact μ = 161.4.",
+   "answer": "(a) x̄ < 162.0 (b) 0.05 (c) 0.361",
+   "markingKey": "(a) M1 165 − 1.645 × 18/√100; A1 x̄ < 162.0 [2] (b) B1 [1] (c) M1 P(x̄ ≥ 162.0 | μ = 161.4); M1 standardise; A1 0.361 [3]",
+   "marks": 6,
+   "minutes": 7.5,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock5-q06",
+   "subtopicId": "cambridge-g12-applied-maths-ch02-st4",
+   "chapterId": "cambridge-g12-applied-maths-ch02",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C3",
+   "difficulty": "D4",
+   "type": "numerical",
+   "stem": "The numbers of flaws of type A and flaws of type B at a 1 m length of cable have independent distributions Po(0.8) and Po(0.4). Given that the total number is 3, find the probability that exactly 1 are flaws of type A.",
+   "answer": "0.222",
+   "markingKey": "M1 P(X = 1) × P(Y = 2) ÷ P(X + Y = 3); M1 correct Poisson terms with Po(1.2) in denominator; A1 0.222 [3]",
+   "marks": 3,
+   "minutes": 4.0,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock5-q07",
+   "subtopicId": "cambridge-g12-applied-maths-ch01-st2",
+   "chapterId": "cambridge-g12-applied-maths-ch01",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C3",
+   "difficulty": "D3",
+   "type": "numerical",
+   "stem": "Kwame records the number of misprints on each of 50 pages of a newspaper. The results (number: frequency) are 0: 10, 1: 18, 2: 14, 3: 5, 4: 2, 5: 1. Calculate the mean and variance of the data and comment on whether a Poisson distribution might be a suitable model.",
+   "answer": "Mean 1.48 and variance 1.33 are approximately equal, so a Poisson model may be suitable.",
+   "markingKey": "M1 mean 1.48; M1 variance 1.33; A1 both; B1 comment comparing mean and variance [4]",
+   "marks": 4,
+   "minutes": 5.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G3",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock6-q01",
+   "subtopicId": "cambridge-g12-applied-maths-ch02-st4",
+   "chapterId": "cambridge-g12-applied-maths-ch02",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C1",
+   "difficulty": "D1",
+   "type": "short",
+   "stem": "Answer both parts. (a) X ~ Po(2) and Y ~ Po(3) are independent. The distribution of X + Y is (b) The number of red cars passing in a minute is Po(1.5) and of blue cars Po(0.8), independently. The number of red or blue cars in a minute is",
+   "answer": "(a) Po(5) (b) Po(2.3)",
+   "markingKey": "(a) Sum of independent Poisson variables is Poisson with λ = 2 + 3. [1] (b) [1]",
+   "marks": 2,
+   "minutes": 2.5,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G1",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock6-q02",
+   "subtopicId": "cambridge-g12-applied-maths-ch06-st1",
+   "chapterId": "cambridge-g12-applied-maths-ch06",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C1",
+   "difficulty": "D2",
+   "type": "mcq",
+   "stem": "Hypotheses in a test are statements about",
+   "options": [
+    "a sample statistic",
+    "the critical value",
+    "the observed value",
+    "a population parameter"
+   ],
+   "answer": "a population parameter",
+   "markingKey": "Hypotheses refer to p, λ or μ, not to sample statistics. [1]",
+   "marks": 1,
+   "minutes": 1,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G1",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock6-q03",
+   "subtopicId": "cambridge-g12-applied-maths-ch01-st4",
+   "chapterId": "cambridge-g12-applied-maths-ch01",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "The number of calls to a call centre in a one-minute period has the distribution Po(4.5). (a) Find the probability that there are at most 3 in a one-minute period. (b) Use a suitable approximation to find the probability that there are at most 17 in a 5-minute period.",
+   "answer": "(a) 0.342 (b) 0.146",
+   "markingKey": "(a) M1 e^(−4.5) + e^(−4.5) × 4.5 + e^(−4.5) × 4.5²/2! + e^(−4.5) × 4.5³/3!; A1 0.342 [2] (b) B1 N(22.5, 22.5); M1 continuity correction 17.5; M1 z = −1.054; A1 0.146 [4]",
+   "marks": 6,
+   "minutes": 7.5,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock6-q04",
+   "subtopicId": "cambridge-g12-applied-maths-ch05-st4",
+   "chapterId": "cambridge-g12-applied-maths-ch05",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C3",
+   "difficulty": "D4",
+   "type": "numerical",
+   "stem": "For the times, x minutes, taken by 25 randomly chosen students to run 3 km, the sample mean is 17.1 minutes; the population standard deviation is 1 minutes. Calculate a 90% confidence interval for the population mean and use it to comment on a claim that the mean is 17.3 minutes.",
+   "answer": "(16.8, 17.4); the claimed value lies inside, so the claim is not contradicted.",
+   "markingKey": "M1 17.1 ± 1.645 × 1/√25; A1 (16.8, 17.4); B1 conclusion in context [3]",
+   "marks": 3,
+   "minutes": 4.0,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock6-q05",
+   "subtopicId": "cambridge-g12-applied-maths-ch02-st3",
+   "chapterId": "cambridge-g12-applied-maths-ch02",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C4",
+   "difficulty": "D3",
+   "type": "multi_step",
+   "stem": "The time taken by Amara to complete a crossword is X minutes, with X ~ N(31, 4²); the time taken by Lucas is Y minutes, with Y ~ N(40, 7²). All values are independent. (a) Find the probability that a randomly chosen value of X is greater than a randomly chosen value of Y. (b) Find the probability that 2X differs from X₁ + X₂ by more than 4, where X, X₁ and X₂ are independent values.",
+   "answer": "(a) 0.132 (b) 0.683",
+   "markingKey": "(a) B1 X − Y ~ N(−9, 65); M1 z = 1.116; A1 0.132 [3] (b) M1 2X − (X₁ + X₂) ~ N(0, 4 × 16 + 2 × 16 = 96); M1 2 × P(Z > 0.408); A1 0.683 [3]",
+   "marks": 6,
+   "minutes": 7.5,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock6-q06",
+   "subtopicId": "cambridge-g12-applied-maths-ch04-st2",
+   "chapterId": "cambridge-g12-applied-maths-ch04",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C3",
+   "difficulty": "D4",
+   "type": "numerical",
+   "stem": "The 80 houses in a village are numbered 1 to 80 by house number on the council list. Starting at the beginning of the row of random digits below and reading groups of 2 digits, choose a random sample of 5 without replacement. Random digits: 91114 83928 14566 69973 13255 713",
+   "answer": "11, 48, 39, 28, 14 (rejected: 91)",
+   "markingKey": "B1 reads groups of 2; B1 ignores values above 80 (and 0) and repeats; B1 11, 48, 39, 28, 14 [3]",
+   "marks": 3,
+   "minutes": 4.0,
+   "alrRole": "transfer_probe",
+   "likelyGapOnWrong": "G5",
+   "set": "mock"
+  },
+  {
+   "id": "cambridge-g12-applied-maths-mock6-q07",
+   "subtopicId": "cambridge-g12-applied-maths-ch03-st1",
+   "chapterId": "cambridge-g12-applied-maths-ch03",
+   "subjectId": "cambridge-g12-applied-maths",
+   "conceptGroup": "C3",
+   "difficulty": "D3",
+   "type": "numerical",
+   "stem": "The continuous random variable X has probability density function given by f(x) = kx(3 − x) for 0 ≤ x ≤ 3, and f(x) = 0 otherwise, where k is a constant. Find the value of k and hence find P(3/4 < X < 1).",
+   "answer": "k = 2/9; 89/864",
+   "markingKey": "M1 total area 1; A1 k = 2/9; M1 ∫ from 3/4 to 1; A1 89/864 [4]",
+   "marks": 4,
+   "minutes": 5.0,
+   "alrRole": "practised",
+   "likelyGapOnWrong": "G3",
+   "set": "mock"
+  }
+ ],
+ "papers": [
+  {
+   "mock": 1,
+   "sections": [
+    {
+     "name": "short skill items (one-step, non-calculator where relevant)",
+     "questionIds": [
+      "cambridge-g12-applied-maths-mock1-q01",
+      "cambridge-g12-applied-maths-mock1-q02"
+     ]
+    },
+    {
+     "name": "structured multi-part questions (4–8 marks, method marks)",
+     "questionIds": [
+      "cambridge-g12-applied-maths-mock1-q03",
+      "cambridge-g12-applied-maths-mock1-q04"
+     ]
+    },
+    {
+     "name": "extended problems / proofs (8–12 marks)",
+     "questionIds": [
+      "cambridge-g12-applied-maths-mock1-q05",
+      "cambridge-g12-applied-maths-mock1-q06"
+     ]
+    },
+    {
+     "name": "modelling, statistics-in-context & past-paper style items",
+     "questionIds": [
+      "cambridge-g12-applied-maths-mock1-q07"
+     ]
+    }
+   ],
+   "totalMarks": 25,
+   "minutes": 31.5
+  },
+  {
+   "mock": 2,
+   "sections": [
+    {
+     "name": "short skill items (one-step, non-calculator where relevant)",
+     "questionIds": [
+      "cambridge-g12-applied-maths-mock2-q01",
+      "cambridge-g12-applied-maths-mock2-q02"
+     ]
+    },
+    {
+     "name": "structured multi-part questions (4–8 marks, method marks)",
+     "questionIds": [
+      "cambridge-g12-applied-maths-mock2-q03",
+      "cambridge-g12-applied-maths-mock2-q04"
+     ]
+    },
+    {
+     "name": "extended problems / proofs (8–12 marks)",
+     "questionIds": [
+      "cambridge-g12-applied-maths-mock2-q05",
+      "cambridge-g12-applied-maths-mock2-q06"
+     ]
+    },
+    {
+     "name": "modelling, statistics-in-context & past-paper style items",
+     "questionIds": [
+      "cambridge-g12-applied-maths-mock2-q07"
+     ]
+    }
+   ],
+   "totalMarks": 25,
+   "minutes": 32.0
+  },
+  {
+   "mock": 3,
+   "sections": [
+    {
+     "name": "short skill items (one-step, non-calculator where relevant)",
+     "questionIds": [
+      "cambridge-g12-applied-maths-mock3-q01",
+      "cambridge-g12-applied-maths-mock3-q02"
+     ]
+    },
+    {
+     "name": "structured multi-part questions (4–8 marks, method marks)",
+     "questionIds": [
+      "cambridge-g12-applied-maths-mock3-q03",
+      "cambridge-g12-applied-maths-mock3-q04"
+     ]
+    },
+    {
+     "name": "extended problems / proofs (8–12 marks)",
+     "questionIds": [
+      "cambridge-g12-applied-maths-mock3-q05",
+      "cambridge-g12-applied-maths-mock3-q06"
+     ]
+    },
+    {
+     "name": "modelling, statistics-in-context & past-paper style items",
+     "questionIds": [
+      "cambridge-g12-applied-maths-mock3-q07"
+     ]
+    }
+   ],
+   "totalMarks": 25,
+   "minutes": 31.0
+  },
+  {
+   "mock": 4,
+   "sections": [
+    {
+     "name": "short skill items (one-step, non-calculator where relevant)",
+     "questionIds": [
+      "cambridge-g12-applied-maths-mock4-q01",
+      "cambridge-g12-applied-maths-mock4-q02"
+     ]
+    },
+    {
+     "name": "structured multi-part questions (4–8 marks, method marks)",
+     "questionIds": [
+      "cambridge-g12-applied-maths-mock4-q03",
+      "cambridge-g12-applied-maths-mock4-q04"
+     ]
+    },
+    {
+     "name": "extended problems / proofs (8–12 marks)",
+     "questionIds": [
+      "cambridge-g12-applied-maths-mock4-q05",
+      "cambridge-g12-applied-maths-mock4-q06"
+     ]
+    },
+    {
+     "name": "modelling, statistics-in-context & past-paper style items",
+     "questionIds": [
+      "cambridge-g12-applied-maths-mock4-q07"
+     ]
+    }
+   ],
+   "totalMarks": 25,
+   "minutes": 32.0
+  },
+  {
+   "mock": 5,
+   "sections": [
+    {
+     "name": "short skill items (one-step, non-calculator where relevant)",
+     "questionIds": [
+      "cambridge-g12-applied-maths-mock5-q01",
+      "cambridge-g12-applied-maths-mock5-q02"
+     ]
+    },
+    {
+     "name": "structured multi-part questions (4–8 marks, method marks)",
+     "questionIds": [
+      "cambridge-g12-applied-maths-mock5-q03",
+      "cambridge-g12-applied-maths-mock5-q04"
+     ]
+    },
+    {
+     "name": "extended problems / proofs (8–12 marks)",
+     "questionIds": [
+      "cambridge-g12-applied-maths-mock5-q05",
+      "cambridge-g12-applied-maths-mock5-q06"
+     ]
+    },
+    {
+     "name": "modelling, statistics-in-context & past-paper style items",
+     "questionIds": [
+      "cambridge-g12-applied-maths-mock5-q07"
+     ]
+    }
+   ],
+   "totalMarks": 25,
+   "minutes": 32.0
+  },
+  {
+   "mock": 6,
+   "sections": [
+    {
+     "name": "short skill items (one-step, non-calculator where relevant)",
+     "questionIds": [
+      "cambridge-g12-applied-maths-mock6-q01",
+      "cambridge-g12-applied-maths-mock6-q02"
+     ]
+    },
+    {
+     "name": "structured multi-part questions (4–8 marks, method marks)",
+     "questionIds": [
+      "cambridge-g12-applied-maths-mock6-q03",
+      "cambridge-g12-applied-maths-mock6-q04"
+     ]
+    },
+    {
+     "name": "extended problems / proofs (8–12 marks)",
+     "questionIds": [
+      "cambridge-g12-applied-maths-mock6-q05",
+      "cambridge-g12-applied-maths-mock6-q06"
+     ]
+    },
+    {
+     "name": "modelling, statistics-in-context & past-paper style items",
+     "questionIds": [
+      "cambridge-g12-applied-maths-mock6-q07"
+     ]
+    }
+   ],
+   "totalMarks": 25,
+   "minutes": 31.5
+  }
+ ]
+}
