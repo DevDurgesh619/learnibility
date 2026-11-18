@@ -1,0 +1,62 @@
+{
+  "subjectId": "cbse-g9-science",
+  "generatedBy": "scripts/questions/cbse/g9_science.py",
+  "curriculumSource": "data/curriculum/cbse-g9-science.json",
+  "generatedAt": "2026-11-18T08:28:36Z",
+  "chaptersDone": [
+    "cbse-g9-science-ch01",
+    "cbse-g9-science-ch02",
+    "cbse-g9-science-ch03",
+    "cbse-g9-science-ch04",
+    "cbse-g9-science-ch05",
+    "cbse-g9-science-ch06",
+    "cbse-g9-science-ch07",
+    "cbse-g9-science-ch08",
+    "cbse-g9-science-ch09",
+    "cbse-g9-science-ch10",
+    "cbse-g9-science-ch11",
+    "cbse-g9-science-ch12"
+  ],
+  "mocksDone": true,
+  "target": 1197,
+  "generated": 1197,
+  "validated": true,
+  "counts": {
+    "mastery_bank": 600,
+    "practice": 480,
+    "mock": 117,
+    "total": 1197
+  },
+  "mix": {
+    "C": {
+      "C1": 15.2,
+      "C2": 30,
+      "C3": 35,
+      "C4": 19.8
+    },
+    "D": {
+      "D1": 10.5,
+      "D2": 40.5,
+      "D3": 35.5,
+      "D4": 12.7,
+      "D5": 0.8
+    }
+  },
+  "validatedAt": "2026-11-18T08:28:36.957Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": [],
+  "accuracyChecks": {
+    "date": "2026-11-18",
+    "method": "Random sample of 5 items per chapter file and 5 from mocks.json (seed 909, 65 items), plus a second sample of 5 each from ch09-ch12 and mocks (seed 31, 25 items); each re-solved by hand against NCERT class 9 values.",
+    "checked": 90,
+    "mismatches": 2,
+    "fixes": [
+      "ch09 wave-speed generators produced physically impossible speeds of sound (50 m/s, 200 m/s): now built from real media speeds (v = f lambda pairs and lambda = vT).",
+      "ch09 vibration-source key read \"A shehnai is an air column\": key verb changed.",
+      "ch06 energy categories reworded to \"an object possessing kinetic/potential energy\".",
+      "ch04 colloid list: blood replaced by cheese (NCERT example).",
+      "ch12 tree count now says \"at least\" for a rounded-up value."
+    ]
+  }
+}

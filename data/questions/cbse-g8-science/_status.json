@@ -1,0 +1,67 @@
+{
+  "subjectId": "cbse-g8-science",
+  "generatedBy": "scripts/questions/cbse/g8_science.py",
+  "curriculumSource": "data/curriculum/cbse-g8-science.json",
+  "generatedAt": "2026-11-18T08:04:57Z",
+  "chaptersDone": [
+    "cbse-g8-science-ch01",
+    "cbse-g8-science-ch02",
+    "cbse-g8-science-ch03",
+    "cbse-g8-science-ch04",
+    "cbse-g8-science-ch05",
+    "cbse-g8-science-ch06",
+    "cbse-g8-science-ch07",
+    "cbse-g8-science-ch08",
+    "cbse-g8-science-ch09",
+    "cbse-g8-science-ch10",
+    "cbse-g8-science-ch11",
+    "cbse-g8-science-ch12",
+    "cbse-g8-science-ch13"
+  ],
+  "mocksDone": true,
+  "target": 1222,
+  "generated": 1222,
+  "validated": true,
+  "counts": {
+    "mastery_bank": 585,
+    "practice": 520,
+    "mock": 117,
+    "total": 1222
+  },
+  "mix": {
+    "C": {
+      "C1": 15.4,
+      "C2": 29.9,
+      "C3": 34.9,
+      "C4": 19.8
+    },
+    "D": {
+      "D1": 9.9,
+      "D2": 40.5,
+      "D3": 35.6,
+      "D4": 12.5,
+      "D5": 1.5
+    }
+  },
+  "validatedAt": "2026-11-18T08:04:57.587Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": [],
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "5 random generated items per chapter plus 5 mock items re-solved independently (numericals recomputed by hand, facts checked against NCERT Curiosity Class 8)",
+      "checked": 70,
+      "mismatches": 2,
+      "fixes": [
+        "Odd-one-out MCQ on how diseases spread kept the positive stem (\"Which of these diseases spreads ...\") while asking for the odd one: answer did not match stem; CLS template now builds an explicit NOT stem (neg_tpl) and refuses templates without NOT",
+        "Conduction-tester stem used \"She\" for any generated name; rewritten without a pronoun",
+        "Solubility values aligned to the NCERT Class 9 table (KCl 35 g at 20 °C, NH4Cl 41 g at 40 °C)",
+        "Moon-phase item: half moon at sunset placed high in the southern sky (first quarter), not in the west",
+        "Mirror-images formula restricted to angles where 360/θ is even; hair dryer removed from heating-effect list (also has a motor)",
+        "Key wording: plural terms (\"Monsoon winds is\"), \"is bacteria\" in disease keys, food-chain energy stem lost its commas"
+      ],
+      "note": "Generators fixed and the subject regenerated and revalidated after the pass."
+    }
+  ]
+}

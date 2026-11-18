@@ -1,0 +1,62 @@
+{
+  "subjectId": "cbse-g10-science",
+  "generatedBy": "scripts/questions/cbse/g10_science.py",
+  "curriculumSource": "data/curriculum/cbse-g10-science.json",
+  "generatedAt": "2026-11-18T08:56:56Z",
+  "chaptersDone": [
+    "cbse-g10-science-ch01",
+    "cbse-g10-science-ch02",
+    "cbse-g10-science-ch03",
+    "cbse-g10-science-ch04",
+    "cbse-g10-science-ch05",
+    "cbse-g10-science-ch06",
+    "cbse-g10-science-ch07",
+    "cbse-g10-science-ch08",
+    "cbse-g10-science-ch09",
+    "cbse-g10-science-ch10",
+    "cbse-g10-science-ch11",
+    "cbse-g10-science-ch12",
+    "cbse-g10-science-ch13"
+  ],
+  "mocksDone": true,
+  "target": 1404,
+  "generated": 1404,
+  "validated": true,
+  "counts": {
+    "mastery_bank": 650,
+    "practice": 520,
+    "mock": 234,
+    "total": 1404
+  },
+  "mix": {
+    "C": {
+      "C1": 15.5,
+      "C2": 29.8,
+      "C3": 34.9,
+      "C4": 19.7
+    },
+    "D": {
+      "D1": 10.3,
+      "D2": 40.8,
+      "D3": 35.8,
+      "D4": 12.9,
+      "D5": 0.2
+    }
+  },
+  "validatedAt": "2026-11-18T08:56:56.934Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": [],
+  "accuracyChecks": {
+    "date": "2026-11-18",
+    "method": "Random sample of 5 items per chapter file and 5 from mocks.json (seed 1010, 70 items), plus a second full sample on the final build (seed 77, 70 items); each re-solved by hand (balanced equations, mirror/lens formula with NCERT sign convention, Ohm/series-parallel/energy arithmetic, Mendel ratios) against NCERT class 10 values.",
+    "checked": 140,
+    "mismatches": 1,
+    "fixes": [
+      "ch07 response-type classification: ambiguous involuntary vs reflex category removed (one item keyed involuntary was arguably reflex).",
+      "ch03 double-negative electrolyte NOT-question removed.",
+      "ch04 saturated/unsaturated stem now says open-chain hydrocarbon.",
+      "Definition MCQ form disabled (kept as 1-mark written) after two mocks drew near-identical option sets."
+    ]
+  }
+}
