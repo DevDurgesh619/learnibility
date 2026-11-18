@@ -1,0 +1,70 @@
+{
+  "subjectId": "cbse-g11-maths",
+  "generatedBy": "scripts/questions/cbse/g11_maths.py",
+  "curriculumSource": "data/curriculum/cbse-g11-maths.json",
+  "generatedAt": "2026-11-18T09:15:05Z",
+  "chaptersDone": [
+    "cbse-g11-maths-ch01",
+    "cbse-g11-maths-ch02",
+    "cbse-g11-maths-ch03",
+    "cbse-g11-maths-ch04",
+    "cbse-g11-maths-ch05",
+    "cbse-g11-maths-ch06",
+    "cbse-g11-maths-ch07",
+    "cbse-g11-maths-ch08",
+    "cbse-g11-maths-ch09",
+    "cbse-g11-maths-ch10",
+    "cbse-g11-maths-ch11",
+    "cbse-g11-maths-ch12",
+    "cbse-g11-maths-ch13",
+    "cbse-g11-maths-ch14"
+  ],
+  "mocksDone": true,
+  "target": 1654,
+  "generated": 1654,
+  "validated": true,
+  "counts": {
+    "mastery_bank": 980,
+    "practice": 560,
+    "mock": 114,
+    "total": 1654
+  },
+  "mix": {
+    "C": {
+      "C1": 15.1,
+      "C2": 29.7,
+      "C3": 35.1,
+      "C4": 20.1
+    },
+    "D": {
+      "D1": 10,
+      "D2": 40,
+      "D3": 35.1,
+      "D4": 11.9,
+      "D5": 3
+    }
+  },
+  "validatedAt": "2026-11-18T09:15:05.464Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": [],
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "5 random generated items per chapter (14 chapters, 70 items), re-solved by hand with NCERT methods; after the fixes and rebuild, 14 more C3/C4 items were re-solved as a spot check",
+      "checked": 84,
+      "mismatches": 0,
+      "fixes": [],
+      "formattingFixes": [
+        "ASCII hyphen used as a minus sign in some keys (e.g. g(−3) = -5, D = -4, -4x < 4); a maths-wide text pass now writes −",
+        "complex numbers with fractional imaginary part shown as 1/10i; now written as i/10",
+        "angle reduction key read '300° + −360°'; now '300° − 360°'",
+        "circle centre key '(x − (5))²' and term keys '(−1y)', '1x', '+ −1 × 8', '+ −2[…]' tidied",
+        "redundant '√73 = √73' in distance keys; 'ar¹' in GP keys; '1 outcomes' plural; empty coefficient '≥  × 2√49' in AM-GM key",
+        "survey stem 'people using drinks tea…' reworded; Pascal term MCQ stem reworded",
+        "parabola equations with fractional coefficient (y² = −16/5x) now written with integer coefficients (5y² = −16x); cost function shown as x²/10 not 1/10x²"
+      ],
+      "note": "All checked answers were correct. Items checked by hand include interval algebra, three-set counting, vowels-together arrangements (MATHEMATICS, PLANET), binomial independent term, AM:GM ratio, foot of perpendicular, circle through three points, hyperbola through a point, step-deviation variance, grouped median and mean deviation, corrected SD, and addition-rule probability. Fixes were made in the generators; the bank was rebuilt and revalidated (ok)."
+    }
+  ]
+}

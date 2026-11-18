@@ -1,0 +1,65 @@
+{
+  "subjectId": "cbse-g12-physics",
+  "generatedBy": "scripts/questions/cbse/g12_physics.py",
+  "curriculumSource": "data/curriculum/cbse-g12-physics.json",
+  "generatedAt": "2026-11-18T08:39:15Z",
+  "chaptersDone": [
+    "cbse-g12-physics-ch01",
+    "cbse-g12-physics-ch02",
+    "cbse-g12-physics-ch03",
+    "cbse-g12-physics-ch04",
+    "cbse-g12-physics-ch05",
+    "cbse-g12-physics-ch06",
+    "cbse-g12-physics-ch07",
+    "cbse-g12-physics-ch08",
+    "cbse-g12-physics-ch09",
+    "cbse-g12-physics-ch10",
+    "cbse-g12-physics-ch11",
+    "cbse-g12-physics-ch12",
+    "cbse-g12-physics-ch13",
+    "cbse-g12-physics-ch14"
+  ],
+  "mocksDone": true,
+  "target": 1598,
+  "generated": 1598,
+  "validated": true,
+  "counts": {
+    "mastery_bank": 840,
+    "practice": 560,
+    "mock": 198,
+    "total": 1598
+  },
+  "mix": {
+    "C": {
+      "C1": 15,
+      "C2": 30,
+      "C3": 35,
+      "C4": 20
+    },
+    "D": {
+      "D1": 10.1,
+      "D2": 40,
+      "D3": 35.1,
+      "D4": 12,
+      "D5": 2.7
+    }
+  },
+  "validatedAt": "2026-11-18T08:39:16.737Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": [],
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "5 random generated items per chapter (14 chapters) re-solved by hand with NCERT formulas (70 items)",
+      "checked": 70,
+      "mismatches": 0,
+      "fixes": [],
+      "formattingFixes": [
+        "given data 0.0025 m² displayed as 0.003 in a flux key (shared g() helper); now keeps 4 significant figures",
+        "electron-acceleration item asked for kinetic energy and speed but answered only speed; answer now gives both"
+      ],
+      "note": "All 70 answers were correct. Fixes applied in generators; bank regenerated and revalidated (ok). Also checked during build: Lenz-law direction item and lens/mirror sign conventions."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "subjectId": "cbse-g11-physics",
+  "generatedBy": "scripts/questions/cbse/g11_physics.py",
+  "curriculumSource": "data/curriculum/cbse-g11-physics.json",
+  "generatedAt": "2026-11-18T08:39:16Z",
+  "chaptersDone": [
+    "cbse-g11-physics-ch01",
+    "cbse-g11-physics-ch02",
+    "cbse-g11-physics-ch03",
+    "cbse-g11-physics-ch04",
+    "cbse-g11-physics-ch05",
+    "cbse-g11-physics-ch06",
+    "cbse-g11-physics-ch07",
+    "cbse-g11-physics-ch08",
+    "cbse-g11-physics-ch09",
+    "cbse-g11-physics-ch10",
+    "cbse-g11-physics-ch11",
+    "cbse-g11-physics-ch12",
+    "cbse-g11-physics-ch13",
+    "cbse-g11-physics-ch14"
+  ],
+  "mocksDone": true,
+  "target": 1499,
+  "generated": 1499,
+  "validated": true,
+  "counts": {
+    "mastery_bank": 840,
+    "practice": 560,
+    "mock": 99,
+    "total": 1499
+  },
+  "mix": {
+    "C": {
+      "C1": 15,
+      "C2": 30,
+      "C3": 35,
+      "C4": 20
+    },
+    "D": {
+      "D1": 10,
+      "D2": 40,
+      "D3": 35.1,
+      "D4": 12,
+      "D5": 2.9
+    }
+  },
+  "validatedAt": "2026-11-18T08:39:16.968Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": [],
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "5 random generated items per chapter (14 chapters) re-solved by hand with NCERT formulas (70 items)",
+      "checked": 70,
+      "mismatches": 2,
+      "fixes": [
+        "ch08 stress-strain graph: Young's modulus was computed from the unrounded strain, not the strain shown in the stem (8.8 vs 9.0 x 10^10); now computed from the displayed value",
+        "ch14 frequency-formula MCQ: 'v/2L' and 'v/2L (all harmonics present)' both appeared as options; table rebuilt with distinct formulas"
+      ],
+      "formattingFixes": [
+        "sig() now rounds half-up (1.365 x 10^5 -> 1.37 x 10^5), not round-half-even",
+        "Searle's apparatus data now gives realistic Young's modulus (was up to 7.8 x 10^11)",
+        "coefficient 1 shown as '1t²' in x(t)",
+        "'π/2t' written as '(π/2)t'",
+        "ASCII minus in isothermal-work key",
+        "trolley work item no longer uses 90°/120° pull angles",
+        "g() stem formatting kept too few decimals for small values (0.0025 shown as 0.003); fixed in g11_physics_util and bank regenerated"
+      ],
+      "note": "Fixes applied in generators; bank regenerated and revalidated (ok)."
+    }
+  ]
+}
