@@ -46,10 +46,10 @@ export function UniMark({ uni, size = 'md' }: { uni: Pick<University, 'shortName
 }
 
 /** Photo credit for a campus image (author, licence, source), as the licence requires. */
-export function PhotoCredit({ photo, className }: { photo: { author: string; license: string; licenseUrl?: string; sourceUrl: string }; className?: string }) {
+export function PhotoCredit({ photo, className }: { photo: { author: string; license: string; licenseUrl?: string; sourceUrl: string; source: string }; className?: string }) {
   return (
     <a href={photo.sourceUrl} target="_blank" rel="noreferrer" className={cn('text-[10px] leading-none text-white/85 hover:text-white hover:underline', className)}>
-      Photo: {photo.author} · {photo.license} · Wikimedia Commons
+      Photo: {photo.author} · {photo.license} · {photo.source}
     </a>
   );
 }

@@ -9,7 +9,7 @@ import { getUniversity } from '@/lib/data';
 
 export const metadata: Metadata = { title: 'Photo credits · Learnibility' };
 
-/** Credits for every bundled photo: Unsplash portraits (Unsplash License) and Wikimedia Commons campus photos (their own licences). */
+/** Credits for every bundled photo: Unsplash portraits (Unsplash License) and Creative Commons campus photos from Flickr and Wikimedia Commons (their own licences). */
 export default function CreditsPage() {
   const people = Object.entries(PERSON_PHOTOS).sort((a, b) => a[1].name.localeCompare(b[1].name));
   const campuses = Object.entries(UNI_PHOTOS).map(([id, p]) => ({ id, p, name: getUniversity(id)?.name ?? id })).sort((a, b) => a.name.localeCompare(b.name));
@@ -28,7 +28,7 @@ export default function CreditsPage() {
         </div>
         {campuses.length > 0 && (
           <Card>
-            <CardHeader title="University campus photos" description="From Wikimedia Commons, under the licence shown for each. Click through for the original file." />
+            <CardHeader title="University campus photos" description="From Flickr (found via Openverse) and Wikimedia Commons, under the licence shown for each. Click through for the original." />
             <CardBody className="pt-3">
               <ul className="grid gap-3 sm:grid-cols-2">
                 {campuses.map(({ id, p, name }) => (
