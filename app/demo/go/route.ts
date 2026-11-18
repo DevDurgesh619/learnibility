@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { resetDemo } from '@/lib/actions/core';
+import { resetCookie, resetDemo } from '@/lib/actions/core';
 import { SESSION_COOKIE } from '@/lib/session';
 import { resolvePersona } from '@/components/demo/resolve';
 import { DEMO_COOKIE, findScenario, hrefForStep, personaForStep } from '@/components/demo/scenarios';
@@ -9,7 +9,7 @@ import { DEMO_COOKIE, findScenario, hrefForStep, personaForStep } from '@/compon
  * scenario and step for the Demo guide panel, and opens the step's route.
  * POST (the "Start" button on /demo) does the same for step 0 after resetting every demo write.
  */
-function go(req: Request, scenarioId: string | null, stepParam: string | null) {
+function go(req: Request, scenarioId: string | null, stepParam: string | null, resetEpoch?: number) {
   const scenario = findScenario(scenarioId);
   if (!scenario) return NextResponse.redirect(new URL('/demo', req.url), 303);
   const step = Math.max(0, Math.min(scenario.steps.length - 1, Number(stepParam) || 0));
@@ -19,6 +19,7 @@ function go(req: Request, scenarioId: string | null, stepParam: string | null) {
   const opts = { path: '/', sameSite: 'lax' as const, maxAge: 60 * 60 * 24 };
   res.cookies.set(SESSION_COOKIE, persona.id, { ...opts, httpOnly: true, maxAge: 60 * 60 * 24 * 30 });
   res.cookies.set(DEMO_COOKIE, `${scenario.id}:${step}`, opts);
+  if (resetEpoch) res.cookies.set(resetCookie(resetEpoch));
   return res;
 }
 
@@ -29,6 +30,6 @@ export async function GET(req: Request) {
 
 export async function POST(req: Request) {
   const form = await req.formData();
-  resetDemo();
-  return go(req, String(form.get('scenario') ?? ''), '0');
+  const { epoch } = resetDemo();
+  return go(req, String(form.get('scenario') ?? ''), '0', epoch);
 }
