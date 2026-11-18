@@ -1,0 +1,66 @@
+{
+  "subjectId": "cbse-g11-english",
+  "generatedBy": "scripts/questions/cbse/g11_english.py",
+  "curriculumSource": "data/curriculum/cbse-g11-english.json",
+  "generatedAt": "2026-11-18T10:57:14Z",
+  "chaptersDone": [
+    "cbse-g11-english-ch01",
+    "cbse-g11-english-ch02",
+    "cbse-g11-english-ch03",
+    "cbse-g11-english-ch04",
+    "cbse-g11-english-ch05",
+    "cbse-g11-english-ch06",
+    "cbse-g11-english-ch07",
+    "cbse-g11-english-ch08",
+    "cbse-g11-english-ch09",
+    "cbse-g11-english-ch10",
+    "cbse-g11-english-ch11",
+    "cbse-g11-english-ch12",
+    "cbse-g11-english-ch13",
+    "cbse-g11-english-ch14",
+    "cbse-g11-english-ch15"
+  ],
+  "mocksDone": true,
+  "target": 948,
+  "generated": 948,
+  "validated": true,
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "Two passes re-solved by hand: 5 random items per chapter file (15 chapters) plus 5 mock items (seed 3; 80 items), then 4 per file (seed 11; 64 items) after fixes. Every literature-subtopic stem checked by script to name its text in quotation marks (writing tasks excepted), every MCQ checked for duplicate options, and all 46 Assertion-Reason source tuples reviewed so that every false reason is plainly false from the text",
+      "checked": 144,
+      "mismatches": 5,
+      "fixes": [
+        "Assertion-Reason stems for 'Childhood' (and potentially 'Birth') counted as naming the text because the title is a common word; the naming check now requires the quoted title, and such assertions are prefixed with the title",
+        "false reasons that could not be judged from the text (e.g. 'The food in Tibet was spicy', 'It was her father's birthday', 'He failed his geography test') replaced by statements the text plainly contradicts; one 'true but unrelated' reason that was actually false ('The English school was attached to a temple') replaced",
+        "the 'In <title>, …' prefix lower-cased names at the start of a question ('panipat', 'gaitonde'); only common words are now lower-cased"
+      ],
+      "note": "Second sample found no wrong keys. All prose extracts and reading/note-making passages are original; only Whitman's 'The Voice of the Rain' (public domain) is quoted; the other poems are represented by original passages on their themes. Facts kept to well-known points (authors, characters, main events, themes); uncertain details (e.g. rhyme schemes, exact wording of 'Father to Son') were left out."
+    }
+  ],
+  "counts": {
+    "mastery_bank": 450,
+    "practice": 450,
+    "mock": 48,
+    "total": 948
+  },
+  "mix": {
+    "C": {
+      "C1": 15.1,
+      "C2": 30.2,
+      "C3": 35.1,
+      "C4": 19.6
+    },
+    "D": {
+      "D1": 9.8,
+      "D2": 39.6,
+      "D3": 35.6,
+      "D4": 12,
+      "D5": 3.1
+    }
+  },
+  "validatedAt": "2026-11-18T10:57:14.967Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": []
+}

@@ -1,0 +1,70 @@
+{
+  "subjectId": "cbse-g11-hindi",
+  "generatedBy": "scripts/questions/cbse/g11_hindi.py",
+  "curriculumSource": "data/curriculum/cbse-g11-hindi.json",
+  "generatedAt": "2026-11-18T10:37:50Z",
+  "chaptersDone": [
+    "cbse-g11-hindi-ch01",
+    "cbse-g11-hindi-ch02",
+    "cbse-g11-hindi-ch03",
+    "cbse-g11-hindi-ch04",
+    "cbse-g11-hindi-ch05",
+    "cbse-g11-hindi-ch06",
+    "cbse-g11-hindi-ch07",
+    "cbse-g11-hindi-ch08",
+    "cbse-g11-hindi-ch09",
+    "cbse-g11-hindi-ch10",
+    "cbse-g11-hindi-ch11",
+    "cbse-g11-hindi-ch12",
+    "cbse-g11-hindi-ch13",
+    "cbse-g11-hindi-ch14",
+    "cbse-g11-hindi-ch15",
+    "cbse-g11-hindi-ch16",
+    "cbse-g11-hindi-ch17",
+    "cbse-g11-hindi-ch18",
+    "cbse-g11-hindi-ch19"
+  ],
+  "mocksDone": true,
+  "target": 1176,
+  "generated": 1176,
+  "validated": true,
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "Two passes re-solved by hand: 5 random items per chapter file (19 chapters) plus 5 mock items (seed 3; 100 items), then 3 per file (seed 11; 60 items) after fixes. Every literature-subtopic stem checked by script to name its text, every MCQ checked for duplicate options, and every name-led option checked by script for verb gender agreement",
+      "checked": 160,
+      "mismatches": 7,
+      "fixes": [
+        "situation MCQs ('किसका आचरण … के अनुरूप है?') put a masculine verb after a girl's name (e.g. 'इशिता हाथ के काम को अपमानजनक मानता है'); options now agree verb and participle with the actor's gender (5 items in the first sample)",
+        "'घर की याद' true/false lead said 'पिता के चित्रण' while the statement pool also covers the सावन address; lead widened to 'पिता के चित्रण और सावन के प्रसंग'",
+        "अपठित गद्यांश written question on lost water traditions could appear without the sentences it relies on ('इन परंपराओं'); passages now always include the sentences each written question needs and the sentences a chosen sentence leans on"
+      ],
+      "note": "Second sample found no wrong keys. Prose extracts and all अपठित texts are original; only public-domain verse (कबीर, मीरा) is quoted; modern poems (घर की याद, चंपा…, दुष्यंत की ग़ज़ल, अक्क महादेवी, पाश, निर्मला पुतुल) are paraphrased and marked as such."
+    }
+  ],
+  "counts": {
+    "mastery_bank": 570,
+    "practice": 570,
+    "mock": 36,
+    "total": 1176
+  },
+  "mix": {
+    "C": {
+      "C1": 17.5,
+      "C2": 28.9,
+      "C3": 33.7,
+      "C4": 19.8
+    },
+    "D": {
+      "D1": 7.2,
+      "D2": 40.9,
+      "D3": 36.5,
+      "D4": 13,
+      "D5": 2.5
+    }
+  },
+  "validatedAt": "2026-11-18T10:37:51.270Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": []
+}
