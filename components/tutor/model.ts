@@ -1,5 +1,5 @@
 import 'server-only';
-import { addDaysLocal, demoNow, demoToday, getAttempts, getGaps, getMastery, getTasks, getTutorWorkspace, localDateOf, namesFor } from '@/lib/data';
+import { addDaysLocal, demoNow, demoToday, getAttempts, getGaps, getMastery, getQuestion, getTasks, getTutorWorkspace, localDateOf, namesFor } from '@/lib/data';
 import type { Assignment, Attempt, Booking, GapRecord, LocalDate, MasteryRecord, Session, Task, TutorWorkspace } from '@/lib/data/types';
 
 /**
@@ -137,16 +137,18 @@ export interface TodayItem {
   done: boolean;
 }
 
-export function todayItems(ws: TutorWorkspace): TodayItem[] {
+/** 6a: the day's checklist. For another day only that day's sessions (prep, session, report) are listed. */
+export function todayItems(ws: TutorWorkspace, day: LocalDate = demoToday()): TodayItem[] {
   const today = demoToday();
   const items: TodayItem[] = [];
-  for (const s of sessionsOn(ws, today)) {
+  for (const s of sessionsOn(ws, day).filter((x) => x.status !== 'cancelled')) {
     const who = sessionWho(ws, s);
     const prepAt = new Date(Date.parse(s.startUtc) - 30 * 60_000).toISOString();
-    items.push({ id: `prep-${s.id}`, at: prepAt, kind: 'prep', title: `Prepare ${who}'s ${s.kind === 'demo' ? 'demo' : 'session'}`, detail: s.focus ? `AI focus: ${s.focus}` : '5 min with the AI briefing', href: `/tutor/sessions/${s.id}/prep`, cta: 'Open prep', done: !!s.prepNotes || !!s.report });
-    items.push({ id: `ses-${s.id}`, at: s.startUtc, kind: 'session', title: `${who} · ${s.title}`, detail: `${s.minutes} min · ${s.kind === 'group' ? 'group' : s.kind === 'demo' ? 'demo' : '1:1'}`, href: `/tutor/sessions/${s.id}/live`, cta: 'Join', done: !!s.report || s.status === 'completed' });
+    items.push({ id: `prep-${s.id}`, at: prepAt, kind: 'prep', title: `Prepare ${who}'s ${s.kind === 'demo' ? 'demo' : 'session'}`, detail: `AI focus: ${aiFocus(ws, s).line}`, href: `/tutor/sessions/${s.id}/prep`, cta: 'Open prep', done: !!s.prepNotes || !!s.report });
+    items.push({ id: `ses-${s.id}`, at: s.startUtc, kind: 'session', title: `${who} · ${s.title}`, detail: `${s.minutes} min · ${s.kind === 'group' ? 'group' : s.kind === 'demo' ? 'demo' : '1:1'}`, href: `/tutor/sessions/${s.id}/live`, cta: 'Join', done: !!s.report || s.status !== 'scheduled' || !isUpcoming(s) });
     if (s.kind !== 'demo') items.push({ id: `rep-${s.id}`, at: new Date(Date.parse(s.startUtc) + s.minutes * 60_000).toISOString(), kind: 'report', title: `Report for ${who}`, detail: '2 min after the session', href: `/tutor/sessions/${s.id}/report`, cta: 'Write report', done: !!s.report });
   }
+  if (day !== today) return items.sort((a, b) => (a.at ?? 'z').localeCompare(b.at ?? 'z'));
   for (const s of ws.sessions.filter((x) => reportMissing(x) && localDateOf(x.startUtc) < today && x.kind !== 'demo')) {
     items.push({ id: `rep-${s.id}`, kind: 'report', title: `Report missing · ${sessionWho(ws, s)} ${s.code ?? ''}`.trim(), detail: 'Earnings are held until it is filed', href: `/tutor/sessions/${s.id}/report`, cta: 'Write report', done: false });
   }
@@ -262,4 +264,112 @@ export function sessionPlan(ws: TutorWorkspace, s: Session): { minutes: number; 
 
 export function money(n: number) {
   return '₹' + Math.round(n).toLocaleString('en-IN');
+}
+
+/** The tutor's view of one of their students; undefined when the learner is not theirs. */
+export function studentContext(tutorId: string, learnerId: string) {
+  const ws = getTutorWorkspace(tutorId);
+  if (!ws) return undefined;
+  const row = studentRows(ws).find((r) => r.learnerId === learnerId);
+  if (!row) return undefined;
+  return { ws, row };
+}
+
+// ------------------------------------------------------------------ assignment questions (tutor-authored or bank)
+
+/** A question as the tutor sees it. Tutor-made questions live on the assignment (`questions`); bank ones resolve by id. */
+export interface TutorQuestion { id: string; type: string; subtopicId: string; stem: string; options?: string[] | null; answer: string; markingKey?: string; marks: number }
+export type TutorAssignment = Assignment & {
+  questions?: TutorQuestion[]; feedback?: { strength: string; weakness: string; nextStep: string };
+  submittedUtc?: string; minutesTaken?: number; source?: 'ai' | 'bank' | 'upload'; evaluation?: 'ai_review' | 'manual'; timeLimitMin?: number; publishedUtc?: string;
+};
+
+export function questionsOf(a: TutorAssignment): TutorQuestion[] {
+  if (a.questions?.length) return a.questions;
+  return a.questionIds.map((id) => getQuestion(id)).filter((q) => !!q).map((q) => ({ id: q!.id, type: q!.type, subtopicId: q!.subtopicId, stem: q!.stem, options: q!.options, answer: String(q!.answer), markingKey: q!.markingKey, marks: q!.marks }));
+}
+
+export interface ItemReview {
+  id: string; title: string; date: string; minutes?: number; pct: number; prevPct: number | null; kind: 'assignment' | 'attempt';
+  rows: { subtopicId: string; name: string; n: number; pct: number; band: 'Strong' | 'Medium' | 'Weak' }[];
+  questions: { n: number; q?: TutorQuestion; correct?: boolean; answer?: string; why?: string; seconds?: number; needsReview?: boolean; score?: number }[];
+  strength: string; weakness: string; nextStep: string; weakest?: string;
+}
+
+/** 4d/4e: gap analysis of one assessment or assignment, per subtopic and per question. */
+export function itemReview(ws: TutorWorkspace, learnerId: string, itemId: string): ItemReview | undefined {
+  const series = scoreSeries(ws, learnerId);
+  const idx = series.findIndex((s) => s.id === itemId);
+  const prevPct = idx > 0 ? series[idx - 1]!.pct : null;
+  const a = ws.assignments.find((x) => x.id === itemId && x.learnerId === learnerId) as TutorAssignment | undefined;
+  let questions: ItemReview['questions'] = [];
+  let title = '', date = '', minutes: number | undefined, pct = 0, subjectIds: string[] = [];
+  if (a) {
+    const qs = questionsOf(a);
+    const pq = new Map((a.perQuestion ?? []).map((p) => [p.questionId, p]));
+    questions = qs.map((q, i) => { const p = pq.get(q.id); return { n: i + 1, q, correct: p?.correct ?? undefined, answer: p?.answer, why: p?.aiFeedback, needsReview: p?.needsReview, score: p?.tutorScore ?? p?.aiScore }; });
+    title = a.title; date = a.submittedUtc ?? `${a.dueOn}T12:00:00.000Z`; minutes = a.minutesTaken;
+    pct = a.score !== undefined && a.maxScore ? Math.round((a.score / a.maxScore) * 100) : 0;
+    subjectIds = [...new Set(a.subtopicIds.map((s) => s.replace(/-ch\d+-st\d+$/, '')))];
+  } else {
+    const at = getAttempts(learnerId).find((x) => x.id === itemId);
+    if (!at) return undefined;
+    title = at.title; date = at.submittedUtc; minutes = Math.round((Date.parse(at.submittedUtc) - Date.parse(at.startedUtc)) / 60_000); pct = Math.round((at.score / Math.max(1, at.maxScore)) * 100);
+    subjectIds = [at.subjectId];
+    const byId = new Map(at.responses.map((r) => [r.questionId, r]));
+    questions = at.questionIds.map((id, i) => {
+      const q = getQuestion(id); const r = byId.get(id);
+      return { n: i + 1, q: q ? { id, type: q.type, subtopicId: q.subtopicId, stem: q.stem, options: q.options, answer: String(q.answer), markingKey: q.markingKey, marks: q.marks } : undefined, correct: r?.correct, answer: r?.answer, seconds: r?.secondsTaken, why: r && !r.correct && q?.likelyGapOnWrong ? `Likely ${q.likelyGapOnWrong} gap: ${q.markingKey}` : undefined };
+    });
+  }
+  const names = namesFor(subjectIds);
+  const groups = new Map<string, { n: number; ok: number }>();
+  for (const x of questions) {
+    if (!x.q) continue;
+    const g = groups.get(x.q.subtopicId) ?? { n: 0, ok: 0 };
+    g.n += 1; g.ok += x.correct ? 1 : x.correct === undefined && x.score !== undefined ? x.score / Math.max(1, x.q.marks) : 0;
+    groups.set(x.q.subtopicId, g);
+  }
+  const rows = [...groups.entries()].map(([sid, g]) => {
+    const p = Math.round((g.ok / g.n) * 100);
+    return { subtopicId: sid, name: (names[sid] ?? sid).split(/[;:]/)[0]!, n: g.n, pct: p, band: (p >= 80 ? 'Strong' : p >= 55 ? 'Medium' : 'Weak') as 'Strong' | 'Medium' | 'Weak' };
+  }).sort((x, y) => y.pct - x.pct);
+  const best = rows[0], worst = rows.at(-1);
+  return {
+    id: itemId, title, date, minutes, pct, prevPct, kind: a ? 'assignment' : 'attempt', rows, questions,
+    strength: a?.feedback?.strength ?? (best ? `${best.name}: ${best.pct}% correct.` : 'Too few marked questions to say.'),
+    weakness: a?.feedback?.weakness ?? (worst && worst !== best ? `${worst.name}: ${worst.pct}% correct.` : 'No clear weak area.'),
+    nextStep: a?.feedback?.nextStep ?? (worst ? `15-minute practice on ${worst.name.toLowerCase()}, then review it in the next session.` : 'Keep going with the plan.'),
+    weakest: worst?.subtopicId,
+  };
+}
+
+// ------------------------------------------------------------------ one session (5c to 5g)
+
+/** Everything the session screens need: the session, who is in it, the last session with a report, the latest assignment and its homework. */
+export function sessionContext(tutorId: string, sessionId: string) {
+  const ws = getTutorWorkspace(tutorId);
+  const s = ws?.sessions.find((x) => x.id === sessionId);
+  if (!ws || !s) return undefined;
+  const learners = s.learnerIds?.length ? s.learnerIds : [s.learnerId];
+  const lid = learners[0]!;
+  const prev = sessionsFor(ws, lid).filter((x) => x.report && x.startUtc < s.startUtc).sort((a, b) => a.startUtc.localeCompare(b.startUtc)).at(-1);
+  const next = sessionsFor(ws, lid).filter((x) => x.status === 'scheduled' && x.startUtc > s.startUtc && x.id !== s.id).sort((a, b) => a.startUtc.localeCompare(b.startUtc))[0];
+  const homework = (sess?: Session) => sess?.report ? getTasks(lid).filter((t) => t.refId === sess.id || sess.report!.homeworkTaskIds.includes(t.id)) : [];
+  const series = scoreSeries(ws, lid).filter((x) => !s.subjectId || !x.subjectId || x.subjectId === s.subjectId);
+  const latest = series.at(-1);
+  const before = series.at(-2);
+  const lastNote = ws.notes.filter((n) => n.learnerId === lid).sort((a, b) => b.createdUtc.localeCompare(a.createdUtc))[0];
+  const earning = earningRows(ws).find((r) => r.session.id === s.id);
+  return { ws, s, learners, lid, prev, next, prevHomework: homework(prev), ownHomework: homework(s), latest, latestDelta: latest && before ? latest.pct - before.pct : null, lastNote, earning, booking: ws.bookings.find((b) => b.id === s.bookingId) };
+}
+
+/** 5e: suggested next focus once this session is done; the next open gap after the one just taught. */
+export function suggestNextFocus(ws: TutorWorkspace, s: Session): string {
+  const lid = s.learnerIds?.[0] ?? s.learnerId;
+  const current = aiFocus(ws, s).line.split(':')[0]!.toLowerCase();
+  const gaps = openGapsFor(lid, s.subjectId ? [s.subjectId] : []).sort((a, b) => b.hoursToClose - a.hoursToClose);
+  const names = namesFor([...new Set(gaps.map((g) => g.subjectId))]);
+  const g = gaps.map((x) => ({ x, name: names[x.subtopicId] ?? x.subtopicId })).find((y) => !current.includes(y.name.toLowerCase().slice(0, 12)));
+  return g ? `${g.name}: ${GAP_FOCUS[g.x.code] ?? 'close the gap'}` : `Consolidate ${current} with mixed practice`;
 }

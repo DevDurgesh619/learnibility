@@ -392,7 +392,7 @@ def assignment(aid, lid, title, stids, qs, status, due, score=None, max_score=No
     asg.append(a)
 
 
-assignment('asg_w2t_tanvi_hw3', 'lrn_tanvi_bhatia', "Laws of Motion HW-3", [f'{T4}-st1', f'{T4}-st2', f'{T4}-st3'], hw3, 'ai_evaluated', date(2026, 11, 16), 27, 40,
+assignment('asg_w2t_tanvi_hw3', 'lrn_tanvi_bhatia', "Laws of Motion HW-3", [f'{T4}-st1', f'{T4}-st2', f'{T4}-st3'], hw3, 'ai_evaluated', date(2026, 11, 16), 22, 30,
            {'submittedUtc': iso(at(date(2026, 11, 16), '21:40')), 'minutesTaken': 28,
             'feedback': {'strength': 'Free-body diagrams drawn correctly; recognises which law applies.', 'weakness': 'Picks the wrong equation for connected bodies; friction sign errors on inclines.',
                          'nextStep': '15-minute practice on constraint equations, then review in the next session.'}})

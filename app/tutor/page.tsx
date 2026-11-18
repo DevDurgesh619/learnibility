@@ -4,11 +4,11 @@ import Link from 'next/link';
 import { CheckCircle2, Eye, Inbox, Share2, Star } from 'lucide-react';
 import { TUTOR_HOME_COOKIE } from '@/components/tutor/constants';
 import { NeedsAttention, NextSessionCard, QuickActions, RequestRow, RestOfToday, ReviewQueue } from '@/components/tutor/home/parts';
-import { money, needsAttention, isUpcoming, loadWorkspace, requests, reviewQueue, sessionsOn, studentRows, todayItems } from '@/components/tutor/model';
+import { earningRows, money, needsAttention, isUpcoming, loadWorkspace, requests, reviewQueue, sessionsOn, studentRows, todayItems } from '@/components/tutor/model';
 import { formatDay } from '@/components/marketplace/dates';
 import { buttonVariants } from '@/components/ui/button';
 import { Card, CardBody, CardHeader } from '@/components/ui/card';
-import { demoNow, demoToday, getTasks } from '@/lib/data';
+import { demoNow, demoToday, getTasks, localDateOf } from '@/lib/data';
 import { setHomeLayout } from '@/lib/actions/tutor';
 import { currentPersona } from '@/lib/session';
 import { cn } from '@/lib/utils';
@@ -36,7 +36,7 @@ export default async function TutorHome({ searchParams }: { searchParams: Promis
   const next = ws.sessions.filter((s) => isUpcoming(s)).sort((a, b) => a.startUtc.localeCompare(b.startUtc))[0];
   const tasksDue = ws.students.reduce((n, s) => n + getTasks(s.learnerId, demoToday(), { createdBy: ws.tutor.id, status: 'todo' }).length, 0);
   const month = demoToday().slice(0, 7);
-  const thisMonth = ws.earnings.find((e) => e.month === month);
+  const thisMonth = { netInr: earningRows(ws).filter((r) => localDateOf(r.session.startUtc).startsWith(month)).reduce((a, r) => a + r.netInr, 0) };
 
   return (
     <>
