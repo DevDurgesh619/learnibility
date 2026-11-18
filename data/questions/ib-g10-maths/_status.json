@@ -1,0 +1,161 @@
+{
+  "subjectId": "ib-g10-maths",
+  "board": "ib",
+  "grade": 10,
+  "target": {
+    "total": 1350,
+    "bankPerChapter": 60,
+    "questionsPerForm": 20,
+    "mocks": 6,
+    "questionsPerMock": 25
+  },
+  "chapters": {
+    "ib-g10-maths-ch01": {
+      "mastery": 60,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:59:27Z"
+    },
+    "ib-g10-maths-ch02": {
+      "mastery": 60,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:59:27Z"
+    },
+    "ib-g10-maths-ch03": {
+      "mastery": 60,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:59:27Z"
+    },
+    "ib-g10-maths-ch04": {
+      "mastery": 60,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:59:27Z"
+    },
+    "ib-g10-maths-ch05": {
+      "mastery": 60,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:59:27Z"
+    },
+    "ib-g10-maths-ch06": {
+      "mastery": 60,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:59:27Z"
+    },
+    "ib-g10-maths-ch07": {
+      "mastery": 60,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:59:27Z"
+    },
+    "ib-g10-maths-ch08": {
+      "mastery": 60,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:59:27Z"
+    },
+    "ib-g10-maths-ch09": {
+      "mastery": 60,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:59:27Z"
+    },
+    "ib-g10-maths-ch10": {
+      "mastery": 60,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:59:27Z"
+    },
+    "ib-g10-maths-ch11": {
+      "mastery": 60,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:59:28Z"
+    },
+    "ib-g10-maths-ch12": {
+      "mastery": 60,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:59:28Z"
+    }
+  },
+  "counts": {
+    "mastery_bank": 720,
+    "practice": 480,
+    "mock": 150,
+    "total": 1350
+  },
+  "validated": true,
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "checked": 60,
+      "method": "5 random items per chapter (seed 1010) re-solved by hand / independent Python check (statistics module for r, σ, regression); plus targeted sampling of every ch10–ch12 template before release",
+      "mismatches": 2,
+      "fixed": [
+        "ch11 pearson_task: (d) claimed only set 1 was useful even when set 2 had strong r; set 2 now regenerated to |r| < 0.4 and (d) quotes both |r| values",
+        "ch09 arc_sector: stem asked for exact form but answer gave decimals only; now gives kπ ≈ value",
+        "term definitions beginning with a formula were capitalised by the engine (e.g. \"Y = a(x − h)²\", \"Log_b\"); 25 definitions reworded to begin with a word",
+        "ch04 taxi fare formatting, ch05 app-users context (100 million users vs national population) reworded",
+        "pre-pass on ch10–ch12: vec_solve parallel branch crash, (−4)² brackets, k shown with ASCII hyphen, ch11 bestfit_interpret predictions now use the stated rounded line, pearson_r2 sign now matches context, stratified sample totals always equal n, venn_task wording"
+      ],
+      "notes": "58/60 matched on the first pass; both mismatches fixed in the generators, chapters regenerated and revalidated (ok, 1350 questions)."
+    }
+  ],
+  "updatedUtc": "2026-11-18T09:59:28Z",
+  "generatedBy": "scripts/questions/ib/engine.py",
+  "mocks": {
+    "papers": 6,
+    "questions": 150
+  },
+  "mastery": {
+    "conceptGroup": {
+      "C1": 15,
+      "C2": 30,
+      "C3": 35,
+      "C4": 20
+    },
+    "difficulty": {
+      "D1": 10,
+      "D2": 40,
+      "D3": 35,
+      "D4": 11.7,
+      "D5": 3.3
+    }
+  },
+  "mix": {
+    "C": {
+      "C1": 15,
+      "C2": 30,
+      "C3": 35,
+      "C4": 20
+    },
+    "D": {
+      "D1": 10,
+      "D2": 40,
+      "D3": 35,
+      "D4": 11.7,
+      "D5": 3.3
+    }
+  },
+  "validatedAt": "2026-11-18T09:59:57.282Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": []
+}

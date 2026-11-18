@@ -1,0 +1,159 @@
+{
+  "subjectId": "ib-g8-maths",
+  "board": "ib",
+  "grade": 8,
+  "target": {
+    "total": 1275,
+    "bankPerChapter": 60,
+    "questionsPerForm": 20,
+    "mocks": 3,
+    "questionsPerMock": 25
+  },
+  "chapters": {
+    "ib-g8-maths-ch01": {
+      "mastery": 60,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:20:13Z"
+    },
+    "ib-g8-maths-ch02": {
+      "mastery": 60,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:20:13Z"
+    },
+    "ib-g8-maths-ch03": {
+      "mastery": 60,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:20:13Z"
+    },
+    "ib-g8-maths-ch04": {
+      "mastery": 60,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:20:13Z"
+    },
+    "ib-g8-maths-ch05": {
+      "mastery": 60,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:20:13Z"
+    },
+    "ib-g8-maths-ch06": {
+      "mastery": 60,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:20:13Z"
+    },
+    "ib-g8-maths-ch07": {
+      "mastery": 60,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:20:13Z"
+    },
+    "ib-g8-maths-ch08": {
+      "mastery": 60,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:20:13Z"
+    },
+    "ib-g8-maths-ch09": {
+      "mastery": 60,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:20:13Z"
+    },
+    "ib-g8-maths-ch10": {
+      "mastery": 60,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:20:13Z"
+    },
+    "ib-g8-maths-ch11": {
+      "mastery": 60,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:20:13Z"
+    },
+    "ib-g8-maths-ch12": {
+      "mastery": 60,
+      "practiceFormA": 20,
+      "practiceFormB": 20,
+      "done": true,
+      "updatedUtc": "2026-11-18T09:20:13Z"
+    }
+  },
+  "counts": {
+    "mastery_bank": 720,
+    "practice": 480,
+    "mock": 75,
+    "total": 1275
+  },
+  "validated": true,
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "checked": 60,
+      "method": "independent re-solve of 5 random items per chapter (seed 818) from the generated JSON, plus full-sample review of every ch10–ch12 template",
+      "mismatches": 1,
+      "fixed": [
+        "ch02 light-time: seconds truncated (8 min 18 s) instead of rounded (8 min 19 s); now rounds half up",
+        "ch10 rotation_describe: a 180° move was framed as \"a rotation of 90°\"; now uses a half-turn frame",
+        "ch12 two_dice: \"a fair 6-sided dice and a fair 6-sided dice\" reworded to \"two fair 6-sided dice\""
+      ],
+      "notes": "59/60 answers matched on re-solve; 1 rounding mismatch and 2 wording issues fixed in the generator, bank regenerated and revalidated ok. Pre-pass fixes on ch10–12: line/lines grammar, negative stem-and-leaf outliers, half-up rounding of means (21.125 → 21.13), money display to 2 d.p., chart-choice totals divisible by 4."
+    }
+  ],
+  "updatedUtc": "2026-11-18T09:20:13Z",
+  "generatedBy": "scripts/questions/ib/engine.py",
+  "mocks": {
+    "papers": 3,
+    "questions": 75
+  },
+  "mastery": {
+    "conceptGroup": {
+      "C1": 15,
+      "C2": 30,
+      "C3": 35,
+      "C4": 20
+    },
+    "difficulty": {
+      "D1": 10,
+      "D2": 40,
+      "D3": 35,
+      "D4": 11.7,
+      "D5": 3.3
+    }
+  },
+  "mix": {
+    "C": {
+      "C1": 15,
+      "C2": 30,
+      "C3": 35,
+      "C4": 20
+    },
+    "D": {
+      "D1": 10,
+      "D2": 40,
+      "D3": 35,
+      "D4": 11.7,
+      "D5": 3.3
+    }
+  },
+  "validatedAt": "2026-11-18T09:59:57.198Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": []
+}
