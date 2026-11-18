@@ -2,6 +2,7 @@ import personasFile from '@/data/personas/index.json';
 import fixturePersonasFile from '@/data/fixtures/personas.json';
 import type { DataFile, PersonaSummary, Role } from '@/lib/types';
 import { records } from '@/lib/store/collections';
+import { getTutor } from './catalogue';
 import type { Adult, Student } from './types';
 
 const file = personasFile as DataFile<PersonaSummary>;
@@ -32,7 +33,7 @@ export function getPersona(id: string | undefined | null): PersonaSummary | unde
 
 /**
  * Fallback for people created at runtime (e.g. a learner converted from a CRM lead) who are in the
- * store but not in any persona list, so they can still sign in. They do not appear on the picker.
+ * store but not in any persona list, and any catalogue tutor, so they can still sign in. They do not appear on the picker.
  */
 function fromStore(id: string): PersonaSummary | undefined {
   if (id.startsWith('lrn_')) {
@@ -42,6 +43,10 @@ function fromStore(id: string): PersonaSummary | undefined {
       id: s.id, role: 'student', name: s.name, story: s.goal ?? 'New family from sales',
       grade: s.grade, board: s.board, stream: s.stream, programme: s.programme, linkedLearnerIds: [],
     };
+  }
+  if (id.startsWith('tut_')) {
+    const t = getTutor(id);
+    return t ? { id: t.id, role: 'tutor', name: t.displayName, story: t.headline, linkedLearnerIds: [] } : undefined;
   }
   const a = records<Adult>('adults').find((r) => r.id === id);
   if (!a) return undefined;

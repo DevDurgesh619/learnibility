@@ -26,6 +26,13 @@ describe('getPersona fallback to the store', () => {
     expect(getPersona('par_ritu_bhatia')).toMatchObject({ role: 'parent', linkedLearnerIds: ['lrn_neel_bhatia'] });
   });
 
+  it('resolves any catalogue tutor', () => {
+    expect(getPersona('tut_rahul_verma')?.role).toBe('tutor');
+    const other = getPersona('tut_grace_fernandes');
+    if (other) expect(other).toMatchObject({ role: 'tutor', name: 'Grace Fernandes' });
+    expect(getPersona('tut_no_one')).toBeUndefined();
+  });
+
   it('still prefers the persona lists', () => {
     expect(getPersona('lrn_kabir_singh')?.name).toBe('Kabir Singh');
     expect(getPersona('nobody')).toBeUndefined();
