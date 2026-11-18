@@ -15,7 +15,7 @@ import type { Career, ConceptGroup, Difficulty, EvidenceEvent, ItemResponse, Pro
 import { getSubject } from '@/lib/data/catalogue';
 import { addDaysLocal, applyAttempt, buildWeek, emptyState, localDateOf, planFor, weekStartOf, type LearnerState } from '@/lib/data/derive';
 import type {
-  Adult, AlrRecord, Attempt, BackgroundStudent, CareerMatches, Consent, DocumentRecord, GapRecord, Invoice, MasteryRecord, MeetingNote,
+  Adult, AlrRecord, Attempt, BackgroundStudent, Booking, CareerMatches, Consent, DocumentRecord, GapRecord, Invoice, MasteryRecord, MeetingNote,
   Message, PlanRecord, Section, Session, Student, Task, TimetableRequest, TimetableWeek,
 } from '@/lib/data/types';
 import type { PersonaSummary } from '@/lib/types';
@@ -543,6 +543,23 @@ function main() {
       invoices.push({ id: 'inv_rohan_das_2', learnerId: id, payerId: 'par_anita_das', issuedUtc: istUtc('2026-11-15', '09:00'), dueDate: '2026-11-22', status: 'due', lines: [{ title: 'Mock test series, Class 10 Maths', amountInr: 600 }], amountInr: 600 });
     }
     write(`students/${id}/invoices.json`, invoices);
+    // Rohan: a student-requested Science tutor waiting for his parent's approval (W2-P acceptance flow;
+    // his Maths tutor booking comes from W2-T's contrib file).
+    const bookings: Booking[] = [];
+    if (id === 'lrn_rohan_das') {
+      bookings.push({
+        id: 'bkg_rohan_das_science', learnerId: id, tutorId: 'tut_sunita_gupta', kind: 'regular', status: 'requested', format: 'one_to_one', mode: 'online',
+        subjectId: 'cbse-g10-science', priceInr: 500, requestedAt: istUtc('2026-11-16', '20:30'), slotStartUtc: istUtc('2026-11-21', '11:00'), minutes: 60, sessionsPerWeek: 2,
+        topic: 'Chemical reactions and acids, bases and salts', note: 'Rohan asked for help before the pre-boards.',
+        sharedGapSnapshot: { sharedUtc: istUtc('2026-11-16', '20:30'), subjectId: 'cbse-g10-science', score: 48, gaps: [
+          { subtopicId: 'cbse-g10-science-ch01-st2', name: getSubject('cbse-g10-science')?.subtopics.find((x) => x.id === 'cbse-g10-science-ch01-st2')?.name ?? 'Balancing chemical equations', code: 'G3', level: 2, hoursToClose: 3.2 },
+          { subtopicId: 'cbse-g10-science-ch02-st1', name: getSubject('cbse-g10-science')?.subtopics.find((x) => x.id === 'cbse-g10-science-ch02-st1')?.name ?? 'Acids and bases', code: 'G2', level: 1, hoursToClose: 3.6 },
+        ] },
+        parentApproval: { parentId: 'par_anita_das', status: 'pending', reason: 'Paid sessions for a minor need a parent’s approval.' },
+        matchReason: 'Teaches CBSE Class 10 Science, concept-first, free 30-minute demo, ₹500 an hour, evenings that overlap Rohan’s study windows.',
+      });
+    }
+    write(`students/${id}/bookings.json`, bookings);
     const msgs: Message[] = [];
     const t = `${id}:${b.cast.parent.id}:csl_heena_qureshi`;
     msgs.push({ id: `msg_${id.slice(4)}_1`, threadId: t, learnerId: id, from: 'csl_heena_qureshi', toIds: [b.cast.parent.id], text: `Hello ${b.cast.parent.name.split(' ')[0]}, ${s.firstName}'s weekly summary is ready on your Home page. Happy to talk if anything looks off.`, sentUtc: istUtc('2026-11-15', '18:00'), readBy: [b.cast.parent.id] });

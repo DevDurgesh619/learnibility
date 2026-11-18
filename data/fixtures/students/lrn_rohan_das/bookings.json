@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/fixtures/build.ts",
+ "items": [
+  {
+   "id": "bkg_rohan_das_science",
+   "learnerId": "lrn_rohan_das",
+   "tutorId": "tut_sunita_gupta",
+   "kind": "regular",
+   "status": "requested",
+   "format": "one_to_one",
+   "mode": "online",
+   "subjectId": "cbse-g10-science",
+   "priceInr": 500,
+   "requestedAt": "2026-11-16T15:00:00.000Z",
+   "slotStartUtc": "2026-11-21T05:30:00.000Z",
+   "minutes": 60,
+   "sessionsPerWeek": 2,
+   "topic": "Chemical reactions and acids, bases and salts",
+   "note": "Rohan asked for help before the pre-boards.",
+   "sharedGapSnapshot": {
+    "sharedUtc": "2026-11-16T15:00:00.000Z",
+    "subjectId": "cbse-g10-science",
+    "score": 48,
+    "gaps": [
+     {
+      "subtopicId": "cbse-g10-science-ch01-st2",
+      "name": "Writing and balancing chemical equations with state symbols",
+      "code": "G3",
+      "level": 2,
+      "hoursToClose": 3.2
+     },
+     {
+      "subtopicId": "cbse-g10-science-ch02-st1",
+      "name": "Acids and bases: indicators and reactions with metals, carbonates and each other",
+      "code": "G2",
+      "level": 1,
+      "hoursToClose": 3.6
+     }
+    ]
+   },
+   "parentApproval": {
+    "parentId": "par_anita_das",
+    "status": "pending",
+    "reason": "Paid sessions for a minor need a parent’s approval."
+   },
+   "matchReason": "Teaches CBSE Class 10 Science, concept-first, free 30-minute demo, ₹500 an hour, evenings that overlap Rohan’s study windows."
+  }
+ ]
+}
