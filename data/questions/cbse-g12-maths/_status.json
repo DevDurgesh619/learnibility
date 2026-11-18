@@ -1,0 +1,90 @@
+{
+  "subjectId": "cbse-g12-maths",
+  "generatedBy": "scripts/questions/cbse/g12_maths.py",
+  "curriculumSource": "data/curriculum/cbse-g12-maths.json",
+  "generatedAt": "2026-11-18T10:04:36Z",
+  "chaptersDone": [
+    "cbse-g12-maths-ch01",
+    "cbse-g12-maths-ch02",
+    "cbse-g12-maths-ch03",
+    "cbse-g12-maths-ch04",
+    "cbse-g12-maths-ch05",
+    "cbse-g12-maths-ch06",
+    "cbse-g12-maths-ch07",
+    "cbse-g12-maths-ch08",
+    "cbse-g12-maths-ch09",
+    "cbse-g12-maths-ch10",
+    "cbse-g12-maths-ch11",
+    "cbse-g12-maths-ch12",
+    "cbse-g12-maths-ch13"
+  ],
+  "mocksDone": true,
+  "target": 1658,
+  "generated": 1658,
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "one generated variant of every family (about 480 generators) read and checked; 5 random items per chapter from the built files re-solved by hand (65 items); calculus generators verified numerically from private check data (3,881 derivative/integral/ODE checks) and by parsing the answer text back into a function and differentiating it (1,018 answers)",
+      "checked": 65,
+      "mismatches": 1,
+      "mismatchDetail": [
+        "ch07 power-rule integral gave ∫ (2x + 1/x²) dx = x² + 1/x + C (sign of the 1/x term reversed for negative powers)"
+      ],
+      "fixes": [
+        "sign of reciprocal-power antiderivatives corrected and the whole family re-verified from the answer text",
+        "ambiguous fraction coefficients bracketed: (6/7)î, (39/5)e⁻⁵ˣ, (1/5)P, e^(x²/4), 1/(81π), 1/(6√134), 9t/8",
+        "unit coefficients and double signs removed (1x, −1k, + −, x − −4, 1 cos 4x); hyphen-minus replaced by true minus",
+        "partial-fraction stems and keys written as (px + q)/((x − a)(x − b)) with signed terms",
+        "maximum-profit item restricted to a positive maximum profit; area key ½|−50| shows a true minus",
+        "grammar: singular \"1 hour/unit/ball/sq unit\", \"each souvenir of type A\", defective/good bulbs",
+        "redundant \"= 3/7 = 3/7\" style steps removed from conditional-probability and direction-cosine keys"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "method": "second pass after regeneration: 5 new random items per chapter (65 items) plus 14 random mock items re-solved by hand",
+      "checked": 79,
+      "mismatches": 0,
+      "fixes": [
+        "presentation only: A² − tA + dI = O keys written with signed terms; unreduced (3/6)√ ellipse factor reduced"
+      ],
+      "note": "Bank regenerated and revalidated after each pass."
+    },
+    {
+      "date": "2026-11-18",
+      "method": "shared clean-up rules re-run while the applied-mathematics bank was checked; affected items re-read",
+      "checked": 12,
+      "mismatches": 0,
+      "fixes": [
+        "LPP corner-point MCQ key names both optimal corners (tie at (3, 4) and (0, 6))",
+        "(1/−6) written −(1/6) in matrix-method keys; singular nouns after 1"
+      ]
+    }
+  ],
+  "validated": true,
+  "counts": {
+    "mastery_bank": 910,
+    "practice": 520,
+    "mock": 228,
+    "total": 1658
+  },
+  "mix": {
+    "C": {
+      "C1": 14.9,
+      "C2": 30,
+      "C3": 35.1,
+      "C4": 20
+    },
+    "D": {
+      "D1": 10,
+      "D2": 40,
+      "D3": 35.1,
+      "D4": 12,
+      "D5": 3
+    }
+  },
+  "validatedAt": "2026-11-18T10:04:37.128Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": []
+}

@@ -1,0 +1,70 @@
+{
+  "subjectId": "cbse-g12-applied-maths",
+  "generatedBy": "scripts/questions/cbse/g12_applied_maths.py",
+  "curriculumSource": "data/curriculum/cbse-g12-applied-maths.json",
+  "generatedAt": "2026-11-18T10:04:35Z",
+  "chaptersDone": [
+    "cbse-g12-applied-maths-ch01",
+    "cbse-g12-applied-maths-ch02",
+    "cbse-g12-applied-maths-ch03",
+    "cbse-g12-applied-maths-ch04",
+    "cbse-g12-applied-maths-ch05",
+    "cbse-g12-applied-maths-ch06",
+    "cbse-g12-applied-maths-ch07",
+    "cbse-g12-applied-maths-ch08",
+    "cbse-g12-applied-maths-ch09",
+    "cbse-g12-applied-maths-ch10",
+    "cbse-g12-applied-maths-ch11",
+    "cbse-g12-applied-maths-ch12",
+    "cbse-g12-applied-maths-ch13"
+  ],
+  "mocksDone": true,
+  "target": 1528,
+  "generated": 1528,
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "one generated variant of every family read and checked; 5 random items per chapter from the built files re-solved by hand (65 items), then 4 more per chapter for ch07-ch12 and 4 mock items (28) and a third draw of 16 items from ch07, ch08, ch10, ch11; calculus families verified numerically from private check data (3,121 checks) and by parsing 676 answers back into functions; re-used 041 families filtered so that no trigonometric content remains",
+      "checked": 109,
+      "mismatches": 1,
+      "mismatchDetail": [
+        "ch11 EMI split: the stated EMI (₹1,46,626.18 for ₹16,50,000 at 1% a month, 12 months) came from the rounded factor 1.1268 and was about ₹26 above the exact EMI"
+      ],
+      "fixes": [
+        "EMI in the interest/principal split now computed from the exact (1 + i)ⁿ",
+        "perpetuity stem that asked for both the sum and the payment rewritten as a single question",
+        "z-statistic keys bracket the standard error: (130.6 − 130)/(3/4)",
+        "Poisson keys: e^(−λ)λ written without ^1/1!; \"exactly 0 defective\" written \"no defective\"; eggs replaced by pens in the machine-defect items",
+        "Poisson parameter item made parametric (kP(X = a) = P(X = a + 1)) instead of three fixed variants",
+        "singular nouns after 1 (1 year, 1 file, 1 order); (1/−6) written −(1/6); trailing \"+ 0\" in curve equations removed; \"subtract (−6)\" written \"add 6\""
+      ],
+      "note": "Bank regenerated and revalidated after the fixes."
+    }
+  ],
+  "validated": true,
+  "counts": {
+    "mastery_bank": 780,
+    "practice": 520,
+    "mock": 228,
+    "total": 1528
+  },
+  "mix": {
+    "C": {
+      "C1": 15,
+      "C2": 30,
+      "C3": 35,
+      "C4": 20
+    },
+    "D": {
+      "D1": 10,
+      "D2": 40,
+      "D3": 35,
+      "D4": 11.9,
+      "D5": 3.1
+    }
+  },
+  "validatedAt": "2026-11-18T10:04:36.872Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": []
+}
