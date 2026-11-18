@@ -3,7 +3,7 @@ import { redirect } from 'next/navigation';
 import { Bookmark } from 'lucide-react';
 import { Card, CardBody, CardHeader } from '@/components/ui/card';
 import { applicationsBundle, fitInputs, isPaid, listUniversities, studentCtx } from '@/components/applications/data';
-import { UniversityExplorer } from '@/components/applications/explorer';
+import { UniThumb, UniversityExplorer } from '@/components/applications/explorer';
 import { FitHeader } from '@/components/applications/fit-header';
 import { uniRow } from '@/components/applications/rows';
 import { FitBadge, UniMark } from '@/components/applications/ui';
@@ -42,11 +42,24 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ q
               <h2 className="mb-3 text-base font-semibold text-ink">Top universities for your target</h2>
               <div className="grid gap-3 sm:grid-cols-3">
                 {top.map((r) => (
-                  <Link key={r.id} href={`/student/universities/${r.id}`} className="block">
-                    <Card className="h-full p-4 transition-colors hover:border-brand-300">
-                      <p className="font-semibold text-ink">{r.shortName}</p>
-                      <p className="mt-1 text-xs text-muted">{r.countryName} · {r.satLabel} · {r.deadlineLabel}</p>
-                      <p className="mt-2 text-xs text-subtle">QS #{r.qsRank} · {r.acceptancePct}% admitted</p>
+                  <Link key={r.id} href={`/student/universities/${r.id}`} className="group block">
+                    <Card className="h-full overflow-hidden transition-all group-hover:-translate-y-0.5 group-hover:border-brand-300 group-hover:shadow-md">
+                      <div className="relative h-36 bg-surface-muted">
+                        {r.photo
+                          // eslint-disable-next-line @next/next/no-img-element
+                          ? <img src={r.photo} alt={`${r.name} campus`} className="size-full object-cover transition-transform duration-500 group-hover:scale-[1.03]" />
+                          : <UniThumb row={r} className="size-full rounded-none text-2xl" />}
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
+                        <span className="absolute top-2 left-2 rounded-full bg-white/90 px-2 py-0.5 text-[11px] font-semibold text-ink shadow-sm">QS #{r.qsRank}</span>
+                        <div className="absolute right-3 bottom-2 left-3 text-white">
+                          <p className="truncate font-semibold drop-shadow">{r.shortName}</p>
+                          <p className="truncate text-xs text-white/85">{r.city}, {r.countryName}</p>
+                        </div>
+                      </div>
+                      <div className="flex items-center justify-between gap-2 p-3 text-xs text-muted">
+                        <span>{r.satLabel} · Deadline {r.deadlineLabel}</span>
+                        <span className="font-medium text-ink">{r.acceptancePct}% admitted</span>
+                      </div>
                     </Card>
                   </Link>
                 ))}
@@ -61,7 +74,7 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ q
                   <ul className="divide-y divide-line">
                     {savedUnis.map(({ s, u }) => (
                       <li key={s.universityId} className="flex items-center gap-3 py-2.5">
-                        <UniMark uni={u!} size="sm" />
+                        <UniMark uni={u!} size="md" />
                         <Link href={`/student/universities/${u!.id}`} className="min-w-0 flex-1 truncate text-sm font-medium text-ink hover:underline">{u!.name}</Link>
                         {s.fitGroup && <FitBadge band={s.fitGroup} />}
                       </li>

@@ -4,6 +4,7 @@ import { ExternalLink, Info } from 'lucide-react';
 import { Badge, type BadgeProps } from '@/components/ui/badge';
 import type { ApplicationStatus } from '@/lib/data/types';
 import type { Sourced, University } from '@/lib/types';
+import { uniPhoto } from '@/lib/media';
 import { cn } from '@/lib/utils';
 import type { FitBand } from './fit';
 import { FIT_BAND_LABEL } from './fit';
@@ -34,11 +35,25 @@ const COUNTRY_TILE: Record<string, string> = {
   us: 'bg-sky-100 text-sky-800', uk: 'bg-rose-100 text-rose-800', ca: 'bg-red-100 text-red-800', au: 'bg-amber-100 text-amber-800', in: 'bg-emerald-100 text-emerald-800',
 };
 
-/** Square monogram for a university (no logos in the demo). */
-export function UniMark({ uni, size = 'md' }: { uni: Pick<University, 'shortName' | 'country'>; size?: 'sm' | 'md' | 'lg' }) {
-  const letters = uni.shortName.replace(/[^A-Za-z ]/g, '').split(/\s+/).filter(Boolean).slice(0, 2).map((w) => w[0]).join('').toUpperCase() || uni.shortName.slice(0, 2);
+/** Square tile for a university: its campus photo when bundled, otherwise a monogram (no logos in the demo). */
+export function UniMark({ uni, size = 'md' }: { uni: Pick<University, 'shortName' | 'country'> & { id?: string }; size?: 'sm' | 'md' | 'lg' }) {
   const dims = { sm: 'size-8 text-[11px]', md: 'size-10 text-xs', lg: 'size-14 text-base' }[size];
+  const photo = uniPhoto(uni.id);
+  if (photo) {
+    // eslint-disable-next-line @next/next/no-img-element
+    return <img src={photo.src} alt="" aria-hidden loading="lazy" className={cn('shrink-0 rounded-lg bg-surface-muted object-cover ring-1 ring-black/5', dims)} />;
+  }
+  const letters = uni.shortName.replace(/[^A-Za-z ]/g, '').split(/\s+/).filter(Boolean).slice(0, 2).map((w) => w[0]).join('').toUpperCase() || uni.shortName.slice(0, 2);
   return <span aria-hidden className={cn('inline-flex shrink-0 items-center justify-center rounded-lg font-bold', dims, COUNTRY_TILE[uni.country] ?? 'bg-surface-muted text-ink')}>{letters}</span>;
+}
+
+/** Photo credit for a campus image (author, licence, source), as the licence requires. */
+export function PhotoCredit({ photo, className }: { photo: { author: string; license: string; licenseUrl?: string; sourceUrl: string }; className?: string }) {
+  return (
+    <a href={photo.sourceUrl} target="_blank" rel="noreferrer" className={cn('text-[10px] leading-none text-white/85 hover:text-white hover:underline', className)}>
+      Photo: {photo.author} · {photo.license} · Wikimedia Commons
+    </a>
+  );
 }
 
 /** A catalogue fact with its source and "as of" date (brief: every fact shows both). */

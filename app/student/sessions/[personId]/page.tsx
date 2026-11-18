@@ -25,7 +25,7 @@ export default async function PersonPage({ params, searchParams }: { params: Pro
     <>
       <Link href="/student/sessions" className="mb-3 inline-flex items-center gap-1 text-sm text-muted hover:text-ink"><ChevronLeft className="size-4" />Sessions</Link>
       <div className="mb-6 flex flex-col gap-4 sm:flex-row sm:items-center">
-        <Avatar name={person.name} size="lg" />
+        <Avatar name={person.name} size="lg" photo />
         <div className="min-w-0 flex-1">
           <h1 className="text-2xl font-semibold tracking-tight text-ink">{person.name}</h1>
           <p className="text-sm text-muted">Your {person.focus.toLowerCase()} · since {since} · {person.sessionCount} sessions</p>

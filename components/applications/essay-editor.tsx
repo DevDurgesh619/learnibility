@@ -285,7 +285,7 @@ function Comment({ c, n, names }: { c: EssayComment; n?: number; names: Record<s
   return (
     <div>
       <div className="flex items-center gap-2">
-        {c.kind === 'ai' ? <span className="flex size-6 items-center justify-center rounded-full bg-violet-100 text-violet-700"><Sparkles className="size-3.5" /></span> : <Avatar name={name} size="sm" className="size-6 text-[10px]" />}
+        {c.kind === 'ai' ? <span className="flex size-6 items-center justify-center rounded-full bg-violet-100 text-violet-700"><Sparkles className="size-3.5" /></span> : <Avatar name={name} size="sm" className="size-6 text-[10px]" photo />}
         <span className="text-sm font-medium text-ink">{name}</span>
         <span className="text-xs text-subtle">{fmtTime(c.createdAt)}</span>
         {n && <span className="ml-auto text-xs font-semibold text-muted">{n}</span>}

@@ -11,9 +11,19 @@ import {
 } from '@/components/student/load';
 import { METRICS, PLAN_LABEL, type MetricKey } from '@/components/student/model';
 import { TaskList } from '@/components/student/task-list';
+import { Avatar } from '@/components/ui/avatar';
+import { DEMO_NOW, DEMO_TIMEZONE } from '@/lib/demo-clock';
 import { cn } from '@/lib/utils';
 
 export const metadata = { title: 'Home · Learnibility' };
+
+const TODAY_LABEL = new Intl.DateTimeFormat('en-IN', { weekday: 'long', day: 'numeric', month: 'long', timeZone: DEMO_TIMEZONE }).format(DEMO_NOW);
+
+/** Time-of-day greeting on the demo clock, so every screen tells the same story. */
+function greeting() {
+  const hour = Number(new Intl.DateTimeFormat('en-GB', { hour: 'numeric', hour12: false, timeZone: DEMO_TIMEZONE }).format(DEMO_NOW));
+  return hour < 12 ? 'Good morning' : hour < 17 ? 'Good afternoon' : 'Good evening';
+}
 
 export default async function StudentHome({ searchParams }: { searchParams: Promise<{ metric?: string; range?: string }> }) {
   const sp = await searchParams;
@@ -35,9 +45,13 @@ export default async function StudentHome({ searchParams }: { searchParams: Prom
   return (
     <>
       <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-        <div>
-          <h1 className="text-2xl font-semibold tracking-tight text-ink">Hi {ctx.firstName}{ctx.firstVisit ? ' 👋' : ''}</h1>
-          <p className="mt-1 text-sm text-muted">{ctx.firstVisit ? 'Welcome to Learnibility. Start with a short assessment so we can plan around you.' : 'Here is what to do today, then how you are doing.'}</p>
+        <div className="flex items-center gap-4">
+          <Avatar name={ctx.name} personId={ctx.learnerId} photo size="lg" className="hidden ring-4 ring-white shadow-sm sm:block" />
+          <div>
+            <p className="text-xs font-medium text-subtle">{TODAY_LABEL}{ctx.student?.programme ? ` · ${ctx.student.programme}` : ''}{ctx.student?.school ? ` · ${ctx.student.school}` : ''}</p>
+            <h1 className="mt-0.5 text-2xl font-semibold tracking-tight text-ink">{greeting()}, {ctx.firstName}{ctx.firstVisit ? ' 👋' : ''}</h1>
+            <p className="mt-1 text-sm text-muted">{ctx.firstVisit ? 'Welcome to Learnibility. Start with a short assessment so we can plan around you.' : 'Here is what to do today, then how you are doing.'}</p>
+          </div>
         </div>
         {subscriber ? (
           <Badge tone="success" className="self-start sm:self-auto">{PLAN_LABEL[ctx.plan]}</Badge>
@@ -72,7 +86,7 @@ export default async function StudentHome({ searchParams }: { searchParams: Prom
       )}
 
       <SectionTitle title="Your progress · this week" action={!ctx.firstVisit && <span className="text-xs text-subtle">Tap a card for the graph</span>} />
-      <MetricCards metrics={metricSummaries(ctx)} />
+      <MetricCards metrics={metricSummaries(ctx)} sparks={Object.fromEntries(METRICS.map((m) => [m.key, metricSeries(ctx, m.key, 'month').map((p) => p.value)]))} />
       {ctx.firstVisit && <p className="mt-2 text-xs text-subtle">Metrics appear after your first assessment and a week of tasks.</p>}
 
       {!subscriber && <ApplicationUpsell />}

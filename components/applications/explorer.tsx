@@ -19,6 +19,8 @@ export interface UniRow {
   country: string;
   countryName: string;
   city: string;
+  /** Bundled campus photo, when there is one. */
+  photo?: string;
   type: 'public' | 'private';
   qsRank: number | null;
   acceptancePct: number | null;
@@ -108,6 +110,21 @@ function Select<T extends string | number>({ label, value, options, onChange }: 
         {options.map((o) => <option key={String(o.v)} value={String(o.v)}>{o.l}</option>)}
       </select>
     </label>
+  );
+}
+
+const TILE: Record<string, string> = { us: 'from-sky-500 to-indigo-600', uk: 'from-rose-500 to-red-700', ca: 'from-red-500 to-rose-700', au: 'from-amber-500 to-orange-600', in: 'from-emerald-500 to-teal-700' };
+
+/** Campus photo thumbnail for a result row; a tinted monogram when there is no photo. */
+export function UniThumb({ row, className }: { row: Pick<UniRow, 'photo' | 'shortName' | 'country'>; className?: string }) {
+  if (row.photo) {
+    // eslint-disable-next-line @next/next/no-img-element
+    return <img src={row.photo} alt="" loading="lazy" className={cn('h-16 w-24 rounded-lg bg-surface-muted object-cover ring-1 ring-black/5', className)} />;
+  }
+  return (
+    <span className={cn('flex h-16 w-24 items-center justify-center rounded-lg bg-gradient-to-br text-sm font-bold text-white', TILE[row.country] ?? 'from-slate-500 to-slate-700', className)}>
+      {row.shortName.split(/\s+/).slice(0, 2).map((w) => w[0]).join('')}
+    </span>
   );
 }
 
@@ -214,7 +231,11 @@ export function UniversityExplorer({
             ) : (
               <Card className="divide-y divide-line">
                 {results.slice(0, limit).map((r, i) => (
-                  <div key={r.id} className="flex flex-col gap-2 p-4 sm:flex-row sm:items-center sm:justify-between">
+                  <div key={r.id} className="flex flex-col gap-3 p-4 sm:flex-row sm:items-center sm:justify-between">
+                    <div className="flex min-w-0 items-center gap-4">
+                    <Link href={`${detailBase}/${r.id}`} className="hidden shrink-0 sm:block" tabIndex={-1} aria-hidden>
+                      <UniThumb row={r} />
+                    </Link>
                     <div className="min-w-0">
                       <p className="font-semibold text-ink">
                         <span className="mr-1 text-subtle">{i + 1}.</span>
@@ -225,6 +246,7 @@ export function UniversityExplorer({
                         {f.field ? fieldLabel(f.field) : r.defaultProgramme ?? fieldLabel(r.fields[0] ?? '')} · {r.satLabel} · Deadline {r.deadlineLabel} · {r.city}, {r.countryName}
                       </p>
                       <p className="mt-0.5 text-xs text-subtle">{SHOW_COSTS ? `Tuition ${r.tuitionLabel} · ` : ''}{r.acceptancePct !== null ? `${r.acceptancePct < 1 ? '<1' : r.acceptancePct}% admitted` : 'admit rate not published'}{r.ielts ? ` · IELTS ${r.ielts}` : ''}</p>
+                    </div>
                     </div>
                     <div className="flex shrink-0 gap-2">
                       {shortlist && (shortlist.onBoard.includes(r.id)

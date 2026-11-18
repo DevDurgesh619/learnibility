@@ -1,4 +1,5 @@
 import 'server-only';
+import { uniPhoto } from '@/lib/media';
 import type { University } from '@/lib/types';
 import type { UniRow } from './explorer';
 import { mainRoute } from './fit';
@@ -17,6 +18,7 @@ export function uniRow(u: University, saved: Set<string>, preferFields: string[]
     country: u.country,
     countryName: COUNTRY_NAME[u.country] ?? u.country.toUpperCase(),
     city: u.city,
+    photo: uniPhoto(u.id)?.src,
     type: u.type,
     qsRank: u.qsWorldRank.value,
     acceptancePct: u.acceptanceRatePct.value,

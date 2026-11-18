@@ -13,15 +13,16 @@ export function TutorCard({ tutor, reason, score, href, compact }: { tutor: Tuto
   return (
     <Card className="flex h-full flex-col p-4">
       <div className="flex items-start gap-3">
-        <Avatar name={tutor.displayName} />
+        <Avatar name={tutor.displayName} personId={tutor.id} size="lg" photo />
         <div className="min-w-0 flex-1">
           <div className="flex items-center gap-1.5">
             <Link href={href} className="truncate font-semibold text-ink hover:text-brand-700">{tutor.displayName}</Link>
             {tutor.verified && <BadgeCheck className="size-4 shrink-0 text-brand-600" aria-label="Verified" />}
           </div>
           <p className="line-clamp-2 text-xs text-muted">{tutor.headline}</p>
+          <p className="mt-0.5 text-[11px] text-subtle">{tutor.city} · {tutor.yearsExperience} yrs teaching</p>
         </div>
-        {score !== undefined && <span className="shrink-0 rounded-md bg-brand-50 px-1.5 py-0.5 text-xs font-semibold text-brand-700" title="Match score out of 100">{Math.round(score)}</span>}
+        {score !== undefined && <span className="shrink-0 rounded-md bg-brand-50 px-1.5 py-0.5 text-xs font-semibold text-brand-700" title="How well this tutor matches your gaps, style, budget and free time">{Math.round(score)}% match</span>}
       </div>
       <div className="mt-3 flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-muted">
         <Rating value={tutor.rating} count={tutor.reviewsCount} />

@@ -102,7 +102,7 @@ export default async function TopicDetailPage({ params }: { params: Promise<{ at
               <CardHeader title="Learn from our recommendation" />
               <CardBody className="pt-3">
                 <div className="flex items-center gap-3">
-                  <Avatar name={tutor.displayName} />
+                  <Avatar name={tutor.displayName} personId={tutor.id} photo />
                   <div className="min-w-0">
                     <p className="font-medium text-ink">{tutor.displayName}</p>
                     <p className="flex items-center gap-1 text-xs text-muted"><Star className="size-3 fill-current text-warning-600" /> {tutor.rating} · {formatInr(match.pricePerHourInr)}/hr</p>

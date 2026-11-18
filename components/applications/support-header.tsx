@@ -17,7 +17,7 @@ export function SupportHeader({ active, counsellorName, actions }: { active: Sup
           {actions}
           {counsellorName && (
             <span className="inline-flex items-center gap-2 text-sm text-muted">
-              Counsellor <Avatar name={counsellorName} size="sm" /> <span className="font-medium text-ink">{counsellorName}</span>
+              Counsellor <Avatar name={counsellorName} size="sm" photo /> <span className="font-medium text-ink">{counsellorName}</span>
             </span>
           )}
         </div>

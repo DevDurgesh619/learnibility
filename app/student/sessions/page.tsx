@@ -48,7 +48,7 @@ export default async function SessionsPage({ searchParams }: { searchParams: Pro
               const js = joinState(s);
               return (
                 <li key={s.id} className="flex flex-col gap-3 p-4 sm:flex-row sm:items-center">
-                  <Avatar name={s.personName} />
+                  <Avatar name={s.personName} photo />
                   <div className="min-w-0 flex-1">
                     <p className="text-sm font-semibold text-ink">{s.personName} · {s.roleLabel} <span className="font-normal text-subtle">{s.label}</span></p>
                     <p className="text-sm text-muted">{whenLabel(s.startUtc)} · {s.platform}{s.topic ? ` · Topic: ${s.topic}` : ''}</p>
@@ -79,7 +79,7 @@ export default async function SessionsPage({ searchParams }: { searchParams: Pro
                 <CardBody>
                   <p className="text-xs font-medium uppercase tracking-wide text-subtle">{p.role}</p>
                   <div className="mt-2 flex items-center gap-3">
-                    <Avatar name={p.name} />
+                    <Avatar name={p.name} photo />
                     <div>
                       <p className="text-sm font-semibold text-ink">{p.name}</p>
                       <p className="text-xs text-muted">{p.focus} · {p.sessionCount} session{p.sessionCount === 1 ? "" : "s"}</p>

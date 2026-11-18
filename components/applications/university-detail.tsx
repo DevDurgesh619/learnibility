@@ -8,6 +8,7 @@ import { Table, TBody, TD, TH, THead, TR } from '@/components/ui/table';
 import { toggleShortlist, addToBoard } from '@/lib/actions/applications';
 import { DEMO_NOW } from '@/lib/demo-clock';
 import { formatInr } from '@/lib/format';
+import { uniPhoto } from '@/lib/media';
 import type { ApplicationType, University } from '@/lib/types';
 import { cn } from '@/lib/utils';
 import { ActionButton } from './action-button';
@@ -15,7 +16,7 @@ import { SHOW_COSTS } from './config';
 import { fieldLabel } from './fields';
 import { computeFit, mainRoute, type FitProfile } from './fit';
 import { daysUntil, fmtDate } from './logic';
-import { COUNTRY_NAME, DaysLeft, FitBadge, LinkTabs, money, SourceLine, SourcedFact, UniMark } from './ui';
+import { COUNTRY_NAME, DaysLeft, FitBadge, LinkTabs, money, PhotoCredit, SourceLine, SourcedFact, UniMark } from './ui';
 
 export const ROUTE_LABEL: Record<ApplicationType, string> = {
   early_decision: 'Early Decision (binding)', early_decision_2: 'Early Decision II (binding)', early_action: 'Early Action',
@@ -45,6 +46,7 @@ export function UniversityDetail({
   backLabel: string;
 }) {
   const route = mainRoute(uni);
+  const photo = uniPhoto(uni.id);
   const req = route?.requirements;
   const days = route ? daysUntil(route.deadline.value, DEMO_NOW) : null;
   const best = fitProfile && Object.keys(fitProfile).length
@@ -54,6 +56,18 @@ export function UniversityDetail({
   return (
     <>
       <Link href={backHref} className="mb-3 inline-flex items-center gap-1 text-sm text-muted hover:text-ink"><ChevronLeft className="size-4" />{backLabel}</Link>
+      {photo && (
+        <div className="relative mb-5 h-44 overflow-hidden rounded-2xl bg-surface-muted ring-1 ring-black/5 sm:h-60">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={photo.src} alt={photo.caption} className="size-full object-cover" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-transparent to-transparent" />
+          <div className="absolute bottom-3 left-4 flex flex-wrap items-center gap-2">
+            {uni.founded ? <span className="rounded-full bg-white/90 px-2.5 py-1 text-xs font-medium text-ink shadow-sm">Founded {uni.founded}</span> : null}
+            <span className="rounded-full bg-white/90 px-2.5 py-1 text-xs font-medium text-ink shadow-sm">{uni.city}, {COUNTRY_NAME[uni.country]}</span>
+          </div>
+          <PhotoCredit photo={photo} className="absolute right-3 bottom-3 hidden max-w-[50%] truncate sm:block" />
+        </div>
+      )}
       <div className="mb-5 flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
         <div className="flex min-w-0 items-start gap-3">
           <UniMark uni={uni} size="lg" />

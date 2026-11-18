@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 import { DemoGuide } from '@/components/demo/demo-guide';
+import '@fontsource-variable/inter';
 import './globals.css';
 
 export const metadata: Metadata = {
