@@ -123,7 +123,7 @@ async function StudentView({ sectionId, learnerId }: { sectionId: string; learne
         <StatTile label="Tests in this subject" value={d.isPersona ? d.attempts.length : d.testScores.length} />
       </div>
 
-      <div className="grid gap-6 lg:grid-cols-2">
+      <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
         <Card>
           <CardHeader title="Mastery by chapter" description="Mean of tested subtopics" />
           <CardBody>
@@ -148,11 +148,11 @@ async function StudentView({ sectionId, learnerId }: { sectionId: string; learne
           </CardBody>
         </Card>
 
-        <Card className="lg:col-span-2">
+        <Card className="min-w-0 lg:col-span-2">
           <CardHeader title="Subtopic levels" />
           <CardBody>
             {d.mastery.length ? (
-              <div className="grid gap-2 sm:grid-cols-2 xl:grid-cols-3">
+              <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 xl:grid-cols-3">
                 {d.mastery.map((m) => {
                   const n = subtopicName(section.subjectId, m.subtopicId);
                   return (

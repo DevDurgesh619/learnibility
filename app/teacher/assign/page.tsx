@@ -53,7 +53,7 @@ export default async function AssignPage({ searchParams }: {
         </div>
       )}
 
-      <div className="grid gap-6 xl:grid-cols-[minmax(0,1fr)_420px]">
+      <div className="grid grid-cols-1 gap-6 xl:grid-cols-[minmax(0,1fr)_420px]">
         <Card>
           <CardHeader title="New assignment" description={subject?.subject.programme ?? subject?.subject.name} />
           <CardBody>

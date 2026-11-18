@@ -34,7 +34,7 @@ export default async function ClassGapsPage({ searchParams }: { searchParams: Pr
       {clusters.length === 0 ? (
         <EmptyState icon={<Sparkles />} title="No shared gaps" description={`No gap is shared by two or more students in ${section.name}${chapterId ? ' in this chapter' : ''}. Individual gaps are in the Gap log.`} action={<Link href={sectionHref('/teacher/gap-log', section.id)}><Button variant="secondary">Open the gap log</Button></Link>} />
       ) : (
-        <div className="grid gap-6 lg:grid-cols-2">
+        <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
           {clusters.map((c) => {
             const info = GAP_TAXONOMY[c.code];
             const plan = interventionsFor(c.code);

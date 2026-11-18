@@ -48,10 +48,10 @@ export default async function ClassesPage({ searchParams }: { searchParams: Prom
         <StatTile label="Students" value={section.learnerIds.length} hint={section.name} icon={<Users />} />
         <StatTile label="Average mastery" value={classAvg === undefined ? '–' : formatPercent(classAvg)} hint={chapterId ? 'This chapter' : 'Tested subtopics'} icon={<Layers />} />
         <StatTile label="Gap clusters" value={clusters.length} hint="2 or more students, same subtopic and gap" icon={<AlertTriangle />} />
-        <StatTile label="Diagnoses to validate" value={toValidate} hint={`${struggling} students under 50%`} icon={<ClipboardCheck />} />
+        <StatTile label="Diagnoses to validate" value={toValidate} hint={`${struggling} ${struggling === 1 ? "student" : "students"} under 50%`} icon={<ClipboardCheck />} />
       </div>
 
-      <div className="grid gap-6 xl:grid-cols-[minmax(0,1fr)_320px]">
+      <div className="grid grid-cols-1 gap-6 xl:grid-cols-[minmax(0,1fr)_320px]">
         <Card className="min-w-0">
           <CardHeader title={`${section.name} mastery`} description={chapterId ? chapters.find((c) => c.id === chapterId)?.name : `${shown.length} tested subtopics. Hover a cell for the subtopic.`} />
           <CardBody>
