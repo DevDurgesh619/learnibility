@@ -23,12 +23,12 @@ CONFIG = {'minutesPerMark': 2.0, 'mcqMinutes': 1.5}
 # One mock = Paper 1 (24 marks, 7 items on sources) + Paper 2 (25 marks: concept-based essay on the
 # focused studies + thematic essay) + Paper 3 HL (30 marks, 2 essays). 11 items, 79 marks per mock.
 MOCK = [
-    dict(section='Paper 1 Q1 – message of the sources (Sources A–C)', count=3, c=['C3'], d=[2, 3], type='case', marks=2, style='p1_message'),
-    dict(section='Paper 1 Q2 – value and limitations (origin, purpose, content)', count=2, c=['C3'], d=[3, 4], type='case', marks=3, style='p1_opvl'),
-    dict(section='Paper 1 Q3 – compare and contrast two sources', count=1, c=['C4'], d=[3, 4], type='case', marks=4, style='p1_compare'),
-    dict(section='Paper 1 Q4 – using the sources and own knowledge', count=1, c=['C4'], d=[4], type='long', marks=8, style='p1_synth'),
-    dict(section='Paper 2 Section A – concept-based essay (focused studies)', count=1, c=['C4'], d=[4, 5], type='long', marks=10, style='essay'),
-    dict(section='Paper 2 Section B – thematic essay (authoritarian rule)', count=1, c=['C4'], d=[4, 5], type='long', marks=15, style='essay'),
+    dict(chapters=[3, 4, 5, 6], section='Paper 1 Q1 – message of the sources (Sources A–C)', count=3, c=['C3'], d=[2, 3], type='case', marks=2, style='p1_message'),
+    dict(chapters=[3, 4, 5, 6], section='Paper 1 Q2 – value and limitations (origin, purpose, content)', count=2, c=['C3'], d=[3, 4], type='case', marks=3, style='p1_opvl'),
+    dict(chapters=[3, 4, 5, 6], section='Paper 1 Q3 – compare and contrast two sources', count=1, c=['C4'], d=[3, 4], type='case', marks=4, style='p1_compare'),
+    dict(chapters=[3, 4, 5, 6], section='Paper 1 Q4 – using the sources and own knowledge', count=1, c=['C4'], d=[4], type='long', marks=8, style='p1_synth'),
+    dict(chapters=[3, 4, 5, 6], section='Paper 2 Section A – concept-based essay (focused studies)', count=1, c=['C4'], d=[4, 5], type='long', marks=10, style='essay'),
+    dict(chapters=[7, 8, 9, 10, 11], section='Paper 2 Section B – thematic essay (authoritarian rule)', count=1, c=['C4'], d=[4, 5], type='long', marks=15, style='essay'),
     dict(section='Paper 3 (HL) – extended essays', count=2, c=['C4'], d=[4, 5], type='long', marks=15, style='essay'),
 ]
 
@@ -141,6 +141,10 @@ def source_templates(key: str, d: dict) -> list:
                 f'Compare and contrast the views expressed in Source {la} and Source {lb} on {topic}.',
                 f'In what ways do Sources {la} and {lb} agree and disagree about {topic}?',
                 f'To what extent do Sources {la} and {lb} present a similar picture of {topic}?',
+                f'Identify and explain the similarities and differences between Source {la} and Source {lb} as accounts of {topic}.',
+                f'How consistent are Sources {la} and {lb} with each other in what they say about {topic}? Explain your answer with close reference to both.',
+                f'Analyse the extent to which the arguments in Sources {la} and {lb} corroborate or contradict each other regarding {topic}.',
+                f'Using details from both sources, explain how far Source {la} supports the view of {topic} given in Source {lb}.',
             ])
             first, second = (src[a], src[b])
             return dict(stem=_src_block(la, first) + '\n\n' + _src_block(lb, second) + '\n\n' + q,

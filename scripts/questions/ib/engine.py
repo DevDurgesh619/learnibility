@@ -575,8 +575,11 @@ def plan_mock(pack, curriculum, tgt, m: int) -> list[Slot]:
     for sec in spec:
         cs = sec['c'] if isinstance(sec['c'], (list, tuple)) else [sec['c']]
         ds = sec['d'] if isinstance(sec['d'], (list, tuple)) else [sec['d']]
+        pool = flat
+        if sec.get('chapters'):  # optional filter: chapter orders this section may draw on
+            pool = [(c_, s_) for c_, s_ in flat if c_['order'] in set(sec['chapters'])]
         for i in range(sec['count']):
-            ch, st = flat[k % len(flat)]
+            ch, st = pool[k % len(pool)]
             k += 1
             slots.append(Slot(st, ch, cs[i % len(cs)], ds[(i * 7 + m) % len(ds)], 'P', set='mock',
                               type=sec.get('type'), marks=sec.get('marks'), section=sec.get('section'),
