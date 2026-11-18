@@ -31,3 +31,8 @@ Add a heading per request: who asks, which file, what change, why. The owner mar
 - File: `app/page.tsx`.
 - Change: `/` redirects to `/welcome` (PDF 1a landing); `/login` stays the persona picker.
 - Done 2026-11-18 by W1.
+
+## W2-A → W1 foundations: sidebar label for Application Support (2026-11-18)
+- File: student sidebar nav config.
+- Change: for students on the `application_support` plan, label the universities entry "Application Support", link it to `/student/applications` and highlight it on `/student/applications/**` and `/student/universities/**`. Free students keep "Universities" → `/student/universities`.
+- Why: PDF 7a; paid students land on the command center, free ones on the explorer (which redirects paid users).
