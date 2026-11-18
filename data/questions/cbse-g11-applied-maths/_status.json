@@ -1,0 +1,66 @@
+{
+  "subjectId": "cbse-g11-applied-maths",
+  "generatedBy": "scripts/questions/cbse/g11_applied_maths.py",
+  "curriculumSource": "data/curriculum/cbse-g11-applied-maths.json",
+  "generatedAt": "2026-11-18T09:50:41Z",
+  "chaptersDone": [
+    "cbse-g11-applied-maths-ch01",
+    "cbse-g11-applied-maths-ch02",
+    "cbse-g11-applied-maths-ch03",
+    "cbse-g11-applied-maths-ch04",
+    "cbse-g11-applied-maths-ch05",
+    "cbse-g11-applied-maths-ch06",
+    "cbse-g11-applied-maths-ch07",
+    "cbse-g11-applied-maths-ch08",
+    "cbse-g11-applied-maths-ch09",
+    "cbse-g11-applied-maths-ch10",
+    "cbse-g11-applied-maths-ch11",
+    "cbse-g11-applied-maths-ch12",
+    "cbse-g11-applied-maths-ch13",
+    "cbse-g11-applied-maths-ch14"
+  ],
+  "mocksDone": true,
+  "target": 1514,
+  "generated": 1514,
+  "validated": true,
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "Two rounds of random items from the generated files (5 per chapter, then 3 per chapter: 112 items) plus one full mock (38 items) re-solved independently by hand (arithmetic re-done, dates checked against the calendar, GST/annuity/correlation values recomputed)",
+      "checked": 150,
+      "mismatches": 2,
+      "fixes": [
+        "reused cbse-g11-maths GP family \"5th and 7th terms given\" dropped here: it gave only r = 2 when r = ±2 both fit",
+        "reused cbse-g11-maths limit family that could produce a trivial (p(x))/(p(x)) limit dropped from Applied Mathematics",
+        "reused families filtered so that no variant mentions trigonometry (not in the 241 syllabus); slope-from-angle, angle-between-lines, normal-form and trig-limit families excluded",
+        "continuity key text \"−1a + b\" rewritten as \"−a + b\"; \"1 units\" wording fixed; f⁻¹ of (ax + b)/(cx + d) normalised to a positive leading denominator",
+        "income-tax slabs, cess, GST rates and tariffs are always stated in the question, so answers do not depend on a particular year's rates"
+      ]
+    }
+  ],
+  "counts": {
+    "mastery_bank": 840,
+    "practice": 560,
+    "mock": 114,
+    "total": 1514
+  },
+  "mix": {
+    "C": {
+      "C1": 15,
+      "C2": 29.9,
+      "C3": 35.1,
+      "C4": 20
+    },
+    "D": {
+      "D1": 10.4,
+      "D2": 40.2,
+      "D3": 35.4,
+      "D4": 12.3,
+      "D5": 1.8
+    }
+  },
+  "validatedAt": "2026-11-18T09:50:41.413Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": []
+}

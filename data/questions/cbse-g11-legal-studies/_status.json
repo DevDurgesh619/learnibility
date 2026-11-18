@@ -1,0 +1,63 @@
+{
+  "subjectId": "cbse-g11-legal-studies",
+  "generatedBy": "scripts/questions/cbse/g11_legal_studies.py",
+  "curriculumSource": "data/curriculum/cbse-g11-legal-studies.json",
+  "generatedAt": "2026-11-18T10:07:35Z",
+  "chaptersDone": [
+    "cbse-g11-legal-studies-ch01",
+    "cbse-g11-legal-studies-ch02",
+    "cbse-g11-legal-studies-ch03",
+    "cbse-g11-legal-studies-ch04",
+    "cbse-g11-legal-studies-ch05",
+    "cbse-g11-legal-studies-ch06",
+    "cbse-g11-legal-studies-ch07",
+    "cbse-g11-legal-studies-ch08",
+    "cbse-g11-legal-studies-ch09",
+    "cbse-g11-legal-studies-ch10",
+    "cbse-g11-legal-studies-ch11",
+    "cbse-g11-legal-studies-ch12"
+  ],
+  "mocksDone": true,
+  "target": 1020,
+  "generated": 1020,
+  "validated": true,
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "9 random generated items per chapter (108 items), one full mock (40 items) and 16 scenario items re-solved by hand against the Constitution text, the named Acts and the NCERT/CBSE Legal Studies class 11 syllabus",
+      "checked": 164,
+      "mismatches": 2,
+      "fixes": [
+        "marriage scenarios now pair a male and a female name (random names had produced same-sex couples, which the Hindu Marriage Act and other personal laws do not cover)",
+        "hand-written 4-mark items re-marked as 3 marks: the paper has no 4-mark section, so the key said \"4 marks\" for a 3-mark mock slot",
+        "scenario stems no longer use he/she pronouns with randomly drawn names",
+        "two near-identical reasons in ch06 civil and criminal law reworded so \"best explains\" options stay distinct"
+      ]
+    }
+  ],
+  "counts": {
+    "mastery_bank": 420,
+    "practice": 480,
+    "mock": 120,
+    "total": 1020
+  },
+  "mix": {
+    "C": {
+      "C1": 17.6,
+      "C2": 29.3,
+      "C3": 34,
+      "C4": 19
+    },
+    "D": {
+      "D1": 7.4,
+      "D2": 40.7,
+      "D3": 35.7,
+      "D4": 12.6,
+      "D5": 3.6
+    }
+  },
+  "validatedAt": "2026-11-18T10:07:35.629Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": []
+}

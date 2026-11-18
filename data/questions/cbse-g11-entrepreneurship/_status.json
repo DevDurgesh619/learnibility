@@ -1,0 +1,59 @@
+{
+  "subjectId": "cbse-g11-entrepreneurship",
+  "generatedBy": "scripts/questions/cbse/g11_entrepreneurship.py",
+  "curriculumSource": "data/curriculum/cbse-g11-entrepreneurship.json",
+  "generatedAt": "2026-11-18T10:17:16Z",
+  "chaptersDone": [
+    "cbse-g11-entrepreneurship-ch01",
+    "cbse-g11-entrepreneurship-ch02",
+    "cbse-g11-entrepreneurship-ch03",
+    "cbse-g11-entrepreneurship-ch04",
+    "cbse-g11-entrepreneurship-ch05",
+    "cbse-g11-entrepreneurship-ch06",
+    "cbse-g11-entrepreneurship-ch07"
+  ],
+  "mocksDone": true,
+  "target": 662,
+  "generated": 662,
+  "validated": true,
+  "accuracyChecks": [
+    {
+      "date": "2026-11-18",
+      "method": "8 random items per chapter (56 items) and one full mock (34 items) re-answered by hand; every computed item in the sample (EOQ, stock turnover, break-even point, unit cost and margin) re-solved independently; scheme facts checked against the Startup India, PMMY (MUDRA) and Stand-Up India scheme rules, and IPR terms against the Patents Act 1970, Copyright Act 1957 and Trade Marks Act 1999",
+      "checked": 90,
+      "mismatches": 0,
+      "fixes": [
+        "intrapreneur/entrepreneur/manager scenario pool had three answers and could not form an MCQ; \"Investor\" added",
+        "an Assertion-Reason item (manager is an employee / receives a salary) had a debatable (b) code; replaced by a clear one",
+        "case texts no longer use a pronoun bound to the first name for the second person, or {himself}, which ctx() does not fill",
+        "a 5-mark case no longer calls a firm named \"... Traders\" a large food company",
+        "tables shared with the class 12 syllabus and the Business Arithmetic generators are copied (not imported) from the validated class 12 entrepreneurship modules"
+      ]
+    }
+  ],
+  "counts": {
+    "mastery_bank": 280,
+    "practice": 280,
+    "mock": 102,
+    "total": 662
+  },
+  "mix": {
+    "C": {
+      "C1": 16.1,
+      "C2": 30.7,
+      "C3": 35.7,
+      "C4": 17.5
+    },
+    "D": {
+      "D1": 8.6,
+      "D2": 38.9,
+      "D3": 33.9,
+      "D4": 16.1,
+      "D5": 2.5
+    }
+  },
+  "validatedAt": "2026-11-18T10:17:16.529Z",
+  "validationErrors": [],
+  "validationErrorCount": 0,
+  "validationWarnings": []
+}
