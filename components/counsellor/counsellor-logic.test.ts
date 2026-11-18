@@ -43,7 +43,7 @@ describe('riskFlags', () => {
       learnerId: 'lrn_x', now,
       applications: [{ id: 'a1', title: 'UCL Economics', deadlineUtc: '2026-11-23T00:00:00Z', openItems: 2 }, { id: 'a2', title: 'Far', deadlineUtc: '2027-01-15T00:00:00Z', openItems: 3 }],
       wellbeing: { p149: { value: 2, asOfUtc: '2026-11-10T00:00:00Z' }, p109: { value: 'high', asOfUtc: '2026-11-10T00:00:00Z' } },
-      completeness: 0.3, lastAssessmentUtc: '2026-10-01T00:00:00Z', lrsBand: 'below_avg', gapCodes: ['G10'], missedTasks7d: 4,
+      completeness: 0.05, lastAssessmentUtc: '2026-10-01T00:00:00Z', lrsBand: 'below_avg', gapCodes: ['G10'], missedTasks7d: 4,
       pendingRequests: [{ id: 'r1', createdUtc: '2026-11-14T00:00:00Z', summary: 'Move Thursday maths' }],
     });
     const kinds = f.map((x) => x.kind);

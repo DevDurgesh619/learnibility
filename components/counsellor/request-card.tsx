@@ -47,7 +47,7 @@ export function RequestCard({ request, studentName, blocks, now, editable = true
             <p className="mt-2 text-sm text-ink">&ldquo;{request.reason}&rdquo;</p>
             {blocks.length > 0 && (
               <div className="mt-3">
-                <p className="text-xs font-medium uppercase tracking-wide text-subtle">Affects</p>
+                <p className="text-xs font-medium uppercase tracking-wide text-subtle">{request.status === 'pending' ? 'Affects' : 'Now planned'}</p>
                 <ul className="mt-1 space-y-1">{blocks.map((b) => <BlockLine key={b.id} b={b} />)}</ul>
               </div>
             )}
