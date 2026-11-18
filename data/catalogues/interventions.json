@@ -1,0 +1,964 @@
+{
+ "schemaVersion": 1,
+ "generatedBy": "scripts/engines/export-interventions.py",
+ "source": "CBSE Class 8 Maths Assessment v4, sheet Interventions",
+ "orderOfOperations": "Optimising time, effort and money – the order of operations: (1) diagnose with the paper + one probe (10 min); (2) fix prerequisites before anything else; (3) use free, high-evidence methods (worked examples, retrieval, interleaving, spacing) – they cover 9 of 10 gap types at ₹0; (4) spend money only on a written gap list, and re-test to see if it worked (#426 recommendation effectiveness). Rank 1 = do first; Effort = what it demands of the student; Money = Free / Low / Paid.",
+ "items": [
+  {
+   "id": "int-g1-1",
+   "gapCode": "G1",
+   "rank": 1,
+   "name": "Prerequisite mini-lesson (20 min) + 10 practice items",
+   "whatToDo": "Use the prerequisite listed for the subtopic. Teach only that earlier skill with 2 worked examples, give 10 items on it, then return to the failed subtopic.",
+   "exampleCbseG8Maths": "Use the Prerequisite Map line. Teach ONLY the prerequisite skill with 2 worked examples, then 10 items on it, then return to the failed subtopic.",
+   "timeCost": "20 min + 20 min practice, 1–2 sessions",
+   "minutesPerSession": 40,
+   "sessions": 2,
+   "spreadWeeks": 1,
+   "totalMinutes": 80,
+   "effort": "medium",
+   "money": "free",
+   "inrPerMonth": {
+    "min": 0,
+    "max": 0
+   },
+   "kind": "lesson",
+   "requiresDevice": false,
+   "alrIndices": [
+    "dK"
+   ],
+   "evidence": "Koedinger 2023: gaps are mostly prior knowledge, not rate; fixing the prerequisite restores the normal 2.5%/opportunity gain",
+   "feasibilityParams": [
+    "p20",
+    "p193",
+    "p279"
+   ]
+  },
+  {
+   "id": "int-g1-2",
+   "gapCode": "G1",
+   "rank": 2,
+   "name": "Free video + NCERT exemplar for the earlier-class chapter",
+   "whatToDo": "Free official video or open course for the earlier-grade chapter (NCERT/DIKSHA, Khan Academy, board-endorsed resources), then solve level-1 exemplar items; the teacher checks 5 of them.",
+   "exampleCbseG8Maths": "DIKSHA / NCERT official videos or Khan Academy India for the Class 6–7 chapter; solve exemplar Level 1 items; teacher checks 5 items.",
+   "timeCost": "2 × 30 min",
+   "minutesPerSession": 30,
+   "sessions": 2,
+   "spreadWeeks": 1,
+   "totalMinutes": 60,
+   "effort": "medium",
+   "money": "free",
+   "inrPerMonth": {
+    "min": 0,
+    "max": 0
+   },
+   "kind": "video",
+   "requiresDevice": true,
+   "alrIndices": [
+    "dK"
+   ],
+   "evidence": "Retrieval + worked examples; zero cost",
+   "feasibilityParams": [
+    "p4",
+    "p163",
+    "p193"
+   ]
+  },
+  {
+   "id": "int-g1-3",
+   "gapCode": "G1",
+   "rank": 3,
+   "name": "Peer tutor (a classmate at L4/L5) for 2 sessions",
+   "whatToDo": "Structured peer session with a classmate at L4/L5: the peer explains one worked example, the learner explains it back, then 5 items each from a teacher-provided list.",
+   "exampleCbseG8Maths": "Structured: tutor explains one worked example, learner explains it back, then 5 items each. Teacher provides the item list.",
+   "timeCost": "2 × 30 min",
+   "minutesPerSession": 30,
+   "sessions": 2,
+   "spreadWeeks": 1,
+   "totalMinutes": 60,
+   "effort": "low",
+   "money": "free",
+   "inrPerMonth": {
+    "min": 0,
+    "max": 0
+   },
+   "kind": "peer",
+   "requiresDevice": false,
+   "alrIndices": [
+    "dK",
+    "MCI"
+   ],
+   "evidence": "Peer explanation benefits both; cheaper than tuition",
+   "feasibilityParams": [
+    "p50",
+    "p166",
+    "p310"
+   ]
+  },
+  {
+   "id": "int-g2-1",
+   "gapCode": "G2",
+   "rank": 1,
+   "name": "Self-explanation on 3 worked examples",
+   "whatToDo": "Learner reads a fully worked example and writes WHY each step is done, then a counter-example where the rule fails. Mark the explanations, not the answers.",
+   "exampleCbseG8Maths": "Student reads a fully worked example and writes WHY each step is done, then a counter-example where the rule fails. Teacher marks the explanations, not answers.",
+   "timeCost": "3 × 15 min",
+   "minutesPerSession": 15,
+   "sessions": 3,
+   "spreadWeeks": 1,
+   "totalMinutes": 45,
+   "effort": "high",
+   "money": "free",
+   "inrPerMonth": {
+    "min": 0,
+    "max": 0
+   },
+   "kind": "practice",
+   "requiresDevice": false,
+   "alrIndices": [
+    "TQ",
+    "dK"
+   ],
+   "evidence": "Self-explanation effect (Chi); targets the 'why' the rote learner skipped",
+   "feasibilityParams": [
+    "p37",
+    "p80",
+    "p288"
+   ]
+  },
+  {
+   "id": "int-g2-2",
+   "gapCode": "G2",
+   "rank": 2,
+   "name": "Concrete → picture → symbol re-teach",
+   "whatToDo": "Re-teach with a concrete or visual model first (diagram, manipulative, simulation, timeline or flowchart as the subject suits), then the formal rule or symbol.",
+   "exampleCbseG8Maths": "Re-teach with a physical/visual model first (area model for identities, number line for rationals, grid for squares), then the symbolic rule.",
+   "timeCost": "1 × 25 min",
+   "minutesPerSession": 25,
+   "sessions": 1,
+   "spreadWeeks": 1,
+   "totalMinutes": 25,
+   "effort": "medium",
+   "money": "free",
+   "inrPerMonth": {
+    "min": 0,
+    "max": 0
+   },
+   "kind": "lesson",
+   "requiresDevice": false,
+   "alrIndices": [
+    "dK"
+   ],
+   "evidence": "CRA sequence; removes the abstraction jump",
+   "feasibilityParams": [
+    "p48",
+    "p64",
+    "p308"
+   ]
+  },
+  {
+   "id": "int-g2-3",
+   "gapCode": "G2",
+   "rank": 3,
+   "name": "Compare-and-contrast pair",
+   "whatToDo": "Give two items that look alike but need different ideas. The learner must say what differs BEFORE solving.",
+   "exampleCbseG8Maths": "Give two items that look alike but need different ideas (direct vs inverse proportion; SI vs CI). Student must say what differs BEFORE solving.",
+   "timeCost": "2 × 10 min",
+   "minutesPerSession": 10,
+   "sessions": 2,
+   "spreadWeeks": 1,
+   "totalMinutes": 20,
+   "effort": "medium",
+   "money": "free",
+   "inrPerMonth": {
+    "min": 0,
+    "max": 0
+   },
+   "kind": "practice",
+   "requiresDevice": false,
+   "alrIndices": [
+    "TQ"
+   ],
+   "evidence": "Contrasting cases build the discriminating concept",
+   "feasibilityParams": [
+    "p303",
+    "p314"
+   ]
+  },
+  {
+   "id": "int-g3-1",
+   "gapCode": "G3",
+   "rank": 1,
+   "name": "Faded worked examples (4 → 0 steps shown)",
+   "whatToDo": "Item 1 fully worked; item 2 last step blank; item 3 last two steps blank; item 4 unaided. Same method, new values each time.",
+   "exampleCbseG8Maths": "Item 1 fully worked; item 2 last step blank; item 3 last two steps blank; item 4 unaided. Same method, new numbers each time.",
+   "timeCost": "20 min, 2 sessions",
+   "minutesPerSession": 20,
+   "sessions": 2,
+   "spreadWeeks": 1,
+   "totalMinutes": 40,
+   "effort": "medium",
+   "money": "free",
+   "inrPerMonth": {
+    "min": 0,
+    "max": 0
+   },
+   "kind": "practice",
+   "requiresDevice": false,
+   "alrIndices": [
+    "dK",
+    "ECV"
+   ],
+   "evidence": "Fading reduces load while building the procedure (Renkl/Sweller)",
+   "feasibilityParams": [
+    "p41",
+    "p323"
+   ]
+  },
+  {
+   "id": "int-g3-2",
+   "gapCode": "G3",
+   "rank": 2,
+   "name": "Deliberate practice set: 12 items, 3 difficulty steps, immediate feedback",
+   "whatToDo": "12 items in 3 difficulty steps (4 at D1, 4 at D2, 4 at D3) from the wider bank, with feedback after each block; redo any block with an error.",
+   "exampleCbseG8Maths": "4 items at D1, 4 at D2, 4 at D3 from the wider bank; check after each block; re-do any wrong block.",
+   "timeCost": "30 min, 2–3 sessions",
+   "minutesPerSession": 30,
+   "sessions": 3,
+   "spreadWeeks": 1,
+   "totalMinutes": 90,
+   "effort": "high",
+   "money": "free",
+   "inrPerMonth": {
+    "min": 0,
+    "max": 0
+   },
+   "kind": "practice",
+   "requiresDevice": false,
+   "alrIndices": [
+    "dK",
+    "ECV"
+   ],
+   "evidence": "Practice with feedback is the 2.5%/opportunity engine",
+   "feasibilityParams": [
+    "p41",
+    "p44",
+    "p59"
+   ]
+  },
+  {
+   "id": "int-g3-3",
+   "gapCode": "G3",
+   "rank": 3,
+   "name": "Step-checklist card",
+   "whatToDo": "Learner writes the method as 3 to 5 numbered steps on a card and ticks them on every problem for a week.",
+   "exampleCbseG8Maths": "Student writes the method as 3–5 numbered steps on a card and ticks them on every problem for a week.",
+   "timeCost": "5 min/day",
+   "minutesPerSession": 5,
+   "sessions": 6,
+   "spreadWeeks": 1,
+   "totalMinutes": 30,
+   "effort": "low",
+   "money": "free",
+   "inrPerMonth": {
+    "min": 0,
+    "max": 0
+   },
+   "kind": "habit",
+   "requiresDevice": false,
+   "alrIndices": [
+    "ECV"
+   ],
+   "evidence": "Externalises the procedure until automated",
+   "feasibilityParams": [
+    "p38",
+    "p78"
+   ]
+  },
+  {
+   "id": "int-g4-1",
+   "gapCode": "G4",
+   "rank": 1,
+   "name": "Estimate-first rule",
+   "whatToDo": "Before answering, write an estimate or expected form of the answer (size, sign, units, key term). Compare at the end. Applies to every application item for two weeks.",
+   "exampleCbseG8Maths": "Before solving, write an estimate and the expected size/sign. Compare at the end. Applies to every C3 item for two weeks.",
+   "timeCost": "1 min/item",
+   "minutesPerSession": 5,
+   "sessions": 6,
+   "spreadWeeks": 2,
+   "totalMinutes": 30,
+   "effort": "low",
+   "money": "free",
+   "inrPerMonth": {
+    "min": 0,
+    "max": 0
+   },
+   "kind": "habit",
+   "requiresDevice": false,
+   "alrIndices": [
+    "MCI",
+    "CE"
+   ],
+   "evidence": "Cuts arithmetic slips; builds checking habit",
+   "feasibilityParams": [
+    "p319",
+    "p324"
+   ]
+  },
+  {
+   "id": "int-g4-2",
+   "gapCode": "G4",
+   "rank": 2,
+   "name": "Slow-down protocol on D1–D2 items",
+   "whatToDo": "Timed practice is paused; reach 95% accuracy on D1 to D2 items before timed work resumes.",
+   "exampleCbseG8Maths": "Timed practice is paused; accuracy target 95% on D1–D2 before any timed work resumes.",
+   "timeCost": "2 weeks",
+   "minutesPerSession": 15,
+   "sessions": 6,
+   "spreadWeeks": 2,
+   "totalMinutes": 90,
+   "effort": "low",
+   "money": "free",
+   "inrPerMonth": {
+    "min": 0,
+    "max": 0
+   },
+   "kind": "practice",
+   "requiresDevice": false,
+   "alrIndices": [
+    "CE"
+   ],
+   "evidence": "Accuracy before speed",
+   "feasibilityParams": [
+    "p75",
+    "p76",
+    "p105"
+   ]
+  },
+  {
+   "id": "int-g4-3",
+   "gapCode": "G4",
+   "rank": 3,
+   "name": "Sleep / study-block hygiene check",
+   "whatToDo": "If sleep is short or a phone is in the study block, fix that first via the parent form (M2). Support context only, never a score.",
+   "exampleCbseG8Maths": "If sleep < 8 h or phone in study block: fix that first (parent form M2). Support context only – never a score.",
+   "timeCost": "0",
+   "minutesPerSession": 0,
+   "sessions": 0,
+   "spreadWeeks": 0,
+   "totalMinutes": 0,
+   "effort": "low",
+   "money": "free",
+   "inrPerMonth": {
+    "min": 0,
+    "max": 0
+   },
+   "kind": "wellbeing",
+   "requiresDevice": false,
+   "alrIndices": [
+    "CE"
+   ],
+   "evidence": "Attention errors track sleep and distraction",
+   "feasibilityParams": [
+    "p83",
+    "p92",
+    "p105"
+   ]
+  },
+  {
+   "id": "int-g5-1",
+   "gapCode": "G5",
+   "rank": 1,
+   "name": "Interleaved mixed set (this + 2 earlier subtopics)",
+   "whatToDo": "12 items shuffled across this and 2 earlier subtopics so the learner must CHOOSE the method. Ask 'which method and why?' before solving.",
+   "exampleCbseG8Maths": "12 items shuffled across 3 subtopics so the student must CHOOSE the method. Ask 'which method and why?' before solving.",
+   "timeCost": "30 min, 2 sessions",
+   "minutesPerSession": 30,
+   "sessions": 2,
+   "spreadWeeks": 1,
+   "totalMinutes": 60,
+   "effort": "high",
+   "money": "free",
+   "inrPerMonth": {
+    "min": 0,
+    "max": 0
+   },
+   "kind": "practice",
+   "requiresDevice": false,
+   "alrIndices": [
+    "TQ"
+   ],
+   "evidence": "Interleaving improves method selection and transfer (Rohrer)",
+   "feasibilityParams": [
+    "p283",
+    "p303"
+   ]
+  },
+  {
+   "id": "int-g5-2",
+   "gapCode": "G5",
+   "rank": 2,
+   "name": "Context-swap items",
+   "whatToDo": "Same method in 3 unfamiliar settings (everyday, another subject, current affairs). Use the C3-D4 items of the wider bank.",
+   "exampleCbseG8Maths": "Same method in 3 unfamiliar settings (sports, shopping, science). Use the C3-D4 items of the wider bank.",
+   "timeCost": "20 min",
+   "minutesPerSession": 20,
+   "sessions": 1,
+   "spreadWeeks": 1,
+   "totalMinutes": 20,
+   "effort": "medium",
+   "money": "free",
+   "inrPerMonth": {
+    "min": 0,
+    "max": 0
+   },
+   "kind": "practice",
+   "requiresDevice": false,
+   "alrIndices": [
+    "TQ"
+   ],
+   "evidence": "Varied surface features → deep-structure schema (Perkins & Salomon)",
+   "feasibilityParams": [
+    "p291",
+    "p321"
+   ]
+  },
+  {
+   "id": "int-g5-3",
+   "gapCode": "G5",
+   "rank": 3,
+   "name": "Student writes ONE C4 item and its solution",
+   "whatToDo": "Learner writes ONE item that combines two ideas, with its solution. The teacher or tutor solves it with the class.",
+   "exampleCbseG8Maths": "Creating a two-idea problem forces the combination. Teacher solves it in class.",
+   "timeCost": "20 min",
+   "minutesPerSession": 20,
+   "sessions": 1,
+   "spreadWeeks": 1,
+   "totalMinutes": 20,
+   "effort": "high",
+   "money": "free",
+   "inrPerMonth": {
+    "min": 0,
+    "max": 0
+   },
+   "kind": "practice",
+   "requiresDevice": false,
+   "alrIndices": [
+    "TQ",
+    "MCI"
+   ],
+   "evidence": "Generation effect; highest transfer per minute",
+   "feasibilityParams": [
+    "p81",
+    "p292"
+   ]
+  },
+  {
+   "id": "int-g6-1",
+   "gapCode": "G6",
+   "rank": 1,
+   "name": "Spaced retrieval schedule: day 1, 3, 7, 21",
+   "whatToDo": "3 to 4 retrieval-probe items on each date, closed book, self-marked. Dates go into the planner (M15).",
+   "exampleCbseG8Maths": "3–4 retrieval-probe items each time, closed book, self-marked. Put the dates in the planner (M15).",
+   "timeCost": "4 × 8 min",
+   "minutesPerSession": 8,
+   "sessions": 4,
+   "spreadWeeks": 3,
+   "totalMinutes": 32,
+   "effort": "low",
+   "money": "free",
+   "inrPerMonth": {
+    "min": 0,
+    "max": 0
+   },
+   "kind": "retrieval",
+   "requiresDevice": false,
+   "alrIndices": [
+    "R"
+   ],
+   "evidence": "Spacing + testing effect; cheapest index to move",
+   "feasibilityParams": [
+    "p39",
+    "p40",
+    "p301",
+    "p413"
+   ]
+  },
+  {
+   "id": "int-g6-2",
+   "gapCode": "G6",
+   "rank": 2,
+   "name": "Error-log re-do",
+   "whatToDo": "Every wrong item goes into an error log with the correct reasoning and is re-attempted after 7 days without looking.",
+   "exampleCbseG8Maths": "Every wrong item copied into an error log with the correct reasoning; re-attempted after 7 days without looking.",
+   "timeCost": "10 min/week",
+   "minutesPerSession": 10,
+   "sessions": 1,
+   "spreadWeeks": 1,
+   "totalMinutes": 10,
+   "effort": "medium",
+   "money": "free",
+   "inrPerMonth": {
+    "min": 0,
+    "max": 0
+   },
+   "kind": "retrieval",
+   "requiresDevice": false,
+   "alrIndices": [
+    "R",
+    "ECV"
+   ],
+   "evidence": "Errorful retrieval strengthens the correct trace",
+   "feasibilityParams": [
+    "p43",
+    "p289"
+   ]
+  },
+  {
+   "id": "int-g6-3",
+   "gapCode": "G6",
+   "rank": 3,
+   "name": "Cumulative 10-minute weekly quiz",
+   "whatToDo": "5 items from earlier chapters every week; no marks recorded, just tallies.",
+   "exampleCbseG8Maths": "Teacher gives 5 items from earlier chapters every week; no marks recorded, just tallies.",
+   "timeCost": "10 min/week",
+   "minutesPerSession": 10,
+   "sessions": 1,
+   "spreadWeeks": 1,
+   "totalMinutes": 10,
+   "effort": "low",
+   "money": "free",
+   "inrPerMonth": {
+    "min": 0,
+    "max": 0
+   },
+   "kind": "retrieval",
+   "requiresDevice": false,
+   "alrIndices": [
+    "R"
+   ],
+   "evidence": "Keeps the whole year within the retention window",
+   "feasibilityParams": [
+    "p42",
+    "p282"
+   ]
+  },
+  {
+   "id": "int-g7-1",
+   "gapCode": "G7",
+   "rank": 1,
+   "name": "Restate-then-solve",
+   "whatToDo": "Learner rewrites each word or source-based question as a one-line 'given / find' in own words (home language allowed) before answering.",
+   "exampleCbseG8Maths": "Student rewrites each word problem as a one-line 'given / find' in own words (home language allowed) before any maths.",
+   "timeCost": "2 min/item",
+   "minutesPerSession": 10,
+   "sessions": 3,
+   "spreadWeeks": 1,
+   "totalMinutes": 30,
+   "effort": "medium",
+   "money": "free",
+   "inrPerMonth": {
+    "min": 0,
+    "max": 0
+   },
+   "kind": "habit",
+   "requiresDevice": false,
+   "alrIndices": [
+    "dK on C4"
+   ],
+   "evidence": "Separates reading load from maths load",
+   "feasibilityParams": [
+    "p4",
+    "p66",
+    "p157"
+   ]
+  },
+  {
+   "id": "int-g7-2",
+   "gapCode": "G7",
+   "rank": 2,
+   "name": "Bilingual maths glossary (30 terms per chapter)",
+   "whatToDo": "Bilingual glossary of about 30 key terms and phrases per chapter, each with an example. Built once, reused all year.",
+   "exampleCbseG8Maths": "'Increased by / to', 'per', 'exceeds', 'consecutive', 'ratio of A to B' … with an example each. Built once, reused all year.",
+   "timeCost": "30 min once",
+   "minutesPerSession": 30,
+   "sessions": 1,
+   "spreadWeeks": 1,
+   "totalMinutes": 30,
+   "effort": "low",
+   "money": "free",
+   "inrPerMonth": {
+    "min": 0,
+    "max": 0
+   },
+   "kind": "practice",
+   "requiresDevice": false,
+   "alrIndices": [
+    "dK"
+   ],
+   "evidence": "Most Class 8 word-problem errors are 10–15 recurring phrases",
+   "feasibilityParams": [
+    "p67",
+    "p157"
+   ]
+  },
+  {
+   "id": "int-g7-3",
+   "gapCode": "G7",
+   "rank": 3,
+   "name": "Paired reading of 5 word problems per week",
+   "whatToDo": "Learner reads 5 questions aloud to a partner who paraphrases them; then swap.",
+   "exampleCbseG8Maths": "Reads aloud to a partner who paraphrases; swap.",
+   "timeCost": "15 min/week",
+   "minutesPerSession": 15,
+   "sessions": 1,
+   "spreadWeeks": 1,
+   "totalMinutes": 15,
+   "effort": "low",
+   "money": "free",
+   "inrPerMonth": {
+    "min": 0,
+    "max": 0
+   },
+   "kind": "peer",
+   "requiresDevice": false,
+   "alrIndices": [
+    "dK"
+   ],
+   "evidence": "Fluency in the language of maths",
+   "feasibilityParams": [
+    "p50",
+    "p66"
+   ]
+  },
+  {
+   "id": "int-g8-1",
+   "gapCode": "G8",
+   "rank": 1,
+   "name": "Untimed re-test, then timed drills only after 90% accuracy",
+   "whatToDo": "Prove competence untimed; then build speed with 5-item timed sets, adding one item per week.",
+   "exampleCbseG8Maths": "Prove competence untimed; then build speed with 5-item timed sets, adding one item per week.",
+   "timeCost": "3 weeks",
+   "minutesPerSession": 20,
+   "sessions": 6,
+   "spreadWeeks": 3,
+   "totalMinutes": 120,
+   "effort": "medium",
+   "money": "free",
+   "inrPerMonth": {
+    "min": 0,
+    "max": 0
+   },
+   "kind": "practice",
+   "requiresDevice": false,
+   "alrIndices": [
+    "CE"
+   ],
+   "evidence": "Speed should follow accuracy; removes anxiety confound",
+   "feasibilityParams": [
+    "p69",
+    "p111",
+    "p286"
+   ]
+  },
+  {
+   "id": "int-g8-2",
+   "gapCode": "G8",
+   "rank": 2,
+   "name": "Time-budgeting card",
+   "whatToDo": "Marks-per-minute guide on the paper and a 'skip and return' rule, practised on 3 mock papers.",
+   "exampleCbseG8Maths": "Marks-per-minute guide on the paper; 'skip and return' rule practised on 3 mocks.",
+   "timeCost": "3 × 40 min",
+   "minutesPerSession": 40,
+   "sessions": 3,
+   "spreadWeeks": 2,
+   "totalMinutes": 120,
+   "effort": "low",
+   "money": "free",
+   "inrPerMonth": {
+    "min": 0,
+    "max": 0
+   },
+   "kind": "mock",
+   "requiresDevice": false,
+   "alrIndices": [
+    "CE"
+   ],
+   "evidence": "Test-taking strategy, not content",
+   "feasibilityParams": [
+    "p42",
+    "p306"
+   ]
+  },
+  {
+   "id": "int-g8-3",
+   "gapCode": "G8",
+   "rank": 3,
+   "name": "Brief anxiety protocol (if #111 high)",
+   "whatToDo": "Two-minute breathing routine before tests; counsellor check-in if screened anxiety is elevated (T3, support only).",
+   "exampleCbseG8Maths": "Two-minute breathing before tests; counsellor check-in if screened anxiety is elevated (T3 – support only).",
+   "timeCost": "5 min",
+   "minutesPerSession": 5,
+   "sessions": 1,
+   "spreadWeeks": 1,
+   "totalMinutes": 5,
+   "effort": "low",
+   "money": "free",
+   "inrPerMonth": {
+    "min": 0,
+    "max": 0
+   },
+   "kind": "wellbeing",
+   "requiresDevice": false,
+   "alrIndices": [
+    "CE"
+   ],
+   "evidence": "Anxiety, not ability, drives the untimed–timed gap",
+   "feasibilityParams": [
+    "p109",
+    "p111",
+    "p151"
+   ]
+  },
+  {
+   "id": "int-g9-1",
+   "gapCode": "G9",
+   "rank": 1,
+   "name": "Predict-then-check on every quiz",
+   "whatToDo": "Learner writes the expected score before marking; show the predicted-versus-actual trend weekly.",
+   "exampleCbseG8Maths": "Student writes expected score before marking; teacher shows the gap trend weekly.",
+   "timeCost": "2 min/quiz",
+   "minutesPerSession": 2,
+   "sessions": 3,
+   "spreadWeeks": 1,
+   "totalMinutes": 6,
+   "effort": "low",
+   "money": "free",
+   "inrPerMonth": {
+    "min": 0,
+    "max": 0
+   },
+   "kind": "habit",
+   "requiresDevice": false,
+   "alrIndices": [
+    "MCI"
+   ],
+   "evidence": "Calibration improves with feedback on predictions (Dunlosky)",
+   "feasibilityParams": [
+    "p79",
+    "p141",
+    "p325"
+   ]
+  },
+  {
+   "id": "int-g9-2",
+   "gapCode": "G9",
+   "rank": 2,
+   "name": "Confidence tagging (already on Student Paper)",
+   "whatToDo": "Use the 1 to 5 confidence rating on every item; review only the 'confident and wrong' items together.",
+   "exampleCbseG8Maths": "Use the 1–5 column; review only the 'confident and wrong' items together – these are the real misconceptions.",
+   "timeCost": "10 min/test",
+   "minutesPerSession": 10,
+   "sessions": 1,
+   "spreadWeeks": 1,
+   "totalMinutes": 10,
+   "effort": "low",
+   "money": "free",
+   "inrPerMonth": {
+    "min": 0,
+    "max": 0
+   },
+   "kind": "review",
+   "requiresDevice": false,
+   "alrIndices": [
+    "MCI"
+   ],
+   "evidence": "Targets high-confidence errors first",
+   "feasibilityParams": [
+    "p325"
+   ]
+  },
+  {
+   "id": "int-g9-3",
+   "gapCode": "G9",
+   "rank": 3,
+   "name": "Show evidence of success (under-confident students)",
+   "whatToDo": "Keep a 'solved without help' list and look at it before tests.",
+   "exampleCbseG8Maths": "Keep a 'solved without help' list; refer to it before tests.",
+   "timeCost": "5 min/week",
+   "minutesPerSession": 5,
+   "sessions": 1,
+   "spreadWeeks": 1,
+   "totalMinutes": 5,
+   "effort": "low",
+   "money": "free",
+   "inrPerMonth": {
+    "min": 0,
+    "max": 0
+   },
+   "kind": "habit",
+   "requiresDevice": false,
+   "alrIndices": [
+    "MCI"
+   ],
+   "evidence": "Self-efficacy from mastery experiences (Bandura)",
+   "feasibilityParams": [
+    "p124",
+    "p143"
+   ]
+  },
+  {
+   "id": "int-g10-1",
+   "gapCode": "G10",
+   "rank": 1,
+   "name": "Shorten and schedule: 20-minute blocks, 5 days, one subtopic",
+   "whatToDo": "Fixed time, fixed place, one goal: 20-minute blocks on 5 days, one subtopic. A planner event each day (M15); the parent only asks 'did you do the 20 minutes?'",
+   "exampleCbseG8Maths": "Fixed time, fixed place, one goal; planner event each day (M15). Parent only asks 'did you do the 20 minutes?'",
+   "timeCost": "20 min/day",
+   "minutesPerSession": 20,
+   "sessions": 5,
+   "spreadWeeks": 1,
+   "totalMinutes": 100,
+   "effort": "low",
+   "money": "free",
+   "inrPerMonth": {
+    "min": 0,
+    "max": 0
+   },
+   "kind": "habit",
+   "requiresDevice": false,
+   "alrIndices": [
+    "all"
+   ],
+   "evidence": "Implementation intentions beat motivation",
+   "feasibilityParams": [
+    "p55",
+    "p60",
+    "p162",
+    "p163"
+   ]
+  },
+  {
+   "id": "int-g10-2",
+   "gapCode": "G10",
+   "rank": 2,
+   "name": "Choice + quick win",
+   "whatToDo": "Learner picks which of 2 subtopics to start; the first task is at D1 so success comes within 5 minutes.",
+   "exampleCbseG8Maths": "Student picks which of 2 subtopics to start; first task is at D1 so success comes in 5 minutes.",
+   "timeCost": "0",
+   "minutesPerSession": 5,
+   "sessions": 1,
+   "spreadWeeks": 1,
+   "totalMinutes": 5,
+   "effort": "low",
+   "money": "free",
+   "inrPerMonth": {
+    "min": 0,
+    "max": 0
+   },
+   "kind": "habit",
+   "requiresDevice": false,
+   "alrIndices": [
+    "all"
+   ],
+   "evidence": "Autonomy and early success restart engagement",
+   "feasibilityParams": [
+    "p123",
+    "p130",
+    "p298"
+   ]
+  },
+  {
+   "id": "int-g10-3",
+   "gapCode": "G10",
+   "rank": 3,
+   "name": "Trusted-adult check-in / counsellor referral if burnout signals",
+   "whatToDo": "If burnout or social difficulty is flagged, route to the counsellor (M3) before any academic push.",
+   "exampleCbseG8Maths": "If #114 burnout or #170 social difficulty is flagged, route to counsellor (M3) before any academic push.",
+   "timeCost": "1 conversation",
+   "minutesPerSession": 30,
+   "sessions": 1,
+   "spreadWeeks": 1,
+   "totalMinutes": 30,
+   "effort": "low",
+   "money": "free",
+   "inrPerMonth": {
+    "min": 0,
+    "max": 0
+   },
+   "kind": "wellbeing",
+   "requiresDevice": false,
+   "alrIndices": [],
+   "evidence": "Wellbeing gates learning; T3 data never used for scoring",
+   "feasibilityParams": [
+    "p114",
+    "p151",
+    "p170",
+    "p187"
+   ]
+  },
+  {
+   "id": "int-any-1",
+   "gapCode": "ANY",
+   "rank": 1,
+   "name": "Paid tuition – only when gaps span 2+ chapters and the free plan has failed for 3 weeks",
+   "whatToDo": "Buy targeted sessions (2 a week for 4 weeks) with a written list of the diagnosed gaps; re-test with the same paper after 4 weeks.",
+   "exampleCbseG8Maths": "Buy targeted sessions (2/week, 4 weeks) with a written list of the diagnosed gaps; re-test with this paper after 4 weeks.",
+   "timeCost": "2 × 60 min/week",
+   "minutesPerSession": 60,
+   "sessions": 8,
+   "spreadWeeks": 4,
+   "totalMinutes": 480,
+   "effort": "medium",
+   "money": "paid",
+   "inrPerMonth": {
+    "min": 2000,
+    "max": 6000
+   },
+   "kind": "tuition",
+   "requiresDevice": false,
+   "alrIndices": [
+    "dK",
+    "ECV"
+   ],
+   "evidence": "Money spent AFTER diagnosis is 3–5× more effective than blanket coaching",
+   "feasibilityParams": [
+    "p21",
+    "p51",
+    "p178",
+    "p188"
+   ]
+  },
+  {
+   "id": "int-any-2",
+   "gapCode": "ANY",
+   "rank": 2,
+   "name": "Adaptive practice app (low-cost)",
+   "whatToDo": "Only if device and internet are adequate; use it for practice sets and spaced retrieval, not for teaching.",
+   "exampleCbseG8Maths": "Only if #193 device/internet is adequate; use for the practice sets and spaced retrieval, not for teaching.",
+   "timeCost": "20 min/day",
+   "minutesPerSession": 20,
+   "sessions": 5,
+   "spreadWeeks": 1,
+   "totalMinutes": 100,
+   "effort": "low",
+   "money": "low",
+   "inrPerMonth": {
+    "min": 0,
+    "max": 500
+   },
+   "kind": "app",
+   "requiresDevice": true,
+   "alrIndices": [
+    "dK",
+    "R"
+   ],
+   "evidence": "Automates spacing and feedback",
+   "feasibilityParams": [
+    "p53",
+    "p54",
+    "p193"
+   ]
+  }
+ ]
+}
