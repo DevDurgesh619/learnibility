@@ -42,7 +42,7 @@ export default async function ParentPayments({ searchParams }: { searchParams: S
         <StatTile label="Paid this year" value={formatInr(ytd)} icon={<CheckCircle2 />} />
       </section>
 
-      <div className="mb-6 grid gap-6 lg:grid-cols-2">
+      <div className="mb-6 grid grid-cols-1 gap-6 lg:grid-cols-2">
         <Card>
           <CardHeader title="Upcoming sessions" />
           <CardBody className="pt-3">

@@ -84,10 +84,12 @@ npm run build      # production build
 End-to-end specs use the pre-installed Playwright, against a running app (`npm run dev` or `npm run build && npm start`):
 
 ```bash
-BASE_URL=http://localhost:3000 node scripts/smoke/w2-s1.spec.ts       # one per area: w2-s1, w2-s2, w2-a, w2-c, w2-p, w2-te, w3-crm
+BASE_URL=http://localhost:3000 node scripts/smoke/w2-s1.spec.ts       # one per area: w2-s1, w2-s2, w2-a, w2-c, w2-p, w2-t, w2-te, w3-crm
 BASE_URL=http://localhost:3000 npx tsx scripts/e2e/demo.spec.ts       # walks every /demo scenario at 1440 and 390 px
 BASE_URL=http://localhost:3000 npx tsx scripts/e2e/journey.spec.ts    # lead → student → tutor → parent → counsellor → sales
 BASE_URL=http://localhost:3000 npx tsx scripts/e2e/consistency.spec.ts  # same numbers on every role's screens
+BASE_URL=http://localhost:3000 npx tsx scripts/e2e/privacy.spec.ts      # no wellbeing (T3) data on parent, teacher, tutor, mentor or sales screens
+BASE_URL=http://localhost:3000 npx tsx scripts/e2e/routes.spec.ts       # every sidebar link for every persona at 1440 and 390 px
 ```
 
 The QA results are in [`docs/qa-report.md`](docs/qa-report.md).

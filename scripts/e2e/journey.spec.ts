@@ -118,9 +118,8 @@ async function main() {
     await page.goto(`${BASE}/student/tutors`, { waitUntil: 'networkidle' });
     const hrefs: string[] = await page.$$eval('main a[href^="/student/tutors/tut_"]', (as: HTMLAnchorElement[]) => as.map((a) => a.getAttribute('href') ?? ''));
     expect(hrefs.length, 'no recommended tutor for Zoya (are her onboarding gaps open?)');
-    // Book a recommended tutor who can log in (a tutor persona); else Rahul Verma, the demo's lead tutor persona.
-    const tutorPersonas = (await personas()).filter((p) => p.role === 'tutor').map((p) => p.id);
-    c.facts.tutorId = hrefs.map((h) => h.split('/')[3]).find((id) => tutorPersonas.includes(id)) ?? 'tut_rahul_verma';
+    // Book the top recommended tutor; every catalogue tutor can sign in (W1 tutor-login fallback).
+    c.facts.tutorId = hrefs[0].split('/')[3];
     await page.goto(`${BASE}/student/tutors/${c.facts.tutorId}/book`, { waitUntil: 'networkidle' });
     c.facts.tutorName = (await page.locator('main h1, main h2').first().innerText()).trim();
     c.facts.sharedGaps = /G\d (Prerequisite|Conceptual|Procedural|Careless|Language|Retention|Time|Over|Engagement)/.test(await text(page)) ? 1 : 0;

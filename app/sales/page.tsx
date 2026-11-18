@@ -94,7 +94,7 @@ export default async function SalesDashboard() {
         </Card>
       </div>
 
-      <div className="mb-6 grid gap-6 lg:grid-cols-2">
+      <div className="mb-6 grid grid-cols-1 gap-6 lg:grid-cols-2">
         <Card className="min-w-0">
           <CardHeader title="Leads by source" description="All leads and how many became paying families." />
           <CardBody>

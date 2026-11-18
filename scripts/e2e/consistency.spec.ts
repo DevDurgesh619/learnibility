@@ -14,7 +14,8 @@ interface Facts {
   id: string; name: string; firstName: string; bandLabel: string; lrs: string | null; openGaps: number; hoursToClose: string;
   gaps: { name: string; code: string; hours: string }[]; timetableTitles: string[];
   spend: { paid: string; due: string; invoices: number };
-  viewers: { parents: string[]; teachers: string[]; teacherSections: { teacherId: string; sectionId: string }[]; tutors: string[]; counsellors: string[] };
+  bySubject: Record<string, { openGaps: number; hoursToClose: string; lrs: string | null; gaps: string[] }>;
+  viewers: { parents: string[]; teachers: string[]; teacherSections: { teacherId: string; sectionId: string; subjectId: string }[]; tutors: string[]; counsellors: string[] };
 }
 
 const esc = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -99,13 +100,15 @@ async function main() {
       }
     }
 
-    // Teacher: student detail (T1 only).
-    for (const { teacherId: tch, sectionId } of f.viewers.teacherSections.slice(0, 1)) {
+    // Teacher: student detail (T1 only), scoped to the section's subject.
+    for (const { teacherId: tch, sectionId, subjectId } of f.viewers.teacherSections.slice(0, 1)) {
+      const sub = f.bySubject[subjectId] ?? { openGaps: 0, hoursToClose: '0 h', lrs: null, gaps: [] };
       const t = await read(tch, `/teacher/students?section=${sectionId}&id=${f.id}`);
-      has(`${who} teacher`, t, `open gaps ${f.openGaps}`, gapCount);
-      has(`${who} teacher`, t, `${f.hoursToClose} to close`, new RegExp(`${esc(f.hoursToClose)} to close`));
-      if (f.lrs) has(`${who} teacher`, t, `LRS ${f.lrs}`, new RegExp(`\\(LRS\\) ${esc(f.lrs)}`));
-      for (const g of f.gaps) has(`${who} teacher`, t, `gap "${g.name}"`, new RegExp(esc(squash(g.name))));
+      has(`${who} teacher (${subjectId})`, t, `open gaps ${sub.openGaps}`, new RegExp(`Open gaps ${sub.openGaps}\\b`));
+      if (sub.openGaps) has(`${who} teacher (${subjectId})`, t, `${sub.hoursToClose} to close`, new RegExp(`${esc(sub.hoursToClose)} to close`));
+      if (sub.lrs) has(`${who} teacher (${subjectId})`, t, `LRS ${sub.lrs}`, new RegExp(`\\(LRS\\) ${esc(sub.lrs)}`));
+      has(`${who} teacher (${subjectId})`, t, `band ${f.bandLabel}`, new RegExp(esc(f.bandLabel)));
+      for (const g of sub.gaps) has(`${who} teacher (${subjectId})`, t, `gap "${g}"`, new RegExp(esc(squash(g))));
     }
 
     // Tutor: the student workspace shows the same gaps (the tutor may show only their subject; need at least one).

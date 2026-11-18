@@ -33,7 +33,7 @@ export default async function Overview({ params }: { params: Promise<{ learnerId
   const planPct = totalGaps && totalGaps > open.length ? Math.round(((totalGaps - open.length) / totalGaps) * 100) : cards.length ? Math.round((cards.filter((c) => c.state === 'strong' || c.state === 'medium').length / cards.length) * 100) : 0;
 
   return (
-    <div className="grid gap-6 lg:grid-cols-[1.3fr_1fr]">
+    <div className="grid grid-cols-1 gap-6 lg:grid-cols-[1.3fr_1fr]">
       <div className="space-y-6">
         <Card>
           <CardHeader title={`Why ${row.name.split(' ')[0]} is here`} />

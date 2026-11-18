@@ -21,7 +21,7 @@ export default async function SettingsPage() {
           ))}</TBody>
         </Table>
       </Card>
-      <div className="mb-6 grid gap-6 lg:grid-cols-2">
+      <div className="mb-6 grid grid-cols-1 gap-6 lg:grid-cols-2">
         <Card>
           <CardHeader title="Follow-up rules" description="Shown and simulated; nothing is really sent." />
           <CardBody className="pt-3"><ul className="divide-y divide-line">{listRules().map((r) => (

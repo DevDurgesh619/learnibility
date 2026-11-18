@@ -70,7 +70,7 @@ export default async function ParentProgress({ searchParams }: { searchParams: S
         <StatTile label="Subtopics mastered" value={mastery.filter((m) => m.level >= 5).length} icon={<BookOpen />} hint={`of ${mastery.length} tested`} />
       </section>
 
-      <div className="mb-6 grid gap-6 lg:grid-cols-2">
+      <div className="mb-6 grid grid-cols-1 gap-6 lg:grid-cols-2">
         <Card>
           <CardHeader title="How they learn, now vs 4 weeks ago" description={`Six learning indices from ${s.firstName}'s tests. Compared only with ${s.firstName}'s own past.`} />
           <CardBody>

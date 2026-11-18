@@ -30,6 +30,19 @@ export function GET(req: Request) {
     hoursToClose: formatHours(hours),
     gaps: gaps.map((g) => ({ id: g.id, code: g.code, name: getSubtopic(g.subtopicId)?.name ?? g.subtopicId, hours: formatHours(g.hoursToClose) })),
     // Study blocks only (no buffers), with the "Review 2/5: " prefix screens show as a badge.
+    // Teachers see one subject per section: the same numbers, scoped to that subject.
+    bySubject: Object.fromEntries(
+      [...new Set(gaps.map((g) => g.subjectId).concat(alr.chapters.map((c) => c.subjectId)))].map((subjectId) => {
+        const sg = gaps.filter((g) => g.subjectId === subjectId);
+        const ch = alr.chapters.filter((c) => c.subjectId === subjectId);
+        return [subjectId, {
+          openGaps: sg.length,
+          hoursToClose: formatHours(Math.round(sg.reduce((a, g) => a + g.hoursToClose, 0) * 10) / 10),
+          lrs: ch.length ? (ch.reduce((a, c) => a + c.LRS, 0) / ch.length).toFixed(2) : null,
+          gaps: sg.map((g) => getSubtopic(g.subtopicId)?.name ?? g.subtopicId),
+        }];
+      }),
+    ),
     timetableTitles: [...new Set((week?.blocks ?? []).filter((b) => b.kind !== 'buffer').map((b) => b.title.replace(/^Review \d+\/\d+: /, '')))],
     nextSessions: sessions.slice(0, 3).map((s) => ({ id: s.id, title: s.title, hostId: s.hostId })),
     spend: {
@@ -43,7 +56,7 @@ export function GET(req: Request) {
       tutors: people.filter((p) => p.role === 'tutor' && p.linkedLearnerIds?.includes(id)).map((p) => p.id),
       teacherSections: people
         .filter((p) => p.role === 'teacher')
-        .flatMap((p) => getSections(p.id).filter((sec) => sec.learnerIds.includes(id)).map((sec) => ({ teacherId: p.id, sectionId: sec.id }))),
+        .flatMap((p) => getSections(p.id).filter((sec) => sec.learnerIds.includes(id)).map((sec) => ({ teacherId: p.id, sectionId: sec.id, subjectId: sec.subjectId }))),
       counsellors: people.filter((p) => p.role === 'counsellor' && p.linkedLearnerIds?.includes(id)).map((p) => p.id),
     },
   });

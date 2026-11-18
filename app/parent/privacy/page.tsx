@@ -72,7 +72,7 @@ export default async function ParentPrivacy({ searchParams }: { searchParams: Se
         ))}
       </section>
 
-      <div className="mb-6 grid gap-6 lg:grid-cols-2">
+      <div className="mb-6 grid grid-cols-1 gap-6 lg:grid-cols-2">
         <Card>
           <CardHeader title="What is collected (standard tier)" description="Parameters with a value, by profile section" />
           <CardBody className="pt-3">

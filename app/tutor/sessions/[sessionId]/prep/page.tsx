@@ -45,7 +45,7 @@ export default async function PrepPage({ params, searchParams }: { params: Promi
         <div><p className="text-sm text-muted">Focus for today</p><p className="text-lg font-medium text-ink">{focus.line}</p><p className="text-xs text-subtle">{focus.source}</p></div>
       </CardBody></Card>
 
-      <div className="grid gap-4 md:grid-cols-2">
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
         <Card><CardBody>
           <SectionTitle>Last session{prev ? ` · ${prev.code ?? ''} ${formatDay(prev.startUtc)}` : ''}</SectionTitle>
           {prev?.report ? (
