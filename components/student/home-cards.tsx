@@ -109,13 +109,14 @@ function Sparkline({ values, up }: { values: (number | null)[]; up: boolean }) {
   const w = 96, h = 28, n = values.length - 1;
   const lo = Math.min(...pts.map((p) => p[1])), hi = Math.max(...pts.map((p) => p[1]));
   const y = (v: number) => (hi === lo ? h / 2 : h - 3 - ((v - lo) / (hi - lo)) * (h - 6));
-  const d = pts.map(([i, v], k) => `${k ? 'L' : 'M'}${((i / n) * w).toFixed(1)},${y(v).toFixed(1)}`).join(' ');
+  const x = (i: number) => 3 + (i / n) * (w - 6); // inset so the end dot stays inside the box
+  const d = pts.map(([i, v], k) => `${k ? 'L' : 'M'}${x(i).toFixed(1)},${y(v).toFixed(1)}`).join(' ');
   const [li, lv] = pts[pts.length - 1]!;
   const color = up ? 'var(--color-success-600)' : 'var(--color-brand-500)';
   return (
-    <svg viewBox={`0 0 ${w} ${h}`} className="h-7 w-24 overflow-visible" aria-hidden>
+    <svg viewBox={`0 0 ${w} ${h}`} className="h-7 w-20 shrink-0 overflow-visible sm:w-24" aria-hidden>
       <path d={d} fill="none" stroke={color} strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" />
-      <circle cx={(li / n) * w} cy={y(lv)} r="2.5" fill={color} />
+      <circle cx={x(li)} cy={y(lv)} r="2.5" fill={color} />
     </svg>
   );
 }
@@ -130,10 +131,10 @@ export function MetricCards({ metrics, sparks = {} }: { metrics: MetricSummary[]
           <p className="mt-1 text-xs text-subtle">{m.emptyReason}</p>
         </div>
       ) : (
-        <Link key={m.key} href={`/student?metric=${m.key}`} className="group">
+        <Link key={m.key} href={`/student?metric=${m.key}`} className="group min-w-0">
           <Card className="h-full p-4 transition-colors group-hover:border-brand-300">
             <p className="text-sm text-muted">{m.label}</p>
-            <div className="mt-1 flex items-end justify-between gap-2">
+            <div className="mt-1 flex flex-wrap items-end justify-between gap-x-2 gap-y-1">
             <div className="flex items-baseline gap-2">
               <span className="text-2xl font-semibold tracking-tight text-ink">{pct(m.value)}</span>
               {m.delta !== null && m.delta !== 0 && (
